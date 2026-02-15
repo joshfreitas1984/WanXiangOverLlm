@@ -8,6 +8,8 @@ public class TranslationLine
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Raw { get; set; } = string.Empty;
 
+    public string RawIndex { get; set; }
+
     [YamlIgnore]
     public string Translated { get; set; } = string.Empty;
 

@@ -7,6 +7,8 @@ public class TranslationSplit
 {
     public int Split { get; set; } = 0;
 
+    public string SplitPath { get; set; }
+
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Text { get; set; } = string.Empty;
 

@@ -8,6 +8,7 @@ public class InputFileHandling
 {
     public static void ExportTextAssetsToCustomFormat(string workingDirectory)
     {
+        string inputPath = $"{workingDirectory}/Raw/Dumped";
         string outputPath = $"{workingDirectory}/Raw/Export";
         string convertedPath = $"{workingDirectory}/Converted";
 
@@ -20,67 +21,65 @@ public class InputFileHandling
         var serializer = Yaml.CreateSerializer();
         var pattern = LineValidation.ChineseCharPattern;
 
-        var dir = new DirectoryInfo($"{workingDirectory}/Raw");
+        var dir = new DirectoryInfo(inputPath);
         FileInfo[] files = dir.GetFiles();
         foreach (FileInfo file in files)
         {
-            //var lines = File.ReadAllLines(file.FullName);
-
-            // Step 1: Read the entire file as a single string
-            string fileContent = File.ReadAllText(file.FullName);
-
-            // Step 2: Use a regex to find quoted fields and replace any \n or \r\n inside them with a space
-            // This regex matches quoted fields, including those with escaped quotes ("")
-            string patternQuotes = "\"((?:[^\"]|\"\")*)\"";
-            string cleanedContent = Regex.Replace(fileContent, patternQuotes, match =>
-            {
-                // Replace newlines inside quoted fields with a space
-                string quoted = match.Groups[1].Value.Replace("\r\n", " ").Replace("\n", " ");
-                // Restore double quotes if present
-                quoted = quoted.Replace("\"\"", "\"");
-                return $"\"{quoted}\"";
-            });
-
-            // Step 3: Split the cleaned content into lines
-            var lines = cleanedContent.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-            File.WriteAllLines($"{outputPath}/{file.Name}.stripped.csv", lines);
-
             var foundLines = new List<TranslationLine>();
-            var lineIncrement = 0;
 
-            foreach (var line in lines)
+            // 1. Open the file as json - it is an array of objects with Key property and string properties
+            // 2. Turn each entry into a TranslationLine
+            //      - Raw = JSON serialized object (for reference)
+            //      - RawIndex = the Key property of the object (to be used for merging back later)
+            // 3. For each object, find properties with Chinese text and add to the Splits list
+            //    - SplitPath = the name of the property that has chinese in it (to be used for merging back later)
+            //    - Text = the value of the property that has chinese in it
+            // 4. Add to foundLines and write to yaml
+
+            var jsonContent = File.ReadAllText(file.FullName);
+            using var jsonDoc = System.Text.Json.JsonDocument.Parse(jsonContent);
+            var entries = jsonDoc.RootElement;
+
+            if (entries.ValueKind != System.Text.Json.JsonValueKind.Array)
+                continue;
+
+            foreach (var entry in entries.EnumerateArray())
             {
-                lineIncrement++;
+                // Extract the Key property
+                if (!entry.TryGetProperty("Key", out var keyElement))
+                    continue;
 
-                // Clean quotes
-                var newLine = line.Replace("\"", string.Empty);
-
-                var splits = newLine.Split(",");
-                var foundSplits = new List<TranslationSplit>();
-
-                // Find Chinese
-                for (int i = 0; i < splits.Length; i++)
+                var key = keyElement.GetInt32();
+                var line = new TranslationLine
                 {
-                  
+                    Raw = entry.GetRawText(),
+                    RawIndex = key.ToString(),
+                    Splits = new List<TranslationSplit>()
+                };
 
-                    if (Regex.IsMatch(splits[i], pattern))
+                // Iterate through all properties to find Chinese text
+                foreach (var property in entry.EnumerateObject())
+                {
+                    // Skip the Key property itself
+                    if (property.Name == "Key")
+                        continue;
+
+                    if (property.Value.ValueKind == System.Text.Json.JsonValueKind.String)
                     {
-                        foundSplits.Add(new TranslationSplit()
+                        var text = property.Value.GetString();
+                        if (!string.IsNullOrEmpty(text) && Regex.IsMatch(text, pattern))
                         {
-                            Split = i,
-                            Text = splits[i],
-                        });
+                            line.Splits.Add(new TranslationSplit
+                            {
+                                SplitPath = property.Name,
+                                Text = text
+                            });
+                        }
                     }
                 }
 
-                //The translation line
-                foundLines.Add(new TranslationLine()
-                {
-                    //LineNum = lineNum,
-                    Raw = newLine,
-                    Splits = foundSplits,
-                });
+                if (line.Splits.Count > 0)
+                    foundLines.Add(line);
             }
 
             // Write the found lines
@@ -92,7 +91,7 @@ public class InputFileHandling
                 File.Copy($"{outputPath}/{file.Name}", $"{convertedPath}/{file.Name}");
         }
     }
-      
+
     public static async Task MergeFilesIntoTranslatedAsync(string workingDirectory)
     {
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>

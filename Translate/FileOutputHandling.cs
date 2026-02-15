@@ -22,58 +22,53 @@ public class FileOutputHandling
 
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
-            var failedLines = new List<string>();
-            var outputLines = new List<string>();
+            // Convert fileLines back into the original JSON array format
+            var jsonArray = new List<Dictionary<string, object>>();
 
             foreach (var line in fileLines)
             {
-                // Regular DB handling
-                var splits = line.Raw.Split(',');
-                var failed = false;
+                var jsonObject = new Dictionary<string, object>();
 
-                foreach (var split in line.Splits)
+                // Add the Key property from RawIndex
+                if (int.TryParse(line.RawIndex, out int key))
                 {
-                    if (!textFileToTranslate.PackageOutput
-                        || split.FlaggedForRetranslation
-                        || !split.SafeToTranslate) //Count Failure
-                    {
-                        failed = true;
-                        break;
-                    }
-
-                    //Check line to be extra safe
-                    if (Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
-                        failed = true;
-                    else if (!string.IsNullOrEmpty(split.Translated))
-                        splits[split.Split] = $"\"{split.Translated}\"";
-                    //If it was already blank its all good
-                    else if (!string.IsNullOrEmpty(split.Text))
-                        failed = true;
-                }
-
-                line.Translated = string.Join(',', splits);
-
-                if (!failed)
-                {
-                    outputLines.Add(line.Translated);
+                    jsonObject["Key"] = key;
                 }
                 else
                 {
-                    var rawSplits = line.Raw.Split(",");
-                    //if (rawSplits.Length < 2)
-                    //    outputLines.Add($"{rawSplits[0]},\"\"");
-                    //else
-                        outputLines.Add($"{rawSplits[0]},\"{rawSplits[1]}\"");
-                    
-                    failedLines.Add(line.Raw);
+                    // If RawIndex is not an int, use it as-is (fallback)
+                    jsonObject["Key"] = line.RawIndex;
                 }
+
+                // Add each split as a property
+                foreach (var split in line.Splits)
+                {
+                    if (split.FlaggedForRetranslation)
+                    {
+                        // Use original text and increment failed count
+                        jsonObject[split.SplitPath] = split.Text;
+                        failedCount++;
+                    }
+                    else
+                    {
+                        // Use translated text (or fallback to original if empty) and increment passed count
+                        jsonObject[split.SplitPath] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
+                        passedCount++;
+                    }
+                }
+
+                jsonArray.Add(jsonObject);
             }
 
+            // Serialize to JSON and write to output file
+            var jsonOptions = new System.Text.Json.JsonSerializerOptions 
+            { 
+                WriteIndented = true,
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            };
+            var jsonContent = System.Text.Json.JsonSerializer.Serialize(jsonArray, jsonOptions);
 
-            File.WriteAllLines($"{outputPath}/English/{textFileToTranslate.Path}", outputLines);
-
-            passedCount += outputLines.Count;
-            failedCount += failedLines.Count;
+            File.WriteAllText($"{outputPath}/English/{textFileToTranslate.Path}", jsonContent);
 
             await Task.CompletedTask;
         });

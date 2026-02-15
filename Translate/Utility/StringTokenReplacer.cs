@@ -71,6 +71,7 @@ public class StringTokenReplacer
         int sizeIndex = 0;
         placeholderMap.Clear();
         colorMap.Clear();
+        sizeMap.Clear();
         var result = new StringBuilder(input);
 
         // Handle {size=24} style tags
@@ -115,6 +116,7 @@ public class StringTokenReplacer
             var sizeTag = match.Value;
             var sizeValue = CalculateNewSize(sizeTag);
             var hasHash = sizeTag.Contains("#");
+
             var key = hasHash ? $"<size=#{sizeIndex++}>" : $"<size={sizeIndex++}>";
             var replacement = hasHash ? $"<size=#{sizeValue}>" : $"<size={sizeValue}>";
 

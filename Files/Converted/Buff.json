@@ -3,7 +3,7 @@
   splits:
   - splitPath: NameFinal
     text: "封穴"
-    translated: "Sealing the穴位 Points"
+    translated: "Seal acupoints"
   - splitPath: DescFinal
     text: "我方阻止1人行動，敵方隨機阻止1次行動"
     translated: "Our side halts 1 actions, while the enemy randomly halts 1 actions."
@@ -12,16 +12,16 @@
     translated: "<color=#00ff00>Seal Meridians</color> to prevent the opponent's movement"
   - splitPath: Name
     text: "封穴"
-    translated: "Sealing the穴位 Points"
+    translated: "Seal acupoints"
   - splitPath: Desc
     text: "我方阻止1人行动，敌方随机阻止1次行动"
     translated: "Our side prevents 1 actions, while the enemy randomly blocks 1 actions."
   - splitPath: AttackDesc
     text: "<color=#00ff00>封穴</color>阻止对方行动"
-    translated: "封穴 blocks the opponent's movement"
+    translated: "<color=#00ff00>Seal Acupoints</color> to prevent the opponent from moving"
   - splitPath: NameTw
     text: "封穴"
-    translated: "Sealing the穴位 Points"
+    translated: "Seal acupoints"
   - splitPath: DescTw
     text: "我方阻止1人行動，敵方隨機阻止1次行動"
     translated: "Our side halts 1 actions, while the enemy randomly halts 1 actions."
@@ -57,7 +57,7 @@
     translated: "Poisoned"
   - splitPath: DescFinal
     text: "每輪損失當前氣血5%"
-    translated: "Each round of loss reduces current气血by 5%"
+    translated: "Each round of loss reduces current lifeforce by 5%"
   - splitPath: AttackDescFinal
     text: "<color=#00ff00>毒</color>造成傷害"
     translated: "<color=Poison>causes harm</color>"
@@ -75,7 +75,7 @@
     translated: "Poisoned"
   - splitPath: DescTw
     text: "每輪損失當前氣血5%"
-    translated: "Each round of loss reduces current气血by 5%"
+    translated: "Each round of loss reduces current lifeforce by 5%"
   - splitPath: AttackDescTw
     text: "<color=#00ff00>毒</color>造成傷害"
     translated: "<color=Poison>causes harm</color>"
@@ -87,7 +87,7 @@
     translated: "Cut Pulse"
   - splitPath: DescFinal
     text: "消失時損失當前氣血20%，再次使用回合數增加"
-    translated: "Disappear when losing current Qi and Blood 20% each time, and the cooldown increases again."
+    translated: "Disappearing will cause a loss of current lifeforce by 20%; the number of turns until it can be used again increases."
   - splitPath: AttackDescFinal
     text: "<color=#00ff00>絕脈</color>造成傷害"
     translated: "<color=#00ff00>Absolute Pulse</color> causes damage"
@@ -105,7 +105,7 @@
     translated: "Cut Pulse"
   - splitPath: DescTw
     text: "消失時損失當前氣血20%，再次使用回合數增加"
-    translated: "Disappear when losing current Qi and Blood 20% each time, and the cooldown increases again."
+    translated: "Disappearing will cause a loss of current lifeforce by 20%; the number of turns until it can be used again increases."
   - splitPath: AttackDescTw
     text: "<color=#00ff00>絕脈</color>造成傷害"
     translated: "<color=#00ff00>Absolute Pulse</color> causes damage"
@@ -120,13 +120,13 @@
     translated: "Revival无效"
   - splitPath: AttackDescFinal
     text: "<color=#00ff00>禁療</color>狀態，無法回覆"
-    translated: "禁疗状态，无法恢复"
+    translated: "<color=#00ff00>Ban Condition</color>, unable to recover"
   - splitPath: Name
     text: "禁疗"
     translated: "No healing"
   - splitPath: Desc
     text: "回春无效"
-    translated: "Revitalization无效"
+    translated: "Revival is ineffective"
   - splitPath: AttackDesc
     text: "<color=#00ff00>禁疗</color>状态，无法回复"
     translated: "<color=#00ff00>No Healing</color> status; unable to recover health"
@@ -138,7 +138,7 @@
     translated: "Revival无效"
   - splitPath: AttackDescTw
     text: "<color=#00ff00>禁療</color>狀態，無法回覆"
-    translated: "禁疗状态，无法恢复"
+    translated: "<color=#00ff00>Ban Condition</color>, unable to recover"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"失神\",\r\n    \"DescFinal\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>失神</color>中，無法行動\",\r\n    \"Name\": \"失神\",\r\n    \"Desc\": \"无法行动，受到攻击时伤害翻倍、状态解除\",\r\n    \"AttackDesc\": \"<color=#00ff00>失神</color>中，无法行动\",\r\n    \"NameTw\": \"失神\",\r\n    \"DescTw\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescTw\": \"<color=#00ff00>失神</color>中，無法行動\"\r\n  }"
   rawIndex: 5
   splits:

@@ -15,8 +15,8 @@ public class FileOutputWorkflowTests
     {
         await FileOutputHandling.PackageFinalTranslationAsync(WorkingDirectory);
 
-        var sourceDirectory = $"{WorkingDirectory}/Mod/";
-        var modDirectory = $"{GameFolder}/Mods/";
+        var sourceDirectory = $"{WorkingDirectory}/Mod/English";
+        var modDirectory = $"{GameFolder}/BepinEx/english";
 
         if (Directory.Exists(modDirectory))
             Directory.Delete(modDirectory, true);
@@ -31,7 +31,8 @@ public class FileOutputWorkflowTests
 
         string releaseFolder = $"{GameFolder}/ReleaseFolder/Files";
 
-        File.Copy($"{WorkingDirectory}/Mod/English/StringTable.csv", $"{releaseFolder}/Mods/English/StringTable.csv", true);
+        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Mod/English", $"{releaseFolder}/EnglishPatch");
+        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Resizers", $"{releaseFolder}/BepInEx/resizers");
 
         ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
         await Task.CompletedTask;

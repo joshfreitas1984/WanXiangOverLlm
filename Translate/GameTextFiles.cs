@@ -24,7 +24,6 @@ public class GameTextFiles
         new() {Path = "Difficulty.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "Ending.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "Event.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
-        new() {Path = "EventDialog.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "EventDice.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "EventNormal.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "EventPuzzle.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
@@ -40,9 +39,12 @@ public class GameTextFiles
         new() {Path = "Property.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "PuzzleGroup.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "Relation.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
-        new() {Path = "Skill.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "Switch.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
         new() {Path = "Talent.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
-        new() {Path = "UIText.json", PackageOutput = true, IgnoreHtmlTagsInText = true }
+        new() {Path = "UIText.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
+
+        new() {Path = "Skill.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
+        new() {Path = "EventDialog.json", PackageOutput = true, IgnoreHtmlTagsInText = true },
+
     ];
 }

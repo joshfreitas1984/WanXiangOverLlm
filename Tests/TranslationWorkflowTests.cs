@@ -199,7 +199,14 @@ public class TranslationWorkflowTests
                 split.SafeToTranslate = false;
                 return true;
             }
-        }       
+        }
+
+        // Skip TW for now
+        if (split.SplitPath.EndsWith("TW"))
+        {
+            split.SafeToTranslate = false;
+            return true;
+        }
 
         // Add Manual Translations in that are missing
         if (textFile.EnableGlossary)

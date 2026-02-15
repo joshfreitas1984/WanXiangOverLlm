@@ -3,889 +3,1186 @@
   splits:
   - splitPath: DescFinal
     text: "給大黃狗起什麼樣的名字？"
+    translated: "What name would you give to a golden retriever?"
   - splitPath: Desc
     text: "给大黄狗起什么样的名字？"
+    translated: "What kind of name should I give to the dog named Huang Dog?"
   - splitPath: DescTw
     text: "給大黃狗起什麼樣的名字？"
+    translated: "What name would you give to a golden retriever?"
 - raw: "{\r\n    \"Key\": 100210,\r\n    \"DescFinal\": \"是否將金太歲藏身之處告知六扇門捕快？\",\r\n    \"Desc\": \"是否将金太岁藏身之处告知六扇门捕快？\",\r\n    \"DescTw\": \"是否將金太歲藏身之處告知六扇門捕快？\"\r\n  }"
   rawIndex: 100210
   splits:
   - splitPath: DescFinal
     text: "是否將金太歲藏身之處告知六扇門捕快？"
+    translated: "Have you informed the Six Gates Manor police about Golden Year's whereabouts?"
   - splitPath: Desc
     text: "是否将金太岁藏身之处告知六扇门捕快？"
+    translated: "Have you told the Six Gates Patrol officers about Golden Tyrant's hiding place?"
   - splitPath: DescTw
     text: "是否將金太歲藏身之處告知六扇門捕快？"
+    translated: "Have you informed the Six Gates Manor police about Golden Year's whereabouts?"
 - raw: "{\r\n    \"Key\": 101810,\r\n    \"DescFinal\": \"如何處置受傷的女人？\",\r\n    \"Desc\": \"如何处置受伤的女人？\",\r\n    \"DescTw\": \"如何處置受傷的女人？\"\r\n  }"
   rawIndex: 101810
   splits:
   - splitPath: DescFinal
     text: "如何處置受傷的女人？"
+    translated: "How should I handle an injured woman?"
   - splitPath: Desc
     text: "如何处置受伤的女人？"
+    translated: "How should one handle an injured woman?"
   - splitPath: DescTw
     text: "如何處置受傷的女人？"
+    translated: "How should I handle an injured woman?"
 - raw: "{\r\n    \"Key\": 102010,\r\n    \"DescFinal\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\"\r\n  }"
   rawIndex: 102010
   splits:
   - splitPath: DescFinal
     text: "他日若能選擇一個門派加入，你將如何選擇？"
+    translated: "If you were able to join a sect one day, which one would you choose?"
   - splitPath: Desc
     text: "他日若能选择一个门派加入，你将如何选择？"
+    translated: "If you could join a sect one day, which one would you choose?"
   - splitPath: DescTw
     text: "他日若能選擇一個門派加入，你將如何選擇？"
+    translated: "If you were able to join a sect one day, which one would you choose?"
 - raw: "{\r\n    \"Key\": 301300,\r\n    \"DescFinal\": \"如何處理這一尊白玉觀音？\",\r\n    \"Desc\": \"如何处理这一尊白玉观音？\",\r\n    \"DescTw\": \"如何處理這一尊白玉觀音？\"\r\n  }"
   rawIndex: 301300
   splits:
   - splitPath: DescFinal
     text: "如何處理這一尊白玉觀音？"
+    translated: "How should this white jade Guanyin be handled?"
   - splitPath: Desc
     text: "如何处理这一尊白玉观音？"
+    translated: "How should I handle this white jade Guanyin statue?"
   - splitPath: DescTw
     text: "如何處理這一尊白玉觀音？"
+    translated: "How should this white jade Guanyin be handled?"
 - raw: "{\r\n    \"Key\": 200710,\r\n    \"DescFinal\": \"你可曾想明門規“誠心”到底為何？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>\",\r\n    \"Desc\": \"你可曾想明门规“诚心”到底为何？\\\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）</color>\",\r\n    \"DescTw\": \"你可曾想明門規“誠心”到底為何？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>\"\r\n  }"
   rawIndex: 200710
   splits:
   - splitPath: DescFinal
     text: "你可曾想明門規“誠心”到底為何？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>"
+    translated: "Have you ever pondered what sincerity truly means within the Code of Virtue?\\n<color=#FF0000>Note: Choosing Disciple Has Come to Understand will automatically trigger Prince Ning's Visit next month, marking the game's final outcome. It is recommended to raise your medical skills and performance arts to mastery before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Smoke Waves Cottage.</color>"
   - splitPath: Desc
     text: "你可曾想明门规“诚心”到底为何？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）</color>"
+    translated: "Have you ever pondered the true meaning behind the sect's precept of sincerity?  <color=#FF0000>Note: Choosing Disciple Has Come to Understand will automatically trigger Prince Ning's visit next month, leading directly into the final outcome of the game. It is recommended to raise your medical skills and entertainment arts to mastery levels before making this choice, and to explore both Jingbei True Martial Monastery and Xiangbei Misty Bay.</color>"
   - splitPath: DescTw
     text: "你可曾想明門規“誠心”到底為何？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>"
+    translated: "Have you ever pondered what sincerity truly means within the Code of Virtue?\\n<color=#FF0000>Note: Choosing Disciple Has Come to Understand will automatically trigger Prince Ning's Visit next month, marking the game's final outcome. It is recommended to raise your medical skills and performance arts to mastery before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Smoke Waves Cottage.</color>"
 - raw: "{\r\n    \"Key\": 201710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 201710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself to face the retaliation from the Demon Sect?  <color=#FF0000>Note: After selecting The disciples are ready, the next month will automatically trigger the Heaven Demon Assault on the Mountain event, and the game will enter its final ending."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
 - raw: "{\r\n    \"Key\": 599910,\r\n    \"DescFinal\": \"今日在演武場中做些什麼？\",\r\n    \"Desc\": \"今日在演武场中做些什么？\",\r\n    \"DescTw\": \"今日在演武場中做些什麼？\"\r\n  }"
   rawIndex: 599910
   splits:
   - splitPath: DescFinal
     text: "今日在演武場中做些什麼？"
+    translated: "What did you do in the Training Ground today?"
   - splitPath: Desc
     text: "今日在演武场中做些什么？"
+    translated: "What are we doing in the Training Grounds today?"
   - splitPath: DescTw
     text: "今日在演武場中做些什麼？"
+    translated: "What did you do in the Training Ground today?"
 - raw: "{\r\n    \"Key\": 699910,\r\n    \"DescFinal\": \"今日在靜室中做些什麼？\",\r\n    \"Desc\": \"今日在静室中做些什么？\",\r\n    \"DescTw\": \"今日在靜室中做些什麼？\"\r\n  }"
   rawIndex: 699910
   splits:
   - splitPath: DescFinal
     text: "今日在靜室中做些什麼？"
+    translated: "What did you do in the quiet room today?"
   - splitPath: Desc
     text: "今日在静室中做些什么？"
+    translated: "What are you doing in the quiet room today?"
   - splitPath: DescTw
     text: "今日在靜室中做些什麼？"
+    translated: "What did you do in the quiet room today?"
 - raw: "{\r\n    \"Key\": 770900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 770900
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 771000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 771000
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 771100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 771100
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 771200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 771200
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 771300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 771300
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 910001,\r\n    \"DescFinal\": \"今年冬學想要學習哪一種技藝？\",\r\n    \"Desc\": \"今年冬学想要学习哪一种技艺？\",\r\n    \"DescTw\": \"今年冬學想要學習哪一種技藝？\"\r\n  }"
   rawIndex: 910001
   splits:
   - splitPath: DescFinal
     text: "今年冬學想要學習哪一種技藝？"
+    translated: "What kind of skill does Dongsxue want to learn this winter?"
   - splitPath: Desc
     text: "今年冬学想要学习哪一种技艺？"
+    translated: "This year, Dong Xue wants to learn which skill?"
   - splitPath: DescTw
     text: "今年冬學想要學習哪一種技藝？"
+    translated: "What kind of skill does Dongsxue want to learn this winter?"
 - raw: "{\r\n    \"Key\": 800810,\r\n    \"DescFinal\": \"是否讓袁鐵口為你算命？\",\r\n    \"Desc\": \"是否让袁铁口为你算命？\",\r\n    \"DescTw\": \"是否讓袁鐵口為你算命？\"\r\n  }"
   rawIndex: 800810
   splits:
   - splitPath: DescFinal
     text: "是否讓袁鐵口為你算命？"
+    translated: "Should I let Yuan Tiekou tell your fortune?"
   - splitPath: Desc
     text: "是否让袁铁口为你算命？"
+    translated: "Should I let Yuan Tiekuo tell your fortune?"
   - splitPath: DescTw
     text: "是否讓袁鐵口為你算命？"
+    translated: "Should I let Yuan Tiekou tell your fortune?"
 - raw: "{\r\n    \"Key\": 806400,\r\n    \"DescFinal\": \"是否登上擂臺挑戰項欺霜？\",\r\n    \"Desc\": \"是否登上擂台挑战项欺霜？\",\r\n    \"DescTw\": \"是否登上擂臺挑戰項欺霜？\"\r\n  }"
   rawIndex: 806400
   splits:
   - splitPath: DescFinal
     text: "是否登上擂臺挑戰項欺霜？"
+    translated: "Should he challenge Xiao Qishuang on the arena stage?"
   - splitPath: Desc
     text: "是否登上擂台挑战项欺霜？"
+    translated: "Do you want to challenge Xiang Qishuang on the arena stage?"
   - splitPath: DescTw
     text: "是否登上擂臺挑戰項欺霜？"
+    translated: "Should he challenge Xiao Qishuang on the arena stage?"
 - raw: "{\r\n    \"Key\": 807500,\r\n    \"DescFinal\": \"是否幫助婦人趕走無賴？\",\r\n    \"Desc\": \"是否帮助妇人赶走无赖？\",\r\n    \"DescTw\": \"是否幫助婦人趕走無賴？\"\r\n  }"
   rawIndex: 807500
   splits:
   - splitPath: DescFinal
     text: "是否幫助婦人趕走無賴？"
+    translated: "Did you help the woman drive away the scoundrel?"
   - splitPath: Desc
     text: "是否帮助妇人赶走无赖？"
+    translated: "Did you help the woman drive away the ruffian?"
   - splitPath: DescTw
     text: "是否幫助婦人趕走無賴？"
+    translated: "Did you help the woman drive away the scoundrel?"
 - raw: "{\r\n    \"Key\": 899200,\r\n    \"DescFinal\": \"湘南沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"湘南没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"湘南沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 899200
   splits:
   - splitPath: DescFinal
     text: "湘南沒有什麼特別事情發生，如何選擇？"
+    translated: "There were no special events in Xiangnan. How should I choose?"
   - splitPath: Desc
     text: "湘南没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Xiangnan. What would you like to choose?"
   - splitPath: DescTw
     text: "湘南沒有什麼特別事情發生，如何選擇？"
+    translated: "There were no special events in Xiangnan. How should I choose?"
 - raw: "{\r\n    \"Key\": 962100,\r\n    \"DescFinal\": \"是否下山歸家暫避，為衡山派留存香火？\",\r\n    \"Desc\": \"是否下山归家暂避，为衡山派留存香火？\",\r\n    \"DescTw\": \"是否下山歸家暫避，為衡山派留存香火？\"\r\n  }"
   rawIndex: 962100
   splits:
   - splitPath: DescFinal
     text: "是否下山歸家暫避，為衡山派留存香火？"
+    translated: "Should he go down the mountain and return home temporarily to preserve the flame of the Hengshan School?"
   - splitPath: Desc
     text: "是否下山归家暂避，为衡山派留存香火？"
+    translated: "Should we descend the mountain and return home temporarily to avoid danger, thereby preserving the lineage of the Hongshan Sect?"
   - splitPath: DescTw
     text: "是否下山歸家暫避，為衡山派留存香火？"
+    translated: "Should he go down the mountain and return home temporarily to preserve the flame of the Hengshan School?"
 - raw: "{\r\n    \"Key\": 1001210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\"\r\n  }"
   rawIndex: 1001210
   splits:
   - splitPath: DescFinal
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
   - splitPath: DescTw
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
 - raw: "{\r\n    \"Key\": 6100110,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\"\r\n  }"
   rawIndex: 6100110
   splits:
   - splitPath: DescFinal
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
   - splitPath: DescTw
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
 - raw: "{\r\n    \"Key\": 6100210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\"\r\n  }"
   rawIndex: 6100210
   splits:
   - splitPath: DescFinal
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
   - splitPath: DescTw
     text: "是否購買那瑜陀所展示的西洋珍寶？"
+    translated: "Do you wish to purchase the Western treasures displayed by Yi Yu tuo?"
 - raw: "{\r\n    \"Key\": 1002210,\r\n    \"DescFinal\": \"是否購買江湖藝人的金瘡藥？\",\r\n    \"Desc\": \"是否购买江湖艺人的金疮药？\",\r\n    \"DescTw\": \"是否購買江湖藝人的金瘡藥？\"\r\n  }"
   rawIndex: 1002210
   splits:
   - splitPath: DescFinal
     text: "是否購買江湖藝人的金瘡藥？"
+    translated: "Should we buy the Perfected Wound Medicine from the Jianghu performer?"
   - splitPath: Desc
     text: "是否购买江湖艺人的金疮药？"
+    translated: "Do you want to buy balm for wound healing from a Jianghu performer?"
   - splitPath: DescTw
     text: "是否購買江湖藝人的金瘡藥？"
+    translated: "Should we buy the Perfected Wound Medicine from the Jianghu performer?"
 - raw: "{\r\n    \"Key\": 1003310,\r\n    \"DescFinal\": \"酒館中見到酒肉頭陀與小二爭執，如何選擇？\",\r\n    \"Desc\": \"酒馆中见到酒肉头陀与小二争执，如何选择？\",\r\n    \"DescTw\": \"酒館中見到酒肉頭陀與小二爭執，如何選擇？\"\r\n  }"
   rawIndex: 1003310
   splits:
   - splitPath: DescFinal
     text: "酒館中見到酒肉頭陀與小二爭執，如何選擇？"
+    translated: "In the tavern, you see a monk arguing with the waiter. How do you choose to handle this situation?"
   - splitPath: Desc
     text: "酒馆中见到酒肉头陀与小二争执，如何选择？"
+    translated: "In the tavern, you see Dharmic Beggar and Waiter arguing over food and drink. How should you handle this situation?"
   - splitPath: DescTw
     text: "酒館中見到酒肉頭陀與小二爭執，如何選擇？"
+    translated: "In the tavern, you see a monk arguing with the waiter. How do you choose to handle this situation?"
 - raw: "{\r\n    \"Key\": 1003810,\r\n    \"DescFinal\": \"是否為用虎骨和蛇膽送去盧府售出？\",\r\n    \"Desc\": \"是否为用虎骨和蛇胆送去卢府售出？\",\r\n    \"DescTw\": \"是否為用虎骨和蛇膽送去盧府售出？\"\r\n  }"
   rawIndex: 1003810
   splits:
   - splitPath: DescFinal
     text: "是否為用虎骨和蛇膽送去盧府售出？"
+    translated: "Was it decided to sell the tiger bones and snake gallbladders to Lord Lu's household?"
   - splitPath: Desc
     text: "是否为用虎骨和蛇胆送去卢府售出？"
+    translated: "Was it intended to send the tiger bones and snake bile to Lord Lu's residence for sale?"
   - splitPath: DescTw
     text: "是否為用虎骨和蛇膽送去盧府售出？"
+    translated: "Was it decided to sell the tiger bones and snake gallbladders to Lord Lu's household?"
 - raw: "{\r\n    \"Key\": 1095210,\r\n    \"DescFinal\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"Desc\": \"【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？\",\r\n    \"DescTw\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\"\r\n  }"
   rawIndex: 1095210
   splits:
   - splitPath: DescFinal
     text: "【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？"
+    translated: "Challenge Dungeon 3‑star Difficulty. This is a high‑difficulty battle challenge with no impact on the game story. Would you like to attempt it?"
   - splitPath: Desc
     text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
+    translated: "Challenge Dungeon Three‑star difficulty. This is a high‑difficulty combat challenge that does not affect the game's main storyline. Would you like to attempt it?"
   - splitPath: DescTw
     text: "【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？"
+    translated: "Challenge Dungeon 3‑star Difficulty. This is a high‑difficulty battle challenge with no impact on the game story. Would you like to attempt it?"
 - raw: "{\r\n    \"Key\": 1099200,\r\n    \"DescFinal\": \"荊東沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"荆东没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"荊東沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 1099200
   splits:
   - splitPath: DescFinal
     text: "荊東沒有什麼特別事情發生，如何選擇？"
+    translated: "There was nothing out of the ordinary in Jing Dong. How should I choose?"
   - splitPath: Desc
     text: "荆东没有什么特别事情发生，如何选择？"
+    translated: "There was nothing particularly noteworthy happening in Jing Dong. How would you like to proceed?"
   - splitPath: DescTw
     text: "荊東沒有什麼特別事情發生，如何選擇？"
+    translated: "There was nothing out of the ordinary in Jing Dong. How should I choose?"
 - raw: "{\r\n    \"Key\": 1490300,\r\n    \"DescFinal\": \"今日來永盛鏢局何事？\",\r\n    \"Desc\": \"今日来永盛镖局何事？\",\r\n    \"DescTw\": \"今日來永盛鏢局何事？\"\r\n  }"
   rawIndex: 1490300
   splits:
   - splitPath: DescFinal
     text: "今日來永盛鏢局何事？"
+    translated: "What brings you to Yongsheng Escort Bureau today?"
   - splitPath: Desc
     text: "今日来永盛镖局何事？"
+    translated: "What brings you to Yongsheng Escort Bureau today?"
   - splitPath: DescTw
     text: "今日來永盛鏢局何事？"
+    translated: "What brings you to Yongsheng Escort Bureau today?"
 - raw: "{\r\n    \"Key\": 1502610,\r\n    \"DescFinal\": \"如何處置“無法和尚”法元？\",\r\n    \"Desc\": \"如何处置“无法和尚”法元？\",\r\n    \"DescTw\": \"如何處置“無法和尚”法元？\"\r\n  }"
   rawIndex: 1502610
   splits:
   - splitPath: DescFinal
     text: "如何處置“無法和尚”法元？"
+    translated: "How should Fa yuan Unlawful Monk be handled?"
   - splitPath: Desc
     text: "如何处置“无法和尚”法元？"
+    translated: "How should we deal with Fa Yuan, the Unbearable Monk?"
   - splitPath: DescTw
     text: "如何處置“無法和尚”法元？"
+    translated: "How should Fa yuan Unlawful Monk be handled?"
 - raw: "{\r\n    \"Key\": 1800600,\r\n    \"DescFinal\": \"阮碧青與蔣癘夫兩人決裂，幫助何人？\",\r\n    \"Desc\": \"阮碧青与蒋疠夫两人决裂，帮助何人？\",\r\n    \"DescTw\": \"阮碧青與蔣癘夫兩人決裂，幫助何人？\"\r\n  }"
   rawIndex: 1800600
   splits:
   - splitPath: DescFinal
     text: "阮碧青與蔣癘夫兩人決裂，幫助何人？"
+    translated: "Ruan Biqing and Jiang Youfu have split ways. Who did Ruan Biqing help?"
   - splitPath: Desc
     text: "阮碧青与蒋疠夫两人决裂，帮助何人？"
+    translated: "Ruan Biqing and Jiang Liufu have split ways. Who did Ruan Biqing help?"
   - splitPath: DescTw
     text: "阮碧青與蔣癘夫兩人決裂，幫助何人？"
+    translated: "Ruan Biqing and Jiang Youfu have split ways. Who did Ruan Biqing help?"
 - raw: "{\r\n    \"Key\": 1903000,\r\n    \"DescFinal\": \"如何處置異蛇王？\",\r\n    \"Desc\": \"如何处置异蛇王？\",\r\n    \"DescTw\": \"如何處置異蛇王？\"\r\n  }"
   rawIndex: 1903000
   splits:
   - splitPath: DescFinal
     text: "如何處置異蛇王？"
+    translated: "How should we deal with the Venomous Snake King?"
   - splitPath: Desc
     text: "如何处置异蛇王？"
+    translated: "How should we handle the Demon Snake King?"
   - splitPath: DescTw
     text: "如何處置異蛇王？"
+    translated: "How should we deal with the Venomous Snake King?"
 - raw: "{\r\n    \"Key\": 2090200,\r\n    \"DescFinal\": \"湘東沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"湘东没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"湘東沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 2090200
   splits:
   - splitPath: DescFinal
     text: "湘東沒有什麼特別事情發生，如何選擇？"
+    translated: "What significant events have occurred in Xiangdong? How should I choose an option?"
   - splitPath: Desc
     text: "湘东没有什么特别事情发生，如何选择？"
+    translated: "There were no special events in Xiangdong this time. What would you like to choose?"
   - splitPath: DescTw
     text: "湘東沒有什麼特別事情發生，如何選擇？"
+    translated: "What significant events have occurred in Xiangdong? How should I choose an option?"
 - raw: "{\r\n    \"Key\": 2000910,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"Desc\": \"如何选择？\",\r\n    \"DescTw\": \"如何選擇？\"\r\n  }"
   rawIndex: 2000910
   splits:
   - splitPath: DescFinal
     text: "如何選擇？"
+    translated: "How do I choose?"
   - splitPath: Desc
     text: "如何选择？"
+    translated: "How to choose?"
   - splitPath: DescTw
     text: "如何選擇？"
+    translated: "How do I choose?"
 - raw: "{\r\n    \"Key\": 2001010,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"Desc\": \"如何选择？\",\r\n    \"DescTw\": \"如何選擇？\"\r\n  }"
   rawIndex: 2001010
   splits:
   - splitPath: DescFinal
     text: "如何選擇？"
+    translated: "How do I choose?"
   - splitPath: Desc
     text: "如何选择？"
+    translated: "How to choose?"
   - splitPath: DescTw
     text: "如何選擇？"
+    translated: "How do I choose?"
 - raw: "{\r\n    \"Key\": 2001110,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"Desc\": \"如何选择？\",\r\n    \"DescTw\": \"如何選擇？\"\r\n  }"
   rawIndex: 2001110
   splits:
   - splitPath: DescFinal
     text: "如何選擇？"
+    translated: "How do I choose?"
   - splitPath: Desc
     text: "如何选择？"
+    translated: "How to choose?"
   - splitPath: DescTw
     text: "如何選擇？"
+    translated: "How do I choose?"
 - raw: "{\r\n    \"Key\": 2001810,\r\n    \"DescFinal\": \"選擇喚醒誰給與你幫助？\",\r\n    \"Desc\": \"选择唤醒谁给与你帮助？\",\r\n    \"DescTw\": \"選擇喚醒誰給與你幫助？\"\r\n  }"
   rawIndex: 2001810
   splits:
   - splitPath: DescFinal
     text: "選擇喚醒誰給與你幫助？"
+    translated: "Who do you awaken to give you aid?"
   - splitPath: Desc
     text: "选择唤醒谁给与你帮助？"
+    translated: "Who do you choose to awaken for help?"
   - splitPath: DescTw
     text: "選擇喚醒誰給與你幫助？"
+    translated: "Who do you awaken to give you aid?"
 - raw: "{\r\n    \"Key\": 2002310,\r\n    \"DescFinal\": \"選擇喚醒誰給與你幫助？\",\r\n    \"Desc\": \"选择唤醒谁给与你帮助？\",\r\n    \"DescTw\": \"選擇喚醒誰給與你幫助？\"\r\n  }"
   rawIndex: 2002310
   splits:
   - splitPath: DescFinal
     text: "選擇喚醒誰給與你幫助？"
+    translated: "Who do you awaken to give you aid?"
   - splitPath: Desc
     text: "选择唤醒谁给与你帮助？"
+    translated: "Who do you choose to awaken for help?"
   - splitPath: DescTw
     text: "選擇喚醒誰給與你幫助？"
+    translated: "Who do you awaken to give you aid?"
 - raw: "{\r\n    \"Key\": 2005410,\r\n    \"DescFinal\": \"你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？\",\r\n    \"Desc\": \"你发现了沈蓉蓉和天魔教散人章太歧暗中有牵连，此时如何选择？\",\r\n    \"DescTw\": \"你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？\"\r\n  }"
   rawIndex: 2005410
   splits:
   - splitPath: DescFinal
     text: "你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, an outlaw from the Heaven's Demon Sect. How should you proceed at this point?"
   - splitPath: Desc
     text: "你发现了沈蓉蓉和天魔教散人章太歧暗中有牵连，此时如何选择？"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taqi, an itinerant member of the Heaven Demon Sect. How should you proceed now?"
   - splitPath: DescTw
     text: "你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, an outlaw from the Heaven's Demon Sect. How should you proceed at this point?"
 - raw: "{\r\n    \"Key\": 2390100,\r\n    \"DescFinal\": \"今日要去聽哪一位夫子授課？\",\r\n    \"Desc\": \"今日要去听哪一位夫子授课？\",\r\n    \"DescTw\": \"今日要去聽哪一位夫子授課？\"\r\n  }"
   rawIndex: 2390100
   splits:
   - splitPath: DescFinal
     text: "今日要去聽哪一位夫子授課？"
+    translated: "Which teacher's lecture should I attend today?"
   - splitPath: Desc
     text: "今日要去听哪一位夫子授课？"
+    translated: "Which teacher's lecture should I attend today?"
   - splitPath: DescTw
     text: "今日要去聽哪一位夫子授課？"
+    translated: "Which teacher's lecture should I attend today?"
 - raw: "{\r\n    \"Key\": 2400210,\r\n    \"DescFinal\": \"來到朱雀坊要如何選擇？\",\r\n    \"Desc\": \"来到朱雀坊要如何选择？\",\r\n    \"DescTw\": \"來到朱雀坊要如何選擇？\"\r\n  }"
   rawIndex: 2400210
   splits:
   - splitPath: DescFinal
     text: "來到朱雀坊要如何選擇？"
+    translated: "How should I choose when arriving at Zhuque Alley?"
   - splitPath: Desc
     text: "来到朱雀坊要如何选择？"
+    translated: "How should I choose when entering the Phoenix Quarter?"
   - splitPath: DescTw
     text: "來到朱雀坊要如何選擇？"
+    translated: "How should I choose when arriving at Zhuque Alley?"
 - raw: "{\r\n    \"Key\": 2400410,\r\n    \"DescFinal\": \"來到朱雀坊要如何選擇？\",\r\n    \"Desc\": \"来到朱雀坊要如何选择？\",\r\n    \"DescTw\": \"來到朱雀坊要如何選擇？\"\r\n  }"
   rawIndex: 2400410
   splits:
   - splitPath: DescFinal
     text: "來到朱雀坊要如何選擇？"
+    translated: "How should I choose when arriving at Zhuque Alley?"
   - splitPath: Desc
     text: "来到朱雀坊要如何选择？"
+    translated: "How should I choose when entering the Phoenix Quarter?"
   - splitPath: DescTw
     text: "來到朱雀坊要如何選擇？"
+    translated: "How should I choose when arriving at Zhuque Alley?"
 - raw: "{\r\n    \"Key\": 2590200,\r\n    \"DescFinal\": \"荊北沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"荆北没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"荊北沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 2590200
   splits:
   - splitPath: DescFinal
     text: "荊北沒有什麼特別事情發生，如何選擇？"
+    translated: "There are no special events happening in Jingbei. How do you want to proceed?"
   - splitPath: Desc
     text: "荆北没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Jingbei. What would you like to choose?"
   - splitPath: DescTw
     text: "荊北沒有什麼特別事情發生，如何選擇？"
+    translated: "There are no special events happening in Jingbei. How do you want to proceed?"
 - raw: "{\r\n    \"Key\": 2502510,\r\n    \"DescFinal\": \"是否答應給艾琳娜作嚮導？\",\r\n    \"Desc\": \"是否答应给艾琳娜作向导？\",\r\n    \"DescTw\": \"是否答應給艾琳娜作嚮導？\"\r\n  }"
   rawIndex: 2502510
   splits:
   - splitPath: DescFinal
     text: "是否答應給艾琳娜作嚮導？"
+    translated: "Have you agreed to make Elena your guide?"
   - splitPath: Desc
     text: "是否答应给艾琳娜作向导？"
+    translated: "Have you agreed to be Elena's guide?"
   - splitPath: DescTw
     text: "是否答應給艾琳娜作嚮導？"
+    translated: "Have you agreed to make Elena your guide?"
 - raw: "{\r\n    \"Key\": 2504910,\r\n    \"DescFinal\": \"是否要去春風樓看看熱鬧?\",\r\n    \"Desc\": \"是否要去春风楼看看热闹?\",\r\n    \"DescTw\": \"是否要去春風樓看看熱鬧?\"\r\n  }"
   rawIndex: 2504910
   splits:
   - splitPath: DescFinal
     text: "是否要去春風樓看看熱鬧?"
+    translated: "Would you like to go to Spring Breeze Pavilion to see the hustle and bustle?"
   - splitPath: Desc
     text: "是否要去春风楼看看热闹?"
+    translated: "Shall we go to Fengchun Pavilion to see the commotion?"
   - splitPath: DescTw
     text: "是否要去春風樓看看熱鬧?"
+    translated: "Would you like to go to Spring Breeze Pavilion to see the hustle and bustle?"
 - raw: "{\r\n    \"Key\": 2595210,\r\n    \"DescFinal\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"Desc\": \"【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？\",\r\n    \"DescTw\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\"\r\n  }"
   rawIndex: 2595210
   splits:
   - splitPath: DescFinal
     text: "【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？"
+    translated: "Challenge Dungeon 3‑star Difficulty. This is a high‑difficulty battle challenge with no impact on the game story. Would you like to attempt it?"
   - splitPath: Desc
     text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
+    translated: "Challenge Dungeon Three‑star difficulty. This is a high‑difficulty combat challenge that does not affect the game's main storyline. Would you like to attempt it?"
   - splitPath: DescTw
     text: "【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？"
+    translated: "Challenge Dungeon 3‑star Difficulty. This is a high‑difficulty battle challenge with no impact on the game story. Would you like to attempt it?"
 - raw: "{\r\n    \"Key\": 3100210,\r\n    \"DescFinal\": \"太極拳法與太極劍法想要學習哪一門？\",\r\n    \"Desc\": \"太极拳法与太极剑法想要学习哪一门？\",\r\n    \"DescTw\": \"太極拳法與太極劍法想要學習哪一門？\"\r\n  }"
   rawIndex: 3100210
   splits:
   - splitPath: DescFinal
     text: "太極拳法與太極劍法想要學習哪一門？"
+    translated: "Which style do you want to learn between Tai Chi Quan and Tai Chi Jian?"
   - splitPath: Desc
     text: "太极拳法与太极剑法想要学习哪一门？"
+    translated: "Which martial art style do you want to learn: Tai Chi Chuan or Tai Chi Jian?"
   - splitPath: DescTw
     text: "太極拳法與太極劍法想要學習哪一門？"
+    translated: "Which style do you want to learn between Tai Chi Quan and Tai Chi Jian?"
 - raw: "{\r\n    \"Key\": 3100410,\r\n    \"DescFinal\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\",\r\n    \"Desc\": \"你可曾想明宁王一事？\\\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>\",\r\n    \"DescTw\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\"\r\n  }"
   rawIndex: 3100410
   splits:
   - splitPath: DescFinal
     text: "你可曾想明寧王一事？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>"
+    translated: "Have you ever considered Prince Ning's actions?  <color=#FF0000>Note: Choosing Disciple has understood will trigger Prince Ning's visit next month, marking the beginning of the final结局.(It is recommended to advance your beast taming and entertainment skills to master level before making this choice, and to explore the Nine Flowing Mountain Manor in Xiangnan and the Wavy Courtyard in Xiangbei.)</color>"
   - splitPath: Desc
     text: "你可曾想明宁王一事？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>"
+    translated: "Have you pondered the matter of Prince Ning?  <color=#FF0000>Note: After selecting Disciple has understood, the event where Prince Ning visits will trigger in the following month, and the game will enter its final outcome. (It is recommended to raise Beast Mastery and Skills to master level before making this choice, and to explore the Nine Flowing Manor in Xiangnan and the Smoky Sea Compound in Xiangbei.)</color>"
   - splitPath: DescTw
     text: "你可曾想明寧王一事？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>"
+    translated: "Have you ever considered Prince Ning's actions?  <color=#FF0000>Note: Choosing Disciple has understood will trigger Prince Ning's visit next month, marking the beginning of the final结局.(It is recommended to advance your beast taming and entertainment skills to master level before making this choice, and to explore the Nine Flowing Mountain Manor in Xiangnan and the Wavy Courtyard in Xiangbei.)</color>"
 - raw: "{\r\n    \"Key\": 3100710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 3100710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself to face the retaliation from the Demon Sect?  <color=#FF0000>Note: After selecting The disciples are ready, the next month will automatically trigger the Heaven Demon Assault on the Mountain event, and the game will enter its final ending."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
 - raw: "{\r\n    \"Key\": 3009400,\r\n    \"DescFinal\": \"是否隨姜道靈參加廣成丹會？\",\r\n    \"Desc\": \"是否随姜道灵参加广成丹会？\",\r\n    \"DescTw\": \"是否隨姜道靈參加廣成丹會？\"\r\n  }"
   rawIndex: 3009400
   splits:
   - splitPath: DescFinal
     text: "是否隨姜道靈參加廣成丹會？"
+    translated: "Do you want to accompany Jiang Dao Ling to attend the Guangcheng Danhui?"
   - splitPath: Desc
     text: "是否随姜道灵参加广成丹会？"
+    translated: "Do they attend the Guangcheng Danhui with Jiang Dao Ling?"
   - splitPath: DescTw
     text: "是否隨姜道靈參加廣成丹會？"
+    translated: "Do you want to accompany Jiang Dao Ling to attend the Guangcheng Danhui?"
 - raw: "{\r\n    \"Key\": 3399910,\r\n    \"DescFinal\": \"今日早課想要修煉什麼？\",\r\n    \"Desc\": \"今日早课想要修炼什么？\",\r\n    \"DescTw\": \"今日早課想要修煉什麼？\"\r\n  }"
   rawIndex: 3399910
   splits:
   - splitPath: DescFinal
     text: "今日早課想要修煉什麼？"
+    translated: "What do you want to cultivate today in your morning lesson?"
   - splitPath: Desc
     text: "今日早课想要修炼什么？"
+    translated: "What do you want to practice during today's morning lesson?"
   - splitPath: DescTw
     text: "今日早課想要修煉什麼？"
+    translated: "What do you want to cultivate today in your morning lesson?"
 - raw: "{\r\n    \"Key\": 3402200,\r\n    \"DescFinal\": \"《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？\",\r\n    \"Desc\": \"《血手经》现已在手中，是修炼其中所记载的血手印功法还是就此将其毁去？\",\r\n    \"DescTw\": \"《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？\"\r\n  }"
   rawIndex: 3402200
   splits:
   - splitPath: DescFinal
     text: "《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？"
+    translated: "Now that the 'Bloodhand Sutra' is in my hand, should I practice the bloodhand seal technique described within it, or should I destroy it instead?"
   - splitPath: Desc
     text: "《血手经》现已在手中，是修炼其中所记载的血手印功法还是就此将其毁去？"
+    translated: "Now that the 'Blood Hand Sutra' is in my hands, should I practice the blood hand techniques it records, or should I destroy it instead?"
   - splitPath: DescTw
     text: "《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？"
+    translated: "Now that the 'Bloodhand Sutra' is in my hand, should I practice the bloodhand seal technique described within it, or should I destroy it instead?"
 - raw: "{\r\n    \"Key\": 3799910,\r\n    \"DescFinal\": \"今日煉製何種丹藥？\",\r\n    \"Desc\": \"今日炼制何种丹药？\",\r\n    \"DescTw\": \"今日煉製何種丹藥？\"\r\n  }"
   rawIndex: 3799910
   splits:
   - splitPath: DescFinal
     text: "今日煉製何種丹藥？"
+    translated: "What kind of elixir are you refining today?"
   - splitPath: Desc
     text: "今日炼制何种丹药？"
+    translated: "What type of medicinal pill will be prepared today?"
   - splitPath: DescTw
     text: "今日煉製何種丹藥？"
+    translated: "What kind of elixir are you refining today?"
 - raw: "{\r\n    \"Key\": 2501210,\r\n    \"DescFinal\": \"看上了夏侯珺的哪樣寶物？\",\r\n    \"Desc\": \"看上了夏侯珺的哪样宝物？\",\r\n    \"DescTw\": \"看上了夏侯珺的哪樣寶物？\"\r\n  }"
   rawIndex: 2501210
   splits:
   - splitPath: DescFinal
     text: "看上了夏侯珺的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Jun did they fall for?"
   - splitPath: Desc
     text: "看上了夏侯珺的哪样宝物？"
+    translated: "Which treasure of Xiaohou Jun did someone take a liking to?"
   - splitPath: DescTw
     text: "看上了夏侯珺的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Jun did they fall for?"
 - raw: "{\r\n    \"Key\": 4200300,\r\n    \"DescFinal\": \"今日拜訪六合幫何事？\",\r\n    \"Desc\": \"今日拜访六合帮何事？\",\r\n    \"DescTw\": \"今日拜訪六合幫何事？\"\r\n  }"
   rawIndex: 4200300
   splits:
   - splitPath: DescFinal
     text: "今日拜訪六合幫何事？"
+    translated: "What brought you here today to visit Gang Liuhexiong?"
   - splitPath: Desc
     text: "今日拜访六合帮何事？"
+    translated: "What brought you here today to visit Gang Hexiugong?"
   - splitPath: DescTw
     text: "今日拜訪六合幫何事？"
+    translated: "What brought you here today to visit Gang Liuhexiong?"
 - raw: "{\r\n    \"Key\": 4201210,\r\n    \"DescFinal\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"Desc\": \"看上了夏侯朝的哪样宝物？\",\r\n    \"DescTw\": \"看上了夏侯朝的哪樣寶物？\"\r\n  }"
   rawIndex: 4201210
   splits:
   - splitPath: DescFinal
     text: "看上了夏侯朝的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Zhao is she eyeing?"
   - splitPath: Desc
     text: "看上了夏侯朝的哪样宝物？"
+    translated: "Which treasure of Xiaohou Zhao did they set their eyes on?"
   - splitPath: DescTw
     text: "看上了夏侯朝的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Zhao is she eyeing?"
 - raw: "{\r\n    \"Key\": 4201310,\r\n    \"DescFinal\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"Desc\": \"看上了夏侯朝的哪样宝物？\",\r\n    \"DescTw\": \"看上了夏侯朝的哪樣寶物？\"\r\n  }"
   rawIndex: 4201310
   splits:
   - splitPath: DescFinal
     text: "看上了夏侯朝的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Zhao is she eyeing?"
   - splitPath: Desc
     text: "看上了夏侯朝的哪样宝物？"
+    translated: "Which treasure of Xiaohou Zhao did they set their eyes on?"
   - splitPath: DescTw
     text: "看上了夏侯朝的哪樣寶物？"
+    translated: "Which treasure of Xiaohou Zhao is she eyeing?"
 - raw: "{\r\n    \"Key\": 4399200,\r\n    \"DescFinal\": \"湘北沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"湘北没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"湘北沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 4399200
   splits:
   - splitPath: DescFinal
     text: "湘北沒有什麼特別事情發生，如何選擇？"
+    translated: "There were no special events in Shanghu. How do you choose?"
   - splitPath: Desc
     text: "湘北没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Shanghuabei. How would you like to proceed?"
   - splitPath: DescTw
     text: "湘北沒有什麼特別事情發生，如何選擇？"
+    translated: "There were no special events in Shanghu. How do you choose?"
 - raw: "{\r\n    \"Key\": 4400210,\r\n    \"DescFinal\": \"今日拜訪荊湘六扇門何事？\",\r\n    \"Desc\": \"今日拜访荆湘六扇门何事？\",\r\n    \"DescTw\": \"今日拜訪荊湘六扇門何事？\"\r\n  }"
   rawIndex: 4400210
   splits:
   - splitPath: DescFinal
     text: "今日拜訪荊湘六扇門何事？"
+    translated: "Why are you visiting the Jinxiang Six‑Seal Sect today?"
   - splitPath: Desc
     text: "今日拜访荆湘六扇门何事？"
+    translated: "Why are you visiting the Jingxiang Six Gates Temple today?"
   - splitPath: DescTw
     text: "今日拜訪荊湘六扇門何事？"
+    translated: "Why are you visiting the Jinxiang Six‑Seal Sect today?"
 - raw: "{\r\n    \"Key\": 4310610,\r\n    \"DescFinal\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\",\r\n    \"Desc\": \"宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？\",\r\n    \"DescTw\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\"\r\n  }"
   rawIndex: 4310610
   splits:
   - splitPath: DescFinal
     text: "寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？"
+    translated: "Prince Ning has laid out many schemes in the Jianghu. This Recruitment Arena might be one of them. Should we consider going up to disrupt it?"
   - splitPath: Desc
     text: "宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？"
+    translated: "Prince Ning has laid out many plans in the Jianghu. This recruitment tournament might be one of them. Should we consider disrupting it by stepping onto the stage?"
   - splitPath: DescTw
     text: "寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？"
+    translated: "Prince Ning has laid out many schemes in the Jianghu. This Recruitment Arena might be one of them. Should we consider going up to disrupt it?"
 - raw: "{\r\n    \"Key\": 4311610,\r\n    \"DescFinal\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\",\r\n    \"Desc\": \"<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？\",\r\n    \"DescTw\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\"\r\n  }"
   rawIndex: 4311610
   splits:
   - splitPath: DescFinal
     text: "<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？"
+    translated: "This choice will affect the ultimate outcome. Please make your decision carefully.\nYou have already defeated the Ning Wang's three guest scholars on the Convicting Sage Platform. Do you wish to further disrupt the Convicting Sage Platform?"
   - splitPath: Desc
     text: "<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？"
+    translated: "<color=#FF0000>This choice will affect the final outcome. Please proceed with caution.</color>\nYou have defeated Ning Wang's three guest scholars on the Recruitment Arena. Should you further disrupt the Recruitment Arena?"
   - splitPath: DescTw
     text: "<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？"
+    translated: "This choice will affect the ultimate outcome. Please make your decision carefully.\nYou have already defeated the Ning Wang's three guest scholars on the Convicting Sage Platform. Do you wish to further disrupt the Convicting Sage Platform?"
 - raw: "{\r\n    \"Key\": 3870900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3870900
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 3871000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3871000
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 3871100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3871100
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 3871200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3871200
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 3871300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3871300
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 4303710,\r\n    \"DescFinal\": \"城中看到一名女捕追緝賊人，是否跟上去相助？\",\r\n    \"Desc\": \"城中看到一名女捕追缉贼人，是否跟上去相助？\",\r\n    \"DescTw\": \"城中看到一名女捕追緝賊人，是否跟上去相助？\"\r\n  }"
   rawIndex: 4303710
   splits:
   - splitPath: DescFinal
     text: "城中看到一名女捕追緝賊人，是否跟上去相助？"
+    translated: "Should I follow and assist the female police officer chasing a thief in the city?"
   - splitPath: Desc
     text: "城中看到一名女捕追缉贼人，是否跟上去相助？"
+    translated: "Should we follow and help the female captor chase the thief in the city?"
   - splitPath: DescTw
     text: "城中看到一名女捕追緝賊人，是否跟上去相助？"
+    translated: "Should I follow and assist the female police officer chasing a thief in the city?"
 - raw: "{\r\n    \"Key\": 4304610,\r\n    \"DescFinal\": \"城中街市遇到無賴調戲扶桑少女，是否上前幫助？\",\r\n    \"Desc\": \"城中街市遇到无赖调戏扶桑少女，是否上前帮助？\",\r\n    \"DescTw\": \"城中街市遇到無賴調戲扶桑少女，是否上前幫助？\"\r\n  }"
   rawIndex: 4304610
   splits:
   - splitPath: DescFinal
     text: "城中街市遇到無賴調戲扶桑少女，是否上前幫助？"
+    translated: "Should you intervene to help the Japanese maiden being harassed by a bully in the market street?"
   - splitPath: Desc
     text: "城中街市遇到无赖调戏扶桑少女，是否上前帮助？"
+    translated: "Should you step in to help when a ruffian is harassing a Japanese maiden in the city market?"
   - splitPath: DescTw
     text: "城中街市遇到無賴調戲扶桑少女，是否上前幫助？"
+    translated: "Should you intervene to help the Japanese maiden being harassed by a bully in the market street?"
 - raw: "{\r\n    \"Key\": 4310310,\r\n    \"DescFinal\": \"選擇哪一支龍舟隊加入？\",\r\n    \"Desc\": \"选择哪一支龙舟队加入？\",\r\n    \"DescTw\": \"選擇哪一支龍舟隊加入？\"\r\n  }"
   rawIndex: 4310310
   splits:
   - splitPath: DescFinal
     text: "選擇哪一支龍舟隊加入？"
+    translated: "Which dragon boat team should I join?"
   - splitPath: Desc
     text: "选择哪一支龙舟队加入？"
+    translated: "Which dragon boat team should I join?"
   - splitPath: DescTw
     text: "選擇哪一支龍舟隊加入？"
+    translated: "Which dragon boat team should I join?"
 - raw: "{\r\n    \"Key\": 4308610,\r\n    \"DescFinal\": \"選擇向“學劍老人”谷藏鋒請教哪一門劍法？\",\r\n    \"Desc\": \"选择向“学剑老人”谷藏锋请教哪一门剑法？\",\r\n    \"DescTw\": \"選擇向“學劍老人”谷藏鋒請教哪一門劍法？\"\r\n  }"
   rawIndex: 4308610
   splits:
   - splitPath: DescFinal
     text: "選擇向“學劍老人”谷藏鋒請教哪一門劍法？"
+    translated: "Choose which sword technique to learn from the Sword Master Gu Zangfeng."
   - splitPath: Desc
     text: "选择向“学剑老人”谷藏锋请教哪一门剑法？"
+    translated: "Choose which sword technique to learn from Master Swordsmanship Gu Zhuangfeng."
   - splitPath: DescTw
     text: "選擇向“學劍老人”谷藏鋒請教哪一門劍法？"
+    translated: "Choose which sword technique to learn from the Sword Master Gu Zangfeng."
 - raw: "{\r\n    \"Key\": 4500310,\r\n    \"DescFinal\": \"今日拜訪掛錘莊何事？\",\r\n    \"Desc\": \"今日拜访挂锤庄何事？\",\r\n    \"DescTw\": \"今日拜訪掛錘莊何事？\"\r\n  }"
   rawIndex: 4500310
   splits:
   - splitPath: DescFinal
     text: "今日拜訪掛錘莊何事？"
+    translated: "Why did you visit Heavy Hammer Village today?"
   - splitPath: Desc
     text: "今日拜访挂锤庄何事？"
+    translated: "What did you come to visit Hammer Yard for today?"
   - splitPath: DescTw
     text: "今日拜訪掛錘莊何事？"
+    translated: "Why did you visit Heavy Hammer Village today?"
 - raw: "{\r\n    \"Key\": 4701010,\r\n    \"DescFinal\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\",\r\n    \"Desc\": \"你可曾想明帮主钟离恨之意？\\\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>\",\r\n    \"DescTw\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\"\r\n  }"
   rawIndex: 4701010
   splits:
   - splitPath: DescFinal
     text: "你可曾想明幫主鍾離恨之意？\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>"
+    translated: "Have you considered Gang Leader Zhong Lihen's intent?  <color=#FF0000>Note: After selecting Subordinate has understood, the Prince Ning will pay a visit next month, triggering the final outcome of the game. It is recommended to advance your medical skills and beast mastery to master level before making this choice, and to explore Jingbei True Martial Monastery and Xiangnan Nine Streams Manor.</color>"
   - splitPath: Desc
     text: "你可曾想明帮主钟离恨之意？\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>"
+    translated: "Have you pondered Chief Zhongli Hen's intentions?  <color=#FF0000>Note: After selecting Subordinate has understood, the Prince Regent will visit next month, and the game will proceed to its final outcome. (It is recommended to raise your medical skills and mastery of beast control to their peak before making this choice, and to explore the True Martial Temple in Jingbei and the Nine Flowing Villas in Xiangnan.)</color>"
   - splitPath: DescTw
     text: "你可曾想明幫主鍾離恨之意？\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>"
+    translated: "Have you considered Gang Leader Zhong Lihen's intent?  <color=#FF0000>Note: After selecting Subordinate has understood, the Prince Ning will pay a visit next month, triggering the final outcome of the game. It is recommended to advance your medical skills and beast mastery to master level before making this choice, and to explore Jingbei True Martial Monastery and Xiangnan Nine Streams Manor.</color>"
 - raw: "{\r\n    \"Key\": 4701710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 4701710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the retaliation from the Demon Sect?<color=#FF0000>Note: Choosing Subordinate is ready will trigger an attack by the Demon Sect on the mountain in the following month, and the game will proceed directly to the final conclusion."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself to confront the retaliation from the Demon Sect?<color=#FF0000>You should note that choosing Subordinate is ready will automatically trigger the Heaven Demon Assault Mountain event next month, bringing the game to its final outcome."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
+    translated: "Have you prepared yourself to face the retaliation from the Demon Sect?<color=#FF0000>Note: Choosing Subordinate is ready will trigger an attack by the Demon Sect on the mountain in the following month, and the game will proceed directly to the final conclusion."
 - raw: "{\r\n    \"Key\": 4800200,\r\n    \"DescFinal\": \"想要兌換哪一種類別的功法？\",\r\n    \"Desc\": \"想要兑换哪一种类别的功法？\",\r\n    \"DescTw\": \"想要兌換哪一種類別的功法？\"\r\n  }"
   rawIndex: 4800200
   splits:
   - splitPath: DescFinal
     text: "想要兌換哪一種類別的功法？"
+    translated: "Which type of cultivation method do you want to exchange for?"
   - splitPath: Desc
     text: "想要兑换哪一种类别的功法？"
+    translated: "Which category of cultivation method would you like to exchange for?"
   - splitPath: DescTw
     text: "想要兌換哪一種類別的功法？"
+    translated: "Which type of cultivation method do you want to exchange for?"
 - raw: "{\r\n    \"Key\": 4800310,\r\n    \"DescFinal\": \"想要兌換內功、輕功類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换内功、轻功类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換內功、輕功類的哪一門功法？\"\r\n  }"
   rawIndex: 4800310
   splits:
   - splitPath: DescFinal
     text: "想要兌換內功、輕功類的哪一門功法？"
+    translated: "Which internal power or agile movement skill do you want to exchange for?"
   - splitPath: Desc
     text: "想要兑换内功、轻功类的哪一门功法？"
+    translated: "Which inner cultivation or agile movement skill do you want to exchange for neigong or qinggong?"
   - splitPath: DescTw
     text: "想要兌換內功、輕功類的哪一門功法？"
+    translated: "Which internal power or agile movement skill do you want to exchange for?"
 - raw: "{\r\n    \"Key\": 4800410,\r\n    \"DescFinal\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换刀法类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換刀法類的哪一門功法？\"\r\n  }"
   rawIndex: 4800410
   splits:
   - splitPath: DescFinal
     text: "想要兌換刀法類的哪一門功法？"
+    translated: "Which blade technique would you like to exchange for?"
   - splitPath: Desc
     text: "想要兑换刀法类的哪一门功法？"
+    translated: "Which blade technique do you want to exchange for?"
   - splitPath: DescTw
     text: "想要兌換刀法類的哪一門功法？"
+    translated: "Which blade technique would you like to exchange for?"
 - raw: "{\r\n    \"Key\": 4800510,\r\n    \"DescFinal\": \"想要兌換槍法類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换枪法类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換槍法類的哪一門功法？\"\r\n  }"
   rawIndex: 4800510
   splits:
   - splitPath: DescFinal
     text: "想要兌換槍法類的哪一門功法？"
+    translated: "Which spear technique skill would you like to exchange for?"
   - splitPath: Desc
     text: "想要兑换枪法类的哪一门功法？"
+    translated: "Which spear technique skill would you like to exchange for?"
   - splitPath: DescTw
     text: "想要兌換槍法類的哪一門功法？"
+    translated: "Which spear technique skill would you like to exchange for?"
 - raw: "{\r\n    \"Key\": 4800610,\r\n    \"DescFinal\": \"想要兌換叉法類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换叉法类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換叉法類的哪一門功法？\"\r\n  }"
   rawIndex: 4800610
   splits:
   - splitPath: DescFinal
     text: "想要兌換叉法類的哪一門功法？"
+    translated: "Which form of cross technique skill would you like to exchange for?"
   - splitPath: Desc
     text: "想要兑换叉法类的哪一门功法？"
+    translated: "Which branch of the prong technique do you want to exchange for?"
   - splitPath: DescTw
     text: "想要兌換叉法類的哪一門功法？"
+    translated: "Which form of cross technique skill would you like to exchange for?"
 - raw: "{\r\n    \"Key\": 4800710,\r\n    \"DescFinal\": \"想要兌換箭術類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换箭术类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換箭術類的哪一門功法？\"\r\n  }"
   rawIndex: 4800710
   splits:
   - splitPath: DescFinal
     text: "想要兌換箭術類的哪一門功法？"
+    translated: "Which arrow technique skill would you like to exchange for?"
   - splitPath: Desc
     text: "想要兑换箭术类的哪一门功法？"
+    translated: "Which arrow skill do you want to exchange for?"
   - splitPath: DescTw
     text: "想要兌換箭術類的哪一門功法？"
+    translated: "Which arrow technique skill would you like to exchange for?"
 - raw: "{\r\n    \"Key\": 5370900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 5370900
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 5371000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 5371000
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 5371100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 5371100
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 5371200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 5371200
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 5371300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 5371300
   splits:
   - splitPath: DescFinal
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
   - splitPath: Desc
     text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
   - splitPath: DescTw
     text: "選擇哪一位紅顏伴與你相伴過年？"
+    translated: "Which lady will accompany you for the New Year celebration?"
 - raw: "{\r\n    \"Key\": 5490200,\r\n    \"DescFinal\": \"荊南沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"荆南没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"荊南沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 5490200
   splits:
   - splitPath: DescFinal
     text: "荊南沒有什麼特別事情發生，如何選擇？"
+    translated: "There are no special events happening in Jingnan. How would you like to proceed?"
   - splitPath: Desc
     text: "荆南没有什么特别事情发生，如何选择？"
+    translated: "There were no special events in Jingnan. How would you like to proceed?"
   - splitPath: DescTw
     text: "荊南沒有什麼特別事情發生，如何選擇？"
+    translated: "There are no special events happening in Jingnan. How would you like to proceed?"
 - raw: "{\r\n    \"Key\": 5190700,\r\n    \"DescFinal\": \"今日去白蛟堂接些什麼差事？\",\r\n    \"Desc\": \"今日去白蛟堂接些什么差事？\",\r\n    \"DescTw\": \"今日去白蛟堂接些什麼差事？\"\r\n  }"
   rawIndex: 5190700
   splits:
   - splitPath: DescFinal
     text: "今日去白蛟堂接些什麼差事？"
+    translated: "What tasks did you go to White Crocodile Hall to take on today?"
   - splitPath: Desc
     text: "今日去白蛟堂接些什么差事？"
+    translated: "What tasks are you picking up at White Python Hall today?"
   - splitPath: DescTw
     text: "今日去白蛟堂接些什麼差事？"
+    translated: "What tasks did you go to White Crocodile Hall to take on today?"
 - raw: "{\r\n    \"Key\": 5402310,\r\n    \"DescFinal\": \"是否還在此處繼續看雜耍表演？\",\r\n    \"Desc\": \"是否还在此处继续看杂耍表演？\",\r\n    \"DescTw\": \"是否還在此處繼續看雜耍表演？\"\r\n  }"
   rawIndex: 5402310
   splits:
   - splitPath: DescFinal
     text: "是否還在此處繼續看雜耍表演？"
+    translated: "Are you still watching the acrobatic performance here?"
   - splitPath: Desc
     text: "是否还在此处继续看杂耍表演？"
+    translated: "Are you still watching the acrobatic performances here?"
   - splitPath: DescTw
     text: "是否還在此處繼續看雜耍表演？"
+    translated: "Are you still watching the acrobatic performance here?"
 - raw: "{\r\n    \"Key\": 5404410,\r\n    \"DescFinal\": \"是否接受三千錢轉讓屓贔銅牌？\",\r\n    \"Desc\": \"是否接受三千钱转让屃赑铜牌？\",\r\n    \"DescTw\": \"是否接受三千錢轉讓屓贔銅牌？\"\r\n  }"
   rawIndex: 5404410
   splits:
   - splitPath: DescFinal
     text: "是否接受三千錢轉讓屓贔銅牌？"
+    translated: "Are you willing to transfer the Asura Path copper plate for three thousand coins?"
   - splitPath: Desc
     text: "是否接受三千钱转让屃赑铜牌？"
+    translated: "Do you accept three thousand coins in exchange for the Asura Path bronze token?"
   - splitPath: DescTw
     text: "是否接受三千錢轉讓屓贔銅牌？"
+    translated: "Are you willing to transfer the Asura Path copper plate for three thousand coins?"
 - raw: "{\r\n    \"Key\": 5404420,\r\n    \"DescFinal\": \"是否接受五千錢轉讓屓贔銅牌？\",\r\n    \"Desc\": \"是否接受五千钱转让屃赑铜牌？\",\r\n    \"DescTw\": \"是否接受五千錢轉讓屓贔銅牌？\"\r\n  }"
   rawIndex: 5404420
   splits:
   - splitPath: DescFinal
     text: "是否接受五千錢轉讓屓贔銅牌？"
+    translated: "Are you willing to transfer the Cuipo bronze token for five thousand coins?"
   - splitPath: Desc
     text: "是否接受五千钱转让屃赑铜牌？"
+    translated: "Are you willing to transfer the Xi Bi copper token for five thousand coins?"
   - splitPath: DescTw
     text: "是否接受五千錢轉讓屓贔銅牌？"
+    translated: "Are you willing to transfer the Cuipo bronze token for five thousand coins?"
 - raw: "{\r\n    \"Key\": 5590310,\r\n    \"DescFinal\": \"今日來柳蔭巷何事？\",\r\n    \"Desc\": \"今日来柳荫巷何事？\",\r\n    \"DescTw\": \"今日來柳蔭巷何事？\"\r\n  }"
   rawIndex: 5590310
   splits:
   - splitPath: DescFinal
     text: "今日來柳蔭巷何事？"
+    translated: "What brings you to Willow Shade Lane today?"
   - splitPath: Desc
     text: "今日来柳荫巷何事？"
+    translated: "What brought you to Willow Shade Alley today?"
   - splitPath: DescTw
     text: "今日來柳蔭巷何事？"
+    translated: "What brings you to Willow Shade Lane today?"
 - raw: "{\r\n    \"Key\": 5690200,\r\n    \"DescFinal\": \"湘西沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"湘西没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"湘西沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 5690200
   splits:
   - splitPath: DescFinal
     text: "湘西沒有什麼特別事情發生，如何選擇？"
+    translated: "What happened in Xiangxi was uneventful. What should I choose?"
   - splitPath: Desc
     text: "湘西没有什么特别事情发生，如何选择？"
+    translated: "Nothing special is happening in Xiangxi. How should I proceed?"
   - splitPath: DescTw
     text: "湘西沒有什麼特別事情發生，如何選擇？"
+    translated: "What happened in Xiangxi was uneventful. What should I choose?"
 - raw: "{\r\n    \"Key\": 6000310,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\"\r\n  }"
   rawIndex: 6000310
   splits:
   - splitPath: DescFinal
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
   - splitPath: Desc
     text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll within the Valley of Devastating Clouds. How do you choose to act?  <color=#FF0000>Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from触发后续完美结局.(建议对全部正道门派进行救援)</color>  Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from triggering any subsequent perfect ending. (It is recommended to rescue all righteous sects.)"
   - splitPath: DescTw
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
 - raw: "{\r\n    \"Key\": 6000410,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\"\r\n  }"
   rawIndex: 6000410
   splits:
   - splitPath: DescFinal
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
   - splitPath: Desc
     text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll within the Valley of Devastating Clouds. How do you choose to act?  <color=#FF0000>Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from触发后续完美结局.(建议对全部正道门派进行救援)</color>  Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from triggering any subsequent perfect ending. (It is recommended to rescue all righteous sects.)"
   - splitPath: DescTw
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
 - raw: "{\r\n    \"Key\": 6000510,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\"\r\n  }"
   rawIndex: 6000510
   splits:
   - splitPath: DescFinal
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
   - splitPath: Desc
     text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll within the Valley of Devastating Clouds. How do you choose to act?  <color=#FF0000>Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from触发后续完美结局.(建议对全部正道门派进行救援)</color>  Note: Choosing to Strive to Escape the Valley of Devastating Clouds will prevent you from triggering any subsequent perfect ending. (It is recommended to rescue all righteous sects.)"
   - splitPath: DescTw
     text: "劫雲谷中雷火滾動，你要如何選擇？\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>"
+    translated: "Rolling thunder and lightning in the Ravage Cloud Valley‑how will you choose to act?  <color=red>Note: Choosing to use all your strength to escape the Ravage Cloud Valley will prevent you from触发后续完美结局.(建议对所有正道门派进行救援)</color>"
 - raw: "{\r\n    \"Key\": 6200210,\r\n    \"DescFinal\": \"正道各派彙集祕魔崖下準備登崖，你有何建議？\",\r\n    \"Desc\": \"正道各派汇集秘魔崖下准备登崖，你有何建议？\",\r\n    \"DescTw\": \"正道各派彙集祕魔崖下準備登崖，你有何建議？\"\r\n  }"
   rawIndex: 6200210
   splits:
   - splitPath: DescFinal
     text: "正道各派彙集祕魔崖下準備登崖，你有何建議？"
+    translated: "The various factions of the Just Path have gathered at the Secret Demon Cliff to prepare for their ascent. What do you suggest we do?"
   - splitPath: Desc
     text: "正道各派汇集秘魔崖下准备登崖，你有何建议？"
+    translated: "The various sects of the righteous path have gathered at the Secret Devil Cliff to prepare for their ascent. What advice do you have?"
   - splitPath: DescTw
     text: "正道各派彙集祕魔崖下準備登崖，你有何建議？"
+    translated: "The various factions of the Just Path have gathered at the Secret Demon Cliff to prepare for their ascent. What do you suggest we do?"
 - raw: "{\r\n    \"Key\": 6390200,\r\n    \"DescFinal\": \"川東沒有什麼特別事情發生，如何選擇？\",\r\n    \"Desc\": \"川东没有什么特别事情发生，如何选择？\",\r\n    \"DescTw\": \"川東沒有什麼特別事情發生，如何選擇？\"\r\n  }"
   rawIndex: 6390200
   splits:
   - splitPath: DescFinal
     text: "川東沒有什麼特別事情發生，如何選擇？"
+    translated: "Since nothing special is happening in Eastern Sichuan, what should I choose?"
   - splitPath: Desc
     text: "川东没有什么特别事情发生，如何选择？"
+    translated: "There's nothing out of the ordinary happening in Eastern Sichuan. What would you like to choose?"
   - splitPath: DescTw
     text: "川東沒有什麼特別事情發生，如何選擇？"
+    translated: "Since nothing special is happening in Eastern Sichuan, what should I choose?"
 - raw: "{\r\n    \"Key\": 6300200,\r\n    \"DescFinal\": \"酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？\",\r\n    \"Desc\": \"酒楼中看到一位姑娘和几位男子拼酒，你选择如何？\",\r\n    \"DescTw\": \"酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？\"\r\n  }"
   rawIndex: 6300200
   splits:
   - splitPath: DescFinal
     text: "酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？"
+    translated: "In the restaurant, you see a Miss and several men having a drinking contest. How do you choose to react?"
   - splitPath: Desc
     text: "酒楼中看到一位姑娘和几位男子拼酒，你选择如何？"
+    translated: "In the tavern, you see a Miss and several men engaged in a drinking contest. How do you choose to react?"
   - splitPath: DescTw
     text: "酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？"
+    translated: "In the restaurant, you see a Miss and several men having a drinking contest. How do you choose to react?"
 - raw: "{\r\n    \"Key\": 6490210,\r\n    \"DescFinal\": \"今日拜訪洗墨山莊何事？\",\r\n    \"Desc\": \"今日拜访洗墨山庄何事？\",\r\n    \"DescTw\": \"今日拜訪洗墨山莊何事？\"\r\n  }"
   rawIndex: 6490210
   splits:
   - splitPath: DescFinal
     text: "今日拜訪洗墨山莊何事？"
+    translated: "Why are you visiting the Xiemo Manor today?"
   - splitPath: Desc
     text: "今日拜访洗墨山庄何事？"
+    translated: "What brings you to visit XiMo Cottage today?"
   - splitPath: DescTw
     text: "今日拜訪洗墨山莊何事？"
+    translated: "Why are you visiting the Xiemo Manor today?"
 - raw: "{\r\n    \"Key\": 6400510,\r\n    \"DescFinal\": \"選擇向談庭玉學習哪一門翰墨技法？\",\r\n    \"Desc\": \"选择向谈庭玉学习哪一门翰墨技法？\",\r\n    \"DescTw\": \"選擇向談庭玉學習哪一門翰墨技法？\"\r\n  }"
   rawIndex: 6400510
   splits:
   - splitPath: DescFinal
     text: "選擇向談庭玉學習哪一門翰墨技法？"
+    translated: "Choose which calligraphic technique to learn from Tan Tingyu?"
   - splitPath: Desc
     text: "选择向谈庭玉学习哪一门翰墨技法？"
+    translated: "Choose which calligraphy technique to learn from Tan Tingyu?"
   - splitPath: DescTw
     text: "選擇向談庭玉學習哪一門翰墨技法？"
+    translated: "Choose which calligraphic technique to learn from Tan Tingyu?"

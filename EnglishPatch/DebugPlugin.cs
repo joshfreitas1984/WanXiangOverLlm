@@ -24,7 +24,7 @@ internal class DebugPlugin : BaseUnityPlugin
 
     private const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
     private const string DumpFolderName = "dumpeddata";
-    private const string PatchFolderName = "resources";
+    private const string PatchFolderName = "english";
 
     public static bool DumpEnabled = true;
 

@@ -23,8 +23,8 @@ internal class DebugPlugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
 
     private const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
-    private const string DumpFolderName = "dumped_data";
-    private const string PatchFolderName = "EnglishPatch";
+    private const string DumpFolderName = "dumpeddata";
+    private const string PatchFolderName = "resources";
 
     public static bool DumpEnabled = true;
 
@@ -103,7 +103,7 @@ internal class DebugPlugin : BaseUnityPlugin
 
     private static void ExportChineseText((string Name, Type Type)[] dataTypes)
     {
-        var dumpPath = Path.Combine(BepInEx.Paths.PluginPath, DumpFolderName);
+        var dumpPath = Path.Combine(Paths.BepInExRootPath, DumpFolderName);
         Directory.CreateDirectory(dumpPath);
 
         foreach (var (name, type) in dataTypes)
@@ -173,7 +173,7 @@ internal class DebugPlugin : BaseUnityPlugin
 
     private static void MergeTranslations((string Name, Type Type)[] dataTypes)
     {
-        var patchPath = Path.Combine(BepInEx.Paths.PluginPath, PatchFolderName);
+        var patchPath = Path.Combine(Paths.BepInExRootPath, PatchFolderName);
         if (!Directory.Exists(patchPath))
         {
             Logger.LogInfo("No translation folder found, skipping merge");

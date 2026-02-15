@@ -15,12 +15,23 @@ public class TextResizerTests
     const string workingDirectory = "../../../../Files";
 
     [Fact] // Can only be run when VS is running in admin
-    public void CreateSymlinkToResizer()
+    public void CreateSymlinks()
     {
-        var inputFolder = $"{workingDirectory}/Resizers";
+        // DumpedData
+        var inputFolder = $"{workingDirectory}/Raw/Dumped";
         inputFolder = Path.GetFullPath(inputFolder);
-        var outputFolder = @"C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\BepInEx\resizers";
+        var outputFolder = $"{TranslationWorkflowTests.GameFolder}/BepInEx/dumpeddata";
+        SymLinkFolder(inputFolder, outputFolder);
 
+        // Resizers
+        inputFolder = $"{workingDirectory}/Resizers";
+        inputFolder = Path.GetFullPath(inputFolder);
+        outputFolder = $"{TranslationWorkflowTests.GameFolder}/BepInEx/resizers";
+        SymLinkFolder(inputFolder, outputFolder);
+    }
+
+    private static void SymLinkFolder(string inputFolder, string outputFolder)
+    {
         if (Directory.Exists(outputFolder))
         {
             Console.WriteLine("Output folder already exists. Deleting it...");
@@ -49,7 +60,7 @@ public class TextResizerTests
             Console.WriteLine("Success: " + output);
         if (!string.IsNullOrEmpty(error))
             throw new Exception("Error: " + error);
-    }
+    }   
 
     [Fact]
     public void ReserializeResizerTest()

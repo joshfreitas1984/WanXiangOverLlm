@@ -1,0 +1,110 @@
+[
+  {
+    "Key": 0,
+    "NameFinal": "封穴",
+    "DescFinal": "我方阻止1人行動，敵方隨機阻止1次行動",
+    "AttackDescFinal": "<color=#00ff00>封穴</color>阻止對方行動",
+    "Name": "封穴",
+    "Desc": "我方阻止1人行动，敌方随机阻止1次行动",
+    "AttackDesc": "<color=#00ff00>封穴</color>阻止对方行动",
+    "NameTw": "封穴",
+    "DescTw": "我方阻止1人行動，敵方隨機阻止1次行動",
+    "AttackDescTw": "<color=#00ff00>封穴</color>阻止對方行動"
+  },
+  {
+    "Key": 1,
+    "NameFinal": "輕傷",
+    "DescFinal": "攻擊、防禦降低20%",
+    "Name": "轻伤",
+    "Desc": "攻击、防御降低20%",
+    "NameTw": "輕傷",
+    "DescTw": "攻擊、防禦降低20%"
+  },
+  {
+    "Key": 2,
+    "NameFinal": "中毒",
+    "DescFinal": "每輪損失當前氣血5%",
+    "AttackDescFinal": "<color=#00ff00>毒</color>造成傷害",
+    "Name": "中毒",
+    "Desc": "每轮损失当前气血5%",
+    "AttackDesc": "<color=#00ff00>毒</color>造成伤害",
+    "NameTw": "中毒",
+    "DescTw": "每輪損失當前氣血5%",
+    "AttackDescTw": "<color=#00ff00>毒</color>造成傷害"
+  },
+  {
+    "Key": 3,
+    "NameFinal": "絕脈",
+    "DescFinal": "消失時損失當前氣血20%，再次使用回合數增加",
+    "AttackDescFinal": "<color=#00ff00>絕脈</color>造成傷害",
+    "Name": "绝脉",
+    "Desc": "消失时损失当前气血20%，再次使用回合数增加",
+    "AttackDesc": "<color=#00ff00>绝脉</color>造成伤害",
+    "NameTw": "絕脈",
+    "DescTw": "消失時損失當前氣血20%，再次使用回合數增加",
+    "AttackDescTw": "<color=#00ff00>絕脈</color>造成傷害"
+  },
+  {
+    "Key": 4,
+    "NameFinal": "禁療",
+    "DescFinal": "回春無效",
+    "AttackDescFinal": "<color=#00ff00>禁療</color>狀態，無法回覆",
+    "Name": "禁疗",
+    "Desc": "回春无效",
+    "AttackDesc": "<color=#00ff00>禁疗</color>状态，无法回复",
+    "NameTw": "禁療",
+    "DescTw": "回春無效",
+    "AttackDescTw": "<color=#00ff00>禁療</color>狀態，無法回覆"
+  },
+  {
+    "Key": 5,
+    "NameFinal": "失神",
+    "DescFinal": "無法行動，受到攻擊時傷害翻倍、狀態解除",
+    "AttackDescFinal": "<color=#00ff00>失神</color>中，無法行動",
+    "Name": "失神",
+    "Desc": "无法行动，受到攻击时伤害翻倍、状态解除",
+    "AttackDesc": "<color=#00ff00>失神</color>中，无法行动",
+    "NameTw": "失神",
+    "DescTw": "無法行動，受到攻擊時傷害翻倍、狀態解除",
+    "AttackDescTw": "<color=#00ff00>失神</color>中，無法行動"
+  },
+  {
+    "Key": 6,
+    "NameFinal": "力竭",
+    "DescFinal": "行動力回覆減少1",
+    "Name": "力竭",
+    "Desc": "行动力回复减少1",
+    "NameTw": "力竭",
+    "DescTw": "行動力回覆減少1"
+  },
+  {
+    "Key": 7,
+    "NameFinal": "重傷",
+    "DescFinal": "攻擊、防禦降低35%",
+    "Name": "重伤",
+    "Desc": "攻击、防御降低35%",
+    "NameTw": "重傷",
+    "DescTw": "攻擊、防禦降低35%"
+  },
+  {
+    "Key": 8,
+    "NameFinal": "驚神",
+    "DescFinal": "無法行動，受到攻擊時傷害翻倍、狀態解除",
+    "AttackDescFinal": "<color=#00ff00>驚神</color>中，無法行動",
+    "Name": "惊神",
+    "Desc": "无法行动，受到攻击时伤害翻倍、状态解除",
+    "AttackDesc": "<color=#00ff00>惊神</color>中，无法行动",
+    "NameTw": "驚神",
+    "DescTw": "無法行動，受到攻擊時傷害翻倍、狀態解除",
+    "AttackDescTw": "<color=#00ff00>驚神</color>中，無法行動"
+  },
+  {
+    "Key": 9,
+    "NameFinal": "致命",
+    "DescFinal": "攻擊、防禦降低50%",
+    "Name": "致命",
+    "Desc": "攻击、防御降低50%",
+    "NameTw": "致命",
+    "DescTw": "攻擊、防禦降低50%"
+  }
+]

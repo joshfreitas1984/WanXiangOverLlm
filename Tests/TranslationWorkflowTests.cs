@@ -8,7 +8,7 @@ namespace Translate.Tests;
 public class TranslationWorkflowTests
 {
     public const string WorkingDirectory = "../../../../Files";
-    public const string GameFolder = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\LegendOfMortal";
+    public const string GameFolder = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\wanxiang\\wanxiang\\";
 
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()

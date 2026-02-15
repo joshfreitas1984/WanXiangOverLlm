@@ -1,8 +1,8 @@
-﻿# Legend of Mortal English Patch
+﻿# Wan Xiang English Patch
 
 Install guide:
 
-Extract the [Latest Release](https://github.com/joshfreitas1984/LegendOfMortalOverLlm/releases) into your `<Game Folder>` folder where Mortal.exe is.
+Extract the [Latest Release](https://github.com/joshfreitas1984/WanXiangOverLlm/releases) into your `<Game Folder>` folder where WXQXZ.exe is.
 
 # Contacting us
 

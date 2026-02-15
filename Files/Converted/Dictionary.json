@@ -108,7 +108,7 @@
   splits:
   - splitPath: DescFinal
     text: "俠客介面無俠客提示"
-    translated: "The侠客界面没有侠客提示翻译为：The侠客 interface does not have any侠客 prompts"
+    translated: "The侠客界面没有侠客提示"
   - splitPath: DictionaryFinal
     text: "尚未招募"
     translated: "Not yet recruited"
@@ -120,7 +120,7 @@
     translated: "Not yet recruited"
   - splitPath: DescTw
     text: "俠客介面無俠客提示"
-    translated: "The侠客界面没有侠客提示翻译为：The侠客 interface does not have any侠客 prompts"
+    translated: "The侠客界面没有侠客提示"
   - splitPath: DictionaryTw
     text: "尚未招募"
     translated: "Not yet recruited"
@@ -885,7 +885,7 @@
     translated: "Defense"
   - splitPath: DictionaryFinal
     text: "點選施展戰術“防禦”，消耗1點行動力"
-    translated: "Select the战术 防御 to activate, consuming 1 action points."
+    translated: "Click to activate the tactic Defense, consuming 1 action points."
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
@@ -897,7 +897,7 @@
     translated: "Defense"
   - splitPath: DictionaryTw
     text: "點選施展戰術“防禦”，消耗1點行動力"
-    translated: "Select the战术 防御 to activate, consuming 1 action points."
+    translated: "Click to activate the tactic Defense, consuming 1 action points."
 - raw: "{\r\n    \"Key\": 55,\r\n    \"DescFinal\": \"結束回合\",\r\n    \"DictionaryFinal\": \"結束玩家回合，切換為敵方行動\",\r\n    \"Desc\": \"结束回合\",\r\n    \"Dictionary\": \"结束玩家回合，切换为敌方行动\",\r\n    \"DescTw\": \"結束回合\",\r\n    \"DictionaryTw\": \"結束玩家回合，切換為敵方行動\"\r\n  }"
   rawIndex: 55
   splits:
@@ -1011,19 +1011,19 @@
     translated: "Reverse Damage (do not modify line breaks)"
   - splitPath: DictionaryFinal
     text: "\\n反傷"
-    translated: "Counter伤害  The term 反伤 typically refers to a game mechanic where damage is inflicted upon the attacker. In this context, Counter伤害 accurately conveys that meaning in English."
+    translated: "Counter Damage"
   - splitPath: Desc
     text: "反伤（不要删换行符）"
     translated: "Regeneration Reverse (do not remove line breaks)"
   - splitPath: Dictionary
     text: "\\n反伤"
-    translated: "Backstabbing"
+    translated: "Counter Damage"
   - splitPath: DescTw
     text: "反傷（不要刪換行符）"
     translated: "Reverse Damage (do not modify line breaks)"
   - splitPath: DictionaryTw
     text: "\\n反傷"
-    translated: "Counter伤害  The term 反伤 typically refers to a game mechanic where damage is inflicted upon the attacker. In this context, Counter伤害 accurately conveys that meaning in English."
+    translated: "Counter Damage"
 - raw: "{\r\n    \"Key\": 70,\r\n    \"DictionaryFinal\": \"隊伍中至少有1人\",\r\n    \"Dictionary\": \"队伍中至少有1人\",\r\n    \"DictionaryTw\": \"隊伍中至少有1人\"\r\n  }"
   rawIndex: 70
   splits:
@@ -1137,13 +1137,13 @@
   splits:
   - splitPath: DictionaryFinal
     text: "\\n\\n獲取功法獎勵\\n{0}"
-    translated: "Gain Skill Reward  {0}"
+    translated: "Acquire Skill Reward  {0}"
   - splitPath: Dictionary
     text: "\\n\\n获取功法奖励\\n{0}"
-    translated: "Acquire Skill Proficiency Rewards  {0}"
+    translated: "Acquire Skill Method Reward  {0}"
   - splitPath: DictionaryTw
     text: "\\n\\n獲取功法獎勵\\n{0}"
-    translated: "Gain Skill Reward  {0}"
+    translated: "Acquire Skill Reward  {0}"
 - raw: "{\r\n    \"Key\": 82,\r\n    \"DictionaryFinal\": \"鎖定該天賦需消耗點數{0}\",\r\n    \"Dictionary\": \"锁定该天赋需消耗点数{0}\",\r\n    \"DictionaryTw\": \"鎖定該天賦需消耗點數{0}\"\r\n  }"
   rawIndex: 82
   splits:
@@ -1272,7 +1272,7 @@
     translated: "粉碎阴谋 {0}   Destroy the conspiracy {0}"
   - splitPath: Dictionary
     text: "粉碎阴谋 {0}"
-    translated: "粉碎阴谋 to destroy conspiracies"
+    translated: "粉碎阴谋 to crush the plot"
   - splitPath: DictionaryTw
     text: "粉碎陰謀 {0}"
     translated: "粉碎阴谋 {0}   Destroy the conspiracy {0}"
@@ -1404,7 +1404,7 @@
     translated: "It is recommended to experience this feature after the eighth year of gameplay."
   - splitPath: Dictionary
     text: "\\n建议在游戏进行到第八年之后再体验此功能。"
-    translated: "I suggest experiencing this feature only after the game has progressed into its ninth year."
+    translated: "It is recommended to experience this feature after the game progresses into its eighth year."
   - splitPath: DictionaryTw
     text: "\\n建議在遊戲進行到第八年之後再體驗此功能。"
     translated: "It is recommended to experience this feature after the eighth year of gameplay."
@@ -3321,7 +3321,7 @@
   splits:
   - splitPath: DescFinal
     text: "賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用"
-    translated: "Gambling Master (≥160) Unlocked: When a劫数appears in this round, you can convert the劫数into a幸运值to avoid having all points cleared. This ability can only be used once per game, and it cannot be used while in孤注一擲status."
+    translated: "Master of Gambling Techniques≥160) Unlocked: When a Critical Fortune appears in this round, you can convert it into a Lucky Turn, avoiding the points being reset. This ability can only be used once per match, and cannot be used when in a Last Chance state."
   - splitPath: DictionaryFinal
     text: "顛倒乾坤"
     translated: "Invert Heaven and Earth"
@@ -3333,7 +3333,7 @@
     translated: "Invert Heaven and Earth"
   - splitPath: DescTw
     text: "賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用"
-    translated: "Gambling Master (≥160) Unlocked: When a劫数appears in this round, you can convert the劫数into a幸运值to avoid having all points cleared. This ability can only be used once per game, and it cannot be used while in孤注一擲status."
+    translated: "Master of Gambling Techniques≥160) Unlocked: When a Critical Fortune appears in this round, you can convert it into a Lucky Turn, avoiding the points being reset. This ability can only be used once per match, and cannot be used when in a Last Chance state."
   - splitPath: DictionaryTw
     text: "顛倒乾坤"
     translated: "Invert Heaven and Earth"
@@ -3981,7 +3981,7 @@
   splits:
   - splitPath: DescFinal
     text: "劫數出現概率"
-    translated: "Probability of a劫数appearing"
+    translated: "Chance of encountering a calamity fate"
   - splitPath: DictionaryFinal
     text: "出現概率{0}%"
     translated: "Probability of occurrence {0}%"
@@ -3993,7 +3993,7 @@
     translated: "Probability of occurrence {0}%"
   - splitPath: DescTw
     text: "劫數出現概率"
-    translated: "Probability of a劫数appearing"
+    translated: "Chance of encountering a calamity fate"
   - splitPath: DictionaryTw
     text: "出現概率{0}%"
     translated: "Probability of occurrence {0}%"
@@ -4170,13 +4170,13 @@
   splits:
   - splitPath: DictionaryFinal
     text: "{0}(賭術{1}可通殺）"
-    translated: "{0}, gambling skills can be versatile"
+    translated: "{0}, gambling skills can be versatile and applicable in various situations."
   - splitPath: Dictionary
     text: "{0}(赌术{1}可通杀）"
     translated: "{0} (the gambling skills {1} can be universally effective)"
   - splitPath: DictionaryTw
     text: "{0}(賭術{1}可通殺）"
-    translated: "{0}, gambling skills can be versatile"
+    translated: "{0}, gambling skills can be versatile and applicable in various situations."
 - raw: "{\r\n    \"Key\": 10305,\r\n    \"DictionaryFinal\": \"賭局已經開始，不能通殺了\",\r\n    \"Dictionary\": \"赌局已经开始，不能通杀了\",\r\n    \"DictionaryTw\": \"賭局已經開始，不能通殺了\"\r\n  }"
   rawIndex: 10305
   splits:
@@ -4206,25 +4206,25 @@
   splits:
   - splitPath: DictionaryFinal
     text: "勾選此選項後，將隱藏俠客，只顯示寶物"
-    translated: "Check this option to hide the侠客 and display items only."
+    translated: "Check this option to hide the侠客 and only display the treasures."
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏侠客，只显示宝物"
     translated: "Check this option to hide the Wanderer and display treasures only."
   - splitPath: DictionaryTw
     text: "勾選此選項後，將隱藏俠客，只顯示寶物"
-    translated: "Check this option to hide the侠客 and display items only."
+    translated: "Check this option to hide the侠客 and only display the treasures."
 - raw: "{\r\n    \"Key\": 10308,\r\n    \"DictionaryFinal\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏已解锁的侠客、宝物。\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\"\r\n  }"
   rawIndex: 10308
   splits:
   - splitPath: DictionaryFinal
     text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
-    translated: "Check this option to hide unlocked侠客 and宝物"
+    translated: "Check this option to hide unlocked侠客 and treasures."
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏已解锁的侠客、宝物。"
     translated: "Check this option to hide unlocked wanderers and treasures."
   - splitPath: DictionaryTw
     text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
-    translated: "Check this option to hide unlocked侠客 and宝物"
+    translated: "Check this option to hide unlocked侠客 and treasures."
 - raw: "{\r\n    \"Key\": 90000,\r\n    \"DictionaryFinal\": \"全部\",\r\n    \"Dictionary\": \"全部\",\r\n    \"DictionaryTw\": \"全部\"\r\n  }"
   rawIndex: 90000
   splits:

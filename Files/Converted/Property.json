@@ -270,19 +270,22 @@
     translated: "Morality"
   - splitPath: DescFinal
     text: "反映角色的行事立場，影響事件的觸發與走向。\\n十大惡人事件、天魔教陰謀事件、寧王陰謀事件、六扇門緝捕任務都會增加道德。"
-    translated: "Reflecting a character's actions and stance will influence the triggering and progression of events. The Ten Evil Men event, the Heaven Demon Sect conspiracy event, the Prince Ning conspiracy event, and the Six Departments investigation missions will all increase morality."
+    translated: "Reflecting the character's actions and stance will influence the triggering and progression of events. The Ten Evil Men event, the Heavenly Demon Sect conspiracy event, the Prince宁王's conspiracy event, and the Six Doors Investigation Task will all increase moral points."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "道德"
     translated: "Morality"
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。\\n十大恶人事件、天魔教阴谋事件、宁王阴谋事件、六扇门缉捕任务都会增加道德。"
-    translated: "Reflecting a character's actions and stance will influence the triggering and progression of events. The Ten Evils Event, the Heaven Demon Sect Conspiracy Event, the Prince Ning Conspiracy Event, and the Six Sabers Door Arrest Mission will all increase morality."
+    translated: "Reflecting the characters' actions and stances will influence the triggering and progression of events. The Ten Evil Men event, the Heaven Demon Sect conspiracy event, the Prince Ning conspiracy event, and the Six Gentlemen investigation tasks will all increase morality."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "道德"
     translated: "Morality"
   - splitPath: DescTw
     text: "反映角色的行事立場，影響事件的觸發與走向。\\n十大惡人事件、天魔教陰謀事件、寧王陰謀事件、六扇門緝捕任務都會增加道德。"
-    translated: "Reflecting a character's actions and stance will influence the triggering and progression of events. The Ten Evil Men event, the Heaven Demon Sect conspiracy event, the Prince Ning conspiracy event, and the Six Departments investigation missions will all increase morality."
+    translated: "Reflecting the character's actions and stance will influence the triggering and progression of events. The Ten Evil Men event, the Heavenly Demon Sect conspiracy event, the Prince宁王's conspiracy event, and the Six Doors Investigation Task will all increase moral points."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"氣血判斷\",\r\n    \"DescFinal\": \"氣血總數，判斷條件使用，不能通過獎勵表修改\",\r\n    \"Name\": \"气血判断\",\r\n    \"Desc\": \"气血总数，判断条件使用，不能通过奖励表修改\",\r\n    \"NameTw\": \"氣血判斷\",\r\n    \"DescTw\": \"氣血總數，判斷條件使用，不能通過獎勵表修改\"\r\n  }"
   rawIndex: 11
   splits:
@@ -1089,7 +1092,8 @@
     translated: "Righteous martial hero"
   - splitPath: DescFinal
     text: "行俠仗義次數"
-    translated: "次数 of times they have engaged in chivalrous and righteous deeds"
+    translated: "次数 of times practicing chivalry and upholding righteousness"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "行侠仗义"
     translated: "Uphold justice and righteousness"
@@ -1101,7 +1105,8 @@
     translated: "Righteous martial hero"
   - splitPath: DescTw
     text: "行俠仗義次數"
-    translated: "次数 of times they have engaged in chivalrous and righteous deeds"
+    translated: "次数 of times practicing chivalry and upholding righteousness"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 10007,\r\n    \"NameFinal\": \"瀾滄消費\",\r\n    \"DescFinal\": \"在瀾滄國富商處消費額金額\",\r\n    \"Name\": \"澜沧消费\",\r\n    \"Desc\": \"在澜沧国富商处消费额金额\",\r\n    \"NameTw\": \"瀾滄消費\",\r\n    \"DescTw\": \"在瀾滄國富商處消費額金額\"\r\n  }"
   rawIndex: 10007
   splits:
@@ -1404,7 +1409,8 @@
     translated: "Jingxiang Six‑Seal Door Friendly"
   - splitPath: DescFinal
     text: "影響俠客和六扇門的關係"
-    translated: "Influences the relationship between侠客and the Six Gates Bureau."
+    translated: "Influences the relationship between侠客and the Six Doors"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "荆湘六扇门友好"
     translated: "Jin Xiang Six‑Seal Door Friendly"
@@ -1416,7 +1422,8 @@
     translated: "Jingxiang Six‑Seal Door Friendly"
   - splitPath: DescTw
     text: "影響俠客和六扇門的關係"
-    translated: "Influences the relationship between侠客and the Six Gates Bureau."
+    translated: "Influences the relationship between侠客and the Six Doors"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20002,\r\n    \"NameFinal\": \"丐幫友好\",\r\n    \"DescFinal\": \"影響俠客和丐幫的關係\",\r\n    \"Name\": \"丐帮友好\",\r\n    \"Desc\": \"影响侠客和丐帮的关系\",\r\n    \"NameTw\": \"丐幫友好\",\r\n    \"DescTw\": \"影響俠客和丐幫的關係\"\r\n  }"
   rawIndex: 20002
   splits:
@@ -1425,7 +1432,8 @@
     translated: "Beggar Sect is friendly"
   - splitPath: DescFinal
     text: "影響俠客和丐幫的關係"
-    translated: "Influences on the relationship between侠客and Beggar Sect"
+    translated: "Influences on侠客and Beggar Sect's relationship"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "丐帮友好"
     translated: "Friends of the Beggar Sect"
@@ -1437,7 +1445,8 @@
     translated: "Beggar Sect is friendly"
   - splitPath: DescTw
     text: "影響俠客和丐幫的關係"
-    translated: "Influences on the relationship between侠客and Beggar Sect"
+    translated: "Influences on侠客and Beggar Sect's relationship"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20003,\r\n    \"NameFinal\": \"衡山派友好\",\r\n    \"DescFinal\": \"影響俠客和衡山派的關係\",\r\n    \"Name\": \"衡山派友好\",\r\n    \"Desc\": \"影响侠客和衡山派的关系\",\r\n    \"NameTw\": \"衡山派友好\",\r\n    \"DescTw\": \"影響俠客和衡山派的關係\"\r\n  }"
   rawIndex: 20003
   splits:
@@ -1446,7 +1455,8 @@
     translated: "Hengshan Sect is friendly"
   - splitPath: DescFinal
     text: "影響俠客和衡山派的關係"
-    translated: "Influences the relationship between侠客and the Changshan Sect"
+    translated: "Influences the relationship between侠客and the衡山派"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "衡山派友好"
     translated: "Hengshan Sect is friendly"
@@ -1458,7 +1468,8 @@
     translated: "Hengshan Sect is friendly"
   - splitPath: DescTw
     text: "影響俠客和衡山派的關係"
-    translated: "Influences the relationship between侠客and the Changshan Sect"
+    translated: "Influences the relationship between侠客and the衡山派"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20004,\r\n    \"NameFinal\": \"君子莊友好\",\r\n    \"DescFinal\": \"影響俠客和君子莊的關係\",\r\n    \"Name\": \"君子庄友好\",\r\n    \"Desc\": \"影响侠客和君子庄的关系\",\r\n    \"NameTw\": \"君子莊友好\",\r\n    \"DescTw\": \"影響俠客和君子莊的關係\"\r\n  }"
   rawIndex: 20004
   splits:
@@ -1467,7 +1478,8 @@
     translated: "Friendly Master ZHUANG"
   - splitPath: DescFinal
     text: "影響俠客和君子莊的關係"
-    translated: "Influences the relationship between侠客 and 君子庄"
+    translated: "Influences the relationship between侠客 and 君子莊"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "君子庄友好"
     translated: "Jiang Zhaoyou is friendly"
@@ -1479,7 +1491,8 @@
     translated: "Friendly Master ZHUANG"
   - splitPath: DescTw
     text: "影響俠客和君子莊的關係"
-    translated: "Influences the relationship between侠客 and 君子庄"
+    translated: "Influences the relationship between侠客 and 君子莊"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20005,\r\n    \"NameFinal\": \"鐵衣幫友好\",\r\n    \"DescFinal\": \"影響俠客和鐵衣幫的關係\",\r\n    \"Name\": \"铁衣帮友好\",\r\n    \"Desc\": \"影响侠客和铁衣帮的关系\",\r\n    \"NameTw\": \"鐵衣幫友好\",\r\n    \"DescTw\": \"影響俠客和鐵衣幫的關係\"\r\n  }"
   rawIndex: 20005
   splits:
@@ -1488,7 +1501,8 @@
     translated: "Iron Robe Gang Friendly"
   - splitPath: DescFinal
     text: "影響俠客和鐵衣幫的關係"
-    translated: "Affects the relationship between the侠客and the铁衣幫"
+    translated: "Influences the relationship between侠客and Iron Robe Gang"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "铁衣帮友好"
     translated: "Iron Robe Gang is friendly"
@@ -1500,7 +1514,8 @@
     translated: "Iron Robe Gang Friendly"
   - splitPath: DescTw
     text: "影響俠客和鐵衣幫的關係"
-    translated: "Affects the relationship between the侠客and the铁衣幫"
+    translated: "Influences the relationship between侠客and Iron Robe Gang"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20006,\r\n    \"NameFinal\": \"萬壽幫友好\",\r\n    \"DescFinal\": \"影響俠客和萬壽幫的關係\",\r\n    \"Name\": \"万寿帮友好\",\r\n    \"Desc\": \"影响侠客和万寿帮的关系\",\r\n    \"NameTw\": \"萬壽幫友好\",\r\n    \"DescTw\": \"影響俠客和萬壽幫的關係\"\r\n  }"
   rawIndex: 20006
   splits:
@@ -1509,7 +1524,8 @@
     translated: "Wan Shou Gang Friends"
   - splitPath: DescFinal
     text: "影響俠客和萬壽幫的關係"
-    translated: "Influences the relationship between侠客and萬壽幫"
+    translated: "Influences the relationship between the侠客and the万寿帮"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "万寿帮友好"
     translated: "Asura Path Allies"
@@ -1521,7 +1537,8 @@
     translated: "Wan Shou Gang Friends"
   - splitPath: DescTw
     text: "影響俠客和萬壽幫的關係"
-    translated: "Influences the relationship between侠客and萬壽幫"
+    translated: "Influences the relationship between the侠客and the万寿帮"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20007,\r\n    \"NameFinal\": \"永盛鏢局友好\",\r\n    \"DescFinal\": \"影響俠客和永盛鏢局的關係\",\r\n    \"Name\": \"永盛镖局友好\",\r\n    \"Desc\": \"影响侠客和永盛镖局的关系\",\r\n    \"NameTw\": \"永盛鏢局友好\",\r\n    \"DescTw\": \"影響俠客和永盛鏢局的關係\"\r\n  }"
   rawIndex: 20007
   splits:
@@ -1530,7 +1547,8 @@
     translated: "EverProsper Escort Bureau's Friendly Relations"
   - splitPath: DescFinal
     text: "影響俠客和永盛鏢局的關係"
-    translated: "The relationship between the侠客 and the永盛镖局 has been influenced."
+    translated: "The relationship between the侠客 and the永盛镖局 has been affected."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "永盛镖局友好"
     translated: "Yongsheng Escort Office Friendly"
@@ -1542,7 +1560,8 @@
     translated: "EverProsper Escort Bureau's Friendly Relations"
   - splitPath: DescTw
     text: "影響俠客和永盛鏢局的關係"
-    translated: "The relationship between the侠客 and the永盛镖局 has been influenced."
+    translated: "The relationship between the侠客 and the永盛镖局 has been affected."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20008,\r\n    \"NameFinal\": \"盤蛇谷友好\",\r\n    \"DescFinal\": \"影響俠客和盤蛇谷的關係\",\r\n    \"Name\": \"盘蛇谷友好\",\r\n    \"Desc\": \"影响侠客和盘蛇谷的关系\",\r\n    \"NameTw\": \"盤蛇谷友好\",\r\n    \"DescTw\": \"影響俠客和盤蛇谷的關係\"\r\n  }"
   rawIndex: 20008
   splits:
@@ -1551,7 +1570,8 @@
     translated: "Coil Snake Valley Friendly"
   - splitPath: DescFinal
     text: "影響俠客和盤蛇谷的關係"
-    translated: "Influences the relationship between侠客and the Pan Snake Valley."
+    translated: "Influences the relationship between the侠客and the盘蛇谷"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "盘蛇谷友好"
     translated: "Coiling Serpent Valley Friendly"
@@ -1563,7 +1583,8 @@
     translated: "Coil Snake Valley Friendly"
   - splitPath: DescTw
     text: "影響俠客和盤蛇谷的關係"
-    translated: "Influences the relationship between侠客and the Pan Snake Valley."
+    translated: "Influences the relationship between the侠客and the盘蛇谷"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20009,\r\n    \"NameFinal\": \"丐幫忠字舵友好\",\r\n    \"DescFinal\": \"影響俠客和丐幫忠字舵的關係\",\r\n    \"Name\": \"丐帮忠字舵友好\",\r\n    \"Desc\": \"影响侠客和丐帮忠字舵的关系\",\r\n    \"NameTw\": \"丐幫忠字舵友好\",\r\n    \"DescTw\": \"影響俠客和丐幫忠字舵的關係\"\r\n  }"
   rawIndex: 20009
   splits:
@@ -1572,7 +1593,9 @@
     translated: "Beggar Sect Loyalty Ding friendly"
   - splitPath: DescFinal
     text: "影響俠客和丐幫忠字舵的關係"
-    translated: "Influences the relationship between侠客and the 忠字舵 of the 丐幫."
+    translated: "Influencing the relationship between侠客and the 忠字舵 of the 丐幫"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beggar Sect,丐幫,"
   - splitPath: Name
     text: "丐帮忠字舵友好"
     translated: "Asura Path Friends of the Beggar Sect Loyalty Rendezvous"
@@ -1584,7 +1607,9 @@
     translated: "Beggar Sect Loyalty Ding friendly"
   - splitPath: DescTw
     text: "影響俠客和丐幫忠字舵的關係"
-    translated: "Influences the relationship between侠客and the 忠字舵 of the 丐幫."
+    translated: "Influencing the relationship between侠客and the 忠字舵 of the 丐幫"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beggar Sect,丐幫,"
 - raw: "{\r\n    \"Key\": 20010,\r\n    \"NameFinal\": \"嶽麓書院友好\",\r\n    \"DescFinal\": \"影響俠客和嶽麓書院的關係\",\r\n    \"Name\": \"岳麓书院友好\",\r\n    \"Desc\": \"影响侠客和岳麓书院的关系\",\r\n    \"NameTw\": \"嶽麓書院友好\",\r\n    \"DescTw\": \"影響俠客和嶽麓書院的關係\"\r\n  }"
   rawIndex: 20010
   splits:
@@ -1594,6 +1619,7 @@
   - splitPath: DescFinal
     text: "影響俠客和嶽麓書院的關係"
     translated: "Influences the relationship between侠客and the Yue Lu Academy"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "岳麓书院友好"
     translated: "Yue Lu Academy Friendship"
@@ -1606,6 +1632,7 @@
   - splitPath: DescTw
     text: "影響俠客和嶽麓書院的關係"
     translated: "Influences the relationship between侠客and the Yue Lu Academy"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20011,\r\n    \"NameFinal\": \"神農幫友好\",\r\n    \"DescFinal\": \"影響俠客和神農幫的關係\",\r\n    \"Name\": \"神农帮友好\",\r\n    \"Desc\": \"影响侠客和神农帮的关系\",\r\n    \"NameTw\": \"神農幫友好\",\r\n    \"DescTw\": \"影響俠客和神農幫的關係\"\r\n  }"
   rawIndex: 20011
   splits:
@@ -1615,6 +1642,7 @@
   - splitPath: DescFinal
     text: "影響俠客和神農幫的關係"
     translated: "Influences the relationship between侠客and神农幫"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "神农帮友好"
     translated: "God Farmer Gang is friendly"
@@ -1627,6 +1655,7 @@
   - splitPath: DescTw
     text: "影響俠客和神農幫的關係"
     translated: "Influences the relationship between侠客and神农幫"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20012,\r\n    \"NameFinal\": \"六合幫友好\",\r\n    \"DescFinal\": \"影響俠客和六合幫的關係\",\r\n    \"Name\": \"六合帮友好\",\r\n    \"Desc\": \"影响侠客和六合帮的关系\",\r\n    \"NameTw\": \"六合幫友好\",\r\n    \"DescTw\": \"影響俠客和六合幫的關係\"\r\n  }"
   rawIndex: 20012
   splits:
@@ -1635,7 +1664,8 @@
     translated: "Sixfold Alliance Gang is friendly"
   - splitPath: DescFinal
     text: "影響俠客和六合幫的關係"
-    translated: "Influences the relationship between the侠客and the 六合幫"
+    translated: "Influences the relationship between侠客and the六合幫"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "六合帮友好"
     translated: "Six‑Fold Alliance Gang is friendly"
@@ -1647,7 +1677,8 @@
     translated: "Sixfold Alliance Gang is friendly"
   - splitPath: DescTw
     text: "影響俠客和六合幫的關係"
-    translated: "Influences the relationship between the侠客and the 六合幫"
+    translated: "Influences the relationship between侠客and the六合幫"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20013,\r\n    \"NameFinal\": \"掛錘莊友好\",\r\n    \"DescFinal\": \"影響俠客和掛錘莊的關係\",\r\n    \"Name\": \"挂锤庄友好\",\r\n    \"Desc\": \"影响侠客和挂锤庄的关系\",\r\n    \"NameTw\": \"掛錘莊友好\",\r\n    \"DescTw\": \"影響俠客和掛錘莊的關係\"\r\n  }"
   rawIndex: 20013
   splits:
@@ -1656,7 +1687,8 @@
     translated: "Friendly Hanghammer Manor"
   - splitPath: DescFinal
     text: "影響俠客和掛錘莊的關係"
-    translated: "Influences the relationship between the侠客and the挂锤庄"
+    translated: "Influences the relationship between the侠客and the挂錘庄"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "挂锤庄友好"
     translated: "Hang Chui Zhuang is friendly"
@@ -1668,7 +1700,8 @@
     translated: "Friendly Hanghammer Manor"
   - splitPath: DescTw
     text: "影響俠客和掛錘莊的關係"
-    translated: "Influences the relationship between the侠客and the挂锤庄"
+    translated: "Influences the relationship between the侠客and the挂錘庄"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20014,\r\n    \"NameFinal\": \"福慶班友好\",\r\n    \"DescFinal\": \"影響俠客和福慶班的關係\",\r\n    \"Name\": \"福庆班友好\",\r\n    \"Desc\": \"影响侠客和福庆班的关系\",\r\n    \"NameTw\": \"福慶班友好\",\r\n    \"DescTw\": \"影響俠客和福慶班的關係\"\r\n  }"
   rawIndex: 20014
   splits:
@@ -1677,7 +1710,8 @@
     translated: "Friendly Alliance of Fuqing Gang"
   - splitPath: DescFinal
     text: "影響俠客和福慶班的關係"
-    translated: "Influences the relationship between the侠客and the福慶班"
+    translated: "Influences the relationship between侠客and福慶班"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "福庆班友好"
     translated: "Fuqing Battalion Friendly"
@@ -1689,7 +1723,8 @@
     translated: "Friendly Alliance of Fuqing Gang"
   - splitPath: DescTw
     text: "影響俠客和福慶班的關係"
-    translated: "Influences the relationship between the侠客and the福慶班"
+    translated: "Influences the relationship between侠客and福慶班"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 20015,\r\n    \"NameFinal\": \"洗墨山莊友好\",\r\n    \"DescFinal\": \"影響俠客和洗墨山莊的關係\",\r\n    \"Name\": \"洗墨山庄友好\",\r\n    \"Desc\": \"影响侠客和洗墨山庄的关系\",\r\n    \"NameTw\": \"洗墨山莊友好\",\r\n    \"DescTw\": \"影響俠客和洗墨山莊的關係\"\r\n  }"
   rawIndex: 20015
   splits:
@@ -1698,7 +1733,8 @@
     translated: "Ximo Mountain Villa Friendly"
   - splitPath: DescFinal
     text: "影響俠客和洗墨山莊的關係"
-    translated: "Influences the relationship between the侠客and the 洗墨山庄"
+    translated: "Affecting the relationship between侠客and the Xizhemanshan Residence"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "洗墨山庄友好"
     translated: "Ximo Shangzhou Friendly"
@@ -1710,7 +1746,8 @@
     translated: "Ximo Mountain Villa Friendly"
   - splitPath: DescTw
     text: "影響俠客和洗墨山莊的關係"
-    translated: "Influences the relationship between the侠客and the 洗墨山庄"
+    translated: "Affecting the relationship between侠客and the Xizhemanshan Residence"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29980,\r\n    \"NameFinal\": \"司徒伶好感\",\r\n    \"DescFinal\": \"影響俠客和司徒伶的關係\",\r\n    \"Name\": \"司徒伶好感\",\r\n    \"Desc\": \"影响侠客和司徒伶的关系\",\r\n    \"NameTw\": \"司徒伶好感\",\r\n    \"DescTw\": \"影響俠客和司徒伶的關係\"\r\n  }"
   rawIndex: 29980
   splits:
@@ -1741,6 +1778,7 @@
   - splitPath: DescFinal
     text: "影響俠客和薛如意的關係"
     translated: "Influences the relationship between侠客and 薛如意"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "薛如意好感"
     translated: "Xue Ruyi's Favorability"
@@ -1753,6 +1791,7 @@
   - splitPath: DescTw
     text: "影響俠客和薛如意的關係"
     translated: "Influences the relationship between侠客and 薛如意"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29982,\r\n    \"NameFinal\": \"鍾離雪好感\",\r\n    \"DescFinal\": \"影響俠客和鍾離雪的關係\",\r\n    \"Name\": \"钟离雪好感\",\r\n    \"Desc\": \"影响侠客和钟离雪的关系\",\r\n    \"NameTw\": \"鍾離雪好感\",\r\n    \"DescTw\": \"影響俠客和鍾離雪的關係\"\r\n  }"
   rawIndex: 29982
   splits:
@@ -1761,7 +1800,8 @@
     translated: "Zhongli Xue's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和鍾離雪的關係"
-    translated: "Influences the relationship between侠客 and Zhongli Xue"
+    translated: "Influences the relationship between侠客and 鍾離雪"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "钟离雪好感"
     translated: "Clock Li Snow Favorability"
@@ -1773,7 +1813,8 @@
     translated: "Zhongli Xue's Favorability"
   - splitPath: DescTw
     text: "影響俠客和鍾離雪的關係"
-    translated: "Influences the relationship between侠客 and Zhongli Xue"
+    translated: "Influences the relationship between侠客and 鍾離雪"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29983,\r\n    \"NameFinal\": \"風間月好感\",\r\n    \"DescFinal\": \"影響俠客和風間月的關係\",\r\n    \"Name\": \"风间月好感\",\r\n    \"Desc\": \"影响侠客和风间月的关系\",\r\n    \"NameTw\": \"風間月好感\",\r\n    \"DescTw\": \"影響俠客和風間月的關係\"\r\n  }"
   rawIndex: 29983
   splits:
@@ -1782,7 +1823,8 @@
     translated: "Feng Jian Yue's Goodwill"
   - splitPath: DescFinal
     text: "影響俠客和風間月的關係"
-    translated: "Influences on the relationship between侠客and 风间月"
+    translated: "Influences on the relationship between侠客and 風間月"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "风间月好感"
     translated: "Moon Month's Favorability"
@@ -1794,7 +1836,8 @@
     translated: "Feng Jian Yue's Goodwill"
   - splitPath: DescTw
     text: "影響俠客和風間月的關係"
-    translated: "Influences on the relationship between侠客and 风间月"
+    translated: "Influences on the relationship between侠客and 風間月"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29984,\r\n    \"NameFinal\": \"風間愛好感\",\r\n    \"DescFinal\": \"影響俠客和風間愛的關係\",\r\n    \"Name\": \"风间爱好感\",\r\n    \"Desc\": \"影响侠客和风间爱的关系\",\r\n    \"NameTw\": \"風間愛好感\",\r\n    \"DescTw\": \"影響俠客和風間愛的關係\"\r\n  }"
   rawIndex: 29984
   splits:
@@ -1824,7 +1867,8 @@
     translated: "Zhan Qingfeng's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和展青鋒的關係"
-    translated: "Influences the relationship between侠客 and Zhuang Qingfeng"
+    translated: "Influences the relationship between侠客 and Zhuan Qingfeng"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "展青锋好感"
     translated: "Zhan Qingfeng's Favorability"
@@ -1836,7 +1880,8 @@
     translated: "Zhan Qingfeng's Favorability"
   - splitPath: DescTw
     text: "影響俠客和展青鋒的關係"
-    translated: "Influences the relationship between侠客 and Zhuang Qingfeng"
+    translated: "Influences the relationship between侠客 and Zhuan Qingfeng"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29986,\r\n    \"NameFinal\": \"艾琳娜好感\",\r\n    \"DescFinal\": \"影響俠客和艾琳娜的關係\",\r\n    \"Name\": \"艾琳娜好感\",\r\n    \"Desc\": \"影响侠客和艾琳娜的关系\",\r\n    \"NameTw\": \"艾琳娜好感\",\r\n    \"DescTw\": \"影響俠客和艾琳娜的關係\"\r\n  }"
   rawIndex: 29986
   splits:
@@ -1845,7 +1890,7 @@
     translated: "Arianna's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和艾琳娜的關係"
-    translated: "Influences the relationship between the侠客 and 艾琳娜"
+    translated: "Affecting Xiake and Ayirina's relationship"
   - splitPath: Name
     text: "艾琳娜好感"
     translated: "Arianna's Favorability"
@@ -1857,7 +1902,7 @@
     translated: "Arianna's Favorability"
   - splitPath: DescTw
     text: "影響俠客和艾琳娜的關係"
-    translated: "Influences the relationship between the侠客 and 艾琳娜"
+    translated: "Affecting Xiake and Ayirina's relationship"
 - raw: "{\r\n    \"Key\": 29987,\r\n    \"NameFinal\": \"蕭令儀好感\",\r\n    \"DescFinal\": \"影響俠客和蕭令儀的關係\",\r\n    \"Name\": \"萧令仪好感\",\r\n    \"Desc\": \"影响侠客和萧令仪的关系\",\r\n    \"NameTw\": \"蕭令儀好感\",\r\n    \"DescTw\": \"影響俠客和蕭令儀的關係\"\r\n  }"
   rawIndex: 29987
   splits:
@@ -1866,7 +1911,8 @@
     translated: "Xiao Lingyi's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和蕭令儀的關係"
-    translated: "Influences the relationship between侠客 and Xiao Lingyi"
+    translated: "Influences the relationship between the侠客 and Xiao Lingyi."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "萧令仪好感"
     translated: "Xiao Lingyi's Favorability"
@@ -1878,7 +1924,8 @@
     translated: "Xiao Lingyi's Favorability"
   - splitPath: DescTw
     text: "影響俠客和蕭令儀的關係"
-    translated: "Influences the relationship between侠客 and Xiao Lingyi"
+    translated: "Influences the relationship between the侠客 and Xiao Lingyi."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29988,\r\n    \"NameFinal\": \"夏侯珺好感\",\r\n    \"DescFinal\": \"影響俠客和夏侯珺的關係\",\r\n    \"Name\": \"夏侯珺好感\",\r\n    \"Desc\": \"影响侠客和夏侯珺的关系\",\r\n    \"NameTw\": \"夏侯珺好感\",\r\n    \"DescTw\": \"影響俠客和夏侯珺的關係\"\r\n  }"
   rawIndex: 29988
   splits:
@@ -1887,7 +1934,8 @@
     translated: "Xiahou Jun's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和夏侯珺的關係"
-    translated: "Affects the relationship between侠客 and 夏侯珺"
+    translated: "Affecting the relationship between the侠客 and 夏侯珺"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "夏侯珺好感"
     translated: "Xiahou Jun's Favorability"
@@ -1899,7 +1947,8 @@
     translated: "Xiahou Jun's Favorability"
   - splitPath: DescTw
     text: "影響俠客和夏侯珺的關係"
-    translated: "Affects the relationship between侠客 and 夏侯珺"
+    translated: "Affecting the relationship between the侠客 and 夏侯珺"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29989,\r\n    \"NameFinal\": \"文錦心好感\",\r\n    \"DescFinal\": \"影響俠客和文素心的關係\",\r\n    \"Name\": \"文锦心好感\",\r\n    \"Desc\": \"影响侠客和文素心的关系\",\r\n    \"NameTw\": \"文錦心好感\",\r\n    \"DescTw\": \"影響俠客和文素心的關係\"\r\n  }"
   rawIndex: 29989
   splits:
@@ -1908,7 +1957,8 @@
     translated: "Wen Jinxin's Favorability Increased"
   - splitPath: DescFinal
     text: "影響俠客和文素心的關係"
-    translated: "Influences the relationship between侠客 and 文素心"
+    translated: "The relationship between侠客 (xi ke) and 文素心 (wen su xin) is influenced by various factors."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "文锦心好感"
     translated: "Wen Jinxin's Favorability"
@@ -1920,7 +1970,8 @@
     translated: "Wen Jinxin's Favorability Increased"
   - splitPath: DescTw
     text: "影響俠客和文素心的關係"
-    translated: "Influences the relationship between侠客 and 文素心"
+    translated: "The relationship between侠客 (xi ke) and 文素心 (wen su xin) is influenced by various factors."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29990,\r\n    \"NameFinal\": \"柳含煙好感\",\r\n    \"DescFinal\": \"影響俠客和柳含煙的關係\",\r\n    \"Name\": \"柳含烟好感\",\r\n    \"Desc\": \"影响侠客和柳含烟的关系\",\r\n    \"NameTw\": \"柳含煙好感\",\r\n    \"DescTw\": \"影響俠客和柳含煙的關係\"\r\n  }"
   rawIndex: 29990
   splits:
@@ -1929,7 +1980,8 @@
     translated: "Liu Hanshan's Favorability Increased"
   - splitPath: DescFinal
     text: "影響俠客和柳含煙的關係"
-    translated: "Influences the relationship between the侠客and柳含煙"
+    translated: "Influences the relationship between the侠客 and 柳含煙"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "柳含烟好感"
     translated: "Liu Hanshan's Favorability"
@@ -1941,7 +1993,8 @@
     translated: "Liu Hanshan's Favorability Increased"
   - splitPath: DescTw
     text: "影響俠客和柳含煙的關係"
-    translated: "Influences the relationship between the侠客and柳含煙"
+    translated: "Influences the relationship between the侠客 and 柳含煙"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29991,\r\n    \"NameFinal\": \"邱靈素好感\",\r\n    \"DescFinal\": \"影響俠客和邱靈素的關係\",\r\n    \"Name\": \"邱灵素好感\",\r\n    \"Desc\": \"影响侠客和邱灵素的关系\",\r\n    \"NameTw\": \"邱靈素好感\",\r\n    \"DescTw\": \"影響俠客和邱靈素的關係\"\r\n  }"
   rawIndex: 29991
   splits:
@@ -1992,7 +2045,8 @@
     translated: "Shen Rongrong Favorability"
   - splitPath: DescFinal
     text: "影響俠客和沈蓉蓉的關係"
-    translated: "Affecting the relationship between侠客 and Shen Rongrong"
+    translated: "Influences the relationship between侠客 and Shen Rongrong"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "沈蓉蓉好感"
     translated: "Shen Rongrong Favorability"
@@ -2004,7 +2058,8 @@
     translated: "Shen Rongrong Favorability"
   - splitPath: DescTw
     text: "影響俠客和沈蓉蓉的關係"
-    translated: "Affecting the relationship between侠客 and Shen Rongrong"
+    translated: "Influences the relationship between侠客 and Shen Rongrong"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29994,\r\n    \"NameFinal\": \"靳紅衣好感\",\r\n    \"DescFinal\": \"影響俠客和靳紅衣的關係\",\r\n    \"Name\": \"靳红衣好感\",\r\n    \"Desc\": \"影响侠客和靳红衣的关系\",\r\n    \"NameTw\": \"靳紅衣好感\",\r\n    \"DescTw\": \"影響俠客和靳紅衣的關係\"\r\n  }"
   rawIndex: 29994
   splits:
@@ -2014,6 +2069,7 @@
   - splitPath: DescFinal
     text: "影響俠客和靳紅衣的關係"
     translated: "Influences the relationship between侠客and靳红衣"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "靳红衣好感"
     translated: "Jin Hongyi's Favorability"
@@ -2026,6 +2082,7 @@
   - splitPath: DescTw
     text: "影響俠客和靳紅衣的關係"
     translated: "Influences the relationship between侠客and靳红衣"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29995,\r\n    \"NameFinal\": \"晏蛾眉好感\",\r\n    \"DescFinal\": \"影響俠客和晏蛾眉的關係\",\r\n    \"Name\": \"晏蛾眉好感\",\r\n    \"Desc\": \"影响侠客和晏蛾眉的关系\",\r\n    \"NameTw\": \"晏蛾眉好感\",\r\n    \"DescTw\": \"影響俠客和晏蛾眉的關係\"\r\n  }"
   rawIndex: 29995
   splits:
@@ -2034,7 +2091,8 @@
     translated: "Yan Meimian's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和晏蛾眉的關係"
-    translated: "Influences the relationship between侠客and 晏蛾眉"
+    translated: "Influences the relationship between侠客and Yan Egui"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "晏蛾眉好感"
     translated: "Yan Meimian's Favorability"
@@ -2046,7 +2104,8 @@
     translated: "Yan Meimian's Favorability"
   - splitPath: DescTw
     text: "影響俠客和晏蛾眉的關係"
-    translated: "Influences the relationship between侠客and 晏蛾眉"
+    translated: "Influences the relationship between侠客and Yan Egui"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29996,\r\n    \"NameFinal\": \"左靈珠好感\",\r\n    \"DescFinal\": \"影響俠客和左靈珠的關係\",\r\n    \"Name\": \"左灵珠好感\",\r\n    \"Desc\": \"影响侠客和左灵珠的关系\",\r\n    \"NameTw\": \"左靈珠好感\",\r\n    \"DescTw\": \"影響俠客和左靈珠的關係\"\r\n  }"
   rawIndex: 29996
   splits:
@@ -2076,7 +2135,8 @@
     translated: "Ruan Biqing's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和阮碧青的關係"
-    translated: "Influences the relationship between侠客 and 阮碧青"
+    translated: "Influences the relationship between侠客and 阮碧青"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "阮碧青好感"
     translated: "Ruan Biqing's Favorability"
@@ -2088,7 +2148,8 @@
     translated: "Ruan Biqing's Favorability"
   - splitPath: DescTw
     text: "影響俠客和阮碧青的關係"
-    translated: "Influences the relationship between侠客 and 阮碧青"
+    translated: "Influences the relationship between侠客and 阮碧青"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29998,\r\n    \"NameFinal\": \"項欺霜好感\",\r\n    \"DescFinal\": \"影響俠客和項欺霜的關係\",\r\n    \"Name\": \"项欺霜好感\",\r\n    \"Desc\": \"影响侠客和项欺霜的关系\",\r\n    \"NameTw\": \"項欺霜好感\",\r\n    \"DescTw\": \"影響俠客和項欺霜的關係\"\r\n  }"
   rawIndex: 29998
   splits:
@@ -2098,6 +2159,7 @@
   - splitPath: DescFinal
     text: "影響俠客和項欺霜的關係"
     translated: "Influences the relationship between侠客 and 项欺霜"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "项欺霜好感"
     translated: "Yang Qishuang's Favorability"
@@ -2110,6 +2172,7 @@
   - splitPath: DescTw
     text: "影響俠客和項欺霜的關係"
     translated: "Influences the relationship between侠客 and 项欺霜"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 29999,\r\n    \"NameFinal\": \"楊芸好感\",\r\n    \"DescFinal\": \"影響俠客和楊芸的關係\",\r\n    \"Name\": \"杨芸好感\",\r\n    \"Desc\": \"影响侠客和杨芸的关系\",\r\n    \"NameTw\": \"楊芸好感\",\r\n    \"DescTw\": \"影響俠客和楊芸的關係\"\r\n  }"
   rawIndex: 29999
   splits:
@@ -2118,7 +2181,8 @@
     translated: "Yang Yun's Favorability"
   - splitPath: DescFinal
     text: "影響俠客和楊芸的關係"
-    translated: "Influence on the relationship between侠客 and 杨芸"
+    translated: "Influences the relationship between the侠客 and 杨芸"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "杨芸好感"
     translated: "Yang Yun's Favorability"
@@ -2130,4 +2194,5 @@
     translated: "Yang Yun's Favorability"
   - splitPath: DescTw
     text: "影響俠客和楊芸的關係"
-    translated: "Influence on the relationship between侠客 and 杨芸"
+    translated: "Influences the relationship between the侠客 and 杨芸"
+    flaggedForRetranslation: true

@@ -1,0 +1,196 @@
+# Settings
+- path: Canvas/PopRoot/TitleSettingMenu/SettingPanel/Music/Text (TMP)_1
+  sampleText: Music
+  idealFontSize: 36
+  adjustWidth: 20
+  allowWordWrap: true
+- path: Canvas/PopRoot/TitleSettingMenu/SettingPanel/Voice/Text (TMP)_1
+  sampleText: Sound effects
+  idealFontSize: 36
+  adjustWidth: 20
+  allowWordWrap: true
+- path: Canvas/PopRoot/TitleSettingMenu/MainPanel/Box/Text (TMP)
+  sampleText: Settings
+  idealFontSize: 32
+  adjustWidth: -15
+  adjustX: 5
+  allowWordWrap: true
+
+# Endings
+- path: Canvas/PopRoot/EndingMenu/Scroll View/Viewport/Content/EndingItem(Clone)/EndingName
+  sampleText: Master of Medicine
+  idealFontSize: 20
+  adjustWidth: 100
+  allowWordWrap: true
+
+# Encyclopedia
+- path: Canvas/PopRoot/AtlasMenu/MainButtons/*/Text (TMP)
+  sampleText: Core Principles of Cultivation Technique
+  idealFontSize: 24
+  allowWordWrap: true
+- path: Canvas/PopRoot/AtlasMenu/MainPanel/Image/Text (TMP)
+  sampleText: Bestiary
+  idealFontSize: 32
+  adjustWidth: -30
+  allowWordWrap: true
+
+# Wanderer
+- path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/HeroCards/Scroll View/Viewport/Heros/LockedHero(Clone)/Hero/CardNameImg_1/CardName
+  sampleText: Close female friend
+  idealFontSize: 18
+  adjustWidth: 150
+  adjustX: -0
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/HeroCards/Scroll View/Viewport/Heros/LockedHero(Clone)/Hero/Text (TMP)
+  sampleText: Qiuling Suzhi
+  idealFontSize: 40
+  adjustWidth: 150
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/Bg/Text (TMP)
+  sampleText: Wanderer
+  idealFontSize: 40
+  adjustWidth: -30
+  adjustY: -10
+  allowWordWrap: true
+
+# Cultivation
+- path: Canvas/PopRoot/SkillAtlasMenu/DropDown/*/*Text (TMP)
+  sampleText: Effect Filtering of Cultivation Technique
+  idealFontSize: 24
+  allowWordWrap: true
+- path: Canvas/PopRoot/SkillAtlasMenu/MainPanel/Bg/Text (TMP)
+  sampleText: Cultivation method
+  idealFontSize: 22
+  adjustWidth: 120
+  allowWordWrap: true
+
+# Factions
+- path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Groups/Scroll View/Viewport/Groups/GroupItem(Clone)/Name
+  sampleText: Jingxiang Six Palms Sect
+  idealFontSize: 34
+  adjustWidth: 150
+  adjustX: 40
+  allowWordWrap: true
+- path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Groups/Scroll View/Viewport/Groups/GroupItem(Clone)/Lock/Text
+  sampleText: Located in Baleng City of Fuzhou Prefecture in Xiangbei, Iron‑Face Judge You Buer leads the six gates of justice for Jingxiang. He is responsible for managing cases involving Jianghu individuals within the Jingxiang region. Known for his uprightness and hatred of evil, You Buer always puts himself at risk by confronting criminals first. Throughout the year, he rarely stays long in the Six Gates Office.
+  idealFontSize: 16
+  adjustY: 10
+  allowWordWrap: true
+- path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Bg/Text (TMP)
+  sampleText: Faction
+  idealFontSize: 40
+  adjustWidth: -40
+  adjustY: -10
+  allowWordWrap: true
+
+# Achievements
+- path: Canvas/PopRoot/AchievementMenu/Text (TMP)
+  sampleText: Achievement
+  idealFontSize: 34
+  adjustWidth: -50
+  adjustY: -10
+  allowWordWrap: true
+
+- path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/Name
+  sampleText: Entering the Jianghu
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/LockText
+  sampleText: <color=#ffffff>(Unlocked)</color>
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/TalentText
+  sampleText: 'Unlock Talent:'
+  idealFontSize: 26
+  allowWordWrap: true
+
+- path: Canvas/ToolTip/ToolTipRoot/Image/Title
+  sampleText: Entering the Jianghu
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/TalentText/Talent
+  sampleText: Calf at heel
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/NoTalentGo/NoTalentText
+  sampleText: 解锁天赋：  无
+  idealFontSize: 26
+  allowWordWrap: true
+
+# Save game
+- path: Canvas/PopRoot/LoadMenu/MainPanel/Text (TMP)
+  sampleText: Load save game
+  idealFontSize: 34
+  adjustWidth: 50
+  adjustY: -10
+  allowWordWrap: true
+
+# New Character
+- path: Canvas/PopRoot/CreateMenu/HeroBox/RedPointToggle/Text (TMP)
+  sampleText: Red dot indicator
+  idealFontSize: 30
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/HideAtlasTipToggle/Text (TMP)
+  sampleText: Close Strategy Guide
+  idealFontSize: 30
+  allowWordWrap: true
+
+- path: Canvas/PopRoot/CreateMenu/HeroBox/HeroName
+  sampleText: Wang
+  idealFontSize: 120
+  adjustWidth: 300
+  adjustX: 100
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/TotalPoint
+  sampleText: Total Points
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/TotalPoint/Text (TMP)
+  sampleText: 1Click
+  idealFontSize: 30
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/Radar/NameContainer/Text (TMP)*
+  sampleText: Resilience
+  idealFontSize: 26
+  adjustWidth: 100
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/Radar/ValueContainer/*
+  sampleText: 21
+  idealFontSize: 26
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/Scroll View/Viewport/Talents/Talent*/name
+  sampleText: Love is stronger than steel
+  idealFontSize: 20
+  adjustY: -16
+  allowWordWrap: true
+
+- path: Canvas/PopRoot/CreateMenu/Bg/Text (TMP)
+  sampleText: Create
+  idealFontSize: 34
+  adjustWidth: -50
+  adjustY: -10
+- path: Canvas/PopRoot/CreateMenu/HeroBox/TalentTitleText_1/CountText_1
+  sampleText: 6/6
+  idealFontSize: 28
+  adjustX: 50
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/HeroBox/TalentTitleText_1
+  sampleText: 'Optional Talents:'
+  idealFontSize: 28
+  allowWordWrap: true
+
+- path: Canvas/PopRoot/CreateMenu/Talent/Talents/Scroll View/Viewport/Items/TalentSelectItem(Clone)/Name
+  sampleText: Love is stronger than steel
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 100
+- path: Canvas/PopRoot/CreateMenu/Talent/Talents/Scroll View/Viewport/Items/TalentSelectItem(Clone)/Desc
+  sampleText: Every unlocked Red Enclave Companion increases your Lifeforce +5000
+  idealFontSize: 16
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/Talent/MainPanel/Box/Text (TMP)
+  sampleText: Talent
+  idealFontSize: 34
+  adjustWidth: -50
+  adjustX: 14
+  allowWordWrap: true

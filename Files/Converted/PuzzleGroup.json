@@ -69,7 +69,7 @@
     translated: "Weng Hezhong's Delicious Cuisine"
   - splitPath: PuzzleFinal
     text: "臘味合蒸是哪裡的美食？"
-    translated: "What is腊味合蒸a dish from?"
+    translated: "La wei he zheng is a dish from Guangdong cuisine."
   - splitPath: Name
     text: "翁和仲美食"
     translated: "Weng Hezhong's Delicious Cuisine"
@@ -81,7 +81,7 @@
     translated: "Weng Hezhong's Delicious Cuisine"
   - splitPath: PuzzleTw
     text: "臘味合蒸是哪裡的美食？"
-    translated: "What is腊味合蒸a dish from?"
+    translated: "La wei he zheng is a dish from Guangdong cuisine."
 - raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"子龍脫袍是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"子龙脱袍是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"子龍脫袍是哪裡的美食？\"\r\n  }"
   rawIndex: 4
   splits:
@@ -96,7 +96,7 @@
     translated: "Weng Hezhong's Delicious Cuisine"
   - splitPath: Puzzle
     text: "子龙脱袍是哪里的美食？"
-    translated: "子龙脱袍 is a phrase from Chinese wuxia literature and does not refer to any specific food. It is named after a scene or event in the novel rather than describing an actual dish. Therefore, there is no particular cuisine associated with 子龙脱袍."
+    translated: "Zhuge Longtou taking off his robe is a culinary delight from where?"
   - splitPath: NameTw
     text: "翁和仲美食"
     translated: "Weng Hezhong's Delicious Cuisine"
@@ -489,7 +489,7 @@
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleFinal
     text: "“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點"
-    translated: "Qi shi guan tong, shi zhuan tui chei, hua fan wei jian is a characteristic of草书 (caoshu) calligraphy."
+    translated: "Qi shi guan tong, shi zhuan tiao ce, hua fan wei jian is a characteristic of calligraphy in the style known as running script or xingshu."
   - splitPath: Name
     text: "东庐考题"
     translated: "Eastern Altar Exam Questions"
@@ -501,7 +501,7 @@
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleTw
     text: "“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點"
-    translated: "Qi shi guan tong, shi zhuan tui chei, hua fan wei jian is a characteristic of草书 (caoshu) calligraphy."
+    translated: "Qi shi guan tong, shi zhuan tiao ce, hua fan wei jian is a characteristic of calligraphy in the style known as running script or xingshu."
 - raw: "{\r\n    \"Key\": 32,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\"\r\n  }"
   rawIndex: 32
   splits:
@@ -511,18 +511,21 @@
   - splitPath: PuzzleFinal
     text: "“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點"
     translated: "筆畫流暢, 字形圓轉, 尚婉而通 is a characteristic of cursive script (草书)."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "东庐考题"
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点"
-    translated: "Pen strokes are fluid, characters are round and flowing, still elegant and open describes the characteristics of Running Script (Xing Shu) in Chinese calligraphy."
+    translated: "Pen strokes fluid, characters rounded and flowing, still gentle yet open describes the characteristics of Regular Script (Kaishu) in Chinese calligraphy."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "東廬考題"
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleTw
     text: "“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點"
     translated: "筆畫流暢, 字形圓轉, 尚婉而通 is a characteristic of cursive script (草书)."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 33,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“结构严谨、重心平稳、用笔规矩”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\"\r\n  }"
   rawIndex: 33
   splits:
@@ -531,19 +534,22 @@
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleFinal
     text: "“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點"
-    translated: "Structured rigorously, centered stably, with regulated brushwork are the characteristics of Regular Script (Kaishu) calligraphy."
+    translated: "Structured rigorously, centered steadily, with proper brushwork are the characteristics of Regular Script (楷书/kaishu in Chinese)."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "东庐考题"
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "“结构严谨、重心平稳、用笔规矩”是哪种书法的特点"
-    translated: "Structure is rigorous, centering is steady, and brushwork is proper describes the characteristics of Regular Script (Kai Shi) in Chinese calligraphy."
+    translated: "Structured and rigorous in composition, steady in center of gravity, with proper brushwork is a characteristic of Regular Script (楷书) in Chinese calligraphy."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "東廬考題"
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleTw
     text: "“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點"
-    translated: "Structured rigorously, centered stably, with regulated brushwork are the characteristics of Regular Script (Kaishu) calligraphy."
+    translated: "Structured rigorously, centered steadily, with proper brushwork are the characteristics of Regular Script (楷书/kaishu in Chinese)."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 34,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔势生动、横平竖直、波磔分明”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\"\r\n  }"
   rawIndex: 34
   splits:
@@ -552,19 +558,22 @@
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleFinal
     text: "“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點"
-    translated: "筆勢生動,橫平豎直,波磔分明 is a description of the characteristics of Regular Script (楷书 or 楷书 in Pinyin). This script emphasizes clear and distinct strokes, balanced horizontal and vertical lines, and dynamic brush movements."
+    translated: "筆勢生動,橫平豎直,波磔分明 is a characteristic of regular script (楷书 or 楷書) in Chinese calligraphy."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "东庐考题"
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "“笔势生动、横平竖直、波磔分明”是哪种书法的特点"
-    translated: "Pen movements lively, horizontal strokes even, vertical strokes upright, and strokes with clear fluctuations describes the characteristics of Regular Script (Kaishu) in Chinese calligraphy."
+    translated: "Pen strokes lively, horizontal and vertical lines clear, and the waves and splits distinct is a characteristic of Regular Script (Kaishu)."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "東廬考題"
     translated: "East Monastery Examination Questions"
   - splitPath: PuzzleTw
     text: "“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點"
-    translated: "筆勢生動,橫平豎直,波磔分明 is a description of the characteristics of Regular Script (楷书 or 楷书 in Pinyin). This script emphasizes clear and distinct strokes, balanced horizontal and vertical lines, and dynamic brush movements."
+    translated: "筆勢生動,橫平豎直,波磔分明 is a characteristic of regular script (楷书 or 楷書) in Chinese calligraphy."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 35,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《曹全碑》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《曹全碑》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《曹全碑》是哪種書法形式的代表作？\"\r\n  }"
   rawIndex: 35
   splits:
@@ -867,7 +876,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "誰是豪放派代表人物？"
-    translated: "Who are the representative figures of the豪放派 (hao fang pai) school?"
+    translated: "Who are the representative figures of the豪放派 (hao fang pai) school in literature?"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
@@ -879,7 +889,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "誰是豪放派代表人物？"
-    translated: "Who are the representative figures of the豪放派 (hao fang pai) school?"
+    translated: "Who are the representative figures of the豪放派 (hao fang pai) school in literature?"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 52,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是豪放派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是豪放派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是豪放派代表人物？\"\r\n  }"
   rawIndex: 52
   splits:
@@ -888,7 +899,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "誰是豪放派代表人物？"
-    translated: "Who are the representative figures of the豪放派 (hao fang pai) school?"
+    translated: "Who are the representative figures of the豪放派 (hao fang pai) school in literature?"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
@@ -900,7 +912,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "誰是豪放派代表人物？"
-    translated: "Who are the representative figures of the豪放派 (hao fang pai) school?"
+    translated: "Who are the representative figures of the豪放派 (hao fang pai) school in literature?"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 53,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是婉約派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是婉约派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是婉約派代表人物？\"\r\n  }"
   rawIndex: 53
   splits:
@@ -972,19 +985,22 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "《將進酒》是誰的代表作？"
-    translated: "将进酒 is a representative work of Li Bai."
+    translated: "将进酒 is a famous poem by Li Bai."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《将进酒》是谁的代表作？"
-    translated: "将进酒 is a famous poem by Li Bai."
+    translated: "将进酒 is a representative work of Li Bai."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "南坡考題"
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "《將進酒》是誰的代表作？"
-    translated: "将进酒 is a representative work of Li Bai."
+    translated: "将进酒 is a famous poem by Li Bai."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 57,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《長門賦》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《长门赋》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《長門賦》是誰的代表作？\"\r\n  }"
   rawIndex: 57
   splits:
@@ -1035,7 +1051,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "《青玉案·元夕》是誰的代表作？"
-    translated: "青玉案·元夕 is a well‑known ci poem by the Song Dynasty poet 蔣捷 (Ji Xie)."
+    translated: "青玉案·元夕 is a well‑known poem by Li Qingzhao."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
@@ -1047,7 +1064,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "《青玉案·元夕》是誰的代表作？"
-    translated: "青玉案·元夕 is a well‑known ci poem by the Song Dynasty poet 蔣捷 (Ji Xie)."
+    translated: "青玉案·元夕 is a well‑known poem by Li Qingzhao."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 60,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《念奴嬌·赤壁懷古》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《念奴娇·赤壁怀古》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《念奴嬌·赤壁懷古》是誰的代表作？\"\r\n  }"
   rawIndex: 60
   splits:
@@ -1098,7 +1116,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "《如夢令·昨夜雨疏風驟》是誰的代表作？"
-    translated: "如夢令·昨夜雨疏風驟 is a well‑known line from the poem Ru Meng Ling: Last Night, Sparse Rain, Strong Wind by Emei Jushi (Yi Shi)."
+    translated: "如夢令·昨夜雨疏風驟 is a famous line from the poet 李清照 (Li Qingzhao)."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
@@ -1110,7 +1129,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "《如夢令·昨夜雨疏風驟》是誰的代表作？"
-    translated: "如夢令·昨夜雨疏風驟 is a well‑known line from the poem Ru Meng Ling: Last Night, Sparse Rain, Strong Wind by Emei Jushi (Yi Shi)."
+    translated: "如夢令·昨夜雨疏風驟 is a famous line from the poet 李清照 (Li Qingzhao)."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 63,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"“豪迈放纵，气象恢弘”是哪一派的风格？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\"\r\n  }"
   rawIndex: 63
   splits:
@@ -1125,7 +1145,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "“豪迈放纵，气象恢弘”是哪一派的风格？"
-    translated: "Magnanimous and unrestrained, grand in scale and spirit is the style of the Xiangqi派 (Wuxia School)."
+    translated: "Magnanimous and unrestrained, majestic and grand is the style of which school?"
   - splitPath: NameTw
     text: "南坡考題"
     translated: "South Slope Exam Questions"
@@ -1140,7 +1160,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleFinal
     text: "“辭情醞藉，婉轉細膩”是哪一派的風格？"
-    translated: "辭情醞藉,婉轉細膩 is the style of the Soft School."
+    translated: "辭情醞藉,婉轉細膩 is the style of the Soft and Flowing School."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "南坡考题"
     translated: "Southern Slope Exam Questions"
@@ -1152,7 +1173,8 @@
     translated: "South Slope Exam Questions"
   - splitPath: PuzzleTw
     text: "“辭情醞藉，婉轉細膩”是哪一派的風格？"
-    translated: "辭情醞藉,婉轉細膩 is the style of the Soft School."
+    translated: "辭情醞藉,婉轉細膩 is the style of the Soft and Flowing School."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 65,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是李白的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是李白的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是李白的代表作？\"\r\n  }"
   rawIndex: 65
   splits:
@@ -1266,7 +1288,7 @@
     translated: "North Village Entrance Exam"
   - splitPath: PuzzleFinal
     text: "坤卦代表什麼？"
-    translated: "The Kun卦 represents the Earth. It symbolizes receptiveness, yielding, and nurturing qualities in Chinese philosophy."
+    translated: "The Kun hexagram represents the earth"
   - splitPath: Name
     text: "北村考题"
     translated: "North Village Exam Question"
@@ -1278,7 +1300,7 @@
     translated: "North Village Entrance Exam"
   - splitPath: PuzzleTw
     text: "坤卦代表什麼？"
-    translated: "The Kun卦 represents the Earth. It symbolizes receptiveness, yielding, and nurturing qualities in Chinese philosophy."
+    translated: "The Kun hexagram represents the earth"
 - raw: "{\r\n    \"Key\": 73,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"離卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"离卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"離卦代表什麼？\"\r\n  }"
   rawIndex: 73
   splits:
@@ -1728,19 +1750,22 @@
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleFinal
     text: "三人同日去，百花齊爭豔。（打一字）"
-    translated: "三 человек пошли вместе, и все цветы зацвели ярко. (打一字)  Solution: 光  Translation: The solution is 光 (guang), which means light. In this context, it can be interpreted as all the flowers blooming together making everything bright and clear."
+    translated: "Three go together on one day, a hundred flowers vie in splendor. (Guess one Chinese character)  The answer is: 明  Explanation: ‑ 三人 means three people ‑ 同日去 means they all leave or travel on the same day ‑ 百花齊爭豔 means many flowers compete in beauty ‑ The character that fits this description is 明, which can mean clear, bright, or enlightened. In this context, it suggests something that is both numerous and brilliant, like a multitude of flowers blooming brightly."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "橘州灯会"
     translated: "Juzhou Lantern Festival"
   - splitPath: Puzzle
     text: "三人同日去，百花齐争艳。（打一字）"
-    translated: "Three together on a day, myriad flowers vie in beauty. (Guess one character)   The answer is: 众  Explanation: 三人 means three people, and when they are together on the same day (同日), it forms the character 众, which means many or myriad. The phrase 百花齐争艳 describes myriad flowers vying in beauty, which fits the context of 众."
+    translated: "三人同日去,百花齐争艳.（打一字） translates to Three people go on the same day, and a hundred flowers vie in beauty. (Guess one Chinese character)   The answer is: 明 (ming)  Explanation:  ‑ 三 (san) means three ‑ 人 (ren) means people ‑ 同日去 (tong ri qu) means on the same day ‑ 百花齐争艳 (bai hua qi zheng yan) means a hundred flowers vie in beauty.  When you combine three people with on the same day, it forms the character 明, which can mean both bright and knowing. The phrase a hundred flowers vie in beauty fits with the character 明 when considering its visual form."
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "橘州燈會"
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleTw
     text: "三人同日去，百花齊爭豔。（打一字）"
-    translated: "三 человек пошли вместе, и все цветы зацвели ярко. (打一字)  Solution: 光  Translation: The solution is 光 (guang), which means light. In this context, it can be interpreted as all the flowers blooming together making everything bright and clear."
+    translated: "Three go together on one day, a hundred flowers vie in splendor. (Guess one Chinese character)  The answer is: 明  Explanation: ‑ 三人 means three people ‑ 同日去 means they all leave or travel on the same day ‑ 百花齊爭豔 means many flowers compete in beauty ‑ The character that fits this description is 明, which can mean clear, bright, or enlightened. In this context, it suggests something that is both numerous and brilliant, like a multitude of flowers blooming brightly."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"远看山有色，近听水无声，春去花还在，人来鸟不惊。（打一物）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\"\r\n  }"
   rawIndex: 102
   splits:
@@ -1854,19 +1879,22 @@
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleFinal
     text: "半部春秋（打一字）"
-    translated: "半部春秋打一字：卯"
+    translated: "半部春秋 (打一字)  Answer: 部"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "橘州灯会"
     translated: "Juzhou Lantern Festival"
   - splitPath: Puzzle
     text: "半部春秋（打一字）"
-    translated: "半部春秋打一字：卯"
+    translated: "半部春秋 (打一字)  Answer: 部"
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "橘州燈會"
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleTw
     text: "半部春秋（打一字）"
-    translated: "半部春秋打一字：卯"
+    translated: "半部春秋 (打一字)  Answer: 部"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 108,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"一箭穿心（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"一箭穿心（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"一箭穿心（打一字）\"\r\n  }"
   rawIndex: 108
   splits:
@@ -1875,19 +1903,22 @@
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleFinal
     text: "一箭穿心（打一字）"
-    translated: "穿"
+    translated: "Stabbed (打一字: 戳)"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "橘州灯会"
     translated: "Juzhou Lantern Festival"
   - splitPath: Puzzle
     text: "一箭穿心（打一字）"
-    translated: "穿"
+    translated: "Stabbed (打一字: 戳)"
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "橘州燈會"
     translated: "Orange State Lantern Festival"
   - splitPath: PuzzleTw
     text: "一箭穿心（打一字）"
-    translated: "穿"
+    translated: "Stabbed (打一字: 戳)"
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 121,\r\n    \"NameFinal\": \"燈會定情\",\r\n    \"PuzzleFinal\": \"雖有十張口，只有一顆心（打一字）\",\r\n    \"Name\": \"灯会定情\",\r\n    \"Puzzle\": \"虽有十张口，只有一颗心（打一字）\",\r\n    \"NameTw\": \"燈會定情\",\r\n    \"PuzzleTw\": \"雖有十張口，只有一顆心（打一字）\"\r\n  }"
   rawIndex: 121
   splits:
@@ -1896,16 +1927,19 @@
     translated: "Lantern Festival Proposal"
   - splitPath: PuzzleFinal
     text: "雖有十張口，只有一顆心（打一字）"
-    translated: "虽有十张口，只有一颗心（打一字）   Answer: 朋"
+    translated: "虽有十张口,只有一颗心(打一字：言)"
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "灯会定情"
     translated: "Lantern Festival Proposal"
   - splitPath: Puzzle
     text: "虽有十张口，只有一颗心（打一字）"
-    translated: "十口同心"
+    translated: "十口减一，剩下九口，代表晶字"
+    flaggedForRetranslation: true
   - splitPath: NameTw
     text: "燈會定情"
     translated: "Lantern Festival Proposal"
   - splitPath: PuzzleTw
     text: "雖有十張口，只有一顆心（打一字）"
-    translated: "虽有十张口，只有一颗心（打一字）   Answer: 朋"
+    translated: "虽有十张口,只有一颗心(打一字：言)"
+    flaggedForRetranslation: true

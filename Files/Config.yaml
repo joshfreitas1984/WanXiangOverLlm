@@ -1,0 +1,30 @@
+﻿apiKey: "None"
+apiKeyRequired: false
+url: "http://localhost:11434/api/chat"
+model: "qwen2.5:7b"
+
+# apiKeyRequired: true
+# url: "https://api.openai.com/v1/chat/completions"
+# model: "gpt-4o-mini"
+
+modelParams:
+  # Qwen3 GGUF local
+  temperature: 0.2
+  #max_tokens: 4096
+  top_p: 0.8
+  top_k: 20
+  min_p: 0.05
+  frequency_penalty: 0
+  presence_penalty: 0
+  num_ctx: 34000
+  
+  # ChatGPT
+  # temperature: 0.2
+  # top_p: 0.9
+  # frequency_penalty: 0
+  # presence_penalty: 0
+retryCount: 1
+batchSize: 10000
+skipLineValidation: true
+correctionPromptsEnabled: false
+translateFlagged: true

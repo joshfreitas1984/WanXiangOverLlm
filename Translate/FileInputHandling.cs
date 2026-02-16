@@ -64,6 +64,12 @@ public class InputFileHandling
                     if (property.Name == "Key")
                         continue;
 
+                    if (property.Name.ToLower().EndsWith("tw"))
+                        continue;
+
+                    if (property.Name.ToLower().EndsWith("final"))
+                        continue;
+
                     if (property.Value.ValueKind == System.Text.Json.JsonValueKind.String)
                     {
                         var text = property.Value.GetString();
@@ -108,31 +114,20 @@ public class InputFileHandling
 
             foreach (var line in exportLines)
             {
-                var found = fileLines.FirstOrDefault(x => x.Raw == line.Raw);
+                var found = fileLines.FirstOrDefault(x => x.RawIndex == line.RawIndex);
                 if (found != null)
                 {
                     foreach (var split in line.Splits)
                     {
-                        var found2 = found.Splits.FirstOrDefault(x => x.Text == split.Text);
-                        if (found2 != null)
-                            split.Translated = found2.Translated;
-                    }
-                }
-                else
-                {
-                    // Try matching on split instead of line incase they changed line format
-                    foreach (var split in line.Splits)
-                    {
-                        var found2 = fileLines
-                            .Select(x => x.Splits.FirstOrDefault(s => s.Text == split.Text))
-                            .FirstOrDefault(s => s != null);
-
+                        var found2 = found.Splits.FirstOrDefault(x => x.SplitPath == split.SplitPath);
                         if (found2 != null)
                             split.Translated = found2.Translated;
                         else
                             newCount++;
                     }
                 }
+                else
+                    newCount++;
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");

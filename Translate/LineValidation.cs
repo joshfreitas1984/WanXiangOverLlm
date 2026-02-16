@@ -270,7 +270,7 @@ public static partial class LineValidation
 
         // Removed characters
         (string raw, string trans)[] checkForRemoval = { 
-            ("·", "·"), 
+            //("·", "·"), 
             //("(", "("),
             //("（", "("), 
             //(")", ")"),

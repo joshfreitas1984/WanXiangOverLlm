@@ -24,7 +24,7 @@ modelParams:
   # frequency_penalty: 0
   # presence_penalty: 0
 retryCount: 1
-batchSize: 10000
+batchSize: 5000
 skipLineValidation: true
 correctionPromptsEnabled: false
 translateFlagged: true

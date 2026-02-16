@@ -81,11 +81,11 @@ public class GlossaryLine
 
         //prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
 
-        prompt.AppendLine($"  - \"{raw}\"");
-        prompt.AppendLine($"    - \"{translated}\"");
+        prompt.AppendLine($"  - raw: \"{raw}\"");
+        prompt.AppendLine($"    - trans: \"{translated}\"");
 
         foreach (var alternative in alternatives ?? [])
-            prompt.AppendLine($"    - \"{alternative}\"");
+            prompt.AppendLine($"    - trans: \"{alternative}\"");
 
         return prompt.ToString();
     }

@@ -480,8 +480,8 @@ public static class TranslationService
             else if (raw.Contains("</color>"))
                 basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
 
-            if (raw.Contains("·"))
-                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);
+            //if (raw.Contains("·"))
+            //    basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);
 
             if (raw.Contains("<"))
             {

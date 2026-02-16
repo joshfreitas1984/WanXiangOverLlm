@@ -178,6 +178,16 @@
   sampleText: 'Optional Talents:'
   idealFontSize: 28
   allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/Talent/Text
+  sampleText: 'Optional Talents:'
+  idealFontSize: 28
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/Talent/CountText
+  sampleText: 3/6
+  idealFontSize: 28
+  adjustX: 50
+  allowWordWrap: true
+
 
 - path: Canvas/PopRoot/CreateMenu/Talent/Talents/Scroll View/Viewport/Items/TalentSelectItem(Clone)/Name
   sampleText: Love is stronger than steel
@@ -193,4 +203,23 @@
   idealFontSize: 34
   adjustWidth: -50
   adjustX: 14
+  allowWordWrap: true
+
+# Difficulty
+- path: Canvas/PopRoot/CreateMenu/Point/MainPanel/Box/Text (TMP)
+  sampleText: Difficulty
+  idealFontSize: 30
+  adjustWidth: -50
+  adjustX: 14
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/Point/Point/Scroll View/Viewport/Items/PointItem(Clone)/Name
+  sampleText: Path of cultivation choice
+  idealFontSize: 22
+  adjustWidth: 70
+  adjustX: 20
+  allowWordWrap: true
+- path: Canvas/PopRoot/CreateMenu/Point/ChooseDiff/*/Text (TMP)
+  sampleText: Easy
+  idealFontSize: 24
+  adjustWidth: 20
   allowWordWrap: true

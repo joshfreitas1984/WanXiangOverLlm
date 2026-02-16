@@ -201,10 +201,12 @@ public class TranslationWorkflowTests
             }
         }
 
-        //// Skip TW for now
-        //if (split.SplitPath.EndsWith("TW"))
+        // Check if all caps and contains multiple letters (avoid flagging "I..." etc.)
+        //if (split.Translated.Count(char.IsLetter) >= 3 && split.Translated == split.Translated.ToUpper())
         //{
-        //    split.SafeToTranslate = false;
+        //    logLines.Add($"All caps {textFile.Path} Replaces: \n{split.Translated}");
+        //    split.FlaggedForRetranslation = true;
+        //    split.FlaggedMistranslation = "All Caps";
         //    return true;
         //}
 

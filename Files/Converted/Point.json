@@ -1,33 +1,15 @@
 - raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"菜刀\",\r\n    \"DescFinal\": \"傷害+2000%，僅簡單難度可用\",\r\n    \"Name\": \"菜刀\",\r\n    \"Desc\": \"伤害+2000%，仅简单难度可用\",\r\n    \"NameTw\": \"菜刀\",\r\n    \"DescTw\": \"傷害+2000%，僅簡單難度可用\"\r\n  }"
   rawIndex: 15
   splits:
-  - splitPath: NameFinal
-    text: "菜刀"
-    translated: "Saber"
-  - splitPath: DescFinal
-    text: "傷害+2000%，僅簡單難度可用"
-    translated: "Damage 0%, only available on simple difficulty"
   - splitPath: Name
     text: "菜刀"
     translated: "Saber"
   - splitPath: Desc
     text: "伤害+2000%，仅简单难度可用"
     translated: "Deal +2000% damage, available only on Simple difficulty."
-  - splitPath: NameTw
-    text: "菜刀"
-    translated: "Saber"
-  - splitPath: DescTw
-    text: "傷害+2000%，僅簡單難度可用"
-    translated: "Damage 0%, only available on simple difficulty"
 - raw: "{\r\n    \"Key\": 16,\r\n    \"NameFinal\": \"修煉選擇\",\r\n    \"DescFinal\": \"在門派修煉時可指定修煉的型別\",\r\n    \"Name\": \"修炼选择\",\r\n    \"Desc\": \"在门派修炼时可指定修炼的类型\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"修煉選擇\",\r\n    \"DescTw\": \"在門派修煉時可指定修煉的型別\"\r\n  }"
   rawIndex: 16
   splits:
-  - splitPath: NameFinal
-    text: "修煉選擇"
-    translated: "Path of Cultivation Choice"
-  - splitPath: DescFinal
-    text: "在門派修煉時可指定修煉的型別"
-    translated: "During sect cultivation, you can specify the type of cultivation."
   - splitPath: Name
     text: "修炼选择"
     translated: "Path of cultivation choice"
@@ -37,42 +19,18 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "修煉選擇"
-    translated: "Path of Cultivation Choice"
-  - splitPath: DescTw
-    text: "在門派修煉時可指定修煉的型別"
-    translated: "During sect cultivation, you can specify the type of cultivation."
 - raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"休息一會\",\r\n    \"DescFinal\": \"門派第三年起可直接休息到下個月\",\r\n    \"Name\": \"休息一会\",\r\n    \"Desc\": \"门派第三年起可直接休息到下个月\",\r\n    \"NameTw\": \"休息一會\",\r\n    \"DescTw\": \"門派第三年起可直接休息到下個月\"\r\n  }"
   rawIndex: 18
   splits:
-  - splitPath: NameFinal
-    text: "休息一會"
-    translated: "Take a rest for a while"
-  - splitPath: DescFinal
-    text: "門派第三年起可直接休息到下個月"
-    translated: "Starting from the third year in the sect, one can directly take a break until the next month."
   - splitPath: Name
     text: "休息一会"
     translated: "Take a rest for a while"
   - splitPath: Desc
     text: "门派第三年起可直接休息到下个月"
     translated: "Starting in the third year of the sect, members can directly rest until the next month."
-  - splitPath: NameTw
-    text: "休息一會"
-    translated: "Take a rest for a while"
-  - splitPath: DescTw
-    text: "門派第三年起可直接休息到下個月"
-    translated: "Starting from the third year in the sect, one can directly take a break until the next month."
 - raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"回合+1\",\r\n    \"DescFinal\": \"加入門派後每月可行動次數+1\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 0
   splits:
-  - splitPath: NameFinal
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescFinal
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
   - splitPath: Name
     text: "回合+1"
     translated: "Round +1"
@@ -82,21 +40,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescTw
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
 - raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"回合+1\",\r\n    \"DescFinal\": \"加入門派後每月可行動次數+1\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 17
   splits:
-  - splitPath: NameFinal
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescFinal
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
   - splitPath: Name
     text: "回合+1"
     translated: "Round +1"
@@ -106,63 +52,27 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescTw
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"行動力+1\",\r\n    \"DescFinal\": \"戰鬥中每回合回覆的行動力+1\",\r\n    \"Name\": \"行动力+1\",\r\n    \"Desc\": \"战斗中每回合回复的行动力+1\",\r\n    \"NameTw\": \"行動力+1\",\r\n    \"DescTw\": \"戰鬥中每回合回覆的行動力+1\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: NameFinal
-    text: "行動力+1"
-    translated: "Action Points +1"
-  - splitPath: DescFinal
-    text: "戰鬥中每回合回覆的行動力+1"
-    translated: "In battle, action points recover each turn for +1."
   - splitPath: Name
     text: "行动力+1"
     translated: "Action Points +1"
   - splitPath: Desc
     text: "战斗中每回合回复的行动力+1"
     translated: "In battle, action points recover each turn by +1."
-  - splitPath: NameTw
-    text: "行動力+1"
-    translated: "Action Points +1"
-  - splitPath: DescTw
-    text: "戰鬥中每回合回覆的行動力+1"
-    translated: "In battle, action points recover each turn for +1."
 - raw: "{\r\n    \"Key\": 22,\r\n    \"NameFinal\": \"天生神力\",\r\n    \"DescFinal\": \"玩家可裝備技能+2\",\r\n    \"Name\": \"天生神力\",\r\n    \"Desc\": \"玩家可装备技能+2\",\r\n    \"NameTw\": \"天生神力\",\r\n    \"DescTw\": \"玩家可裝備技能+2\"\r\n  }"
   rawIndex: 22
   splits:
-  - splitPath: NameFinal
-    text: "天生神力"
-    translated: "Supernatural strength"
-  - splitPath: DescFinal
-    text: "玩家可裝備技能+2"
-    translated: "Players can equip skill +2"
   - splitPath: Name
     text: "天生神力"
     translated: "Supernatural strength"
   - splitPath: Desc
     text: "玩家可装备技能+2"
     translated: "Players can equip skill +2"
-  - splitPath: NameTw
-    text: "天生神力"
-    translated: "Supernatural strength"
-  - splitPath: DescTw
-    text: "玩家可裝備技能+2"
-    translated: "Players can equip skill +2"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -172,21 +82,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -196,21 +94,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 4
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -220,21 +106,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 19,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 19
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -244,21 +118,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 20,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 20
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -268,21 +130,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 21,\r\n    \"NameFinal\": \"天賦槽位+1\",\r\n    \"DescFinal\": \"可以多選擇一個天賦\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 21
   splits:
-  - splitPath: NameFinal
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescFinal
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
   - splitPath: Name
     text: "天赋槽位+1"
     translated: "Talent Point Slot +1"
@@ -292,21 +142,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "天賦槽位+1"
-    translated: "Talent Slot +1"
-  - splitPath: DescTw
-    text: "可以多選擇一個天賦"
-    translated: "You can choose a second talent"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"傷害+10%\",\r\n    \"DescFinal\": \"全體角色的最終傷害+10%\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 5
   splits:
-  - splitPath: NameFinal
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescFinal
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
   - splitPath: Name
     text: "伤害+10%"
     translated: "Damage +10%"
@@ -316,21 +154,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescTw
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
 - raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"傷害+10%\",\r\n    \"DescFinal\": \"全體角色的最終傷害+10%\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 6
   splits:
-  - splitPath: NameFinal
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescFinal
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
   - splitPath: Name
     text: "伤害+10%"
     translated: "Damage +10%"
@@ -340,21 +166,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescTw
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
 - raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"傷害+10%\",\r\n    \"DescFinal\": \"全體角色的最終傷害+10%\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 7
   splits:
-  - splitPath: NameFinal
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescFinal
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
   - splitPath: Name
     text: "伤害+10%"
     translated: "Damage +10%"
@@ -364,21 +178,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescTw
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
 - raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"傷害+10%\",\r\n    \"DescFinal\": \"全體角色的最終傷害+10%\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 8
   splits:
-  - splitPath: NameFinal
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescFinal
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
   - splitPath: Name
     text: "伤害+10%"
     translated: "Damage +10%"
@@ -388,21 +190,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescTw
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
 - raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"傷害+10%\",\r\n    \"DescFinal\": \"全體角色的最終傷害+10%\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 9
   splits:
-  - splitPath: NameFinal
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescFinal
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
   - splitPath: Name
     text: "伤害+10%"
     translated: "Damage +10%"
@@ -412,21 +202,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "傷害+10%"
-    translated: "Damage +10%"
-  - splitPath: DescTw
-    text: "全體角色的最終傷害+10%"
-    translated: "All characters' final damage +10%"
 - raw: "{\r\n    \"Key\": 10,\r\n    \"NameFinal\": \"氣血+10%\",\r\n    \"DescFinal\": \"全體角色的綜合氣血+10%\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 10
   splits:
-  - splitPath: NameFinal
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescFinal
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
   - splitPath: Name
     text: "气血+10%"
     translated: "Lifeforce +10%"
@@ -436,21 +214,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescTw
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
 - raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"氣血+10%\",\r\n    \"DescFinal\": \"全體角色的綜合氣血+10%\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 11
   splits:
-  - splitPath: NameFinal
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescFinal
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
   - splitPath: Name
     text: "气血+10%"
     translated: "Lifeforce +10%"
@@ -460,21 +226,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescTw
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
 - raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"氣血+10%\",\r\n    \"DescFinal\": \"全體角色的綜合氣血+10%\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 12
   splits:
-  - splitPath: NameFinal
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescFinal
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
   - splitPath: Name
     text: "气血+10%"
     translated: "Lifeforce +10%"
@@ -484,21 +238,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescTw
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
 - raw: "{\r\n    \"Key\": 13,\r\n    \"NameFinal\": \"氣血+10%\",\r\n    \"DescFinal\": \"全體角色的綜合氣血+10%\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 13
   splits:
-  - splitPath: NameFinal
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescFinal
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
   - splitPath: Name
     text: "气血+10%"
     translated: "Lifeforce +10%"
@@ -508,21 +250,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescTw
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
 - raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"氣血+10%\",\r\n    \"DescFinal\": \"全體角色的綜合氣血+10%\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 14
   splits:
-  - splitPath: NameFinal
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescFinal
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
   - splitPath: Name
     text: "气血+10%"
     translated: "Lifeforce +10%"
@@ -532,21 +262,9 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "氣血+10%"
-    translated: "Lifeforce +10%"
-  - splitPath: DescTw
-    text: "全體角色的綜合氣血+10%"
-    translated: "The overall lifeforce of all characters +10%"
 - raw: "{\r\n    \"Key\": 23,\r\n    \"NameFinal\": \"回合+1\",\r\n    \"DescFinal\": \"加入門派後每月可行動次數+1\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 23
   splits:
-  - splitPath: NameFinal
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescFinal
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
   - splitPath: Name
     text: "回合+1"
     translated: "Round +1"
@@ -556,72 +274,30 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
-  - splitPath: NameTw
-    text: "回合+1"
-    translated: "Round +1"
-  - splitPath: DescTw
-    text: "加入門派後每月可行動次數+1"
-    translated: "After joining a sect, you can perform actions +1 times per month."
 - raw: "{\r\n    \"Key\": 24,\r\n    \"NameFinal\": \"九流奇功\",\r\n    \"DescFinal\": \"初始可獲得功法九流奇功\",\r\n    \"Name\": \"九流奇功\",\r\n    \"Desc\": \"初始可获得功法九流奇功\",\r\n    \"NameTw\": \"九流奇功\",\r\n    \"DescTw\": \"初始可獲得功法九流奇功\"\r\n  }"
   rawIndex: 24
   splits:
-  - splitPath: NameFinal
-    text: "九流奇功"
-    translated: "Nine Schools of Strange Martial Arts"
-  - splitPath: DescFinal
-    text: "初始可獲得功法九流奇功"
-    translated: "Initial available martial arts techniques include the Nine Weird Powers."
   - splitPath: Name
     text: "九流奇功"
     translated: "Nine Schools of Strange Martial Arts"
   - splitPath: Desc
     text: "初始可获得功法九流奇功"
     translated: "Initial available cultivation techniques include Nine Weird and Wondrous Skills."
-  - splitPath: NameTw
-    text: "九流奇功"
-    translated: "Nine Schools of Strange Martial Arts"
-  - splitPath: DescTw
-    text: "初始可獲得功法九流奇功"
-    translated: "Initial available martial arts techniques include the Nine Weird Powers."
 - raw: "{\r\n    \"Key\": 25,\r\n    \"NameFinal\": \"真武劍訣\",\r\n    \"DescFinal\": \"初始可獲得功法真武劍訣\",\r\n    \"Name\": \"真武剑诀\",\r\n    \"Desc\": \"初始可获得功法真武剑诀\",\r\n    \"NameTw\": \"真武劍訣\",\r\n    \"DescTw\": \"初始可獲得功法真武劍訣\"\r\n  }"
   rawIndex: 25
   splits:
-  - splitPath: NameFinal
-    text: "真武劍訣"
-    translated: "True Martial Sword Technique"
-  - splitPath: DescFinal
-    text: "初始可獲得功法真武劍訣"
-    translated: "Initial available cultivation technique: True Martial Sword Sutra"
   - splitPath: Name
     text: "真武剑诀"
     translated: "True Martial Sword Technique"
   - splitPath: Desc
     text: "初始可获得功法真武剑诀"
     translated: "Initial available cultivation technique: True Martial Sword Art"
-  - splitPath: NameTw
-    text: "真武劍訣"
-    translated: "True Martial Sword Technique"
-  - splitPath: DescTw
-    text: "初始可獲得功法真武劍訣"
-    translated: "Initial available cultivation technique: True Martial Sword Sutra"
 - raw: "{\r\n    \"Key\": 26,\r\n    \"NameFinal\": \"定風波\",\r\n    \"DescFinal\": \"初始可獲得功法定風波\",\r\n    \"Name\": \"定风波\",\r\n    \"Desc\": \"初始可获得功法定风波\",\r\n    \"NameTw\": \"定風波\",\r\n    \"DescTw\": \"初始可獲得功法定風波\"\r\n  }"
   rawIndex: 26
   splits:
-  - splitPath: NameFinal
-    text: "定風波"
-    translated: "Calming Wind Wave"
-  - splitPath: DescFinal
-    text: "初始可獲得功法定風波"
-    translated: "Initial skills available: Gale Wave"
   - splitPath: Name
     text: "定风波"
     translated: "Calming the Furious Waves"
   - splitPath: Desc
     text: "初始可获得功法定风波"
     translated: "Initial available skill: Calm the Waves Fist"
-  - splitPath: NameTw
-    text: "定風波"
-    translated: "Calming Wind Wave"
-  - splitPath: DescTw
-    text: "初始可獲得功法定風波"
-    translated: "Initial skills available: Gale Wave"

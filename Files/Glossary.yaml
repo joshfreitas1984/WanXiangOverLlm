@@ -1,4 +1,19 @@
 ﻿# Terms
+- raw: 繁体中文
+  rawSimplified: 繁体中文
+  rawTraditional: 繁體中文
+  result: Traditional Chinese
+  badtrans: true
+  direct: Complex form Chinese
+  literal: fan ti zhong wen
+- raw: 简体中文
+  rawSimplified: 简体中文
+  rawTraditional: 簡體中文
+  result: Simplified Chinese
+  badtrans: true
+  direct: Simple form Chinese
+  literal: jian ti zhong wen
+
 - raw: 攻击力
   rawSimplified: 攻击力
   rawTraditional: 攻擊力
@@ -459,6 +474,13 @@
   result: Beggar Sect
   direct: Beggar Gang
   literal: Gaibang
+- raw: 恶人谷
+  rawSimplified: 恶人谷
+  rawTraditional: 惡人谷
+  result: Villains Valley
+  badtrans: true
+  direct: Evil person valley
+  literal: e ren gu
 - raw: 天山
   result: Tianshan
   direct: Heaven Mountain
@@ -589,6 +611,7 @@
   allowalt:
   - Sharp
   - Qiang
+  badtrans: false
 - raw: 枪棍
   rawSimplified: 枪棍
   rawTraditional: 槍棍
@@ -2807,7 +2830,7 @@
 - raw: 亂石寨眾
   rawSimplified: 乱石寨众
   rawTraditional: 亂石寨眾
-  result: Chaos Rock Stronghold Crowd
+  result: Chaos Rock Stronghold Followers
   direct: Luan Shi Zhai Zhong
   literal: Chaotic Stone Village Group
 - raw: 石重寶一眾
@@ -3257,7 +3280,7 @@
 - raw: 鐵衣寨眾
   rawSimplified: 铁衣寨众
   rawTraditional: 鐵衣寨眾
-  result: Iron Garb Stronghold Crowd
+  result: Iron Garb Stronghold Followers
   direct: Tie Yi Zhai Zhong
   literal: Iron Clothes Village Group
 - raw: 汲公遠一眾
@@ -3269,7 +3292,7 @@
 - raw: 祝家寨眾
   rawSimplified: 祝家寨众
   rawTraditional: 祝家寨眾
-  result: Zhu Family Stronghold Crowd
+  result: Zhu Family Stronghold Followers
   direct: Zhu Jia Zhai Zhong
   literal: Zhu Family Village Group
 - raw: 祝家遠一眾
@@ -3281,7 +3304,8 @@
 - raw: 黑風寨眾
   rawSimplified: 黑风寨众
   rawTraditional: 黑風寨眾
-  result: Black Wind Fortress Crowd
+  result: Black Wind Fortress Followers
+  badtrans: false
   direct: Hei Feng Zhai Zhong
   literal: Black Wind Village Group
 - raw: 薛黑虎一眾
@@ -3403,13 +3427,7 @@
   direct: Huan Jing E Shou
   literal: Illusion Realm Wrong Beast
 
-# Manual Terms
-- raw: 寧王
-  rawSimplified: 宁王
-  rawTraditional: 寧王
-  result: Peaceful King
-  direct: peaceful king
-  literal: Ning wang
+# Sects
 - raw: 宁王府
   rawSimplified: 宁王府
   rawTraditional: 寧王府
@@ -3745,3 +3763,20 @@
   badtrans: true
   direct: illusion beast
   literal: huan shou
+
+# Manual Terms
+- raw: 寧王
+  rawSimplified: 宁王
+  rawTraditional: 寧王  
+  result: Peaceful King
+  allowalt: 
+  - Ning Wang
+  direct: peaceful king
+  literal: Ning wang
+- raw: 九嶷
+  rawSimplified: 九嶷
+  rawTraditional: 九嶷
+  result: Jiuyi
+  badtrans: true
+  direct: Nine Peaks
+  literal: jiu yi

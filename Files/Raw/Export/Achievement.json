@@ -1,1440 +1,686 @@
 - raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"初入江湖\",\r\n    \"DescFinal\": \"成功拜師加入了一個門派\",\r\n    \"Name\": \"初入江湖\",\r\n    \"Desc\": \"成功拜师加入了一个门派\",\r\n    \"NameTw\": \"初入江湖\",\r\n    \"DescTw\": \"成功拜師加入了一個門派\"\r\n  }"
   rawIndex: 0
   splits:
-  - splitPath: NameFinal
-    text: "初入江湖"
-  - splitPath: DescFinal
-    text: "成功拜師加入了一個門派"
   - splitPath: Name
     text: "初入江湖"
   - splitPath: Desc
     text: "成功拜师加入了一个门派"
-  - splitPath: NameTw
-    text: "初入江湖"
-  - splitPath: DescTw
-    text: "成功拜師加入了一個門派"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"三校三勝\",\r\n    \"DescFinal\": \"衡山派弟子在三次衡山小校中全部獲勝\",\r\n    \"Name\": \"三校三胜\",\r\n    \"Desc\": \"衡山派弟子在三次衡山小校中全部获胜\",\r\n    \"NameTw\": \"三校三勝\",\r\n    \"DescTw\": \"衡山派弟子在三次衡山小校中全部獲勝\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: NameFinal
-    text: "三校三勝"
-  - splitPath: DescFinal
-    text: "衡山派弟子在三次衡山小校中全部獲勝"
   - splitPath: Name
     text: "三校三胜"
   - splitPath: Desc
     text: "衡山派弟子在三次衡山小校中全部获胜"
-  - splitPath: NameTw
-    text: "三校三勝"
-  - splitPath: DescTw
-    text: "衡山派弟子在三次衡山小校中全部獲勝"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"連峰悟劍\",\r\n    \"DescFinal\": \"領悟衡山派連峰五劍\",\r\n    \"Name\": \"连峰悟剑\",\r\n    \"Desc\": \"领悟衡山派连峰五剑\",\r\n    \"NameTw\": \"連峰悟劍\",\r\n    \"DescTw\": \"領悟衡山派連峰五劍\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: NameFinal
-    text: "連峰悟劍"
-  - splitPath: DescFinal
-    text: "領悟衡山派連峰五劍"
   - splitPath: Name
     text: "连峰悟剑"
   - splitPath: Desc
     text: "领悟衡山派连峰五剑"
-  - splitPath: NameTw
-    text: "連峰悟劍"
-  - splitPath: DescTw
-    text: "領悟衡山派連峰五劍"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"日夜遊神\",\r\n    \"DescFinal\": \"封行昭、封行晦加入\",\r\n    \"Name\": \"日夜游神\",\r\n    \"Desc\": \"封行昭、封行晦加入\",\r\n    \"NameTw\": \"日夜遊神\",\r\n    \"DescTw\": \"封行昭、封行晦加入\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: NameFinal
-    text: "日夜遊神"
-  - splitPath: DescFinal
-    text: "封行昭、封行晦加入"
   - splitPath: Name
     text: "日夜游神"
   - splitPath: Desc
     text: "封行昭、封行晦加入"
-  - splitPath: NameTw
-    text: "日夜遊神"
-  - splitPath: DescTw
-    text: "封行昭、封行晦加入"
 - raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"白髮漁樵\",\r\n    \"DescFinal\": \"江化渚、柏成柯加入\",\r\n    \"Name\": \"白发渔樵\",\r\n    \"Desc\": \"江化渚、柏成柯加入\",\r\n    \"NameTw\": \"白髮漁樵\",\r\n    \"DescTw\": \"江化渚、柏成柯加入\"\r\n  }"
   rawIndex: 4
   splits:
-  - splitPath: NameFinal
-    text: "白髮漁樵"
-  - splitPath: DescFinal
-    text: "江化渚、柏成柯加入"
   - splitPath: Name
     text: "白发渔樵"
   - splitPath: Desc
     text: "江化渚、柏成柯加入"
-  - splitPath: NameTw
-    text: "白髮漁樵"
-  - splitPath: DescTw
-    text: "江化渚、柏成柯加入"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"南天玉柱\",\r\n    \"DescFinal\": \"萬輕舟加入\",\r\n    \"Name\": \"南天玉柱\",\r\n    \"Desc\": \"万轻舟加入\",\r\n    \"NameTw\": \"南天玉柱\",\r\n    \"DescTw\": \"萬輕舟加入\"\r\n  }"
   rawIndex: 5
   splits:
-  - splitPath: NameFinal
-    text: "南天玉柱"
-  - splitPath: DescFinal
-    text: "萬輕舟加入"
   - splitPath: Name
     text: "南天玉柱"
   - splitPath: Desc
     text: "万轻舟加入"
-  - splitPath: NameTw
-    text: "南天玉柱"
-  - splitPath: DescTw
-    text: "萬輕舟加入"
 - raw: "{\r\n    \"Key\": 42,\r\n    \"NameFinal\": \"五嶽真形\",\r\n    \"DescFinal\": \"“五嶽真形”霍連雲解鎖\",\r\n    \"Name\": \"五岳真形\",\r\n    \"Desc\": \"“五岳真形”霍连云解锁\",\r\n    \"NameTw\": \"五嶽真形\",\r\n    \"DescTw\": \"“五嶽真形”霍連雲解鎖\"\r\n  }"
   rawIndex: 42
   splits:
-  - splitPath: NameFinal
-    text: "五嶽真形"
-  - splitPath: DescFinal
-    text: "“五嶽真形”霍連雲解鎖"
   - splitPath: Name
     text: "五岳真形"
   - splitPath: Desc
     text: "“五岳真形”霍连云解锁"
-  - splitPath: NameTw
-    text: "五嶽真形"
-  - splitPath: DescTw
-    text: "“五嶽真形”霍連雲解鎖"
 - raw: "{\r\n    \"Key\": 39,\r\n    \"NameFinal\": \"今古十絕\",\r\n    \"DescFinal\": \"“貫古通今”楊慎解鎖\",\r\n    \"Name\": \"今古十绝\",\r\n    \"Desc\": \"“贯古通今”杨慎解锁\",\r\n    \"NameTw\": \"今古十絕\",\r\n    \"DescTw\": \"“貫古通今”楊慎解鎖\"\r\n  }"
   rawIndex: 39
   splits:
-  - splitPath: NameFinal
-    text: "今古十絕"
-  - splitPath: DescFinal
-    text: "“貫古通今”楊慎解鎖"
   - splitPath: Name
     text: "今古十绝"
   - splitPath: Desc
     text: "“贯古通今”杨慎解锁"
-  - splitPath: NameTw
-    text: "今古十絕"
-  - splitPath: DescTw
-    text: "“貫古通今”楊慎解鎖"
 - raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"衡山傳奇\",\r\n    \"DescFinal\": \"拜師衡山派戰勝“魔侯”任蒼溟\",\r\n    \"Name\": \"衡山传奇\",\r\n    \"Desc\": \"拜师衡山派战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"衡山傳奇\",\r\n    \"DescTw\": \"拜師衡山派戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 7
   splits:
-  - splitPath: NameFinal
-    text: "衡山傳奇"
-  - splitPath: DescFinal
-    text: "拜師衡山派戰勝“魔侯”任蒼溟"
   - splitPath: Name
     text: "衡山传奇"
   - splitPath: Desc
     text: "拜师衡山派战胜“魔侯”任苍溟"
-  - splitPath: NameTw
-    text: "衡山傳奇"
-  - splitPath: DescTw
-    text: "拜師衡山派戰勝“魔侯”任蒼溟"
 - raw: "{\r\n    \"Key\": 50,\r\n    \"NameFinal\": \"玄劍陰陽\",\r\n    \"DescFinal\": \"武當派弟子第三年演武時戰勝邵玄清、何玄淨\",\r\n    \"Name\": \"玄剑阴阳\",\r\n    \"Desc\": \"武当派弟子第三年演武时战胜邵玄清、何玄净\",\r\n    \"NameTw\": \"玄劍陰陽\",\r\n    \"DescTw\": \"武當派弟子第三年演武時戰勝邵玄清、何玄淨\"\r\n  }"
   rawIndex: 50
   splits:
-  - splitPath: NameFinal
-    text: "玄劍陰陽"
-  - splitPath: DescFinal
-    text: "武當派弟子第三年演武時戰勝邵玄清、何玄淨"
   - splitPath: Name
     text: "玄剑阴阳"
   - splitPath: Desc
     text: "武当派弟子第三年演武时战胜邵玄清、何玄净"
-  - splitPath: NameTw
-    text: "玄劍陰陽"
-  - splitPath: DescTw
-    text: "武當派弟子第三年演武時戰勝邵玄清、何玄淨"
 - raw: "{\r\n    \"Key\": 46,\r\n    \"NameFinal\": \"萬藏歸一\",\r\n    \"DescFinal\": \"張道一加入\",\r\n    \"Name\": \"万藏归一\",\r\n    \"Desc\": \"张道一加入\",\r\n    \"NameTw\": \"萬藏歸一\",\r\n    \"DescTw\": \"張道一加入\"\r\n  }"
   rawIndex: 46
   splits:
-  - splitPath: NameFinal
-    text: "萬藏歸一"
-  - splitPath: DescFinal
-    text: "張道一加入"
   - splitPath: Name
     text: "万藏归一"
   - splitPath: Desc
     text: "张道一加入"
-  - splitPath: NameTw
-    text: "萬藏歸一"
-  - splitPath: DescTw
-    text: "張道一加入"
 - raw: "{\r\n    \"Key\": 47,\r\n    \"NameFinal\": \"天元坐照\",\r\n    \"DescFinal\": \"邱道衍加入\",\r\n    \"Name\": \"天元坐照\",\r\n    \"Desc\": \"邱道衍加入\",\r\n    \"NameTw\": \"天元坐照\",\r\n    \"DescTw\": \"邱道衍加入\"\r\n  }"
   rawIndex: 47
   splits:
-  - splitPath: NameFinal
-    text: "天元坐照"
-  - splitPath: DescFinal
-    text: "邱道衍加入"
   - splitPath: Name
     text: "天元坐照"
   - splitPath: Desc
-    text: "邱道衍加入"
-  - splitPath: NameTw
-    text: "天元坐照"
-  - splitPath: DescTw
     text: "邱道衍加入"
 - raw: "{\r\n    \"Key\": 48,\r\n    \"NameFinal\": \"陰陽無相\",\r\n    \"DescFinal\": \"莊道玄加入\",\r\n    \"Name\": \"阴阳无相\",\r\n    \"Desc\": \"庄道玄加入\",\r\n    \"NameTw\": \"陰陽無相\",\r\n    \"DescTw\": \"莊道玄加入\"\r\n  }"
   rawIndex: 48
   splits:
-  - splitPath: NameFinal
-    text: "陰陽無相"
-  - splitPath: DescFinal
-    text: "莊道玄加入"
   - splitPath: Name
     text: "阴阳无相"
   - splitPath: Desc
     text: "庄道玄加入"
-  - splitPath: NameTw
-    text: "陰陽無相"
-  - splitPath: DescTw
-    text: "莊道玄加入"
 - raw: "{\r\n    \"Key\": 51,\r\n    \"NameFinal\": \"金丹九轉\",\r\n    \"DescFinal\": \"崆峒丹會煉成“廣成金丹”\",\r\n    \"Name\": \"金丹九转\",\r\n    \"Desc\": \"崆峒丹会炼成“广成金丹”\",\r\n    \"NameTw\": \"金丹九轉\",\r\n    \"DescTw\": \"崆峒丹會煉成“廣成金丹”\"\r\n  }"
   rawIndex: 51
   splits:
-  - splitPath: NameFinal
-    text: "金丹九轉"
-  - splitPath: DescFinal
-    text: "崆峒丹會煉成“廣成金丹”"
   - splitPath: Name
     text: "金丹九转"
   - splitPath: Desc
     text: "崆峒丹会炼成“广成金丹”"
-  - splitPath: NameTw
-    text: "金丹九轉"
-  - splitPath: DescTw
-    text: "崆峒丹會煉成“廣成金丹”"
 - raw: "{\r\n    \"Key\": 45,\r\n    \"NameFinal\": \"武當傳奇\",\r\n    \"DescFinal\": \"拜師武當派戰勝“魔侯”任蒼溟\",\r\n    \"Name\": \"武当传奇\",\r\n    \"Desc\": \"拜师武当派战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"武當傳奇\",\r\n    \"DescTw\": \"拜師武當派戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 45
   splits:
-  - splitPath: NameFinal
-    text: "武當傳奇"
-  - splitPath: DescFinal
-    text: "拜師武當派戰勝“魔侯”任蒼溟"
   - splitPath: Name
     text: "武当传奇"
   - splitPath: Desc
     text: "拜师武当派战胜“魔侯”任苍溟"
-  - splitPath: NameTw
-    text: "武當傳奇"
-  - splitPath: DescTw
-    text: "拜師武當派戰勝“魔侯”任蒼溟"
 - raw: "{\r\n    \"Key\": 75,\r\n    \"NameFinal\": \"蟄龍高臥\",\r\n    \"DescFinal\": \"“蟄龍高臥”尹玄真解鎖\",\r\n    \"Name\": \"蛰龙高卧\",\r\n    \"Desc\": \"“蛰龙高卧”尹玄真解锁\",\r\n    \"NameTw\": \"蟄龍高臥\",\r\n    \"DescTw\": \"“蟄龍高臥”尹玄真解鎖\"\r\n  }"
   rawIndex: 75
   splits:
-  - splitPath: NameFinal
-    text: "蟄龍高臥"
-  - splitPath: DescFinal
-    text: "“蟄龍高臥”尹玄真解鎖"
   - splitPath: Name
     text: "蛰龙高卧"
   - splitPath: Desc
     text: "“蛰龙高卧”尹玄真解锁"
-  - splitPath: NameTw
-    text: "蟄龍高臥"
-  - splitPath: DescTw
-    text: "“蟄龍高臥”尹玄真解鎖"
 - raw: "{\r\n    \"Key\": 80,\r\n    \"NameFinal\": \"龍舟奪魁\",\r\n    \"DescFinal\": \"第三年時與洞庭幫同伴在龍舟賽正式奪魁\",\r\n    \"Name\": \"龙舟夺魁\",\r\n    \"Desc\": \"第三年时与洞庭帮同伴在龙舟赛正式夺魁\",\r\n    \"NameTw\": \"龍舟奪魁\",\r\n    \"DescTw\": \"第三年時與洞庭幫同伴在龍舟賽正式奪魁\"\r\n  }"
   rawIndex: 80
   splits:
-  - splitPath: NameFinal
-    text: "龍舟奪魁"
-  - splitPath: DescFinal
-    text: "第三年時與洞庭幫同伴在龍舟賽正式奪魁"
   - splitPath: Name
     text: "龙舟夺魁"
   - splitPath: Desc
     text: "第三年时与洞庭帮同伴在龙舟赛正式夺魁"
-  - splitPath: NameTw
-    text: "龍舟奪魁"
-  - splitPath: DescTw
-    text: "第三年時與洞庭幫同伴在龍舟賽正式奪魁"
 - raw: "{\r\n    \"Key\": 81,\r\n    \"NameFinal\": \"赤青紫白\",\r\n    \"DescFinal\": \"薛一笑、鮑玉關、杜滿川、段青山加入\",\r\n    \"Name\": \"赤青紫白\",\r\n    \"Desc\": \"薛一笑、鲍玉关、杜满川、段青山加入\",\r\n    \"NameTw\": \"赤青紫白\",\r\n    \"DescTw\": \"薛一笑、鮑玉關、杜滿川、段青山加入\"\r\n  }"
   rawIndex: 81
   splits:
-  - splitPath: NameFinal
-    text: "赤青紫白"
-  - splitPath: DescFinal
-    text: "薛一笑、鮑玉關、杜滿川、段青山加入"
   - splitPath: Name
     text: "赤青紫白"
   - splitPath: Desc
     text: "薛一笑、鲍玉关、杜满川、段青山加入"
-  - splitPath: NameTw
-    text: "赤青紫白"
-  - splitPath: DescTw
-    text: "薛一笑、鮑玉關、杜滿川、段青山加入"
 - raw: "{\r\n    \"Key\": 82,\r\n    \"NameFinal\": \"白首龍君\",\r\n    \"DescFinal\": \"鍾離恨加入\",\r\n    \"Name\": \"白首龙君\",\r\n    \"Desc\": \"钟离恨加入\",\r\n    \"NameTw\": \"白首龍君\",\r\n    \"DescTw\": \"鍾離恨加入\"\r\n  }"
   rawIndex: 82
   splits:
-  - splitPath: NameFinal
-    text: "白首龍君"
-  - splitPath: DescFinal
-    text: "鍾離恨加入"
   - splitPath: Name
     text: "白首龙君"
   - splitPath: Desc
     text: "钟离恨加入"
-  - splitPath: NameTw
-    text: "白首龍君"
-  - splitPath: DescTw
-    text: "鍾離恨加入"
 - raw: "{\r\n    \"Key\": 83,\r\n    \"NameFinal\": \"長江縱橫\",\r\n    \"DescFinal\": \"將長江盟五家勢力完全納入洞庭幫\",\r\n    \"Name\": \"长江纵横\",\r\n    \"Desc\": \"将长江盟五家势力完全纳入洞庭帮\",\r\n    \"NameTw\": \"長江縱橫\",\r\n    \"DescTw\": \"將長江盟五家勢力完全納入洞庭幫\"\r\n  }"
   rawIndex: 83
   splits:
-  - splitPath: NameFinal
-    text: "長江縱橫"
-  - splitPath: DescFinal
-    text: "將長江盟五家勢力完全納入洞庭幫"
   - splitPath: Name
     text: "长江纵横"
   - splitPath: Desc
     text: "将长江盟五家势力完全纳入洞庭帮"
-  - splitPath: NameTw
-    text: "長江縱橫"
-  - splitPath: DescTw
-    text: "將長江盟五家勢力完全納入洞庭幫"
 - raw: "{\r\n    \"Key\": 84,\r\n    \"NameFinal\": \"洞庭傳奇\",\r\n    \"DescFinal\": \"加入洞庭幫戰勝“魔侯”任蒼溟\",\r\n    \"Name\": \"洞庭传奇\",\r\n    \"Desc\": \"加入洞庭帮战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"洞庭傳奇\",\r\n    \"DescTw\": \"加入洞庭幫戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 84
   splits:
-  - splitPath: NameFinal
-    text: "洞庭傳奇"
-  - splitPath: DescFinal
-    text: "加入洞庭幫戰勝“魔侯”任蒼溟"
   - splitPath: Name
     text: "洞庭传奇"
   - splitPath: Desc
     text: "加入洞庭帮战胜“魔侯”任苍溟"
-  - splitPath: NameTw
-    text: "洞庭傳奇"
-  - splitPath: DescTw
-    text: "加入洞庭幫戰勝“魔侯”任蒼溟"
 - raw: "{\r\n    \"Key\": 71,\r\n    \"NameFinal\": \"商山四皓\",\r\n    \"DescFinal\": \"戰勝寧王府高手“商山四皓”\",\r\n    \"Name\": \"商山四皓\",\r\n    \"Desc\": \"战胜宁王府高手“商山四皓”\",\r\n    \"NameTw\": \"商山四皓\",\r\n    \"DescTw\": \"戰勝寧王府高手“商山四皓”\"\r\n  }"
   rawIndex: 71
   splits:
-  - splitPath: NameFinal
-    text: "商山四皓"
-  - splitPath: DescFinal
-    text: "戰勝寧王府高手“商山四皓”"
   - splitPath: Name
     text: "商山四皓"
   - splitPath: Desc
     text: "战胜宁王府高手“商山四皓”"
-  - splitPath: NameTw
-    text: "商山四皓"
-  - splitPath: DescTw
-    text: "戰勝寧王府高手“商山四皓”"
 - raw: "{\r\n    \"Key\": 93,\r\n    \"NameFinal\": \"逍遙公侯\",\r\n    \"DescFinal\": \"潛龍谷中擊敗“寧王”朱宸濠\",\r\n    \"Name\": \"逍遥公侯\",\r\n    \"Desc\": \"潜龙谷中击败“宁王”朱宸濠\",\r\n    \"NameTw\": \"逍遙公侯\",\r\n    \"DescTw\": \"潛龍谷中擊敗“寧王”朱宸濠\"\r\n  }"
   rawIndex: 93
   splits:
-  - splitPath: NameFinal
-    text: "逍遙公侯"
-  - splitPath: DescFinal
-    text: "潛龍谷中擊敗“寧王”朱宸濠"
   - splitPath: Name
     text: "逍遥公侯"
   - splitPath: Desc
     text: "潜龙谷中击败“宁王”朱宸濠"
-  - splitPath: NameTw
-    text: "逍遙公侯"
-  - splitPath: DescTw
-    text: "潛龍谷中擊敗“寧王”朱宸濠"
 - raw: "{\r\n    \"Key\": 97,\r\n    \"NameFinal\": \"武林盟主\",\r\n    \"DescFinal\": \"天魔殿中擊敗“魔侯”任滄溟\",\r\n    \"Name\": \"武林盟主\",\r\n    \"Desc\": \"天魔殿中击败“魔侯”任沧溟\",\r\n    \"NameTw\": \"武林盟主\",\r\n    \"DescTw\": \"天魔殿中擊敗“魔侯”任滄溟\"\r\n  }"
   rawIndex: 97
   splits:
-  - splitPath: NameFinal
-    text: "武林盟主"
-  - splitPath: DescFinal
-    text: "天魔殿中擊敗“魔侯”任滄溟"
   - splitPath: Name
     text: "武林盟主"
   - splitPath: Desc
     text: "天魔殿中击败“魔侯”任沧溟"
-  - splitPath: NameTw
-    text: "武林盟主"
-  - splitPath: DescTw
-    text: "天魔殿中擊敗“魔侯”任滄溟"
 - raw: "{\r\n    \"Key\": 52,\r\n    \"NameFinal\": \"纖芸弄巧\",\r\n    \"DescFinal\": \"“湘妃劍”楊芸解鎖紅顏\",\r\n    \"Name\": \"纤芸弄巧\",\r\n    \"Desc\": \"“湘妃剑”杨芸解锁红颜\",\r\n    \"NameTw\": \"纖芸弄巧\",\r\n    \"DescTw\": \"“湘妃劍”楊芸解鎖紅顏\"\r\n  }"
   rawIndex: 52
   splits:
-  - splitPath: NameFinal
-    text: "纖芸弄巧"
-  - splitPath: DescFinal
-    text: "“湘妃劍”楊芸解鎖紅顏"
   - splitPath: Name
     text: "纤芸弄巧"
   - splitPath: Desc
     text: "“湘妃剑”杨芸解锁红颜"
-  - splitPath: NameTw
-    text: "纖芸弄巧"
-  - splitPath: DescTw
-    text: "“湘妃劍”楊芸解鎖紅顏"
 - raw: "{\r\n    \"Key\": 53,\r\n    \"NameFinal\": \"靈素清真\",\r\n    \"DescFinal\": \"“雲霄仙子”邱靈素解鎖紅顏\",\r\n    \"Name\": \"灵素清真\",\r\n    \"Desc\": \"“云霄仙子”邱灵素解锁红颜\",\r\n    \"NameTw\": \"靈素清真\",\r\n    \"DescTw\": \"“雲霄仙子”邱靈素解鎖紅顏\"\r\n  }"
   rawIndex: 53
   splits:
-  - splitPath: NameFinal
-    text: "靈素清真"
-  - splitPath: DescFinal
-    text: "“雲霄仙子”邱靈素解鎖紅顏"
   - splitPath: Name
     text: "灵素清真"
   - splitPath: Desc
     text: "“云霄仙子”邱灵素解锁红颜"
-  - splitPath: NameTw
-    text: "靈素清真"
-  - splitPath: DescTw
-    text: "“雲霄仙子”邱靈素解鎖紅顏"
 - raw: "{\r\n    \"Key\": 54,\r\n    \"NameFinal\": \"欺霜勝雪\",\r\n    \"DescFinal\": \"“火鳳凰”項欺霜解鎖紅顏\",\r\n    \"Name\": \"欺霜胜雪\",\r\n    \"Desc\": \"“火凤凰”项欺霜解锁红颜\",\r\n    \"NameTw\": \"欺霜勝雪\",\r\n    \"DescTw\": \"“火鳳凰”項欺霜解鎖紅顏\"\r\n  }"
   rawIndex: 54
   splits:
-  - splitPath: NameFinal
-    text: "欺霜勝雪"
-  - splitPath: DescFinal
-    text: "“火鳳凰”項欺霜解鎖紅顏"
   - splitPath: Name
     text: "欺霜胜雪"
   - splitPath: Desc
     text: "“火凤凰”项欺霜解锁红颜"
-  - splitPath: NameTw
-    text: "欺霜勝雪"
-  - splitPath: DescTw
-    text: "“火鳳凰”項欺霜解鎖紅顏"
 - raw: "{\r\n    \"Key\": 55,\r\n    \"NameFinal\": \"臻首蛾眉\",\r\n    \"DescFinal\": \"“淚痕刀”晏蛾眉解鎖紅顏\",\r\n    \"Name\": \"臻首蛾眉\",\r\n    \"Desc\": \"“泪痕刀”晏蛾眉解锁红颜\",\r\n    \"NameTw\": \"臻首蛾眉\",\r\n    \"DescTw\": \"“淚痕刀”晏蛾眉解鎖紅顏\"\r\n  }"
   rawIndex: 55
   splits:
-  - splitPath: NameFinal
-    text: "臻首蛾眉"
-  - splitPath: DescFinal
-    text: "“淚痕刀”晏蛾眉解鎖紅顏"
   - splitPath: Name
     text: "臻首蛾眉"
   - splitPath: Desc
     text: "“泪痕刀”晏蛾眉解锁红颜"
-  - splitPath: NameTw
-    text: "臻首蛾眉"
-  - splitPath: DescTw
-    text: "“淚痕刀”晏蛾眉解鎖紅顏"
 - raw: "{\r\n    \"Key\": 56,\r\n    \"NameFinal\": \"芙蓉如面\",\r\n    \"DescFinal\": \"“流雲飛絮”沈蓉蓉解鎖紅顏\",\r\n    \"Name\": \"芙蓉如面\",\r\n    \"Desc\": \"“流云飞絮”沈蓉蓉解锁红颜\",\r\n    \"NameTw\": \"芙蓉如面\",\r\n    \"DescTw\": \"“流雲飛絮”沈蓉蓉解鎖紅顏\"\r\n  }"
   rawIndex: 56
   splits:
-  - splitPath: NameFinal
-    text: "芙蓉如面"
-  - splitPath: DescFinal
-    text: "“流雲飛絮”沈蓉蓉解鎖紅顏"
   - splitPath: Name
     text: "芙蓉如面"
   - splitPath: Desc
     text: "“流云飞絮”沈蓉蓉解锁红颜"
-  - splitPath: NameTw
-    text: "芙蓉如面"
-  - splitPath: DescTw
-    text: "“流雲飛絮”沈蓉蓉解鎖紅顏"
 - raw: "{\r\n    \"Key\": 57,\r\n    \"NameFinal\": \"紅衣照水\",\r\n    \"DescFinal\": \"“紅娘子”靳紅衣解鎖紅顏\",\r\n    \"Name\": \"红衣照水\",\r\n    \"Desc\": \"“红娘子”靳红衣解锁红颜\",\r\n    \"NameTw\": \"紅衣照水\",\r\n    \"DescTw\": \"“紅娘子”靳紅衣解鎖紅顏\"\r\n  }"
   rawIndex: 57
   splits:
-  - splitPath: NameFinal
-    text: "紅衣照水"
-  - splitPath: DescFinal
-    text: "“紅娘子”靳紅衣解鎖紅顏"
   - splitPath: Name
     text: "红衣照水"
   - splitPath: Desc
     text: "“红娘子”靳红衣解锁红颜"
-  - splitPath: NameTw
-    text: "紅衣照水"
-  - splitPath: DescTw
-    text: "“紅娘子”靳紅衣解鎖紅顏"
 - raw: "{\r\n    \"Key\": 58,\r\n    \"NameFinal\": \"碧蛇青青\",\r\n    \"DescFinal\": \"“碧蛇夫人”阮碧青解鎖紅顏\",\r\n    \"Name\": \"碧蛇青青\",\r\n    \"Desc\": \"“碧蛇夫人”阮碧青解锁红颜\",\r\n    \"NameTw\": \"碧蛇青青\",\r\n    \"DescTw\": \"“碧蛇夫人”阮碧青解鎖紅顏\"\r\n  }"
   rawIndex: 58
   splits:
-  - splitPath: NameFinal
-    text: "碧蛇青青"
-  - splitPath: DescFinal
-    text: "“碧蛇夫人”阮碧青解鎖紅顏"
   - splitPath: Name
     text: "碧蛇青青"
   - splitPath: Desc
     text: "“碧蛇夫人”阮碧青解锁红颜"
-  - splitPath: NameTw
-    text: "碧蛇青青"
-  - splitPath: DescTw
-    text: "“碧蛇夫人”阮碧青解鎖紅顏"
 - raw: "{\r\n    \"Key\": 59,\r\n    \"NameFinal\": \"靈珠無瑕\",\r\n    \"DescFinal\": \"“七巧連環”左靈珠解鎖紅顏\",\r\n    \"Name\": \"灵珠无瑕\",\r\n    \"Desc\": \"“七巧连环”左灵珠解锁红颜\",\r\n    \"NameTw\": \"靈珠無瑕\",\r\n    \"DescTw\": \"“七巧連環”左靈珠解鎖紅顏\"\r\n  }"
   rawIndex: 59
   splits:
-  - splitPath: NameFinal
-    text: "靈珠無瑕"
-  - splitPath: DescFinal
-    text: "“七巧連環”左靈珠解鎖紅顏"
   - splitPath: Name
     text: "灵珠无瑕"
   - splitPath: Desc
     text: "“七巧连环”左灵珠解锁红颜"
-  - splitPath: NameTw
-    text: "靈珠無瑕"
-  - splitPath: DescTw
-    text: "“七巧連環”左靈珠解鎖紅顏"
 - raw: "{\r\n    \"Key\": 60,\r\n    \"NameFinal\": \"蓮開並蒂\",\r\n    \"DescFinal\": \"“谷中蓮”連翹兒解鎖紅顏\",\r\n    \"Name\": \"莲开并蒂\",\r\n    \"Desc\": \"“谷中莲”连翘儿解锁红颜\",\r\n    \"NameTw\": \"蓮開並蒂\",\r\n    \"DescTw\": \"“谷中蓮”連翹兒解鎖紅顏\"\r\n  }"
   rawIndex: 60
   splits:
-  - splitPath: NameFinal
-    text: "蓮開並蒂"
-  - splitPath: DescFinal
-    text: "“谷中蓮”連翹兒解鎖紅顏"
   - splitPath: Name
     text: "莲开并蒂"
   - splitPath: Desc
     text: "“谷中莲”连翘儿解锁红颜"
-  - splitPath: NameTw
-    text: "蓮開並蒂"
-  - splitPath: DescTw
-    text: "“谷中蓮”連翹兒解鎖紅顏"
 - raw: "{\r\n    \"Key\": 61,\r\n    \"NameFinal\": \"章臺新柳\",\r\n    \"DescFinal\": \"“章臺柳”柳含煙解鎖紅顏\",\r\n    \"Name\": \"章台新柳\",\r\n    \"Desc\": \"“章台柳”柳含烟解锁红颜\",\r\n    \"NameTw\": \"章臺新柳\",\r\n    \"DescTw\": \"“章臺柳”柳含煙解鎖紅顏\"\r\n  }"
   rawIndex: 61
   splits:
-  - splitPath: NameFinal
-    text: "章臺新柳"
-  - splitPath: DescFinal
-    text: "“章臺柳”柳含煙解鎖紅顏"
   - splitPath: Name
     text: "章台新柳"
   - splitPath: Desc
     text: "“章台柳”柳含烟解锁红颜"
-  - splitPath: NameTw
-    text: "章臺新柳"
-  - splitPath: DescTw
-    text: "“章臺柳”柳含煙解鎖紅顏"
 - raw: "{\r\n    \"Key\": 63,\r\n    \"NameFinal\": \"錦心繡口\",\r\n    \"DescFinal\": \"“女諸生”文錦心解鎖紅顏\",\r\n    \"Name\": \"锦心绣口\",\r\n    \"Desc\": \"“女诸生”文锦心解锁红颜\",\r\n    \"NameTw\": \"錦心繡口\",\r\n    \"DescTw\": \"“女諸生”文錦心解鎖紅顏\"\r\n  }"
   rawIndex: 63
   splits:
-  - splitPath: NameFinal
-    text: "錦心繡口"
-  - splitPath: DescFinal
-    text: "“女諸生”文錦心解鎖紅顏"
   - splitPath: Name
     text: "锦心绣口"
   - splitPath: Desc
     text: "“女诸生”文锦心解锁红颜"
-  - splitPath: NameTw
-    text: "錦心繡口"
-  - splitPath: DescTw
-    text: "“女諸生”文錦心解鎖紅顏"
 - raw: "{\r\n    \"Key\": 64,\r\n    \"NameFinal\": \"珺璟如曄\",\r\n    \"DescFinal\": \"“金錢雁”夏侯珺解鎖紅顏\",\r\n    \"Name\": \"珺璟如晔\",\r\n    \"Desc\": \"“金钱雁”夏侯珺解锁红颜\",\r\n    \"NameTw\": \"珺璟如曄\",\r\n    \"DescTw\": \"“金錢雁”夏侯珺解鎖紅顏\"\r\n  }"
   rawIndex: 64
   splits:
-  - splitPath: NameFinal
-    text: "珺璟如曄"
-  - splitPath: DescFinal
-    text: "“金錢雁”夏侯珺解鎖紅顏"
   - splitPath: Name
     text: "珺璟如晔"
   - splitPath: Desc
     text: "“金钱雁”夏侯珺解锁红颜"
-  - splitPath: NameTw
-    text: "珺璟如曄"
-  - splitPath: DescTw
-    text: "“金錢雁”夏侯珺解鎖紅顏"
 - raw: "{\r\n    \"Key\": 66,\r\n    \"NameFinal\": \"令儀令色\",\r\n    \"DescFinal\": \"“連城璧”蕭令儀解鎖紅顏\",\r\n    \"Name\": \"令仪令色\",\r\n    \"Desc\": \"“连城璧”萧令仪解锁红颜\",\r\n    \"NameTw\": \"令儀令色\",\r\n    \"DescTw\": \"“連城璧”蕭令儀解鎖紅顏\"\r\n  }"
   rawIndex: 66
   splits:
-  - splitPath: NameFinal
-    text: "令儀令色"
-  - splitPath: DescFinal
-    text: "“連城璧”蕭令儀解鎖紅顏"
   - splitPath: Name
     text: "令仪令色"
   - splitPath: Desc
     text: "“连城璧”萧令仪解锁红颜"
-  - splitPath: NameTw
-    text: "令儀令色"
-  - splitPath: DescTw
-    text: "“連城璧”蕭令儀解鎖紅顏"
 - raw: "{\r\n    \"Key\": 67,\r\n    \"NameFinal\": \"太阿莫若\",\r\n    \"DescFinal\": \"“聖劍薔薇”艾琳娜解鎖紅顏\",\r\n    \"Name\": \"太阿莫若\",\r\n    \"Desc\": \"“圣剑蔷薇”艾琳娜解锁红颜\",\r\n    \"NameTw\": \"太阿莫若\",\r\n    \"DescTw\": \"“聖劍薔薇”艾琳娜解鎖紅顏\"\r\n  }"
   rawIndex: 67
   splits:
-  - splitPath: NameFinal
-    text: "太阿莫若"
-  - splitPath: DescFinal
-    text: "“聖劍薔薇”艾琳娜解鎖紅顏"
   - splitPath: Name
     text: "太阿莫若"
   - splitPath: Desc
     text: "“圣剑蔷薇”艾琳娜解锁红颜"
-  - splitPath: NameTw
-    text: "太阿莫若"
-  - splitPath: DescTw
-    text: "“聖劍薔薇”艾琳娜解鎖紅顏"
 - raw: "{\r\n    \"Key\": 72,\r\n    \"NameFinal\": \"青鋒照影\",\r\n    \"DescFinal\": \"“清風逐影”展青鋒解鎖紅顏\",\r\n    \"Name\": \"青锋照影\",\r\n    \"Desc\": \"“清风逐影”展青锋解锁红颜\",\r\n    \"NameTw\": \"青鋒照影\",\r\n    \"DescTw\": \"“清風逐影”展青鋒解鎖紅顏\"\r\n  }"
   rawIndex: 72
   splits:
-  - splitPath: NameFinal
-    text: "青鋒照影"
-  - splitPath: DescFinal
-    text: "“清風逐影”展青鋒解鎖紅顏"
   - splitPath: Name
     text: "青锋照影"
   - splitPath: Desc
     text: "“清风逐影”展青锋解锁红颜"
-  - splitPath: NameTw
-    text: "青鋒照影"
-  - splitPath: DescTw
-    text: "“清風逐影”展青鋒解鎖紅顏"
 - raw: "{\r\n    \"Key\": 73,\r\n    \"NameFinal\": \"幽狐之愛\",\r\n    \"DescFinal\": \"“夜月幽狐”風間愛解鎖紅顏\",\r\n    \"Name\": \"幽狐之爱\",\r\n    \"Desc\": \"“夜月幽狐”风间爱解锁红颜\",\r\n    \"NameTw\": \"幽狐之愛\",\r\n    \"DescTw\": \"“夜月幽狐”風間愛解鎖紅顏\"\r\n  }"
   rawIndex: 73
   splits:
-  - splitPath: NameFinal
-    text: "幽狐之愛"
-  - splitPath: DescFinal
-    text: "“夜月幽狐”風間愛解鎖紅顏"
   - splitPath: Name
     text: "幽狐之爱"
   - splitPath: Desc
     text: "“夜月幽狐”风间爱解锁红颜"
-  - splitPath: NameTw
-    text: "幽狐之愛"
-  - splitPath: DescTw
-    text: "“夜月幽狐”風間愛解鎖紅顏"
 - raw: "{\r\n    \"Key\": 74,\r\n    \"NameFinal\": \"朧月夜影\",\r\n    \"DescFinal\": \"“月影”風間月解鎖紅顏\",\r\n    \"Name\": \"胧月夜影\",\r\n    \"Desc\": \"“月影”风间月解锁红颜\",\r\n    \"NameTw\": \"朧月夜影\",\r\n    \"DescTw\": \"“月影”風間月解鎖紅顏\"\r\n  }"
   rawIndex: 74
   splits:
-  - splitPath: NameFinal
-    text: "朧月夜影"
-  - splitPath: DescFinal
-    text: "“月影”風間月解鎖紅顏"
   - splitPath: Name
     text: "胧月夜影"
   - splitPath: Desc
     text: "“月影”风间月解锁红颜"
-  - splitPath: NameTw
-    text: "朧月夜影"
-  - splitPath: DescTw
-    text: "“月影”風間月解鎖紅顏"
 - raw: "{\r\n    \"Key\": 100,\r\n    \"NameFinal\": \"醉夢劉伶\",\r\n    \"DescFinal\": \"“千杯不醉”司徒伶解鎖紅顏\",\r\n    \"Name\": \"醉梦刘伶\",\r\n    \"Desc\": \"“千杯不醉”司徒伶解锁红颜\",\r\n    \"NameTw\": \"醉夢劉伶\",\r\n    \"DescTw\": \"“千杯不醉”司徒伶解鎖紅顏\"\r\n  }"
   rawIndex: 100
   splits:
-  - splitPath: NameFinal
-    text: "醉夢劉伶"
-  - splitPath: DescFinal
-    text: "“千杯不醉”司徒伶解鎖紅顏"
   - splitPath: Name
     text: "醉梦刘伶"
   - splitPath: Desc
     text: "“千杯不醉”司徒伶解锁红颜"
-  - splitPath: NameTw
-    text: "醉夢劉伶"
-  - splitPath: DescTw
-    text: "“千杯不醉”司徒伶解鎖紅顏"
+- raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"文姿秀色\",\r\n    \"DescFinal\": \"“俏藥叉”談文秀\",\r\n    \"Name\": \"文姿秀色\",\r\n    \"Desc\": \"“俏药叉”谈文秀\",\r\n    \"NameTw\": \"文姿秀色\",\r\n    \"DescTw\": \"“俏藥叉”談文秀\"\r\n  }"
+  rawIndex: 101
+  splits:
+  - splitPath: Name
+    text: "文姿秀色"
+  - splitPath: Desc
+    text: "“俏药叉”谈文秀"
 - raw: "{\r\n    \"Key\": 86,\r\n    \"NameFinal\": \"明月照雪\",\r\n    \"DescFinal\": \"“洞庭龍女”鍾離雪解鎖紅顏\",\r\n    \"Name\": \"明月照雪\",\r\n    \"Desc\": \"“洞庭龙女”钟离雪解锁红颜\",\r\n    \"NameTw\": \"明月照雪\",\r\n    \"DescTw\": \"“洞庭龍女”鍾離雪解鎖紅顏\"\r\n  }"
   rawIndex: 86
   splits:
-  - splitPath: NameFinal
-    text: "明月照雪"
-  - splitPath: DescFinal
-    text: "“洞庭龍女”鍾離雪解鎖紅顏"
   - splitPath: Name
     text: "明月照雪"
   - splitPath: Desc
     text: "“洞庭龙女”钟离雪解锁红颜"
-  - splitPath: NameTw
-    text: "明月照雪"
-  - splitPath: DescTw
-    text: "“洞庭龍女”鍾離雪解鎖紅顏"
 - raw: "{\r\n    \"Key\": 95,\r\n    \"NameFinal\": \"遂心如意\",\r\n    \"DescFinal\": \"“千面妖狐”薛如意解鎖紅顏\",\r\n    \"Name\": \"遂心如意\",\r\n    \"Desc\": \"“千面妖狐”薛如意解锁红颜\",\r\n    \"NameTw\": \"遂心如意\",\r\n    \"DescTw\": \"“千面妖狐”薛如意解鎖紅顏\"\r\n  }"
   rawIndex: 95
   splits:
-  - splitPath: NameFinal
-    text: "遂心如意"
-  - splitPath: DescFinal
-    text: "“千面妖狐”薛如意解鎖紅顏"
   - splitPath: Name
     text: "遂心如意"
   - splitPath: Desc
     text: "“千面妖狐”薛如意解锁红颜"
-  - splitPath: NameTw
-    text: "遂心如意"
-  - splitPath: DescTw
-    text: "“千面妖狐”薛如意解鎖紅顏"
 - raw: "{\r\n    \"Key\": 99,\r\n    \"NameFinal\": \"香衾成行\",\r\n    \"DescFinal\": \"在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏\",\r\n    \"Name\": \"香衾成行\",\r\n    \"Desc\": \"在一局游戏中解锁门派专属红颜外的全部十六位红颜\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"DescTw\": \"在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏\"\r\n  }"
   rawIndex: 99
   splits:
-  - splitPath: NameFinal
-    text: "香衾成行"
-  - splitPath: DescFinal
-    text: "在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏"
   - splitPath: Name
     text: "香衾成行"
   - splitPath: Desc
     text: "在一局游戏中解锁门派专属红颜外的全部十六位红颜"
-  - splitPath: NameTw
-    text: "香衾成行"
-  - splitPath: DescTw
-    text: "在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏"
 - raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"亂石平寇\",\r\n    \"DescFinal\": \"剿滅蒼山嶺亂石寨\",\r\n    \"Name\": \"乱石平寇\",\r\n    \"Desc\": \"剿灭苍山岭乱石寨\",\r\n    \"NameTw\": \"亂石平寇\",\r\n    \"DescTw\": \"剿滅蒼山嶺亂石寨\"\r\n  }"
   rawIndex: 8
   splits:
-  - splitPath: NameFinal
-    text: "亂石平寇"
-  - splitPath: DescFinal
-    text: "剿滅蒼山嶺亂石寨"
   - splitPath: Name
     text: "乱石平寇"
   - splitPath: Desc
     text: "剿灭苍山岭乱石寨"
-  - splitPath: NameTw
-    text: "亂石平寇"
-  - splitPath: DescTw
-    text: "剿滅蒼山嶺亂石寨"
 - raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"登樓黃鶴\",\r\n    \"DescFinal\": \"闖過挑戰登頂黃鶴樓\",\r\n    \"Name\": \"登楼黄鹤\",\r\n    \"Desc\": \"闯过挑战登顶黄鹤楼\",\r\n    \"NameTw\": \"登樓黃鶴\",\r\n    \"DescTw\": \"闖過挑戰登頂黃鶴樓\"\r\n  }"
   rawIndex: 9
   splits:
-  - splitPath: NameFinal
-    text: "登樓黃鶴"
-  - splitPath: DescFinal
-    text: "闖過挑戰登頂黃鶴樓"
   - splitPath: Name
     text: "登楼黄鹤"
   - splitPath: Desc
     text: "闯过挑战登顶黄鹤楼"
-  - splitPath: NameTw
-    text: "登樓黃鶴"
-  - splitPath: DescTw
-    text: "闖過挑戰登頂黃鶴樓"
 - raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"假假真真\",\r\n    \"DescFinal\": \"發現無稽林幻境的隱祕\",\r\n    \"Name\": \"假假真真\",\r\n    \"Desc\": \"发现无稽林幻境的隐秘\",\r\n    \"NameTw\": \"假假真真\",\r\n    \"DescTw\": \"發現無稽林幻境的隱祕\"\r\n  }"
   rawIndex: 18
   splits:
-  - splitPath: NameFinal
-    text: "假假真真"
-  - splitPath: DescFinal
-    text: "發現無稽林幻境的隱祕"
   - splitPath: Name
     text: "假假真真"
   - splitPath: Desc
     text: "发现无稽林幻境的隐秘"
-  - splitPath: NameTw
-    text: "假假真真"
-  - splitPath: DescTw
-    text: "發現無稽林幻境的隱祕"
 - raw: "{\r\n    \"Key\": 10,\r\n    \"NameFinal\": \"九嶷牧蛇\",\r\n    \"DescFinal\": \"馴牧九嶷山異蛇王\",\r\n    \"Name\": \"九嶷牧蛇\",\r\n    \"Desc\": \"驯牧九嶷山异蛇王\",\r\n    \"NameTw\": \"九嶷牧蛇\",\r\n    \"DescTw\": \"馴牧九嶷山異蛇王\"\r\n  }"
   rawIndex: 10
   splits:
-  - splitPath: NameFinal
-    text: "九嶷牧蛇"
-  - splitPath: DescFinal
-    text: "馴牧九嶷山異蛇王"
   - splitPath: Name
     text: "九嶷牧蛇"
   - splitPath: Desc
     text: "驯牧九嶷山异蛇王"
-  - splitPath: NameTw
-    text: "九嶷牧蛇"
-  - splitPath: DescTw
-    text: "馴牧九嶷山異蛇王"
 - raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"養狼成患\",\r\n    \"DescFinal\": \"揭破蔣成籌在彭祖壽壽宴的陰謀\",\r\n    \"Name\": \"养狼成患\",\r\n    \"Desc\": \"揭破蒋成筹在彭祖寿寿宴的阴谋\",\r\n    \"NameTw\": \"養狼成患\",\r\n    \"DescTw\": \"揭破蔣成籌在彭祖壽壽宴的陰謀\"\r\n  }"
   rawIndex: 11
   splits:
-  - splitPath: NameFinal
-    text: "養狼成患"
-  - splitPath: DescFinal
-    text: "揭破蔣成籌在彭祖壽壽宴的陰謀"
   - splitPath: Name
     text: "养狼成患"
   - splitPath: Desc
     text: "揭破蒋成筹在彭祖寿寿宴的阴谋"
-  - splitPath: NameTw
-    text: "養狼成患"
-  - splitPath: DescTw
-    text: "揭破蔣成籌在彭祖壽壽宴的陰謀"
 - raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"鳩佔鵲巢\",\r\n    \"DescFinal\": \"查清湘南多家鏢隊連續失蹤案\",\r\n    \"Name\": \"鸠占鹊巢\",\r\n    \"Desc\": \"查清湘南多家镖队连续失踪案\",\r\n    \"NameTw\": \"鳩佔鵲巢\",\r\n    \"DescTw\": \"查清湘南多家鏢隊連續失蹤案\"\r\n  }"
   rawIndex: 12
   splits:
-  - splitPath: NameFinal
-    text: "鳩佔鵲巢"
-  - splitPath: DescFinal
-    text: "查清湘南多家鏢隊連續失蹤案"
   - splitPath: Name
     text: "鸠占鹊巢"
   - splitPath: Desc
     text: "查清湘南多家镖队连续失踪案"
-  - splitPath: NameTw
-    text: "鳩佔鵲巢"
-  - splitPath: DescTw
-    text: "查清湘南多家鏢隊連續失蹤案"
 - raw: "{\r\n    \"Key\": 49,\r\n    \"NameFinal\": \"魑魅潛形\",\r\n    \"DescFinal\": \"洞察血手門在武當山的陰謀\",\r\n    \"Name\": \"魑魅潜形\",\r\n    \"Desc\": \"洞察血手门在武当山的阴谋\",\r\n    \"NameTw\": \"魑魅潛形\",\r\n    \"DescTw\": \"洞察血手門在武當山的陰謀\"\r\n  }"
   rawIndex: 49
   splits:
-  - splitPath: NameFinal
-    text: "魑魅潛形"
-  - splitPath: DescFinal
-    text: "洞察血手門在武當山的陰謀"
   - splitPath: Name
     text: "魑魅潜形"
   - splitPath: Desc
     text: "洞察血手门在武当山的阴谋"
-  - splitPath: NameTw
-    text: "魑魅潛形"
-  - splitPath: DescTw
-    text: "洞察血手門在武當山的陰謀"
 - raw: "{\r\n    \"Key\": 37,\r\n    \"NameFinal\": \"富貴神仙\",\r\n    \"DescFinal\": \"賭贏“富貴神仙”莫笑貧\",\r\n    \"Name\": \"富贵神仙\",\r\n    \"Desc\": \"赌赢“富贵神仙”莫笑贫\",\r\n    \"NameTw\": \"富貴神仙\",\r\n    \"DescTw\": \"賭贏“富貴神仙”莫笑貧\"\r\n  }"
   rawIndex: 37
   splits:
-  - splitPath: NameFinal
-    text: "富貴神仙"
-  - splitPath: DescFinal
-    text: "賭贏“富貴神仙”莫笑貧"
   - splitPath: Name
     text: "富贵神仙"
   - splitPath: Desc
     text: "赌赢“富贵神仙”莫笑贫"
-  - splitPath: NameTw
-    text: "富貴神仙"
-  - splitPath: DescTw
-    text: "賭贏“富貴神仙”莫笑貧"
 - raw: "{\r\n    \"Key\": 96,\r\n    \"NameFinal\": \"千歲權宦\",\r\n    \"DescFinal\": \"擊敗“九千歲”劉瑾\",\r\n    \"Name\": \"千岁权宦\",\r\n    \"Desc\": \"击败“九千岁”刘瑾\",\r\n    \"NameTw\": \"千歲權宦\",\r\n    \"DescTw\": \"擊敗“九千歲”劉瑾\"\r\n  }"
   rawIndex: 96
   splits:
-  - splitPath: NameFinal
-    text: "千歲權宦"
-  - splitPath: DescFinal
-    text: "擊敗“九千歲”劉瑾"
   - splitPath: Name
     text: "千岁权宦"
   - splitPath: Desc
     text: "击败“九千岁”刘瑾"
-  - splitPath: NameTw
-    text: "千歲權宦"
-  - splitPath: DescTw
-    text: "擊敗“九千歲”劉瑾"
 - raw: "{\r\n    \"Key\": 13,\r\n    \"NameFinal\": \"萬惡淫首\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“萬惡淫首”殷夜啼\",\r\n    \"Name\": \"万恶淫首\",\r\n    \"Desc\": \"击败十大恶人中的“万恶淫首”殷夜啼\",\r\n    \"NameTw\": \"萬惡淫首\",\r\n    \"DescTw\": \"擊敗十大惡人中的“萬惡淫首”殷夜啼\"\r\n  }"
   rawIndex: 13
   splits:
-  - splitPath: NameFinal
-    text: "萬惡淫首"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“萬惡淫首”殷夜啼"
   - splitPath: Name
     text: "万恶淫首"
   - splitPath: Desc
     text: "击败十大恶人中的“万恶淫首”殷夜啼"
-  - splitPath: NameTw
-    text: "萬惡淫首"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“萬惡淫首”殷夜啼"
 - raw: "{\r\n    \"Key\": 43,\r\n    \"NameFinal\": \"血手人屠\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“血手人屠”魏無懺\",\r\n    \"Name\": \"血手人屠\",\r\n    \"Desc\": \"击败十大恶人中的“血手人屠”魏无忏\",\r\n    \"NameTw\": \"血手人屠\",\r\n    \"DescTw\": \"擊敗十大惡人中的“血手人屠”魏無懺\"\r\n  }"
   rawIndex: 43
   splits:
-  - splitPath: NameFinal
-    text: "血手人屠"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“血手人屠”魏無懺"
   - splitPath: Name
     text: "血手人屠"
   - splitPath: Desc
     text: "击败十大恶人中的“血手人屠”魏无忏"
-  - splitPath: NameTw
-    text: "血手人屠"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“血手人屠”魏無懺"
 - raw: "{\r\n    \"Key\": 69,\r\n    \"NameFinal\": \"百無禁忌\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“百無禁忌”君無忌\",\r\n    \"Name\": \"百无禁忌\",\r\n    \"Desc\": \"击败十大恶人中的“百无禁忌”君无忌\",\r\n    \"NameTw\": \"百無禁忌\",\r\n    \"DescTw\": \"擊敗十大惡人中的“百無禁忌”君無忌\"\r\n  }"
   rawIndex: 69
   splits:
-  - splitPath: NameFinal
-    text: "百無禁忌"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“百無禁忌”君無忌"
   - splitPath: Name
     text: "百无禁忌"
   - splitPath: Desc
     text: "击败十大恶人中的“百无禁忌”君无忌"
-  - splitPath: NameTw
-    text: "百無禁忌"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“百無禁忌”君無忌"
 - raw: "{\r\n    \"Key\": 76,\r\n    \"NameFinal\": \"九厄八難\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“九厄八難”衍劫\",\r\n    \"Name\": \"九厄八难\",\r\n    \"Desc\": \"击败十大恶人中的“九厄八难”衍劫\",\r\n    \"NameTw\": \"九厄八難\",\r\n    \"DescTw\": \"擊敗十大惡人中的“九厄八難”衍劫\"\r\n  }"
   rawIndex: 76
   splits:
-  - splitPath: NameFinal
-    text: "九厄八難"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“九厄八難”衍劫"
   - splitPath: Name
     text: "九厄八难"
   - splitPath: Desc
     text: "击败十大恶人中的“九厄八难”衍劫"
-  - splitPath: NameTw
-    text: "九厄八難"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“九厄八難”衍劫"
 - raw: "{\r\n    \"Key\": 79,\r\n    \"NameFinal\": \"紅顏禍水\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“紅顏禍水”夜銷魂\",\r\n    \"Name\": \"红颜祸水\",\r\n    \"Desc\": \"击败十大恶人中的“红颜祸水”夜销魂\",\r\n    \"NameTw\": \"紅顏禍水\",\r\n    \"DescTw\": \"擊敗十大惡人中的“紅顏禍水”夜銷魂\"\r\n  }"
   rawIndex: 79
   splits:
-  - splitPath: NameFinal
-    text: "紅顏禍水"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“紅顏禍水”夜銷魂"
   - splitPath: Name
     text: "红颜祸水"
   - splitPath: Desc
     text: "击败十大恶人中的“红颜祸水”夜销魂"
-  - splitPath: NameTw
-    text: "紅顏禍水"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“紅顏禍水”夜銷魂"
 - raw: "{\r\n    \"Key\": 87,\r\n    \"NameFinal\": \"倒行逆施\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“倒行逆施”施全性\",\r\n    \"Name\": \"倒行逆施\",\r\n    \"Desc\": \"击败十大恶人中的“倒行逆施”施全性\",\r\n    \"NameTw\": \"倒行逆施\",\r\n    \"DescTw\": \"擊敗十大惡人中的“倒行逆施”施全性\"\r\n  }"
   rawIndex: 87
   splits:
-  - splitPath: NameFinal
-    text: "倒行逆施"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“倒行逆施”施全性"
   - splitPath: Name
     text: "倒行逆施"
   - splitPath: Desc
     text: "击败十大恶人中的“倒行逆施”施全性"
-  - splitPath: NameTw
-    text: "倒行逆施"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“倒行逆施”施全性"
 - raw: "{\r\n    \"Key\": 88,\r\n    \"NameFinal\": \"神憎鬼厭\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“神憎鬼厭”邵欺天\",\r\n    \"Name\": \"神憎鬼厌\",\r\n    \"Desc\": \"击败十大恶人中的“神憎鬼厌”邵欺天\",\r\n    \"NameTw\": \"神憎鬼厭\",\r\n    \"DescTw\": \"擊敗十大惡人中的“神憎鬼厭”邵欺天\"\r\n  }"
   rawIndex: 88
   splits:
-  - splitPath: NameFinal
-    text: "神憎鬼厭"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“神憎鬼厭”邵欺天"
   - splitPath: Name
     text: "神憎鬼厌"
   - splitPath: Desc
     text: "击败十大恶人中的“神憎鬼厌”邵欺天"
-  - splitPath: NameTw
-    text: "神憎鬼厭"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“神憎鬼厭”邵欺天"
 - raw: "{\r\n    \"Key\": 91,\r\n    \"NameFinal\": \"殺人無血\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“殺人無血”墨是非\",\r\n    \"Name\": \"杀人无血\",\r\n    \"Desc\": \"击败十大恶人中的“杀人无血”墨是非\",\r\n    \"NameTw\": \"殺人無血\",\r\n    \"DescTw\": \"擊敗十大惡人中的“殺人無血”墨是非\"\r\n  }"
   rawIndex: 91
   splits:
-  - splitPath: NameFinal
-    text: "殺人無血"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“殺人無血”墨是非"
   - splitPath: Name
     text: "杀人无血"
   - splitPath: Desc
     text: "击败十大恶人中的“杀人无血”墨是非"
-  - splitPath: NameTw
-    text: "殺人無血"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“殺人無血”墨是非"
 - raw: "{\r\n    \"Key\": 94,\r\n    \"NameFinal\": \"八方風雨\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“八方風雨”霍九淵\",\r\n    \"Name\": \"八方风雨\",\r\n    \"Desc\": \"击败十大恶人中的“八方风雨”霍九渊\",\r\n    \"NameTw\": \"八方風雨\",\r\n    \"DescTw\": \"擊敗十大惡人中的“八方風雨”霍九淵\"\r\n  }"
   rawIndex: 94
   splits:
-  - splitPath: NameFinal
-    text: "八方風雨"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“八方風雨”霍九淵"
   - splitPath: Name
     text: "八方风雨"
   - splitPath: Desc
     text: "击败十大恶人中的“八方风雨”霍九渊"
-  - splitPath: NameTw
-    text: "八方風雨"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“八方風雨”霍九淵"
 - raw: "{\r\n    \"Key\": 98,\r\n    \"NameFinal\": \"無寶不落\",\r\n    \"DescFinal\": \"擊敗十大惡人中的“無寶不落”鳳棲梧\",\r\n    \"Name\": \"无宝不落\",\r\n    \"Desc\": \"击败十大恶人中的“无宝不落”凤栖梧\",\r\n    \"NameTw\": \"無寶不落\",\r\n    \"DescTw\": \"擊敗十大惡人中的“無寶不落”鳳棲梧\"\r\n  }"
   rawIndex: 98
   splits:
-  - splitPath: NameFinal
-    text: "無寶不落"
-  - splitPath: DescFinal
-    text: "擊敗十大惡人中的“無寶不落”鳳棲梧"
   - splitPath: Name
     text: "无宝不落"
   - splitPath: Desc
     text: "击败十大恶人中的“无宝不落”凤栖梧"
-  - splitPath: NameTw
-    text: "無寶不落"
-  - splitPath: DescTw
-    text: "擊敗十大惡人中的“無寶不落”鳳棲梧"
 - raw: "{\r\n    \"Key\": 38,\r\n    \"NameFinal\": \"魔心卿相\",\r\n    \"DescFinal\": \"擊敗天魔教的“魔心卿相”溫殘陽\",\r\n    \"Name\": \"魔心卿相\",\r\n    \"Desc\": \"击败天魔教的“魔心卿相”温残阳\",\r\n    \"NameTw\": \"魔心卿相\",\r\n    \"DescTw\": \"擊敗天魔教的“魔心卿相”溫殘陽\"\r\n  }"
   rawIndex: 38
   splits:
-  - splitPath: NameFinal
-    text: "魔心卿相"
-  - splitPath: DescFinal
-    text: "擊敗天魔教的“魔心卿相”溫殘陽"
   - splitPath: Name
     text: "魔心卿相"
   - splitPath: Desc
     text: "击败天魔教的“魔心卿相”温残阳"
-  - splitPath: NameTw
-    text: "魔心卿相"
-  - splitPath: DescTw
-    text: "擊敗天魔教的“魔心卿相”溫殘陽"
 - raw: "{\r\n    \"Key\": 68,\r\n    \"NameFinal\": \"將軍百戰\",\r\n    \"DescFinal\": \"通過五場【閒話江湖-將軍百戰】挑戰\",\r\n    \"Name\": \"将军百战\",\r\n    \"Desc\": \"通过五场【闲话江湖-将军百战】挑战\",\r\n    \"NameTw\": \"將軍百戰\",\r\n    \"DescTw\": \"通過五場【閒話江湖-將軍百戰】挑戰\"\r\n  }"
   rawIndex: 68
   splits:
-  - splitPath: NameFinal
-    text: "將軍百戰"
-  - splitPath: DescFinal
-    text: "通過五場【閒話江湖-將軍百戰】挑戰"
   - splitPath: Name
     text: "将军百战"
   - splitPath: Desc
     text: "通过五场【闲话江湖-将军百战】挑战"
-  - splitPath: NameTw
-    text: "將軍百戰"
-  - splitPath: DescTw
-    text: "通過五場【閒話江湖-將軍百戰】挑戰"
 - raw: "{\r\n    \"Key\": 62,\r\n    \"NameFinal\": \"空谷無心\",\r\n    \"DescFinal\": \"通過十六場無心谷心魔挑戰\",\r\n    \"Name\": \"空谷无心\",\r\n    \"Desc\": \"通过十六场无心谷心魔挑战\",\r\n    \"NameTw\": \"空谷無心\",\r\n    \"DescTw\": \"通過十六場無心谷心魔挑戰\"\r\n  }"
   rawIndex: 62
   splits:
-  - splitPath: NameFinal
-    text: "空谷無心"
-  - splitPath: DescFinal
-    text: "通過十六場無心谷心魔挑戰"
   - splitPath: Name
     text: "空谷无心"
   - splitPath: Desc
     text: "通过十六场无心谷心魔挑战"
-  - splitPath: NameTw
-    text: "空谷無心"
-  - splitPath: DescTw
-    text: "通過十六場無心谷心魔挑戰"
 - raw: "{\r\n    \"Key\": 78,\r\n    \"NameFinal\": \"四時迭運\",\r\n    \"DescFinal\": \"通過四場【閒話江湖-四時迭運】挑戰\",\r\n    \"Name\": \"四时迭运\",\r\n    \"Desc\": \"通过四场【闲话江湖-四时迭运】挑战\",\r\n    \"NameTw\": \"四時迭運\",\r\n    \"DescTw\": \"通過四場【閒話江湖-四時迭運】挑戰\"\r\n  }"
   rawIndex: 78
   splits:
-  - splitPath: NameFinal
-    text: "四時迭運"
-  - splitPath: DescFinal
-    text: "通過四場【閒話江湖-四時迭運】挑戰"
   - splitPath: Name
     text: "四时迭运"
   - splitPath: Desc
     text: "通过四场【闲话江湖-四时迭运】挑战"
-  - splitPath: NameTw
-    text: "四時迭運"
-  - splitPath: DescTw
-    text: "通過四場【閒話江湖-四時迭運】挑戰"
 - raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"壽比南山\",\r\n    \"DescFinal\": \"萬壽幫友好到達100\",\r\n    \"Name\": \"寿比南山\",\r\n    \"Desc\": \"万寿帮友好到达100\",\r\n    \"NameTw\": \"壽比南山\",\r\n    \"DescTw\": \"萬壽幫友好到達100\"\r\n  }"
   rawIndex: 14
   splits:
-  - splitPath: NameFinal
-    text: "壽比南山"
-  - splitPath: DescFinal
-    text: "萬壽幫友好到達100"
   - splitPath: Name
     text: "寿比南山"
   - splitPath: Desc
     text: "万寿帮友好到达100"
-  - splitPath: NameTw
-    text: "壽比南山"
-  - splitPath: DescTw
-    text: "萬壽幫友好到達100"
 - raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"謙謙君子\",\r\n    \"DescFinal\": \"君子莊友好到達100\",\r\n    \"Name\": \"谦谦君子\",\r\n    \"Desc\": \"君子庄友好到达100\",\r\n    \"NameTw\": \"謙謙君子\",\r\n    \"DescTw\": \"君子莊友好到達100\"\r\n  }"
   rawIndex: 15
   splits:
-  - splitPath: NameFinal
-    text: "謙謙君子"
-  - splitPath: DescFinal
-    text: "君子莊友好到達100"
   - splitPath: Name
     text: "谦谦君子"
   - splitPath: Desc
     text: "君子庄友好到达100"
-  - splitPath: NameTw
-    text: "謙謙君子"
-  - splitPath: DescTw
-    text: "君子莊友好到達100"
 - raw: "{\r\n    \"Key\": 16,\r\n    \"NameFinal\": \"靈蛇食虺\",\r\n    \"DescFinal\": \"盤蛇谷友好到達100\",\r\n    \"Name\": \"灵蛇食虺\",\r\n    \"Desc\": \"盘蛇谷友好到达100\",\r\n    \"NameTw\": \"靈蛇食虺\",\r\n    \"DescTw\": \"盤蛇谷友好到達100\"\r\n  }"
   rawIndex: 16
   splits:
-  - splitPath: NameFinal
-    text: "靈蛇食虺"
-  - splitPath: DescFinal
-    text: "盤蛇谷友好到達100"
   - splitPath: Name
     text: "灵蛇食虺"
   - splitPath: Desc
     text: "盘蛇谷友好到达100"
-  - splitPath: NameTw
-    text: "靈蛇食虺"
-  - splitPath: DescTw
-    text: "盤蛇谷友好到達100"
 - raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"食指大動\",\r\n    \"DescFinal\": \"丐幫忠字舵友好到達100\",\r\n    \"Name\": \"食指大动\",\r\n    \"Desc\": \"丐帮忠字舵友好到达100\",\r\n    \"NameTw\": \"食指大動\",\r\n    \"DescTw\": \"丐幫忠字舵友好到達100\"\r\n  }"
   rawIndex: 17
   splits:
-  - splitPath: NameFinal
-    text: "食指大動"
-  - splitPath: DescFinal
-    text: "丐幫忠字舵友好到達100"
   - splitPath: Name
     text: "食指大动"
   - splitPath: Desc
     text: "丐帮忠字舵友好到达100"
-  - splitPath: NameTw
-    text: "食指大動"
-  - splitPath: DescTw
-    text: "丐幫忠字舵友好到達100"
 - raw: "{\r\n    \"Key\": 19,\r\n    \"NameFinal\": \"惟楚有材\",\r\n    \"DescFinal\": \"嶽麓書院友好到達100\",\r\n    \"Name\": \"惟楚有材\",\r\n    \"Desc\": \"岳麓书院友好到达100\",\r\n    \"NameTw\": \"惟楚有材\",\r\n    \"DescTw\": \"嶽麓書院友好到達100\"\r\n  }"
   rawIndex: 19
   splits:
-  - splitPath: NameFinal
-    text: "惟楚有材"
-  - splitPath: DescFinal
-    text: "嶽麓書院友好到達100"
   - splitPath: Name
     text: "惟楚有材"
   - splitPath: Desc
     text: "岳麓书院友好到达100"
-  - splitPath: NameTw
-    text: "惟楚有材"
-  - splitPath: DescTw
-    text: "嶽麓書院友好到達100"
 - raw: "{\r\n    \"Key\": 65,\r\n    \"NameFinal\": \"六合時邕\",\r\n    \"DescFinal\": \"六合幫友好到達100\",\r\n    \"Name\": \"六合时邕\",\r\n    \"Desc\": \"六合帮友好到达100\",\r\n    \"NameTw\": \"六合時邕\",\r\n    \"DescTw\": \"六合幫友好到達100\"\r\n  }"
   rawIndex: 65
   splits:
-  - splitPath: NameFinal
-    text: "六合時邕"
-  - splitPath: DescFinal
-    text: "六合幫友好到達100"
   - splitPath: Name
     text: "六合时邕"
   - splitPath: Desc
     text: "六合帮友好到达100"
-  - splitPath: NameTw
-    text: "六合時邕"
-  - splitPath: DescTw
-    text: "六合幫友好到達100"
 - raw: "{\r\n    \"Key\": 44,\r\n    \"NameFinal\": \"結稻長生\",\r\n    \"DescFinal\": \"神農幫友好到達100\",\r\n    \"Name\": \"结稻长生\",\r\n    \"Desc\": \"神农帮友好到达100\",\r\n    \"NameTw\": \"結稻長生\",\r\n    \"DescTw\": \"神農幫友好到達100\"\r\n  }"
   rawIndex: 44
   splits:
-  - splitPath: NameFinal
-    text: "結稻長生"
-  - splitPath: DescFinal
-    text: "神農幫友好到達100"
   - splitPath: Name
     text: "结稻长生"
   - splitPath: Desc
     text: "神农帮友好到达100"
-  - splitPath: NameTw
-    text: "結稻長生"
-  - splitPath: DescTw
-    text: "神農幫友好到達100"
 - raw: "{\r\n    \"Key\": 70,\r\n    \"NameFinal\": \"荊湘俠少\",\r\n    \"DescFinal\": \"荊湘六扇門友好到達100\",\r\n    \"Name\": \"荆湘侠少\",\r\n    \"Desc\": \"荆湘六扇门友好到达100\",\r\n    \"NameTw\": \"荊湘俠少\",\r\n    \"DescTw\": \"荊湘六扇門友好到達100\"\r\n  }"
   rawIndex: 70
   splits:
-  - splitPath: NameFinal
-    text: "荊湘俠少"
-  - splitPath: DescFinal
-    text: "荊湘六扇門友好到達100"
   - splitPath: Name
     text: "荆湘侠少"
   - splitPath: Desc
     text: "荆湘六扇门友好到达100"
-  - splitPath: NameTw
-    text: "荊湘俠少"
-  - splitPath: DescTw
-    text: "荊湘六扇門友好到達100"
 - raw: "{\r\n    \"Key\": 77,\r\n    \"NameFinal\": \"掛錘四猛\",\r\n    \"DescFinal\": \"掛錘莊友好到達100\",\r\n    \"Name\": \"挂锤四猛\",\r\n    \"Desc\": \"挂锤庄友好到达100\",\r\n    \"NameTw\": \"掛錘四猛\",\r\n    \"DescTw\": \"掛錘莊友好到達100\"\r\n  }"
   rawIndex: 77
   splits:
-  - splitPath: NameFinal
-    text: "掛錘四猛"
-  - splitPath: DescFinal
-    text: "掛錘莊友好到達100"
   - splitPath: Name
     text: "挂锤四猛"
   - splitPath: Desc
     text: "挂锤庄友好到达100"
-  - splitPath: NameTw
-    text: "掛錘四猛"
-  - splitPath: DescTw
-    text: "掛錘莊友好到達100"
 - raw: "{\r\n    \"Key\": 89,\r\n    \"NameFinal\": \"福慶有餘\",\r\n    \"DescFinal\": \"福慶班友好到達100\",\r\n    \"Name\": \"福庆有余\",\r\n    \"Desc\": \"福庆班友好到达100\",\r\n    \"NameTw\": \"福慶有餘\",\r\n    \"DescTw\": \"福慶班友好到達100\"\r\n  }"
   rawIndex: 89
   splits:
-  - splitPath: NameFinal
-    text: "福慶有餘"
-  - splitPath: DescFinal
-    text: "福慶班友好到達100"
   - splitPath: Name
     text: "福庆有余"
   - splitPath: Desc
     text: "福庆班友好到达100"
-  - splitPath: NameTw
-    text: "福慶有餘"
-  - splitPath: DescTw
-    text: "福慶班友好到達100"
 - raw: "{\r\n    \"Key\": 92,\r\n    \"NameFinal\": \"鏢行永盛\",\r\n    \"DescFinal\": \"永盛鏢局友好到達100\",\r\n    \"Name\": \"镖行永盛\",\r\n    \"Desc\": \"永盛镖局友好到达100\",\r\n    \"NameTw\": \"鏢行永盛\",\r\n    \"DescTw\": \"永盛鏢局友好到達100\"\r\n  }"
   rawIndex: 92
   splits:
-  - splitPath: NameFinal
-    text: "鏢行永盛"
-  - splitPath: DescFinal
-    text: "永盛鏢局友好到達100"
   - splitPath: Name
     text: "镖行永盛"
   - splitPath: Desc
     text: "永盛镖局友好到达100"
-  - splitPath: NameTw
-    text: "鏢行永盛"
-  - splitPath: DescTw
-    text: "永盛鏢局友好到達100"
+- raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"筆墨橫姿\",\r\n    \"DescFinal\": \"洗墨山莊友好到達100\",\r\n    \"Name\": \"笔墨横姿\",\r\n    \"Desc\": \"洗墨山庄友好到达100\",\r\n    \"NameTw\": \"筆墨橫姿\",\r\n    \"DescTw\": \"洗墨山莊友好到達100\"\r\n  }"
+  rawIndex: 102
+  splits:
+  - splitPath: Name
+    text: "笔墨横姿"
+  - splitPath: Desc
+    text: "洗墨山庄友好到达100"
 - raw: "{\r\n    \"Key\": 31,\r\n    \"NameFinal\": \"以身相許\",\r\n    \"DescFinal\": \"與一名紅顏知己結緣\",\r\n    \"Name\": \"以身相许\",\r\n    \"Desc\": \"与一名红颜知己结缘\",\r\n    \"NameTw\": \"以身相許\",\r\n    \"DescTw\": \"與一名紅顏知己結緣\"\r\n  }"
   rawIndex: 31
   splits:
-  - splitPath: NameFinal
-    text: "以身相許"
-  - splitPath: DescFinal
-    text: "與一名紅顏知己結緣"
   - splitPath: Name
     text: "以身相许"
   - splitPath: Desc
     text: "与一名红颜知己结缘"
-  - splitPath: NameTw
-    text: "以身相許"
-  - splitPath: DescTw
-    text: "與一名紅顏知己結緣"
 - raw: "{\r\n    \"Key\": 32,\r\n    \"NameFinal\": \"大眾情人\",\r\n    \"DescFinal\": \"與三名紅顏知己結緣\",\r\n    \"Name\": \"大众情人\",\r\n    \"Desc\": \"与三名红颜知己结缘\",\r\n    \"NameTw\": \"大眾情人\",\r\n    \"DescTw\": \"與三名紅顏知己結緣\"\r\n  }"
   rawIndex: 32
   splits:
-  - splitPath: NameFinal
-    text: "大眾情人"
-  - splitPath: DescFinal
-    text: "與三名紅顏知己結緣"
   - splitPath: Name
     text: "大众情人"
   - splitPath: Desc
     text: "与三名红颜知己结缘"
-  - splitPath: NameTw
-    text: "大眾情人"
-  - splitPath: DescTw
-    text: "與三名紅顏知己結緣"
 - raw: "{\r\n    \"Key\": 21,\r\n    \"NameFinal\": \"上根大器\",\r\n    \"DescFinal\": \"根骨到達200\",\r\n    \"Name\": \"上根大器\",\r\n    \"Desc\": \"根骨到达200\",\r\n    \"NameTw\": \"上根大器\",\r\n    \"DescTw\": \"根骨到達200\"\r\n  }"
   rawIndex: 21
   splits:
-  - splitPath: NameFinal
-    text: "上根大器"
-  - splitPath: DescFinal
-    text: "根骨到達200"
   - splitPath: Name
     text: "上根大器"
   - splitPath: Desc
     text: "根骨到达200"
-  - splitPath: NameTw
-    text: "上根大器"
-  - splitPath: DescTw
-    text: "根骨到達200"
 - raw: "{\r\n    \"Key\": 22,\r\n    \"NameFinal\": \"百川歸海\",\r\n    \"DescFinal\": \"內息到達200\",\r\n    \"Name\": \"百川归海\",\r\n    \"Desc\": \"内息到达200\",\r\n    \"NameTw\": \"百川歸海\",\r\n    \"DescTw\": \"內息到達200\"\r\n  }"
   rawIndex: 22
   splits:
-  - splitPath: NameFinal
-    text: "百川歸海"
-  - splitPath: DescFinal
-    text: "內息到達200"
   - splitPath: Name
     text: "百川归海"
   - splitPath: Desc
     text: "内息到达200"
-  - splitPath: NameTw
-    text: "百川歸海"
-  - splitPath: DescTw
-    text: "內息到達200"
 - raw: "{\r\n    \"Key\": 23,\r\n    \"NameFinal\": \"銅筋鐵骨\",\r\n    \"DescFinal\": \"體魄到達200\",\r\n    \"Name\": \"铜筋铁骨\",\r\n    \"Desc\": \"体魄到达200\",\r\n    \"NameTw\": \"銅筋鐵骨\",\r\n    \"DescTw\": \"體魄到達200\"\r\n  }"
   rawIndex: 23
   splits:
-  - splitPath: NameFinal
-    text: "銅筋鐵骨"
-  - splitPath: DescFinal
-    text: "體魄到達200"
   - splitPath: Name
     text: "铜筋铁骨"
   - splitPath: Desc
     text: "体魄到达200"
-  - splitPath: NameTw
-    text: "銅筋鐵骨"
-  - splitPath: DescTw
-    text: "體魄到達200"
 - raw: "{\r\n    \"Key\": 24,\r\n    \"NameFinal\": \"動如脫兔\",\r\n    \"DescFinal\": \"靈活到達200\",\r\n    \"Name\": \"动如脱兔\",\r\n    \"Desc\": \"灵活到达200\",\r\n    \"NameTw\": \"動如脫兔\",\r\n    \"DescTw\": \"靈活到達200\"\r\n  }"
   rawIndex: 24
   splits:
-  - splitPath: NameFinal
-    text: "動如脫兔"
-  - splitPath: DescFinal
-    text: "靈活到達200"
   - splitPath: Name
     text: "动如脱兔"
   - splitPath: Desc
     text: "灵活到达200"
-  - splitPath: NameTw
-    text: "動如脫兔"
-  - splitPath: DescTw
-    text: "靈活到達200"
 - raw: "{\r\n    \"Key\": 25,\r\n    \"NameFinal\": \"一聞千悟\",\r\n    \"DescFinal\": \"悟性到達200\",\r\n    \"Name\": \"一闻千悟\",\r\n    \"Desc\": \"悟性到达200\",\r\n    \"NameTw\": \"一聞千悟\",\r\n    \"DescTw\": \"悟性到達200\"\r\n  }"
   rawIndex: 25
   splits:
-  - splitPath: NameFinal
-    text: "一聞千悟"
-  - splitPath: DescFinal
-    text: "悟性到達200"
   - splitPath: Name
     text: "一闻千悟"
   - splitPath: Desc
     text: "悟性到达200"
-  - splitPath: NameTw
-    text: "一聞千悟"
-  - splitPath: DescTw
-    text: "悟性到達200"
 - raw: "{\r\n    \"Key\": 26,\r\n    \"NameFinal\": \"萬事亨通\",\r\n    \"DescFinal\": \"福緣到達200\",\r\n    \"Name\": \"万事亨通\",\r\n    \"Desc\": \"福缘到达200\",\r\n    \"NameTw\": \"萬事亨通\",\r\n    \"DescTw\": \"福緣到達200\"\r\n  }"
   rawIndex: 26
   splits:
-  - splitPath: NameFinal
-    text: "萬事亨通"
-  - splitPath: DescFinal
-    text: "福緣到達200"
   - splitPath: Name
     text: "万事亨通"
   - splitPath: Desc
     text: "福缘到达200"
-  - splitPath: NameTw
-    text: "萬事亨通"
-  - splitPath: DescTw
-    text: "福緣到達200"
 - raw: "{\r\n    \"Key\": 27,\r\n    \"NameFinal\": \"華佗在世\",\r\n    \"DescFinal\": \"醫術到達宗師\",\r\n    \"Name\": \"华佗在世\",\r\n    \"Desc\": \"医术到达宗师\",\r\n    \"NameTw\": \"華佗在世\",\r\n    \"DescTw\": \"醫術到達宗師\"\r\n  }"
   rawIndex: 27
   splits:
-  - splitPath: NameFinal
-    text: "華佗在世"
-  - splitPath: DescFinal
-    text: "醫術到達宗師"
   - splitPath: Name
     text: "华佗在世"
   - splitPath: Desc
     text: "医术到达宗师"
-  - splitPath: NameTw
-    text: "華佗在世"
-  - splitPath: DescTw
-    text: "醫術到達宗師"
 - raw: "{\r\n    \"Key\": 28,\r\n    \"NameFinal\": \"狀元之才\",\r\n    \"DescFinal\": \"儒學到達宗師\",\r\n    \"Name\": \"状元之才\",\r\n    \"Desc\": \"儒学到达宗师\",\r\n    \"NameTw\": \"狀元之才\",\r\n    \"DescTw\": \"儒學到達宗師\"\r\n  }"
   rawIndex: 28
   splits:
-  - splitPath: NameFinal
-    text: "狀元之才"
-  - splitPath: DescFinal
-    text: "儒學到達宗師"
   - splitPath: Name
     text: "状元之才"
   - splitPath: Desc
     text: "儒学到达宗师"
-  - splitPath: NameTw
-    text: "狀元之才"
-  - splitPath: DescTw
-    text: "儒學到達宗師"
 - raw: "{\r\n    \"Key\": 29,\r\n    \"NameFinal\": \"火德真君\",\r\n    \"DescFinal\": \"火器到達宗師\",\r\n    \"Name\": \"火德真君\",\r\n    \"Desc\": \"火器到达宗师\",\r\n    \"NameTw\": \"火德真君\",\r\n    \"DescTw\": \"火器到達宗師\"\r\n  }"
   rawIndex: 29
   splits:
-  - splitPath: NameFinal
-    text: "火德真君"
-  - splitPath: DescFinal
-    text: "火器到達宗師"
   - splitPath: Name
     text: "火德真君"
   - splitPath: Desc
     text: "火器到达宗师"
-  - splitPath: NameTw
-    text: "火德真君"
-  - splitPath: DescTw
-    text: "火器到達宗師"
 - raw: "{\r\n    \"Key\": 30,\r\n    \"NameFinal\": \"萬獸之王\",\r\n    \"DescFinal\": \"御獸到達宗師\",\r\n    \"Name\": \"万兽之王\",\r\n    \"Desc\": \"御兽到达宗师\",\r\n    \"NameTw\": \"萬獸之王\",\r\n    \"DescTw\": \"御獸到達宗師\"\r\n  }"
   rawIndex: 30
   splits:
-  - splitPath: NameFinal
-    text: "萬獸之王"
-  - splitPath: DescFinal
-    text: "御獸到達宗師"
   - splitPath: Name
     text: "万兽之王"
   - splitPath: Desc
     text: "御兽到达宗师"
-  - splitPath: NameTw
-    text: "萬獸之王"
-  - splitPath: DescTw
-    text: "御獸到達宗師"
 - raw: "{\r\n    \"Key\": 35,\r\n    \"NameFinal\": \"庖丁解牛\",\r\n    \"DescFinal\": \"廚藝到達宗師\",\r\n    \"Name\": \"庖丁解牛\",\r\n    \"Desc\": \"厨艺到达宗师\",\r\n    \"NameTw\": \"庖丁解牛\",\r\n    \"DescTw\": \"廚藝到達宗師\"\r\n  }"
   rawIndex: 35
   splits:
-  - splitPath: NameFinal
-    text: "庖丁解牛"
-  - splitPath: DescFinal
-    text: "廚藝到達宗師"
   - splitPath: Name
     text: "庖丁解牛"
   - splitPath: Desc
     text: "厨艺到达宗师"
-  - splitPath: NameTw
-    text: "庖丁解牛"
-  - splitPath: DescTw
-    text: "廚藝到達宗師"
 - raw: "{\r\n    \"Key\": 36,\r\n    \"NameFinal\": \"千王之王\",\r\n    \"DescFinal\": \"賭術到達宗師\",\r\n    \"Name\": \"千王之王\",\r\n    \"Desc\": \"赌术到达宗师\",\r\n    \"NameTw\": \"千王之王\",\r\n    \"DescTw\": \"賭術到達宗師\"\r\n  }"
   rawIndex: 36
   splits:
-  - splitPath: NameFinal
-    text: "千王之王"
-  - splitPath: DescFinal
-    text: "賭術到達宗師"
   - splitPath: Name
     text: "千王之王"
   - splitPath: Desc
     text: "赌术到达宗师"
-  - splitPath: NameTw
-    text: "千王之王"
-  - splitPath: DescTw
-    text: "賭術到達宗師"
 - raw: "{\r\n    \"Key\": 40,\r\n    \"NameFinal\": \"顏筋柳骨\",\r\n    \"DescFinal\": \"翰墨到達宗師\",\r\n    \"Name\": \"颜筋柳骨\",\r\n    \"Desc\": \"翰墨到达宗师\",\r\n    \"NameTw\": \"顏筋柳骨\",\r\n    \"DescTw\": \"翰墨到達宗師\"\r\n  }"
   rawIndex: 40
   splits:
-  - splitPath: NameFinal
-    text: "顏筋柳骨"
-  - splitPath: DescFinal
-    text: "翰墨到達宗師"
   - splitPath: Name
     text: "颜筋柳骨"
   - splitPath: Desc
     text: "翰墨到达宗师"
-  - splitPath: NameTw
-    text: "顏筋柳骨"
-  - splitPath: DescTw
-    text: "翰墨到達宗師"
 - raw: "{\r\n    \"Key\": 41,\r\n    \"NameFinal\": \"神機妙算\",\r\n    \"DescFinal\": \"術數到達宗師\",\r\n    \"Name\": \"神机妙算\",\r\n    \"Desc\": \"术数到达宗师\",\r\n    \"NameTw\": \"神機妙算\",\r\n    \"DescTw\": \"術數到達宗師\"\r\n  }"
   rawIndex: 41
   splits:
-  - splitPath: NameFinal
-    text: "神機妙算"
-  - splitPath: DescFinal
-    text: "術數到達宗師"
   - splitPath: Name
     text: "神机妙算"
   - splitPath: Desc
     text: "术数到达宗师"
-  - splitPath: NameTw
-    text: "神機妙算"
-  - splitPath: DescTw
-    text: "術數到達宗師"
 - raw: "{\r\n    \"Key\": 90,\r\n    \"NameFinal\": \"梨園班首\",\r\n    \"DescFinal\": \"百戲到達宗師\",\r\n    \"Name\": \"梨园班首\",\r\n    \"Desc\": \"百戏到达宗师\",\r\n    \"NameTw\": \"梨園班首\",\r\n    \"DescTw\": \"百戲到達宗師\"\r\n  }"
   rawIndex: 90
   splits:
-  - splitPath: NameFinal
-    text: "梨園班首"
-  - splitPath: DescFinal
-    text: "百戲到達宗師"
   - splitPath: Name
     text: "梨园班首"
   - splitPath: Desc
     text: "百戏到达宗师"
-  - splitPath: NameTw
-    text: "梨園班首"
-  - splitPath: DescTw
-    text: "百戲到達宗師"

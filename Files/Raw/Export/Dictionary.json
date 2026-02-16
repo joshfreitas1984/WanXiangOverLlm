@@ -1,3162 +1,1566 @@
 - raw: "{\r\n    \"Key\": 0,\r\n    \"DescFinal\": \"提示\",\r\n    \"DictionaryFinal\": \"剩餘{0}點\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"剩余{0}点\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"剩餘{0}點\"\r\n  }"
   rawIndex: 0
   splits:
-  - splitPath: DescFinal
-    text: "提示"
-  - splitPath: DictionaryFinal
-    text: "剩餘{0}點"
   - splitPath: Desc
     text: "提示"
   - splitPath: Dictionary
     text: "剩余{0}点"
-  - splitPath: DescTw
-    text: "提示"
-  - splitPath: DictionaryTw
-    text: "剩餘{0}點"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"DescFinal\": \"提示\",\r\n    \"DictionaryFinal\": \"你的屬性還沒分配完\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"你的属性还没分配完\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"你的屬性還沒分配完\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: DescFinal
-    text: "提示"
-  - splitPath: DictionaryFinal
-    text: "你的屬性還沒分配完"
   - splitPath: Desc
     text: "提示"
   - splitPath: Dictionary
     text: "你的属性还没分配完"
-  - splitPath: DescTw
-    text: "提示"
-  - splitPath: DictionaryTw
-    text: "你的屬性還沒分配完"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"DescFinal\": \"提示\",\r\n    \"DictionaryFinal\": \"第{0}年{1}月\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"第{0}年{1}月\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"第{0}年{1}月\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: DescFinal
-    text: "提示"
-  - splitPath: DictionaryFinal
-    text: "第{0}年{1}月"
   - splitPath: Desc
     text: "提示"
   - splitPath: Dictionary
-    text: "第{0}年{1}月"
-  - splitPath: DescTw
-    text: "提示"
-  - splitPath: DictionaryTw
     text: "第{0}年{1}月"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"DescFinal\": \"提示\",\r\n    \"DictionaryFinal\": \"{0}文\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"{0}文\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"{0}文\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: DescFinal
-    text: "提示"
-  - splitPath: DictionaryFinal
-    text: "{0}文"
   - splitPath: Desc
     text: "提示"
   - splitPath: Dictionary
-    text: "{0}文"
-  - splitPath: DescTw
-    text: "提示"
-  - splitPath: DictionaryTw
     text: "{0}文"
 - raw: "{\r\n    \"Key\": 4,\r\n    \"DescFinal\": \"提示\",\r\n    \"DictionaryFinal\": \"尚未開放\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"尚未开放\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"尚未開放\"\r\n  }"
   rawIndex: 4
   splits:
-  - splitPath: DescFinal
-    text: "提示"
-  - splitPath: DictionaryFinal
-    text: "尚未開放"
   - splitPath: Desc
     text: "提示"
   - splitPath: Dictionary
     text: "尚未开放"
-  - splitPath: DescTw
-    text: "提示"
-  - splitPath: DictionaryTw
-    text: "尚未開放"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"DescFinal\": \"俠客介面無俠客提示\",\r\n    \"DictionaryFinal\": \"尚未招募\",\r\n    \"Desc\": \"侠客界面无侠客提示\",\r\n    \"Dictionary\": \"尚未招募\",\r\n    \"DescTw\": \"俠客介面無俠客提示\",\r\n    \"DictionaryTw\": \"尚未招募\"\r\n  }"
   rawIndex: 5
   splits:
-  - splitPath: DescFinal
-    text: "俠客介面無俠客提示"
-  - splitPath: DictionaryFinal
-    text: "尚未招募"
   - splitPath: Desc
     text: "侠客界面无侠客提示"
   - splitPath: Dictionary
     text: "尚未招募"
-  - splitPath: DescTw
-    text: "俠客介面無俠客提示"
-  - splitPath: DictionaryTw
-    text: "尚未招募"
 - raw: "{\r\n    \"Key\": 12,\r\n    \"DictionaryFinal\": \"解鎖地圖：{0}\",\r\n    \"Dictionary\": \"解锁地图：{0}\",\r\n    \"DictionaryTw\": \"解鎖地圖：{0}\"\r\n  }"
   rawIndex: 12
   splits:
-  - splitPath: DictionaryFinal
-    text: "解鎖地圖：{0}"
   - splitPath: Dictionary
     text: "解锁地图：{0}"
-  - splitPath: DictionaryTw
-    text: "解鎖地圖：{0}"
 - raw: "{\r\n    \"Key\": 13,\r\n    \"DictionaryFinal\": \"關閉地圖：{0}\",\r\n    \"Dictionary\": \"关闭地图：{0}\",\r\n    \"DictionaryTw\": \"關閉地圖：{0}\"\r\n  }"
   rawIndex: 13
   splits:
-  - splitPath: DictionaryFinal
-    text: "關閉地圖：{0}"
   - splitPath: Dictionary
     text: "关闭地图：{0}"
-  - splitPath: DictionaryTw
-    text: "關閉地圖：{0}"
 - raw: "{\r\n    \"Key\": 14,\r\n    \"DictionaryFinal\": \"加入門派：{0}\",\r\n    \"Dictionary\": \"加入门派：{0}\",\r\n    \"DictionaryTw\": \"加入門派：{0}\"\r\n  }"
   rawIndex: 14
   splits:
-  - splitPath: DictionaryFinal
-    text: "加入門派：{0}"
   - splitPath: Dictionary
     text: "加入门派：{0}"
-  - splitPath: DictionaryTw
-    text: "加入門派：{0}"
 - raw: "{\r\n    \"Key\": 15,\r\n    \"DictionaryFinal\": \"離開門派：{0}\",\r\n    \"Dictionary\": \"离开门派：{0}\",\r\n    \"DictionaryTw\": \"離開門派：{0}\"\r\n  }"
   rawIndex: 15
   splits:
-  - splitPath: DictionaryFinal
-    text: "離開門派：{0}"
   - splitPath: Dictionary
     text: "离开门派：{0}"
-  - splitPath: DictionaryTw
-    text: "離開門派：{0}"
 - raw: "{\r\n    \"Key\": 16,\r\n    \"DictionaryFinal\": \"習得功法：{0}\",\r\n    \"Dictionary\": \"习得功法：{0}\",\r\n    \"DictionaryTw\": \"習得功法：{0}\"\r\n  }"
   rawIndex: 16
   splits:
-  - splitPath: DictionaryFinal
-    text: "習得功法：{0}"
   - splitPath: Dictionary
     text: "习得功法：{0}"
-  - splitPath: DictionaryTw
-    text: "習得功法：{0}"
 - raw: "{\r\n    \"Key\": 17,\r\n    \"DictionaryFinal\": \"失去功法：{0}\",\r\n    \"Dictionary\": \"失去功法：{0}\",\r\n    \"DictionaryTw\": \"失去功法：{0}\"\r\n  }"
   rawIndex: 17
   splits:
-  - splitPath: DictionaryFinal
-    text: "失去功法：{0}"
   - splitPath: Dictionary
-    text: "失去功法：{0}"
-  - splitPath: DictionaryTw
     text: "失去功法：{0}"
 - raw: "{\r\n    \"Key\": 18,\r\n    \"DictionaryFinal\": \"{0}加入隊伍\",\r\n    \"Dictionary\": \"{0}加入队伍\",\r\n    \"DictionaryTw\": \"{0}加入隊伍\"\r\n  }"
   rawIndex: 18
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}加入隊伍"
   - splitPath: Dictionary
     text: "{0}加入队伍"
-  - splitPath: DictionaryTw
-    text: "{0}加入隊伍"
 - raw: "{\r\n    \"Key\": 19,\r\n    \"DictionaryFinal\": \"{0}離開了隊伍\",\r\n    \"Dictionary\": \"{0}离开了队伍\",\r\n    \"DictionaryTw\": \"{0}離開了隊伍\"\r\n  }"
   rawIndex: 19
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}離開了隊伍"
   - splitPath: Dictionary
     text: "{0}离开了队伍"
-  - splitPath: DictionaryTw
-    text: "{0}離開了隊伍"
 - raw: "{\r\n    \"Key\": 20,\r\n    \"DictionaryFinal\": \"<color=#ff00ff>追加天賦：{0}</color>\",\r\n    \"Dictionary\": \"<color=#ff00ff>追加天赋：{0}</color>\",\r\n    \"DictionaryTw\": \"<color=#ff00ff>追加天賦：{0}</color>\"\r\n  }"
   rawIndex: 20
   splits:
-  - splitPath: DictionaryFinal
-    text: "<color=#ff00ff>追加天賦：{0}</color>"
   - splitPath: Dictionary
     text: "<color=#ff00ff>追加天赋：{0}</color>"
-  - splitPath: DictionaryTw
-    text: "<color=#ff00ff>追加天賦：{0}</color>"
 - raw: "{\r\n    \"Key\": 21,\r\n    \"DictionaryFinal\": \"消耗{0}歷練\",\r\n    \"Dictionary\": \"消耗{0}历练\",\r\n    \"DictionaryTw\": \"消耗{0}歷練\"\r\n  }"
   rawIndex: 21
   splits:
-  - splitPath: DictionaryFinal
-    text: "消耗{0}歷練"
   - splitPath: Dictionary
     text: "消耗{0}历练"
-  - splitPath: DictionaryTw
-    text: "消耗{0}歷練"
 - raw: "{\r\n    \"Key\": 22,\r\n    \"DictionaryFinal\": \"消耗{0}錢\",\r\n    \"Dictionary\": \"消耗{0}钱\",\r\n    \"DictionaryTw\": \"消耗{0}錢\"\r\n  }"
   rawIndex: 22
   splits:
-  - splitPath: DictionaryFinal
-    text: "消耗{0}錢"
   - splitPath: Dictionary
     text: "消耗{0}钱"
-  - splitPath: DictionaryTw
-    text: "消耗{0}錢"
 - raw: "{\r\n    \"Key\": 23,\r\n    \"DictionaryFinal\": \"歷練不足\",\r\n    \"Dictionary\": \"历练不足\",\r\n    \"DictionaryTw\": \"歷練不足\"\r\n  }"
   rawIndex: 23
   splits:
-  - splitPath: DictionaryFinal
-    text: "歷練不足"
   - splitPath: Dictionary
     text: "历练不足"
-  - splitPath: DictionaryTw
-    text: "歷練不足"
 - raw: "{\r\n    \"Key\": 24,\r\n    \"DictionaryFinal\": \"銅錢不足\",\r\n    \"Dictionary\": \"铜钱不足\",\r\n    \"DictionaryTw\": \"銅錢不足\"\r\n  }"
   rawIndex: 24
   splits:
-  - splitPath: DictionaryFinal
-    text: "銅錢不足"
   - splitPath: Dictionary
     text: "铜钱不足"
-  - splitPath: DictionaryTw
-    text: "銅錢不足"
 - raw: "{\r\n    \"Key\": 25,\r\n    \"DictionaryFinal\": \"是否覆蓋存檔，覆蓋後將丟失該存檔\",\r\n    \"Dictionary\": \"是否覆盖存档，覆盖后将丢失该存档\",\r\n    \"DictionaryTw\": \"是否覆蓋存檔，覆蓋後將丟失該存檔\"\r\n  }"
   rawIndex: 25
   splits:
-  - splitPath: DictionaryFinal
-    text: "是否覆蓋存檔，覆蓋後將丟失該存檔"
   - splitPath: Dictionary
     text: "是否覆盖存档，覆盖后将丢失该存档"
-  - splitPath: DictionaryTw
-    text: "是否覆蓋存檔，覆蓋後將丟失該存檔"
 - raw: "{\r\n    \"Key\": 26,\r\n    \"DictionaryFinal\": \"是否刪除存檔，刪除後不可恢復\",\r\n    \"Dictionary\": \"是否删除存档，删除后不可恢复\",\r\n    \"DictionaryTw\": \"是否刪除存檔，刪除後不可恢復\"\r\n  }"
   rawIndex: 26
   splits:
-  - splitPath: DictionaryFinal
-    text: "是否刪除存檔，刪除後不可恢復"
   - splitPath: Dictionary
     text: "是否删除存档，删除后不可恢复"
-  - splitPath: DictionaryTw
-    text: "是否刪除存檔，刪除後不可恢復"
 - raw: "{\r\n    \"Key\": 27,\r\n    \"DictionaryFinal\": \"儲存成功\",\r\n    \"Dictionary\": \"保存成功\",\r\n    \"DictionaryTw\": \"儲存成功\"\r\n  }"
   rawIndex: 27
   splits:
-  - splitPath: DictionaryFinal
-    text: "儲存成功"
   - splitPath: Dictionary
     text: "保存成功"
-  - splitPath: DictionaryTw
-    text: "儲存成功"
 - raw: "{\r\n    \"Key\": 28,\r\n    \"DictionaryFinal\": \"劇情中不可儲存\",\r\n    \"Dictionary\": \"剧情中不可保存\",\r\n    \"DictionaryTw\": \"劇情中不可儲存\"\r\n  }"
   rawIndex: 28
   splits:
-  - splitPath: DictionaryFinal
-    text: "劇情中不可儲存"
   - splitPath: Dictionary
     text: "剧情中不可保存"
-  - splitPath: DictionaryTw
-    text: "劇情中不可儲存"
 - raw: "{\r\n    \"Key\": 29,\r\n    \"DictionaryFinal\": \"<color=#00ff00>自動存檔</color>\",\r\n    \"Dictionary\": \"<color=#00ff00>自动存档</color>\",\r\n    \"DictionaryTw\": \"<color=#00ff00>自動存檔</color>\"\r\n  }"
   rawIndex: 29
   splits:
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>自動存檔</color>"
   - splitPath: Dictionary
     text: "<color=#00ff00>自动存档</color>"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>自動存檔</color>"
 - raw: "{\r\n    \"Key\": 30,\r\n    \"DescFinal\": \"不可點選選項的提示\",\r\n    \"DictionaryFinal\": \"敬請期待\",\r\n    \"Desc\": \"不可点击选项的提示\",\r\n    \"Dictionary\": \"敬请期待\",\r\n    \"DescTw\": \"不可點選選項的提示\",\r\n    \"DictionaryTw\": \"敬請期待\"\r\n  }"
   rawIndex: 30
   splits:
-  - splitPath: DescFinal
-    text: "不可點選選項的提示"
-  - splitPath: DictionaryFinal
-    text: "敬請期待"
   - splitPath: Desc
     text: "不可点击选项的提示"
   - splitPath: Dictionary
     text: "敬请期待"
-  - splitPath: DescTw
-    text: "不可點選選項的提示"
-  - splitPath: DictionaryTw
-    text: "敬請期待"
 - raw: "{\r\n    \"Key\": 31,\r\n    \"DictionaryFinal\": \"解鎖成就：{0}\",\r\n    \"Dictionary\": \"解锁成就：{0}\",\r\n    \"DictionaryTw\": \"解鎖成就：{0}\"\r\n  }"
   rawIndex: 31
   splits:
-  - splitPath: DictionaryFinal
-    text: "解鎖成就：{0}"
   - splitPath: Dictionary
     text: "解锁成就：{0}"
-  - splitPath: DictionaryTw
-    text: "解鎖成就：{0}"
 - raw: "{\r\n    \"Key\": 32,\r\n    \"DescFinal\": \"江湖訊息購買提示\",\r\n    \"DictionaryFinal\": \"<color=#00ff00>打聽需花費{0}文，可保留三條訊息</color>\",\r\n    \"Desc\": \"江湖消息购买提示\",\r\n    \"Dictionary\": \"<color=#00ff00>打听需花费{0}文，可保留三条消息</color>\",\r\n    \"DescTw\": \"江湖訊息購買提示\",\r\n    \"DictionaryTw\": \"<color=#00ff00>打聽需花費{0}文，可保留三條訊息</color>\"\r\n  }"
   rawIndex: 32
   splits:
-  - splitPath: DescFinal
-    text: "江湖訊息購買提示"
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>打聽需花費{0}文，可保留三條訊息</color>"
   - splitPath: Desc
     text: "江湖消息购买提示"
   - splitPath: Dictionary
     text: "<color=#00ff00>打听需花费{0}文，可保留三条消息</color>"
-  - splitPath: DescTw
-    text: "江湖訊息購買提示"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>打聽需花費{0}文，可保留三條訊息</color>"
 - raw: "{\r\n    \"Key\": 33,\r\n    \"DescFinal\": \"訊息買完\",\r\n    \"DictionaryFinal\": \"沒有新的江湖訊息\",\r\n    \"Desc\": \"消息买完\",\r\n    \"Dictionary\": \"没有新的江湖消息\",\r\n    \"DescTw\": \"訊息買完\",\r\n    \"DictionaryTw\": \"沒有新的江湖訊息\"\r\n  }"
   rawIndex: 33
   splits:
-  - splitPath: DescFinal
-    text: "訊息買完"
-  - splitPath: DictionaryFinal
-    text: "沒有新的江湖訊息"
   - splitPath: Desc
     text: "消息买完"
   - splitPath: Dictionary
     text: "没有新的江湖消息"
-  - splitPath: DescTw
-    text: "訊息買完"
-  - splitPath: DictionaryTw
-    text: "沒有新的江湖訊息"
 - raw: "{\r\n    \"Key\": 34,\r\n    \"DescFinal\": \"我方技能\",\r\n    \"DictionaryFinal\": \"<color=#0088ff>{0}</color> 發動 <color=#ff8800>{1}</color>\",\r\n    \"Desc\": \"我方技能\",\r\n    \"Dictionary\": \"<color=#0088ff>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"我方技能\",\r\n    \"DictionaryTw\": \"<color=#0088ff>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 34
   splits:
-  - splitPath: DescFinal
-    text: "我方技能"
-  - splitPath: DictionaryFinal
-    text: "<color=#0088ff>{0}</color> 發動 <color=#ff8800>{1}</color>"
   - splitPath: Desc
     text: "我方技能"
   - splitPath: Dictionary
     text: "<color=#0088ff>{0}</color> 发动 <color=#ff8800>{1}</color>"
-  - splitPath: DescTw
-    text: "我方技能"
-  - splitPath: DictionaryTw
-    text: "<color=#0088ff>{0}</color> 發動 <color=#ff8800>{1}</color>"
 - raw: "{\r\n    \"Key\": 35,\r\n    \"DescFinal\": \"敵方技能\",\r\n    \"DictionaryFinal\": \"<color=#ff0000>{0}</color> 發動 <color=#ff8800>{1}</color>\",\r\n    \"Desc\": \"敌方技能\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"敵方技能\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 35
   splits:
-  - splitPath: DescFinal
-    text: "敵方技能"
-  - splitPath: DictionaryFinal
-    text: "<color=#ff0000>{0}</color> 發動 <color=#ff8800>{1}</color>"
   - splitPath: Desc
     text: "敌方技能"
   - splitPath: Dictionary
     text: "<color=#ff0000>{0}</color> 发动 <color=#ff8800>{1}</color>"
-  - splitPath: DescTw
-    text: "敵方技能"
-  - splitPath: DictionaryTw
-    text: "<color=#ff0000>{0}</color> 發動 <color=#ff8800>{1}</color>"
 - raw: "{\r\n    \"Key\": 36,\r\n    \"DescFinal\": \"我方支援\",\r\n    \"DictionaryFinal\": \"<color=#00ff00>{0}</color> 狀態出現了\",\r\n    \"Desc\": \"我方支援\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 状态出现了\",\r\n    \"DescTw\": \"我方支援\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 狀態出現了\"\r\n  }"
   rawIndex: 36
   splits:
-  - splitPath: DescFinal
-    text: "我方支援"
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>{0}</color> 狀態出現了"
   - splitPath: Desc
     text: "我方支援"
   - splitPath: Dictionary
     text: "<color=#00ff00>{0}</color> 状态出现了"
-  - splitPath: DescTw
-    text: "我方支援"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>{0}</color> 狀態出現了"
 - raw: "{\r\n    \"Key\": 37,\r\n    \"DescFinal\": \"敵方支援\",\r\n    \"DictionaryFinal\": \"<color=#00ff00>{0}</color> 狀態出現了\",\r\n    \"Desc\": \"敌方支援\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 状态出现了\",\r\n    \"DescTw\": \"敵方支援\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 狀態出現了\"\r\n  }"
   rawIndex: 37
   splits:
-  - splitPath: DescFinal
-    text: "敵方支援"
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>{0}</color> 狀態出現了"
   - splitPath: Desc
     text: "敌方支援"
   - splitPath: Dictionary
     text: "<color=#00ff00>{0}</color> 状态出现了"
-  - splitPath: DescTw
-    text: "敵方支援"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>{0}</color> 狀態出現了"
 - raw: "{\r\n    \"Key\": 38,\r\n    \"DescFinal\": \"我方中buff\",\r\n    \"DictionaryFinal\": \"<color=#0088ff>我方</color> 進入 <color=#00ff00>{1}</color>狀態\",\r\n    \"Desc\": \"我方中buff\",\r\n    \"Dictionary\": \"<color=#0088ff>我方</color> 进入 <color=#00ff00>{1}</color>状态\",\r\n    \"DescTw\": \"我方中buff\",\r\n    \"DictionaryTw\": \"<color=#0088ff>我方</color> 進入 <color=#00ff00>{1}</color>狀態\"\r\n  }"
   rawIndex: 38
   splits:
-  - splitPath: DescFinal
-    text: "我方中buff"
-  - splitPath: DictionaryFinal
-    text: "<color=#0088ff>我方</color> 進入 <color=#00ff00>{1}</color>狀態"
   - splitPath: Desc
     text: "我方中buff"
   - splitPath: Dictionary
     text: "<color=#0088ff>我方</color> 进入 <color=#00ff00>{1}</color>状态"
-  - splitPath: DescTw
-    text: "我方中buff"
-  - splitPath: DictionaryTw
-    text: "<color=#0088ff>我方</color> 進入 <color=#00ff00>{1}</color>狀態"
 - raw: "{\r\n    \"Key\": 39,\r\n    \"DescFinal\": \"敵方中buff\",\r\n    \"DictionaryFinal\": \"<color=#ff0000>{0}</color> 進入 <color=#00ff00>{1}</color>狀態\",\r\n    \"Desc\": \"敌方中buff\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 进入 <color=#00ff00>{1}</color>状态\",\r\n    \"DescTw\": \"敵方中buff\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 進入 <color=#00ff00>{1}</color>狀態\"\r\n  }"
   rawIndex: 39
   splits:
-  - splitPath: DescFinal
-    text: "敵方中buff"
-  - splitPath: DictionaryFinal
-    text: "<color=#ff0000>{0}</color> 進入 <color=#00ff00>{1}</color>狀態"
   - splitPath: Desc
     text: "敌方中buff"
   - splitPath: Dictionary
     text: "<color=#ff0000>{0}</color> 进入 <color=#00ff00>{1}</color>状态"
-  - splitPath: DescTw
-    text: "敵方中buff"
-  - splitPath: DictionaryTw
-    text: "<color=#ff0000>{0}</color> 進入 <color=#00ff00>{1}</color>狀態"
 - raw: "{\r\n    \"Key\": 40,\r\n    \"DescFinal\": \"打斷\",\r\n    \"DictionaryFinal\": \"<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打斷了\",\r\n    \"Desc\": \"打断\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打断了\",\r\n    \"DescTw\": \"打斷\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打斷了\"\r\n  }"
   rawIndex: 40
   splits:
-  - splitPath: DescFinal
-    text: "打斷"
-  - splitPath: DictionaryFinal
-    text: "<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打斷了"
   - splitPath: Desc
     text: "打断"
   - splitPath: Dictionary
     text: "<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打断了"
-  - splitPath: DescTw
-    text: "打斷"
-  - splitPath: DictionaryTw
-    text: "<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打斷了"
 - raw: "{\r\n    \"Key\": 41,\r\n    \"DescFinal\": \"支援技能\",\r\n    \"DictionaryFinal\": \"<color=#00ff00>{0}</color> 發動 <color=#ff8800>{1}</color>\",\r\n    \"Desc\": \"支援技能\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"支援技能\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 41
   splits:
-  - splitPath: DescFinal
-    text: "支援技能"
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>{0}</color> 發動 <color=#ff8800>{1}</color>"
   - splitPath: Desc
     text: "支援技能"
   - splitPath: Dictionary
     text: "<color=#00ff00>{0}</color> 发动 <color=#ff8800>{1}</color>"
-  - splitPath: DescTw
-    text: "支援技能"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>{0}</color> 發動 <color=#ff8800>{1}</color>"
 - raw: "{\r\n    \"Key\": 42,\r\n    \"DescFinal\": \"抵消傷害\",\r\n    \"DictionaryFinal\": \"<color=#00ff00>{0}</color> 抵消了傷害\",\r\n    \"Desc\": \"抵消伤害\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 抵消了伤害\",\r\n    \"DescTw\": \"抵消傷害\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 抵消了傷害\"\r\n  }"
   rawIndex: 42
   splits:
-  - splitPath: DescFinal
-    text: "抵消傷害"
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>{0}</color> 抵消了傷害"
   - splitPath: Desc
     text: "抵消伤害"
   - splitPath: Dictionary
     text: "<color=#00ff00>{0}</color> 抵消了伤害"
-  - splitPath: DescTw
-    text: "抵消傷害"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>{0}</color> 抵消了傷害"
 - raw: "{\r\n    \"Key\": 43,\r\n    \"DescFinal\": \"排除成功\",\r\n    \"DictionaryFinal\": \"排除對方戰術\",\r\n    \"Desc\": \"排除成功\",\r\n    \"Dictionary\": \"排除对方战术\",\r\n    \"DescTw\": \"排除成功\",\r\n    \"DictionaryTw\": \"排除對方戰術\"\r\n  }"
   rawIndex: 43
   splits:
-  - splitPath: DescFinal
-    text: "排除成功"
-  - splitPath: DictionaryFinal
-    text: "排除對方戰術"
   - splitPath: Desc
     text: "排除成功"
   - splitPath: Dictionary
     text: "排除对方战术"
-  - splitPath: DescTw
-    text: "排除成功"
-  - splitPath: DictionaryTw
-    text: "排除對方戰術"
 - raw: "{\r\n    \"Key\": 44,\r\n    \"DescFinal\": \"排除失敗\",\r\n    \"DictionaryFinal\": \"沒有效果\",\r\n    \"Desc\": \"排除失败\",\r\n    \"Dictionary\": \"没有效果\",\r\n    \"DescTw\": \"排除失敗\",\r\n    \"DictionaryTw\": \"沒有效果\"\r\n  }"
   rawIndex: 44
   splits:
-  - splitPath: DescFinal
-    text: "排除失敗"
-  - splitPath: DictionaryFinal
-    text: "沒有效果"
   - splitPath: Desc
     text: "排除失败"
   - splitPath: Dictionary
     text: "没有效果"
-  - splitPath: DescTw
-    text: "排除失敗"
-  - splitPath: DictionaryTw
-    text: "沒有效果"
 - raw: "{\r\n    \"Key\": 45,\r\n    \"DescFinal\": \"buff清除成功\",\r\n    \"DictionaryFinal\": \"異常被清除了\",\r\n    \"Desc\": \"buff清除成功\",\r\n    \"Dictionary\": \"异常被清除了\",\r\n    \"DescTw\": \"buff清除成功\",\r\n    \"DictionaryTw\": \"異常被清除了\"\r\n  }"
   rawIndex: 45
   splits:
-  - splitPath: DescFinal
-    text: "buff清除成功"
-  - splitPath: DictionaryFinal
-    text: "異常被清除了"
   - splitPath: Desc
     text: "buff清除成功"
   - splitPath: Dictionary
     text: "异常被清除了"
-  - splitPath: DescTw
-    text: "buff清除成功"
-  - splitPath: DictionaryTw
-    text: "異常被清除了"
 - raw: "{\r\n    \"Key\": 46,\r\n    \"DescFinal\": \"buff清除失敗\",\r\n    \"DictionaryFinal\": \"沒有效果\",\r\n    \"Desc\": \"buff清除失败\",\r\n    \"Dictionary\": \"没有效果\",\r\n    \"DescTw\": \"buff清除失敗\",\r\n    \"DictionaryTw\": \"沒有效果\"\r\n  }"
   rawIndex: 46
   splits:
-  - splitPath: DescFinal
-    text: "buff清除失敗"
-  - splitPath: DictionaryFinal
-    text: "沒有效果"
   - splitPath: Desc
     text: "buff清除失败"
   - splitPath: Dictionary
     text: "没有效果"
-  - splitPath: DescTw
-    text: "buff清除失敗"
-  - splitPath: DictionaryTw
-    text: "沒有效果"
 - raw: "{\r\n    \"Key\": 47,\r\n    \"DescFinal\": \"解除昏睡\",\r\n    \"DictionaryFinal\": \"解除<color=#00ff00>失神</color>狀態\",\r\n    \"Desc\": \"解除昏睡\",\r\n    \"Dictionary\": \"解除<color=#00ff00>失神</color>状态\",\r\n    \"DescTw\": \"解除昏睡\",\r\n    \"DictionaryTw\": \"解除<color=#00ff00>失神</color>狀態\"\r\n  }"
   rawIndex: 47
   splits:
-  - splitPath: DescFinal
-    text: "解除昏睡"
-  - splitPath: DictionaryFinal
-    text: "解除<color=#00ff00>失神</color>狀態"
   - splitPath: Desc
     text: "解除昏睡"
   - splitPath: Dictionary
     text: "解除<color=#00ff00>失神</color>状态"
-  - splitPath: DescTw
-    text: "解除昏睡"
-  - splitPath: DictionaryTw
-    text: "解除<color=#00ff00>失神</color>狀態"
 - raw: "{\r\n    \"Key\": 48,\r\n    \"DescFinal\": \"多個打斷\",\r\n    \"DictionaryFinal\": \"<color=#ff0000>{0}</color> 的功法被打斷了\",\r\n    \"Desc\": \"多个打断\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 的功法被打断了\",\r\n    \"DescTw\": \"多個打斷\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 的功法被打斷了\"\r\n  }"
   rawIndex: 48
   splits:
-  - splitPath: DescFinal
-    text: "多個打斷"
-  - splitPath: DictionaryFinal
-    text: "<color=#ff0000>{0}</color> 的功法被打斷了"
   - splitPath: Desc
     text: "多个打断"
   - splitPath: Dictionary
     text: "<color=#ff0000>{0}</color> 的功法被打断了"
-  - splitPath: DescTw
-    text: "多個打斷"
-  - splitPath: DictionaryTw
-    text: "<color=#ff0000>{0}</color> 的功法被打斷了"
 - raw: "{\r\n    \"Key\": 49,\r\n    \"DescFinal\": \"combo追加\",\r\n    \"DictionaryFinal\": \"連擊追加\",\r\n    \"Desc\": \"combo追加\",\r\n    \"Dictionary\": \"连击追加\",\r\n    \"DescTw\": \"combo追加\",\r\n    \"DictionaryTw\": \"連擊追加\"\r\n  }"
   rawIndex: 49
   splits:
-  - splitPath: DescFinal
-    text: "combo追加"
-  - splitPath: DictionaryFinal
-    text: "連擊追加"
   - splitPath: Desc
     text: "combo追加"
   - splitPath: Dictionary
     text: "连击追加"
-  - splitPath: DescTw
-    text: "combo追加"
-  - splitPath: DictionaryTw
-    text: "連擊追加"
 - raw: "{\r\n    \"Key\": 50,\r\n    \"DescFinal\": \"ap回覆\",\r\n    \"DictionaryFinal\": \"行動力恢復了\",\r\n    \"Desc\": \"ap回复\",\r\n    \"Dictionary\": \"行动力恢复了\",\r\n    \"DescTw\": \"ap回覆\",\r\n    \"DictionaryTw\": \"行動力恢復了\"\r\n  }"
   rawIndex: 50
   splits:
-  - splitPath: DescFinal
-    text: "ap回覆"
-  - splitPath: DictionaryFinal
-    text: "行動力恢復了"
   - splitPath: Desc
     text: "ap回复"
   - splitPath: Dictionary
     text: "行动力恢复了"
-  - splitPath: DescTw
-    text: "ap回覆"
-  - splitPath: DictionaryTw
-    text: "行動力恢復了"
 - raw: "{\r\n    \"Key\": 51,\r\n    \"DescFinal\": \"強化技能\",\r\n    \"DictionaryFinal\": \"強化了隊友\",\r\n    \"Desc\": \"强化技能\",\r\n    \"Dictionary\": \"强化了队友\",\r\n    \"DescTw\": \"強化技能\",\r\n    \"DictionaryTw\": \"強化了隊友\"\r\n  }"
   rawIndex: 51
   splits:
-  - splitPath: DescFinal
-    text: "強化技能"
-  - splitPath: DictionaryFinal
-    text: "強化了隊友"
   - splitPath: Desc
     text: "强化技能"
   - splitPath: Dictionary
     text: "强化了队友"
-  - splitPath: DescTw
-    text: "強化技能"
-  - splitPath: DictionaryTw
-    text: "強化了隊友"
 - raw: "{\r\n    \"Key\": 89,\r\n    \"DescFinal\": \"會心技能\",\r\n    \"DictionaryFinal\": \"隊友進入了會心狀態\",\r\n    \"Desc\": \"会心技能\",\r\n    \"Dictionary\": \"队友进入了会心状态\",\r\n    \"DescTw\": \"會心技能\",\r\n    \"DictionaryTw\": \"隊友進入了會心狀態\"\r\n  }"
   rawIndex: 89
   splits:
-  - splitPath: DescFinal
-    text: "會心技能"
-  - splitPath: DictionaryFinal
-    text: "隊友進入了會心狀態"
   - splitPath: Desc
     text: "会心技能"
   - splitPath: Dictionary
     text: "队友进入了会心状态"
-  - splitPath: DescTw
-    text: "會心技能"
-  - splitPath: DictionaryTw
-    text: "隊友進入了會心狀態"
 - raw: "{\r\n    \"Key\": 90,\r\n    \"DescFinal\": \"連擊\",\r\n    \"DictionaryFinal\": \"隊友進入了連擊狀態\",\r\n    \"Desc\": \"连击\",\r\n    \"Dictionary\": \"队友进入了连击状态\",\r\n    \"DescTw\": \"連擊\",\r\n    \"DictionaryTw\": \"隊友進入了連擊狀態\"\r\n  }"
   rawIndex: 90
   splits:
-  - splitPath: DescFinal
-    text: "連擊"
-  - splitPath: DictionaryFinal
-    text: "隊友進入了連擊狀態"
   - splitPath: Desc
     text: "连击"
   - splitPath: Dictionary
     text: "队友进入了连击状态"
-  - splitPath: DescTw
-    text: "連擊"
-  - splitPath: DictionaryTw
-    text: "隊友進入了連擊狀態"
 - raw: "{\r\n    \"Key\": 52,\r\n    \"DescFinal\": \"速度\",\r\n    \"DictionaryFinal\": \"點選切換戰鬥速度\",\r\n    \"Desc\": \"速度\",\r\n    \"Dictionary\": \"点击切换战斗速度\",\r\n    \"DescTw\": \"速度\",\r\n    \"DictionaryTw\": \"點選切換戰鬥速度\"\r\n  }"
   rawIndex: 52
   splits:
-  - splitPath: DescFinal
-    text: "速度"
-  - splitPath: DictionaryFinal
-    text: "點選切換戰鬥速度"
   - splitPath: Desc
     text: "速度"
   - splitPath: Dictionary
     text: "点击切换战斗速度"
-  - splitPath: DescTw
-    text: "速度"
-  - splitPath: DictionaryTw
-    text: "點選切換戰鬥速度"
 - raw: "{\r\n    \"Key\": 53,\r\n    \"DescFinal\": \"行動力\",\r\n    \"DictionaryFinal\": \"每回合補充2點，施展功法需要消耗行動力，行動力可累積至下回合繼續使用\",\r\n    \"Desc\": \"行动力\",\r\n    \"Dictionary\": \"每回合补充2点，施展功法需要消耗行动力，行动力可累积至下回合继续使用\",\r\n    \"DescTw\": \"行動力\",\r\n    \"DictionaryTw\": \"每回合補充2點，施展功法需要消耗行動力，行動力可累積至下回合繼續使用\"\r\n  }"
   rawIndex: 53
   splits:
-  - splitPath: DescFinal
-    text: "行動力"
-  - splitPath: DictionaryFinal
-    text: "每回合補充2點，施展功法需要消耗行動力，行動力可累積至下回合繼續使用"
   - splitPath: Desc
     text: "行动力"
   - splitPath: Dictionary
     text: "每回合补充2点，施展功法需要消耗行动力，行动力可累积至下回合继续使用"
-  - splitPath: DescTw
-    text: "行動力"
-  - splitPath: DictionaryTw
-    text: "每回合補充2點，施展功法需要消耗行動力，行動力可累積至下回合繼續使用"
 - raw: "{\r\n    \"Key\": 54,\r\n    \"DescFinal\": \"防禦\",\r\n    \"DictionaryFinal\": \"點選施展戰術“防禦”，消耗1點行動力\",\r\n    \"Desc\": \"防御\",\r\n    \"Dictionary\": \"点击施展战术“防御”，消耗1点行动力\",\r\n    \"DescTw\": \"防禦\",\r\n    \"DictionaryTw\": \"點選施展戰術“防禦”，消耗1點行動力\"\r\n  }"
   rawIndex: 54
   splits:
-  - splitPath: DescFinal
-    text: "防禦"
-  - splitPath: DictionaryFinal
-    text: "點選施展戰術“防禦”，消耗1點行動力"
   - splitPath: Desc
     text: "防御"
   - splitPath: Dictionary
     text: "点击施展战术“防御”，消耗1点行动力"
-  - splitPath: DescTw
-    text: "防禦"
-  - splitPath: DictionaryTw
-    text: "點選施展戰術“防禦”，消耗1點行動力"
 - raw: "{\r\n    \"Key\": 55,\r\n    \"DescFinal\": \"結束回合\",\r\n    \"DictionaryFinal\": \"結束玩家回合，切換為敵方行動\",\r\n    \"Desc\": \"结束回合\",\r\n    \"Dictionary\": \"结束玩家回合，切换为敌方行动\",\r\n    \"DescTw\": \"結束回合\",\r\n    \"DictionaryTw\": \"結束玩家回合，切換為敵方行動\"\r\n  }"
   rawIndex: 55
   splits:
-  - splitPath: DescFinal
-    text: "結束回合"
-  - splitPath: DictionaryFinal
-    text: "結束玩家回合，切換為敵方行動"
   - splitPath: Desc
     text: "结束回合"
   - splitPath: Dictionary
     text: "结束玩家回合，切换为敌方行动"
-  - splitPath: DescTw
-    text: "結束回合"
-  - splitPath: DictionaryTw
-    text: "結束玩家回合，切換為敵方行動"
 - raw: "{\r\n    \"Key\": 56,\r\n    \"DescFinal\": \"重來\",\r\n    \"DictionaryFinal\": \"重新開始本場戰鬥\",\r\n    \"Desc\": \"重来\",\r\n    \"Dictionary\": \"重新开始本场战斗\",\r\n    \"DescTw\": \"重來\",\r\n    \"DictionaryTw\": \"重新開始本場戰鬥\"\r\n  }"
   rawIndex: 56
   splits:
-  - splitPath: DescFinal
-    text: "重來"
-  - splitPath: DictionaryFinal
-    text: "重新開始本場戰鬥"
   - splitPath: Desc
     text: "重来"
   - splitPath: Dictionary
     text: "重新开始本场战斗"
-  - splitPath: DescTw
-    text: "重來"
-  - splitPath: DictionaryTw
-    text: "重新開始本場戰鬥"
 - raw: "{\r\n    \"Key\": 57,\r\n    \"DescFinal\": \"認輸\",\r\n    \"DictionaryFinal\": \"放棄本場戰鬥，戰鬥結果判定為失敗\",\r\n    \"Desc\": \"认输\",\r\n    \"Dictionary\": \"放弃本场战斗，战斗结果判定为失败\",\r\n    \"DescTw\": \"認輸\",\r\n    \"DictionaryTw\": \"放棄本場戰鬥，戰鬥結果判定為失敗\"\r\n  }"
   rawIndex: 57
   splits:
-  - splitPath: DescFinal
-    text: "認輸"
-  - splitPath: DictionaryFinal
-    text: "放棄本場戰鬥，戰鬥結果判定為失敗"
   - splitPath: Desc
     text: "认输"
   - splitPath: Dictionary
     text: "放弃本场战斗，战斗结果判定为失败"
-  - splitPath: DescTw
-    text: "認輸"
-  - splitPath: DictionaryTw
-    text: "放棄本場戰鬥，戰鬥結果判定為失敗"
 - raw: "{\r\n    \"Key\": 58,\r\n    \"DescFinal\": \"行動力不足\",\r\n    \"DictionaryFinal\": \"行動力不足\",\r\n    \"Desc\": \"行动力不足\",\r\n    \"Dictionary\": \"行动力不足\",\r\n    \"DescTw\": \"行動力不足\",\r\n    \"DictionaryTw\": \"行動力不足\"\r\n  }"
   rawIndex: 58
   splits:
-  - splitPath: DescFinal
-    text: "行動力不足"
-  - splitPath: DictionaryFinal
-    text: "行動力不足"
   - splitPath: Desc
     text: "行动力不足"
   - splitPath: Dictionary
     text: "行动力不足"
-  - splitPath: DescTw
-    text: "行動力不足"
-  - splitPath: DictionaryTw
-    text: "行動力不足"
 - raw: "{\r\n    \"Key\": 59,\r\n    \"DescFinal\": \"防禦疊滿\",\r\n    \"DictionaryFinal\": \"防禦已提升至最高層\",\r\n    \"Desc\": \"防御叠满\",\r\n    \"Dictionary\": \"防御已提升至最高层\",\r\n    \"DescTw\": \"防禦疊滿\",\r\n    \"DictionaryTw\": \"防禦已提升至最高層\"\r\n  }"
   rawIndex: 59
   splits:
-  - splitPath: DescFinal
-    text: "防禦疊滿"
-  - splitPath: DictionaryFinal
-    text: "防禦已提升至最高層"
   - splitPath: Desc
     text: "防御叠满"
   - splitPath: Dictionary
     text: "防御已提升至最高层"
-  - splitPath: DescTw
-    text: "防禦疊滿"
-  - splitPath: DictionaryTw
-    text: "防禦已提升至最高層"
 - raw: "{\r\n    \"Key\": 60,\r\n    \"DescFinal\": \"反傷（不要刪換行符）\",\r\n    \"DictionaryFinal\": \"\\\\n反傷\",\r\n    \"Desc\": \"反伤（不要删换行符）\",\r\n    \"Dictionary\": \"\\\\n反伤\",\r\n    \"DescTw\": \"反傷（不要刪換行符）\",\r\n    \"DictionaryTw\": \"\\\\n反傷\"\r\n  }"
   rawIndex: 60
   splits:
-  - splitPath: DescFinal
-    text: "反傷（不要刪換行符）"
-  - splitPath: DictionaryFinal
-    text: "\\n反傷"
   - splitPath: Desc
     text: "反伤（不要删换行符）"
   - splitPath: Dictionary
     text: "\\n反伤"
-  - splitPath: DescTw
-    text: "反傷（不要刪換行符）"
-  - splitPath: DictionaryTw
-    text: "\\n反傷"
 - raw: "{\r\n    \"Key\": 70,\r\n    \"DictionaryFinal\": \"隊伍中至少有1人\",\r\n    \"Dictionary\": \"队伍中至少有1人\",\r\n    \"DictionaryTw\": \"隊伍中至少有1人\"\r\n  }"
   rawIndex: 70
   splits:
-  - splitPath: DictionaryFinal
-    text: "隊伍中至少有1人"
   - splitPath: Dictionary
     text: "队伍中至少有1人"
-  - splitPath: DictionaryTw
-    text: "隊伍中至少有1人"
 - raw: "{\r\n    \"Key\": 71,\r\n    \"DictionaryFinal\": \"名字中包含敏感詞，請重新輸入\",\r\n    \"Dictionary\": \"名字中包含敏感词，请重新输入\",\r\n    \"DictionaryTw\": \"名字中包含敏感詞，請重新輸入\"\r\n  }"
   rawIndex: 71
   splits:
-  - splitPath: DictionaryFinal
-    text: "名字中包含敏感詞，請重新輸入"
   - splitPath: Dictionary
     text: "名字中包含敏感词，请重新输入"
-  - splitPath: DictionaryTw
-    text: "名字中包含敏感詞，請重新輸入"
 - raw: "{\r\n    \"Key\": 72,\r\n    \"DictionaryFinal\": \"名字最多四個字\",\r\n    \"Dictionary\": \"名字最多四个字\",\r\n    \"DictionaryTw\": \"名字最多四個字\"\r\n  }"
   rawIndex: 72
   splits:
-  - splitPath: DictionaryFinal
-    text: "名字最多四個字"
   - splitPath: Dictionary
     text: "名字最多四个字"
-  - splitPath: DictionaryTw
-    text: "名字最多四個字"
 - raw: "{\r\n    \"Key\": 73,\r\n    \"DictionaryFinal\": \"放棄本場戰鬥可能進入結局，確定要放棄嗎？\",\r\n    \"Dictionary\": \"放弃本场战斗可能进入结局，确定要放弃吗？\",\r\n    \"DictionaryTw\": \"放棄本場戰鬥可能進入結局，確定要放棄嗎？\"\r\n  }"
   rawIndex: 73
   splits:
-  - splitPath: DictionaryFinal
-    text: "放棄本場戰鬥可能進入結局，確定要放棄嗎？"
   - splitPath: Dictionary
     text: "放弃本场战斗可能进入结局，确定要放弃吗？"
-  - splitPath: DictionaryTw
-    text: "放棄本場戰鬥可能進入結局，確定要放棄嗎？"
 - raw: "{\r\n    \"Key\": 75,\r\n    \"DictionaryFinal\": \"寶物卡不可出戰\",\r\n    \"Dictionary\": \"宝物卡不可出战\",\r\n    \"DictionaryTw\": \"寶物卡不可出戰\"\r\n  }"
   rawIndex: 75
   splits:
-  - splitPath: DictionaryFinal
-    text: "寶物卡不可出戰"
   - splitPath: Dictionary
     text: "宝物卡不可出战"
-  - splitPath: DictionaryTw
-    text: "寶物卡不可出戰"
 - raw: "{\r\n    \"Key\": 76,\r\n    \"DictionaryFinal\": \"獲得了寶物{0}\",\r\n    \"Dictionary\": \"获得了宝物{0}\",\r\n    \"DictionaryTw\": \"獲得了寶物{0}\"\r\n  }"
   rawIndex: 76
   splits:
-  - splitPath: DictionaryFinal
-    text: "獲得了寶物{0}"
   - splitPath: Dictionary
     text: "获得了宝物{0}"
-  - splitPath: DictionaryTw
-    text: "獲得了寶物{0}"
 - raw: "{\r\n    \"Key\": 77,\r\n    \"DictionaryFinal\": \"失去了寶物{0}\",\r\n    \"Dictionary\": \"失去了宝物{0}\",\r\n    \"DictionaryTw\": \"失去了寶物{0}\"\r\n  }"
   rawIndex: 77
   splits:
-  - splitPath: DictionaryFinal
-    text: "失去了寶物{0}"
   - splitPath: Dictionary
     text: "失去了宝物{0}"
-  - splitPath: DictionaryTw
-    text: "失去了寶物{0}"
 - raw: "{\r\n    \"Key\": 79,\r\n    \"DictionaryFinal\": \"點數不足\",\r\n    \"Dictionary\": \"点数不足\",\r\n    \"DictionaryTw\": \"點數不足\"\r\n  }"
   rawIndex: 79
   splits:
-  - splitPath: DictionaryFinal
-    text: "點數不足"
   - splitPath: Dictionary
     text: "点数不足"
-  - splitPath: DictionaryTw
-    text: "點數不足"
 - raw: "{\r\n    \"Key\": 80,\r\n    \"DictionaryFinal\": \"\\\\n\\\\n點數：{0}\",\r\n    \"Dictionary\": \"\\\\n\\\\n点数：{0}\",\r\n    \"DictionaryTw\": \"\\\\n\\\\n點數：{0}\"\r\n  }"
   rawIndex: 80
   splits:
-  - splitPath: DictionaryFinal
-    text: "\\n\\n點數：{0}"
   - splitPath: Dictionary
     text: "\\n\\n点数：{0}"
-  - splitPath: DictionaryTw
-    text: "\\n\\n點數：{0}"
 - raw: "{\r\n    \"Key\": 81,\r\n    \"DictionaryFinal\": \"\\\\n\\\\n獲取功法獎勵\\\\n{0}\",\r\n    \"Dictionary\": \"\\\\n\\\\n获取功法奖励\\\\n{0}\",\r\n    \"DictionaryTw\": \"\\\\n\\\\n獲取功法獎勵\\\\n{0}\"\r\n  }"
   rawIndex: 81
   splits:
-  - splitPath: DictionaryFinal
-    text: "\\n\\n獲取功法獎勵\\n{0}"
   - splitPath: Dictionary
     text: "\\n\\n获取功法奖励\\n{0}"
-  - splitPath: DictionaryTw
-    text: "\\n\\n獲取功法獎勵\\n{0}"
 - raw: "{\r\n    \"Key\": 82,\r\n    \"DictionaryFinal\": \"鎖定該天賦需消耗點數{0}\",\r\n    \"Dictionary\": \"锁定该天赋需消耗点数{0}\",\r\n    \"DictionaryTw\": \"鎖定該天賦需消耗點數{0}\"\r\n  }"
   rawIndex: 82
   splits:
-  - splitPath: DictionaryFinal
-    text: "鎖定該天賦需消耗點數{0}"
   - splitPath: Dictionary
     text: "锁定该天赋需消耗点数{0}"
-  - splitPath: DictionaryTw
-    text: "鎖定該天賦需消耗點數{0}"
 - raw: "{\r\n    \"Key\": 83,\r\n    \"DictionaryFinal\": \"<color=#00ffff>快速存檔</color>\",\r\n    \"Dictionary\": \"<color=#00ffff>快速存档</color>\",\r\n    \"DictionaryTw\": \"<color=#00ffff>快速存檔</color>\"\r\n  }"
   rawIndex: 83
   splits:
-  - splitPath: DictionaryFinal
-    text: "<color=#00ffff>快速存檔</color>"
   - splitPath: Dictionary
     text: "<color=#00ffff>快速存档</color>"
-  - splitPath: DictionaryTw
-    text: "<color=#00ffff>快速存檔</color>"
 - raw: "{\r\n    \"Key\": 84,\r\n    \"DictionaryFinal\": \"該按鍵已被【{0}】使用\",\r\n    \"Dictionary\": \"该按键已被【{0}】使用\",\r\n    \"DictionaryTw\": \"該按鍵已被【{0}】使用\"\r\n  }"
   rawIndex: 84
   splits:
-  - splitPath: DictionaryFinal
-    text: "該按鍵已被【{0}】使用"
   - splitPath: Dictionary
     text: "该按键已被【{0}】使用"
-  - splitPath: DictionaryTw
-    text: "該按鍵已被【{0}】使用"
 - raw: "{\r\n    \"Key\": 85,\r\n    \"DictionaryFinal\": \"{0}不能在該難度下使用\",\r\n    \"Dictionary\": \"{0}不能在该难度下使用\",\r\n    \"DictionaryTw\": \"{0}不能在該難度下使用\"\r\n  }"
   rawIndex: 85
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}不能在該難度下使用"
   - splitPath: Dictionary
     text: "{0}不能在该难度下使用"
-  - splitPath: DictionaryTw
-    text: "{0}不能在該難度下使用"
 - raw: "{\r\n    \"Key\": 86,\r\n    \"DictionaryFinal\": \"需要關閉自動播放，方可跳過\",\r\n    \"Dictionary\": \"需要关闭自动播放，方可跳过\",\r\n    \"DictionaryTw\": \"需要關閉自動播放，方可跳過\"\r\n  }"
   rawIndex: 86
   splits:
-  - splitPath: DictionaryFinal
-    text: "需要關閉自動播放，方可跳過"
   - splitPath: Dictionary
     text: "需要关闭自动播放，方可跳过"
-  - splitPath: DictionaryTw
-    text: "需要關閉自動播放，方可跳過"
 - raw: "{\r\n    \"Key\": 87,\r\n    \"DictionaryFinal\": \"備註最多四個字\",\r\n    \"Dictionary\": \"备注最多四个字\",\r\n    \"DictionaryTw\": \"備註最多四個字\"\r\n  }"
   rawIndex: 87
   splits:
-  - splitPath: DictionaryFinal
-    text: "備註最多四個字"
   - splitPath: Dictionary
     text: "备注最多四个字"
-  - splitPath: DictionaryTw
-    text: "備註最多四個字"
 - raw: "{\r\n    \"Key\": 88,\r\n    \"DictionaryFinal\": \"備註中包含敏感詞，請重新輸入\",\r\n    \"Dictionary\": \"备注中包含敏感词，请重新输入\",\r\n    \"DictionaryTw\": \"備註中包含敏感詞，請重新輸入\"\r\n  }"
   rawIndex: 88
   splits:
-  - splitPath: DictionaryFinal
-    text: "備註中包含敏感詞，請重新輸入"
   - splitPath: Dictionary
     text: "备注中包含敏感词，请重新输入"
-  - splitPath: DictionaryTw
-    text: "備註中包含敏感詞，請重新輸入"
 - raw: "{\r\n    \"Key\": 91,\r\n    \"DictionaryFinal\": \"成就尚未解鎖\",\r\n    \"Dictionary\": \"成就尚未解锁\",\r\n    \"DictionaryTw\": \"成就尚未解鎖\"\r\n  }"
   rawIndex: 91
   splits:
-  - splitPath: DictionaryFinal
-    text: "成就尚未解鎖"
   - splitPath: Dictionary
     text: "成就尚未解锁"
-  - splitPath: DictionaryTw
-    text: "成就尚未解鎖"
 - raw: "{\r\n    \"Key\": 92,\r\n    \"DictionaryFinal\": \"天賦數量已達上限\",\r\n    \"Dictionary\": \"天赋数量已达上限\",\r\n    \"DictionaryTw\": \"天賦數量已達上限\"\r\n  }"
   rawIndex: 92
   splits:
-  - splitPath: DictionaryFinal
-    text: "天賦數量已達上限"
   - splitPath: Dictionary
     text: "天赋数量已达上限"
-  - splitPath: DictionaryTw
-    text: "天賦數量已達上限"
 - raw: "{\r\n    \"Key\": 93,\r\n    \"DictionaryFinal\": \"戰術數量已達上限\",\r\n    \"Dictionary\": \"战术数量已达上限\",\r\n    \"DictionaryTw\": \"戰術數量已達上限\"\r\n  }"
   rawIndex: 93
   splits:
-  - splitPath: DictionaryFinal
-    text: "戰術數量已達上限"
   - splitPath: Dictionary
     text: "战术数量已达上限"
-  - splitPath: DictionaryTw
-    text: "戰術數量已達上限"
 - raw: "{\r\n    \"Key\": 94,\r\n    \"DictionaryFinal\": \"粉碎陰謀 {0}\",\r\n    \"Dictionary\": \"粉碎阴谋 {0}\",\r\n    \"DictionaryTw\": \"粉碎陰謀 {0}\"\r\n  }"
   rawIndex: 94
   splits:
-  - splitPath: DictionaryFinal
-    text: "粉碎陰謀 {0}"
   - splitPath: Dictionary
     text: "粉碎阴谋 {0}"
-  - splitPath: DictionaryTw
-    text: "粉碎陰謀 {0}"
 - raw: "{\r\n    \"Key\": 95,\r\n    \"DictionaryFinal\": \"友好度 {0}\",\r\n    \"Dictionary\": \"友好度 {0}\",\r\n    \"DictionaryTw\": \"友好度 {0}\"\r\n  }"
   rawIndex: 95
   splits:
-  - splitPath: DictionaryFinal
-    text: "友好度 {0}"
   - splitPath: Dictionary
-    text: "友好度 {0}"
-  - splitPath: DictionaryTw
     text: "友好度 {0}"
 - raw: "{\r\n    \"Key\": 96,\r\n    \"DictionaryFinal\": \"形象未解鎖，圖鑑中可檢視攻略\",\r\n    \"Dictionary\": \"形象未解锁，图鉴中可查看攻略\",\r\n    \"DictionaryTw\": \"形象未解鎖，圖鑑中可檢視攻略\"\r\n  }"
   rawIndex: 96
   splits:
-  - splitPath: DictionaryFinal
-    text: "形象未解鎖，圖鑑中可檢視攻略"
   - splitPath: Dictionary
     text: "形象未解锁，图鉴中可查看攻略"
-  - splitPath: DictionaryTw
-    text: "形象未解鎖，圖鑑中可檢視攻略"
 - raw: "{\r\n    \"Key\": 97,\r\n    \"DictionaryFinal\": \"劇情中不可進入故事模式\",\r\n    \"Dictionary\": \"剧情中不可进入故事模式\",\r\n    \"DictionaryTw\": \"劇情中不可進入故事模式\"\r\n  }"
   rawIndex: 97
   splits:
-  - splitPath: DictionaryFinal
-    text: "劇情中不可進入故事模式"
   - splitPath: Dictionary
     text: "剧情中不可进入故事模式"
-  - splitPath: DictionaryTw
-    text: "劇情中不可進入故事模式"
 - raw: "{\r\n    \"Key\": 98,\r\n    \"DictionaryFinal\": \"戰鬥中不可進入故事模式\",\r\n    \"Dictionary\": \"战斗中不可进入故事模式\",\r\n    \"DictionaryTw\": \"戰鬥中不可進入故事模式\"\r\n  }"
   rawIndex: 98
   splits:
-  - splitPath: DictionaryFinal
-    text: "戰鬥中不可進入故事模式"
   - splitPath: Dictionary
     text: "战斗中不可进入故事模式"
-  - splitPath: DictionaryTw
-    text: "戰鬥中不可進入故事模式"
 - raw: "{\r\n    \"Key\": 99,\r\n    \"DictionaryFinal\": \"攻略已關閉，設定介面中可重新開啟\",\r\n    \"Dictionary\": \"攻略已关闭，设置界面中可重新打开\",\r\n    \"DictionaryTw\": \"攻略已關閉，設定介面中可重新開啟\"\r\n  }"
   rawIndex: 99
   splits:
-  - splitPath: DictionaryFinal
-    text: "攻略已關閉，設定介面中可重新開啟"
   - splitPath: Dictionary
     text: "攻略已关闭，设置界面中可重新打开"
-  - splitPath: DictionaryTw
-    text: "攻略已關閉，設定介面中可重新開啟"
 - raw: "{\r\n    \"Key\": 100,\r\n    \"DictionaryFinal\": \"關閉未解鎖圖鑑的攻略，遊戲過程中可在設定介面重新開啟\",\r\n    \"Dictionary\": \"关闭未解锁图鉴的攻略，游戏过程中可在设置界面重新打开\",\r\n    \"DictionaryTw\": \"關閉未解鎖圖鑑的攻略，遊戲過程中可在設定介面重新開啟\"\r\n  }"
   rawIndex: 100
   splits:
-  - splitPath: DictionaryFinal
-    text: "關閉未解鎖圖鑑的攻略，遊戲過程中可在設定介面重新開啟"
   - splitPath: Dictionary
     text: "关闭未解锁图鉴的攻略，游戏过程中可在设置界面重新打开"
-  - splitPath: DictionaryTw
-    text: "關閉未解鎖圖鑑的攻略，遊戲過程中可在設定介面重新開啟"
 - raw: "{\r\n    \"Key\": 101,\r\n    \"DictionaryFinal\": \"增加螢幕左側事件獎勵的顯示時長\",\r\n    \"Dictionary\": \"增加屏幕左侧事件奖励的显示时长\",\r\n    \"DictionaryTw\": \"增加螢幕左側事件獎勵的顯示時長\"\r\n  }"
   rawIndex: 101
   splits:
-  - splitPath: DictionaryFinal
-    text: "增加螢幕左側事件獎勵的顯示時長"
   - splitPath: Dictionary
     text: "增加屏幕左侧事件奖励的显示时长"
-  - splitPath: DictionaryTw
-    text: "增加螢幕左側事件獎勵的顯示時長"
 - raw: "{\r\n    \"Key\": 102,\r\n    \"DictionaryFinal\": \"每月行動力全部消耗之後，才跳轉回門派\",\r\n    \"Dictionary\": \"每月行动力全部消耗之后，才跳转回门派\",\r\n    \"DictionaryTw\": \"每月行動力全部消耗之後，才跳轉回門派\"\r\n  }"
   rawIndex: 102
   splits:
-  - splitPath: DictionaryFinal
-    text: "每月行動力全部消耗之後，才跳轉回門派"
   - splitPath: Dictionary
     text: "每月行动力全部消耗之后，才跳转回门派"
-  - splitPath: DictionaryTw
-    text: "每月行動力全部消耗之後，才跳轉回門派"
 - raw: "{\r\n    \"Key\": 103,\r\n    \"DictionaryFinal\": \"開啟特殊事件的紅點提示，遊戲過程中可在設定介面種更改\",\r\n    \"Dictionary\": \"开启特殊事件的红点提示，游戏过程中可在设置界面种更改\",\r\n    \"DictionaryTw\": \"開啟特殊事件的紅點提示，遊戲過程中可在設定介面種更改\"\r\n  }"
   rawIndex: 103
   splits:
-  - splitPath: DictionaryFinal
-    text: "開啟特殊事件的紅點提示，遊戲過程中可在設定介面種更改"
   - splitPath: Dictionary
     text: "开启特殊事件的红点提示，游戏过程中可在设置界面种更改"
-  - splitPath: DictionaryTw
-    text: "開啟特殊事件的紅點提示，遊戲過程中可在設定介面種更改"
 - raw: "{\r\n    \"Key\": 105,\r\n    \"DictionaryFinal\": \"結局尚未解鎖\",\r\n    \"Dictionary\": \"结局尚未解锁\",\r\n    \"DictionaryTw\": \"結局尚未解鎖\"\r\n  }"
   rawIndex: 105
   splits:
-  - splitPath: DictionaryFinal
-    text: "結局尚未解鎖"
   - splitPath: Dictionary
     text: "结局尚未解锁"
-  - splitPath: DictionaryTw
-    text: "結局尚未解鎖"
 - raw: "{\r\n    \"Key\": 106,\r\n    \"DictionaryFinal\": \"\\\\n建議在遊戲進行到第八年之後再體驗此功能。\",\r\n    \"Dictionary\": \"\\\\n建议在游戏进行到第八年之后再体验此功能。\",\r\n    \"DictionaryTw\": \"\\\\n建議在遊戲進行到第八年之後再體驗此功能。\"\r\n  }"
   rawIndex: 106
   splits:
-  - splitPath: DictionaryFinal
-    text: "\\n建議在遊戲進行到第八年之後再體驗此功能。"
   - splitPath: Dictionary
     text: "\\n建议在游戏进行到第八年之后再体验此功能。"
-  - splitPath: DictionaryTw
-    text: "\\n建議在遊戲進行到第八年之後再體驗此功能。"
 - raw: "{\r\n    \"Key\": 107,\r\n    \"DictionaryFinal\": \"<color=#00ff00>有新的江湖傳聞</color>\",\r\n    \"Dictionary\": \"<color=#00ff00>有新的江湖传闻</color>\",\r\n    \"DictionaryTw\": \"<color=#00ff00>有新的江湖傳聞</color>\"\r\n  }"
   rawIndex: 107
   splits:
-  - splitPath: DictionaryFinal
-    text: "<color=#00ff00>有新的江湖傳聞</color>"
   - splitPath: Dictionary
     text: "<color=#00ff00>有新的江湖传闻</color>"
-  - splitPath: DictionaryTw
-    text: "<color=#00ff00>有新的江湖傳聞</color>"
 - raw: "{\r\n    \"Key\": 1999,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"無門派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"无门派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"無門派\"\r\n  }"
   rawIndex: 1999
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "無門派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "无门派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "無門派"
 - raw: "{\r\n    \"Key\": 1000,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"異蛇\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"异蛇\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"異蛇\"\r\n  }"
   rawIndex: 1000
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "異蛇"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "异蛇"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "異蛇"
 - raw: "{\r\n    \"Key\": 1001,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"江湖\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"江湖\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"江湖\"\r\n  }"
   rawIndex: 1001
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "江湖"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "江湖"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "江湖"
 - raw: "{\r\n    \"Key\": 1002,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"衡山派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"衡山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"衡山派\"\r\n  }"
   rawIndex: 1002
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "衡山派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "衡山派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "衡山派"
 - raw: "{\r\n    \"Key\": 1003,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"武當派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"武当派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"武當派\"\r\n  }"
   rawIndex: 1003
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "武當派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "武当派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "武當派"
 - raw: "{\r\n    \"Key\": 1004,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"丐幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"丐帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"丐幫\"\r\n  }"
   rawIndex: 1004
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "丐幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "丐帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "丐幫"
 - raw: "{\r\n    \"Key\": 1005,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"盤蛇谷\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"盘蛇谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"盤蛇谷\"\r\n  }"
   rawIndex: 1005
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "盤蛇谷"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "盘蛇谷"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "盤蛇谷"
 - raw: "{\r\n    \"Key\": 1006,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"洞庭幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"洞庭帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"洞庭幫\"\r\n  }"
   rawIndex: 1006
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "洞庭幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "洞庭帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "洞庭幫"
 - raw: "{\r\n    \"Key\": 1007,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"君子莊\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"君子庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"君子莊\"\r\n  }"
   rawIndex: 1007
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "君子莊"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "君子庄"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "君子莊"
 - raw: "{\r\n    \"Key\": 1008,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"萬壽幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"万寿帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"萬壽幫\"\r\n  }"
   rawIndex: 1008
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "萬壽幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "万寿帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "萬壽幫"
 - raw: "{\r\n    \"Key\": 1009,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"永盛鏢局\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"永盛镖局\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"永盛鏢局\"\r\n  }"
   rawIndex: 1009
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "永盛鏢局"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "永盛镖局"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "永盛鏢局"
 - raw: "{\r\n    \"Key\": 1010,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"婁家寨\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"娄家寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"婁家寨\"\r\n  }"
   rawIndex: 1010
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "婁家寨"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "娄家寨"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "婁家寨"
 - raw: "{\r\n    \"Key\": 1011,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"六扇門\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"六扇门\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"六扇門\"\r\n  }"
   rawIndex: 1011
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "六扇門"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "六扇门"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "六扇門"
 - raw: "{\r\n    \"Key\": 1012,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"藥王谷\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"药王谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"藥王谷\"\r\n  }"
   rawIndex: 1012
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "藥王谷"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "药王谷"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "藥王谷"
 - raw: "{\r\n    \"Key\": 1013,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"天工谷\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"天工谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"天工谷\"\r\n  }"
   rawIndex: 1013
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "天工谷"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "天工谷"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "天工谷"
 - raw: "{\r\n    \"Key\": 1014,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"少林派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"少林派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"少林派\"\r\n  }"
   rawIndex: 1014
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "少林派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "少林派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "少林派"
 - raw: "{\r\n    \"Key\": 1015,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"亂石寨\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"乱石寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"亂石寨\"\r\n  }"
   rawIndex: 1015
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "亂石寨"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "乱石寨"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "亂石寨"
 - raw: "{\r\n    \"Key\": 1016,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"瀾滄派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"澜沧派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"瀾滄派\"\r\n  }"
   rawIndex: 1016
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "瀾滄派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "澜沧派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "瀾滄派"
 - raw: "{\r\n    \"Key\": 1017,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"神農幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"神农帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"神農幫\"\r\n  }"
   rawIndex: 1017
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "神農幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "神农帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "神農幫"
 - raw: "{\r\n    \"Key\": 1018,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"青城派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"青城派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"青城派\"\r\n  }"
   rawIndex: 1018
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "青城派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "青城派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "青城派"
 - raw: "{\r\n    \"Key\": 1019,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"崆峒派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"崆峒派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"崆峒派\"\r\n  }"
   rawIndex: 1019
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "崆峒派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "崆峒派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "崆峒派"
 - raw: "{\r\n    \"Key\": 1020,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"崑崙派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"昆仑派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"崑崙派\"\r\n  }"
   rawIndex: 1020
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "崑崙派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "昆仑派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "崑崙派"
 - raw: "{\r\n    \"Key\": 1021,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"嶗山派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"崂山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"嶗山派\"\r\n  }"
   rawIndex: 1021
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "嶗山派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "崂山派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "嶗山派"
 - raw: "{\r\n    \"Key\": 1022,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"華山派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"华山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"華山派\"\r\n  }"
   rawIndex: 1022
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "華山派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "华山派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "華山派"
 - raw: "{\r\n    \"Key\": 1023,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"六合幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"六合帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"六合幫\"\r\n  }"
   rawIndex: 1023
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "六合幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "六合帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "六合幫"
 - raw: "{\r\n    \"Key\": 1024,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"墨門\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"墨门\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"墨門\"\r\n  }"
   rawIndex: 1024
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "墨門"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "墨门"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "墨門"
 - raw: "{\r\n    \"Key\": 1025,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"點蒼派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"点苍派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"點蒼派\"\r\n  }"
   rawIndex: 1025
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "點蒼派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "点苍派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "點蒼派"
 - raw: "{\r\n    \"Key\": 1026,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"藏劍山莊\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"藏剑山庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"藏劍山莊\"\r\n  }"
   rawIndex: 1026
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "藏劍山莊"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "藏剑山庄"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "藏劍山莊"
 - raw: "{\r\n    \"Key\": 1027,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"掛錘莊\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"挂锤庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"掛錘莊\"\r\n  }"
   rawIndex: 1027
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "掛錘莊"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "挂锤庄"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "掛錘莊"
 - raw: "{\r\n    \"Key\": 1028,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"爭雄幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"争雄帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"爭雄幫\"\r\n  }"
   rawIndex: 1028
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "爭雄幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "争雄帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "爭雄幫"
 - raw: "{\r\n    \"Key\": 1029,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"老君觀\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"老君观\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"老君觀\"\r\n  }"
   rawIndex: 1029
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "老君觀"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "老君观"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "老君觀"
 - raw: "{\r\n    \"Key\": 1030,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"金睛派\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"金睛派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"金睛派\"\r\n  }"
   rawIndex: 1030
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "金睛派"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "金睛派"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "金睛派"
 - raw: "{\r\n    \"Key\": 1031,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"聽風閣\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"听风阁\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"聽風閣\"\r\n  }"
   rawIndex: 1031
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "聽風閣"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "听风阁"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "聽風閣"
 - raw: "{\r\n    \"Key\": 1032,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"飛魚幫\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"飞鱼帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"飛魚幫\"\r\n  }"
   rawIndex: 1032
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "飛魚幫"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "飞鱼帮"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "飛魚幫"
 - raw: "{\r\n    \"Key\": 1033,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"密宗\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"密宗\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"密宗\"\r\n  }"
   rawIndex: 1033
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "密宗"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "密宗"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "密宗"
 - raw: "{\r\n    \"Key\": 1034,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"鐵衣寨\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"铁衣寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"鐵衣寨\"\r\n  }"
   rawIndex: 1034
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "鐵衣寨"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "铁衣寨"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "鐵衣寨"
 - raw: "{\r\n    \"Key\": 1035,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"祝家寨\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"祝家寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"祝家寨\"\r\n  }"
   rawIndex: 1035
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "祝家寨"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "祝家寨"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "祝家寨"
 - raw: "{\r\n    \"Key\": 1901,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"天魔教\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"天魔教\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"天魔教\"\r\n  }"
   rawIndex: 1901
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "天魔教"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
-    text: "天魔教"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
     text: "天魔教"
 - raw: "{\r\n    \"Key\": 1902,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"惡人谷\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"恶人谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"惡人谷\"\r\n  }"
   rawIndex: 1902
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "惡人谷"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "恶人谷"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "惡人谷"
 - raw: "{\r\n    \"Key\": 1903,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"寧王府\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"宁王府\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"寧王府\"\r\n  }"
   rawIndex: 1903
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "寧王府"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "宁王府"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "寧王府"
 - raw: "{\r\n    \"Key\": 1958,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"伊賀流\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"伊贺流\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"伊賀流\"\r\n  }"
   rawIndex: 1958
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "伊賀流"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "伊贺流"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "伊賀流"
 - raw: "{\r\n    \"Key\": 1959,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"甲賀流\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"甲贺流\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"甲賀流\"\r\n  }"
   rawIndex: 1959
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "甲賀流"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "甲贺流"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "甲賀流"
 - raw: "{\r\n    \"Key\": 1960,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"漠武帳\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"漠武帐\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"漠武帳\"\r\n  }"
   rawIndex: 1960
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "漠武帳"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "漠武帐"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "漠武帳"
 - raw: "{\r\n    \"Key\": 1961,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"廣廈\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"广厦\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"廣廈\"\r\n  }"
   rawIndex: 1961
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "廣廈"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "广厦"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "廣廈"
 - raw: "{\r\n    \"Key\": 1962,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"無為教\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"无为教\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"無為教\"\r\n  }"
   rawIndex: 1962
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "無為教"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "无为教"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "無為教"
 - raw: "{\r\n    \"Key\": 1996,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"幻獸\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"幻兽\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"幻獸\"\r\n  }"
   rawIndex: 1996
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "幻獸"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "幻兽"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "幻獸"
 - raw: "{\r\n    \"Key\": 1997,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"動物\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"动物\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"動物\"\r\n  }"
   rawIndex: 1997
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "動物"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "动物"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "動物"
 - raw: "{\r\n    \"Key\": 1998,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"機關\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"机关\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"機關\"\r\n  }"
   rawIndex: 1998
   splits:
-  - splitPath: DescFinal
-    text: "門派"
-  - splitPath: DictionaryFinal
-    text: "機關"
   - splitPath: Desc
     text: "门派"
   - splitPath: Dictionary
     text: "机关"
-  - splitPath: DescTw
-    text: "門派"
-  - splitPath: DictionaryTw
-    text: "機關"
 - raw: "{\r\n    \"Key\": 2000,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"劍法\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"剑法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"劍法\"\r\n  }"
   rawIndex: 2000
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "劍法"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "剑法"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "劍法"
 - raw: "{\r\n    \"Key\": 2001,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"掌法\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"掌法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"掌法\"\r\n  }"
   rawIndex: 2001
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "掌法"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
-    text: "掌法"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
     text: "掌法"
 - raw: "{\r\n    \"Key\": 2002,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"內功\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"内功\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"內功\"\r\n  }"
   rawIndex: 2002
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "內功"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "内功"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "內功"
 - raw: "{\r\n    \"Key\": 2003,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"輕功\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"轻功\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"輕功\"\r\n  }"
   rawIndex: 2003
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "輕功"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "轻功"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "輕功"
 - raw: "{\r\n    \"Key\": 2004,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"筆法\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"笔法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"筆法\"\r\n  }"
   rawIndex: 2004
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "筆法"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "笔法"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "筆法"
 - raw: "{\r\n    \"Key\": 2005,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"刀法\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"刀法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"刀法\"\r\n  }"
   rawIndex: 2005
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "刀法"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
-    text: "刀法"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
     text: "刀法"
 - raw: "{\r\n    \"Key\": 2006,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"奇術\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"奇术\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"奇術\"\r\n  }"
   rawIndex: 2006
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "奇術"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "奇术"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "奇術"
 - raw: "{\r\n    \"Key\": 2007,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"棍棒\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"棍棒\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"棍棒\"\r\n  }"
   rawIndex: 2007
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "棍棒"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
-    text: "棍棒"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
     text: "棍棒"
 - raw: "{\r\n    \"Key\": 2008,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"毒術\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"毒术\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"毒術\"\r\n  }"
   rawIndex: 2008
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "毒術"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "毒术"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "毒術"
 - raw: "{\r\n    \"Key\": 2009,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"御獸\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"御兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"御獸\"\r\n  }"
   rawIndex: 2009
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "御獸"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "御兽"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "御獸"
 - raw: "{\r\n    \"Key\": 2010,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"異獸\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"异兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"異獸\"\r\n  }"
   rawIndex: 2010
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "異獸"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "异兽"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "異獸"
 - raw: "{\r\n    \"Key\": 2011,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"火器\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"火器\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"火器\"\r\n  }"
   rawIndex: 2011
   splits:
-  - splitPath: DescFinal
-    text: "武功型別"
-  - splitPath: DictionaryFinal
-    text: "火器"
   - splitPath: Desc
     text: "武功类型"
   - splitPath: Dictionary
     text: "火器"
-  - splitPath: DescTw
-    text: "武功型別"
-  - splitPath: DictionaryTw
-    text: "火器"
 - raw: "{\r\n    \"Key\": 2199,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"初學\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"初学\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"初學\"\r\n  }"
   rawIndex: 2199
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "初學"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
     text: "初学"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
-    text: "初學"
 - raw: "{\r\n    \"Key\": 2200,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"入門\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"入门\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"入門\"\r\n  }"
   rawIndex: 2200
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "入門"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
     text: "入门"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
-    text: "入門"
 - raw: "{\r\n    \"Key\": 2201,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"精通\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"精通\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"精通\"\r\n  }"
   rawIndex: 2201
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "精通"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
-    text: "精通"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
     text: "精通"
 - raw: "{\r\n    \"Key\": 2202,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"高手\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"高手\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"高手\"\r\n  }"
   rawIndex: 2202
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "高手"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
-    text: "高手"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
     text: "高手"
 - raw: "{\r\n    \"Key\": 2203,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"大師\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"大师\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"大師\"\r\n  }"
   rawIndex: 2203
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "大師"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
     text: "大师"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
-    text: "大師"
 - raw: "{\r\n    \"Key\": 2204,\r\n    \"DescFinal\": \"技藝\",\r\n    \"DictionaryFinal\": \"宗師\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"宗师\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"宗師\"\r\n  }"
   rawIndex: 2204
   splits:
-  - splitPath: DescFinal
-    text: "技藝"
-  - splitPath: DictionaryFinal
-    text: "宗師"
   - splitPath: Desc
     text: "技艺"
   - splitPath: Dictionary
     text: "宗师"
-  - splitPath: DescTw
-    text: "技藝"
-  - splitPath: DictionaryTw
-    text: "宗師"
 - raw: "{\r\n    \"Key\": 2250,\r\n    \"DescFinal\": \"天賦型別\",\r\n    \"DictionaryFinal\": \"籍貫\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"籍贯\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"籍貫\"\r\n  }"
   rawIndex: 2250
   splits:
-  - splitPath: DescFinal
-    text: "天賦型別"
-  - splitPath: DictionaryFinal
-    text: "籍貫"
   - splitPath: Desc
     text: "天赋类型"
   - splitPath: Dictionary
     text: "籍贯"
-  - splitPath: DescTw
-    text: "天賦型別"
-  - splitPath: DictionaryTw
-    text: "籍貫"
 - raw: "{\r\n    \"Key\": 2251,\r\n    \"DescFinal\": \"天賦型別\",\r\n    \"DictionaryFinal\": \"身世\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"身世\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"身世\"\r\n  }"
   rawIndex: 2251
   splits:
-  - splitPath: DescFinal
-    text: "天賦型別"
-  - splitPath: DictionaryFinal
-    text: "身世"
   - splitPath: Desc
     text: "天赋类型"
   - splitPath: Dictionary
-    text: "身世"
-  - splitPath: DescTw
-    text: "天賦型別"
-  - splitPath: DictionaryTw
     text: "身世"
 - raw: "{\r\n    \"Key\": 2252,\r\n    \"DescFinal\": \"天賦型別\",\r\n    \"DictionaryFinal\": \"天賦\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"天赋\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"天賦\"\r\n  }"
   rawIndex: 2252
   splits:
-  - splitPath: DescFinal
-    text: "天賦型別"
-  - splitPath: DictionaryFinal
-    text: "天賦"
   - splitPath: Desc
     text: "天赋类型"
   - splitPath: Dictionary
     text: "天赋"
-  - splitPath: DescTw
-    text: "天賦型別"
-  - splitPath: DictionaryTw
-    text: "天賦"
 - raw: "{\r\n    \"Key\": 2253,\r\n    \"DescFinal\": \"天賦型別\",\r\n    \"DictionaryFinal\": \"奇遇\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"奇遇\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"奇遇\"\r\n  }"
   rawIndex: 2253
   splits:
-  - splitPath: DescFinal
-    text: "天賦型別"
-  - splitPath: DictionaryFinal
-    text: "奇遇"
   - splitPath: Desc
     text: "天赋类型"
   - splitPath: Dictionary
     text: "奇遇"
-  - splitPath: DescTw
-    text: "天賦型別"
-  - splitPath: DictionaryTw
-    text: "奇遇"
 - raw: "{\r\n    \"Key\": 2301,\r\n    \"DescFinal\": \"境界\",\r\n    \"DictionaryFinal\": \"大宗師\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"大宗师\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"大宗師\"\r\n  }"
   rawIndex: 2301
   splits:
-  - splitPath: DescFinal
-    text: "境界"
-  - splitPath: DictionaryFinal
-    text: "大宗師"
   - splitPath: Desc
     text: "境界"
   - splitPath: Dictionary
     text: "大宗师"
-  - splitPath: DescTw
-    text: "境界"
-  - splitPath: DictionaryTw
-    text: "大宗師"
 - raw: "{\r\n    \"Key\": 2302,\r\n    \"DescFinal\": \"境界\",\r\n    \"DictionaryFinal\": \"宗師\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"宗师\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"宗師\"\r\n  }"
   rawIndex: 2302
   splits:
-  - splitPath: DescFinal
-    text: "境界"
-  - splitPath: DictionaryFinal
-    text: "宗師"
   - splitPath: Desc
     text: "境界"
   - splitPath: Dictionary
     text: "宗师"
-  - splitPath: DescTw
-    text: "境界"
-  - splitPath: DictionaryTw
-    text: "宗師"
 - raw: "{\r\n    \"Key\": 2303,\r\n    \"DescFinal\": \"境界\",\r\n    \"DictionaryFinal\": \"一流\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"一流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"一流\"\r\n  }"
   rawIndex: 2303
   splits:
-  - splitPath: DescFinal
-    text: "境界"
-  - splitPath: DictionaryFinal
-    text: "一流"
   - splitPath: Desc
     text: "境界"
   - splitPath: Dictionary
-    text: "一流"
-  - splitPath: DescTw
-    text: "境界"
-  - splitPath: DictionaryTw
     text: "一流"
 - raw: "{\r\n    \"Key\": 2304,\r\n    \"DescFinal\": \"境界\",\r\n    \"DictionaryFinal\": \"二流\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"二流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"二流\"\r\n  }"
   rawIndex: 2304
   splits:
-  - splitPath: DescFinal
-    text: "境界"
-  - splitPath: DictionaryFinal
-    text: "二流"
   - splitPath: Desc
     text: "境界"
   - splitPath: Dictionary
-    text: "二流"
-  - splitPath: DescTw
-    text: "境界"
-  - splitPath: DictionaryTw
     text: "二流"
 - raw: "{\r\n    \"Key\": 2305,\r\n    \"DescFinal\": \"境界\",\r\n    \"DictionaryFinal\": \"三流\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"三流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"三流\"\r\n  }"
   rawIndex: 2305
   splits:
-  - splitPath: DescFinal
-    text: "境界"
-  - splitPath: DictionaryFinal
-    text: "三流"
   - splitPath: Desc
     text: "境界"
   - splitPath: Dictionary
-    text: "三流"
-  - splitPath: DescTw
-    text: "境界"
-  - splitPath: DictionaryTw
     text: "三流"
 - raw: "{\r\n    \"Key\": 3000,\r\n    \"DictionaryFinal\": \"衡山劍法\",\r\n    \"Dictionary\": \"衡山剑法\",\r\n    \"DictionaryTw\": \"衡山劍法\"\r\n  }"
   rawIndex: 3000
   splits:
-  - splitPath: DictionaryFinal
-    text: "衡山劍法"
   - splitPath: Dictionary
     text: "衡山剑法"
-  - splitPath: DictionaryTw
-    text: "衡山劍法"
 - raw: "{\r\n    \"Key\": 3001,\r\n    \"DescFinal\": \"氣血+3000\",\r\n    \"DictionaryFinal\": \"娜迦聖血\",\r\n    \"Desc\": \"气血+3000\",\r\n    \"Dictionary\": \"娜迦圣血\",\r\n    \"DescTw\": \"氣血+3000\",\r\n    \"DictionaryTw\": \"娜迦聖血\"\r\n  }"
   rawIndex: 3001
   splits:
-  - splitPath: DescFinal
-    text: "氣血+3000"
-  - splitPath: DictionaryFinal
-    text: "娜迦聖血"
   - splitPath: Desc
     text: "气血+3000"
   - splitPath: Dictionary
     text: "娜迦圣血"
-  - splitPath: DescTw
-    text: "氣血+3000"
-  - splitPath: DictionaryTw
-    text: "娜迦聖血"
 - raw: "{\r\n    \"Key\": 3002,\r\n    \"DescFinal\": \"功力+300\",\r\n    \"DictionaryFinal\": \"仙人釀\",\r\n    \"Desc\": \"功力+300\",\r\n    \"Dictionary\": \"仙人酿\",\r\n    \"DescTw\": \"功力+300\",\r\n    \"DictionaryTw\": \"仙人釀\"\r\n  }"
   rawIndex: 3002
   splits:
-  - splitPath: DescFinal
-    text: "功力+300"
-  - splitPath: DictionaryFinal
-    text: "仙人釀"
   - splitPath: Desc
     text: "功力+300"
   - splitPath: Dictionary
     text: "仙人酿"
-  - splitPath: DescTw
-    text: "功力+300"
-  - splitPath: DictionaryTw
-    text: "仙人釀"
 - raw: "{\r\n    \"Key\": 3003,\r\n    \"DictionaryFinal\": \"盤蛇毒術\",\r\n    \"Dictionary\": \"盘蛇毒术\",\r\n    \"DictionaryTw\": \"盤蛇毒術\"\r\n  }"
   rawIndex: 3003
   splits:
-  - splitPath: DictionaryFinal
-    text: "盤蛇毒術"
   - splitPath: Dictionary
     text: "盘蛇毒术"
-  - splitPath: DictionaryTw
-    text: "盤蛇毒術"
 - raw: "{\r\n    \"Key\": 3004,\r\n    \"DictionaryFinal\": \"牧蛇術\",\r\n    \"Dictionary\": \"牧蛇术\",\r\n    \"DictionaryTw\": \"牧蛇術\"\r\n  }"
   rawIndex: 3004
   splits:
-  - splitPath: DictionaryFinal
-    text: "牧蛇術"
   - splitPath: Dictionary
     text: "牧蛇术"
-  - splitPath: DictionaryTw
-    text: "牧蛇術"
 - raw: "{\r\n    \"Key\": 3005,\r\n    \"DictionaryFinal\": \"虺食奇功\",\r\n    \"Dictionary\": \"虺食奇功\",\r\n    \"DictionaryTw\": \"虺食奇功\"\r\n  }"
   rawIndex: 3005
   splits:
-  - splitPath: DictionaryFinal
-    text: "虺食奇功"
   - splitPath: Dictionary
-    text: "虺食奇功"
-  - splitPath: DictionaryTw
     text: "虺食奇功"
 - raw: "{\r\n    \"Key\": 3006,\r\n    \"DictionaryFinal\": \"蛇行動\",\r\n    \"Dictionary\": \"蛇行动\",\r\n    \"DictionaryTw\": \"蛇行動\"\r\n  }"
   rawIndex: 3006
   splits:
-  - splitPath: DictionaryFinal
-    text: "蛇行動"
   - splitPath: Dictionary
     text: "蛇行动"
-  - splitPath: DictionaryTw
-    text: "蛇行動"
 - raw: "{\r\n    \"Key\": 3007,\r\n    \"DictionaryFinal\": \"衡山心法\",\r\n    \"Dictionary\": \"衡山心法\",\r\n    \"DictionaryTw\": \"衡山心法\"\r\n  }"
   rawIndex: 3007
   splits:
-  - splitPath: DictionaryFinal
-    text: "衡山心法"
   - splitPath: Dictionary
-    text: "衡山心法"
-  - splitPath: DictionaryTw
     text: "衡山心法"
 - raw: "{\r\n    \"Key\": 3008,\r\n    \"DictionaryFinal\": \"回雁功\",\r\n    \"Dictionary\": \"回雁功\",\r\n    \"DictionaryTw\": \"回雁功\"\r\n  }"
   rawIndex: 3008
   splits:
-  - splitPath: DictionaryFinal
-    text: "回雁功"
   - splitPath: Dictionary
-    text: "回雁功"
-  - splitPath: DictionaryTw
     text: "回雁功"
 - raw: "{\r\n    \"Key\": 3009,\r\n    \"DictionaryFinal\": \"九流奇功\",\r\n    \"Dictionary\": \"九流奇功\",\r\n    \"DictionaryTw\": \"九流奇功\"\r\n  }"
   rawIndex: 3009
   splits:
-  - splitPath: DictionaryFinal
-    text: "九流奇功"
   - splitPath: Dictionary
-    text: "九流奇功"
-  - splitPath: DictionaryTw
     text: "九流奇功"
 - raw: "{\r\n    \"Key\": 3010,\r\n    \"DictionaryFinal\": \"雁行訣\",\r\n    \"Dictionary\": \"雁行诀\",\r\n    \"DictionaryTw\": \"雁行訣\"\r\n  }"
   rawIndex: 3010
   splits:
-  - splitPath: DictionaryFinal
-    text: "雁行訣"
   - splitPath: Dictionary
     text: "雁行诀"
-  - splitPath: DictionaryTw
-    text: "雁行訣"
 - raw: "{\r\n    \"Key\": 3011,\r\n    \"DictionaryFinal\": \"衡山劍法\",\r\n    \"Dictionary\": \"衡山剑法\",\r\n    \"DictionaryTw\": \"衡山劍法\"\r\n  }"
   rawIndex: 3011
   splits:
-  - splitPath: DictionaryFinal
-    text: "衡山劍法"
   - splitPath: Dictionary
     text: "衡山剑法"
-  - splitPath: DictionaryTw
-    text: "衡山劍法"
 - raw: "{\r\n    \"Key\": 3012,\r\n    \"DictionaryFinal\": \"歸雁劍法\",\r\n    \"Dictionary\": \"归雁剑法\",\r\n    \"DictionaryTw\": \"歸雁劍法\"\r\n  }"
   rawIndex: 3012
   splits:
-  - splitPath: DictionaryFinal
-    text: "歸雁劍法"
   - splitPath: Dictionary
     text: "归雁剑法"
-  - splitPath: DictionaryTw
-    text: "歸雁劍法"
 - raw: "{\r\n    \"Key\": 3013,\r\n    \"DictionaryFinal\": \"九流劍訣\",\r\n    \"Dictionary\": \"九流剑诀\",\r\n    \"DictionaryTw\": \"九流劍訣\"\r\n  }"
   rawIndex: 3013
   splits:
-  - splitPath: DictionaryFinal
-    text: "九流劍訣"
   - splitPath: Dictionary
     text: "九流剑诀"
-  - splitPath: DictionaryTw
-    text: "九流劍訣"
 - raw: "{\r\n    \"Key\": 3014,\r\n    \"DictionaryFinal\": \"漁樵劍歌\",\r\n    \"Dictionary\": \"渔樵剑歌\",\r\n    \"DictionaryTw\": \"漁樵劍歌\"\r\n  }"
   rawIndex: 3014
   splits:
-  - splitPath: DictionaryFinal
-    text: "漁樵劍歌"
   - splitPath: Dictionary
     text: "渔樵剑歌"
-  - splitPath: DictionaryTw
-    text: "漁樵劍歌"
 - raw: "{\r\n    \"Key\": 3015,\r\n    \"DictionaryFinal\": \"五峰疊掌\",\r\n    \"Dictionary\": \"五峰叠掌\",\r\n    \"DictionaryTw\": \"五峰疊掌\"\r\n  }"
   rawIndex: 3015
   splits:
-  - splitPath: DictionaryFinal
-    text: "五峰疊掌"
   - splitPath: Dictionary
     text: "五峰叠掌"
-  - splitPath: DictionaryTw
-    text: "五峰疊掌"
 - raw: "{\r\n    \"Key\": 3016,\r\n    \"DictionaryFinal\": \"二分掌法\",\r\n    \"Dictionary\": \"二分掌法\",\r\n    \"DictionaryTw\": \"二分掌法\"\r\n  }"
   rawIndex: 3016
   splits:
-  - splitPath: DictionaryFinal
-    text: "二分掌法"
   - splitPath: Dictionary
-    text: "二分掌法"
-  - splitPath: DictionaryTw
     text: "二分掌法"
 - raw: "{\r\n    \"Key\": 3017,\r\n    \"DictionaryFinal\": \"花炮要訣\",\r\n    \"Dictionary\": \"花炮要诀\",\r\n    \"DictionaryTw\": \"花炮要訣\"\r\n  }"
   rawIndex: 3017
   splits:
-  - splitPath: DictionaryFinal
-    text: "花炮要訣"
   - splitPath: Dictionary
     text: "花炮要诀"
-  - splitPath: DictionaryTw
-    text: "花炮要訣"
 - raw: "{\r\n    \"Key\": 3018,\r\n    \"DictionaryFinal\": \"歸去來功\",\r\n    \"Dictionary\": \"归去来功\",\r\n    \"DictionaryTw\": \"歸去來功\"\r\n  }"
   rawIndex: 3018
   splits:
-  - splitPath: DictionaryFinal
-    text: "歸去來功"
   - splitPath: Dictionary
     text: "归去来功"
-  - splitPath: DictionaryTw
-    text: "歸去來功"
 - raw: "{\r\n    \"Key\": 3019,\r\n    \"DictionaryFinal\": \"破山刀法\",\r\n    \"Dictionary\": \"破山刀法\",\r\n    \"DictionaryTw\": \"破山刀法\"\r\n  }"
   rawIndex: 3019
   splits:
-  - splitPath: DictionaryFinal
-    text: "破山刀法"
   - splitPath: Dictionary
-    text: "破山刀法"
-  - splitPath: DictionaryTw
     text: "破山刀法"
 - raw: "{\r\n    \"Key\": 10001,\r\n    \"DescFinal\": \"賭術入門（≥40）解鎖，當擲出“對子”時，基礎點數上升為200點，但“對子”不可豁免“劫數”\",\r\n    \"DictionaryFinal\": \"錦上添花\",\r\n    \"Desc\": \"赌术入门（≥40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”\",\r\n    \"Dictionary\": \"锦上添花\",\r\n    \"DescTw\": \"賭術入門（≥40）解鎖，當擲出“對子”時，基礎點數上升為200點，但“對子”不可豁免“劫數”\",\r\n    \"DictionaryTw\": \"錦上添花\"\r\n  }"
   rawIndex: 10001
   splits:
-  - splitPath: DescFinal
-    text: "賭術入門（≥40）解鎖，當擲出“對子”時，基礎點數上升為200點，但“對子”不可豁免“劫數”"
-  - splitPath: DictionaryFinal
-    text: "錦上添花"
   - splitPath: Desc
     text: "赌术入门（≥40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
   - splitPath: Dictionary
     text: "锦上添花"
-  - splitPath: DescTw
-    text: "賭術入門（≥40）解鎖，當擲出“對子”時，基礎點數上升為200點，但“對子”不可豁免“劫數”"
-  - splitPath: DictionaryTw
-    text: "錦上添花"
 - raw: "{\r\n    \"Key\": 10002,\r\n    \"DescFinal\": \"賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。\",\r\n    \"DictionaryFinal\": \"返璞歸真\",\r\n    \"Desc\": \"赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。\",\r\n    \"Dictionary\": \"返璞归真\",\r\n    \"DescTw\": \"賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。\",\r\n    \"DictionaryTw\": \"返璞歸真\"\r\n  }"
   rawIndex: 10002
   splits:
-  - splitPath: DescFinal
-    text: "賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。"
-  - splitPath: DictionaryFinal
-    text: "返璞歸真"
   - splitPath: Desc
     text: "赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
   - splitPath: Dictionary
     text: "返璞归真"
-  - splitPath: DescTw
-    text: "賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。"
-  - splitPath: DictionaryTw
-    text: "返璞歸真"
 - raw: "{\r\n    \"Key\": 10003,\r\n    \"DescFinal\": \"賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次\",\r\n    \"DictionaryFinal\": \"孤注一擲\",\r\n    \"Desc\": \"赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次\",\r\n    \"Dictionary\": \"孤注一掷\",\r\n    \"DescTw\": \"賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次\",\r\n    \"DictionaryTw\": \"孤注一擲\"\r\n  }"
   rawIndex: 10003
   splits:
-  - splitPath: DescFinal
-    text: "賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次"
-  - splitPath: DictionaryFinal
-    text: "孤注一擲"
   - splitPath: Desc
     text: "赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次"
   - splitPath: Dictionary
     text: "孤注一掷"
-  - splitPath: DescTw
-    text: "賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次"
-  - splitPath: DictionaryTw
-    text: "孤注一擲"
 - raw: "{\r\n    \"Key\": 10004,\r\n    \"DescFinal\": \"賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用\",\r\n    \"DictionaryFinal\": \"顛倒乾坤\",\r\n    \"Desc\": \"赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用\",\r\n    \"Dictionary\": \"颠倒乾坤\",\r\n    \"DescTw\": \"賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用\",\r\n    \"DictionaryTw\": \"顛倒乾坤\"\r\n  }"
   rawIndex: 10004
   splits:
-  - splitPath: DescFinal
-    text: "賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用"
-  - splitPath: DictionaryFinal
-    text: "顛倒乾坤"
   - splitPath: Desc
     text: "赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
   - splitPath: Dictionary
     text: "颠倒乾坤"
-  - splitPath: DescTw
-    text: "賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用"
-  - splitPath: DictionaryTw
-    text: "顛倒乾坤"
 - raw: "{\r\n    \"Key\": 10005,\r\n    \"DescFinal\": \"賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次\",\r\n    \"DictionaryFinal\": \"天地同寂\",\r\n    \"Desc\": \"赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次\",\r\n    \"Dictionary\": \"天地同寂\",\r\n    \"DescTw\": \"賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次\",\r\n    \"DictionaryTw\": \"天地同寂\"\r\n  }"
   rawIndex: 10005
   splits:
-  - splitPath: DescFinal
-    text: "賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次"
-  - splitPath: DictionaryFinal
-    text: "天地同寂"
   - splitPath: Desc
     text: "赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
   - splitPath: Dictionary
     text: "天地同寂"
-  - splitPath: DescTw
-    text: "賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次"
-  - splitPath: DictionaryTw
-    text: "天地同寂"
 - raw: "{\r\n    \"Key\": 10100,\r\n    \"DescFinal\": \"開始我方回合\",\r\n    \"DictionaryFinal\": \"\\\\n<color=#63D47F>開始我方回合：</color>\",\r\n    \"Desc\": \"开始我方回合\",\r\n    \"Dictionary\": \"\\\\n<color=#63D47F>开始我方回合：</color>\",\r\n    \"DescTw\": \"開始我方回合\",\r\n    \"DictionaryTw\": \"\\\\n<color=#63D47F>開始我方回合：</color>\"\r\n  }"
   rawIndex: 10100
   splits:
-  - splitPath: DescFinal
-    text: "開始我方回合"
-  - splitPath: DictionaryFinal
-    text: "\\n<color=#63D47F>開始我方回合：</color>"
   - splitPath: Desc
     text: "开始我方回合"
   - splitPath: Dictionary
     text: "\\n<color=#63D47F>开始我方回合：</color>"
-  - splitPath: DescTw
-    text: "開始我方回合"
-  - splitPath: DictionaryTw
-    text: "\\n<color=#63D47F>開始我方回合：</color>"
 - raw: "{\r\n    \"Key\": 10101,\r\n    \"DescFinal\": \"開始對方回合\",\r\n    \"DictionaryFinal\": \"\\\\n<color=#D46963>開始對方回合：</color>\",\r\n    \"Desc\": \"开始对方回合\",\r\n    \"Dictionary\": \"\\\\n<color=#D46963>开始对方回合：</color>\",\r\n    \"DescTw\": \"開始對方回合\",\r\n    \"DictionaryTw\": \"\\\\n<color=#D46963>開始對方回合：</color>\"\r\n  }"
   rawIndex: 10101
   splits:
-  - splitPath: DescFinal
-    text: "開始對方回合"
-  - splitPath: DictionaryFinal
-    text: "\\n<color=#D46963>開始對方回合：</color>"
   - splitPath: Desc
     text: "开始对方回合"
   - splitPath: Dictionary
     text: "\\n<color=#D46963>开始对方回合：</color>"
-  - splitPath: DescTw
-    text: "開始對方回合"
-  - splitPath: DictionaryTw
-    text: "\\n<color=#D46963>開始對方回合：</color>"
 - raw: "{\r\n    \"Key\": 10102,\r\n    \"DictionaryFinal\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，對子可獲得固定200點\",\r\n    \"Dictionary\": \"{0}的技能<color=#FFD26E>{1}</color>产生了效果，对子可获得固定200点\",\r\n    \"DictionaryTw\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，對子可獲得固定200點\"\r\n  }"
   rawIndex: 10102
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}的技能<color=#FFD26E>{1}</color>產生了效果，對子可獲得固定200點"
   - splitPath: Dictionary
     text: "{0}的技能<color=#FFD26E>{1}</color>产生了效果，对子可获得固定200点"
-  - splitPath: DictionaryTw
-    text: "{0}的技能<color=#FFD26E>{1}</color>產生了效果，對子可獲得固定200點"
 - raw: "{\r\n    \"Key\": 10103,\r\n    \"DictionaryFinal\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，按點陣列合的15倍得分\",\r\n    \"Dictionary\": \"{0}的技能<color=#FFD26E>{1}</color>产生了效果，按点数组合的15倍得分\",\r\n    \"DictionaryTw\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，按點陣列合的15倍得分\"\r\n  }"
   rawIndex: 10103
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}的技能<color=#FFD26E>{1}</color>產生了效果，按點陣列合的15倍得分"
   - splitPath: Dictionary
     text: "{0}的技能<color=#FFD26E>{1}</color>产生了效果，按点数组合的15倍得分"
-  - splitPath: DictionaryTw
-    text: "{0}的技能<color=#FFD26E>{1}</color>產生了效果，按點陣列合的15倍得分"
 - raw: "{\r\n    \"Key\": 10104,\r\n    \"DictionaryFinal\": \"{0}使用了<color=#FFD26E>{1}</color>，雙方點數清零\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，双方点数清零\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，雙方點數清零\"\r\n  }"
   rawIndex: 10104
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}使用了<color=#FFD26E>{1}</color>，雙方點數清零"
   - splitPath: Dictionary
     text: "{0}使用了<color=#FFD26E>{1}</color>，双方点数清零"
-  - splitPath: DictionaryTw
-    text: "{0}使用了<color=#FFD26E>{1}</color>，雙方點數清零"
 - raw: "{\r\n    \"Key\": 10105,\r\n    \"DictionaryFinal\": \"{0}使用了<color=#FFD26E>{1}</color>，劫數重置\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，劫数重置\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，劫數重置\"\r\n  }"
   rawIndex: 10105
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}使用了<color=#FFD26E>{1}</color>，劫數重置"
   - splitPath: Dictionary
     text: "{0}使用了<color=#FFD26E>{1}</color>，劫数重置"
-  - splitPath: DictionaryTw
-    text: "{0}使用了<color=#FFD26E>{1}</color>，劫數重置"
 - raw: "{\r\n    \"Key\": 10106,\r\n    \"DictionaryFinal\": \"{0}使用了<color=#FFD26E>{1}</color>，點數翻倍\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，点数翻倍\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，點數翻倍\"\r\n  }"
   rawIndex: 10106
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}使用了<color=#FFD26E>{1}</color>，點數翻倍"
   - splitPath: Dictionary
     text: "{0}使用了<color=#FFD26E>{1}</color>，点数翻倍"
-  - splitPath: DictionaryTw
-    text: "{0}使用了<color=#FFD26E>{1}</color>，點數翻倍"
 - raw: "{\r\n    \"Key\": 10107,\r\n    \"DictionaryFinal\": \"第{0}輪，{1}投出了“劫數”，<color=#FFD26E>{2}</color>導致累積點數全部清零，回合結束\",\r\n    \"Dictionary\": \"第{0}轮，{1}投出了“劫数”，<color=#FFD26E>{2}</color>导致累积点数全部清零，回合结束\",\r\n    \"DictionaryTw\": \"第{0}輪，{1}投出了“劫數”，<color=#FFD26E>{2}</color>導致累積點數全部清零，回合結束\"\r\n  }"
   rawIndex: 10107
   splits:
-  - splitPath: DictionaryFinal
-    text: "第{0}輪，{1}投出了“劫數”，<color=#FFD26E>{2}</color>導致累積點數全部清零，回合結束"
   - splitPath: Dictionary
     text: "第{0}轮，{1}投出了“劫数”，<color=#FFD26E>{2}</color>导致累积点数全部清零，回合结束"
-  - splitPath: DictionaryTw
-    text: "第{0}輪，{1}投出了“劫數”，<color=#FFD26E>{2}</color>導致累積點數全部清零，回合結束"
 - raw: "{\r\n    \"Key\": 10108,\r\n    \"DictionaryFinal\": \"{0}投出了“劫數”，<color=#FFD26E>{1}</color>導致累積點數全部清零\",\r\n    \"Dictionary\": \"{0}投出了“劫数”，<color=#FFD26E>{1}</color>导致累积点数全部清零\",\r\n    \"DictionaryTw\": \"{0}投出了“劫數”，<color=#FFD26E>{1}</color>導致累積點數全部清零\"\r\n  }"
   rawIndex: 10108
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}投出了“劫數”，<color=#FFD26E>{1}</color>導致累積點數全部清零"
   - splitPath: Dictionary
     text: "{0}投出了“劫数”，<color=#FFD26E>{1}</color>导致累积点数全部清零"
-  - splitPath: DictionaryTw
-    text: "{0}投出了“劫數”，<color=#FFD26E>{1}</color>導致累積點數全部清零"
 - raw: "{\r\n    \"Key\": 10110,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"開始投擲\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"开始投掷\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"開始投擲\"\r\n  }"
   rawIndex: 10110
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "開始投擲"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "开始投掷"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "開始投擲"
 - raw: "{\r\n    \"Key\": 10111,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"就這樣吧\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"就这样吧\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"就這樣吧\"\r\n  }"
   rawIndex: 10111
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "就這樣吧"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "就这样吧"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "就這樣吧"
 - raw: "{\r\n    \"Key\": 10112,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"繼續挑戰\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"继续挑战\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"繼續挑戰\"\r\n  }"
   rawIndex: 10112
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "繼續挑戰"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "继续挑战"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "繼續挑戰"
 - raw: "{\r\n    \"Key\": 10113,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"到此為止\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"到此为止\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"到此為止\"\r\n  }"
   rawIndex: 10113
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "到此為止"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "到此为止"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "到此為止"
 - raw: "{\r\n    \"Key\": 10114,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"進入下一局\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"进入下一局\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"進入下一局\"\r\n  }"
   rawIndex: 10114
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "進入下一局"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "进入下一局"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "進入下一局"
 - raw: "{\r\n    \"Key\": 10115,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"大獲全勝\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"大获全胜\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"大獲全勝\"\r\n  }"
   rawIndex: 10115
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "大獲全勝"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "大获全胜"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "大獲全勝"
 - raw: "{\r\n    \"Key\": 10116,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"繼續投擲\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"继续投掷\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"繼續投擲\"\r\n  }"
   rawIndex: 10116
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "繼續投擲"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "继续投掷"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "繼續投擲"
 - raw: "{\r\n    \"Key\": 10117,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"見好就收\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"见好就收\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"見好就收\"\r\n  }"
   rawIndex: 10117
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "見好就收"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "见好就收"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "見好就收"
 - raw: "{\r\n    \"Key\": 10118,\r\n    \"DescFinal\": \"玩家選項\",\r\n    \"DictionaryFinal\": \"再次挑戰\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"再次挑战\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"再次挑戰\"\r\n  }"
   rawIndex: 10118
   splits:
-  - splitPath: DescFinal
-    text: "玩家選項"
-  - splitPath: DictionaryFinal
-    text: "再次挑戰"
   - splitPath: Desc
     text: "玩家选项"
   - splitPath: Dictionary
     text: "再次挑战"
-  - splitPath: DescTw
-    text: "玩家選項"
-  - splitPath: DictionaryTw
-    text: "再次挑戰"
 - raw: "{\r\n    \"Key\": 10120,\r\n    \"DescFinal\": \"AI行為\",\r\n    \"DictionaryFinal\": \"{0}開始投擲\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}开始投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}開始投擲\"\r\n  }"
   rawIndex: 10120
   splits:
-  - splitPath: DescFinal
-    text: "AI行為"
-  - splitPath: DictionaryFinal
-    text: "{0}開始投擲"
   - splitPath: Desc
     text: "AI行为"
   - splitPath: Dictionary
     text: "{0}开始投掷"
-  - splitPath: DescTw
-    text: "AI行為"
-  - splitPath: DictionaryTw
-    text: "{0}開始投擲"
 - raw: "{\r\n    \"Key\": 10121,\r\n    \"DescFinal\": \"AI行為\",\r\n    \"DictionaryFinal\": \"{0}選擇繼續投擲\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}选择继续投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}選擇繼續投擲\"\r\n  }"
   rawIndex: 10121
   splits:
-  - splitPath: DescFinal
-    text: "AI行為"
-  - splitPath: DictionaryFinal
-    text: "{0}選擇繼續投擲"
   - splitPath: Desc
     text: "AI行为"
   - splitPath: Dictionary
     text: "{0}选择继续投掷"
-  - splitPath: DescTw
-    text: "AI行為"
-  - splitPath: DictionaryTw
-    text: "{0}選擇繼續投擲"
 - raw: "{\r\n    \"Key\": 10122,\r\n    \"DescFinal\": \"AI行為\",\r\n    \"DictionaryFinal\": \"{0}選擇停止投擲\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}选择停止投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}選擇停止投擲\"\r\n  }"
   rawIndex: 10122
   splits:
-  - splitPath: DescFinal
-    text: "AI行為"
-  - splitPath: DictionaryFinal
-    text: "{0}選擇停止投擲"
   - splitPath: Desc
     text: "AI行为"
   - splitPath: Dictionary
     text: "{0}选择停止投掷"
-  - splitPath: DescTw
-    text: "AI行為"
-  - splitPath: DictionaryTw
-    text: "{0}選擇停止投擲"
 - raw: "{\r\n    \"Key\": 10123,\r\n    \"DescFinal\": \"AI行為note\",\r\n    \"DictionaryFinal\": \"{0}使用了<color=#FFD26E>{1}</color>\",\r\n    \"Desc\": \"AI行为note\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>\",\r\n    \"DescTw\": \"AI行為note\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>\"\r\n  }"
   rawIndex: 10123
   splits:
-  - splitPath: DescFinal
-    text: "AI行為note"
-  - splitPath: DictionaryFinal
-    text: "{0}使用了<color=#FFD26E>{1}</color>"
   - splitPath: Desc
     text: "AI行为note"
   - splitPath: Dictionary
     text: "{0}使用了<color=#FFD26E>{1}</color>"
-  - splitPath: DescTw
-    text: "AI行為note"
-  - splitPath: DictionaryTw
-    text: "{0}使用了<color=#FFD26E>{1}</color>"
 - raw: "{\r\n    \"Key\": 10130,\r\n    \"DescFinal\": \"一次獎勵\",\r\n    \"DictionaryFinal\": \"<color=#B7A97C>{0}拿出了{1}</color>\",\r\n    \"Desc\": \"一次奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}拿出了{1}</color>\",\r\n    \"DescTw\": \"一次獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}拿出了{1}</color>\"\r\n  }"
   rawIndex: 10130
   splits:
-  - splitPath: DescFinal
-    text: "一次獎勵"
-  - splitPath: DictionaryFinal
-    text: "<color=#B7A97C>{0}拿出了{1}</color>"
   - splitPath: Desc
     text: "一次奖励"
   - splitPath: Dictionary
     text: "<color=#B7A97C>{0}拿出了{1}</color>"
-  - splitPath: DescTw
-    text: "一次獎勵"
-  - splitPath: DictionaryTw
-    text: "<color=#B7A97C>{0}拿出了{1}</color>"
 - raw: "{\r\n    \"Key\": 10131,\r\n    \"DescFinal\": \"多次獎勵\",\r\n    \"DictionaryFinal\": \"<color=#B7A97C>{0}又拿出了{1}</color>\",\r\n    \"Desc\": \"多次奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}又拿出了{1}</color>\",\r\n    \"DescTw\": \"多次獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}又拿出了{1}</color>\"\r\n  }"
   rawIndex: 10131
   splits:
-  - splitPath: DescFinal
-    text: "多次獎勵"
-  - splitPath: DictionaryFinal
-    text: "<color=#B7A97C>{0}又拿出了{1}</color>"
   - splitPath: Desc
     text: "多次奖励"
   - splitPath: Dictionary
     text: "<color=#B7A97C>{0}又拿出了{1}</color>"
-  - splitPath: DescTw
-    text: "多次獎勵"
-  - splitPath: DictionaryTw
-    text: "<color=#B7A97C>{0}又拿出了{1}</color>"
 - raw: "{\r\n    \"Key\": 10132,\r\n    \"DescFinal\": \"技能獎勵\",\r\n    \"DictionaryFinal\": \"<color=#B7A97C>{0}似乎拿出了不得了的功法作為賭注</color>\",\r\n    \"Desc\": \"技能奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}似乎拿出了不得了的功法作为赌注</color>\",\r\n    \"DescTw\": \"技能獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}似乎拿出了不得了的功法作為賭注</color>\"\r\n  }"
   rawIndex: 10132
   splits:
-  - splitPath: DescFinal
-    text: "技能獎勵"
-  - splitPath: DictionaryFinal
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的功法作為賭注</color>"
   - splitPath: Desc
     text: "技能奖励"
   - splitPath: Dictionary
     text: "<color=#B7A97C>{0}似乎拿出了不得了的功法作为赌注</color>"
-  - splitPath: DescTw
-    text: "技能獎勵"
-  - splitPath: DictionaryTw
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的功法作為賭注</color>"
 - raw: "{\r\n    \"Key\": 10137,\r\n    \"DescFinal\": \"寶物獎勵\",\r\n    \"DictionaryFinal\": \"<color=#B7A97C>{0}似乎拿出了不得了的寶物作為賭注</color>\",\r\n    \"Desc\": \"宝物奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}似乎拿出了不得了的宝物作为赌注</color>\",\r\n    \"DescTw\": \"寶物獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}似乎拿出了不得了的寶物作為賭注</color>\"\r\n  }"
   rawIndex: 10137
   splits:
-  - splitPath: DescFinal
-    text: "寶物獎勵"
-  - splitPath: DictionaryFinal
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的寶物作為賭注</color>"
   - splitPath: Desc
     text: "宝物奖励"
   - splitPath: Dictionary
     text: "<color=#B7A97C>{0}似乎拿出了不得了的宝物作为赌注</color>"
-  - splitPath: DescTw
-    text: "寶物獎勵"
-  - splitPath: DictionaryTw
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的寶物作為賭注</color>"
 - raw: "{\r\n    \"Key\": 10133,\r\n    \"DescFinal\": \"無獎勵\",\r\n    \"DictionaryFinal\": \"{0}已經沒有什麼可以輸給你的了\",\r\n    \"Desc\": \"无奖励\",\r\n    \"Dictionary\": \"{0}已经没有什么可以输给你的了\",\r\n    \"DescTw\": \"無獎勵\",\r\n    \"DictionaryTw\": \"{0}已經沒有什麼可以輸給你的了\"\r\n  }"
   rawIndex: 10133
   splits:
-  - splitPath: DescFinal
-    text: "無獎勵"
-  - splitPath: DictionaryFinal
-    text: "{0}已經沒有什麼可以輸給你的了"
   - splitPath: Desc
     text: "无奖励"
   - splitPath: Dictionary
     text: "{0}已经没有什么可以输给你的了"
-  - splitPath: DescTw
-    text: "無獎勵"
-  - splitPath: DictionaryTw
-    text: "{0}已經沒有什麼可以輸給你的了"
 - raw: "{\r\n    \"Key\": 10134,\r\n    \"DescFinal\": \"玩家輸光\",\r\n    \"DictionaryFinal\": \"你已經沒有足夠的財富繼續玩下去了\",\r\n    \"Desc\": \"玩家输光\",\r\n    \"Dictionary\": \"你已经没有足够的财富继续玩下去了\",\r\n    \"DescTw\": \"玩家輸光\",\r\n    \"DictionaryTw\": \"你已經沒有足夠的財富繼續玩下去了\"\r\n  }"
   rawIndex: 10134
   splits:
-  - splitPath: DescFinal
-    text: "玩家輸光"
-  - splitPath: DictionaryFinal
-    text: "你已經沒有足夠的財富繼續玩下去了"
   - splitPath: Desc
     text: "玩家输光"
   - splitPath: Dictionary
     text: "你已经没有足够的财富继续玩下去了"
-  - splitPath: DescTw
-    text: "玩家輸光"
-  - splitPath: DictionaryTw
-    text: "你已經沒有足夠的財富繼續玩下去了"
 - raw: "{\r\n    \"Key\": 10135,\r\n    \"DictionaryFinal\": \"我方回合\",\r\n    \"Dictionary\": \"我方回合\",\r\n    \"DictionaryTw\": \"我方回合\"\r\n  }"
   rawIndex: 10135
   splits:
-  - splitPath: DictionaryFinal
-    text: "我方回合"
   - splitPath: Dictionary
-    text: "我方回合"
-  - splitPath: DictionaryTw
     text: "我方回合"
 - raw: "{\r\n    \"Key\": 10136,\r\n    \"DictionaryFinal\": \"對方回合\",\r\n    \"Dictionary\": \"对方回合\",\r\n    \"DictionaryTw\": \"對方回合\"\r\n  }"
   rawIndex: 10136
   splits:
-  - splitPath: DictionaryFinal
-    text: "對方回合"
   - splitPath: Dictionary
     text: "对方回合"
-  - splitPath: DictionaryTw
-    text: "對方回合"
 - raw: "{\r\n    \"Key\": 10140,\r\n    \"DescFinal\": \"點數計算文字\",\r\n    \"DictionaryFinal\": \"第{0}輪，{1}投出了{2}獲得點數{3}（基數{4}x倍數{5}）\",\r\n    \"Desc\": \"点数计算文本\",\r\n    \"Dictionary\": \"第{0}轮，{1}投出了{2}获得点数{3}（基数{4}x倍数{5}）\",\r\n    \"DescTw\": \"點數計算文字\",\r\n    \"DictionaryTw\": \"第{0}輪，{1}投出了{2}獲得點數{3}（基數{4}x倍數{5}）\"\r\n  }"
   rawIndex: 10140
   splits:
-  - splitPath: DescFinal
-    text: "點數計算文字"
-  - splitPath: DictionaryFinal
-    text: "第{0}輪，{1}投出了{2}獲得點數{3}（基數{4}x倍數{5}）"
   - splitPath: Desc
     text: "点数计算文本"
   - splitPath: Dictionary
     text: "第{0}轮，{1}投出了{2}获得点数{3}（基数{4}x倍数{5}）"
-  - splitPath: DescTw
-    text: "點數計算文字"
-  - splitPath: DictionaryTw
-    text: "第{0}輪，{1}投出了{2}獲得點數{3}（基數{4}x倍數{5}）"
 - raw: "{\r\n    \"Key\": 10141,\r\n    \"DictionaryFinal\": \"{0}投出{1}點\",\r\n    \"Dictionary\": \"{0}投出{1}点\",\r\n    \"DictionaryTw\": \"{0}投出{1}點\"\r\n  }"
   rawIndex: 10141
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}投出{1}點"
   - splitPath: Dictionary
     text: "{0}投出{1}点"
-  - splitPath: DictionaryTw
-    text: "{0}投出{1}點"
 - raw: "{\r\n    \"Key\": 10142,\r\n    \"DictionaryFinal\": \"第{0}輪，{1}投出了“劫數”，本輪點數清零，回合結束\",\r\n    \"Dictionary\": \"第{0}轮，{1}投出了“劫数”，本轮点数清零，回合结束\",\r\n    \"DictionaryTw\": \"第{0}輪，{1}投出了“劫數”，本輪點數清零，回合結束\"\r\n  }"
   rawIndex: 10142
   splits:
-  - splitPath: DictionaryFinal
-    text: "第{0}輪，{1}投出了“劫數”，本輪點數清零，回合結束"
   - splitPath: Dictionary
     text: "第{0}轮，{1}投出了“劫数”，本轮点数清零，回合结束"
-  - splitPath: DictionaryTw
-    text: "第{0}輪，{1}投出了“劫數”，本輪點數清零，回合結束"
 - raw: "{\r\n    \"Key\": 10143,\r\n    \"DictionaryFinal\": \"{0}投出了“劫數”，本輪點數清零\",\r\n    \"Dictionary\": \"{0}投出了“劫数”，本轮点数清零\",\r\n    \"DictionaryTw\": \"{0}投出了“劫數”，本輪點數清零\"\r\n  }"
   rawIndex: 10143
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}投出了“劫數”，本輪點數清零"
   - splitPath: Dictionary
     text: "{0}投出了“劫数”，本轮点数清零"
-  - splitPath: DictionaryTw
-    text: "{0}投出了“劫數”，本輪點數清零"
 - raw: "{\r\n    \"Key\": 10144,\r\n    \"DictionaryFinal\": \"{0}使用了<color=#FFD26E>{1}</color>，投出了{2}點\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，投出了{2}点\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，投出了{2}點\"\r\n  }"
   rawIndex: 10144
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}使用了<color=#FFD26E>{1}</color>，投出了{2}點"
   - splitPath: Dictionary
     text: "{0}使用了<color=#FFD26E>{1}</color>，投出了{2}点"
-  - splitPath: DictionaryTw
-    text: "{0}使用了<color=#FFD26E>{1}</color>，投出了{2}點"
 - raw: "{\r\n    \"Key\": 10200,\r\n    \"DescFinal\": \"劫數出現概率\",\r\n    \"DictionaryFinal\": \"出現概率{0}%\",\r\n    \"Desc\": \"劫数出现概率\",\r\n    \"Dictionary\": \"出现概率{0}%\",\r\n    \"DescTw\": \"劫數出現概率\",\r\n    \"DictionaryTw\": \"出現概率{0}%\"\r\n  }"
   rawIndex: 10200
   splits:
-  - splitPath: DescFinal
-    text: "劫數出現概率"
-  - splitPath: DictionaryFinal
-    text: "出現概率{0}%"
   - splitPath: Desc
     text: "劫数出现概率"
   - splitPath: Dictionary
     text: "出现概率{0}%"
-  - splitPath: DescTw
-    text: "劫數出現概率"
-  - splitPath: DictionaryTw
-    text: "出現概率{0}%"
 - raw: "{\r\n    \"Key\": 10201,\r\n    \"DictionaryFinal\": \"無“劫數”獲得{0}倍點數\",\r\n    \"Dictionary\": \"无“劫数”获得{0}倍点数\",\r\n    \"DictionaryTw\": \"無“劫數”獲得{0}倍點數\"\r\n  }"
   rawIndex: 10201
   splits:
-  - splitPath: DictionaryFinal
-    text: "無“劫數”獲得{0}倍點數"
   - splitPath: Dictionary
     text: "无“劫数”获得{0}倍点数"
-  - splitPath: DictionaryTw
-    text: "無“劫數”獲得{0}倍點數"
 - raw: "{\r\n    \"Key\": 10202,\r\n    \"DictionaryFinal\": \"第{0}/{1}局\",\r\n    \"Dictionary\": \"第{0}/{1}局\",\r\n    \"DictionaryTw\": \"第{0}/{1}局\"\r\n  }"
   rawIndex: 10202
   splits:
-  - splitPath: DictionaryFinal
-    text: "第{0}/{1}局"
   - splitPath: Dictionary
-    text: "第{0}/{1}局"
-  - splitPath: DictionaryTw
     text: "第{0}/{1}局"
 - raw: "{\r\n    \"Key\": 10203,\r\n    \"DictionaryFinal\": \"本局賭注{0}文\",\r\n    \"Dictionary\": \"本局赌注{0}文\",\r\n    \"DictionaryTw\": \"本局賭注{0}文\"\r\n  }"
   rawIndex: 10203
   splits:
-  - splitPath: DictionaryFinal
-    text: "本局賭注{0}文"
   - splitPath: Dictionary
     text: "本局赌注{0}文"
-  - splitPath: DictionaryTw
-    text: "本局賭注{0}文"
 - raw: "{\r\n    \"Key\": 10204,\r\n    \"DictionaryFinal\": \"{0}獲勝\",\r\n    \"Dictionary\": \"{0}获胜\",\r\n    \"DictionaryTw\": \"{0}獲勝\"\r\n  }"
   rawIndex: 10204
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}獲勝"
   - splitPath: Dictionary
     text: "{0}获胜"
-  - splitPath: DictionaryTw
-    text: "{0}獲勝"
 - raw: "{\r\n    \"Key\": 10206,\r\n    \"DictionaryFinal\": \"{0}贏走了{1}{2}\",\r\n    \"Dictionary\": \"{0}赢走了{1}{2}\",\r\n    \"DictionaryTw\": \"{0}贏走了{1}{2}\"\r\n  }"
   rawIndex: 10206
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}贏走了{1}{2}"
   - splitPath: Dictionary
     text: "{0}赢走了{1}{2}"
-  - splitPath: DictionaryTw
-    text: "{0}贏走了{1}{2}"
 - raw: "{\r\n    \"Key\": 10207,\r\n    \"DictionaryFinal\": \"{0}贏走了{1}的<color=#B7A97C>{2}</color>\",\r\n    \"Dictionary\": \"{0}赢走了{1}的<color=#B7A97C>{2}</color>\",\r\n    \"DictionaryTw\": \"{0}贏走了{1}的<color=#B7A97C>{2}</color>\"\r\n  }"
   rawIndex: 10207
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}贏走了{1}的<color=#B7A97C>{2}</color>"
   - splitPath: Dictionary
     text: "{0}赢走了{1}的<color=#B7A97C>{2}</color>"
-  - splitPath: DictionaryTw
-    text: "{0}贏走了{1}的<color=#B7A97C>{2}</color>"
 - raw: "{\r\n    \"Key\": 10208,\r\n    \"DictionaryFinal\": \"<color=#B7A97C>對方似乎還有不少財富</color>\",\r\n    \"Dictionary\": \"<color=#B7A97C>对方似乎还有不少财富</color>\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>對方似乎還有不少財富</color>\"\r\n  }"
   rawIndex: 10208
   splits:
-  - splitPath: DictionaryFinal
-    text: "<color=#B7A97C>對方似乎還有不少財富</color>"
   - splitPath: Dictionary
     text: "<color=#B7A97C>对方似乎还有不少财富</color>"
-  - splitPath: DictionaryTw
-    text: "<color=#B7A97C>對方似乎還有不少財富</color>"
 - raw: "{\r\n    \"Key\": 10210,\r\n    \"DictionaryFinal\": \"如果無法連勝，可以下次再來挑戰，進度將會儲存。\",\r\n    \"Dictionary\": \"如果无法连胜，可以下次再来挑战，进度将会保存。\",\r\n    \"DictionaryTw\": \"如果無法連勝，可以下次再來挑戰，進度將會儲存。\"\r\n  }"
   rawIndex: 10210
   splits:
-  - splitPath: DictionaryFinal
-    text: "如果無法連勝，可以下次再來挑戰，進度將會儲存。"
   - splitPath: Dictionary
     text: "如果无法连胜，可以下次再来挑战，进度将会保存。"
-  - splitPath: DictionaryTw
-    text: "如果無法連勝，可以下次再來挑戰，進度將會儲存。"
 - raw: "{\r\n    \"Key\": 10211,\r\n    \"DictionaryFinal\": \"關於多局挑戰\",\r\n    \"Dictionary\": \"关于多局挑战\",\r\n    \"DictionaryTw\": \"關於多局挑戰\"\r\n  }"
   rawIndex: 10211
   splits:
-  - splitPath: DictionaryFinal
-    text: "關於多局挑戰"
   - splitPath: Dictionary
     text: "关于多局挑战"
-  - splitPath: DictionaryTw
-    text: "關於多局挑戰"
 - raw: "{\r\n    \"Key\": 10212,\r\n    \"DictionaryFinal\": \"{0}使用了{1}\",\r\n    \"Dictionary\": \"{0}使用了{1}\",\r\n    \"DictionaryTw\": \"{0}使用了{1}\"\r\n  }"
   rawIndex: 10212
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}使用了{1}"
   - splitPath: Dictionary
-    text: "{0}使用了{1}"
-  - splitPath: DictionaryTw
     text: "{0}使用了{1}"
 - raw: "{\r\n    \"Key\": 10300,\r\n    \"DictionaryFinal\": \"賭術≥{0}方可通殺對手\",\r\n    \"Dictionary\": \"赌术≥{0}方可通杀对手\",\r\n    \"DictionaryTw\": \"賭術≥{0}方可通殺對手\"\r\n  }"
   rawIndex: 10300
   splits:
-  - splitPath: DictionaryFinal
-    text: "賭術≥{0}方可通殺對手"
   - splitPath: Dictionary
     text: "赌术≥{0}方可通杀对手"
-  - splitPath: DictionaryTw
-    text: "賭術≥{0}方可通殺對手"
 - raw: "{\r\n    \"Key\": 10301,\r\n    \"DictionaryFinal\": \"不可在對方回合使用\",\r\n    \"Dictionary\": \"不可在对方回合使用\",\r\n    \"DictionaryTw\": \"不可在對方回合使用\"\r\n  }"
   rawIndex: 10301
   splits:
-  - splitPath: DictionaryFinal
-    text: "不可在對方回合使用"
   - splitPath: Dictionary
     text: "不可在对方回合使用"
-  - splitPath: DictionaryTw
-    text: "不可在對方回合使用"
 - raw: "{\r\n    \"Key\": 10302,\r\n    \"DictionaryFinal\": \"當玩家賭術≥對手時可以選擇通殺對手，直接取勝，獲取全部獎勵\",\r\n    \"Dictionary\": \"当玩家赌术≥对手时可以选择通杀对手，直接取胜，获取全部奖励\",\r\n    \"DictionaryTw\": \"當玩家賭術≥對手時可以選擇通殺對手，直接取勝，獲取全部獎勵\"\r\n  }"
   rawIndex: 10302
   splits:
-  - splitPath: DictionaryFinal
-    text: "當玩家賭術≥對手時可以選擇通殺對手，直接取勝，獲取全部獎勵"
   - splitPath: Dictionary
     text: "当玩家赌术≥对手时可以选择通杀对手，直接取胜，获取全部奖励"
-  - splitPath: DictionaryTw
-    text: "當玩家賭術≥對手時可以選擇通殺對手，直接取勝，獲取全部獎勵"
 - raw: "{\r\n    \"Key\": 10303,\r\n    \"DictionaryFinal\": \"你打算與誰較量一番？\",\r\n    \"Dictionary\": \"你打算与谁较量一番？\",\r\n    \"DictionaryTw\": \"你打算與誰較量一番？\"\r\n  }"
   rawIndex: 10303
   splits:
-  - splitPath: DictionaryFinal
-    text: "你打算與誰較量一番？"
   - splitPath: Dictionary
     text: "你打算与谁较量一番？"
-  - splitPath: DictionaryTw
-    text: "你打算與誰較量一番？"
 - raw: "{\r\n    \"Key\": 10304,\r\n    \"DictionaryFinal\": \"{0}(賭術{1}可通殺）\",\r\n    \"Dictionary\": \"{0}(赌术{1}可通杀）\",\r\n    \"DictionaryTw\": \"{0}(賭術{1}可通殺）\"\r\n  }"
   rawIndex: 10304
   splits:
-  - splitPath: DictionaryFinal
-    text: "{0}(賭術{1}可通殺）"
   - splitPath: Dictionary
     text: "{0}(赌术{1}可通杀）"
-  - splitPath: DictionaryTw
-    text: "{0}(賭術{1}可通殺）"
 - raw: "{\r\n    \"Key\": 10305,\r\n    \"DictionaryFinal\": \"賭局已經開始，不能通殺了\",\r\n    \"Dictionary\": \"赌局已经开始，不能通杀了\",\r\n    \"DictionaryTw\": \"賭局已經開始，不能通殺了\"\r\n  }"
   rawIndex: 10305
   splits:
-  - splitPath: DictionaryFinal
-    text: "賭局已經開始，不能通殺了"
   - splitPath: Dictionary
     text: "赌局已经开始，不能通杀了"
-  - splitPath: DictionaryTw
-    text: "賭局已經開始，不能通殺了"
 - raw: "{\r\n    \"Key\": 10306,\r\n    \"DictionaryFinal\": \"勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物\",\r\n    \"Dictionary\": \"勾选此选项后，将只显示当前存档已经解锁的侠客、宝物\",\r\n    \"DictionaryTw\": \"勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物\"\r\n  }"
   rawIndex: 10306
   splits:
-  - splitPath: DictionaryFinal
-    text: "勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物"
   - splitPath: Dictionary
     text: "勾选此选项后，将只显示当前存档已经解锁的侠客、宝物"
-  - splitPath: DictionaryTw
-    text: "勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物"
 - raw: "{\r\n    \"Key\": 10307,\r\n    \"DictionaryFinal\": \"勾選此選項後，將隱藏俠客，只顯示寶物\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏侠客，只显示宝物\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏俠客，只顯示寶物\"\r\n  }"
   rawIndex: 10307
   splits:
-  - splitPath: DictionaryFinal
-    text: "勾選此選項後，將隱藏俠客，只顯示寶物"
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏侠客，只显示宝物"
-  - splitPath: DictionaryTw
-    text: "勾選此選項後，將隱藏俠客，只顯示寶物"
 - raw: "{\r\n    \"Key\": 10308,\r\n    \"DictionaryFinal\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏已解锁的侠客、宝物。\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\"\r\n  }"
   rawIndex: 10308
   splits:
-  - splitPath: DictionaryFinal
-    text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏已解锁的侠客、宝物。"
-  - splitPath: DictionaryTw
-    text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
 - raw: "{\r\n    \"Key\": 90000,\r\n    \"DictionaryFinal\": \"全部\",\r\n    \"Dictionary\": \"全部\",\r\n    \"DictionaryTw\": \"全部\"\r\n  }"
   rawIndex: 90000
   splits:
-  - splitPath: DictionaryFinal
-    text: "全部"
   - splitPath: Dictionary
-    text: "全部"
-  - splitPath: DictionaryTw
     text: "全部"
 - raw: "{\r\n    \"Key\": 90001,\r\n    \"DictionaryFinal\": \"拳腳\",\r\n    \"Dictionary\": \"拳脚\",\r\n    \"DictionaryTw\": \"拳腳\"\r\n  }"
   rawIndex: 90001
   splits:
-  - splitPath: DictionaryFinal
-    text: "拳腳"
   - splitPath: Dictionary
     text: "拳脚"
-  - splitPath: DictionaryTw
-    text: "拳腳"
 - raw: "{\r\n    \"Key\": 90002,\r\n    \"DictionaryFinal\": \"刀劍\",\r\n    \"Dictionary\": \"刀剑\",\r\n    \"DictionaryTw\": \"刀劍\"\r\n  }"
   rawIndex: 90002
   splits:
-  - splitPath: DictionaryFinal
-    text: "刀劍"
   - splitPath: Dictionary
     text: "刀剑"
-  - splitPath: DictionaryTw
-    text: "刀劍"
 - raw: "{\r\n    \"Key\": 90003,\r\n    \"DictionaryFinal\": \"百兵\",\r\n    \"Dictionary\": \"百兵\",\r\n    \"DictionaryTw\": \"百兵\"\r\n  }"
   rawIndex: 90003
   splits:
-  - splitPath: DictionaryFinal
-    text: "百兵"
   - splitPath: Dictionary
-    text: "百兵"
-  - splitPath: DictionaryTw
     text: "百兵"
 - raw: "{\r\n    \"Key\": 90004,\r\n    \"DictionaryFinal\": \"心法\",\r\n    \"Dictionary\": \"心法\",\r\n    \"DictionaryTw\": \"心法\"\r\n  }"
   rawIndex: 90004
   splits:
-  - splitPath: DictionaryFinal
-    text: "心法"
   - splitPath: Dictionary
-    text: "心法"
-  - splitPath: DictionaryTw
     text: "心法"
 - raw: "{\r\n    \"Key\": 90005,\r\n    \"DictionaryFinal\": \"特技\",\r\n    \"Dictionary\": \"特技\",\r\n    \"DictionaryTw\": \"特技\"\r\n  }"
   rawIndex: 90005
   splits:
-  - splitPath: DictionaryFinal
-    text: "特技"
   - splitPath: Dictionary
-    text: "特技"
-  - splitPath: DictionaryTw
     text: "特技"
 - raw: "{\r\n    \"Key\": 90006,\r\n    \"DictionaryFinal\": \"助戰\",\r\n    \"Dictionary\": \"助战\",\r\n    \"DictionaryTw\": \"助戰\"\r\n  }"
   rawIndex: 90006
   splits:
-  - splitPath: DictionaryFinal
-    text: "助戰"
   - splitPath: Dictionary
     text: "助战"
-  - splitPath: DictionaryTw
-    text: "助戰"
 - raw: "{\r\n    \"Key\": 91000,\r\n    \"DictionaryFinal\": \"未選擇\",\r\n    \"Dictionary\": \"未选择\",\r\n    \"DictionaryTw\": \"未選擇\"\r\n  }"
   rawIndex: 91000
   splits:
-  - splitPath: DictionaryFinal
-    text: "未選擇"
   - splitPath: Dictionary
     text: "未选择"
-  - splitPath: DictionaryTw
-    text: "未選擇"
 - raw: "{\r\n    \"Key\": 91002,\r\n    \"DictionaryFinal\": \"衡山派\",\r\n    \"Dictionary\": \"衡山派\",\r\n    \"DictionaryTw\": \"衡山派\"\r\n  }"
   rawIndex: 91002
   splits:
-  - splitPath: DictionaryFinal
-    text: "衡山派"
   - splitPath: Dictionary
-    text: "衡山派"
-  - splitPath: DictionaryTw
     text: "衡山派"
 - raw: "{\r\n    \"Key\": 91003,\r\n    \"DictionaryFinal\": \"武當派\",\r\n    \"Dictionary\": \"武当派\",\r\n    \"DictionaryTw\": \"武當派\"\r\n  }"
   rawIndex: 91003
   splits:
-  - splitPath: DictionaryFinal
-    text: "武當派"
   - splitPath: Dictionary
     text: "武当派"
-  - splitPath: DictionaryTw
-    text: "武當派"
 - raw: "{\r\n    \"Key\": 91006,\r\n    \"DictionaryFinal\": \"洞庭幫\",\r\n    \"Dictionary\": \"洞庭帮\",\r\n    \"DictionaryTw\": \"洞庭幫\"\r\n  }"
   rawIndex: 91006
   splits:
-  - splitPath: DictionaryFinal
-    text: "洞庭幫"
   - splitPath: Dictionary
     text: "洞庭帮"
-  - splitPath: DictionaryTw
-    text: "洞庭幫"

@@ -1,309 +1,141 @@
 - raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"靳紅衣\",\r\n    \"Name\": \"靳红衣\",\r\n    \"NameTw\": \"靳紅衣\"\r\n  }"
   rawIndex: 101
   splits:
-  - splitPath: NameFinal
-    text: "靳紅衣"
-    translated: "Jin Hongyi"
   - splitPath: Name
     text: "靳红衣"
-    translated: "Jin Hongyi"
-  - splitPath: NameTw
-    text: "靳紅衣"
     translated: "Jin Hongyi"
 - raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"莫笑貧\",\r\n    \"Name\": \"莫笑贫\",\r\n    \"NameTw\": \"莫笑貧\"\r\n  }"
   rawIndex: 102
   splits:
-  - splitPath: NameFinal
-    text: "莫笑貧"
-    translated: "Do not laugh at poverty"
   - splitPath: Name
     text: "莫笑贫"
     translated: "Do not mock poverty"
-  - splitPath: NameTw
-    text: "莫笑貧"
-    translated: "Do not laugh at poverty"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"流氓\",\r\n    \"Name\": \"流氓\",\r\n    \"NameTw\": \"流氓\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: NameFinal
-    text: "流氓"
-    translated: "Thug"
   - splitPath: Name
-    text: "流氓"
-    translated: "Thug"
-  - splitPath: NameTw
     text: "流氓"
     translated: "Thug"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"江湖藝人\",\r\n    \"Name\": \"江湖艺人\",\r\n    \"NameTw\": \"江湖藝人\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: NameFinal
-    text: "江湖藝人"
-    translated: "Jianghu Performer"
   - splitPath: Name
     text: "江湖艺人"
-    translated: "Jianghu Performer"
-  - splitPath: NameTw
-    text: "江湖藝人"
     translated: "Jianghu Performer"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"富商\",\r\n    \"Name\": \"富商\",\r\n    \"NameTw\": \"富商\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: NameFinal
-    text: "富商"
-    translated: "Wealthy merchant"
   - splitPath: Name
-    text: "富商"
-    translated: "Wealthy merchant"
-  - splitPath: NameTw
     text: "富商"
     translated: "Wealthy merchant"
 - raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"鏢師\",\r\n    \"Name\": \"镖师\",\r\n    \"NameTw\": \"鏢師\"\r\n  }"
   rawIndex: 4
   splits:
-  - splitPath: NameFinal
-    text: "鏢師"
-    translated: "Courier"
   - splitPath: Name
     text: "镖师"
-    translated: "Courier"
-  - splitPath: NameTw
-    text: "鏢師"
     translated: "Courier"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"捕快\",\r\n    \"Name\": \"捕快\",\r\n    \"NameTw\": \"捕快\"\r\n  }"
   rawIndex: 5
   splits:
-  - splitPath: NameFinal
-    text: "捕快"
-    translated: "Constable"
   - splitPath: Name
-    text: "捕快"
-    translated: "Constable"
-  - splitPath: NameTw
     text: "捕快"
     translated: "Constable"
 - raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"小二\",\r\n    \"Name\": \"小二\",\r\n    \"NameTw\": \"小二\"\r\n  }"
   rawIndex: 6
   splits:
-  - splitPath: NameFinal
-    text: "小二"
-    translated: "Waiter"
   - splitPath: Name
-    text: "小二"
-    translated: "Waiter"
-  - splitPath: NameTw
     text: "小二"
     translated: "Waiter"
 - raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"儒生\",\r\n    \"Name\": \"儒生\",\r\n    \"NameTw\": \"儒生\"\r\n  }"
   rawIndex: 7
   splits:
-  - splitPath: NameFinal
-    text: "儒生"
-    translated: "Scholar"
   - splitPath: Name
-    text: "儒生"
-    translated: "Scholar"
-  - splitPath: NameTw
     text: "儒生"
     translated: "Scholar"
 - raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"石重寶\",\r\n    \"DescFinal\": \"殺殷通前\",\r\n    \"Name\": \"石重宝\",\r\n    \"Desc\": \"杀殷通前\",\r\n    \"NameTw\": \"石重寶\",\r\n    \"DescTw\": \"殺殷通前\"\r\n  }"
   rawIndex: 11
   splits:
-  - splitPath: NameFinal
-    text: "石重寶"
-    translated: "Shi Chongbao"
-  - splitPath: DescFinal
-    text: "殺殷通前"
-    translated: "Before killing Yin Tong"
   - splitPath: Name
     text: "石重宝"
     translated: "Shi Chongbao"
   - splitPath: Desc
     text: "杀殷通前"
     translated: "Before killing Yin Tong"
-  - splitPath: NameTw
-    text: "石重寶"
-    translated: "Shi Chongbao"
-  - splitPath: DescTw
-    text: "殺殷通前"
-    translated: "Before killing Yin Tong"
 - raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"木桑\",\r\n    \"Name\": \"木桑\",\r\n    \"NameTw\": \"木桑\"\r\n  }"
   rawIndex: 12
   splits:
-  - splitPath: NameFinal
-    text: "木桑"
-    translated: "Mu Sang"
   - splitPath: Name
-    text: "木桑"
-    translated: "Mu Sang"
-  - splitPath: NameTw
     text: "木桑"
     translated: "Mu Sang"
 - raw: "{\r\n    \"Key\": 13,\r\n    \"NameFinal\": \"蔣承籌\",\r\n    \"DescFinal\": \"第三年後，壽宴未揭發\",\r\n    \"Name\": \"蒋承筹\",\r\n    \"Desc\": \"第三年后，寿宴未揭发\",\r\n    \"NameTw\": \"蔣承籌\",\r\n    \"DescTw\": \"第三年後，壽宴未揭發\"\r\n  }"
   rawIndex: 13
   splits:
-  - splitPath: NameFinal
-    text: "蔣承籌"
-    translated: "Jiang Chengchou"
-  - splitPath: DescFinal
-    text: "第三年後，壽宴未揭發"
-    translated: "Three years later, the birthday feast was not uncovered."
   - splitPath: Name
     text: "蒋承筹"
     translated: "Jiang Chengchou"
   - splitPath: Desc
     text: "第三年后，寿宴未揭发"
     translated: "Three years later, the birthday feast was not uncovered."
-  - splitPath: NameTw
-    text: "蔣承籌"
-    translated: "Jiang Chengchou"
-  - splitPath: DescTw
-    text: "第三年後，壽宴未揭發"
-    translated: "Three years later, the birthday feast was not uncovered."
 - raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"那瑜陀\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"那瑜陀\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"那瑜陀\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
   rawIndex: 14
   splits:
-  - splitPath: NameFinal
-    text: "那瑜陀"
-    translated: "That Jade Disk"
-  - splitPath: DescFinal
-    text: "無條件"
-    translated: "Unconditional"
   - splitPath: Name
     text: "那瑜陀"
     translated: "That Jade Disk"
   - splitPath: Desc
     text: "无条件"
     translated: "Unconditional"
-  - splitPath: NameTw
-    text: "那瑜陀"
-    translated: "That Jade Disk"
-  - splitPath: DescTw
-    text: "無條件"
-    translated: "Unconditional"
 - raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"辛無厭\",\r\n    \"DescFinal\": \"黃鶴見面前\",\r\n    \"Name\": \"辛无厌\",\r\n    \"Desc\": \"黄鹤见面前\",\r\n    \"NameTw\": \"辛無厭\",\r\n    \"DescTw\": \"黃鶴見面前\"\r\n  }"
   rawIndex: 15
   splits:
-  - splitPath: NameFinal
-    text: "辛無厭"
-    translated: "Xin Wuyan"
-  - splitPath: DescFinal
-    text: "黃鶴見面前"
-    translated: "Yellow Crane encounters the foe before it"
   - splitPath: Name
     text: "辛无厌"
     translated: "Xin Wuyan"
   - splitPath: Desc
     text: "黄鹤见面前"
     translated: "Before meeting the White Crane"
-  - splitPath: NameTw
-    text: "辛無厭"
-    translated: "Xin Wuyan"
-  - splitPath: DescTw
-    text: "黃鶴見面前"
-    translated: "Yellow Crane encounters the foe before it"
 - raw: "{\r\n    \"Key\": 16,\r\n    \"NameFinal\": \"袁飛\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"袁飞\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"袁飛\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
   rawIndex: 16
   splits:
-  - splitPath: NameFinal
-    text: "袁飛"
-    translated: "Yuan Fei"
-  - splitPath: DescFinal
-    text: "無條件"
-    translated: "Unconditional"
   - splitPath: Name
     text: "袁飞"
     translated: "Yuan Fei"
   - splitPath: Desc
     text: "无条件"
     translated: "Unconditional"
-  - splitPath: NameTw
-    text: "袁飛"
-    translated: "Yuan Fei"
-  - splitPath: DescTw
-    text: "無條件"
-    translated: "Unconditional"
 - raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"法元\",\r\n    \"DescFinal\": \"第六年後未觸發惡僧事件\",\r\n    \"Name\": \"法元\",\r\n    \"Desc\": \"第六年后未触发恶僧事件\",\r\n    \"NameTw\": \"法元\",\r\n    \"DescTw\": \"第六年後未觸發惡僧事件\"\r\n  }"
   rawIndex: 17
   splits:
-  - splitPath: NameFinal
-    text: "法元"
-    translated: "Fa Yuan"
-  - splitPath: DescFinal
-    text: "第六年後未觸發惡僧事件"
-    translated: "Six years later, the Incident Involving the Evil Monk did not occur."
   - splitPath: Name
     text: "法元"
     translated: "Fa Yuan"
   - splitPath: Desc
     text: "第六年后未触发恶僧事件"
     translated: "Six years later, the evil monk event did not trigger."
-  - splitPath: NameTw
-    text: "法元"
-    translated: "Fa Yuan"
-  - splitPath: DescTw
-    text: "第六年後未觸發惡僧事件"
-    translated: "Six years later, the Incident Involving the Evil Monk did not occur."
 - raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"賈孤山\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"Name\": \"贾孤山\",\r\n    \"Desc\": \"第七年前\",\r\n    \"NameTw\": \"賈孤山\",\r\n    \"DescTw\": \"第七年前\"\r\n  }"
   rawIndex: 18
   splits:
-  - splitPath: NameFinal
-    text: "賈孤山"
-    translated: "Jia Gushan"
-  - splitPath: DescFinal
-    text: "第七年前"
-    translated: "Seven years ago"
   - splitPath: Name
     text: "贾孤山"
     translated: "Solitary Hill‑Jia"
   - splitPath: Desc
     text: "第七年前"
     translated: "Seven years ago"
-  - splitPath: NameTw
-    text: "賈孤山"
-    translated: "Jia Gushan"
-  - splitPath: DescTw
-    text: "第七年前"
-    translated: "Seven years ago"
 - raw: "{\r\n    \"Key\": 19,\r\n    \"NameFinal\": \"左遊仙\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"Name\": \"左游仙\",\r\n    \"Desc\": \"第七年前\",\r\n    \"NameTw\": \"左遊仙\",\r\n    \"DescTw\": \"第七年前\"\r\n  }"
   rawIndex: 19
   splits:
-  - splitPath: NameFinal
-    text: "左遊仙"
-    translated: "Zuo Youxian"
-  - splitPath: DescFinal
-    text: "第七年前"
-    translated: "Seven years ago"
   - splitPath: Name
     text: "左游仙"
     translated: "Zuo Youxian"
   - splitPath: Desc
     text: "第七年前"
     translated: "Seven years ago"
-  - splitPath: NameTw
-    text: "左遊仙"
-    translated: "Zuo Youxian"
-  - splitPath: DescTw
-    text: "第七年前"
-    translated: "Seven years ago"
 - raw: "{\r\n    \"Key\": 20,\r\n    \"NameFinal\": \"廣惠\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"广惠\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"廣惠\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
   rawIndex: 20
   splits:
-  - splitPath: NameFinal
-    text: "廣惠"
-    translated: "Guang Hui"
-  - splitPath: DescFinal
-    text: "無條件"
-    translated: "Unconditional"
   - splitPath: Name
     text: "广惠"
     translated: "Guang Hui"
   - splitPath: Desc
     text: "无条件"
-    translated: "Unconditional"
-  - splitPath: NameTw
-    text: "廣惠"
-    translated: "Guang Hui"
-  - splitPath: DescTw
-    text: "無條件"
     translated: "Unconditional"

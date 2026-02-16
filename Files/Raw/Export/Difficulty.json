@@ -1,68 +1,36 @@
 - raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"簡單\",\r\n    \"DescFinal\": \"隨便玩玩\",\r\n    \"Name\": \"简单\",\r\n    \"Desc\": \"随便玩玩\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"簡單\",\r\n    \"DescTw\": \"隨便玩玩\"\r\n  }"
   rawIndex: 0
   splits:
-  - splitPath: NameFinal
-    text: "簡單"
-  - splitPath: DescFinal
-    text: "隨便玩玩"
   - splitPath: Name
     text: "简单"
   - splitPath: Desc
     text: "随便玩玩"
   - splitPath: EventResultDesc
     text: "加成测试"
-  - splitPath: NameTw
-    text: "簡單"
-  - splitPath: DescTw
-    text: "隨便玩玩"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"中等\",\r\n    \"DescFinal\": \"敵人血量、傷害提升20%，一週目不推薦選擇\",\r\n    \"Name\": \"中等\",\r\n    \"Desc\": \"敌人血量、伤害提升20%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"中等\",\r\n    \"DescTw\": \"敵人血量、傷害提升20%，一週目不推薦選擇\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: NameFinal
-    text: "中等"
-  - splitPath: DescFinal
-    text: "敵人血量、傷害提升20%，一週目不推薦選擇"
   - splitPath: Name
     text: "中等"
   - splitPath: Desc
     text: "敌人血量、伤害提升20%，一周目不推荐选择"
   - splitPath: EventResultDesc
     text: "加成测试"
-  - splitPath: NameTw
-    text: "中等"
-  - splitPath: DescTw
-    text: "敵人血量、傷害提升20%，一週目不推薦選擇"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"困難\",\r\n    \"DescFinal\": \"敵人血量、傷害提升50%，一週目不推薦選擇\",\r\n    \"Name\": \"困难\",\r\n    \"Desc\": \"敌人血量、伤害提升50%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"困難\",\r\n    \"DescTw\": \"敵人血量、傷害提升50%，一週目不推薦選擇\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: NameFinal
-    text: "困難"
-  - splitPath: DescFinal
-    text: "敵人血量、傷害提升50%，一週目不推薦選擇"
   - splitPath: Name
     text: "困难"
   - splitPath: Desc
     text: "敌人血量、伤害提升50%，一周目不推荐选择"
   - splitPath: EventResultDesc
     text: "加成测试"
-  - splitPath: NameTw
-    text: "困難"
-  - splitPath: DescTw
-    text: "敵人血量、傷害提升50%，一週目不推薦選擇"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"地獄\",\r\n    \"DescFinal\": \"敵人血量、傷害提升100%，一週目不推薦選擇\",\r\n    \"Name\": \"地狱\",\r\n    \"Desc\": \"敌人血量、伤害提升100%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"地獄\",\r\n    \"DescTw\": \"敵人血量、傷害提升100%，一週目不推薦選擇\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: NameFinal
-    text: "地獄"
-  - splitPath: DescFinal
-    text: "敵人血量、傷害提升100%，一週目不推薦選擇"
   - splitPath: Name
     text: "地狱"
   - splitPath: Desc
     text: "敌人血量、伤害提升100%，一周目不推荐选择"
   - splitPath: EventResultDesc
     text: "加成测试"
-  - splitPath: NameTw
-    text: "地獄"
-  - splitPath: DescTw
-    text: "敵人血量、傷害提升100%，一週目不推薦選擇"

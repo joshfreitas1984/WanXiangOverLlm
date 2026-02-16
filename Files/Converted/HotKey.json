@@ -1,156 +1,78 @@
 - raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"劇情快進\",\r\n    \"Name\": \"剧情快进\",\r\n    \"NameTw\": \"劇情快進\"\r\n  }"
   rawIndex: 0
   splits:
-  - splitPath: NameFinal
-    text: "劇情快進"
-    translated: "Fast forward the plot"
   - splitPath: Name
     text: "剧情快进"
-    translated: "Fast forward the plot"
-  - splitPath: NameTw
-    text: "劇情快進"
     translated: "Fast forward the plot"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"跳過已讀\",\r\n    \"Name\": \"跳过已读\",\r\n    \"NameTw\": \"跳過已讀\"\r\n  }"
   rawIndex: 1
   splits:
-  - splitPath: NameFinal
-    text: "跳過已讀"
-    translated: "Skip Read"
   - splitPath: Name
     text: "跳过已读"
     translated: "Skip read chapters"
-  - splitPath: NameTw
-    text: "跳過已讀"
-    translated: "Skip Read"
 - raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"劇情回顧\",\r\n    \"Name\": \"剧情回顾\",\r\n    \"NameTw\": \"劇情回顧\"\r\n  }"
   rawIndex: 2
   splits:
-  - splitPath: NameFinal
-    text: "劇情回顧"
-    translated: "Plot recap"
   - splitPath: Name
     text: "剧情回顾"
-    translated: "Plot recap"
-  - splitPath: NameTw
-    text: "劇情回顧"
     translated: "Plot recap"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"快速存檔\",\r\n    \"Name\": \"快速存档\",\r\n    \"NameTw\": \"快速存檔\"\r\n  }"
   rawIndex: 3
   splits:
-  - splitPath: NameFinal
-    text: "快速存檔"
-    translated: "Quick save"
   - splitPath: Name
     text: "快速存档"
-    translated: "Quick save"
-  - splitPath: NameTw
-    text: "快速存檔"
     translated: "Quick save"
 - raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"快速讀檔\",\r\n    \"Name\": \"快速读档\",\r\n    \"NameTw\": \"快速讀檔\"\r\n  }"
   rawIndex: 4
   splits:
-  - splitPath: NameFinal
-    text: "快速讀檔"
-    translated: "Quick save"
   - splitPath: Name
     text: "快速读档"
-    translated: "Quick save"
-  - splitPath: NameTw
-    text: "快速讀檔"
     translated: "Quick save"
 - raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"編輯隊伍\",\r\n    \"Name\": \"编辑队伍\",\r\n    \"NameTw\": \"編輯隊伍\"\r\n  }"
   rawIndex: 5
   splits:
-  - splitPath: NameFinal
-    text: "編輯隊伍"
-    translated: "Edit team"
   - splitPath: Name
     text: "编辑队伍"
-    translated: "Edit team"
-  - splitPath: NameTw
-    text: "編輯隊伍"
     translated: "Edit team"
 - raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"江湖訊息\",\r\n    \"Name\": \"江湖消息\",\r\n    \"NameTw\": \"江湖訊息\"\r\n  }"
   rawIndex: 6
   splits:
-  - splitPath: NameFinal
-    text: "江湖訊息"
-    translated: "Jianghu information"
   - splitPath: Name
     text: "江湖消息"
     translated: "Jianghu rumors"
-  - splitPath: NameTw
-    text: "江湖訊息"
-    translated: "Jianghu information"
 - raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"屬性\",\r\n    \"Name\": \"属性\",\r\n    \"NameTw\": \"屬性\"\r\n  }"
   rawIndex: 7
   splits:
-  - splitPath: NameFinal
-    text: "屬性"
-    translated: "Attributes"
   - splitPath: Name
     text: "属性"
-    translated: "Attributes"
-  - splitPath: NameTw
-    text: "屬性"
     translated: "Attributes"
 - raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"圖鑑\",\r\n    \"Name\": \"图鉴\",\r\n    \"NameTw\": \"圖鑑\"\r\n  }"
   rawIndex: 8
   splits:
-  - splitPath: NameFinal
-    text: "圖鑑"
-    translated: "Encyclopedia"
   - splitPath: Name
     text: "图鉴"
     translated: "Bestiary"
-  - splitPath: NameTw
-    text: "圖鑑"
-    translated: "Encyclopedia"
 - raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"關係\",\r\n    \"Name\": \"关系\",\r\n    \"NameTw\": \"關係\"\r\n  }"
   rawIndex: 9
   splits:
-  - splitPath: NameFinal
-    text: "關係"
-    translated: "Relationship"
   - splitPath: Name
     text: "关系"
-    translated: "Relationship"
-  - splitPath: NameTw
-    text: "關係"
     translated: "Relationship"
 - raw: "{\r\n    \"Key\": 10,\r\n    \"NameFinal\": \"設定\",\r\n    \"Name\": \"设置\",\r\n    \"NameTw\": \"設定\"\r\n  }"
   rawIndex: 10
   splits:
-  - splitPath: NameFinal
-    text: "設定"
-    translated: "Settings"
   - splitPath: Name
     text: "设置"
-    translated: "Settings"
-  - splitPath: NameTw
-    text: "設定"
     translated: "Settings"
 - raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"切換\",\r\n    \"Name\": \"切换\",\r\n    \"NameTw\": \"切換\"\r\n  }"
   rawIndex: 11
   splits:
-  - splitPath: NameFinal
-    text: "切換"
-    translated: "Switch"
   - splitPath: Name
     text: "切换"
-    translated: "Switch"
-  - splitPath: NameTw
-    text: "切換"
     translated: "Switch"
 - raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"休息\",\r\n    \"Name\": \"休息\",\r\n    \"NameTw\": \"休息\"\r\n  }"
   rawIndex: 14
   splits:
-  - splitPath: NameFinal
-    text: "休息"
-    translated: "Rest"
   - splitPath: Name
-    text: "休息"
-    translated: "Rest"
-  - splitPath: NameTw
     text: "休息"
     translated: "Rest"

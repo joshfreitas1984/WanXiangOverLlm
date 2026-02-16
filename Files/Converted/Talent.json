@@ -993,15 +993,13 @@
   splits:
   - splitPath: NameFinal
     text: "大肚能容"
-    translated: "Great Belly Can容纳 All"
-    flaggedForRetranslation: true
+    translated: "Great Belly Can Tolerate All"
   - splitPath: DescFinal
     text: "每品嚐一次酒樓美食氣血+200"
     translated: "Every time they savor the restaurant's delicacies, their lifeforce +200 improves."
   - splitPath: Name
     text: "大肚能容"
-    translated: "Great Belly Can容纳 All"
-    flaggedForRetranslation: true
+    translated: "Great Belly Can Tolerate All"
   - splitPath: Desc
     text: "每品尝一次酒楼美食气血+200"
     translated: "Every time they taste the dishes at the tavern, their lifeforce improves +200."
@@ -1010,8 +1008,7 @@
     translated: "Bonus Test"
   - splitPath: NameTw
     text: "大肚能容"
-    translated: "Great Belly Can容纳 All"
-    flaggedForRetranslation: true
+    translated: "Great Belly Can Tolerate All"
   - splitPath: DescTw
     text: "每品嚐一次酒樓美食氣血+200"
     translated: "Every time they savor the restaurant's delicacies, their lifeforce +200 improves."
@@ -1527,15 +1524,14 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: DescFinal
     text: "初始武學[半拂折枝手]\\n攻擊傷害類【惡人谷】【掌法】\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。"
-    translated: "Initial Martial Art [Ban Fu Zhe Zhi Shou] Attack Damage Type: Evil Valley Palm Technique  Each attack deals 1 times the侠客's internal power damage and has a 20% chance to paralyze the enemy."
+    translated: "Initial martial arts technique [Ban Fu zhe zhi shou]\\nAttack Damage Skill Wuhu Valley Palm Technique\\nEach attack deals 1 times the侠客's combat skill damage and has a 20% chance to immobilize the enemy by sealing their acupoints."
     flaggedForRetranslation: true
   - splitPath: Name
     text: "花枝堪折"
     translated: "Flower branches ripe for plucking"
   - splitPath: Desc
     text: "初始武学[半拂折枝手]\\n攻击伤害类【恶人谷】【掌法】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Initial Martial Art [Half Brush Branch Hand]  Attack Damage Type: [Evil Valley], Palm Technique  Each attack deals 1 times the Wanderer's Qi Gong damage and has a 20% chance to cause the enemy to enter a Paralyzed state."
-    flaggedForRetranslation: true
+    translated: "Initial martial art technique [Half Stroke Branch Hand]\\nAttack Damage Type: Evil Valley Palm Technique\\nEach attack deals 1 times the Wanderer's power and has a 20% chance to put the enemy in Sealed Meridian state."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1544,7 +1540,7 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: DescTw
     text: "初始武學[半拂折枝手]\\n攻擊傷害類【惡人谷】【掌法】\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。"
-    translated: "Initial Martial Art [Ban Fu Zhe Zhi Shou] Attack Damage Type: Evil Valley Palm Technique  Each attack deals 1 times the侠客's internal power damage and has a 20% chance to paralyze the enemy."
+    translated: "Initial martial arts technique [Ban Fu zhe zhi shou]\\nAttack Damage Skill Wuhu Valley Palm Technique\\nEach attack deals 1 times the侠客's combat skill damage and has a 20% chance to immobilize the enemy by sealing their acupoints."
     flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 80003,\r\n    \"NameFinal\": \"血屠萬里\",\r\n    \"DescFinal\": \"初始武學[血屠刀法]\\\\n攻擊傷害類【惡人谷】【刀法】\\\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。\",\r\n    \"Name\": \"血屠万里\",\r\n    \"Desc\": \"初始武学[血屠刀法]\\\\n攻击伤害类【恶人谷】【刀法】\\\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"血屠萬里\",\r\n    \"DescTw\": \"初始武學[血屠刀法]\\\\n攻擊傷害類【惡人谷】【刀法】\\\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。\"\r\n  }"
   rawIndex: 80003
@@ -1554,15 +1550,14 @@
     translated: "Blood Butcher Across Ten Thousand Miles"
   - splitPath: DescFinal
     text: "初始武學[血屠刀法]\\n攻擊傷害類【惡人谷】【刀法】\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。"
-    translated: "Initial martial art [Xue Tu Dao Fa] Attack Damage Type [Evil Valley Blade Technique]  Each single attack deals 1 times the侠客's power damage, and there is a 30% chance to put the enemy in a lightly injured state."
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Technique\\nEach attack deals 1 times the侠客's combat power in damage and has a 30% chance to inflict light injury on the enemy."
     flaggedForRetranslation: true
   - splitPath: Name
     text: "血屠万里"
     translated: "Widespread Bloodshed for a Thousand Miles"
   - splitPath: Desc
     text: "初始武学[血屠刀法]\\n攻击伤害类【恶人谷】【刀法】\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    translated: "Initial martial arts [XieTu DaoFa]  Attack damage skill [Evil Valley], Blade Technique  Single attack deals 1 times the Wandering Knight's power, and there is a 30% chance to inflict minor injury on the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Art\\nEach attack deals 1 times the Wanderer's combat power in damage and has a 30% chance to inflict Light Injury on the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1571,7 +1566,7 @@
     translated: "Blood Butcher Across Ten Thousand Miles"
   - splitPath: DescTw
     text: "初始武學[血屠刀法]\\n攻擊傷害類【惡人谷】【刀法】\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。"
-    translated: "Initial martial art [Xue Tu Dao Fa] Attack Damage Type [Evil Valley Blade Technique]  Each single attack deals 1 times the侠客's power damage, and there is a 30% chance to put the enemy in a lightly injured state."
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Technique\\nEach attack deals 1 times the侠客's combat power in damage and has a 30% chance to inflict light injury on the enemy."
     flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 80004,\r\n    \"NameFinal\": \"唯我獨尊\",\r\n    \"DescFinal\": \"初始武學[天地獨尊訣]\\\\n戰術協同類【惡人谷】【內功】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。\",\r\n    \"Name\": \"唯我独尊\",\r\n    \"Desc\": \"初始武学[天地独尊诀]\\\\n战术协同类【恶人谷】【内功】\\\\n当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。天地独尊诀可叠加1层，每层伤害+200%。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"唯我獨尊\",\r\n    \"DescTw\": \"初始武學[天地獨尊訣]\\\\n戰術協同類【惡人谷】【內功】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。\"\r\n  }"
   rawIndex: 80004
@@ -1587,8 +1582,7 @@
     translated: "Supreme Ruler"
   - splitPath: Desc
     text: "初始武学[天地独尊诀]\\n战术协同类【恶人谷】【内功】\\n当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。天地独尊诀可叠加1层，每层伤害+200%。"
-    translated: "Initial Martial Art [Tian Di Du Zun Jue] Tactical Coordination Skill [Evil Valley], Neigong  When the number of players on our side is 1, the tactical skill [Tian Di Du Zun Jue] will be automatically activated at the start. Tian Di Du Zun Jue can stack up to 1 layers, with each layer increasing damage by +200%.  Note: 内功 has been translated as Neigong, preserving its meaning and cultural nuance from the glossary."
-    flaggedForRetranslation: true
+    translated: "Initial martial art [Tianti Duzu Qujie]\\nTactical Coordination Evil Valley Neigong\\nWhen our side has 1 participants, Tactical Tian Di Du Zun Jue is automatically deployed at the start. Tian Di Du Zun Jue can stack up to 1 layers, with each layer increasing damage by +200%."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1606,15 +1600,14 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: DescFinal
     text: "初始武學[玄禪無二法]\\n輔助回覆類【惡人谷】【內功】\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。"
-    translated: "Initial Martial Art [Xuan Chan Wu Er Fa]  Support Healing Skill [Evil Valley, Internal Kung Fu]  When the opponent has an abnormal condition, this skill restores 1 times the侠客's lifeforce to our side and eliminates the enemy's 1 tactical effects."
+    translated: "Initial martial art [Xuan Chan Wu Er Fa]\\nAssistant response category: Evil Valley Internal Cultivation\\nWhen the opponent has an abnormal condition, restore my side's 1 times侠客power in lifeforce and eliminate the enemy's 1 tactical effects."
     flaggedForRetranslation: true
   - splitPath: Name
     text: "非佛非道"
     translated: "Neither Buddha nor Dao"
   - splitPath: Desc
     text: "初始武学[玄禅无二法]\\n辅助回复类【恶人谷】【内功】\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "Initial martial arts technique: [Xuan Chan Wu Er Fa] Supportive healing skill: [E Ren Gu] [Neigong]  When the opponent has any abnormal conditions, this technique will restore 1 times the Wanderer's Neigong to our side and remove 1 of the enemy's tactical effects."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts skill [Xuanchan Wu er fa]\\nAssistant Response Category: Evil Valley · Neigong\\nWhen the opponent has an abnormal condition, restore 1 times my side's Wanderer's vitality and remove the enemy's 1 tactical effects."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1623,7 +1616,7 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: DescTw
     text: "初始武學[玄禪無二法]\\n輔助回覆類【惡人谷】【內功】\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。"
-    translated: "Initial Martial Art [Xuan Chan Wu Er Fa]  Support Healing Skill [Evil Valley, Internal Kung Fu]  When the opponent has an abnormal condition, this skill restores 1 times the侠客's lifeforce to our side and eliminates the enemy's 1 tactical effects."
+    translated: "Initial martial art [Xuan Chan Wu Er Fa]\\nAssistant response category: Evil Valley Internal Cultivation\\nWhen the opponent has an abnormal condition, restore my side's 1 times侠客power in lifeforce and eliminate the enemy's 1 tactical effects."
     flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 80006,\r\n    \"NameFinal\": \"陰陽合氣\",\r\n    \"DescFinal\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\",\r\n    \"Name\": \"阴阳合气\",\r\n    \"Desc\": \"初始武学[姹女玄阴法]\\\\n辅助回复类【恶人谷】【心法】\\\\n单次回复800倍红颜知己数量的气血。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"陰陽合氣\",\r\n    \"DescTw\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\"\r\n  }"
   rawIndex: 80006
@@ -1633,15 +1626,13 @@
     translated: "Yin‑Yang Combined Energy"
   - splitPath: DescFinal
     text: "初始武學[奼女玄陰法]\\n輔助回覆類【惡人谷】【心法】\\n單次回覆800倍紅顏知己數量的氣血。"
-    translated: "Initial martial art: [Girl's Profound Yin Method]  Support recovery skill category: [Evil Valley], [Heart Method]  Single recovery is 800 times the quantity of Red‑Skinned Knows‑Allies' lifeforce."
-    flaggedForRetranslation: true
+    translated: "Initial martial art [Xianu Xuanyin Fa]\\nAssistant response category: Evil Valley Heart Method\\nA lifeforce equivalent to 800 times the number of Red Beauty Companions."
   - splitPath: Name
     text: "阴阳合气"
     translated: "Yin Yang Harmony"
   - splitPath: Desc
     text: "初始武学[姹女玄阴法]\\n辅助回复类【恶人谷】【心法】\\n单次回复800倍红颜知己数量的气血。"
-    translated: "Initial Wuxia Technique [Chazhen Xuan Yin Fa]  Support Healing Skill [E Ren Gorge][Heart Method]  Heals a single instance for 800 times the number of Red‑Lovely Acquaintances in lifeforce."
-    flaggedForRetranslation: true
+    translated: "Initial martial art technique [Chanu Xuanyin Method]\\nAssistant Healing Technique Evil Valley Heart Method\\nGain lifeforce equal to 800 times the number of Red Beauty Companions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1650,8 +1641,7 @@
     translated: "Yin‑Yang Combined Energy"
   - splitPath: DescTw
     text: "初始武學[奼女玄陰法]\\n輔助回覆類【惡人谷】【心法】\\n單次回覆800倍紅顏知己數量的氣血。"
-    translated: "Initial martial art: [Girl's Profound Yin Method]  Support recovery skill category: [Evil Valley], [Heart Method]  Single recovery is 800 times the quantity of Red‑Skinned Knows‑Allies' lifeforce."
-    flaggedForRetranslation: true
+    translated: "Initial martial art [Xianu Xuanyin Fa]\\nAssistant response category: Evil Valley Heart Method\\nA lifeforce equivalent to 800 times the number of Red Beauty Companions."
 - raw: "{\r\n    \"Key\": 80007,\r\n    \"NameFinal\": \"迴天定命\",\r\n    \"DescFinal\": \"初始武學[逆脈行鍼訣]\\\\n輔助回覆類【惡人谷】【特技】\\\\n40%機率為我方2名俠客新增強化狀態。\",\r\n    \"Name\": \"回天定命\",\r\n    \"Desc\": \"初始武学[逆脉行针诀]\\\\n辅助回复类【恶人谷】【特技】\\\\n40%几率为我方2名侠客添加强化状态。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"迴天定命\",\r\n    \"DescTw\": \"初始武學[逆脈行鍼訣]\\\\n輔助回覆類【惡人谷】【特技】\\\\n40%機率為我方2名俠客新增強化狀態。\"\r\n  }"
   rawIndex: 80007
   splits:
@@ -1660,15 +1650,14 @@
     translated: "Reversing Fate and Sealing Destiny"
   - splitPath: DescFinal
     text: "初始武學[逆脈行鍼訣]\\n輔助回覆類【惡人谷】【特技】\\n40%機率為我方2名俠客新增強化狀態。"
-    translated: "Initial martial arts technique [Inverse Meridian Needling Art]  Support recovery type [Evil Valley, Special Skill]  40% chance to grant an强化状态 to one of my侠客."
+    translated: "Initial martial arts technique [Reversing Meridian Needling Art]\\nAssistant Response Category: Wuren Gu Evil Valley Skill\\nThere is a 40% chance of granting an enhanced state to one of our侠客."
     flaggedForRetranslation: true
   - splitPath: Name
     text: "回天定命"
     translated: "Revive Destiny"
   - splitPath: Desc
     text: "初始武学[逆脉行针诀]\\n辅助回复类【恶人谷】【特技】\\n40%几率为我方2名侠客添加强化状态。"
-    translated: "Initial Martial Art [Inverse Meridian Needle Technique]  Support Healing Skill [Elder Valley] [Talent]  There is a 40% chance to add an empowered status to one of my 2 wanderers."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Reversing Meridian Needling Technique]\\nSupportive Skill Evil Valley Stunt\\nThere is a 40% chance to apply a strengthened state to one of our Wanderers."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1677,7 +1666,7 @@
     translated: "Reversing Fate and Sealing Destiny"
   - splitPath: DescTw
     text: "初始武學[逆脈行鍼訣]\\n輔助回覆類【惡人谷】【特技】\\n40%機率為我方2名俠客新增強化狀態。"
-    translated: "Initial martial arts technique [Inverse Meridian Needling Art]  Support recovery type [Evil Valley, Special Skill]  40% chance to grant an强化状态 to one of my侠客."
+    translated: "Initial martial arts technique [Reversing Meridian Needling Art]\\nAssistant Response Category: Wuren Gu Evil Valley Skill\\nThere is a 40% chance of granting an enhanced state to one of our侠客."
     flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 80008,\r\n    \"NameFinal\": \"裝神弄鬼\",\r\n    \"DescFinal\": \"初始武學[三清觀想法]\\\\n戰術協同類【惡人谷】【內功】\\\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。\",\r\n    \"Name\": \"装神弄鬼\",\r\n    \"Desc\": \"初始武学[三清观想法]\\\\n战术协同类【恶人谷】【内功】\\\\n释放战术【玉清观想法】或【太清观想法】或【上清观想法】。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"裝神弄鬼\",\r\n    \"DescTw\": \"初始武學[三清觀想法]\\\\n戰術協同類【惡人谷】【內功】\\\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。\"\r\n  }"
   rawIndex: 80008
@@ -1687,15 +1676,13 @@
     translated: "Fake spirits and ghosts"
   - splitPath: DescFinal
     text: "初始武學[三清觀想法]\\n戰術協同類【惡人谷】【內功】\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。"
-    translated: "Initial Martial Arts [Sanqing Guan Faxiang]   Tactical Coordination Skill [Eren Gu, Neigong]   Release Tactics [Yuanqing Guan Faxiang], or [Taiqing Guan Faxiang], or [Shangqing Guan Faxiang]."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Sanqing Guan Thought Method]\\nTactical Synergy Evil Valley Internal Cultivation\\nRelease battle tactics Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
   - splitPath: Name
     text: "装神弄鬼"
     translated: "Fooling around with spirits and ghosts"
   - splitPath: Desc
     text: "初始武学[三清观想法]\\n战术协同类【恶人谷】【内功】\\n释放战术【玉清观想法】或【太清观想法】或【上清观想法】。"
-    translated: "Initial Martial Arts Technique [Sanqing Guan Thought Technique] Tactical Coordination Skill [Elder Valley] or [Neigong]  Deploy tactical thought techniques: [Yueqing Guan Thought Technique], [Taiqing Guan Thought Technique], or [Shangqing Guan Thought Technique]."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Sanqingguan Fanci]\\nTactical Coordination Evil Valley Neigong\\nRelease tactical Yqqguan Faxiang, Taiqingguan Faxiang, or Shangqingguan Faxiang."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1704,8 +1691,7 @@
     translated: "Fake spirits and ghosts"
   - splitPath: DescTw
     text: "初始武學[三清觀想法]\\n戰術協同類【惡人谷】【內功】\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。"
-    translated: "Initial Martial Arts [Sanqing Guan Faxiang]   Tactical Coordination Skill [Eren Gu, Neigong]   Release Tactics [Yuanqing Guan Faxiang], or [Taiqing Guan Faxiang], or [Shangqing Guan Faxiang]."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Sanqing Guan Thought Method]\\nTactical Synergy Evil Valley Internal Cultivation\\nRelease battle tactics Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
 - raw: "{\r\n    \"Key\": 80009,\r\n    \"NameFinal\": \"黑白顛倒\",\r\n    \"DescFinal\": \"初始武學[點墨誅心筆]\\\\n攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\",\r\n    \"Name\": \"黑白颠倒\",\r\n    \"Desc\": \"初始武学[点墨诛心笔]\\\\n攻击伤害类【恶人谷】【百兵】\\\\n100%使敌人进入绝脉状态，每场战斗只能使用一次。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"黑白顛倒\",\r\n    \"DescTw\": \"初始武學[點墨誅心筆]\\\\n攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\"\r\n  }"
   rawIndex: 80009
   splits:
@@ -1720,9 +1706,7 @@
     translated: "Right and wrong are reversed"
   - splitPath: Desc
     text: "初始武学[点墨诛心笔]\\n攻击伤害类【恶人谷】【百兵】\\n100%使敌人进入绝脉状态，每场战斗只能使用一次。"
-    translated: "Initial Martial Art [Dian Mo Zhen Xin Pen] Attack Damage Skill [Evil Valley, Hundred Arm]  100% causes enemies to enter a Critical Vessel state, which can only be used once per battle."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mind Attack,诛心,Mind Attack,诛心,"
+    translated: "Initial Martial Art: Mind Attack Pen\\nAttack Damage Category: Evil Valley, Hundred Weapons\\n100% causes the enemy to enter a Jue Mai state, which can only be used once per battle."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1740,15 +1724,13 @@
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: DescFinal
     text: "初始武學[六慾心魔引]\\n攻擊傷害類【惡人谷】【特技】\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。"
-    translated: "Initial Martial Art [Six Desires Inner Demon Invocation] Attack Damage Skill [Wicked Valley] [Special Technique]  When the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttack Damage Skill Evil Valley Talent\\nWhen the enemy is in an abnormal state, eliminate one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
   - splitPath: Name
     text: "念念心魔"
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: Desc
     text: "初始武学[六欲心魔引]\\n攻击伤害类【恶人谷】【特技】\\n敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%最大气血的伤害。"
-    translated: "Initial Martial Arts [Six Desires Inner Demon Induction] Attack Damage Skill [Evil Valley][Special Technique]  When the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttacks Damage Skill Eren Gu Special Technique\\nWhen the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1757,35 +1739,31 @@
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: DescTw
     text: "初始武學[六慾心魔引]\\n攻擊傷害類【惡人谷】【特技】\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。"
-    translated: "Initial Martial Art [Six Desires Inner Demon Invocation] Attack Damage Skill [Wicked Valley] [Special Technique]  When the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttack Damage Skill Evil Valley Talent\\nWhen the enemy is in an abnormal state, eliminate one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
 - raw: "{\r\n    \"Key\": 80011,\r\n    \"NameFinal\": \"鳳棲梧桐\",\r\n    \"DescFinal\": \"初始武學[鳳凰三展翅]\\\\n戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\",\r\n    \"Name\": \"凤栖梧桐\",\r\n    \"Desc\": \"初始武学[凤凰三展翅]\\\\n战术协同类【恶人谷】【心法】\\\\n释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"鳳棲梧桐\",\r\n    \"DescTw\": \"初始武學[鳳凰三展翅]\\\\n戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\"\r\n  }"
   rawIndex: 80011
   splits:
   - splitPath: NameFinal
     text: "鳳棲梧桐"
-    translated: "Phoenix Perching on the Phoenix Tree"
+    translated: "Feng QiwuPhoenix Tree"
   - splitPath: DescFinal
     text: "初始武學[鳳凰三展翅]\\n戰術協同類【惡人谷】【心法】\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。"
-    translated: "Initial martial art: [Phoenix Three Spread Wings] Tactical coordination skill: [Wicked Valley], Heart Method Activate tactical skill [Phoenix Three Spread Wings], which can negate three damages. Using it will cause continuous accumulation of action points."
-    flaggedForRetranslation: true
+    translated: "Initial martial art [Feng Huang San Zhan Chi]\\nTactical Synergy Wicked Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, stamina continues to accumulate."
   - splitPath: Name
     text: "凤栖梧桐"
     translated: "Phoenix Perching on the Parasol Tree"
   - splitPath: Desc
     text: "初始武学[凤凰三展翅]\\n战术协同类【恶人谷】【心法】\\n释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。"
-    translated: "Initial Martial Art: Phoenix Three Spreads Wings   Tactical Synergy Skills: Evil Valley, Heart Method   By releasing the tactical skill Phoenix Three Spreads Wings, you can mitigate three damages. After its use, action points will continue to accumulate."
-    flaggedForRetranslation: true
+    translated: "Initial martial art technique [Phoenix Three Spread Wings]\\nTactical Coordination Evil Valley Heart Method\\nDeploying the tactical maneuver Phoenix Soars Three Times can mitigate three damages. Using it causes your action points to accumulate continuously afterward."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
   - splitPath: NameTw
     text: "鳳棲梧桐"
-    translated: "Phoenix Perching on the Phoenix Tree"
+    translated: "Feng QiwuPhoenix Tree"
   - splitPath: DescTw
     text: "初始武學[鳳凰三展翅]\\n戰術協同類【惡人谷】【心法】\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。"
-    translated: "Initial martial art: [Phoenix Three Spread Wings] Tactical coordination skill: [Wicked Valley], Heart Method Activate tactical skill [Phoenix Three Spread Wings], which can negate three damages. Using it will cause continuous accumulation of action points."
-    flaggedForRetranslation: true
+    translated: "Initial martial art [Feng Huang San Zhan Chi]\\nTactical Synergy Wicked Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, stamina continues to accumulate."
 - raw: "{\r\n    \"Key\": 80002,\r\n    \"NameFinal\": \"瀟湘夜雨\",\r\n    \"DescFinal\": \"初始武學[瀟湘訣]\\\\n戰術協同類【江湖】【內功】\\\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。\",\r\n    \"Name\": \"潇湘夜雨\",\r\n    \"Desc\": \"初始武学[潇湘诀]\\\\n战术协同类【江湖】【内功】\\\\n40%几率自动释放战术【潇湘诀】。潇湘诀40%几率触发，可叠加4层，每层伤害+10%。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"瀟湘夜雨\",\r\n    \"DescTw\": \"初始武學[瀟湘訣]\\\\n戰術協同類【江湖】【內功】\\\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。\"\r\n  }"
   rawIndex: 80002
   splits:
@@ -1794,15 +1772,13 @@
     translated: "Autumn Rain over Xiao River"
   - splitPath: DescFinal
     text: "初始武學[瀟湘訣]\\n戰術協同類【江湖】【內功】\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。"
-    translated: "Initial Martial Arts: Xiangxi Decree   Tactical Coordination Category: Jianghu, Internal Power   40% chance to automatically release the tactical maneuver Xiangxi Decree. Xiangxi Decree has a 40% chance to trigger, with effects stacking up to 4 layers, each increasing damage by +10% per layer."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Xiaoxiangjue]\\nTactical Synergy Jianghu Internal Power\\nThere is a 40% chance for the tactic Xiaoxiangjue to be automatically activated. Xiaoxiangjue has a 40% chance of triggering and can stack up to 4 layers, with each layer increasing damage by +10%."
   - splitPath: Name
     text: "潇湘夜雨"
     translated: "NIGHT RAIN IN XIAOXIANG"
   - splitPath: Desc
     text: "初始武学[潇湘诀]\\n战术协同类【江湖】【内功】\\n40%几率自动释放战术【潇湘诀】。潇湘诀40%几率触发，可叠加4层，每层伤害+10%。"
-    translated: "Initial martial art technique [Xiaoxiang Jue] Tactical cooperation type [Jianghu, Neigong] There is a 40% chance for automatic release of the tactical skill Xiaoxiang Jue. Xiaoxiang Jue has a 40% chance to trigger and can stack up to 4 layers, with each layer increasing damage by +10%."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Xiaoxiang Jue]\\nTactical Synergy Jianghu Neigong\\nThere is a 40% chance for automatic release of Tactic Xiaoxiang Jue. Xiaoxiang Jue has a 40% chance to trigger and can stack up to 4 layers, with each layer increasing damage by +10%."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1811,8 +1787,7 @@
     translated: "Autumn Rain over Xiao River"
   - splitPath: DescTw
     text: "初始武學[瀟湘訣]\\n戰術協同類【江湖】【內功】\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。"
-    translated: "Initial Martial Arts: Xiangxi Decree   Tactical Coordination Category: Jianghu, Internal Power   40% chance to automatically release the tactical maneuver Xiangxi Decree. Xiangxi Decree has a 40% chance to trigger, with effects stacking up to 4 layers, each increasing damage by +10% per layer."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Xiaoxiangjue]\\nTactical Synergy Jianghu Internal Power\\nThere is a 40% chance for the tactic Xiaoxiangjue to be automatically activated. Xiaoxiangjue has a 40% chance of triggering and can stack up to 4 layers, with each layer increasing damage by +10%."
 - raw: "{\r\n    \"Key\": 100001,\r\n    \"NameFinal\": \"虺食奇功\",\r\n    \"DescFinal\": \"九嶷山蛇膽內息額外+3\",\r\n    \"Name\": \"虺食奇功\",\r\n    \"Desc\": \"九嶷山蛇胆内息额外+3\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"虺食奇功\",\r\n    \"DescTw\": \"九嶷山蛇膽內息額外+3\"\r\n  }"
   rawIndex: 100001
   splits:
@@ -1821,8 +1796,7 @@
     translated: "Asura Devouring Strange Skill"
   - splitPath: DescFinal
     text: "九嶷山蛇膽內息額外+3"
-    translated: "The inner energy in Nine疑 Mountain Snake Bile is额外 +3"
-    flaggedForRetranslation: true
+    translated: "The snake gallbladder's internal energy in Jiuyi Mountain is particularly enhanced for +3."
   - splitPath: Name
     text: "虺食奇功"
     translated: "Asura Devouring Strange Skill"
@@ -1837,8 +1811,7 @@
     translated: "Asura Devouring Strange Skill"
   - splitPath: DescTw
     text: "九嶷山蛇膽內息額外+3"
-    translated: "The inner energy in Nine疑 Mountain Snake Bile is额外 +3"
-    flaggedForRetranslation: true
+    translated: "The snake gallbladder's internal energy in Jiuyi Mountain is particularly enhanced for +3."
 - raw: "{\r\n    \"Key\": 100002,\r\n    \"NameFinal\": \"飽食心法\",\r\n    \"DescFinal\": \"每次品嚐酒樓美食氣血額外+100\",\r\n    \"Name\": \"饱食心法\",\r\n    \"Desc\": \"每次品尝酒楼美食气血额外+100\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"飽食心法\",\r\n    \"DescTw\": \"每次品嚐酒樓美食氣血額外+100\"\r\n  }"
   rawIndex: 100002
   splits:

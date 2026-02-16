@@ -60,7 +60,7 @@
     translated: "Each round of loss reduces current lifeforce by 5%"
   - splitPath: AttackDescFinal
     text: "<color=#00ff00>毒</color>造成傷害"
-    translated: "<color=Poison>causes harm</color>"
+    translated: "Poison causes damage"
   - splitPath: Name
     text: "中毒"
     translated: "Poisoned"
@@ -78,7 +78,7 @@
     translated: "Each round of loss reduces current lifeforce by 5%"
   - splitPath: AttackDescTw
     text: "<color=#00ff00>毒</color>造成傷害"
-    translated: "<color=Poison>causes harm</color>"
+    translated: "Poison causes damage"
 - raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"絕脈\",\r\n    \"DescFinal\": \"消失時損失當前氣血20%，再次使用回合數增加\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>絕脈</color>造成傷害\",\r\n    \"Name\": \"绝脉\",\r\n    \"Desc\": \"消失时损失当前气血20%，再次使用回合数增加\",\r\n    \"AttackDesc\": \"<color=#00ff00>绝脉</color>造成伤害\",\r\n    \"NameTw\": \"絕脈\",\r\n    \"DescTw\": \"消失時損失當前氣血20%，再次使用回合數增加\",\r\n    \"AttackDescTw\": \"<color=#00ff00>絕脈</color>造成傷害\"\r\n  }"
   rawIndex: 3
   splits:
@@ -117,7 +117,7 @@
     translated: "No Treatment"
   - splitPath: DescFinal
     text: "回春無效"
-    translated: "Revival无效"
+    translated: "Revival is ineffective"
   - splitPath: AttackDescFinal
     text: "<color=#00ff00>禁療</color>狀態，無法回覆"
     translated: "<color=#00ff00>Ban Condition</color>, unable to recover"
@@ -135,7 +135,7 @@
     translated: "No Treatment"
   - splitPath: DescTw
     text: "回春無效"
-    translated: "Revival无效"
+    translated: "Revival is Ineffective"
   - splitPath: AttackDescTw
     text: "<color=#00ff00>禁療</color>狀態，無法回覆"
     translated: "<color=#00ff00>Ban Condition</color>, unable to recover"

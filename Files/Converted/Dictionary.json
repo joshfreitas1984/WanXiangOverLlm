@@ -108,7 +108,7 @@
   splits:
   - splitPath: DescFinal
     text: "俠客介面無俠客提示"
-    translated: "The侠客界面没有侠客提示"
+    translated: "The Hero interface has no Hero prompts"
   - splitPath: DictionaryFinal
     text: "尚未招募"
     translated: "Not yet recruited"
@@ -120,7 +120,7 @@
     translated: "Not yet recruited"
   - splitPath: DescTw
     text: "俠客介面無俠客提示"
-    translated: "The侠客界面没有侠客提示"
+    translated: "The Hero interface has no Hero prompts"
   - splitPath: DictionaryTw
     text: "尚未招募"
     translated: "Not yet recruited"
@@ -1011,19 +1011,19 @@
     translated: "Reverse Damage (do not modify line breaks)"
   - splitPath: DictionaryFinal
     text: "\\n反傷"
-    translated: "Counter Damage"
+    translated: "\\nReverse Damage"
   - splitPath: Desc
     text: "反伤（不要删换行符）"
     translated: "Regeneration Reverse (do not remove line breaks)"
   - splitPath: Dictionary
     text: "\\n反伤"
-    translated: "Counter Damage"
+    translated: "\\nReverse damage"
   - splitPath: DescTw
     text: "反傷（不要刪換行符）"
     translated: "Reverse Damage (do not modify line breaks)"
   - splitPath: DictionaryTw
     text: "\\n反傷"
-    translated: "Counter Damage"
+    translated: "\\nReverse Damage"
 - raw: "{\r\n    \"Key\": 70,\r\n    \"DictionaryFinal\": \"隊伍中至少有1人\",\r\n    \"Dictionary\": \"队伍中至少有1人\",\r\n    \"DictionaryTw\": \"隊伍中至少有1人\"\r\n  }"
   rawIndex: 70
   splits:
@@ -1125,25 +1125,25 @@
   splits:
   - splitPath: DictionaryFinal
     text: "\\n\\n點數：{0}"
-    translated: "Points: {0}"
+    translated: "\\n\\nPoints: {0}"
   - splitPath: Dictionary
     text: "\\n\\n点数：{0}"
-    translated: "Points: {0}"
+    translated: "\\n\\nPoints: {0}"
   - splitPath: DictionaryTw
     text: "\\n\\n點數：{0}"
-    translated: "Points: {0}"
+    translated: "\\n\\nPoints: {0}"
 - raw: "{\r\n    \"Key\": 81,\r\n    \"DictionaryFinal\": \"\\\\n\\\\n獲取功法獎勵\\\\n{0}\",\r\n    \"Dictionary\": \"\\\\n\\\\n获取功法奖励\\\\n{0}\",\r\n    \"DictionaryTw\": \"\\\\n\\\\n獲取功法獎勵\\\\n{0}\"\r\n  }"
   rawIndex: 81
   splits:
   - splitPath: DictionaryFinal
     text: "\\n\\n獲取功法獎勵\\n{0}"
-    translated: "Acquire Skill Reward  {0}"
+    translated: "\\n\\nAcquire Skill Reward\\n{0}"
   - splitPath: Dictionary
     text: "\\n\\n获取功法奖励\\n{0}"
-    translated: "Acquire Skill Method Reward  {0}"
+    translated: "\\n\\nAcquire cultivation technique rewards\\n{0}"
   - splitPath: DictionaryTw
     text: "\\n\\n獲取功法獎勵\\n{0}"
-    translated: "Acquire Skill Reward  {0}"
+    translated: "\\n\\nAcquire Skill Reward\\n{0}"
 - raw: "{\r\n    \"Key\": 82,\r\n    \"DictionaryFinal\": \"鎖定該天賦需消耗點數{0}\",\r\n    \"Dictionary\": \"锁定该天赋需消耗点数{0}\",\r\n    \"DictionaryTw\": \"鎖定該天賦需消耗點數{0}\"\r\n  }"
   rawIndex: 82
   splits:
@@ -1269,13 +1269,13 @@
   splits:
   - splitPath: DictionaryFinal
     text: "粉碎陰謀 {0}"
-    translated: "粉碎阴谋 {0}   Destroy the conspiracy {0}"
+    translated: "Shatter the conspiracy {0}"
   - splitPath: Dictionary
     text: "粉碎阴谋 {0}"
-    translated: "粉碎阴谋 to crush the plot"
+    translated: "Shatter the conspiracy {0}"
   - splitPath: DictionaryTw
     text: "粉碎陰謀 {0}"
-    translated: "粉碎阴谋 {0}   Destroy the conspiracy {0}"
+    translated: "Shatter the conspiracy {0}"
 - raw: "{\r\n    \"Key\": 95,\r\n    \"DictionaryFinal\": \"友好度 {0}\",\r\n    \"Dictionary\": \"友好度 {0}\",\r\n    \"DictionaryTw\": \"友好度 {0}\"\r\n  }"
   rawIndex: 95
   splits:
@@ -1401,13 +1401,13 @@
   splits:
   - splitPath: DictionaryFinal
     text: "\\n建議在遊戲進行到第八年之後再體驗此功能。"
-    translated: "It is recommended to experience this feature after the eighth year of gameplay."
+    translated: "\\nIt is recommended to experience this feature after the eighth year of gameplay."
   - splitPath: Dictionary
     text: "\\n建议在游戏进行到第八年之后再体验此功能。"
-    translated: "It is recommended to experience this feature after the game progresses into its eighth year."
+    translated: "\\nIt is recommended to experience this feature after the eighth year of gameplay."
   - splitPath: DictionaryTw
     text: "\\n建議在遊戲進行到第八年之後再體驗此功能。"
-    translated: "It is recommended to experience this feature after the eighth year of gameplay."
+    translated: "\\nIt is recommended to experience this feature after the eighth year of gameplay."
 - raw: "{\r\n    \"Key\": 107,\r\n    \"DictionaryFinal\": \"<color=#00ff00>有新的江湖傳聞</color>\",\r\n    \"Dictionary\": \"<color=#00ff00>有新的江湖传闻</color>\",\r\n    \"DictionaryTw\": \"<color=#00ff00>有新的江湖傳聞</color>\"\r\n  }"
   rawIndex: 107
   splits:
@@ -2247,7 +2247,7 @@
     translated: "Sect"
   - splitPath: DictionaryFinal
     text: "寧王府"
-    translated: "Ning王府 (Ning Wanghu)"
+    translated: "Ning Wang's Residence"
   - splitPath: Desc
     text: "门派"
     translated: "Sect"
@@ -2259,7 +2259,7 @@
     translated: "Sect"
   - splitPath: DictionaryTw
     text: "寧王府"
-    translated: "Ning王府 (Ning Wanghu)"
+    translated: "Ning Wang's Residence"
 - raw: "{\r\n    \"Key\": 1958,\r\n    \"DescFinal\": \"門派\",\r\n    \"DictionaryFinal\": \"伊賀流\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"伊贺流\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"伊賀流\"\r\n  }"
   rawIndex: 1958
   splits:
@@ -4170,13 +4170,13 @@
   splits:
   - splitPath: DictionaryFinal
     text: "{0}(賭術{1}可通殺）"
-    translated: "{0}, gambling skills can be versatile and applicable in various situations."
+    translated: "{0} (Gambling skills {1} can be versatile)"
   - splitPath: Dictionary
     text: "{0}(赌术{1}可通杀）"
-    translated: "{0} (the gambling skills {1} can be universally effective)"
+    translated: "{0} (Gambling skills {1} can be versatile)"
   - splitPath: DictionaryTw
     text: "{0}(賭術{1}可通殺）"
-    translated: "{0}, gambling skills can be versatile and applicable in various situations."
+    translated: "{0} (Gambling skills {1} can be versatile)"
 - raw: "{\r\n    \"Key\": 10305,\r\n    \"DictionaryFinal\": \"賭局已經開始，不能通殺了\",\r\n    \"Dictionary\": \"赌局已经开始，不能通杀了\",\r\n    \"DictionaryTw\": \"賭局已經開始，不能通殺了\"\r\n  }"
   rawIndex: 10305
   splits:
@@ -4194,37 +4194,37 @@
   splits:
   - splitPath: DictionaryFinal
     text: "勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物"
-    translated: "Check this option to display only侠客 and treasures that have been unlocked in the current save."
+    translated: "Check this option to display only heroes and treasures that have been unlocked in the current save."
   - splitPath: Dictionary
     text: "勾选此选项后，将只显示当前存档已经解锁的侠客、宝物"
     translated: "Check this option to display only the wanderers and treasures already unlocked in the current save."
   - splitPath: DictionaryTw
     text: "勾選此選項後，將只顯示當前存檔已經解鎖的俠客、寶物"
-    translated: "Check this option to display only侠客 and treasures that have been unlocked in the current save."
+    translated: "Check this option to display only heroes and treasures that have been unlocked in the current save."
 - raw: "{\r\n    \"Key\": 10307,\r\n    \"DictionaryFinal\": \"勾選此選項後，將隱藏俠客，只顯示寶物\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏侠客，只显示宝物\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏俠客，只顯示寶物\"\r\n  }"
   rawIndex: 10307
   splits:
   - splitPath: DictionaryFinal
     text: "勾選此選項後，將隱藏俠客，只顯示寶物"
-    translated: "Check this option to hide the侠客 and only display the treasures."
+    translated: "Check this option to hide the Heroes and only display the treasures."
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏侠客，只显示宝物"
-    translated: "Check this option to hide the Wanderer and display treasures only."
+    translated: "Check this option to hide the Heroes and display treasures only."
   - splitPath: DictionaryTw
     text: "勾選此選項後，將隱藏俠客，只顯示寶物"
-    translated: "Check this option to hide the侠客 and only display the treasures."
+    translated: "Check this option to hide th Heroes and only display the treasures."
 - raw: "{\r\n    \"Key\": 10308,\r\n    \"DictionaryFinal\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏已解锁的侠客、宝物。\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\"\r\n  }"
   rawIndex: 10308
   splits:
   - splitPath: DictionaryFinal
     text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
-    translated: "Check this option to hide unlocked侠客 and treasures."
+    translated: "Check this option to hide unlocked Heroes an Treasures"
   - splitPath: Dictionary
     text: "勾选此选项后，将隐藏已解锁的侠客、宝物。"
     translated: "Check this option to hide unlocked wanderers and treasures."
   - splitPath: DictionaryTw
     text: "勾選此選項後，將隱藏已解鎖的俠客、寶物。"
-    translated: "Check this option to hide unlocked侠客 and treasures."
+    translated: "Check this option to hide unlocked Heroes an Treasures"
 - raw: "{\r\n    \"Key\": 90000,\r\n    \"DictionaryFinal\": \"全部\",\r\n    \"Dictionary\": \"全部\",\r\n    \"DictionaryTw\": \"全部\"\r\n  }"
   rawIndex: 90000
   splits:

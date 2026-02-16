@@ -574,7 +574,7 @@ public static class TranslationService
 
             var result = string.Empty;
 
-            if (responseBody.Contains("choices"))
+            if (responseBody.Contains("\"choices\":"))
             {
                 result = jsonDoc.RootElement
                     .GetProperty("choices")[0]
@@ -597,11 +597,16 @@ public static class TranslationService
 
             return result;
         }
-        catch
-        {
-            Console.WriteLine($"Exception on: {requestData}");
-            //throw;
-            return "";
+        catch (Exception e)
+        {           
+            if (config.SkipLineValidation)
+            {
+                Console.WriteLine($"Exception on: {requestData}");
+                Console.WriteLine($"Exception message: {e.Message}");
+                return "";
+            }
+            else
+                throw;
         }
     }
 

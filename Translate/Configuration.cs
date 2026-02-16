@@ -41,10 +41,14 @@ public class LlmConfig
 
 public static class Configuration
 {
-    public static LlmConfig GetConfiguration(string workingDirectory)
+    public static LlmConfig GetConfiguration(string workingDirectory, string specialConfig = "")
     {       
         var deserializer = Yaml.CreateDeserializer();
-        var response = deserializer.Deserialize<LlmConfig>(File.ReadAllText($"{workingDirectory}/Config.yaml", Encoding.UTF8));
+
+        if (specialConfig == string.Empty)
+            specialConfig = workingDirectory;
+
+        var response = deserializer.Deserialize<LlmConfig>(File.ReadAllText($"{specialConfig}/Config.yaml", Encoding.UTF8));
 
         response.WorkingDirectory = workingDirectory;
         response.Prompts = CachePrompts(workingDirectory);

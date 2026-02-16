@@ -324,7 +324,10 @@ public class TranslationWorkflowTests
             else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(textFile.Path))
                 continue;
 
-            if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
+            if ((preparedRaw.Contains(item.Raw) 
+                || (item.RawSimplified != string.Empty && preparedRaw.Contains(item.RawSimplified))
+                || (item.RawTraditional != string.Empty && preparedRaw.Contains(item.RawTraditional)))
+                && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
             {
                 var found = false;
                 foreach (var alternative in item.AllowedAlternatives)

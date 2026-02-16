@@ -1,17 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using Translate.Support;
 using Translate.Utility;
-using TriangleNet.Topology.DCEL;
+using ToolGood.Words;
 
 namespace Translate.Tests;
 
 public class GlossaryTests
 {
     const string workingDirectory = "../../../../Files";
+
+    [Fact]
+    public void UpdateSimplifiedAndTraditional()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        foreach (var line in config.GlossaryLines)
+        {
+            if (string.IsNullOrEmpty(line.RawSimplified) && string.IsNullOrEmpty(line.RawTraditional))
+            {
+                var traditional = WordsHelper.ToTraditionalChinese(line.Raw);
+                var simplified = WordsHelper.ToSimplifiedChinese(line.Raw);
+
+                if (simplified != line.Raw)
+                {
+                    line.RawTraditional = line.Raw;
+                    line.RawSimplified = simplified;
+                }
+                else if (traditional != line.Raw)
+                {
+                    line.RawSimplified = line.Raw;
+                    line.RawTraditional = traditional;
+                }             
+            }
+        }
+        var serializer = Yaml.CreateSerializer();
+        var yaml = serializer.Serialize(config.GlossaryLines);
+        File.WriteAllText($"{workingDirectory}/TestResults/UpdatedGlossary.yaml", yaml);
+    }
 
     [Fact]
     public void CheckForDuplicateGlossaryItems()
@@ -25,7 +50,7 @@ public class GlossaryTests
 
         foreach (var entry in allEntries)
         {
-            if (cache.ContainsKey(entry.Raw))
+            if (cache.ContainsKey(entry.Raw) || cache.ContainsKey(entry.RawSimplified) || cache.ContainsKey(entry.RawTraditional))
             {
                 if (!duplicates.Contains(entry.Raw))
                     duplicates.Add(entry.Raw);
@@ -149,5 +174,93 @@ public class GlossaryTests
         //var serializer = Yaml.CreateSerializer();
         //var clean = serializer.Serialize(cleanedManuals);
         //File.WriteAllText($"{workingDirectory}/TestResults/CleanManualTranslations.yaml", clean);
+    }
+
+    [Fact]
+    public void CheckForConflictingGlossaryItems()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var allEntries = config.GlossaryLines.Concat(config.ManualTranslations).ToList();
+        var conflicts = new List<string>();
+
+        // Check if raw of one entry contains raw, rawSimplified, or rawTraditional of another entry
+        for (int i = 0; i < allEntries.Count; i++)
+        {
+            var entry1 = allEntries[i];
+
+            for (int j = 0; j < allEntries.Count; j++)
+            {
+                if (i == j) continue;
+
+                var entry2 = allEntries[j];
+
+                // Get all variants of entry2 to check if they're contained in entry1's raw
+                var entry2Variants = new List<string> { entry2.Raw };
+                if (!string.IsNullOrEmpty(entry2.RawSimplified))
+                    entry2Variants.Add(entry2.RawSimplified);
+                if (!string.IsNullOrEmpty(entry2.RawTraditional))
+                    entry2Variants.Add(entry2.RawTraditional);
+
+                // Check if entry1's raw contains any variant of entry2
+                bool containsVariant = false;
+                string containedVariant = "";
+                foreach (var variant in entry2Variants)
+                {
+                    if (entry1.Raw != variant && entry1.Raw.Contains(variant))
+                    {
+                        containsVariant = true;
+                        containedVariant = variant;
+                        break;
+                    }
+                }
+
+                if (containsVariant)
+                {
+                    // Only check for conflicts if the contained entry has badtrans = true
+                    if (!entry2.CheckForBadTranslation)
+                        continue;
+
+                    // Check if entry1 has the result or allowed alternatives from entry2
+                    bool hasEntry2Result = entry1.Result.Contains(entry2.Result, StringComparison.OrdinalIgnoreCase);
+                    bool hasEntry2InAlts = entry1.AllowedAlternatives.Any(alt => 
+                        alt.Contains(entry2.Result, StringComparison.OrdinalIgnoreCase));
+                    bool entry2HasEntry1InAlts = entry2.AllowedAlternatives.Any(alt => 
+                        alt.Contains(entry1.Result, StringComparison.OrdinalIgnoreCase));
+                    bool entry1HasEntry2Alts = entry2.AllowedAlternatives.Any(alt =>
+                        entry1.Result.Contains(alt, StringComparison.OrdinalIgnoreCase));
+
+                    if (!hasEntry2Result && !hasEntry2InAlts && !entry2HasEntry1InAlts && !entry1HasEntry2Alts)
+                    {
+                        var conflict = new StringBuilder();
+                        conflict.AppendLine($"Containment conflict found:");
+                        conflict.AppendLine($"  Containing Entry (has '{containedVariant}' in '{entry1.Raw}'):");
+                        conflict.AppendLine($"    raw: \"{entry1.Raw}\"");
+                        if (!string.IsNullOrEmpty(entry1.RawSimplified))
+                            conflict.AppendLine($"    rawSimplified: \"{entry1.RawSimplified}\"");
+                        if (!string.IsNullOrEmpty(entry1.RawTraditional))
+                            conflict.AppendLine($"    rawTraditional: \"{entry1.RawTraditional}\"");
+                        conflict.AppendLine($"    result: \"{entry1.Result}\"");
+                        if (entry1.AllowedAlternatives.Count > 0)
+                            conflict.AppendLine($"    allowedAlternatives: [{string.Join(", ", entry1.AllowedAlternatives.Select(a => $"\"{a}\""))}]");
+
+                        conflict.AppendLine($"  Contained Entry (badtrans = true):");
+                        conflict.AppendLine($"    raw: \"{entry2.Raw}\"");
+                        if (!string.IsNullOrEmpty(entry2.RawSimplified))
+                            conflict.AppendLine($"    rawSimplified: \"{entry2.RawSimplified}\"");
+                        if (!string.IsNullOrEmpty(entry2.RawTraditional))
+                            conflict.AppendLine($"    rawTraditional: \"{entry2.RawTraditional}\"");
+                        conflict.AppendLine($"    result: \"{entry2.Result}\"");
+                        if (entry2.AllowedAlternatives.Count > 0)
+                            conflict.AppendLine($"    allowedAlternatives: [{string.Join(", ", entry2.AllowedAlternatives.Select(a => $"\"{a}\""))}]");
+
+                        conflicts.Add(conflict.ToString());
+                    }
+                }
+            }
+        }
+
+        Directory.CreateDirectory($"{workingDirectory}/TestResults");
+        File.WriteAllLines($"{workingDirectory}/TestResults/ConflictingGlossary.yaml", conflicts);
     }
 }

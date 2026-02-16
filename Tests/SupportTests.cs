@@ -17,11 +17,11 @@ public class SupportTests
     [Fact]
     public async Task GetNames()
     {
-        var config = Configuration.GetConfiguration(workingDirectory, 
+        var config = Configuration.GetConfiguration(workingDirectory,
             ""
             //$"{workingDirectory}/TestResults"
             );
-        
+
         var names = new List<string>();
 
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
@@ -42,7 +42,7 @@ public class SupportTests
                             names.Add(split.Text);
                     }
                 }
-               
+
             }
 
             await Task.CompletedTask;
@@ -59,7 +59,63 @@ public class SupportTests
             var batch = names.Skip(i).Take(batchSize).ToList();
             var tasks = batch.Select(async (name) =>
             {
-                glossary.Add($"- raw: {name}");                
+                glossary.Add($"- raw: {name}");
+            }).ToArray();
+
+            await Task.WhenAll(tasks);
+        }
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/ExportNames.yaml", glossary);
+    }
+
+    [Fact]
+    public async Task GetSects()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory,
+            ""
+            //$"{workingDirectory}/TestResults"
+            );
+
+        var names = new List<string>();
+
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            //if (textFileToTranslate.Path != "Hero.json")
+            //    return;
+
+            if (textFileToTranslate.Path != "Dictionary.json")
+                return;
+
+            foreach (var line in fileLines)
+            {
+                foreach (var split in line.Splits)
+                {
+                    if (split.Text == "门派")
+                    {
+                        var sect = line.Splits.FirstOrDefault(s => s.SplitPath == "Dictionary")?.Text;
+
+                        if (!string.IsNullOrEmpty(sect) && !names.Contains(sect))
+                            names.Add(sect);
+                    }
+                }
+
+            }
+
+            await Task.CompletedTask;
+        });
+
+        Console.WriteLine($"Found {names.Count} names");
+
+        var client = new HttpClient();
+        var glossary = new List<string>();
+        int batchSize = 10;
+
+        for (int i = 0; i < names.Count; i += batchSize)
+        {
+            var batch = names.Skip(i).Take(batchSize).ToList();
+            var tasks = batch.Select(async (name) =>
+            {
+                glossary.Add($"- raw: {name}");
             }).ToArray();
 
             await Task.WhenAll(tasks);

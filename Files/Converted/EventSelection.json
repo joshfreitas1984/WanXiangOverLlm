@@ -15,13 +15,13 @@
   splits:
   - splitPath: DescFinal
     text: "是否將金太歲藏身之處告知六扇門捕快？"
-    translated: "Have you informed the Six Gentlemen of the Door Detectives about where Jin Taisui is hiding?"
+    translated: "Have you informed the Six Doors police about Jin Taisui's hiding place?"
   - splitPath: Desc
     text: "是否将金太岁藏身之处告知六扇门捕快？"
-    translated: "Have you told the Six Gates Patrol officers about Golden Tyrant's hiding place?"
+    translated: "Have you informed the Six Doors police about Jin Taisui's hiding place?"
   - splitPath: DescTw
     text: "是否將金太歲藏身之處告知六扇門捕快？"
-    translated: "Have you informed the Six Gentlemen of the Door Detectives about where Jin Taisui is hiding?"
+    translated: "Have you informed the Six Doors police about Jin Taisui's hiding place?"
 - raw: "{\r\n    \"Key\": 101810,\r\n    \"DescFinal\": \"如何處置受傷的女人？\",\r\n    \"Desc\": \"如何处置受伤的女人？\",\r\n    \"DescTw\": \"如何處置受傷的女人？\"\r\n  }"
   rawIndex: 101810
   splits:
@@ -63,25 +63,25 @@
   splits:
   - splitPath: DescFinal
     text: "你可曾想明門規“誠心”到底為何？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>"
-    translated: "Have you ever pondered what sincerity truly means within the Code of Virtue?\\n<color=#FF0000>Note: Choosing Disciple Has Come to Understand will automatically trigger Prince Ning's Visit next month, marking the game's final outcome. It is recommended to raise your medical skills and performance arts to mastery before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Smoke Waves Cottage.</color>"
+    translated: "Have you ever pondered what sincerity truly means within the orthodox codes of conduct?\\n<color=#FF0000>Notice: After selecting Disciple has understood, the event involving the Peaceful King's visit will automatically trigger in the following month, and the game will proceed to its final conclusion. (It is recommended to advance Medical Skills and Entertainment to Master level before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Misty Ravine.)</color>"
   - splitPath: Desc
     text: "你可曾想明门规“诚心”到底为何？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）</color>"
-    translated: "Have you ever pondered what the code of conduct sincerity truly means in the Inner Door?\\n<color=#FF0000>Note: Choosing Disciple has understood will automatically trigger Prince Ning's visit event in the following month, leading directly to the final ending of the game. It is recommended to advance your medical skills and entertainment arts to mastery levels before making this choice, and also to explore Jingbei True Martial Temple and Xiangbei Smoke Waves Estate.</color>"
+    translated: "Have you ever pondered what the sincerity required by the Ming Gate regulations really means?\\n<color=#FF0000>Note: Choosing Disciple Has Understood will trigger the Peaceful King's Visit event the following month, leading directly to the final outcome of the game. It is recommended that you elevate your medical skills and entertainment talents to master level before making this choice, and also visit Jingbei True Martial Monastery and Xiangbei Misty Wave Manor for exploration.</color>"
   - splitPath: DescTw
     text: "你可曾想明門規“誠心”到底為何？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>"
-    translated: "Have you ever pondered what sincerity truly means within the Code of Virtue?\\n<color=#FF0000>Note: Choosing Disciple Has Come to Understand will automatically trigger Prince Ning's Visit next month, marking the game's final outcome. It is recommended to raise your medical skills and performance arts to mastery before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Smoke Waves Cottage.</color>"
+    translated: "Have you ever pondered what sincerity truly means within the orthodox codes of conduct?\\n<color=#FF0000>Notice: After selecting Disciple has understood, the event involving the Peaceful King's visit will automatically trigger in the following month, and the game will proceed to its final conclusion. (It is recommended to advance Medical Skills and Entertainment to Master level before making this choice and to explore Jingbei True Martial Monastery and Xiangbei Misty Ravine.)</color>"
 - raw: "{\r\n    \"Key\": 201710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 201710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is Ready, the event Heavenly Demon Assaults the Mountain will automatically trigger in the following month, and the game will proceed to its final ending."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
-    translated: "Have you prepared yourself for the retaliation from the Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is ready, the Tianmo Attack Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting Disciple is ready, the Heavenly Demon Assaulting the Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is Ready, the event Heavenly Demon Assaults the Mountain will automatically trigger in the following month, and the game will proceed to its final ending."
 - raw: "{\r\n    \"Key\": 599910,\r\n    \"DescFinal\": \"今日在演武場中做些什麼？\",\r\n    \"Desc\": \"今日在演武场中做些什么？\",\r\n    \"DescTw\": \"今日在演武場中做些什麼？\"\r\n  }"
   rawIndex: 599910
   splits:
@@ -210,7 +210,7 @@
     translated: "Did you help the woman drive away the rogue?"
   - splitPath: Desc
     text: "是否帮助妇人赶走无赖？"
-    translated: "Did you help the woman drive away the ruffian?"
+    translated: "Did you help the woman drive away the rogue?"
   - splitPath: DescTw
     text: "是否幫助婦人趕走無賴？"
     translated: "Did you help the woman drive away the rogue?"
@@ -231,13 +231,13 @@
   splits:
   - splitPath: DescFinal
     text: "是否下山歸家暫避，為衡山派留存香火？"
-    translated: "Should he go down the mountain and return home temporarily to preserve the flame of the Hengshan School?"
+    translated: "Should we descend the mountain and return home temporarily to preserve the line of the Hengshan Sect?"
   - splitPath: Desc
     text: "是否下山归家暂避，为衡山派留存香火？"
-    translated: "Should we descend the mountain and return home temporarily to avoid danger, thereby preserving the lineage of the Hongshan Sect?"
+    translated: "Should they return home temporarily to avoid danger and ensure that the Hengshan Sect continues its lineage?"
   - splitPath: DescTw
     text: "是否下山歸家暫避，為衡山派留存香火？"
-    translated: "Should he go down the mountain and return home temporarily to preserve the flame of the Hengshan School?"
+    translated: "Should we descend the mountain and return home temporarily to preserve the line of the Hengshan Sect?"
 - raw: "{\r\n    \"Key\": 1001210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\"\r\n  }"
   rawIndex: 1001210
   splits:
@@ -306,7 +306,7 @@
     translated: "Was it decided to sell the tiger bones and snake gallbladders to Lord Lu's household?"
   - splitPath: Desc
     text: "是否为用虎骨和蛇胆送去卢府售出？"
-    translated: "Was it intended to send the tiger bones and snake bile to Lord Lu's residence for sale?"
+    translated: "Was it decided to sell the tiger bone and snake gallbladder at Lord Lu's estate?"
   - splitPath: DescTw
     text: "是否為用虎骨和蛇膽送去盧府售出？"
     translated: "Was it decided to sell the tiger bones and snake gallbladders to Lord Lu's household?"
@@ -339,13 +339,13 @@
   splits:
   - splitPath: DescFinal
     text: "今日來永盛鏢局何事？"
-    translated: "What brings you to Yongsheng Escort Bureau today?"
+    translated: "What brings you to Yongsheng Escort Agency today?"
   - splitPath: Desc
     text: "今日来永盛镖局何事？"
-    translated: "What brings you to Yongsheng Escort Bureau today?"
+    translated: "What brings you to Yongsheng Escort Agency today?"
   - splitPath: DescTw
     text: "今日來永盛鏢局何事？"
-    translated: "What brings you to Yongsheng Escort Bureau today?"
+    translated: "What brings you to Yongsheng Escort Agency today?"
 - raw: "{\r\n    \"Key\": 1502610,\r\n    \"DescFinal\": \"如何處置“無法和尚”法元？\",\r\n    \"Desc\": \"如何处置“无法和尚”法元？\",\r\n    \"DescTw\": \"如何處置“無法和尚”法元？\"\r\n  }"
   rawIndex: 1502610
   splits:
@@ -366,7 +366,7 @@
     translated: "Ruan Biqing and Jiang Lifu have fallen out. Who did Ruan Biqing help?"
   - splitPath: Desc
     text: "阮碧青与蒋疠夫两人决裂，帮助何人？"
-    translated: "Ruan Biqing and Jiang Liufu have split ways. Who did Ruan Biqing help?"
+    translated: "Ruan Biqing and Jiang Lifu have parted ways. Who does Ruan Biqing help?"
   - splitPath: DescTw
     text: "阮碧青與蔣癘夫兩人決裂，幫助何人？"
     translated: "Ruan Biqing and Jiang Lifu have fallen out. Who did Ruan Biqing help?"
@@ -378,7 +378,7 @@
     translated: "How should we deal with the Strange Snake King?"
   - splitPath: Desc
     text: "如何处置异蛇王？"
-    translated: "How should we handle the Demon Snake King?"
+    translated: "How should we deal with the Strange Snake King?"
   - splitPath: DescTw
     text: "如何處置異蛇王？"
     translated: "How should we deal with the Strange Snake King?"
@@ -459,13 +459,13 @@
   splits:
   - splitPath: DescFinal
     text: "你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？"
-    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, an outlaw from the Heaven's Demon Sect. How should you proceed at this point?"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, a wandering member of the Heavenly Demon Sect. How should you proceed?"
   - splitPath: Desc
     text: "你发现了沈蓉蓉和天魔教散人章太歧暗中有牵连，此时如何选择？"
-    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, a wandering member of the Heaven Demon Sect. How should you proceed now?"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, a wandering member of the Heavenly Demon Sect. How should you proceed?"
   - splitPath: DescTw
     text: "你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？"
-    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, an outlaw from the Heaven's Demon Sect. How should you proceed at this point?"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, a wandering member of the Heavenly Demon Sect. How should you proceed?"
 - raw: "{\r\n    \"Key\": 2390100,\r\n    \"DescFinal\": \"今日要去聽哪一位夫子授課？\",\r\n    \"Desc\": \"今日要去听哪一位夫子授课？\",\r\n    \"DescTw\": \"今日要去聽哪一位夫子授課？\"\r\n  }"
   rawIndex: 2390100
   splits:
@@ -567,25 +567,25 @@
   splits:
   - splitPath: DescFinal
     text: "你可曾想明寧王一事？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>"
-    translated: "Have you ever pondered Prince Ning's affair?\\n<color=#FF0000>Warning: After selecting Disciple Has Gained Enlightenment, the Ning Wang's Visit event will automatically trigger in the following month, and the game will enter its final ending. (It is recommended to advance your Beast Taming and Acrobatics skills to Master level before making this choice, and to explore Xiangnan Jiuliu Manor and Xiangbei Yimbao Yard.)</color>"
+    translated: "Have you ever pondered the matter of Peaceful King?\\n<color=#FF0000>Note: After selecting Disciple Has Gained Enlightenment, the event involving the Peaceful King's visit will automatically trigger in the following month, marking the entry into the final ending of the game. (It is recommended to raise Beast Mastery and Entertainment to Master level before making this choice, and to explore Xiangnan Jiliang Mansion and Xiangbei Yinyin Yard.)</color>"
   - splitPath: Desc
     text: "你可曾想明宁王一事？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>"
-    translated: "Have you considered the matter of Prince Ning?\\n<color=#FF0000>Note: Choosing Disciple has understood will trigger Prince Ning's visit next month, leading directly to the final outcome of the game. (It is recommended to advance your Beast Mastery and Entertainment skills to Master level before making this choice, and to explore the Nine Flows Manor in Xiangnan and the Smoke Waves Dock in Xiangbei.)</color>"
+    translated: "Have you ever pondered the matter of Peaceful King?\\n<color=#FF0000>Notice: After choosing Disciple Has Come to Understand, the Peaceful King will visit next month, triggering the final event of the game. It is recommended to advance your skills in Beast Mastery and Entertainment Arts to master level before making this choice, and to explore the Nine Flows Manor in Xiangnan and the Smoky Wave Dock in Xiangbei.</color>"
   - splitPath: DescTw
     text: "你可曾想明寧王一事？\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>"
-    translated: "Have you ever pondered Prince Ning's affair?\\n<color=#FF0000>Warning: After selecting Disciple Has Gained Enlightenment, the Ning Wang's Visit event will automatically trigger in the following month, and the game will enter its final ending. (It is recommended to advance your Beast Taming and Acrobatics skills to Master level before making this choice, and to explore Xiangnan Jiuliu Manor and Xiangbei Yimbao Yard.)</color>"
+    translated: "Have you ever pondered the matter of Peaceful King?\\n<color=#FF0000>Note: After selecting Disciple Has Gained Enlightenment, the event involving the Peaceful King's visit will automatically trigger in the following month, marking the entry into the final ending of the game. (It is recommended to raise Beast Mastery and Entertainment to Master level before making this choice, and to explore Xiangnan Jiliang Mansion and Xiangbei Yinyin Yard.)</color>"
 - raw: "{\r\n    \"Key\": 3100710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 3100710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is Ready, the event Heavenly Demon Assaults the Mountain will automatically trigger in the following month, and the game will proceed to its final ending."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
-    translated: "Have you prepared yourself for the retaliation from the Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is ready, the Tianmo Attack Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting Disciple is ready, the Heavenly Demon Assaulting the Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself to face the revenge of the Demon Sect?\\n<color=#FF0000>Note: Choosing Disciple is ready will trigger the Heaven Demon Assault on the Mountain event next month, and the game will enter its final conclusion."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Disciple is Ready, the event Heavenly Demon Assaults the Mountain will automatically trigger in the following month, and the game will proceed to its final ending."
 - raw: "{\r\n    \"Key\": 3009400,\r\n    \"DescFinal\": \"是否隨姜道靈參加廣成丹會？\",\r\n    \"Desc\": \"是否随姜道灵参加广成丹会？\",\r\n    \"DescTw\": \"是否隨姜道靈參加廣成丹會？\"\r\n  }"
   rawIndex: 3009400
   splits:
@@ -594,7 +594,7 @@
     translated: "Do they join Jiang Daoling to attend the Great Success Alchemy Meeting?"
   - splitPath: Desc
     text: "是否随姜道灵参加广成丹会？"
-    translated: "Do they attend the Guangcheng Danhui with Jiang Dao Ling?"
+    translated: "Do you accompany Jiang Daoling to the Guangcheng Danhui?"
   - splitPath: DescTw
     text: "是否隨姜道靈參加廣成丹會？"
     translated: "Do they join Jiang Daoling to attend the Great Success Alchemy Meeting?"
@@ -651,13 +651,13 @@
   splits:
   - splitPath: DescFinal
     text: "今日拜訪六合幫何事？"
-    translated: "What brought you here today to visit Gang Liuhexiong?"
+    translated: "What brings you to visit the Six Harmonies Sect today?"
   - splitPath: Desc
     text: "今日拜访六合帮何事？"
-    translated: "What brought you here today to visit Gang Hexiugong?"
+    translated: "What brought you here today to visit Six Harmonies Sect?"
   - splitPath: DescTw
     text: "今日拜訪六合幫何事？"
-    translated: "What brought you here today to visit Gang Liuhexiong?"
+    translated: "What brings you to visit the Six Harmonies Sect today?"
 - raw: "{\r\n    \"Key\": 4201210,\r\n    \"DescFinal\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"Desc\": \"看上了夏侯朝的哪样宝物？\",\r\n    \"DescTw\": \"看上了夏侯朝的哪樣寶物？\"\r\n  }"
   rawIndex: 4201210
   splits:
@@ -699,37 +699,37 @@
   splits:
   - splitPath: DescFinal
     text: "今日拜訪荊湘六扇門何事？"
-    translated: "Why are you visiting the Jinxiang Six‑Seal Sect today?"
+    translated: "Why are you visiting the Six Doors of Jingxiang today?"
   - splitPath: Desc
     text: "今日拜访荆湘六扇门何事？"
-    translated: "Why are you visiting the Jingxiang Six Gates Temple today?"
+    translated: "Today, why are you visiting the Six Doors of Jingxiang?"
   - splitPath: DescTw
     text: "今日拜訪荊湘六扇門何事？"
-    translated: "Why are you visiting the Jinxiang Six‑Seal Sect today?"
+    translated: "Why are you visiting the Six Doors of Jingxiang today?"
 - raw: "{\r\n    \"Key\": 4310610,\r\n    \"DescFinal\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\",\r\n    \"Desc\": \"宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？\",\r\n    \"DescTw\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\"\r\n  }"
   rawIndex: 4310610
   splits:
   - splitPath: DescFinal
     text: "寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？"
-    translated: "Prince Ning has laid out many schemes in the Jianghu. This Recruitment Arena might be one of them. Should we consider going up to disrupt it?"
+    translated: "Peaceful King has laid out many schemes in the Jianghu. This recruitment contest seems to be part of his plans as well. Should we go up on stage and disrupt this recruitment contest?"
   - splitPath: Desc
     text: "宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？"
-    translated: "Prince Ning has laid out many plans in the Jianghu. This recruitment tournament might be one of them. Should we consider disrupting it by stepping onto the stage?"
+    translated: "Peaceful King has laid out numerous schemes in the Jianghu. This recruitment tournament might be one of them. Should we go up on stage to disrupt this recruitment tournament?"
   - splitPath: DescTw
     text: "寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？"
-    translated: "Prince Ning has laid out many schemes in the Jianghu. This Recruitment Arena might be one of them. Should we consider going up to disrupt it?"
+    translated: "Peaceful King has laid out many schemes in the Jianghu. This recruitment contest seems to be part of his plans as well. Should we go up on stage and disrupt this recruitment contest?"
 - raw: "{\r\n    \"Key\": 4311610,\r\n    \"DescFinal\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\",\r\n    \"Desc\": \"<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？\",\r\n    \"DescTw\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\"\r\n  }"
   rawIndex: 4311610
   splits:
   - splitPath: DescFinal
     text: "<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？"
-    translated: "This choice will affect the ultimate outcome. Please make your decision carefully.\nYou have already defeated the Ning Wang's three guest scholars on the Convicting Sage Platform. Do you wish to further disrupt the Convicting Sage Platform?"
+    translated: "<color=#FF0000>This choice affects the final outcome. Please make your decision carefully.</color>\nYou have defeated the three guest scholars of Peaceful King Manor on the Conviction Platform hosted by the Peaceful King. Do you want to further disrupt the Conviction Platform?"
   - splitPath: Desc
     text: "<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？"
-    translated: "<color=#FF0000>This choice will affect the final outcome. Please proceed with caution.</color>\nYou have defeated Ning Wang's three guest scholars on the Recruitment Arena. Should you further disrupt the Recruitment Arena?"
+    translated: "This choice will affect the final outcome. Please choose carefully.\n\nYou have defeated the three Guest Scholars of Peaceful King Manor in the Recruitment Arena of Peaceful King. Should you further disrupt the Recruitment Arena?"
   - splitPath: DescTw
     text: "<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？"
-    translated: "This choice will affect the ultimate outcome. Please make your decision carefully.\nYou have already defeated the Ning Wang's three guest scholars on the Convicting Sage Platform. Do you wish to further disrupt the Convicting Sage Platform?"
+    translated: "<color=#FF0000>This choice affects the final outcome. Please make your decision carefully.</color>\nYou have defeated the three guest scholars of Peaceful King Manor on the Conviction Platform hosted by the Peaceful King. Do you want to further disrupt the Conviction Platform?"
 - raw: "{\r\n    \"Key\": 3870900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\"\r\n  }"
   rawIndex: 3870900
   splits:
@@ -810,7 +810,7 @@
     translated: "Should you step in to help when a rogue is harassing a Japanese maiden in the city market?"
   - splitPath: Desc
     text: "城中街市遇到无赖调戏扶桑少女，是否上前帮助？"
-    translated: "Should you step in to help when a ruffian is harassing a Japanese maiden in the city market?"
+    translated: "Should you step in to help the Japanese maiden being harassed by a rogue in the market street?"
   - splitPath: DescTw
     text: "城中街市遇到無賴調戲扶桑少女，是否上前幫助？"
     translated: "Should you step in to help when a rogue is harassing a Japanese maiden in the city market?"
@@ -834,7 +834,7 @@
     translated: "Choose which sword technique to learn from the Sword Master Gu Cangfeng."
   - splitPath: Desc
     text: "选择向“学剑老人”谷藏锋请教哪一门剑法？"
-    translated: "Choose which sword technique to learn from Master Swordsmanship Gu Zhuangfeng."
+    translated: "Choose which sword technique to learn from Master Gu Cangfeng?"
   - splitPath: DescTw
     text: "選擇向“學劍老人”谷藏鋒請教哪一門劍法？"
     translated: "Choose which sword technique to learn from the Sword Master Gu Cangfeng."
@@ -843,37 +843,37 @@
   splits:
   - splitPath: DescFinal
     text: "今日拜訪掛錘莊何事？"
-    translated: "Why did you visit Heavy Hammer Village today?"
+    translated: "What brings you to Hanging Hammer Manor today?"
   - splitPath: Desc
     text: "今日拜访挂锤庄何事？"
-    translated: "What did you come to visit Hammer Yard for today?"
+    translated: "Why are you visiting Hanging Hammer Manor today?"
   - splitPath: DescTw
     text: "今日拜訪掛錘莊何事？"
-    translated: "Why did you visit Heavy Hammer Village today?"
+    translated: "What brings you to Hanging Hammer Manor today?"
 - raw: "{\r\n    \"Key\": 4701010,\r\n    \"DescFinal\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\",\r\n    \"Desc\": \"你可曾想明帮主钟离恨之意？\\\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>\",\r\n    \"DescTw\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\"\r\n  }"
   rawIndex: 4701010
   splits:
   - splitPath: DescFinal
     text: "你可曾想明幫主鍾離恨之意？\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>"
-    translated: "Have you ever pondered Gang Leader Zhongli Hen's intentions?\\n<color=#FF0000>Note: After selecting Subordinate Has Gained Clarity, the Ning Wang's Visit event will automatically trigger next month, and the game will enter its final ending. (It is recommended to elevate your medical skills and beast mastery to Master level before making this choice, and to explore both Jingbei True Martial Monastery and Xiangnan Nine Schools Manor.)</color>"
+    translated: "Have you ever pondered Gang Leader Zhongli Hen's intentions?\\n<color=#FF0000>Notice: After selecting Subordinate Has Understood, the Peaceful King will visit next month, triggering a final event that leads to the game's conclusion. It is recommended to advance your medical skills and beast mastery to master level before making this choice, and also to explore Jingbei True Martial Monastery in the North and Xiangnan Jiuyou Mansion.</color>"
   - splitPath: Desc
     text: "你可曾想明帮主钟离恨之意？\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>"
-    translated: "Have you ever considered what Chief Zhongli Hen intends?\\n<color=#FF0000>Note: After selecting Subordinate understands, the Prince Regent will visit next month, and the game will proceed directly to the final outcome. (It is recommended to raise your medical skills and beast‑taming abilities to mastery levels before making this choice and to explore Jingbei True Martial Monastery and Xiangnan Nine Streams Manor.)</color>"
+    translated: "Have you ever pondered Gang Leader Zhongli Hen's intentions?\\n<color=#FF0000>Note: After selecting Subordinate Has Understood, the Peaceful King will visit next month, and the game will proceed to its final outcome. It is recommended to raise Medicine and Beast Taming to Master level and explore both True Martial Temple in Jingbei and Nine Schools Manor in Xiangnan before making this choice.</color>"
   - splitPath: DescTw
     text: "你可曾想明幫主鍾離恨之意？\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>"
-    translated: "Have you ever pondered Gang Leader Zhongli Hen's intentions?\\n<color=#FF0000>Note: After selecting Subordinate Has Gained Clarity, the Ning Wang's Visit event will automatically trigger next month, and the game will enter its final ending. (It is recommended to elevate your medical skills and beast mastery to Master level before making this choice, and to explore both Jingbei True Martial Monastery and Xiangnan Nine Schools Manor.)</color>"
+    translated: "Have you ever pondered Gang Leader Zhongli Hen's intentions?\\n<color=#FF0000>Notice: After selecting Subordinate Has Understood, the Peaceful King will visit next month, triggering a final event that leads to the game's conclusion. It is recommended to advance your medical skills and beast mastery to master level before making this choice, and also to explore Jingbei True Martial Monastery in the North and Xiangnan Jiuyou Mansion.</color>"
 - raw: "{\r\n    \"Key\": 4701710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\"\r\n  }"
   rawIndex: 4701710
   splits:
   - splitPath: DescFinal
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself for the retaliation from the Demon Sect?\\n<color=#FF0000>Note: After selecting Subordinate is already prepared, the Heavenly Demon Assaulting Mountain event will automatically trigger next month, and the game will proceed to its final ending."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Subordinate is already prepared, the Heavenly Demon Assaulting the Mountain event will automatically trigger in the following month, and the game will proceed to its final ending."
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
-    translated: "Have you prepared yourself for the retaliation from the Demon Sect?\\n<color=#FF0000>Note: After selecting Subordinate is ready, the Tianmo Assaulting Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting Subordinate is ready, the Heaven Demon Assaulting Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
   - splitPath: DescTw
     text: "你可曾準備好應對天魔教的報復？\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。"
-    translated: "Have you prepared yourself for the retaliation from the Demon Sect?\\n<color=#FF0000>Note: After selecting Subordinate is already prepared, the Heavenly Demon Assaulting Mountain event will automatically trigger next month, and the game will proceed to its final ending."
+    translated: "Have you prepared yourself for the retaliation from the Heavenly Demon Sect?\\n<color=#FF0000>Note: After selecting Subordinate is already prepared, the Heavenly Demon Assaulting the Mountain event will automatically trigger in the following month, and the game will proceed to its final ending."
 - raw: "{\r\n    \"Key\": 4800200,\r\n    \"DescFinal\": \"想要兌換哪一種類別的功法？\",\r\n    \"Desc\": \"想要兑换哪一种类别的功法？\",\r\n    \"DescTw\": \"想要兌換哪一種類別的功法？\"\r\n  }"
   rawIndex: 4800200
   splits:
@@ -891,13 +891,13 @@
   splits:
   - splitPath: DescFinal
     text: "想要兌換內功、輕功類的哪一門功法？"
-    translated: "Which internal power or agile movement skill do you want to exchange for?"
+    translated: "Which neigong or qinggong skill would you like to exchange for this reward?"
   - splitPath: Desc
     text: "想要兑换内功、轻功类的哪一门功法？"
     translated: "Which inner cultivation or agile movement skill do you want to exchange for neigong or qinggong?"
   - splitPath: DescTw
     text: "想要兌換內功、輕功類的哪一門功法？"
-    translated: "Which internal power or agile movement skill do you want to exchange for?"
+    translated: "Which neigong or qinggong skill would you like to exchange for this reward?"
 - raw: "{\r\n    \"Key\": 4800410,\r\n    \"DescFinal\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"Desc\": \"想要兑换刀法类的哪一门功法？\",\r\n    \"DescTw\": \"想要兌換刀法類的哪一門功法？\"\r\n  }"
   rawIndex: 4800410
   splits:
@@ -1050,7 +1050,7 @@
     translated: "Are you willing to transfer the Xi Bi Bronze Plaque for three thousand coins?"
   - splitPath: Desc
     text: "是否接受三千钱转让屃赑铜牌？"
-    translated: "Do you accept three thousand coins in exchange for the Asura Path bronze token?"
+    translated: "Are you willing to transfer the Xi Bi Bronze Plaque for three thousand coins?"
   - splitPath: DescTw
     text: "是否接受三千錢轉讓屓贔銅牌？"
     translated: "Are you willing to transfer the Xi Bi Bronze Plaque for three thousand coins?"
@@ -1062,7 +1062,7 @@
     translated: "Are you willing to transfer the Xi Bi Bronze Plaque for five thousand coins?"
   - splitPath: Desc
     text: "是否接受五千钱转让屃赑铜牌？"
-    translated: "Are you willing to transfer the Xi Bi copper token for five thousand coins?"
+    translated: "Are you willing to transfer the Xi Bi Bronze Plaque for five thousand coins?"
   - splitPath: DescTw
     text: "是否接受五千錢轉讓屓贔銅牌？"
     translated: "Are you willing to transfer the Xi Bi Bronze Plaque for five thousand coins?"
@@ -1155,13 +1155,13 @@
   splits:
   - splitPath: DescFinal
     text: "酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？"
-    translated: "In the restaurant, you see a Miss and several men having a drinking contest. How do you choose to react?"
+    translated: "In the tavern, you see a Miss and several men having a drinking competition. How do you choose to react?"
   - splitPath: Desc
     text: "酒楼中看到一位姑娘和几位男子拼酒，你选择如何？"
     translated: "In the tavern, you see a Miss and several men engaged in a drinking contest. How do you choose to react?"
   - splitPath: DescTw
     text: "酒樓中看到一位姑娘和幾位男子拼酒，你選擇如何？"
-    translated: "In the restaurant, you see a Miss and several men having a drinking contest. How do you choose to react?"
+    translated: "In the tavern, you see a Miss and several men having a drinking competition. How do you choose to react?"
 - raw: "{\r\n    \"Key\": 6490210,\r\n    \"DescFinal\": \"今日拜訪洗墨山莊何事？\",\r\n    \"Desc\": \"今日拜访洗墨山庄何事？\",\r\n    \"DescTw\": \"今日拜訪洗墨山莊何事？\"\r\n  }"
   rawIndex: 6490210
   splits:

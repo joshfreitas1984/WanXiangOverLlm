@@ -54,7 +54,7 @@
     translated: "Strong and robust"
   - splitPath: DescFinal
     text: "體魄+10"
-    translated: "Stamina +10"
+    translated: "Resilience +10"
   - splitPath: Name
     text: "筋强骨壮"
     translated: "Strong and robust"
@@ -69,7 +69,7 @@
     translated: "Strong and robust"
   - splitPath: DescTw
     text: "體魄+10"
-    translated: "Stamina +10"
+    translated: "Resilience +10"
 - raw: "{\r\n    \"Key\": 10004,\r\n    \"NameFinal\": \"銅澆鐵鑄\",\r\n    \"DescFinal\": \"體魄+20\",\r\n    \"Name\": \"铜浇铁铸\",\r\n    \"Desc\": \"体魄+20\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"銅澆鐵鑄\",\r\n    \"DescTw\": \"體魄+20\"\r\n  }"
   rawIndex: 10004
   splits:
@@ -78,7 +78,7 @@
     translated: "Cast iron and copper molten"
   - splitPath: DescFinal
     text: "體魄+20"
-    translated: "Physical condition +20"
+    translated: "Resilience +20"
   - splitPath: Name
     text: "铜浇铁铸"
     translated: "Cast iron and copper"
@@ -93,7 +93,7 @@
     translated: "Cast iron and copper molten"
   - splitPath: DescTw
     text: "體魄+20"
-    translated: "Physical condition +20"
+    translated: "Resilience +20"
 - raw: "{\r\n    \"Key\": 10005,\r\n    \"NameFinal\": \"心神清朗\",\r\n    \"DescFinal\": \"內息+10\",\r\n    \"Name\": \"心神清朗\",\r\n    \"Desc\": \"内息+10\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"心神清朗\",\r\n    \"DescTw\": \"內息+10\"\r\n  }"
   rawIndex: 10005
   splits:
@@ -876,7 +876,7 @@
     translated: "Fully energized and spirit‑filled"
   - splitPath: DescFinal
     text: "修煉內功時提升更多內息"
-    translated: "Increase internal energy during cultivation of inner strength techniques"
+    translated: "When cultivating neigong, more inner qi can be enhanced."
   - splitPath: Name
     text: "神完气足"
     translated: "Energized and vital"
@@ -891,7 +891,7 @@
     translated: "Fully energized and spirit‑filled"
   - splitPath: DescTw
     text: "修煉內功時提升更多內息"
-    translated: "Increase internal energy during cultivation of inner strength techniques"
+    translated: "When cultivating neigong, more inner qi can be enhanced."
 - raw: "{\r\n    \"Key\": 50004,\r\n    \"NameFinal\": \"生機勃勃\",\r\n    \"DescFinal\": \"修煉外功時提升更多體魄\",\r\n    \"Name\": \"生机勃勃\",\r\n    \"Desc\": \"修炼外功时提升更多体魄\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"生機勃勃\",\r\n    \"DescTw\": \"修煉外功時提升更多體魄\"\r\n  }"
   rawIndex: 50004
   splits:
@@ -900,7 +900,7 @@
     translated: "Vibrant"
   - splitPath: DescFinal
     text: "修煉外功時提升更多體魄"
-    translated: "Training external skills enhances one's physical prowess more significantly."
+    translated: "When training external skills, boost more resilience"
   - splitPath: Name
     text: "生机勃勃"
     translated: "Vibrant and lively"
@@ -915,7 +915,7 @@
     translated: "Vibrant"
   - splitPath: DescTw
     text: "修煉外功時提升更多體魄"
-    translated: "Training external skills enhances one's physical prowess more significantly."
+    translated: "When training external skills, boost more resilience"
 - raw: "{\r\n    \"Key\": 50005,\r\n    \"NameFinal\": \"天賦異稟\",\r\n    \"DescFinal\": \"修煉輕功時提升更多靈活\",\r\n    \"Name\": \"天赋异禀\",\r\n    \"Desc\": \"修炼轻功时提升更多灵活\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦異稟\",\r\n    \"DescTw\": \"修煉輕功時提升更多靈活\"\r\n  }"
   rawIndex: 50005
   splits:
@@ -924,7 +924,7 @@
     translated: "Natural talent"
   - splitPath: DescFinal
     text: "修煉輕功時提升更多靈活"
-    translated: "Improve flexibility while practicing lightness techniques"
+    translated: "When practicing qinggong, improve flexibility more significantly"
   - splitPath: Name
     text: "天赋异禀"
     translated: "Gifted"
@@ -939,7 +939,7 @@
     translated: "Natural talent"
   - splitPath: DescTw
     text: "修煉輕功時提升更多靈活"
-    translated: "Improve flexibility while practicing lightness techniques"
+    translated: "When practicing qinggong, improve flexibility more significantly"
 - raw: "{\r\n    \"Key\": 50006,\r\n    \"NameFinal\": \"見微知著\",\r\n    \"DescFinal\": \"讀書時提升更多悟性\",\r\n    \"Name\": \"见微知著\",\r\n    \"Desc\": \"读书时提升更多悟性\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"見微知著\",\r\n    \"DescTw\": \"讀書時提升更多悟性\"\r\n  }"
   rawIndex: 50006
   splits:
@@ -996,7 +996,7 @@
     translated: "Great Belly Can Tolerate All"
   - splitPath: DescFinal
     text: "每品嚐一次酒樓美食氣血+200"
-    translated: "Every time they savor the restaurant's delicacies, their lifeforce +200 improves."
+    translated: "Every time they sample the dishes at the tavern, their lifeforce is bolstered +200."
   - splitPath: Name
     text: "大肚能容"
     translated: "Great Belly Can Tolerate All"
@@ -1011,7 +1011,7 @@
     translated: "Great Belly Can Tolerate All"
   - splitPath: DescTw
     text: "每品嚐一次酒樓美食氣血+200"
-    translated: "Every time they savor the restaurant's delicacies, their lifeforce +200 improves."
+    translated: "Every time they sample the dishes at the tavern, their lifeforce is bolstered +200."
 - raw: "{\r\n    \"Key\": 50015,\r\n    \"NameFinal\": \"千杯不醉\",\r\n    \"DescFinal\": \"每品嚐一次酒樓香茗或美酒功力+20\",\r\n    \"Name\": \"千杯不醉\",\r\n    \"Desc\": \"每品尝一次酒楼香茗或美酒功力+20\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"千杯不醉\",\r\n    \"DescTw\": \"每品嚐一次酒樓香茗或美酒功力+20\"\r\n  }"
   rawIndex: 50015
   splits:
@@ -1020,7 +1020,7 @@
     translated: "Can drink a thousand cups and still not get drunk"
   - splitPath: DescFinal
     text: "每品嚐一次酒樓香茗或美酒功力+20"
-    translated: "Every time you savor a dish at the restaurant or enjoy fine wine, your cultivation increases by +20."
+    translated: "Each time you savor a dish at the tavern or imbibe its fine wines or teas, your martial arts skill +20"
   - splitPath: Name
     text: "千杯不醉"
     translated: "Can drink a thousand cups and still not get drunk"
@@ -1035,7 +1035,7 @@
     translated: "Can drink a thousand cups and still not get drunk"
   - splitPath: DescTw
     text: "每品嚐一次酒樓香茗或美酒功力+20"
-    translated: "Every time you savor a dish at the restaurant or enjoy fine wine, your cultivation increases by +20."
+    translated: "Each time you savor a dish at the tavern or imbibe its fine wines or teas, your martial arts skill +20"
 - raw: "{\r\n    \"Key\": 50016,\r\n    \"NameFinal\": \"儀表堂堂\",\r\n    \"DescFinal\": \"結識異性角色時能夠留下好印象\",\r\n    \"Name\": \"仪表堂堂\",\r\n    \"Desc\": \"结识异性角色时能够留下好印象\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"儀表堂堂\",\r\n    \"DescTw\": \"結識異性角色時能夠留下好印象\"\r\n  }"
   rawIndex: 50016
   splits:
@@ -1092,7 +1092,7 @@
     translated: "Mind Clear as a Sword Heart"
   - splitPath: DescFinal
     text: "每修煉一門刀劍功法功力+100"
-    translated: "Every cultivation of a blade technique increases power by +100."
+    translated: "Every cultivation of a blade and sword technique increases your power by +100."
   - splitPath: Name
     text: "剑心通明"
     translated: "Sword Intention Clear"
@@ -1107,7 +1107,7 @@
     translated: "Mind Clear as a Sword Heart"
   - splitPath: DescTw
     text: "每修煉一門刀劍功法功力+100"
-    translated: "Every cultivation of a blade technique increases power by +100."
+    translated: "Every cultivation of a blade and sword technique increases your power by +100."
 - raw: "{\r\n    \"Key\": 51002,\r\n    \"NameFinal\": \"情比金堅\",\r\n    \"DescFinal\": \"每解鎖一名紅顏知己氣血+5000\",\r\n    \"Name\": \"情比金坚\",\r\n    \"Desc\": \"每解锁一名红颜知己气血+5000\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"情比金堅\",\r\n    \"DescTw\": \"每解鎖一名紅顏知己氣血+5000\"\r\n  }"
   rawIndex: 51002
   splits:
@@ -1188,13 +1188,13 @@
     translated: "A gentleman's friendship"
   - splitPath: DescFinal
     text: "君子莊友好+40"
-    translated: "Gentleman Zhuang is friendly to +40"
+    translated: "Gentlemen Manor is friendly to +40"
   - splitPath: Name
     text: "君子之交"
     translated: "A gentleman's friendship"
   - splitPath: Desc
     text: "君子庄友好+40"
-    translated: "Gentleman Zhuang is friendly to +40"
+    translated: "Gentlemen Manor is friendly to +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1203,7 +1203,7 @@
     translated: "A gentleman's friendship"
   - splitPath: DescTw
     text: "君子莊友好+40"
-    translated: "Gentleman Zhuang is friendly to +40"
+    translated: "Gentlemen Manor is friendly to +40"
 - raw: "{\r\n    \"Key\": 60002,\r\n    \"NameFinal\": \"福壽雙全\",\r\n    \"DescFinal\": \"萬壽幫友好+40\",\r\n    \"Name\": \"福寿双全\",\r\n    \"Desc\": \"万寿帮友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"福壽雙全\",\r\n    \"DescTw\": \"萬壽幫友好+40\"\r\n  }"
   rawIndex: 60002
   splits:
@@ -1212,13 +1212,13 @@
     translated: "Longevity and prosperity"
   - splitPath: DescFinal
     text: "萬壽幫友好+40"
-    translated: "Wanshou Gang Friendly +40"
+    translated: "Longevity Sect is friendly with +40"
   - splitPath: Name
     text: "福寿双全"
     translated: "Blessed with longevity and prosperity"
   - splitPath: Desc
     text: "万寿帮友好+40"
-    translated: "Friendly to the Wan Shou Gang"
+    translated: "Longevity Sect is friendly with +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1227,7 +1227,7 @@
     translated: "Longevity and prosperity"
   - splitPath: DescTw
     text: "萬壽幫友好+40"
-    translated: "Wanshou Gang Friendly +40"
+    translated: "Longevity Sect is friendly with +40"
 - raw: "{\r\n    \"Key\": 60003,\r\n    \"NameFinal\": \"緣起衡山\",\r\n    \"DescFinal\": \"拜師衡山派可獲取30貢獻\",\r\n    \"Name\": \"缘起衡山\",\r\n    \"Desc\": \"拜师衡山派可获取30贡献\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"緣起衡山\",\r\n    \"DescTw\": \"拜師衡山派可獲取30貢獻\"\r\n  }"
   rawIndex: 60003
   splits:
@@ -1236,13 +1236,13 @@
     translated: "Originating at Hengshan Mountain"
   - splitPath: DescFinal
     text: "拜師衡山派可獲取30貢獻"
-    translated: "Becoming a disciple of Mount Heng School can earn you 30 contributions."
+    translated: "Becoming a disciple of Hengshan Sect will earn you 30 contributions."
   - splitPath: Name
     text: "缘起衡山"
     translated: "The story begins on Mount Heng"
   - splitPath: Desc
     text: "拜师衡山派可获取30贡献"
-    translated: "Becoming a disciple of the Hengshan School will earn you 30 contributions."
+    translated: "Becoming a disciple of the Hengshan Sect will earn you 30 contributions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1251,7 +1251,7 @@
     translated: "Originating at Hengshan Mountain"
   - splitPath: DescTw
     text: "拜師衡山派可獲取30貢獻"
-    translated: "Becoming a disciple of Mount Heng School can earn you 30 contributions."
+    translated: "Becoming a disciple of Hengshan Sect will earn you 30 contributions."
 - raw: "{\r\n    \"Key\": 60004,\r\n    \"NameFinal\": \"盤蛇報珠\",\r\n    \"DescFinal\": \"盤蛇谷友好+40\",\r\n    \"Name\": \"盘蛇报珠\",\r\n    \"Desc\": \"盘蛇谷友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"盤蛇報珠\",\r\n    \"DescTw\": \"盤蛇谷友好+40\"\r\n  }"
   rawIndex: 60004
   splits:
@@ -1260,13 +1260,13 @@
     translated: "Coiling Serpent Revenge Pearl"
   - splitPath: DescFinal
     text: "盤蛇谷友好+40"
-    translated: "Serpent Valley Friendly +40"
+    translated: "Coiled Serpent Valley Friendly +40"
   - splitPath: Name
     text: "盘蛇报珠"
     translated: "Coiling Serpent Repaying Pearls"
   - splitPath: Desc
     text: "盘蛇谷友好+40"
-    translated: "Winding Snake Valley Friendly +40"
+    translated: "Coiled Serpent Valley is friendly to +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1275,7 +1275,7 @@
     translated: "Coiling Serpent Revenge Pearl"
   - splitPath: DescTw
     text: "盤蛇谷友好+40"
-    translated: "Serpent Valley Friendly +40"
+    translated: "Coiled Serpent Valley Friendly +40"
 - raw: "{\r\n    \"Key\": 60005,\r\n    \"NameFinal\": \"食之有味\",\r\n    \"DescFinal\": \"丐幫忠字舵友好+40\",\r\n    \"Name\": \"食之有味\",\r\n    \"Desc\": \"丐帮忠字舵友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"食之有味\",\r\n    \"DescTw\": \"丐幫忠字舵友好+40\"\r\n  }"
   rawIndex: 60005
   splits:
@@ -1290,7 +1290,7 @@
     translated: "Food tastes good"
   - splitPath: Desc
     text: "丐帮忠字舵友好+40"
-    translated: "The Loyalty Pavilion of the Beggar's Help Guild is friendly to +40."
+    translated: "Beggar Sect's Loyalty Decade is friendly with +40."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1332,13 +1332,13 @@
     translated: "Divine Farmer's Hundred Herbs"
   - splitPath: DescFinal
     text: "神農幫友好+40"
-    translated: "The Shen Nong Gang is friendly with +40"
+    translated: "Shennong Sect friendly +40"
   - splitPath: Name
     text: "神农百草"
     translated: "Divine Farmer's Hundred Herbs"
   - splitPath: Desc
     text: "神农帮友好+40"
-    translated: "Yanshan Bandit Gang Friendly +40"
+    translated: "Shennong Sect is friendly towards +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1347,7 +1347,7 @@
     translated: "Divine Farmer's Hundred Herbs"
   - splitPath: DescTw
     text: "神農幫友好+40"
-    translated: "The Shen Nong Gang is friendly with +40"
+    translated: "Shennong Sect friendly +40"
 - raw: "{\r\n    \"Key\": 60008,\r\n    \"NameFinal\": \"緣起武當\",\r\n    \"DescFinal\": \"拜師武當派可獲取30貢獻\",\r\n    \"Name\": \"缘起武当\",\r\n    \"Desc\": \"拜师武当派可获取30贡献\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"緣起武當\",\r\n    \"DescTw\": \"拜師武當派可獲取30貢獻\"\r\n  }"
   rawIndex: 60008
   splits:
@@ -1356,13 +1356,13 @@
     translated: "Originating from Wudang"
   - splitPath: DescFinal
     text: "拜師武當派可獲取30貢獻"
-    translated: "Becoming a disciple of Wudang can earn you 30 contributions."
+    translated: "Becoming a disciple of the Wudang Sect will earn you 30 contributions."
   - splitPath: Name
     text: "缘起武当"
-    translated: "Origin of the Daoist School"
+    translated: "Originating from Wudang"
   - splitPath: Desc
     text: "拜师武当派可获取30贡献"
-    translated: "Becoming a disciple of the Wutang school will grant you 30 contributions."
+    translated: "Becoming a disciple of the Wudang Sect will earn you 30 contributions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1371,7 +1371,7 @@
     translated: "Originating from Wudang"
   - splitPath: DescTw
     text: "拜師武當派可獲取30貢獻"
-    translated: "Becoming a disciple of Wudang can earn you 30 contributions."
+    translated: "Becoming a disciple of the Wudang Sect will earn you 30 contributions."
 - raw: "{\r\n    \"Key\": 60009,\r\n    \"NameFinal\": \"六合同風\",\r\n    \"DescFinal\": \"六合幫友好+40\",\r\n    \"Name\": \"六合同风\",\r\n    \"Desc\": \"六合帮友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"六合同風\",\r\n    \"DescTw\": \"六合幫友好+40\"\r\n  }"
   rawIndex: 60009
   splits:
@@ -1380,13 +1380,13 @@
     translated: "Six Directions Wind"
   - splitPath: DescFinal
     text: "六合幫友好+40"
-    translated: "Hexing Gang is friendly with +40"
+    translated: "Six Harmonies Sect is friendly to +40"
   - splitPath: Name
     text: "六合同风"
     translated: "Six Directions Unified Wind"
   - splitPath: Desc
     text: "六合帮友好+40"
-    translated: "Sixfold Alliance Helped Us in Good Faith +40"
+    translated: "Six Harmonies Sect is friendly towards +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1395,7 +1395,7 @@
     translated: "Six Directions Wind"
   - splitPath: DescTw
     text: "六合幫友好+40"
-    translated: "Hexing Gang is friendly with +40"
+    translated: "Six Harmonies Sect is friendly to +40"
 - raw: "{\r\n    \"Key\": 60010,\r\n    \"NameFinal\": \"天地無柄\",\r\n    \"DescFinal\": \"掛錘莊友好+40\",\r\n    \"Name\": \"天地无柄\",\r\n    \"Desc\": \"挂锤庄友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天地無柄\",\r\n    \"DescTw\": \"掛錘莊友好+40\"\r\n  }"
   rawIndex: 60010
   splits:
@@ -1404,13 +1404,13 @@
     translated: "Heaven and earth have no handle"
   - splitPath: DescFinal
     text: "掛錘莊友好+40"
-    translated: "Friendly Guild Hanghammer +40"
+    translated: "Hanging Hammer Manor is friendly towards +40"
   - splitPath: Name
     text: "天地无柄"
     translated: "Heaven and earth have no handle"
   - splitPath: Desc
     text: "挂锤庄友好+40"
-    translated: "Hang Hammer Mansion cordially welcomes +40"
+    translated: "Hanging Hammer Manor is friendly to +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1419,7 +1419,7 @@
     translated: "Heaven and earth have no handle"
   - splitPath: DescTw
     text: "掛錘莊友好+40"
-    translated: "Friendly Guild Hanghammer +40"
+    translated: "Hanging Hammer Manor is friendly towards +40"
 - raw: "{\r\n    \"Key\": 60011,\r\n    \"NameFinal\": \"緣起洞庭\",\r\n    \"DescFinal\": \"加入洞庭幫可獲取30貢獻\",\r\n    \"Name\": \"缘起洞庭\",\r\n    \"Desc\": \"加入洞庭帮可获取30贡献\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"緣起洞庭\",\r\n    \"DescTw\": \"加入洞庭幫可獲取30貢獻\"\r\n  }"
   rawIndex: 60011
   splits:
@@ -1428,13 +1428,13 @@
     translated: "Origins from Dongting Lake"
   - splitPath: DescFinal
     text: "加入洞庭幫可獲取30貢獻"
-    translated: "Joining Dongting Gang can earn you 30 contributions."
+    translated: "Joining Dongting Sect will earn you 30 contributions."
   - splitPath: Name
     text: "缘起洞庭"
     translated: "Originating from Dongting Lake"
   - splitPath: Desc
     text: "加入洞庭帮可获取30贡献"
-    translated: "Joining Dongting Gang can earn you 30 contributions."
+    translated: "Joining Dongting Sect will grant you 30 contributions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1443,7 +1443,7 @@
     translated: "Origins from Dongting Lake"
   - splitPath: DescTw
     text: "加入洞庭幫可獲取30貢獻"
-    translated: "Joining Dongting Gang can earn you 30 contributions."
+    translated: "Joining Dongting Sect will earn you 30 contributions."
 - raw: "{\r\n    \"Key\": 60012,\r\n    \"NameFinal\": \"慶福吉祥\",\r\n    \"DescFinal\": \"福慶班友好+40\",\r\n    \"Name\": \"庆福吉祥\",\r\n    \"Desc\": \"福庆班友好+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"慶福吉祥\",\r\n    \"DescTw\": \"福慶班友好+40\"\r\n  }"
   rawIndex: 60012
   splits:
@@ -1476,13 +1476,13 @@
     translated: "Prosperity Everlasting"
   - splitPath: DescFinal
     text: "永盛鏢局友好+40"
-    translated: "Rising Prosperity Couriers' friendly +40"
+    translated: "Yongsheng Escort Agency friendly +40"
   - splitPath: Name
     text: "繁昌永盛"
     translated: "Prosperity Everlasting"
   - splitPath: Desc
     text: "永盛镖局友好+40"
-    translated: "Yongsheng Escort Bureau Friendly +40"
+    translated: "Yongsheng Escort Agency is friendly to +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1491,7 +1491,7 @@
     translated: "Prosperity Everlasting"
   - splitPath: DescTw
     text: "永盛鏢局友好+40"
-    translated: "Rising Prosperity Couriers' friendly +40"
+    translated: "Yongsheng Escort Agency friendly +40"
 - raw: "{\r\n    \"Key\": 70001,\r\n    \"NameFinal\": \"忠義兩全\",\r\n    \"DescFinal\": \"家中尚有兩名忠義老僕\",\r\n    \"Name\": \"忠义两全\",\r\n    \"Desc\": \"家中尚有两名忠义老仆\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"忠義兩全\",\r\n    \"DescTw\": \"家中尚有兩名忠義老僕\"\r\n  }"
   rawIndex: 70001
   splits:
@@ -1524,14 +1524,13 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: DescFinal
     text: "初始武學[半拂折枝手]\\n攻擊傷害類【惡人谷】【掌法】\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。"
-    translated: "Initial martial arts technique [Ban Fu zhe zhi shou]\\nAttack Damage Skill Wuhu Valley Palm Technique\\nEach attack deals 1 times the侠客's combat skill damage and has a 20% chance to immobilize the enemy by sealing their acupoints."
-    flaggedForRetranslation: true
+    translated: "Initial martial art technique [Half Brush Branch Hand]\\nAttack Damage Skill: Villains Valley Palm Technique\\nEach attack deals 1 times the Wanderer's combat skill damage and has a 20% chance to incapacitate the enemy by sealing their acupoints."
   - splitPath: Name
     text: "花枝堪折"
     translated: "Flower branches ripe for plucking"
   - splitPath: Desc
     text: "初始武学[半拂折枝手]\\n攻击伤害类【恶人谷】【掌法】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Initial martial art technique [Half Stroke Branch Hand]\\nAttack Damage Type: Evil Valley Palm Technique\\nEach attack deals 1 times the Wanderer's power and has a 20% chance to put the enemy in Sealed Meridian state."
+    translated: "Initial martial art technique [Half Stroke Branch‑Pinching Hand]\\nAttacks of the Aggressor Valley School Villains Valley Palms Technique\\nEach attack deals 1 times the Wanderer's Qi Gong damage and has a 20% chance to inflict the Sealed Meridians condition on the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1540,8 +1539,7 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: DescTw
     text: "初始武學[半拂折枝手]\\n攻擊傷害類【惡人谷】【掌法】\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。"
-    translated: "Initial martial arts technique [Ban Fu zhe zhi shou]\\nAttack Damage Skill Wuhu Valley Palm Technique\\nEach attack deals 1 times the侠客's combat skill damage and has a 20% chance to immobilize the enemy by sealing their acupoints."
-    flaggedForRetranslation: true
+    translated: "Initial martial art technique [Half Brush Branch Hand]\\nAttack Damage Skill: Villains Valley Palm Technique\\nEach attack deals 1 times the Wanderer's combat skill damage and has a 20% chance to incapacitate the enemy by sealing their acupoints."
 - raw: "{\r\n    \"Key\": 80003,\r\n    \"NameFinal\": \"血屠萬里\",\r\n    \"DescFinal\": \"初始武學[血屠刀法]\\\\n攻擊傷害類【惡人谷】【刀法】\\\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。\",\r\n    \"Name\": \"血屠万里\",\r\n    \"Desc\": \"初始武学[血屠刀法]\\\\n攻击伤害类【恶人谷】【刀法】\\\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"血屠萬里\",\r\n    \"DescTw\": \"初始武學[血屠刀法]\\\\n攻擊傷害類【惡人谷】【刀法】\\\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。\"\r\n  }"
   rawIndex: 80003
   splits:
@@ -1550,14 +1548,13 @@
     translated: "Blood Butcher Across Ten Thousand Miles"
   - splitPath: DescFinal
     text: "初始武學[血屠刀法]\\n攻擊傷害類【惡人谷】【刀法】\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。"
-    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Technique\\nEach attack deals 1 times the侠客's combat power in damage and has a 30% chance to inflict light injury on the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Villains Valley Blade Technique\\nEach attack deals 1 times the Wanderer's combat skill damage and has a 30% chance to inflict minor injuries on the enemy."
   - splitPath: Name
     text: "血屠万里"
     translated: "Widespread Bloodshed for a Thousand Miles"
   - splitPath: Desc
     text: "初始武学[血屠刀法]\\n攻击伤害类【恶人谷】【刀法】\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Art\\nEach attack deals 1 times the Wanderer's combat power in damage and has a 30% chance to inflict Light Injury on the enemy."
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Class Villains Valley Blade Art\\nEach attack deals 1 times the Wanderer's combat power in damage and has a 30% chance to put the enemy in a light injury state."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1566,8 +1563,7 @@
     translated: "Blood Butcher Across Ten Thousand Miles"
   - splitPath: DescTw
     text: "初始武學[血屠刀法]\\n攻擊傷害類【惡人谷】【刀法】\\n單次攻擊造1倍俠客功力的傷害，並有30%機率使敵人進入輕傷狀態。"
-    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Style Wicked Valley Blade Technique\\nEach attack deals 1 times the侠客's combat power in damage and has a 30% chance to inflict light injury on the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial martial art: Blood Butcher Blade Technique\\nAttack Damage Villains Valley Blade Technique\\nEach attack deals 1 times the Wanderer's combat skill damage and has a 30% chance to inflict minor injuries on the enemy."
 - raw: "{\r\n    \"Key\": 80004,\r\n    \"NameFinal\": \"唯我獨尊\",\r\n    \"DescFinal\": \"初始武學[天地獨尊訣]\\\\n戰術協同類【惡人谷】【內功】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。\",\r\n    \"Name\": \"唯我独尊\",\r\n    \"Desc\": \"初始武学[天地独尊诀]\\\\n战术协同类【恶人谷】【内功】\\\\n当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。天地独尊诀可叠加1层，每层伤害+200%。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"唯我獨尊\",\r\n    \"DescTw\": \"初始武學[天地獨尊訣]\\\\n戰術協同類【惡人谷】【內功】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。\"\r\n  }"
   rawIndex: 80004
   splits:
@@ -1576,13 +1572,13 @@
     translated: "Supremacy Above All"
   - splitPath: DescFinal
     text: "初始武學[天地獨尊訣]\\n戰術協同類【惡人谷】【內功】\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。"
-    translated: "Initial Martial Arts [Tianti Dulu Jun Skill]\\nTactical Synergy Category: [Evil Valley], [Internal Power]\\nWhen the number of our side's combatants is 1 people, the tactic [Tianti Dulu Jun Skill] will be automatically released at the beginning of the battle. Tianti Dulu Jun Skill can stack up to 1 layers, with each layer increasing damage by +200%.\\"
+    translated: "Initial martial art technique [Tianti Duzu Quan]\\nTactical Synergy Villains Valley Neigong\\nWhen the number of our troops is 1, the battle strategy Tianti Duzun Jue will be automatically released at the beginning. Tianti Duzun Jue can stack up to 1 layers, with each layer increasing damage by +200%."
   - splitPath: Name
     text: "唯我独尊"
     translated: "Supreme Ruler"
   - splitPath: Desc
     text: "初始武学[天地独尊诀]\\n战术协同类【恶人谷】【内功】\\n当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。天地独尊诀可叠加1层，每层伤害+200%。"
-    translated: "Initial martial art [Tianti Duzu Qujie]\\nTactical Coordination Evil Valley Neigong\\nWhen our side has 1 participants, Tactical Tian Di Du Zun Jue is automatically deployed at the start. Tian Di Du Zun Jue can stack up to 1 layers, with each layer increasing damage by +200%."
+    translated: "Initial martial art technique [Tianti Duxun Qie]\\nTactical Coordination Villains Valley Neigong\\nWhen the number of our combatants is 1, the tactic Heavenly Solo Supreme is automatically deployed at the start. Heavenly Solo Supreme can stack up to 1 layers, with each layer increasing damage by +200%."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1591,7 +1587,7 @@
     translated: "Supremacy Above All"
   - splitPath: DescTw
     text: "初始武學[天地獨尊訣]\\n戰術協同類【惡人谷】【內功】\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。天地獨尊訣可疊加1層，每層傷害+200%。"
-    translated: "Initial Martial Arts [Tianti Dulu Jun Skill]\\nTactical Synergy Category: [Evil Valley], [Internal Power]\\nWhen the number of our side's combatants is 1 people, the tactic [Tianti Dulu Jun Skill] will be automatically released at the beginning of the battle. Tianti Dulu Jun Skill can stack up to 1 layers, with each layer increasing damage by +200%.\\"
+    translated: "Initial martial art technique [Tianti Duzu Quan]\\nTactical Synergy Villains Valley Neigong\\nWhen the number of our troops is 1, the battle strategy Tianti Duzun Jue will be automatically released at the beginning. Tianti Duzun Jue can stack up to 1 layers, with each layer increasing damage by +200%."
 - raw: "{\r\n    \"Key\": 80005,\r\n    \"NameFinal\": \"非佛非道\",\r\n    \"DescFinal\": \"初始武學[玄禪無二法]\\\\n輔助回覆類【惡人谷】【內功】\\\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。\",\r\n    \"Name\": \"非佛非道\",\r\n    \"Desc\": \"初始武学[玄禅无二法]\\\\n辅助回复类【恶人谷】【内功】\\\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"非佛非道\",\r\n    \"DescTw\": \"初始武學[玄禪無二法]\\\\n輔助回覆類【惡人谷】【內功】\\\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。\"\r\n  }"
   rawIndex: 80005
   splits:
@@ -1600,14 +1596,14 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: DescFinal
     text: "初始武學[玄禪無二法]\\n輔助回覆類【惡人谷】【內功】\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。"
-    translated: "Initial martial art [Xuan Chan Wu Er Fa]\\nAssistant response category: Evil Valley Internal Cultivation\\nWhen the opponent has an abnormal condition, restore my side's 1 times侠客power in lifeforce and eliminate the enemy's 1 tactical effects."
+    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistant response category for Villains Valley and Neigong.\\nWhen the opponent has an abnormal condition,回复我方1倍侠客功力的气血,并消除敌人1个战术. translates to:  When the opponent has an abnormal condition, restore me their 1 times the Wanderer's lifeforce, and remove the enemy's 1 tactics."
     flaggedForRetranslation: true
   - splitPath: Name
     text: "非佛非道"
     translated: "Neither Buddha nor Dao"
   - splitPath: Desc
     text: "初始武学[玄禅无二法]\\n辅助回复类【恶人谷】【内功】\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "Initial martial arts skill [Xuanchan Wu er fa]\\nAssistant Response Category: Evil Valley · Neigong\\nWhen the opponent has an abnormal condition, restore 1 times my side's Wanderer's vitality and remove the enemy's 1 tactical effects."
+    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistance Reply Category: Villains Valley, Neigong\\nWhen the opponent has an abnormal condition, restore 1 times my party's Wanderer's Lifeforce and eliminate the enemy's 1 tactical effects."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1616,7 +1612,7 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: DescTw
     text: "初始武學[玄禪無二法]\\n輔助回覆類【惡人谷】【內功】\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。"
-    translated: "Initial martial art [Xuan Chan Wu Er Fa]\\nAssistant response category: Evil Valley Internal Cultivation\\nWhen the opponent has an abnormal condition, restore my side's 1 times侠客power in lifeforce and eliminate the enemy's 1 tactical effects."
+    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistant response category for Villains Valley and Neigong.\\nWhen the opponent has an abnormal condition,回复我方1倍侠客功力的气血,并消除敌人1个战术. translates to:  When the opponent has an abnormal condition, restore me their 1 times the Wanderer's lifeforce, and remove the enemy's 1 tactics."
     flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 80006,\r\n    \"NameFinal\": \"陰陽合氣\",\r\n    \"DescFinal\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\",\r\n    \"Name\": \"阴阳合气\",\r\n    \"Desc\": \"初始武学[姹女玄阴法]\\\\n辅助回复类【恶人谷】【心法】\\\\n单次回复800倍红颜知己数量的气血。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"陰陽合氣\",\r\n    \"DescTw\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\"\r\n  }"
   rawIndex: 80006
@@ -1626,13 +1622,13 @@
     translated: "Yin‑Yang Combined Energy"
   - splitPath: DescFinal
     text: "初始武學[奼女玄陰法]\\n輔助回覆類【惡人谷】【心法】\\n單次回覆800倍紅顏知己數量的氣血。"
-    translated: "Initial martial art [Xianu Xuanyin Fa]\\nAssistant response category: Evil Valley Heart Method\\nA lifeforce equivalent to 800 times the number of Red Beauty Companions."
+    translated: "Initial martial arts technique [Childish Maiden Yin Technique]\\nAssistant response for Villains Valley and Heart Method.\\nA lifeforce equivalent to 800 times the number of Fair Lady Companions."
   - splitPath: Name
     text: "阴阳合气"
     translated: "Yin Yang Harmony"
   - splitPath: Desc
     text: "初始武学[姹女玄阴法]\\n辅助回复类【恶人谷】【心法】\\n单次回复800倍红颜知己数量的气血。"
-    translated: "Initial martial art technique [Chanu Xuanyin Method]\\nAssistant Healing Technique Evil Valley Heart Method\\nGain lifeforce equal to 800 times the number of Red Beauty Companions."
+    translated: "Initial martial art [Cha'nu Xuanyin Method]\\nAssistant response category: Villains Valley Heart Method\\nGain lifeforce equal to 800 times the number of Crimson Beauty Companions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1641,7 +1637,7 @@
     translated: "Yin‑Yang Combined Energy"
   - splitPath: DescTw
     text: "初始武學[奼女玄陰法]\\n輔助回覆類【惡人谷】【心法】\\n單次回覆800倍紅顏知己數量的氣血。"
-    translated: "Initial martial art [Xianu Xuanyin Fa]\\nAssistant response category: Evil Valley Heart Method\\nA lifeforce equivalent to 800 times the number of Red Beauty Companions."
+    translated: "Initial martial arts technique [Childish Maiden Yin Technique]\\nAssistant response for Villains Valley and Heart Method.\\nA lifeforce equivalent to 800 times the number of Fair Lady Companions."
 - raw: "{\r\n    \"Key\": 80007,\r\n    \"NameFinal\": \"迴天定命\",\r\n    \"DescFinal\": \"初始武學[逆脈行鍼訣]\\\\n輔助回覆類【惡人谷】【特技】\\\\n40%機率為我方2名俠客新增強化狀態。\",\r\n    \"Name\": \"回天定命\",\r\n    \"Desc\": \"初始武学[逆脉行针诀]\\\\n辅助回复类【恶人谷】【特技】\\\\n40%几率为我方2名侠客添加强化状态。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"迴天定命\",\r\n    \"DescTw\": \"初始武學[逆脈行鍼訣]\\\\n輔助回覆類【惡人谷】【特技】\\\\n40%機率為我方2名俠客新增強化狀態。\"\r\n  }"
   rawIndex: 80007
   splits:
@@ -1650,14 +1646,13 @@
     translated: "Reversing Fate and Sealing Destiny"
   - splitPath: DescFinal
     text: "初始武學[逆脈行鍼訣]\\n輔助回覆類【惡人谷】【特技】\\n40%機率為我方2名俠客新增強化狀態。"
-    translated: "Initial martial arts technique [Reversing Meridian Needling Art]\\nAssistant Response Category: Wuren Gu Evil Valley Skill\\nThere is a 40% chance of granting an enhanced state to one of our侠客."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Reverse Meridian Needling Art]\\nAssistant response category: Villains Valley Special Skill\\nThere is a 40% chance for one of our Wanderers to gain an enhanced state."
   - splitPath: Name
     text: "回天定命"
     translated: "Revive Destiny"
   - splitPath: Desc
     text: "初始武学[逆脉行针诀]\\n辅助回复类【恶人谷】【特技】\\n40%几率为我方2名侠客添加强化状态。"
-    translated: "Initial martial arts technique [Reversing Meridian Needling Technique]\\nSupportive Skill Evil Valley Stunt\\nThere is a 40% chance to apply a strengthened state to one of our Wanderers."
+    translated: "Initial martial arts technique [Reverse Meridian Needle Technique]\\nSupport Reply Skills Villains Valley Tactics\\nThere is a 40% chance to add a Strengthened state to one of our Wanderers."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1666,8 +1661,7 @@
     translated: "Reversing Fate and Sealing Destiny"
   - splitPath: DescTw
     text: "初始武學[逆脈行鍼訣]\\n輔助回覆類【惡人谷】【特技】\\n40%機率為我方2名俠客新增強化狀態。"
-    translated: "Initial martial arts technique [Reversing Meridian Needling Art]\\nAssistant Response Category: Wuren Gu Evil Valley Skill\\nThere is a 40% chance of granting an enhanced state to one of our侠客."
-    flaggedForRetranslation: true
+    translated: "Initial martial arts technique [Reverse Meridian Needling Art]\\nAssistant response category: Villains Valley Special Skill\\nThere is a 40% chance for one of our Wanderers to gain an enhanced state."
 - raw: "{\r\n    \"Key\": 80008,\r\n    \"NameFinal\": \"裝神弄鬼\",\r\n    \"DescFinal\": \"初始武學[三清觀想法]\\\\n戰術協同類【惡人谷】【內功】\\\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。\",\r\n    \"Name\": \"装神弄鬼\",\r\n    \"Desc\": \"初始武学[三清观想法]\\\\n战术协同类【恶人谷】【内功】\\\\n释放战术【玉清观想法】或【太清观想法】或【上清观想法】。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"裝神弄鬼\",\r\n    \"DescTw\": \"初始武學[三清觀想法]\\\\n戰術協同類【惡人谷】【內功】\\\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。\"\r\n  }"
   rawIndex: 80008
   splits:
@@ -1676,13 +1670,13 @@
     translated: "Fake spirits and ghosts"
   - splitPath: DescFinal
     text: "初始武學[三清觀想法]\\n戰術協同類【惡人谷】【內功】\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。"
-    translated: "Initial martial arts technique [Sanqing Guan Thought Method]\\nTactical Synergy Evil Valley Internal Cultivation\\nRelease battle tactics Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
+    translated: "Initial martial arts technique [San Qing Guan Fa Xiang]\\nTactical Synergy Villains Valley Neigong\\nRelease battle tactic Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
   - splitPath: Name
     text: "装神弄鬼"
     translated: "Fooling around with spirits and ghosts"
   - splitPath: Desc
     text: "初始武学[三清观想法]\\n战术协同类【恶人谷】【内功】\\n释放战术【玉清观想法】或【太清观想法】或【上清观想法】。"
-    translated: "Initial martial arts technique [Sanqingguan Fanci]\\nTactical Coordination Evil Valley Neigong\\nRelease tactical Yqqguan Faxiang, Taiqingguan Faxiang, or Shangqingguan Faxiang."
+    translated: "Initial martial arts technique [Sanqingguan Fanci]\\nTactical Coordination Villains Valley Neigong\\nDeploy tactical Yuanqing Guan Faxiang, Taiqing Guan Faxiang, or Shangqing Guan Faxiang."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1691,7 +1685,7 @@
     translated: "Fake spirits and ghosts"
   - splitPath: DescTw
     text: "初始武學[三清觀想法]\\n戰術協同類【惡人谷】【內功】\\n釋放戰術【玉清觀想法】或【太清觀想法】或【上清觀想法】。"
-    translated: "Initial martial arts technique [Sanqing Guan Thought Method]\\nTactical Synergy Evil Valley Internal Cultivation\\nRelease battle tactics Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
+    translated: "Initial martial arts technique [San Qing Guan Fa Xiang]\\nTactical Synergy Villains Valley Neigong\\nRelease battle tactic Yingqing Guan Faxiang or Taiqing Guan Faxiang or Shangqing Guan Faxiang."
 - raw: "{\r\n    \"Key\": 80009,\r\n    \"NameFinal\": \"黑白顛倒\",\r\n    \"DescFinal\": \"初始武學[點墨誅心筆]\\\\n攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\",\r\n    \"Name\": \"黑白颠倒\",\r\n    \"Desc\": \"初始武学[点墨诛心笔]\\\\n攻击伤害类【恶人谷】【百兵】\\\\n100%使敌人进入绝脉状态，每场战斗只能使用一次。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"黑白顛倒\",\r\n    \"DescTw\": \"初始武學[點墨誅心筆]\\\\n攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\"\r\n  }"
   rawIndex: 80009
   splits:
@@ -1700,13 +1694,13 @@
     translated: "Right and wrong are reversed"
   - splitPath: DescFinal
     text: "初始武學[點墨誅心筆]\\n攻擊傷害類【惡人谷】【百兵】\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。"
-    translated: "Initial Martial Art [Dian Mo Zhuxin Bi]\\nDamage Type: [Evil Valley], [Hundred Weapons]\\n100% causes the enemy to enter a state of Absolute Pulse, which can only be used once per battle."
+    translated: "Initial martial skill [Dianmo Mind Attack Pen]\\nAttack Damage: Villains Valley, Hundred Weapons\\n100% puts enemies in a Jue Mai state, which can only be used once per battle."
   - splitPath: Name
     text: "黑白颠倒"
     translated: "Right and wrong are reversed"
   - splitPath: Desc
     text: "初始武学[点墨诛心笔]\\n攻击伤害类【恶人谷】【百兵】\\n100%使敌人进入绝脉状态，每场战斗只能使用一次。"
-    translated: "Initial Martial Art: Mind Attack Pen\\nAttack Damage Category: Evil Valley, Hundred Weapons\\n100% causes the enemy to enter a Jue Mai state, which can only be used once per battle."
+    translated: "Initial martial art technique [Pointed Ink Heartbreak Pen]\\nAttack Damage Classes: Villains Valley, Hundred Armors\\n100% causes the enemy to enter a Ju Mai state, which can only be used once per battle."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1715,7 +1709,7 @@
     translated: "Right and wrong are reversed"
   - splitPath: DescTw
     text: "初始武學[點墨誅心筆]\\n攻擊傷害類【惡人谷】【百兵】\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。"
-    translated: "Initial Martial Art [Dian Mo Zhuxin Bi]\\nDamage Type: [Evil Valley], [Hundred Weapons]\\n100% causes the enemy to enter a state of Absolute Pulse, which can only be used once per battle."
+    translated: "Initial martial skill [Dianmo Mind Attack Pen]\\nAttack Damage: Villains Valley, Hundred Weapons\\n100% puts enemies in a Jue Mai state, which can only be used once per battle."
 - raw: "{\r\n    \"Key\": 80010,\r\n    \"NameFinal\": \"念念心魔\",\r\n    \"DescFinal\": \"初始武學[六慾心魔引]\\\\n攻擊傷害類【惡人谷】【特技】\\\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。\",\r\n    \"Name\": \"念念心魔\",\r\n    \"Desc\": \"初始武学[六欲心魔引]\\\\n攻击伤害类【恶人谷】【特技】\\\\n敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%最大气血的伤害。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"念念心魔\",\r\n    \"DescTw\": \"初始武學[六慾心魔引]\\\\n攻擊傷害類【惡人谷】【特技】\\\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。\"\r\n  }"
   rawIndex: 80010
   splits:
@@ -1724,13 +1718,14 @@
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: DescFinal
     text: "初始武學[六慾心魔引]\\n攻擊傷害類【惡人谷】【特技】\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。"
-    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttack Damage Skill Evil Valley Talent\\nWhen the enemy is in an abnormal state, eliminate one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
+    translated: "Initial martial arts technique [Six Desire Inner Demon Invocation]\\nAttack Damage Special Technique Villains Valley\\nWhen the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of maximum lifeforce damage with a single attack."
   - splitPath: Name
     text: "念念心魔"
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: Desc
     text: "初始武学[六欲心魔引]\\n攻击伤害类【恶人谷】【特技】\\n敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%最大气血的伤害。"
-    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttacks Damage Skill Eren Gu Special Technique\\nWhen the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
+    translated: "Initial martial arts technique [Six Desires Inner Demon诱导]\\nAttacking Damage Special Technique Villains Valley\\nWhen the enemy is in an abnormal state, remove one of their abnormal states and cause 6% of their maximum lifeforce damage with a single attack."
+    flaggedForRetranslation: true
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1739,7 +1734,7 @@
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: DescTw
     text: "初始武學[六慾心魔引]\\n攻擊傷害類【惡人谷】【特技】\\n敵方處於異常狀態時，消除對方一個異常狀態，並單次攻擊造成6%最大氣血的傷害。"
-    translated: "Initial martial arts technique [Six Desires Inner Demon Induction]\\nAttack Damage Skill Evil Valley Talent\\nWhen the enemy is in an abnormal state, eliminate one of their abnormal states and deal 6% of their maximum lifeforce damage with a single attack."
+    translated: "Initial martial arts technique [Six Desire Inner Demon Invocation]\\nAttack Damage Special Technique Villains Valley\\nWhen the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of maximum lifeforce damage with a single attack."
 - raw: "{\r\n    \"Key\": 80011,\r\n    \"NameFinal\": \"鳳棲梧桐\",\r\n    \"DescFinal\": \"初始武學[鳳凰三展翅]\\\\n戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\",\r\n    \"Name\": \"凤栖梧桐\",\r\n    \"Desc\": \"初始武学[凤凰三展翅]\\\\n战术协同类【恶人谷】【心法】\\\\n释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"鳳棲梧桐\",\r\n    \"DescTw\": \"初始武學[鳳凰三展翅]\\\\n戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\"\r\n  }"
   rawIndex: 80011
   splits:
@@ -1748,13 +1743,14 @@
     translated: "Feng QiwuPhoenix Tree"
   - splitPath: DescFinal
     text: "初始武學[鳳凰三展翅]\\n戰術協同類【惡人谷】【心法】\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。"
-    translated: "Initial martial art [Feng Huang San Zhan Chi]\\nTactical Synergy Wicked Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, stamina continues to accumulate."
+    translated: "Initial martial art [Phoenix Three Spreads Wings]\\nTactical Synergy Villains Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, movement points continue to accumulate."
   - splitPath: Name
     text: "凤栖梧桐"
-    translated: "Phoenix Perching on the Parasol Tree"
+    translated: "Feng Qiwu亭"
+    flaggedForRetranslation: true
   - splitPath: Desc
     text: "初始武学[凤凰三展翅]\\n战术协同类【恶人谷】【心法】\\n释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。"
-    translated: "Initial martial art technique [Phoenix Three Spread Wings]\\nTactical Coordination Evil Valley Heart Method\\nDeploying the tactical maneuver Phoenix Soars Three Times can mitigate three damages. Using it causes your action points to accumulate continuously afterward."
+    translated: "Initial martial arts technique [Phoenix Three Spreads Wings]\\nTactical Coordination Villains Valley Heart Method\\nRelease the tactical maneuver Phoenix Soars with Three Wings, which can negate three damages. Using it will cause action points to continuously accumulate afterward."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1763,7 +1759,7 @@
     translated: "Feng QiwuPhoenix Tree"
   - splitPath: DescTw
     text: "初始武學[鳳凰三展翅]\\n戰術協同類【惡人谷】【心法】\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。"
-    translated: "Initial martial art [Feng Huang San Zhan Chi]\\nTactical Synergy Wicked Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, stamina continues to accumulate."
+    translated: "Initial martial art [Phoenix Three Spreads Wings]\\nTactical Synergy Villains Valley Heart Method\\nRelease tactic Phoenix Soaring with Three Wings can mitigate three damages. After using it, movement points continue to accumulate."
 - raw: "{\r\n    \"Key\": 80002,\r\n    \"NameFinal\": \"瀟湘夜雨\",\r\n    \"DescFinal\": \"初始武學[瀟湘訣]\\\\n戰術協同類【江湖】【內功】\\\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。\",\r\n    \"Name\": \"潇湘夜雨\",\r\n    \"Desc\": \"初始武学[潇湘诀]\\\\n战术协同类【江湖】【内功】\\\\n40%几率自动释放战术【潇湘诀】。潇湘诀40%几率触发，可叠加4层，每层伤害+10%。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"瀟湘夜雨\",\r\n    \"DescTw\": \"初始武學[瀟湘訣]\\\\n戰術協同類【江湖】【內功】\\\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。\"\r\n  }"
   rawIndex: 80002
   splits:
@@ -1772,7 +1768,7 @@
     translated: "Autumn Rain over Xiao River"
   - splitPath: DescFinal
     text: "初始武學[瀟湘訣]\\n戰術協同類【江湖】【內功】\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。"
-    translated: "Initial martial arts technique [Xiaoxiangjue]\\nTactical Synergy Jianghu Internal Power\\nThere is a 40% chance for the tactic Xiaoxiangjue to be automatically activated. Xiaoxiangjue has a 40% chance of triggering and can stack up to 4 layers, with each layer increasing damage by +10%."
+    translated: "Initial martial arts technique: Xionɡxianjue\\nTactical Synergy Jianghu Neigong\\nThere is a 40% chance for automatic release of the tactic 【Xiaoxiangjue】. Xiaoxiangjue has a 40% chance to trigger, which can stack up to 4 layers, with each layer increasing damage by +10%."
   - splitPath: Name
     text: "潇湘夜雨"
     translated: "NIGHT RAIN IN XIAOXIANG"
@@ -1787,7 +1783,7 @@
     translated: "Autumn Rain over Xiao River"
   - splitPath: DescTw
     text: "初始武學[瀟湘訣]\\n戰術協同類【江湖】【內功】\\n40%機率自動釋放戰術【瀟湘訣】。瀟湘訣40%機率觸發，可疊加4層，每層傷害+10%。"
-    translated: "Initial martial arts technique [Xiaoxiangjue]\\nTactical Synergy Jianghu Internal Power\\nThere is a 40% chance for the tactic Xiaoxiangjue to be automatically activated. Xiaoxiangjue has a 40% chance of triggering and can stack up to 4 layers, with each layer increasing damage by +10%."
+    translated: "Initial martial arts technique: Xionɡxianjue\\nTactical Synergy Jianghu Neigong\\nThere is a 40% chance for automatic release of the tactic 【Xiaoxiangjue】. Xiaoxiangjue has a 40% chance to trigger, which can stack up to 4 layers, with each layer increasing damage by +10%."
 - raw: "{\r\n    \"Key\": 100001,\r\n    \"NameFinal\": \"虺食奇功\",\r\n    \"DescFinal\": \"九嶷山蛇膽內息額外+3\",\r\n    \"Name\": \"虺食奇功\",\r\n    \"Desc\": \"九嶷山蛇胆内息额外+3\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"虺食奇功\",\r\n    \"DescTw\": \"九嶷山蛇膽內息額外+3\"\r\n  }"
   rawIndex: 100001
   splits:
@@ -1820,7 +1816,7 @@
     translated: "Heart Method of Sated Appetite"
   - splitPath: DescFinal
     text: "每次品嚐酒樓美食氣血額外+100"
-    translated: "Each time they savor the cuisine at the restaurant, their lifeforce increases by +100."
+    translated: "Each time they savor the tavern's delicacies, their lifeforce increases by +100."
   - splitPath: Name
     text: "饱食心法"
     translated: "Heart Method of Satedness"
@@ -1835,7 +1831,7 @@
     translated: "Heart Method of Sated Appetite"
   - splitPath: DescTw
     text: "每次品嚐酒樓美食氣血額外+100"
-    translated: "Each time they savor the cuisine at the restaurant, their lifeforce increases by +100."
+    translated: "Each time they savor the tavern's delicacies, their lifeforce increases by +100."
 - raw: "{\r\n    \"Key\": 100003,\r\n    \"NameFinal\": \"打坐功\",\r\n    \"DescFinal\": \"修煉內功時功力額外+10\",\r\n    \"Name\": \"打坐功\",\r\n    \"Desc\": \"修炼内功时功力额外+10\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"打坐功\",\r\n    \"DescTw\": \"修煉內功時功力額外+10\"\r\n  }"
   rawIndex: 100003
   splits:
@@ -1844,7 +1840,8 @@
     translated: "Meditation Technique"
   - splitPath: DescFinal
     text: "修煉內功時功力額外+10"
-    translated: "When cultivating internal energy, your power increases additionally by +10."
+    translated: "When practicing neigong, your internal power increases额外 by +10."
+    flaggedForRetranslation: true
   - splitPath: Name
     text: "打坐功"
     translated: "Meditation Technique"
@@ -1859,7 +1856,8 @@
     translated: "Meditation Technique"
   - splitPath: DescTw
     text: "修煉內功時功力額外+10"
-    translated: "When cultivating internal energy, your power increases additionally by +10."
+    translated: "When practicing neigong, your internal power increases额外 by +10."
+    flaggedForRetranslation: true
 - raw: "{\r\n    \"Key\": 100004,\r\n    \"NameFinal\": \"內丹術\",\r\n    \"DescFinal\": \"服用丹藥時氣血額外+100\",\r\n    \"Name\": \"内丹术\",\r\n    \"Desc\": \"服用丹药时气血额外+100\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"內丹術\",\r\n    \"DescTw\": \"服用丹藥時氣血額外+100\"\r\n  }"
   rawIndex: 100004
   splits:
@@ -1892,7 +1890,7 @@
     translated: "Dragon Calm Down"
   - splitPath: DescFinal
     text: "在水中修煉內功時功力額外+10"
-    translated: "While cultivating internal power in water, your abilities enhance additionally +10."
+    translated: "During neigong practice in water, your power increases additionally by +10."
   - splitPath: Name
     text: "蛟龙息"
     translated: "Dragon Calm Down"
@@ -1907,4 +1905,4 @@
     translated: "Dragon Calm Down"
   - splitPath: DescTw
     text: "在水中修煉內功時功力額外+10"
-    translated: "While cultivating internal power in water, your abilities enhance additionally +10."
+    translated: "During neigong practice in water, your power increases additionally by +10."

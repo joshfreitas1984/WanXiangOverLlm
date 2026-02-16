@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using Translate.Utility;
 
+
 namespace Translate;
 
 public class InputFileHandling

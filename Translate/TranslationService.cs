@@ -544,17 +544,21 @@ public static class TranslationService
             else if (raw.Contains("</color>"))
                 basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
 
+            // Qwen 2.5 hates size tags
+            if (raw.Contains("<size"))
+                basePrompt.AppendLine(config.Prompts["DynamicSizePrompt"]);
+            else if (raw.Contains("</size>"))
+                basePrompt.AppendLine(config.Prompts["DynamicCloseSizePrompt"]);
+
             //if (raw.Contains("·"))
             //    basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);
 
             if (raw.Contains("<"))
             {
-                var rawTags = HtmlTagHelpers.ExtractTagsListWithAttributes(raw, "color");
+                var rawTags = HtmlTagHelpers.ExtractTagsListWithAttributes(raw, "color", "size");
                 if (rawTags.Count > 0)
                 {
                     var prompt = string.Format(config.Prompts["DynamicTagPrompt"], string.Join("\n", rawTags));
-                    //Console.WriteLine(raw);
-                    //Console.WriteLine(prompt);
                     basePrompt.AppendLine(prompt);
                 }
             }

@@ -79,7 +79,7 @@ namespace Translate.Tests
         }
 
         [Fact]
-        public async Task FailedBecauseOfChineseCharacters()
+        public async Task TestExplainTagStripping()
         {
             using var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(300);
@@ -91,8 +91,6 @@ namespace Translate.Tests
 
             foreach (var failure in failures)
             {
-                if (Regex.IsMatch(failure.Translated, LineValidation.ChineseCharPattern))
-                {
                     var textFile = DefaultTestTextFile();
                     textFile.EnableBasePrompts = true;
                     textFile.EnableGlossary = true;
@@ -100,15 +98,14 @@ namespace Translate.Tests
                     var messages = TranslationService.GenerateBaseMessages(config, failure.Text, textFile);
                     messages.Add(LlmHelpers.GenerateAssistantPrompt(failure.Translated));
                     messages.Add(LlmHelpers.GenerateUserPrompt(
-                        @"You have added chinese characters in the translated response, why did you do that? 
+                        @"You have removed a tag from translated text
 Can you update the current system prompt and give me the full system prompt that would stop it from happening in future?"));
 
                     var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
 
-                    File.WriteAllText($"{workingDirectory}/TestResults/Failed/FailedBecauseOfChineseCharacters.txt", result);
+                    File.WriteAllText($"{workingDirectory}/TestResults/Failed/TestExplain.txt", result);
 
                     return;
-                }
             }
         }
 
@@ -127,7 +124,7 @@ Can you update the current system prompt and give me the full system prompt that
 
             foreach (var failure in failures)
             {
-                if (Regex.IsMatch(failure.Translated, LineValidation.ChineseCharPattern))
+                //if (Regex.IsMatch(failure.Translated, LineValidation.ChineseCharPattern))
                 {
                     var textFile = DefaultTestTextFile();
                     textFile.EnableGlossary = false;

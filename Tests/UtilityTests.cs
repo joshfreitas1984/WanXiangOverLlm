@@ -129,9 +129,9 @@ public class UtilityTests
     [InlineData("<button disabled>Click</button>", "<button disabled>Click</button>", true)]
     public void HtmlTagValidator_ValidateTags_Tests(string raw, string translated, bool expected, bool allowMissingColors = false)
     {
-        bool result = HtmlTagHelpers.ValidateTags(raw, translated, allowMissingColors);
+        var result = HtmlTagHelpers.ValidateTags(raw, translated, allowMissingColors);
 
-        Assert.Equal(expected, result);
+        Assert.Equal(expected, result.IsValid);
     }
 
     [Theory]

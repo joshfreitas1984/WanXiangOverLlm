@@ -325,7 +325,7 @@ public static partial class LineValidation
         if (result.Contains("</color") && raw.Contains("<color") && !result.Contains("<color"))
         {
             response = false;
-        }
+        } 
 
         // Random additions
         if (result.Contains("<br>") && !raw.Contains("<br>"))
@@ -380,8 +380,19 @@ public static partial class LineValidation
         }
 
         if (raw.Contains('<') && raw != "<商贩>" && !textFile.IgnoreHtmlTagsInText)
-            if (!HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags))
+        {
+            var validateTags = HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags);
+            if (!validateTags.IsValid)
+            {
                 response = false;
+
+                foreach (var tag in validateTags.MissingTags)
+                    correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", $"<{tag}>");
+
+                foreach (var tag in validateTags.ExtraTags)
+                    correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", $"<{tag}>");
+            }
+        }
 
         if (textFile.NameCleanupRoutines)
         {

@@ -86,12 +86,15 @@ public class GlossaryLine
         //prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
 
         prompt.AppendLine($"- raw: \"{raw}\"");
-        prompt.AppendLine($"  result: \"{translated}\"");
+        //prompt.AppendLine($"  result: \"{translated}\"");
+        prompt.AppendLine($"  result:");
+        prompt.AppendLine($"    - \"{translated}\"");
 
-        if (alternatives != null)
-            prompt.AppendLine($"  alternatives: \"{translated}\"");
+        //if (alternatives != null)
+        //    prompt.AppendLine($"  alternatives: \"{translated}\"");
 
         foreach (var alternative in alternatives ?? [])
+            //prompt.AppendLine($"    - \"{alternative}\"");
             prompt.AppendLine($"    - \"{alternative}\"");
 
         return prompt.ToString();

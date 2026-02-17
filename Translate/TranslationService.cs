@@ -511,8 +511,11 @@ public static class TranslationService
             basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines, splitFile.Path));
         }
 
-        basePrompt.AppendLine("");
-        basePrompt.AppendLine(config.Prompts["BaseSystemSuffixPrompt"]);
+        if (splitFile.EnableBasePrompts)
+        {
+            basePrompt.AppendLine("");
+            basePrompt.AppendLine(config.Prompts["BaseSystemSuffixPrompt"]);
+        }
 
         return
         [

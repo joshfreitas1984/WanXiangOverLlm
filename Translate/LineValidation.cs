@@ -346,6 +346,16 @@ public static partial class LineValidation
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectChinesePrompt");
+
+            // Flag for sentence-by-sentence correction strategy
+            var validationResult = new ValidationResult
+            {
+                Valid = response,
+                Result = result,
+                CorrectionPrompt = correctionPrompts.ToString(),
+                RequiresSentenceBySentenceCorrection = true
+            };
+            return validationResult;
         }
 
         // Dialog specific

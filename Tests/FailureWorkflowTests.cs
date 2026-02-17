@@ -13,7 +13,7 @@ namespace Translate.Tests
     public class FailureWorkflowTests
     {
         const string workingDirectory = "../../../../Files";
-        private const string FailingTransactionsPath = $"{workingDirectory}/TestResults/FailingTranslations.yaml";
+        private const string FailingTransactionsPath = $"{workingDirectory}/TestResults/Failed/FailingTranslations.yaml";
         
         public static TextFileToSplit DefaultTestTextFile() => new TextFileToSplit()
         {

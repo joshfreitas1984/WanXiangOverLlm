@@ -1235,6 +1235,20 @@
   rawTraditional: 江湖俠客
   result: Jianghu Wanderer
   badtrans: false
+- raw: 江湖奇人
+  rawSimplified: 江湖奇人
+  rawTraditional: 江湖奇人
+  result: Jianghu Eccentric
+  badtrans: true
+  direct: rivers lakes strange person
+  literal: jiang hu qi ren
+- raw: 江湖酒客
+  rawSimplified: 江湖酒客
+  rawTraditional: 江湖酒客
+  result: Jianghu Drunkard
+  badtrans: true
+  direct: rivers lakes wine guest
+  literal: jiang hu jiu ke
 
 # Titles
 - raw: 宗主
@@ -2148,6 +2162,9 @@
   result: Xiang Xifei
   direct: Xiang Xi Fei
   literal: Xiang Xi Fei
+  allowalt:
+    - fly west
+    - flies west
 - raw: 鍾離雪
   rawSimplified: 钟离雪
   rawTraditional: 鍾離雪
@@ -2686,9 +2703,11 @@
   rawSimplified: 霸王枪
   rawTraditional: 霸王槍
   result: Overlord Spear
+  allowalt: 
+    - Spear Overlord
   direct: Ba Wang Qiang
   literal: Ba Wang Qiang
-  badtrans: false
+  badtrans: true
 - raw: 狐鬼面
   result: Fox Demon Mask
   direct: Hu Gui Mian
@@ -2760,16 +2779,15 @@
   direct: Shou E Xian Zi
   literal: Shou E Xian Zi
 
-
 # Monsters
 - raw: 殷夜啼
   result: Yin Yetai
   direct: Yin Ye Ti
   literal: Yin Ye Ti
-- raw: 黑衣人
-  result: Man in Black
-  direct: Hei Yi Ren
-  literal: Hei Yi Ren
+# - raw: 黑衣人
+#   result: Man in Black
+#   direct: Hei Yi Ren
+#   literal: Hei Yi Ren
 - raw: 章太歧
   result: Zhang Taiqi
   direct: Zhang Tai Qi
@@ -2906,10 +2924,10 @@
   result: Wen Canyang
   direct: Wen Can Yang
   literal: Wen Residual Sun
-- raw: 江湖人
-  result: Jianghu People
-  direct: Jiang Hu Ren
-  literal: River Lake Person
+# - raw: 江湖人
+#   result: Jianghu People
+#   direct: Jiang Hu Ren
+#   literal: River Lake Person
 - raw: 黃亂
   rawSimplified: 黄乱
   rawTraditional: 黃亂
@@ -2944,6 +2962,8 @@
   rawSimplified: 武当弟子
   rawTraditional: 武當弟子
   result: Wudang Disciples
+  allowalt: 
+    - Wudang Disciple
   direct: Wu Dang Di Zi
   literal: Martial Hall Disciples
 - raw: 武和野豬

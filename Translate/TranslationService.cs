@@ -441,11 +441,34 @@ public static class TranslationService
                 // Append history of failures
                 if (!validationResult.Valid && config.CorrectionPromptsEnabled)
                 {
-                    var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
+                    // Use sentence-by-sentence correction for Chinese character issues
+                    if (validationResult.RequiresSentenceBySentenceCorrection)
+                    {
+                        var correctedResult = await CorrectSentenceBySentenceAsync(client, config, preparedRaw, llmResult, textFile);
+                        preparedResult = LineValidation.PrepareResult(preparedRaw, correctedResult);
+                        validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, textFile);
+                        validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, textFile, tokenReplacer);
 
-                    // Regenerate base messages so we dont hit token limit by constantly appending retry history
-                    messages = GenerateBaseMessages(config, preparedRaw, textFile);
-                    AddCorrectionMessages(messages, llmResult, correctionPrompt);
+                        if (config.SkipLineValidation)
+                            validationResult.Valid = true;
+
+                        // If sentence-by-sentence correction succeeded, break out of retry loop
+                        // If it still failed, regenerate messages with the corrected result for next retry
+                        if (!validationResult.Valid)
+                        {
+                            messages = GenerateBaseMessages(config, preparedRaw, textFile);
+                            var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, correctedResult);
+                            AddCorrectionMessages(messages, correctedResult, correctionPrompt);
+                        }
+                    }
+                    else
+                    {
+                        var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
+
+                        // Regenerate base messages so we dont hit token limit by constantly appending retry history
+                        messages = GenerateBaseMessages(config, preparedRaw, textFile);
+                        AddCorrectionMessages(messages, llmResult, correctionPrompt);
+                    }
                 }
 
                 retryCount++;
@@ -464,6 +487,47 @@ public static class TranslationService
     {
         messages.Add(LlmHelpers.GenerateAssistantPrompt(result));
         messages.Add(LlmHelpers.GenerateUserPrompt(correctionPrompt));
+    }
+
+    public static async Task<string> CorrectSentenceBySentenceAsync(HttpClient client, LlmConfig config, string raw, string failedResult, TextFileToSplit textFile)
+    {
+        // Split the failed result by sentences (period followed by space or end of string)
+        var sentences = failedResult.Split(new[] { ". " }, StringSplitOptions.None);
+        var correctedSentences = new List<string>();
+
+        for (int i = 0; i < sentences.Length; i++)
+        {
+            var sentence = sentences[i];
+
+            // Add period back if not the last sentence
+            if (i < sentences.Length - 1)
+                sentence += ".";
+
+            // Only correct sentences that contain Chinese characters
+            if (Regex.IsMatch(sentence, LineValidation.ChineseCharPattern) && !Regex.IsMatch(sentence, LineValidation.ChinesePlaceholderPattern))
+            {
+                // For individual sentence correction, use a minimal prompt without the full original text
+                // This prevents the LLM from re-translating everything
+                var messages = new List<object>
+                {
+                    LlmHelpers.GenerateSystemPrompt(config.Prompts["BaseSystemPrompt"]),
+                    LlmHelpers.GenerateUserPrompt("The following sentence contains untranslated Chinese characters. Translate all Chinese characters to English while keeping the rest of the sentence intact."),
+                    LlmHelpers.GenerateAssistantPrompt(sentence),
+                    LlmHelpers.GenerateUserPrompt("Translate all Chinese characters in this sentence to English. " + config.Prompts["BaseCorrectionSuffixPrompt"])
+                };
+
+                var correctedSentence = await TranslateMessagesAsync(client, config, messages);
+                correctedSentences.Add(correctedSentence.Trim());
+            }
+            else
+            {
+                // Sentence is fine, keep it as is
+                correctedSentences.Add(sentence);
+            }
+        }
+
+        // Rejoin sentences with proper spacing
+        return string.Join(" ", correctedSentences);
     }
 
     public static List<object> GenerateBaseMessages(LlmConfig config, string raw, TextFileToSplit splitFile, string additionalSystemPrompt = "")

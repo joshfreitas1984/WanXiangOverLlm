@@ -392,7 +392,15 @@ public static class TranslationService
         //if (split2)
         //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, fileName, tokenReplacer);
 
-        // TODO: We really should move this segementation to the object model itself and split it at export time
+
+        //TODO: Using GameTextFiles.SplitRegexPatterns - we want to translate the contents of the matches of the regex seperately and then put it back together.
+        //This is because the parentheses are often translated out of context or mix the translation with the rest of the line.
+        //For example: "天竺国《无量寿经》   4000钱" 
+        // We want to translate 《无量寿经》 first then put it back in rather than the LLM trying to translate it in context which often leads to it being mistranslated
+        // or left in Chinese because it doesnt understand the context of what it is.
+        // Would prefer we keep the types of parenthesis picked up by the regex but the LLM might strip them - so maybe we could use something that it won't strip like ' and then replace it back at the end.
+
+
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in GameTextFiles.SplitCharactersList)
         {

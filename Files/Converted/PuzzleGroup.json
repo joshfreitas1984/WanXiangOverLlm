@@ -1,4 +1,4 @@
-- raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"宋嫂魚羹是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"宋嫂鱼羹是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"宋嫂魚羹是哪裡的美食？\"\r\n  }"
+- raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"宋嫂魚羹是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"江南\",\r\n      \"齊魯\",\r\n      \"關中\",\r\n      \"三晉\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"宋嫂鱼羹是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"江南\",\r\n      \"齐鲁\",\r\n      \"关中\",\r\n      \"三晋\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"宋嫂魚羹是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"江南\",\r\n      \"齊魯\",\r\n      \"關中\",\r\n      \"三晉\"\r\n    ]\r\n  }"
   rawIndex: 0
   splits:
   - splitPath: Name
@@ -7,7 +7,22 @@
   - splitPath: Puzzle
     text: "宋嫂鱼羹是哪里的美食？"
     translated: "Where is the Song Sister Fish Soup dish from?"
-- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"曲米魚是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"曲米鱼是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"曲米魚是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "江南"
+    translated: "Jiangnan"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "齐鲁"
+    translated: "Qi Lu"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "关中"
+    translated: "Central Shaanxi"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "三晋"
+    translated: "Three Jin"
+- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"曲米魚是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"江右\",\r\n      \"嶺南\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"曲米鱼是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"吴越\",\r\n      \"荆湘\",\r\n      \"江右\",\r\n      \"岭南\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"曲米魚是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"江右\",\r\n      \"嶺南\"\r\n    ]\r\n  }"
   rawIndex: 1
   splits:
   - splitPath: Name
@@ -16,7 +31,22 @@
   - splitPath: Puzzle
     text: "曲米鱼是哪里的美食？"
     translated: "Where is the dish Qumi Fish from?"
-- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"夾沙肉是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"夹沙肉是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"夾沙肉是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "吴越"
+    translated: "Wu Yue"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "岭南"
+    translated: "Lingnan"
+- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"夾沙肉是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"吳越\",\r\n      \"江右\",\r\n      \"齊魯\",\r\n      \"川蜀\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"夹沙肉是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"吴越\",\r\n      \"江右\",\r\n      \"齐鲁\",\r\n      \"川蜀\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"夾沙肉是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"吳越\",\r\n      \"江右\",\r\n      \"齊魯\",\r\n      \"川蜀\"\r\n    ]\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
@@ -25,7 +55,22 @@
   - splitPath: Puzzle
     text: "夹沙肉是哪里的美食？"
     translated: "What is jiasa rou associated with?"
-- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"臘味合蒸是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"腊味合蒸是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"臘味合蒸是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "吴越"
+    translated: "Wu Yue"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "齐鲁"
+    translated: "Qi Lu"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "川蜀"
+    translated: "Sichuan Province"
+- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"臘味合蒸是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"關中\",\r\n      \"三晉\",\r\n      \"閩越\",\r\n      \"荊湘\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"腊味合蒸是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"关中\",\r\n      \"三晋\",\r\n      \"闽越\",\r\n      \"荆湘\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"臘味合蒸是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"關中\",\r\n      \"三晉\",\r\n      \"閩越\",\r\n      \"荊湘\"\r\n    ]\r\n  }"
   rawIndex: 3
   splits:
   - splitPath: Name
@@ -34,7 +79,22 @@
   - splitPath: Puzzle
     text: "腊味合蒸是哪里的美食？"
     translated: "La wei he zheng is a dish from which region's cuisine?"
-- raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"子龍脫袍是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"子龙脱袍是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"子龍脫袍是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "关中"
+    translated: "Central Shaanxi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "三晋"
+    translated: "Three Jin"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "闽越"
+    translated: "Min Yue"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "荆湘"
+    translated: "Jingxiang"
+- raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"子龍脫袍是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"江右\",\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"關中\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"子龙脱袍是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"江右\",\r\n      \"吴越\",\r\n      \"荆湘\",\r\n      \"关中\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"子龍脫袍是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"江右\",\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"關中\"\r\n    ]\r\n  }"
   rawIndex: 4
   splits:
   - splitPath: Name
@@ -43,7 +103,22 @@
   - splitPath: Puzzle
     text: "子龙脱袍是哪里的美食？"
     translated: "Zhuge Longtou taking off his robe is a culinary delight from where?"
-- raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"龍井蝦仁是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"龙井虾仁是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"龍井蝦仁是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "吴越"
+    translated: "Wu Yue"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "关中"
+    translated: "Central Shaanxi"
+- raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"龍井蝦仁是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"三晉\",\r\n      \"齊魯\",\r\n      \"江南\",\r\n      \"江右\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"龙井虾仁是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"三晋\",\r\n      \"齐鲁\",\r\n      \"江南\",\r\n      \"江右\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"龍井蝦仁是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"三晉\",\r\n      \"齊魯\",\r\n      \"江南\",\r\n      \"江右\"\r\n    ]\r\n  }"
   rawIndex: 5
   splits:
   - splitPath: Name
@@ -52,7 +127,22 @@
   - splitPath: Puzzle
     text: "龙井虾仁是哪里的美食？"
     translated: "What is Longjing Shrimp in terms of Chinese cuisine?"
-- raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"萬三蹄膀是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"万三蹄膀是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"萬三蹄膀是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "三晋"
+    translated: "Three Jin"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "齐鲁"
+    translated: "Qi Lu"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "江南"
+    translated: "Jiangnan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "江右"
+    translated: "Right Jiang Province"
+- raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"萬三蹄膀是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荊湘\",\r\n      \"關中\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"万三蹄膀是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荆湘\",\r\n      \"关中\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"萬三蹄膀是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荊湘\",\r\n      \"關中\"\r\n    ]\r\n  }"
   rawIndex: 6
   splits:
   - splitPath: Name
@@ -61,7 +151,22 @@
   - splitPath: Puzzle
     text: "万三蹄膀是哪里的美食？"
     translated: "Where is Wan San's Braised Beef Dish a culinary specialty?"
-- raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"及第粥是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"及第粥是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"及第粥是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "江南"
+    translated: "Jiangnan"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "川蜀"
+    translated: "Sichuan Province"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "关中"
+    translated: "Central Shaanxi"
+- raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"及第粥是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荊湘\",\r\n      \"嶺南\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"及第粥是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荆湘\",\r\n      \"岭南\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"及第粥是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"江南\",\r\n      \"川蜀\",\r\n      \"荊湘\",\r\n      \"嶺南\"\r\n    ]\r\n  }"
   rawIndex: 7
   splits:
   - splitPath: Name
@@ -70,7 +175,22 @@
   - splitPath: Puzzle
     text: "及第粥是哪里的美食？"
     translated: "Jidi porridge is a delicacy from which region?"
-- raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"太白鴨是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"太白鸭是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"太白鴨是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "江南"
+    translated: "Jiangnan"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "川蜀"
+    translated: "Sichuan Province"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "岭南"
+    translated: "Lingnan"
+- raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"太白鴨是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"關中\",\r\n      \"川蜀\",\r\n      \"齊魯\",\r\n      \"嶺南\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"太白鸭是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"关中\",\r\n      \"川蜀\",\r\n      \"齐鲁\",\r\n      \"岭南\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"太白鴨是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"關中\",\r\n      \"川蜀\",\r\n      \"齊魯\",\r\n      \"嶺南\"\r\n    ]\r\n  }"
   rawIndex: 8
   splits:
   - splitPath: Name
@@ -79,7 +199,22 @@
   - splitPath: Puzzle
     text: "太白鸭是哪里的美食？"
     translated: "Taibai duck is a delicacy from which region?"
-- raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"魚腹藏羊是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"鱼腹藏羊是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"魚腹藏羊是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "关中"
+    translated: "Central Shaanxi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "川蜀"
+    translated: "Sichuan Province"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "齐鲁"
+    translated: "Qi Lu"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "岭南"
+    translated: "Lingnan"
+- raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"魚腹藏羊是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"齊魯\",\r\n      \"三晉\",\r\n      \"川蜀\",\r\n      \"中原\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"鱼腹藏羊是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"齐鲁\",\r\n      \"三晋\",\r\n      \"川蜀\",\r\n      \"中原\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"魚腹藏羊是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"齊魯\",\r\n      \"三晉\",\r\n      \"川蜀\",\r\n      \"中原\"\r\n    ]\r\n  }"
   rawIndex: 9
   splits:
   - splitPath: Name
@@ -88,7 +223,22 @@
   - splitPath: Puzzle
     text: "鱼腹藏羊是哪里的美食？"
     translated: "The dish Fish Belly Conceals Sheep is a culinary specialty from the Huizhou region."
-- raw: "{\r\n    \"Key\": 10,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"東璧龍珠是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"东璧龙珠是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"東璧龍珠是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "齐鲁"
+    translated: "Qi Lu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "三晋"
+    translated: "Three Jin"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "川蜀"
+    translated: "Sichuan Province"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "中原"
+    translated: "Central Plains"
+- raw: "{\r\n    \"Key\": 10,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"東璧龍珠是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"荊湘\",\r\n      \"江右\",\r\n      \"嶺南\",\r\n      \"閩越\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"东璧龙珠是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"荆湘\",\r\n      \"江右\",\r\n      \"岭南\",\r\n      \"闽越\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"東璧龍珠是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"荊湘\",\r\n      \"江右\",\r\n      \"嶺南\",\r\n      \"閩越\"\r\n    ]\r\n  }"
   rawIndex: 10
   splits:
   - splitPath: Name
@@ -97,7 +247,22 @@
   - splitPath: Puzzle
     text: "东璧龙珠是哪里的美食？"
     translated: "The Dragon Ball of Dongbi is a delicacy from which place?"
-- raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"冰糖湘蓮是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"冰糖湘莲是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"冰糖湘蓮是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "岭南"
+    translated: "Lingnan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "闽越"
+    translated: "Min Yue"
+- raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"冰糖湘蓮是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"江右\",\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"川蜀\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"冰糖湘莲是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"江右\",\r\n      \"吴越\",\r\n      \"荆湘\",\r\n      \"川蜀\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"冰糖湘蓮是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"江右\",\r\n      \"吳越\",\r\n      \"荊湘\",\r\n      \"川蜀\"\r\n    ]\r\n  }"
   rawIndex: 11
   splits:
   - splitPath: Name
@@ -106,7 +271,22 @@
   - splitPath: Puzzle
     text: "冰糖湘莲是哪里的美食？"
     translated: "Where is the dish Ice Sugar Winter Melon a specialty of?"
-- raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"過油肉是哪裡的美食？\",\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"过油肉是哪里的美食？\",\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"過油肉是哪裡的美食？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "吴越"
+    translated: "Wu Yue"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "荆湘"
+    translated: "Jingxiang"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "川蜀"
+    translated: "Sichuan Province"
+- raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"翁和仲美食\",\r\n    \"PuzzleFinal\": \"過油肉是哪裡的美食？\",\r\n    \"AnswerListFinal\": [\r\n      \"川蜀\",\r\n      \"三晉\",\r\n      \"江右\",\r\n      \"齊魯\"\r\n    ],\r\n    \"Name\": \"翁和仲美食\",\r\n    \"Puzzle\": \"过油肉是哪里的美食？\",\r\n    \"AnswerList\": [\r\n      \"川蜀\",\r\n      \"三晋\",\r\n      \"江右\",\r\n      \"齐鲁\"\r\n    ],\r\n    \"NameTw\": \"翁和仲美食\",\r\n    \"PuzzleTw\": \"過油肉是哪裡的美食？\",\r\n    \"AnswerTwList\": [\r\n      \"川蜀\",\r\n      \"三晉\",\r\n      \"江右\",\r\n      \"齊魯\"\r\n    ]\r\n  }"
   rawIndex: 12
   splits:
   - splitPath: Name
@@ -115,7 +295,22 @@
   - splitPath: Puzzle
     text: "过油肉是哪里的美食？"
     translated: "Is braised meat in oil a dish from a specific region?"
-- raw: "{\r\n    \"Key\": 21,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"哪一本是儒家“四書”之一？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"哪一本是儒家“四书”之一？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"哪一本是儒家“四書”之一？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "川蜀"
+    translated: "Sichuan Province"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "三晋"
+    translated: "Three Jin"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "江右"
+    translated: "Right Jiang Province"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "齐鲁"
+    translated: "Qi Lu"
+- raw: "{\r\n    \"Key\": 21,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"哪一本是儒家“四書”之一？\",\r\n    \"AnswerListFinal\": [\r\n      \"《孟子》\",\r\n      \"《莊子》\",\r\n      \"《韓非子》\",\r\n      \"《淮南子》\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"哪一本是儒家“四书”之一？\",\r\n    \"AnswerList\": [\r\n      \"《孟子》\",\r\n      \"《庄子》\",\r\n      \"《韩非子》\",\r\n      \"《淮南子》\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"哪一本是儒家“四書”之一？\",\r\n    \"AnswerTwList\": [\r\n      \"《孟子》\",\r\n      \"《莊子》\",\r\n      \"《韓非子》\",\r\n      \"《淮南子》\"\r\n    ]\r\n  }"
   rawIndex: 21
   splits:
   - splitPath: Name
@@ -124,7 +319,22 @@
   - splitPath: Puzzle
     text: "哪一本是儒家“四书”之一？"
     translated: "Which one is one of the Four Books of Confucianism?"
-- raw: "{\r\n    \"Key\": 22,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五常”指的什麼？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五常”指的什么？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五常”指的什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《孟子》"
+    translated: "Meng Zi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《庄子》"
+    translated: "Zhuangzi"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《韩非子》"
+    translated: "Han Feizi"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《淮南子》"
+    translated: "Huai Nami zi"
+- raw: "{\r\n    \"Key\": 22,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五常”指的什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"忠、孝、節、義、廉\",\r\n      \"禮、樂、射、御、書\",\r\n      \"仁、義、禮、智、信\",\r\n      \"道、德、仁、義、禮\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五常”指的什么？\",\r\n    \"AnswerList\": [\r\n      \"忠、孝、节、义、廉\",\r\n      \"礼、乐、射、御、书\",\r\n      \"仁、义、礼、智、信\",\r\n      \"道、德、仁、义、礼\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五常”指的什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"忠、孝、節、義、廉\",\r\n      \"禮、樂、射、御、書\",\r\n      \"仁、義、禮、智、信\",\r\n      \"道、德、仁、義、禮\"\r\n    ]\r\n  }"
   rawIndex: 22
   splits:
   - splitPath: Name
@@ -133,7 +343,22 @@
   - splitPath: Puzzle
     text: "“五常”指的什么？"
     translated: "Five Constants refers to five moral principles in Confucianism: righteousness, propriety, wisdom, faithfulness, and kindness."
-- raw: "{\r\n    \"Key\": 23,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“中庸”指的什麼？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“中庸”指的什么？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“中庸”指的什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "忠、孝、节、义、廉"
+    translated: "Loyalty, filial piety, chastity, righteousness, integrity"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "礼、乐、射、御、书"
+    translated: "Ritual, music, archery, charioteering, calligraphy"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "仁、义、礼、智、信"
+    translated: "Benevolence, righteousness, propriety, wisdom, integrity"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "道、德、仁、义、礼"
+    translated: "Way, Virtue, Benevolence, Righteousness, Propriety"
+- raw: "{\r\n    \"Key\": 23,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“中庸”指的什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"極端行為\",\r\n      \"隨波逐流\",\r\n      \"消極避世\",\r\n      \"不偏不倚\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“中庸”指的什么？\",\r\n    \"AnswerList\": [\r\n      \"极端行为\",\r\n      \"随波逐流\",\r\n      \"消极避世\",\r\n      \"不偏不倚\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“中庸”指的什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"極端行為\",\r\n      \"隨波逐流\",\r\n      \"消極避世\",\r\n      \"不偏不倚\"\r\n    ]\r\n  }"
   rawIndex: 23
   splits:
   - splitPath: Name
@@ -142,7 +367,22 @@
   - splitPath: Puzzle
     text: "“中庸”指的什么？"
     translated: "Middle Way refers to a balanced approach that avoids extremes."
-- raw: "{\r\n    \"Key\": 24,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰提出的“性惡論”？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁提出的“性恶论”？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰提出的“性惡論”？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "极端行为"
+    translated: "Extreme behavior"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "随波逐流"
+    translated: "Go with the flow"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "消极避世"
+    translated: "Retreat from society"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "不偏不倚"
+    translated: "Fair and impartial"
+- raw: "{\r\n    \"Key\": 24,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰提出的“性惡論”？\",\r\n    \"AnswerListFinal\": [\r\n      \"孟子\",\r\n      \"荀子\",\r\n      \"孔子\",\r\n      \"莊子\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁提出的“性恶论”？\",\r\n    \"AnswerList\": [\r\n      \"孟子\",\r\n      \"荀子\",\r\n      \"孔子\",\r\n      \"庄子\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰提出的“性惡論”？\",\r\n    \"AnswerTwList\": [\r\n      \"孟子\",\r\n      \"荀子\",\r\n      \"孔子\",\r\n      \"莊子\"\r\n    ]\r\n  }"
   rawIndex: 24
   splits:
   - splitPath: Name
@@ -151,7 +391,22 @@
   - splitPath: Puzzle
     text: "谁提出的“性恶论”？"
     translated: "Who proposed the doctrine of inherent evil?"
-- raw: "{\r\n    \"Key\": 25,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"哪一本是儒家“五經”之一？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"哪一本是儒家“五经”之一？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"哪一本是儒家“五經”之一？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "孟子"
+    translated: "Meng Zi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "荀子"
+    translated: "Xunzi"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "孔子"
+    translated: "Confucius"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "庄子"
+    translated: "Zhuangzi"
+- raw: "{\r\n    \"Key\": 25,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"哪一本是儒家“五經”之一？\",\r\n    \"AnswerListFinal\": [\r\n      \"《孝經》\",\r\n      \"《詩經》\",\r\n      \"《難經》\",\r\n      \"《茶經》\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"哪一本是儒家“五经”之一？\",\r\n    \"AnswerList\": [\r\n      \"《孝经》\",\r\n      \"《诗经》\",\r\n      \"《难经》\",\r\n      \"《茶经》\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"哪一本是儒家“五經”之一？\",\r\n    \"AnswerTwList\": [\r\n      \"《孝經》\",\r\n      \"《詩經》\",\r\n      \"《難經》\",\r\n      \"《茶經》\"\r\n    ]\r\n  }"
   rawIndex: 25
   splits:
   - splitPath: Name
@@ -160,7 +415,22 @@
   - splitPath: Puzzle
     text: "哪一本是儒家“五经”之一？"
     translated: "Which one is one of the Five Classics of Confucianism?"
-- raw: "{\r\n    \"Key\": 26,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五倫”中不包含哪一種？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五伦”中不包含哪一种？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五倫”中不包含哪一種？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《孝经》"
+    translated: "Classic of Filial Piety"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《诗经》"
+    translated: "Classic of Poetry"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《难经》"
+    translated: "Difficult Classic"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《茶经》"
+    translated: "Classic of Tea"
+- raw: "{\r\n    \"Key\": 26,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五倫”中不包含哪一種？\",\r\n    \"AnswerListFinal\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"師徒\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五伦”中不包含哪一种？\",\r\n    \"AnswerList\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"师徒\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五倫”中不包含哪一種？\",\r\n    \"AnswerTwList\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"師徒\"\r\n    ]\r\n  }"
   rawIndex: 26
   splits:
   - splitPath: Name
@@ -169,7 +439,22 @@
   - splitPath: Puzzle
     text: "“五伦”中不包含哪一种？"
     translated: "Which of the Five Constants is not included?"
-- raw: "{\r\n    \"Key\": 27,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“復聖”所指的是誰？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“复圣”所指的是谁？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“復聖”所指的是誰？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "父子"
+    translated: "Father and son"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "君臣"
+    translated: "King and minister"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "朋友"
+    translated: "Friend"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "师徒"
+    translated: "Master and apprentice"
+- raw: "{\r\n    \"Key\": 27,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“復聖”所指的是誰？\",\r\n    \"AnswerListFinal\": [\r\n      \"子路\",\r\n      \"顏回\",\r\n      \"子貢\",\r\n      \"冉求\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“复圣”所指的是谁？\",\r\n    \"AnswerList\": [\r\n      \"子路\",\r\n      \"颜回\",\r\n      \"子贡\",\r\n      \"冉求\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“復聖”所指的是誰？\",\r\n    \"AnswerTwList\": [\r\n      \"子路\",\r\n      \"顏回\",\r\n      \"子貢\",\r\n      \"冉求\"\r\n    ]\r\n  }"
   rawIndex: 27
   splits:
   - splitPath: Name
@@ -178,7 +463,22 @@
   - splitPath: Puzzle
     text: "“复圣”所指的是谁？"
     translated: "Revered Sage refers to who?"
-- raw: "{\r\n    \"Key\": 28,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“六藝”指的什麼？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“六艺”指的什么？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“六藝”指的什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "子路"
+    translated: "Zilu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "颜回"
+    translated: "Yan Hui"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "子贡"
+    translated: "Zi Gong"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "冉求"
+    translated: "Ran Qiu"
+- raw: "{\r\n    \"Key\": 28,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“六藝”指的什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"琴、棋、書、畫、詩、酒\",\r\n      \"禮、樂、射、御、書、數\",\r\n      \"仁、義、禮、智、信、忠\",\r\n      \"詩、書、禮、樂、易、春秋\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“六艺”指的什么？\",\r\n    \"AnswerList\": [\r\n      \"琴、棋、书、画、诗、酒\",\r\n      \"礼、乐、射、御、书、数\",\r\n      \"仁、义、礼、智、信、忠\",\r\n      \"诗、书、礼、乐、易、春秋\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“六藝”指的什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"琴、棋、書、畫、詩、酒\",\r\n      \"禮、樂、射、御、書、數\",\r\n      \"仁、義、禮、智、信、忠\",\r\n      \"詩、書、禮、樂、易、春秋\"\r\n    ]\r\n  }"
   rawIndex: 28
   splits:
   - splitPath: Name
@@ -187,7 +487,22 @@
   - splitPath: Puzzle
     text: "“六艺”指的什么？"
     translated: "What are the Six Arts?"
-- raw: "{\r\n    \"Key\": 29,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰主張“性即理”？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁主张“性即理”？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰主張“性即理”？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "琴、棋、书、画、诗、酒"
+    translated: "Qin, qi, shu, hua, shi, jiu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "礼、乐、射、御、书、数"
+    translated: "Etiquette, Music, Archery, Charioteering, Writing, Mathematics"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "仁、义、礼、智、信、忠"
+    translated: "Benevolence, righteousness, propriety, wisdom, trustworthiness, loyalty"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "诗、书、礼、乐、易、春秋"
+    translated: "Poetry, Books, Rituals, Music, Change, Spring and Autumn"
+- raw: "{\r\n    \"Key\": 29,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰主張“性即理”？\",\r\n    \"AnswerListFinal\": [\r\n      \"朱熹\",\r\n      \"陳獻章\",\r\n      \"陸九淵\",\r\n      \"王陽明\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁主张“性即理”？\",\r\n    \"AnswerList\": [\r\n      \"朱熹\",\r\n      \"陈献章\",\r\n      \"陆九渊\",\r\n      \"王阳明\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰主張“性即理”？\",\r\n    \"AnswerTwList\": [\r\n      \"朱熹\",\r\n      \"陳獻章\",\r\n      \"陸九淵\",\r\n      \"王陽明\"\r\n    ]\r\n  }"
   rawIndex: 29
   splits:
   - splitPath: Name
@@ -196,7 +511,22 @@
   - splitPath: Puzzle
     text: "谁主张“性即理”？"
     translated: "Who proposed sex is reason?"
-- raw: "{\r\n    \"Key\": 30,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰主張“心即理”？\",\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁主张“心即理”？\",\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰主張“心即理”？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "朱熹"
+    translated: "Zhu Xi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "陈献章"
+    translated: "Chen Xianzhang"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "陆九渊"
+    translated: "Lu Jiuyuan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "王阳明"
+    translated: "Yang Ming"
+- raw: "{\r\n    \"Key\": 30,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"誰主張“心即理”？\",\r\n    \"AnswerListFinal\": [\r\n      \"朱熹\",\r\n      \"程顥\",\r\n      \"程頤\",\r\n      \"王陽明\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"谁主张“心即理”？\",\r\n    \"AnswerList\": [\r\n      \"朱熹\",\r\n      \"程颢\",\r\n      \"程颐\",\r\n      \"王阳明\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"誰主張“心即理”？\",\r\n    \"AnswerTwList\": [\r\n      \"朱熹\",\r\n      \"程顥\",\r\n      \"程頤\",\r\n      \"王陽明\"\r\n    ]\r\n  }"
   rawIndex: 30
   splits:
   - splitPath: Name
@@ -205,7 +535,22 @@
   - splitPath: Puzzle
     text: "谁主张“心即理”？"
     translated: "Who proposed that the heart is the principle?"
-- raw: "{\r\n    \"Key\": 31,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“气势贯通、使转交替、化繁为简”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "朱熹"
+    translated: "Zhu Xi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "程颢"
+    translated: "Cheng Hao"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "程颐"
+    translated: "Cheng Yi"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "王阳明"
+    translated: "Yang Ming"
+- raw: "{\r\n    \"Key\": 31,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點\",\r\n    \"AnswerListFinal\": [\r\n      \"篆書\",\r\n      \"草書\",\r\n      \"楷書\",\r\n      \"隸書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“气势贯通、使转交替、化繁为简”是哪种书法的特点\",\r\n    \"AnswerList\": [\r\n      \"篆书\",\r\n      \"草书\",\r\n      \"楷书\",\r\n      \"隶书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“氣勢貫通、使轉交替、化繁為簡”是哪種書法的特點\",\r\n    \"AnswerTwList\": [\r\n      \"篆書\",\r\n      \"草書\",\r\n      \"楷書\",\r\n      \"隸書\"\r\n    ]\r\n  }"
   rawIndex: 31
   splits:
   - splitPath: Name
@@ -214,7 +559,22 @@
   - splitPath: Puzzle
     text: "“气势贯通、使转交替、化繁为简”是哪种书法的特点"
     translated: "Momentum flows through, circular movements alternate with changes in direction, simplifying complexity is a characteristic of which calligraphy style?"
-- raw: "{\r\n    \"Key\": 32,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "篆书"
+    translated: "Oracle bone script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "隶书"
+    translated: "Clerical script"
+- raw: "{\r\n    \"Key\": 32,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\",\r\n    \"AnswerListFinal\": [\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点\",\r\n    \"AnswerList\": [\r\n      \"篆书\",\r\n      \"楷书\",\r\n      \"隶书\",\r\n      \"草书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆畫流暢、字形圓轉、尚婉而通”是哪種書法的特點\",\r\n    \"AnswerTwList\": [\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\"\r\n    ]\r\n  }"
   rawIndex: 32
   splits:
   - splitPath: Name
@@ -223,7 +583,22 @@
   - splitPath: Puzzle
     text: "“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点"
     translated: "Pen strokes are fluid, characters round and graceful, yet still harmonious is a characteristic of Cao calligraphy."
-- raw: "{\r\n    \"Key\": 33,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“结构严谨、重心平稳、用笔规矩”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "篆书"
+    translated: "Oracle bone script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "草书"
+    translated: "Cursive script"
+- raw: "{\r\n    \"Key\": 33,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\",\r\n    \"AnswerListFinal\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“结构严谨、重心平稳、用笔规矩”是哪种书法的特点\",\r\n    \"AnswerList\": [\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"楷书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“結構嚴謹、重心平穩、用筆規矩”是哪種書法的特點\",\r\n    \"AnswerTwList\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 33
   splits:
   - splitPath: Name
@@ -232,7 +607,22 @@
   - splitPath: Puzzle
     text: "“结构严谨、重心平稳、用笔规矩”是哪种书法的特点"
     translated: "Structure is rigorous, center of gravity is steady, and brushwork is proper are the characteristics of Regular Script in Chinese calligraphy."
-- raw: "{\r\n    \"Key\": 34,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔势生动、横平竖直、波磔分明”是哪种书法的特点\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 34,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\",\r\n    \"AnswerListFinal\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“笔势生动、横平竖直、波磔分明”是哪种书法的特点\",\r\n    \"AnswerList\": [\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"篆书\",\r\n      \"楷书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“筆勢生動、橫平豎直、波磔分明”是哪種書法的特點\",\r\n    \"AnswerTwList\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\"\r\n    ]\r\n  }"
   rawIndex: 34
   splits:
   - splitPath: Name
@@ -241,7 +631,22 @@
   - splitPath: Puzzle
     text: "“笔势生动、横平竖直、波磔分明”是哪种书法的特点"
     translated: "This style of calligraphy is characterized by dynamic brushwork, level horizontals and verticals, and clear wave‑like strokes."
-- raw: "{\r\n    \"Key\": 35,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《曹全碑》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《曹全碑》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《曹全碑》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "篆书"
+    translated: "Oracle bone script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "楷书"
+    translated: "Regular script"
+- raw: "{\r\n    \"Key\": 35,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《曹全碑》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《曹全碑》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"楷书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《曹全碑》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 35
   splits:
   - splitPath: Name
@@ -250,7 +655,22 @@
   - splitPath: Puzzle
     text: "《曹全碑》是哪种书法形式的代表作？"
     translated: "The Caoshu calligraphy style is represented by the Cao Quan Stele."
-- raw: "{\r\n    \"Key\": 36,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《張遷碑》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《张迁碑》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《張遷碑》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 36,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《張遷碑》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"楷書\",\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《张迁碑》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"楷书\",\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《張遷碑》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"楷書\",\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 36
   splits:
   - splitPath: Name
@@ -259,7 +679,22 @@
   - splitPath: Puzzle
     text: "《张迁碑》是哪种书法形式的代表作？"
     translated: "The Zhang Qian Stele is a representative work of which calligraphic style?"
-- raw: "{\r\n    \"Key\": 37,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《九成宮醴泉銘》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《九成宫醴泉铭》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《九成宮醴泉銘》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 37,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《九成宮醴泉銘》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《九成宫醴泉铭》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"楷书\",\r\n      \"隶书\",\r\n      \"草书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《九成宮醴泉銘》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 37
   splits:
   - splitPath: Name
@@ -268,7 +703,22 @@
   - splitPath: Puzzle
     text: "《九成宫醴泉铭》是哪种书法形式的代表作？"
     translated: "The Nine Provinces Palace Lithographic Spring Inscription is a representative work of which calligraphy style?"
-- raw: "{\r\n    \"Key\": 38,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《多寶塔碑》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《多宝塔碑》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《多寶塔碑》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 38,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《多寶塔碑》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"草書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《多宝塔碑》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"隶书\",\r\n      \"篆书\",\r\n      \"楷书\",\r\n      \"草书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《多寶塔碑》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"草書\"\r\n    ]\r\n  }"
   rawIndex: 38
   splits:
   - splitPath: Name
@@ -277,7 +727,22 @@
   - splitPath: Puzzle
     text: "《多宝塔碑》是哪种书法形式的代表作？"
     translated: "The Multiprecious Treasure Pagoda Stele is a representative work of which calligraphic style?"
-- raw: "{\r\n    \"Key\": 39,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《古詩四帖》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《古诗四帖》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《古詩四帖》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "篆书"
+    translated: "Oracle bone script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "草书"
+    translated: "Cursive script"
+- raw: "{\r\n    \"Key\": 39,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《古詩四帖》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《古诗四帖》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"楷书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《古詩四帖》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 39
   splits:
   - splitPath: Name
@@ -286,7 +751,22 @@
   - splitPath: Puzzle
     text: "《古诗四帖》是哪种书法形式的代表作？"
     translated: "Four Scripts of Ancient Poetry is a representative work of which calligraphic style?"
-- raw: "{\r\n    \"Key\": 40,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《自敘帖》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《自叙帖》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《自敘帖》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 40,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《自敘帖》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"楷書\",\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《自叙帖》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"楷书\",\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《自敘帖》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"楷書\",\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 40
   splits:
   - splitPath: Name
@@ -295,7 +775,22 @@
   - splitPath: Puzzle
     text: "《自叙帖》是哪种书法形式的代表作？"
     translated: "The Autobiographical Scroll is a representative work of which calligraphy style?"
-- raw: "{\r\n    \"Key\": 41,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《嶧山刻石》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《峄山刻石》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《嶧山刻石》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 41,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《嶧山刻石》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《峄山刻石》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"楷书\",\r\n      \"隶书\",\r\n      \"草书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《嶧山刻石》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"楷書\",\r\n      \"隸書\",\r\n      \"草書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 41
   splits:
   - splitPath: Name
@@ -304,7 +799,22 @@
   - splitPath: Puzzle
     text: "《峄山刻石》是哪种书法形式的代表作？"
     translated: "What is the 'Yishan Stele' a representative work of in terms of calligraphy style?"
-- raw: "{\r\n    \"Key\": 42,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《三墳記》是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《三坟记》是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《三墳記》是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 42,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"《三墳記》是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"草書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"《三坟记》是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"隶书\",\r\n      \"篆书\",\r\n      \"楷书\",\r\n      \"草书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"《三墳記》是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"隸書\",\r\n      \"篆書\",\r\n      \"楷書\",\r\n      \"草書\"\r\n    ]\r\n  }"
   rawIndex: 42
   splits:
   - splitPath: Name
@@ -313,7 +823,22 @@
   - splitPath: Puzzle
     text: "《三坟记》是哪种书法形式的代表作？"
     translated: "Which calligraphy style is Sanzhuming a representative work of?"
-- raw: "{\r\n    \"Key\": 43,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是草書的代表人物？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是草书的代表人物？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是草書的代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "篆书"
+    translated: "Oracle bone script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "草书"
+    translated: "Cursive script"
+- raw: "{\r\n    \"Key\": 43,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是草書的代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"張旭\",\r\n      \"歐陽詢\",\r\n      \"李斯\",\r\n      \"蔡邕\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是草书的代表人物？\",\r\n    \"AnswerList\": [\r\n      \"张旭\",\r\n      \"欧阳询\",\r\n      \"李斯\",\r\n      \"蔡邕\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是草書的代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"張旭\",\r\n      \"歐陽詢\",\r\n      \"李斯\",\r\n      \"蔡邕\"\r\n    ]\r\n  }"
   rawIndex: 43
   splits:
   - splitPath: Name
@@ -322,7 +847,22 @@
   - splitPath: Puzzle
     text: "谁是草书的代表人物？"
     translated: "Who are the representative figures of cursive script?"
-- raw: "{\r\n    \"Key\": 44,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是篆書的代表人物？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是篆书的代表人物？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是篆書的代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "张旭"
+    translated: "Zhang Xu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "欧阳询"
+    translated: "Yang Xuwen"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "李斯"
+    translated: "Li Si"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "蔡邕"
+    translated: "Cai Yong"
+- raw: "{\r\n    \"Key\": 44,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是篆書的代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"李斯\",\r\n      \"懷素\",\r\n      \"顏真卿\",\r\n      \"王獻之\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是篆书的代表人物？\",\r\n    \"AnswerList\": [\r\n      \"李斯\",\r\n      \"怀素\",\r\n      \"颜真卿\",\r\n      \"王献之\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是篆書的代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"李斯\",\r\n      \"懷素\",\r\n      \"顏真卿\",\r\n      \"王獻之\"\r\n    ]\r\n  }"
   rawIndex: 44
   splits:
   - splitPath: Name
@@ -331,7 +871,22 @@
   - splitPath: Puzzle
     text: "谁是篆书的代表人物？"
     translated: "Who are the representative figures of seal script?"
-- raw: "{\r\n    \"Key\": 45,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是楷書的代表人物？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是楷书的代表人物？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是楷書的代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李斯"
+    translated: "Li Si"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "怀素"
+    translated: "Huaisu"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "颜真卿"
+    translated: "Yan Zhenqing"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "王献之"
+    translated: "Wang Xianzhi"
+- raw: "{\r\n    \"Key\": 45,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是楷書的代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"李斯\",\r\n      \"皇象\",\r\n      \"柳公權\",\r\n      \"張旭\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是楷书的代表人物？\",\r\n    \"AnswerList\": [\r\n      \"李斯\",\r\n      \"皇象\",\r\n      \"柳公权\",\r\n      \"张旭\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是楷書的代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"李斯\",\r\n      \"皇象\",\r\n      \"柳公權\",\r\n      \"張旭\"\r\n    ]\r\n  }"
   rawIndex: 45
   splits:
   - splitPath: Name
@@ -340,7 +895,22 @@
   - splitPath: Puzzle
     text: "谁是楷书的代表人物？"
     translated: "Who are the representative figures of regular script?"
-- raw: "{\r\n    \"Key\": 46,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是隸書的代表人物？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是隶书的代表人物？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是隸書的代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李斯"
+    translated: "Li Si"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "皇象"
+    translated: "Emperor Xiang"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "柳公权"
+    translated: "Liu Gongquan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "张旭"
+    translated: "Zhang Xu"
+- raw: "{\r\n    \"Key\": 46,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"誰是隸書的代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"懷素\",\r\n      \"蔡邕\",\r\n      \"顏真卿\",\r\n      \"王羲之\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"谁是隶书的代表人物？\",\r\n    \"AnswerList\": [\r\n      \"怀素\",\r\n      \"蔡邕\",\r\n      \"颜真卿\",\r\n      \"王羲之\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"誰是隸書的代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"懷素\",\r\n      \"蔡邕\",\r\n      \"顏真卿\",\r\n      \"王羲之\"\r\n    ]\r\n  }"
   rawIndex: 46
   splits:
   - splitPath: Name
@@ -349,7 +919,22 @@
   - splitPath: Puzzle
     text: "谁是隶书的代表人物？"
     translated: "Who are the representative figures of clerical script?"
-- raw: "{\r\n    \"Key\": 47,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“正書”是哪種書法形式的代表作？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“正书”是哪种书法形式的代表作？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“正書”是哪種書法形式的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "怀素"
+    translated: "Huaisu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "蔡邕"
+    translated: "Cai Yong"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "颜真卿"
+    translated: "Yan Zhenqing"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "王羲之"
+    translated: "Wang Xizhi"
+- raw: "{\r\n    \"Key\": 47,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“正書”是哪種書法形式的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“正书”是哪种书法形式的代表作？\",\r\n    \"AnswerList\": [\r\n      \"草书\",\r\n      \"隶书\",\r\n      \"楷书\",\r\n      \"篆书\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“正書”是哪種書法形式的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"草書\",\r\n      \"隸書\",\r\n      \"楷書\",\r\n      \"篆書\"\r\n    ]\r\n  }"
   rawIndex: 47
   splits:
   - splitPath: Name
@@ -358,7 +943,22 @@
   - splitPath: Puzzle
     text: "“正书”是哪种书法形式的代表作？"
     translated: "Regular script is which calligraphic style's representative work?"
-- raw: "{\r\n    \"Key\": 48,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“小篆”出現在哪個朝代？\",\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“小篆”出现在哪个朝代？\",\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“小篆”出現在哪個朝代？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "草书"
+    translated: "Cursive script"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "隶书"
+    translated: "Clerical script"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "楷书"
+    translated: "Regular script"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "篆书"
+    translated: "Oracle bone script"
+- raw: "{\r\n    \"Key\": 48,\r\n    \"NameFinal\": \"東廬考題\",\r\n    \"PuzzleFinal\": \"“小篆”出現在哪個朝代？\",\r\n    \"AnswerListFinal\": [\r\n      \"宋朝\",\r\n      \"唐朝\",\r\n      \"漢朝\",\r\n      \"秦朝\"\r\n    ],\r\n    \"Name\": \"东庐考题\",\r\n    \"Puzzle\": \"“小篆”出现在哪个朝代？\",\r\n    \"AnswerList\": [\r\n      \"宋朝\",\r\n      \"唐朝\",\r\n      \"汉朝\",\r\n      \"秦朝\"\r\n    ],\r\n    \"NameTw\": \"東廬考題\",\r\n    \"PuzzleTw\": \"“小篆”出現在哪個朝代？\",\r\n    \"AnswerTwList\": [\r\n      \"宋朝\",\r\n      \"唐朝\",\r\n      \"漢朝\",\r\n      \"秦朝\"\r\n    ]\r\n  }"
   rawIndex: 48
   splits:
   - splitPath: Name
@@ -367,7 +967,22 @@
   - splitPath: Puzzle
     text: "“小篆”出现在哪个朝代？"
     translated: "The Small Seal Script appeared during the Qin Dynasty."
-- raw: "{\r\n    \"Key\": 51,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是豪放派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是豪放派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是豪放派代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "宋朝"
+    translated: "Song Dynasty"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "唐朝"
+    translated: "Tang Dynasty"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "汉朝"
+    translated: "Han dynasty"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "秦朝"
+    translated: "Qin Dynasty"
+- raw: "{\r\n    \"Key\": 51,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是豪放派代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"李清照\",\r\n      \"晏殊\",\r\n      \"柳永\",\r\n      \"辛棄疾\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是豪放派代表人物？\",\r\n    \"AnswerList\": [\r\n      \"李清照\",\r\n      \"晏殊\",\r\n      \"柳永\",\r\n      \"辛弃疾\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是豪放派代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"李清照\",\r\n      \"晏殊\",\r\n      \"柳永\",\r\n      \"辛棄疾\"\r\n    ]\r\n  }"
   rawIndex: 51
   splits:
   - splitPath: Name
@@ -376,7 +991,22 @@
   - splitPath: Puzzle
     text: "谁是豪放派代表人物？"
     translated: "Who are the representative figures of the bold and unconstrained school of poetry?"
-- raw: "{\r\n    \"Key\": 52,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是豪放派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是豪放派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是豪放派代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李清照"
+    translated: "Li Qingzhao"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "晏殊"
+    translated: "Yan Shu"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "柳永"
+    translated: "Liu Yong"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "辛弃疾"
+    translated: "Xin Qiji"
+- raw: "{\r\n    \"Key\": 52,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是豪放派代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"蘇軾\",\r\n      \"秦觀\",\r\n      \"周邦彥\",\r\n      \"李煜\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是豪放派代表人物？\",\r\n    \"AnswerList\": [\r\n      \"苏轼\",\r\n      \"秦观\",\r\n      \"周邦彦\",\r\n      \"李煜\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是豪放派代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"蘇軾\",\r\n      \"秦觀\",\r\n      \"周邦彥\",\r\n      \"李煜\"\r\n    ]\r\n  }"
   rawIndex: 52
   splits:
   - splitPath: Name
@@ -385,7 +1015,22 @@
   - splitPath: Puzzle
     text: "谁是豪放派代表人物？"
     translated: "Who are the representative figures of the bold and unconstrained school of poetry?"
-- raw: "{\r\n    \"Key\": 53,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是婉約派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是婉约派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是婉約派代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "苏轼"
+    translated: "Su Shi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "秦观"
+    translated: "Qin Guan"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "周邦彦"
+    translated: "Zhou Bangyan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "李煜"
+    translated: "Li Yu"
+- raw: "{\r\n    \"Key\": 53,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是婉約派代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"李清照\",\r\n      \"辛棄疾\",\r\n      \"蘇軾\",\r\n      \"歐陽修\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是婉约派代表人物？\",\r\n    \"AnswerList\": [\r\n      \"李清照\",\r\n      \"辛弃疾\",\r\n      \"苏轼\",\r\n      \"欧阳修\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是婉約派代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"李清照\",\r\n      \"辛棄疾\",\r\n      \"蘇軾\",\r\n      \"歐陽修\"\r\n    ]\r\n  }"
   rawIndex: 53
   splits:
   - splitPath: Name
@@ -394,7 +1039,22 @@
   - splitPath: Puzzle
     text: "谁是婉约派代表人物？"
     translated: "Who are the representatives of the Yin Yuan school?"
-- raw: "{\r\n    \"Key\": 54,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是婉約派代表人物？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是婉约派代表人物？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是婉約派代表人物？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李清照"
+    translated: "Li Qingzhao"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "辛弃疾"
+    translated: "Xin Qiji"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "苏轼"
+    translated: "Su Shi"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "欧阳修"
+    translated: "Yang Shou"
+- raw: "{\r\n    \"Key\": 54,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"誰是婉約派代表人物？\",\r\n    \"AnswerListFinal\": [\r\n      \"柳永\",\r\n      \"王安石\",\r\n      \"辛棄疾\",\r\n      \"張孝祥\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"谁是婉约派代表人物？\",\r\n    \"AnswerList\": [\r\n      \"柳永\",\r\n      \"王安石\",\r\n      \"辛弃疾\",\r\n      \"张孝祥\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"誰是婉約派代表人物？\",\r\n    \"AnswerTwList\": [\r\n      \"柳永\",\r\n      \"王安石\",\r\n      \"辛棄疾\",\r\n      \"張孝祥\"\r\n    ]\r\n  }"
   rawIndex: 54
   splits:
   - splitPath: Name
@@ -403,7 +1063,22 @@
   - splitPath: Puzzle
     text: "谁是婉约派代表人物？"
     translated: "Who are the representatives of the Yin Yuan school?"
-- raw: "{\r\n    \"Key\": 55,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《春夜喜雨》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《春夜喜雨》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《春夜喜雨》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "柳永"
+    translated: "Liu Yong"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "王安石"
+    translated: "Fan Zhongyan"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "辛弃疾"
+    translated: "Xin Qiji"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "张孝祥"
+    translated: "Zhang Xiaoxiang"
+- raw: "{\r\n    \"Key\": 55,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《春夜喜雨》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"李商隱\",\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《春夜喜雨》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"李商隐\",\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《春夜喜雨》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"李商隱\",\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\"\r\n    ]\r\n  }"
   rawIndex: 55
   splits:
   - splitPath: Name
@@ -412,7 +1087,22 @@
   - splitPath: Puzzle
     text: "《春夜喜雨》是谁的代表作？"
     translated: "Spring Night's Joyful Rain is a famous poem by Du Fu."
-- raw: "{\r\n    \"Key\": 56,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《將進酒》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《将进酒》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《將進酒》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李商隐"
+    translated: "Li Shangyin"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "李白"
+    translated: "Li Bai"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "杜牧"
+    translated: "Du Mu"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "杜甫"
+    translated: "Du Fu"
+- raw: "{\r\n    \"Key\": 56,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《將進酒》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\",\r\n      \"李商隱\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《将进酒》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\",\r\n      \"李商隐\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《將進酒》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"李白\",\r\n      \"杜牧\",\r\n      \"杜甫\",\r\n      \"李商隱\"\r\n    ]\r\n  }"
   rawIndex: 56
   splits:
   - splitPath: Name
@@ -421,7 +1111,22 @@
   - splitPath: Puzzle
     text: "《将进酒》是谁的代表作？"
     translated: "'Bring in the Wine' is a representative work of Li Bai."
-- raw: "{\r\n    \"Key\": 57,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《長門賦》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《长门赋》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《長門賦》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "李白"
+    translated: "Li Bai"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "杜牧"
+    translated: "Du Mu"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "杜甫"
+    translated: "Du Fu"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "李商隐"
+    translated: "Li Shangyin"
+- raw: "{\r\n    \"Key\": 57,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《長門賦》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"揚雄\",\r\n      \"曹植\",\r\n      \"司馬相如\",\r\n      \"班固\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《长门赋》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"扬雄\",\r\n      \"曹植\",\r\n      \"司马相如\",\r\n      \"班固\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《長門賦》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"揚雄\",\r\n      \"曹植\",\r\n      \"司馬相如\",\r\n      \"班固\"\r\n    ]\r\n  }"
   rawIndex: 57
   splits:
   - splitPath: Name
@@ -430,7 +1135,22 @@
   - splitPath: Puzzle
     text: "《长门赋》是谁的代表作？"
     translated: "'Rhapsody of the Long Gate' Who is the author?"
-- raw: "{\r\n    \"Key\": 58,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《東京賦》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《东京赋》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《東京賦》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "扬雄"
+    translated: "Yang Xiong"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "曹植"
+    translated: "Cao Zhongli"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "司马相如"
+    translated: "Simazhang Ru"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "班固"
+    translated: "Ban Gu"
+- raw: "{\r\n    \"Key\": 58,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《東京賦》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"賈誼\",\r\n      \"張衡\",\r\n      \"禰衡\",\r\n      \"揚雄\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《东京赋》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"贾谊\",\r\n      \"张衡\",\r\n      \"祢衡\",\r\n      \"扬雄\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《東京賦》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"賈誼\",\r\n      \"張衡\",\r\n      \"禰衡\",\r\n      \"揚雄\"\r\n    ]\r\n  }"
   rawIndex: 58
   splits:
   - splitPath: Name
@@ -439,7 +1159,22 @@
   - splitPath: Puzzle
     text: "《东京赋》是谁的代表作？"
     translated: "Tokyo Fu is the representative work of Shi Tiesheng."
-- raw: "{\r\n    \"Key\": 59,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《青玉案·元夕》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《青玉案·元夕》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《青玉案·元夕》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "贾谊"
+    translated: "Jia Yi"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "张衡"
+    translated: "Zhang Heng"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "祢衡"
+    translated: "Qiu Heng"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "扬雄"
+    translated: "Yang Xiong"
+- raw: "{\r\n    \"Key\": 59,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《青玉案·元夕》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"辛棄疾\",\r\n      \"陸游\",\r\n      \"晏殊\",\r\n      \"秦觀\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《青玉案·元夕》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"辛弃疾\",\r\n      \"陆游\",\r\n      \"晏殊\",\r\n      \"秦观\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《青玉案·元夕》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"辛棄疾\",\r\n      \"陸游\",\r\n      \"晏殊\",\r\n      \"秦觀\"\r\n    ]\r\n  }"
   rawIndex: 59
   splits:
   - splitPath: Name
@@ -448,7 +1183,22 @@
   - splitPath: Puzzle
     text: "《青玉案·元夕》是谁的代表作？"
     translated: "Who is the author of the Green Jade Case·Yuanxiao?"
-- raw: "{\r\n    \"Key\": 60,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《念奴嬌·赤壁懷古》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《念奴娇·赤壁怀古》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《念奴嬌·赤壁懷古》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "辛弃疾"
+    translated: "Xin Qiji"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "陆游"
+    translated: "Lu You"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "晏殊"
+    translated: "Yan Shu"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "秦观"
+    translated: "Qin Guan"
+- raw: "{\r\n    \"Key\": 60,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《念奴嬌·赤壁懷古》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"蘇轍\",\r\n      \"蘇洵\",\r\n      \"蘇軾\",\r\n      \"王安石\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《念奴娇·赤壁怀古》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"苏辙\",\r\n      \"苏洵\",\r\n      \"苏轼\",\r\n      \"王安石\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《念奴嬌·赤壁懷古》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"蘇轍\",\r\n      \"蘇洵\",\r\n      \"蘇軾\",\r\n      \"王安石\"\r\n    ]\r\n  }"
   rawIndex: 60
   splits:
   - splitPath: Name
@@ -457,7 +1207,22 @@
   - splitPath: Puzzle
     text: "《念奴娇·赤壁怀古》是谁的代表作？"
     translated: "Remembrance of the Red Cliff · A Suite for Nian Nu Jiao is the representative work of Su Shi."
-- raw: "{\r\n    \"Key\": 61,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《雨霖鈴·寒蟬悽切》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《雨霖铃·寒蝉凄切》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《雨霖鈴·寒蟬悽切》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "苏辙"
+    translated: "Su Zhe"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "苏洵"
+    translated: "Su Xun"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "苏轼"
+    translated: "Su Shi"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "王安石"
+    translated: "Fan Zhongyan"
+- raw: "{\r\n    \"Key\": 61,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《雨霖鈴·寒蟬悽切》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"韓愈\",\r\n      \"柳宗元\",\r\n      \"柳永\",\r\n      \"晏殊\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《雨霖铃·寒蝉凄切》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"韩愈\",\r\n      \"柳宗元\",\r\n      \"柳永\",\r\n      \"晏殊\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《雨霖鈴·寒蟬悽切》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"韓愈\",\r\n      \"柳宗元\",\r\n      \"柳永\",\r\n      \"晏殊\"\r\n    ]\r\n  }"
   rawIndex: 61
   splits:
   - splitPath: Name
@@ -466,7 +1231,22 @@
   - splitPath: Puzzle
     text: "《雨霖铃·寒蝉凄切》是谁的代表作？"
     translated: "Rain Bell · Cold Cicada Sighing Sadly is a representative work of Li Qingzhao."
-- raw: "{\r\n    \"Key\": 62,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《如夢令·昨夜雨疏風驟》是誰的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《如梦令·昨夜雨疏风骤》是谁的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《如夢令·昨夜雨疏風驟》是誰的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "韩愈"
+    translated: "Han Yu"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "柳宗元"
+    translated: "Liu Zongyuan"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "柳永"
+    translated: "Liu Yong"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "晏殊"
+    translated: "Yan Shu"
+- raw: "{\r\n    \"Key\": 62,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"《如夢令·昨夜雨疏風驟》是誰的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"朱淑真\",\r\n      \"李清照\",\r\n      \"吳淑姬\",\r\n      \"張玉娘\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"《如梦令·昨夜雨疏风骤》是谁的代表作？\",\r\n    \"AnswerList\": [\r\n      \"朱淑真\",\r\n      \"李清照\",\r\n      \"吴淑姬\",\r\n      \"张玉娘\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"《如夢令·昨夜雨疏風驟》是誰的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"朱淑真\",\r\n      \"李清照\",\r\n      \"吳淑姬\",\r\n      \"張玉娘\"\r\n    ]\r\n  }"
   rawIndex: 62
   splits:
   - splitPath: Name
@@ -475,7 +1255,22 @@
   - splitPath: Puzzle
     text: "《如梦令·昨夜雨疏风骤》是谁的代表作？"
     translated: "Drunk on a Dream · Last Night Sparse Rain Strong Wind is the representative work of Eileen Chang."
-- raw: "{\r\n    \"Key\": 63,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"“豪迈放纵，气象恢弘”是哪一派的风格？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "朱淑真"
+    translated: "Zhu Shuzhen"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "李清照"
+    translated: "Li Qingzhao"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "吴淑姬"
+    translated: "Wu Shuji"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "张玉娘"
+    translated: "Zhang Yuyang"
+- raw: "{\r\n    \"Key\": 63,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\",\r\n    \"AnswerListFinal\": [\r\n      \"豪放派\",\r\n      \"婉約派\",\r\n      \"田園派\",\r\n      \"邊塞派\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"“豪迈放纵，气象恢弘”是哪一派的风格？\",\r\n    \"AnswerList\": [\r\n      \"豪放派\",\r\n      \"婉约派\",\r\n      \"田园派\",\r\n      \"边塞派\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"“豪邁放縱，氣象恢弘”是哪一派的風格？\",\r\n    \"AnswerTwList\": [\r\n      \"豪放派\",\r\n      \"婉約派\",\r\n      \"田園派\",\r\n      \"邊塞派\"\r\n    ]\r\n  }"
   rawIndex: 63
   splits:
   - splitPath: Name
@@ -484,7 +1279,22 @@
   - splitPath: Puzzle
     text: "“豪迈放纵，气象恢弘”是哪一派的风格？"
     translated: "Magnanimous and unrestrained, majestic and grand is the style of which school?"
-- raw: "{\r\n    \"Key\": 64,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"“辭情醞藉，婉轉細膩”是哪一派的風格？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"“辞情酝藉，婉转细腻”是哪一派的风格？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"“辭情醞藉，婉轉細膩”是哪一派的風格？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "豪放派"
+    translated: "Free‑and‑Easy School"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "婉约派"
+    translated: "Soft and Gentle School"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "田园派"
+    translated: "Farmer's Garden School"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "边塞派"
+    translated: "Border Guard Regiment"
+- raw: "{\r\n    \"Key\": 64,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"“辭情醞藉，婉轉細膩”是哪一派的風格？\",\r\n    \"AnswerListFinal\": [\r\n      \"豪放派\",\r\n      \"婉約派\",\r\n      \"田園派\",\r\n      \"邊塞派\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"“辞情酝藉，婉转细腻”是哪一派的风格？\",\r\n    \"AnswerList\": [\r\n      \"豪放派\",\r\n      \"婉约派\",\r\n      \"田园派\",\r\n      \"边塞派\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"“辭情醞藉，婉轉細膩”是哪一派的風格？\",\r\n    \"AnswerTwList\": [\r\n      \"豪放派\",\r\n      \"婉約派\",\r\n      \"田園派\",\r\n      \"邊塞派\"\r\n    ]\r\n  }"
   rawIndex: 64
   splits:
   - splitPath: Name
@@ -493,7 +1303,22 @@
   - splitPath: Puzzle
     text: "“辞情酝藉，婉转细腻”是哪一派的风格？"
     translated: "The eloquence is restrained yet full of emotion, with a delicate and winding style describes the style of the Literary School."
-- raw: "{\r\n    \"Key\": 65,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是李白的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是李白的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是李白的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "豪放派"
+    translated: "Free‑and‑Easy School"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "婉约派"
+    translated: "Soft and Gentle School"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "田园派"
+    translated: "Farmer's Garden School"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "边塞派"
+    translated: "Border Guard Regiment"
+- raw: "{\r\n    \"Key\": 65,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是李白的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《蜀道難》\",\r\n      \"《石壕吏》\",\r\n      \"《長恨歌》\",\r\n      \"《遊子吟》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是李白的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《蜀道难》\",\r\n      \"《石壕吏》\",\r\n      \"《长恨歌》\",\r\n      \"《游子吟》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是李白的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《蜀道難》\",\r\n      \"《石壕吏》\",\r\n      \"《長恨歌》\",\r\n      \"《遊子吟》\"\r\n    ]\r\n  }"
   rawIndex: 65
   splits:
   - splitPath: Name
@@ -502,7 +1327,22 @@
   - splitPath: Puzzle
     text: "哪篇是李白的代表作？"
     translated: "Which is Li Bai's representative work?"
-- raw: "{\r\n    \"Key\": 66,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是杜甫的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是杜甫的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是杜甫的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《蜀道难》"
+    translated: "The Difficulty of the Sichuan Road"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《石壕吏》"
+    translated: "Stone Hollow Officer"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《长恨歌》"
+    translated: "Long Grievance Song"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《游子吟》"
+    translated: "Thoughts of a Wanderer"
+- raw: "{\r\n    \"Key\": 66,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《詠柳》\",\r\n      \"《春曉》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《咏柳》\",\r\n      \"《春晓》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《詠柳》\",\r\n      \"《春曉》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ]\r\n  }"
   rawIndex: 66
   splits:
   - splitPath: Name
@@ -511,7 +1351,22 @@
   - splitPath: Puzzle
     text: "哪篇是杜甫的代表作？"
     translated: "Which one is Du Fu's representative work?"
-- raw: "{\r\n    \"Key\": 67,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是司馬相如的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是司马相如的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是司馬相如的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《咏柳》"
+    translated: "Volleying Willows"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《春晓》"
+    translated: "Spring Dawn"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《登高》"
+    translated: "Climb high"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《清明》"
+    translated: "Qingming Festival"
+- raw: "{\r\n    \"Key\": 67,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是司馬相如的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《子虛賦》\",\r\n      \"《鸚鵡賦》\",\r\n      \"《兩都賦》\",\r\n      \"《逐貧賦》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是司马相如的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《子虚赋》\",\r\n      \"《鹦鹉赋》\",\r\n      \"《两都赋》\",\r\n      \"《逐贫赋》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是司馬相如的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《子虛賦》\",\r\n      \"《鸚鵡賦》\",\r\n      \"《兩都賦》\",\r\n      \"《逐貧賦》\"\r\n    ]\r\n  }"
   rawIndex: 67
   splits:
   - splitPath: Name
@@ -520,7 +1375,22 @@
   - splitPath: Puzzle
     text: "哪篇是司马相如的代表作？"
     translated: "Which is Sima Xiangru's representative work?"
-- raw: "{\r\n    \"Key\": 68,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是張衡的代表作？\",\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是张衡的代表作？\",\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是張衡的代表作？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《子虚赋》"
+    translated: "Empty Assignation"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《鹦鹉赋》"
+    translated: "Ode to the Parrot"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《两都赋》"
+    translated: "Two Capitals Essay"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《逐贫赋》"
+    translated: "Zhu Qu Fen Fu"
+- raw: "{\r\n    \"Key\": 68,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是張衡的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《大人賦》\",\r\n      \"《幽通賦》\",\r\n      \"《西京賦》\",\r\n      \"《述行賦》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是张衡的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《大人赋》\",\r\n      \"《幽通赋》\",\r\n      \"《西京赋》\",\r\n      \"《述行赋》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是張衡的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《大人賦》\",\r\n      \"《幽通賦》\",\r\n      \"《西京賦》\",\r\n      \"《述行賦》\"\r\n    ]\r\n  }"
   rawIndex: 68
   splits:
   - splitPath: Name
@@ -529,7 +1399,22 @@
   - splitPath: Puzzle
     text: "哪篇是张衡的代表作？"
     translated: "Which is Zhang Heng's representative work?"
-- raw: "{\r\n    \"Key\": 71,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"乾卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"乾卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"乾卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "《大人赋》"
+    translated: "Lord's Ode"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "《幽通赋》"
+    translated: "Ambient Communion Ode"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "《西京赋》"
+    translated: "The Ode to the Western Capital"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "《述行赋》"
+    translated: "Shu Hang Fu"
+- raw: "{\r\n    \"Key\": 71,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"乾卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"乾卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"乾卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 71
   splits:
   - splitPath: Name
@@ -538,7 +1423,22 @@
   - splitPath: Puzzle
     text: "乾卦代表什么？"
     translated: "The Dry Hexagram represents a time of uprightness and correctness."
-- raw: "{\r\n    \"Key\": 72,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"坤卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"坤卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"坤卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "水"
+    translated: "Water"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "天"
+    translated: "Heaven"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "火"
+    translated: "Fire"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风"
+    translated: "Wind"
+- raw: "{\r\n    \"Key\": 72,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"坤卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"水\",\r\n      \"地\",\r\n      \"山\",\r\n      \"火\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"坤卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"水\",\r\n      \"地\",\r\n      \"山\",\r\n      \"火\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"坤卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"水\",\r\n      \"地\",\r\n      \"山\",\r\n      \"火\"\r\n    ]\r\n  }"
   rawIndex: 72
   splits:
   - splitPath: Name
@@ -547,7 +1447,22 @@
   - splitPath: Puzzle
     text: "坤卦代表什么？"
     translated: "The Kun hexagram represents the Earth"
-- raw: "{\r\n    \"Key\": 73,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"離卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"离卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"離卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "水"
+    translated: "Water"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "地"
+    translated: "Earth"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "山"
+    translated: "Mountain"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "火"
+    translated: "Fire"
+- raw: "{\r\n    \"Key\": 73,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"離卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"澤\",\r\n      \"山\",\r\n      \"火\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"离卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"泽\",\r\n      \"山\",\r\n      \"火\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"離卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"澤\",\r\n      \"山\",\r\n      \"火\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 73
   splits:
   - splitPath: Name
@@ -556,7 +1471,22 @@
   - splitPath: Puzzle
     text: "离卦代表什么？"
     translated: "The Li hexagram represents branching out and expansion."
-- raw: "{\r\n    \"Key\": 74,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"坎卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"坎卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"坎卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "泽"
+    translated: "Ze"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "山"
+    translated: "Mountain"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "火"
+    translated: "Fire"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风"
+    translated: "Wind"
+- raw: "{\r\n    \"Key\": 74,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"坎卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"水\",\r\n      \"澤\",\r\n      \"火\",\r\n      \"地\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"坎卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"水\",\r\n      \"泽\",\r\n      \"火\",\r\n      \"地\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"坎卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"水\",\r\n      \"澤\",\r\n      \"火\",\r\n      \"地\"\r\n    ]\r\n  }"
   rawIndex: 74
   splits:
   - splitPath: Name
@@ -565,7 +1495,22 @@
   - splitPath: Puzzle
     text: "坎卦代表什么？"
     translated: "The Kan hexagram represents the element of water and symbolizes depth, mystery, and the unknown."
-- raw: "{\r\n    \"Key\": 75,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"巽卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"巽卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"巽卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "水"
+    translated: "Water"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "泽"
+    translated: "Ze"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "火"
+    translated: "Fire"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "地"
+    translated: "Earth"
+- raw: "{\r\n    \"Key\": 75,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"巽卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"天\",\r\n      \"水\",\r\n      \"澤\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"巽卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"天\",\r\n      \"水\",\r\n      \"泽\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"巽卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"天\",\r\n      \"水\",\r\n      \"澤\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 75
   splits:
   - splitPath: Name
@@ -574,7 +1519,22 @@
   - splitPath: Puzzle
     text: "巽卦代表什么？"
     translated: "The Hexagram Xun represents yielding and gentleness"
-- raw: "{\r\n    \"Key\": 76,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"震卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"震卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"震卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "天"
+    translated: "Heaven"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "水"
+    translated: "Water"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "泽"
+    translated: "Ze"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风"
+    translated: "Wind"
+- raw: "{\r\n    \"Key\": 76,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"震卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"雷\",\r\n      \"山\",\r\n      \"地\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"震卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"雷\",\r\n      \"山\",\r\n      \"地\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"震卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"雷\",\r\n      \"山\",\r\n      \"地\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 76
   splits:
   - splitPath: Name
@@ -583,7 +1543,22 @@
   - splitPath: Puzzle
     text: "震卦代表什么？"
     translated: "The Hexagram Zhen represents a situation of sudden action or movement."
-- raw: "{\r\n    \"Key\": 77,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"艮卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"艮卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"艮卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "雷"
+    translated: "Lightning"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "山"
+    translated: "Mountain"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "地"
+    translated: "Earth"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风"
+    translated: "Wind"
+- raw: "{\r\n    \"Key\": 77,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"艮卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"雷\",\r\n      \"火\",\r\n      \"山\",\r\n      \"水\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"艮卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"雷\",\r\n      \"火\",\r\n      \"山\",\r\n      \"水\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"艮卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"雷\",\r\n      \"火\",\r\n      \"山\",\r\n      \"水\"\r\n    ]\r\n  }"
   rawIndex: 77
   splits:
   - splitPath: Name
@@ -592,7 +1567,22 @@
   - splitPath: Puzzle
     text: "艮卦代表什么？"
     translated: "The Kan hexagram represents the concept of water."
-- raw: "{\r\n    \"Key\": 78,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"兌卦代表什麼？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"兑卦代表什么？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"兌卦代表什麼？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "雷"
+    translated: "Lightning"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "火"
+    translated: "Fire"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "山"
+    translated: "Mountain"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "水"
+    translated: "Water"
+- raw: "{\r\n    \"Key\": 78,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"兌卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"澤\",\r\n      \"山\",\r\n      \"水\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"兑卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"泽\",\r\n      \"山\",\r\n      \"水\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"兌卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"澤\",\r\n      \"山\",\r\n      \"水\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 78
   splits:
   - splitPath: Name
@@ -601,7 +1591,22 @@
   - splitPath: Puzzle
     text: "兑卦代表什么？"
     translated: "The Hexagram Zhen represents change and activation"
-- raw: "{\r\n    \"Key\": 79,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦兩儀屬陰？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦两仪属阴？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦兩儀屬陰？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "泽"
+    translated: "Ze"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "山"
+    translated: "Mountain"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "水"
+    translated: "Water"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风"
+    translated: "Wind"
+- raw: "{\r\n    \"Key\": 79,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦兩儀屬陰？\",\r\n    \"AnswerListFinal\": [\r\n      \"坎\",\r\n      \"離\",\r\n      \"艮\",\r\n      \"震\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦两仪属阴？\",\r\n    \"AnswerList\": [\r\n      \"坎\",\r\n      \"离\",\r\n      \"艮\",\r\n      \"震\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦兩儀屬陰？\",\r\n    \"AnswerTwList\": [\r\n      \"坎\",\r\n      \"離\",\r\n      \"艮\",\r\n      \"震\"\r\n    ]\r\n  }"
   rawIndex: 79
   splits:
   - splitPath: Name
@@ -610,7 +1615,22 @@
   - splitPath: Puzzle
     text: "哪一卦两仪属阴？"
     translated: "Which hexagram belongs to Yin according to the Two Instruments?"
-- raw: "{\r\n    \"Key\": 80,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦兩儀屬陽？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦两仪属阳？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦兩儀屬陽？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "坎"
+    translated: "Can"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "离"
+    translated: "Departure"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "艮"
+    translated: "Mountain Głowny"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "震"
+    translated: "Shock"
+- raw: "{\r\n    \"Key\": 80,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦兩儀屬陽？\",\r\n    \"AnswerListFinal\": [\r\n      \"兌\",\r\n      \"巽\",\r\n      \"山\",\r\n      \"坎\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦两仪属阳？\",\r\n    \"AnswerList\": [\r\n      \"兑\",\r\n      \"巽\",\r\n      \"山\",\r\n      \"坎\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦兩儀屬陽？\",\r\n    \"AnswerTwList\": [\r\n      \"兌\",\r\n      \"巽\",\r\n      \"山\",\r\n      \"坎\"\r\n    ]\r\n  }"
   rawIndex: 80
   splits:
   - splitPath: Name
@@ -619,7 +1639,22 @@
   - splitPath: Puzzle
     text: "哪一卦两仪属阳？"
     translated: "Which hexagram of the Yi Jing belongs to Yang?"
-- raw: "{\r\n    \"Key\": 81,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬金？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属金？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬金？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "兑"
+    translated: "Exchange"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "巽"
+    translated: "Xun"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "山"
+    translated: "Mountain"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "坎"
+    translated: "Can"
+- raw: "{\r\n    \"Key\": 81,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬金？\",\r\n    \"AnswerListFinal\": [\r\n      \"巽\",\r\n      \"兌\",\r\n      \"離\",\r\n      \"艮\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属金？\",\r\n    \"AnswerList\": [\r\n      \"巽\",\r\n      \"兑\",\r\n      \"离\",\r\n      \"艮\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬金？\",\r\n    \"AnswerTwList\": [\r\n      \"巽\",\r\n      \"兌\",\r\n      \"離\",\r\n      \"艮\"\r\n    ]\r\n  }"
   rawIndex: 81
   splits:
   - splitPath: Name
@@ -628,7 +1663,22 @@
   - splitPath: Puzzle
     text: "哪一卦五行属金？"
     translated: "Which hexagram belongs to the Metal element in the Five Elements theory?"
-- raw: "{\r\n    \"Key\": 82,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬木？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属木？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬木？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "巽"
+    translated: "Xun"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "兑"
+    translated: "Exchange"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "离"
+    translated: "Departure"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "艮"
+    translated: "Mountain Głowny"
+- raw: "{\r\n    \"Key\": 82,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬木？\",\r\n    \"AnswerListFinal\": [\r\n      \"兌\",\r\n      \"坎\",\r\n      \"震\",\r\n      \"坤\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属木？\",\r\n    \"AnswerList\": [\r\n      \"兑\",\r\n      \"坎\",\r\n      \"震\",\r\n      \"坤\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬木？\",\r\n    \"AnswerTwList\": [\r\n      \"兌\",\r\n      \"坎\",\r\n      \"震\",\r\n      \"坤\"\r\n    ]\r\n  }"
   rawIndex: 82
   splits:
   - splitPath: Name
@@ -637,7 +1687,22 @@
   - splitPath: Puzzle
     text: "哪一卦五行属木？"
     translated: "Which hexagram belongs to the Wood element?"
-- raw: "{\r\n    \"Key\": 83,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬水？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属水？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬水？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "兑"
+    translated: "Exchange"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "坎"
+    translated: "Can"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "震"
+    translated: "Shock"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "坤"
+    translated: "Earth"
+- raw: "{\r\n    \"Key\": 83,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬水？\",\r\n    \"AnswerListFinal\": [\r\n      \"離\",\r\n      \"坎\",\r\n      \"巽\",\r\n      \"兌\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属水？\",\r\n    \"AnswerList\": [\r\n      \"离\",\r\n      \"坎\",\r\n      \"巽\",\r\n      \"兑\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬水？\",\r\n    \"AnswerTwList\": [\r\n      \"離\",\r\n      \"坎\",\r\n      \"巽\",\r\n      \"兌\"\r\n    ]\r\n  }"
   rawIndex: 83
   splits:
   - splitPath: Name
@@ -646,7 +1711,22 @@
   - splitPath: Puzzle
     text: "哪一卦五行属水？"
     translated: "Which hexagram belongs to the Water element in the Five Elements?"
-- raw: "{\r\n    \"Key\": 84,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬火？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属火？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬火？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "离"
+    translated: "Departure"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "坎"
+    translated: "Can"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "巽"
+    translated: "Xun"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "兑"
+    translated: "Exchange"
+- raw: "{\r\n    \"Key\": 84,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬火？\",\r\n    \"AnswerListFinal\": [\r\n      \"乾\",\r\n      \"離\",\r\n      \"坤\",\r\n      \"巽\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属火？\",\r\n    \"AnswerList\": [\r\n      \"乾\",\r\n      \"离\",\r\n      \"坤\",\r\n      \"巽\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬火？\",\r\n    \"AnswerTwList\": [\r\n      \"乾\",\r\n      \"離\",\r\n      \"坤\",\r\n      \"巽\"\r\n    ]\r\n  }"
   rawIndex: 84
   splits:
   - splitPath: Name
@@ -655,7 +1735,22 @@
   - splitPath: Puzzle
     text: "哪一卦五行属火？"
     translated: "Which trigram belongs to the element fire in the Wu Xing cycle?"
-- raw: "{\r\n    \"Key\": 85,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬土？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属土？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬土？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "乾"
+    translated: "Heaven"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "离"
+    translated: "Departure"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "坤"
+    translated: "Earth"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "巽"
+    translated: "Xun"
+- raw: "{\r\n    \"Key\": 85,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦五行屬土？\",\r\n    \"AnswerListFinal\": [\r\n      \"震\",\r\n      \"兌\",\r\n      \"巽\",\r\n      \"艮\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦五行属土？\",\r\n    \"AnswerList\": [\r\n      \"震\",\r\n      \"兑\",\r\n      \"巽\",\r\n      \"艮\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦五行屬土？\",\r\n    \"AnswerTwList\": [\r\n      \"震\",\r\n      \"兌\",\r\n      \"巽\",\r\n      \"艮\"\r\n    ]\r\n  }"
   rawIndex: 85
   splits:
   - splitPath: Name
@@ -664,7 +1759,22 @@
   - splitPath: Puzzle
     text: "哪一卦五行属土？"
     translated: "Which trigram belongs to Earth in the Five Elements?"
-- raw: "{\r\n    \"Key\": 86,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦旺於四季？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦旺于四季？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦旺於四季？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "震"
+    translated: "Shock"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "兑"
+    translated: "Exchange"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "巽"
+    translated: "Xun"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "艮"
+    translated: "Mountain Głowny"
+- raw: "{\r\n    \"Key\": 86,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦旺於四季？\",\r\n    \"AnswerListFinal\": [\r\n      \"坤\",\r\n      \"乾\",\r\n      \"離\",\r\n      \"巽\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦旺于四季？\",\r\n    \"AnswerList\": [\r\n      \"坤\",\r\n      \"乾\",\r\n      \"离\",\r\n      \"巽\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦旺於四季？\",\r\n    \"AnswerTwList\": [\r\n      \"坤\",\r\n      \"乾\",\r\n      \"離\",\r\n      \"巽\"\r\n    ]\r\n  }"
   rawIndex: 86
   splits:
   - splitPath: Name
@@ -673,7 +1783,22 @@
   - splitPath: Puzzle
     text: "哪一卦旺于四季？"
     translated: "Which trigram is strong in the four seasons?"
-- raw: "{\r\n    \"Key\": 87,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦衰於四季？\",\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦衰于四季？\",\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦衰於四季？\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "坤"
+    translated: "Earth"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "乾"
+    translated: "Heaven"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "离"
+    translated: "Departure"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "巽"
+    translated: "Xun"
+- raw: "{\r\n    \"Key\": 87,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"哪一卦衰於四季？\",\r\n    \"AnswerListFinal\": [\r\n      \"坎\",\r\n      \"兌\",\r\n      \"離\",\r\n      \"巽\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"哪一卦衰于四季？\",\r\n    \"AnswerList\": [\r\n      \"坎\",\r\n      \"兑\",\r\n      \"离\",\r\n      \"巽\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"哪一卦衰於四季？\",\r\n    \"AnswerTwList\": [\r\n      \"坎\",\r\n      \"兌\",\r\n      \"離\",\r\n      \"巽\"\r\n    ]\r\n  }"
   rawIndex: 87
   splits:
   - splitPath: Name
@@ -682,7 +1807,22 @@
   - splitPath: Puzzle
     text: "哪一卦衰于四季？"
     translated: "Which hexagram wanes with the seasons?"
-- raw: "{\r\n    \"Key\": 91,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"滿堂花醉三千客\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"满堂花醉三千客\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"滿堂花醉三千客\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "坎"
+    translated: "Can"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "兑"
+    translated: "Exchange"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "离"
+    translated: "Departure"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "巽"
+    translated: "Xun"
+- raw: "{\r\n    \"Key\": 91,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"滿堂花醉三千客\",\r\n    \"AnswerListFinal\": [\r\n      \"四海風生萬壑秋\",\r\n      \"一劍霜寒十四州\",\r\n      \"豪情盡灑九天流\",\r\n      \"醉臥星河夢不休\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"满堂花醉三千客\",\r\n    \"AnswerList\": [\r\n      \"四海风生万壑秋\",\r\n      \"一剑霜寒十四州\",\r\n      \"豪情尽洒九天流\",\r\n      \"醉卧星河梦不休\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"滿堂花醉三千客\",\r\n    \"AnswerTwList\": [\r\n      \"四海風生萬壑秋\",\r\n      \"一劍霜寒十四州\",\r\n      \"豪情盡灑九天流\",\r\n      \"醉臥星河夢不休\"\r\n    ]\r\n  }"
   rawIndex: 91
   splits:
   - splitPath: Name
@@ -691,7 +1831,22 @@
   - splitPath: Puzzle
     text: "满堂花醉三千客"
     translated: "Flowers Drunk Thirty Thousand Guests"
-- raw: "{\r\n    \"Key\": 92,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"一身轉戰三千里\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"一身转战三千里\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"一身轉戰三千里\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "四海风生万壑秋"
+    translated: "Four winds stir the autumn in ten thousand ravines"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "一剑霜寒十四州"
+    translated: "A single sword's chill spans fourteen states"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "豪情尽洒九天流"
+    translated: "Passion spills across the heavens"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "醉卧星河梦不休"
+    translated: "Drunk in the Milky Way, dreams never end"
+- raw: "{\r\n    \"Key\": 92,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"一身轉戰三千里\",\r\n    \"AnswerListFinal\": [\r\n      \"血染山河魂不滅\",\r\n      \"烽煙卷地九霄低\",\r\n      \"功成醉臥五湖西\",\r\n      \"一劍曾當百萬師\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"一身转战三千里\",\r\n    \"AnswerList\": [\r\n      \"血染山河魂不灭\",\r\n      \"烽烟卷地九霄低\",\r\n      \"功成醉卧五湖西\",\r\n      \"一剑曾当百万师\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"一身轉戰三千里\",\r\n    \"AnswerTwList\": [\r\n      \"血染山河魂不滅\",\r\n      \"烽煙卷地九霄低\",\r\n      \"功成醉臥五湖西\",\r\n      \"一劍曾當百萬師\"\r\n    ]\r\n  }"
   rawIndex: 92
   splits:
   - splitPath: Name
@@ -700,7 +1855,22 @@
   - splitPath: Puzzle
     text: "一身转战三千里"
     translated: "Traveled three thousand miles in battle"
-- raw: "{\r\n    \"Key\": 93,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"少年恃險若平地\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"少年恃险若平地\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"少年恃險若平地\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "血染山河魂不灭"
+    translated: "Blood stains the river mountains, yet the spirit remains unbroken."
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "烽烟卷地九霄低"
+    translated: "Smoke and flames roll across the heavens, lowering the sky to nine levels."
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "功成醉卧五湖西"
+    translated: "Achievement in Hand, Drunk and Reclining West of Lake Five"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "一剑曾当百万师"
+    translated: "A single sword can command a million troops."
+- raw: "{\r\n    \"Key\": 93,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"少年恃險若平地\",\r\n    \"AnswerListFinal\": [\r\n      \"風雲叱吒鬼神移\",\r\n      \"血染青衫心未改\",\r\n      \"笑談生死幾回眸\",\r\n      \"獨倚長劍凌清秋\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"少年恃险若平地\",\r\n    \"AnswerList\": [\r\n      \"风云叱咤鬼神移\",\r\n      \"血染青衫心未改\",\r\n      \"笑谈生死几回眸\",\r\n      \"独倚长剑凌清秋\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"少年恃險若平地\",\r\n    \"AnswerTwList\": [\r\n      \"風雲叱吒鬼神移\",\r\n      \"血染青衫心未改\",\r\n      \"笑談生死幾回眸\",\r\n      \"獨倚長劍凌清秋\"\r\n    ]\r\n  }"
   rawIndex: 93
   splits:
   - splitPath: Name
@@ -709,7 +1879,22 @@
   - splitPath: Puzzle
     text: "少年恃险若平地"
     translated: "The youth treated dangerous terrain as if it were flat ground."
-- raw: "{\r\n    \"Key\": 94,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"弓背霞明劍照霜\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"弓背霞明剑照霜\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"弓背霞明劍照霜\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "风云叱咤鬼神移"
+    translated: "Storms Roar and Demons Tremble"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "血染青衫心未改"
+    translated: "Blood stains the green robe, yet the heart remains unchanged."
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "笑谈生死几回眸"
+    translated: "Discussing life and death with but a glance."
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "独倚长剑凌清秋"
+    translated: "Alone, leaning on a long sword in the cool autumn breeze."
+- raw: "{\r\n    \"Key\": 94,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"弓背霞明劍照霜\",\r\n    \"AnswerListFinal\": [\r\n      \"秋風走馬出咸陽\",\r\n      \"徵人遠戍思故鄉\",\r\n      \"夜寒鐵衣映月光\",\r\n      \"血染征衣志未央\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"弓背霞明剑照霜\",\r\n    \"AnswerList\": [\r\n      \"秋风走马出咸阳\",\r\n      \"征人远戍思故乡\",\r\n      \"夜寒铁衣映月光\",\r\n      \"血染征衣志未央\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"弓背霞明劍照霜\",\r\n    \"AnswerTwList\": [\r\n      \"秋風走馬出咸陽\",\r\n      \"徵人遠戍思故鄉\",\r\n      \"夜寒鐵衣映月光\",\r\n      \"血染征衣志未央\"\r\n    ]\r\n  }"
   rawIndex: 94
   splits:
   - splitPath: Name
@@ -718,7 +1903,22 @@
   - splitPath: Puzzle
     text: "弓背霞明剑照霜"
     translated: "Bowback Illuminates Like Dawn, Sword Glows Like Frost"
-- raw: "{\r\n    \"Key\": 95,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"桃李春風一杯酒\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"桃李春风一杯酒\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"桃李春風一杯酒\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "秋风走马出咸阳"
+    translated: "The autumn wind whips past as he rides out of Chang'an."
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "征人远戍思故乡"
+    translated: "Soldiers far from home miss their hometown"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "夜寒铁衣映月光"
+    translated: "The moonlight shines on the cold iron armor, casting a chilling glow."
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "血染征衣志未央"
+    translated: "Blood‑soaked war garment, aspirations unfulfilled"
+- raw: "{\r\n    \"Key\": 95,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"桃李春風一杯酒\",\r\n    \"AnswerListFinal\": [\r\n      \"醉臥花間夢悠長\",\r\n      \"江湖夜雨十年燈\",\r\n      \"共君今夜不須愁\",\r\n      \"月下獨酌影成雙\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"桃李春风一杯酒\",\r\n    \"AnswerList\": [\r\n      \"醉卧花间梦悠长\",\r\n      \"江湖夜雨十年灯\",\r\n      \"共君今夜不须愁\",\r\n      \"月下独酌影成双\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"桃李春風一杯酒\",\r\n    \"AnswerTwList\": [\r\n      \"醉臥花間夢悠長\",\r\n      \"江湖夜雨十年燈\",\r\n      \"共君今夜不須愁\",\r\n      \"月下獨酌影成雙\"\r\n    ]\r\n  }"
   rawIndex: 95
   splits:
   - splitPath: Name
@@ -727,7 +1927,22 @@
   - splitPath: Puzzle
     text: "桃李春风一杯酒"
     translated: "A cup of wine under the spring wind among peach and plum blossoms."
-- raw: "{\r\n    \"Key\": 96,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"丈夫五十功未立\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"丈夫五十功未立\",\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"丈夫五十功未立\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "醉卧花间梦悠长"
+    translated: "Drunk among the flowers, dreams flow long and leisurely."
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "江湖夜雨十年灯"
+    translated: "Jianghu night rain, ten years of lamps"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "共君今夜不须愁"
+    translated: "Share this night with you, no need to worry."
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "月下独酌影成双"
+    translated: "Moonlit Solitude with Shadows for Companionship"
+- raw: "{\r\n    \"Key\": 96,\r\n    \"NameFinal\": \"南坡詩詞\",\r\n    \"PuzzleFinal\": \"丈夫五十功未立\",\r\n    \"AnswerListFinal\": [\r\n      \"猶自慷慨歌未央\",\r\n      \"提刀獨立顧八荒\",\r\n      \"壯志未酬鬢先秋\",\r\n      \"且將心事付瑤琴\"\r\n    ],\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"丈夫五十功未立\",\r\n    \"AnswerList\": [\r\n      \"犹自慷慨歌未央\",\r\n      \"提刀独立顾八荒\",\r\n      \"壮志未酬鬓先秋\",\r\n      \"且将心事付瑶琴\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"丈夫五十功未立\",\r\n    \"AnswerTwList\": [\r\n      \"猶自慷慨歌未央\",\r\n      \"提刀獨立顧八荒\",\r\n      \"壯志未酬鬢先秋\",\r\n      \"且將心事付瑤琴\"\r\n    ]\r\n  }"
   rawIndex: 96
   splits:
   - splitPath: Name
@@ -736,7 +1951,22 @@
   - splitPath: Puzzle
     text: "丈夫五十功未立"
     translated: "Husband fifty years old with no achievements yet."
-- raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"三人同日去，百花齊爭豔。（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"三人同日去，百花齐争艳。（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"三人同日去，百花齊爭豔。（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "犹自慷慨歌未央"
+    translated: "Still singing bravely without end"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "提刀独立顾八荒"
+    translated: "Holding the blade alone, surveying all directions afar."
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "壮志未酬鬓先秋"
+    translated: "Ambitions unfulfilled, silver hair comes early"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "且将心事付瑶琴"
+    translated: "And let my worries be entrusted to the jade zither."
+- raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"三人同日去，百花齊爭豔。（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"春\",\r\n      \"夏\",\r\n      \"秋\",\r\n      \"冬\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"三人同日去，百花齐争艳。（打一字）\",\r\n    \"AnswerList\": [\r\n      \"春\",\r\n      \"夏\",\r\n      \"秋\",\r\n      \"冬\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"三人同日去，百花齊爭豔。（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"春\",\r\n      \"夏\",\r\n      \"秋\",\r\n      \"冬\"\r\n    ]\r\n  }"
   rawIndex: 101
   splits:
   - splitPath: Name
@@ -745,7 +1975,22 @@
   - splitPath: Puzzle
     text: "三人同日去，百花齐争艳。（打一字）"
     translated: "Three go together on a day; myriad flowers vie in beauty. (Guess one character)"
-- raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"远看山有色，近听水无声，春去花还在，人来鸟不惊。（打一物）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "春"
+    translated: "Spring"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "夏"
+    translated: "Summer"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "秋"
+    translated: "Autumn"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "冬"
+    translated: "Winter"
+- raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\",\r\n    \"AnswerListFinal\": [\r\n      \"鏡\",\r\n      \"畫\",\r\n      \"書\",\r\n      \"硯\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"远看山有色，近听水无声，春去花还在，人来鸟不惊。（打一物）\",\r\n    \"AnswerList\": [\r\n      \"镜\",\r\n      \"画\",\r\n      \"书\",\r\n      \"砚\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"遠看山有色，近聽水無聲，春去花還在，人來鳥不驚。（打一物）\",\r\n    \"AnswerTwList\": [\r\n      \"鏡\",\r\n      \"畫\",\r\n      \"書\",\r\n      \"硯\"\r\n    ]\r\n  }"
   rawIndex: 102
   splits:
   - splitPath: Name
@@ -754,7 +1999,22 @@
   - splitPath: Puzzle
     text: "远看山有色，近听水无声，春去花还在，人来鸟不惊。（打一物）"
     translated: "A picture"
-- raw: "{\r\n    \"Key\": 103,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"有風不動無風動，不動無風動有風。（打一物）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"有风不动无风动，不动无风动有风。（打一物）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"有風不動無風動，不動無風動有風。（打一物）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "镜"
+    translated: "Mirror"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "画"
+    translated: "Painting"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "书"
+    translated: "Book"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "砚"
+    translated: "Inkstone"
+- raw: "{\r\n    \"Key\": 103,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"有風不動無風動，不動無風動有風。（打一物）\",\r\n    \"AnswerListFinal\": [\r\n      \"雨傘\",\r\n      \"風車\",\r\n      \"扇子\",\r\n      \"風箏\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"有风不动无风动，不动无风动有风。（打一物）\",\r\n    \"AnswerList\": [\r\n      \"雨伞\",\r\n      \"风车\",\r\n      \"扇子\",\r\n      \"风筝\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"有風不動無風動，不動無風動有風。（打一物）\",\r\n    \"AnswerTwList\": [\r\n      \"雨傘\",\r\n      \"風車\",\r\n      \"扇子\",\r\n      \"風箏\"\r\n    ]\r\n  }"
   rawIndex: 103
   splits:
   - splitPath: Name
@@ -763,7 +2023,22 @@
   - splitPath: Puzzle
     text: "有风不动无风动，不动无风动有风。（打一物）"
     translated: "A fan"
-- raw: "{\r\n    \"Key\": 104,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "雨伞"
+    translated: "Umbrella"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "风车"
+    translated: "Windmill"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "扇子"
+    translated: "Fan"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "风筝"
+    translated: "Kite"
+- raw: "{\r\n    \"Key\": 104,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"一\",\r\n      \"十\",\r\n      \"百\",\r\n      \"千\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\",\r\n    \"AnswerList\": [\r\n      \"一\",\r\n      \"十\",\r\n      \"百\",\r\n      \"千\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"上不在上，下不在下，不可在上，且宜在下（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"一\",\r\n      \"十\",\r\n      \"百\",\r\n      \"千\"\r\n    ]\r\n  }"
   rawIndex: 104
   splits:
   - splitPath: Name
@@ -772,7 +2047,22 @@
   - splitPath: Puzzle
     text: "上不在上，下不在下，不可在上，且宜在下（打一字）"
     translated: "Up not up, down not down, should not be up, better down (Guess one character)"
-- raw: "{\r\n    \"Key\": 105,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"兩山相對又相連，中有危峰插碧天（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"两山相对又相连，中有危峰插碧天（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"兩山相對又相連，中有危峰插碧天（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "一"
+    translated: "1"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "十"
+    translated: "10"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "百"
+    translated: "Hundred"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "千"
+    translated: "Thousand"
+- raw: "{\r\n    \"Key\": 105,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"兩山相對又相連，中有危峰插碧天（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"田\",\r\n      \"申\",\r\n      \"曲\",\r\n      \"由\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"两山相对又相连，中有危峰插碧天（打一字）\",\r\n    \"AnswerList\": [\r\n      \"田\",\r\n      \"申\",\r\n      \"曲\",\r\n      \"由\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"兩山相對又相連，中有危峰插碧天（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"田\",\r\n      \"申\",\r\n      \"曲\",\r\n      \"由\"\r\n    ]\r\n  }"
   rawIndex: 105
   splits:
   - splitPath: Name
@@ -781,7 +2071,22 @@
   - splitPath: Puzzle
     text: "两山相对又相连，中有危峰插碧天（打一字）"
     translated: "Two mountains facing each other and connected, with a perilous peak piercing the azure sky (one Chinese character)."
-- raw: "{\r\n    \"Key\": 106,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"三山倒掛，二月相連，上有可耕之田，下有長流之川（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"三山倒挂，二月相连，上有可耕之田，下有长流之川（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"三山倒掛，二月相連，上有可耕之田，下有長流之川（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "田"
+    translated: "Field"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "申"
+    translated: "Claim"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "曲"
+    translated: "Tune"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "由"
+    translated: "By"
+- raw: "{\r\n    \"Key\": 106,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"三山倒掛，二月相連，上有可耕之田，下有長流之川（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"周\",\r\n      \"用\",\r\n      \"同\",\r\n      \"甩\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"三山倒挂，二月相连，上有可耕之田，下有长流之川（打一字）\",\r\n    \"AnswerList\": [\r\n      \"周\",\r\n      \"用\",\r\n      \"同\",\r\n      \"甩\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"三山倒掛，二月相連，上有可耕之田，下有長流之川（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"周\",\r\n      \"用\",\r\n      \"同\",\r\n      \"甩\"\r\n    ]\r\n  }"
   rawIndex: 106
   splits:
   - splitPath: Name
@@ -790,7 +2095,22 @@
   - splitPath: Puzzle
     text: "三山倒挂，二月相连，上有可耕之田，下有长流之川（打一字）"
     translated: "March"
-- raw: "{\r\n    \"Key\": 107,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"半部春秋（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"半部春秋（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"半部春秋（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "周"
+    translated: "Week"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "用"
+    translated: "Use"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "同"
+    translated: "Same"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "甩"
+    translated: "Whip"
+- raw: "{\r\n    \"Key\": 107,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"半部春秋（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"夏\",\r\n      \"秦\",\r\n      \"泰\",\r\n      \"冬\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"半部春秋（打一字）\",\r\n    \"AnswerList\": [\r\n      \"夏\",\r\n      \"秦\",\r\n      \"泰\",\r\n      \"冬\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"半部春秋（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"夏\",\r\n      \"秦\",\r\n      \"泰\",\r\n      \"冬\"\r\n    ]\r\n  }"
   rawIndex: 107
   splits:
   - splitPath: Name
@@ -799,7 +2119,22 @@
   - splitPath: Puzzle
     text: "半部春秋（打一字）"
     translated: "Half of spring and autumn (guess one character)"
-- raw: "{\r\n    \"Key\": 108,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"一箭穿心（打一字）\",\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"一箭穿心（打一字）\",\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"一箭穿心（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "夏"
+    translated: "Summer"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "秦"
+    translated: "Qin"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "泰"
+    translated: "Tai"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "冬"
+    translated: "Winter"
+- raw: "{\r\n    \"Key\": 108,\r\n    \"NameFinal\": \"橘州燈會\",\r\n    \"PuzzleFinal\": \"一箭穿心（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"必\",\r\n      \"滅\",\r\n      \"準\",\r\n      \"靈\"\r\n    ],\r\n    \"Name\": \"橘州灯会\",\r\n    \"Puzzle\": \"一箭穿心（打一字）\",\r\n    \"AnswerList\": [\r\n      \"必\",\r\n      \"灭\",\r\n      \"准\",\r\n      \"灵\"\r\n    ],\r\n    \"NameTw\": \"橘州燈會\",\r\n    \"PuzzleTw\": \"一箭穿心（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"必\",\r\n      \"滅\",\r\n      \"準\",\r\n      \"靈\"\r\n    ]\r\n  }"
   rawIndex: 108
   splits:
   - splitPath: Name
@@ -808,7 +2143,22 @@
   - splitPath: Puzzle
     text: "一箭穿心（打一字）"
     translated: "Stab"
-- raw: "{\r\n    \"Key\": 121,\r\n    \"NameFinal\": \"燈會定情\",\r\n    \"PuzzleFinal\": \"雖有十張口，只有一顆心（打一字）\",\r\n    \"Name\": \"灯会定情\",\r\n    \"Puzzle\": \"虽有十张口，只有一颗心（打一字）\",\r\n    \"NameTw\": \"燈會定情\",\r\n    \"PuzzleTw\": \"雖有十張口，只有一顆心（打一字）\"\r\n  }"
+  - splitPath: AnswerList[0]
+    text: "必"
+    translated: "MUST"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "灭"
+    translated: "Annihilation"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "准"
+    translated: "Ready"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "灵"
+    translated: "Spirit"
+- raw: "{\r\n    \"Key\": 121,\r\n    \"NameFinal\": \"燈會定情\",\r\n    \"PuzzleFinal\": \"雖有十張口，只有一顆心（打一字）\",\r\n    \"AnswerListFinal\": [\r\n      \"古\",\r\n      \"必\",\r\n      \"思\",\r\n      \"早\"\r\n    ],\r\n    \"Name\": \"灯会定情\",\r\n    \"Puzzle\": \"虽有十张口，只有一颗心（打一字）\",\r\n    \"AnswerList\": [\r\n      \"古\",\r\n      \"必\",\r\n      \"思\",\r\n      \"早\"\r\n    ],\r\n    \"NameTw\": \"燈會定情\",\r\n    \"PuzzleTw\": \"雖有十張口，只有一顆心（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"古\",\r\n      \"必\",\r\n      \"思\",\r\n      \"早\"\r\n    ]\r\n  }"
   rawIndex: 121
   splits:
   - splitPath: Name
@@ -817,3 +2167,18 @@
   - splitPath: Puzzle
     text: "虽有十张口，只有一颗心（打一字）"
     translated: "Though ten mouths are there, only one heart (Guess a Chinese character: shi)"
+  - splitPath: AnswerList[0]
+    text: "古"
+    translated: "Ancient"
+  - split: 1
+    splitPath: AnswerList[1]
+    text: "必"
+    translated: "MUST"
+  - split: 2
+    splitPath: AnswerList[2]
+    text: "思"
+    translated: "Thought"
+  - split: 3
+    splitPath: AnswerList[3]
+    text: "早"
+    translated: "Early"

@@ -1,113 +1,211 @@
-- raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"靳紅衣\",\r\n    \"Name\": \"靳红衣\",\r\n    \"NameTw\": \"靳紅衣\"\r\n  }"
+- raw: "{\r\n    \"Key\": 101,\r\n    \"NameFinal\": \"靳紅衣\",\r\n    \"ChatListFinal\": [\r\n      \"要是能贏了姐姐，姐姐什麼都可以答應你的呦~\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"靳红衣\",\r\n    \"ChatList\": [\r\n      \"要是能赢了姐姐，姐姐什么都可以答应你的呦~\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"靳紅衣\",\r\n    \"ChatTwList\": [\r\n      \"要是能贏了姐姐，姐姐什麼都可以答應你的呦~\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 101
   splits:
   - splitPath: Name
     text: "靳红衣"
-- raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"莫笑貧\",\r\n    \"Name\": \"莫笑贫\",\r\n    \"NameTw\": \"莫笑貧\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "要是能赢了姐姐，姐姐什么都可以答应你的呦~"
+- raw: "{\r\n    \"Key\": 102,\r\n    \"NameFinal\": \"莫笑貧\",\r\n    \"ChatListFinal\": [\r\n      \"莫笑此身貧，散盡還千金！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"莫笑贫\",\r\n    \"ChatList\": [\r\n      \"莫笑此身贫，散尽还千金！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"莫笑貧\",\r\n    \"ChatTwList\": [\r\n      \"莫笑此身貧，散盡還千金！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 102
   splits:
   - splitPath: Name
     text: "莫笑贫"
-- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"流氓\",\r\n    \"Name\": \"流氓\",\r\n    \"NameTw\": \"流氓\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "莫笑此身贫，散尽还千金！"
+- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"流氓\",\r\n    \"ChatListFinal\": [\r\n      \"來來來，我來跟你玩玩！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"流氓\",\r\n    \"ChatList\": [\r\n      \"来来来，我来跟你玩玩！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"流氓\",\r\n    \"ChatTwList\": [\r\n      \"來來來，我來跟你玩玩！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 1
   splits:
   - splitPath: Name
     text: "流氓"
-- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"江湖藝人\",\r\n    \"Name\": \"江湖艺人\",\r\n    \"NameTw\": \"江湖藝人\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "来来来，我来跟你玩玩！"
+- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"江湖藝人\",\r\n    \"ChatListFinal\": [\r\n      \"小兄弟，咱們兩個來一局！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"江湖艺人\",\r\n    \"ChatList\": [\r\n      \"小兄弟，咱们两个来一局！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"江湖藝人\",\r\n    \"ChatTwList\": [\r\n      \"小兄弟，咱們兩個來一局！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
     text: "江湖艺人"
-- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"富商\",\r\n    \"Name\": \"富商\",\r\n    \"NameTw\": \"富商\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "小兄弟，咱们两个来一局！"
+- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"富商\",\r\n    \"ChatListFinal\": [\r\n      \"錢咱有的是，就看你有沒有本事都贏過去！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"富商\",\r\n    \"ChatList\": [\r\n      \"钱咱有的是，就看你有没有本事都赢过去！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"富商\",\r\n    \"ChatTwList\": [\r\n      \"錢咱有的是，就看你有沒有本事都贏過去！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 3
   splits:
   - splitPath: Name
     text: "富商"
-- raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"鏢師\",\r\n    \"Name\": \"镖师\",\r\n    \"NameTw\": \"鏢師\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "钱咱有的是，就看你有没有本事都赢过去！"
+- raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"鏢師\",\r\n    \"ChatListFinal\": [\r\n      \"開一把大的！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"镖师\",\r\n    \"ChatList\": [\r\n      \"开一把大的！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"鏢師\",\r\n    \"ChatTwList\": [\r\n      \"開一把大的！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 4
   splits:
   - splitPath: Name
     text: "镖师"
-- raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"捕快\",\r\n    \"Name\": \"捕快\",\r\n    \"NameTw\": \"捕快\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "开一把大的！"
+- raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"捕快\",\r\n    \"ChatListFinal\": [\r\n      \"來來來，出個豹子！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"捕快\",\r\n    \"ChatList\": [\r\n      \"来来来，出个豹子！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"捕快\",\r\n    \"ChatTwList\": [\r\n      \"來來來，出個豹子！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 5
   splits:
   - splitPath: Name
     text: "捕快"
-- raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"小二\",\r\n    \"Name\": \"小二\",\r\n    \"NameTw\": \"小二\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "来来来，出个豹子！"
+- raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"小二\",\r\n    \"ChatListFinal\": [\r\n      \"少俠，小的伺候您玩玩。\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"小二\",\r\n    \"ChatList\": [\r\n      \"少侠，小的伺候您玩玩。\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"小二\",\r\n    \"ChatTwList\": [\r\n      \"少俠，小的伺候您玩玩。\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 6
   splits:
   - splitPath: Name
     text: "小二"
-- raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"儒生\",\r\n    \"Name\": \"儒生\",\r\n    \"NameTw\": \"儒生\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "少侠，小的伺候您玩玩。"
+- raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"儒生\",\r\n    \"ChatListFinal\": [\r\n      \"兄臺，請了！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Name\": \"儒生\",\r\n    \"ChatList\": [\r\n      \"兄台，请了！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"儒生\",\r\n    \"ChatTwList\": [\r\n      \"兄臺，請了！\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7
   splits:
   - splitPath: Name
     text: "儒生"
-- raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"石重寶\",\r\n    \"DescFinal\": \"殺殷通前\",\r\n    \"Name\": \"石重宝\",\r\n    \"Desc\": \"杀殷通前\",\r\n    \"NameTw\": \"石重寶\",\r\n    \"DescTw\": \"殺殷通前\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "兄台，请了！"
+- raw: "{\r\n    \"Key\": 11,\r\n    \"NameFinal\": \"石重寶\",\r\n    \"DescFinal\": \"殺殷通前\",\r\n    \"ChatListFinal\": [\r\n      \"來，咱們兩個來一局！\",\r\n      \"來，咱們倆個來一局！\",\r\n      \"我押上這本祕籍，接著來！\"\r\n    ],\r\n    \"Name\": \"石重宝\",\r\n    \"Desc\": \"杀殷通前\",\r\n    \"ChatList\": [\r\n      \"来，咱们两个来一局！\",\r\n      \"来，咱们俩个来一局！\",\r\n      \"我押上这本秘籍，接着来！\"\r\n    ],\r\n    \"NameTw\": \"石重寶\",\r\n    \"DescTw\": \"殺殷通前\",\r\n    \"ChatTwList\": [\r\n      \"來，咱們兩個來一局！\",\r\n      \"來，咱們倆個來一局！\",\r\n      \"我押上這本祕籍，接著來！\"\r\n    ]\r\n  }"
   rawIndex: 11
   splits:
   - splitPath: Name
     text: "石重宝"
   - splitPath: Desc
     text: "杀殷通前"
-- raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"木桑\",\r\n    \"Name\": \"木桑\",\r\n    \"NameTw\": \"木桑\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "来，咱们两个来一局！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "来，咱们俩个来一局！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "我押上这本秘籍，接着来！"
+- raw: "{\r\n    \"Key\": 12,\r\n    \"NameFinal\": \"木桑\",\r\n    \"ChatListFinal\": [\r\n      \"小僧來自婆羅國，不善中原賭術！\",\r\n      \"小僧來自婆羅國，不善中原賭術！\",\r\n      \"若能贏了小僧，這串佛珠便贈與小施主。\"\r\n    ],\r\n    \"Name\": \"木桑\",\r\n    \"ChatList\": [\r\n      \"小僧来自婆罗国，不善中原赌术！\",\r\n      \"小僧来自婆罗国，不善中原赌术！\",\r\n      \"若能赢了小僧，这串佛珠便赠与小施主。\"\r\n    ],\r\n    \"NameTw\": \"木桑\",\r\n    \"ChatTwList\": [\r\n      \"小僧來自婆羅國，不善中原賭術！\",\r\n      \"小僧來自婆羅國，不善中原賭術！\",\r\n      \"若能贏了小僧，這串佛珠便贈與小施主。\"\r\n    ]\r\n  }"
   rawIndex: 12
   splits:
   - splitPath: Name
     text: "木桑"
-- raw: "{\r\n    \"Key\": 13,\r\n    \"NameFinal\": \"蔣承籌\",\r\n    \"DescFinal\": \"第三年後，壽宴未揭發\",\r\n    \"Name\": \"蒋承筹\",\r\n    \"Desc\": \"第三年后，寿宴未揭发\",\r\n    \"NameTw\": \"蔣承籌\",\r\n    \"DescTw\": \"第三年後，壽宴未揭發\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "小僧来自婆罗国，不善中原赌术！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "小僧来自婆罗国，不善中原赌术！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "若能赢了小僧，这串佛珠便赠与小施主。"
+- raw: "{\r\n    \"Key\": 13,\r\n    \"NameFinal\": \"蔣承籌\",\r\n    \"DescFinal\": \"第三年後，壽宴未揭發\",\r\n    \"ChatListFinal\": [\r\n      \"小兄弟，咱們來玩玩！\",\r\n      \"小兄弟，咱們來玩玩！\",\r\n      \"若你再能贏我，這枚九真丸便輸給小兄弟了！\"\r\n    ],\r\n    \"Name\": \"蒋承筹\",\r\n    \"Desc\": \"第三年后，寿宴未揭发\",\r\n    \"ChatList\": [\r\n      \"小兄弟，咱们来玩玩！\",\r\n      \"小兄弟，咱们来玩玩！\",\r\n      \"若你再能赢我，这枚九真丸便输给小兄弟了！\"\r\n    ],\r\n    \"NameTw\": \"蔣承籌\",\r\n    \"DescTw\": \"第三年後，壽宴未揭發\",\r\n    \"ChatTwList\": [\r\n      \"小兄弟，咱們來玩玩！\",\r\n      \"小兄弟，咱們來玩玩！\",\r\n      \"若你再能贏我，這枚九真丸便輸給小兄弟了！\"\r\n    ]\r\n  }"
   rawIndex: 13
   splits:
   - splitPath: Name
     text: "蒋承筹"
   - splitPath: Desc
     text: "第三年后，寿宴未揭发"
-- raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"那瑜陀\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"那瑜陀\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"那瑜陀\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "小兄弟，咱们来玩玩！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "小兄弟，咱们来玩玩！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "若你再能赢我，这枚九真丸便输给小兄弟了！"
+- raw: "{\r\n    \"Key\": 14,\r\n    \"NameFinal\": \"那瑜陀\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"ChatListFinal\": [\r\n      \"朋友，我覺得你們中原人真的太會玩了！\",\r\n      \"朋友，我覺得你們中原人真的太會玩了！\",\r\n      \"這瓶娜迦聖血石乃是暹羅國的寶物，這局你要是能再贏我，它就是你的了！\"\r\n    ],\r\n    \"Name\": \"那瑜陀\",\r\n    \"Desc\": \"无条件\",\r\n    \"ChatList\": [\r\n      \"朋友，我觉得你们中原人真的太会玩了！\",\r\n      \"朋友，我觉得你们中原人真的太会玩了！\",\r\n      \"这瓶娜迦圣血石乃是暹罗国的宝物，这局你要是能再赢我，它就是你的了！\"\r\n    ],\r\n    \"NameTw\": \"那瑜陀\",\r\n    \"DescTw\": \"無條件\",\r\n    \"ChatTwList\": [\r\n      \"朋友，我覺得你們中原人真的太會玩了！\",\r\n      \"朋友，我覺得你們中原人真的太會玩了！\",\r\n      \"這瓶娜迦聖血石乃是暹羅國的寶物，這局你要是能再贏我，它就是你的了！\"\r\n    ]\r\n  }"
   rawIndex: 14
   splits:
   - splitPath: Name
     text: "那瑜陀"
   - splitPath: Desc
     text: "无条件"
-- raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"辛無厭\",\r\n    \"DescFinal\": \"黃鶴見面前\",\r\n    \"Name\": \"辛无厌\",\r\n    \"Desc\": \"黄鹤见面前\",\r\n    \"NameTw\": \"辛無厭\",\r\n    \"DescTw\": \"黃鶴見面前\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "朋友，我觉得你们中原人真的太会玩了！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "朋友，我觉得你们中原人真的太会玩了！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "这瓶娜迦圣血石乃是暹罗国的宝物，这局你要是能再赢我，它就是你的了！"
+- raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"辛無厭\",\r\n    \"DescFinal\": \"黃鶴見面前\",\r\n    \"ChatListFinal\": [\r\n      \"來來，小兄弟，咱們來耍一耍！\",\r\n      \"來來，小兄弟，咱們來耍一耍！\",\r\n      \"哈哈，太有趣了，小兄弟若能再勝我一局，這壺仙人醉就是你的了。\"\r\n    ],\r\n    \"Name\": \"辛无厌\",\r\n    \"Desc\": \"黄鹤见面前\",\r\n    \"ChatList\": [\r\n      \"来来，小兄弟，咱们来耍一耍！\",\r\n      \"来来，小兄弟，咱们来耍一耍！\",\r\n      \"哈哈，太有趣了，小兄弟若能再胜我一局，这壶仙人醉就是你的了。\"\r\n    ],\r\n    \"NameTw\": \"辛無厭\",\r\n    \"DescTw\": \"黃鶴見面前\",\r\n    \"ChatTwList\": [\r\n      \"來來，小兄弟，咱們來耍一耍！\",\r\n      \"來來，小兄弟，咱們來耍一耍！\",\r\n      \"哈哈，太有趣了，小兄弟若能再勝我一局，這壺仙人醉就是你的了。\"\r\n    ]\r\n  }"
   rawIndex: 15
   splits:
   - splitPath: Name
     text: "辛无厌"
   - splitPath: Desc
     text: "黄鹤见面前"
-- raw: "{\r\n    \"Key\": 16,\r\n    \"NameFinal\": \"袁飛\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"袁飞\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"袁飛\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "来来，小兄弟，咱们来耍一耍！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "来来，小兄弟，咱们来耍一耍！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "哈哈，太有趣了，小兄弟若能再胜我一局，这壶仙人醉就是你的了。"
+- raw: "{\r\n    \"Key\": 16,\r\n    \"NameFinal\": \"袁飛\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"ChatListFinal\": [\r\n      \"好久沒耍這個呢，小兄弟咱倆玩玩！\",\r\n      \"好久沒耍這個呢，小兄弟咱倆玩玩！\",\r\n      \"錢是輸光了，但是癮還沒過，這本祕籍就算我這局的押物了。\"\r\n    ],\r\n    \"Name\": \"袁飞\",\r\n    \"Desc\": \"无条件\",\r\n    \"ChatList\": [\r\n      \"好久没耍这个呢，小兄弟咱俩玩玩！\",\r\n      \"好久没耍这个呢，小兄弟咱俩玩玩！\",\r\n      \"钱是输光了，但是瘾还没过，这本秘籍就算我这局的押物了。\"\r\n    ],\r\n    \"NameTw\": \"袁飛\",\r\n    \"DescTw\": \"無條件\",\r\n    \"ChatTwList\": [\r\n      \"好久沒耍這個呢，小兄弟咱倆玩玩！\",\r\n      \"好久沒耍這個呢，小兄弟咱倆玩玩！\",\r\n      \"錢是輸光了，但是癮還沒過，這本祕籍就算我這局的押物了。\"\r\n    ]\r\n  }"
   rawIndex: 16
   splits:
   - splitPath: Name
     text: "袁飞"
   - splitPath: Desc
     text: "无条件"
-- raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"法元\",\r\n    \"DescFinal\": \"第六年後未觸發惡僧事件\",\r\n    \"Name\": \"法元\",\r\n    \"Desc\": \"第六年后未触发恶僧事件\",\r\n    \"NameTw\": \"法元\",\r\n    \"DescTw\": \"第六年後未觸發惡僧事件\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "好久没耍这个呢，小兄弟咱俩玩玩！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "好久没耍这个呢，小兄弟咱俩玩玩！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "钱是输光了，但是瘾还没过，这本秘籍就算我这局的押物了。"
+- raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"法元\",\r\n    \"DescFinal\": \"第六年後未觸發惡僧事件\",\r\n    \"ChatListFinal\": [\r\n      \"來，小子，灑家跟你耍耍！\",\r\n      \"來，小子，灑家跟你耍耍！\",\r\n      \"他奶奶的，灑家還不信了，你若贏了灑家就傳你絕學！\"\r\n    ],\r\n    \"Name\": \"法元\",\r\n    \"Desc\": \"第六年后未触发恶僧事件\",\r\n    \"ChatList\": [\r\n      \"来，小子，洒家跟你耍耍！\",\r\n      \"来，小子，洒家跟你耍耍！\",\r\n      \"他奶奶的，洒家还不信了，你若赢了洒家就传你绝学！\"\r\n    ],\r\n    \"NameTw\": \"法元\",\r\n    \"DescTw\": \"第六年後未觸發惡僧事件\",\r\n    \"ChatTwList\": [\r\n      \"來，小子，灑家跟你耍耍！\",\r\n      \"來，小子，灑家跟你耍耍！\",\r\n      \"他奶奶的，灑家還不信了，你若贏了灑家就傳你絕學！\"\r\n    ]\r\n  }"
   rawIndex: 17
   splits:
   - splitPath: Name
     text: "法元"
   - splitPath: Desc
     text: "第六年后未触发恶僧事件"
-- raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"賈孤山\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"Name\": \"贾孤山\",\r\n    \"Desc\": \"第七年前\",\r\n    \"NameTw\": \"賈孤山\",\r\n    \"DescTw\": \"第七年前\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "来，小子，洒家跟你耍耍！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "来，小子，洒家跟你耍耍！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "他奶奶的，洒家还不信了，你若赢了洒家就传你绝学！"
+- raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"賈孤山\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"ChatListFinal\": [\r\n      \"小兄弟，我不怎麼會，多擔待！\",\r\n      \"小兄弟，我不怎麼會，多擔待！\",\r\n      \"小兄弟可真是真人不露相啊！\"\r\n    ],\r\n    \"Name\": \"贾孤山\",\r\n    \"Desc\": \"第七年前\",\r\n    \"ChatList\": [\r\n      \"小兄弟，我不怎么会，多担待！\",\r\n      \"小兄弟，我不怎么会，多担待！\",\r\n      \"小兄弟可真是真人不露相啊！\"\r\n    ],\r\n    \"NameTw\": \"賈孤山\",\r\n    \"DescTw\": \"第七年前\",\r\n    \"ChatTwList\": [\r\n      \"小兄弟，我不怎麼會，多擔待！\",\r\n      \"小兄弟，我不怎麼會，多擔待！\",\r\n      \"小兄弟可真是真人不露相啊！\"\r\n    ]\r\n  }"
   rawIndex: 18
   splits:
   - splitPath: Name
     text: "贾孤山"
   - splitPath: Desc
     text: "第七年前"
-- raw: "{\r\n    \"Key\": 19,\r\n    \"NameFinal\": \"左遊仙\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"Name\": \"左游仙\",\r\n    \"Desc\": \"第七年前\",\r\n    \"NameTw\": \"左遊仙\",\r\n    \"DescTw\": \"第七年前\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "小兄弟，我不怎么会，多担待！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "小兄弟，我不怎么会，多担待！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "小兄弟可真是真人不露相啊！"
+- raw: "{\r\n    \"Key\": 19,\r\n    \"NameFinal\": \"左遊仙\",\r\n    \"DescFinal\": \"第七年前\",\r\n    \"ChatListFinal\": [\r\n      \"老夫今日手癢的很，倒要好好玩一玩！\",\r\n      \"老夫今日手癢的很，倒要好好玩一玩！\",\r\n      \"倒是有點意思，這局我押上我的功法！\"\r\n    ],\r\n    \"Name\": \"左游仙\",\r\n    \"Desc\": \"第七年前\",\r\n    \"ChatList\": [\r\n      \"老夫今日手痒的很，倒要好好玩一玩！\",\r\n      \"老夫今日手痒的很，倒要好好玩一玩！\",\r\n      \"倒是有点意思，这局我押上我的功法！\"\r\n    ],\r\n    \"NameTw\": \"左遊仙\",\r\n    \"DescTw\": \"第七年前\",\r\n    \"ChatTwList\": [\r\n      \"老夫今日手癢的很，倒要好好玩一玩！\",\r\n      \"老夫今日手癢的很，倒要好好玩一玩！\",\r\n      \"倒是有點意思，這局我押上我的功法！\"\r\n    ]\r\n  }"
   rawIndex: 19
   splits:
   - splitPath: Name
     text: "左游仙"
   - splitPath: Desc
     text: "第七年前"
-- raw: "{\r\n    \"Key\": 20,\r\n    \"NameFinal\": \"廣惠\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"Name\": \"广惠\",\r\n    \"Desc\": \"无条件\",\r\n    \"NameTw\": \"廣惠\",\r\n    \"DescTw\": \"無條件\"\r\n  }"
+  - splitPath: ChatList[0]
+    text: "老夫今日手痒的很，倒要好好玩一玩！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "老夫今日手痒的很，倒要好好玩一玩！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "倒是有点意思，这局我押上我的功法！"
+- raw: "{\r\n    \"Key\": 20,\r\n    \"NameFinal\": \"廣惠\",\r\n    \"DescFinal\": \"無條件\",\r\n    \"ChatListFinal\": [\r\n      \"快點下注！灑家贏了還要去吃點好的！\",\r\n      \"快點下注！灑家贏了還要去吃點好的！\",\r\n      \"快點下注！灑家贏了還要去吃點好的！\"\r\n    ],\r\n    \"Name\": \"广惠\",\r\n    \"Desc\": \"无条件\",\r\n    \"ChatList\": [\r\n      \"快点下注！洒家赢了还要去吃点好的！\",\r\n      \"快点下注！洒家赢了还要去吃点好的！\",\r\n      \"快点下注！洒家赢了还要去吃点好的！\"\r\n    ],\r\n    \"NameTw\": \"廣惠\",\r\n    \"DescTw\": \"無條件\",\r\n    \"ChatTwList\": [\r\n      \"快點下注！灑家贏了還要去吃點好的！\",\r\n      \"快點下注！灑家贏了還要去吃點好的！\",\r\n      \"快點下注！灑家贏了還要去吃點好的！\"\r\n    ]\r\n  }"
   rawIndex: 20
   splits:
   - splitPath: Name
     text: "广惠"
   - splitPath: Desc
     text: "无条件"
+  - splitPath: ChatList[0]
+    text: "快点下注！洒家赢了还要去吃点好的！"
+  - split: 1
+    splitPath: ChatList[1]
+    text: "快点下注！洒家赢了还要去吃点好的！"
+  - split: 2
+    splitPath: ChatList[2]
+    text: "快点下注！洒家赢了还要去吃点好的！"

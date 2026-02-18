@@ -119,7 +119,41 @@ public class FileOutputHandling
                 // Add each split as a property
                 foreach (var split in line.Splits)
                 {
-                    if (split.FlaggedForRetranslation)
+                    var arrayMatch = Regex.Match(split.SplitPath, @"^(.+)\[(\d+)\]$");
+                    if (arrayMatch.Success)
+                    {
+                        var propertyName = arrayMatch.Groups[1].Value;
+                        var index = int.Parse(arrayMatch.Groups[2].Value);
+
+                        // Initialize the list from the original JSON the first time we see this property
+                        if (!jsonObject.ContainsKey(propertyName))
+                        {
+                            using var originalDoc = System.Text.Json.JsonDocument.Parse(line.Raw);
+                            if (originalDoc.RootElement.TryGetProperty(propertyName, out var originalArray)
+                                && originalArray.ValueKind == System.Text.Json.JsonValueKind.Array)
+                            {
+                                jsonObject[propertyName] = originalArray.EnumerateArray()
+                                    .Select(e => e.ValueKind == System.Text.Json.JsonValueKind.String ? e.GetString() ?? string.Empty : string.Empty)
+                                    .ToList();
+                            }
+                            else
+                            {
+                                jsonObject[propertyName] = new List<string>();
+                            }
+                        }
+
+                        var list = (List<string>)jsonObject[propertyName];
+                        if (split.FlaggedForRetranslation)
+                        {
+                            failedCount++;
+                        }
+                        else if (index < list.Count)
+                        {
+                            list[index] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
+                            passedCount++;
+                        }
+                    }
+                    else if (split.FlaggedForRetranslation)
                     {
                         // Use original text and increment failed count
                         jsonObject[split.SplitPath] = split.Text;

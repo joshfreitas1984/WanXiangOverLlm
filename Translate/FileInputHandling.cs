@@ -67,10 +67,10 @@ public class InputFileHandling
                     if (property.Name == "Key")
                         continue;
 
-                    if (property.Name.ToLower().EndsWith("tw"))
+                    if (property.Name.ToLower().Replace("list", "").EndsWith("tw"))
                         continue;
 
-                    if (property.Name.ToLower().EndsWith("final"))
+                    if (property.Name.ToLower().Replace("list", "").EndsWith("final"))
                         continue;
 
                     if (property.Value.ValueKind == System.Text.Json.JsonValueKind.String)
@@ -83,6 +83,27 @@ public class InputFileHandling
                                 SplitPath = property.Name,
                                 Text = text
                             });
+                        }
+                    }
+                    else if (property.Value.ValueKind == System.Text.Json.JsonValueKind.Array)
+                    {
+                        var index = 0;
+                        foreach (var arrayElement in property.Value.EnumerateArray())
+                        {
+                            if (arrayElement.ValueKind == System.Text.Json.JsonValueKind.String)
+                            {
+                                var text = arrayElement.GetString();
+                                if (!string.IsNullOrEmpty(text) && Regex.IsMatch(text, pattern))
+                                {
+                                    line.Splits.Add(new TranslationSplit
+                                    {
+                                        SplitPath = $"{property.Name}[{index}]",
+                                        Text = text,
+                                        Split = index
+                                    });
+                                }
+                            }
+                            index++;
                         }
                     }
                 }
@@ -117,20 +138,54 @@ public class InputFileHandling
 
             foreach (var line in exportLines)
             {
-                var found = fileLines.FirstOrDefault(x => x.RawIndex == line.RawIndex);
-                if (found != null)
+                if (textFileToTranslate.TextFileType == TextFileType.RegularDb)
                 {
-                    foreach (var split in line.Splits)
+
+                    var found = fileLines.FirstOrDefault(x => x.RawIndex == line.RawIndex);
+                    if (found != null)
                     {
-                        var found2 = found.Splits.FirstOrDefault(x => x.SplitPath == split.SplitPath);
-                        if (found2 != null)
-                            split.Translated = found2.Translated;
-                        else
-                            newCount++;
+                        foreach (var split in line.Splits)
+                        {
+
+                            var found2 = found.Splits.FirstOrDefault(x => x.SplitPath == split.SplitPath);
+                            if (found2 != null)
+                                split.Translated = found2.Translated;
+                            else
+                                newCount++;
+
+                        }
+                    }
+                    else
+                        newCount++;
+                }
+                else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
+                {
+                    var found = fileLines.FirstOrDefault(x => x.Raw == line.Raw);
+                    if (found != null)
+                    {
+                        foreach (var split in line.Splits)
+                        {
+                            var found2 = found.Splits.FirstOrDefault(x => x.Text == split.Text);
+                            if (found2 != null)
+                                split.Translated = found2.Translated;
+                        }
+                    }
+                    else
+                    {
+                        // Try matching on split instead of line incase they changed line format
+                        foreach (var split in line.Splits)
+                        {
+                            var found2 = fileLines
+                                .Select(x => x.Splits.FirstOrDefault(s => s.Text == split.Text))
+                                .FirstOrDefault(s => s != null);
+
+                            if (found2 != null)
+                                split.Translated = found2.Translated;
+                            else
+                                newCount++;
+                        }
                     }
                 }
-                else
-                    newCount++;
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");

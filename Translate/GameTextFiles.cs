@@ -25,9 +25,17 @@ public class GameTextFiles
             // "。"
             //  "<br>", "-", 
 
-            //TODO Match on 《念奴嬌·赤壁懷古》 regex: 《.*?》- split based on containers like this and others
-            //eg: (),〈〉, 《》, 「」, 『』, 【】, 〖〗,
+         
         ];
+
+    public static string[] SplitRegexPatterns = [
+        @"《.*?》",
+        @"\〈.*?\〉",
+        @"\「.*?\」",
+        @"\『.*?\』",
+        @"\【.*?\】",
+        @"\〖.*?\〗",
+    ];
 
     public static string[] FilesNotHandled = [
     ];

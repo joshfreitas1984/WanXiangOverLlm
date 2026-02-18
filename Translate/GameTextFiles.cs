@@ -5,6 +5,8 @@ public class GameTextFiles
     // "。" doesnt work like u think it would   
     public static string[] SplitCharactersList = [
             "\\n",
+            //"-",
+            //"友好到达",
             //":",
             //"|",
             // "。"
@@ -51,6 +53,5 @@ public class GameTextFiles
 
         new() {Path = "Skill.json", PackageOutput = true, },
         new() {Path = "EventDialog.json", PackageOutput = true, IgnoreHtmlTagsInText = true},
-
     ];
 }

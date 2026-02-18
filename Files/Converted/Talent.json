@@ -78,7 +78,7 @@
     translated: "Lithe and agile"
   - splitPath: Desc
     text: "灵活+10"
-    translated: "Flexible +10"
+    translated: "Flexibility +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -90,7 +90,7 @@
     translated: "Light as a swallow"
   - splitPath: Desc
     text: "灵活+20"
-    translated: "Flexible +20"
+    translated: "Flexibility +20"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -102,9 +102,7 @@
     translated: "Soulful and Intelligent"
   - splitPath: Desc
     text: "悟性+10"
-    translated: "Understanding +10"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Insight,悟性,"
+    translated: "Insight +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -116,9 +114,7 @@
     translated: "Quick‑witted"
   - splitPath: Desc
     text: "悟性+20"
-    translated: "Understanding +20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Insight,悟性,"
+    translated: "Insight +20"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -130,9 +126,7 @@
     translated: "Lucky Star Ascending"
   - splitPath: Desc
     text: "福缘+10"
-    translated: "Good fortune +10"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Luck,福缘,"
+    translated: "Luck +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -144,9 +138,7 @@
     translated: "Good fortune shines upon you"
   - splitPath: Desc
     text: "福缘+20"
-    translated: "Good fortune +20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Luck,福缘,"
+    translated: "Luck +20"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -158,9 +150,7 @@
     translated: "High Wind Bright Integrity"
   - splitPath: Desc
     text: "道德+10"
-    translated: "Moral Code +10"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Morality,道德,"
+    translated: "Morality +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -172,9 +162,7 @@
     translated: "Hold jade and cherish jasper"
   - splitPath: Desc
     text: "道德+20"
-    translated: "Ethical Code +20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Morality,道德,"
+    translated: "Morality +20"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -234,9 +222,7 @@
     translated: "Introduction to Medicine"
   - splitPath: Desc
     text: "医术+40"
-    translated: "Medical Skill +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Medicine,医术,"
+    translated: "Medicine +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -245,14 +231,10 @@
   splits:
   - splitPath: Name
     text: "儒学入门"
-    translated: "Introduction to Confucianism"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "Introduction to Confucian Studies"
   - splitPath: Desc
     text: "儒学+40"
-    translated: "Confucianism +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "Confucian Studies +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -261,9 +243,7 @@
   splits:
   - splitPath: Name
     text: "火器入门"
-    translated: "Introduction to Firearm Basics"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Firearms,火器,"
+    translated: "Firearms Basics"
   - splitPath: Desc
     text: "火器+40"
     translated: "Firearms +40"
@@ -275,14 +255,10 @@
   splits:
   - splitPath: Name
     text: "御兽入门"
-    translated: "Introduction to Beast Control"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming Basics"
   - splitPath: Desc
     text: "御兽+40"
-    translated: "Domesticate +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -306,17 +282,13 @@
     translated: "Introduction to Gambling Techniques"
   - splitPath: Desc
     text: "赌术+40"
-    translated: "Bet Skill +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gambling,赌术,"
+    translated: "+40 Gambling"
 - raw: "{\r\n    \"Key\": 30019,\r\n    \"NameFinal\": \"術數入門\",\r\n    \"DescFinal\": \"術數+40\",\r\n    \"Name\": \"术数入门\",\r\n    \"Desc\": \"术数+40\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"術數入門\",\r\n    \"DescTw\": \"術數+40\"\r\n  }"
   rawIndex: 30019
   splits:
   - splitPath: Name
     text: "术数入门"
-    translated: "Introduction to Numerology"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Divination,术数,"
+    translated: "Introduction to Divination"
   - splitPath: Desc
     text: "术数+40"
     translated: "Divination +40"
@@ -331,22 +303,16 @@
     translated: "Introduction to Calligraphy"
   - splitPath: Desc
     text: "翰墨+40"
-    translated: "Ink and Brush +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Calligraphy,翰墨,"
+    translated: "Calligraphy +40"
 - raw: "{\r\n    \"Key\": 30021,\r\n    \"NameFinal\": \"百戲入門\",\r\n    \"DescFinal\": \"百戲+40\",\r\n    \"Name\": \"百戏入门\",\r\n    \"Desc\": \"百戏+40\",\r\n    \"NameTw\": \"百戲入門\",\r\n    \"DescTw\": \"百戲+40\"\r\n  }"
   rawIndex: 30021
   splits:
   - splitPath: Name
     text: "百戏入门"
-    translated: "Introduction to a Hundred Performances"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Variety Arts,百戏,"
+    translated: "Variety Arts Introduction"
   - splitPath: Desc
     text: "百戏+40"
-    translated: "Variety Shows +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Variety Arts,百戏,"
+    translated: "Variety Arts +40"
 - raw: "{\r\n    \"Key\": 30101,\r\n    \"NameFinal\": \"醫術精通\",\r\n    \"DescFinal\": \"醫術+80\",\r\n    \"Name\": \"医术精通\",\r\n    \"Desc\": \"医术+80\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"醫術精通\",\r\n    \"DescTw\": \"醫術+80\"\r\n  }"
   rawIndex: 30101
   splits:
@@ -355,9 +321,7 @@
     translated: "Skilled in medicine"
   - splitPath: Desc
     text: "医术+80"
-    translated: "Medical Skill +80"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Medicine,医术,"
+    translated: "Medicine +80"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -366,14 +330,10 @@
   splits:
   - splitPath: Name
     text: "儒学精通"
-    translated: "Well‑versed in Confucianism"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "Confucian Studies proficient"
   - splitPath: Desc
     text: "儒学+80"
-    translated: "Confucianism +80"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "Confucian Studies +80"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -394,14 +354,10 @@
   splits:
   - splitPath: Name
     text: "御兽精通"
-    translated: "Mastery of Beast Control"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming Mastery"
   - splitPath: Desc
     text: "御兽+80"
-    translated: "Domesticate Beast +80"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming +80"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -434,17 +390,13 @@
     translated: "Calligraphy and painting expert"
   - splitPath: Desc
     text: "翰墨+80"
-    translated: "Inkbrush +80"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Calligraphy,翰墨,"
+    translated: "Calligraphy +80"
 - raw: "{\r\n    \"Key\": 30120,\r\n    \"NameFinal\": \"術數精通\",\r\n    \"DescFinal\": \"術數+80\",\r\n    \"Name\": \"术数精通\",\r\n    \"Desc\": \"术数+80\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"術數精通\",\r\n    \"DescTw\": \"術數+80\"\r\n  }"
   rawIndex: 30120
   splits:
   - splitPath: Name
     text: "术数精通"
-    translated: "Proficient in numerology and astrology"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Divination,术数,"
+    translated: "Divination master"
   - splitPath: Desc
     text: "术数+80"
     translated: "Divination +80"
@@ -456,14 +408,10 @@
   splits:
   - splitPath: Name
     text: "百戏精通"
-    translated: "Versed in a hundred performances"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Variety Arts,百戏,"
+    translated: "Variety Arts master"
   - splitPath: Desc
     text: "百戏+80"
-    translated: "Varied Performances +80"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Variety Arts,百戏,"
+    translated: "Variety Arts +80"
 - raw: "{\r\n    \"Key\": 50002,\r\n    \"NameFinal\": \"骨骼清奇\",\r\n    \"DescFinal\": \"修煉基本功時提升更多根骨\",\r\n    \"Name\": \"骨骼清奇\",\r\n    \"Desc\": \"修炼基本功时提升更多根骨\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"骨骼清奇\",\r\n    \"DescTw\": \"修煉基本功時提升更多根骨\"\r\n  }"
   rawIndex: 50002
   splits:
@@ -508,9 +456,7 @@
     translated: "Gifted"
   - splitPath: Desc
     text: "修炼轻功时提升更多灵活"
-    translated: "Practicing qinggong enhances flexibility more significantly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Flexible,灵活,"
+    translated: "While training in qinggong, increase flexibility more"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -534,9 +480,7 @@
     translated: "Blessed with great fortune"
   - splitPath: Desc
     text: "游玩时提升更多福缘"
-    translated: "Increase your good fortune while playing"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Luck,福缘,"
+    translated: "Play to earn more luck"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -560,9 +504,7 @@
     translated: "Can drink a thousand cups and still not get drunk"
   - splitPath: Desc
     text: "每品尝一次酒楼香茗或美酒功力+20"
-    translated: "Every time they taste the delicious brews or fine wines at the tavern, their cultivation improves +20."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Power,功力,"
+    translated: "Every time they savor the tavern's fragrant tea or fine wine, their power +20 increases."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -634,9 +576,7 @@
     translated: "Ten Thousand Things Revealed"
   - splitPath: Desc
     text: "每修炼一门百兵功法功力+100"
-    translated: "Every practice of a Hundred Weapons Skill improves +100 their strength."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Power,功力,"
+    translated: "Every practice of a hundred weapon skill enhances their power by +100."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -648,9 +588,7 @@
     translated: "A gentleman's friendship"
   - splitPath: Desc
     text: "君子庄友好+40"
-    translated: "Gentlemen Manor is friendly to +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Gentlemen Manor Friendship +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -662,9 +600,7 @@
     translated: "Blessed with longevity and prosperity"
   - splitPath: Desc
     text: "万寿帮友好+40"
-    translated: "Longevity Sect is friendly with +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "The Longevity Sect maintains a relationship of Friendship with +40."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -688,9 +624,7 @@
     translated: "Coiling Serpent Repaying Pearls"
   - splitPath: Desc
     text: "盘蛇谷友好+40"
-    translated: "Coiled Serpent Valley is friendly to +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Coiled Serpent Valley Friendship with +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -702,9 +636,7 @@
     translated: "Food tastes good"
   - splitPath: Desc
     text: "丐帮忠字舵友好+40"
-    translated: "Beggar Sect's Loyalty Decade is friendly with +40."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Beggar Sect's Faith Stearage is friendly with +40."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -716,9 +648,7 @@
     translated: "Virtue Rectifier"
   - splitPath: Desc
     text: "岳麓书院友好+40"
-    translated: "Yue Lu Academy Friendly +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Yue Lu Academy Friendship +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -730,9 +660,7 @@
     translated: "Divine Farmer's Hundred Herbs"
   - splitPath: Desc
     text: "神农帮友好+40"
-    translated: "Shennong Sect is friendly towards +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Shennong Sect has a Friendship with +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -756,9 +684,7 @@
     translated: "Six Directions Unified Wind"
   - splitPath: Desc
     text: "六合帮友好+40"
-    translated: "Six Harmonies Sect is friendly towards +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "The Six Harmonies Sect has a friendly relationship with +40."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -770,9 +696,7 @@
     translated: "Heaven and earth have no handle"
   - splitPath: Desc
     text: "挂锤庄友好+40"
-    translated: "Hanging Hammer Manor is friendly to +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Hanging Hammer Manor Friendship +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -796,9 +720,7 @@
     translated: "Prosperity and Blessings"
   - splitPath: Desc
     text: "福庆班友好+40"
-    translated: "Fortune Prosperity Troupe Friendly +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Fortune Celebration Troupe Friendship +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -810,9 +732,7 @@
     translated: "Prosperity Everlasting"
   - splitPath: Desc
     text: "永盛镖局友好+40"
-    translated: "Yongsheng Escort Agency is friendly to +40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Yongsheng Escort Agency Friendship +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -836,9 +756,7 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: Desc
     text: "初始武学[半拂折枝手]\\n攻击伤害类【恶人谷】【掌法】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Initial martial art technique [Half Stroke Branch‑Pinching Hand]\\nAttacks of the Aggressor Valley School Villains Valley Palms Technique\\nEach attack deals 1 times the Wanderer's Qi Gong damage and has a 20% chance to inflict the Sealed Meridians condition on the enemy."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Power,功力,"
+    translated: "Initial martial art [Half Stroke Branch Hand]\\nAttacking Damage Techniques Villains Valley  Palm Skills \\nEach attack deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy in Sealed Meridian state."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -874,9 +792,7 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: Desc
     text: "初始武学[玄禅无二法]\\n辅助回复类【恶人谷】【内功】\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistance Reply Category: Villains Valley, Neigong\\nWhen the opponent has an abnormal condition, restore 1 times my party's Wanderer's Lifeforce and eliminate the enemy's 1 tactical effects."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Power,功力,"
+    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistant support skills include Villains Valley and Neigong.\\nWhen the opponent has an abnormal condition, restore to my side 1 times the Wanderer's Power in Lifeforce and eliminate the enemy's 1 tactical effects."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"

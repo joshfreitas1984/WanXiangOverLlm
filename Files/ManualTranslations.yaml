@@ -1,1 +1,27 @@
-﻿
+﻿- raw: 友好
+  rawSimplified: 友好
+  rawTraditional: 友好
+  result: Friendship
+  badtrans: true
+  direct: friendly good
+  literal: you hao
+  exclude: 
+    - EventDialog.json
+- raw: 帮助日游
+  rawSimplified: 帮助日游
+  rawTraditional: 幫助日遊
+  result: Assist Daily Routines
+  badtrans: true
+  direct: help day wander
+  literal: bang zhu ri you
+  exclude: 
+    - EventDialog.json
+- raw: 帮助夜游
+  rawSimplified: 帮助夜游
+  rawTraditional: 幫助夜遊
+  result: Assist Nightly Routines
+  badtrans: true
+  direct: help night wander
+  literal: bang zhu ye you
+  exclude: 
+    - EventDialog.json

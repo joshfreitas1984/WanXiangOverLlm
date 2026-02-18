@@ -3793,6 +3793,13 @@
   - Ning Wang
   direct: peaceful king
   literal: Ning wang
+- raw: 魔侯
+  rawSimplified: 魔侯
+  rawTraditional: 魔侯
+  result: Demon Lord
+  badtrans: true
+  direct: demon marquis
+  literal: mo hou
 - raw: 九嶷
   rawSimplified: 九嶷
   rawTraditional: 九嶷
@@ -3814,15 +3821,13 @@
   badtrans: true
   direct: azure flood dragon
   literal: qing jiao
-- raw: 魔侯
-  rawSimplified: 魔侯
-  rawTraditional: 魔侯
-  result: Demon Lord
+- raw: 铁蒺藜
+  rawSimplified: 铁蒺藜
+  rawTraditional: 鐵蒺藜
+  result: Iron Thorn
   badtrans: true
-  direct: demon marquis
-  literal: mo hou
-
-
+  direct: iron thorn
+  literal: tie ji li
 
 # Properties
 - raw: 行动次数
@@ -3864,7 +3869,9 @@
 - raw: 灵活
   rawSimplified: 灵活
   rawTraditional: 靈活
-  result: Flexible # Could also be agility but we used it before
+  result: Flexibility # Could also be agility but we used it before
+  allowalt: 
+    - Flexible
   badtrans: true
   direct: spirit quick
   literal: ling huo
@@ -3879,15 +3886,15 @@
   literal: hao gan
   exclude: 
     - EventDialog.json
-- raw: 友好
-  rawSimplified: 友好
-  rawTraditional: 友好
-  result: Friendship
-  badtrans: true
-  direct: friendly good
-  literal: you hao
-  exclude: 
-    - EventDialog.json
+# - raw: 友好
+#   rawSimplified: 友好
+#   rawTraditional: 友好
+#   result: Friendship
+#   badtrans: true
+#   direct: friendly good
+#   literal: you hao
+#   exclude: 
+#     - EventDialog.json
 - raw: 悬赏
   rawSimplified: 悬赏
   rawTraditional: 懸賞
@@ -3940,24 +3947,6 @@
   badtrans: true
   direct: gold wound secret medicine
   literal: jin chuang mi yao
-  exclude: 
-    - EventDialog.json
-- raw: 帮助日游
-  rawSimplified: 帮助日游
-  rawTraditional: 幫助日遊
-  result: Assist Daily Routines
-  badtrans: true
-  direct: help day wander
-  literal: bang zhu ri you
-  exclude: 
-    - EventDialog.json
-- raw: 帮助夜游
-  rawSimplified: 帮助夜游
-  rawTraditional: 幫助夜遊
-  result: Assist Nightly Routines
-  badtrans: true
-  direct: help night wander
-  literal: bang zhu ye you
   exclude: 
     - EventDialog.json
 - raw: 丹术
@@ -4035,7 +4024,7 @@
 - raw: 音律
   rawSimplified: 音律
   rawTraditional: 音律
-  result: Music Theory
+  result: Musical Arts
   badtrans: true
   direct: sound rhythm
   literal: yin lv
@@ -4117,6 +4106,8 @@
   rawSimplified: 术数
   rawTraditional: 術數
   result: Divination
+  allowalt:
+    - Tactics
   badtrans: true
   direct: technique numbers
   literal: shu shu
@@ -4135,6 +4126,8 @@
   rawSimplified: 医术
   rawTraditional: 醫術
   result: Medicine
+  allowalt:
+    - Medical
   badtrans: true
   direct: medicine technique
   literal: yi shu
@@ -4266,3 +4259,35 @@
   literal: wu xing
   exclude: 
     - EventDialog.json
+
+# Special
+# - raw: 基
+#   rawSimplified: 基
+#   rawTraditional: 基
+#   result: Foundation
+#   badtrans: true
+#   direct: foundation
+#   only: 
+#       - Condition.json
+#   literal: ji
+
+- raw: 到达
+  rawSimplified: 到达
+  rawTraditional: 到達
+  result: reached
+  badtrans: true
+  direct: reach arrive
+  literal: dao da
+  only: 
+    - Achievement.json
+    #- Relation.json
+- raw: 友好到达
+  rawSimplified: 友好到达
+  rawTraditional: 友好到達
+  result: friendship reached
+  badtrans: true
+  direct: friendly good reach
+  literal: you hao dao da
+  only: 
+    - Achievement.json
+    - Relation.json

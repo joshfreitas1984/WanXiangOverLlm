@@ -61,8 +61,8 @@ public static partial class LineValidation
 
         // Easy way to fix ...
         if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
-            llmResult = $"{llmResult}..";
-
+            llmResult = $"{llmResult}..";        
+           
         return llmResult;
     }
 
@@ -183,6 +183,9 @@ public static partial class LineValidation
         }
 
         result = tokenReplacer.Restore(result);
+
+        //TODO: Do a way where we can do regexes in text and replace with common templates like achieves in HTLS
+        //result = result.Replace("友好到达", " friendship reached ");
 
         return result;
     }

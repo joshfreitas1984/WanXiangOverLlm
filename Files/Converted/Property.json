@@ -3,14 +3,10 @@
   splits:
   - splitPath: Name
     text: "行动次数"
-    translated: "Action points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Action Count,行动次数,"
+    translated: "Action Count"
   - splitPath: Desc
     text: "行动次数上限"
-    translated: "Maximum action limit"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Action Count,行动次数,"
+    translated: "Action Count Limit"
 - raw: "{\r\n    \"Key\": 15,\r\n    \"NameFinal\": \"卡牌個數\",\r\n    \"DescFinal\": \"升級卡牌隨機的個數\",\r\n    \"Name\": \"卡牌个数\",\r\n    \"Desc\": \"升级卡牌随机的个数\",\r\n    \"NameTw\": \"卡牌個數\",\r\n    \"DescTw\": \"升級卡牌隨機的個數\"\r\n  }"
   rawIndex: 15
   splits:
@@ -25,22 +21,16 @@
   splits:
   - splitPath: Name
     text: "江湖消息价格"
-    translated: "Jianghu rumors come with a price"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu Info Cost,江湖消息价格,"
+    translated: "Jianghu Info Cost"
   - splitPath: Desc
     text: "江湖消息价格"
-    translated: "Jianghu rumors come with a price"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu Info Cost,江湖消息价格,"
+    translated: "Jianghu Info Cost"
 - raw: "{\r\n    \"Key\": 17,\r\n    \"NameFinal\": \"行動力上限\",\r\n    \"Name\": \"行动力上限\",\r\n    \"NameTw\": \"行動力上限\"\r\n  }"
   rawIndex: 17
   splits:
   - splitPath: Name
     text: "行动力上限"
-    translated: "Action point cap"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Action Points,行动力,Maximum Action Points,行动力上限,"
+    translated: "Maximum Action Points"
 - raw: "{\r\n    \"Key\": 18,\r\n    \"NameFinal\": \"行動力\",\r\n    \"DescFinal\": \"每回合增加行動力\",\r\n    \"Name\": \"行动力\",\r\n    \"Desc\": \"每回合增加行动力\",\r\n    \"NameTw\": \"行動力\",\r\n    \"DescTw\": \"每回合增加行動力\"\r\n  }"
   rawIndex: 18
   splits:
@@ -58,9 +48,7 @@
     translated: "Potential"
   - splitPath: Desc
     text: "大幅影响角色的功力"
-    translated: "Significantly affects a character's combat proficiency"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Power,功力,"
+    translated: "Significantly affects the character's power"
 - raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"體魄\",\r\n    \"DescFinal\": \"大幅影響角色的氣血\",\r\n    \"Name\": \"体魄\",\r\n    \"Desc\": \"大幅影响角色的气血\",\r\n    \"NameTw\": \"體魄\",\r\n    \"DescTw\": \"大幅影響角色的氣血\"\r\n  }"
   rawIndex: 1
   splits:
@@ -84,7 +72,7 @@
   splits:
   - splitPath: Name
     text: "灵活"
-    translated: "Flexible"
+    translated: "Flexibility"
   - splitPath: Desc
     text: "大幅影响队伍的连击发生率，小幅影响角色的功力"
     translated: "Significantly affects the team's combo rate, slightly affecting the character's power."
@@ -93,9 +81,7 @@
   splits:
   - splitPath: Name
     text: "悟性"
-    translated: "Aptitude"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Insight,悟性,"
+    translated: "Insight"
   - splitPath: Desc
     text: "大幅影响队伍的强化发生率，影响一些武学的获取"
     translated: "Significantly affects the rate of team enhancement, impacting the acquisition of certain martial arts techniques."
@@ -104,9 +90,7 @@
   splits:
   - splitPath: Name
     text: "福缘"
-    translated: "Good fortune"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Luck,福缘,"
+    translated: "Luck"
   - splitPath: Desc
     text: "大幅影响队伍的会心发生率，影响一些事件的触发"
     translated: "Significantly affects the critical hit rate of the team and triggers some events."
@@ -142,9 +126,7 @@
   splits:
   - splitPath: Name
     text: "气血判断"
-    translated: "Lifeforce judgment"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lifeforce Assessment,气血判断,"
+    translated: "Lifeforce Assessment"
   - splitPath: Desc
     text: "气血总数，判断条件使用，不能通过奖励表修改"
     translated: "Lifeforce total, judgment conditions are used here and cannot be modified through the reward table."
@@ -180,9 +162,7 @@
   splits:
   - splitPath: Name
     text: "赌坊人数"
-    translated: "Number of people at the gambling den"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gambling Den Occupancy,赌坊人数,"
+    translated: "Gambling Den Occupancy"
   - splitPath: Desc
     text: "赌坊可访问的特殊角色人数，只读"
     translated: "The number of special roles that can access the Gambling Den is read‑only."
@@ -209,9 +189,7 @@
   splits:
   - splitPath: Name
     text: "伤害百分比"
-    translated: "Percentage damage"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Damage Percentage,伤害百分比,"
+    translated: "Damage Percentage"
   - splitPath: Desc
     text: "最终伤害的百分比加成"
     translated: "Percentage increase in final damage"
@@ -238,22 +216,16 @@
   splits:
   - splitPath: Name
     text: "技能额外上限"
-    translated: "Skill additional cap"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Extra Skill Limit,技能额外上限,"
+    translated: "Extra Skill Limit"
   - splitPath: Desc
     text: "技能额外上限"
-    translated: "Skill additional cap"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Extra Skill Limit,技能额外上限,"
+    translated: "Extra Skill Limit"
 - raw: "{\r\n    \"Key\": 28,\r\n    \"NameFinal\": \"角色卡數量\",\r\n    \"DescFinal\": \"角色卡張數，只讀\",\r\n    \"Name\": \"角色卡数量\",\r\n    \"Desc\": \"角色卡张数，只读\",\r\n    \"NameTw\": \"角色卡數量\",\r\n    \"DescTw\": \"角色卡張數，只讀\"\r\n  }"
   rawIndex: 28
   splits:
   - splitPath: Name
     text: "角色卡数量"
-    translated: "Number of character cards"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Character Card Count,角色卡数量,"
+    translated: "Character Card Count"
   - splitPath: Desc
     text: "角色卡张数，只读"
     translated: "Character card count, read‑only"
@@ -262,14 +234,10 @@
   splits:
   - splitPath: Name
     text: "角色技能数量"
-    translated: "Number of character skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Character Skill Count,角色技能数量,"
+    translated: "Character Skill Count"
   - splitPath: Desc
     text: "角色技能数量，只读"
-    translated: "Number of character skills, read‑only"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Character Skill Count,角色技能数量,"
+    translated: "Character Skill Count, Read‑Only"
 - raw: "{\r\n    \"Key\": 1001,\r\n    \"NameFinal\": \"醫術\",\r\n    \"DescFinal\": \"醫術的掌握水平\",\r\n    \"Name\": \"医术\",\r\n    \"Desc\": \"医术的掌握水平\",\r\n    \"NameTw\": \"醫術\",\r\n    \"DescTw\": \"醫術的掌握水平\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -278,9 +246,7 @@
     translated: "Medicine"
   - splitPath: Desc
     text: "医术的掌握水平"
-    translated: "Proficiency in medical techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Medicine,医术,"
+    translated: "The level of mastery in medicine"
 - raw: "{\r\n    \"Key\": 1002,\r\n    \"NameFinal\": \"毒術\",\r\n    \"DescFinal\": \"毒術的掌握水平\",\r\n    \"Name\": \"毒术\",\r\n    \"Desc\": \"毒术的掌握水平\",\r\n    \"NameTw\": \"毒術\",\r\n    \"DescTw\": \"毒術的掌握水平\"\r\n  }"
   rawIndex: 1002
   splits:
@@ -295,35 +261,25 @@
   splits:
   - splitPath: Name
     text: "术数"
-    translated: "Astrology"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Divination,术数,"
+    translated: "Divination"
   - splitPath: Desc
     text: "奇门术数掌握的水平"
-    translated: "The proficiency in the Art of Strange Doors astrology and numerology"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Divination,术数,"
+    translated: "The level of proficiency in divination mastered"
 - raw: "{\r\n    \"Key\": 1004,\r\n    \"NameFinal\": \"儒學\",\r\n    \"DescFinal\": \"儒學掌握的水平\",\r\n    \"Name\": \"儒学\",\r\n    \"Desc\": \"儒学掌握的水平\",\r\n    \"NameTw\": \"儒學\",\r\n    \"DescTw\": \"儒學掌握的水平\"\r\n  }"
   rawIndex: 1004
   splits:
   - splitPath: Name
     text: "儒学"
-    translated: "Confucianism"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "Confucian Studies"
   - splitPath: Desc
     text: "儒学掌握的水平"
-    translated: "Proficiency in Confucian scholarship"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Confucian Studies,儒学,"
+    translated: "The level of proficiency in Confucian Studies"
 - raw: "{\r\n    \"Key\": 1005,\r\n    \"NameFinal\": \"佛學\",\r\n    \"DescFinal\": \"佛學掌握的水平\",\r\n    \"Name\": \"佛学\",\r\n    \"Desc\": \"佛学掌握的水平\",\r\n    \"NameTw\": \"佛學\",\r\n    \"DescTw\": \"佛學掌握的水平\"\r\n  }"
   rawIndex: 1005
   splits:
   - splitPath: Name
     text: "佛学"
-    translated: "Buddhist philosophy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Buddhist Studies,佛学,"
+    translated: "Buddhist Studies"
   - splitPath: Desc
     text: "佛学掌握的水平"
     translated: "Proficiency in Buddhist studies"
@@ -332,22 +288,16 @@
   splits:
   - splitPath: Name
     text: "道学"
-    translated: "Daoism"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Daoist Studies,道学,"
+    translated: "Daoist Studies"
   - splitPath: Desc
     text: "道学掌握的水平"
-    translated: "The level of mastery in Daoism"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Daoist Studies,道学,"
+    translated: "The level of mastery in Daoist Studies"
 - raw: "{\r\n    \"Key\": 1007,\r\n    \"NameFinal\": \"酒道\",\r\n    \"DescFinal\": \"品酒釀酒的水平\",\r\n    \"Name\": \"酒道\",\r\n    \"Desc\": \"品酒酿酒的水平\",\r\n    \"NameTw\": \"酒道\",\r\n    \"DescTw\": \"品酒釀酒的水平\"\r\n  }"
   rawIndex: 1007
   splits:
   - splitPath: Name
     text: "酒道"
-    translated: "Way of Wine"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Drinking Art,酒道,"
+    translated: "Drinking Art"
   - splitPath: Desc
     text: "品酒酿酒的水平"
     translated: "The skill level in wine tasting and brewing"
@@ -356,9 +306,7 @@
   splits:
   - splitPath: Name
     text: "茶道"
-    translated: "Way of Tea"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Tea Art,茶道,"
+    translated: "Tea Art"
   - splitPath: Desc
     text: "茶艺品茗的水平"
     translated: "The skill level in tea art and tasting"
@@ -367,14 +315,10 @@
   splits:
   - splitPath: Name
     text: "厨艺"
-    translated: "Culinary skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Cooking,厨艺,"
+    translated: "Cooking"
   - splitPath: Desc
     text: "厨艺的水平"
-    translated: "Level of culinary skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Cooking,厨艺,"
+    translated: "Level of cooking skill"
 - raw: "{\r\n    \"Key\": 1009,\r\n    \"NameFinal\": \"火器\",\r\n    \"DescFinal\": \"火器製作和運用的水平\",\r\n    \"Name\": \"火器\",\r\n    \"Desc\": \"火器制作和运用的水平\",\r\n    \"NameTw\": \"火器\",\r\n    \"DescTw\": \"火器製作和運用的水平\"\r\n  }"
   rawIndex: 1009
   splits:
@@ -383,17 +327,13 @@
     translated: "Firearms"
   - splitPath: Desc
     text: "火器制作和运用的水平"
-    translated: "The level of firearm manufacture and usage"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Firearms,火器,"
+    translated: "The level of firearms manufacture and usage"
 - raw: "{\r\n    \"Key\": 1010,\r\n    \"NameFinal\": \"百戲\",\r\n    \"DescFinal\": \"曲藝和戲法雜技的水平\",\r\n    \"Name\": \"百戏\",\r\n    \"Desc\": \"曲艺和戏法杂技的水平\",\r\n    \"NameTw\": \"百戲\",\r\n    \"DescTw\": \"曲藝和戲法雜技的水平\"\r\n  }"
   rawIndex: 1010
   splits:
   - splitPath: Name
     text: "百戏"
-    translated: "Variegated performance"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Variety Arts,百戏,"
+    translated: "Variety Arts"
   - splitPath: Desc
     text: "曲艺和戏法杂技的水平"
     translated: "The skill level of acrobatics and magic tricks"
@@ -402,7 +342,7 @@
   splits:
   - splitPath: Name
     text: "音律"
-    translated: "Music Theory"
+    translated: "Musical Arts"
   - splitPath: Desc
     text: "音乐的水平"
     translated: "Level of the music"
@@ -429,9 +369,7 @@
   splits:
   - splitPath: Name
     text: "丹青"
-    translated: "Danqing"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Painting,丹青,"
+    translated: "Painting"
   - splitPath: Desc
     text: "绘画的水平"
     translated: "Skill in painting"
@@ -440,27 +378,19 @@
   splits:
   - splitPath: Name
     text: "御兽"
-    translated: "Domestication of beasts"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming"
   - splitPath: Desc
     text: "御兽驯兽的水平"
-    translated: "Taming and handling beasts"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beast Taming,御兽,"
+    translated: "Beast Taming The skill level in beast taming"
 - raw: "{\r\n    \"Key\": 1017,\r\n    \"NameFinal\": \"鑑賞\",\r\n    \"DescFinal\": \"收藏鑑賞的水平\",\r\n    \"Name\": \"鉴赏\",\r\n    \"Desc\": \"收藏鉴赏的水平\",\r\n    \"NameTw\": \"鑑賞\",\r\n    \"DescTw\": \"收藏鑑賞的水平\"\r\n  }"
   rawIndex: 1017
   splits:
   - splitPath: Name
     text: "鉴赏"
-    translated: "Appreciation"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Appraisal,鉴赏,"
+    translated: "Appraisal"
   - splitPath: Desc
     text: "收藏鉴赏的水平"
-    translated: "The level of appreciation and collection skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Appraisal,鉴赏,"
+    translated: "The level of appraisal in collecting and appreciation can be quite high."
 - raw: "{\r\n    \"Key\": 1018,\r\n    \"NameFinal\": \"幻術\",\r\n    \"DescFinal\": \"幻術的掌握水平\",\r\n    \"Name\": \"幻术\",\r\n    \"Desc\": \"幻术的掌握水平\",\r\n    \"NameTw\": \"幻術\",\r\n    \"DescTw\": \"幻術的掌握水平\"\r\n  }"
   rawIndex: 1018
   splits:
@@ -484,9 +414,7 @@
   splits:
   - splitPath: Name
     text: "丹术"
-    translated: "Alchemical arts"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alchemy,丹术,"
+    translated: "Alchemy"
   - splitPath: Desc
     text: "炼丹的掌握水平"
     translated: "Proficiency in alchemy"
@@ -495,35 +423,25 @@
   splits:
   - splitPath: Name
     text: "帮助日游"
-    translated: "Help with daily routines"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Assist Daily Routines,帮助日游,"
+    translated: "Assist Daily Routines"
   - splitPath: Desc
     text: "帮助日游神干活的次数"
-    translated: "The number of times they helped Day You Shen with work."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Assist Daily Routines,帮助日游,"
+    translated: "The number of times they helped the god with daily routines."
 - raw: "{\r\n    \"Key\": 10002,\r\n    \"NameFinal\": \"幫助夜遊\",\r\n    \"DescFinal\": \"幫助夜遊神幹活的次數\",\r\n    \"Name\": \"帮助夜游\",\r\n    \"Desc\": \"帮助夜游神干活的次数\",\r\n    \"NameTw\": \"幫助夜遊\",\r\n    \"DescTw\": \"幫助夜遊神幹活的次數\"\r\n  }"
   rawIndex: 10002
   splits:
   - splitPath: Name
     text: "帮助夜游"
-    translated: "Help Ningyou"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Assist Nightly Routines,帮助夜游,"
+    translated: "Assist Nightly Routines"
   - splitPath: Desc
     text: "帮助夜游神干活的次数"
-    translated: "The number of times Night Roaming God has helped with tasks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Assist Nightly Routines,帮助夜游,"
+    translated: "The number of times they have assisted the God of Nightly Rambles."
 - raw: "{\r\n    \"Key\": 10003,\r\n    \"NameFinal\": \"金瘡祕藥\",\r\n    \"DescFinal\": \"購買金瘡藥的數量\",\r\n    \"Name\": \"金疮秘药\",\r\n    \"Desc\": \"购买金疮药的数量\",\r\n    \"NameTw\": \"金瘡祕藥\",\r\n    \"DescTw\": \"購買金瘡藥的數量\"\r\n  }"
   rawIndex: 10003
   splits:
   - splitPath: Name
     text: "金疮秘药"
-    translated: "Secret Wound Remedy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Golden Wound Secret Potion,金疮秘药,"
+    translated: "Golden Wound Secret Potion"
   - splitPath: Desc
     text: "购买金疮药的数量"
     translated: "The number of burn remedies purchased"
@@ -532,9 +450,7 @@
   splits:
   - splitPath: Name
     text: "小校获胜"
-    translated: "The young officer won the battle"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Minor Officer Victory,小校获胜,"
+    translated: "Minor Officer Victory"
   - splitPath: Desc
     text: "衡山小校获得胜利"
     translated: "The Xiao Xiao School of Hengshan Achieved Victory"
@@ -543,9 +459,7 @@
   splits:
   - splitPath: Name
     text: "卜卦次数"
-    translated: "Number of times divination is performed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Divination Attempts,卜卦次数,"
+    translated: "Divination Attempts"
   - splitPath: Desc
     text: "和袁铁口卜卦的次数"
     translated: "The number of times Li Yuan has divined with him."
@@ -554,14 +468,10 @@
   splits:
   - splitPath: Name
     text: "行侠仗义"
-    translated: "Uphold justice and righteousness"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Chivalrous Deeds,行侠仗义,"
+    translated: "Chivalrous Deeds"
   - splitPath: Desc
     text: "行侠仗义次数"
-    translated: "Number of times practicing righteousness and aiding the needy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Chivalrous Deeds,行侠仗义,"
+    translated: "Chivalrous DeedsPerformed"
 - raw: "{\r\n    \"Key\": 10007,\r\n    \"NameFinal\": \"瀾滄消費\",\r\n    \"DescFinal\": \"在瀾滄國富商處消費額金額\",\r\n    \"Name\": \"澜沧消费\",\r\n    \"Desc\": \"在澜沧国富商处消费额金额\",\r\n    \"NameTw\": \"瀾滄消費\",\r\n    \"DescTw\": \"在瀾滄國富商處消費額金額\"\r\n  }"
   rawIndex: 10007
   splits:
@@ -594,9 +504,7 @@
   splits:
   - splitPath: Name
     text: "乱石喽喽"
-    translated: "Rogue Stones Bandits"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Chaos Rock Lackey,乱石喽喽,"
+    translated: "Chaos Rock Lackey"
   - splitPath: Desc
     text: "乱石寨喽喽数量"
     translated: "Chaos Rock Stronghold looters' number"
@@ -632,22 +540,16 @@
   splits:
   - splitPath: Name
     text: "灯谜次数"
-    translated: "Number of riddle attempts"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lantern Riddle Attempts,灯谜次数,"
+    translated: "Lantern Riddle Attempts"
   - splitPath: Desc
     text: "橘州灯谜次数"
-    translated: "Juzhou Lantern Riddle Tries"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lantern Riddle Attempts,灯谜次数,"
+    translated: "Lantern Riddle Attempts in Orange State"
 - raw: "{\r\n    \"Key\": 10015,\r\n    \"NameFinal\": \"荊湘懸賞\",\r\n    \"DescFinal\": \"荊湘懸賞次數\",\r\n    \"Name\": \"荆湘悬赏\",\r\n    \"Desc\": \"荆湘悬赏次数\",\r\n    \"NameTw\": \"荊湘懸賞\",\r\n    \"DescTw\": \"荊湘懸賞次數\"\r\n  }"
   rawIndex: 10015
   splits:
   - splitPath: Name
     text: "荆湘悬赏"
-    translated: "Jingxiang Reward Wanted"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Bounty,悬赏,"
+    translated: "Jingxiang's Bounty"
   - splitPath: Desc
     text: "荆湘悬赏次数"
     translated: "Jing Xiang's bounty count"
@@ -683,9 +585,7 @@
   splits:
   - splitPath: Name
     text: "魔侯救援"
-    translated: "Rescue Mission: Demonic Lord"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Demon Lord,魔侯,"
+    translated: "Demon Lord Rescue"
   - splitPath: Desc
     text: "救援被温残阳毒计暗算的门派数量"
     translated: "The number of sects rescued from Wen Canyang's Poison Yang scheme"
@@ -703,9 +603,7 @@
   splits:
   - splitPath: Name
     text: "荆湘六扇门友好"
-    translated: "Six Doors of Jingxiang are friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Jingxiang Six Doors show friendship"
   - splitPath: Desc
     text: "影响侠客和六扇门的关系"
     translated: "Affects the relationship between wanderers and the Six Doors."
@@ -714,9 +612,7 @@
   splits:
   - splitPath: Name
     text: "丐帮友好"
-    translated: "Friends of the Beggar Sect"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Beggar Sect Friendship"
   - splitPath: Desc
     text: "影响侠客和丐帮的关系"
     translated: "Affecting the relationship between wanderers and the Beggar Sect"
@@ -725,9 +621,7 @@
   splits:
   - splitPath: Name
     text: "衡山派友好"
-    translated: "Hengshan Sect is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Hengshan Sect Friendship"
   - splitPath: Desc
     text: "影响侠客和衡山派的关系"
     translated: "Affecting the relationship between wanderers and the Hengshan Sect"
@@ -736,9 +630,7 @@
   splits:
   - splitPath: Name
     text: "君子庄友好"
-    translated: "Gentlemen Manor is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Gentlemen Manor Friendship"
   - splitPath: Desc
     text: "影响侠客和君子庄的关系"
     translated: "Affecting the relationship between the Wanderer and the Gentlemen Manor"
@@ -747,9 +639,7 @@
   splits:
   - splitPath: Name
     text: "铁衣帮友好"
-    translated: "Iron Robe Gang is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Iron Robe Gang Friendship"
   - splitPath: Desc
     text: "影响侠客和铁衣帮的关系"
     translated: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
@@ -758,9 +648,7 @@
   splits:
   - splitPath: Name
     text: "万寿帮友好"
-    translated: "Longevity Sect is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Longevity Sect Friendship"
   - splitPath: Desc
     text: "影响侠客和万寿帮的关系"
     translated: "Influences on the relationship between the Wanderer and the Longevity Sect"
@@ -769,9 +657,7 @@
   splits:
   - splitPath: Name
     text: "永盛镖局友好"
-    translated: "Yongsheng Escort Agency is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Yongsheng Escort Agency Friendship"
   - splitPath: Desc
     text: "影响侠客和永盛镖局的关系"
     translated: "Affecting the relationship between wanderers and the Yongsheng Escort Agency"
@@ -780,9 +666,7 @@
   splits:
   - splitPath: Name
     text: "盘蛇谷友好"
-    translated: "Coiled Serpent Valley is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Coiled Serpent Valley Friendship"
   - splitPath: Desc
     text: "影响侠客和盘蛇谷的关系"
     translated: "Affecting the relationship between the Wanderer and Coiled Serpent Valley"
@@ -791,9 +675,7 @@
   splits:
   - splitPath: Name
     text: "丐帮忠字舵友好"
-    translated: "Beggar Sect's Loyalty Stearboard is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Beggar Sect's Loyalty Steering Board values friendship"
   - splitPath: Desc
     text: "影响侠客和丐帮忠字舵的关系"
     translated: "Influences on the relationship between the Wanderer Sect and the Beggar Sect's Loyalty Paddle faction."
@@ -811,9 +693,7 @@
   splits:
   - splitPath: Name
     text: "神农帮友好"
-    translated: "Shennong Sect is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Shennong Sect Friendship"
   - splitPath: Desc
     text: "影响侠客和神农帮的关系"
     translated: "Affecting the relationship between Wanderers and the Shennong Sect"
@@ -822,9 +702,7 @@
   splits:
   - splitPath: Name
     text: "六合帮友好"
-    translated: "Six Harmonies Sect is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Six Harmonies Sect Friendship"
   - splitPath: Desc
     text: "影响侠客和六合帮的关系"
     translated: "Affecting the relationship between Wanderers and the Six Harmonies Sect"
@@ -833,9 +711,7 @@
   splits:
   - splitPath: Name
     text: "挂锤庄友好"
-    translated: "Hanging Hammer Manor is friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Hanging Hammer Manor Friendship"
   - splitPath: Desc
     text: "影响侠客和挂锤庄的关系"
     translated: "Affecting the relationship between the Wanderer and Hanging Hammer Manor"
@@ -844,9 +720,7 @@
   splits:
   - splitPath: Name
     text: "福庆班友好"
-    translated: "Fuqing Battalion Friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Fuqing Battalion Friendship"
   - splitPath: Desc
     text: "影响侠客和福庆班的关系"
     translated: "Affecting the relationship between the Wanderer and Fugui Battalion"
@@ -855,9 +729,7 @@
   splits:
   - splitPath: Name
     text: "洗墨山庄友好"
-    translated: "Ximo Shangzhou Friendly"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Friendship,友好,"
+    translated: "Washing Ink Villa Friendship"
   - splitPath: Desc
     text: "影响侠客和洗墨山庄的关系"
     translated: "Affecting the relationship between the Wanderer and Shi Xiemu Cottage"
@@ -866,9 +738,7 @@
   splits:
   - splitPath: Name
     text: "谈文秀好感"
-    translated: "Tan Wenshou's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Talk about Tan Wenshou's affection"
   - splitPath: Desc
     text: "影响侠客和谈文秀的关系"
     translated: "Affect the relationship between the Wanderer and Tang Wenshao"
@@ -877,9 +747,7 @@
   splits:
   - splitPath: Name
     text: "司徒伶好感"
-    translated: "Situ Ling's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Situ Ling's Affection"
   - splitPath: Desc
     text: "影响侠客和司徒伶的关系"
     translated: "Affecting the relationship between Wanderer and Situ Ling"
@@ -888,9 +756,7 @@
   splits:
   - splitPath: Name
     text: "薛如意好感"
-    translated: "Xue Ruyi's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Xue Ruyi's Affection"
   - splitPath: Desc
     text: "影响侠客和薛如意的关系"
     translated: "Affecting the relationship between the Wanderer and Xue Ruyi"
@@ -899,9 +765,7 @@
   splits:
   - splitPath: Name
     text: "钟离雪好感"
-    translated: "Zhongli Xue favor"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Zhongli Xue Affection"
   - splitPath: Desc
     text: "影响侠客和钟离雪的关系"
     translated: "Affects the relationship between the Wanderer and Zhongli Xue"
@@ -910,9 +774,7 @@
   splits:
   - splitPath: Name
     text: "风间月好感"
-    translated: "Fengjian Yue Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Fengjian Yue's Affection"
   - splitPath: Desc
     text: "影响侠客和风间月的关系"
     translated: "Influences on the relationship between the Wanderer and Fengjian Yue"
@@ -930,9 +792,7 @@
   splits:
   - splitPath: Name
     text: "展青锋好感"
-    translated: "Zhan Qingfeng's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Zhan Qingfeng's Affection"
   - splitPath: Desc
     text: "影响侠客和展青锋的关系"
     translated: "Influences on the relationship between Wanderer and Zhan Qingfeng"
@@ -941,9 +801,7 @@
   splits:
   - splitPath: Name
     text: "艾琳娜好感"
-    translated: "Ai Lina's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Ai Lina's Affection"
   - splitPath: Desc
     text: "影响侠客和艾琳娜的关系"
     translated: "Affecting the relationship between the Wanderer and Ai Lina"
@@ -952,9 +810,7 @@
   splits:
   - splitPath: Name
     text: "萧令仪好感"
-    translated: "Xiao Lingyi's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Xiao Lingyi's Affection"
   - splitPath: Desc
     text: "影响侠客和萧令仪的关系"
     translated: "Influences on the relationship between the Wanderer and Xiao Lingyi"
@@ -963,9 +819,7 @@
   splits:
   - splitPath: Name
     text: "夏侯珺好感"
-    translated: "Xiahou Jun's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Xiahou Jun's Affection"
   - splitPath: Desc
     text: "影响侠客和夏侯珺的关系"
     translated: "Affects the relationship between the Wanderer and Xiahou Jun"
@@ -974,9 +828,7 @@
   splits:
   - splitPath: Name
     text: "文锦心好感"
-    translated: "Wen Jinxin's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Wen Jinxin's Affection"
   - splitPath: Desc
     text: "影响侠客和文素心的关系"
     translated: "Affecting the relationship between the Wanderer and Wen Susixin"
@@ -985,9 +837,7 @@
   splits:
   - splitPath: Name
     text: "柳含烟好感"
-    translated: "Liu Hanyan Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Liu Hanyan's Affection"
   - splitPath: Desc
     text: "影响侠客和柳含烟的关系"
     translated: "Influences on the relationship between the Wanderer and Liu Hanyan"
@@ -996,9 +846,7 @@
   splits:
   - splitPath: Name
     text: "邱灵素好感"
-    translated: "Qiu Lingsu's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Qiu Lingsu's Affection"
   - splitPath: Desc
     text: "影响侠客和邱灵素的关系"
     translated: "Affecting the relationship between the Wanderer and Qiu Lingsu"
@@ -1007,9 +855,7 @@
   splits:
   - splitPath: Name
     text: "连翘儿好感"
-    translated: "Lian Qiaoer's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Lian Qiaoer's Affection"
   - splitPath: Desc
     text: "影响侠客和连翘儿的关系"
     translated: "Affecting the relationship between the Wanderer and Lian Qiaoer"
@@ -1018,9 +864,7 @@
   splits:
   - splitPath: Name
     text: "沈蓉蓉好感"
-    translated: "Shen Rongrong Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Shen Rongrong's Affection"
   - splitPath: Desc
     text: "影响侠客和沈蓉蓉的关系"
     translated: "Affecting the relationship between the Wanderer and Shen Rongrong"
@@ -1029,9 +873,7 @@
   splits:
   - splitPath: Name
     text: "靳红衣好感"
-    translated: "Jin Hongyi's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Jin Hongyi's Affection"
   - splitPath: Desc
     text: "影响侠客和靳红衣的关系"
     translated: "Affecting the relationship between the Wanderer and Jin Hongyi"
@@ -1040,9 +882,7 @@
   splits:
   - splitPath: Name
     text: "晏蛾眉好感"
-    translated: "Yan Emei's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Yan Emei's Affection"
   - splitPath: Desc
     text: "影响侠客和晏蛾眉的关系"
     translated: "Affecting the relationship between the Wanderer and Yan Emei"
@@ -1051,9 +891,7 @@
   splits:
   - splitPath: Name
     text: "左灵珠好感"
-    translated: "Zuo Lingzhu's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Zuo Lingzhu's Affection"
   - splitPath: Desc
     text: "影响侠客和左灵珠的关系"
     translated: "Affects the relationship between the Wanderer and Zuo Lingzhu"
@@ -1062,9 +900,7 @@
   splits:
   - splitPath: Name
     text: "阮碧青好感"
-    translated: "Ruan Biqing's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Ruan Biqing's Affection"
   - splitPath: Desc
     text: "影响侠客和阮碧青的关系"
     translated: "Affecting the relationship between the Wanderer and Ruan Biqing"
@@ -1073,9 +909,7 @@
   splits:
   - splitPath: Name
     text: "项欺霜好感"
-    translated: "Xiang Qishuang's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Xiang Qishuang's Affection"
   - splitPath: Desc
     text: "影响侠客和项欺霜的关系"
     translated: "Affecting the relationship between Wanderer and Xiang Qishuang"
@@ -1084,9 +918,7 @@
   splits:
   - splitPath: Name
     text: "杨芸好感"
-    translated: "Yang Yun's Favorability"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Affection,好感,"
+    translated: "Yang Yun's Affection"
   - splitPath: Desc
     text: "影响侠客和杨芸的关系"
     translated: "Affecting the relationship between the Wanderer and Yang Yun"

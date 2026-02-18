@@ -441,6 +441,7 @@ public static class TranslationService
                 // Append history of failures
                 if (!validationResult.Valid && config.CorrectionPromptsEnabled)
                 {
+                    //TODO: Check that it will use the results from the previous attempts rather than always going back to the original prepared raw - we want it to learn from its mistakes each time
                     // Use sentence-by-sentence correction for Chinese character issues
                     if (validationResult.RequiresSentenceBySentenceCorrection)
                     {

@@ -367,6 +367,8 @@
   - splitPath: ExtraDesc
     text: "功力+30/灵活+2/根骨+1\\n"
     translated: "Power Points/+2/Potential Points\\n"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 20,\r\n    \"DescFinal\": \"攻擊（1倍）\\\\n二連擊\",\r\n    \"EchoNameFinal\": \"歸雁劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，第三年四月起，貢獻到達30、靈活到達70，探索演武場兩位師兄傳授。\",\r\n    \"ExtraDescFinal\": \"功力+70/靈活+7\\\\n\",\r\n    \"Name\": \"归雁剑法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n二连击\",\r\n    \"EchoName\": \"归雁剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，第三年四月起，贡献到达30、灵活到达70，探索演武场两位师兄传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+7\\\\n\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"歸雁劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，第三年四月起，貢獻到達30、靈活到達70，探索演武場兩位師兄傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+7\\\\n\"\r\n  }"
   rawIndex: 20
   splits:
@@ -388,9 +390,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，第三年四月起，贡献到达30、灵活到达70，探索演武场两位师兄传授。"
     translated: "Joining Hengshan Sect, starting from the third year, fourth month, your contributions reach 30, and your dexterity reaches 70. You will learn from two senior brothers in the training ground."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+70/灵活+7\\n"
     translated: "Stamina +70/Agility +7\\n"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 30,\r\n    \"DescFinal\": \"攻擊（0.2倍）\\\\n九連擊\",\r\n    \"EchoNameFinal\": \"九流劍訣\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成0.2倍俠客功力的傷害，連續攻擊九次。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，第七年一月起，貢獻到達100、根骨到達140、靈活到達140，探索澄心堂萬輕舟傳授。\",\r\n    \"ExtraDescFinal\": \"功力+180/根骨+9/靈活+9\\\\n\",\r\n    \"Name\": \"九流剑诀\",\r\n    \"Desc\": \"攻击（0.2倍）\\\\n九连击\",\r\n    \"EchoName\": \"九流剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成0.2倍侠客功力的伤害，连续攻击九次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，第七年一月起，贡献到达100、根骨到达140、灵活到达140，探索澄心堂万轻舟传授。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+9/灵活+9\\\\n\",\r\n    \"DescTw\": \"攻擊（0.2倍）\\\\n九連擊\",\r\n    \"EchoNameTw\": \"九流劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成0.2倍俠客功力的傷害，連續攻擊九次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，第七年一月起，貢獻到達100、根骨到達140、靈活到達140，探索澄心堂萬輕舟傳授。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+9/靈活+9\\\\n\"\r\n  }"
   rawIndex: 30
   splits:
@@ -406,15 +412,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【衡山派】【刀剑】\\n单次攻击造成0.2倍侠客功力的伤害，连续攻击九次。"
     translated: "Attacking Damage Type: Hengshan Sect Blade and Sword\\nEach attack deals 0.2 times the Wanderer's skill damage, and it should be continuous for nine attacks."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "加入衡山派，第七年一月起，贡献到达100、根骨到达140、灵活到达140，探索澄心堂万轻舟传授。"
     translated: "Joining Hengshan Sect, starting from the seventh year in January, with contributions reaching 100, potential reaching 140, flexibility reaching 140, explore the Transmission of Clear Heart Hall's Wan Qingzhou."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+180/根骨+9/灵活+9\\n"
     translated: "Power/+9 Potential/+9 Agility/ Flexibility\\n"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 40,\r\n    \"DescFinal\": \"攻擊（2.8倍）\\\\n[漁樵劍歌]可疊加1層，每層傷害+50%\",\r\n    \"EchoNameFinal\": \"漁樵劍歌\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成2.8倍俠客功力的傷害,並釋放戰術【漁樵劍歌】。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"①加入衡山派，第八年殷夜啼事件後，悟性到達149、百戲精通，未獲得紅顏知己楊芸，探索後山漁樵雙隱傳授。\\\\n②加入衡山派，第八年殷夜啼事件時，楊芸友好度到達80，解鎖紅顏知己楊芸後獲取。\",\r\n    \"ExtraDescFinal\": \"功力+180/根骨+9/靈活+9/百戲+9\\\\n\",\r\n    \"Name\": \"渔樵剑歌\",\r\n    \"Desc\": \"攻击（2.8倍）\\\\n[渔樵剑歌]可叠加1层，每层伤害+50%\",\r\n    \"EchoName\": \"渔樵剑歌\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成2.8倍侠客功力的伤害,并释放战术【渔樵剑歌】。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"①加入衡山派，第八年殷夜啼事件后，悟性到达149、百戏精通，未获得红颜知己杨芸，探索后山渔樵双隐传授。\\\\n②加入衡山派，第八年殷夜啼事件时，杨芸友好度到达80，解锁红颜知己杨芸后获取。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+9/灵活+9/百戏+9\\\\n\",\r\n    \"DescTw\": \"攻擊（2.8倍）\\\\n[漁樵劍歌]可疊加1層，每層傷害+50%\",\r\n    \"EchoNameTw\": \"漁樵劍歌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成2.8倍俠客功力的傷害,並釋放戰術【漁樵劍歌】。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"①加入衡山派，第八年殷夜啼事件後，悟性到達149、百戲精通，未獲得紅顏知己楊芸，探索後山漁樵雙隱傳授。\\\\n②加入衡山派，第八年殷夜啼事件時，楊芸友好度到達80，解鎖紅顏知己楊芸後獲取。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+9/靈活+9/百戲+9\\\\n\"\r\n  }"
   rawIndex: 40
   splits:
@@ -436,9 +448,13 @@
   - splitPath: GetDesc
     text: "①加入衡山派，第八年殷夜啼事件后，悟性到达149、百戏精通，未获得红颜知己杨芸，探索后山渔樵双隐传授。\\n②加入衡山派，第八年殷夜啼事件时，杨芸友好度到达80，解锁红颜知己杨芸后获取。"
     translated: "After the event involving Yin Yetai in the eighth year of joining the Hengshan Sect, their aptitude reached a high level, excelling in various performances. Although they did not gain a red‑haired confidante named Yang Yun, they explored the secluded teachings passed down by the Fisherman and Woodcutter Duo in the back mountain area.\\nIn her eighth year with the Hengshan Sect during the Yin Yetai incident, Yang Yun's affinity reaches 80, unlocking the Red‑Haired Know‑It‑All Yang Yun."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Variety Arts,百戏,Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+180/根骨+9/灵活+9/百戏+9\\n"
     translated: "Stamina +180/Potential +9/Agility +9/Varied Skills +9\\n"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Variety Arts,百戏,Power,功力,"
 - raw: "{\r\n    \"Key\": 50,\r\n    \"DescFinal\": \"攻擊（0.5倍）<50%>\",\r\n    \"EchoNameFinal\": \"五峰疊掌\",\r\n    \"DetailDescFinal\": \"自動觸發類【衡山派】【拳腳】\\\\n50%機率自動釋放功法，單次攻擊造成0.5倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"加入衡山派，第三年一月至第六年十二月，貢獻到達40、悟性到達70，後山觸發過五峰劇情，探索後山霍連雲傳授。\",\r\n    \"ExtraDescFinal\": \"功力+70/根骨+7\\\\n\",\r\n    \"Name\": \"五峰叠掌\",\r\n    \"Desc\": \"攻击（0.5倍）<50%>\",\r\n    \"EchoName\": \"五峰叠掌\",\r\n    \"DetailDesc\": \"自动触发类【衡山派】【拳脚】\\\\n50%几率自动释放功法，单次攻击造成0.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入衡山派，第三年一月至第六年十二月，贡献到达40、悟性到达70，后山触发过五峰剧情，探索后山霍连云传授。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+7\\\\n\",\r\n    \"DescTw\": \"攻擊（0.5倍）<50%>\",\r\n    \"EchoNameTw\": \"五峰疊掌\",\r\n    \"DetailDescTw\": \"自動觸發類【衡山派】【拳腳】\\\\n50%機率自動釋放功法，單次攻擊造成0.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入衡山派，第三年一月至第六年十二月，貢獻到達40、悟性到達70，後山觸發過五峰劇情，探索後山霍連雲傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+7\\\\n\"\r\n  }"
   rawIndex: 50
   splits:
@@ -454,12 +470,16 @@
   - splitPath: DetailDesc
     text: "自动触发类【衡山派】【拳脚】\\n50%几率自动释放功法，单次攻击造成0.5倍侠客功力的伤害。"
     translated: "Auto‑trigger Skill Hengshan Sect Punching and Kicking\\nThere is a 50% chance for this skill to automatically activate, dealing 0.5 times the Wanderer's Proficiency in a single attack."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
   - splitPath: GetDesc
     text: "加入衡山派，第三年一月至第六年十二月，贡献到达40、悟性到达70，后山触发过五峰剧情，探索后山霍连云传授。"
     translated: "Joining the Hengshan Sect from its third year in January to its sixth year in December, your contributions reached 40 and your aptitude reached 70. During this time, you triggered the Wuyou Peak storyline by exploring the rear mountain area where Huo Lianyun taught."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+70/根骨+7\\n"
     translated: "Power Level +70/Potential +7\\n"
@@ -535,6 +555,8 @@
   - splitPath: ExtraDesc
     text: "气血+1600/内息+8/悟性+8"
     translated: "Lifeforce +1600/Inner Qi +8/Perception +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
 - raw: "{\r\n    \"Key\": 90,\r\n    \"DescFinal\": \"閃避1<9%>\",\r\n    \"EchoNameFinal\": \"衡山身法\",\r\n    \"DetailDescFinal\": \"自動觸發類【衡山派】【心法】\\\\n9%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入衡山派，第二年四月時，自動觸發劇情霍連雲傳授。\",\r\n    \"ExtraDescFinal\": \"功力+40/靈活+4\",\r\n    \"Name\": \"衡山身法\",\r\n    \"Desc\": \"闪避1<9%>\",\r\n    \"EchoName\": \"衡山身法\",\r\n    \"DetailDesc\": \"自动触发类【衡山派】【心法】\\\\n9%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入衡山派，第二年四月时，自动触发剧情霍连云传授。\",\r\n    \"ExtraDesc\": \"功力+40/灵活+4\",\r\n    \"DescTw\": \"閃避1<9%>\",\r\n    \"EchoNameTw\": \"衡山身法\",\r\n    \"DetailDescTw\": \"自動觸發類【衡山派】【心法】\\\\n9%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入衡山派，第二年四月時，自動觸發劇情霍連雲傳授。\",\r\n    \"ExtraDescTw\": \"功力+40/靈活+4\"\r\n  }"
   rawIndex: 90
   splits:
@@ -559,6 +581,8 @@
   - splitPath: ExtraDesc
     text: "功力+40/灵活+4"
     translated: "Strength +40/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 100,\r\n    \"DescFinal\": \"攻擊（1.5倍）\\\\n條件-[漁樵劍歌]\",\r\n    \"EchoNameFinal\": \"漁樵對劍\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n當我方擁有戰術【漁樵劍歌】時可使用，單次攻擊造成1.5倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，從第六年一月開始，探索後山九次觀看江化渚、柏成柯劍歌，此後悟性到達110後再次探索後山漁樵雙隱傳授。\",\r\n    \"ExtraDescFinal\": \"功力+100/靈活+5/根骨+5/百戲+5\",\r\n    \"Name\": \"渔樵对剑\",\r\n    \"Desc\": \"攻击（1.5倍）\\\\n条件-[渔樵剑歌]\",\r\n    \"EchoName\": \"渔樵对剑\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n当我方拥有战术【渔樵剑歌】时可使用，单次攻击造成1.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，从第六年一月开始，探索后山九次观看江化渚、柏成柯剑歌，此后悟性到达110后再次探索后山渔樵双隐传授。\",\r\n    \"ExtraDesc\": \"功力+100/灵活+5/根骨+5/百戏+5\",\r\n    \"DescTw\": \"攻擊（1.5倍）\\\\n條件-[漁樵劍歌]\",\r\n    \"EchoNameTw\": \"漁樵對劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n當我方擁有戰術【漁樵劍歌】時可使用，單次攻擊造成1.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，從第六年一月開始，探索後山九次觀看江化渚、柏成柯劍歌，此後悟性到達110後再次探索後山漁樵雙隱傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/靈活+5/根骨+5/百戲+5\"\r\n  }"
   rawIndex: 100
   splits:
@@ -580,9 +604,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，从第六年一月开始，探索后山九次观看江化渚、柏成柯剑歌，此后悟性到达110后再次探索后山渔樵双隐传授。"
     translated: "Join the Hengshan Sect from Year 6, Month 1, and explore the back mountain nine times to witness Jiang Huazhu and Bai Chengke's sword songs. Afterward, when your comprehension reaches 110, return to explore the back mountain where the Fisherman and Woodcutter Duo will impart their knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+100/灵活+5/根骨+5/百戏+5"
     translated: "Stamina +100/Agility +5/Potential +5/Entertainment Arts +5"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Variety Arts,百戏,Power,功力,"
 - raw: "{\r\n    \"Key\": 110,\r\n    \"DescFinal\": \"閃避1\",\r\n    \"EchoNameFinal\": \"雁行訣\",\r\n    \"DetailDescFinal\": \"戰術協同類【衡山派】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入衡山派，第五年一月時，觸發萬輕舟考較武藝，獲勝後萬輕舟傳授。\",\r\n    \"ExtraDescFinal\": \"功力+80/靈活+8\",\r\n    \"Name\": \"雁行诀\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"雁行诀\",\r\n    \"DetailDesc\": \"战术协同类【衡山派】【心法】\\\\n释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入衡山派，第五年一月时，触发万轻舟考较武艺，获胜后万轻舟传授。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"雁行訣\",\r\n    \"DetailDescTw\": \"戰術協同類【衡山派】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入衡山派，第五年一月時，觸發萬輕舟考較武藝，獲勝後萬輕舟傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
   rawIndex: 110
   splits:
@@ -607,6 +635,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Combat Power+80/Agility+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 120,\r\n    \"DescFinal\": \"【助力】功力+7%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"井中投\",\r\n    \"DetailDescFinal\": \"助力收集類【寶物】【特技】\\\\n出戰俠客功力加成7%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"井中投\",\r\n    \"Desc\": \"【助力】功力+7%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"井中投\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客功力加成7%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】功力+7%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"井中投\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客功力加成7%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 120
   splits:
@@ -649,9 +679,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，第三年一月起，贡献到达30、灵活到达60，自动触发剧情万轻舟传授。"
     translated: "Join the Hengshan Sect. Starting from the third year of January, when your contribution reaches 30 and flexibility reaches 60, the plot will trigger with Wan Qingzhou imparting knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+50/灵活+3/根骨+2"
     translated: "Stamina +50/Agility +3/Potential +2"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 140,\r\n    \"DescFinal\": \"攻擊（0.9倍）\\\\n行動回覆1<36%>\",\r\n    \"EchoNameFinal\": \"連峰九劍\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有36%機率釋放回復1點行動力。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，學習連峰十二劍後，悟性到達120，探索靜室自行領悟。\",\r\n    \"ExtraDescFinal\": \"功力+90/靈活+6/根骨+3\",\r\n    \"Name\": \"连峰九剑\",\r\n    \"Desc\": \"攻击（0.9倍）\\\\n行动回复1<36%>\",\r\n    \"EchoName\": \"连峰九剑\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成0.9倍侠客功力的伤害，并有36%几率释放回复1点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，学习连峰十二剑后，悟性到达120，探索静室自行领悟。\",\r\n    \"ExtraDesc\": \"功力+90/灵活+6/根骨+3\",\r\n    \"DescTw\": \"攻擊（0.9倍）\\\\n行動回覆1<36%>\",\r\n    \"EchoNameTw\": \"連峰九劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有36%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，學習連峰十二劍後，悟性到達120，探索靜室自行領悟。\",\r\n    \"ExtraDescTw\": \"功力+90/靈活+6/根骨+3\"\r\n  }"
   rawIndex: 140
   splits:
@@ -673,9 +707,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，学习连峰十二剑后，悟性到达120，探索静室自行领悟。"
     translated: "Joining the Hengshan Sect and learning the Lianfeng Twelve Swords, your aptitude reached 120 as you explored the Tranquil Chamber to further understand on your own."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+90/灵活+6/根骨+3"
     translated: "Power +90/Agility +6/Potential +3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 150,\r\n    \"DescFinal\": \"攻擊（1倍）\\\\n行動回覆1<75%>\",\r\n    \"EchoNameFinal\": \"連峰五劍\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有75%機率釋放回復1點行動力。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，領悟連峰九劍後，悟性到達160，探索靜室自行領悟。\",\r\n    \"ExtraDescFinal\": \"功力+130/靈活+9/根骨+4\",\r\n    \"Name\": \"连峰五剑\",\r\n    \"Desc\": \"攻击（1倍）\\\\n行动回复1<75%>\",\r\n    \"EchoName\": \"连峰五剑\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，并有75%几率释放回复1点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，领悟连峰九剑后，悟性到达160，探索静室自行领悟。\",\r\n    \"ExtraDesc\": \"功力+130/灵活+9/根骨+4\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n行動回覆1<75%>\",\r\n    \"EchoNameTw\": \"連峰五劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有75%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，領悟連峰九劍後，悟性到達160，探索靜室自行領悟。\",\r\n    \"ExtraDescTw\": \"功力+130/靈活+9/根骨+4\"\r\n  }"
   rawIndex: 150
   splits:
@@ -691,15 +729,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【衡山派】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，并有75%几率释放回复1点行动力。"
     translated: "Attack damage type: Hengshan Sect's Blade and Sword\\nEach attack deals 1 times the Wanderer's proficiency in combat damage and has a 75% chance to recover 1 points of action points."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "加入衡山派，领悟连峰九剑后，悟性到达160，探索静室自行领悟。"
     translated: "Join the Hengshan Sect and comprehend the Lianfeng Nine Swords, your aptitude reaches level 160. Explore the Tranquil Chamber to further refine your understanding on your own."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+130/灵活+9/根骨+4"
     translated: "Power +130/Agility +9/Potential +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 160,\r\n    \"DescFinal\": \"攻擊（1.2倍）\\\\n行動回覆1\",\r\n    \"EchoNameFinal\": \"連峰奇劍\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，並有回覆1點行動力。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，領悟連峰五劍後，悟性到達200，探索靜室自行領悟。\",\r\n    \"ExtraDescFinal\": \"功力+170/靈活+12/根骨+5\",\r\n    \"Name\": \"连峰奇剑\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n行动回复1\",\r\n    \"EchoName\": \"连峰奇剑\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n单次攻击造成1.2倍侠客功力的伤害，并有回复1点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，领悟连峰五剑后，悟性到达200，探索静室自行领悟。\",\r\n    \"ExtraDesc\": \"功力+170/灵活+12/根骨+5\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n行動回覆1\",\r\n    \"EchoNameTw\": \"連峰奇劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，並有回覆1點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，領悟連峰五劍後，悟性到達200，探索靜室自行領悟。\",\r\n    \"ExtraDescTw\": \"功力+170/靈活+12/根骨+5\"\r\n  }"
   rawIndex: 160
   splits:
@@ -721,9 +765,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，领悟连峰五剑后，悟性到达200，探索静室自行领悟。"
     translated: "Joining Hengshan Sect and mastering the Lianfeng Five Swords, his comprehension reached level 200. He then explored the quiet room to further hone his skills on his own."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+170/灵活+12/根骨+5"
     translated: "Stamina +170/Agility +12/Potential +5"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 170,\r\n    \"DescFinal\": \"【開局觸發】攻擊（0.2倍）\\\\n十連擊\\\\n行動回覆2\",\r\n    \"EchoNameFinal\": \"今古十絕\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【衡山派】【刀劍】\\\\n開局觸發一次，單次攻擊造成0.2倍傷害，連續攻擊十次，並回復2點行動力。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"今古十绝\",\r\n    \"Desc\": \"【开局触发】攻击（0.2倍）\\\\n十连击\\\\n行动回复2\",\r\n    \"EchoName\": \"今古十绝\",\r\n    \"DetailDesc\": \"攻击伤害类【衡山派】【刀剑】\\\\n开局触发一次，单次攻击造成0.2倍伤害，连续攻击十次，并回复2点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【開局觸發】攻擊（0.2倍）\\\\n十連擊\\\\n行動回覆2\",\r\n    \"EchoNameTw\": \"今古十絕\",\r\n    \"DetailDescTw\": \"攻擊傷害類【衡山派】【刀劍】\\\\n開局觸發一次，單次攻擊造成0.2倍傷害，連續攻擊十次，並回復2點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 170
   splits:
@@ -760,6 +808,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【拳脚】\\n单次攻击造成5倍侠客功力的伤害。"
     translated: "Attack Damage Category: Jianghu | Fist and Foot Techniques\\nEach attack deals 5 times the Wanderer's combat skill damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -775,21 +825,29 @@
   - splitPath: Desc
     text: "攻击（0.2倍）\\n增伤（6倍术数/6倍翰墨）"
     translated: "Attack (0.2x)\\nCritical Damage (6x Alchemy/6x Calligraphy)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
   - splitPath: EchoName
     text: "六艺剑法"
     translated: "Sword Art"
   - splitPath: DetailDesc
     text: "攻击伤害类【君子庄】【刀剑】\\n单次攻击造成0.2倍侠客功力+6倍术数+6倍翰墨的伤害。"
     translated: "Attack Damage Category: Gentlemen Manor Blade and Sword\\nEach attack deals damage multiplied by 0.2 times the Wanderer's Skill, +6 times their Arts, and +6 times their Scholarship."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,Divination,术数,Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "加入衡山派，儒学到达精通，君子庄友好到达40，长孙诚冬学期间，探索雁客轩，长孙诚传授。"
     translated: "Join the Hengshan Sect and master Confucianism. Gentlemen Manor becomes friendly towards you. During Zhangsun Cheng's winter studies, explore Goose Guest Hall; he will impart knowledge there."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Confucian Studies,儒学,"
   - splitPath: ExtraDesc
     text: "功力+50/术数+6/翰墨+6"
     translated: "Combat Power+50/Strategic Knowledge+6/Calligraphy+6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
 - raw: "{\r\n    \"Key\": 220,\r\n    \"DescFinal\": \"攻擊（2倍）\\\\n消除戰術1<40%>\",\r\n    \"EchoNameFinal\": \"君子劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【君子莊】【刀劍】\\\\n單次攻擊造成2倍俠客功力的傷害，並有40%機率消除敵人1個戰術。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入衡山派，第七年賈孤山毒害長孫誠時醫術到達高手境界且君子莊友好度到達八十，再次探索君子莊，長孫誠傳授。\",\r\n    \"ExtraDescFinal\": \"功力+140/根骨+5/內息+5/悟性+4\",\r\n    \"Name\": \"君子剑法\",\r\n    \"Desc\": \"攻击（2倍）\\\\n消除战术1<40%>\",\r\n    \"EchoName\": \"君子剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【君子庄】【刀剑】\\\\n单次攻击造成2倍侠客功力的伤害，并有40%几率消除敌人1个战术。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入衡山派，第七年贾孤山毒害长孙诚时医术到达高手境界且君子庄友好度到达八十，再次探索君子庄，长孙诚传授。\",\r\n    \"ExtraDesc\": \"功力+140/根骨+5/内息+5/悟性+4\",\r\n    \"DescTw\": \"攻擊（2倍）\\\\n消除戰術1<40%>\",\r\n    \"EchoNameTw\": \"君子劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【君子莊】【刀劍】\\\\n單次攻擊造成2倍俠客功力的傷害，並有40%機率消除敵人1個戰術。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入衡山派，第七年賈孤山毒害長孫誠時醫術到達高手境界且君子莊友好度到達八十，再次探索君子莊，長孫誠傳授。\",\r\n    \"ExtraDescTw\": \"功力+140/根骨+5/內息+5/悟性+4\"\r\n  }"
   rawIndex: 220
   splits:
@@ -811,9 +869,13 @@
   - splitPath: GetDesc
     text: "加入衡山派，第七年贾孤山毒害长孙诚时医术到达高手境界且君子庄友好度到达八十，再次探索君子庄，长孙诚传授。"
     translated: "Join the Hengshan Sect for its seventh year. When Ji Gushan poisoned Zhangsun Cheng, his medical skills had reached the expert level, and the friendliness towards Gentlemen Manor was at eighty. Upon revisiting Gentlemen Manor, Zhangsun Cheng will impart his knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Medicine,医术,"
   - splitPath: ExtraDesc
     text: "功力+140/根骨+5/内息+5/悟性+4"
     translated: "Combat Power +140/Potential +5/Inner Qi +5/Comprehension +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
 - raw: "{\r\n    \"Key\": 230,\r\n    \"DescFinal\": \"[修身訣]-可疊加1層，每層防禦+20%\\\\n條件-我方無戰術\",\r\n    \"EchoNameFinal\": \"修身訣\",\r\n    \"DetailDescFinal\": \"戰術協同類【君子莊】【心法】\\\\n釋放戰術【修身訣】，需要我方無戰術。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"修身诀\",\r\n    \"Desc\": \"[修身诀]-可叠加1层，每层防御+20%\\\\n条件-我方无战术\",\r\n    \"EchoName\": \"修身诀\",\r\n    \"DetailDesc\": \"战术协同类【君子庄】【心法】\\\\n释放战术【修身诀】，需要我方无战术。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[修身訣]-可疊加1層，每層防禦+20%\\\\n條件-我方無戰術\",\r\n    \"EchoNameTw\": \"修身訣\",\r\n    \"DetailDescTw\": \"戰術協同類【君子莊】【心法】\\\\n釋放戰術【修身訣】，需要我方無戰術。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 230
   splits:
@@ -913,12 +975,16 @@
   - splitPath: Desc
     text: "回春（900）\\n增幅（27倍医术）"
     translated: "Revitalization(900)\\nSkill Boost (+27 Times Medical Arts)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: EchoName
     text: "九真丸"
     translated: "Nine Truth Pills"
   - splitPath: DetailDesc
     text: "辅助回复类【万寿帮】【特技】\\n回复我方900点+27倍医术的气血。"
     translated: "Support Reply Longevity Sect Special Technique\\nRestore 900 points of Lifeforce using +27 times my Medical Skill."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -928,6 +994,8 @@
   - splitPath: ExtraDesc
     text: "医术+9"
     translated: "Medical Skill +9"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 410,\r\n    \"DescFinal\": \"消除戰術2\",\r\n    \"EchoNameFinal\": \"歸去來功\",\r\n    \"DetailDescFinal\": \"異常影響類【江湖】【心法】\\\\n清除敵人2個戰術。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入衡山派，第四年解開荊湘鏢車失蹤遺案後，此後再次探索湘南獲得。\",\r\n    \"ExtraDescFinal\": \"氣血+1000/內息+10\",\r\n    \"Name\": \"归去来功\",\r\n    \"Desc\": \"消除战术2\",\r\n    \"EchoName\": \"归去来功\",\r\n    \"DetailDesc\": \"异常影响类【江湖】【心法】\\\\n清除敌人2个战术。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入衡山派，第四年解开荆湘镖车失踪遗案后，此后再次探索湘南获得。\",\r\n    \"ExtraDesc\": \"气血+1000/内息+10\",\r\n    \"DescTw\": \"消除戰術2\",\r\n    \"EchoNameTw\": \"歸去來功\",\r\n    \"DetailDescTw\": \"異常影響類【江湖】【心法】\\\\n清除敵人2個戰術。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入衡山派，第四年解開荊湘鏢車失蹤遺案後，此後再次探索湘南獲得。\",\r\n    \"ExtraDescTw\": \"氣血+1000/內息+10\"\r\n  }"
   rawIndex: 410
   splits:
@@ -976,6 +1044,8 @@
   - splitPath: ExtraDesc
     text: "功力+30/医术+8"
     translated: "Combat Power/+30 Medical Skills/+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 520,\r\n    \"DescFinal\": \"回春（5000）<80%>\",\r\n    \"EchoNameFinal\": \"千歲屠蘇酒\",\r\n    \"DetailDescFinal\": \"自動觸發類【藥王谷】【特技】\\\\n80%機率回覆我方5000氣血。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"千岁屠苏酒\",\r\n    \"Desc\": \"回春（5000）<80%>\",\r\n    \"EchoName\": \"千岁屠苏酒\",\r\n    \"DetailDesc\": \"自动触发类【药王谷】【特技】\\\\n80%几率回复我方5000气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"回春（5000）<80%>\",\r\n    \"EchoNameTw\": \"千歲屠蘇酒\",\r\n    \"DetailDescTw\": \"自動觸發類【藥王谷】【特技】\\\\n80%機率回覆我方5000氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 520
   splits:
@@ -1099,6 +1169,8 @@
   - splitPath: DetailDesc
     text: "助力收集类【江湖】【特技】\\n御兽技能伤害+10%。"
     translated: "Assistance in Collection Jianghu, Special Skill\\nBestow Beast Skills Damage +10%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -1147,9 +1219,13 @@
   - splitPath: GetDesc
     text: "御兽到达入门级后探索盘蛇谷蒋疠夫传授。"
     translated: "After reaching the entry level in beast mastery, explore Coiled Serpent Valley where Jiang Lifu teaches."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: ExtraDesc
     text: "御兽+10"
     translated: "Domesticate Beast +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1120,\r\n    \"DescFinal\": \"[碧鱗蛇]支援戰鬥\",\r\n    \"EchoNameFinal\": \"碧鱗蛇\",\r\n    \"DetailDescFinal\": \"戰術協同類【盤蛇谷】【助戰】\\\\n召喚寵物【碧鱗蛇】。碧鱗蛇單次攻擊造成800點+12倍御獸傷害，發動機率70%；並有30%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"碧鳞蛇\",\r\n    \"Desc\": \"[碧鳞蛇]支援战斗\",\r\n    \"EchoName\": \"碧鳞蛇\",\r\n    \"DetailDesc\": \"战术协同类【盘蛇谷】【助战】\\\\n召唤宠物【碧鳞蛇】。碧鳞蛇单次攻击造成800点+12倍御兽伤害，发动几率70%；并有30%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[碧鱗蛇]支援戰鬥\",\r\n    \"EchoNameTw\": \"碧鱗蛇\",\r\n    \"DetailDescTw\": \"戰術協同類【盤蛇谷】【助戰】\\\\n召喚寵物【碧鱗蛇】。碧鱗蛇單次攻擊造成800點+12倍御獸傷害，發動機率70%；並有30%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1120
   splits:
@@ -1165,6 +1241,8 @@
   - splitPath: DetailDesc
     text: "战术协同类【盘蛇谷】【助战】\\n召唤宠物【碧鳞蛇】。碧鳞蛇单次攻击造成800点+12倍御兽伤害，发动几率70%；并有30%几率使敌人进入中毒状态。"
     translated: "Tactical Coordination Coiled Serpent Valley Assistance\\nSummon pet Bilin Snake. Bilin Snake deals 800 points of +12 times Beast Tamer damage per attack; the attack has a chance to occur at 70% and has a 30% chance to poison the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -1213,9 +1291,13 @@
   - splitPath: GetDesc
     text: "从第五年一月起，阮碧青友好到达50，探索盘蛇谷可帮助阮碧青去荆东送信，为阮碧青送回家信后，从第六年一月起，阮碧青、盘蛇谷友好都达到60，阮碧青暗算蒋疠夫，两人对峙人，选择帮助任意一方都可获得传授。"
     translated: "Starting from January of the fifth year, Ruan Biqing friendlyly arrived at 50. Exploring Coiled Serpent Valley can help Ruan Biqing deliver a message to Jingdong, after which, starting from January of the sixth year, both Ruan Biqing and Coiled Serpent Valley remain friendly towards 60. Ruan Biqing attempts to ambush Jiang Lifu; regardless of whether you choose to aid one or the other, you will receive instruction."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "气血+1400/内息+10/御兽+20"
     translated: "Lifeforce +1400/Inner Qi +10/Domesticating Beasts +20"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1150,\r\n    \"DescFinal\": \"[金鱗蛇]支援戰鬥\",\r\n    \"EchoNameFinal\": \"金鱗蛇\",\r\n    \"DetailDescFinal\": \"戰術協同類【盤蛇谷】【助戰】\\\\n召喚寵物【金鱗蛇】。金鱗蛇單次攻擊造成500點+6倍御獸傷害，發動機率70%；並有18%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"金鳞蛇\",\r\n    \"Desc\": \"[金鳞蛇]支援战斗\",\r\n    \"EchoName\": \"金鳞蛇\",\r\n    \"DetailDesc\": \"战术协同类【盘蛇谷】【助战】\\\\n召唤宠物【金鳞蛇】。金鳞蛇单次攻击造成500点+6倍御兽伤害，发动几率70%；并有18%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[金鱗蛇]支援戰鬥\",\r\n    \"EchoNameTw\": \"金鱗蛇\",\r\n    \"DetailDescTw\": \"戰術協同類【盤蛇谷】【助戰】\\\\n召喚寵物【金鱗蛇】。金鱗蛇單次攻擊造成500點+6倍御獸傷害，發動機率70%；並有18%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1150
   splits:
@@ -1261,6 +1343,8 @@
   - splitPath: ExtraDesc
     text: "御兽+10"
     translated: "Domesticate Beast +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1170,\r\n    \"DescFinal\": \"[五尺異蛇]支援戰鬥\",\r\n    \"EchoNameFinal\": \"五尺異蛇\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【五尺異蛇】。五尺異蛇單次攻擊造成500點+10倍御獸傷害，發動機率70%；並有25%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"學會牧蛇術且獲得三尺異蛇後，在九嶷山可遇到五尺異蛇，戰勝後御獸精通級機率抓到，御獸高手級一定抓到。\",\r\n    \"ExtraDescFinal\": \"御獸+10\",\r\n    \"Name\": \"五尺异蛇\",\r\n    \"Desc\": \"[五尺异蛇]支援战斗\",\r\n    \"EchoName\": \"五尺异蛇\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【助战】\\\\n召唤宠物【五尺异蛇】。五尺异蛇单次攻击造成500点+10倍御兽伤害，发动几率70%；并有25%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"学会牧蛇术且获得三尺异蛇后，在九嶷山可遇到五尺异蛇，战胜后御兽精通级几率抓到，御兽高手级一定抓到。\",\r\n    \"ExtraDesc\": \"御兽+10\",\r\n    \"DescTw\": \"[五尺異蛇]支援戰鬥\",\r\n    \"EchoNameTw\": \"五尺異蛇\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【五尺異蛇】。五尺異蛇單次攻擊造成500點+10倍御獸傷害，發動機率70%；並有25%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"學會牧蛇術且獲得三尺異蛇後，在九嶷山可遇到五尺異蛇，戰勝後御獸精通級機率抓到，御獸高手級一定抓到。\",\r\n    \"ExtraDescTw\": \"御獸+10\"\r\n  }"
   rawIndex: 1170
   splits:
@@ -1282,9 +1366,13 @@
   - splitPath: GetDesc
     text: "学会牧蛇术且获得三尺异蛇后，在九嶷山可遇到五尺异蛇，战胜后御兽精通级几率抓到，御兽高手级一定抓到。"
     translated: "After learning Serpent Herding and obtaining a three‑foot‑long strange snake, you can encounter a five‑foot‑long strange snake in Jiuyi Mountain. After defeating it, there is a chance to catch it at the Expert level of Beast Mastery, and you will definitely catch it at the Master level of Beast Mastery."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: ExtraDesc
     text: "御兽+10"
     translated: "Domesticate Beast +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1180,\r\n    \"DescFinal\": \"[七尺異蛇]支援戰鬥\",\r\n    \"EchoNameFinal\": \"七尺異蛇\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【七尺異蛇】。七尺異蛇單次攻擊造成700點+14倍御獸傷害，發動機率70%；並有30%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"學會牧蛇術且獲得五尺異蛇後，在九嶷山可遇到七尺異蛇，戰勝後御獸高手級機率抓到，御獸大師級一定抓到。\",\r\n    \"ExtraDescFinal\": \"御獸+10\",\r\n    \"Name\": \"七尺异蛇\",\r\n    \"Desc\": \"[七尺异蛇]支援战斗\",\r\n    \"EchoName\": \"七尺异蛇\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【助战】\\\\n召唤宠物【七尺异蛇】。七尺异蛇单次攻击造成700点+14倍御兽伤害，发动几率70%；并有30%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"学会牧蛇术且获得五尺异蛇后，在九嶷山可遇到七尺异蛇，战胜后御兽高手级几率抓到，御兽大师级一定抓到。\",\r\n    \"ExtraDesc\": \"御兽+10\",\r\n    \"DescTw\": \"[七尺異蛇]支援戰鬥\",\r\n    \"EchoNameTw\": \"七尺異蛇\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【七尺異蛇】。七尺異蛇單次攻擊造成700點+14倍御獸傷害，發動機率70%；並有30%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"學會牧蛇術且獲得五尺異蛇後，在九嶷山可遇到七尺異蛇，戰勝後御獸高手級機率抓到，御獸大師級一定抓到。\",\r\n    \"ExtraDescTw\": \"御獸+10\"\r\n  }"
   rawIndex: 1180
   splits:
@@ -1300,15 +1388,21 @@
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【助战】\\n召唤宠物【七尺异蛇】。七尺异蛇单次攻击造成700点+14倍御兽伤害，发动几率70%；并有30%几率使敌人进入中毒状态。"
     translated: "Tactical Coordination Jianghu Support Battles\\nSummon your pet Seven‑foot Strange Snake. The Seven‑foot Strange Snake deals 700 points of +14 times Beast Tamer damage with each attack; the chance to hit is 70% and there is a 30% chance to inflict poisoning on the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
   - splitPath: GetDesc
     text: "学会牧蛇术且获得五尺异蛇后，在九嶷山可遇到七尺异蛇，战胜后御兽高手级几率抓到，御兽大师级一定抓到。"
     translated: "After learning Serpent Herding and obtaining a five‑foot Strange Snake, you can encounter a seven‑foot Strange Snake in Jiuyi Mountain. There is a higher chance of catching it at the Expert Beastmaster level, while it is guaranteed to catch at the Master Beastmaster level."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: ExtraDesc
     text: "御兽+10"
     translated: "Domesticate Beast +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1190,\r\n    \"DescFinal\": \"[異蛇王]支援戰鬥\",\r\n    \"EchoNameFinal\": \"異蛇王\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【異蛇王】。異蛇王單次攻擊造成3000點+21倍御獸傷害，發動機率100%；並有40%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"從第六年一月起，福緣到達100，御獸到達大師級，戰勝異蛇王后選擇馴牧獲得。\",\r\n    \"ExtraDescFinal\": \"御獸+20\",\r\n    \"Name\": \"异蛇王\",\r\n    \"Desc\": \"[异蛇王]支援战斗\",\r\n    \"EchoName\": \"异蛇王\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【助战】\\\\n召唤宠物【异蛇王】。异蛇王单次攻击造成3000点+21倍御兽伤害，发动几率100%；并有40%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择驯牧获得。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[異蛇王]支援戰鬥\",\r\n    \"EchoNameTw\": \"異蛇王\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【異蛇王】。異蛇王單次攻擊造成3000點+21倍御獸傷害，發動機率100%；並有40%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"從第六年一月起，福緣到達100，御獸到達大師級，戰勝異蛇王后選擇馴牧獲得。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
   rawIndex: 1190
   splits:
@@ -1324,15 +1418,21 @@
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【助战】\\n召唤宠物【异蛇王】。异蛇王单次攻击造成3000点+21倍御兽伤害，发动几率100%；并有40%几率使敌人进入中毒状态。"
     translated: "Tactical Co‑op Jianghu Assistant\\nSummon pet Strange Snake King. Strange Snake King's single attack deals 3000 points of +21 times Beast Tamer damage, with a trigger rate of 100%; and there is a 40% chance to poison the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
   - splitPath: GetDesc
     text: "从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择驯牧获得。"
     translated: "Starting from January of the sixth year, Fortunate Destiny arrives at 100, Domination over Beasts reaches Master level, and after defeating the Strange Snake King, choose Domestication and Pastoral care to obtain it."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,Luck,福缘,"
   - splitPath: ExtraDesc
     text: "御兽+20"
     translated: "Domesticate +20"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 1200,\r\n    \"DescFinal\": \"攻擊（0.5倍）\\\\n增傷（55倍毒術）\\\\n傷害無效1\",\r\n    \"EchoNameFinal\": \"五毒煙羅瘴\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【盤蛇谷】【特技】\\\\n單次攻擊造成0.5倍俠客功力+55倍毒術的傷害，並釋放戰術【五毒煙羅瘴】，可抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"五毒烟罗瘴\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n增伤（55倍毒术）\\\\n伤害无效1\",\r\n    \"EchoName\": \"五毒烟罗瘴\",\r\n    \"DetailDesc\": \"攻击伤害类【盘蛇谷】【特技】\\\\n单次攻击造成0.5倍侠客功力+55倍毒术的伤害，并释放战术【五毒烟罗瘴】，可抵消一次伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n增傷（55倍毒術）\\\\n傷害無效1\",\r\n    \"EchoNameTw\": \"五毒煙羅瘴\",\r\n    \"DetailDescTw\": \"攻擊傷害類【盤蛇谷】【特技】\\\\n單次攻擊造成0.5倍俠客功力+55倍毒術的傷害，並釋放戰術【五毒煙羅瘴】，可抵消一次傷害。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1200
   splits:
@@ -1348,6 +1448,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【盘蛇谷】【特技】\\n单次攻击造成0.5倍侠客功力+55倍毒术的伤害，并释放战术【五毒烟罗瘴】，可抵消一次伤害。"
     translated: "Attack Damage Special Technique: Coiled Serpent Valley\\nEach attack deals 0.5 times the Wielder's prowess and +55 times the Poison technique damage. It also releases the tactical maneuver Five Poison Smoke Screen, which can nullify one incoming hit."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -1390,6 +1492,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【六扇门】【刀剑】\\n单次攻击造成1倍侠客功力的伤害。"
     translated: "Attack Damage Type: Six Doors Blade and Sword\\nEach attack deals 1 times the Wanderer's cultivation damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -1411,6 +1515,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【六扇门】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，并有18%概率清除敌人1个战术。"
     translated: "Attack damage category: Six Doors, Blade and Sword\\nEach attack deals 1 times the Wanderer's combat skill damage and has a 18% chance to remove the enemy's 1 tactical effects."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -1432,6 +1538,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【六扇门】【拳脚】\\n单次攻击造成1倍侠客功力的伤害，并清除敌人1个战术。"
     translated: "Attack Damage Category: Six Doors Sect, Fist Techniques\\nEach attack deals 1 times the Wanderer's combat skill damage and removes the enemy's 1 tactical maneuver."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -1633,6 +1741,8 @@
   - splitPath: DetailDesc
     text: "自动释放类【武当派】【特技】\\n50%几率自动释放回春，回复我方0.5倍侠客功力的气血。"
     translated: "Auto‑release Skill Wudang Sect Special Technique\\nThere is a 50% chance of automatically releasing Revitalization, restoring 0.5 times the Wielder's Lifeforce to my side."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -1735,6 +1845,8 @@
   - splitPath: GetDesc
     text: "加入武当派，在解真阁学完十二次全篇无根树后，第八年七月开始，悟性到达200，道学到达宗师，探索解真阁领悟。"
     translated: "Joining the Wudang Sect and completing twelve full cycles of the Rootless Tree teachings in the Solvation True Pavilion, starting from July of the eighth year, their comprehension reached an advanced level, and their Daoist studies attained the rank of Grandmaster. They began to explore and deepen their understanding within the Solvation True Pavilion."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "气血+6000"
     translated: "Lifeforce of +6000"
@@ -1762,6 +1874,8 @@
   - splitPath: ExtraDesc
     text: "功力+30/灵活+3"
     translated: "Strength/+30 Agility/+3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 1590,\r\n    \"DescFinal\": \"傷害無效3\\\\n條件-敵方氣血尾數大於8\",\r\n    \"EchoNameFinal\": \"上天梯\",\r\n    \"DetailDescFinal\": \"自動觸發類【武當派】【心法】\\\\n當敵方氣血尾數大於8時，釋放戰術【上天梯】，可抵消9次攻擊。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入武當派，第四年時幫助魏道先成功捉拿行顛，第六年一月開始，靈活到達160，探索後山比試輕功後魏道先傳授。\",\r\n    \"ExtraDescFinal\": \"功力+130/靈活+13\",\r\n    \"Name\": \"上天梯\",\r\n    \"Desc\": \"伤害无效3\\\\n条件-敌方气血尾数大于8\",\r\n    \"EchoName\": \"上天梯\",\r\n    \"DetailDesc\": \"自动触发类【武当派】【心法】\\\\n当敌方气血尾数大于8时，释放战术【上天梯】，可抵消9次攻击。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入武当派，第四年时帮助魏道先成功捉拿行颠，第六年一月开始，灵活到达160，探索后山比试轻功后魏道先传授。\",\r\n    \"ExtraDesc\": \"功力+130/灵活+13\",\r\n    \"DescTw\": \"傷害無效3\\\\n條件-敵方氣血尾數大於8\",\r\n    \"EchoNameTw\": \"上天梯\",\r\n    \"DetailDescTw\": \"自動觸發類【武當派】【心法】\\\\n當敵方氣血尾數大於8時，釋放戰術【上天梯】，可抵消9次攻擊。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入武當派，第四年時幫助魏道先成功捉拿行顛，第六年一月開始，靈活到達160，探索後山比試輕功後魏道先傳授。\",\r\n    \"ExtraDescTw\": \"功力+130/靈活+13\"\r\n  }"
   rawIndex: 1590
   splits:
@@ -1783,9 +1897,13 @@
   - splitPath: GetDesc
     text: "加入武当派，第四年时帮助魏道先成功捉拿行颠，第六年一月开始，灵活到达160，探索后山比试轻功后魏道先传授。"
     translated: "Joining the Wudang Sect, in its fourth year, they helped Wei Daoxian successfully apprehend Xing Dian. Starting from January of the sixth year, they flexibly arrived at 160, explored the back mountain to test their qinggong skills, and subsequently received instruction from Wei Daoxian."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+130/灵活+13"
     translated: "Combat Skill+130/Agility+13"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 1620,\r\n    \"DescFinal\": \"攻擊（1.2倍）\",\r\n    \"EchoNameFinal\": \"天罡拳法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【拳腳】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"天罡拳法\",\r\n    \"Desc\": \"攻击（1.2倍）\",\r\n    \"EchoName\": \"天罡拳法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【拳脚】\\\\n单次攻击造成1.2倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（1.2倍）\",\r\n    \"EchoNameTw\": \"天罡拳法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【拳腳】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1620
   splits:
@@ -1801,6 +1919,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【拳脚】\\n单次攻击造成1.2倍侠客功力的伤害。"
     translated: "Attacking Damage Type: Wudang Sect ‑ Punches and Kicks\\nEach attack deals 1.2 times the Wanderer's Skill Damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -1831,6 +1951,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/根骨+4/灵活+4"
     translated: "Combat Power +80/Potential +4/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 1640,\r\n    \"DescFinal\": \"攻擊（3倍）\\\\n條件-對方氣血尾數大於6\",\r\n    \"EchoNameFinal\": \"三關截手\",\r\n    \"DetailDescFinal\": \"自動釋放類【武當派】【拳腳】\\\\n當敵方氣血尾數大於6時，單次攻擊造成3倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"加入武當派，第五年一月至第六年十二月，貢獻到達50，根骨到達130，探索坐忘臺喬道安傳授。\",\r\n    \"ExtraDescFinal\": \"功力+90/根骨+9\",\r\n    \"Name\": \"三关截手\",\r\n    \"Desc\": \"攻击（3倍）\\\\n条件-对方气血尾数大于6\",\r\n    \"EchoName\": \"三关截手\",\r\n    \"DetailDesc\": \"自动释放类【武当派】【拳脚】\\\\n当敌方气血尾数大于6时，单次攻击造成3倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入武当派，第五年一月至第六年十二月，贡献到达50，根骨到达130，探索坐忘台乔道安传授。\",\r\n    \"ExtraDesc\": \"功力+90/根骨+9\",\r\n    \"DescTw\": \"攻擊（3倍）\\\\n條件-對方氣血尾數大於6\",\r\n    \"EchoNameTw\": \"三關截手\",\r\n    \"DetailDescTw\": \"自動釋放類【武當派】【拳腳】\\\\n當敵方氣血尾數大於6時，單次攻擊造成3倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入武當派，第五年一月至第六年十二月，貢獻到達50，根骨到達130，探索坐忘臺喬道安傳授。\",\r\n    \"ExtraDescTw\": \"功力+90/根骨+9\"\r\n  }"
   rawIndex: 1640
   splits:
@@ -1852,9 +1974,13 @@
   - splitPath: GetDesc
     text: "加入武当派，第五年一月至第六年十二月，贡献到达50，根骨到达130，探索坐忘台乔道安传授。"
     translated: "Join the Wudang Sect. From January of the fifth year to December of the sixth year, contribute 50 and enhance your potential to 130. Explore the Sitting Forgetfulness Platform where Qiao Dao'an imparts his teachings."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+90/根骨+9"
     translated: "Strength Points +90/Potential +9"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
 - raw: "{\r\n    \"Key\": 1650,\r\n    \"DescFinal\": \"攻擊（0.8倍）\\\\n條件-我方戰術大於1\",\r\n    \"EchoNameFinal\": \"蛇鶴散手\",\r\n    \"DetailDescFinal\": \"自動釋放類【武當派】【拳腳】\\\\n我方戰術大於1時，單次攻擊造成0.8倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"蛇鹤散手\",\r\n    \"Desc\": \"攻击（0.8倍）\\\\n条件-我方战术大于1\",\r\n    \"EchoName\": \"蛇鹤散手\",\r\n    \"DetailDesc\": \"自动释放类【武当派】【拳脚】\\\\n我方战术大于1时，单次攻击造成0.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.8倍）\\\\n條件-我方戰術大於1\",\r\n    \"EchoNameTw\": \"蛇鶴散手\",\r\n    \"DetailDescTw\": \"自動釋放類【武當派】【拳腳】\\\\n我方戰術大於1時，單次攻擊造成0.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1650
   splits:
@@ -1960,6 +2086,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【刀剑】\\n单次攻击造4倍侠客功力的伤害。"
     translated: "Attacking Damage Type: Wudang Sect's Blade and Sword\\nSingle attack deals 4 times the Wanderer's prowess in combat damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -1969,6 +2097,8 @@
   - splitPath: ExtraDesc
     text: "功力+100/灵活+10"
     translated: "Strength/+100 Agility/+10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 1700,\r\n    \"DescFinal\": \"攻擊（1倍）\\\\n[陰勁]每層防禦+6%\",\r\n    \"EchoNameFinal\": \"玄陰劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並釋放戰術【陰勁】。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"玄阴剑法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n[阴劲]每层防御+6%\",\r\n    \"EchoName\": \"玄阴剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，并释放战术【阴劲】。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n[陰勁]每層防禦+6%\",\r\n    \"EchoNameTw\": \"玄陰劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並釋放戰術【陰勁】。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1700
   splits:
@@ -1984,6 +2114,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，并释放战术【阴劲】。"
     translated: "Attack Damage: Wudang Sect, Blade and Sword\\nEach attack deals 1 times the Wanderer's cultivation in damage and triggers the tactic Yin Jin."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -2032,9 +2164,13 @@
   - splitPath: GetDesc
     text: "加入武当派，第四年一月起，贡献到达50，根骨、体魄、灵活到达60，探索坐忘台刘道生传授。"
     translated: "Joining the Wudang Sect, in the fourth year of January, contribution reached 50 points. Root bone and resilience reached 60. Exploration began on the Sitting Forgetfulness Platform under Liu Daosheng's teachings."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+90/根骨+3/体魄+3/灵活+3"
     translated: "Stamina +90/Potential +3/Resilience +3/Agility +3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 1730,\r\n    \"DescFinal\": \"攻擊（1.2倍）\\\\n二連擊\",\r\n    \"EchoNameFinal\": \"兩儀劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入武當派，第五年除掉黃亂後，第五年八月起，貢獻到達70，根骨、靈活到達100，探索坐忘臺劉道生傳授。\",\r\n    \"ExtraDescFinal\": \"功力+120/根骨+6/靈活+6\",\r\n    \"Name\": \"两仪剑法\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n二连击\",\r\n    \"EchoName\": \"两仪剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。\",\r\n    \"ExtraDesc\": \"功力+120/根骨+6/灵活+6\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"兩儀劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入武當派，第五年除掉黃亂後，第五年八月起，貢獻到達70，根骨、靈活到達100，探索坐忘臺劉道生傳授。\",\r\n    \"ExtraDescTw\": \"功力+120/根骨+6/靈活+6\"\r\n  }"
   rawIndex: 1730
   splits:
@@ -2050,15 +2186,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【刀剑】\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次。"
     translated: "Attacking Damage Types: Wudang Sect's Blade and Sword Techniques\\nEach attack deals 1.2 times the Wanderer's skill damage, and it strikes twice in succession."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。"
     translated: "Joining the Wudang Sect, after five years of eliminating Huang Luan in August of the fifth year, contributions reach 70, potential and flexibility reach 100. Exploration of the Sitting Forgetfulness Platform begins under Liu Daosheng's instruction."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+120/根骨+6/灵活+6"
     translated: "Power +120/Potential +6/Agility +6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 1740,\r\n    \"DescFinal\": \"攻擊（4倍）\",\r\n    \"EchoNameFinal\": \"真武劍訣\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造4倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"①加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好不足60，邱道衍傳授。\\\\n②加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好到達60，解鎖秋靈素紅顏後獲取。\\\\n③非加入武當派，第八年開啟寧王線後，探索真武觀馳援武當後，邱道衍傳授。\",\r\n    \"ExtraDescFinal\": \"功力+180/根骨+18\",\r\n    \"Name\": \"真武剑诀\",\r\n    \"Desc\": \"攻击（4倍）\",\r\n    \"EchoName\": \"真武剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"①加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好不足60，邱道衍传授。\\\\n②加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好到达60，解锁秋灵素红颜后获取。\\\\n③非加入武当派，第八年开启宁王线后，探索真武观驰援武当后，邱道衍传授。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+18\",\r\n    \"DescTw\": \"攻擊（4倍）\",\r\n    \"EchoNameTw\": \"真武劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"①加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好不足60，邱道衍傳授。\\\\n②加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好到達60，解鎖秋靈素紅顏後獲取。\\\\n③非加入武當派，第八年開啟寧王線後，探索真武觀馳援武當後，邱道衍傳授。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+18\"\r\n  }"
   rawIndex: 1740
   splits:
@@ -2074,12 +2216,16 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【刀剑】\\n单次攻击造4倍侠客功力的伤害。"
     translated: "Attacking Damage Type: Wudang Sect's Blade and Sword\\nSingle attack deals 4 times the Wanderer's prowess in combat damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "①加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好不足60，邱道衍传授。\\n②加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好到达60，解锁秋灵素红颜后获取。\\n③非加入武当派，第八年开启宁王线后，探索真武观驰援武当后，邱道衍传授。"
     translated: "In his seventh year at the Wudang Sect in September, Qiao Dao'an's conspiracies were uncovered, and Qiu Lingsu did not show enough friendliness towards him. Thus, Qiu Daoyan taught him.\\nBy the seventh year of the month in Wudang Sect, after recognizing Qiao Dao'an's plot and with Qiu Lingsu arriving amicably, unlock Qiulingsu as a red‑hued maiden to obtain her.\\nUnless Qiu Daoyan joins the Wudang Sect, in the eighth year when the Peaceful King storyline begins, after exploring Zhenwu Temple to aid Wudang, Qiu Daoyan will impart his teachings."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "功力+180/根骨+18"
     translated: "Power Level +180/Potential +18"
@@ -2107,6 +2253,8 @@
   - splitPath: ExtraDesc
     text: "功力+180/根骨+9/灵活+9"
     translated: "Power +180/Potential +9/Agility +9"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 1760,\r\n    \"DescFinal\": \"攻擊（0.6倍）\",\r\n    \"EchoNameFinal\": \"玄玄刀法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入武當派，第五年除掉黃亂後，福緣到達130，探索後山郭道樸傳授。\",\r\n    \"ExtraDescFinal\": \"功力+100/靈活+10\",\r\n    \"Name\": \"玄玄刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"玄玄刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造成0.6倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入武当派，第五年除掉黄乱后，福缘到达130，探索后山郭道朴传授。\",\r\n    \"ExtraDesc\": \"功力+100/灵活+10\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"玄玄刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入武當派，第五年除掉黃亂後，福緣到達130，探索後山郭道樸傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/靈活+10\"\r\n  }"
   rawIndex: 1760
   splits:
@@ -2128,9 +2276,13 @@
   - splitPath: GetDesc
     text: "加入武当派，第五年除掉黄乱后，福缘到达130，探索后山郭道朴传授。"
     translated: "Join the Wudang Sect. After five years, following the removal of Huang Luan, Good Fortune reaches 50. Exploring the rear mountain, Guo Daopu imparts knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Luck,福缘,"
   - splitPath: ExtraDesc
     text: "功力+100/灵活+10"
     translated: "Strength/+100 Agility/+10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 1770,\r\n    \"DescFinal\": \"【開局觸發】攻擊（1倍）\\\\n增傷（72倍道學）\",\r\n    \"EchoNameFinal\": \"火龍吟\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【武當派】【特技】\\\\n開局觸發一次，單次攻擊造1倍俠客功力+72倍道學的傷害。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"火龙吟\",\r\n    \"Desc\": \"【开局触发】攻击（1倍）\\\\n增伤（72倍道学）\",\r\n    \"EchoName\": \"火龙吟\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【特技】\\\\n开局触发一次，单次攻击造1倍侠客功力+72倍道学的伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【開局觸發】攻擊（1倍）\\\\n增傷（72倍道學）\",\r\n    \"EchoNameTw\": \"火龍吟\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【特技】\\\\n開局觸發一次，單次攻擊造1倍俠客功力+72倍道學的傷害。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 1770
   splits:
@@ -2140,12 +2292,16 @@
   - splitPath: Desc
     text: "【开局触发】攻击（1倍）\\n增伤（72倍道学）"
     translated: "Trigger at the beginning of the game Attack Multiplier (1 times)\\nDamage Increase (72 times Dao Learning)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: EchoName
     text: "火龙吟"
     translated: "Dragon's Roar Lament"
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【特技】\\n开局触发一次，单次攻击造1倍侠客功力+72倍道学的伤害。"
     translated: "Attack Damage Special Technique Wudang Sect\\nTriggered once at the beginning, this single attack deals 1 times the Wanderer's Kung Fu power and +72 times Daoist learning damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -2161,6 +2317,8 @@
   - splitPath: Desc
     text: "攻击（0.4倍）\\n增伤(8倍翰墨)"
     translated: "Attack (0.4 times)\\nCritical Damage (8 times Ink)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: EchoName
     text: "龙行八法"
     translated: "Eightfold Dragon Technique"
@@ -2191,6 +2349,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【武当派】【百兵】\\n单次攻击造成0.4倍侠客功力+8倍翰墨的伤害，并有20%几率使敌人进入封穴状态。"
     translated: "Attack Damage Type: Wudang Sect ‑ Hundred Weapons\\nEach attack deals 0.4 times the Wanderer's power and +8 times the Ink's damage, with a 20% chance to put the enemy in Sealed Meridian state."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -2200,6 +2360,8 @@
   - splitPath: ExtraDesc
     text: "功力+60/根骨+4/翰墨+8"
     translated: "Power Level +60/Potential +4/Literary Talent +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 1800,\r\n    \"DescFinal\": \"【助力】異常抗性+6%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"打坐功\",\r\n    \"DetailDescFinal\": \"助力收集類【武當派】【心法】\\\\n出戰俠客異常抗性+6%。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入武當派，貢獻到達30、內息到達80，探索坐忘臺郭道樸傳授。\",\r\n    \"ExtraDescFinal\": \"氣血+600/內息+6\",\r\n    \"Name\": \"打坐功\",\r\n    \"Desc\": \"【助力】异常抗性+6%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"打坐功\",\r\n    \"DetailDesc\": \"助力收集类【武当派】【心法】\\\\n出战侠客异常抗性+6%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入武当派，贡献到达30、内息到达80，探索坐忘台郭道朴传授。\",\r\n    \"ExtraDesc\": \"气血+600/内息+6\",\r\n    \"DescTw\": \"【助力】異常抗性+6%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"打坐功\",\r\n    \"DetailDescTw\": \"助力收集類【武當派】【心法】\\\\n出戰俠客異常抗性+6%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入武當派，貢獻到達30、內息到達80，探索坐忘臺郭道樸傳授。\",\r\n    \"ExtraDescTw\": \"氣血+600/內息+6\"\r\n  }"
   rawIndex: 1800
   splits:
@@ -2221,6 +2383,8 @@
   - splitPath: GetDesc
     text: "加入武当派，贡献到达30、内息到达80，探索坐忘台郭道朴传授。"
     translated: "Join the Wudang Sect and contribute 30. Reach an inner qi level of 80. Explore Zuo Wang Tai where Guo Daopu imparts knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "气血+600/内息+6"
     translated: "Lifeforce +600/Inner Qi +6"
@@ -2287,6 +2451,8 @@
   - splitPath: GetDesc
     text: "加入武当派，第六年一月开始，福缘到达120且丹术到达大师后，探索丹房炼制。"
     translated: "Join the Wudang Sect. Starting from the sixth year of January, after Fortunate Destiny reaches 120 and Alchemy reaches the Master level, explore the Dan Cavern to refine elixirs."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Luck,福缘,"
   - splitPath: ExtraDesc
     text: "丹术+20"
     translated: "Alchemy of Body Cultivation +20"
@@ -2389,6 +2555,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【丐帮】【拳脚】\\n单次攻击造成1.1倍侠客功力的伤害。"
     translated: "Attack Damage Category: Beggar Sect, Punching and Kicking Techniques\\nSingle attack deals 1.1 times the Wanderer's Qi Gong damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -2530,9 +2698,13 @@
   - splitPath: GetDesc
     text: "开放挂锤庄后，探索挂锤庄得知四猛师承，挂锤庄友好40探索湘北战胜洪十四，第五年一月开始，探索荆北再次战胜洪十四，第八年一月开始，挂锤庄友好到达80且体魄到达180，探索湘北救下符天罡获取。"
     translated: "After opening Hanging Hammer Manor, exploring it reveals the Four Strong Disciples' lineage. Hanging Hammer Manor is friendly to exploration of Xangbei and defeating Hong Shisi. Starting in the first month of the fifth year, further exploration of Jingbei results in another victory over Hong Shisi. Beginning in the first month of the eighth year, with Hanging Hammer Manor being friendly and Resilience reaching a certain level, exploration of Xangbei leads to rescuing Fu Tiangang and acquiring the item."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "功力+160/体魄+8/根骨+8"
     translated: "Stamina +160/Resilience +8/Potential +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
 - raw: "{\r\n    \"Key\": 3210,\r\n    \"DescFinal\": \"行動回覆1-10%\",\r\n    \"EchoNameFinal\": \"閉氣訣\",\r\n    \"DetailDescFinal\": \"自動釋放類【洞庭幫】【心法】\\\\n10%機率釋放回復1點行動力。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入洞庭幫，第二年五月江浪傳授。\",\r\n    \"ExtraDescFinal\": \"氣血+300/內息+3\",\r\n    \"Name\": \"闭气诀\",\r\n    \"Desc\": \"行动回复1-10%\",\r\n    \"EchoName\": \"闭气诀\",\r\n    \"DetailDesc\": \"自动释放类【洞庭帮】【心法】\\\\n10%几率释放回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入洞庭帮，第二年五月江浪传授。\",\r\n    \"ExtraDesc\": \"气血+300/内息+3\",\r\n    \"DescTw\": \"行動回覆1-10%\",\r\n    \"EchoNameTw\": \"閉氣訣\",\r\n    \"DetailDescTw\": \"自動釋放類【洞庭幫】【心法】\\\\n10%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入洞庭幫，第二年五月江浪傳授。\",\r\n    \"ExtraDescTw\": \"氣血+300/內息+3\"\r\n  }"
   rawIndex: 3210
   splits:
@@ -2578,6 +2750,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "气血+700/内息+7"
     translated: "Lifeforce +700/Inner Qi +7"
@@ -2602,6 +2776,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。"
     translated: "Join Dongting Sect, contribute 80 points, and spend 2000 Coin at Xue Yixiao's place to exchange."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "气血+1000/内息+10"
     translated: "Lifeforce +1000/Inner Qi +10"
@@ -2626,6 +2802,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，解锁红颜知己钟离雪后，贡献到达100，探索龙首堂钟离恨传授。"
     translated: "Join the Dongting Sect and unlock your Crimson Beauty companion Zhongli Xue after contributing to the sect for 100 points. Then explore Dragon Head Hall where Zhongli Hen imparts his teachings."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "气血+1800/内息+18"
     translated: "Lifeforce +1800/Inner Qi +18"
@@ -2653,6 +2831,8 @@
   - splitPath: ExtraDesc
     text: "功力+30/灵活+3"
     translated: "Strength/+30 Agility/+3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3290,\r\n    \"DescFinal\": \"閃避1\",\r\n    \"EchoNameFinal\": \"蹈浪術\",\r\n    \"DetailDescFinal\": \"戰術協同類【洞庭幫】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+70/靈活+7\",\r\n    \"Name\": \"蹈浪术\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"蹈浪术\",\r\n    \"DetailDesc\": \"战术协同类【洞庭帮】【心法】\\\\n释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+7\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"蹈浪術\",\r\n    \"DetailDescTw\": \"戰術協同類【洞庭幫】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+7\"\r\n  }"
   rawIndex: 3290
   splits:
@@ -2674,9 +2854,13 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/灵活+7"
     translated: "Strength +70/Agility +7"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3310,\r\n    \"DescFinal\": \"攻擊（0.7倍）\",\r\n    \"EchoNameFinal\": \"洞庭刀法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入洞庭幫，第二年二月學薛一笑傳授。\",\r\n    \"ExtraDescFinal\": \"功力+30/根骨+3\",\r\n    \"Name\": \"洞庭刀法\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"洞庭刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入洞庭帮，第二年二月学薛一笑传授。\",\r\n    \"ExtraDesc\": \"功力+30/根骨+3\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"洞庭刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入洞庭幫，第二年二月學薛一笑傳授。\",\r\n    \"ExtraDescTw\": \"功力+30/根骨+3\"\r\n  }"
   rawIndex: 3310
   splits:
@@ -2692,6 +2876,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【刀剑】\\n单次攻击造成0.7倍侠客功力的伤害。"
     translated: "Attacking Damage Types: Dongting Sect Blade and Sword\\nEach attack deals 0.7 times the Wanderer's combat skill damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -2722,6 +2908,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/根骨+7"
     translated: "Power/+7 Potential"
@@ -2740,15 +2928,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次。"
     translated: "Attack Damage Type: Dongting Sect's Blade and Sword\\nEach attack deals 1 times the Wanderer's skill damage, and it can be followed by a second consecutive strike."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/灵活+3/根骨+4"
     translated: "Stamina +70/Agility +3/Potential +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3350,\r\n    \"DescFinal\": \"攻擊（0.9倍）\",\r\n    \"EchoNameFinal\": \"九字刀法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達80，探索赤蛟堂消耗2000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+90/靈活+3/根骨+3/體魄+3\",\r\n    \"Name\": \"九字刀法\",\r\n    \"Desc\": \"攻击（0.9倍）\",\r\n    \"EchoName\": \"九字刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【刀剑】\\\\n单次攻击造成0.9倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+90/灵活+3/根骨+3/体魄+3\",\r\n    \"DescTw\": \"攻擊（0.9倍）\",\r\n    \"EchoNameTw\": \"九字刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達80，探索赤蛟堂消耗2000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+90/靈活+3/根骨+3/體魄+3\"\r\n  }"
   rawIndex: 3350
   splits:
@@ -2770,9 +2964,13 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。"
     translated: "Join Dongting Sect, contribute 80 points, and spend 2000 Coin at Xue Yixiao's place to exchange."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+90/灵活+3/根骨+3/体魄+3"
     translated: "Combat Power+90/Agility+3/Potential+3/Resilience+3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 3380,\r\n    \"DescFinal\": \"攻擊（1.8倍）\\\\n打斷功法<100%>\",\r\n    \"EchoNameFinal\": \"定風波\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並打斷敵人功法。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"加入洞庭幫，鍾離雪加入，且貢獻到達100後，探索龍首堂鍾離恨傳授。\",\r\n    \"ExtraDescFinal\": \"功力+180/根骨+10/體魄+8\",\r\n    \"Name\": \"定风波\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n打断功法<100%>\",\r\n    \"EchoName\": \"定风波\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【刀剑】\\\\n单次攻击造成1.8倍侠客功力的伤害，并打断敌人功法。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入洞庭帮，钟离雪加入，且贡献到达100后，探索龙首堂钟离恨传授。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+10/体魄+8\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n打斷功法<100%>\",\r\n    \"EchoNameTw\": \"定風波\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【刀劍】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並打斷敵人功法。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入洞庭幫，鍾離雪加入，且貢獻到達100後，探索龍首堂鍾離恨傳授。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+10/體魄+8\"\r\n  }"
   rawIndex: 3380
   splits:
@@ -2812,6 +3010,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【百兵】\\n单次攻击造成0.5倍侠客功力的伤害，并有20%几率自动令我方1名侠客获得会心。"
     translated: "Attack damage type: Dongting Sect, Hundred Weapons Style\\nEach attack deals 0.5 times the Wanderer's combat skill damage and has a 20% chance to automatically grant 1 of my fellow Wanderers Critical Hit."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -2821,6 +3021,8 @@
   - splitPath: ExtraDesc
     text: "功力+40/灵活+2/体魄+2"
     translated: "Power +40/Agility +2/Resilience +2"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 3400,\r\n    \"DescFinal\": \"攻擊（1.1倍）\",\r\n    \"EchoNameFinal\": \"貫日槍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成1.1倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+70/體魄+4/根骨+3\",\r\n    \"Name\": \"贯日枪法\",\r\n    \"Desc\": \"攻击（1.1倍）\",\r\n    \"EchoName\": \"贯日枪法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成1.1倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+70/体魄+4/根骨+3\",\r\n    \"DescTw\": \"攻擊（1.1倍）\",\r\n    \"EchoNameTw\": \"貫日槍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成1.1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+70/體魄+4/根骨+3\"\r\n  }"
   rawIndex: 3400
   splits:
@@ -2842,6 +3044,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/体魄+4/根骨+3"
     translated: "Combat Power +70/Resilience +4/Potential +3"
@@ -2860,15 +3064,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【百兵】\\n单次攻击造成0.9倍侠客功力的伤害，并有25%几率使敌人进入轻伤状态。"
     translated: "Attack damage class: Dongting Sect, Hundred Arm Style\\nEach attack deals 0.9 times the Wanderer's combat proficiency in damage and has a 25% chance to inflict Light Wound on the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/灵活+4/根骨+3"
     translated: "Stamina +70/Agility +4/Potential +3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3420,\r\n    \"DescFinal\": \"攻擊（2.1倍）\\\\n行動回覆2<50%>\",\r\n    \"EchoNameFinal\": \"莫怪槍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成2.1倍俠客功力的傷害，並有50%機率回覆2點行動力。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達80，探索赤蛟堂消耗2000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+110/靈活+11\",\r\n    \"Name\": \"莫怪枪法\",\r\n    \"Desc\": \"攻击（2.1倍）\\\\n行动回复2<50%>\",\r\n    \"EchoName\": \"莫怪枪法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成2.1倍侠客功力的伤害，并有50%几率回复2点行动力。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+110/灵活+11\",\r\n    \"DescTw\": \"攻擊（2.1倍）\\\\n行動回覆2<50%>\",\r\n    \"EchoNameTw\": \"莫怪槍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成2.1倍俠客功力的傷害，並有50%機率回覆2點行動力。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達80，探索赤蛟堂消耗2000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+110/靈活+11\"\r\n  }"
   rawIndex: 3420
   splits:
@@ -2890,9 +3100,13 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。"
     translated: "Join Dongting Sect, contribute 80 points, and spend 2000 Coin at Xue Yixiao's place to exchange."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+110/灵活+11"
     translated: "Strength/+110 Dexterity/+11"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3430,\r\n    \"DescFinal\": \"攻擊（0.9倍）\\\\n輕傷<90%>\",\r\n    \"EchoNameFinal\": \"蛟龍九變\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有90%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"ExtraDescFinal\": \"功力+70/靈活+4/根骨+3\",\r\n    \"Name\": \"蛟龙九变\",\r\n    \"Desc\": \"攻击（0.9倍）\\\\n轻伤<90%>\",\r\n    \"EchoName\": \"蛟龙九变\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成0.9倍侠客功力的伤害，并有90%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.9倍）\\\\n輕傷<90%>\",\r\n    \"EchoNameTw\": \"蛟龍九變\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有90%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+4/根骨+3\"\r\n  }"
   rawIndex: 3430
   splits:
@@ -2929,6 +3143,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【百兵】\\n当对方连击数大于2时，单次攻击造成0.7倍侠客功力的伤害。"
     translated: "Attacking Damage Class Dongting Sect Hundred Weapons\\nWhen the opponent's consecutive hits exceed 2, a single attack deals 0.7 times the Wanderer's cultivation damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -2938,6 +3154,8 @@
   - splitPath: ExtraDesc
     text: "功力+40/灵活+4"
     translated: "Strength +40/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3460,\r\n    \"DescFinal\": \"攻擊（0.9倍）\\\\n禁療<40%>\",\r\n    \"EchoNameFinal\": \"射蛟箭法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有40%機率使敵人進入禁療狀態。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+70/根骨+7\",\r\n    \"Name\": \"射蛟箭法\",\r\n    \"Desc\": \"攻击（0.9倍）\\\\n禁疗<40%>\",\r\n    \"EchoName\": \"射蛟箭法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成0.9倍侠客功力的伤害，并有40%几率使敌人进入禁疗状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+7\",\r\n    \"DescTw\": \"攻擊（0.9倍）\\\\n禁療<40%>\",\r\n    \"EchoNameTw\": \"射蛟箭法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害，並有40%機率使敵人進入禁療狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+7\"\r\n  }"
   rawIndex: 3460
   splits:
@@ -2959,6 +3177,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/根骨+7"
     translated: "Power/+7 Potential"
@@ -2998,15 +3218,21 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，并有36%几率使敌人进入禁疗状态，连续攻击三次。"
     translated: "Attack damage class: Dongting Sect, Hundred Weapons\\nEach attack deals 0.4 times the Wanderer's combat skill damage and has a 36% chance to put the enemy in a state of forbidden healing for three consecutive attacks."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。"
     translated: "Join Dongting Sect, contribute 80 points, and spend 2000 Coin at Xue Yixiao's place to exchange."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+120/灵活+8/根骨+4"
     translated: "Stamina +120/Agility +8/Potential +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3510,\r\n    \"DescFinal\": \"【開局觸發】攻擊（0.6倍）\\\\n打斷行動<100%>\",\r\n    \"EchoNameFinal\": \"金鈴探路\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n開局觸發一次，單次攻擊造成0.6倍俠客功力的傷害，並打斷敵人功法。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"金铃探路\",\r\n    \"Desc\": \"【开局触发】攻击（0.6倍）\\\\n打断行动<100%>\",\r\n    \"EchoName\": \"金铃探路\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n开局触发一次，单次攻击造成0.6倍侠客功力的伤害，并打断敌人功法。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【開局觸發】攻擊（0.6倍）\\\\n打斷行動<100%>\",\r\n    \"EchoNameTw\": \"金鈴探路\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n開局觸發一次，單次攻擊造成0.6倍俠客功力的傷害，並打斷敵人功法。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 3510
   splits:
@@ -3052,6 +3278,8 @@
   - splitPath: ExtraDesc
     text: "功力+40/体魄+2/灵活+2"
     translated: "Power +40/Resilience +2/Agility +2"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 3540,\r\n    \"DescFinal\": \"攻擊（1.3倍）\\\\n禁療<100%>\",\r\n    \"EchoNameFinal\": \"探海叉法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成1.3倍俠客功力的傷害，並使敵人進入禁療狀態。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescFinal\": \"功力+70/根骨+7\",\r\n    \"Name\": \"探海叉法\",\r\n    \"Desc\": \"攻击（1.3倍）\\\\n禁疗<100%>\",\r\n    \"EchoName\": \"探海叉法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成1.3倍侠客功力的伤害，并使敌人进入禁疗状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+7\",\r\n    \"DescTw\": \"攻擊（1.3倍）\\\\n禁療<100%>\",\r\n    \"EchoNameTw\": \"探海叉法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成1.3倍俠客功力的傷害，並使敵人進入禁療狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入洞庭幫，貢獻到達40，探索赤蛟堂消耗1000錢從薛一笑處兌換。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+7\"\r\n  }"
   rawIndex: 3540
   splits:
@@ -3073,6 +3301,8 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达40，探索赤蛟堂消耗1000钱从薛一笑处兑换。"
     translated: "Join the Dongting Sect and contribute 40. Explore the Crimson Crocodile Hall and spend 1000 coin at Xue Yixiao's place to redeem."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/根骨+7"
     translated: "Power/+7 Potential"
@@ -3097,9 +3327,13 @@
   - splitPath: GetDesc
     text: "加入洞庭帮，贡献到达80，探索赤蛟堂消耗2000钱从薛一笑处兑换。"
     translated: "Join Dongting Sect, contribute 80 points, and spend 2000 Coin at Xue Yixiao's place to exchange."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+120/灵活+6/根骨+6"
     translated: "Stamina +120/Agility +6/Potential +6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 3580,\r\n    \"DescFinal\": \"攻擊（0.9倍）\",\r\n    \"EchoNameFinal\": \"無舟槳法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"无舟桨法\",\r\n    \"Desc\": \"攻击（0.9倍）\",\r\n    \"EchoName\": \"无舟桨法\",\r\n    \"DetailDesc\": \"攻击伤害类【洞庭帮】【百兵】\\\\n单次攻击造成0.9倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.9倍）\",\r\n    \"EchoNameTw\": \"無舟槳法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【洞庭幫】【百兵】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 3580
   splits:
@@ -3382,6 +3616,8 @@
   - splitPath: ExtraDesc
     text: "功力+70/灵活+4/根骨+3"
     translated: "Stamina +70/Agility +4/Potential +3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 5130,\r\n    \"DescFinal\": \"攻擊（0.7倍）\",\r\n    \"EchoNameFinal\": \"清風劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"清风剑法\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"清风剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"清風劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 5130
   splits:
@@ -3424,9 +3660,13 @@
   - splitPath: GetDesc
     text: "加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后，杜清风传授。"
     translated: "Join the Wudang Sect in the fourth year of their training, they reached proficiency in Daoist studies and alchemy by February. In the eighth year of their training, their Daoist studies and alchemy had advanced to the master level, allowing them to participate in the Great Cheng Alchemy Meeting for the second time. By this point, both their Daoist studies and alchemy had reached the grandmaster level, and their inherent understanding had reached 200. After uncovering the Great Cheng Alchemy Cave and refining the Great Cheng Golden Pill, Du Qingfeng taught them."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+140/灵活+7/根骨+7"
     translated: "Stamina +140/Agility +7/Potential +7"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 5570,\r\n    \"DescFinal\": \"行動回覆1\\\\n消除異常1\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameFinal\": \"坐忘功\",\r\n    \"DetailDescFinal\": \"輔助回覆類【崑崙派】【心法】\\\\n當我方處於異常狀態時可使用，消除1個異常狀態，並回復1點行動力。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"坐忘功\",\r\n    \"Desc\": \"行动回复1\\\\n消除异常1\\\\n条件-我方处于异常状态\",\r\n    \"EchoName\": \"坐忘功\",\r\n    \"DetailDesc\": \"辅助回复类【昆仑派】【心法】\\\\n当我方处于异常状态时可使用，消除1个异常状态，并回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"行動回覆1\\\\n消除異常1\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameTw\": \"坐忘功\",\r\n    \"DetailDescTw\": \"輔助回覆類【崑崙派】【心法】\\\\n當我方處於異常狀態時可使用，消除1個異常狀態，並回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 5570
   splits:
@@ -3484,6 +3724,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【昆仑派】【刀剑】\\n单次攻击造成1.2倍侠客功力的伤害，并有20%几率令我方一个侠客获得会心状态。"
     translated: "Attack Damage Class: Kunlun Sect's Blade and Sword\\nEach attack deals 1.2 times the Wielder's Kung Fu damage and has a 20% chance to grant a Critical Hit state to one of my Wielders."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -3526,6 +3768,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【崆峒派】【拳脚】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率消除敌人1个战术。"
     translated: "Attacks of the Kongtong Sect Punch and Kick Damage Category\\nEach attack deals 1 times the Wanderer's Combat Skill damage and has a 20% chance to remove the enemy's 1 tactical maneuvers."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -3619,6 +3863,8 @@
   - splitPath: ExtraDesc
     text: "功力+30/灵活+2/根骨+1"
     translated: "Stamina +30/Agility +2/Potential +1"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 7560,\r\n    \"DescFinal\": \"攻擊（1倍）\\\\n[非攻]每層傷害減少400<20%>\",\r\n    \"EchoNameFinal\": \"非攻劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【墨門】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率釋放戰術【非攻】。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"解鎖蕭令儀紅顏和文錦心紅顏後，探索湘北獲取。\",\r\n    \"ExtraDescFinal\": \"功力+80/根骨+4/體魄+4\",\r\n    \"Name\": \"非攻剑法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n[非攻]每层伤害减少400<20%>\",\r\n    \"EchoName\": \"非攻剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【墨门】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，并有20%几率释放战术【非攻】。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"解锁萧令仪红颜和文锦心红颜后，探索湘北获取。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+4/体魄+4\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n[非攻]每層傷害減少400<20%>\",\r\n    \"EchoNameTw\": \"非攻劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【墨門】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率釋放戰術【非攻】。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"解鎖蕭令儀紅顏和文錦心紅顏後，探索湘北獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+4/體魄+4\"\r\n  }"
   rawIndex: 7560
   splits:
@@ -3643,6 +3889,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/根骨+4/体魄+4"
     translated: "Strength Points +80/Potential +4/Resilience +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
 - raw: "{\r\n    \"Key\": 7630,\r\n    \"DescFinal\": \"[墨心訣]-可疊加4層，每層傷害減少400\",\r\n    \"EchoNameFinal\": \"墨心訣\",\r\n    \"DetailDescFinal\": \"戰術協同類【墨門】【心法】\\\\n釋放戰術【墨心訣】。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"解鎖蕭令儀紅顏和文錦心紅顏後，探索湘北獲取。\",\r\n    \"ExtraDescFinal\": \"氣血+800/內息+8\",\r\n    \"Name\": \"墨心诀\",\r\n    \"Desc\": \"[墨心诀]-可叠加4层，每层伤害减少400\",\r\n    \"EchoName\": \"墨心诀\",\r\n    \"DetailDesc\": \"战术协同类【墨门】【心法】\\\\n释放战术【墨心诀】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"解锁萧令仪红颜和文锦心红颜后，探索湘北获取。\",\r\n    \"ExtraDesc\": \"气血+800/内息+8\",\r\n    \"DescTw\": \"[墨心訣]-可疊加4層，每層傷害減少400\",\r\n    \"EchoNameTw\": \"墨心訣\",\r\n    \"DetailDescTw\": \"戰術協同類【墨門】【心法】\\\\n釋放戰術【墨心訣】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"解鎖蕭令儀紅顏和文錦心紅顏後，探索湘北獲取。\",\r\n    \"ExtraDescTw\": \"氣血+800/內息+8\"\r\n  }"
   rawIndex: 7630
   splits:
@@ -3727,6 +3975,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Combat Power+80/Agility+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 9010,\r\n    \"DescFinal\": \"攻擊（2.5倍）\",\r\n    \"EchoNameFinal\": \"無法拳法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【天魔教】【拳腳】\\\\n單次攻擊造成2.5倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"①加入衡山派，從第五年四月起到第六年十二月期間解決完法元酒館鬧事後，在蒼山嶺可遇到法元，戰勝後選擇除掉法元獲取。\\\\n②截止至第七年一月前未觸發法元酒館鬧事事件，第六年後湘東朱雀坊和法元賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescFinal\": \"功力+100/根骨+5/體魄+5\",\r\n    \"Name\": \"无法拳法\",\r\n    \"Desc\": \"攻击（2.5倍）\",\r\n    \"EchoName\": \"无法拳法\",\r\n    \"DetailDesc\": \"攻击伤害类【天魔教】【拳脚】\\\\n单次攻击造成2.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"①加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。\\\\n②截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。\",\r\n    \"ExtraDesc\": \"功力+100/根骨+5/体魄+5\",\r\n    \"DescTw\": \"攻擊（2.5倍）\",\r\n    \"EchoNameTw\": \"無法拳法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【天魔教】【拳腳】\\\\n單次攻擊造成2.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"①加入衡山派，從第五年四月起到第六年十二月期間解決完法元酒館鬧事後，在蒼山嶺可遇到法元，戰勝後選擇除掉法元獲取。\\\\n②截止至第七年一月前未觸發法元酒館鬧事事件，第六年後湘東朱雀坊和法元賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescTw\": \"功力+100/根骨+5/體魄+5\"\r\n  }"
   rawIndex: 9010
   splits:
@@ -3775,6 +4025,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Combat Power+80/Agility+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 13020,\r\n    \"DescFinal\": \"攻擊（0.3倍）\\\\n十八連擊\",\r\n    \"EchoNameFinal\": \"殺千刀\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【惡人谷】【刀劍】\\\\n單次攻擊造0.3倍俠客功力的傷害，連續攻擊十八次。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"第五年時探索荊東擊殺黃亂後，從第八年一月起，探索荊東時可遇到魏無懺，擊殺魏無懺後獲得。\",\r\n    \"ExtraDescFinal\": \"功力+180/根骨+18\",\r\n    \"Name\": \"杀千刀\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n十八连击\",\r\n    \"EchoName\": \"杀千刀\",\r\n    \"DetailDesc\": \"攻击伤害类【恶人谷】【刀剑】\\\\n单次攻击造0.3倍侠客功力的伤害，连续攻击十八次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"第五年时探索荆东击杀黄乱后，从第八年一月起，探索荆东时可遇到魏无忏，击杀魏无忏后获得。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+18\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n十八連擊\",\r\n    \"EchoNameTw\": \"殺千刀\",\r\n    \"DetailDescTw\": \"攻擊傷害類【惡人谷】【刀劍】\\\\n單次攻擊造0.3倍俠客功力的傷害，連續攻擊十八次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"第五年時探索荊東擊殺黃亂後，從第八年一月起，探索荊東時可遇到魏無懺，擊殺魏無懺後獲得。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+18\"\r\n  }"
   rawIndex: 13020
   splits:
@@ -3838,6 +4090,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【恶人谷】【刀剑】\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
     translated: "Attack Damage Category: Villains Valley, Blade and Sword\\nEach attack deals 1 times the Wanderer's fighting skill damage and has a 30% chance to put the enemy in a lightly injured state."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -3868,9 +4122,13 @@
   - splitPath: GetDesc
     text: "第七年一月开始，六扇门友好度到达80，探索荆北帮助游不归抓捕君无忌后悟性到达160获取。"
     translated: "Starting in January of the seventh year, the friendliness with Six Doors reaches 80. After exploring Jingbei and helping You Bugui capture Jun Wuji, perception increases to 160."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+120/根骨+6/灵活+6"
     translated: "Power +120/Potential +6/Agility +6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 13060,\r\n    \"DescFinal\": \"【開局觸發】[天地獨尊訣]\\\\n可疊1層，每層傷害+200%\\\\n條件-我方出戰1人\",\r\n    \"EchoNameFinal\": \"天地獨尊訣\",\r\n    \"DetailDescFinal\": \"戰術協同類【惡人谷】【心法】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"戰勝君無忌解鎖初始詞條[唯我獨尊]，初始天賦選擇[唯我獨尊]詞條後開局即有。\",\r\n    \"ExtraDescFinal\": \"功力+300\",\r\n    \"Name\": \"天地独尊诀\",\r\n    \"Desc\": \"【开局触发】[天地独尊诀]\\\\n可叠1层，每层伤害+200%\\\\n条件-我方出战1人\",\r\n    \"EchoName\": \"天地独尊诀\",\r\n    \"DetailDesc\": \"战术协同类【恶人谷】【心法】\\\\n当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"战胜君无忌解锁初始词条[唯我独尊]，初始天赋选择[唯我独尊]词条后开局即有。\",\r\n    \"ExtraDesc\": \"功力+300\",\r\n    \"DescTw\": \"【開局觸發】[天地獨尊訣]\\\\n可疊1層，每層傷害+200%\\\\n條件-我方出戰1人\",\r\n    \"EchoNameTw\": \"天地獨尊訣\",\r\n    \"DetailDescTw\": \"戰術協同類【惡人谷】【心法】\\\\n當我方出戰人數為1人時，開局自動釋放戰術【天地獨尊訣】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"戰勝君無忌解鎖初始詞條[唯我獨尊]，初始天賦選擇[唯我獨尊]詞條後開局即有。\",\r\n    \"ExtraDescTw\": \"功力+300\"\r\n  }"
   rawIndex: 13060
   splits:
@@ -3910,6 +4168,8 @@
   - splitPath: DetailDesc
     text: "辅助回复类【恶人谷】【心法】\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
     translated: "Support Reply Category: Villains Valley, Heart Method\\nWhen the opponent has any abnormal conditions, restore my side's 1 times the Wanderer's strength in Lifeforce and remove the enemy's 1 tactical effects."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -3991,6 +4251,8 @@
   - splitPath: ExtraDesc
     text: "气血+1200/百戏+16"
     translated: "Lifeforce +1200/Varied Performances +16"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 13110,\r\n    \"DescFinal\": \"絕脈<100%>\\\\n限一次\",\r\n    \"EchoNameFinal\": \"點墨誅心筆\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"戰勝墨是非解鎖初始詞條[黑白顛倒]，初始天賦選擇[黑白顛倒]詞條後開局即有。\",\r\n    \"ExtraDescFinal\": \"功力+100/翰墨+16\",\r\n    \"Name\": \"点墨诛心笔\",\r\n    \"Desc\": \"绝脉<100%>\\\\n限一次\",\r\n    \"EchoName\": \"点墨诛心笔\",\r\n    \"DetailDesc\": \"攻击伤害类【恶人谷】【百兵】\\\\n100%使敌人进入绝脉状态，每场战斗只能使用一次。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"战胜墨是非解锁初始词条[黑白颠倒]，初始天赋选择[黑白颠倒]词条后开局即有。\",\r\n    \"ExtraDesc\": \"功力+100/翰墨+16\",\r\n    \"DescTw\": \"絕脈<100%>\\\\n限一次\",\r\n    \"EchoNameTw\": \"點墨誅心筆\",\r\n    \"DetailDescTw\": \"攻擊傷害類【惡人谷】【百兵】\\\\n100%使敵人進入絕脈狀態，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"戰勝墨是非解鎖初始詞條[黑白顛倒]，初始天賦選擇[黑白顛倒]詞條後開局即有。\",\r\n    \"ExtraDescTw\": \"功力+100/翰墨+16\"\r\n  }"
   rawIndex: 13110
   splits:
@@ -4039,6 +4301,8 @@
   - splitPath: ExtraDesc
     text: "功力+120/百戏+12"
     translated: "Combat Power/+12 Hundred Entertainments"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 13130,\r\n    \"DescFinal\": \"傷害無效3\\\\n行動力累積\",\r\n    \"EchoNameFinal\": \"鳳凰三展翅\",\r\n    \"DetailDescFinal\": \"戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"戰勝鳳棲梧解鎖初始詞條[無寶不落]，初始天賦選擇[鳳棲梧桐]詞條後開局即有。\",\r\n    \"ExtraDescFinal\": \"功力+120/靈活+12\",\r\n    \"Name\": \"凤凰三展翅\",\r\n    \"Desc\": \"伤害无效3\\\\n行动力累积\",\r\n    \"EchoName\": \"凤凰三展翅\",\r\n    \"DetailDesc\": \"战术协同类【恶人谷】【心法】\\\\n释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"战胜凤栖梧解锁初始词条[无宝不落]，初始天赋选择[凤栖梧桐]词条后开局即有。\",\r\n    \"ExtraDesc\": \"功力+120/灵活+12\",\r\n    \"DescTw\": \"傷害無效3\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"鳳凰三展翅\",\r\n    \"DetailDescTw\": \"戰術協同類【惡人谷】【心法】\\\\n釋放戰術【鳳凰三展翅】，可以抵消三次傷害，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"戰勝鳳棲梧解鎖初始詞條[無寶不落]，初始天賦選擇[鳳棲梧桐]詞條後開局即有。\",\r\n    \"ExtraDescTw\": \"功力+120/靈活+12\"\r\n  }"
   rawIndex: 13130
   splits:
@@ -4063,6 +4327,8 @@
   - splitPath: ExtraDesc
     text: "功力+120/灵活+12"
     translated: "Strength +120/Agility +12"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 13510,\r\n    \"DescFinal\": \"攻擊（0.5倍）\\\\n增傷（18倍儒學）\",\r\n    \"EchoNameFinal\": \"萬卷劍訣\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【廣廈】【刀劍】\\\\n單次攻擊造成0.5倍俠客功力+3倍儒學傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"與晏蛾眉遇到黑衣人攻擊時，儒學到達高手級，戰勝黑衣人後獲得。\",\r\n    \"ExtraDescFinal\": \"功力+80/根骨+5/儒學+6\",\r\n    \"Name\": \"万卷剑诀\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n增伤（18倍儒学）\",\r\n    \"EchoName\": \"万卷剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【广厦】【刀剑】\\\\n单次攻击造成0.5倍侠客功力+3倍儒学伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"与晏蛾眉遇到黑衣人攻击时，儒学到达高手级，战胜黑衣人后获得。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+5/儒学+6\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n增傷（18倍儒學）\",\r\n    \"EchoNameTw\": \"萬卷劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【廣廈】【刀劍】\\\\n單次攻擊造成0.5倍俠客功力+3倍儒學傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"與晏蛾眉遇到黑衣人攻擊時，儒學到達高手級，戰勝黑衣人後獲得。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+5/儒學+6\"\r\n  }"
   rawIndex: 13510
   splits:
@@ -4072,21 +4338,29 @@
   - splitPath: Desc
     text: "攻击（0.5倍）\\n增伤（18倍儒学）"
     translated: "Attack (0.5x)\\nCritical Damage (+18x Confucianism)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: EchoName
     text: "万卷剑诀"
     translated: "Ten Thousand Volumes of Sword Art"
   - splitPath: DetailDesc
     text: "攻击伤害类【广厦】【刀剑】\\n单次攻击造成0.5倍侠客功力+3倍儒学伤害。"
     translated: "Attack damage type: Grand Hall, Blade and Sword\\nEach attack deals 0.5 times Wielder Power and +3 times Scholar Damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
     text: "与晏蛾眉遇到黑衣人攻击时，儒学到达高手级，战胜黑衣人后获得。"
     translated: "When encountering an attack from a Man in Black, with Yan Emei's proficiency in Confucianism at the expert level, defeating the Man in Black earns the reward."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: ExtraDesc
     text: "功力+80/根骨+5/儒学+6"
     translated: "Stamina +80/Potential +5/Scholarship +6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,Power,功力,"
 - raw: "{\r\n    \"Key\": 14010,\r\n    \"DescFinal\": \"[阿羅漢功]<18%>可疊加3層，每層防禦+18%\",\r\n    \"EchoNameFinal\": \"阿羅漢功\",\r\n    \"DetailDescFinal\": \"自動釋放類【少林派】【外功】\\\\n18%機率自動釋放戰術【阿羅漢功】。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"阿罗汉功\",\r\n    \"Desc\": \"[阿罗汉功]<18%>可叠加3层，每层防御+18%\",\r\n    \"EchoName\": \"阿罗汉功\",\r\n    \"DetailDesc\": \"自动释放类【少林派】【外功】\\\\n18%几率自动释放战术【阿罗汉功】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[阿羅漢功]<18%>可疊加3層，每層防禦+18%\",\r\n    \"EchoNameTw\": \"阿羅漢功\",\r\n    \"DetailDescTw\": \"自動釋放類【少林派】【外功】\\\\n18%機率自動釋放戰術【阿羅漢功】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 14010
   splits:
@@ -4123,6 +4397,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【少林派】【拳脚】\\n单次攻击造0.8倍侠客功力的伤害。"
     translated: "Attacking Damage Type: Shaolin Sect ‑ Fist and Foot Techniques\\nSingle attack deals damage equivalent to 0.8 times a Wanderer's prowess."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -4168,6 +4444,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【甲贺流】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，并有24%几率使敌人进入中毒状态。"
     translated: "Attacks Damage Type: Koga School, Hundred Weapons Style\\nEach attack deals 0.4 times the Wanderer's prowess in damage and has a 24% chance to poison the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -4321,9 +4599,13 @@
   - splitPath: GetDesc
     text: "神农帮友好到达40且医术到达精通后，探索神农帮连山谷传授。"
     translated: "After befriending the Shennong Sect and reaching proficiency in medicine, explore the Shennong Sect's Lian Shangu valley to learn its teachings."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "功力+60/根骨+3/医术+6"
     translated: "Combat Power/+3/Medical Skills"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 21020,\r\n    \"DescFinal\": \"強化1<50%>\",\r\n    \"EchoNameFinal\": \"七香豆\",\r\n    \"DetailDescFinal\": \"自動釋放類【神農幫】【特技】\\\\n50%機率自動強化我方1名俠客。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"七香豆\",\r\n    \"Desc\": \"强化1<50%>\",\r\n    \"EchoName\": \"七香豆\",\r\n    \"DetailDesc\": \"自动释放类【神农帮】【特技】\\\\n50%几率自动强化我方1名侠客。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"強化1<50%>\",\r\n    \"EchoNameTw\": \"七香豆\",\r\n    \"DetailDescTw\": \"自動釋放類【神農幫】【特技】\\\\n50%機率自動強化我方1名俠客。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 21020
   splits:
@@ -4360,6 +4642,8 @@
   - splitPath: DetailDesc
     text: "辅助回复类【神农帮】【心法】\\n回复我方1倍侠客功力的气血，并释放战术【神农百草功】。"
     translated: "Assist Reply Category: Shennong SectHeart Method\\nRestore 1 times the original lifeforce of our wanderers and deploy the tactical skill Divine Farmer's Hundred Herbs Technique."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -4420,21 +4704,29 @@
   - splitPath: Desc
     text: "攻击（8倍翰墨）"
     translated: "Attack (8 Times Ink)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: EchoName
     text: "永字八法"
     translated: "Eight Principles of Yong Calligraphy"
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【百兵】\\n自动释放，单次攻击造成8倍翰墨的伤害。"
     translated: "Automatic release skills JianghuBai Bing\\nAutomatic release with a single attack causing 8 times the damage of ink."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "洗墨山庄友好到达40，翰墨到达入门，探索洗墨山庄谈庭玉传授永字八法。"
     translated: "Wash Ink Villa welcomes you warmly. Hanmo arrives at the entrance and explores Wash Ink Villa to learn the Yong Zi Ba Fa from Tan Tingyu."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Calligraphy,翰墨,"
   - splitPath: ExtraDesc
     text: "功力+50/翰墨+8"
     translated: "Combat Power +50/Literary Skill +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 21120,\r\n    \"DescFinal\": \"攻擊（18倍翰墨）\\\\n封穴<55%>\\\\n我方無戰術時\",\r\n    \"EchoNameFinal\": \"折釵股\",\r\n    \"DetailDescFinal\": \"自動釋放類【江湖】【百兵】\\\\n我方無戰術時，自動釋放，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"洗墨山莊友好到達60，翰墨到達高手，探索洗墨山莊談庭玉傳授三種技法，選擇折釵股傳授。\",\r\n    \"ExtraDescFinal\": \"功力+80/翰墨+15\",\r\n    \"Name\": \"折钗股\",\r\n    \"Desc\": \"攻击（18倍翰墨）\\\\n封穴<55%>\\\\n我方无战术时\",\r\n    \"EchoName\": \"折钗股\",\r\n    \"DetailDesc\": \"自动释放类【江湖】【百兵】\\\\n我方无战术时，自动释放，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三种技法，选择折钗股传授。\",\r\n    \"ExtraDesc\": \"功力+80/翰墨+15\",\r\n    \"DescTw\": \"攻擊（18倍翰墨）\\\\n封穴<55%>\\\\n我方無戰術時\",\r\n    \"EchoNameTw\": \"折釵股\",\r\n    \"DetailDescTw\": \"自動釋放類【江湖】【百兵】\\\\n我方無戰術時，自動釋放，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"洗墨山莊友好到達60，翰墨到達高手，探索洗墨山莊談庭玉傳授三種技法，選擇折釵股傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/翰墨+15\"\r\n  }"
   rawIndex: 21120
   splits:
@@ -4450,12 +4742,16 @@
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【百兵】\\n我方无战术时，自动释放，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
     translated: "Automatic release skills Jianghu Bai Bing\\nWhen our side has no tactical advantage, this ability will automatically activate and deal 18 times the normal damage of Ink. There is also a 55% chance to incapacitate the enemy with the effect of sealing their meridians."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三种技法，选择折钗股传授。"
     translated: "Wash Ink Villa welcomes friendly arrival 60. Han Mo arrives as a skilled expert. Explore Wash Ink Villa where Tan Tingyu teaches three techniques, choosing to learn the Folded Branch Method."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Calligraphy,翰墨,"
   - splitPath: ExtraDesc
     text: "功力+80/翰墨+15"
     translated: "Power Level +80/Calligraphy Skill +15"
@@ -4468,18 +4764,24 @@
   - splitPath: Desc
     text: "攻击（18倍翰墨）\\n封穴<55%>\\n我方处于异常状态"
     translated: "Attack (18 times Hanmo)\\nSeal Meridians<55%>\\nThe team is in an abnormal state"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: EchoName
     text: "屋漏痕"
     translated: "Leak in the Roofstroke"
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【百兵】\\n我方处于异常状态，自动释放，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
     translated: "Automatic release skills Jianghu Bai Bing\\nOur side is in an abnormal state. The ability will automatically activate, dealing 18 times the damage of ink to a single target and has a 55% chance to incapacitate the enemy with Paralysis."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三种技法，选择屋漏痕传授。"
     translated: "Wash Ink Villa welcomes friendly arrivals. Han Mo arrives as a skilled expert. Explore Wash Ink Villa and learn three techniques from Tan Tingyu. Choose to learn the technique called House Leak Strokes."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Calligraphy,翰墨,"
   - splitPath: ExtraDesc
     text: "功力+80/翰墨+15"
     translated: "Power Level +80/Calligraphy Skill +15"
@@ -4492,18 +4794,24 @@
   - splitPath: Desc
     text: "攻击（18倍翰墨）\\n封穴<55%>\\n我方气血大于70%"
     translated: "Attack (18 times Han Mo)\\nSeal Meridians<55%>\\nOur lifeforce is greater than 70%"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: EchoName
     text: "锥画沙"
     translated: "Sand Painting Technique"
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【百兵】\\n我方气血大于70%时，自动释放，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
     translated: "Automatic release skill JianghuBai Bing\\nWhen our team's lifeforce is greater than 70%, it will automatically release a single attack causing 18 times the damage of ink, and has a 55% chance to put the enemy in a sealed acupoint state."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
     text: "洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三种技法，选择锥画沙传授。"
     translated: "Washing Ink Villa welcomes friendly encounters 60. Han Mo arrives as a skilled warrior and explores Washing Ink Villa where Tan Tingyu teaches three techniques. Han Mo chooses to learn the technique called Cone Sand Writing."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,Calligraphy,翰墨,"
   - splitPath: ExtraDesc
     text: "功力+80/翰墨+15"
     translated: "Power Level +80/Calligraphy Skill +15"
@@ -4522,12 +4830,16 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【拳脚】\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次，并有20%几率打断敌人功法。"
     translated: "Attack Damage Type: Jianghu | Fist and Foot Techniques\\nEach attack deals 1 times the Wanderer's combat skill damage. Attack twice in succession, with a 20% chance to interrupt the enemy's technique."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
   - splitPath: GetDesc
     text: "加入衡山派，衡山派弟子从第六年四月起到第七年十二月，贡献达到60，体魄到达100，探索潇湘馆，封行昭、封行晦传授。"
     translated: "Join the Hengshan Sect. Disciples of the Hengshan Sect from the fourth month of the sixth year to the twelfth month of the seventh year must contribute 60 and reach a resilience level of 100. During this period, they will learn from Feng Xingzhao and Feng Xinghui at Xiao Xiang Pavilion."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: ExtraDesc
     text: "功力+70/根骨+7"
     translated: "Power/+7 Potential"
@@ -4594,6 +4906,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【特技】\\n单次攻击造0.7倍侠客功力+77倍火器的伤害，并有70%几率使敌人进入失神状态。每场战斗只能使用一次。"
     translated: "Attack Damage Special Skill Jianghu\\nEach attack deals 0.7 times the Wanderer's power and +77 times the firearm damage. There is a 70% chance to incapacitate the enemy. This can only be used once per battle."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Firearms,火器,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -4609,12 +4923,16 @@
   - splitPath: Desc
     text: "【开局触发】攻击（666）\\n增伤（36倍百戏）\\n失神<33%>"
     translated: "Trigger at the beginning of the battle Attack (666)\\nCritical Damage Multiplied by 100 Performance Arts\\nConfusion <33%>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "吹火术"
     translated: "Fire‑breathing technique"
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【特技】\\n开局触发一次，释放666点+36倍百戏的伤害的攻击，并有33%几率使敌人进入失神状态。"
     translated: "Automatic release skill Jianghu Special Technique\\nTriggered once at the beginning, this attack deals 666 points of +36 times the Hundred Performance damage and has a 33% chance to put enemies in a daze state."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -4624,6 +4942,8 @@
   - splitPath: ExtraDesc
     text: "百戏+6"
     translated: "Variegated Performances +6"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 100060,\r\n    \"DescFinal\": \"攻擊（0.3倍）\\\\n增傷（9倍百戲）\",\r\n    \"EchoNameFinal\": \"火焰刀\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【特技】\\\\n單次攻擊造成0.3倍俠客功力+9倍百戲的傷害。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"火焰刀\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n增伤（9倍百戏）\",\r\n    \"EchoName\": \"火焰刀\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【特技】\\\\n单次攻击造成0.3倍侠客功力+9倍百戏的伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n增傷（9倍百戲）\",\r\n    \"EchoNameTw\": \"火焰刀\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【特技】\\\\n單次攻擊造成0.3倍俠客功力+9倍百戲的傷害。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100060
   splits:
@@ -4633,12 +4953,16 @@
   - splitPath: Desc
     text: "攻击（0.3倍）\\n增伤（9倍百戏）"
     translated: "Attack (0.3x)\\nCritical Damage Boost (9x Wuxia Style)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "火焰刀"
     translated: "Blade of Flame"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【特技】\\n单次攻击造成0.3倍侠客功力+9倍百戏的伤害。"
     translated: "Attack Damage Special Jianghu Skill\\nSingle attack causes 0.3 times the Wanderer's Qi Gong and +9 times the Huxi's damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -4669,6 +4993,8 @@
   - splitPath: ExtraDesc
     text: "医术+8"
     translated: "Medical Skill +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 100100,\r\n    \"DescFinal\": \"回春（800）\",\r\n    \"EchoNameFinal\": \"金瘡藥\",\r\n    \"DetailDescFinal\": \"輔助回覆類【江湖】【特技】\\\\n回覆我方800點氣血。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"探索荊東消耗三百錢和江湖藝人購買。\",\r\n    \"ExtraDescFinal\": \"醫術+4\",\r\n    \"Name\": \"金疮药\",\r\n    \"Desc\": \"回春（800）\",\r\n    \"EchoName\": \"金疮药\",\r\n    \"DetailDesc\": \"辅助回复类【江湖】【特技】\\\\n回复我方800点气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"探索荆东消耗三百钱和江湖艺人购买。\",\r\n    \"ExtraDesc\": \"医术+4\",\r\n    \"DescTw\": \"回春（800）\",\r\n    \"EchoNameTw\": \"金瘡藥\",\r\n    \"DetailDescTw\": \"輔助回覆類【江湖】【特技】\\\\n回覆我方800點氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"探索荊東消耗三百錢和江湖藝人購買。\",\r\n    \"ExtraDescTw\": \"醫術+4\"\r\n  }"
   rawIndex: 100100
   splits:
@@ -4693,6 +5019,8 @@
   - splitPath: ExtraDesc
     text: "医术+4"
     translated: "Medical Skill +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 100110,\r\n    \"DescFinal\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"月食石\",\r\n    \"DetailDescFinal\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"月食石\",\r\n    \"Desc\": \"【助力】气血上限+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"月食石\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"月食石\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100110
   splits:
@@ -4729,6 +5057,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造0.8倍侠客功力的伤害。"
     translated: "Attack Damage Category: Jianghu Blades and Swords\\nA single attack deals 0.8 times the Wanderer's combat skill damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -4783,6 +5113,8 @@
   - splitPath: ExtraDesc
     text: "御兽+8"
     translated: "Domesticate +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 100150,\r\n    \"DescFinal\": \"[包子]支援戰鬥\",\r\n    \"EchoNameFinal\": \"包子\",\r\n    \"DetailDescFinal\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【包子】。包子單次攻擊造成666點+10倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"第一年在破廟時有機率遇到大黃狗，起名叫包子後獲得。\",\r\n    \"ExtraDescFinal\": \"御獸+8\",\r\n    \"Name\": \"包子\",\r\n    \"Desc\": \"[包子]支援战斗\",\r\n    \"EchoName\": \"包子\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【包子】。包子单次攻击造成666点+10倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"第一年在破庙时有几率遇到大黄狗，起名叫包子后获得。\",\r\n    \"ExtraDesc\": \"御兽+8\",\r\n    \"DescTw\": \"[包子]支援戰鬥\",\r\n    \"EchoNameTw\": \"包子\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【包子】。包子單次攻擊造成666點+10倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"第一年在破廟時有機率遇到大黃狗，起名叫包子後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+8\"\r\n  }"
   rawIndex: 100150
   splits:
@@ -4798,6 +5130,8 @@
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】\\n召唤宠物【包子】。包子单次攻击造成666点+10倍御兽伤害，发动几率100%。"
     translated: "Tactical Support Pet Assistant\\nSummon pet Baozi. Baozi deals 666 points of +10 times Beast Tamer damage with each attack, with a chance of 100% to activate."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -4807,6 +5141,8 @@
   - splitPath: ExtraDesc
     text: "御兽+8"
     translated: "Domesticate +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 100160,\r\n    \"DescFinal\": \"[旺財]支援戰鬥\",\r\n    \"EchoNameFinal\": \"旺財\",\r\n    \"DetailDescFinal\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【旺財】。旺財單次攻擊造成666點+10倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeFinal\": \"助戰\",\r\n    \"GetDescFinal\": \"第一年在破廟時有機率遇到大黃狗，起名叫旺財後獲得。\",\r\n    \"ExtraDescFinal\": \"御獸+8\",\r\n    \"Name\": \"旺财\",\r\n    \"Desc\": \"[旺财]支援战斗\",\r\n    \"EchoName\": \"旺财\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【旺财】。旺财单次攻击造成666点+10倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"第一年在破庙时有几率遇到大黄狗，起名叫旺财后获得。\",\r\n    \"ExtraDesc\": \"御兽+8\",\r\n    \"DescTw\": \"[旺財]支援戰鬥\",\r\n    \"EchoNameTw\": \"旺財\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【旺財】。旺財單次攻擊造成666點+10倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"第一年在破廟時有機率遇到大黃狗，起名叫旺財後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+8\"\r\n  }"
   rawIndex: 100160
   splits:
@@ -4831,6 +5167,8 @@
   - splitPath: ExtraDesc
     text: "御兽+8"
     translated: "Domesticate +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 100170,\r\n    \"DescFinal\": \"攻擊（0.6倍）\\\\n輕傷<20%>\",\r\n    \"EchoNameFinal\": \"開碑掌法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造0.6倍俠客功力的傷害，並有20%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"在湘東一月橘州燈會時答對燈謎有機率獲取。\",\r\n    \"ExtraDescFinal\": \"功力+30/體魄+3\",\r\n    \"Name\": \"开碑掌法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n轻伤<20%>\",\r\n    \"EchoName\": \"开碑掌法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造0.6倍侠客功力的伤害，并有20%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"在湘东一月橘州灯会时答对灯谜有几率获取。\",\r\n    \"ExtraDesc\": \"功力+30/体魄+3\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n輕傷<20%>\",\r\n    \"EchoNameTw\": \"開碑掌法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造0.6倍俠客功力的傷害，並有20%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"在湘東一月橘州燈會時答對燈謎有機率獲取。\",\r\n    \"ExtraDescTw\": \"功力+30/體魄+3\"\r\n  }"
   rawIndex: 100170
   splits:
@@ -4846,6 +5184,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【拳脚】\\n单次攻击造0.6倍侠客功力的伤害，并有20%几率使敌人进入轻伤状态。"
     translated: "Attack Damage Category: Jianghu, Hand‑to‑Hand Combat\\nEach attack deals 0.6 times the Wanderer's combat proficiency in damage and has a 20% chance to inflict Light Wound on the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -4891,6 +5231,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】\\n单次攻击造0.8倍侠客功力的伤害。"
     translated: "Attack Damage Category: Jianghu | Baibing\\nA single attack deals 0.8 times the Wanderer's martial arts skill damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -4969,6 +5311,8 @@
   - splitPath: ExtraDesc
     text: "医术+20"
     translated: "Medical Skill +20"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 100230,\r\n    \"DescFinal\": \"攻擊（1.2倍）\",\r\n    \"EchoNameFinal\": \"瀾滄劍訣\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【瀾滄派】【刀劍】\\\\n單次攻擊造1.2倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"截止至第六年十二月，財富到達兩千，探索荊東開啟荊南寶象閣後，從寶象閣購買。\",\r\n    \"ExtraDescFinal\": \"功力+70/根骨+5/靈活+2\",\r\n    \"Name\": \"澜沧剑诀\",\r\n    \"Desc\": \"攻击（1.2倍）\",\r\n    \"EchoName\": \"澜沧剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【澜沧派】【刀剑】\\\\n单次攻击造1.2倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"截止至第六年十二月，财富到达两千，探索荆东开启荆南宝象阁后，从宝象阁购买。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+5/灵活+2\",\r\n    \"DescTw\": \"攻擊（1.2倍）\",\r\n    \"EchoNameTw\": \"瀾滄劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【瀾滄派】【刀劍】\\\\n單次攻擊造1.2倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"截止至第六年十二月，財富到達兩千，探索荊東開啟荊南寶象閣後，從寶象閣購買。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+5/靈活+2\"\r\n  }"
   rawIndex: 100230
   splits:
@@ -4984,6 +5328,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【澜沧派】【刀剑】\\n单次攻击造1.2倍侠客功力的伤害。"
     translated: "Attack Damage Category: Lancang Sect, Blade and Sword\\nSingle attack deals 1.2 times the Wanderer's prowess in damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -4993,6 +5339,8 @@
   - splitPath: ExtraDesc
     text: "功力+70/根骨+5/灵活+2"
     translated: "Power +70/Potential +5/Agility +2"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 100240,\r\n    \"DescFinal\": \"回春（18%當前氣血）\",\r\n    \"EchoNameFinal\": \"無量壽功\",\r\n    \"DetailDescFinal\": \"助力收集類【密宗】【心法】\\\\n回覆我方當前氣血值18%的氣血。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"第七年一月開始，財富到達四千，探索荊東開啟荊南寶象閣後，從寶象閣購買。\",\r\n    \"ExtraDescFinal\": \"氣血+4000\",\r\n    \"Name\": \"无量寿功\",\r\n    \"Desc\": \"回春（18%当前气血）\",\r\n    \"EchoName\": \"无量寿功\",\r\n    \"DetailDesc\": \"助力收集类【密宗】【心法】\\\\n回复我方当前气血值18%的气血。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"第七年一月开始，财富到达四千，探索荆东开启荆南宝象阁后，从宝象阁购买。\",\r\n    \"ExtraDesc\": \"气血+4000\",\r\n    \"DescTw\": \"回春（18%當前氣血）\",\r\n    \"EchoNameTw\": \"無量壽功\",\r\n    \"DetailDescTw\": \"助力收集類【密宗】【心法】\\\\n回覆我方當前氣血值18%的氣血。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"第七年一月開始，財富到達四千，探索荊東開啟荊南寶象閣後，從寶象閣購買。\",\r\n    \"ExtraDescTw\": \"氣血+4000\"\r\n  }"
   rawIndex: 100240
   splits:
@@ -5170,6 +5518,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/根骨+4/灵活+4"
     translated: "Combat Power +80/Potential +4/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 100320,\r\n    \"DescFinal\": \"攻擊（0.8倍）\\\\n失神<50%>\",\r\n    \"EchoNameFinal\": \"虎嘯功\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【心法】\\\\n單次攻擊造成0.8倍俠客功力的傷害，並有50%機率使敵人進入失神狀態。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"從第五年一月起，探索湘南無事時，選擇逛一逛有機率遇到猛虎，悟性到達120、內息到達120時戰勝猛虎後可領悟。\",\r\n    \"ExtraDescFinal\": \"功力+90/內息+9\",\r\n    \"Name\": \"虎啸功\",\r\n    \"Desc\": \"攻击（0.8倍）\\\\n失神<50%>\",\r\n    \"EchoName\": \"虎啸功\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【心法】\\\\n单次攻击造成0.8倍侠客功力的伤害，并有50%几率使敌人进入失神状态。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"从第五年一月起，探索湘南无事时，选择逛一逛有几率遇到猛虎，悟性到达120、内息到达120时战胜猛虎后可领悟。\",\r\n    \"ExtraDesc\": \"功力+90/内息+9\",\r\n    \"DescTw\": \"攻擊（0.8倍）\\\\n失神<50%>\",\r\n    \"EchoNameTw\": \"虎嘯功\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【心法】\\\\n單次攻擊造成0.8倍俠客功力的傷害，並有50%機率使敵人進入失神狀態。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"從第五年一月起，探索湘南無事時，選擇逛一逛有機率遇到猛虎，悟性到達120、內息到達120時戰勝猛虎後可領悟。\",\r\n    \"ExtraDescTw\": \"功力+90/內息+9\"\r\n  }"
   rawIndex: 100320
   splits:
@@ -5251,12 +5601,16 @@
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【心法】\\n开局触发一次，回复2点行动力。"
     translated: "Automatic release skill JianghuHeart Method\\nStart with one activation. Reply with 2 points of action."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Action Points,行动力,"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
   - splitPath: GetDesc
     text: "加入衡山派，福缘到达90探索后山获取。"
     translated: "Join the Hengshan Sect, and your Fortune Points will increase after exploring the back mountain."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Luck,福缘,"
   - splitPath: ExtraDesc
     text: "气血+600/内息+6"
     translated: "Lifeforce +600/Inner Qi +6"
@@ -5308,6 +5662,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/悟性+8"
     translated: "Power Points +80/Understanding Points +8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
 - raw: "{\r\n    \"Key\": 100380,\r\n    \"DescFinal\": \"【開局觸發】[幽篁訣]可疊加1層，每層防禦+21%\",\r\n    \"EchoNameFinal\": \"幽篁訣\",\r\n    \"DetailDescFinal\": \"自動釋放類【江湖】【心法】\\\\n開局觸發一次，釋放戰術【幽篁訣】。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"幽篁诀\",\r\n    \"Desc\": \"【开局触发】[幽篁诀]可叠加1层，每层防御+21%\",\r\n    \"EchoName\": \"幽篁诀\",\r\n    \"DetailDesc\": \"自动释放类【江湖】【心法】\\\\n开局触发一次，释放战术【幽篁诀】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【開局觸發】[幽篁訣]可疊加1層，每層防禦+21%\",\r\n    \"EchoNameTw\": \"幽篁訣\",\r\n    \"DetailDescTw\": \"自動釋放類【江湖】【心法】\\\\n開局觸發一次，釋放戰術【幽篁訣】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100380
   splits:
@@ -5374,6 +5730,8 @@
   - splitPath: ExtraDesc
     text: "功力+110/灵活+11"
     translated: "Strength/+110 Dexterity/+11"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 100410,\r\n    \"DescFinal\": \"攻擊（0.8倍）\\\\n閃避1<12%>\",\r\n    \"EchoNameFinal\": \"落葉隨風腿\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成0.8倍俠客功力的傷害，並有12%機率釋放戰術【閃避】，可抵消一次攻擊。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"在黃鶴樓首次挑戰張山峰勝利後獲得。\",\r\n    \"ExtraDescFinal\": \"功力+80/靈活+8\",\r\n    \"Name\": \"落叶随风腿\",\r\n    \"Desc\": \"攻击（0.8倍）\\\\n闪避1<12%>\",\r\n    \"EchoName\": \"落叶随风腿\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造成0.8倍侠客功力的伤害，并有12%几率释放战术【闪避】，可抵消一次攻击。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"在黄鹤楼首次挑战张山峰胜利后获得。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（0.8倍）\\\\n閃避1<12%>\",\r\n    \"EchoNameTw\": \"落葉隨風腿\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成0.8倍俠客功力的傷害，並有12%機率釋放戰術【閃避】，可抵消一次攻擊。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"在黃鶴樓首次挑戰張山峰勝利後獲得。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
   rawIndex: 100410
   splits:
@@ -5398,6 +5756,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Combat Power+80/Agility+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 100420,\r\n    \"DescFinal\": \"攻擊（0.6倍）\\\\n二連擊\",\r\n    \"EchoNameFinal\": \"浮雲刀法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"萬壽幫友好度到達70，聽到彭祖壽提及浮雲刀法祕聞，福緣到達110後探索荊東獲取。\",\r\n    \"ExtraDescFinal\": \"功力+80/根骨+4/靈活+4\",\r\n    \"Name\": \"浮云刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n二连击\",\r\n    \"EchoName\": \"浮云刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.6倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"万寿帮友好度到达70，听到彭祖寿提及浮云刀法秘闻，福缘到达110后探索荆东获取。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+4/灵活+4\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"浮雲刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"萬壽幫友好度到達70，聽到彭祖壽提及浮雲刀法祕聞，福緣到達110後探索荊東獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+4/靈活+4\"\r\n  }"
   rawIndex: 100420
   splits:
@@ -5419,9 +5779,13 @@
   - splitPath: GetDesc
     text: "万寿帮友好度到达70，听到彭祖寿提及浮云刀法秘闻，福缘到达110后探索荆东获取。"
     translated: "When the affinity with the Longevity Sect reaches 70, hearing Peng Zushou mention secrets about the Fleeting Cloud Blade Art will unlock the quest to explore Jing Dong after accumulating Luck Points 110."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "功力+80/根骨+4/灵活+4"
     translated: "Combat Power +80/Potential +4/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 100430,\r\n    \"DescFinal\": \"【助力】氣血上限+1%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"蛇膽\",\r\n    \"DetailDescFinal\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"蛇胆\",\r\n    \"Desc\": \"【助力】气血上限+1%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"蛇胆\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血上限+1%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+1%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"蛇膽\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100430
   splits:
@@ -5482,6 +5846,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【拳脚】\\n单次攻击造成0.5倍侠客功力的伤害。"
     translated: "Attack Damage Type: Jianghu, Fist and Foot Combat\\nEach attack deals 0.5 times the Wanderer's cultivation damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -5497,6 +5863,8 @@
   - splitPath: Desc
     text: "强化1\\n行动力累积"
     translated: "Enhance 1\\nAgility Points Accumulated"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Action Points,行动力,"
   - splitPath: EchoName
     text: "大力丸"
     translated: "Great Strength Pill"
@@ -5566,6 +5934,8 @@
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【助战】\\n召唤宠物【黑护法】。黑护法单次攻击造成500点+6倍御兽伤害，发动几率70%；并有20%几率使敌人进入轻伤状态。"
     translated: "Tactical Coordinated Support Jianghu Assistance\\nSummon your pet Hei Huofa. Hei Huofa's single attack deals 500 points of +6 times Beast Tamer damage and has a trigger chance of 70%; it also has a 20% chance to inflict Light Injury on the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -5614,9 +5984,13 @@
   - splitPath: GetDesc
     text: "从第六年一月起，福缘到达100，探索野猪林战胜野猪王时御兽到达大师级，选择收服野猪王后获得。"
     translated: "Starting from January of the sixth year, Fortune Destiny arrives at 100. When taming the Wild Boar King during the exploration of Wild Boar Grove and defeating the Wild Boar King, Domesticate Beastmaster is acquired."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,Luck,福缘,"
   - splitPath: ExtraDesc
     text: "御兽+20"
     translated: "Domesticate +20"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 100520,\r\n    \"DescFinal\": \"氣血+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"野豬後腿\",\r\n    \"DetailDescFinal\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"野猪后腿\",\r\n    \"Desc\": \"气血+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"野猪后腿\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血上限+1%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"氣血+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"野豬後腿\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100520
   splits:
@@ -5674,6 +6048,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.4倍侠客功力的伤害。"
     translated: "Attack Damage Category: Jianghu Blades and Swords\\nSingle attack deals 0.4 times the Wanderer's cultivation damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -5710,12 +6086,16 @@
   - splitPath: Desc
     text: "攻击（0.2倍）\\n增伤（百戏-7倍）\\n二连击"
     translated: "Attack (0.2x)\\nCritical Damage (Hundred Drama ‑7x)\\nDouble Strike"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "如意飞环"
     translated: "Will‑O'‑Wisp Ring"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【特技】\\n单次攻击造成0.2倍侠客功力+7倍百戏的伤害，连续两次攻击。"
     translated: "Attack Damage Special Skill Jianghu Skill\\nCause 0.2 times the power of a Wanderer's skills and +7 times the effect of Baixi in a single attack, followed by another attack."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -5869,6 +6249,8 @@
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】\\n出战侠客功力加成5%。"
     translated: "Assist in gathering Treasures and Special Skills.\\nThe combat effectiveness of the participating Wanderer is increased by 5%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -5896,9 +6278,13 @@
   - splitPath: GetDesc
     text: "帮助晏蛾眉找到当年杀害其父亲的元凶后，岳麓书院友好到达80，探索岳麓书院获取。"
     translated: "After helping Yan Emei find the culprit who murdered her father, the Yuelu Academy of Scholarly Research kindly arrived at 80 to explore the Yuelu Academy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "气血+1200/悟性+12"
     translated: "Lifeforce +1200/Comprehension +12"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
 - raw: "{\r\n    \"Key\": 100650,\r\n    \"DescFinal\": \"攻擊（1.8倍）\",\r\n    \"EchoNameFinal\": \"裂石錘法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.8倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"蒼山嶺除掉殷通前，湘東朱雀坊和石重寶賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescFinal\": \"功力+60/體魄+6\",\r\n    \"Name\": \"裂石锤法\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"裂石锤法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"苍山岭除掉殷通前，湘东朱雀坊和石重宝赌骰子累计获胜三局后获得。\",\r\n    \"ExtraDesc\": \"功力+60/体魄+6\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"裂石錘法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"蒼山嶺除掉殷通前，湘東朱雀坊和石重寶賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescTw\": \"功力+60/體魄+6\"\r\n  }"
   rawIndex: 100650
   splits:
@@ -5947,6 +6333,8 @@
   - splitPath: ExtraDesc
     text: "功力+70/灵活+4/根骨+3"
     translated: "Stamina +70/Agility +4/Potential +3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 100670,\r\n    \"DescFinal\": \"行動回覆1\\\\n條件-我方氣血尾數小於3\",\r\n    \"EchoNameFinal\": \"仙人摘豆\",\r\n    \"DetailDescFinal\": \"自動釋放類【江湖】【特技】\\\\n回覆1點行動力，我方氣血尾數小於三。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"湘東朱雀坊和左遊仙賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescFinal\": \"百戲+10\",\r\n    \"Name\": \"仙人摘豆\",\r\n    \"Desc\": \"行动回复1\\\\n条件-我方气血尾数小于3\",\r\n    \"EchoName\": \"仙人摘豆\",\r\n    \"DetailDesc\": \"自动释放类【江湖】【特技】\\\\n回复1点行动力，我方气血尾数小于三。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"湘东朱雀坊和左游仙赌骰子累计获胜三局后获得。\",\r\n    \"ExtraDesc\": \"百戏+10\",\r\n    \"DescTw\": \"行動回覆1\\\\n條件-我方氣血尾數小於3\",\r\n    \"EchoNameTw\": \"仙人摘豆\",\r\n    \"DetailDescTw\": \"自動釋放類【江湖】【特技】\\\\n回覆1點行動力，我方氣血尾數小於三。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"湘東朱雀坊和左遊仙賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescTw\": \"百戲+10\"\r\n  }"
   rawIndex: 100670
   splits:
@@ -5971,6 +6359,8 @@
   - splitPath: ExtraDesc
     text: "百戏+10"
     translated: "Variegated Performances +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 100680,\r\n    \"DescFinal\": \"攻擊（0.1倍）\\\\n增傷（賭術-14倍）\\\\n行動回覆1<20%>\",\r\n    \"EchoNameFinal\": \"槓上開花\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【特技】\\\\n單次攻擊造成0.1+14倍賭術的傷害，並有20%機率回覆1點行動力。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"從第六年一月起，與靳紅衣友好到達60，賭術到達高手，探索朱雀坊與靳紅衣博彩後，靳紅衣傳授。\",\r\n    \"ExtraDescFinal\": \"賭術+20\",\r\n    \"Name\": \"杠上开花\",\r\n    \"Desc\": \"攻击（0.1倍）\\\\n增伤（赌术-14倍）\\\\n行动回复1<20%>\",\r\n    \"EchoName\": \"杠上开花\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【特技】\\\\n单次攻击造成0.1+14倍赌术的伤害，并有20%几率回复1点行动力。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"从第六年一月起，与靳红衣友好到达60，赌术到达高手，探索朱雀坊与靳红衣博彩后，靳红衣传授。\",\r\n    \"ExtraDesc\": \"赌术+20\",\r\n    \"DescTw\": \"攻擊（0.1倍）\\\\n增傷（賭術-14倍）\\\\n行動回覆1<20%>\",\r\n    \"EchoNameTw\": \"槓上開花\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【特技】\\\\n單次攻擊造成0.1+14倍賭術的傷害，並有20%機率回覆1點行動力。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"從第六年一月起，與靳紅衣友好到達60，賭術到達高手，探索朱雀坊與靳紅衣博彩後，靳紅衣傳授。\",\r\n    \"ExtraDescTw\": \"賭術+20\"\r\n  }"
   rawIndex: 100680
   splits:
@@ -5992,6 +6382,8 @@
   - splitPath: GetDesc
     text: "从第六年一月起，与靳红衣友好到达60，赌术到达高手，探索朱雀坊与靳红衣博彩后，靳红衣传授。"
     translated: "Starting from January of the sixth year, Jin Hongyi established a friendly relationship and arrived at 60. After mastering advanced gambling techniques and exploring the Phoenix Pavilion with Jin Hongyi's guidance, Jin Hongyi taught them."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "赌术+20"
     translated: "Gambling Skill +20"
@@ -6010,6 +6402,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【特技】\\n单次攻击造成0.2+3倍赌术的伤害，连续攻击九次。"
     translated: "Attack Damage Category: Jianghu Special Technique\\nEach attack deals 0.2 times the Dice Trick damage, and it can be performed consecutively nine times."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gambling,赌术,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -6088,6 +6482,8 @@
   - splitPath: Desc
     text: "攻击（1倍）\\n增伤（10倍翰墨）"
     translated: "Attack (1 times)\\nCritical Damage (10 times Hanmo)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: EchoName
     text: "麓山笔书"
     translated: "Mount Lu Writing Studio"
@@ -6100,9 +6496,13 @@
   - splitPath: GetDesc
     text: "解锁岳麓书院后，达到翰墨高手，探索岳麓书院，魏元康传授，魏元康伏法后将无法获取。"
     translated: "After unlocking the Yue Lu Academy, reach Calligraphic Master. Explore the Yue Lu Academy to receive teachings from Wei Yuankang. Once Wei Yuankang is brought to justice, this will no longer be available."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: ExtraDesc
     text: "功力+100/根骨+5/翰墨+10"
     translated: "Strength Points +100/Potential +5/Calligraphy Skills +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
 - raw: "{\r\n    \"Key\": 100740,\r\n    \"DescFinal\": \"閃避1\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameFinal\": \"無妄步\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【心法】\\\\n當我方處於異常狀態時可使用，釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"解鎖嶽麓書院後，術數到達高手級，探索嶽麓書院，盧季長傳授。\",\r\n    \"ExtraDescFinal\": \"功力+100/靈活+5/術數+10\",\r\n    \"Name\": \"无妄步\",\r\n    \"Desc\": \"闪避1\\\\n条件-我方处于异常状态\",\r\n    \"EchoName\": \"无妄步\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n当我方处于异常状态时可使用，释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"解锁岳麓书院后，术数到达高手级，探索岳麓书院，卢季长传授。\",\r\n    \"ExtraDesc\": \"功力+100/灵活+5/术数+10\",\r\n    \"DescTw\": \"閃避1\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameTw\": \"無妄步\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n當我方處於異常狀態時可使用，釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"解鎖嶽麓書院後，術數到達高手級，探索嶽麓書院，盧季長傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/靈活+5/術數+10\"\r\n  }"
   rawIndex: 100740
   splits:
@@ -6124,9 +6524,13 @@
   - splitPath: GetDesc
     text: "解锁岳麓书院后，术数到达高手级，探索岳麓书院，卢季长传授。"
     translated: "After unlocking the Yue Lu Academy, advance your numerology skills to Expert level. Then, explore the Yue Lu Academy where Lu Jichang will teach you."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
   - splitPath: ExtraDesc
     text: "功力+100/灵活+5/术数+10"
     translated: "Combat Power+100/Agility+5/Scholarly Knowledge+10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Divination,术数,"
 - raw: "{\r\n    \"Key\": 100750,\r\n    \"DescFinal\": \"【開局觸發】攻擊（1倍）\\\\n增傷（儒學100倍）\",\r\n    \"EchoNameFinal\": \"仰天劍術\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【刀劍】\\\\n開局觸發一次，單次攻擊造1倍俠客功力+100倍儒學的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"儒學到達高手級，探索嶽麓書院，解知章考詩句全部答出後解知章傳授。\",\r\n    \"ExtraDescFinal\": \"功力+100/靈活+5/儒學+10\",\r\n    \"Name\": \"仰天剑术\",\r\n    \"Desc\": \"【开局触发】攻击（1倍）\\\\n增伤（儒学100倍）\",\r\n    \"EchoName\": \"仰天剑术\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n开局触发一次，单次攻击造1倍侠客功力+100倍儒学的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"儒学到达高手级，探索岳麓书院，解知章考诗句全部答出后解知章传授。\",\r\n    \"ExtraDesc\": \"功力+100/灵活+5/儒学+10\",\r\n    \"DescTw\": \"【開局觸發】攻擊（1倍）\\\\n增傷（儒學100倍）\",\r\n    \"EchoNameTw\": \"仰天劍術\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n開局觸發一次，單次攻擊造1倍俠客功力+100倍儒學的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"儒學到達高手級，探索嶽麓書院，解知章考詩句全部答出後解知章傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/靈活+5/儒學+10\"\r\n  }"
   rawIndex: 100750
   splits:
@@ -6136,12 +6540,16 @@
   - splitPath: Desc
     text: "【开局触发】攻击（1倍）\\n增伤（儒学100倍）"
     translated: "Trigger at Start Attack (1 times)\\nCritical Damage (Scholarly Studies 100 times)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: EchoName
     text: "仰天剑术"
     translated: "Heavenward Swordsmanship"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n开局触发一次，单次攻击造1倍侠客功力+100倍儒学的伤害。"
     translated: "Attack Damage Category: Jianghu Blades and Swords\\nTriggered once at the beginning, this attack deals 1 times the Wanderer's power and +100 times the Scholar's damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -6151,6 +6559,8 @@
   - splitPath: ExtraDesc
     text: "功力+100/灵活+5/儒学+10"
     translated: "Strength Points +100/Agility +5/Confucian Scholarship +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Confucian Studies,儒学,Power,功力,"
 - raw: "{\r\n    \"Key\": 100760,\r\n    \"DescFinal\": \"攻擊（0.9倍）\",\r\n    \"EchoNameFinal\": \"飛絮劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"飞絮剑法\",\r\n    \"Desc\": \"攻击（0.9倍）\",\r\n    \"EchoName\": \"飞絮剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.9倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.9倍）\",\r\n    \"EchoNameTw\": \"飛絮劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100760
   splits:
@@ -6166,6 +6576,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.9倍侠客功力的伤害。"
     translated: "Attack Damage Categories: Jianghu, Blade and Sword\\nEach attack deals 0.9 times the Wanderer's Qi Gong damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -6295,6 +6707,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.8倍侠客功力的伤害，连续攻击两次，连击数额外+1。"
     translated: "Attacks dealing damage in Jianghu involving Blades and Swords\\nEach attack deals 0.8 times the Wanderer's skill damage. Attacking twice in succession adds +1 to the combo count."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -6337,6 +6751,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次，连击数额外+3。"
     translated: "Attack Damage Category: Jianghu, Blade and Sword\\nEach attack deals 1 times the Wanderer's cultivation damage. Performing a consecutive attack twice increases the combo count by an additional +3."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -6370,6 +6786,8 @@
   - splitPath: ExtraDesc
     text: "术数+20"
     translated: "Astrology +20"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
 - raw: "{\r\n    \"Key\": 100830,\r\n    \"DescFinal\": \"攻擊（0.4倍）\\\\n增傷（12倍翰墨）\",\r\n    \"EchoNameFinal\": \"四絕筆書\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.4倍俠客功力+12倍翰墨的傷害。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"第一年在破廟有概率遇到文徵明後，翰墨到達高手級，探索湘南，文徵明傳授。\",\r\n    \"ExtraDescFinal\": \"功力+100/根骨+4/翰墨+12\",\r\n    \"Name\": \"四绝笔书\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n增伤（12倍翰墨）\",\r\n    \"EchoName\": \"四绝笔书\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.4倍侠客功力+12倍翰墨的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第一年在破庙有概率遇到文徵明后，翰墨到达高手级，探索湘南，文徵明传授。\",\r\n    \"ExtraDesc\": \"功力+100/根骨+4/翰墨+12\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n增傷（12倍翰墨）\",\r\n    \"EchoNameTw\": \"四絕筆書\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.4倍俠客功力+12倍翰墨的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第一年在破廟有概率遇到文徵明後，翰墨到達高手級，探索湘南，文徵明傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/根骨+4/翰墨+12\"\r\n  }"
   rawIndex: 100830
   splits:
@@ -6385,6 +6803,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】\\n单次攻击造成0.4倍侠客功力+12倍翰墨的伤害。"
     translated: "Attacks that deal damage based on Jianghu and Bai Bing\\nSingle attack deals 0.4 times the Wanderer's cultivation plus +12 times the calligraphy mastery."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -6394,6 +6814,8 @@
   - splitPath: ExtraDesc
     text: "功力+100/根骨+4/翰墨+12"
     translated: "Power/+4/Literary Talent"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 100840,\r\n    \"DescFinal\": \"攻擊（0.5倍）\\\\n[五禽戲]-可疊加1層，每層回覆+50%\",\r\n    \"EchoNameFinal\": \"五禽戲\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【拳法】\\\\n單次攻擊造成0.5倍俠客功力的傷害並釋放戰術【五禽戲】。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"華辭軒加入後，探索荊東華辭軒傳授。\",\r\n    \"ExtraDescFinal\": \"氣血+1000/根骨+5\",\r\n    \"Name\": \"五禽戏\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n[五禽戏]-可叠加1层，每层回复+50%\",\r\n    \"EchoName\": \"五禽戏\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳法】\\\\n单次攻击造成0.5倍侠客功力的伤害并释放战术【五禽戏】。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"华辞轩加入后，探索荆东华辞轩传授。\",\r\n    \"ExtraDesc\": \"气血+1000/根骨+5\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n[五禽戲]-可疊加1層，每層回覆+50%\",\r\n    \"EchoNameTw\": \"五禽戲\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳法】\\\\n單次攻擊造成0.5倍俠客功力的傷害並釋放戰術【五禽戲】。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"華辭軒加入後，探索荊東華辭軒傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1000/根骨+5\"\r\n  }"
   rawIndex: 100840
   splits:
@@ -6427,12 +6849,16 @@
   - splitPath: Desc
     text: "回春（2%气血上限）\\n增幅（24倍医术）"
     translated: "Restore (Lifeforce: 2% of Maximum Lifeforce)\\nBoost (24x Medical Skill)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: EchoName
     text: "青囊医诀"
     translated: "Tao of Medical Preservation"
   - splitPath: DetailDesc
     text: "辅助回复类【江湖】【特技】\\n回复我方2%气血上限的气血+24倍医术的气血。"
     translated: "Healing Support Jianghu, Technique\\nRestore 2% of your maximum Lifeforce multiplied by the Healer's skill."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -6463,6 +6889,8 @@
   - splitPath: ExtraDesc
     text: "功力+70/灵活+7"
     translated: "Strength +70/Agility +7"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 100870,\r\n    \"DescFinal\": \"【助力】連擊+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"霓裳舞\",\r\n    \"DetailDescFinal\": \"助力收集類【江湖】【特技】\\\\n出戰俠客連擊發生率+2%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"霓裳舞\",\r\n    \"Desc\": \"【助力】连击+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"霓裳舞\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客连击发生率+2%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】連擊+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"霓裳舞\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客連擊發生率+2%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100870
   splits:
@@ -6583,6 +7011,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.4倍侠客功力的伤害，连续三次攻击，并有40%几率使敌人进入轻伤状态。"
     translated: "Attack Damage Category: Jianghu Blades and Swords\\nEach attack deals 0.4 times the Wanderer's combat proficiency in damage. Perform three consecutive attacks to have a 40% chance of putting the enemy in a state of light injury."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -6625,6 +7055,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】\\n单次攻击造成1倍侠客功力的伤害，并有64%几率使敌人进入禁疗状态。"
     translated: "Attacks dealing damage in Jianghu and Bai Bing styles\\nEach attack deals 1 times the Wanderer's combat proficiency in damage and has a 64% chance to inflict a forbidden healing state on the enemy."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -6634,6 +7066,8 @@
   - splitPath: ExtraDesc
     text: "功力+70/灵活+7"
     translated: "Strength +70/Agility +7"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 100950,\r\n    \"DescFinal\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"同心佩\",\r\n    \"DetailDescFinal\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"同心佩\",\r\n    \"Desc\": \"【助力】气血上限+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"同心佩\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"同心佩\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100950
   splits:
@@ -6691,6 +7125,8 @@
   - splitPath: DetailDesc
     text: "助力收集类【江湖】【特技】\\n出战侠客功力加成4%。"
     translated: "Assist in gathering Jianghu Special Skills.\\nThe combat effectiveness of the active Wanderer is increased by 4%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -6754,6 +7190,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】\\n单次攻击造成1.1倍侠客功力的伤害。"
     translated: "Attack damage type: Jianghu and Bubing\\nSingle attack deals 1.1 times the strength of a Wanderer's skills."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -6778,12 +7216,16 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【心法】\\n单次攻击造成108倍侠客道德的伤害。"
     translated: "Attacks dealing damage based on JianghuHeart Method\\nSingle attack causes 108 times the moral value of a Wanderer."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Morality,道德,"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
   - splitPath: GetDesc
     text: "六合帮开启，首次拜访后，从第七年一月开始，财富到达4000，悟性到达160，探索六合帮，花费四千钱从夏侯朝处购买。"
     translated: "Six Harmonies Sect has initiated. After your first visit, starting from the seventh month of January, accumulate wealth to 4000 and wisdom to 160. To explore Six Harmonies Sect, spend four thousand coins to purchase from Xiahou Chao."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
   - splitPath: ExtraDesc
     text: "功力+160/气血+1600"
     translated: "Power/ Lifeforce +160/+1600"
@@ -7054,15 +7496,21 @@
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【助战】\\n召唤宠物【飞云鼯】。飞云鼯单次攻击造成100点+3倍御兽伤害，连续3次攻击，发动几率100%，并有12%几率消除敌人1个战术。"
     translated: "Tactical Co‑op Jianghu Assistant\\nSummon your pet Feiyun Wu. Feiyun Wu deals 100 points of +3 times Beast Tamer damage with each attack. It can strike up to 3 times in a row, with an activation chance of 100% and a 12% chance to remove the enemy's 1 tactical effect."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
   - splitPath: GetDesc
     text: "六合帮开启，首次拜访后，从第七年一月开始，财富到达2000，御兽到达120，探索六合帮，花费两千钱从夏侯朝处购买。"
     translated: "Six Harmonies Sect has opened. After your first visit, starting from the seventh month of January, wealth will reach 2000 and beast mastery will reach 120. Explore Six Harmonies Sect by spending two thousand coins to purchase from Xiahou Chao."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: ExtraDesc
     text: "御兽+15"
     translated: "Domesticate +15"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 101150,\r\n    \"DescFinal\": \"[魚龍百變]支援戰鬥\\\\n限一次\",\r\n    \"EchoNameFinal\": \"魚龍百變\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【魚龍百變】，本回合可抵消99次攻擊，每場戰鬥只能使用一次。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"在湘東一月橘州燈會時答對一次以上燈謎，福緣到達180、靈活到達180，任意年的一月探索湘東，答對燈謎獲取。\",\r\n    \"ExtraDescFinal\": \"功力+150/輕功+15\",\r\n    \"Name\": \"鱼龙百变\",\r\n    \"Desc\": \"[鱼龙百变]支援战斗\\\\n限一次\",\r\n    \"EchoName\": \"鱼龙百变\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n释放战术【鱼龙百变】，本回合可抵消99次攻击，每场战斗只能使用一次。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"在湘东一月橘州灯会时答对一次以上灯谜，福缘到达180、灵活到达180，任意年的一月探索湘东，答对灯谜获取。\",\r\n    \"ExtraDesc\": \"功力+150/轻功+15\",\r\n    \"DescTw\": \"[魚龍百變]支援戰鬥\\\\n限一次\",\r\n    \"EchoNameTw\": \"魚龍百變\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【魚龍百變】，本回合可抵消99次攻擊，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"在湘東一月橘州燈會時答對一次以上燈謎，福緣到達180、靈活到達180，任意年的一月探索湘東，答對燈謎獲取。\",\r\n    \"ExtraDescTw\": \"功力+150/輕功+15\"\r\n  }"
   rawIndex: 101150
   splits:
@@ -7084,6 +7532,8 @@
   - splitPath: GetDesc
     text: "在湘东一月橘州灯会时答对一次以上灯谜，福缘到达180、灵活到达180，任意年的一月探索湘东，答对灯谜获取。"
     translated: "During the Juzhou Lantern Festival in January in Xiangdong, answer one or more riddles correctly to increase Fortune by 180 and Agility by 180. Answering riddles during any January exploration of Xiangdong grants these stats."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Luck,福缘,"
   - splitPath: ExtraDesc
     text: "功力+150/轻功+15"
     translated: "Power Level +150/Qinggong Skill +15"
@@ -7129,6 +7579,8 @@
   - splitPath: GetDesc
     text: "加入武当派，第七年九月时，成功揭露乔道安阴谋，七年十月开始，福缘到达180，道学到达120，探索解真阁后发现《血手经》可选择修炼。"
     translated: "Joining the Wudang sect in its seventh year and ninth month, you successfully uncovered Qiao Dao'an's conspiracy. Starting from the tenth month of the seventh year, your fortune and Taoist studies have arrived at 180 and 120, respectively. After exploring the Zhengzhen Pavilion, you discovered that the 'Blood Hand Scripture' can be chosen for cultivation."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,Luck,福缘,"
   - splitPath: ExtraDesc
     text: "功力+180/根骨+18"
     translated: "Power Level +180/Potential +18"
@@ -7168,6 +7620,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.9倍侠客功力的伤害。"
     translated: "Attack Damage Categories: Jianghu, Blade and Sword\\nEach attack deals 0.9 times the Wanderer's Qi Gong damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -7189,6 +7643,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成3倍侠客功力的伤害。"
     translated: "Attacks dealing damage based on Jianghu Dao and Jian\\nSingle attack causes 3 times the Wanderer's Skill."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -7348,6 +7804,8 @@
   - splitPath: ExtraDesc
     text: "功力+40/灵活+4"
     translated: "Strength +40/Agility +4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 101250,\r\n    \"DescFinal\": \"攻擊（0.6倍）\\\\n重傷<10%>\",\r\n    \"EchoNameFinal\": \"殺豬刀法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，並有10%機率使敵人進入重傷狀態。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"第三年開始六扇門接取抓捕卞五嫂的懸賞，探索湘北戰勝卞五嫂獲取。\",\r\n    \"ExtraDescFinal\": \"功力+40/根骨+4\",\r\n    \"Name\": \"杀猪刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n重伤<10%>\",\r\n    \"EchoName\": \"杀猪刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.6倍侠客功力的伤害，并有10%几率使敌人进入重伤状态。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"第三年开始六扇门接取抓捕卞五嫂的悬赏，探索湘北战胜卞五嫂获取。\",\r\n    \"ExtraDesc\": \"功力+40/根骨+4\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n重傷<10%>\",\r\n    \"EchoNameTw\": \"殺豬刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，並有10%機率使敵人進入重傷狀態。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"第三年開始六扇門接取抓捕卞五嫂的懸賞，探索湘北戰勝卞五嫂獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/根骨+4\"\r\n  }"
   rawIndex: 101250
   splits:
@@ -7396,6 +7854,8 @@
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Combat Power+80/Agility+8"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
 - raw: "{\r\n    \"Key\": 101270,\r\n    \"DescFinal\": \"攻擊（1.2倍）\",\r\n    \"EchoNameFinal\": \"旋風斧法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeFinal\": \"百兵\",\r\n    \"GetDescFinal\": \"第五年開始，且完成過一次六扇門抓捕懸賞，六扇門接取抓捕焦雄的懸賞，探索湘東戰勝焦雄獲取。\",\r\n    \"ExtraDescFinal\": \"功力+80/根骨+8\",\r\n    \"Name\": \"旋风斧法\",\r\n    \"Desc\": \"攻击（1.2倍）\",\r\n    \"EchoName\": \"旋风斧法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成1.2倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次六扇门抓捕悬赏，六扇门接取抓捕焦雄的悬赏，探索湘东战胜焦雄获取。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+8\",\r\n    \"DescTw\": \"攻擊（1.2倍）\",\r\n    \"EchoNameTw\": \"旋風斧法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次六扇門抓捕懸賞，六扇門接取抓捕焦雄的懸賞，探索湘東戰勝焦雄獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+8\"\r\n  }"
   rawIndex: 101270
   splits:
@@ -7441,6 +7901,8 @@
   - splitPath: GetDesc
     text: "第七年开始，且完成过三次六扇门抓捕悬赏，六扇门接取抓捕慈元的悬赏，探索荆东战胜慈元获取。"
     translated: "Starting from the seventh year, after completing three Six Doors Capture Awards for apprehending individuals, the Six Doors took on the reward to capture Ci Yuan. The task involves exploring Jing Dong and defeating Ci Yuan."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Bounty,悬赏,"
   - splitPath: ExtraDesc
     text: "功力+100/体魄+10"
     translated: "Power/Resilience"
@@ -7480,6 +7942,8 @@
   - splitPath: DetailDesc
     text: "助力收集类【江湖】【特技】\\n出战侠客功力加成5%。"
     translated: "Assist in collecting from the Jianghu category with a Special Skill.\\nThe combat effectiveness of the active Wanderer is increased by 5%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -7615,9 +8079,13 @@
   - splitPath: GetDesc
     text: "第八年间一月起，探索湘北资助结巴山贼后，此后根骨到达180，两次探索湘北并两次战胜谷藏锋后，灵活到达180，选择观潮剑法谷藏锋传授。"
     translated: "Starting in January of the eighth year, after funding the bandits in Jiazhang Mountain and exploring Xiangbei twice while increasing their potential to 180, they then gained flexibility at 180 and chose to learn the Gu Cangfeng's Jianfa, Observing Tides Swordsmanship."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,"
   - splitPath: ExtraDesc
     text: "功力+140/灵活+14"
     translated: "Combat Skill+140/Dexterity+14"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Flexible,灵活,Power,功力,"
 - raw: "{\r\n    \"Key\": 101370,\r\n    \"DescFinal\": \"攻擊（1000倍紅顏數量）\",\r\n    \"EchoNameFinal\": \"相思劍法\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成1000倍紅顏知己數量的傷害。\",\r\n    \"SubTypeFinal\": \"刀劍\",\r\n    \"GetDescFinal\": \"第八年間一月起，探索湘北資助結巴山賊後，此後根骨到達180，兩次探索湘北並兩次戰勝谷藏鋒後，紅顏知己數量不少於五人，選擇相思劍法谷藏鋒傳授。\",\r\n    \"ExtraDescFinal\": \"功力+140/悟性+14\",\r\n    \"Name\": \"相思剑法\",\r\n    \"Desc\": \"攻击（1000倍红颜数量）\",\r\n    \"EchoName\": \"相思剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成1000倍红颜知己数量的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"第八年间一月起，探索湘北资助结巴山贼后，此后根骨到达180，两次探索湘北并两次战胜谷藏锋后，红颜知己数量不少于五人，选择相思剑法谷藏锋传授。\",\r\n    \"ExtraDesc\": \"功力+140/悟性+14\",\r\n    \"DescTw\": \"攻擊（1000倍紅顏數量）\",\r\n    \"EchoNameTw\": \"相思劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成1000倍紅顏知己數量的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"第八年間一月起，探索湘北資助結巴山賊後，此後根骨到達180，兩次探索湘北並兩次戰勝谷藏鋒後，紅顏知己數量不少於五人，選擇相思劍法谷藏鋒傳授。\",\r\n    \"ExtraDescTw\": \"功力+140/悟性+14\"\r\n  }"
   rawIndex: 101370
   splits:
@@ -7642,6 +8110,8 @@
   - splitPath: ExtraDesc
     text: "功力+140/悟性+14"
     translated: "Power +140/Comprehension +14"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Insight,悟性,"
 - raw: "{\r\n    \"Key\": 101380,\r\n    \"DescFinal\": \"【助力】功力+5%\\\\n無需出戰即可生效\",\r\n    \"EchoNameFinal\": \"飛景劍\",\r\n    \"DetailDescFinal\": \"助力收集類【江湖】【特技】\\\\n出戰俠客功力加成5%。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"敬請期待\",\r\n    \"Name\": \"飞景剑\",\r\n    \"Desc\": \"【助力】功力+5%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"飞景剑\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客功力加成5%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】功力+5%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"飛景劍\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客功力加成5%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 101380
   splits:
@@ -7657,6 +8127,8 @@
   - splitPath: DetailDesc
     text: "助力收集类【江湖】【特技】\\n出战侠客功力加成5%。"
     translated: "Assist in collecting from the Jianghu category with a Special Skill.\\nThe combat effectiveness of the active Wanderer is increased by 5%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -7684,6 +8156,8 @@
   - splitPath: GetDesc
     text: "御兽达到160，完成袁飞故事解锁，侠客界面袁飞角色卡右上角进入故事模式。"
     translated: "Reach level 160 for Beast Mastery to unlock Yuan Fei's story mode. Enter story mode for Yuan Fei by tapping on the role card in the Wanderer interface at the upper right corner."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
   - splitPath: ExtraDesc
     text: "功力+100"
     translated: "Power +100"
@@ -7903,6 +8377,8 @@
   - splitPath: ExtraDesc
     text: "功力+130/百戏+18"
     translated: "Power Level/+18 Performances"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 101550,\r\n    \"DescFinal\": \"閃避1\\\\n條件-我方氣血尾數大於6\",\r\n    \"EchoNameFinal\": \"縮骨功\",\r\n    \"DetailDescFinal\": \"自動觸發類【江湖】【特技】\\\\n當我方氣血尾數大於6時，釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeFinal\": \"特技\",\r\n    \"GetDescFinal\": \"福慶班友好到達60，百戲到達高手，探索福慶班二福傳授。\",\r\n    \"ExtraDescFinal\": \"氣血+800/百戲+10\",\r\n    \"Name\": \"缩骨功\",\r\n    \"Desc\": \"闪避1\\\\n条件-我方气血尾数大于6\",\r\n    \"EchoName\": \"缩骨功\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【特技】\\\\n当我方气血尾数大于6时，释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"福庆班友好到达60，百戏到达高手，探索福庆班二福传授。\",\r\n    \"ExtraDesc\": \"气血+800/百戏+10\",\r\n    \"DescTw\": \"閃避1\\\\n條件-我方氣血尾數大於6\",\r\n    \"EchoNameTw\": \"縮骨功\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【特技】\\\\n當我方氣血尾數大於6時，釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"福慶班友好到達60，百戲到達高手，探索福慶班二福傳授。\",\r\n    \"ExtraDescTw\": \"氣血+800/百戲+10\"\r\n  }"
   rawIndex: 101550
   splits:
@@ -7924,9 +8400,13 @@
   - splitPath: GetDesc
     text: "福庆班友好到达60，百戏到达高手，探索福庆班二福传授。"
     translated: "Friendship Company arrives harmoniously at 60, Hundred Entertainments reaches a master, exploring what Second Fu of Friendship Company has to teach."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: ExtraDesc
     text: "气血+800/百戏+10"
     translated: "Lifeforce +800/Variegated Performances +10"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 101560,\r\n    \"DescFinal\": \"攻擊（1.3倍）\\\\n我方輕傷<26%>\",\r\n    \"EchoNameFinal\": \"十三太保拳\",\r\n    \"DetailDescFinal\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造1.3倍俠客功力的傷害，並有26%機率使我方進入輕傷狀態。\",\r\n    \"SubTypeFinal\": \"拳腳\",\r\n    \"GetDescFinal\": \"第六年一月開始，永盛鏢局友好到達80，探索永盛鏢局歐陽望託鏢後，探索湘西，戰勝黑白秀士後，祖南雄傳授。\",\r\n    \"ExtraDescFinal\": \"功力+130/根骨+6、體魄+7\",\r\n    \"Name\": \"十三太保拳\",\r\n    \"Desc\": \"攻击（1.3倍）\\\\n我方轻伤<26%>\",\r\n    \"EchoName\": \"十三太保拳\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造1.3倍侠客功力的伤害，并有26%几率使我方进入轻伤状态。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"第六年一月开始，永盛镖局友好到达80，探索永盛镖局欧阳望托镖后，探索湘西，战胜黑白秀士后，祖南雄传授。\",\r\n    \"ExtraDesc\": \"功力+130/根骨+6、体魄+7\",\r\n    \"DescTw\": \"攻擊（1.3倍）\\\\n我方輕傷<26%>\",\r\n    \"EchoNameTw\": \"十三太保拳\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造1.3倍俠客功力的傷害，並有26%機率使我方進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"第六年一月開始，永盛鏢局友好到達80，探索永盛鏢局歐陽望託鏢後，探索湘西，戰勝黑白秀士後，祖南雄傳授。\",\r\n    \"ExtraDescTw\": \"功力+130/根骨+6、體魄+7\"\r\n  }"
   rawIndex: 101560
   splits:
@@ -7948,9 +8428,13 @@
   - splitPath: GetDesc
     text: "第六年一月开始，永盛镖局友好到达80，探索永盛镖局欧阳望托镖后，探索湘西，战胜黑白秀士后，祖南雄传授。"
     translated: "In January of the sixth year, Yongsheng Escort Agency amicably arrived at 80. After exploring Yongsheng Escort Agency and delivering a message for Yang Wang, they ventured into Xiangxi and defeated the Black and White Scholar. Thereafter, Zu Nanxiong taught them."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "功力+130/根骨+6、体魄+7"
     translated: "Stamina +130/Potential +6, Resilience +7"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
 - raw: "{\r\n    \"Key\": 101570,\r\n    \"DescFinal\": \"【開局觸發】[鐵布衫]可疊加1層，每層傷害減少50%\",\r\n    \"EchoNameFinal\": \"鐵布衫\",\r\n    \"DetailDescFinal\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【鐵布衫】。\",\r\n    \"SubTypeFinal\": \"心法\",\r\n    \"GetDescFinal\": \"第四年一月開始，開啟永盛鏢局後，永盛鏢局友好到達30，探索荊南，擊敗端木遺，探索永盛鏢局祖南雄傳授。\",\r\n    \"ExtraDescFinal\": \"氣血+800/體魄+8\",\r\n    \"Name\": \"铁布衫\",\r\n    \"Desc\": \"【开局触发】[铁布衫]可叠加1层，每层伤害减少50%\",\r\n    \"EchoName\": \"铁布衫\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n释放战术【铁布衫】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"第四年一月开始，开启永盛镖局后，永盛镖局友好到达30，探索荆南，击败端木遗，探索永盛镖局祖南雄传授。\",\r\n    \"ExtraDesc\": \"气血+800/体魄+8\",\r\n    \"DescTw\": \"【開局觸發】[鐵布衫]可疊加1層，每層傷害減少50%\",\r\n    \"EchoNameTw\": \"鐵布衫\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【鐵布衫】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"第四年一月開始，開啟永盛鏢局後，永盛鏢局友好到達30，探索荊南，擊敗端木遺，探索永盛鏢局祖南雄傳授。\",\r\n    \"ExtraDescTw\": \"氣血+800/體魄+8\"\r\n  }"
   rawIndex: 101570
   splits:
@@ -7972,6 +8456,8 @@
   - splitPath: GetDesc
     text: "第四年一月开始，开启永盛镖局后，永盛镖局友好到达30，探索荆南，击败端木遗，探索永盛镖局祖南雄传授。"
     translated: "Starting in January of the fourth year, after Yongsheng Escort Agency was established, it friendly arrived at 30, explored Jingnan, defeated Duanmu Yi, and delved into the teachings passed down by Zu Nanxiong of Yongsheng Escort Agency."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Friendship,友好,"
   - splitPath: ExtraDesc
     text: "气血+800/体魄+8"
     translated: "Lifeforce +800/Resilience +8"
@@ -8074,6 +8560,8 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【拳脚】\\n单次攻击造成0.4倍侠客功力的伤害，连续三次攻击，并有,33%几率释放回复1点行动力。"
     translated: "Attack Damage Category: Jianghu, Fist and Foot Techniques\\nEach attack deals 0.4 times the Wanderer's combat skill damage. Perform three consecutive attacks to have a 33% chance to recover 1 action points."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Power,功力,"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -8953,6 +9441,8 @@
   - splitPath: Desc
     text: "攻击（0.3倍）\\n增伤（9倍百戏）"
     translated: "Attack (0.3x)\\nCritical Damage Boost (9x Wuxia Style)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "火焰刀"
     translated: "Blade of Flame"
@@ -9538,6 +10028,8 @@
   - splitPath: Desc
     text: "攻击（0.2倍）\\n增伤（6倍儒学）"
     translated: "Attack (0.2x)\\nCritical Damage (+6x Confucianism)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: EchoName
     text: "万卷剑诀"
     translated: "Ten Thousand Volumes of Sword Art"
@@ -11737,6 +12229,8 @@
   - splitPath: Desc
     text: "攻击（9倍百戏）\\n失神<33%>"
     translated: "Attack (9 times Hundred Entertainments)\\nConfused <33%>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "三昧真火"
     translated: "True One‑flamed Zen Fire"
@@ -11752,6 +12246,8 @@
   - splitPath: Desc
     text: "攻击（24倍百戏）"
     translated: "Attack (24 times Hundred Performance Arts)"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: EchoName
     text: "斩仙飞刀"
     translated: "Savage Dao Flying Blade"

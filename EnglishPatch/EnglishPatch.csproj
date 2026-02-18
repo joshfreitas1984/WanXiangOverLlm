@@ -35,9 +35,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\wanxiang\wanxiang\WXQXZ_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <!--<Reference Include="UnityEngine.UI">
+    <Reference Include="UnityEngine.UI">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\wanxiang\wanxiang\WXQXZ_Data\Managed\UnityEngine.UI.dll</HintPath>
-    </Reference>-->
+    </Reference>
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">

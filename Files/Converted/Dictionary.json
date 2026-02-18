@@ -471,7 +471,7 @@
   splits:
   - splitPath: Dictionary
     text: "名字最多四个字"
-    translated: "The name should have at most four characters."
+    translated: "The name should have at most 20 characters."
 - raw: "{\r\n    \"Key\": 73,\r\n    \"DictionaryFinal\": \"放棄本場戰鬥可能進入結局，確定要放棄嗎？\",\r\n    \"Dictionary\": \"放弃本场战斗可能进入结局，确定要放弃吗？\",\r\n    \"DictionaryTw\": \"放棄本場戰鬥可能進入結局，確定要放棄嗎？\"\r\n  }"
   rawIndex: 73
   splits:
@@ -574,6 +574,8 @@
   - splitPath: Dictionary
     text: "战术数量已达上限"
     translated: "The number of tactics has reached the maximum limit."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
 - raw: "{\r\n    \"Key\": 94,\r\n    \"DictionaryFinal\": \"粉碎陰謀 {0}\",\r\n    \"Dictionary\": \"粉碎阴谋 {0}\",\r\n    \"DictionaryTw\": \"粉碎陰謀 {0}\"\r\n  }"
   rawIndex: 94
   splits:
@@ -1174,6 +1176,8 @@
   - splitPath: Dictionary
     text: "御兽"
     translated: "Domestication of beasts"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 2010,\r\n    \"DescFinal\": \"武功型別\",\r\n    \"DictionaryFinal\": \"異獸\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"异兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"異獸\"\r\n  }"
   rawIndex: 2010
   splits:
@@ -1459,6 +1463,8 @@
   - splitPath: Desc
     text: "赌术入门（≥40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
     translated: "Poker Mastery (≥40) unlocked. When you roll a Pair, the base score increases to 200 points, but Pair cannot exempt you from the Calamity."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gambling,赌术,"
   - splitPath: Dictionary
     text: "锦上添花"
     translated: "Adding insult to injury"
@@ -1468,6 +1474,8 @@
   - splitPath: Desc
     text: "赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
     translated: "Skilled in Dice Tricks (≥80) unlocked. When rolling ordinary combinations (not pairs, sequences, or triplets), score the points based on the combination's value multiplied by 15."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gambling,赌术,"
   - splitPath: Dictionary
     text: "返璞归真"
     translated: "Return to simplicity"

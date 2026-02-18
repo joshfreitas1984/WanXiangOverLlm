@@ -1,5 +1,4 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using Translate.Utility;
 
 
@@ -26,6 +25,9 @@ public class InputFileHandling
         FileInfo[] files = dir.GetFiles();
         foreach (FileInfo file in files)
         {
+            if (!file.FullName.EndsWith("json"))
+                continue;
+
             var foundLines = new List<TranslationLine>();
 
             // 1. Open the file as json - it is an array of objects with Key property and string properties
@@ -142,4 +144,117 @@ public class InputFileHandling
             await Task.CompletedTask;
         });
     }
+
+    public static void ExportDumpedPrefabToCustomFormat(string workingDirectory)
+    {
+        string inputPath = $"{workingDirectory}/Raw/ExportedText";
+        string outputPath = $"{workingDirectory}/Raw/Export";
+
+        if (!Directory.Exists(outputPath))
+            Directory.CreateDirectory(outputPath);
+
+        var serializer = Yaml.CreateSerializer();
+        var pattern = LineValidation.ChineseCharPattern;
+
+        var dir = new DirectoryInfo(inputPath);
+        FileInfo[] files = dir.GetFiles();
+        foreach (FileInfo file in files)
+        {
+            var foundLines = new List<TranslationLine>();
+            var lines = File.ReadAllLines(file.FullName);
+            var lineIncrement = 0;
+
+            foreach (var line in lines)
+            {
+                lineIncrement++;
+                var splits = new string[] { line };
+                var foundSplits = new List<TranslationSplit>();
+
+                // Default to line number when it doesnt have line number in split
+                if (!long.TryParse(splits[0], out long lineNum))
+                    lineNum = lineIncrement;
+
+                // Find Chinese
+                for (int i = 0; i < splits.Length; i++)
+                {
+                    if (Regex.IsMatch(splits[i], pattern))
+                    {
+                        foundSplits.Add(new TranslationSplit()
+                        {
+                            Split = i,
+                            Text = splits[i],
+                        });
+                    }
+                }
+
+                //The translation line
+                foundLines.Add(new TranslationLine()
+                {
+                    //LineNum = lineNum,
+                    Raw = line,
+                    Splits = foundSplits,
+                });
+            }
+
+            // Write the found lines
+            var yaml = serializer.Serialize(foundLines);
+            File.WriteAllText($"{outputPath}/{file.Name}", yaml);
+        }
+    }
+
+    public static void ExportDynamicStringsToCustomFormat(string workingDirectory)
+    {
+        string inputFile = $"{workingDirectory}/Raw/Dumped/dynamicStrings.txt";
+        string outputFile = $"{workingDirectory}/Raw/Export/dynamicStrings.txt";
+
+        var serializer = Yaml.CreateSerializer();
+        var pattern = LineValidation.ChineseCharPattern;
+
+        var foundLines = new List<TranslationLine>();
+        var lines = File.ReadAllLines(inputFile);
+        var lineIncrement = 0;
+
+        foreach (var line in lines)
+        {
+            lineIncrement++;
+            var splits = line.Split(",");
+            var foundSplits = new List<TranslationSplit>();
+
+            // Default to line number when it doesnt have line number in split
+            if (!long.TryParse(splits[0], out long lineNum))
+                lineNum = lineIncrement;
+
+            // Find Chinese
+            for (int i = 0; i < splits.Length; i++)
+            {
+                if (Regex.IsMatch(splits[i], pattern))
+                {
+                    var cleaned = splits[i];
+                    if (cleaned.StartsWith('\"'))
+                        cleaned = cleaned[1..];
+                    if (cleaned.EndsWith('\"'))
+                        cleaned = cleaned[..^1];
+
+                    foundSplits.Add(new TranslationSplit()
+                    {
+                        Split = i,
+                        Text = cleaned,
+                    });
+                }
+            }
+
+            //The translation line
+            foundLines.Add(new TranslationLine()
+            {
+                //LineNum = lineNum,
+                Raw = line,
+                Splits = foundSplits,
+            });
+        }
+
+        // Write the found lines
+        var yaml = serializer.Serialize(foundLines);
+        File.WriteAllText($"{outputFile}", yaml);
+    }
+
 }

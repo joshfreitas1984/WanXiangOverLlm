@@ -14,7 +14,19 @@ public class FileInputWorkflowTests
         InputFileHandling.ExportTextAssetsToCustomFormat(WorkingDirectory);
     }
 
-    [Fact(DisplayName = "2. MergeFilesIntoTranslated")]
+    [Fact(DisplayName = "2. ExportDumpedIntoTranslated")]
+    public void ExportDumpedIntoTranslated()
+    {
+        InputFileHandling.ExportDumpedPrefabToCustomFormat(WorkingDirectory);
+    }
+
+    [Fact(DisplayName = "2. ExportDumpedDyanmicIntoTranslated")]
+    public void ExportDumpedDyanmicIntoTranslated()
+    {
+        InputFileHandling.ExportDynamicStringsToCustomFormat(WorkingDirectory);
+    }
+
+    [Fact(DisplayName = "3. MergeFilesIntoTranslated")]
     public async Task MergeFilesIntoTranslated()
     {
         await InputFileHandling.MergeFilesIntoTranslatedAsync(WorkingDirectory);

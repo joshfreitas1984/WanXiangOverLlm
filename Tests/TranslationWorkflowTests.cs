@@ -105,6 +105,14 @@ public class TranslationWorkflowTests
                         continue;
                     }
 
+                    //Unsafe Dynamics
+                    if (split.SafeToTranslate && line.Raw.Contains("GameTools"))
+                    {
+                        split.SafeToTranslate = false;
+                        Interlocked.Increment(ref recordsModded);
+                        continue;
+                    }
+
                     if (UpdateSplitOptimized(logLines, newGlossaryStrings, compiledBadRegexes, split, textFile, config, chineseCharRegex, tokenReplacer))
                         Interlocked.Increment(ref recordsModded);
                 }

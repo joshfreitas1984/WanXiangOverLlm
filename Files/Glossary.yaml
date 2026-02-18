@@ -2852,6 +2852,13 @@
   result: Chaos Rock Stronghold Followers
   direct: Luan Shi Zhai Zhong
   literal: Chaotic Stone Village Group
+- raw: 乱石喽喽
+  rawSimplified: 乱石喽喽
+  rawTraditional: 亂石喽喽
+  result: Chaos Rock Lackey
+  badtrans: true
+  direct: chaotic stone low-level henchman
+  literal: luan shi lou lou
 - raw: 石重寶一眾
   rawSimplified: 石重宝一众
   rawTraditional: 石重寶一眾
@@ -3729,14 +3736,6 @@
   direct: heaven demon religion
   literal: tian mo jiao
 
-- raw: 恶人谷
-  rawSimplified: 恶人谷
-  rawTraditional: 惡人谷
-  result: Villains Valley
-  badtrans: true
-  direct: evil people valley
-  literal: e ren gu
-
 - raw: 伊贺流
   rawSimplified: 伊贺流
   rawTraditional: 伊賀流
@@ -3815,3 +3814,455 @@
   badtrans: true
   direct: azure flood dragon
   literal: qing jiao
+- raw: 魔侯
+  rawSimplified: 魔侯
+  rawTraditional: 魔侯
+  result: Demon Lord
+  badtrans: true
+  direct: demon marquis
+  literal: mo hou
+
+
+
+# Properties
+- raw: 行动次数
+  rawSimplified: 行动次数
+  rawTraditional: 行動次數
+  result: Action Count
+  badtrans: true
+  direct: act move times number
+  literal: xing dong ci shu
+  exclude: 
+    - EventDialog.json
+- raw: 行动力
+  rawSimplified: 行动力
+  rawTraditional: 行動力
+  result: Action Points
+  badtrans: true
+  direct: act move power
+  literal: xing dong li
+  exclude: 
+    - EventDialog.json
+- raw: 行动力上限
+  rawSimplified: 行动力上限
+  rawTraditional: 行動力上限
+  result: Maximum Action Points
+  badtrans: true
+  direct: act move power upper limit
+  literal: xing dong li shang xian
+  exclude: 
+    - EventDialog.json
+- raw: 江湖消息价格
+  rawSimplified: 江湖消息价格
+  rawTraditional: 江湖消息價格
+  result: Jianghu Info Cost
+  badtrans: true
+  direct: jianghu news price
+  literal: jianghu xiao xi jia ge
+  exclude: 
+    - EventDialog.json
+- raw: 灵活
+  rawSimplified: 灵活
+  rawTraditional: 靈活
+  result: Flexible # Could also be agility but we used it before
+  badtrans: true
+  direct: spirit quick
+  literal: ling huo
+  exclude: 
+    - EventDialog.json
+- raw: 好感
+  rawSimplified: 好感
+  rawTraditional: 好感
+  result: Affection
+  badtrans: true
+  direct: good feeling
+  literal: hao gan
+  exclude: 
+    - EventDialog.json
+- raw: 友好
+  rawSimplified: 友好
+  rawTraditional: 友好
+  result: Friendship
+  badtrans: true
+  direct: friendly good
+  literal: you hao
+  exclude: 
+    - EventDialog.json
+- raw: 悬赏
+  rawSimplified: 悬赏
+  rawTraditional: 懸賞
+  result: Bounty
+  badtrans: true
+  direct: suspend reward
+  literal: xuan shang
+  exclude: 
+    - EventDialog.json
+- raw: 灯谜次数
+  rawSimplified: 灯谜次数
+  rawTraditional: 燈謎次數
+  result: Lantern Riddle Attempts
+  badtrans: true
+  direct: lantern riddle times number
+  literal: deng mi ci shu
+  exclude: 
+    - EventDialog.json
+- raw: 行侠仗义
+  rawSimplified: 行侠仗义
+  rawTraditional: 行俠仗義
+  result: Chivalrous Deeds
+  badtrans: true
+  direct: act hero uphold justice
+  literal: xing xia zhang yi
+  exclude: 
+    - EventDialog.json
+- raw: 卜卦次数
+  rawSimplified: 卜卦次数
+  rawTraditional: 卜卦次數
+  result: Divination Attempts
+  badtrans: true
+  direct: divination times number
+  literal: bu gua ci
+  exclude: 
+    - EventDialog.json
+- raw: 小校获胜
+  rawSimplified: 小校获胜
+  rawTraditional: 小校獲勝
+  result: Minor Officer Victory
+  badtrans: true
+  direct: small officer obtain victory
+  literal: xiao xiao huo sheng
+  exclude: 
+    - EventDialog.json
+- raw: 金疮秘药
+  rawSimplified: 金疮秘药
+  rawTraditional: 金瘡秘藥
+  result: Golden Wound Secret Potion
+  badtrans: true
+  direct: gold wound secret medicine
+  literal: jin chuang mi yao
+  exclude: 
+    - EventDialog.json
+- raw: 帮助日游
+  rawSimplified: 帮助日游
+  rawTraditional: 幫助日遊
+  result: Assist Daily Routines
+  badtrans: true
+  direct: help day wander
+  literal: bang zhu ri you
+  exclude: 
+    - EventDialog.json
+- raw: 帮助夜游
+  rawSimplified: 帮助夜游
+  rawTraditional: 幫助夜遊
+  result: Assist Nightly Routines
+  badtrans: true
+  direct: help night wander
+  literal: bang zhu ye you
+  exclude: 
+    - EventDialog.json
+- raw: 丹术
+  rawSimplified: 丹术
+  rawTraditional: 丹術
+  result: Alchemy
+  badtrans: true
+  direct: elixir technique
+  literal: dan shu
+  exclude: 
+    - EventDialog.json
+- raw: 赌术
+  rawSimplified: 赌术
+  rawTraditional: 賭術
+  result: Gambling
+  badtrans: true
+  direct: gamble technique
+  literal: du shu
+  exclude: 
+    - EventDialog.json
+- raw: 幻术
+  rawSimplified: 幻术
+  rawTraditional: 幻術
+  result: Illusion
+  badtrans: true
+  direct: illusion technique
+  literal: huan shu
+  exclude: 
+    - EventDialog.json
+- raw: 鉴赏
+  rawSimplified: 鉴赏
+  rawTraditional: 鑒賞
+  result: Appraisal
+  badtrans: true
+  direct: examine appreciate
+  literal: jian shang
+  exclude: 
+    - EventDialog.json
+- raw: 御兽
+  rawSimplified: 御兽
+  rawTraditional: 御獸
+  result: Beast Taming
+  badtrans: true
+  direct: control beast
+  literal: yu shou
+  exclude: 
+    - EventDialog.json
+- raw: 丹青
+  rawSimplified: 丹青
+  rawTraditional: 丹青
+  result: Painting
+  badtrans: true
+  direct: cinnabar blue
+  literal: dan qing
+  exclude: 
+    - EventDialog.json
+- raw: 翰墨
+  rawSimplified: 翰墨
+  rawTraditional: 翰墨
+  result: Calligraphy
+  badtrans: true
+  direct: brush ink
+  literal: han mo
+  exclude: 
+    - EventDialog.json
+- raw: 弈理
+  rawSimplified: 弈理
+  rawTraditional: 弈理
+  result: Strategy
+  badtrans: true
+  direct: board game principle
+  literal: yi li
+  exclude: 
+    - EventDialog.json
+- raw: 音律
+  rawSimplified: 音律
+  rawTraditional: 音律
+  result: Music Theory
+  badtrans: true
+  direct: sound rhythm
+  literal: yin lv
+  exclude: 
+    - EventDialog.json
+- raw: 百戏
+  rawSimplified: 百戏
+  rawTraditional: 百戲
+  result: Variety Arts
+  badtrans: true
+  direct: hundred entertainments
+  literal: bai xi
+  exclude: 
+    - EventDialog.json
+- raw: 火器
+  rawSimplified: 火器
+  rawTraditional: 火器
+  result: Firearms
+  badtrans: true
+  direct: fire weapon
+  literal: huo qi
+  exclude: 
+    - EventDialog.json
+- raw: 厨艺
+  rawSimplified: 厨艺
+  rawTraditional: 廚藝
+  result: Cooking
+  badtrans: true
+  direct: kitchen art
+  literal: chu yi
+  exclude: 
+    - EventDialog.json
+- raw: 茶道
+  rawSimplified: 茶道
+  rawTraditional: 茶道
+  result: Tea Art
+  badtrans: true
+  direct: tea way
+  literal: cha dao
+  exclude: 
+    - EventDialog.json
+- raw: 酒道
+  rawSimplified: 酒道
+  rawTraditional: 酒道
+  result: Drinking Art
+  badtrans: true
+  direct: alcohol way
+  literal: jiu dao
+  exclude: 
+    - EventDialog.json
+- raw: 道学
+  rawSimplified: 道学
+  rawTraditional: 道學
+  result: Daoist Studies
+  badtrans: true
+  direct: dao learning
+  literal: dao xue
+  exclude: 
+    - EventDialog.json
+- raw: 佛学
+  rawSimplified: 佛学
+  rawTraditional: 佛學
+  result: Buddhist Studies
+  badtrans: true
+  direct: Buddha learning
+  literal: fo xue
+  exclude: 
+    - EventDialog.json
+- raw: 儒学
+  rawSimplified: 儒学
+  rawTraditional: 儒學
+  result: Confucian Studies
+  badtrans: true
+  direct: Confucian learning
+  literal: ru xue
+  exclude: 
+    - EventDialog.json
+- raw: 术数
+  rawSimplified: 术数
+  rawTraditional: 術數
+  result: Divination
+  badtrans: true
+  direct: technique numbers
+  literal: shu shu
+  exclude: 
+    - EventDialog.json
+- raw: 毒术
+  rawSimplified: 毒术
+  rawTraditional: 毒術
+  result: Poison
+  badtrans: true
+  direct: poison technique
+  literal: du shu
+  exclude: 
+    - EventDialog.json
+- raw: 医术
+  rawSimplified: 医术
+  rawTraditional: 醫術
+  result: Medicine
+  badtrans: true
+  direct: medicine technique
+  literal: yi shu
+  exclude: 
+    - EventDialog.json
+- raw: 角色技能数量
+  rawSimplified: 角色技能数量
+  rawTraditional: 角色技能數量
+  result: Character Skill Count
+  badtrans: true
+  direct: role character skill number
+  literal: jue se ji neng shu liang
+  exclude: 
+    - EventDialog.json
+- raw: 角色卡数量
+  rawSimplified: 角色卡数量
+  rawTraditional: 角色卡數量
+  result: Character Card Count
+  badtrans: true
+  direct: role character card number
+  literal: jue se ka shu liang
+  exclude: 
+    - EventDialog.json
+- raw: 技能额外上限
+  rawSimplified: 技能额外上限
+  rawTraditional: 技能額外上限
+  result: Extra Skill Limit
+  badtrans: true
+  direct: skill additional upper limit
+  literal: ji neng e wai shang xian
+  exclude: 
+    - EventDialog.json
+- raw: 伤害百分比
+  rawSimplified: 伤害百分比
+  rawTraditional: 傷害百分比
+  result: Damage Percentage
+  badtrans: true
+  direct: harm percent ratio
+  literal: shang hai bai fen bi
+  exclude: 
+    - EventDialog.json
+- raw: 气血百分比
+  rawSimplified: 气血百分比
+  rawTraditional: 氣血百分比
+  result: Lifeforce Percentage
+  badtrans: true
+  direct: qi blood percent ratio
+  literal: qi xue bai fen bi
+  exclude: 
+    - EventDialog.json
+- raw: 赌坊人数
+  rawSimplified: 赌坊人数
+  rawTraditional: 賭坊人數
+  result: Gambling Den Occupancy
+  badtrans: true
+  direct: gambling house people number
+  literal: du fang ren shu
+  exclude: 
+    - EventDialog.json
+- raw: 功力
+  rawSimplified: 功力
+  rawTraditional: 功力
+  result: Power
+  badtrans: true
+  direct: skill power
+  literal: gong li
+  exclude: 
+    - EventDialog.json
+- raw: 功力判断
+  rawSimplified: 功力判断
+  rawTraditional: 功力判斷
+  result: Power Assessment
+  badtrans: true
+  direct: skill power judgment
+  literal: gong li pan duan
+  exclude: 
+    - EventDialog.json
+- raw: 气血判断
+  rawSimplified: 气血判断
+  rawTraditional: 氣血判斷
+  result: Lifeforce Assessment
+  badtrans: true
+  direct: qi blood judgment
+  literal: qi xue pan duan
+  exclude: 
+    - EventDialog.json
+- raw: 道德
+  rawSimplified: 道德
+  rawTraditional: 道德
+  result: Morality
+  badtrans: true
+  direct: dao virtue
+  literal: dao de
+  exclude: 
+    - EventDialog.json
+- raw: 财富
+  rawSimplified: 财富
+  rawTraditional: 財富
+  result: Wealth
+  badtrans: true
+  direct: wealth treasure
+  literal: cai fu
+  exclude: 
+    - EventDialog.json
+- raw: 贡献
+  rawSimplified: 贡献
+  rawTraditional: 貢獻
+  result: Contribution
+  badtrans: true
+  direct: offer present
+  literal: gong xian
+  exclude: 
+    - EventDialog.json
+- raw: 福缘
+  rawSimplified: 福缘
+  rawTraditional: 福緣
+  result: Luck
+  badtrans: true
+  direct: blessing fate
+  literal: fu yuan
+  exclude: 
+    - EventDialog.json
+- raw: 悟性
+  rawSimplified: 悟性
+  rawTraditional: 悟性
+  result: Insight
+  badtrans: true
+  direct: enlightenment nature
+  literal: wu xing
+  exclude: 
+    - EventDialog.json

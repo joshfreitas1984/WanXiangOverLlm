@@ -10,12 +10,16 @@
   - splitPath: Desc
     text: "医术达到宗师解锁"
     translated: "Medical skills reach Master level unlock"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 901003,\r\n    \"NameFinal\": \"術數宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"術數達到宗師解鎖\",\r\n    \"Name\": \"术数宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"术数达到宗师解锁\",\r\n    \"NameTw\": \"術數宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"術數達到宗師解鎖\"\r\n  }"
   rawIndex: 901003
   splits:
   - splitPath: Name
     text: "术数宗师"
     translated: "Oracle Master"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Divination,术数,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
@@ -28,24 +32,32 @@
   - splitPath: Name
     text: "儒学宗师"
     translated: "Confucian Scholar‑Master"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
   - splitPath: Desc
     text: "儒学达到宗师解锁"
     translated: "Confucianism reaches Master Level unlocking"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
 - raw: "{\r\n    \"Key\": 901006,\r\n    \"NameFinal\": \"道學宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"道學達到宗師解鎖\",\r\n    \"Name\": \"道学宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"道学达到宗师解锁\",\r\n    \"NameTw\": \"道學宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"道學達到宗師解鎖\"\r\n  }"
   rawIndex: 901006
   splits:
   - splitPath: Name
     text: "道学宗师"
     translated: "Daoist Sage Master"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
   - splitPath: Desc
     text: "道学达到宗师解锁"
     translated: "Master level achievement in Dao cultivation unlocked"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
 - raw: "{\r\n    \"Key\": 901009,\r\n    \"NameFinal\": \"火器宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"火器達到宗師解鎖\",\r\n    \"Name\": \"火器宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"火器达到宗师解锁\",\r\n    \"NameTw\": \"火器宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"火器達到宗師解鎖\"\r\n  }"
   rawIndex: 901009
   splits:
@@ -64,18 +76,24 @@
   - splitPath: Name
     text: "百戏宗师"
     translated: "Master of a Hundred Performances"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
   - splitPath: Desc
     text: "百戏达到宗师解锁"
     translated: "Master unlock for Hundred Arts achieved"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,"
 - raw: "{\r\n    \"Key\": 901011,\r\n    \"NameFinal\": \"廚藝宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"廚藝達到宗師解鎖\",\r\n    \"Name\": \"厨艺宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"厨艺达到宗师解锁\",\r\n    \"NameTw\": \"廚藝宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"廚藝達到宗師解鎖\"\r\n  }"
   rawIndex: 901011
   splits:
   - splitPath: Name
     text: "厨艺宗师"
     translated: "Master Chef"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
@@ -88,6 +106,8 @@
   - splitPath: Name
     text: "翰墨宗师"
     translated: "Calligrapher Master"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
@@ -106,6 +126,8 @@
   - splitPath: Desc
     text: "御兽达到宗师解锁"
     translated: "Mastering the Beast Master level unlocks this ability."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,"
 - raw: "{\r\n    \"Key\": 901019,\r\n    \"NameFinal\": \"賭術宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"賭術達到宗師解鎖\",\r\n    \"Name\": \"赌术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"赌术达到宗师解锁\",\r\n    \"NameTw\": \"賭術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"賭術達到宗師解鎖\"\r\n  }"
   rawIndex: 901019
   splits:
@@ -118,12 +140,16 @@
   - splitPath: Desc
     text: "赌术达到宗师解锁"
     translated: "Poker skills unlock Mastery level"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gambling,赌术,"
 - raw: "{\r\n    \"Key\": 901020,\r\n    \"NameFinal\": \"丹術宗師\",\r\n    \"TypeTextFinal\": \"技藝結局\",\r\n    \"DescFinal\": \"丹術達到宗師解鎖\",\r\n    \"Name\": \"丹术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"丹术达到宗师解锁\",\r\n    \"NameTw\": \"丹術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"丹術達到宗師解鎖\"\r\n  }"
   rawIndex: 901020
   splits:
   - splitPath: Name
     text: "丹术宗师"
     translated: "Elixir Art Master"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Alchemy,丹术,"
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"

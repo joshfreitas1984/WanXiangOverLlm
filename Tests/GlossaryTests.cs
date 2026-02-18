@@ -35,7 +35,7 @@ public class GlossaryTests
         }
         var serializer = Yaml.CreateSerializer();
         var yaml = serializer.Serialize(config.GlossaryLines);
-        File.WriteAllText($"{workingDirectory}/TestResults/UpdatedGlossary.yaml", yaml);
+        File.WriteAllText($"{workingDirectory}/TestResults/Glossary/UpdatedGlossary.yaml", yaml);
     }
 
     [Fact]
@@ -62,7 +62,7 @@ public class GlossaryTests
         }
 
         Directory.CreateDirectory($"{workingDirectory}/TestResults");
-        File.WriteAllLines($"{workingDirectory}/TestResults/DupeGlossary.yaml", duplicates);
+        File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/DupeGlossary.yaml", duplicates);
 
         // Check for entries in `raw` with similar `raw` but different `result` in config.GlossaryLines
         var similarEntries = new List<string>();
@@ -86,7 +86,7 @@ public class GlossaryTests
             }
         }
 
-        File.WriteAllLines($"{workingDirectory}/TestResults/SimilarGlossary.yaml", similarEntries);
+        File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/SimilarGlossary.yaml", similarEntries);
     }
 
     private static bool AreSimilar(string str1, string str2)
@@ -165,11 +165,11 @@ public class GlossaryTests
 
         if (badDupes.Count > 0)
         {
-            File.WriteAllLines($"{workingDirectory}/TestResults/DupeBadGlossary.yaml", badDupes);
+            File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/DupeBadGlossary.yaml", badDupes);
             throw new Exception($"Duplicate manual translations with different results found");
         }
 
-        File.WriteAllLines($"{workingDirectory}/TestResults/DupeGlossary.yaml", cleanMe);
+        File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/DupeGlossary.yaml", cleanMe);
 
         //var serializer = Yaml.CreateSerializer();
         //var clean = serializer.Serialize(cleanedManuals);
@@ -260,7 +260,7 @@ public class GlossaryTests
             }
         }
 
-        Directory.CreateDirectory($"{workingDirectory}/TestResults");
-        File.WriteAllLines($"{workingDirectory}/TestResults/ConflictingGlossary.yaml", conflicts);
+        Directory.CreateDirectory($"{workingDirectory}/TestResults/Glossary/");
+        File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/ConflictingGlossary.yaml", conflicts);
     }
 }

@@ -1,7 +1,9 @@
 ﻿using SharedAssembly.DynamicStrings;
+using System.Diagnostics.Contracts;
 using System.Text.RegularExpressions;
 using Translate;
 using Translate.Utility;
+using YamlDotNet.Serialization;
 
 public class FileOutputHandling
 {
@@ -14,7 +16,8 @@ public class FileOutputHandling
             Directory.Delete(outputPath, true);
 
         Directory.CreateDirectory(outputPath);
-        Directory.CreateDirectory($"{outputPath}/English");
+        string fileOutputPath = $"{outputPath}/English";
+        Directory.CreateDirectory(fileOutputPath);
 
         var finalDb = new List<string>();
         var passedCount = 0;
@@ -22,6 +25,79 @@ public class FileOutputHandling
 
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
+            if (textFileToTranslate.TextFileType == TextFileType.PrefabText)
+            {
+                var outputLines = new List<string>();
+
+                foreach (var line in fileLines)
+                {
+                    foreach (var split in line.Splits)
+                        if (!split.FlaggedForRetranslation && !(string.IsNullOrEmpty(split.Translated)))
+                            outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
+                        else if (!split.SafeToTranslate)
+                            continue; // Do not count failure
+                        else
+                            failedCount++;
+                }
+
+                File.WriteAllLines($"{fileOutputPath}/{textFileToTranslate.Path}", outputLines);
+                return;
+            }
+            else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
+            {
+                var serializer = Yaml.CreateSerializer();
+                var contracts = new List<DynamicStringContract>();
+
+                foreach (var line in fileLines)
+                {
+                    if (line.Splits.Count != 1)
+                    {
+                        failedCount++;
+                        continue;
+                    }
+
+                    // Do not package but dont count as failure
+                    if (!line.Splits[0].SafeToTranslate)
+                        continue;
+
+                    var lineRaw = line.Raw;
+                    var splits = lineRaw.Split(",");
+
+                    var lineTrans = line.Splits[0].Translated
+                        .Replace("，", ","); // Replace Wide quotes back
+
+                    if (splits.Length != 5
+                        || string.IsNullOrEmpty(lineTrans)
+                        || line.Splits[0].FlaggedForRetranslation)
+                    {
+                        failedCount++;
+                        continue;
+                    }
+
+                    string[] parameters = DynamicStringSupport.PrepareMethodParameters(splits[4]);
+
+                    var contract = new DynamicStringContract()
+                    {
+                        Type = splits[0],
+                        Method = splits[1],
+                        ILOffset = long.Parse(splits[2]),
+                        Raw = splits[3],
+                        Translation = lineTrans,
+                        Parameters = parameters
+                    };
+
+                    if (DynamicStringSupport.IsSafeContract(contract, false))
+                        contracts.Add(contract);
+                }
+
+                File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", serializer.Serialize(contracts));
+                passedCount += contracts.Count;
+
+                await Task.CompletedTask;
+                return;
+            }
+
+
             // Convert fileLines back into the original JSON array format
             var jsonArray = new List<Dictionary<string, object>>();
 
@@ -68,7 +144,7 @@ public class FileOutputHandling
             };
             var jsonContent = System.Text.Json.JsonSerializer.Serialize(jsonArray, jsonOptions);
 
-            File.WriteAllText($"{outputPath}/English/{textFileToTranslate.Path}", jsonContent);
+            File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", jsonContent);
 
             await Task.CompletedTask;
         });

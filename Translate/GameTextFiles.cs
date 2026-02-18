@@ -15,6 +15,9 @@ public class GameTextFiles
     ];
 
     public static readonly TextFileToSplit[] TextFilesToSplit = [
+        //new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
+        new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
+
         new() {Path = "Achievement.json", PackageOutput = true, },
         new() {Path = "Assist.json", PackageOutput = true, },
         new() {Path = "Audio.json", PackageOutput = true, },

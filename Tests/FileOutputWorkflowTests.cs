@@ -34,6 +34,9 @@ public class FileOutputWorkflowTests
         FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Mod/English", $"{releaseFolder}/EnglishPatch");
         FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Resizers", $"{releaseFolder}/BepInEx/resizers");
 
+        FileOutputHandling.CopyDirectory($"{GameFolder}/BepInEx/config", $"{releaseFolder}/BepInEx/config");
+        FileOutputHandling.CopyDirectory($"{GameFolder}/BepInEx/plugins", $"{releaseFolder}/BepInEx/plugins");
+
         ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
         await Task.CompletedTask;
     }

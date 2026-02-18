@@ -65,7 +65,7 @@ public class SupportTests
             await Task.WhenAll(tasks);
         }
 
-        File.WriteAllLines($"{workingDirectory}/TestResults/ExportNames.yaml", glossary);
+        File.WriteAllLines($"{workingDirectory}/TestResults/Export/Names.yaml", glossary);
     }
 
     [Fact]
@@ -121,6 +121,56 @@ public class SupportTests
             await Task.WhenAll(tasks);
         }
 
-        File.WriteAllLines($"{workingDirectory}/TestResults/ExportNames.yaml", glossary);
+        File.WriteAllLines($"{workingDirectory}/TestResults/Export/Sects.yaml", glossary);
+    }
+
+    [Fact]
+    public async Task GetProps()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory,
+            ""
+            //$"{workingDirectory}/TestResults"
+            );
+
+        var names = new List<(string, string)>();
+
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            if (textFileToTranslate.Path != "Property.json")
+                return;
+
+            foreach (var line in fileLines)
+            {
+                foreach (var split in line.Splits)
+                {
+                    if (split.SplitPath == "Name")
+                    {
+                        if (!names.Any(n => n.Item1 == split.Text))
+                            names.Add((split.Text, split.Translated));
+                    }
+                }
+
+            }
+
+            await Task.CompletedTask;
+        });
+
+        var client = new HttpClient();
+        var glossary = new List<string>();
+        int batchSize = 10;
+
+        for (int i = 0; i < names.Count; i += batchSize)
+        {
+            var batch = names.Skip(i).Take(batchSize).ToList();
+            var tasks = batch.Select(async (name) =>
+            {
+                glossary.Add($"- raw: {name.Item1}");
+                glossary.Add($"  result: {name.Item2}");
+            }).ToArray();
+
+            await Task.WhenAll(tasks);
+        }
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/Export/Property.yaml", glossary);
     }
 }

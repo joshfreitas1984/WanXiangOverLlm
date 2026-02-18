@@ -1147,9 +1147,13 @@
   - splitPath: GroupName
     text: "医术药理一"
     translated: "Medical pharmacology"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理一"
     translated: "Ji ‑ Medical Pharmacology"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 405200,\r\n    \"GroupNameFinal\": \"醫術藥理二\",\r\n    \"NameFinal\": \"基-醫術藥理二\",\r\n    \"GroupName\": \"医术药理二\",\r\n    \"Name\": \"基-医术药理二\",\r\n    \"GroupNameTw\": \"醫術藥理二\",\r\n    \"NameTw\": \"基-醫術藥理二\"\r\n  }"
   rawIndex: 405200
   splits:
@@ -1165,6 +1169,8 @@
   - splitPath: GroupName
     text: "医术药理三"
     translated: "Medical pharmacology three"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理三"
     translated: "Ji ‑ Master of Medicine and Pharmacology"
@@ -1174,15 +1180,21 @@
   - splitPath: GroupName
     text: "医术药理四"
     translated: "Four aspects of medical and pharmacological knowledge"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理四"
     translated: "Ji ‑ Medical and Pharmacological Knowledge Four"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 405500,\r\n    \"GroupNameFinal\": \"醫術藥理五\",\r\n    \"NameFinal\": \"基-醫術藥理五\",\r\n    \"GroupName\": \"医术药理五\",\r\n    \"Name\": \"基-医术药理五\",\r\n    \"GroupNameTw\": \"醫術藥理五\",\r\n    \"NameTw\": \"基-醫術藥理五\"\r\n  }"
   rawIndex: 405500
   splits:
   - splitPath: GroupName
     text: "医术药理五"
     translated: "Medical pharmacology five"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理五"
     translated: "Ji ‑ Medicine and Pharmacology Five"
@@ -1237,18 +1249,26 @@
   - splitPath: GroupName
     text: "百味厨艺二"
     translated: "Skillful Cook Two Hundred Flavors"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
   - splitPath: Name
     text: "百味厨艺二"
     translated: "Skillful Cook Two Hundred Flavors"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
 - raw: "{\r\n    \"Key\": 406200,\r\n    \"GroupNameFinal\": \"百味廚藝三\",\r\n    \"NameFinal\": \"百味廚藝三\",\r\n    \"GroupName\": \"百味厨艺三\",\r\n    \"Name\": \"百味厨艺三\",\r\n    \"GroupNameTw\": \"百味廚藝三\",\r\n    \"NameTw\": \"百味廚藝三\"\r\n  }"
   rawIndex: 406200
   splits:
   - splitPath: GroupName
     text: "百味厨艺三"
     translated: "Three Flavors of Culinary Mastery"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
   - splitPath: Name
     text: "百味厨艺三"
     translated: "Three Flavors of Culinary Mastery"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
 - raw: "{\r\n    \"Key\": 500100,\r\n    \"GroupNameFinal\": \"初會霍連雲\",\r\n    \"NameFinal\": \"初會霍連雲\",\r\n    \"GroupName\": \"初会霍连云\",\r\n    \"Name\": \"初会霍连云\",\r\n    \"GroupNameTw\": \"初會霍連雲\",\r\n    \"NameTw\": \"初會霍連雲\"\r\n  }"
   rawIndex: 500100
   splits:
@@ -4504,6 +4524,8 @@
   - splitPath: Name
     text: "魔侯战斗"
     translated: "Mage Lord's Battle"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 906900,\r\n    \"GroupNameFinal\": \"天魔伐衡山\",\r\n    \"NameFinal\": \"戰勝魔侯\",\r\n    \"GroupName\": \"天魔伐衡山\",\r\n    \"Name\": \"战胜魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐衡山，你在守卫衡山之役中，击败“魔侯”任苍溟，此后正派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔侯”下落，一年之后，万轻舟将掌门之位传与你，和两位师兄江化渚、柏成柯携手归隐，一个新的衡山时代将由你来缔造。\\\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>\",\r\n    \"GroupNameTw\": \"天魔伐衡山\",\r\n    \"NameTw\": \"戰勝魔侯\"\r\n  }"
   rawIndex: 906900
   splits:
@@ -4513,9 +4535,13 @@
   - splitPath: Name
     text: "战胜魔侯"
     translated: "Defeat the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐衡山，你在守卫衡山之役中，击败“魔侯”任苍溟，此后正派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔侯”下落，一年之后，万轻舟将掌门之位传与你，和两位师兄江化渚、柏成柯携手归隐，一个新的衡山时代将由你来缔造。\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>"
     translated: "The Heavenly Demon Sect has launched an assault on Hengshan. During the defense of Hengshan, you defeated the Demon Overlord Ren Cangming. Following this, the righteous factions united and thoroughly eradicated the Heavenly Demon Sect's influence in Jianghu. Unfortunately, they ultimately failed to locate the whereabouts of the Demon Overlord. A year later, Wan Qingzhou passed on the position of Sect Leader to you and your two senior brothers, Jiang Huazhu and Bai Chengke, as you all retired together. It is up to you to establish a new era for Hengshan.\\n<color=#FF0000>Because not all of the righteous sects were saved in the Pillar of Judgment, a perfect ending cannot be achieved.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 907000,\r\n    \"GroupNameFinal\": \"天魔伐衡山\",\r\n    \"NameFinal\": \"完勝魔侯\",\r\n    \"GroupName\": \"天魔伐衡山\",\r\n    \"Name\": \"完胜魔侯\",\r\n    \"GroupNameTw\": \"天魔伐衡山\",\r\n    \"NameTw\": \"完勝魔侯\"\r\n  }"
   rawIndex: 907000
   splits:
@@ -4525,6 +4551,8 @@
   - splitPath: Name
     text: "完胜魔侯"
     translated: "Defeat the Demon Overlord Easily"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 907100,\r\n    \"GroupNameFinal\": \"天魔伐衡山\",\r\n    \"NameFinal\": \"不敵魔侯\",\r\n    \"GroupName\": \"天魔伐衡山\",\r\n    \"Name\": \"不敌魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐衡山，你在守卫衡山之役中，死于天魔教教主“魔侯”任苍溟之手，是日，衡山覆灭，一众衡山门人尽数命丧于于此，此后，天魔教携此大胜之势威压江湖各派，称霸武林。\",\r\n    \"GroupNameTw\": \"天魔伐衡山\",\r\n    \"NameTw\": \"不敵魔侯\"\r\n  }"
   rawIndex: 907100
   splits:
@@ -4534,6 +4562,8 @@
   - splitPath: Name
     text: "不敌魔侯"
     translated: "Defeated by the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐衡山，你在守卫衡山之役中，死于天魔教教主“魔侯”任苍溟之手，是日，衡山覆灭，一众衡山门人尽数命丧于于此，此后，天魔教携此大胜之势威压江湖各派，称霸武林。"
     translated: "The Heavenly Demon Sect laid siege to Mount Heng. In the battle to defend Mount Heng, you perished at the hands of the Heavenly Demon Sect's leader, Demon Lord Ren Cangming. On that day, Mount Heng fell, and all its disciples met their end there. Following this, the Heavenly Demon Sect, riding high on their great victory, intimidated the various sects in Jianghu, dominating the Wulin."
@@ -4735,6 +4765,8 @@
   - splitPath: Name
     text: "冬课选儒学"
     translated: "Winter course chooses Confucianism"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Confucian Studies,儒学,"
 - raw: "{\r\n    \"Key\": 910003,\r\n    \"GroupNameFinal\": \"冬學何所願\",\r\n    \"NameFinal\": \"冬課選火器\",\r\n    \"GroupName\": \"冬学何所愿\",\r\n    \"Name\": \"冬课选火器\",\r\n    \"GroupNameTw\": \"冬學何所願\",\r\n    \"NameTw\": \"冬課選火器\"\r\n  }"
   rawIndex: 910003
   splits:
@@ -4753,6 +4785,8 @@
   - splitPath: Name
     text: "冬课选医术"
     translated: "Winter course choosing medical technique"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 910005,\r\n    \"GroupNameFinal\": \"冬學何所願\",\r\n    \"NameFinal\": \"冬課選廚藝\",\r\n    \"GroupName\": \"冬学何所愿\",\r\n    \"Name\": \"冬课选厨艺\",\r\n    \"GroupNameTw\": \"冬學何所願\",\r\n    \"NameTw\": \"冬課選廚藝\"\r\n  }"
   rawIndex: 910005
   splits:
@@ -4762,6 +4796,8 @@
   - splitPath: Name
     text: "冬课选厨艺"
     translated: "Winter course chooses culinary arts"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Cooking,厨艺,"
 - raw: "{\r\n    \"Key\": 910100,\r\n    \"GroupNameFinal\": \"百味開冬學\",\r\n    \"NameFinal\": \"百味開冬學\",\r\n    \"GroupName\": \"百味开冬学\",\r\n    \"Name\": \"百味开冬学\",\r\n    \"GroupNameTw\": \"百味開冬學\",\r\n    \"NameTw\": \"百味開冬學\"\r\n  }"
   rawIndex: 910100
   splits:
@@ -7486,6 +7522,8 @@
   - splitPath: Name
     text: "医术救君子"
     translated: "Healing saves gentlemen"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 1601100,\r\n    \"GroupNameFinal\": \"毒士害君子\",\r\n    \"NameFinal\": \"聲名發感慨\",\r\n    \"GroupName\": \"毒士害君子\",\r\n    \"Name\": \"声名发感慨\",\r\n    \"GroupNameTw\": \"毒士害君子\",\r\n    \"NameTw\": \"聲名發感慨\"\r\n  }"
   rawIndex: 1601100
   splits:
@@ -11560,6 +11598,8 @@
   - splitPath: GroupName
     text: "贡献老树根"
     translated: "Contribute old tree roots"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: Name
     text: "神农赤赭鞭"
     translated: "Divine Farmer's Red Ox Whip"
@@ -11569,9 +11609,13 @@
   - splitPath: GroupName
     text: "贡献老树根"
     translated: "Contribute old tree roots"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
   - splitPath: Name
     text: "贡献老树根"
     translated: "Contribute old tree roots"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Contribution,贡献,"
 - raw: "{\r\n    \"Key\": 2600700,\r\n    \"GroupNameFinal\": \"連翹兒三願\",\r\n    \"NameFinal\": \"連翹兒三願\",\r\n    \"GroupName\": \"连翘儿三愿\",\r\n    \"Name\": \"连翘儿三愿\",\r\n    \"GroupNameTw\": \"連翹兒三願\",\r\n    \"NameTw\": \"連翹兒三願\"\r\n  }"
   rawIndex: 2600700
   splits:
@@ -11596,9 +11640,13 @@
   - splitPath: GroupName
     text: "医术药理一"
     translated: "Medical pharmacology"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理一"
     translated: "Ji ‑ Medical Pharmacology"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 2690200,\r\n    \"GroupNameFinal\": \"醫術藥理二\",\r\n    \"NameFinal\": \"基-醫術藥理二\",\r\n    \"GroupName\": \"医术药理二\",\r\n    \"Name\": \"基-医术药理二\",\r\n    \"GroupNameTw\": \"醫術藥理二\",\r\n    \"NameTw\": \"基-醫術藥理二\"\r\n  }"
   rawIndex: 2690200
   splits:
@@ -11614,6 +11662,8 @@
   - splitPath: GroupName
     text: "医术药理三"
     translated: "Medical pharmacology three"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理三"
     translated: "Ji ‑ Master of Medicine and Pharmacology"
@@ -11623,15 +11673,21 @@
   - splitPath: GroupName
     text: "医术药理四"
     translated: "Four aspects of medical and pharmacological knowledge"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理四"
     translated: "Ji ‑ Medical and Pharmacological Knowledge Four"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
 - raw: "{\r\n    \"Key\": 2690500,\r\n    \"GroupNameFinal\": \"醫術藥理五\",\r\n    \"NameFinal\": \"基-醫術藥理五\",\r\n    \"GroupName\": \"医术药理五\",\r\n    \"Name\": \"基-医术药理五\",\r\n    \"GroupNameTw\": \"醫術藥理五\",\r\n    \"NameTw\": \"基-醫術藥理五\"\r\n  }"
   rawIndex: 2690500
   splits:
   - splitPath: GroupName
     text: "医术药理五"
     translated: "Medical pharmacology five"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Medicine,医术,"
   - splitPath: Name
     text: "基-医术药理五"
     translated: "Ji ‑ Medicine and Pharmacology Five"
@@ -12103,6 +12159,8 @@
   - splitPath: Name
     text: "魔侯战斗"
     translated: "Mage Lord's Battle"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 3008600,\r\n    \"GroupNameFinal\": \"天魔伐武當\",\r\n    \"NameFinal\": \"戰勝魔侯\",\r\n    \"GroupName\": \"天魔伐武当\",\r\n    \"Name\": \"战胜魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐武当，你在守卫武当之役中，击败“魔侯”任苍溟，此后正派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔侯”下落，一年之后，你功力大增，破关而出，辞别同门师长，携着红颜好友，行侠仗义游历江湖，武当派也因你之名在江湖中声望更隆。\\\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>\",\r\n    \"GroupNameTw\": \"天魔伐武當\",\r\n    \"NameTw\": \"戰勝魔侯\"\r\n  }"
   rawIndex: 3008600
   splits:
@@ -12112,9 +12170,13 @@
   - splitPath: Name
     text: "战胜魔侯"
     translated: "Defeat the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐武当，你在守卫武当之役中，击败“魔侯”任苍溟，此后正派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔侯”下落，一年之后，你功力大增，破关而出，辞别同门师长，携着红颜好友，行侠仗义游历江湖，武当派也因你之名在江湖中声望更隆。\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>"
     translated: "The Heavenly Demon Sect has been besieging Wudang. During the battle to defend Wudang, you defeated Demon Lord Ren Cangming. Following this, the righteous sects joined forces and successfully eradicated the Heavenly Demon Sect's influence in the Jianghu. Unfortunately, they ultimately failed to locate the whereabouts of the Demon Lord. A year later, your skills had greatly increased as you broke through a seal and departed from your fellow disciples and mentors. You set off with your fair companion to travel the Jianghu, righting wrongs and helping those in need. The Wudang Sect gained even higher prestige among the Jianghu due to your reputation.\\n<color=#FF0000>Since we failed to save all of the righteous factions in the Calamity Mist Valley, we cannot achieve a perfect ending.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Chivalrous Deeds,行侠仗义,Power,功力,"
 - raw: "{\r\n    \"Key\": 3008000,\r\n    \"GroupNameFinal\": \"天魔伐武當\",\r\n    \"NameFinal\": \"完勝魔侯\",\r\n    \"GroupName\": \"天魔伐武当\",\r\n    \"Name\": \"完胜魔侯\",\r\n    \"GroupNameTw\": \"天魔伐武當\",\r\n    \"NameTw\": \"完勝魔侯\"\r\n  }"
   rawIndex: 3008000
   splits:
@@ -12124,6 +12186,8 @@
   - splitPath: Name
     text: "完胜魔侯"
     translated: "Defeat the Demon Overlord Easily"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 3008700,\r\n    \"GroupNameFinal\": \"天魔伐武當\",\r\n    \"NameFinal\": \"不敵魔侯\",\r\n    \"GroupName\": \"天魔伐武当\",\r\n    \"Name\": \"不敌魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐武当，你在守卫武当之役中，死于天魔教教主“魔侯”任苍溟之手，是日，武当与天魔教拼的两败俱伤，从此天魔教再次隐匿，武当也因大批门人命丧此役而一蹶不振。\",\r\n    \"GroupNameTw\": \"天魔伐武當\",\r\n    \"NameTw\": \"不敵魔侯\"\r\n  }"
   rawIndex: 3008700
   splits:
@@ -12133,6 +12197,8 @@
   - splitPath: Name
     text: "不敌魔侯"
     translated: "Defeated by the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐武当，你在守卫武当之役中，死于天魔教教主“魔侯”任苍溟之手，是日，武当与天魔教拼的两败俱伤，从此天魔教再次隐匿，武当也因大批门人命丧此役而一蹶不振。"
     translated: "The Heavenly Demon Sect launched an assault on Wudang. You fell in the defense of Wudang at the hands of the Heavenly Demon Sect's leader, Demon Lord Ren Cangming. On that day, Wudang and the Heavenly Demon Sect fought to their mutual destruction. From then on, the Heavenly Demon Sect once again went into hiding, while Wudang declined due to the loss of many disciples in this battle."
@@ -12274,6 +12340,8 @@
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临衡山，欲以势力压衡山臣服，你击败“商山四皓”令其悻悻而去。此后不久，宁王在于南昌府起势，汀赣巡抚王守仁仅用四十三天，便将叛乱平定，但宁王却于此乱中下落不明。一年之后，你功力大增，破关而出，辞别同门师长，携着红颜好友，行侠仗义游历江湖，武当派也因你之名在江湖中声望更隆。\\n<color=#FF0000>因没有成功救援洞庭、衡山两派，无法达成完美结局。</color>"
     translated: "Peaceful King Zhu Chenhao led his followers to ascend Mount Heng and sought to subdue it through force. You defeated the Four Elders of Shangshan, forcing him to depart in disappointment. Shortly after, the Peaceful King rose to power in Nanchang Prefecture. Wang Shouren, the Inspector of Tinggan, managed to quell the rebellion within just forty‑three days. However, Zhu Chenhao's whereabouts remained unknown during this chaos. A year later, your prowess had greatly increased as you broke through a barrier and left behind your fellow disciples and mentors. Accompanied by your red‑haired companion, you roamed the Jianghu, upholding justice and righteousness. The reputation of the Wudang Sect soared due to your renown in these adventures.\\n<color=#FF0000>Because we failed to rescue the Dongting and Hengshan factions successfully, we cannot achieve a perfect ending.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Chivalrous Deeds,行侠仗义,"
 - raw: "{\r\n    \"Key\": 3010600,\r\n    \"GroupNameFinal\": \"寧王臨武當\",\r\n    \"NameFinal\": \"四象戰失敗\",\r\n    \"GroupName\": \"宁王临武当\",\r\n    \"Name\": \"四象战失败\",\r\n    \"SummaryDesc\": \"“宁王”朱宸濠率众登临武当，欲以势力压武当臣服，你为守卫武当威严，死于宁王府供奉“商山四皓”的四象阵中。\",\r\n    \"GroupNameTw\": \"寧王臨武當\",\r\n    \"NameTw\": \"四象戰失敗\"\r\n  }"
   rawIndex: 3010600
   splits:
@@ -13312,36 +13380,52 @@
   - splitPath: GroupName
     text: "道学道德经"
     translated: "Daoist Tao Te Ching"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,Morality,道德,"
   - splitPath: Name
     text: "基-道学道德经"
     translated: "Daoist Tao Te Ching"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,Morality,道德,"
 - raw: "{\r\n    \"Key\": 3490200,\r\n    \"GroupNameFinal\": \"道學太平經\",\r\n    \"NameFinal\": \"基-道學太平經\",\r\n    \"GroupName\": \"道学太平经\",\r\n    \"Name\": \"基-道学太平经\",\r\n    \"GroupNameTw\": \"道學太平經\",\r\n    \"NameTw\": \"基-道學太平經\"\r\n  }"
   rawIndex: 3490200
   splits:
   - splitPath: GroupName
     text: "道学太平经"
     translated: "Way of Peace from the Great Harmony Teaching"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: Name
     text: "基-道学太平经"
     translated: "Ji‑Dao School of Peaceful Harmony"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
 - raw: "{\r\n    \"Key\": 3490300,\r\n    \"GroupNameFinal\": \"道學清靜經\",\r\n    \"NameFinal\": \"基-道學清靜經\",\r\n    \"GroupName\": \"道学清静经\",\r\n    \"Name\": \"基-道学清静经\",\r\n    \"GroupNameTw\": \"道學清靜經\",\r\n    \"NameTw\": \"基-道學清靜經\"\r\n  }"
   rawIndex: 3490300
   splits:
   - splitPath: GroupName
     text: "道学清静经"
     translated: "Classic of Purity and Tranquility"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: Name
     text: "基-道学清静经"
     translated: "Daoist Purity Classic"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
 - raw: "{\r\n    \"Key\": 3490400,\r\n    \"GroupNameFinal\": \"道學陰符經\",\r\n    \"NameFinal\": \"基-道學陰符經\",\r\n    \"GroupName\": \"道学阴符经\",\r\n    \"Name\": \"基-道学阴符经\",\r\n    \"GroupNameTw\": \"道學陰符經\",\r\n    \"NameTw\": \"基-道學陰符經\"\r\n  }"
   rawIndex: 3490400
   splits:
   - splitPath: GroupName
     text: "道学阴符经"
     translated: "The Way of the Yin Pill Scripture"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
   - splitPath: Name
     text: "基-道学阴符经"
     translated: "Ji ‑ Daoxue Yin Fu Jing"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Daoist Studies,道学,"
 - raw: "{\r\n    \"Key\": 3490800,\r\n    \"GroupNameFinal\": \"解真保底經\",\r\n    \"NameFinal\": \"基-解真保底經\",\r\n    \"GroupName\": \"解真保底经\",\r\n    \"Name\": \"基-解真保底经\",\r\n    \"GroupNameTw\": \"解真保底經\",\r\n    \"NameTw\": \"基-解真保底經\"\r\n  }"
   rawIndex: 3490800
   splits:
@@ -13423,6 +13507,8 @@
   - splitPath: Name
     text: "基-基础丹术二"
     translated: "Basic Alchemical Art Two"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Alchemy,丹术,"
 - raw: "{\r\n    \"Key\": 3790300,\r\n    \"GroupNameFinal\": \"基礎丹術三\",\r\n    \"NameFinal\": \"基-基礎丹術三\",\r\n    \"GroupName\": \"基础丹术三\",\r\n    \"Name\": \"基-基础丹术三\",\r\n    \"GroupNameTw\": \"基礎丹術三\",\r\n    \"NameTw\": \"基-基礎丹術三\"\r\n  }"
   rawIndex: 3790300
   splits:
@@ -17899,6 +17985,8 @@
   - splitPath: Name
     text: "魔侯战斗"
     translated: "Mage Lord's Battle"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 4605000,\r\n    \"GroupNameFinal\": \"天魔伐洞庭\",\r\n    \"NameFinal\": \"戰勝魔侯\",\r\n    \"GroupName\": \"天魔伐洞庭\",\r\n    \"Name\": \"战胜魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐洞庭帮，你在守卫洞庭帮之役中，击败“魔候”任苍溟，此后各派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔候”下落，此后未及半月，钟离恨将洞庭帮主之位传给你，自己在后山聂湘君墓前结庐隐居，你在四位堂主和江浪等一众洞庭帮兄弟的支持之下将洞庭帮不断壮大，成为天下第一大帮！\\\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>\",\r\n    \"GroupNameTw\": \"天魔伐洞庭\",\r\n    \"NameTw\": \"戰勝魔侯\"\r\n  }"
   rawIndex: 4605000
   splits:
@@ -17908,6 +17996,8 @@
   - splitPath: Name
     text: "战胜魔侯"
     translated: "Defeat the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐洞庭帮，你在守卫洞庭帮之役中，击败“魔候”任苍溟，此后各派联手，一举扫荡江湖上天魔教势力，可惜最终亦未找到“魔候”下落，此后未及半月，钟离恨将洞庭帮主之位传给你，自己在后山聂湘君墓前结庐隐居，你在四位堂主和江浪等一众洞庭帮兄弟的支持之下将洞庭帮不断壮大，成为天下第一大帮！\\n<color=#FF0000>因没有在劫云谷中救下全部正道，无法达成完美结局。</color>"
     translated: "The Heavenly Demon Sect is launching a campaign against the Dongting Sect. During your defense of the Dongting Sect, you defeated the Demon King Ren Cangming. Following this, various sects joined forces and successfully eradicated the Heavenly Demon Sect's influence across the Jianghu. Unfortunately, they were unable to locate the whereabouts of the Demon King. Less than half a month later, Zhongli Hen passed on his position as Dongting Gang Leader to you. He chose to live in seclusion by building a cottage near the tomb of Nie Xiangjun on the rear mountain. With the support of the four senior hall masters and Jiang Lang, among other Dongting Sect brothers, you continued to expand the Dongting Sect until it became the largest sect under heaven!\\n<color=#FF0000>Since we couldn't save all of the Righteous Sects in the Tribulation Cloud Valley, we can't achieve a perfect ending.</color>"
@@ -17920,6 +18010,8 @@
   - splitPath: Name
     text: "完胜魔侯"
     translated: "Defeat the Demon Overlord Easily"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 4605200,\r\n    \"GroupNameFinal\": \"天魔伐洞庭\",\r\n    \"NameFinal\": \"不敵魔侯\",\r\n    \"GroupName\": \"天魔伐洞庭\",\r\n    \"Name\": \"不敌魔侯\",\r\n    \"SummaryDesc\": \"天魔教讨伐洞庭帮，你在守卫洞庭帮之役中，死于天魔教教主“魔候”任苍溟之手，是日，洞庭帮全帮被天魔教屠戮一净，钟离恨拼死将任沧溟击伤，自己也死于任沧溟之手。\",\r\n    \"GroupNameTw\": \"天魔伐洞庭\",\r\n    \"NameTw\": \"不敵魔侯\"\r\n  }"
   rawIndex: 4605200
   splits:
@@ -17929,6 +18021,8 @@
   - splitPath: Name
     text: "不敌魔侯"
     translated: "Defeated by the Demon Overlord"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
   - splitPath: SummaryDesc
     text: "天魔教讨伐洞庭帮，你在守卫洞庭帮之役中，死于天魔教教主“魔候”任苍溟之手，是日，洞庭帮全帮被天魔教屠戮一净，钟离恨拼死将任沧溟击伤，自己也死于任沧溟之手。"
     translated: "The Heavenly Demon Sect has launched an assault on the Dongting Sect. During your defense of the Dongting Sect, you fell in battle at the hands of the Heavenly Demon Sect's leader, Demon Duke Ren Cangming. On that day, the entire Dongting Sect was brutally wiped out by the Heavenly Demon Sect. Zhongli Hen fought desperately and managed to injure Ren Cangming but died in the process."
@@ -23032,6 +23126,8 @@
   - splitPath: SummaryDesc
     text: "你于天魔殿中死于“魔侯”任沧溟之手。"
     translated: "You died at the hands of Evil Lord Ren Chengming in the Demon Palace."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Demon Lord,魔侯,"
 - raw: "{\r\n    \"Key\": 6201300,\r\n    \"GroupNameFinal\": \"會盟劫雲谷\",\r\n    \"NameFinal\": \"對戰穆坎羅\",\r\n    \"GroupName\": \"会盟劫云谷\",\r\n    \"Name\": \"对战穆坎罗\",\r\n    \"GroupNameTw\": \"會盟劫雲谷\",\r\n    \"NameTw\": \"對戰穆坎羅\"\r\n  }"
   rawIndex: 6201300
   splits:
@@ -23665,6 +23761,8 @@
   - splitPath: Name
     text: "洗墨翰墨一"
     translated: "Ink Wash and Ink Stone One"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 6490212,\r\n    \"GroupNameFinal\": \"再訪洗墨莊\",\r\n    \"NameFinal\": \"洗墨翰墨二\",\r\n    \"GroupName\": \"再访洗墨庄\",\r\n    \"Name\": \"洗墨翰墨二\",\r\n    \"GroupNameTw\": \"再訪洗墨莊\",\r\n    \"NameTw\": \"洗墨翰墨二\"\r\n  }"
   rawIndex: 6490212
   splits:
@@ -23683,6 +23781,8 @@
   - splitPath: Name
     text: "洗墨翰墨三"
     translated: "Wash‑Inkbrush and Inkstone Three"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 6490214,\r\n    \"GroupNameFinal\": \"再訪洗墨莊\",\r\n    \"NameFinal\": \"洗墨翰墨四\",\r\n    \"GroupName\": \"再访洗墨庄\",\r\n    \"Name\": \"洗墨翰墨四\",\r\n    \"GroupNameTw\": \"再訪洗墨莊\",\r\n    \"NameTw\": \"洗墨翰墨四\"\r\n  }"
   rawIndex: 6490214
   splits:
@@ -23692,6 +23792,8 @@
   - splitPath: Name
     text: "洗墨翰墨四"
     translated: "Wash Inkbrush Four"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Calligraphy,翰墨,"
 - raw: "{\r\n    \"Key\": 6490215,\r\n    \"GroupNameFinal\": \"再訪洗墨莊\",\r\n    \"NameFinal\": \"改日再拜訪\",\r\n    \"GroupName\": \"再访洗墨庄\",\r\n    \"Name\": \"改日再拜访\",\r\n    \"GroupNameTw\": \"再訪洗墨莊\",\r\n    \"NameTw\": \"改日再拜訪\"\r\n  }"
   rawIndex: 6490215
   splits:

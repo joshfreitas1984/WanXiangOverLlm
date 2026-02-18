@@ -45,7 +45,7 @@ public class TranslationSplit
         FlaggedForRetranslation = false;
         FlaggedMistranslation = string.Empty;
         FlaggedHallucination = string.Empty;
-        SafeToTranslate = true;
+        //SafeToTranslate = true; //Don't want to reset this
     }
 
     //public void ResetGlossaryFlags()

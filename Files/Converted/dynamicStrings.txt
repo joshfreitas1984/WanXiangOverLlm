@@ -1,0 +1,405 @@
+- raw: "GameTools,Save,88,备份失败: ,[System.Object，System.String，System.String，System.Boolean]"
+  splits:
+  - split: 3
+    text: "备份失败: "
+    translated: "Backup failed:"
+    safeToTranslate: false
+- raw: "GameTools,Load,51,[Load] 解析文件失败: ,[System.String]"
+  splits:
+  - split: 3
+    text: "[Load] 解析文件失败: "
+    translated: "[Load] Failed to parse file:"
+    safeToTranslate: false
+- raw: "GameTools,ConvertNumberToChineseDate,101,一十,[System.Int32]"
+  splits:
+  - split: 3
+    text: "一十"
+    translated: "11"
+    safeToTranslate: false
+- raw: "GameTools,ConvertNumberToChineseDate,106,十,[System.Int32]"
+  splits:
+  - split: 3
+    text: "十"
+    translated: "10"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,155,零,[]"
+  splits:
+  - split: 3
+    text: "零"
+    translated: "0"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,163,一,[]"
+  splits:
+  - split: 3
+    text: "一"
+    translated: "1"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,171,二,[]"
+  splits:
+  - split: 3
+    text: "二"
+    translated: "2"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,179,三,[]"
+  splits:
+  - split: 3
+    text: "三"
+    translated: "3"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,187,四,[]"
+  splits:
+  - split: 3
+    text: "四"
+    translated: "4"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,195,五,[]"
+  splits:
+  - split: 3
+    text: "五"
+    translated: "5"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,203,六,[]"
+  splits:
+  - split: 3
+    text: "六"
+    translated: "6"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,211,七,[]"
+  splits:
+  - split: 3
+    text: "七"
+    translated: "7"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,219,八,[]"
+  splits:
+  - split: 3
+    text: "八"
+    translated: "8"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,228,九,[]"
+  splits:
+  - split: 3
+    text: "九"
+    translated: "9"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,255,十,[]"
+  splits:
+  - split: 3
+    text: "十"
+    translated: "10"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,263,百,[]"
+  splits:
+  - split: 3
+    text: "百"
+    translated: "Hundred"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,271,千,[]"
+  splits:
+  - split: 3
+    text: "千"
+    translated: "Thousand"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,279,万,[]"
+  splits:
+  - split: 3
+    text: "万"
+    translated: "10 Thousand"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,287,亿,[]"
+  splits:
+  - split: 3
+    text: "亿"
+    translated: "Billion"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,295,万亿,[]"
+  splits:
+  - split: 3
+    text: "万亿"
+    translated: "Trillion"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,303,亿亿,[]"
+  splits:
+  - split: 3
+    text: "亿亿"
+    translated: "Hundred Quadrillion"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,331,一,[]"
+  splits:
+  - split: 3
+    text: "一"
+    translated: "1"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,339,二,[]"
+  splits:
+  - split: 3
+    text: "二"
+    translated: "2"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,347,三,[]"
+  splits:
+  - split: 3
+    text: "三"
+    translated: "3"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,355,四,[]"
+  splits:
+  - split: 3
+    text: "四"
+    translated: "4"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,363,五,[]"
+  splits:
+  - split: 3
+    text: "五"
+    translated: "5"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,371,六,[]"
+  splits:
+  - split: 3
+    text: "六"
+    translated: "6"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,379,七,[]"
+  splits:
+  - split: 3
+    text: "七"
+    translated: "7"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,387,八,[]"
+  splits:
+  - split: 3
+    text: "八"
+    translated: "8"
+    safeToTranslate: false
+- raw: "GameTools,.cctor,396,九,[]"
+  splits:
+  - split: 3
+    text: "九"
+    translated: "9"
+    safeToTranslate: false
+- raw: "CharacterObj,OnDamage,240,对方,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "对方"
+    translated: "Opponent"
+- raw: "CharacterObj,OnDamage,247,我方,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "我方"
+    translated: "Our side"
+- raw: "CharacterObj,OnDamage,252,受到<color=#ff0000>,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "受到<color=#ff0000>"
+    translated: "Receiving <color=#ff0000>"
+- raw: "CharacterObj,OnDamage,264,</color>点伤害,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "</color>点伤害"
+    translated: "</color> damage"
+- raw: "CharacterObj,AddHp,54,对方,[System.Single]"
+  splits:
+  - split: 3
+    text: "对方"
+    translated: "Opponent"
+- raw: "CharacterObj,AddHp,61,我方,[System.Single]"
+  splits:
+  - split: 3
+    text: "我方"
+    translated: "Our side"
+- raw: "CharacterObj,AddHp,66,恢复 <color=#00ff00>,[System.Single]"
+  splits:
+  - split: 3
+    text: "恢复 <color=#00ff00>"
+    translated: "Recovery <color=#00ff00>'"
+- raw: "CharacterObj,AddHp,81,</color>点气血,[System.Single]"
+  splits:
+  - split: 3
+    text: "</color>点气血"
+    translated: "</color> lifeforce"
+- raw: "GameEventManager,CheckCondition,4,条件嵌套超过 {0} 层，疑似循环引用，id={1},[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "条件嵌套超过 {0} 层，疑似循环引用，id={1}"
+    translated: "Nested conditions exceed {0} layers, suspected circular reference, id={1}"
+- raw: "HeroCard,InitHeroInfo,286,功力,[ExHero]"
+  splits:
+  - split: 3
+    text: "功力"
+    translated: "Power"
+- raw: "GroupItem,Init,209,\\n\\n解锁方式：\\n,[System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "\\n\\n解锁方式：\\n"
+    translated: "\\n\\nUnlock method:\\n"
+- raw: "GroupItem,Init,409,\\n\\n解锁方式：\\n,[System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "\\n\\n解锁方式：\\n"
+    translated: "\\n\\nUnlock method:\\n"
+- raw: "HeroAtlasMenu/<LoadHeroItemsCoroutine>d__33,MoveNext,272,获取方式,[]"
+  splits:
+  - split: 3
+    text: "获取方式"
+    translated: "Method of Acquisition"
+- raw: "lockedHeroItem,Init,147,获取方式,[System.Int32]"
+  splits:
+  - split: 3
+    text: "获取方式"
+    translated: "Method of Acquisition"
+- raw: "LogItem,Init,68,主角,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "主角"
+    translated: "Main Character"
+- raw: "DialogMenu,Init,322,主角,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "主角"
+    translated: "Main Character"
+- raw: "DialogMenu,Init,955,主角,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "主角"
+    translated: "Main Character"
+- raw: "MainMenu,InitSkills,450,技艺值\\n技艺条目可拖动,[]"
+  splits:
+  - split: 3
+    text: "技艺值\\n技艺条目可拖动"
+    translated: "Skill Points\\nSkill entries can be dragged"
+- raw: "MainMenu,InitSkills,478,技艺值\\n技艺条目可拖动,[]"
+  splits:
+  - split: 3
+    text: "技艺值\\n技艺条目可拖动"
+    translated: "Skill Points\\nSkill entries can be dragged"
+- raw: "MainMenu,InitSkills,483,暂无,[]"
+  splits:
+  - split: 3
+    text: "暂无"
+    translated: "None available at this time"
+- raw: "MainMenu,DebugCondition,163,开关：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "开关："
+    translated: "Switch:"
+- raw: "MainMenu,DebugCondition,283,属性：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "属性："
+    translated: "Attributes:"
+- raw: "MainMenu,DebugCondition,383,门派：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "门派："
+    translated: "Sect:"
+- raw: "MainMenu,DebugCondition,480,指定时间：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "指定时间："
+    translated: "Designated time:"
+- raw: "MainMenu,DebugCondition,551,每月：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "每月："
+    translated: "Every month:"
+- raw: "MainMenu,DebugCondition,579,每个,[System.Int32]"
+  splits:
+  - split: 3
+    text: "每个"
+    translated: "Every"
+- raw: "MainMenu,DebugCondition,610,月,[System.Int32]"
+  splits:
+  - split: 3
+    text: "月"
+    translated: "Month"
+- raw: "MainMenu,DebugCondition,675,每季度：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "每季度："
+    translated: "Quarterly:"
+- raw: "MainMenu,DebugCondition,703, 第,[System.Int32]"
+  splits:
+  - split: 3
+    text: " 第"
+    translated: "First"
+- raw: "MainMenu,DebugCondition,734,季度,[System.Int32]"
+  splits:
+  - split: 3
+    text: "季度"
+    translated: "Quarter"
+- raw: "MainMenu,DebugCondition,818,技能：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "技能："
+    translated: "Skill:"
+- raw: "MainMenu,DebugCondition,827,没有,[System.Int32]"
+  splits:
+  - split: 3
+    text: "没有"
+    translated: "There is nothing"
+- raw: "MainMenu,DebugCondition,834,有,[System.Int32]"
+  splits:
+  - split: 3
+    text: "有"
+    translated: "There are"
+- raw: "MainMenu,DebugCondition,929,侠客：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "侠客："
+    translated: "Hero:"
+- raw: "MainMenu,DebugCondition,938,没有,[System.Int32]"
+  splits:
+  - split: 3
+    text: "没有"
+    translated: "There is nothing"
+- raw: "MainMenu,DebugCondition,945,有,[System.Int32]"
+  splits:
+  - split: 3
+    text: "有"
+    translated: "There are"
+- raw: "MainMenu,DebugCondition,1012,前置事件：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "前置事件："
+    translated: "Pre‑event:"
+- raw: "MainMenu,DebugCondition,1087,互斥事件：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "互斥事件："
+    translated: "Mutually exclusive events:"
+- raw: "MainMenu,DebugCondition,1159,条件嵌套：,[System.Int32]"
+  splits:
+  - split: 3
+    text: "条件嵌套："
+    translated: "Nested conditions:"
+- raw: "MainMenu,DebugCondition,1242,条件：\\n,[System.Int32]"
+  splits:
+  - split: 3
+    text: "条件：\\n"
+    translated: "Conditions:\\n"
+- raw: "MainMenu,DebugCondition,1257,条件：无\\n,[System.Int32]"
+  splits:
+  - split: 3
+    text: "条件：无\\n"
+    translated: "Conditions: None\\n"
+- raw: "MainMenu,ShowEvent,460,无事发生,[System.Int32]"
+  splits:
+  - split: 3
+    text: "无事发生"
+    translated: "Nothing happened"
+- raw: "MainMenu,ShowDice,22,无事发生,[System.Int32]"
+  splits:
+  - split: 3
+    text: "无事发生"
+    translated: "Nothing happened"
+- raw: "RecordItem,Init,387,{0}年{1}月{2}日 {3}:{4:D2},[RecordHeader，System.Int32，System.Action`2<System.Boolean，System.Int32>，System.Action`1<System.Int32>]"
+  splits:
+  - split: 3
+    text: "{0}年{1}月{2}日 {3}:{4:D2}"
+    translated: "On {0} Year, {1} Month, {2} Day at {3}: {4:D2}"
+- raw: "SettingPanel,Init,230,请返回标题设置语言,[]"
+  splits:
+  - split: 3
+    text: "请返回标题设置语言"
+    translated: "Please return to setting the language for the title."

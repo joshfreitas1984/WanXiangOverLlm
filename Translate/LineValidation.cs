@@ -33,8 +33,18 @@ public static partial class LineValidation
             .Replace("？", "?")
             .Replace("、", ",")
             .Replace("，", ",")
-            .Replace("！", "!");
-
+            .Replace("！", "!")
+            .Replace("①", "1.")
+            .Replace("②", "2.")
+            .Replace("③", "3.")
+            .Replace("④", "4.")
+            .Replace("⑤", "5.")
+            .Replace("⑥", "6.")
+            .Replace("⑦", "7.")
+            .Replace("⑧", "8.")
+            .Replace("⑨", "9.")
+            .Replace("⑩", "10."); 
+        
         //if (raw.Contains("<"))
         //    raw = HtmlTagValidator.TrimHtmlTagsInContent(raw);
 

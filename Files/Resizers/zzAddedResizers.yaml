@@ -188,7 +188,6 @@
   adjustX: 50
   allowWordWrap: true
 
-
 - path: Canvas/PopRoot/CreateMenu/Talent/Talents/Scroll View/Viewport/Items/TalentSelectItem(Clone)/Name
   sampleText: Love is stronger than steel
   idealFontSize: 24
@@ -224,3 +223,36 @@
   adjustWidth: 20
   allowWordWrap: true
 
+# Main screen
+- path: Canvas/MainRoot/MainMenu/MainControls/HeroInfo/HeroInfo/Money
+  sampleText: 500wen
+  idealFontSize: 26
+  adjustY: -8
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/HeroInfo/HeroInfo/Name
+  sampleText: Wang Xiaoxiong·Jianghu
+  adjustWidth: -10
+  adjustX: -20
+  adjustY: 4
+  idealFontSize: 26
+  allowWordWrap: true
+
+# Relationship
+- path: Canvas/PopRoot/RelationMenu/MainPanel/Box/Text (TMP)
+  sampleText: Relationship
+  idealFontSize: 26
+  adjustWidth: -20
+  adjustX: 10
+  allowWordWrap: true
+- path: Canvas/PopRoot/RelationMenu/Relation/Group/Scroll View/Viewport/Content/RelationItem(Clone)/Name
+  sampleText: Six Doors of Jingxiang
+  idealFontSize: 24
+  allowWordWrap: true
+- path: Canvas/PopRoot/RelationMenu/Relation/Group/Scroll View/Viewport/Content/RelationItem(Clone)/ValueName
+  sampleText: Friendship Rating Unfamiliar with
+  idealFontSize: 18
+  allowWordWrap: true
+- path: Canvas/PopRoot/RelationMenu/Relation/End/Scroll View/Viewport/Content/RelationItem(Clone)/Name
+  sampleText: Demon Lord Line
+  idealFontSize: 24
+  allowWordWrap: true

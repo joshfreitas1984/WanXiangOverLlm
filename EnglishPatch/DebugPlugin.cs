@@ -60,6 +60,9 @@ internal class DebugPlugin : BaseUnityPlugin
 
         return new[]
         {
+            ("Building", gameAssembly.GetType("ExBuilding")),
+
+
             ("Achievement", gameAssembly.GetType("ExAchievement")),
             ("Assist", gameAssembly.GetType("ExAssist")),
             ("Audio", gameAssembly.GetType("ExAudio")),
@@ -154,13 +157,30 @@ internal class DebugPlugin : BaseUnityPlugin
 
             foreach (var prop in properties)
             {
-                if (prop.PropertyType != typeof(string)) continue;
-
-                var value = prop.GetValue(kvp.Value) as string;
-                if (!string.IsNullOrEmpty(value) && chineseRegex.IsMatch(value))
+                if (prop.PropertyType == typeof(string))
                 {
-                    exportObj[prop.Name] = value;
-                    hasChineseProperty = true;
+                    var value = prop.GetValue(kvp.Value) as string;
+                    if (!string.IsNullOrEmpty(value) && chineseRegex.IsMatch(value))
+                    {
+                        exportObj[prop.Name] = value;
+                        hasChineseProperty = true;
+                    }
+                }
+                else if (typeof(IEnumerable<string>).IsAssignableFrom(prop.PropertyType))
+                {
+                    var collection = prop.GetValue(kvp.Value) as IEnumerable<string>;
+                    if (collection != null)
+                    {
+                        var chineseStrings = collection
+                            .Where(s => !string.IsNullOrEmpty(s) && chineseRegex.IsMatch(s))
+                            .ToList();
+
+                        if (chineseStrings.Count > 0)
+                        {
+                            exportObj[prop.Name] = JArray.FromObject(collection.ToList());
+                            hasChineseProperty = true;
+                        }
+                    }
                 }
             }
 
@@ -229,20 +249,20 @@ internal class DebugPlugin : BaseUnityPlugin
             if (!dataDict.ContainsKey(key)) continue;
 
             var existingItem = dataDict[key];
-            UpdateStringProperties(existingItem, translatedItem, dataType);
+            UpdateProperties(existingItem, translatedItem, dataType);
             mergedCount++;
         }
 
         return mergedCount;
     }
 
-    private static void UpdateStringProperties(object target, JObject source, Type targetType)
+    private static void UpdateProperties(object target, JObject source, Type targetType)
     {
         var properties = targetType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
         foreach (var prop in properties)
         {
-            if (!prop.CanWrite || prop.PropertyType != typeof(string)) continue;
+            if (!prop.CanWrite) continue;
 
             var sourceValue = source[prop.Name];
             if (sourceValue == null || sourceValue.Type == JTokenType.Null)
@@ -250,8 +270,30 @@ internal class DebugPlugin : BaseUnityPlugin
 
             try
             {
-                var value = sourceValue.ToObject<string>();
-                prop.SetValue(target, value);
+                if (prop.PropertyType == typeof(string))
+                {
+                    var value = sourceValue.ToObject<string>();
+                    prop.SetValue(target, value);
+                }
+                else if (typeof(IEnumerable<string>).IsAssignableFrom(prop.PropertyType))
+                {
+                    if (sourceValue is JArray jArray)
+                    {
+                        var stringList = jArray.ToObject<List<string>>();
+                        if (prop.PropertyType.IsArray)
+                        {
+                            prop.SetValue(target, stringList.ToArray());
+                        }
+                        else if (prop.PropertyType.IsGenericType && prop.PropertyType.GetGenericTypeDefinition() == typeof(List<>))
+                        {
+                            prop.SetValue(target, stringList);
+                        }
+                        else
+                        {
+                            prop.SetValue(target, stringList);
+                        }
+                    }
+                }
             }
             catch
             {

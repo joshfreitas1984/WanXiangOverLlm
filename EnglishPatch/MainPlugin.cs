@@ -155,4 +155,11 @@ public class MainPlugin : BaseUnityPlugin
 
         return false;
     }
+
+    [HarmonyPatch(typeof(MainMenu), "UpdateMenpaiAndMoney")]
+    [HarmonyPostfix]
+    public static void MainMenu_UpdateMenpaiAndMoney_Prefix(MainMenu __instance)
+    {
+        __instance.NameText.text = GameManager.Instance.Player.Name + " · " + GameTools.GetDictionaryString(GameManager.Instance.Player.MenPai);
+    }
 }

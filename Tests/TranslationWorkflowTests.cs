@@ -75,6 +75,18 @@ public class TranslationWorkflowTests
         var badRegexes = new List<string>{ 
             //"<size=[^>]+>" 
             //@"master and disciple"
+
+            //"⑩",
+            //"⓪",
+            //"①",
+            //"②",
+            //"③",
+            //"④",
+            //"⑤",
+            //"⑥",
+            //"⑦",
+            //"⑧",
+            //"⑨",
         };
 
         // Compile regexes once for reuse

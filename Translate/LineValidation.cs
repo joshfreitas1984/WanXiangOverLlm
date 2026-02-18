@@ -33,17 +33,7 @@ public static partial class LineValidation
             .Replace("？", "?")
             .Replace("、", ",")
             .Replace("，", ",")
-            .Replace("！", "!")
-            .Replace("①", "1.")
-            .Replace("②", "2.")
-            .Replace("③", "3.")
-            .Replace("④", "4.")
-            .Replace("⑤", "5.")
-            .Replace("⑥", "6.")
-            .Replace("⑦", "7.")
-            .Replace("⑧", "8.")
-            .Replace("⑨", "9.")
-            .Replace("⑩", "10."); 
+            .Replace("！", "!");          
         
         //if (raw.Contains("<"))
         //    raw = HtmlTagValidator.TrimHtmlTagsInContent(raw);
@@ -61,9 +51,9 @@ public static partial class LineValidation
 
         // Easy way to fix ...
         if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
-            llmResult = $"{llmResult}..";        
-           
-        return llmResult;
+            llmResult = $"{llmResult}..";
+
+        return llmResult;            
     }
 
     public static string CleanupLineBeforeSaving(string input, string raw, TextFileToSplit textFile, StringTokenReplacer tokenReplacer)
@@ -186,6 +176,19 @@ public static partial class LineValidation
 
         //TODO: Do a way where we can do regexes in text and replace with common templates like achieves in HTLS
         //result = result.Replace("友好到达", " friendship reached ");
+
+        result = result
+            .Replace("⑩", "10. ")
+            .Replace("⓪", "0. ")
+            .Replace("①", "1. ")
+            .Replace("②", "2. ")
+            .Replace("③", "3. ")
+            .Replace("④", "4. ")
+            .Replace("⑤", "5. ")
+            .Replace("⑥", "6. ")
+            .Replace("⑦", "7. ")
+            .Replace("⑧", "8. ")
+            .Replace("⑨", "9. ");
 
         return result;
     }

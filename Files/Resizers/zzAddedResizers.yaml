@@ -312,3 +312,28 @@
   adjustWidth: -20
   adjustX: 10
   allowWordWrap: true
+
+# Battle
+- path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/CardGo/CardNameImg/CardName
+  sampleText: Wudang Disciples
+  idealFontSize: 18
+  adjustWidth: 100
+  allowWordWrap: true
+- path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/Skills*/SkillButton*/Text (TMP)
+  sampleText: Nurturing Internal Alchemy
+  idealFontSize: 15
+  allowWordWrap: true
+- path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/CardGo/HeroName
+  sampleText: Idle Cloud Daoist·Yin Xuanzhen
+  idealFontSize: 15
+  allowWordWrap: true
+- path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/CardGo/Powerbg/Power
+  sampleText: 1.26K
+  idealFontSize: 14
+  adjustWidth: 40
+  adjustY: 40
+  allowWordWrap: true
+- path: Canvas/MainRoot/BattleMenu/MonsterStatus/Name_1
+  sampleText: 气血
+  idealFontSize: 28.8
+  allowWordWrap: true

@@ -1,0 +1,108 @@
+- raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"封穴\",\r\n    \"DescFinal\": \"我方阻止1人行動，敵方隨機阻止1次行動\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>封穴</color>阻止對方行動\",\r\n    \"Name\": \"封穴\",\r\n    \"Desc\": \"我方阻止1人行动，敌方随机阻止1次行动\",\r\n    \"AttackDesc\": \"<color=#00ff00>封穴</color>阻止对方行动\",\r\n    \"NameTw\": \"封穴\",\r\n    \"DescTw\": \"我方阻止1人行動，敵方隨機阻止1次行動\",\r\n    \"AttackDescTw\": \"<color=#00ff00>封穴</color>阻止對方行動\"\r\n  }"
+  rawIndex: 0
+  splits:
+  - splitPath: Name
+    text: "封穴"
+    translated: "Seal acupoints"
+  - splitPath: Desc
+    text: "我方阻止1人行动，敌方随机阻止1次行动"
+    translated: "Our side prevents 1 actions, while the enemy randomly blocks 1 actions."
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>封穴</color>阻止对方行动"
+    translated: "<color=#00ff00>Seal Acupoints</color> to prevent the opponent from moving"
+- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"輕傷\",\r\n    \"DescFinal\": \"攻擊、防禦降低20%\",\r\n    \"Name\": \"轻伤\",\r\n    \"Desc\": \"攻击、防御降低20%\",\r\n    \"NameTw\": \"輕傷\",\r\n    \"DescTw\": \"攻擊、防禦降低20%\"\r\n  }"
+  rawIndex: 1
+  splits:
+  - splitPath: Name
+    text: "轻伤"
+    translated: "Minor injury"
+  - splitPath: Desc
+    text: "攻击、防御降低20%"
+    translated: "Attack and defense reduced by 20%"
+- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"中毒\",\r\n    \"DescFinal\": \"每輪損失當前氣血5%\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>毒</color>造成傷害\",\r\n    \"Name\": \"中毒\",\r\n    \"Desc\": \"每轮损失当前气血5%\",\r\n    \"AttackDesc\": \"<color=#00ff00>毒</color>造成伤害\",\r\n    \"NameTw\": \"中毒\",\r\n    \"DescTw\": \"每輪損失當前氣血5%\",\r\n    \"AttackDescTw\": \"<color=#00ff00>毒</color>造成傷害\"\r\n  }"
+  rawIndex: 2
+  splits:
+  - splitPath: Name
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    text: "每轮损失当前气血5%"
+    translated: "Each round, you lose 5% of your lifeforce."
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>毒</color>造成伤害"
+    translated: "Poison causes damage"
+- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"絕脈\",\r\n    \"DescFinal\": \"消失時損失當前氣血20%，再次使用回合數增加\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>絕脈</color>造成傷害\",\r\n    \"Name\": \"绝脉\",\r\n    \"Desc\": \"消失时损失当前气血20%，再次使用回合数增加\",\r\n    \"AttackDesc\": \"<color=#00ff00>绝脉</color>造成伤害\",\r\n    \"NameTw\": \"絕脈\",\r\n    \"DescTw\": \"消失時損失當前氣血20%，再次使用回合數增加\",\r\n    \"AttackDescTw\": \"<color=#00ff00>絕脈</color>造成傷害\"\r\n  }"
+  rawIndex: 3
+  splits:
+  - splitPath: Name
+    text: "绝脉"
+    translated: "Dead Pulse"
+  - splitPath: Desc
+    text: "消失时损失当前气血20%，再次使用回合数增加"
+    translated: "Disappear at a cost of 20% of current lifeforce, and the number of turns until next use increases."
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>绝脉</color>造成伤害"
+    translated: "<color=#00ff00>Absolute Pulse</color> deals damage"
+- raw: "{\r\n    \"Key\": 4,\r\n    \"NameFinal\": \"禁療\",\r\n    \"DescFinal\": \"回春無效\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>禁療</color>狀態，無法回覆\",\r\n    \"Name\": \"禁疗\",\r\n    \"Desc\": \"回春无效\",\r\n    \"AttackDesc\": \"<color=#00ff00>禁疗</color>状态，无法回复\",\r\n    \"NameTw\": \"禁療\",\r\n    \"DescTw\": \"回春無效\",\r\n    \"AttackDescTw\": \"<color=#00ff00>禁療</color>狀態，無法回覆\"\r\n  }"
+  rawIndex: 4
+  splits:
+  - splitPath: Name
+    text: "禁疗"
+    translated: "No healing"
+  - splitPath: Desc
+    text: "回春无效"
+    translated: "Revival is ineffective"
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>禁疗</color>状态，无法回复"
+    translated: "<color=#00ff00>No Healing</color> status; unable to recover health"
+- raw: "{\r\n    \"Key\": 5,\r\n    \"NameFinal\": \"失神\",\r\n    \"DescFinal\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>失神</color>中，無法行動\",\r\n    \"Name\": \"失神\",\r\n    \"Desc\": \"无法行动，受到攻击时伤害翻倍、状态解除\",\r\n    \"AttackDesc\": \"<color=#00ff00>失神</color>中，无法行动\",\r\n    \"NameTw\": \"失神\",\r\n    \"DescTw\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescTw\": \"<color=#00ff00>失神</color>中，無法行動\"\r\n  }"
+  rawIndex: 5
+  splits:
+  - splitPath: Name
+    text: "失神"
+    translated: "Trance"
+  - splitPath: Desc
+    text: "无法行动，受到攻击时伤害翻倍、状态解除"
+    translated: "Unable to move. Double damage when attacked, status effects removed."
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>失神</color>中，无法行动"
+    translated: "In a <color=#00ff00>trance</color>, unable to act"
+- raw: "{\r\n    \"Key\": 6,\r\n    \"NameFinal\": \"力竭\",\r\n    \"DescFinal\": \"行動力回覆減少1\",\r\n    \"Name\": \"力竭\",\r\n    \"Desc\": \"行动力回复减少1\",\r\n    \"NameTw\": \"力竭\",\r\n    \"DescTw\": \"行動力回覆減少1\"\r\n  }"
+  rawIndex: 6
+  splits:
+  - splitPath: Name
+    text: "力竭"
+    translated: "Exhausted"
+  - splitPath: Desc
+    text: "行动力回复减少1"
+    translated: "Action points recovery reduced by 1"
+- raw: "{\r\n    \"Key\": 7,\r\n    \"NameFinal\": \"重傷\",\r\n    \"DescFinal\": \"攻擊、防禦降低35%\",\r\n    \"Name\": \"重伤\",\r\n    \"Desc\": \"攻击、防御降低35%\",\r\n    \"NameTw\": \"重傷\",\r\n    \"DescTw\": \"攻擊、防禦降低35%\"\r\n  }"
+  rawIndex: 7
+  splits:
+  - splitPath: Name
+    text: "重伤"
+    translated: "Severe injury"
+  - splitPath: Desc
+    text: "攻击、防御降低35%"
+    translated: "Attack and defense reduced by 35%"
+- raw: "{\r\n    \"Key\": 8,\r\n    \"NameFinal\": \"驚神\",\r\n    \"DescFinal\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescFinal\": \"<color=#00ff00>驚神</color>中，無法行動\",\r\n    \"Name\": \"惊神\",\r\n    \"Desc\": \"无法行动，受到攻击时伤害翻倍、状态解除\",\r\n    \"AttackDesc\": \"<color=#00ff00>惊神</color>中，无法行动\",\r\n    \"NameTw\": \"驚神\",\r\n    \"DescTw\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescTw\": \"<color=#00ff00>驚神</color>中，無法行動\"\r\n  }"
+  rawIndex: 8
+  splits:
+  - splitPath: Name
+    text: "惊神"
+    translated: "Stunning Spirits"
+  - splitPath: Desc
+    text: "无法行动，受到攻击时伤害翻倍、状态解除"
+    translated: "Unable to move. Double damage when attacked, status effects removed."
+  - splitPath: AttackDesc
+    text: "<color=#00ff00>惊神</color>中，无法行动"
+    translated: "In <color=#00ff00>Astonish the Gods</color>, unable to move"
+- raw: "{\r\n    \"Key\": 9,\r\n    \"NameFinal\": \"致命\",\r\n    \"DescFinal\": \"攻擊、防禦降低50%\",\r\n    \"Name\": \"致命\",\r\n    \"Desc\": \"攻击、防御降低50%\",\r\n    \"NameTw\": \"致命\",\r\n    \"DescTw\": \"攻擊、防禦降低50%\"\r\n  }"
+  rawIndex: 9
+  splits:
+  - splitPath: Name
+    text: "致命"
+    translated: "Fatal"
+  - splitPath: Desc
+    text: "攻击、防御降低50%"
+    translated: "Attack and defense reduced by 50%"

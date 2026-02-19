@@ -108,7 +108,7 @@ public static class TranslationService
         foreach (var textFileToTranslate in GameTextFiles.TextFilesToSplit)
         {
             var inputFile = $"{inputPath}/{textFileToTranslate.Path}";
-            var outputFile = $"{outputPath}/{textFileToTranslate.Path}";
+            var outputFile = $"{outputPath}/{textFileToTranslate.Path}.yaml";
 
             if (!File.Exists(outputFile))
                 File.Copy(inputFile, outputFile);
@@ -223,40 +223,7 @@ public static class TranslationService
             Console.WriteLine($"Done: {totalLines} ({elapsed} ms ~ {speed}/line)");
             File.WriteAllText(outputFile, serializer.Serialize(fileLines));
         }
-    }
-
-    public static (bool foundSplit, List<string> splits) CalculateSubSplits(string origSplit)
-    {
-        var response = new List<string>();
-        bool foundSplit = false;
-
-        foreach (var splitCharacters in GameTextFiles.SplitCharactersList)
-        {
-            if (origSplit.Contains(splitCharacters))
-            {
-                foundSplit = true;
-                var newSplits = origSplit.Split(splitCharacters);
-
-                foreach (var newSplit in newSplits)
-                {
-                    if (!string.IsNullOrEmpty(newSplit))
-                    {
-                        var subSplits = CalculateSubSplits(newSplit);
-                        if (subSplits.foundSplit)
-                            response.AddRange(subSplits.splits);
-                        else
-                            response.Add(newSplit);
-                    }
-                }
-
-                // Break after processing one split character type
-                // Because recursion would have got the rest
-                return (foundSplit, response);
-            }
-        }
-
-        return (foundSplit, response);
-    }
+    }   
 
     public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
     {
@@ -295,60 +262,9 @@ public static class TranslationService
         }
 
         return (false, string.Empty);
-    }
+    }   
 
-    public static async Task<(bool split, string result)> SplitBracketsIfNeededAsync(LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
-    {
-        if (raw.Contains('('))
-        {
-            string output = string.Empty;
-            string pattern = @"([^\(]*|(?:.*?))\(([^\)]*)\)|([^\(\)]*)$"; // Matches text outside and inside brackets
-
-            MatchCollection matches = Regex.Matches(raw, pattern);
-            foreach (Match match in matches)
-            {
-                var outsideStart = match.Groups[1].Value.Trim();
-                var outsideEnd = match.Groups[3].Value.Trim();
-                var inside = match.Groups[2].Value.Trim();
-
-                if (!string.IsNullOrEmpty(outsideStart))
-                {
-                    var trans = await TranslateSplitAsync(config, outsideStart, client, textFile);
-                    output += trans.Result;
-
-                    // If one fails we have to kill the lot
-                    if (!trans.Valid && !config.SkipLineValidation)
-                        return (true, string.Empty);
-                }
-
-                if (!string.IsNullOrEmpty(inside))
-                {
-                    var trans = await TranslateSplitAsync(config, inside, client, textFile);
-                    output += $" ({trans.Result}) ";
-
-                    // If one fails we have to kill the lot
-                    if (!trans.Valid && !config.SkipLineValidation)
-                        return (true, string.Empty);
-                }
-
-                if (!string.IsNullOrEmpty(outsideEnd))
-                {
-                    var trans = await TranslateSplitAsync(config, outsideEnd, client, textFile);
-                    output += trans.Result;
-
-                    // If one fails we have to kill the lot
-                    if (!trans.Valid && !config.SkipLineValidation)
-                        return (true, string.Empty);
-                }
-            }
-
-            return (true, output.Trim());
-        }
-
-        return (false, string.Empty);
-    }
-
-    public static async Task<(bool split, string result)> SplitRegexIfNeededAsync(LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
+    public static async Task<(bool split, string result)> SplitBracketsRegexIfNeededAsync(LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
     {
         // Collect all matches across all patterns and sort by position so multiple bracket types in
         // the same string are all handled in a single pass (e.g. "天竺国《无量寿经》【副本】4000钱")
@@ -360,16 +276,14 @@ public static class TranslationService
         if (allMatches.Count == 0)
             return (false, string.Empty);
 
-        // Pre-translate each match's inner content separately and embed it into the sentence using
-        // opaque positional tokens {BR0}, {BR1}, etc. as placeholders so the LLM sees full context
-        // when translating the surrounding text. StringTokenReplacer maps these to {N} tokens which
-        // the LLM is trained to preserve, then Restore brings them back for reliable replacement.
-        // Restore original bracket characters after the full translation.
-        var bracketRestorations = new List<(string placeholder, string withBrackets)>();
+        // Pre-translate each match's inner content separately and wrap it in single quotes as a
+        // placeholder (e.g. 'Sutra of Immeasurable Life') so the LLM treats it as a proper noun
+        // and preserves it during full-sentence translation. After translation, restore the original
+        // bracket characters by replacing 'translatedText' with openBracket+translatedText+closeBracket.
+        var bracketRestorations = new List<(string quotedText, char openBracket, char closeBracket)>();
         var modifiedRaw = raw;
         var lastOriginalIndex = 0;
         var offset = 0;
-        var bracketIndex = 0;
 
         foreach (var match in allMatches)
         {
@@ -385,12 +299,12 @@ public static class TranslationService
             if (!innerTrans.Valid && !config.SkipLineValidation)
                 return (true, string.Empty);
 
-            var placeholder = $"{{BR{bracketIndex++}}}";
-            bracketRestorations.Add((placeholder, $"{openBracket}{innerTrans.Result}{closeBracket}"));
+            var quotedText = $"'{innerTrans.Result}'";
+            bracketRestorations.Add((quotedText, openBracket, closeBracket));
 
             var adjustedIndex = match.Index + offset;
-            modifiedRaw = modifiedRaw[..adjustedIndex] + placeholder + modifiedRaw[(adjustedIndex + match.Length)..];
-            offset += placeholder.Length - match.Length;
+            modifiedRaw = modifiedRaw[..adjustedIndex] + quotedText + modifiedRaw[(adjustedIndex + match.Length)..];
+            offset += quotedText.Length - match.Length;
             lastOriginalIndex = match.Index + match.Length;
         }
 
@@ -399,12 +313,13 @@ public static class TranslationService
         if (!fullTrans.Valid && !config.SkipLineValidation)
             return (true, string.Empty);
 
-        // Restore the original bracket characters around each translated inner content
+        // Restore the original bracket characters: replace 'translatedText' with openBracket+translatedText+closeBracket
         var result = fullTrans.Result;
-        foreach (var (placeholder, withBrackets) in bracketRestorations)
-            result = result.Replace(placeholder, withBrackets);
+        foreach (var (quotedText, openBracket, closeBracket) in bracketRestorations)
+            result = result
+                .Replace(quotedText, $" {openBracket}{quotedText[1..^1]}{closeBracket} ");
 
-        return (true, result);
+        return (true, result.Trim());
     }
 
     public static bool IsGameObjectReference(string raw)
@@ -451,7 +366,7 @@ public static class TranslationService
         //if (split2)
         //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, fileName, tokenReplacer);
 
-        var (regexSplit, regexResult) = await SplitRegexIfNeededAsync(config, raw, client, textFile);
+        var (regexSplit, regexResult) = await SplitBracketsRegexIfNeededAsync(config, raw, client, textFile);
         if (regexSplit)
             return new ValidationResult(LineValidation.CleanupLineBeforeSaving(regexResult, preparedRaw, textFile, tokenReplacer));
 

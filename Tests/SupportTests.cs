@@ -26,10 +26,10 @@ public class SupportTests
 
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
-            //if (textFileToTranslate.Path != "Hero.json")
+            //if (textFileToTranslate.Path != "Hero.json.yaml")
             //    return;
 
-            if (textFileToTranslate.Path != "Monster.json")
+            if (textFileToTranslate.Path != "Monster.json.yaml")
                 return;
 
             foreach (var line in fileLines)
@@ -83,7 +83,7 @@ public class SupportTests
             //if (textFileToTranslate.Path != "Hero.json")
             //    return;
 
-            if (textFileToTranslate.Path != "Dictionary.json")
+            if (textFileToTranslate.Path != "Dictionary.json.yaml")
                 return;
 
             foreach (var line in fileLines)
@@ -136,7 +136,7 @@ public class SupportTests
 
         await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
-            if (textFileToTranslate.Path != "Property.json")
+            if (textFileToTranslate.Path != "Property.json.yaml")
                 return;
 
             foreach (var line in fileLines)

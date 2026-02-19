@@ -84,12 +84,13 @@ public class TranslationWorkflowTests
             //"⑧",
             //"⑨",
 
-            "《",
-            "〈",
-            "「",
-            "『",
-            "【",
-            "〖",
+            //"《",
+            //"〈",
+            //"「",
+            //"『",
+            //"【",
+            //"〖",
+            //"“",
         };
 
         await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>

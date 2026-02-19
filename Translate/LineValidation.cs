@@ -24,10 +24,10 @@ public static partial class LineValidation
             .Replace("…", "...")
             .Replace("：", ":")
             .Replace("：", ":")
-            .Replace("「", "'")
-            .Replace("」", "'")
-            .Replace("《", "'")
-            .Replace("》", "'")
+            //.Replace("「", "'")
+            //.Replace("」", "'")
+            //.Replace("《", "'")
+            //.Replace("》", "'")
             .Replace("（", "(")
             .Replace("）", ")")
             .Replace("？", "?")
@@ -53,7 +53,9 @@ public static partial class LineValidation
         if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
             llmResult = $"{llmResult}..";
 
-        return llmResult;            
+        return llmResult
+            .Replace("’", "'")
+            .Replace("‘", "'");            
     }
 
     public static string CleanupLineBeforeSaving(string input, string raw, TextFileToSplit textFile, StringTokenReplacer tokenReplacer)
@@ -286,7 +288,7 @@ public static partial class LineValidation
 
         // Removed characters
         (string raw, string trans)[] checkForRemoval = { 
-            //("·", "·"), 
+            ("'", "'"), 
             //("(", "("),
             //("（", "("), 
             //(")", ")"),

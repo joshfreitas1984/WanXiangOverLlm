@@ -1,0 +1,48 @@
+- raw: "{\r\n    \"Key\": 0,\r\n    \"NameFinal\": \"簡單\",\r\n    \"DescFinal\": \"隨便玩玩\",\r\n    \"Name\": \"简单\",\r\n    \"Desc\": \"随便玩玩\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"簡單\",\r\n    \"DescTw\": \"隨便玩玩\"\r\n  }"
+  rawIndex: 0
+  splits:
+  - splitPath: Name
+    text: "简单"
+    translated: "Easy"
+  - splitPath: Desc
+    text: "随便玩玩"
+    translated: "Just for fun"
+  - splitPath: EventResultDesc
+    text: "加成测试"
+    translated: "Bonus Test"
+- raw: "{\r\n    \"Key\": 1,\r\n    \"NameFinal\": \"中等\",\r\n    \"DescFinal\": \"敵人血量、傷害提升20%，一週目不推薦選擇\",\r\n    \"Name\": \"中等\",\r\n    \"Desc\": \"敌人血量、伤害提升20%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"中等\",\r\n    \"DescTw\": \"敵人血量、傷害提升20%，一週目不推薦選擇\"\r\n  }"
+  rawIndex: 1
+  splits:
+  - splitPath: Name
+    text: "中等"
+    translated: "Medium"
+  - splitPath: Desc
+    text: "敌人血量、伤害提升20%，一周目不推荐选择"
+    translated: "Enemy health points and damage increased by 20%. Not recommended to choose in the first playthrough."
+  - splitPath: EventResultDesc
+    text: "加成测试"
+    translated: "Bonus Test"
+- raw: "{\r\n    \"Key\": 2,\r\n    \"NameFinal\": \"困難\",\r\n    \"DescFinal\": \"敵人血量、傷害提升50%，一週目不推薦選擇\",\r\n    \"Name\": \"困难\",\r\n    \"Desc\": \"敌人血量、伤害提升50%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"困難\",\r\n    \"DescTw\": \"敵人血量、傷害提升50%，一週目不推薦選擇\"\r\n  }"
+  rawIndex: 2
+  splits:
+  - splitPath: Name
+    text: "困难"
+    translated: "Challenge"
+  - splitPath: Desc
+    text: "敌人血量、伤害提升50%，一周目不推荐选择"
+    translated: "Enemy health points, damage increased by 50%; not recommended to choose in the first playthrough."
+  - splitPath: EventResultDesc
+    text: "加成测试"
+    translated: "Bonus Test"
+- raw: "{\r\n    \"Key\": 3,\r\n    \"NameFinal\": \"地獄\",\r\n    \"DescFinal\": \"敵人血量、傷害提升100%，一週目不推薦選擇\",\r\n    \"Name\": \"地狱\",\r\n    \"Desc\": \"敌人血量、伤害提升100%，一周目不推荐选择\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"地獄\",\r\n    \"DescTw\": \"敵人血量、傷害提升100%，一週目不推薦選擇\"\r\n  }"
+  rawIndex: 3
+  splits:
+  - splitPath: Name
+    text: "地狱"
+    translated: "Hell"
+  - splitPath: Desc
+    text: "敌人血量、伤害提升100%，一周目不推荐选择"
+    translated: "Enemy HP and damage increased by 100%; not recommended to choose in the first playthrough."
+  - splitPath: EventResultDesc
+    text: "加成测试"
+    translated: "Bonus Test"

@@ -24,17 +24,18 @@ public class GameTextFiles
             //"|",
             // "。"
             //  "<br>", "-", 
-
-         
         ];
 
     public static string[] SplitRegexPatterns = [
+        //@"(.*?)",
+        //@"（.*?）",
         @"《.*?》",
         @"\〈.*?\〉",
         @"\「.*?\」",
         @"\『.*?\』",
         @"\【.*?\】",
         @"\〖.*?\〗",
+        @"\“.*?”"
     ];
 
     public static string[] FilesNotHandled = [

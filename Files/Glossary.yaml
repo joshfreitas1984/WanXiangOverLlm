@@ -2348,13 +2348,13 @@
 - raw: 風間
   rawSimplified: 风间
   rawTraditional: 風間
-  result: Fengjian
+  result: Kazama
   direct: Feng Jian
   literal: Feng Jian
 - raw: 風間夜
   rawSimplified: 风间夜
   rawTraditional: 風間夜
-  result: Fengjian Ye
+  result: Kazama Ye
   direct: Feng Jian Ye
   literal: Feng Jian Ye
 - raw: 花炮李
@@ -2414,7 +2414,7 @@
 - raw: 齋藤歸藏
   rawSimplified: 斋藤归藏
   rawTraditional: 齋藤歸藏
-  result: Zhaiteng Guizang
+  result: Saito Kizo
   direct: Zhai Teng Gui Cang
   literal: Zhai Teng Gui Cang
 - raw: 辛無厭
@@ -2496,19 +2496,19 @@
   direct: Xiao Zi Yu
   literal: Xiao Zi Yu
 - raw: 艾琳娜
-  result: Ai Lina
+  result: Elena
   direct: Ai Lin Na
   literal: Ai Lin Na
 - raw: 風間月
   rawSimplified: 风间月
   rawTraditional: 風間月
-  result: Fengjian Yue
+  result: Kazama Yue
   direct: Feng Jian Yue
   literal: Feng Jian Yue
 - raw: 風間愛
   rawSimplified: 风间爱
   rawTraditional: 風間愛
-  result: Fengjian Ai
+  result: Kazama Ai
   direct: Feng Jian Ai
   literal: Feng Jian Ai
 - raw: 符天罡
@@ -4270,6 +4270,37 @@
 #   only: 
 #       - Condition.json
 #   literal: ji
+
+# Game Titles
+- raw: 复圣
+  rawSimplified: 复圣
+  rawTraditional: 復聖
+  result: Returning Sage
+  badtrans: true
+  direct: return sage
+  literal: fu sheng
+- raw: 碧蛇夫人
+  rawSimplified: 碧蛇夫人
+  rawTraditional: 碧蛇夫人
+  result: Jade Snake Lady
+  badtrans: true
+  direct: jade snake lady
+  literal: bi she fu ren
+- raw: 食虺神君
+  rawSimplified: 食虺神君
+  rawTraditional: 食虺神君
+  result: Serpent God
+  badtrans: true
+  direct: eat viper god lord
+  literal: shi hui shen jun
+- raw: 魔心卿相
+  rawSimplified: 魔心卿相
+  rawTraditional: 魔心卿相
+  result: Demonhearted Chancellor
+  badtrans: true
+  direct: demon heart minister chancellor
+  literal: mo xin qing xiang
+
 
 - raw: 到达
   rawSimplified: 到达

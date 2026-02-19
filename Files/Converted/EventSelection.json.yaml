@@ -1,0 +1,2155 @@
+- raw: "{\r\n    \"Key\": 101510,\r\n    \"DescFinal\": \"給大黃狗起什麼樣的名字？\",\r\n    \"SelectionListFinal\": [\r\n      \"給大黃狗起名叫做“大黃”\",\r\n      \"給大黃狗起名叫做“包子”\",\r\n      \"給大黃狗起名叫做“旺財”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"给大黄狗起什么样的名字？\",\r\n    \"SelectionList\": [\r\n      \"给大黄狗起名叫做“大黄”\",\r\n      \"给大黄狗起名叫做“包子”\",\r\n      \"给大黄狗起名叫做“旺财”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"給大黃狗起什麼樣的名字？\",\r\n    \"SelectionTwList\": [\r\n      \"給大黃狗起名叫做“大黃”\",\r\n      \"給大黃狗起名叫做“包子”\",\r\n      \"給大黃狗起名叫做“旺財”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 101510
+  splits:
+  - splitPath: Desc
+    text: "给大黄狗起什么样的名字？"
+    translated: "What kind of name should I give to the dog named Huang Dog?"
+  - splitPath: SelectionList[0]
+    text: "给大黄狗起名叫做“大黄”"
+    translated: "Name the big yellow dog 'Big Yellow.'"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "给大黄狗起名叫做“包子”"
+    translated: "They named their big yellow dog 'Steamed Bun'."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "给大黄狗起名叫做“旺财”"
+    translated: "Name the big yellow dog  “Fortune”"
+- raw: "{\r\n    \"Key\": 100210,\r\n    \"DescFinal\": \"是否將金太歲藏身之處告知六扇門捕快？\",\r\n    \"SelectionListFinal\": [\r\n      \"透露金太歲所藏之處\",\r\n      \"隱瞞金太歲所藏之處\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否将金太岁藏身之处告知六扇门捕快？\",\r\n    \"SelectionList\": [\r\n      \"透露金太岁所藏之处\",\r\n      \"隐瞒金太岁所藏之处\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否將金太歲藏身之處告知六扇門捕快？\",\r\n    \"SelectionTwList\": [\r\n      \"透露金太歲所藏之處\",\r\n      \"隱瞞金太歲所藏之處\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 100210
+  splits:
+  - splitPath: Desc
+    text: "是否将金太岁藏身之处告知六扇门捕快？"
+    translated: "Have you informed the Six Doors police about Jin Taisui's hiding place?"
+  - splitPath: SelectionList[0]
+    text: "透露金太岁所藏之处"
+    translated: "Reveal the hiding place of Jin Taisui"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "隐瞒金太岁所藏之处"
+    translated: "Conceal the whereabouts of Jin Taisui's stash"
+- raw: "{\r\n    \"Key\": 101810,\r\n    \"DescFinal\": \"如何處置受傷的女人？\",\r\n    \"SelectionListFinal\": [\r\n      \"先將女子藏到佛像之後\",\r\n      \"等人進廟一起救治女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何处置受伤的女人？\",\r\n    \"SelectionList\": [\r\n      \"先将女子藏到佛像之后\",\r\n      \"等人进庙一起救治女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處置受傷的女人？\",\r\n    \"SelectionTwList\": [\r\n      \"先將女子藏到佛像之後\",\r\n      \"等人進廟一起救治女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 101810
+  splits:
+  - splitPath: Desc
+    text: "如何处置受伤的女人？"
+    translated: "How should one handle an injured woman?"
+  - splitPath: SelectionList[0]
+    text: "先将女子藏到佛像之后"
+    translated: "First, hide the woman behind the Buddha statue."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "等人进庙一起救治女子"
+    translated: "Wait for everyone to enter the temple to treat the woman together."
+- raw: "{\r\n    \"Key\": 102010,\r\n    \"DescFinal\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"“南天玉柱”萬輕舟所在的衡山派\",\r\n      \"“陰陽無相”莊道玄所在的武當派\",\r\n      \"“白首龍君”鍾離恨所在的洞庭幫\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>遊戲難度1星</color>\",\r\n      \"<color=#ff9900>遊戲難度4星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"SelectionList\": [\r\n      \"“南天玉柱”万轻舟所在的衡山派\",\r\n      \"“阴阳无相”庄道玄所在的武当派\",\r\n      \"“白首龙君”钟离恨所在的洞庭帮\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"<color=#ff9900>游戏难度1星</color>\",\r\n      \"<color=#ff9900>游戏难度4星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"“南天玉柱”萬輕舟所在的衡山派\",\r\n      \"“陰陽無相”莊道玄所在的武當派\",\r\n      \"“白首龍君”鍾離恨所在的洞庭幫\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>遊戲難度1星</color>\",\r\n      \"<color=#ff9900>遊戲難度4星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 102010
+  splits:
+  - splitPath: Desc
+    text: "他日若能选择一个门派加入，你将如何选择？"
+    translated: "If you could join a sect one day, which one would you choose?"
+  - splitPath: SelectionList[0]
+    text: "“南天玉柱”万轻舟所在的衡山派"
+    translated: "“South Heaven Jade Pillar”  Wan Qingzhou's Hengshan Sect"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "“阴阳无相”庄道玄所在的武当派"
+    translated: "'Indistinguishable Yin and Yang' Zhuang Daoxuan's Wudang Sect"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "“白首龙君”钟离恨所在的洞庭帮"
+    translated: "Old White‑headed Dragon Lord Zhongli Hen's Dongting Sect"
+  - splitPath: TipTextList[0]
+    text: "<color=#ff9900>游戏难度3星</color>"
+    translated: "<color=#ff9900>The game difficulty is 3 stars</color>"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "<color=#ff9900>游戏难度1星</color>"
+    translated: "<color=#ff9900>The game difficulty is 1 stars</color>"
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "<color=#ff9900>游戏难度4星</color>"
+    translated: "<color=#ff9900>The game difficulty is 4 stars</color>"
+- raw: "{\r\n    \"Key\": 301300,\r\n    \"DescFinal\": \"如何處理這一尊白玉觀音？\",\r\n    \"SelectionListFinal\": [\r\n      \"留下寶物以免暴殄天物\",\r\n      \"賣了換錢分給受欺百姓\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何处理这一尊白玉观音？\",\r\n    \"SelectionList\": [\r\n      \"留下宝物以免暴殄天物\",\r\n      \"卖了换钱分给受欺百姓\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處理這一尊白玉觀音？\",\r\n    \"SelectionTwList\": [\r\n      \"留下寶物以免暴殄天物\",\r\n      \"賣了換錢分給受欺百姓\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 301300
+  splits:
+  - splitPath: Desc
+    text: "如何处理这一尊白玉观音？"
+    translated: "How should I handle this white jade Guanyin statue?"
+  - splitPath: SelectionList[0]
+    text: "留下宝物以免暴殄天物"
+    translated: "Leave the treasure behind to avoid wasting it."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "卖了换钱分给受欺百姓"
+    translated: "Sell it to get money and distribute it among the oppressed common people."
+- raw: "{\r\n    \"Key\": 200710,\r\n    \"DescFinal\": \"你可曾想明門規“誠心”到底為何？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾想明门规“诚心”到底为何？\\\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）</color>\",\r\n    \"SelectionList\": [\r\n      \"弟子已经明了\",\r\n      \"弟子还未明了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾想明門規“誠心”到底為何？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和百戲提升至大師，並前往荊北真武觀和湘北煙波塢探索）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 200710
+  splits:
+  - splitPath: Desc
+    text: "你可曾想明门规“诚心”到底为何？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）</color>"
+    translated: "Have you ever wondered what the sect rule  “Sincerity”  really means?\\n<color=#FF0000>'Note: After selecting Disciple has understood, the event with the Peaceful King will automatically trigger next month, and the game will enter its final outcome. (It is recommended to raise Medicine and Variety Arts to Master level before this selection and to explore Jingbei True Martial Temple and Xiangbei Smoke‑Rolling Fortress.)'</color>"
+  - splitPath: SelectionList[0]
+    text: "弟子已经明了"
+    translated: "Disciple has understood"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "弟子还未明了"
+    translated: "The disciple has yet to understand"
+- raw: "{\r\n    \"Key\": 201710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionListFinal\": [\r\n      \"弟子已經準備好了\",\r\n      \"弟子尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"SelectionList\": [\r\n      \"弟子已经准备好了\",\r\n      \"弟子尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionTwList\": [\r\n      \"弟子已經準備好了\",\r\n      \"弟子尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 201710
+  splits:
+  - splitPath: Desc
+    text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting 'Disciples are Ready,' the Heavenly Demon Assaulting the Mountain event will automatically trigger next month, and the game will proceed to its final outcome."
+  - splitPath: SelectionList[0]
+    text: "弟子已经准备好了"
+    translated: "Disciples are ready"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "弟子尚未准备好"
+    translated: "The disciple is not yet ready"
+- raw: "{\r\n    \"Key\": 599910,\r\n    \"DescFinal\": \"今日在演武場中做些什麼？\",\r\n    \"SelectionListFinal\": [\r\n      \"修煉基本功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日在演武场中做些什么？\",\r\n    \"SelectionList\": [\r\n      \"修炼基本功\",\r\n      \"修炼外功\",\r\n      \"修炼轻功\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日在演武場中做些什麼？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉基本功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 599910
+  splits:
+  - splitPath: Desc
+    text: "今日在演武场中做些什么？"
+    translated: "What are we doing in the Training Grounds today?"
+  - splitPath: SelectionList[0]
+    text: "修炼基本功"
+    translated: "Practicing the fundamentals"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "修炼外功"
+    translated: "Practicing external skills"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "修炼轻功"
+    translated: "Practice qinggong"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "还是算了"
+    translated: "Forget it"
+- raw: "{\r\n    \"Key\": 699910,\r\n    \"DescFinal\": \"今日在靜室中做些什麼？\",\r\n    \"SelectionListFinal\": [\r\n      \"修煉內功\",\r\n      \"讀書開卷\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日在静室中做些什么？\",\r\n    \"SelectionList\": [\r\n      \"修炼内功\",\r\n      \"读书开卷\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日在靜室中做些什麼？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉內功\",\r\n      \"讀書開卷\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 699910
+  splits:
+  - splitPath: Desc
+    text: "今日在静室中做些什么？"
+    translated: "What are you doing in the quiet room today?"
+  - splitPath: SelectionList[0]
+    text: "修炼内功"
+    translated: "Cultivate neigong"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "读书开卷"
+    translated: "Reading opens doors"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是算了"
+    translated: "Forget it"
+- raw: "{\r\n    \"Key\": 770900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"在天愿作比翼鸟\",\r\n      \"在地愿为连理枝\",\r\n      \"得成比目何辞死\",\r\n      \"愿作鸳鸯不羡仙\",\r\n      \"还是一个人过吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 770900
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "在天愿作比翼鸟"
+    translated: "In heaven may we be winged birds together."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "在地愿为连理枝"
+    translated: "In this life, may we be trees forever entwined."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "得成比目何辞死"
+    translated: "Achieving the union of two fish, what could death matter?"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "愿作鸳鸯不羡仙"
+    translated: "Willing to be a mated swan rather than a immortal."
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "还是一个人过吧"
+    translated: "Live alone, I guess"
+- raw: "{\r\n    \"Key\": 771000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"楊芸\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"杨芸\",\r\n      \"左灵珠\",\r\n      \"连翘儿\",\r\n      \"沈蓉蓉\",\r\n      \"谈文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"楊芸\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 771000
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "杨芸"
+    translated: "Yang Yun"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "左灵珠"
+    translated: "Zuo Lingzhu"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "连翘儿"
+    translated: "Lian Qiaoer"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "沈蓉蓉"
+    translated: "Shen Rongrong"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "谈文秀"
+    translated: "Tan Wenshao"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 771100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"阮碧青\",\r\n      \"靳红衣\",\r\n      \"萧令仪\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 771100
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "阮碧青"
+    translated: "Ruan Biqing"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "靳红衣"
+    translated: "Jin Hongyi"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "萧令仪"
+    translated: "Xiao Lingyi"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "薛如意"
+    translated: "Xue Ruyi"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "司徒伶"
+    translated: "Situ Ling"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 771200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"项欺霜\",\r\n      \"展青锋\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 771200
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "晏峨眉"
+    translated: "Yan Emei"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "夏侯珺"
+    translated: "Xiahou Jun"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "项欺霜"
+    translated: "Xiang Qishuang"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "展青锋"
+    translated: "Zhan Qingfeng"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 771300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"艾琳娜\",\r\n      \"文锦心\",\r\n      \"柳含烟\",\r\n      \"风间爱\",\r\n      \"风间月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 771300
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "艾琳娜"
+    translated: "Elena"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "文锦心"
+    translated: "Wen Jinxin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "柳含烟"
+    translated: "Liu Hanyan"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "风间爱"
+    translated: "Kazama Ai"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "风间月"
+    translated: "Kazama Yue"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 910001,\r\n    \"DescFinal\": \"今年冬學想要學習哪一種技藝？\",\r\n    \"SelectionListFinal\": [\r\n      \"儒學\",\r\n      \"火器\",\r\n      \"醫術\",\r\n      \"廚藝\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今年冬学想要学习哪一种技艺？\",\r\n    \"SelectionList\": [\r\n      \"儒学\",\r\n      \"火器\",\r\n      \"医术\",\r\n      \"厨艺\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今年冬學想要學習哪一種技藝？\",\r\n    \"SelectionTwList\": [\r\n      \"儒學\",\r\n      \"火器\",\r\n      \"醫術\",\r\n      \"廚藝\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 910001
+  splits:
+  - splitPath: Desc
+    text: "今年冬学想要学习哪一种技艺？"
+    translated: "This year, Dong Xue wants to learn which skill?"
+  - splitPath: SelectionList[0]
+    text: "儒学"
+    translated: "Confucian Studies"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "火器"
+    translated: "Firearms"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "医术"
+    translated: "Medicine"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "厨艺"
+    translated: "Cooking"
+- raw: "{\r\n    \"Key\": 800810,\r\n    \"DescFinal\": \"是否讓袁鐵口為你算命？\",\r\n    \"SelectionListFinal\": [\r\n      \"相逢有緣那就卜算一卦\",\r\n      \"江湖闖蕩不問卦裡前程\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否让袁铁口为你算命？\",\r\n    \"SelectionList\": [\r\n      \"相逢有缘那就卜算一卦\",\r\n      \"江湖闯荡不问卦里前程\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否讓袁鐵口為你算命？\",\r\n    \"SelectionTwList\": [\r\n      \"相逢有緣那就卜算一卦\",\r\n      \"江湖闖蕩不問卦裡前程\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 800810
+  splits:
+  - splitPath: Desc
+    text: "是否让袁铁口为你算命？"
+    translated: "Should I let Yuan Tiekuo tell your fortune?"
+  - splitPath: SelectionList[0]
+    text: "相逢有缘那就卜算一卦"
+    translated: "If we meet by destiny, let's cast lots to see what fate holds for us."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "江湖闯荡不问卦里前程"
+    translated: "Adventuring in the Jianghu doesn't concern itself with the fortune of the divination."
+- raw: "{\r\n    \"Key\": 806400,\r\n    \"DescFinal\": \"是否登上擂臺挑戰項欺霜？\",\r\n    \"SelectionListFinal\": [\r\n      \"上臺挑戰項欺霜\",\r\n      \"且不必自找麻煩\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否登上擂台挑战项欺霜？\",\r\n    \"SelectionList\": [\r\n      \"上台挑战项欺霜\",\r\n      \"且不必自找麻烦\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否登上擂臺挑戰項欺霜？\",\r\n    \"SelectionTwList\": [\r\n      \"上臺挑戰項欺霜\",\r\n      \"且不必自找麻煩\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 806400
+  splits:
+  - splitPath: Desc
+    text: "是否登上擂台挑战项欺霜？"
+    translated: "Do you want to challenge Xiang Qishuang on the arena stage?"
+  - splitPath: SelectionList[0]
+    text: "上台挑战项欺霜"
+    translated: "Step up to challenge Xiang Qishuang"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "且不必自找麻烦"
+    translated: "And there's no need to make things difficult for yourself."
+- raw: "{\r\n    \"Key\": 807500,\r\n    \"DescFinal\": \"是否幫助婦人趕走無賴？\",\r\n    \"SelectionListFinal\": [\r\n      \"上前相助趕走無賴\",\r\n      \"閒事無需徒增事端\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否帮助妇人赶走无赖？\",\r\n    \"SelectionList\": [\r\n      \"上前相助赶走无赖\",\r\n      \"闲事无需徒增事端\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否幫助婦人趕走無賴？\",\r\n    \"SelectionTwList\": [\r\n      \"上前相助趕走無賴\",\r\n      \"閒事無需徒增事端\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 807500
+  splits:
+  - splitPath: Desc
+    text: "是否帮助妇人赶走无赖？"
+    translated: "Did you help the woman drive away the rogue?"
+  - splitPath: SelectionList[0]
+    text: "上前相助赶走无赖"
+    translated: "Step forward to assist in driving away the rogue."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "闲事无需徒增事端"
+    translated: "Matters best left alone do not need to provoke further complications."
+- raw: "{\r\n    \"Key\": 899200,\r\n    \"DescFinal\": \"湘南沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗湘南特色的美味\",\r\n      \"逛一逛湘南有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"湘南没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝湘南特色的美味\",\r\n      \"逛一逛湘南有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"湘南沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗湘南特色的美味\",\r\n      \"逛一逛湘南有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 899200
+  splits:
+  - splitPath: Desc
+    text: "湘南没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Xiangnan. What would you like to choose?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝湘南特色的美味"
+    translated: "Try the delicious specialties of Xiangnan"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛湘南有趣的地方"
+    translated: "Stroll through the interesting places in Xiangnan"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 962100,\r\n    \"DescFinal\": \"是否下山歸家暫避，為衡山派留存香火？\",\r\n    \"SelectionListFinal\": [\r\n      \"保衡山香火傳承\",\r\n      \"勢與本派同進退\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否下山归家暂避，为衡山派留存香火？\",\r\n    \"SelectionList\": [\r\n      \"保衡山香火传承\",\r\n      \"势与本派同进退\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否下山歸家暫避，為衡山派留存香火？\",\r\n    \"SelectionTwList\": [\r\n      \"保衡山香火傳承\",\r\n      \"勢與本派同進退\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 962100
+  splits:
+  - splitPath: Desc
+    text: "是否下山归家暂避，为衡山派留存香火？"
+    translated: "Should they return home temporarily to avoid danger and ensure that the Hengshan Sect continues its lineage?"
+  - splitPath: SelectionList[0]
+    text: "保衡山香火传承"
+    translated: "Preserve the incense lineage of Mount Hengshan"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "势与本派同进退"
+    translated: "Align with the sect's fortunes and misfortunes"
+- raw: "{\r\n    \"Key\": 1001210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionListFinal\": [\r\n      \"天竺國月食石   1000錢\",\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"爪哇國金剛香串   1000錢\",\r\n      \"沒有想要的\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"月食石\\\\n出戰俠客氣血上限+3%。\",\r\n      \"增加3000氣血\",\r\n      \"金剛香串\\\\n出戰俠客氣血上限+3%。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"SelectionList\": [\r\n      \"天竺国月食石   1000钱\",\r\n      \"暹罗国娜迦蛇血   1000钱\",\r\n      \"爪哇国金刚香串   1000钱\",\r\n      \"没有想要的\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"月食石\\\\n出战侠客气血上限+3%。\",\r\n      \"增加3000气血\",\r\n      \"金刚香串\\\\n出战侠客气血上限+3%。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionTwList\": [\r\n      \"天竺國月食石   1000錢\",\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"爪哇國金剛香串   1000錢\",\r\n      \"沒有想要的\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"月食石\\\\n出戰俠客氣血上限+3%。\",\r\n      \"增加3000氣血\",\r\n      \"金剛香串\\\\n出戰俠客氣血上限+3%。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1001210
+  splits:
+  - splitPath: Desc
+    text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+  - splitPath: SelectionList[0]
+    text: "天竺国月食石   1000钱"
+    translated: "Lunar Eclipse Stone of Tianzhu 1000Coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "暹罗国娜迦蛇血   1000钱"
+    translated: "Naga Snake Blood from Siam 1000 coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "爪哇国金刚香串   1000钱"
+    translated: "Java Vajra Incense String   1000 money"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "没有想要的"
+    translated: "No desired results"
+  - splitPath: TipTextList[0]
+    text: "月食石\\n出战侠客气血上限+3%。"
+    translated: "Lunar Eclipse Stone\\nThe Wanderer's lifeforce upper limit in battle is +3%."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "增加3000气血"
+    translated: "Increase 3000 Lifeforce"
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "金刚香串\\n出战侠客气血上限+3%。"
+    translated: "Vajra Incense String\\nThe maximum lifeforce for the Wanderers in battle is +3%."
+- raw: "{\r\n    \"Key\": 6100110,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionListFinal\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"天竺國月食石   1000錢\",\r\n      \"爪哇國金剛香串   1000錢\",\r\n      \"瀾滄國《瀾滄劍譜》   2000錢\",\r\n      \"瀾滄國使女一對   3000錢\",\r\n      \"沒有想要的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"增加3000氣血\",\r\n      \"月食石\\\\n出戰俠客氣血上限+3%。\",\r\n      \"金剛香串\\\\n出戰俠客氣血上限+3%。\",\r\n      \"瀾滄劍法\\\\n消耗1點行動力，單次攻擊造1.2倍俠客功力的傷害。\",\r\n      \"隊友【日光女使】朵金兒/【月光女使】朵玉兒\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"SelectionList\": [\r\n      \"暹罗国娜迦蛇血   1000钱\",\r\n      \"天竺国月食石   1000钱\",\r\n      \"爪哇国金刚香串   1000钱\",\r\n      \"澜沧国《澜沧剑谱》   2000钱\",\r\n      \"澜沧国使女一对   3000钱\",\r\n      \"没有想要的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"增加3000气血\",\r\n      \"月食石\\\\n出战侠客气血上限+3%。\",\r\n      \"金刚香串\\\\n出战侠客气血上限+3%。\",\r\n      \"澜沧剑法\\\\n消耗1点行动力，单次攻击造1.2倍侠客功力的伤害。\",\r\n      \"队友【日光女使】朵金儿/【月光女使】朵玉儿\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionTwList\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"天竺國月食石   1000錢\",\r\n      \"爪哇國金剛香串   1000錢\",\r\n      \"瀾滄國《瀾滄劍譜》   2000錢\",\r\n      \"瀾滄國使女一對   3000錢\",\r\n      \"沒有想要的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"增加3000氣血\",\r\n      \"月食石\\\\n出戰俠客氣血上限+3%。\",\r\n      \"金剛香串\\\\n出戰俠客氣血上限+3%。\",\r\n      \"瀾滄劍法\\\\n消耗1點行動力，單次攻擊造1.2倍俠客功力的傷害。\",\r\n      \"隊友【日光女使】朵金兒/【月光女使】朵玉兒\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6100110
+  splits:
+  - splitPath: Desc
+    text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+  - splitPath: SelectionList[0]
+    text: "暹罗国娜迦蛇血   1000钱"
+    translated: "Naga Snake Blood from Siam 1000 coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "天竺国月食石   1000钱"
+    translated: "Lunar Eclipse Stone of Tianzhu 1000Coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "爪哇国金刚香串   1000钱"
+    translated: "Java Vajra Incense String   1000 money"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "澜沧国《澜沧剑谱》   2000钱"
+    translated: "Lancang Sword Manual' '2000 Coin"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "澜沧国使女一对   3000钱"
+    translated: "Lancang Kingdom's female envoy pair 3000 Coin"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "没有想要的"
+    translated: "No desired results"
+  - splitPath: TipTextList[0]
+    text: "增加3000气血"
+    translated: "Increase 3000 Lifeforce"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "月食石\\n出战侠客气血上限+3%。"
+    translated: "Lunar Eclipse Stone\\nThe Wanderer's lifeforce upper limit in battle is +3%."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "金刚香串\\n出战侠客气血上限+3%。"
+    translated: "Vajra Incense String\\nThe maximum lifeforce for the Wanderers in battle is +3%."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "澜沧剑法\\n消耗1点行动力，单次攻击造1.2倍侠客功力的伤害。"
+    translated: "Lancang Sword Technique\\nSpend 1 Action Points for a single attack that deals 1.2 times the Wanderer's Power in damage."
+  - split: 4
+    splitPath: TipTextList[4]
+    text: "队友【日光女使】朵金儿/【月光女使】朵玉儿"
+    translated: "Teammate  【Daylight Female Messenger】  Duo Jin'er /  【Moonlight Maiden Agent】  Duo Yu'er"
+- raw: "{\r\n    \"Key\": 6100210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionListFinal\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"真臘國紫蔻香犀丸   2000錢\",\r\n      \"波斯國波斯毛毯   2000錢\",\r\n      \"天竺國《無量壽經》   4000錢\",\r\n      \"柔佛國老樹根   5000錢\",\r\n      \"柔佛國老樹根  3000錢\",\r\n      \"沒有想要的\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"增加3000氣血\",\r\n      \"增加7000氣血\",\r\n      \"波斯毛毯\\\\n出戰俠客氣血上限+3%。\",\r\n      \"無量壽功\\\\n消耗4點行動力，回覆我方當前氣血值18%的氣血。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"SelectionList\": [\r\n      \"暹罗国娜迦蛇血   1000钱\",\r\n      \"真腊国紫蔻香犀丸   2000钱\",\r\n      \"波斯国波斯毛毯   2000钱\",\r\n      \"天竺国《无量寿经》   4000钱\",\r\n      \"柔佛国老树根   5000钱\",\r\n      \"柔佛国老树根  3000钱\",\r\n      \"没有想要的\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"增加3000气血\",\r\n      \"增加7000气血\",\r\n      \"波斯毛毯\\\\n出战侠客气血上限+3%。\",\r\n      \"无量寿功\\\\n消耗4点行动力，回复我方当前气血值18%的气血。\",\r\n      \"老树根\\\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。\",\r\n      \"老树根\\\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionTwList\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"真臘國紫蔻香犀丸   2000錢\",\r\n      \"波斯國波斯毛毯   2000錢\",\r\n      \"天竺國《無量壽經》   4000錢\",\r\n      \"柔佛國老樹根   5000錢\",\r\n      \"柔佛國老樹根  3000錢\",\r\n      \"沒有想要的\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"增加3000氣血\",\r\n      \"增加7000氣血\",\r\n      \"波斯毛毯\\\\n出戰俠客氣血上限+3%。\",\r\n      \"無量壽功\\\\n消耗4點行動力，回覆我方當前氣血值18%的氣血。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6100210
+  splits:
+  - splitPath: Desc
+    text: "是否购买那瑜陀所展示的西洋珍宝？"
+    translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+  - splitPath: SelectionList[0]
+    text: "暹罗国娜迦蛇血   1000钱"
+    translated: "Naga Snake Blood from Siam 1000 coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "真腊国紫蔻香犀丸   2000钱"
+    translated: "True Cambodian Purple Clove Fragrant Rhinoceros Pill   2000 coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "波斯国波斯毛毯   2000钱"
+    translated: "Persian Carpet 2000 money"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "天竺国《无量寿经》   4000钱"
+    translated: "Infinite Life Sutra of the Kingdom of Tianzhu 'Coin' 4000Money"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "柔佛国老树根   5000钱"
+    translated: "Softwood Root of Rujifu Old Tree 5000 Coin"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "柔佛国老树根  3000钱"
+    translated: "Old Tree Roots of Jiezhou 3000 money"
+  - split: 6
+    splitPath: SelectionList[6]
+    text: "没有想要的"
+    translated: "No desired results"
+  - splitPath: TipTextList[0]
+    text: "增加3000气血"
+    translated: "Increase 3000 Lifeforce"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "增加7000气血"
+    translated: "Increase 7000 lifeforce"
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "波斯毛毯\\n出战侠客气血上限+3%。"
+    translated: "Persian Carpet\\nThe Wanderer's lifeforce upper limit in battle is +3%."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "无量寿功\\n消耗4点行动力，回复我方当前气血值18%的气血。"
+    translated: "Limitless Life Technique\\nConsume 4 Action Points to recover 18% of my team's current Lifeforce."
+  - split: 4
+    splitPath: TipTextList[4]
+    text: "老树根\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。"
+    translated: "Old Tree Root\\nConsume 0 Action Points to recover 4 Action Points. This can only be used once per battle."
+  - split: 5
+    splitPath: TipTextList[5]
+    text: "老树根\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。"
+    translated: "Old Tree Root\\nConsume 0 Action Points to recover 4 Action Points. This can only be used once per battle."
+- raw: "{\r\n    \"Key\": 1002210,\r\n    \"DescFinal\": \"是否購買江湖藝人的金瘡藥？\",\r\n    \"SelectionListFinal\": [\r\n      \"買上一包試試效果\",\r\n      \"江湖騙子不足為信\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否购买江湖艺人的金疮药？\",\r\n    \"SelectionList\": [\r\n      \"买上一包试试效果\",\r\n      \"江湖骗子不足为信\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否購買江湖藝人的金瘡藥？\",\r\n    \"SelectionTwList\": [\r\n      \"買上一包試試效果\",\r\n      \"江湖騙子不足為信\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1002210
+  splits:
+  - splitPath: Desc
+    text: "是否购买江湖艺人的金疮药？"
+    translated: "Do you want to buy balm for wound healing from a Jianghu performer?"
+  - splitPath: SelectionList[0]
+    text: "买上一包试试效果"
+    translated: "Buy a pack and try to see the effect."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "江湖骗子不足为信"
+    translated: "The Jianghu scammers are not trustworthy"
+- raw: "{\r\n    \"Key\": 1003310,\r\n    \"DescFinal\": \"酒館中見到酒肉頭陀與小二爭執，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"幫助頭陀了結飯賬\",\r\n      \"幫助小二催討飯賬\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"酒馆中见到酒肉头陀与小二争执，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"帮助头陀了结饭账\",\r\n      \"帮助小二催讨饭账\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"酒館中見到酒肉頭陀與小二爭執，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"幫助頭陀了結飯賬\",\r\n      \"幫助小二催討飯賬\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1003310
+  splits:
+  - splitPath: Desc
+    text: "酒馆中见到酒肉头陀与小二争执，如何选择？"
+    translated: "In the tavern, you see Dharmic Beggar and Waiter arguing over food and drink. How should you handle this situation?"
+  - splitPath: SelectionList[0]
+    text: "帮助头陀了结饭账"
+    translated: "Help the monk settle the food bill"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "帮助小二催讨饭账"
+    translated: "Help the waiter collect the meal debts"
+- raw: "{\r\n    \"Key\": 1003810,\r\n    \"DescFinal\": \"是否為用虎骨和蛇膽送去盧府售出？\",\r\n    \"SelectionListFinal\": [\r\n      \"蛇膽虎骨換一葫酒\",\r\n      \"蛇膽虎骨換些盤纏\",\r\n      \"盤纏豐盈無需去換\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否为用虎骨和蛇胆送去卢府售出？\",\r\n    \"SelectionList\": [\r\n      \"蛇胆虎骨换一葫酒\",\r\n      \"蛇胆虎骨换些盘缠\",\r\n      \"盘缠丰盈无需去换\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否為用虎骨和蛇膽送去盧府售出？\",\r\n    \"SelectionTwList\": [\r\n      \"蛇膽虎骨換一葫酒\",\r\n      \"蛇膽虎骨換些盤纏\",\r\n      \"盤纏豐盈無需去換\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1003810
+  splits:
+  - splitPath: Desc
+    text: "是否为用虎骨和蛇胆送去卢府售出？"
+    translated: "Was it decided to sell the tiger bone and snake gallbladder at Lord Lu's estate?"
+  - splitPath: SelectionList[0]
+    text: "蛇胆虎骨换一葫酒"
+    translated: "Snake gallbladder and tiger bone in exchange for a gourd of wine"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "蛇胆虎骨换些盘缠"
+    translated: "Snake gallbladder and tiger bone for some travel expenses"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "盘缠丰盈无需去换"
+    translated: "With ample funds, there's no need to exchange them."
+- raw: "{\r\n    \"Key\": 1095210,\r\n    \"DescFinal\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"SelectionListFinal\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？\",\r\n    \"SelectionList\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"SelectionTwList\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1095210
+  splits:
+  - splitPath: Desc
+    text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
+    translated: "Challenge Dungeons three‑star difficulty. This dungeon provides a high‑difficulty battle experience but will not affect the game's main storyline. Do you accept the challenge?"
+  - splitPath: SelectionList[0]
+    text: "是"
+    translated: "Yes"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "否"
+    translated: "No"
+- raw: "{\r\n    \"Key\": 1099200,\r\n    \"DescFinal\": \"荊東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗荊東特色的美味\",\r\n      \"逛一逛荊東有趣的地方\",\r\n      \"《江湖閒話-四時迭運》\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"荆东没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝荆东特色的美味\",\r\n      \"逛一逛荆东有趣的地方\",\r\n      \"《江湖闲话-四时迭运》\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"荊東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗荊東特色的美味\",\r\n      \"逛一逛荊東有趣的地方\",\r\n      \"《江湖閒話-四時迭運》\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1099200
+  splits:
+  - splitPath: Desc
+    text: "荆东没有什么特别事情发生，如何选择？"
+    translated: "There was nothing particularly noteworthy happening in Jing Dong. How would you like to proceed?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝荆东特色的美味"
+    translated: "Try some of the delicious specialties from Jingdong."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛荆东有趣的地方"
+    translated: "Explore the interesting spots in Jingdong"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "《江湖闲话-四时迭运》"
+    translated: "《Chatter of the Jianghu ‑ The Changing Seasons》"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 1490300,\r\n    \"DescFinal\": \"今日來永盛鏢局何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"去永勝鏢局護鏢\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日来永盛镖局何事？\",\r\n    \"SelectionList\": [\r\n      \"去永胜镖局护镖\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日來永盛鏢局何事？\",\r\n    \"SelectionTwList\": [\r\n      \"去永勝鏢局護鏢\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1490300
+  splits:
+  - splitPath: Desc
+    text: "今日来永盛镖局何事？"
+    translated: "What brings you to Yongsheng Escort Agency today?"
+  - splitPath: SelectionList[0]
+    text: "去永胜镖局护镖"
+    translated: "Go to Yongsheng Escort Bureau to guard the convoy."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+    translated: "Let's come back another day"
+- raw: "{\r\n    \"Key\": 1502610,\r\n    \"DescFinal\": \"如何處置“無法和尚”法元？\",\r\n    \"SelectionListFinal\": [\r\n      \"除了法元為江湖除害\",\r\n      \"饒了法元收為己用\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何处置“无法和尚”法元？\",\r\n    \"SelectionList\": [\r\n      \"除了法元为江湖除害\",\r\n      \"饶了法元收为己用\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處置“無法和尚”法元？\",\r\n    \"SelectionTwList\": [\r\n      \"除了法元為江湖除害\",\r\n      \"饒了法元收為己用\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1502610
+  splits:
+  - splitPath: Desc
+    text: "如何处置“无法和尚”法元？"
+    translated: "How should we handle  “Unmonk Unable”  Fa Yuan?"
+  - splitPath: SelectionList[0]
+    text: "除了法元为江湖除害"
+    translated: "Besides Fa Yuan working to purge the Jianghu of harm,"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "饶了法元收为己用"
+    translated: "Forgive Fa Yuan and make use of him."
+- raw: "{\r\n    \"Key\": 1800600,\r\n    \"DescFinal\": \"阮碧青與蔣癘夫兩人決裂，幫助何人？\",\r\n    \"SelectionListFinal\": [\r\n      \"幫助阮碧青\",\r\n      \"幫助蔣癘夫\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"阮碧青与蒋疠夫两人决裂，帮助何人？\",\r\n    \"SelectionList\": [\r\n      \"帮助阮碧青\",\r\n      \"帮助蒋疠夫\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"阮碧青與蔣癘夫兩人決裂，幫助何人？\",\r\n    \"SelectionTwList\": [\r\n      \"幫助阮碧青\",\r\n      \"幫助蔣癘夫\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1800600
+  splits:
+  - splitPath: Desc
+    text: "阮碧青与蒋疠夫两人决裂，帮助何人？"
+    translated: "Ruan Biqing and Jiang Lifu have parted ways. Who does Ruan Biqing help?"
+  - splitPath: SelectionList[0]
+    text: "帮助阮碧青"
+    translated: "Help Ruan Biqing"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "帮助蒋疠夫"
+    translated: "Help Jiang Lifu"
+- raw: "{\r\n    \"Key\": 1903000,\r\n    \"DescFinal\": \"如何處置異蛇王？\",\r\n    \"SelectionListFinal\": [\r\n      \"馴牧異蛇作為寵物\",\r\n      \"殺蛇取膽修煉內功\",\r\n      \"殺蛇取膽以做後用\",\r\n      \"馴牧異蛇贈阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何处置异蛇王？\",\r\n    \"SelectionList\": [\r\n      \"驯牧异蛇作为宠物\",\r\n      \"杀蛇取胆修炼内功\",\r\n      \"杀蛇取胆以做后用\",\r\n      \"驯牧异蛇赠阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處置異蛇王？\",\r\n    \"SelectionTwList\": [\r\n      \"馴牧異蛇作為寵物\",\r\n      \"殺蛇取膽修煉內功\",\r\n      \"殺蛇取膽以做後用\",\r\n      \"馴牧異蛇贈阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 1903000
+  splits:
+  - splitPath: Desc
+    text: "如何处置异蛇王？"
+    translated: "How should we deal with the Strange Snake King?"
+  - splitPath: SelectionList[0]
+    text: "驯牧异蛇作为宠物"
+    translated: "Taming Strange Snakes as Pets"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "杀蛇取胆修炼内功"
+    translated: "Killing snakes to extract their bile for neigong cultivation."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "杀蛇取胆以做后用"
+    translated: "Kill the snake to take its gallbladder for later use."
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "驯牧异蛇赠阮碧青"
+    translated: "Tend and raise the Strange Snake and give it to Ruan Biqing."
+- raw: "{\r\n    \"Key\": 2090200,\r\n    \"DescFinal\": \"湘東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗湘東特色的美味\",\r\n      \"逛一逛湘東有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"湘东没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝湘东特色的美味\",\r\n      \"逛一逛湘东有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"湘東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗湘東特色的美味\",\r\n      \"逛一逛湘東有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2090200
+  splits:
+  - splitPath: Desc
+    text: "湘东没有什么特别事情发生，如何选择？"
+    translated: "There were no special events in Xiangdong this time. What would you like to choose?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝湘东特色的美味"
+    translated: "Try the delicious specialties of Xiangdong!"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛湘东有趣的地方"
+    translated: "Explore the interesting places in Xiangdong"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 2000910,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何选择？\",\r\n    \"SelectionList\": [\r\n      \"打赏左灵珠\",\r\n      \"离开不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2000910
+  splits:
+  - splitPath: Desc
+    text: "如何选择？"
+    translated: "How to choose?"
+  - splitPath: SelectionList[0]
+    text: "打赏左灵珠"
+    translated: "‑tip Zuo Lingzhu"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "离开不看了"
+    translated: "Leave and stop watching"
+- raw: "{\r\n    \"Key\": 2001010,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何选择？\",\r\n    \"SelectionList\": [\r\n      \"打赏左灵珠\",\r\n      \"离开不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2001010
+  splits:
+  - splitPath: Desc
+    text: "如何选择？"
+    translated: "How to choose?"
+  - splitPath: SelectionList[0]
+    text: "打赏左灵珠"
+    translated: "‑tip Zuo Lingzhu"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "离开不看了"
+    translated: "Leave and stop watching"
+- raw: "{\r\n    \"Key\": 2001110,\r\n    \"DescFinal\": \"如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"如何选择？\",\r\n    \"SelectionList\": [\r\n      \"打赏左灵珠\",\r\n      \"离开不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"打賞左靈珠\",\r\n      \"離開不看了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2001110
+  splits:
+  - splitPath: Desc
+    text: "如何选择？"
+    translated: "How to choose?"
+  - splitPath: SelectionList[0]
+    text: "打赏左灵珠"
+    translated: "‑tip Zuo Lingzhu"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "离开不看了"
+    translated: "Leave and stop watching"
+- raw: "{\r\n    \"Key\": 2001810,\r\n    \"DescFinal\": \"選擇喚醒誰給與你幫助？\",\r\n    \"SelectionListFinal\": [\r\n      \"喚醒靈猿和吉鼠\",\r\n      \"喚醒福豬和瑞兔\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择唤醒谁给与你帮助？\",\r\n    \"SelectionList\": [\r\n      \"唤醒灵猿和吉鼠\",\r\n      \"唤醒福猪和瑞兔\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇喚醒誰給與你幫助？\",\r\n    \"SelectionTwList\": [\r\n      \"喚醒靈猿和吉鼠\",\r\n      \"喚醒福豬和瑞兔\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2001810
+  splits:
+  - splitPath: Desc
+    text: "选择唤醒谁给与你帮助？"
+    translated: "Who do you choose to awaken for help?"
+  - splitPath: SelectionList[0]
+    text: "唤醒灵猿和吉鼠"
+    translated: "Awaken the Spirit Monkey and Lucky Rat"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "唤醒福猪和瑞兔"
+    translated: "Awaken the Lucky Pig and Auspicious Rabbit"
+- raw: "{\r\n    \"Key\": 2002310,\r\n    \"DescFinal\": \"選擇喚醒誰給與你幫助？\",\r\n    \"SelectionListFinal\": [\r\n      \"喚醒碧雲仙子\",\r\n      \"喚醒烏雲仙子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择唤醒谁给与你帮助？\",\r\n    \"SelectionList\": [\r\n      \"唤醒碧云仙子\",\r\n      \"唤醒乌云仙子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇喚醒誰給與你幫助？\",\r\n    \"SelectionTwList\": [\r\n      \"喚醒碧雲仙子\",\r\n      \"喚醒烏雲仙子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2002310
+  splits:
+  - splitPath: Desc
+    text: "选择唤醒谁给与你帮助？"
+    translated: "Who do you choose to awaken for help?"
+  - splitPath: SelectionList[0]
+    text: "唤醒碧云仙子"
+    translated: "Awaken Lady Biyun"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "唤醒乌云仙子"
+    translated: "Awaken the Cloud Fairy"
+- raw: "{\r\n    \"Key\": 2005410,\r\n    \"DescFinal\": \"你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"除掉章太歧並裝作毫不知情\",\r\n      \"除掉章太歧並向沈蓉蓉挑明\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你发现了沈蓉蓉和天魔教散人章太歧暗中有牵连，此时如何选择？\",\r\n    \"SelectionList\": [\r\n      \"除掉章太歧并装作毫不知情\",\r\n      \"除掉章太歧并向沈蓉蓉挑明\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你發現了沈蓉蓉和天魔教散人章太歧暗中有牽連，此時如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"除掉章太歧並裝作毫不知情\",\r\n      \"除掉章太歧並向沈蓉蓉挑明\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2005410
+  splits:
+  - splitPath: Desc
+    text: "你发现了沈蓉蓉和天魔教散人章太歧暗中有牵连，此时如何选择？"
+    translated: "You have discovered a connection between Shen Rongrong and Zhang Taiqi, a wandering member of the Heavenly Demon Sect. How should you proceed?"
+  - splitPath: SelectionList[0]
+    text: "除掉章太歧并装作毫不知情"
+    translated: "Get rid of Zhang Taiqi and pretend to know nothing about it."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "除掉章太歧并向沈蓉蓉挑明"
+    translated: "Eliminate Zhang Taiqi and make Shen Rongrong understand."
+- raw: "{\r\n    \"Key\": 2390100,\r\n    \"DescFinal\": \"今日要去聽哪一位夫子授課？\",\r\n    \"SelectionListFinal\": [\r\n      \"東廬先生\",\r\n      \"南坡先生\",\r\n      \"北村先生\",\r\n      \"嶽麓居士\",\r\n      \"無心聽講\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日要去听哪一位夫子授课？\",\r\n    \"SelectionList\": [\r\n      \"东庐先生\",\r\n      \"南坡先生\",\r\n      \"北村先生\",\r\n      \"岳麓居士\",\r\n      \"无心听讲\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日要去聽哪一位夫子授課？\",\r\n    \"SelectionTwList\": [\r\n      \"東廬先生\",\r\n      \"南坡先生\",\r\n      \"北村先生\",\r\n      \"嶽麓居士\",\r\n      \"無心聽講\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2390100
+  splits:
+  - splitPath: Desc
+    text: "今日要去听哪一位夫子授课？"
+    translated: "Which teacher's lecture should I attend today?"
+  - splitPath: SelectionList[0]
+    text: "东庐先生"
+    translated: "Mr. Donglu"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "南坡先生"
+    translated: "Mr. Nanpo"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "北村先生"
+    translated: "Mr. Beigu.cun"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "岳麓居士"
+    translated: "Yue Lu Hermit"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "无心听讲"
+    translated: "Didn't pay attention to the lecture"
+- raw: "{\r\n    \"Key\": 2400210,\r\n    \"DescFinal\": \"來到朱雀坊要如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"大堂賭徒眾多，與他們耍一耍\",\r\n      \"雅廳來了貴客，去裡面耍一耍\",\r\n      \"先不著急押骰，多看長長見識\",\r\n      \"今天沒有興致，還是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"来到朱雀坊要如何选择？\",\r\n    \"SelectionList\": [\r\n      \"大堂赌徒众多，与他们耍一耍\",\r\n      \"雅厅来了贵客，去里面耍一耍\",\r\n      \"先不着急押骰，多看长长见识\",\r\n      \"今天没有兴致，还是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"來到朱雀坊要如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"大堂賭徒眾多，與他們耍一耍\",\r\n      \"雅廳來了貴客，去裡面耍一耍\",\r\n      \"先不著急押骰，多看長長見識\",\r\n      \"今天沒有興致，還是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2400210
+  splits:
+  - splitPath: Desc
+    text: "来到朱雀坊要如何选择？"
+    translated: "How should I choose when entering the Phoenix Quarter?"
+  - splitPath: SelectionList[0]
+    text: "大堂赌徒众多，与他们耍一耍"
+    translated: "The main hall is crowded with gamblers. Have some fun with them."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "雅厅来了贵客，去里面耍一耍"
+    translated: "The elegant hall has received esteemed guests; let's go entertain them inside."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "先不着急押骰，多看长长见识"
+    translated: "Don't rush to bet just yet; take your time and learn more first."
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "今天没有兴致，还是先回去吧"
+    translated: "I don't feel like it today, let's just go back home first."
+- raw: "{\r\n    \"Key\": 2400410,\r\n    \"DescFinal\": \"來到朱雀坊要如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"大堂賭徒眾多，與他們耍一耍\",\r\n      \"雅廳來了貴客，去裡面耍一耍\",\r\n      \"先不著急押骰，多看長長見識\",\r\n      \"今天沒有興致，還是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"来到朱雀坊要如何选择？\",\r\n    \"SelectionList\": [\r\n      \"大堂赌徒众多，与他们耍一耍\",\r\n      \"雅厅来了贵客，去里面耍一耍\",\r\n      \"先不着急押骰，多看长长见识\",\r\n      \"今天没有兴致，还是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"來到朱雀坊要如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"大堂賭徒眾多，與他們耍一耍\",\r\n      \"雅廳來了貴客，去裡面耍一耍\",\r\n      \"先不著急押骰，多看長長見識\",\r\n      \"今天沒有興致，還是先回去吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2400410
+  splits:
+  - splitPath: Desc
+    text: "来到朱雀坊要如何选择？"
+    translated: "How should I choose when entering the Phoenix Quarter?"
+  - splitPath: SelectionList[0]
+    text: "大堂赌徒众多，与他们耍一耍"
+    translated: "The main hall is crowded with gamblers. Have some fun with them."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "雅厅来了贵客，去里面耍一耍"
+    translated: "The elegant hall has received esteemed guests; let's go entertain them inside."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "先不着急押骰，多看长长见识"
+    translated: "Don't rush to bet just yet; take your time and learn more first."
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "今天没有兴致，还是先回去吧"
+    translated: "I don't feel like it today, let's just go back home first."
+- raw: "{\r\n    \"Key\": 2590200,\r\n    \"DescFinal\": \"荊北沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗荊北特色的美味\",\r\n      \"逛一逛荊北有趣的地方\",\r\n      \"《江湖閒話-將軍百戰》\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"荆北没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝荆北特色的美味\",\r\n      \"逛一逛荆北有趣的地方\",\r\n      \"《江湖闲话-将军百战》\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"荊北沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗荊北特色的美味\",\r\n      \"逛一逛荊北有趣的地方\",\r\n      \"《江湖閒話-將軍百戰》\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2590200
+  splits:
+  - splitPath: Desc
+    text: "荆北没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Jingbei. What would you like to choose?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝荆北特色的美味"
+    translated: "Try some of the delicious specialties from Jingbei."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛荆北有趣的地方"
+    translated: "Stroll through the interesting spots in Jingbei"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "《江湖闲话-将军百战》"
+    translated: "《Chatter of the Jianghu ‑ A General's Hundred Battles》"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 2502510,\r\n    \"DescFinal\": \"是否答應給艾琳娜作嚮導？\",\r\n    \"SelectionListFinal\": [\r\n      \"同意做嚮導\",\r\n      \"拒絕做嚮導\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否答应给艾琳娜作向导？\",\r\n    \"SelectionList\": [\r\n      \"同意做向导\",\r\n      \"拒绝做向导\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否答應給艾琳娜作嚮導？\",\r\n    \"SelectionTwList\": [\r\n      \"同意做嚮導\",\r\n      \"拒絕做嚮導\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2502510
+  splits:
+  - splitPath: Desc
+    text: "是否答应给艾琳娜作向导？"
+    translated: "Are you willing to serve as a guide for Elena?"
+  - splitPath: SelectionList[0]
+    text: "同意做向导"
+    translated: "Agree to be our guide"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "拒绝做向导"
+    translated: "Refuse to be a guide"
+- raw: "{\r\n    \"Key\": 2504910,\r\n    \"DescFinal\": \"是否要去春風樓看看熱鬧?\",\r\n    \"SelectionListFinal\": [\r\n      \"去春風樓看看有何熱鬧\",\r\n      \"江湖多事何必徒增煩惱\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否要去春风楼看看热闹?\",\r\n    \"SelectionList\": [\r\n      \"去春风楼看看有何热闹\",\r\n      \"江湖多事何必徒增烦恼\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否要去春風樓看看熱鬧?\",\r\n    \"SelectionTwList\": [\r\n      \"去春風樓看看有何熱鬧\",\r\n      \"江湖多事何必徒增煩惱\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2504910
+  splits:
+  - splitPath: Desc
+    text: "是否要去春风楼看看热闹?"
+    translated: "Shall we go to Fengchun Pavilion to see the commotion?"
+  - splitPath: SelectionList[0]
+    text: "去春风楼看看有何热闹"
+    translated: "Go to the Spring Breeze Pavilion and see what kind of festivities are going on."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "江湖多事何必徒增烦恼"
+    translated: "The Jianghu is full of troubles; why add to their worries or troubles?"
+- raw: "{\r\n    \"Key\": 2595210,\r\n    \"DescFinal\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"SelectionListFinal\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？\",\r\n    \"SelectionList\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"【挑戰類副本】三星難度，此副本為高難度戰鬥體驗挑戰，不影響遊戲劇情，是否挑戰？\",\r\n    \"SelectionTwList\": [\r\n      \"是\",\r\n      \"否\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2595210
+  splits:
+  - splitPath: Desc
+    text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
+    translated: "Challenge Dungeons three‑star difficulty. This dungeon provides a high‑difficulty battle experience but will not affect the game's main storyline. Do you accept the challenge?"
+  - splitPath: SelectionList[0]
+    text: "是"
+    translated: "Yes"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "否"
+    translated: "No"
+- raw: "{\r\n    \"Key\": 3100210,\r\n    \"DescFinal\": \"太極拳法與太極劍法想要學習哪一門？\",\r\n    \"SelectionListFinal\": [\r\n      \"學太極拳法\",\r\n      \"學太極劍法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"太極拳法\\\\n消耗1點行動力，單次攻擊造成2倍俠客功力的傷害，並釋放戰術【太極勁】。\",\r\n      \"太極劍法\\\\n消耗2點行動力，單次攻擊造成3.6倍俠客功力的傷害，並釋放戰術【太極勁】。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"太极拳法与太极剑法想要学习哪一门？\",\r\n    \"SelectionList\": [\r\n      \"学太极拳法\",\r\n      \"学太极剑法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"太极拳法\\\\n消耗1点行动力，单次攻击造成2倍侠客功力的伤害，并释放战术【太极劲】。\",\r\n      \"太极剑法\\\\n消耗2点行动力，单次攻击造成3.6倍侠客功力的伤害，并释放战术【太极劲】。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"太極拳法與太極劍法想要學習哪一門？\",\r\n    \"SelectionTwList\": [\r\n      \"學太極拳法\",\r\n      \"學太極劍法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"太極拳法\\\\n消耗1點行動力，單次攻擊造成2倍俠客功力的傷害，並釋放戰術【太極勁】。\",\r\n      \"太極劍法\\\\n消耗2點行動力，單次攻擊造成3.6倍俠客功力的傷害，並釋放戰術【太極勁】。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3100210
+  splits:
+  - splitPath: Desc
+    text: "太极拳法与太极剑法想要学习哪一门？"
+    translated: "Which martial art style do you want to learn: Tai Chi Chuan or Tai Chi Jian?"
+  - splitPath: SelectionList[0]
+    text: "学太极拳法"
+    translated: "Practice Tai Chi boxing techniques"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "学太极剑法"
+    translated: "Study Tai Chi sword technique"
+  - splitPath: TipTextList[0]
+    text: "太极拳法\\n消耗1点行动力，单次攻击造成2倍侠客功力的伤害，并释放战术【太极劲】。"
+    translated: "Tai Chi boxing technique\\nSpend 1 Action Points for a single attack that deals 2 times the Wanderer's Power in damage and deploy the tactic  【Taiji Force】 ."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "太极剑法\\n消耗2点行动力，单次攻击造成3.6倍侠客功力的伤害，并释放战术【太极劲】。"
+    translated: "Tai Chi Sword Technique\\nConsume 2 Action Points for a single attack that deals 3.6 times the Wanderer's Power in damage and activates the tactic  【Taiji Force】 ."
+- raw: "{\r\n    \"Key\": 3100410,\r\n    \"DescFinal\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾想明宁王一事？\\\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>\",\r\n    \"SelectionList\": [\r\n      \"弟子已经明了\",\r\n      \"弟子还未明了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3100410
+  splits:
+  - splitPath: Desc
+    text: "你可曾想明宁王一事？\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>"
+    translated: "Have you ever pondered the matter of Ning Wang?\\n<color=#FF0000>While correcting, also verify: ‑ The meaning, tone, and cultural nuance remain accurate ‑ Gender‑neutral language (they/them) is used unless explicitly specified in the original ‑ Names are in Pinyin with titles properly translated and positioned.  Output only the fully corrected English translation:  During this period, after selecting  “Disciple has understood” , Ning Wang's Visit event will automatically trigger in the next month, and the game will enter its final ending. (It is recommended to advance Beast Taming and Variety Arts to Master level before making this selection and to explore the Nine Streams Villa in Xiangnan and the Smoke‑Wave Manor in Xiangbei.)</color>"
+  - splitPath: SelectionList[0]
+    text: "弟子已经明了"
+    translated: "Disciple has understood"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "弟子还未明了"
+    translated: "The disciple has yet to understand"
+- raw: "{\r\n    \"Key\": 3100710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionListFinal\": [\r\n      \"弟子已經準備好了\",\r\n      \"弟子尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"SelectionList\": [\r\n      \"弟子已经准备好了\",\r\n      \"弟子尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“弟子已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionTwList\": [\r\n      \"弟子已經準備好了\",\r\n      \"弟子尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3100710
+  splits:
+  - splitPath: Desc
+    text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“弟子已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting 'Disciples are Ready,' the Heavenly Demon Assaulting the Mountain event will automatically trigger next month, and the game will proceed to its final outcome."
+  - splitPath: SelectionList[0]
+    text: "弟子已经准备好了"
+    translated: "Disciples are ready"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "弟子尚未准备好"
+    translated: "The disciple is not yet ready"
+- raw: "{\r\n    \"Key\": 3009400,\r\n    \"DescFinal\": \"是否隨姜道靈參加廣成丹會？\",\r\n    \"SelectionListFinal\": [\r\n      \"去\",\r\n      \"不去\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否随姜道灵参加广成丹会？\",\r\n    \"SelectionList\": [\r\n      \"去\",\r\n      \"不去\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否隨姜道靈參加廣成丹會？\",\r\n    \"SelectionTwList\": [\r\n      \"去\",\r\n      \"不去\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3009400
+  splits:
+  - splitPath: Desc
+    text: "是否随姜道灵参加广成丹会？"
+    translated: "Do you accompany Jiang Daoling to the Guangcheng Danhui?"
+  - splitPath: SelectionList[0]
+    text: "去"
+    translated: "Go"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "不去"
+    translated: "Not going"
+- raw: "{\r\n    \"Key\": 3399910,\r\n    \"DescFinal\": \"今日早課想要修煉什麼？\",\r\n    \"SelectionListFinal\": [\r\n      \"修煉基本功\",\r\n      \"修煉內功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日早课想要修炼什么？\",\r\n    \"SelectionList\": [\r\n      \"修炼基本功\",\r\n      \"修炼内功\",\r\n      \"修炼外功\",\r\n      \"修炼轻功\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日早課想要修煉什麼？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉基本功\",\r\n      \"修煉內功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3399910
+  splits:
+  - splitPath: Desc
+    text: "今日早课想要修炼什么？"
+    translated: "What do you want to practice during today's morning lesson?"
+  - splitPath: SelectionList[0]
+    text: "修炼基本功"
+    translated: "Practicing the fundamentals"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "修炼内功"
+    translated: "Cultivate neigong"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "修炼外功"
+    translated: "Practicing external skills"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "修炼轻功"
+    translated: "Practice qinggong"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "还是算了"
+    translated: "Forget it"
+- raw: "{\r\n    \"Key\": 3402200,\r\n    \"DescFinal\": \"《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？\",\r\n    \"SelectionListFinal\": [\r\n      \"修煉血手印\",\r\n      \"毀掉《血手經》\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"血手印\\\\n消耗3點行動力，單次攻擊造成4倍俠客功力的傷害，並有40%機率使敵人進入重傷狀態。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"《血手经》现已在手中，是修炼其中所记载的血手印功法还是就此将其毁去？\",\r\n    \"SelectionList\": [\r\n      \"修炼血手印\",\r\n      \"毁掉《血手经》\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"血手印\\\\n消耗3点行动力，单次攻击造成4倍侠客功力的伤害，并有40%几率使敌人进入重伤状态。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"《血手經》現已在手中，是修煉其中所記載的血手印功法還是就此將其毀去？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉血手印\",\r\n      \"毀掉《血手經》\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"血手印\\\\n消耗3點行動力，單次攻擊造成4倍俠客功力的傷害，並有40%機率使敵人進入重傷狀態。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3402200
+  splits:
+  - splitPath: Desc
+    text: "《血手经》现已在手中，是修炼其中所记载的血手印功法还是就此将其毁去？"
+    translated: "《Bloodstained Palm Sutra》  is now in my hands. Should I practice the blood hand techniques it records, or should I destroy it instead?"
+  - splitPath: SelectionList[0]
+    text: "修炼血手印"
+    translated: "Practicing the Blood Hand Seal"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "毁掉《血手经》"
+    translated: "Destroy the  《Bloodstained Hand Manual》"
+  - splitPath: TipTextList[0]
+    text: "血手印\\n消耗3点行动力，单次攻击造成4倍侠客功力的伤害，并有40%几率使敌人进入重伤状态。"
+    translated: "Bloodprints\\nSpend 3 Action Points to deal 4 times the Wanderer's Power in damage with a 40% chance to put the enemy in Critical Condition."
+- raw: "{\r\n    \"Key\": 3799910,\r\n    \"DescFinal\": \"今日煉製何種丹藥？\",\r\n    \"SelectionListFinal\": [\r\n      \"龍虎築基丹\",\r\n      \"混元鍛骨丹\",\r\n      \"太和一氣丹\",\r\n      \"太乙通脈丹\",\r\n      \"玄黃三寶丹\",\r\n      \"紫府歸元丹\",\r\n      \"還是算了\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"提升根骨\",\r\n      \"提升體魄\",\r\n      \"提升內息\",\r\n      \"提升靈活\",\r\n      \"提升功力\",\r\n      \"提升氣血\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日炼制何种丹药？\",\r\n    \"SelectionList\": [\r\n      \"龙虎筑基丹\",\r\n      \"混元锻骨丹\",\r\n      \"太和一气丹\",\r\n      \"太乙通脉丹\",\r\n      \"玄黄三宝丹\",\r\n      \"紫府归元丹\",\r\n      \"还是算了\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"提升根骨\",\r\n      \"提升体魄\",\r\n      \"提升内息\",\r\n      \"提升灵活\",\r\n      \"提升功力\",\r\n      \"提升气血\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日煉製何種丹藥？\",\r\n    \"SelectionTwList\": [\r\n      \"龍虎築基丹\",\r\n      \"混元鍛骨丹\",\r\n      \"太和一氣丹\",\r\n      \"太乙通脈丹\",\r\n      \"玄黃三寶丹\",\r\n      \"紫府歸元丹\",\r\n      \"還是算了\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"提升根骨\",\r\n      \"提升體魄\",\r\n      \"提升內息\",\r\n      \"提升靈活\",\r\n      \"提升功力\",\r\n      \"提升氣血\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3799910
+  splits:
+  - splitPath: Desc
+    text: "今日炼制何种丹药？"
+    translated: "What type of medicinal pill will be prepared today?"
+  - splitPath: SelectionList[0]
+    text: "龙虎筑基丹"
+    translated: "Tiger and Dragon Foundation Pill"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "混元锻骨丹"
+    translated: "Cosmic Bone Forging Pill"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "太和一气丹"
+    translated: "Great Harmony One Breath Pill"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "太乙通脉丹"
+    translated: "Elixir of Life Pulse Communication"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "玄黄三宝丹"
+    translated: "Three Treasure Pills of Yin and Yang"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "紫府归元丹"
+    translated: "Purple Mansion Return‑to‑Source Pill"
+  - split: 6
+    splitPath: SelectionList[6]
+    text: "还是算了"
+    translated: "Forget it"
+  - splitPath: TipTextList[0]
+    text: "提升根骨"
+    translated: "Boost their potential"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "提升体魄"
+    translated: "Enhance resilience"
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "提升内息"
+    translated: "Boost inner qi"
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "提升灵活"
+    translated: "Increase flexibility"
+  - split: 4
+    splitPath: TipTextList[4]
+    text: "提升功力"
+    translated: "Increase power"
+  - split: 5
+    splitPath: TipTextList[5]
+    text: "提升气血"
+    translated: "Boost their lifeforce"
+- raw: "{\r\n    \"Key\": 2501210,\r\n    \"DescFinal\": \"看上了夏侯珺的哪樣寶物？\",\r\n    \"SelectionListFinal\": [\r\n      \"《劈山祕籍》   1500錢\",\r\n      \"《華山劍譜》   800錢\",\r\n      \"飛虎玉珏   1000錢\",\r\n      \"全部都要   3000錢\",\r\n      \"沒有選中\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"劈山斧法\\\\n消耗1點行動力，單次攻擊造成1.1倍俠客功力的傷害。\",\r\n      \"華山劍法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害。\",\r\n      \"飛虎玉珏\\\\n出戰俠客氣血上限+3%。\",\r\n      \"以上全部功法和寶物\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"看上了夏侯珺的哪样宝物？\",\r\n    \"SelectionList\": [\r\n      \"《劈山秘籍》   1500钱\",\r\n      \"《华山剑谱》   800钱\",\r\n      \"飞虎玉珏   1000钱\",\r\n      \"全部都要   3000钱\",\r\n      \"没有选中\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"劈山斧法\\\\n消耗1点行动力，单次攻击造成1.1倍侠客功力的伤害。\",\r\n      \"华山剑法\\\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害。\",\r\n      \"飞虎玉珏\\\\n出战侠客气血上限+3%。\",\r\n      \"以上全部功法和宝物\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"看上了夏侯珺的哪樣寶物？\",\r\n    \"SelectionTwList\": [\r\n      \"《劈山祕籍》   1500錢\",\r\n      \"《華山劍譜》   800錢\",\r\n      \"飛虎玉珏   1000錢\",\r\n      \"全部都要   3000錢\",\r\n      \"沒有選中\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"劈山斧法\\\\n消耗1點行動力，單次攻擊造成1.1倍俠客功力的傷害。\",\r\n      \"華山劍法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害。\",\r\n      \"飛虎玉珏\\\\n出戰俠客氣血上限+3%。\",\r\n      \"以上全部功法和寶物\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 2501210
+  splits:
+  - splitPath: Desc
+    text: "看上了夏侯珺的哪样宝物？"
+    translated: "Which treasure of Xiahou Jun did someone take a liking to?"
+  - splitPath: SelectionList[0]
+    text: "《劈山秘籍》   1500钱"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "《华山剑谱》   800钱"
+    translated: "《Scroll of the Sword Methods of Mount Hua》  800 Coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "飞虎玉珏   1000钱"
+    translated: "Flying Tiger Jade Ornament 1000Coin"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "全部都要   3000钱"
+    translated: "All of it   3000 money"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "没有选中"
+    translated: "No selection made"
+  - splitPath: TipTextList[0]
+    text: "劈山斧法\\n消耗1点行动力，单次攻击造成1.1倍侠客功力的伤害。"
+    translated: "Crushing Mountain Axe Technique\\nSpend 1 Action Points for a single attack that deals 1.1 times the Wanderer's Power in damage."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "华山剑法\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害。"
+    translated: "Sword Technique of Mount Huashan\\nConsume 1 Action Points to deal 0.7 times the Wanderer's Power in a single attack."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "飞虎玉珏\\n出战侠客气血上限+3%。"
+    translated: "Flying Tiger Jade Ornament\\nThe maximum lifeforce of the Wanderers in battle is +3%."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "以上全部功法和宝物"
+    translated: "All of these cultivation methods and treasures are included."
+- raw: "{\r\n    \"Key\": 4200300,\r\n    \"DescFinal\": \"今日拜訪六合幫何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"看看六合幫又來了什麼寶物\",\r\n      \"看看六合幫又來了什麼寶物\",\r\n      \"幫助護送商船貨船賺取銀錢\",\r\n      \"還是改日再來拜會六合莊吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日拜访六合帮何事？\",\r\n    \"SelectionList\": [\r\n      \"看看六合帮又来了什么宝物\",\r\n      \"看看六合帮又来了什么宝物\",\r\n      \"帮助护送商船货船赚取银钱\",\r\n      \"还是改日再来拜会六合庄吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日拜訪六合幫何事？\",\r\n    \"SelectionTwList\": [\r\n      \"看看六合幫又來了什麼寶物\",\r\n      \"看看六合幫又來了什麼寶物\",\r\n      \"幫助護送商船貨船賺取銀錢\",\r\n      \"還是改日再來拜會六合莊吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4200300
+  splits:
+  - splitPath: Desc
+    text: "今日拜访六合帮何事？"
+    translated: "What brought you here today to visit Six Harmonies Sect?"
+  - splitPath: SelectionList[0]
+    text: "看看六合帮又来了什么宝物"
+    translated: "Check what new treasures the Six Harmonies Sect has brought this time."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "看看六合帮又来了什么宝物"
+    translated: "Check what new treasures the Six Harmonies Sect has brought this time."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "帮助护送商船货船赚取银钱"
+    translated: "Help escort merchant ships and cargo ships to earn silver coins."
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "还是改日再来拜会六合庄吧"
+    translated: "Why not come and pay our respects to Hexi Pavilion another day?"
+- raw: "{\r\n    \"Key\": 4201210,\r\n    \"DescFinal\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"SelectionListFinal\": [\r\n      \"蒲牢銅牌   2000錢\",\r\n      \"《六合刀譜》   800錢\",\r\n      \"《六合槍譜》   800錢\",\r\n      \"《六合祕籍》   3000錢\",\r\n      \"赤參附陽丸   1000錢\",\r\n      \"沒有什麼看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"蒲牢銅牌\\\\n出戰俠客功力+3%。\",\r\n      \"六合刀法\\\\n自動釋放，我方氣血尾數小於6時，單次攻擊造成0.6倍俠客功力的傷害，並有18%機率使敵人進入輕傷狀態。\",\r\n      \"六合槍法\\\\n自動釋放，我方氣血尾數小於6時，單次攻擊造成0.6倍俠客功力的傷害，並有18%機率使敵人進入禁療狀態。\",\r\n      \"心意六合功\\\\n自動釋放，我方氣血尾數大於6時，回覆我方3600氣血，並令我方1名俠客獲得會心，\",\r\n      \"增加2000氣血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"看上了夏侯朝的哪样宝物？\",\r\n    \"SelectionList\": [\r\n      \"蒲牢铜牌   2000钱\",\r\n      \"《六合刀谱》   800钱\",\r\n      \"《六合枪谱》   800钱\",\r\n      \"《六合秘籍》   3000钱\",\r\n      \"赤参附阳丸   1000钱\",\r\n      \"没有什么看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"蒲牢铜牌\\\\n出战侠客功力+3%。\",\r\n      \"六合刀法\\\\n自动释放，我方气血尾数小于6时，单次攻击造成0.6倍侠客功力的伤害，并有18%几率使敌人进入轻伤状态。\",\r\n      \"六合枪法\\\\n自动释放，我方气血尾数小于6时，单次攻击造成0.6倍侠客功力的伤害，并有18%几率使敌人进入禁疗状态。\",\r\n      \"心意六合功\\\\n自动释放，我方气血尾数大于6时，回复我方3600气血，并令我方1名侠客获得会心，\",\r\n      \"增加2000气血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"SelectionTwList\": [\r\n      \"蒲牢銅牌   2000錢\",\r\n      \"《六合刀譜》   800錢\",\r\n      \"《六合槍譜》   800錢\",\r\n      \"《六合祕籍》   3000錢\",\r\n      \"赤參附陽丸   1000錢\",\r\n      \"沒有什麼看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"蒲牢銅牌\\\\n出戰俠客功力+3%。\",\r\n      \"六合刀法\\\\n自動釋放，我方氣血尾數小於6時，單次攻擊造成0.6倍俠客功力的傷害，並有18%機率使敵人進入輕傷狀態。\",\r\n      \"六合槍法\\\\n自動釋放，我方氣血尾數小於6時，單次攻擊造成0.6倍俠客功力的傷害，並有18%機率使敵人進入禁療狀態。\",\r\n      \"心意六合功\\\\n自動釋放，我方氣血尾數大於6時，回覆我方3600氣血，並令我方1名俠客獲得會心，\",\r\n      \"增加2000氣血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4201210
+  splits:
+  - splitPath: Desc
+    text: "看上了夏侯朝的哪样宝物？"
+    translated: "Which treasure of Xiahou Chao did they set their eyes on?"
+  - splitPath: SelectionList[0]
+    text: "蒲牢铜牌   2000钱"
+    translated: "Pulao Bronze Plaque   2000 money"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "《六合刀谱》   800钱"
+    translated: "《Hexagram Blade Manual》  800Coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "《六合枪谱》   800钱"
+    translated: "《Sixfold Spear Manual》  800coin"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "《六合秘籍》   3000钱"
+    translated: "《Secret Manual of the Six Directions》  3000 Coin"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "赤参附阳丸   1000钱"
+    translated: "Yang Ginseng Attach Pill  1000 Coin"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "没有什么看上的"
+    translated: "There's nothing that catches their eye"
+  - splitPath: TipTextList[0]
+    text: "蒲牢铜牌\\n出战侠客功力+3%。"
+    translated: "Pulao Bronze Plaque\\nThe Wanderer's Power is +3% in battle"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "六合刀法\\n自动释放，我方气血尾数小于6时，单次攻击造成0.6倍侠客功力的伤害，并有18%几率使敌人进入轻伤状态。"
+    translated: "Blade Art of the Six Directions\\nAutomatic release: When the remainder of my team's lifeforce is less than 6, a single attack will deal 0.6 times the Wanderer's power in damage and has a 18% chance to inflict a light injury on the enemy."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "六合枪法\\n自动释放，我方气血尾数小于6时，单次攻击造成0.6倍侠客功力的伤害，并有18%几率使敌人进入禁疗状态。"
+    translated: "Sixfold Spear Technique\\nAuto‑release: When my team's lifeforce is less than 6, a single attack will deal 0.6 times the Wanderer's Power in damage and has a 18% chance to put the enemy in a state where they cannot be healed."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "心意六合功\\n自动释放，我方气血尾数大于6时，回复我方3600气血，并令我方1名侠客获得会心，"
+    translated: "Six Harmonies Internal Skill\\nAutomatic release: If my team's remaining Lifeforce is greater than 6, it will restore 3600 Lifeforce to my team and grant 1 of my team members Critical Strike for the next battle."
+  - split: 4
+    splitPath: TipTextList[4]
+    text: "增加2000气血"
+    translated: "Increase 2000 Lifeforce"
+- raw: "{\r\n    \"Key\": 4201310,\r\n    \"DescFinal\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"SelectionListFinal\": [\r\n      \"椒圖銅牌   1000錢\",\r\n      \"《吠陀經》  4000錢\",\r\n      \"玄鐵匕首  3000錢\",\r\n      \"飛雲鼯  2000錢\",\r\n      \"赤參附陽丸   1000錢\",\r\n      \"沒有什麼看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"椒圖銅牌\\\\n出戰俠客功力+3%。\",\r\n      \"吠陀寶懺\\\\n消耗1點行動力，單次攻擊造成108倍俠客道德的傷害。\",\r\n      \"飛虎玉珏\\\\n出戰俠客會心發生率+2%。\",\r\n      \"飛雲鼯\\\\n消耗0點行動力，召喚寵物【飛雲鼯】。飛雲鼯單次攻擊造成100點+3倍御獸傷害，連續3次攻擊，發動機率100%，並有12%機率消除敵人1個戰術。\",\r\n      \"增加2000氣血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"看上了夏侯朝的哪样宝物？\",\r\n    \"SelectionList\": [\r\n      \"椒图铜牌   1000钱\",\r\n      \"《吠陀经》  4000钱\",\r\n      \"玄铁匕首  3000钱\",\r\n      \"飞云鼯  2000钱\",\r\n      \"赤参附阳丸   1000钱\",\r\n      \"没有什么看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"椒图铜牌\\\\n出战侠客功力+3%。\",\r\n      \"吠陀宝忏\\\\n消耗1点行动力，单次攻击造成108倍侠客道德的伤害。\",\r\n      \"飞虎玉珏\\\\n出战侠客会心发生率+2%。\",\r\n      \"飞云鼯\\\\n消耗0点行动力，召唤宠物【飞云鼯】。飞云鼯单次攻击造成100点+3倍御兽伤害，连续3次攻击，发动几率100%，并有12%几率消除敌人1个战术。\",\r\n      \"增加2000气血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"看上了夏侯朝的哪樣寶物？\",\r\n    \"SelectionTwList\": [\r\n      \"椒圖銅牌   1000錢\",\r\n      \"《吠陀經》  4000錢\",\r\n      \"玄鐵匕首  3000錢\",\r\n      \"飛雲鼯  2000錢\",\r\n      \"赤參附陽丸   1000錢\",\r\n      \"沒有什麼看上的\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"椒圖銅牌\\\\n出戰俠客功力+3%。\",\r\n      \"吠陀寶懺\\\\n消耗1點行動力，單次攻擊造成108倍俠客道德的傷害。\",\r\n      \"飛虎玉珏\\\\n出戰俠客會心發生率+2%。\",\r\n      \"飛雲鼯\\\\n消耗0點行動力，召喚寵物【飛雲鼯】。飛雲鼯單次攻擊造成100點+3倍御獸傷害，連續3次攻擊，發動機率100%，並有12%機率消除敵人1個戰術。\",\r\n      \"增加2000氣血\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4201310
+  splits:
+  - splitPath: Desc
+    text: "看上了夏侯朝的哪样宝物？"
+    translated: "Which treasure of Xiahou Chao did they set their eyes on?"
+  - splitPath: SelectionList[0]
+    text: "椒图铜牌   1000钱"
+    translated: "Jiao Tu Bronze Plaque 1000 Coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "《吠陀经》  4000钱"
+    translated: "《Vedas》   4000Coin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "玄铁匕首  3000钱"
+    translated: "Dark Steel Dagger 3000Coin"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "飞云鼯  2000钱"
+    translated: "Flying Cloud Squirrel 2000 Coin"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "赤参附阳丸   1000钱"
+    translated: "Yang Ginseng Attach Pill  1000 Coin"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "没有什么看上的"
+    translated: "There's nothing that catches their eye"
+  - splitPath: TipTextList[0]
+    text: "椒图铜牌\\n出战侠客功力+3%。"
+    translated: "Jiao Tu Bronze Plaque\\nOutstation Wanderer Power remains at +3% for the battle."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "吠陀宝忏\\n消耗1点行动力，单次攻击造成108倍侠客道德的伤害。"
+    translated: "Vedas Praise\\nConsume 1 Action Points for a single attack that deals 108 times the damage based on the Wanderer's Morality."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "飞虎玉珏\\n出战侠客会心发生率+2%。"
+    translated: "Flying Tiger Jade Ornament\\nThe critical hit rate for active wanderers is +2%."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "飞云鼯\\n消耗0点行动力，召唤宠物【飞云鼯】。飞云鼯单次攻击造成100点+3倍御兽伤害，连续3次攻击，发动几率100%，并有12%几率消除敌人1个战术。"
+    translated: "Swift Wind Squirrel Glider\\nConsume 0 Action Points to summon the pet  【Swift Wind Squirrel Glider】 . The Flying Cloud Gliding squirrel deals 100 points of +3 times Beast Taming damage per attack, and can strike up to 3 times with a chance of 100% to hit. There is also a 12% chance to remove one of the enemy's 1 tactical effects."
+  - split: 4
+    splitPath: TipTextList[4]
+    text: "增加2000气血"
+    translated: "Increase 2000 Lifeforce"
+- raw: "{\r\n    \"Key\": 4399200,\r\n    \"DescFinal\": \"湘北沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗湘北特色的美味\",\r\n      \"逛一逛湘北有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"湘北没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝湘北特色的美味\",\r\n      \"逛一逛湘北有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"湘北沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗湘北特色的美味\",\r\n      \"逛一逛湘北有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4399200
+  splits:
+  - splitPath: Desc
+    text: "湘北没有什么特别事情发生，如何选择？"
+    translated: "Nothing special happened in Shanghuabei. How would you like to proceed?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝湘北特色的美味"
+    translated: "Try some of the delicious specialties from Shanghainan!"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛湘北有趣的地方"
+    translated: "Explore the interesting spots in North Hunan"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 4400210,\r\n    \"DescFinal\": \"今日拜訪荊湘六扇門何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"接取六扇門的懸賞任務\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日拜访荆湘六扇门何事？\",\r\n    \"SelectionList\": [\r\n      \"接取六扇门的悬赏任务\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日拜訪荊湘六扇門何事？\",\r\n    \"SelectionTwList\": [\r\n      \"接取六扇門的懸賞任務\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4400210
+  splits:
+  - splitPath: Desc
+    text: "今日拜访荆湘六扇门何事？"
+    translated: "Today, why are you visiting the Six Doors of Jingxiang?"
+  - splitPath: SelectionList[0]
+    text: "接取六扇门的悬赏任务"
+    translated: "Accept the Six Doors bounty task"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+    translated: "Let's come back another day"
+- raw: "{\r\n    \"Key\": 4310610,\r\n    \"DescFinal\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\",\r\n    \"SelectionListFinal\": [\r\n      \"登臺攪亂招賢擂\",\r\n      \"不上臺靜觀其變\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？\",\r\n    \"SelectionList\": [\r\n      \"登台搅乱招贤擂\",\r\n      \"不上台静观其变\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"寧王在江湖上佈局了不少計劃，這次招賢擂亦當所謀不小，是否要登臺將此招賢擂攪亂？\",\r\n    \"SelectionTwList\": [\r\n      \"登臺攪亂招賢擂\",\r\n      \"不上臺靜觀其變\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4310610
+  splits:
+  - splitPath: Desc
+    text: "宁王在江湖上布局了不少计划，这次招贤擂亦当所谋不小，是否要登台将此招贤擂搅乱？"
+    translated: "Peaceful King has laid out numerous schemes in the Jianghu. This recruitment tournament might be one of them. Should we go up on stage to disrupt this recruitment tournament?"
+  - splitPath: SelectionList[0]
+    text: "登台搅乱招贤擂"
+    translated: "Step onto the stage to disrupt the Recruitment Talents Battle Arena"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "不上台静观其变"
+    translated: "Remain offstage and observe the situation closely"
+- raw: "{\r\n    \"Key\": 4311610,\r\n    \"DescFinal\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\",\r\n    \"SelectionListFinal\": [\r\n      \"拿錢離去點到為止\",\r\n      \"繼續攪亂此招賢擂\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？\",\r\n    \"SelectionList\": [\r\n      \"拿钱离去点到为止\",\r\n      \"继续搅乱此招贤擂\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"<color=#FF0000>此選擇影響最終結局，請慎重選擇。</color>\\n你已在寧王的招賢擂上擊敗了寧王府的三位客卿，是否要進一步攪亂招賢擂？\",\r\n    \"SelectionTwList\": [\r\n      \"拿錢離去點到為止\",\r\n      \"繼續攪亂此招賢擂\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4311610
+  splits:
+  - splitPath: Desc
+    text: "<color=#FF0000>此选择影响最终结局，请慎重选择。</color>\n你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？"
+    translated: "This choice will affect the final outcome. Please choose carefully.\n\nYou have defeated the three Guest Scholars of Peaceful King Manor in the Recruitment Arena of Peaceful King. Should you further disrupt the Recruitment Arena?"
+  - splitPath: SelectionList[0]
+    text: "拿钱离去点到为止"
+    translated: "Take the money and go, that's enough"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "继续搅乱此招贤擂"
+    translated: "Continue to disrupt this recruitment contest"
+- raw: "{\r\n    \"Key\": 3870900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"在天愿作比翼鸟\",\r\n      \"在地愿为连理枝\",\r\n      \"得成比目何辞死\",\r\n      \"愿作鸳鸯不羡仙\",\r\n      \"还是一个人过吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3870900
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "在天愿作比翼鸟"
+    translated: "In heaven may we be winged birds together."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "在地愿为连理枝"
+    translated: "In this life, may we be trees forever entwined."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "得成比目何辞死"
+    translated: "Achieving the union of two fish, what could death matter?"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "愿作鸳鸯不羡仙"
+    translated: "Willing to be a mated swan rather than a immortal."
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "还是一个人过吧"
+    translated: "Live alone, I guess"
+- raw: "{\r\n    \"Key\": 3871000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"邱靈素\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"邱灵素\",\r\n      \"左灵珠\",\r\n      \"连翘儿\",\r\n      \"沈蓉蓉\",\r\n      \"谈文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"邱靈素\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3871000
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "邱灵素"
+    translated: "Qiu Lingsu"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "左灵珠"
+    translated: "Zuo Lingzhu"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "连翘儿"
+    translated: "Lian Qiaoer"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "沈蓉蓉"
+    translated: "Shen Rongrong"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "谈文秀"
+    translated: "Tan Wenshao"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 3871100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"阮碧青\",\r\n      \"靳红衣\",\r\n      \"萧令仪\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3871100
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "阮碧青"
+    translated: "Ruan Biqing"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "靳红衣"
+    translated: "Jin Hongyi"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "萧令仪"
+    translated: "Xiao Lingyi"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "薛如意"
+    translated: "Xue Ruyi"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "司徒伶"
+    translated: "Situ Ling"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 3871200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"项欺霜\",\r\n      \"展青锋\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3871200
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "晏峨眉"
+    translated: "Yan Emei"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "夏侯珺"
+    translated: "Xiahou Jun"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "项欺霜"
+    translated: "Xiang Qishuang"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "展青锋"
+    translated: "Zhan Qingfeng"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 3871300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"艾琳娜\",\r\n      \"文锦心\",\r\n      \"柳含烟\",\r\n      \"风间爱\",\r\n      \"风间月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 3871300
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "艾琳娜"
+    translated: "Elena"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "文锦心"
+    translated: "Wen Jinxin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "柳含烟"
+    translated: "Liu Hanyan"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "风间爱"
+    translated: "Kazama Ai"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "风间月"
+    translated: "Kazama Yue"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 4303710,\r\n    \"DescFinal\": \"城中看到一名女捕追緝賊人，是否跟上去相助？\",\r\n    \"SelectionListFinal\": [\r\n      \"相助女捕一同擒拿賊人\",\r\n      \"不必多管這冒失女捕快\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"城中看到一名女捕追缉贼人，是否跟上去相助？\",\r\n    \"SelectionList\": [\r\n      \"相助女捕一同擒拿贼人\",\r\n      \"不必多管这冒失女捕快\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"城中看到一名女捕追緝賊人，是否跟上去相助？\",\r\n    \"SelectionTwList\": [\r\n      \"相助女捕一同擒拿賊人\",\r\n      \"不必多管這冒失女捕快\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4303710
+  splits:
+  - splitPath: Desc
+    text: "城中看到一名女捕追缉贼人，是否跟上去相助？"
+    translated: "Should we follow and help the female captor chase the thief in the city?"
+  - splitPath: SelectionList[0]
+    text: "相助女捕一同擒拿贼人"
+    translated: "Help capture the female bandit along with the criminals."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "不必多管这冒失女捕快"
+    translated: "There's no need to meddle with this hasty female constable."
+- raw: "{\r\n    \"Key\": 4304610,\r\n    \"DescFinal\": \"城中街市遇到無賴調戲扶桑少女，是否上前幫助？\",\r\n    \"SelectionListFinal\": [\r\n      \"幫助女子趕跑無賴\",\r\n      \"扶桑女子管她作甚\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"城中街市遇到无赖调戏扶桑少女，是否上前帮助？\",\r\n    \"SelectionList\": [\r\n      \"帮助女子赶跑无赖\",\r\n      \"扶桑女子管她作甚\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"城中街市遇到無賴調戲扶桑少女，是否上前幫助？\",\r\n    \"SelectionTwList\": [\r\n      \"幫助女子趕跑無賴\",\r\n      \"扶桑女子管她作甚\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4304610
+  splits:
+  - splitPath: Desc
+    text: "城中街市遇到无赖调戏扶桑少女，是否上前帮助？"
+    translated: "Should you step in to help the Japanese maiden being harassed by a rogue in the market street?"
+  - splitPath: SelectionList[0]
+    text: "帮助女子赶跑无赖"
+    translated: "Help the woman drive off the rogue"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "扶桑女子管她作甚"
+    translated: "The woman from Fusang cares about her not at all."
+- raw: "{\r\n    \"Key\": 4310310,\r\n    \"DescFinal\": \"選擇哪一支龍舟隊加入？\",\r\n    \"SelectionListFinal\": [\r\n      \"隊員看著十分老練的紅色龍舟隊\",\r\n      \"隊員看著體格健碩的黃色龍舟隊\",\r\n      \"隊員看著身手矯健的藍色龍舟隊\",\r\n      \"隊員看著腦子活泛的青色龍舟隊\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一支龙舟队加入？\",\r\n    \"SelectionList\": [\r\n      \"队员看着十分老练的红色龙舟队\",\r\n      \"队员看着体格健硕的黄色龙舟队\",\r\n      \"队员看着身手矫健的蓝色龙舟队\",\r\n      \"队员看着脑子活泛的青色龙舟队\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一支龍舟隊加入？\",\r\n    \"SelectionTwList\": [\r\n      \"隊員看著十分老練的紅色龍舟隊\",\r\n      \"隊員看著體格健碩的黃色龍舟隊\",\r\n      \"隊員看著身手矯健的藍色龍舟隊\",\r\n      \"隊員看著腦子活泛的青色龍舟隊\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4310310
+  splits:
+  - splitPath: Desc
+    text: "选择哪一支龙舟队加入？"
+    translated: "Which dragon boat team should I join?"
+  - splitPath: SelectionList[0]
+    text: "队员看着十分老练的红色龙舟队"
+    translated: "The team looked at the very experienced red dragon boat team with respect."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "队员看着体格健硕的黄色龙舟队"
+    translated: "The team members looked at the robust yellow dragon boat team."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "队员看着身手矫健的蓝色龙舟队"
+    translated: "The team watched the agile blue dragon boat team."
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "队员看着脑子活泛的青色龙舟队"
+    translated: "The team looked at the flexible‑thinking Qingse Dragonboat Team members."
+- raw: "{\r\n    \"Key\": 4308610,\r\n    \"DescFinal\": \"選擇向“學劍老人”谷藏鋒請教哪一門劍法？\",\r\n    \"SelectionListFinal\": [\r\n      \"玉碎劍法\",\r\n      \"相思劍法\",\r\n      \"觀潮劍法\",\r\n      \"泰阿劍法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"玉碎劍法\\\\n消耗1點行動力，單次攻擊造成3倍俠客功力的傷害，並令我方進入輕傷狀態。\",\r\n      \"相思劍法\\\\n消耗1點行動力，單次攻擊造成1000倍紅顏知己數量的傷害。\",\r\n      \"觀潮劍法\\\\n消耗1點行動力，單次攻擊造成1000倍敵方當前連擊次數的傷害。\",\r\n      \"泰阿劍法\\\\n消耗2點行動力，單次攻擊造4%我方當前氣血的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择向“学剑老人”谷藏锋请教哪一门剑法？\",\r\n    \"SelectionList\": [\r\n      \"玉碎剑法\",\r\n      \"相思剑法\",\r\n      \"观潮剑法\",\r\n      \"泰阿剑法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"玉碎剑法\\\\n消耗1点行动力，单次攻击造成3倍侠客功力的伤害，并令我方进入轻伤状态。\",\r\n      \"相思剑法\\\\n消耗1点行动力，单次攻击造成1000倍红颜知己数量的伤害。\",\r\n      \"观潮剑法\\\\n消耗1点行动力，单次攻击造成1000倍敌方当前连击次数的伤害。\",\r\n      \"泰阿剑法\\\\n消耗2点行动力，单次攻击造4%我方当前气血的伤害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇向“學劍老人”谷藏鋒請教哪一門劍法？\",\r\n    \"SelectionTwList\": [\r\n      \"玉碎劍法\",\r\n      \"相思劍法\",\r\n      \"觀潮劍法\",\r\n      \"泰阿劍法\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"玉碎劍法\\\\n消耗1點行動力，單次攻擊造成3倍俠客功力的傷害，並令我方進入輕傷狀態。\",\r\n      \"相思劍法\\\\n消耗1點行動力，單次攻擊造成1000倍紅顏知己數量的傷害。\",\r\n      \"觀潮劍法\\\\n消耗1點行動力，單次攻擊造成1000倍敵方當前連擊次數的傷害。\",\r\n      \"泰阿劍法\\\\n消耗2點行動力，單次攻擊造4%我方當前氣血的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4308610
+  splits:
+  - splitPath: Desc
+    text: "选择向“学剑老人”谷藏锋请教哪一门剑法？"
+    translated: "Choose which sword technique to learn from  “Old Sword Master”  Gu Cangfeng?"
+  - splitPath: SelectionList[0]
+    text: "玉碎剑法"
+    translated: "Sword Technique of Shattered Jade"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "相思剑法"
+    translated: "Sword Technique of Yearning"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "观潮剑法"
+    translated: "Sword Technique of Viewing Tide"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "泰阿剑法"
+    translated: "Sword Technique of Tai'a"
+  - splitPath: TipTextList[0]
+    text: "玉碎剑法\\n消耗1点行动力，单次攻击造成3倍侠客功力的伤害，并令我方进入轻伤状态。"
+    translated: "Sword Technique of Shattered Jade\\nConsume 1 Action Points. This single attack deals 3 times the Wanderer's Power in damage and puts my side into a Light Injury state."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "相思剑法\\n消耗1点行动力，单次攻击造成1000倍红颜知己数量的伤害。"
+    translated: "Sword Technique of Yearning\\nConsume 1 Action Points for a single attack that deals 1000 times the number of Red Maiden acquaintances in damage."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "观潮剑法\\n消耗1点行动力，单次攻击造成1000倍敌方当前连击次数的伤害。"
+    translated: "Sword Technique of Viewing Tide\\nConsume 1 Action Points to deal 1000 times the enemy's current combo count in damage with a single attack."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "泰阿剑法\\n消耗2点行动力，单次攻击造4%我方当前气血的伤害。"
+    translated: "Sword Technique of Tai'a\\nSpend 2 Action Points for a single attack dealing 4% of your current Lifeforce damage."
+- raw: "{\r\n    \"Key\": 4500310,\r\n    \"DescFinal\": \"今日拜訪掛錘莊何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"尋掛錘四猛一同練功\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日拜访挂锤庄何事？\",\r\n    \"SelectionList\": [\r\n      \"寻挂锤四猛一同练功\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日拜訪掛錘莊何事？\",\r\n    \"SelectionTwList\": [\r\n      \"尋掛錘四猛一同練功\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4500310
+  splits:
+  - splitPath: Desc
+    text: "今日拜访挂锤庄何事？"
+    translated: "Why are you visiting Hanging Hammer Manor today?"
+  - splitPath: SelectionList[0]
+    text: "寻挂锤四猛一同练功"
+    translated: "Join the Four Fierce Hammer Holders for training sessions together"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+    translated: "Let's come back another day"
+- raw: "{\r\n    \"Key\": 4701010,\r\n    \"DescFinal\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"屬下已經明瞭\",\r\n      \"屬下還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾想明帮主钟离恨之意？\\\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>\",\r\n    \"SelectionList\": [\r\n      \"属下已经明了\",\r\n      \"属下还未明了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾想明幫主鍾離恨之意？\\\\n<color=#FF0000>注意：選擇“屬下已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將醫術和御獸提升至大師，並前往荊北真武觀和湘南九流山莊探索）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"屬下已經明瞭\",\r\n      \"屬下還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4701010
+  splits:
+  - splitPath: Desc
+    text: "你可曾想明帮主钟离恨之意？\\n<color=#FF0000>注意：选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）</color>"
+    translated: "Have you ever pondered the intentions of Gang Leader Zhongli Hen?\\n<color=#FF0000>Note: After selecting 'Subordinate Understands,' the Ning Wang's Visit event will automatically trigger next month, marking the entry into the final outcome of the game. (It is recommended to raise Medicine and Beast Taming to Master level before making this choice and to explore the True Martial Temple in Jingbei and the Nine Schools Manor in Xiangnan.)</color>"
+  - splitPath: SelectionList[0]
+    text: "属下已经明了"
+    translated: "Subordinate understands"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "属下还未明了"
+    translated: "Subordinate still does not fully understand"
+- raw: "{\r\n    \"Key\": 4701710,\r\n    \"DescFinal\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionListFinal\": [\r\n      \"屬下已經準備好了\",\r\n      \"屬下尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。\",\r\n    \"SelectionList\": [\r\n      \"属下已经准备好了\",\r\n      \"属下尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“屬下已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。\",\r\n    \"SelectionTwList\": [\r\n      \"屬下已經準備好了\",\r\n      \"屬下尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4701710
+  splits:
+  - splitPath: Desc
+    text: "你可曾准备好应对天魔教的报复？\\n<color=#FF0000>注意：选择“属下已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting 'Subordinates Have Everything Prepared,' the Tian Mo Assaulting the Mountain event will automatically trigger in the following month, and the game will proceed to its final outcome."
+  - splitPath: SelectionList[0]
+    text: "属下已经准备好了"
+    translated: "Subordinates have everything prepared"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "属下尚未准备好"
+    translated: "Subordinate is not yet ready"
+- raw: "{\r\n    \"Key\": 4800200,\r\n    \"DescFinal\": \"想要兌換哪一種類別的功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"內功、輕功類功法\",\r\n      \"刀法類功法\",\r\n      \"槍法類功法\",\r\n      \"叉法類功法\",\r\n      \"箭術類功法\",\r\n      \"今日先不兌換了\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换哪一种类别的功法？\",\r\n    \"SelectionList\": [\r\n      \"内功、轻功类功法\",\r\n      \"刀法类功法\",\r\n      \"枪法类功法\",\r\n      \"叉法类功法\",\r\n      \"箭术类功法\",\r\n      \"今日先不兑换了\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換哪一種類別的功法？\",\r\n    \"SelectionTwList\": [\r\n      \"內功、輕功類功法\",\r\n      \"刀法類功法\",\r\n      \"槍法類功法\",\r\n      \"叉法類功法\",\r\n      \"箭術類功法\",\r\n      \"今日先不兌換了\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800200
+  splits:
+  - splitPath: Desc
+    text: "想要兑换哪一种类别的功法？"
+    translated: "Which category of cultivation method would you like to exchange for?"
+  - splitPath: SelectionList[0]
+    text: "内功、轻功类功法"
+    translated: "Neigong, qinggong skills"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "刀法类功法"
+    translated: "Blade Arts Cultivation Method"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "枪法类功法"
+    translated: "Spear Technique Merit Skill"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "叉法类功法"
+    translated: "Chi Fa Class Martial Art Technique"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "箭术类功法"
+    translated: "Bow skill cultivation method"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "今日先不兑换了"
+    translated: "Today, let's not exchange them yet"
+- raw: "{\r\n    \"Key\": 4800310,\r\n    \"DescFinal\": \"想要兌換內功、輕功類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"碧波訣 1000錢 40貢獻\",\r\n      \"蛟龍息 2000錢 80貢獻\",\r\n      \"遊身步 500錢\",\r\n      \"蹈浪術 1000錢 40貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"碧波訣\\\\n自動釋放，100%釋放戰術【碧波訣】\\\\n【碧波訣】-可疊加7層，每層攻擊+4%\",\r\n      \"蛟龍息\\\\n自動釋放，28%機率釋放回復1點行動力。\",\r\n      \"遊身步\\\\n自動釋放，6%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n      \"蹈浪術\\\\n消耗2點行動力，釋放戰術【閃避】，可以抵消一次傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换内功、轻功类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"碧波诀 1000钱 40贡献\",\r\n      \"蛟龙息 2000钱 80贡献\",\r\n      \"游身步 500钱\",\r\n      \"蹈浪术 1000钱 40贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"碧波诀\\\\n自动释放，100%释放战术【碧波诀】\\\\n【碧波诀】-可叠加7层，每层攻击+4%\",\r\n      \"蛟龙息\\\\n自动释放，28%几率释放回复1点行动力。\",\r\n      \"游身步\\\\n自动释放，6%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n      \"蹈浪术\\\\n消耗2点行动力，释放战术【闪避】，可以抵消一次伤害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換內功、輕功類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"碧波訣 1000錢 40貢獻\",\r\n      \"蛟龍息 2000錢 80貢獻\",\r\n      \"遊身步 500錢\",\r\n      \"蹈浪術 1000錢 40貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"碧波訣\\\\n自動釋放，100%釋放戰術【碧波訣】\\\\n【碧波訣】-可疊加7層，每層攻擊+4%\",\r\n      \"蛟龍息\\\\n自動釋放，28%機率釋放回復1點行動力。\",\r\n      \"遊身步\\\\n自動釋放，6%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n      \"蹈浪術\\\\n消耗2點行動力，釋放戰術【閃避】，可以抵消一次傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800310
+  splits:
+  - splitPath: Desc
+    text: "想要兑换内功、轻功类的哪一门功法？"
+    translated: "Which inner cultivation or agile movement skill do you want to exchange for neigong or qinggong?"
+  - splitPath: SelectionList[0]
+    text: "碧波诀 1000钱 40贡献"
+    translated: "Flowing Jade Technique 1000Coin 40Contribution"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "蛟龙息 2000钱 80贡献"
+    translated: "Dragon Rest 2000 Coin 80 Contribution"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "游身步 500钱"
+    translated: "Flowing Step 500Coin"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "蹈浪术 1000钱 40贡献"
+    translated: "Wave Treading Skill 1000 Coin 40 Contribution"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "再考虑一下"
+    translated: "Think about it again"
+  - splitPath: TipTextList[0]
+    text: "碧波诀\\n自动释放，100%释放战术【碧波诀】\\n【碧波诀】-可叠加7层，每层攻击+4%"
+    translated: "Asura Wave Technique\\nAuto‑release, 100% release tactical  【Asura Wave Technique】 \\n 【Asura Wave Technique】 ‑ can stack up to 7 layers, with each layer increasing attack by +4%"
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "蛟龙息\\n自动释放，28%几率释放回复1点行动力。"
+    translated: "Dragon Calm Down\\nAutomatic release, 28% chance to release and recover 1 Action Points."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "游身步\\n自动释放，6%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+    translated: "Featherstep Maneuver\\nAutomatic release, 6% chance of automatically releasing a tactical  【Dodge】 . Dodging can negate one damage hit."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "蹈浪术\\n消耗2点行动力，释放战术【闪避】，可以抵消一次伤害。"
+    translated: "Tidal Wave Technique\\nSpend 2 Action Points to activate the tactic  【Dodge】 , which can negate a single damage attack."
+- raw: "{\r\n    \"Key\": 4800410,\r\n    \"DescFinal\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"破浪刀法 1000錢 40貢獻\",\r\n      \"合沓刀法1000錢 40貢獻\",\r\n      \"九字刀法2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"破浪刀法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有20%機率打斷敵人功法。\",\r\n      \"合沓刀法\\\\n消耗2點行動力，單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"九字刀法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换刀法类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"破浪刀法 1000钱 40贡献\",\r\n      \"合沓刀法1000钱 40贡献\",\r\n      \"九字刀法2000钱 80贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"破浪刀法\\\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害，并有20%几率打断敌人功法。\",\r\n      \"合沓刀法\\\\n消耗2点行动力，单次攻击造成1倍侠客功力的伤害，连续攻击两次。\",\r\n      \"九字刀法\\\\n消耗0点行动力，单次攻击造成0.9倍侠客功力的伤害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"破浪刀法 1000錢 40貢獻\",\r\n      \"合沓刀法1000錢 40貢獻\",\r\n      \"九字刀法2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"破浪刀法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有20%機率打斷敵人功法。\",\r\n      \"合沓刀法\\\\n消耗2點行動力，單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"九字刀法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800410
+  splits:
+  - splitPath: Desc
+    text: "想要兑换刀法类的哪一门功法？"
+    translated: "Which blade technique do you want to exchange for?"
+  - splitPath: SelectionList[0]
+    text: "破浪刀法 1000钱 40贡献"
+    translated: "Wave‑Cutting Blade Art 1000 Coin 40 Contribution"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "合沓刀法1000钱 40贡献"
+    translated: "Blade Art of Harmonious Strokes 1000 Coin 40 Contribution"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "九字刀法2000钱 80贡献"
+    translated: "Nine‑word Blade Art 2000 Qian 80 Contribution"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "再考虑一下"
+    translated: "Think about it again"
+  - splitPath: TipTextList[0]
+    text: "破浪刀法\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害，并有20%几率打断敌人功法。"
+    translated: "Wave‑Cutting Blade Technique\\nConsume 1 Action Points to deal 0.7 times your Wanderer Power in damage with this attack, and there is a 20% chance to interrupt the enemy's cultivation technique."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "合沓刀法\\n消耗2点行动力，单次攻击造成1倍侠客功力的伤害，连续攻击两次。"
+    translated: "Blade Art\\nSpend 2 Action Points. Each attack deals 1 times the Wanderer's Power in damage. You can attack twice in succession."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "九字刀法\\n消耗0点行动力，单次攻击造成0.9倍侠客功力的伤害。"
+    translated: "Nine‑Character Blade Technique\\nConsume 0 Action Points to deal 0.9 times the Wanderer's Power in a single attack."
+- raw: "{\r\n    \"Key\": 4800510,\r\n    \"DescFinal\": \"想要兌換槍法類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"卷旗槍法 500錢\",\r\n      \"貫日槍法 1000錢 40貢獻\",\r\n      \"長風槍法 1000錢 40貢獻\",\r\n      \"莫怪槍法 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"卷旗槍法\\\\n消耗1點行動力，單次攻擊造成0.5倍俠客功力的傷害，並有20%機率自動令我方1名俠客獲得會心。\",\r\n      \"貫日槍法\\\\n消耗1點行動力，單次攻擊造成1.1倍俠客功力的傷害。\",\r\n      \"長風槍法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有25%機率使敵人進入輕傷狀態。\",\r\n      \"莫怪槍法\\\\n消耗3點行動力，單次攻擊造成2.1倍俠客功力的傷害，並有50%機率回覆2點行動力。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换枪法类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"卷旗枪法 500钱\",\r\n      \"贯日枪法 1000钱 40贡献\",\r\n      \"长风枪法 1000钱 40贡献\",\r\n      \"莫怪枪法 2000钱 80贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"卷旗枪法\\\\n消耗1点行动力，单次攻击造成0.5倍侠客功力的伤害，并有20%几率自动令我方1名侠客获得会心。\",\r\n      \"贯日枪法\\\\n消耗1点行动力，单次攻击造成1.1倍侠客功力的伤害。\",\r\n      \"长风枪法\\\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害，并有25%几率使敌人进入轻伤状态。\",\r\n      \"莫怪枪法\\\\n消耗3点行动力，单次攻击造成2.1倍侠客功力的伤害，并有50%几率回复2点行动力。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換槍法類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"卷旗槍法 500錢\",\r\n      \"貫日槍法 1000錢 40貢獻\",\r\n      \"長風槍法 1000錢 40貢獻\",\r\n      \"莫怪槍法 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"卷旗槍法\\\\n消耗1點行動力，單次攻擊造成0.5倍俠客功力的傷害，並有20%機率自動令我方1名俠客獲得會心。\",\r\n      \"貫日槍法\\\\n消耗1點行動力，單次攻擊造成1.1倍俠客功力的傷害。\",\r\n      \"長風槍法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有25%機率使敵人進入輕傷狀態。\",\r\n      \"莫怪槍法\\\\n消耗3點行動力，單次攻擊造成2.1倍俠客功力的傷害，並有50%機率回覆2點行動力。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800510
+  splits:
+  - splitPath: Desc
+    text: "想要兑换枪法类的哪一门功法？"
+    translated: "Which spear technique skill would you like to exchange for?"
+  - splitPath: SelectionList[0]
+    text: "卷旗枪法 500钱"
+    translated: "Drumming Spear Technique 500 Money"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "贯日枪法 1000钱 40贡献"
+    translated: "Day Spear Art 1000Coin 40Contribution"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "长风枪法 1000钱 40贡献"
+    translated: "Long Wind Spear Art 1000Money 40Contribution"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "莫怪枪法 2000钱 80贡献"
+    translated: "Don't blame the spear technique for 2000 coin and 80 contribution."
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "再考虑一下"
+    translated: "Think about it again"
+  - splitPath: TipTextList[0]
+    text: "卷旗枪法\\n消耗1点行动力，单次攻击造成0.5倍侠客功力的伤害，并有20%几率自动令我方1名侠客获得会心。"
+    translated: "Spear Technique of Unfurled Banner\\nSpend 1 Action Points for a single attack that deals 0.5 times your Wanderer Power in damage. There is also a 20% chance to automatically grant proficiency in critical strikes to 1 of my fellow Wanderers."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "贯日枪法\\n消耗1点行动力，单次攻击造成1.1倍侠客功力的伤害。"
+    translated: "Day Piercing Spear Technique\\nConsume 1 Action Points to deal 1.1 times the Wanderer's Power in a single attack."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "长风枪法\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害，并有25%几率使敌人进入轻伤状态。"
+    translated: "Spear Technique\\nSpend 1 Action Points to deal 0.7 times your Wandering Warrior Power in a single attack, with a 25% chance to inflict Light Injury on the enemy."
+  - split: 3
+    splitPath: TipTextList[3]
+    text: "莫怪枪法\\n消耗3点行动力，单次攻击造成2.1倍侠客功力的伤害，并有50%几率回复2点行动力。"
+    translated: "Don't blame the spear technique\\nSpend 3 Action Points for a single attack that deals 2.1 times the Wanderer's Power in damage. There is also a 50% chance to recover 2 Action Points."
+- raw: "{\r\n    \"Key\": 4800610,\r\n    \"DescFinal\": \"想要兌換叉法類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"巡江叉法 500錢\",\r\n      \"探海叉法 1000錢 40貢獻\",\r\n      \"風波十六叉 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"巡江叉法\\\\n消耗1點行動力，單次攻擊造成0.3倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"探海叉法\\\\n消耗2點行動力，單次攻擊造成1.3倍俠客功力的傷害，並使敵人進入禁療狀態。\",\r\n      \"風波十六叉\\\\n消耗0點行動力，我方戰術大於0時，單次攻擊造成1.6倍俠客功力的傷害，並有消除我方1個戰術。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换叉法类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"巡江叉法 500钱\",\r\n      \"探海叉法 1000钱 40贡献\",\r\n      \"风波十六叉 2000钱 80贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"巡江叉法\\\\n消耗1点行动力，单次攻击造成0.3倍侠客功力的伤害，连续攻击两次。\",\r\n      \"探海叉法\\\\n消耗2点行动力，单次攻击造成1.3倍侠客功力的伤害，并使敌人进入禁疗状态。\",\r\n      \"风波十六叉\\\\n消耗0点行动力，我方战术大于0时，单次攻击造成1.6倍侠客功力的伤害，并有消除我方1个战术。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換叉法類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"巡江叉法 500錢\",\r\n      \"探海叉法 1000錢 40貢獻\",\r\n      \"風波十六叉 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"巡江叉法\\\\n消耗1點行動力，單次攻擊造成0.3倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"探海叉法\\\\n消耗2點行動力，單次攻擊造成1.3倍俠客功力的傷害，並使敵人進入禁療狀態。\",\r\n      \"風波十六叉\\\\n消耗0點行動力，我方戰術大於0時，單次攻擊造成1.6倍俠客功力的傷害，並有消除我方1個戰術。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800610
+  splits:
+  - splitPath: Desc
+    text: "想要兑换叉法类的哪一门功法？"
+    translated: "Which branch of the prong technique do you want to exchange for?"
+  - splitPath: SelectionList[0]
+    text: "巡江叉法 500钱"
+    translated: "Paddle River Fork Technique 500Coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "探海叉法 1000钱 40贡献"
+    translated: "Piercing Sea Fork Technique 1000 Coin 40 Contribution"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "风波十六叉 2000钱 80贡献"
+    translated: "Turbulent Events Involve Sixteen Forks of Coin 2000 and Contribution 80"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "再考虑一下"
+    translated: "Think about it again"
+  - splitPath: TipTextList[0]
+    text: "巡江叉法\\n消耗1点行动力，单次攻击造成0.3倍侠客功力的伤害，连续攻击两次。"
+    translated: "Changjiang Fork Technique\\nSpend 1 Action Points to deal 0.3 times the Wanderer's Power in a single attack. You can attack twice in succession."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "探海叉法\\n消耗2点行动力，单次攻击造成1.3倍侠客功力的伤害，并使敌人进入禁疗状态。"
+    translated: "Exploring the Sea Prong Technique\\nSpend 2 Action Points for a single attack that deals 1.3 times the Wanderer's Power in damage and puts the enemy into a state of no healing."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "风波十六叉\\n消耗0点行动力，我方战术大于0时，单次攻击造成1.6倍侠客功力的伤害，并有消除我方1个战术。"
+    translated: "Sixteen Forks of Chaos\\nConsume 0 Action Points. When my team's tactic exceeds 0, a single attack will deal 1.6 times the Wanderer's Power in damage and remove 1 tactics from our side."
+- raw: "{\r\n    \"Key\": 4800710,\r\n    \"DescFinal\": \"想要兌換箭術類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"收帆箭法 500錢\",\r\n      \"射蛟箭法 1000錢 40貢獻\",\r\n      \"連珠箭法 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"收帆箭法\\\\n消耗0點行動力，當對方連擊數大於2時，單次攻擊造成0.7倍俠客功力的傷害。\",\r\n      \"射蛟箭法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害，並有40%機率使敵人進入禁療狀態。\",\r\n      \"連珠箭法\\\\n消耗1點行動力，單次攻擊造成0.4倍俠客功力的傷害，並有36%機率使敵人進入禁療狀態，連續攻擊三次。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换箭术类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"收帆箭法 500钱\",\r\n      \"射蛟箭法 1000钱 40贡献\",\r\n      \"连珠箭法 2000钱 80贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"收帆箭法\\\\n消耗0点行动力，当对方连击数大于2时，单次攻击造成0.7倍侠客功力的伤害。\",\r\n      \"射蛟箭法\\\\n消耗0点行动力，单次攻击造成0.9倍侠客功力的伤害，并有40%几率使敌人进入禁疗状态。\",\r\n      \"连珠箭法\\\\n消耗1点行动力，单次攻击造成0.4倍侠客功力的伤害，并有36%几率使敌人进入禁疗状态，连续攻击三次。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換箭術類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"收帆箭法 500錢\",\r\n      \"射蛟箭法 1000錢 40貢獻\",\r\n      \"連珠箭法 2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"收帆箭法\\\\n消耗0點行動力，當對方連擊數大於2時，單次攻擊造成0.7倍俠客功力的傷害。\",\r\n      \"射蛟箭法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害，並有40%機率使敵人進入禁療狀態。\",\r\n      \"連珠箭法\\\\n消耗1點行動力，單次攻擊造成0.4倍俠客功力的傷害，並有36%機率使敵人進入禁療狀態，連續攻擊三次。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 4800710
+  splits:
+  - splitPath: Desc
+    text: "想要兑换箭术类的哪一门功法？"
+    translated: "Which arrow skill do you want to exchange for?"
+  - splitPath: SelectionList[0]
+    text: "收帆箭法 500钱"
+    translated: "The Arrow Technique of Sailing in for Furling 500 Coin"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "射蛟箭法 1000钱 40贡献"
+    translated: "Arrow‑Jettisoning Technique 1000 Coin 40 Contribution"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "连珠箭法 2000钱 80贡献"
+    translated: "Linked Arrow Technique 2000Coin 80Contribution"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "再考虑一下"
+    translated: "Think about it again"
+  - splitPath: TipTextList[0]
+    text: "收帆箭法\\n消耗0点行动力，当对方连击数大于2时，单次攻击造成0.7倍侠客功力的伤害。"
+    translated: "Recovery Arrow Technique\\nConsume 0 Action Points. When the opponent's combo count is greater than 2, this single attack deals 0.7 times the Wanderer's Power in damage."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "射蛟箭法\\n消耗0点行动力，单次攻击造成0.9倍侠客功力的伤害，并有40%几率使敌人进入禁疗状态。"
+    translated: "Arrow of the Dragon Slayer Technique\\nConsume 0 Action Points to deal 0.9 times the Wanderer's Power in a single attack, with a 40% chance to put the enemy in a state where they cannot be healed."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "连珠箭法\\n消耗1点行动力，单次攻击造成0.4倍侠客功力的伤害，并有36%几率使敌人进入禁疗状态，连续攻击三次。"
+    translated: "Quick succession arrow technique\\nSpend 1 Action Points to perform an attack that deals 0.4 times your Wielder Power in damage. There is a 36% chance to incapacitate the enemy's healing for three consecutive attacks."
+- raw: "{\r\n    \"Key\": 5370900,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"在天愿作比翼鸟\",\r\n      \"在地愿为连理枝\",\r\n      \"得成比目何辞死\",\r\n      \"愿作鸳鸯不羡仙\",\r\n      \"还是一个人过吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5370900
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "在天愿作比翼鸟"
+    translated: "In heaven may we be winged birds together."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "在地愿为连理枝"
+    translated: "In this life, may we be trees forever entwined."
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "得成比目何辞死"
+    translated: "Achieving the union of two fish, what could death matter?"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "愿作鸳鸯不羡仙"
+    translated: "Willing to be a mated swan rather than a immortal."
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "还是一个人过吧"
+    translated: "Live alone, I guess"
+- raw: "{\r\n    \"Key\": 5371000,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"鍾離雪\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"钟离雪\",\r\n      \"左灵珠\",\r\n      \"连翘儿\",\r\n      \"沈蓉蓉\",\r\n      \"谈文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"鍾離雪\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5371000
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "钟离雪"
+    translated: "Zhongli Xue"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "左灵珠"
+    translated: "Zuo Lingzhu"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "连翘儿"
+    translated: "Lian Qiaoer"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "沈蓉蓉"
+    translated: "Shen Rongrong"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "谈文秀"
+    translated: "Tan Wenshao"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 5371100,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"阮碧青\",\r\n      \"靳红衣\",\r\n      \"萧令仪\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5371100
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "阮碧青"
+    translated: "Ruan Biqing"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "靳红衣"
+    translated: "Jin Hongyi"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "萧令仪"
+    translated: "Xiao Lingyi"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "薛如意"
+    translated: "Xue Ruyi"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "司徒伶"
+    translated: "Situ Ling"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 5371200,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"项欺霜\",\r\n      \"展青锋\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5371200
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "晏峨眉"
+    translated: "Yan Emei"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "夏侯珺"
+    translated: "Xiahou Jun"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "项欺霜"
+    translated: "Xiang Qishuang"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "展青锋"
+    translated: "Zhan Qingfeng"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 5371300,\r\n    \"DescFinal\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionListFinal\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"艾琳娜\",\r\n      \"文锦心\",\r\n      \"柳含烟\",\r\n      \"风间爱\",\r\n      \"风间月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"再想想\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5371300
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+  - splitPath: SelectionList[0]
+    text: "艾琳娜"
+    translated: "Elena"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "文锦心"
+    translated: "Wen Jinxin"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "柳含烟"
+    translated: "Liu Hanyan"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "风间爱"
+    translated: "Kazama Ai"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "风间月"
+    translated: "Kazama Yue"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "再想想"
+    translated: "Think about it some more"
+- raw: "{\r\n    \"Key\": 5490200,\r\n    \"DescFinal\": \"荊南沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗荊南特色的美味\",\r\n      \"逛一逛荊南有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"荆南没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝荆南特色的美味\",\r\n      \"逛一逛荆南有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"荊南沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗荊南特色的美味\",\r\n      \"逛一逛荊南有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5490200
+  splits:
+  - splitPath: Desc
+    text: "荆南没有什么特别事情发生，如何选择？"
+    translated: "There were no special events in Jingnan. How would you like to proceed?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝荆南特色的美味"
+    translated: "Try the delicious specialties of Jingnan"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛荆南有趣的地方"
+    translated: "Stroll through the fascinating places of Jingnan"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 5190700,\r\n    \"DescFinal\": \"今日去白蛟堂接些什麼差事？\",\r\n    \"SelectionListFinal\": [\r\n      \"送客擺渡\",\r\n      \"運貨卸貨\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日去白蛟堂接些什么差事？\",\r\n    \"SelectionList\": [\r\n      \"送客摆渡\",\r\n      \"运货卸货\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日去白蛟堂接些什麼差事？\",\r\n    \"SelectionTwList\": [\r\n      \"送客擺渡\",\r\n      \"運貨卸貨\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5190700
+  splits:
+  - splitPath: Desc
+    text: "今日去白蛟堂接些什么差事？"
+    translated: "What tasks are you picking up at White Python Hall today?"
+  - splitPath: SelectionList[0]
+    text: "送客摆渡"
+    translated: "Farewell Boat Ride"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "运货卸货"
+    translated: "Unloading cargo"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是算了"
+    translated: "Forget it"
+- raw: "{\r\n    \"Key\": 5402310,\r\n    \"DescFinal\": \"是否還在此處繼續看雜耍表演？\",\r\n    \"SelectionListFinal\": [\r\n      \"繼續看雜耍表演\",\r\n      \"不再看雜耍表演\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否还在此处继续看杂耍表演？\",\r\n    \"SelectionList\": [\r\n      \"继续看杂耍表演\",\r\n      \"不再看杂耍表演\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否還在此處繼續看雜耍表演？\",\r\n    \"SelectionTwList\": [\r\n      \"繼續看雜耍表演\",\r\n      \"不再看雜耍表演\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5402310
+  splits:
+  - splitPath: Desc
+    text: "是否还在此处继续看杂耍表演？"
+    translated: "Are you still watching the acrobatic performances here?"
+  - splitPath: SelectionList[0]
+    text: "继续看杂耍表演"
+    translated: "Continue watching the acrobatic performance"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "不再看杂耍表演"
+    translated: "No longer watching the acrobatics show"
+- raw: "{\r\n    \"Key\": 5404410,\r\n    \"DescFinal\": \"是否接受三千錢轉讓屓贔銅牌？\",\r\n    \"SelectionListFinal\": [\r\n      \"三千錢轉讓\",\r\n      \"無意賣出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否接受三千钱转让屃赑铜牌？\",\r\n    \"SelectionList\": [\r\n      \"三千钱转让\",\r\n      \"无意卖出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否接受三千錢轉讓屓贔銅牌？\",\r\n    \"SelectionTwList\": [\r\n      \"三千錢轉讓\",\r\n      \"無意賣出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5404410
+  splits:
+  - splitPath: Desc
+    text: "是否接受三千钱转让屃赑铜牌？"
+    translated: "Are you willing to transfer the Xi Bi Bronze Plaque for three thousand coins?"
+  - splitPath: SelectionList[0]
+    text: "三千钱转让"
+    translated: "Three thousand coins for transfer"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "无意卖出"
+    translated: "Intentionally not selling"
+- raw: "{\r\n    \"Key\": 5404420,\r\n    \"DescFinal\": \"是否接受五千錢轉讓屓贔銅牌？\",\r\n    \"SelectionListFinal\": [\r\n      \"五千錢轉讓\",\r\n      \"無意賣出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否接受五千钱转让屃赑铜牌？\",\r\n    \"SelectionList\": [\r\n      \"五千钱转让\",\r\n      \"无意卖出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否接受五千錢轉讓屓贔銅牌？\",\r\n    \"SelectionTwList\": [\r\n      \"五千錢轉讓\",\r\n      \"無意賣出\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5404420
+  splits:
+  - splitPath: Desc
+    text: "是否接受五千钱转让屃赑铜牌？"
+    translated: "Are you willing to transfer the Xi Bi Bronze Plaque for five thousand coins?"
+  - splitPath: SelectionList[0]
+    text: "五千钱转让"
+    translated: "Five thousand coins for transfer"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "无意卖出"
+    translated: "Intentionally not selling"
+- raw: "{\r\n    \"Key\": 5590310,\r\n    \"DescFinal\": \"今日來柳蔭巷何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"看福慶班的戲法表演\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日来柳荫巷何事？\",\r\n    \"SelectionList\": [\r\n      \"看福庆班的戏法表演\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日來柳蔭巷何事？\",\r\n    \"SelectionTwList\": [\r\n      \"看福慶班的戲法表演\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5590310
+  splits:
+  - splitPath: Desc
+    text: "今日来柳荫巷何事？"
+    translated: "What brought you to Willow Shade Alley today?"
+  - splitPath: SelectionList[0]
+    text: "看福庆班的戏法表演"
+    translated: "Watch the magician's performance in Fuqing Battalion's show"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+    translated: "Let's come back another day"
+- raw: "{\r\n    \"Key\": 5602800,\r\n    \"DescFinal\": \"你認為誰更厲害？\",\r\n    \"SelectionListFinal\": [\r\n      \"項欺霜更厲害\",\r\n      \"晏蛾眉更厲害\",\r\n      \"當然是我更厲害\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你认为谁更厉害？\",\r\n    \"SelectionList\": [\r\n      \"项欺霜更厉害\",\r\n      \"晏蛾眉更厉害\",\r\n      \"当然是我更厉害\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你認為誰更厲害？\",\r\n    \"SelectionTwList\": [\r\n      \"項欺霜更厲害\",\r\n      \"晏蛾眉更厲害\",\r\n      \"當然是我更厲害\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5602800
+  splits:
+  - splitPath: Desc
+    text: "你认为谁更厉害？"
+    translated: "Who do you think is more powerful?"
+  - splitPath: SelectionList[0]
+    text: "项欺霜更厉害"
+    translated: "Xiang Qishuang is even more formidable"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "晏蛾眉更厉害"
+    translated: "Yan Emei is even more powerful"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "当然是我更厉害"
+    translated: "Of course, I am more skilled"
+- raw: "{\r\n    \"Key\": 5690200,\r\n    \"DescFinal\": \"湘西沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗湘西特色的美味\",\r\n      \"逛一逛湘西有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"湘西没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝湘西特色的美味\",\r\n      \"逛一逛湘西有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"湘西沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗湘西特色的美味\",\r\n      \"逛一逛湘西有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 5690200
+  splits:
+  - splitPath: Desc
+    text: "湘西没有什么特别事情发生，如何选择？"
+    translated: "Nothing special is happening in Xiangxi. How should I proceed?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝湘西特色的美味"
+    translated: "Try some of the delicious specialties from Xiangxi!"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛湘西有趣的地方"
+    translated: "Explore the interesting places in Xiangxi"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 6000310,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"相助衡山派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ],\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"SelectionList\": [\r\n      \"相助衡山派一众门人\",\r\n      \"相助洞庭帮一众门人\",\r\n      \"相助青城派一众门人\",\r\n      \"相助崆峒派一众门人\",\r\n      \"相助昆仑派一众门人\",\r\n      \"相助少林派一众门人\",\r\n      \"全力逃出劫云谷\"\r\n    ],\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"相助衡山派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ]\r\n  }"
+  rawIndex: 6000310
+  splits:
+  - splitPath: Desc
+    text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll in the Valley of Desolate Clouds. How will you choose to act?\\n<color=#FF0000>Note: Choosing  “Put all their efforts into escaping from Desolate Storm Valley.”  will prevent you from triggering the subsequent perfect ending. (It is recommended to rescue all righteous sects.)</color>"
+  - splitPath: SelectionList[0]
+    text: "相助衡山派一众门人"
+    translated: "Help the disciples of the Hengshan Sect"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "相助洞庭帮一众门人"
+    translated: "Assist the disciples of the Dongting Sect"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "相助青城派一众门人"
+    translated: "Help the disciples of the Qingcheng Sect"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "相助崆峒派一众门人"
+    translated: "Help the disciples of the Kongtong Sect"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "相助昆仑派一众门人"
+    translated: "Assist the disciples of Kunlun Sect"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "相助少林派一众门人"
+    translated: "Assist the disciples of the Shaolin Sect"
+  - split: 6
+    splitPath: SelectionList[6]
+    text: "全力逃出劫云谷"
+    translated: "Put all their efforts into escaping from Desolate Storm Valley."
+- raw: "{\r\n    \"Key\": 6000410,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"相助武當派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ],\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"SelectionList\": [\r\n      \"相助武当派一众门人\",\r\n      \"相助洞庭帮一众门人\",\r\n      \"相助青城派一众门人\",\r\n      \"相助崆峒派一众门人\",\r\n      \"相助昆仑派一众门人\",\r\n      \"相助少林派一众门人\",\r\n      \"全力逃出劫云谷\"\r\n    ],\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"相助武當派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ]\r\n  }"
+  rawIndex: 6000410
+  splits:
+  - splitPath: Desc
+    text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll in the Valley of Desolate Clouds. How will you choose to act?\\n<color=#FF0000>Note: Choosing  “Put all their efforts into escaping from Desolate Storm Valley.”  will prevent you from triggering the subsequent perfect ending. (It is recommended to rescue all righteous sects.)</color>"
+  - splitPath: SelectionList[0]
+    text: "相助武当派一众门人"
+    translated: "Assist the Wudang Sect and its disciples"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "相助洞庭帮一众门人"
+    translated: "Assist the disciples of the Dongting Sect"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "相助青城派一众门人"
+    translated: "Help the disciples of the Qingcheng Sect"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "相助崆峒派一众门人"
+    translated: "Help the disciples of the Kongtong Sect"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "相助昆仑派一众门人"
+    translated: "Assist the disciples of Kunlun Sect"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "相助少林派一众门人"
+    translated: "Assist the disciples of the Shaolin Sect"
+  - split: 6
+    splitPath: SelectionList[6]
+    text: "全力逃出劫云谷"
+    translated: "Put all their efforts into escaping from Desolate Storm Valley."
+- raw: "{\r\n    \"Key\": 6000510,\r\n    \"DescFinal\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"相助武當派一眾門人\",\r\n      \"相助衡山派一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ],\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"SelectionList\": [\r\n      \"相助武当派一众门人\",\r\n      \"相助衡山派一众门人\",\r\n      \"相助青城派一众门人\",\r\n      \"相助崆峒派一众门人\",\r\n      \"相助昆仑派一众门人\",\r\n      \"相助少林派一众门人\",\r\n      \"全力逃出劫云谷\"\r\n    ],\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"相助武當派一眾門人\",\r\n      \"相助衡山派一眾門人\",\r\n      \"相助青城派一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\"\r\n    ]\r\n  }"
+  rawIndex: 6000510
+  splits:
+  - splitPath: Desc
+    text: "劫云谷中雷火滚动，你要如何选择？\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>"
+    translated: "Thunder and fire roll in the Valley of Desolate Clouds. How will you choose to act?\\n<color=#FF0000>Note: Choosing  “Put all their efforts into escaping from Desolate Storm Valley.”  will prevent you from triggering the subsequent perfect ending. (It is recommended to rescue all righteous sects.)</color>"
+  - splitPath: SelectionList[0]
+    text: "相助武当派一众门人"
+    translated: "Assist the Wudang Sect and its disciples"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "相助衡山派一众门人"
+    translated: "Help the disciples of the Hengshan Sect"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "相助青城派一众门人"
+    translated: "Help the disciples of the Qingcheng Sect"
+  - split: 3
+    splitPath: SelectionList[3]
+    text: "相助崆峒派一众门人"
+    translated: "Help the disciples of the Kongtong Sect"
+  - split: 4
+    splitPath: SelectionList[4]
+    text: "相助昆仑派一众门人"
+    translated: "Assist the disciples of Kunlun Sect"
+  - split: 5
+    splitPath: SelectionList[5]
+    text: "相助少林派一众门人"
+    translated: "Assist the disciples of the Shaolin Sect"
+  - split: 6
+    splitPath: SelectionList[6]
+    text: "全力逃出劫云谷"
+    translated: "Put all their efforts into escaping from Desolate Storm Valley."
+- raw: "{\r\n    \"Key\": 6200210,\r\n    \"DescFinal\": \"正道各派彙集祕魔崖下準備登崖，你有何建議？\",\r\n    \"SelectionListFinal\": [\r\n      \"登臨祕魔崖\",\r\n      \"繞山探捷徑\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"正道各派汇集秘魔崖下准备登崖，你有何建议？\",\r\n    \"SelectionList\": [\r\n      \"登临秘魔崖\",\r\n      \"绕山探捷径\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"正道各派彙集祕魔崖下準備登崖，你有何建議？\",\r\n    \"SelectionTwList\": [\r\n      \"登臨祕魔崖\",\r\n      \"繞山探捷徑\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6200210
+  splits:
+  - splitPath: Desc
+    text: "正道各派汇集秘魔崖下准备登崖，你有何建议？"
+    translated: "The various sects of the righteous path have gathered at the Secret Devil Cliff to prepare for their ascent. What advice do you have?"
+  - splitPath: SelectionList[0]
+    text: "登临秘魔崖"
+    translated: "Ascending the Secret Fiend Cliff"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "绕山探捷径"
+    translated: "Circuit the mountain to find a shortcut"
+- raw: "{\r\n    \"Key\": 6390200,\r\n    \"DescFinal\": \"川東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionListFinal\": [\r\n      \"嘗一嘗川東特色的美味\",\r\n      \"逛一逛川東有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"川东没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝川东特色的美味\",\r\n      \"逛一逛川东有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"川東沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗川東特色的美味\",\r\n      \"逛一逛川東有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6390200
+  splits:
+  - splitPath: Desc
+    text: "川东没有什么特别事情发生，如何选择？"
+    translated: "There's nothing out of the ordinary happening in Eastern Sichuan. What would you like to choose?"
+  - splitPath: SelectionList[0]
+    text: "尝一尝川东特色的美味"
+    translated: "Try the delicious flavors of Chu Dong cuisine."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "逛一逛川东有趣的地方"
+    translated: "Explore the interesting spots in East Sichuan"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "还是不在这里耽误时间了"
+    translated: "Let's not waste any more time here"
+- raw: "{\r\n    \"Key\": 6300200,\r\n    \"DescFinal\": \"見此情形，你是否要出手相助？\",\r\n    \"SelectionListFinal\": [\r\n      \"上前相助女子拼酒\",\r\n      \"不必管這好酒女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"见此情形，你是否要出手相助？\",\r\n    \"SelectionList\": [\r\n      \"上前相助女子拼酒\",\r\n      \"不必管这好酒女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"見此情形，你是否要出手相助？\",\r\n    \"SelectionTwList\": [\r\n      \"上前相助女子拼酒\",\r\n      \"不必管這好酒女子\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6300200
+  splits:
+  - splitPath: Desc
+    text: "见此情形，你是否要出手相助？"
+    translated: "Do you want to step in and help under these circumstances?"
+  - splitPath: SelectionList[0]
+    text: "上前相助女子拼酒"
+    translated: "Step forward to help the woman in her drinking contest."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "不必管这好酒女子"
+    translated: "Don't worry about that good wine woman"
+- raw: "{\r\n    \"Key\": 6301000,\r\n    \"DescFinal\": \"見此情形，你是否要出手相助？\",\r\n    \"SelectionListFinal\": [\r\n      \"出手相助，勿讓賊人得手\",\r\n      \"稍安勿躁，暗中還有高手\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"见此情形，你是否要出手相助？\",\r\n    \"SelectionList\": [\r\n      \"出手相助，勿让贼人得手\",\r\n      \"稍安勿躁，暗中还有高手\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"見此情形，你是否要出手相助？\",\r\n    \"SelectionTwList\": [\r\n      \"出手相助，勿讓賊人得手\",\r\n      \"稍安勿躁，暗中還有高手\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6301000
+  splits:
+  - splitPath: Desc
+    text: "见此情形，你是否要出手相助？"
+    translated: "Do you want to step in and help under these circumstances?"
+  - splitPath: SelectionList[0]
+    text: "出手相助，勿让贼人得手"
+    translated: "Come to assist; do not let the thieves succeed."
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "稍安勿躁，暗中还有高手"
+    translated: "Calm down for now; there are still skilled individuals lurking in the shadows."
+- raw: "{\r\n    \"Key\": 6490210,\r\n    \"DescFinal\": \"今日拜訪洗墨山莊何事？\",\r\n    \"SelectionListFinal\": [\r\n      \"學習翰墨之術\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"今日拜访洗墨山庄何事？\",\r\n    \"SelectionList\": [\r\n      \"学习翰墨之术\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日拜訪洗墨山莊何事？\",\r\n    \"SelectionTwList\": [\r\n      \"學習翰墨之術\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6490210
+  splits:
+  - splitPath: Desc
+    text: "今日拜访洗墨山庄何事？"
+    translated: "What brings you to visit XiMo Cottage today?"
+  - splitPath: SelectionList[0]
+    text: "学习翰墨之术"
+    translated: "Study the art of calligraphy"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+    translated: "Let's come back another day"
+- raw: "{\r\n    \"Key\": 6400510,\r\n    \"DescFinal\": \"選擇向談庭玉學習哪一門翰墨技法？\",\r\n    \"SelectionListFinal\": [\r\n      \"學習折釵股\",\r\n      \"學習屋漏痕\",\r\n      \"學習錐畫沙\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"折釵股\\\\n自動釋放，我方無戰術時，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"屋漏痕\\\\n自動釋放，我方處於異常狀態，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"錐畫沙\\\\n自動釋放，我方氣血大於70%時，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"选择向谈庭玉学习哪一门翰墨技法？\",\r\n    \"SelectionList\": [\r\n      \"学习折钗股\",\r\n      \"学习屋漏痕\",\r\n      \"学习锥画沙\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"折钗股\\\\n自动释放，我方无战术时，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。\",\r\n      \"屋漏痕\\\\n自动释放，我方处于异常状态，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。\",\r\n      \"锥画沙\\\\n自动释放，我方气血大于70%时，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇向談庭玉學習哪一門翰墨技法？\",\r\n    \"SelectionTwList\": [\r\n      \"學習折釵股\",\r\n      \"學習屋漏痕\",\r\n      \"學習錐畫沙\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"折釵股\\\\n自動釋放，我方無戰術時，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"屋漏痕\\\\n自動釋放，我方處於異常狀態，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"錐畫沙\\\\n自動釋放，我方氣血大於70%時，單次攻擊造成18倍翰墨的傷害，並有55%概率使敵人進入封穴狀態。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6400510
+  splits:
+  - splitPath: Desc
+    text: "选择向谈庭玉学习哪一门翰墨技法？"
+    translated: "Choose which calligraphy technique to learn from Tan Tingyu?"
+  - splitPath: SelectionList[0]
+    text: "学习折钗股"
+    translated: "Study the style of folded arm technique"
+  - split: 1
+    splitPath: SelectionList[1]
+    text: "学习屋漏痕"
+    translated: "Learning from Leaked Ink"
+  - split: 2
+    splitPath: SelectionList[2]
+    text: "学习锥画沙"
+    translated: "Learning to Sand Draw Cones"
+  - splitPath: TipTextList[0]
+    text: "折钗股\\n自动释放，我方无战术时，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
+    translated: "Folded iron chopstick pattern\\nAutomatic release. When my side has no tactics, a single attack will deal 18 times the amount of calligraphy damage and has a 55% chance to put enemies in Sealed Meridian state."
+  - split: 1
+    splitPath: TipTextList[1]
+    text: "屋漏痕\\n自动释放，我方处于异常状态，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
+    translated: "Leak in the Roofstroke\\nAutomatic release. When my side is in an abnormal state, each attack deals 18 times the damage of calligraphy, and there is a 55% chance to put the enemy into the Sealed Acupoint state."
+  - split: 2
+    splitPath: TipTextList[2]
+    text: "锥画沙\\n自动释放，我方气血大于70%时，单次攻击造成18倍翰墨的伤害，并有55%概率使敌人进入封穴状态。"
+    translated: "Sand Painting Technique\\nAuto‑release: When my team's lifeforce is greater than 70%, a single attack will deal 18 times the damage of calligraphy and has a 55% chance to inflict the Sealed Meridians state on the enemy."

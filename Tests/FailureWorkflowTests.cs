@@ -50,8 +50,7 @@ namespace Translate.Tests
                             continue;
 
                         if (!string.IsNullOrEmpty(split.Text) && (string.IsNullOrEmpty(split.Translated) || split.FlaggedForRetranslation))
-                        {
-                            //failures.Add($"Invalid {textFileToTranslate.Path}:\n{split.Text}");
+                        {                            
                             failures.Add(new FailedTranslation
                             {
                                 Text = split.Text,

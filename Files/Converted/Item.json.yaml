@@ -1,0 +1,27 @@
+- raw: "{\r\n    \"Key\": 1,\r\n    \"Name\": \"青釭剑\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
+  rawIndex: 1
+  splits:
+  - splitPath: Name
+    text: "青釭剑"
+    translated: "Sword"
+  - splitPath: Desc
+    text: "道具描述"
+    translated: "Item Description"
+- raw: "{\r\n    \"Key\": 2,\r\n    \"Name\": \"锁子甲\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
+  rawIndex: 2
+  splits:
+  - splitPath: Name
+    text: "锁子甲"
+    translated: "Scale mail armor"
+  - splitPath: Desc
+    text: "道具描述"
+    translated: "Item Description"
+- raw: "{\r\n    \"Key\": 3,\r\n    \"Name\": \"九阴真经\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
+  rawIndex: 3
+  splits:
+  - splitPath: Name
+    text: "九阴真经"
+    translated: "Yin Jing True Classic"
+  - splitPath: Desc
+    text: "道具描述"
+    translated: "Item Description"

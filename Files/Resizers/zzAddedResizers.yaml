@@ -256,3 +256,59 @@
   sampleText: Demon Lord Line
   idealFontSize: 24
   allowWordWrap: true
+  
+#
+- path: Canvas/MainRoot/MainMenu/MainControls/Position/PositionGrid/Button/Text (TMP)
+  sampleText: Ruined temple
+  idealFontSize: 18
+  adjustWidth: 40
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/Right/Off/Hero/NameBg/Layout/Name
+  sampleText: Scholar Candidate
+  idealFontSize: 30
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/Left/Hero/NameBg/Layout/Name
+  sampleText: Wang Xiaoxiong
+  idealFontSize: 30
+  allowWordWrap: true
+
+# Skill aquired
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/Text_1/Text (TMP)
+  sampleText: 新功法获得！
+  idealFontSize: 30
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/Name
+  sampleText: Fire‑breathing technique
+  idealFontSize: 18
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/SubType/SubTypeName
+  sampleText: Stunt
+  idealFontSize: 10
+  adjustWidth: 25
+  allowWordWrap: true
+- path: Canvas/ToolTip/ToolTipRoot/Image/content
+  sampleText: >
+    Automatically releases 【Jianghu】【Stunt】
+
+    Initiate an attack that deals 666 points of +36 times Variety Arts damage. There is a 33% chance to stun the enemy.
+  fontPercentage: 0.7
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/Desc
+  sampleText: >-
+    【The event triggers at the beginning of the game.】 attacks 666
+
+    Increased Damage (36 times Variety Arts)
+
+    Stunned <33%>
+  fontPercentage: 0.7
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/MsgQueue/MsgItem/Text (TMP)
+  sampleText: 'Mastered Skill: Steamed bun'
+  fontPercentage: 0.7
+  allowWordWrap: true
+- path: Canvas/PopRoot/ResultLogMenu/MainPanel/Box/Text (TMP)
+  sampleText: Event Log
+  idealFontSize: 26
+  adjustWidth: -20
+  adjustX: 10
+  allowWordWrap: true

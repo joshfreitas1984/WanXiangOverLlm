@@ -134,10 +134,7 @@ public class TranslationWorkflowTests
         var regex = new List<(string pattern, string replacement)>
         {
             // Look for Number then "coin" or "wen" or "money" or "quan" or "liang", get the number portion
-            (@"(\d+)(\s*)(coin|wen|money|quan|liang)", "$1 wen"),
-             // Look for "coin" or "wen" or "money" or "quan" or "liang" then number, get the number portion
-            (@"(coin|wen|money|quan|liang)(\s*)(\d+)", "$3 wen"),
-
+            (@"(\d+)(\s*)(coin|wen|money|quan|liang)", "$1 coin"),
         };
 
         await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
@@ -154,7 +151,7 @@ public class TranslationWorkflowTests
                         var original = split.Text;
                         foreach (var (pattern, replacement) in regex)
                         {
-                            split.Text = Regex.Replace(split.Translated, pattern, replacement);
+                            split.Translated = Regex.Replace(split.Translated, pattern, replacement);
                             recordsModded++;
                         }
                     }

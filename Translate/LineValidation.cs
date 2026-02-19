@@ -426,17 +426,7 @@ public static partial class LineValidation
             Result = result,
             CorrectionPrompt = correctionPrompts.ToString(),
         };
-    }
-
-    public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)
-    {
-        // Return the concatenated specific correction prompts with the shared suffix
-        // Context is provided by conversation structure (User: original, Assistant: failed attempt, User: corrections)
-        if (string.IsNullOrEmpty(validationResult.CorrectionPrompt))
-            return string.Empty;
-
-        return validationResult.CorrectionPrompt + config.Prompts["BaseCorrectionSuffixPrompt"];
-    }
+    }    
 
     public static List<string> FindMarkup(string input)
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.IO.Compression;
 using System.Runtime.CompilerServices;
+using System.Text;
 using System.Text.RegularExpressions;
 using Translate.Utility;
 
@@ -33,12 +34,23 @@ public class TranslationWorkflowTests
     {
         if (keepCleaning)
         {
+            Console.WriteLine("-------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------------");
             int remaining = await UpdateCurrentTranslationLines(false);
+            Console.WriteLine("-------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------------");
+
             int iterations = 0;
             while (remaining > 0 && iterations < 30)
             {
                 await TranslationService.TranslateViaLlmAsync(WorkingDirectory, false);
+
+                Console.WriteLine("-------------------------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------------------");
                 remaining = await UpdateCurrentTranslationLines(false);
+                Console.WriteLine("-------------------------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------------------");
+
                 iterations++;
             }
 
@@ -65,7 +77,7 @@ public class TranslationWorkflowTests
         });
     }
 
-    [Fact]
+    [Fact(DisplayName = "5. Flag some regexes")]
     public async Task SetSplitAsInvalid()
     {
         var config = Configuration.GetConfiguration(WorkingDirectory);
@@ -113,6 +125,46 @@ public class TranslationWorkflowTests
         });
     }
 
+    [Fact(DisplayName = "6. Clean up some regexes")]
+    public static async Task CleanUpSomeRegexes()
+    {
+        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var serializer = Yaml.CreateSerializer();
+
+        var regex = new List<(string pattern, string replacement)>
+        {
+            // Look for Number then "coin" or "wen" or "money" or "quan" or "liang", get the number portion
+            (@"(\d+)(\s*)(coin|wen|money|quan|liang)", "$1 wen"),
+             // Look for "coin" or "wen" or "money" or "quan" or "liang" then number, get the number portion
+            (@"(coin|wen|money|quan|liang)(\s*)(\d+)", "$3 wen"),
+
+        };
+
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var recordsModded = 0;
+
+            foreach (var line in fileLines)
+                foreach (var split in line.Splits)
+                {
+
+                    // Replace using pattern and replacement
+                    if (regex.Any(r => Regex.IsMatch(split.Translated, r.pattern)))
+                    {
+                        var original = split.Text;
+                        foreach (var (pattern, replacement) in regex)
+                        {
+                            split.Text = Regex.Replace(split.Translated, pattern, replacement);
+                            recordsModded++;
+                        }
+                    }
+                }
+
+            await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
+            Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
+        });
+    }
+
     public static async Task<int> UpdateCurrentTranslationLines(bool resetFlag)
     {
         var config = Configuration.GetConfiguration(WorkingDirectory);
@@ -143,7 +195,7 @@ public class TranslationWorkflowTests
             //"『",
             //"【",
             //"〖",
-        };
+        };        
 
         // Compile regexes once for reuse
         var compiledBadRegexes = badRegexes.Select(r => new Regex(r, RegexOptions.Compiled | RegexOptions.IgnoreCase)).ToList();

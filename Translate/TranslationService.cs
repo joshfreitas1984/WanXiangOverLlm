@@ -57,18 +57,7 @@ public static class TranslationService
                         continue;
 
                     if (split.Text.Length <= charsToCache && !cache.ContainsKey(split.Text))
-                        cache.Add(split.Text, split.Translated);
-
-                    //// EXPERIMENTAL: Add in splits to cache
-                    //var splitsTranslated = CalculateSubSplits(split.Translated);
-                    //var splitsRaw = CalculateSubSplits(split.Text);
-                    //if (splitsTranslated.foundSplit
-                    //    && splitsRaw.foundSplit
-                    //    && splitsRaw.splits.Count == splitsTranslated.splits.Count)
-                    //{
-                    //    for (int i = 0; i < splitsTranslated.splits.Count; i++)
-                    //        cache.Add(splitsRaw.splits[i], splitsTranslated.splits[i]);
-                    //}
+                        cache.Add(split.Text, split.Translated); 
                 }
             }
 
@@ -115,7 +104,7 @@ public static class TranslationService
 
             var content = File.ReadAllText(outputFile);
 
-            Console.WriteLine($"Processing File: {outputFile}");
+            Console.WriteLine($"Processing File: {textFileToTranslate.Path}");
 
             var serializer = Yaml.CreateSerializer();
             var deserializer = Yaml.CreateDeserializer();
@@ -208,7 +197,7 @@ public static class TranslationService
                 logProcessed++;
 
                 if (batchSize != 1 || (logProcessed % BatchlessLog == 0))
-                    Console.WriteLine($"Line: {i + batchRange} of {totalLines} File: {outputFile} Unprocessable: {incorrectLineCount} Processed: {totalRecordsProcessed}");
+                    Console.WriteLine($"Line: {i + batchRange} of {totalLines} File: {textFileToTranslate.Path} Unprocessable: {incorrectLineCount} Processed: {totalRecordsProcessed}");
 
                 if (bufferedRecords > BatchlessBuffer)
                 {
@@ -225,7 +214,7 @@ public static class TranslationService
         }
     }   
 
-    public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
+    public static async Task<(bool split, string result)> SplitOnCharsIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
     {
         if (raw.Contains(splitCharacters))
         {
@@ -361,11 +350,6 @@ public static class TranslationService
         if (!Regex.IsMatch(preparedRaw, pattern))
             return new ValidationResult(true, LineValidation.CleanupLineBeforeSaving(preparedRaw, preparedRaw, textFile, tokenReplacer));
 
-        // Brackets Split first - so it doesnt split stuff inside the brackets
-        //var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, fileName);
-        //if (split2)
-        //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, fileName, tokenReplacer);
-
         var (regexSplit, regexResult) = await SplitBracketsRegexIfNeededAsync(config, raw, client, textFile);
         if (regexSplit)
             return new ValidationResult(LineValidation.CleanupLineBeforeSaving(regexResult, preparedRaw, textFile, tokenReplacer));
@@ -373,7 +357,7 @@ public static class TranslationService
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in GameTextFiles.SplitCharactersList)
         {
-            var (split, result) = await SplitIfNeededAsync(splitCharacters, config, preparedRaw, client, textFile);
+            var (split, result) = await SplitOnCharsIfNeededAsync(splitCharacters, config, preparedRaw, client, textFile);
 
             // Because its recursive we want to bail out on the first successful one
             if (split)
@@ -434,13 +418,13 @@ public static class TranslationService
                         if (!validationResult.Valid)
                         {
                             messages = GenerateBaseMessages(config, preparedRaw, textFile);
-                            var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, correctedResult);
+                            var correctionPrompt = CalulateCorrectionPrompt(config, validationResult, preparedRaw, correctedResult);
                             AddCorrectionMessages(messages, correctedResult, correctionPrompt);
                         }
                     }
                     else
                     {
-                        var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
+                        var correctionPrompt = CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
 
                         // Regenerate base messages so we dont hit token limit by constantly appending retry history
                         messages = GenerateBaseMessages(config, preparedRaw, textFile);
@@ -459,7 +443,6 @@ public static class TranslationService
             return new ValidationResult(string.Empty);
         }
     }
-
     public static void AddCorrectionMessages(List<object> messages, string result, string correctionPrompt)
     {
         messages.Add(LlmHelpers.GenerateAssistantPrompt(result));
@@ -567,6 +550,16 @@ public static class TranslationService
             LlmHelpers.GenerateSystemPrompt(basePrompt.ToString()),
             LlmHelpers.GenerateUserPrompt(raw)
         ];
+    }
+
+    public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)
+    {
+        // Return the concatenated specific correction prompts with the shared suffix
+        // Context is provided by conversation structure (User: original, Assistant: failed attempt, User: corrections)
+        if (string.IsNullOrEmpty(validationResult.CorrectionPrompt))
+            return string.Empty;
+
+        return validationResult.CorrectionPrompt + config.Prompts["BaseCorrectionSuffixPrompt"];
     }
 
     public static void AddPromptWithValues(this StringBuilder builder, LlmConfig config, string promptName, params string[] values)

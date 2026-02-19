@@ -425,7 +425,7 @@
   - split: 3
     splitPath: SelectionList[3]
     text: "澜沧国《澜沧剑谱》   2000钱"
-    translated: "Lancang Kingdom's Lancang Sword Manual   2000 Coin"
+    translated: "Lancang Kingdom 《Lancang Sword Manual》   Coin 2000"
   - split: 4
     splitPath: SelectionList[4]
     text: "澜沧国使女一对   3000钱"
@@ -452,7 +452,7 @@
   - split: 4
     splitPath: TipTextList[4]
     text: "队友【日光女使】朵金儿/【月光女使】朵玉儿"
-    translated: "Teammates Sunlight Messenger Duo Jin'er and Moonlight Messenger Duo Yu'er"
+    translated: "Teammate 【Daylight Female Messenger】 Duo Jin'er / 【Moonlight Maiden Agent】 Duo Yu'er"
 - raw: "{\r\n    \"Key\": 6100210,\r\n    \"DescFinal\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionListFinal\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"真臘國紫蔻香犀丸   2000錢\",\r\n      \"波斯國波斯毛毯   2000錢\",\r\n      \"天竺國《無量壽經》   4000錢\",\r\n      \"柔佛國老樹根   5000錢\",\r\n      \"柔佛國老樹根  3000錢\",\r\n      \"沒有想要的\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"增加3000氣血\",\r\n      \"增加7000氣血\",\r\n      \"波斯毛毯\\\\n出戰俠客氣血上限+3%。\",\r\n      \"無量壽功\\\\n消耗4點行動力，回覆我方當前氣血值18%的氣血。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"是否购买那瑜陀所展示的西洋珍宝？\",\r\n    \"SelectionList\": [\r\n      \"暹罗国娜迦蛇血   1000钱\",\r\n      \"真腊国紫蔻香犀丸   2000钱\",\r\n      \"波斯国波斯毛毯   2000钱\",\r\n      \"天竺国《无量寿经》   4000钱\",\r\n      \"柔佛国老树根   5000钱\",\r\n      \"柔佛国老树根  3000钱\",\r\n      \"没有想要的\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"增加3000气血\",\r\n      \"增加7000气血\",\r\n      \"波斯毛毯\\\\n出战侠客气血上限+3%。\",\r\n      \"无量寿功\\\\n消耗4点行动力，回复我方当前气血值18%的气血。\",\r\n      \"老树根\\\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。\",\r\n      \"老树根\\\\n消耗0点行动力，回复4点行动力，每场战斗只能使用一次。\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否購買那瑜陀所展示的西洋珍寶？\",\r\n    \"SelectionTwList\": [\r\n      \"暹羅國娜迦蛇血   1000錢\",\r\n      \"真臘國紫蔻香犀丸   2000錢\",\r\n      \"波斯國波斯毛毯   2000錢\",\r\n      \"天竺國《無量壽經》   4000錢\",\r\n      \"柔佛國老樹根   5000錢\",\r\n      \"柔佛國老樹根  3000錢\",\r\n      \"沒有想要的\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"增加3000氣血\",\r\n      \"增加7000氣血\",\r\n      \"波斯毛毯\\\\n出戰俠客氣血上限+3%。\",\r\n      \"無量壽功\\\\n消耗4點行動力，回覆我方當前氣血值18%的氣血。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"老樹根\\\\n消耗0點行動力，回覆4點行動力，每場戰鬥只能使用一次。\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 6100210
   splits:
@@ -473,7 +473,7 @@
   - split: 3
     splitPath: SelectionList[3]
     text: "天竺国《无量寿经》   4000钱"
-    translated: "The Infinite Life Sutra of the Nation of Tianzhu 4000 Coin"
+    translated: "Indian Kingdom 《Sutra of Infinite Life》   Coin 4000"
   - split: 4
     splitPath: SelectionList[4]
     text: "柔佛国老树根   5000钱"
@@ -557,7 +557,7 @@
   splits:
   - splitPath: Desc
     text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
-    translated: "Challenge Dungeon Three‑star difficulty. This is a high‑difficulty combat challenge that does not affect the game's main storyline. Would you like to attempt it?"
+    translated: "【Challenging Dungeons】 three‑star difficulty. This dungeon offers a high‑difficulty combat challenge. It does not affect the game's main storyline. Would you like to attempt it?"
   - splitPath: SelectionList[0]
     text: "是"
     translated: "Yes"
@@ -581,7 +581,7 @@
   - split: 2
     splitPath: SelectionList[2]
     text: "《江湖闲话-四时迭运》"
-    translated: "Chatter of the Jianghu ‑ Seasons Turn"
+    translated: "《Chatter of the Jianghu ‑ Seasonal Changes》"
   - split: 3
     splitPath: SelectionList[3]
     text: "还是不在这里耽误时间了"
@@ -824,7 +824,7 @@
   - split: 2
     splitPath: SelectionList[2]
     text: "《江湖闲话-将军百战》"
-    translated: "Jianghu Idle Chat ‑ General's Hundred Battles"
+    translated: "《Jianghu Gossip ‑ General's Hundred Battles》"
   - split: 3
     splitPath: SelectionList[3]
     text: "还是不在这里耽误时间了"
@@ -860,7 +860,7 @@
   splits:
   - splitPath: Desc
     text: "【挑战类副本】三星难度，此副本为高难度战斗体验挑战，不影响游戏剧情，是否挑战？"
-    translated: "Challenge Dungeon Three‑star difficulty. This is a high‑difficulty combat challenge that does not affect the game's main storyline. Would you like to attempt it?"
+    translated: "【Challenging Dungeons】 three‑star difficulty. This dungeon offers a high‑difficulty combat challenge. It does not affect the game's main storyline. Would you like to attempt it?"
   - splitPath: SelectionList[0]
     text: "是"
     translated: "Yes"
@@ -883,11 +883,11 @@
     translated: "Study Tai Chi sword technique"
   - splitPath: TipTextList[0]
     text: "太极拳法\\n消耗1点行动力，单次攻击造成2倍侠客功力的伤害，并释放战术【太极劲】。"
-    translated: "Tai Chi boxing technique\\nSpend 1 Action Points for a single attack that deals 2 times the Wanderer's Power in damage, and activate the tactic Tai Chi Jin."
+    translated: "Tai Chi boxing technique\\nSpend 1 Action Points for a single attack that deals 2 times the Wanderer's Power in damage and activates tactic 【Taiji Force】."
   - split: 1
     splitPath: TipTextList[1]
     text: "太极剑法\\n消耗2点行动力，单次攻击造成3.6倍侠客功力的伤害，并释放战术【太极劲】。"
-    translated: "Tai Chi Sword Technique\\nConsume 2 Action Points to perform an attack that deals 3.6 times the Wanderer's Power in damage and activate the tactic Tai Chi Force."
+    translated: "Tai Chi Sword Technique\\nSpend 2 Action Points for a single attack that deals 3.6 times the Wanderer's Power in damage and activates tactic 【Taiji Force】."
 - raw: "{\r\n    \"Key\": 3100410,\r\n    \"DescFinal\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\",\r\n    \"SelectionListFinal\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"你可曾想明宁王一事？\\\\n<color=#FF0000>注意：选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）</color>\",\r\n    \"SelectionList\": [\r\n      \"弟子已经明了\",\r\n      \"弟子还未明了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾想明寧王一事？\\\\n<color=#FF0000>注意：選擇“弟子已經明瞭”後，次月將自動觸發寧王蒞臨事件，遊戲即進入最終結局。（建議在選擇此項前將御獸和百戲提升至大師，並前往湘南九流山莊和湘北煙波塢探索）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"弟子已經明瞭\",\r\n      \"弟子還未明瞭\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 3100410
   splits:
@@ -957,14 +957,14 @@
   splits:
   - splitPath: Desc
     text: "《血手经》现已在手中，是修炼其中所记载的血手印功法还是就此将其毁去？"
-    translated: "Now that the 'Blood Hand Sutra' is in my hands, should I practice the blood hand techniques it records, or should I destroy it instead?"
+    translated: "Now that 《Blood Hand Scripture》 is in hand, should it be used to practice the blood seal technique recorded within, or should it be destroyed instead?"
   - splitPath: SelectionList[0]
     text: "修炼血手印"
     translated: "Practicing the Blood Hand Seal"
   - split: 1
     splitPath: SelectionList[1]
     text: "毁掉《血手经》"
-    translated: "Destroy the 'Blood Hand Sutra'"
+    translated: "Destroy 《Blood Hand Sutra》"
   - splitPath: TipTextList[0]
     text: "血手印\\n消耗3点行动力，单次攻击造成4倍侠客功力的伤害，并有40%几率使敌人进入重伤状态。"
     translated: "Bloodprints\\nSpend 3 Action Points to deal 4 times the Wanderer's Power in damage with a 40% chance to put the enemy in Critical Condition."
@@ -1032,11 +1032,11 @@
     translated: "Which treasure of Xiahou Jun did someone take a liking to?"
   - splitPath: SelectionList[0]
     text: "《劈山秘籍》   1500钱"
-    translated: "'Split Mountain Manual' 1500 Coin"
+    translated: "《Secret Manual of Splitting the Mountain》 gave 1500 a coin."
   - split: 1
     splitPath: SelectionList[1]
     text: "《华山剑谱》   800钱"
-    translated: "'Poem of the Swordsmanship from Mount Huashan' 800 Coin"
+    translated: "《Scroll of the Sword Techniques of Mount Hua》 800 coin"
   - split: 2
     splitPath: SelectionList[2]
     text: "飞虎玉珏   1000钱"
@@ -1097,15 +1097,15 @@
   - split: 1
     splitPath: SelectionList[1]
     text: "《六合刀谱》   800钱"
-    translated: "'Six‑Angle Blade Manual' 800money"
+    translated: "《Hexagram Blade Manual》 800 money"
   - split: 2
     splitPath: SelectionList[2]
     text: "《六合枪谱》   800钱"
-    translated: "'Sixfold Spear Manual' 800Money"
+    translated: "《Hexagram Spear Manual》 800 money"
   - split: 3
     splitPath: SelectionList[3]
     text: "《六合秘籍》   3000钱"
-    translated: "'Mysterious Arts of the Six Directions' 3000 Coin"
+    translated: "《Secret Manual of the Six Realms》 3000 money"
   - split: 4
     splitPath: SelectionList[4]
     text: "赤参附阳丸   1000钱"
@@ -1145,7 +1145,7 @@
   - split: 1
     splitPath: SelectionList[1]
     text: "《吠陀经》  4000钱"
-    translated: "'Rigveda' 4000 Coin"
+    translated: "《Vedas》 4000 money"
   - split: 2
     splitPath: SelectionList[2]
     text: "玄铁匕首  3000钱"
@@ -1176,7 +1176,7 @@
   - split: 3
     splitPath: TipTextList[3]
     text: "飞云鼯\\n消耗0点行动力，召唤宠物【飞云鼯】。飞云鼯单次攻击造成100点+3倍御兽伤害，连续3次攻击，发动几率100%，并有12%几率消除敌人1个战术。"
-    translated: "Swift Wind Squirrel Glider\\nSpend 0 Action Points to summon the pet Flying Cloud Squirrel. Flying Cloud Squirrel's single attack causes 100 points of +3 times Beast Taming damage. It can perform up to 3 consecutive attacks with a trigger chance of 100% and has a 12% chance to eliminate the enemy's 1 tactical counters."
+    translated: "Swift Wind Squirrel Glider\\nConsume 0 Action Points to summon pet 【Swift Wind Squirrel Glider】. The Flying Cloud Squirrel deals 100 points of +3 times Beast Taming damage per attack. It can attack up to 3 times in succession with a chance of 100% to strike and has a 12% chance to eliminate the enemy's 1 tactical maneuver."
   - split: 4
     splitPath: TipTextList[4]
     text: "增加2000气血"
@@ -1552,7 +1552,7 @@
     translated: "Think about it again"
   - splitPath: TipTextList[0]
     text: "碧波诀\\n自动释放，100%释放战术【碧波诀】\\n【碧波诀】-可叠加7层，每层攻击+4%"
-    translated: "Asura Wave Technique\\nAutomatic release, 100% release tactical Bibo Jue\\nBi Bo Jue ‑ Stackable up to 7 layers, with each layer increasing attack by +4%"
+    translated: "Asura Wave Technique\\nAuto release, 100% release tactical 【Asura Wave Technique】\\n【Asura Wave Technique】 can stack up to 7 layers, with each layer increasing the attack by +4%."
   - split: 1
     splitPath: TipTextList[1]
     text: "蛟龙息\\n自动释放，28%几率释放回复1点行动力。"
@@ -1560,11 +1560,11 @@
   - split: 2
     splitPath: TipTextList[2]
     text: "游身步\\n自动释放，6%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
-    translated: "Featherstep Maneuver\\nAuto‑release, 6% chance to auto‑release tactical Dodge. Dodge can negate a single hit."
+    translated: "Featherstep Maneuver\\nAuto‑release, 6% chance of auto‑releasing tactical 【Dodge】. Dodging can negate one damage."
   - split: 3
     splitPath: TipTextList[3]
     text: "蹈浪术\\n消耗2点行动力，释放战术【闪避】，可以抵消一次伤害。"
-    translated: "Tidal Wave Technique\\nConsume 2 Action Points to release the tactic Dodge, which can negate one hit."
+    translated: "Tidal Wave Technique\\nConsume 2 Action Points to release the Tactical Move 【Dodge】, which can negate a single hit."
 - raw: "{\r\n    \"Key\": 4800410,\r\n    \"DescFinal\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"SelectionListFinal\": [\r\n      \"破浪刀法 1000錢 40貢獻\",\r\n      \"合沓刀法1000錢 40貢獻\",\r\n      \"九字刀法2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextListFinal\": [\r\n      \"破浪刀法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有20%機率打斷敵人功法。\",\r\n      \"合沓刀法\\\\n消耗2點行動力，單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"九字刀法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"Desc\": \"想要兑换刀法类的哪一门功法？\",\r\n    \"SelectionList\": [\r\n      \"破浪刀法 1000钱 40贡献\",\r\n      \"合沓刀法1000钱 40贡献\",\r\n      \"九字刀法2000钱 80贡献\",\r\n      \"再考虑一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"破浪刀法\\\\n消耗1点行动力，单次攻击造成0.7倍侠客功力的伤害，并有20%几率打断敌人功法。\",\r\n      \"合沓刀法\\\\n消耗2点行动力，单次攻击造成1倍侠客功力的伤害，连续攻击两次。\",\r\n      \"九字刀法\\\\n消耗0点行动力，单次攻击造成0.9倍侠客功力的伤害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"想要兌換刀法類的哪一門功法？\",\r\n    \"SelectionTwList\": [\r\n      \"破浪刀法 1000錢 40貢獻\",\r\n      \"合沓刀法1000錢 40貢獻\",\r\n      \"九字刀法2000錢 80貢獻\",\r\n      \"再考慮一下\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"破浪刀法\\\\n消耗1點行動力，單次攻擊造成0.7倍俠客功力的傷害，並有20%機率打斷敵人功法。\",\r\n      \"合沓刀法\\\\n消耗2點行動力，單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次。\",\r\n      \"九字刀法\\\\n消耗0點行動力，單次攻擊造成0.9倍俠客功力的傷害。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 4800410
   splits:

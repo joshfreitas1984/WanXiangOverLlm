@@ -205,7 +205,7 @@ public class FileOutputHandling
         foreach (FileInfo file in files)
         {
             var tempPath = Path.Combine(destDir, file.Name);
-            file.CopyTo(tempPath, false);
+            file.CopyTo(tempPath, true);
         }
 
         // Copy each subdirectory using recursion

@@ -348,6 +348,65 @@ public static class TranslationService
         return (false, string.Empty);
     }
 
+    public static async Task<(bool split, string result)> SplitRegexIfNeededAsync(LlmConfig config, string raw, HttpClient client, TextFileToSplit textFile)
+    {
+        // Collect all matches across all patterns and sort by position so multiple bracket types in
+        // the same string are all handled in a single pass (e.g. "天竺国《无量寿经》【副本】4000钱")
+        var allMatches = GameTextFiles.SplitRegexPatterns
+            .SelectMany(pattern => Regex.Matches(raw, pattern).Cast<Match>())
+            .OrderBy(m => m.Index)
+            .ToList();
+
+        if (allMatches.Count == 0)
+            return (false, string.Empty);
+
+        // Pre-translate each match's inner content separately and embed it into the sentence using
+        // opaque positional tokens {BR0}, {BR1}, etc. as placeholders so the LLM sees full context
+        // when translating the surrounding text. StringTokenReplacer maps these to {N} tokens which
+        // the LLM is trained to preserve, then Restore brings them back for reliable replacement.
+        // Restore original bracket characters after the full translation.
+        var bracketRestorations = new List<(string placeholder, string withBrackets)>();
+        var modifiedRaw = raw;
+        var lastOriginalIndex = 0;
+        var offset = 0;
+        var bracketIndex = 0;
+
+        foreach (var match in allMatches)
+        {
+            // Skip overlapping matches
+            if (match.Index < lastOriginalIndex)
+                continue;
+
+            var openBracket = match.Value[0];
+            var closeBracket = match.Value[^1];
+            var inner = match.Value[1..^1];
+
+            var innerTrans = await TranslateSplitAsync(config, inner, client, textFile);
+            if (!innerTrans.Valid && !config.SkipLineValidation)
+                return (true, string.Empty);
+
+            var placeholder = $"{{BR{bracketIndex++}}}";
+            bracketRestorations.Add((placeholder, $"{openBracket}{innerTrans.Result}{closeBracket}"));
+
+            var adjustedIndex = match.Index + offset;
+            modifiedRaw = modifiedRaw[..adjustedIndex] + placeholder + modifiedRaw[(adjustedIndex + match.Length)..];
+            offset += placeholder.Length - match.Length;
+            lastOriginalIndex = match.Index + match.Length;
+        }
+
+        // Translate the full sentence with pre-translated placeholders to preserve surrounding context
+        var fullTrans = await TranslateSplitAsync(config, modifiedRaw, client, textFile);
+        if (!fullTrans.Valid && !config.SkipLineValidation)
+            return (true, string.Empty);
+
+        // Restore the original bracket characters around each translated inner content
+        var result = fullTrans.Result;
+        foreach (var (placeholder, withBrackets) in bracketRestorations)
+            result = result.Replace(placeholder, withBrackets);
+
+        return (true, result);
+    }
+
     public static bool IsGameObjectReference(string raw)
     {
         // Check if it looks like a game object reference
@@ -392,14 +451,9 @@ public static class TranslationService
         //if (split2)
         //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, fileName, tokenReplacer);
 
-
-        //TODO: Using GameTextFiles.SplitRegexPatterns - we want to translate the contents of the matches of the regex seperately and then put it back together.
-        //This is because the parentheses are often translated out of context or mix the translation with the rest of the line.
-        //For example: "天竺国《无量寿经》   4000钱" 
-        // We want to translate 《无量寿经》 first then put it back in rather than the LLM trying to translate it in context which often leads to it being mistranslated
-        // or left in Chinese because it doesnt understand the context of what it is.
-        // Would prefer we keep the types of parenthesis picked up by the regex but the LLM might strip them - so maybe we could use something that it won't strip like ' and then replace it back at the end.
-
+        var (regexSplit, regexResult) = await SplitRegexIfNeededAsync(config, raw, client, textFile);
+        if (regexSplit)
+            return new ValidationResult(LineValidation.CleanupLineBeforeSaving(regexResult, preparedRaw, textFile, tokenReplacer));
 
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in GameTextFiles.SplitCharactersList)
@@ -448,8 +502,7 @@ public static class TranslationService
 
                 // Append history of failures
                 if (!validationResult.Valid && config.CorrectionPromptsEnabled)
-                {
-                    //TODO: Check that it will use the results from the previous attempts rather than always going back to the original prepared raw - we want it to learn from its mistakes each time
+                {                   
                     // Use sentence-by-sentence correction for Chinese character issues
                     if (validationResult.RequiresSentenceBySentenceCorrection)
                     {

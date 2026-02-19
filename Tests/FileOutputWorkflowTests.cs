@@ -31,7 +31,7 @@ public class FileOutputWorkflowTests
 
         string releaseFolder = $"{GameFolder}/ReleaseFolder/Files";
 
-        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Mod/English", $"{releaseFolder}/EnglishPatch");
+        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Mod/English", $"{releaseFolder}/BepInEx/english");
         FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Resizers", $"{releaseFolder}/BepInEx/resizers");
 
         FileOutputHandling.CopyDirectory($"{GameFolder}/BepInEx/config", $"{releaseFolder}/BepInEx/config");

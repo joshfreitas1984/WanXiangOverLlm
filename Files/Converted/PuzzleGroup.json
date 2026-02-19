@@ -321,19 +321,19 @@
     translated: "Which one is one of the Four Books of Confucianism?"
   - splitPath: AnswerList[0]
     text: "《孟子》"
-    translated: "Meng Zi"
+    translated: "《Meng Zi》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《庄子》"
-    translated: "Zhuangzi"
+    translated: "《Zhuangzi》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《韩非子》"
-    translated: "Han Feizi"
+    translated: "《Han Feizi》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《淮南子》"
-    translated: "Huai Nami zi"
+    translated: "《Huainanzi》"
 - raw: "{\r\n    \"Key\": 22,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五常”指的什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"忠、孝、節、義、廉\",\r\n      \"禮、樂、射、御、書\",\r\n      \"仁、義、禮、智、信\",\r\n      \"道、德、仁、義、禮\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五常”指的什么？\",\r\n    \"AnswerList\": [\r\n      \"忠、孝、节、义、廉\",\r\n      \"礼、乐、射、御、书\",\r\n      \"仁、义、礼、智、信\",\r\n      \"道、德、仁、义、礼\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五常”指的什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"忠、孝、節、義、廉\",\r\n      \"禮、樂、射、御、書\",\r\n      \"仁、義、禮、智、信\",\r\n      \"道、德、仁、義、禮\"\r\n    ]\r\n  }"
   rawIndex: 22
   splits:
@@ -417,19 +417,19 @@
     translated: "Which one is one of the Five Classics of Confucianism?"
   - splitPath: AnswerList[0]
     text: "《孝经》"
-    translated: "Classic of Filial Piety"
+    translated: "《Classic of Filial Piety》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《诗经》"
-    translated: "Classic of Poetry"
+    translated: "《Classic of Poetry》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《难经》"
-    translated: "Difficult Classic"
+    translated: "《Difficult Classic》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《茶经》"
-    translated: "Classic of Tea"
+    translated: "《Classic of Tea》"
 - raw: "{\r\n    \"Key\": 26,\r\n    \"NameFinal\": \"嶽麓入門\",\r\n    \"PuzzleFinal\": \"“五倫”中不包含哪一種？\",\r\n    \"AnswerListFinal\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"師徒\"\r\n    ],\r\n    \"Name\": \"岳麓入门\",\r\n    \"Puzzle\": \"“五伦”中不包含哪一种？\",\r\n    \"AnswerList\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"师徒\"\r\n    ],\r\n    \"NameTw\": \"嶽麓入門\",\r\n    \"PuzzleTw\": \"“五倫”中不包含哪一種？\",\r\n    \"AnswerTwList\": [\r\n      \"父子\",\r\n      \"君臣\",\r\n      \"朋友\",\r\n      \"師徒\"\r\n    ]\r\n  }"
   rawIndex: 26
   splits:
@@ -654,7 +654,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《曹全碑》是哪种书法形式的代表作？"
-    translated: "The Caoshu calligraphy style is represented by the Cao Quan Stele."
+    translated: "Which calligraphy style does 《Cao Quan Stele》 represent?"
   - splitPath: AnswerList[0]
     text: "草书"
     translated: "Cursive script"
@@ -678,7 +678,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《张迁碑》是哪种书法形式的代表作？"
-    translated: "The Zhang Qian Stele is a representative work of which calligraphic style?"
+    translated: "What is 《Stele of Zhang Qian》 a representative work of in calligraphy forms?"
   - splitPath: AnswerList[0]
     text: "楷书"
     translated: "Regular script"
@@ -702,7 +702,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《九成宫醴泉铭》是哪种书法形式的代表作？"
-    translated: "The Nine Provinces Palace Lithographic Spring Inscription is a representative work of which calligraphy style?"
+    translated: "Which calligraphy style does 《The Stele of the Palace of Nine Perfections and Its Sweet Spring》 represent?"
   - splitPath: AnswerList[0]
     text: "楷书"
     translated: "Regular script"
@@ -726,7 +726,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《多宝塔碑》是哪种书法形式的代表作？"
-    translated: "The Multiprecious Treasure Pagoda Stele is a representative work of which calligraphic style?"
+    translated: "What is 《Pagoda of Many Treasures Stele》 a representative work of in calligraphy?"
   - splitPath: AnswerList[0]
     text: "隶书"
     translated: "Clerical script"
@@ -750,7 +750,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《古诗四帖》是哪种书法形式的代表作？"
-    translated: "Four Scripts of Ancient Poetry is a representative work of which calligraphic style?"
+    translated: "Which calligraphy style does 《Four Calligraphy Scrolls of Ancient Poetry》 represent?"
   - splitPath: AnswerList[0]
     text: "草书"
     translated: "Cursive script"
@@ -774,7 +774,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《自叙帖》是哪种书法形式的代表作？"
-    translated: "The Autobiographical Scroll is a representative work of which calligraphy style?"
+    translated: "Which calligraphy style does 《Autobiographical Scroll》 represent?"
   - splitPath: AnswerList[0]
     text: "楷书"
     translated: "Regular script"
@@ -798,7 +798,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《峄山刻石》是哪种书法形式的代表作？"
-    translated: "What is the 'Yishan Stele' a representative work of in terms of calligraphy style?"
+    translated: "What is 《Yishan Inscription》 a representative work of in terms of calligraphy style?"
   - splitPath: AnswerList[0]
     text: "楷书"
     translated: "Regular script"
@@ -822,7 +822,7 @@
     translated: "Eastern Altar Exam Questions"
   - splitPath: Puzzle
     text: "《三坟记》是哪种书法形式的代表作？"
-    translated: "Which calligraphy style is Sanzhuming a representative work of?"
+    translated: "Which calligraphic style does 《Records of the Three Tombs》 represent?"
   - splitPath: AnswerList[0]
     text: "隶书"
     translated: "Clerical script"
@@ -1086,7 +1086,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《春夜喜雨》是谁的代表作？"
-    translated: "Spring Night's Joyful Rain is a famous poem by Du Fu."
+    translated: "Whose masterpiece is 《Spring Night's Joyful Rain》?"
   - splitPath: AnswerList[0]
     text: "李商隐"
     translated: "Li Shangyin"
@@ -1110,7 +1110,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《将进酒》是谁的代表作？"
-    translated: "'Bring in the Wine' is a representative work of Li Bai."
+    translated: "Whose representative work is 《Drain the cup》?"
   - splitPath: AnswerList[0]
     text: "李白"
     translated: "Li Bai"
@@ -1134,7 +1134,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《长门赋》是谁的代表作？"
-    translated: "'Rhapsody of the Long Gate' Who is the author?"
+    translated: "Whose masterpiece is 《Longmen Ode》?"
   - splitPath: AnswerList[0]
     text: "扬雄"
     translated: "Yang Xiong"
@@ -1158,7 +1158,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《东京赋》是谁的代表作？"
-    translated: "Tokyo Fu is the representative work of Shi Tiesheng."
+    translated: "Who is the author of 《Ode to Tokyo》's masterpiece?"
   - splitPath: AnswerList[0]
     text: "贾谊"
     translated: "Jia Yi"
@@ -1182,7 +1182,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《青玉案·元夕》是谁的代表作？"
-    translated: "Who is the author of the Green Jade Case·Yuanxiao?"
+    translated: "Who is the author of 《Tune of Jade Case·Lantern Festival Night》's masterpiece?"
   - splitPath: AnswerList[0]
     text: "辛弃疾"
     translated: "Xin Qiji"
@@ -1206,7 +1206,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《念奴娇·赤壁怀古》是谁的代表作？"
-    translated: "Remembrance of the Red Cliff · A Suite for Nian Nu Jiao is the representative work of Su Shi."
+    translated: "Who is the representative work of 《Nian Nu Jiao · Chi Bi Huagong》?"
   - splitPath: AnswerList[0]
     text: "苏辙"
     translated: "Su Zhe"
@@ -1230,7 +1230,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《雨霖铃·寒蝉凄切》是谁的代表作？"
-    translated: "Rain Bell · Cold Cicada Sighing Sadly is a representative work of Li Qingzhao."
+    translated: "Whose masterpiece is 《Rain Bell · Cold Cicadas Sighing》?"
   - splitPath: AnswerList[0]
     text: "韩愈"
     translated: "Han Yu"
@@ -1254,7 +1254,7 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《如梦令·昨夜雨疏风骤》是谁的代表作？"
-    translated: "Drunk on a Dream · Last Night Sparse Rain Strong Wind is the representative work of Eileen Chang."
+    translated: "Who is the author of 《Dreamlike Order·Last Night the Rain Was Sparse and the Breeze Violent》's representative work?"
   - splitPath: AnswerList[0]
     text: "朱淑真"
     translated: "Zhu Shuzhen"
@@ -1329,19 +1329,19 @@
     translated: "Which is Li Bai's representative work?"
   - splitPath: AnswerList[0]
     text: "《蜀道难》"
-    translated: "The Difficulty of the Sichuan Road"
+    translated: "《The Difficulty of the Sichuan Road》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《石壕吏》"
-    translated: "Stone Hollow Officer"
+    translated: "《Official of Shi Hao》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《长恨歌》"
-    translated: "Long Grievance Song"
+    translated: "《Song of Everlasting Sorrow》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《游子吟》"
-    translated: "Thoughts of a Wanderer"
+    translated: "《Song of the Traveler's Heart》"
 - raw: "{\r\n    \"Key\": 66,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《詠柳》\",\r\n      \"《春曉》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《咏柳》\",\r\n      \"《春晓》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是杜甫的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《詠柳》\",\r\n      \"《春曉》\",\r\n      \"《登高》\",\r\n      \"《清明》\"\r\n    ]\r\n  }"
   rawIndex: 66
   splits:
@@ -1353,19 +1353,19 @@
     translated: "Which one is Du Fu's representative work?"
   - splitPath: AnswerList[0]
     text: "《咏柳》"
-    translated: "Volleying Willows"
+    translated: "《Praising the Willow》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《春晓》"
-    translated: "Spring Dawn"
+    translated: "《Dawn in Spring》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《登高》"
-    translated: "Climb high"
+    translated: "《Climb high》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《清明》"
-    translated: "Qingming Festival"
+    translated: "《Tomb Sweeping Day》"
 - raw: "{\r\n    \"Key\": 67,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是司馬相如的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《子虛賦》\",\r\n      \"《鸚鵡賦》\",\r\n      \"《兩都賦》\",\r\n      \"《逐貧賦》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是司马相如的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《子虚赋》\",\r\n      \"《鹦鹉赋》\",\r\n      \"《两都赋》\",\r\n      \"《逐贫赋》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是司馬相如的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《子虛賦》\",\r\n      \"《鸚鵡賦》\",\r\n      \"《兩都賦》\",\r\n      \"《逐貧賦》\"\r\n    ]\r\n  }"
   rawIndex: 67
   splits:
@@ -1377,19 +1377,19 @@
     translated: "Which is Sima Xiangru's representative work?"
   - splitPath: AnswerList[0]
     text: "《子虚赋》"
-    translated: "Empty Assignation"
+    translated: "《Empty Assignation》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《鹦鹉赋》"
-    translated: "Ode to the Parrot"
+    translated: "《Parrot Ode》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《两都赋》"
-    translated: "Two Capitals Essay"
+    translated: "《The Ode on the Capital Cities》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《逐贫赋》"
-    translated: "Zhu Qu Fen Fu"
+    translated: "《Assignation of Poverty》"
 - raw: "{\r\n    \"Key\": 68,\r\n    \"NameFinal\": \"南坡考題\",\r\n    \"PuzzleFinal\": \"哪篇是張衡的代表作？\",\r\n    \"AnswerListFinal\": [\r\n      \"《大人賦》\",\r\n      \"《幽通賦》\",\r\n      \"《西京賦》\",\r\n      \"《述行賦》\"\r\n    ],\r\n    \"Name\": \"南坡考题\",\r\n    \"Puzzle\": \"哪篇是张衡的代表作？\",\r\n    \"AnswerList\": [\r\n      \"《大人赋》\",\r\n      \"《幽通赋》\",\r\n      \"《西京赋》\",\r\n      \"《述行赋》\"\r\n    ],\r\n    \"NameTw\": \"南坡考題\",\r\n    \"PuzzleTw\": \"哪篇是張衡的代表作？\",\r\n    \"AnswerTwList\": [\r\n      \"《大人賦》\",\r\n      \"《幽通賦》\",\r\n      \"《西京賦》\",\r\n      \"《述行賦》\"\r\n    ]\r\n  }"
   rawIndex: 68
   splits:
@@ -1401,19 +1401,19 @@
     translated: "Which is Zhang Heng's representative work?"
   - splitPath: AnswerList[0]
     text: "《大人赋》"
-    translated: "Lord's Ode"
+    translated: "《Lord's Ode》"
   - split: 1
     splitPath: AnswerList[1]
     text: "《幽通赋》"
-    translated: "Ambient Communion Ode"
+    translated: "《Eulogy of the Profound Passage》"
   - split: 2
     splitPath: AnswerList[2]
     text: "《西京赋》"
-    translated: "The Ode to the Western Capital"
+    translated: "《The Ode to the Western Capital》"
   - split: 3
     splitPath: AnswerList[3]
     text: "《述行赋》"
-    translated: "Shu Hang Fu"
+    translated: "《Eulogy of Action》"
 - raw: "{\r\n    \"Key\": 71,\r\n    \"NameFinal\": \"北村考題\",\r\n    \"PuzzleFinal\": \"乾卦代表什麼？\",\r\n    \"AnswerListFinal\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"風\"\r\n    ],\r\n    \"Name\": \"北村考题\",\r\n    \"Puzzle\": \"乾卦代表什么？\",\r\n    \"AnswerList\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"风\"\r\n    ],\r\n    \"NameTw\": \"北村考題\",\r\n    \"PuzzleTw\": \"乾卦代表什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"水\",\r\n      \"天\",\r\n      \"火\",\r\n      \"風\"\r\n    ]\r\n  }"
   rawIndex: 71
   splits:

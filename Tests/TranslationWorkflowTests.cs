@@ -1,5 +1,6 @@
 ﻿using System.Collections.Concurrent;
 using System.IO.Compression;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using Translate.Utility;
 
@@ -64,6 +65,53 @@ public class TranslationWorkflowTests
         });
     }
 
+    [Fact]
+    public async Task SetSplitAsInvalid()
+    {
+        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var serializer = Yaml.CreateSerializer();
+
+        var badStrings = new List<string>{ 
+            //"⑩",
+            //"⓪",
+            //"①",
+            //"②",
+            //"③",
+            //"④",
+            //"⑤",
+            //"⑥",
+            //"⑦",
+            //"⑧",
+            //"⑨",
+
+            "《",
+            "〈",
+            "「",
+            "『",
+            "【",
+            "〖",
+        };
+
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var recordsModded = 0;
+
+            foreach (var line in fileLines)
+                foreach (var split in line.Splits)
+                {
+                    if (badStrings.Any(s => split.Text.Contains(s)))
+                    {
+                        split.FlaggedForRetranslation = true;
+                        split.FlaggedMistranslation = "Bad Character";
+                        recordsModded++;
+                    }
+                }
+
+            await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
+            Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
+        });
+    }
+
     public static async Task<int> UpdateCurrentTranslationLines(bool resetFlag)
     {
         var config = Configuration.GetConfiguration(WorkingDirectory);
@@ -71,7 +119,7 @@ public class TranslationWorkflowTests
         var logLines = new ConcurrentBag<string>();
 
         string[] fullFileRetrans = [];
-        var newGlossaryStrings = new List<string>{};
+        var newGlossaryStrings = new List<string> { };
         var badRegexes = new List<string>{ 
             //"<size=[^>]+>" 
             //@"master and disciple"
@@ -87,6 +135,13 @@ public class TranslationWorkflowTests
             //"⑦",
             //"⑧",
             //"⑨",
+
+            //"《",
+            //"〈",
+            //"「",
+            //"『",
+            //"【",
+            //"〖",
         };
 
         // Compile regexes once for reuse
@@ -346,7 +401,7 @@ public class TranslationWorkflowTests
             else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(textFile.Path))
                 continue;
 
-            if ((preparedRaw.Contains(item.Raw) 
+            if ((preparedRaw.Contains(item.Raw)
                 || (item.RawSimplified != string.Empty && preparedRaw.Contains(item.RawSimplified))
                 || (item.RawTraditional != string.Empty && preparedRaw.Contains(item.RawTraditional)))
                 && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))

@@ -756,7 +756,7 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: Desc
     text: "初始武学[半拂折枝手]\\n攻击伤害类【恶人谷】【掌法】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Initial martial art technique [Half Stroke Branch Hand]\\nAttack damage class 'Villain's Valley' Palm technique\\nEach attack deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy in Sealed Acupoint state."
+    translated: "Initial martial arts technique [Half Stroke Branch Hand] [Villains Valley]\\nAttack damage class Palm technique\\nEach attack deals 1 times the Wanderer's Power in damage and has a 20% chance to paralyze the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -768,7 +768,7 @@
     translated: "Widespread Bloodshed for a Thousand Miles"
   - splitPath: Desc
     text: "初始武学[血屠刀法]\\n攻击伤害类【恶人谷】【刀法】\\n单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    translated: "Initial martial art [Bloodbutcher Blade Technique]\\nAttack Damage Class  【Villains Valley】  Blade Art\\nEach attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
+    translated: "Initial martial art [Bloodbutcher Blade Technique] 【Villains Valley】\\nAttack Damage Class Blade Art\\nEach attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -787,24 +787,7 @@
 - raw: "{\r\n    \"Key\": 80005,\r\n    \"NameFinal\": \"非佛非道\",\r\n    \"DescFinal\": \"初始武學[玄禪無二法]\\\\n輔助回覆類【惡人谷】【內功】\\\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。\",\r\n    \"Name\": \"非佛非道\",\r\n    \"Desc\": \"初始武学[玄禅无二法]\\\\n辅助回复类【恶人谷】【内功】\\\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"非佛非道\",\r\n    \"DescTw\": \"初始武學[玄禪無二法]\\\\n輔助回覆類【惡人谷】【內功】\\\\n當對方有異常狀態時，回覆我方1倍俠客功力的氣血，並消除敵人1個戰術。\"\r\n  }"
   rawIndex: 80005
   splits:
-  - splitPath: Name
-    text: "非佛非道"
-    translated: "Neither Buddha nor Dao"
-  - splitPath: Desc
-    text: "初始武学[玄禅无二法]\\n辅助回复类【恶人谷】【内功】\\n当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "Initial martial arts technique [Xuan Chan Wu Er Fa]\\nAssistant support skill 'Villains Valley Neigong'\\nWhile the opponent has an abnormal condition, they restore to their side a multiple of 1 times the Wanderer's power in lifeforce and eliminate 1 tactical effects from the enemy."
-  - splitPath: EventResultDesc
-    text: "加成测试"
-    translated: "Bonus Test"
-- raw: "{\r\n    \"Key\": 80006,\r\n    \"NameFinal\": \"陰陽合氣\",\r\n    \"DescFinal\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\",\r\n    \"Name\": \"阴阳合气\",\r\n    \"Desc\": \"初始武学[姹女玄阴法]\\\\n辅助回复类【恶人谷】【心法】\\\\n单次回复800倍红颜知己数量的气血。\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"陰陽合氣\",\r\n    \"DescTw\": \"初始武學[奼女玄陰法]\\\\n輔助回覆類【惡人谷】【心法】\\\\n單次回覆800倍紅顏知己數量的氣血。\"\r\n  }"
-  rawIndex: 80006
-  splits:
-  - splitPath: Name
-    text: "阴阳合气"
-    translated: "Yin Yang Harmony"
-  - splitPath: Desc
-    text: "初始武学[姹女玄阴法]\\n辅助回复类【恶人谷】【心法】\\n单次回复800倍红颜知己数量的气血。"
-    translated: "Initial martial art [Chanu Xuanyin Method]\\nAuxiliary recovery technique  【Villains Valley】  Heart Method\\nRestore lifeforce equal to 800 times the number of Red Beauty Companions."
+  Method]\\nAuxiliary recovery technique  【Villains Valley】  Heart Method\\nRestore lifeforce equal to 800 times the number of Red Beauty Companions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"

@@ -257,20 +257,24 @@
   idealFontSize: 24
   allowWordWrap: true
   
-#
-- path: Canvas/MainRoot/MainMenu/MainControls/Position/PositionGrid/Button/Text (TMP)
+#Main
+- path: Canvas/MainRoot/MainMenu/MainControls/Position/PositionGrid/Button*/Text (TMP)
   sampleText: Ruined temple
   idealFontSize: 18
-  adjustWidth: 40
+  adjustWidth: 100
   allowWordWrap: true
-- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/Right/Off/Hero/NameBg/Layout/Name
-  sampleText: Scholar Candidate
-  idealFontSize: 30
-  allowWordWrap: true
-- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/Left/Hero/NameBg/Layout/Name
+- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/*/Hero/NameBg/Layout/Name
   sampleText: Wang Xiaoxiong
-  idealFontSize: 30
+  idealFontSize: 26
+  adjustWidth: 50
   allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Dialog/*/Hero/NameBg/Layout/Title
+  sampleText: Draw sword as Heaven, Earth, and Man
+  idealFontSize: 26
+  adjustWidth: 50
+  allowWordWrap: true
+
+
 
 # Skill aquired
 - path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/Text_1/Text (TMP)
@@ -337,3 +341,230 @@
   sampleText: 气血
   idealFontSize: 28.8
   allowWordWrap: true
+
+# Rumor
+- path: Canvas/PopRoot/NewsMenu/MainPanel/Box/Text (TMP)
+  sampleText: Rumor
+  idealFontSize: 40
+  adjustWidth: -20
+  adjustX: 8
+  allowWordWrap: true
+- path: Canvas/PopRoot/NewsMenu/News/Scroll View/Viewport/Content/NewsItem(Clone)/Image/Text (TMP)
+  sampleText: Personal handwritten notes
+  fontPercentage: 0.6
+  allowWordWrap: true
+- path: Canvas/PopRoot/NewsMenu/News/Scroll View/Viewport/Content/NewsItem(Clone)/Content
+  sampleText: By the second year, the sect must establish a solid foundation. Only in the third year, after venturing out to travel and explore, will one be able to calmly face various challenges.
+  fontPercentage: 0.6
+  allowWordWrap: true
+
+# New Card
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/HeroObj/HeroItem/BgImg/CardNameImg/CardName
+  sampleText: Wudang Disciples
+  idealFontSize: 18
+  adjustWidth: 100
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/HeroObj/HeroItem/HeroName
+  sampleText: Wudang Disciples·Sun Xuanji
+  idealFontSize: 18
+  allowWordWrap: true
+ 
+#Menu
+- path: Canvas/PopRoot/HeroMenu/MainPanel/TeamProperty/*/Text (TMP)_1
+  sampleText: 7020
+  idealFontSize: 20
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/TeamProperty/*Text
+  sampleText: Combined lifeforce
+  idealFontSize: 20
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/BgImg/CardNameImg/CardName
+  sampleText: Up and Coming Storm Star
+  idealFontSize: 18
+  adjustWidth: 70
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/HeroName
+  sampleText: Wang Xiaoxiong
+  idealFontSize: 18
+  adjustWidth: 70
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Skill/SkillBtns/SkillItem*/Name
+  sampleText: Grandmaster Long Fist
+  idealFontSize: 16
+  adjustWidth: -20
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Skill/SkillBtns/SkillItem*/SubType/SubTypeName
+  sampleText: Punch and kick
+  idealFontSize: 12
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Skill/SkillBtns/SkillItem*/Desc
+  sampleText: Attack (0.5 times)
+  idealFontSize: 13
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/Button/Text (TMP)
+  sampleText: Details
+  idealFontSize: 16
+  adjustWidth: 10
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/BackImg*/*/*
+  sampleText: 5720
+  idealFontSize: 16
+  adjustX: 10
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/BackImg*/*
+  sampleText: Lifeforce
+  idealFontSize: 16
+  adjustWidth: 60
+  adjustX: 10
+  allowWordWrap: true
+
+# Details
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Radar/NameContainer/Text (TMP)*
+  sampleText: Potential
+  idealFontSize: 24
+  adjustWidth: 40
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Radar/ValueContainer/Text (TMP)*
+  sampleText: 45
+  idealFontSize: 24
+  adjustWidth: 40
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Jiyi/*/Text (TMP)*
+  sampleText: Variety ArtsBeginner
+  idealFontSize: 12
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/Name
+  sampleText: Wang Xiaoxiong
+  idealFontSize: 40
+  adjustY: -100
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/CardName
+  sampleText: Up‑and‑Coming Storm Star
+  idealFontSize: 40
+  adjustY: -100
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Talents/Text (TMP)*
+  sampleText: Loyalty and righteousness both upheld
+  idealFontSize: 24
+  adjustWidth: 100
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Bg/Text (TMP)
+  sampleText: Wuxia Hall of Fame
+  idealFontSize: 20
+  adjustWidth: 10
+  allowWordWrap: true
+- path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/Title
+  sampleText: Wudang Disciples
+  idealFontSize: 40
+  adjustY: -100
+  allowWordWrap: true
+
+# Scroll
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/Title
+  sampleText: Fundamentals
+  idealFontSize: 24
+  adjustX: 60
+  adjustWidth: 120
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1/Text (TMP) (1)
+  sampleText: Potential46
+  idealFontSize: 20
+  adjustWidth: 110
+  adjustX: 10
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_1/Text (TMP) (1)
+  sampleText: Resilience25
+  idealFontSize: 20
+  adjustWidth: 110
+  adjustY: -30
+  adjustX: -25
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_2/Text (TMP) (1)
+  sampleText: Resilience25
+  idealFontSize: 20
+  adjustWidth: 110
+  adjustY: -60
+  adjustX: -60
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_3/Text (TMP) (1)
+  sampleText: Resilience25
+  idealFontSize: 20
+  adjustWidth: 110
+  adjustY: -90
+  adjustX: -95
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_4/Text (TMP) (1)
+  sampleText: Resilience25
+  idealFontSize: 20
+  adjustWidth: 110
+  adjustY: -120
+  adjustX: -130
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_5/Text (TMP) (1)
+  sampleText: Resilience25
+  idealFontSize: 20
+  adjustWidth: 100
+  adjustY: -150
+  adjustX: -170
+  allowWordWrap: true
+
+# Infos
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Title
+  sampleText: Information
+  idealFontSize: 24
+  adjustWidth: 115
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/1/Text (TMP) (1)
+  sampleText: Contribution5
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustX: -40
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/2/Text (TMP) (1)
+  sampleText: Contribution5
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustY: -30
+  adjustX: -75
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/3/Text (TMP) (1)
+  sampleText: Morality9
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustY: -60
+  adjustX: -110
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/4/Text (TMP) (1)
+  sampleText: Morality9
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustY: -90
+  adjustX: -145
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/5/Text (TMP) (1)
+  sampleText: Morality9
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustY: -120
+  adjustX: -180
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/6/Text (TMP) (1)
+  sampleText: Morality9
+  idealFontSize: 20
+  adjustWidth: 140
+  adjustY: -150
+  adjustX: -220
+  allowWordWrap: true
+
+
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Title
+  sampleText: Skill
+  idealFontSize: 24
+  adjustWidth: 20
+  adjustX: 100
+  allowWordWrap: true
+- path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Skills/Scroll View/Viewport/SkillInfos/*/Text (TMP) (1)
+  sampleText: Variety ArtsBeginner
+  idealFontSize: 20
+  allowWordWrap: true
+

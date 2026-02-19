@@ -286,9 +286,16 @@ public static partial class LineValidation
             }
         }
 
+        //TODO: Better Removal prompt based on the fact it is probably from SplitBracketsRegexIfNeededAsync. Give it a dedicated prompt
+        if (raw.Contains('\'') && !result.Contains('\''))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovedQuotesPrompt");
+        }
+
         // Removed characters
         (string raw, string trans)[] checkForRemoval = { 
-            ("'", "'"), 
+            //("'", "'"), 
             //("(", "("),
             //("（", "("), 
             //(")", ")"),
@@ -296,6 +303,7 @@ public static partial class LineValidation
             //("...", "..."), //Problematic still
             //("…", "..."),
         };
+
 
         foreach (var check in checkForRemoval)
         {

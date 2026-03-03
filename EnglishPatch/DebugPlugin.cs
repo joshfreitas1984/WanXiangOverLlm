@@ -37,7 +37,7 @@ internal class DebugPlugin : BaseUnityPlugin
 
     [HarmonyPatch(typeof(ExDataLoader), "LoadAllData")]
     [HarmonyPostfix]
-    private static void LoadAllData_Postfix()
+    private static void LoadAllData_Postfix(string path)
     {
         try
         {
@@ -144,7 +144,7 @@ internal class DebugPlugin : BaseUnityPlugin
         }
     }
 
-    private static List<JObject> BuildExportData(Dictionary<int, object> dataDict, Type dataType)
+    private static List<JObject> BuildExportData(Dictionary<string, object> dataDict, Type dataType)
     {
         var chineseRegex = new Regex(ChineseCharPattern);
         var result = new List<JObject>();
@@ -236,7 +236,7 @@ internal class DebugPlugin : BaseUnityPlugin
         }
     }
 
-    private static int MergeByKey(Dictionary<int, object> dataDict, JArray translatedData, Type dataType)
+    private static int MergeByKey(Dictionary<string, object> dataDict, JArray translatedData, Type dataType)
     {
         var mergedCount = 0;
 
@@ -245,7 +245,7 @@ internal class DebugPlugin : BaseUnityPlugin
             var keyToken = translatedItem["Key"];
             if (keyToken == null) continue;
 
-            var key = keyToken.ToObject<int>();
+            var key = keyToken.ToObject<string>();
             if (!dataDict.ContainsKey(key)) continue;
 
             var existingItem = dataDict[key];
@@ -302,7 +302,7 @@ internal class DebugPlugin : BaseUnityPlugin
         }
     }
 
-    private static Dictionary<int, object> GetFactoryData(Type dataType, string typeName)
+    private static Dictionary<string, object> GetFactoryData(Type dataType, string typeName)
     {
         var factoryType = typeof(ExDataFactory<>).MakeGenericType(dataType);
         var instanceField = factoryType.GetField("Instance", BindingFlags.Public | BindingFlags.Static);
@@ -331,10 +331,10 @@ internal class DebugPlugin : BaseUnityPlugin
         var dataDict = getDataMethod.Invoke(factoryInstance, null);
         if (dataDict is IDictionary dict)
         {
-            var result = new Dictionary<int, object>();
+            var result = new Dictionary<string, object>();
             foreach (DictionaryEntry entry in dict)
             {
-                result[(int)entry.Key] = entry.Value;
+                result[entry.Key.ToString()] = entry.Value;
             }
             return result;
         }

@@ -41,7 +41,7 @@ public class FileInputWorkflowTests
         foreach (var textFile in GameTextFiles.TextFilesToSplit)
         {
             var file = $"{TranslationWorkflowTests.WorkingDirectory}/Raw/Export/{textFile.Path}";
-            var convertedFile = $"{TranslationWorkflowTests.WorkingDirectory}/Converted/{textFile.Path}";
+            var convertedFile = $"{TranslationWorkflowTests.WorkingDirectory}/Converted/{textFile.Path}.yaml";
 
             var deserializer = Yaml.CreateDeserializer();
 

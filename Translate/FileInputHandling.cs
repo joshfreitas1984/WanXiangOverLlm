@@ -52,11 +52,11 @@ public class InputFileHandling
                 if (!entry.TryGetProperty("Key", out var keyElement))
                     continue;
 
-                var key = keyElement.GetInt32();
+                var key = keyElement.ToString();
                 var line = new TranslationLine
                 {
                     Raw = entry.GetRawText(),
-                    RawIndex = key.ToString(),
+                    RawIndex = key,
                     Splits = new List<TranslationSplit>()
                 };
 
@@ -133,7 +133,7 @@ public class InputFileHandling
             //    return;
 
             var deserializer = Yaml.CreateDeserializer();
-            var exportFile = outputFile.Replace("Converted", "Raw/Export");
+            var exportFile = outputFile.Replace("Converted", "Raw/Export").Replace(".yaml", "");
             var exportLines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(exportFile));
 
             foreach (var line in exportLines)

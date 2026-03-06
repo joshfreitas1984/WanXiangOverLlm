@@ -158,14 +158,6 @@
   splits:
   - split: 3
     text: "UnApply 失败: {0}\\n{1}"
-- raw: "ModManager,InitSingleMod,115,耗时: ,[ModInfo]"
-  splits:
-  - split: 3
-    text: "耗时: "
-- raw: "ModManager,InitSingleMod,160,Mod 资源扫描完成: {0}，Sprite: {1} 条，Audio: {2} 条,[ModInfo]"
-  splits:
-  - split: 3
-    text: "Mod 资源扫描完成: {0}，Sprite: {1} 条，Audio: {2} 条"
 - raw: "DOTweenDebugHook/<>c,<Awake>b__0_0,64,正在运行的Tween目标: ,[UnityEngine.LogType，System.Object]"
   splits:
   - split: 3
@@ -222,90 +214,122 @@
   splits:
   - split: 3
     text: "暂无"
-- raw: "MainMenu,DebugCondition,163,开关：,[System.String]"
+- raw: "MainMenu,GetConditionText,4,[条件嵌套过深],[System.String，System.Int32]"
   splits:
   - split: 3
-    text: "开关："
-- raw: "MainMenu,DebugCondition,295,属性：,[System.String]"
+    text: "[条件嵌套过深]"
+- raw: "MainMenu,GetConditionText,25,无,[System.String，System.Int32]"
   splits:
   - split: 3
-    text: "属性："
-- raw: "MainMenu,DebugCondition,389,门派：,[System.String]"
+    text: "无"
+- raw: "MainMenu,GetConditionText,109, 且 ,[System.String，System.Int32]"
   splits:
   - split: 3
-    text: "门派："
-- raw: "MainMenu,DebugCondition,492,指定时间：,[System.String]"
+    text: " 且 "
+- raw: "MainMenu,GetConditionText,116, 或 ,[System.String，System.Int32]"
   splits:
   - split: 3
-    text: "指定时间："
-- raw: "MainMenu,DebugCondition,569,每月：,[System.String]"
+    text: " 或 "
+- raw: "MainMenu,GetSingleConditionText,186,门派 ,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "门派 "
+- raw: "MainMenu,GetSingleConditionText,232,拥有技能【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "拥有技能【"
+- raw: "MainMenu,GetSingleConditionText,249,未拥有技能【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "未拥有技能【"
+- raw: "MainMenu,GetSingleConditionText,270,拥有伙伴【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "拥有伙伴【"
+- raw: "MainMenu,GetSingleConditionText,287,未拥有伙伴【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "未拥有伙伴【"
+- raw: "MainMenu,GetSingleConditionText,318,未解锁地图【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "未解锁地图【"
+- raw: "MainMenu,GetSingleConditionText,335,已解锁地图【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "已解锁地图【"
+- raw: "MainMenu,GetSingleConditionText,352,事件【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "事件【"
+- raw: "MainMenu,GetSingleConditionText,358,】已发生,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "】已发生"
+- raw: "MainMenu,GetSingleConditionText,369,事件【,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "事件【"
+- raw: "MainMenu,GetSingleConditionText,375,】未发生,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "】未发生"
+- raw: "MainMenu,GetSingleConditionText,394,开关,[ExCondition，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "开关"
+- raw: "MainMenu,GetOptText,26,为,[OptType]"
+  splits:
+  - split: 3
+    text: "为"
+- raw: "MainMenu,GetOptText,32,不为,[OptType]"
+  splits:
+  - split: 3
+    text: "不为"
+- raw: "MainMenu,GetOptText,38,大于,[OptType]"
+  splits:
+  - split: 3
+    text: "大于"
+- raw: "MainMenu,GetOptText,44,小于,[OptType]"
+  splits:
+  - split: 3
+    text: "小于"
+- raw: "MainMenu,GetTimeText,33,时间：,[System.String，OptType，System.String]"
+  splits:
+  - split: 3
+    text: "时间："
+- raw: "MainMenu,GetTimeText,71,每月：,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每月："
-- raw: "MainMenu,DebugCondition,597,每个,[System.String]"
+- raw: "MainMenu,GetTimeText,89,每个,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每个"
-- raw: "MainMenu,DebugCondition,623,月,[System.String]"
+- raw: "MainMenu,GetTimeText,124,月,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "月"
-- raw: "MainMenu,DebugCondition,688,每季度：,[System.String]"
+- raw: "MainMenu,GetTimeText,144,每季度：,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每季度："
-- raw: "MainMenu,DebugCondition,716, 第,[System.String]"
+- raw: "MainMenu,GetTimeText,162,第,[System.String，OptType，System.String]"
   splits:
   - split: 3
-    text: " 第"
-- raw: "MainMenu,DebugCondition,742,季度,[System.String]"
+    text: "第"
+- raw: "MainMenu,GetTimeText,197,季度,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "季度"
-- raw: "MainMenu,DebugCondition,826,技能：,[System.String]"
+- raw: "MainMenu,LogEvent,16,当前事件：id,[ExEvent]"
   splits:
   - split: 3
-    text: "技能："
-- raw: "MainMenu,DebugCondition,835,没有,[System.String]"
+    text: "当前事件：id"
+- raw: "MainMenu,LogEvent,110,条件:,[ExEvent]"
   splits:
   - split: 3
-    text: "没有"
-- raw: "MainMenu,DebugCondition,842,有,[System.String]"
-  splits:
-  - split: 3
-    text: "有"
-- raw: "MainMenu,DebugCondition,937,侠客：,[System.String]"
-  splits:
-  - split: 3
-    text: "侠客："
-- raw: "MainMenu,DebugCondition,946,没有,[System.String]"
-  splits:
-  - split: 3
-    text: "没有"
-- raw: "MainMenu,DebugCondition,953,有,[System.String]"
-  splits:
-  - split: 3
-    text: "有"
-- raw: "MainMenu,DebugCondition,1020,前置事件：,[System.String]"
-  splits:
-  - split: 3
-    text: "前置事件："
-- raw: "MainMenu,DebugCondition,1083,互斥事件：,[System.String]"
-  splits:
-  - split: 3
-    text: "互斥事件："
-- raw: "MainMenu,DebugCondition,1146,条件嵌套：,[System.String]"
-  splits:
-  - split: 3
-    text: "条件嵌套："
-- raw: "MainMenu,DebugCondition,1220,条件：\\n,[System.String]"
-  splits:
-  - split: 3
-    text: "条件：\\n"
-- raw: "MainMenu,DebugCondition,1235,条件：无\\n,[System.String]"
-  splits:
-  - split: 3
-    text: "条件：无\\n"
+    text: "条件:"
 - raw: "MainMenu,ShowEvent,458,无事发生,[System.String]"
   splits:
   - split: 3
@@ -314,7 +338,7 @@
   splits:
   - split: 3
     text: "无事发生"
-- raw: "ModInfoPage/<UpdateProgressCoroutine>d__29,MoveNext,259,计算中...,[]"
+- raw: "ModInfoPage/<UpdateProgressCoroutine>d__32,MoveNext,259,计算中...,[]"
   splits:
   - split: 3
     text: "计算中..."

@@ -117,8 +117,8 @@ public class InputFileHandling
             File.WriteAllText($"{outputPath}/{file.Name}", yaml);
 
             // Add missing converted file if it doesnt exist yet
-            if (!File.Exists($"{convertedPath}/{file.Name}"))
-                File.Copy($"{outputPath}/{file.Name}", $"{convertedPath}/{file.Name}");
+            if (!File.Exists($"{convertedPath}/{file.Name}.yaml"))
+                File.Copy($"{outputPath}/{file.Name}", $"{convertedPath}/{file.Name}.yaml");
         }
     }
 

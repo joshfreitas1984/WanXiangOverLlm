@@ -140,7 +140,7 @@ internal class DebugPlugin : BaseUnityPlugin
         }
         catch (Exception ex)
         {
-            Logger.LogError($"Export failed for {name}: {ex.Message}");
+            Logger.LogError($"Export failed for {name}: {ex.ToString()}");
         }
     }
 
@@ -159,7 +159,9 @@ internal class DebugPlugin : BaseUnityPlugin
             {
                 if (prop.PropertyType == typeof(string))
                 {
-                    var value = prop.GetValue(kvp.Value) as string;
+                    string value;
+                    try { value = prop.GetValue(kvp.Value) as string; }
+                    catch { continue; }
                     if (!string.IsNullOrEmpty(value) && chineseRegex.IsMatch(value))
                     {
                         exportObj[prop.Name] = value;
@@ -168,7 +170,9 @@ internal class DebugPlugin : BaseUnityPlugin
                 }
                 else if (typeof(IEnumerable<string>).IsAssignableFrom(prop.PropertyType))
                 {
-                    var collection = prop.GetValue(kvp.Value) as IEnumerable<string>;
+                    IEnumerable<string> collection;
+                    try { collection = prop.GetValue(kvp.Value) as IEnumerable<string>; }
+                    catch { continue; }
                     if (collection != null)
                     {
                         var chineseStrings = collection

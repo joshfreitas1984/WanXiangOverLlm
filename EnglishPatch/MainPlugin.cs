@@ -160,6 +160,6 @@ public class MainPlugin : BaseUnityPlugin
     [HarmonyPostfix]
     public static void MainMenu_UpdateMenpaiAndMoney_Prefix(MainMenu __instance)
     {
-        __instance.NameText.text = GameManager.Instance.Player.Name + " · " + GameTools.GetDictionaryString(GameManager.Instance.Player.MenPai);
+        __instance.NameText.text = GameManager.Instance.Player.Name + " · " + GameTools.GetDictionaryString(GameManager.Instance.Player.MenPaiKey);
     }
 }

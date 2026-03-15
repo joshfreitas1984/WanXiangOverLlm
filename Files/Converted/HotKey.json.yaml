@@ -76,3 +76,10 @@
   - splitPath: Name
     text: "休息"
     translated: "Rest"
+- raw: "{\r\n    \"Key\": \"15\",\r\n    \"Name\": \"结束回合\",\r\n    \"NameTw\": \"結束回合\"\r\n  }"
+  rawIndex: 15
+  splits:
+  - splitPath: Name
+    text: "结束回合"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"

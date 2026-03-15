@@ -185,13 +185,13 @@
     text: "角色技能数量"
   - splitPath: Desc
     text: "角色技能数量，只读"
-- raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"医术\",\r\n    \"Desc\": \"医术的掌握水平\",\r\n    \"NameTw\": \"醫術\",\r\n    \"DescTw\": \"醫術的掌握水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"医术\",\r\n    \"Desc\": \"医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。\",\r\n    \"NameTw\": \"醫術\",\r\n    \"DescTw\": \"醫術的掌握水平，可在荊北神農幫學習醫術。衡山派冬學可以學習醫術。\"\r\n  }"
   rawIndex: 1001
   splits:
   - splitPath: Name
     text: "医术"
   - splitPath: Desc
-    text: "医术的掌握水平"
+    text: "医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。"
 - raw: "{\r\n    \"Key\": \"1002\",\r\n    \"Name\": \"毒术\",\r\n    \"Desc\": \"毒术的掌握水平\",\r\n    \"NameTw\": \"毒術\",\r\n    \"DescTw\": \"毒術的掌握水平\"\r\n  }"
   rawIndex: 1002
   splits:
@@ -199,20 +199,20 @@
     text: "毒术"
   - splitPath: Desc
     text: "毒术的掌握水平"
-- raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Name\": \"术数\",\r\n    \"Desc\": \"奇门术数掌握的水平\",\r\n    \"NameTw\": \"術數\",\r\n    \"DescTw\": \"奇門術數掌握的水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Name\": \"术数\",\r\n    \"Desc\": \"奇门术数掌握的水平，可在湘东岳麓书院学习术数。\",\r\n    \"NameTw\": \"術數\",\r\n    \"DescTw\": \"奇門術數掌握的水平，可在湘東嶽麓書院學習術數。\"\r\n  }"
   rawIndex: 1003
   splits:
   - splitPath: Name
     text: "术数"
   - splitPath: Desc
-    text: "奇门术数掌握的水平"
-- raw: "{\r\n    \"Key\": \"1004\",\r\n    \"Name\": \"儒学\",\r\n    \"Desc\": \"儒学掌握的水平\",\r\n    \"NameTw\": \"儒學\",\r\n    \"DescTw\": \"儒學掌握的水平\"\r\n  }"
+    text: "奇门术数掌握的水平，可在湘东岳麓书院学习术数。"
+- raw: "{\r\n    \"Key\": \"1004\",\r\n    \"Name\": \"儒学\",\r\n    \"Desc\": \"儒学掌握的水平，可在湘东岳麓书院学习儒学。衡山派冬学可以学习儒学。\",\r\n    \"NameTw\": \"儒學\",\r\n    \"DescTw\": \"儒學掌握的水平，可在湘東嶽麓書院學習儒學。衡山派冬學可以學習儒學。\"\r\n  }"
   rawIndex: 1004
   splits:
   - splitPath: Name
     text: "儒学"
   - splitPath: Desc
-    text: "儒学掌握的水平"
+    text: "儒学掌握的水平，可在湘东岳麓书院学习儒学。衡山派冬学可以学习儒学。"
 - raw: "{\r\n    \"Key\": \"1005\",\r\n    \"Name\": \"佛学\",\r\n    \"Desc\": \"佛学掌握的水平\",\r\n    \"NameTw\": \"佛學\",\r\n    \"DescTw\": \"佛學掌握的水平\"\r\n  }"
   rawIndex: 1005
   splits:
@@ -220,13 +220,13 @@
     text: "佛学"
   - splitPath: Desc
     text: "佛学掌握的水平"
-- raw: "{\r\n    \"Key\": \"1006\",\r\n    \"Name\": \"道学\",\r\n    \"Desc\": \"道学掌握的水平\",\r\n    \"NameTw\": \"道學\",\r\n    \"DescTw\": \"道學掌握的水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1006\",\r\n    \"Name\": \"道学\",\r\n    \"Desc\": \"道学掌握的水平，武当派可在解真阁提高道学。\",\r\n    \"NameTw\": \"道學\",\r\n    \"DescTw\": \"道學掌握的水平，武當派可在解真閣提高道學。\"\r\n  }"
   rawIndex: 1006
   splits:
   - splitPath: Name
     text: "道学"
   - splitPath: Desc
-    text: "道学掌握的水平"
+    text: "道学掌握的水平，武当派可在解真阁提高道学。"
 - raw: "{\r\n    \"Key\": \"1007\",\r\n    \"Name\": \"酒道\",\r\n    \"Desc\": \"品酒酿酒的水平\",\r\n    \"NameTw\": \"酒道\",\r\n    \"DescTw\": \"品酒釀酒的水平\"\r\n  }"
   rawIndex: 1007
   splits:
@@ -241,27 +241,27 @@
     text: "茶道"
   - splitPath: Desc
     text: "茶艺品茗的水平"
-- raw: "{\r\n    \"Key\": \"1011\",\r\n    \"Name\": \"厨艺\",\r\n    \"Desc\": \"厨艺的水平\",\r\n    \"NameTw\": \"廚藝\",\r\n    \"DescTw\": \"廚藝的水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1011\",\r\n    \"Name\": \"厨艺\",\r\n    \"Desc\": \"厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。\",\r\n    \"NameTw\": \"廚藝\",\r\n    \"DescTw\": \"廚藝的水平，各地遊歷無特殊事件時選嚐嚐當地美食，可以增加廚藝。廚藝入門後，可在湘東觸發丐幫事件，之後可在丐幫增加廚藝。\"\r\n  }"
   rawIndex: 1011
   splits:
   - splitPath: Name
     text: "厨艺"
   - splitPath: Desc
-    text: "厨艺的水平"
-- raw: "{\r\n    \"Key\": \"1009\",\r\n    \"Name\": \"火器\",\r\n    \"Desc\": \"火器制作和运用的水平\",\r\n    \"NameTw\": \"火器\",\r\n    \"DescTw\": \"火器製作和運用的水平\"\r\n  }"
+    text: "厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。"
+- raw: "{\r\n    \"Key\": \"1009\",\r\n    \"Name\": \"火器\",\r\n    \"Desc\": \"火器制作和运用的水平，衡山派冬学可以学习火器。\",\r\n    \"NameTw\": \"火器\",\r\n    \"DescTw\": \"火器製作和運用的水平，衡山派冬學可以學習火器。\"\r\n  }"
   rawIndex: 1009
   splits:
   - splitPath: Name
     text: "火器"
   - splitPath: Desc
-    text: "火器制作和运用的水平"
-- raw: "{\r\n    \"Key\": \"1010\",\r\n    \"Name\": \"百戏\",\r\n    \"Desc\": \"曲艺和戏法杂技的水平\",\r\n    \"NameTw\": \"百戲\",\r\n    \"DescTw\": \"曲藝和戲法雜技的水平\"\r\n  }"
+    text: "火器制作和运用的水平，衡山派冬学可以学习火器。"
+- raw: "{\r\n    \"Key\": \"1010\",\r\n    \"Name\": \"百戏\",\r\n    \"Desc\": \"曲艺和戏法杂技的水平，可在荆南福庆班学习百戏。\",\r\n    \"NameTw\": \"百戲\",\r\n    \"DescTw\": \"曲藝和戲法雜技的水平，可在荊南福慶班學習百戲。\"\r\n  }"
   rawIndex: 1010
   splits:
   - splitPath: Name
     text: "百戏"
   - splitPath: Desc
-    text: "曲艺和戏法杂技的水平"
+    text: "曲艺和戏法杂技的水平，可在荆南福庆班学习百戏。"
 - raw: "{\r\n    \"Key\": \"1012\",\r\n    \"Name\": \"音律\",\r\n    \"Desc\": \"音乐的水平\",\r\n    \"NameTw\": \"音律\",\r\n    \"DescTw\": \"音樂的水平\"\r\n  }"
   rawIndex: 1012
   splits:
@@ -276,13 +276,13 @@
     text: "弈理"
   - splitPath: Desc
     text: "弈棋的水平"
-- raw: "{\r\n    \"Key\": \"1014\",\r\n    \"Name\": \"翰墨\",\r\n    \"Desc\": \"书法的水平\",\r\n    \"NameTw\": \"翰墨\",\r\n    \"DescTw\": \"書法的水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1014\",\r\n    \"Name\": \"翰墨\",\r\n    \"Desc\": \"书法的水平，可在湘东岳麓书院、川东洗墨山庄学习翰墨。\",\r\n    \"NameTw\": \"翰墨\",\r\n    \"DescTw\": \"書法的水平，可在湘東嶽麓書院、川東洗墨山莊學習翰墨。\"\r\n  }"
   rawIndex: 1014
   splits:
   - splitPath: Name
     text: "翰墨"
   - splitPath: Desc
-    text: "书法的水平"
+    text: "书法的水平，可在湘东岳麓书院、川东洗墨山庄学习翰墨。"
 - raw: "{\r\n    \"Key\": \"1015\",\r\n    \"Name\": \"丹青\",\r\n    \"Desc\": \"绘画的水平\",\r\n    \"NameTw\": \"丹青\",\r\n    \"DescTw\": \"繪畫的水平\"\r\n  }"
   rawIndex: 1015
   splits:
@@ -290,13 +290,13 @@
     text: "丹青"
   - splitPath: Desc
     text: "绘画的水平"
-- raw: "{\r\n    \"Key\": \"1016\",\r\n    \"Name\": \"御兽\",\r\n    \"Desc\": \"御兽驯兽的水平\",\r\n    \"NameTw\": \"御獸\",\r\n    \"DescTw\": \"御獸馴獸的水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1016\",\r\n    \"Name\": \"御兽\",\r\n    \"Desc\": \"御兽驯兽的水平，可在湘南盘蛇谷学习御兽，盘蛇谷关闭后可在九嶷山提高御兽。\",\r\n    \"NameTw\": \"御獸\",\r\n    \"DescTw\": \"御獸馴獸的水平，可在湘南盤蛇谷學習御獸，盤蛇谷關閉後可在九嶷山提高御獸。\"\r\n  }"
   rawIndex: 1016
   splits:
   - splitPath: Name
     text: "御兽"
   - splitPath: Desc
-    text: "御兽驯兽的水平"
+    text: "御兽驯兽的水平，可在湘南盘蛇谷学习御兽，盘蛇谷关闭后可在九嶷山提高御兽。"
 - raw: "{\r\n    \"Key\": \"1017\",\r\n    \"Name\": \"鉴赏\",\r\n    \"Desc\": \"收藏鉴赏的水平\",\r\n    \"NameTw\": \"鑑賞\",\r\n    \"DescTw\": \"收藏鑑賞的水平\"\r\n  }"
   rawIndex: 1017
   splits:
@@ -311,20 +311,20 @@
     text: "幻术"
   - splitPath: Desc
     text: "幻术的掌握水平"
-- raw: "{\r\n    \"Key\": \"1019\",\r\n    \"Name\": \"赌术\",\r\n    \"Desc\": \"博彩的掌握水平\",\r\n    \"NameTw\": \"賭術\",\r\n    \"DescTw\": \"博彩的掌握水平\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1019\",\r\n    \"Name\": \"赌术\",\r\n    \"Desc\": \"博彩的掌握水平，可在荆东朱雀坊提高赌术。\",\r\n    \"NameTw\": \"賭術\",\r\n    \"DescTw\": \"博彩的掌握水平，可在荊東朱雀坊提高賭術。\"\r\n  }"
   rawIndex: 1019
   splits:
   - splitPath: Name
     text: "赌术"
   - splitPath: Desc
-    text: "博彩的掌握水平"
-- raw: "{\r\n    \"Key\": \"1020\",\r\n    \"Name\": \"丹术\",\r\n    \"Desc\": \"炼丹的掌握水平\",\r\n    \"NameTw\": \"丹術\",\r\n    \"DescTw\": \"煉丹的掌握水平\"\r\n  }"
+    text: "博彩的掌握水平，可在荆东朱雀坊提高赌术。"
+- raw: "{\r\n    \"Key\": \"1020\",\r\n    \"Name\": \"丹术\",\r\n    \"Desc\": \"炼丹的掌握水平，武当派可在丹房提高丹术。\",\r\n    \"NameTw\": \"丹術\",\r\n    \"DescTw\": \"煉丹的掌握水平，武當派可在丹房提高丹術。\"\r\n  }"
   rawIndex: 1020
   splits:
   - splitPath: Name
     text: "丹术"
   - splitPath: Desc
-    text: "炼丹的掌握水平"
+    text: "炼丹的掌握水平，武当派可在丹房提高丹术。"
 - raw: "{\r\n    \"Key\": \"10001\",\r\n    \"Name\": \"帮助日游\",\r\n    \"Desc\": \"帮助日游神干活的次数\",\r\n    \"NameTw\": \"幫助日遊\",\r\n    \"DescTw\": \"幫助日遊神幹活的次數\"\r\n  }"
   rawIndex: 10001
   splits:

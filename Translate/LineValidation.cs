@@ -216,6 +216,7 @@ public static partial class LineValidation
             "Chinese sentence",
             "translates to",
             "It seems that the text",
+            "Untranslated Chinese",
             //"also known as" //Causes issues
             "'''",
             "<p", "</p", "<em", "</em", "<|", "<strong", "</strong",

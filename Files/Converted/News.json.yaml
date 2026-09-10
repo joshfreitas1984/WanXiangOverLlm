@@ -14,7 +14,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "，通过演武对练检测各人的习武天赋资质，若三次"
-    translated: "Through martial drills and sparring to assess each person's martial aptitude and potential, if three attempts are made"
+    translated: ", Through martial drills and sparring to assess each person's martial aptitude and potential, if three attempts are made"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "小校"
@@ -33,7 +33,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "，通过演武对练检测各人的习武天赋资质，若三次"
-    translated: "Through martial drills and sparring to assess each person's martial aptitude and potential, if three attempts are made"
+    translated: ", Through martial drills and sparring to assess each person's martial aptitude and potential, if three attempts are made"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "小校"
@@ -161,7 +161,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "大师兄"
-    translated: "Senior Brother"
+    translated: "Big Senior Brother"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "代师前往"
@@ -196,7 +196,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "大师兄"
-    translated: "Senior Brother"
+    translated: "Big Senior Brother"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "代师前往"
@@ -319,8 +319,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "两月内发生数起镖队失踪案，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Several cases of dart teams disappearing have occurred within two months."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "荆东"
@@ -347,8 +346,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "两月内发生数起镖队失踪案，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Several cases of dart teams disappearing have occurred within two months."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "荆东"
@@ -512,7 +510,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "，得闲时不妨常去后山走走，若得遇两位师伯对剑而歌，当可大开眼界。"
-    translated: "While you have some free time, it might be beneficial to frequently visit the back mountain. If you happen to encounter your two senior aunts practicing sword dances, it could broaden your horizons greatly."
+    translated: ", While you have some free time, it might be beneficial to frequently visit the back mountain. If you happen to encounter your two senior aunts practicing sword dances, it could broaden your horizons greatly."
   - splitPath: ConditionUnsatisfiedDesc
     text: "江化渚"
     translated: "Jiang Huazhu"
@@ -531,7 +529,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "，得闲时不妨常去后山走走，若得遇两位师伯对剑而歌，当可大开眼界。"
-    translated: "While you have some free time, it might be beneficial to frequently visit the back mountain. If you happen to encounter your two senior aunts practicing sword dances, it could broaden your horizons greatly."
+    translated: ", While you have some free time, it might be beneficial to frequently visit the back mountain. If you happen to encounter your two senior aunts practicing sword dances, it could broaden your horizons greatly."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>、<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
@@ -1697,8 +1695,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "此后在"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After this"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "湘东"
@@ -1982,7 +1979,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "，可在岳麓书院北村先生处学习术数至高手，或将岳麓书院友好度提升至100完成此挑战。"
-    translated: "You can learn divination to become a master from North Village Mr. Yue at the Yuehu Academy, or increase your friendship level with the Yuehu Academy to 100 to complete this challenge."
+    translated: ", You can learn divination to become a master from North Village Mr. Yue at the Yuehu Academy, or increase your friendship level with the Yuehu Academy to 100 to complete this challenge."
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Done"
@@ -2017,7 +2014,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "，可在岳麓书院北村先生处学习术数至高手，或将岳麓书院友好度提升至100完成此挑战。"
-    translated: "You can learn divination to become a master from North Village Mr. Yue at the Yuehu Academy, or increase your friendship level with the Yuehu Academy to 100 to complete this challenge."
+    translated: ", You can learn divination to become a master from North Village Mr. Yue at the Yuehu Academy, or increase your friendship level with the Yuehu Academy to 100 to complete this challenge."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
@@ -2063,7 +2060,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "，可通过各地游历尝尝特色美味学习厨艺至高手，或将丐帮友好度提升至100完成此挑战。"
-    translated: "You can learn cooking skills by traveling to various places to taste local delicacies, or increase the friendliness level with the Beggar Sect to 100 to complete this challenge."
+    translated: ", You can learn cooking skills by traveling to various places to taste local delicacies, or increase the friendliness level with the Beggar Sect to 100 to complete this challenge."
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Done"
@@ -2098,7 +2095,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "，可通过各地游历尝尝特色美味学习厨艺至高手，或将丐帮友好度提升至100完成此挑战。"
-    translated: "You can learn cooking skills by traveling to various places to taste local delicacies, or increase the friendliness level with the Beggar Sect to 100 to complete this challenge."
+    translated: ", You can learn cooking skills by traveling to various places to taste local delicacies, or increase the friendliness level with the Beggar Sect to 100 to complete this challenge."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
@@ -2144,7 +2141,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "，可通过湘东朱雀坊提高赌术至高手，或解锁靳红衣红颜完成此挑战。"
-    translated: "While in Xiang Dong Zhu Que Fang, you can improve their gambling skills to an expert level or unlock Jin Hongyi's challenge to complete this task."
+    translated: ", While in Xiang Dong Zhu Que Fang, you can improve their gambling skills to an expert level or unlock Jin Hongyi's challenge to complete this task."
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Done"
@@ -2179,7 +2176,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "，可通过湘东朱雀坊提高赌术至高手，或解锁靳红衣红颜完成此挑战。"
-    translated: "While in Xiang Dong Zhu Que Fang, you can improve their gambling skills to an expert level or unlock Jin Hongyi's challenge to complete this task."
+    translated: ", While in Xiang Dong Zhu Que Fang, you can improve their gambling skills to an expert level or unlock Jin Hongyi's challenge to complete this task."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
@@ -2217,8 +2214,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 6
     text: "这样子，若是为他送上购买《四景山水图》的"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In this case, if I were to offer to buy the Four Views of the Seasons Scroll for him,..."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "五千钱"
@@ -2226,7 +2222,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "，他这糊涂会一直装下去了。"
-    translated: "He will continue to act foolishly"
+    translated: ", He will continue to act foolishly"
   - splitPath: ConditionUnsatisfiedDesc
     text: "只有完成"
     translated: "Only by completing"
@@ -2253,8 +2249,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 6
     text: "这样子，若是为他送上购买《四景山水图》的"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In this case, if I were to offer to buy the Four Views of the Seasons Scroll for him,..."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "五千钱"
@@ -2262,7 +2257,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "，他这糊涂会一直装下去了。"
-    translated: "He will continue to act foolishly"
+    translated: ", He will continue to act foolishly"
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
@@ -2320,7 +2315,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   - splitPath: ConditionUnsatisfiedDesc
     text: "少林"
     translated: "Shaolin"
@@ -2367,7 +2362,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>、<color=#BA77D9>{1}</color>、<color=#BA77D9>{2}</color>、<color=#BA77D9>{3}</color>、<color=#BA77D9>{4}</color>、<color=#BA77D9>{5}</color>、<color=#BA77D9>{6}</color>{7}<color=#BA77D9>{8}</color>{9}<color=#77CED9>{10}</color>{11}"
@@ -2401,7 +2396,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   - splitPath: ConditionUnsatisfiedDesc
     text: "天魔教总坛"
     translated: "Heavenly Demon Sect Headquarters"
@@ -2424,7 +2419,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
@@ -2579,7 +2574,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "大师兄"
-    translated: "Senior Brother"
+    translated: "Big Senior Brother"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "代师前往"
@@ -2815,8 +2810,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "的美味，或许此行一路追去荆东武昌府能追寻到那贼人的踪迹。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The delicious food might lead us to the thief's trail all the way to Jingdong Wuchang County."
   - splitPath: ConditionUnsatisfiedDesc
     text: "卖茶老伯"
     translated: "Old Tea Seller"
@@ -2839,8 +2833,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "的美味，或许此行一路追去荆东武昌府能追寻到那贼人的踪迹。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The delicious food might lead us to the thief's trail all the way to Jingdong Wuchang County."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#BA77D9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
@@ -3370,7 +3363,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   - splitPath: ConditionUnsatisfiedDesc
     text: "少林"
     translated: "Shaolin"
@@ -3417,7 +3410,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>、<color=#BA77D9>{1}</color>、<color=#BA77D9>{2}</color>、<color=#BA77D9>{3}</color>、<color=#BA77D9>{4}</color>、<color=#BA77D9>{5}</color>、<color=#BA77D9>{6}</color>{7}<color=#BA77D9>{8}</color>{9}<color=#77CED9>{10}</color>{11}"
@@ -3443,7 +3436,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "，道门中拥有丹道传承的各派"
-    translated: "The various sects within the Daoist tradition that have transmitted the Art of Alchemy maintain their practices."
+    translated: ", The various sects within the Daoist tradition that have transmitted the Art of Alchemy maintain their practices."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "每隔四年"
@@ -3498,7 +3491,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "，道门中拥有丹道传承的各派"
-    translated: "The various sects within the Daoist tradition that have transmitted the Art of Alchemy maintain their practices."
+    translated: ", The various sects within the Daoist tradition that have transmitted the Art of Alchemy maintain their practices."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "每隔四年"
@@ -3572,7 +3565,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   - splitPath: ConditionUnsatisfiedDesc
     text: "天魔教总坛"
     translated: "Heavenly Demon Sect Headquarters"
@@ -3595,7 +3588,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
@@ -3735,8 +3728,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "负责本帮的钱财货储和收支财务，平日里有一些理库算账的活计可以做，在这里工作对提升"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Responsible for the clan's money, goods storage, and financial inflows and outflows, you can do some inventory management and accounting tasks on regular days. Working here can help boost your skills."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "悟性"
@@ -3751,8 +3743,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "负责本帮的钱财货储和收支财务，平日里有一些理库算账的活计可以做，在这里工作对提升"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Responsible for the clan's money, goods storage, and financial inflows and outflows, you can do some inventory management and accounting tasks on regular days. Working here can help boost your skills."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "悟性"
@@ -4272,7 +4263,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "，听说"
-    translated: "I heard,"
+    translated: ", I heard,"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "向西飞"
@@ -4295,7 +4286,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "，听说"
-    translated: "I heard,"
+    translated: ", I heard,"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "向西飞"
@@ -4337,7 +4328,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "，听说"
-    translated: "I heard,"
+    translated: ", I heard,"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 6
     text: "荆北郧阳府"
@@ -4376,7 +4367,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "，听说"
-    translated: "I heard,"
+    translated: ", I heard,"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 6
     text: "荆北郧阳府"
@@ -4414,7 +4405,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "，若将此药送到"
-    translated: "If this medicine were to be delivered"
+    translated: ", If this medicine were to be delivered"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "荆东武昌府"
@@ -4445,7 +4436,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "，若将此药送到"
-    translated: "If this medicine were to be delivered"
+    translated: ", If this medicine were to be delivered"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "荆东武昌府"
@@ -4491,7 +4482,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "，也不知其门下售卖走私私盐的消息是真是假，还是要去仔细探寻一番才是。"
-    translated: "I also don't know if the rumors about this place selling smuggled salt are true, so I'll need to investigate thoroughly."
+    translated: ", I also don't know if the rumors about this place selling smuggled salt are true, so I'll need to investigate thoroughly."
   - splitPath: ConditionUnsatisfiedDesc
     text: "金睛派"
     translated: "Golden Eye Sect"
@@ -4506,7 +4497,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "，也不知其门下售卖走私私盐的消息是真是假，还是要去仔细探寻一番才是。"
-    translated: "I also don't know if the rumors about this place selling smuggled salt are true, so I'll need to investigate thoroughly."
+    translated: ", I also don't know if the rumors about this place selling smuggled salt are true, so I'll need to investigate thoroughly."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}"
@@ -5124,7 +5115,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   - splitPath: ConditionUnsatisfiedDesc
     text: "少林"
     translated: "Shaolin"
@@ -5171,7 +5162,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 11
     text: "，如此武林盛事若不参加，岂不抱憾终生。"
-    translated: "If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
+    translated: ", If one does not participate in such a grand event of the Wulin, how could they regret it for the rest of their life."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>、<color=#BA77D9>{1}</color>、<color=#BA77D9>{2}</color>、<color=#BA77D9>{3}</color>、<color=#BA77D9>{4}</color>、<color=#BA77D9>{5}</color>、<color=#BA77D9>{6}</color>{7}<color=#BA77D9>{8}</color>{9}<color=#77CED9>{10}</color>{11}"
@@ -5205,7 +5196,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   - splitPath: ConditionUnsatisfiedDesc
     text: "天魔教总坛"
     translated: "Heavenly Demon Sect Headquarters"
@@ -5228,7 +5219,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "，这一场绵延数十年的正邪对决，是时候彻底终结了！"
-    translated: "This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
+    translated: ", This prolonged decade‑long conflict between right and wrong is finally ready to come to a definitive end!"
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
@@ -5643,7 +5634,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "，想来也买不到什么。"
-    translated: "I suppose there's not much to get, either."
+    translated: ", I suppose there's not much to get, either."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "<color=#77CED9>{0}</color>{1}"
@@ -5714,9 +5705,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 2
     text: "常有野猪为患，侵扰四周村镇庄稼田地，官府虽屡次驱赶，却并未起效。"
-    translated: "They frequently cause trouble, disturbing surrounding villages and farmlands. Despite officials repeatedly driving them away, it has not been effective."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wild Boar,野豬,Wild Boar,野豬,Wild Boar,野豬,"
+    translated: "Wild boars frequently cause trouble, intruding on surrounding villages and farmlands. Despite the government's repeated attempts to drive them away, they have been ineffective."
   - splitPath: ConditionUnsatisfiedDesc
     text: "听闻"
     translated: "Heard"
@@ -5727,9 +5716,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 2
     text: "常有野猪为患，侵扰四周村镇庄稼田地，官府虽屡次驱赶，却并未起效。"
-    translated: "They frequently cause trouble, disturbing surrounding villages and farmlands. Despite officials repeatedly driving them away, it has not been effective."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wild Boar,野豬,Wild Boar,野豬,Wild Boar,野豬,"
+    translated: "Wild boars frequently cause trouble, intruding on surrounding villages and farmlands. Despite the government's repeated attempts to drive them away, they have been ineffective."
   templates:
   - splitPath: ConditionSatisfiedDesc
     template: "{0}<color=#77CED9>{1}</color>{2}"
@@ -5831,7 +5818,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "，且"
-    translated: "And"
+    translated: ", And"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "儒学"
@@ -6333,8 +6320,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "“摘心婆婆”简桂芝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fussing Grandma Jian Guizhi"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "在"
@@ -6361,8 +6347,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "“摘心婆婆”简桂芝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fussing Grandma Jian Guizhi"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "在"
@@ -7109,8 +7094,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "“夜走千家”吴换"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Walking Through a Thousand Homes at Night Wu Huan"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "在"
@@ -7137,8 +7121,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "“夜走千家”吴换"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Walking Through a Thousand Homes at Night Wu Huan"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "在"

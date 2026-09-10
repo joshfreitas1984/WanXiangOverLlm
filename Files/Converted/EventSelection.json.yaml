@@ -701,11 +701,11 @@
     translated: "Explore the interesting spots in Jingdong"
   - splitPath: SelectionList[2]
     text: "《江湖闲话"
-    translated: "《Chatter of the Jianghu ‑ The Changing Seasons》"
+    translated: "'《Chatter of the Jianghu ‑ The Changing Seasons》"
   - splitPath: SelectionList[2]
     subIndex: 1
     text: "四时迭运》"
-    translated: "He walks through the Four Seasons"
+    translated: "He walks through the Four Seasons'"
   - splitPath: SelectionList[3]
     text: "还是不在这里耽误时间了"
     translated: "Let's not waste any more time here"
@@ -924,11 +924,11 @@
     translated: "Stroll through the interesting spots in Jingbei"
   - splitPath: SelectionList[2]
     text: "《江湖闲话"
-    translated: "《Chatter of the Jianghu ‑ The Changing Seasons》"
+    translated: "'《Chatter of the Jianghu ‑ The Changing Seasons》"
   - splitPath: SelectionList[2]
     subIndex: 1
     text: "将军百战》"
-    translated: "General Through Many Battles"
+    translated: "General Through Many Battles'"
   - splitPath: SelectionList[3]
     text: "还是不在这里耽误时间了"
     translated: "Let's not waste any more time here"
@@ -1114,7 +1114,7 @@
     translated: "What type of medicinal pill will be prepared today?"
   - splitPath: SelectionList[0]
     text: "龙虎筑基丹"
-    translated: "Tiger and Dragon Foundation Pill"
+    translated: "Tiger and Dragon Foundation Establishment Pill"
   - splitPath: SelectionList[1]
     text: "混元锻骨丹"
     translated: "Cosmic Bone Forging Pill"
@@ -1435,8 +1435,7 @@
   - splitPath: TipTextList[3]
     subIndex: 1
     text: "消耗0点行动力，召唤宠物【飞云鼯】。飞云鼯单次攻击造成100点+3倍御兽伤害，连续3次攻击，发动几率100%，并有12%几率消除敌人1个战术。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Consume 0 Action Points to summon the pet [Feiyun Gliding Squirrel]. Feiyun Gliding Squirrel deals 100 points of +3 times Beast Taming damage per attack, striking up to 3 times with a chance of 100%, and there is a 12% chance to remove the enemy's 1 tactical effects."
   - splitPath: TipTextList[4]
     text: "增加2000气血"
     translated: "Increase 2000 Lifeforce"
@@ -1922,8 +1921,7 @@
   - splitPath: TipTextList[2]
     subIndex: 1
     text: "自动释放，6%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Automatic release, 6% chance of automatically releasing the tactic [Dodge], dodge can mitigate one damage."
   - splitPath: TipTextList[3]
     text: "蹈浪术"
     translated: "Wave Treading Skill 1000 Coin 40 Contribution"
@@ -2970,8 +2968,7 @@
     translated: "Qin Fang Garden"
   - splitPath: SelectionList[2]
     text: "崇文斋"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cultural Studio"
   - splitPath: SelectionList[3]
     text: "木兰台"
     translated: "Mulan Platform"
@@ -3141,9 +3138,7 @@
   splits:
   - splitPath: Desc
     text: "寻找左灵珠做一些什么？"
-    translated: "What is Left Lingzhu being asked to do?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Zuo Lingzhu,左靈珠,Zuo Lingzhu,左靈珠,Zuo Lingzhu,左靈珠,"
+    translated: "What is Zuo Lingzhu being sought for?"
   - splitPath: SelectionList[0]
     text: "闲话家常"
     translated: "Small talk"
@@ -3447,8 +3442,7 @@
   splits:
   - splitPath: Desc
     text: "与靳红衣进行多少点的博弈？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How much of a game do you want to engage in with Jin Hongyi?"
   - splitPath: SelectionList[0]
     text: "五千点一局"
     translated: "Five thousand points per round"
@@ -4052,8 +4046,7 @@
     translated: "Orchid"
   - splitPath: SelectionList[2]
     text: "破阵子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Break Array Pose"
   - splitPath: SelectionList[3]
     text: "红尘泪"
     translated: "Tears of the Red Dust"
@@ -4076,8 +4069,7 @@
     translated: "Spend 0 Action Points to deal 1.5 times the Wanderer's Power in a single attack."
   - splitPath: TipTextList[2]
     text: "破阵子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Break Array Pose"
   - splitPath: TipTextList[2]
     subIndex: 1
     text: "消耗1点行动力，单次攻击造成1.8倍侠客功力的伤害，并消除敌人1个战术。"

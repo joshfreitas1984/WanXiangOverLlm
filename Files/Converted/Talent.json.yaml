@@ -21,7 +21,7 @@
     translated: "Infinite strength"
   - splitPath: Desc
     text: "根骨"
-    translated: "Potential of +20"
+    translated: "Potential of +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -51,7 +51,7 @@
     translated: "Cast iron and copper"
   - splitPath: Desc
     text: "体魄"
-    translated: "Resilience +20"
+    translated: "Resilience +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -81,7 +81,7 @@
     translated: "Spirit refreshed and qi tranquil"
   - splitPath: Desc
     text: "内息"
-    translated: "Inner Qi +20"
+    translated: "Inner Qi +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -111,7 +111,7 @@
     translated: "Light as a swallow"
   - splitPath: Desc
     text: "灵活"
-    translated: "Flexibility +20"
+    translated: "Flexibility +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -141,7 +141,7 @@
     translated: "Quick‑witted"
   - splitPath: Desc
     text: "悟性"
-    translated: "Insight +20"
+    translated: "Insight +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -171,7 +171,7 @@
     translated: "Good fortune shines upon you"
   - splitPath: Desc
     text: "福缘"
-    translated: "Luck +20"
+    translated: "Luck +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -201,7 +201,7 @@
     translated: "Hold jade and cherish jasper"
   - splitPath: Desc
     text: "道德"
-    translated: "Morality +20"
+    translated: "Morality +10"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -231,7 +231,7 @@
     translated: "A man of noble birth"
   - splitPath: Desc
     text: "财富"
-    translated: "Wealth +1000"
+    translated: "Wealth +500"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -399,12 +399,10 @@
   splits:
   - splitPath: Name
     text: "毒术入门"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Introduction to Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Poison Skill"
   templates:
   - splitPath: Desc
     template: "{0}+40"
@@ -413,12 +411,10 @@
   splits:
   - splitPath: Name
     text: "匠造入门"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Crafting Basics"
   - splitPath: Desc
     text: "匠造"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Craftsmanship"
   templates:
   - splitPath: Desc
     template: "{0}+40"
@@ -430,7 +426,7 @@
     translated: "Skilled in medicine"
   - splitPath: Desc
     text: "医术"
-    translated: "Medicine +80"
+    translated: "Medicine +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -445,7 +441,7 @@
     translated: "Confucian Studies proficient"
   - splitPath: Desc
     text: "儒学"
-    translated: "Confucian Studies +80"
+    translated: "Confucian Studies +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -460,7 +456,7 @@
     translated: "Expert in firearms"
   - splitPath: Desc
     text: "火器"
-    translated: "Firearms +80"
+    translated: "Firearms +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -475,7 +471,7 @@
     translated: "Beast Taming Mastery"
   - splitPath: Desc
     text: "御兽"
-    translated: "Beast Taming +80"
+    translated: "Beast Taming +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -490,7 +486,7 @@
     translated: "Cooking skills are proficient"
   - splitPath: Desc
     text: "厨艺"
-    translated: "Cooking Skill +80"
+    translated: "Cooking Skill +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -505,7 +501,7 @@
     translated: "Master gambling techniques"
   - splitPath: Desc
     text: "赌术"
-    translated: "Gambling Technique +80"
+    translated: "+40 Gambling"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -517,7 +513,7 @@
     translated: "Calligraphy and painting expert"
   - splitPath: Desc
     text: "翰墨"
-    translated: "Calligraphy +80"
+    translated: "Calligraphy +40"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -529,7 +525,7 @@
     translated: "Divination master"
   - splitPath: Desc
     text: "术数"
-    translated: "Divination +80"
+    translated: "Divination +40"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -544,7 +540,7 @@
     translated: "Variety Arts master"
   - splitPath: Desc
     text: "百戏"
-    translated: "Variety Arts +80"
+    translated: "Variety Arts +40"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -553,12 +549,10 @@
   splits:
   - splitPath: Name
     text: "毒术精通"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mastery of Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Poison Skill"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -567,12 +561,10 @@
   splits:
   - splitPath: Name
     text: "匠造精通"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Craftsmanship Mastery"
   - splitPath: Desc
     text: "匠造"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Craftsmanship"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -953,16 +945,13 @@
   splits:
   - splitPath: Name
     text: "缘起唐门"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Originating from the Tang Clan"
   - splitPath: Desc
     text: "拜师唐门可获取30贡献"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Becoming a disciple of the Tang Clan can earn you 30 Contribution."
   - splitPath: EventResultDesc
     text: "加成测试"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bonus Test"
 - raw: "{\r\n    \"Key\": \"70001\",\r\n    \"Name\": \"忠义两全\",\r\n    \"Desc\": \"家中尚有两名忠义老仆\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"忠義兩全\",\r\n    \"DescTw\": \"家中尚有兩名忠義老僕\"\r\n  }"
   rawIndex: 70001
   splits:
@@ -983,23 +972,19 @@
     translated: "Flower branches ripe for plucking"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial arts technique Half Stroke Branch Hand Villains Valley\\nAttack damage class Palm technique\\nEach attack deals 1 times the Wanderer's Power in damage and has a 20% chance to paralyze the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "半拂折枝手"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Half‑Flick Branch‑Picking Hand"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【掌法】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Attacks Damage Class[Villains Valley][Hand Techniques]"
   - splitPath: Desc
     subIndex: 3
     text: "单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Single attack deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy in Sealed Acupoint state."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1014,23 +999,19 @@
     translated: "Widespread Bloodshed for a Thousand Miles"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial art Bloodbutcher Blade Technique 【Villains Valley】\\nAttack Damage Class Blade Art\\nEach attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "血屠刀法"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bloodbutcher Blade Art"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【刀法】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Attacking Damage Class [Villains Valley] [Blade Art]"
   - splitPath: Desc
     subIndex: 3
     text: "单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1045,23 +1026,19 @@
     translated: "Supreme Ruler"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial skill Heaven and Earth Sovereign Technique\\nTactical Coordination Class  【Villains Valley】  Neigong\\nWhen the number of our troops is 1, the tactic  【The Sovereign of Heaven and Earth Technique】  is automatically deployed at the start. Tiandi duzun jue can stack up to 1 layers, with each layer increasing damage by +200% ."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Sovereign of Heaven and Earth Technique"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【内功】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tactical Synergy [Villains Valley] [Neigong]"
   - splitPath: Desc
     subIndex: 3
     text: "当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。天地独尊诀可叠加1层，每层伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When our team has 1 members in the battle, the tactic Heaven Earth Unique automatically deploys at the start. Tian Heaven Di Earth Duo Multiple Zun Respect can stack up to 1 layers, with each layer increasing the damage."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1076,23 +1053,19 @@
     translated: "Neither Buddha nor Dao"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial arts technique Xuan Chan Wu Er Fa\\nAssistant support skill 'Villains Valley Neigong'\\nWhile the opponent has an abnormal condition, they restore to their side a multiple of 1 times the Wanderer's power in lifeforce and eliminate 1 tactical effects from the enemy."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "玄禅无二法"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There is no distinction between the way of the profane and the sacred."
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【内功】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Assistance Reply Skills: Villains Valley, Neigong"
   - splitPath: Desc
     subIndex: 3
     text: "当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the opponent has an abnormal condition, restore to my side 1 times the Wanderer Power in Lifeforce, and remove 1 tactical effects from the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1107,23 +1080,19 @@
     translated: "Yin Yang Harmony"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial art Chanu Xuanyin Method\\nAuxiliary recovery technique  【Villains Valley】  Heart Method\\nRestore lifeforce equal to 800 times the number of Red Beauty Companions."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "姹女玄阴法"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yin Method of the Maiden Immortal"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【心法】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Assistant Response Category: Villains Valley Heart Method"
   - splitPath: Desc
     subIndex: 3
     text: "单次回复800倍红颜知己数量的气血。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain lifeforce equal to 800 times the number of Red Beauty Companions."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1138,23 +1107,19 @@
     translated: "Revive Destiny"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial arts technique Reverse Meridian Needling Technique\\n 【Villains Valley】  Stunt\\n40% chance to apply a strengthened state to one of my 2 Wanderers."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "逆脉行针诀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reversing Meridian Needling Technique"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【特技】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Assistance Reply Category [Villains Valley] [Stunt]"
   - splitPath: Desc
     subIndex: 3
     text: "40%几率为我方2名侠客添加强化状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "40% chance to add a strengthened state to 2 of my wanderers."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1169,23 +1134,19 @@
     translated: "Fooling around with spirits and ghosts"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial arts skill Sanqingguan Faxiang\\nTactical Coordination Class  【Villains Valley】   【Neigong】 \\n'Release tactical  【Purification Technique of Jade Purity Monastery】  or  【Cultivation Method of the Taiqing Monastery】  or  【Cleansing Upper Clear Viewing Meditation Technique】 '."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "三清观想法"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Traverse the Three Pure Ones' Meditation Method"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【内功】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tactical Synergy [Villains Valley] [Neigong]"
   - splitPath: Desc
     subIndex: 3
     text: "释放战术【玉清观想法】或【太清观想法】或【上清观想法】。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Release tactical [Yingqing Guan Faxiang], [Taiqing Guan Faxiang], or [Shangqing Guan Faxiang]."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1200,23 +1161,19 @@
     translated: "Right and wrong are reversed"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial skill Pointed Ink, Mind Attack Pen\\nAttacks and Damage for  【Villains Valley】   【Hundred Weapons Style】 \\n100% puts the enemy in Jie Mai state, which can only be used once per battle."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "点墨诛心笔"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mind Attack Pen"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【百兵】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Attack Damage Class: Villains Valley, Hundred Weapons"
   - splitPath: Desc
     subIndex: 3
     text: "100%使敌人进入绝脉状态，每场战斗只能使用一次。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "100% puts the enemy in a Bleeding Vein state, which can only be used once per battle."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1231,23 +1188,19 @@
     translated: "Inner Demon that Haunts You Continuously"
   - splitPath: Desc
     text: "初始武学"
-    translated: "He used the martial arts technique Six Desires Inner Demon Yin.\\nAttack Damage Class  【Villains Valley】  Stunt\\nWhen the opponent is in an abnormal state, eliminate one of their abnormal states and deal 6% damage based on their maximum lifeforce with a single attack."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "六欲心魔引"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Inner Demon Invoked by Six Desires"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【特技】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Attack Damage Skill [Villains Valley] Special Technique"
   - splitPath: Desc
     subIndex: 3
     text: "敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%最大气血的伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the enemy is in an abnormal state, remove one of their abnormal states and deal 6% of their maximum lifeforce damage in a single attack."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1262,23 +1215,19 @@
     translated: "Feng Qiwu resides in the Tung Tree"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial art Phoenix Three Spread Wings\\nTactical Coordination Class  【Villains Valley】  Heart Method\\nRelease the tactic 'Phoenix Soars Three Times', which can offset three damages. After using it, action points continue to accumulate."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "凤凰三展翅"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Phoenix soars three times"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【心法】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
   - splitPath: Desc
     subIndex: 3
     text: "释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Release the tactic [Phoenix Soars Three Times], which can negate three damages. After using it, action points will continue to accumulate."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1293,23 +1242,19 @@
     translated: "Xiang River Night Rain"
   - splitPath: Desc
     text: "初始武学"
-    translated: "Initial martial arts technique Xiaoxiang Jue\\nTactical Coordination in 'Jianghu Neigong'\\nThere is a 40% chance of automatically releasing the tactic  【Xiangxi Formula】 . Xiao Xiang Jue has a 40% chance to trigger this effect, which can stack up to 4 layers, with each layer increasing damage by +10%."
-    flaggedForRetranslation: true
+    translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "潇湘诀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiangxi Formula"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【江湖】【内功】"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tactical Cooperation [Jianghu] [Neigong]"
   - splitPath: Desc
     subIndex: 3
     text: "40%几率自动释放战术【潇湘诀】。潇湘诀40%几率触发，可叠加4层，每层伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "40% chance to automatically release the tactical skill [Xiangxiang Quie]. Xiangxiang Quie 40% chance to trigger, stacking up to 4 layers, with each layer increasing the damage."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"

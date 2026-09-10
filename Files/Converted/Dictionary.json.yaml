@@ -1718,11 +1718,11 @@
   splits:
   - splitPath: Desc
     text: "赌术入门（"
-    translated: "Introduction to Gambling Techniques"
+    translated: "(Introduction to Gambling Techniques"
   - splitPath: Desc
     subIndex: 1
     text: "40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
-    translated: "40 Unlock: When rolling 'Pair of Sons,' the base points increase to 200 points, but 'Pair of Opposites' cannot exempt 'Destiny.'"
+    translated: "40 Unlock: When rolling 'Pair of Sons,' the base points increase to 200 points, but 'Pair of Opposites' cannot exempt 'Destiny.')"
   - splitPath: Dictionary
     text: "锦上添花"
     translated: "Adding insult to injury"
@@ -1734,7 +1734,7 @@
   splits:
   - splitPath: Desc
     text: "赌术精通（"
-    translated: "Gambling skill proficiency"
+    translated: "(Gambling skill proficiency"
   - splitPath: Desc
     subIndex: 1
     text: "80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
@@ -1750,11 +1750,11 @@
   splits:
   - splitPath: Desc
     text: "赌术高手（"
-    translated: "Gambling master"
+    translated: "(Gambling master"
   - splitPath: Desc
     subIndex: 1
     text: "120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空"
-    translated: "120 Unlock: When you choose 'All‑in,' the points you earn in this round will be doubled. However, the probability of  “Fate”  appearing will also double. If  “Fate”  does appear, all previously accumulated points will be reset."
+    translated: "120 Unlock: When you choose 'All‑in,' the points you earn in this round will be doubled. However, the probability of  “Fate”  appearing will also double. If  “Fate”  does appear, all previously accumulated points will be reset.)"
   - splitPath: Desc
     subIndex: 2
     text: "每局只能使用一次"
@@ -1774,7 +1774,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
-    translated: "160 Unlock: When a calamity appears in this round, you can convert the calamity into 1 to avoid resetting the points. This can only be used once per game, and it is not available during an  “All‑in”  state."
+    translated: "160 Unlock: When a calamity appears in this round, you can convert the calamity into 1 to avoid resetting the points. This can only be used once per game, and it is not available during an  “All‑in”  state.)"
   - splitPath: Dictionary
     text: "颠倒乾坤"
     translated: "Invert Heaven and Earth"
@@ -1786,11 +1786,11 @@
   splits:
   - splitPath: Desc
     text: "赌术宗师（"
-    translated: "Gambling Master"
+    translated: "(Gambling Master"
   - splitPath: Desc
     subIndex: 1
     text: "200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
-    translated: "200 Unlock: Activate at the start of the turn, clears both your and your opponent's points. Can only be used once per match."
+    translated: "200 Unlock: Activate at the start of the turn, clears both your and your opponent's points. Can only be used once per match.)"
   - splitPath: Dictionary
     text: "天地同寂"
     translated: "Heaven and earth share the same silence"
@@ -1856,7 +1856,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "，双方点数清零"
-    translated: ",Both scores reset to zero"
+    translated: ", Both scores reset to zero"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
@@ -1869,7 +1869,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "，劫数重置"
-    translated: "Fate has been reset"
+    translated: ", Fate has been reset"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
@@ -2162,7 +2162,7 @@
   - splitPath: Dictionary
     subIndex: 4
     text: "（基数"
-    translated: "(base number)"
+    translated: "(base number"
   - splitPath: Dictionary
     subIndex: 5
     text: "倍数"
@@ -2218,7 +2218,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "，投出了"
-    translated: "Threw"
+    translated: ", Threw"
   - splitPath: Dictionary
     subIndex: 2
     text: "点"

@@ -1035,13 +1035,11 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《青玉案"
-    translated: "Who is the author of  《Rhapsody in Jade Case·Lunar Festival Eve》 ?"
-    flaggedForRetranslation: true
+    translated: "'Qing Yuan An"
   - splitPath: Puzzle
     subIndex: 1
     text: "元夕》是谁的代表作？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Whose representative work is Yuan Xi?'"
   - splitPath: AnswerList[0]
     text: "辛弃疾"
     translated: "Xin Qiji"
@@ -1065,13 +1063,11 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《念奴娇"
-    translated: "《Nian Nu Jiao · Chi Bi Huagu》  is whose representative work?"
-    flaggedForRetranslation: true
+    translated: "'Remembrance of Nobility"
   - splitPath: Puzzle
     subIndex: 1
     text: "赤壁怀古》是谁的代表作？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reminiscences of Red Cliffs is a representative work of Su Shi.'"
   - splitPath: AnswerList[0]
     text: "苏辙"
     translated: "Su Zhe"
@@ -1095,13 +1091,11 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《雨霖铃"
-    translated: "《Rain Bell·Cold Cicadas Sighing Lamentably》  is a representative work of Rain Bell."
-    flaggedForRetranslation: true
+    translated: "'Rain Bell"
   - splitPath: Puzzle
     subIndex: 1
     text: "寒蝉凄切》是谁的代表作？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who is the author of Sadness of the Cicada in the Coolness?'"
   - splitPath: AnswerList[0]
     text: "韩愈"
     translated: "Han Yu"
@@ -1125,13 +1119,11 @@
     translated: "Southern Slope Exam Questions"
   - splitPath: Puzzle
     text: "《如梦令"
-    translated: "《Dreamlike Order: Last Night Sparse Rain, Breezy Storm》  is a representative work of who?"
-    flaggedForRetranslation: true
+    translated: "'Dreamy Order"
   - splitPath: Puzzle
     subIndex: 1
     text: "昨夜雨疏风骤》是谁的代表作？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Whose representative work is Last Night, the Rain Was Sparse and the Breeze Violent?'"
   - splitPath: AnswerList[0]
     text: "朱淑真"
     translated: "Zhu Shuzhen"
@@ -1950,92 +1942,72 @@
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "在欧洲，整天研究植物的药性，并为百姓行医治病的人叫什么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In Europe, what do people who study the medicinal properties of plants and practice medicine for the common people during the day call themselves?"
   - splitPath: AnswerList[0]
     text: "巫师"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wizard"
   - splitPath: AnswerList[1]
     text: "炼金术士"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alchemist"
   - splitPath: AnswerList[2]
     text: "僧侣医师"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Monk Physician"
   - splitPath: AnswerList[3]
     text: "这些都是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "These are all"
 - raw: "{\r\n    \"Key\": \"10002\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"我们威尼斯的玻璃，全欧洲最好，但有一门技术，是我们从亚洲学来的，做出来的刀剑可以斩断普通刀剑，那是什么钢？”\",\r\n    \"AnswerList\": [\r\n      \"高碳钢\",\r\n      \"大马士革钢\",\r\n      \"铸钢\",\r\n      \"熟钢\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"我們威尼斯的玻璃，全歐洲最好，但有一門技術，是我們從亞洲學來的，做出來的刀劍可以斬斷普通刀劍，那是什麼鋼？”\",\r\n    \"AnswerTwList\": [\r\n      \"高碳鋼\",\r\n      \"大馬士革鋼\",\r\n      \"鑄鋼\",\r\n      \"熟鋼\"\r\n    ]\r\n  }"
   rawIndex: 10002
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "我们威尼斯的玻璃，全欧洲最好，但有一门技术，是我们从亚洲学来的，做出来的刀剑可以斩断普通刀剑，那是什么钢？”"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What kind of steel did we learn from Asia to make blades that can cut through ordinary swords in Venice, which is the best in all of Europe?'"
   - splitPath: AnswerList[0]
     text: "高碳钢"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "High‑carbon steel"
   - splitPath: AnswerList[1]
     text: "大马士革钢"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Damascus steel"
   - splitPath: AnswerList[2]
     text: "铸钢"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cast steel"
   - splitPath: AnswerList[3]
     text: "熟钢"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Refined steel"
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"在我们威尼斯，有一个叫做马可·波罗的人，去了你们中原，还见到了忽必烈，他回国后写了一本书，在整个欧洲都十分畅销，你知道这本书么？\",\r\n    \"AnswerList\": [\r\n      \"《东方见闻录》\",\r\n      \"《寰宇记》\",\r\n      \"《马可·波罗游记》\",\r\n      \"《世界奇异录》\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"在我們威尼斯，有一個叫做馬可·波羅的人，去了你們中原，還見到了忽必烈，他回國後寫了一本書，在整個歐洲都十分暢銷，你知道這本書麼？\",\r\n    \"AnswerTwList\": [\r\n      \"《東方見聞錄》\",\r\n      \"《寰宇記》\",\r\n      \"《馬可·波羅遊記》\",\r\n      \"《世界奇異錄》\"\r\n    ]\r\n  }"
   rawIndex: 10003
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "在我们威尼斯，有一个叫做马可"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In our Venice, there is one called Marco."
   - splitPath: Puzzle
     subIndex: 1
     text: "波罗的人，去了你们中原，还见到了忽必烈，他回国后写了一本书，在整个欧洲都十分畅销，你知道这本书么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The people from Boruo went to your Central Plains and even met Kublai Khan. After returning to his country, he wrote a book that was extremely popular throughout Europe. Have you heard of this book?"
   - splitPath: AnswerList[0]
     text: "《东方见闻录》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mushi Testament"
   - splitPath: AnswerList[1]
     text: "《寰宇记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chronicle of the Globe"
   - splitPath: AnswerList[2]
     text: "《马可"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'Mark"
   - splitPath: AnswerList[2]
     subIndex: 1
     text: "波罗游记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Journey of Borlo'"
   - splitPath: AnswerList[3]
     text: "《世界奇异录》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Record of Strange Worlds"
   templates:
   - splitPath: Puzzle
     template: "{0}·{1}"
@@ -2046,1459 +2018,1135 @@
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "有一个法国姑娘，在英法战争时期，说听到了圣音，她穿着盔甲上战场，带领士兵收复被英国侵占的土地，最后却被英国人烧死在火刑柱上，她是一位英雄，你知道她是谁么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There was a French Miss named Joan during the Hundred Years' War. She claimed to have heard divine voices and fought in armor on the battlefield, leading soldiers to retake territories occupied by the English. In the end, she was burned at the stake by the English. She is a hero. Do you know who she is?"
   - splitPath: AnswerList[0]
     text: "伊莎贝拉"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Isabella"
   - splitPath: AnswerList[1]
     text: "贞德"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Joan"
   - splitPath: AnswerList[2]
     text: "玛丽"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mary"
   - splitPath: AnswerList[3]
     text: "凯瑟琳"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Katherine"
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"有一位诗人，他用意大利方言写了一首长长的诗，从地狱游到天堂，佛罗伦萨人都以他为傲，你知道他是谁么？\",\r\n    \"AnswerList\": [\r\n      \"但丁\",\r\n      \"彼特拉克\",\r\n      \"薄伽丘\",\r\n      \"阿里奥斯托\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"有一位詩人，他用義大利方言寫了一首長長的詩，從地獄游到天堂，佛羅倫薩人都以他為傲，你知道他是誰麼？\",\r\n    \"AnswerTwList\": [\r\n      \"但丁\",\r\n      \"彼特拉克\",\r\n      \"薄伽丘\",\r\n      \"阿里奧斯托\"\r\n    ]\r\n  }"
   rawIndex: 10005
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "有一位诗人，他用意大利方言写了一首长长的诗，从地狱游到天堂，佛罗伦萨人都以他为傲，你知道他是谁么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There was a poet who wrote a long poem in Italian dialect, traveling from hell to heaven. The Florentines are proud of him. Do you know who he is?"
   - splitPath: AnswerList[0]
     text: "但丁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dante"
   - splitPath: AnswerList[1]
     text: "彼特拉克"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Petrarch"
   - splitPath: AnswerList[2]
     text: "薄伽丘"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Boccaccio"
   - splitPath: AnswerList[3]
     text: "阿里奥斯托"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ariosto"
 - raw: "{\r\n    \"Key\": \"10006\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"在欧洲教廷的权势很大，罗马帝国的皇帝腓特烈一世为了对抗神权，便给自己的国家加了一个前缀，你能猜出加的是什么？\",\r\n    \"AnswerList\": [\r\n      \"神圣\",\r\n      \"伟大\",\r\n      \"永恒\",\r\n      \"无畏\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"在歐洲教廷的權勢很大，羅馬帝國的皇帝腓特烈一世為了對抗神權，便給自己的國家加了一個字首，你能猜出加的是什麼？\",\r\n    \"AnswerTwList\": [\r\n      \"神聖\",\r\n      \"偉大\",\r\n      \"永恆\",\r\n      \"無畏\"\r\n    ]\r\n  }"
   rawIndex: 10006
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "在欧洲教廷的权势很大，罗马帝国的皇帝腓特烈一世为了对抗神权，便给自己的国家加了一个前缀，你能猜出加的是什么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In Europe, the Church's power is significant. Emperor Frederick I of the Roman Empire added a prefix to his country to counter the divine authority. Can you guess what prefix he added?"
   - splitPath: AnswerList[0]
     text: "神圣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sacred"
   - splitPath: AnswerList[1]
     text: "伟大"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Great"
   - splitPath: AnswerList[2]
     text: "永恒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eternal"
   - splitPath: AnswerList[3]
     text: "无畏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fearless"
 - raw: "{\r\n    \"Key\": \"10008\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"几百年前，有一支来自东方的骑兵，他们一直打到了多瑙河边，欧洲人吓得躲在城堡里发抖，你知道那些是什么人么？\",\r\n    \"AnswerList\": [\r\n      \"匈奴人\",\r\n      \"阿瓦尔人\",\r\n      \"马扎尔人\",\r\n      \"蒙古人\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"幾百年前，有一支來自東方的騎兵，他們一直打到了多瑙河邊，歐洲人嚇得躲在城堡裡發抖，你知道那些是什麼人麼？\",\r\n    \"AnswerTwList\": [\r\n      \"匈奴人\",\r\n      \"阿瓦爾人\",\r\n      \"馬扎爾人\",\r\n      \"蒙古人\"\r\n    ]\r\n  }"
   rawIndex: 10008
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "几百年前，有一支来自东方的骑兵，他们一直打到了多瑙河边，欧洲人吓得躲在城堡里发抖，你知道那些是什么人么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hundreds of years ago, there was a cavalry from the East who rode all the way to the Danube River. Europeans were so terrified that they hid in their castles shivering. Do you know who they were?"
   - splitPath: AnswerList[0]
     text: "匈奴人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Huns"
   - splitPath: AnswerList[1]
     text: "阿瓦尔人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Avars"
   - splitPath: AnswerList[2]
     text: "马扎尔人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Magyars"
   - splitPath: AnswerList[3]
     text: "蒙古人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mongolians"
 - raw: "{\r\n    \"Key\": \"10009\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"在欧洲有一条古老的商路，从波罗的海一直链接到地中海，无数的商船从这里走过，你知道这条商路被称为什么么？\",\r\n    \"AnswerList\": [\r\n      \"琥珀之路\",\r\n      \"白银之路\",\r\n      \"黄金之路\",\r\n      \"水晶之路\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"在歐洲有一條古老的商路，從波羅的海一直連結到地中海，無數的商船從這裡走過，你知道這條商路被稱為什麼麼？\",\r\n    \"AnswerTwList\": [\r\n      \"琥珀之路\",\r\n      \"白銀之路\",\r\n      \"黃金之路\",\r\n      \"水晶之路\"\r\n    ]\r\n  }"
   rawIndex: 10009
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "在欧洲有一条古老的商路，从波罗的海一直链接到地中海，无数的商船从这里走过，你知道这条商路被称为什么么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In Europe, there is an ancient trade route that stretches from the Baltic Sea to the Mediterranean. Countless merchant ships have passed here. Do you know what this trade route is called?"
   - splitPath: AnswerList[0]
     text: "琥珀之路"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Amber Road"
   - splitPath: AnswerList[1]
     text: "白银之路"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Silver Road"
   - splitPath: AnswerList[2]
     text: "黄金之路"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Path of Gold"
   - splitPath: AnswerList[3]
     text: "水晶之路"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Crystal Path"
 - raw: "{\r\n    \"Key\": \"10011\",\r\n    \"Name\": \"琳娜答趣\",\r\n    \"Puzzle\": \"一百多年前，欧洲曾被一种疾病席卷，让整个欧洲的人口减少了三分之一，你知道这种可怕的疾病叫做什么么？\",\r\n    \"AnswerList\": [\r\n      \"天花病\",\r\n      \"麻风病\",\r\n      \"流感病\",\r\n      \"黑死病\"\r\n    ],\r\n    \"NameTw\": \"琳娜答趣\",\r\n    \"PuzzleTw\": \"一百多年前，歐洲曾被一種疾病席捲，讓整個歐洲的人口減少了三分之一，你知道這種可怕的疾病叫做什麼麼？\",\r\n    \"AnswerTwList\": [\r\n      \"天花病\",\r\n      \"麻風病\",\r\n      \"流感病\",\r\n      \"黑死病\"\r\n    ]\r\n  }"
   rawIndex: 10011
   splits:
   - splitPath: Name
     text: "琳娜答趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lina answered with interest"
   - splitPath: Puzzle
     text: "一百多年前，欧洲曾被一种疾病席卷，让整个欧洲的人口减少了三分之一，你知道这种可怕的疾病叫做什么么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "More than a hundred years ago, Europe was swept by a disease that reduced the European population by a third. Do you know what terrible disease it was called?"
   - splitPath: AnswerList[0]
     text: "天花病"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Smallpox"
   - splitPath: AnswerList[1]
     text: "麻风病"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Leprosy"
   - splitPath: AnswerList[2]
     text: "流感病"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Flu sickness"
   - splitPath: AnswerList[3]
     text: "黑死病"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Black Death"
 - raw: "{\r\n    \"Key\": \"10201\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"一钩残月带三星（打一字）\",\r\n    \"AnswerList\": [\r\n      \"忍\",\r\n      \"心\",\r\n      \"愁\",\r\n      \"州\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"一鉤殘月帶三星（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"忍\",\r\n      \"心\",\r\n      \"愁\",\r\n      \"州\"\r\n    ]\r\n  }"
   rawIndex: 10201
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "一钩残月带三星（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One Hooked Remnant Moon with Three Stars (Guess a Chinese Character)"
   - splitPath: AnswerList[0]
     text: "忍"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Endure"
   - splitPath: AnswerList[1]
     text: "心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heart"
   - splitPath: AnswerList[2]
     text: "愁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Grief"
   - splitPath: AnswerList[3]
     text: "州"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Province"
 - raw: "{\r\n    \"Key\": \"10202\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"春雨连绵，妻独宿（打一字）\",\r\n    \"AnswerList\": [\r\n      \"一\",\r\n      \"二\",\r\n      \"三\",\r\n      \"四\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"春雨連綿，妻獨宿（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"一\",\r\n      \"二\",\r\n      \"三\",\r\n      \"四\"\r\n    ]\r\n  }"
   rawIndex: 10202
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "春雨连绵，妻独宿（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring rain falls, wife stays alone (guess one character)"
   - splitPath: AnswerList[0]
     text: "一"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "1"
   - splitPath: AnswerList[1]
     text: "二"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "2"
   - splitPath: AnswerList[2]
     text: "三"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "3"
   - splitPath: AnswerList[3]
     text: "四"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "4"
 - raw: "{\r\n    \"Key\": \"10203\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"春末夏初（打一字）\",\r\n    \"AnswerList\": [\r\n      \"秋\",\r\n      \"旦\",\r\n      \"岁\",\r\n      \"年\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"春末夏初（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"秋\",\r\n      \"旦\",\r\n      \"歲\",\r\n      \"年\"\r\n    ]\r\n  }"
   rawIndex: 10203
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "春末夏初（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The boundary between spring and summer (zheng)"
   - splitPath: AnswerList[0]
     text: "秋"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Autumn"
   - splitPath: AnswerList[1]
     text: "旦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Morning"
   - splitPath: AnswerList[2]
     text: "岁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Years"
   - splitPath: AnswerList[3]
     text: "年"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Year"
 - raw: "{\r\n    \"Key\": \"10204\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"孔子登山（打一字）\",\r\n    \"AnswerList\": [\r\n      \"岳\",\r\n      \"爬\",\r\n      \"丘\",\r\n      \"圣\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"孔子登山（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"嶽\",\r\n      \"爬\",\r\n      \"丘\",\r\n      \"聖\"\r\n    ]\r\n  }"
   rawIndex: 10204
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "孔子登山（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mount Tai"
   - splitPath: AnswerList[0]
     text: "岳"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yue"
   - splitPath: AnswerList[1]
     text: "爬"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Climb"
   - splitPath: AnswerList[2]
     text: "丘"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Qiu"
   - splitPath: AnswerList[3]
     text: "圣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Holy"
 - raw: "{\r\n    \"Key\": \"10205\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"心中有话向谁说（打一字）\",\r\n    \"AnswerList\": [\r\n      \"谁\",\r\n      \"信\",\r\n      \"诚\",\r\n      \"诺\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"心中有話向誰說（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"誰\",\r\n      \"信\",\r\n      \"誠\",\r\n      \"諾\"\r\n    ]\r\n  }"
   rawIndex: 10205
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "心中有话向谁说（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What can I say to nobody (missing character)"
   - splitPath: AnswerList[0]
     text: "谁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who"
   - splitPath: AnswerList[1]
     text: "信"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Believe"
   - splitPath: AnswerList[2]
     text: "诚"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Honesty"
   - splitPath: AnswerList[3]
     text: "诺"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No"
 - raw: "{\r\n    \"Key\": \"10206\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"刘邦闻之喜，刘备闻之泣（打一字）\",\r\n    \"AnswerList\": [\r\n      \"羽\",\r\n      \"粮\",\r\n      \"翠\",\r\n      \"军\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"劉邦聞之喜，劉備聞之泣（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"羽\",\r\n      \"糧\",\r\n      \"翠\",\r\n      \"軍\"\r\n    ]\r\n  }"
   rawIndex: 10206
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "刘邦闻之喜，刘备闻之泣（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Rainbow"
   - splitPath: AnswerList[0]
     text: "羽"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Feather"
   - splitPath: AnswerList[1]
     text: "粮"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Grain"
   - splitPath: AnswerList[2]
     text: "翠"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cui"
   - splitPath: AnswerList[3]
     text: "军"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Military"
 - raw: "{\r\n    \"Key\": \"10207\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"唐虞有，尧舜无，商周有，汤武无（打一字）\",\r\n    \"AnswerList\": [\r\n      \"兵\",\r\n      \"德\",\r\n      \"人\",\r\n      \"口\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"唐虞有，堯舜無，商周有，湯武無（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"兵\",\r\n      \"德\",\r\n      \"人\",\r\n      \"口\"\r\n    ]\r\n  }"
   rawIndex: 10207
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "唐虞有，尧舜无，商周有，汤武无（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Have, have, no, no"
   - splitPath: AnswerList[0]
     text: "兵"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Soldier"
   - splitPath: AnswerList[1]
     text: "德"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "De"
   - splitPath: AnswerList[2]
     text: "人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Person"
   - splitPath: AnswerList[3]
     text: "口"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mouth"
 - raw: "{\r\n    \"Key\": \"10208\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"走于边，坐于边，堆于左，挂于右（打一字）\",\r\n    \"AnswerList\": [\r\n      \"山\",\r\n      \"石\",\r\n      \"土\",\r\n      \"水\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"走於邊，坐於邊，堆於左，掛於右（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"山\",\r\n      \"石\",\r\n      \"土\",\r\n      \"水\"\r\n    ]\r\n  }"
   rawIndex: 10208
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "走于边，坐于边，堆于左，挂于右（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sit"
   - splitPath: AnswerList[0]
     text: "山"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountain"
   - splitPath: AnswerList[1]
     text: "石"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stone"
   - splitPath: AnswerList[2]
     text: "土"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Earth"
   - splitPath: AnswerList[3]
     text: "水"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Water"
 - raw: "{\r\n    \"Key\": \"10209\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"九十九（打一字）\",\r\n    \"AnswerList\": [\r\n      \"石\",\r\n      \"白\",\r\n      \"杂\",\r\n      \"百\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"九十九（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"石\",\r\n      \"白\",\r\n      \"雜\",\r\n      \"百\"\r\n    ]\r\n  }"
   rawIndex: 10209
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "九十九（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jiushijiu (as a single character)"
   - splitPath: AnswerList[0]
     text: "石"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stone"
   - splitPath: AnswerList[1]
     text: "白"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "White"
   - splitPath: AnswerList[2]
     text: "杂"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jie"
   - splitPath: AnswerList[3]
     text: "百"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hundred"
 - raw: "{\r\n    \"Key\": \"10210\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"半青半紫（打一字）\",\r\n    \"AnswerList\": [\r\n      \"红\",\r\n      \"青\",\r\n      \"素\",\r\n      \"蓝\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"半青半紫（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"紅\",\r\n      \"青\",\r\n      \"素\",\r\n      \"藍\"\r\n    ]\r\n  }"
   rawIndex: 10210
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "半青半紫（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Half blue half purple (make a character)"
   - splitPath: AnswerList[0]
     text: "红"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Red"
   - splitPath: AnswerList[1]
     text: "青"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blue"
   - splitPath: AnswerList[2]
     text: "素"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Silence"
   - splitPath: AnswerList[3]
     text: "蓝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blue"
 - raw: "{\r\n    \"Key\": \"10211\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"镜中人影（打一字）\",\r\n    \"AnswerList\": [\r\n      \"人\",\r\n      \"入\",\r\n      \"从\",\r\n      \"众\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"鏡中人影（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"人\",\r\n      \"入\",\r\n      \"從\",\r\n      \"眾\"\r\n    ]\r\n  }"
   rawIndex: 10211
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "镜中人影（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jingzhong ren ying (guess one character)"
   - splitPath: AnswerList[0]
     text: "人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Person"
   - splitPath: AnswerList[1]
     text: "入"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enter"
   - splitPath: AnswerList[2]
     text: "从"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From"
   - splitPath: AnswerList[3]
     text: "众"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Crowd"
 - raw: "{\r\n    \"Key\": \"10212\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"三人同日见（打一字）\",\r\n    \"AnswerList\": [\r\n      \"春\",\r\n      \"夏\",\r\n      \"秋\",\r\n      \"冬\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"三人同日見（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"春\",\r\n      \"夏\",\r\n      \"秋\",\r\n      \"冬\"\r\n    ]\r\n  }"
   rawIndex: 10212
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "三人同日见（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Three people see something on the same day (guess one character)"
   - splitPath: AnswerList[0]
     text: "春"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring"
   - splitPath: AnswerList[1]
     text: "夏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Summer"
   - splitPath: AnswerList[2]
     text: "秋"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Autumn"
   - splitPath: AnswerList[3]
     text: "冬"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Winter"
 - raw: "{\r\n    \"Key\": \"10213\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"千里相逢（打一字）\",\r\n    \"AnswerList\": [\r\n      \"里\",\r\n      \"程\",\r\n      \"景\",\r\n      \"重\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"千里相逢（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"裡\",\r\n      \"程\",\r\n      \"景\",\r\n      \"重\"\r\n    ]\r\n  }"
   rawIndex: 10213
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "千里相逢（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ten Thousand Mile Journey"
   - splitPath: AnswerList[0]
     text: "里"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Inside"
   - splitPath: AnswerList[1]
     text: "程"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cheng"
   - splitPath: AnswerList[2]
     text: "景"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Scenery"
   - splitPath: AnswerList[3]
     text: "重"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Re‑weight"
 - raw: "{\r\n    \"Key\": \"10214\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"二小姐（打一字）\",\r\n    \"AnswerList\": [\r\n      \"次\",\r\n      \"妹\",\r\n      \"幼\",\r\n      \"姿\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"二小姐（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"次\",\r\n      \"妹\",\r\n      \"幼\",\r\n      \"姿\"\r\n    ]\r\n  }"
   rawIndex: 10214
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "二小姐（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eldest Miss (Guess a Chinese Character)"
   - splitPath: AnswerList[0]
     text: "次"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Times"
   - splitPath: AnswerList[1]
     text: "妹"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sister"
   - splitPath: AnswerList[2]
     text: "幼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Young"
   - splitPath: AnswerList[3]
     text: "姿"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Pose"
 - raw: "{\r\n    \"Key\": \"10215\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"半江残月照西楼（打一字）\",\r\n    \"AnswerList\": [\r\n      \"沐\",\r\n      \"酉\",\r\n      \"州\",\r\n      \"明\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"半江殘月照西樓（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"沐\",\r\n      \"酉\",\r\n      \"州\",\r\n      \"明\"\r\n    ]\r\n  }"
   rawIndex: 10215
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "半江残月照西楼（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Half River Broken Moon West Tower (Guess One Character)"
   - splitPath: AnswerList[0]
     text: "沐"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mu"
   - splitPath: AnswerList[1]
     text: "酉"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Evening"
   - splitPath: AnswerList[2]
     text: "州"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Province"
   - splitPath: AnswerList[3]
     text: "明"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Clear"
 - raw: "{\r\n    \"Key\": \"10216\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"池中无水，地上无土（打一字）\",\r\n    \"AnswerList\": [\r\n      \"山\",\r\n      \"空\",\r\n      \"无\",\r\n      \"也\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"池中無水，地上無土（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"山\",\r\n      \"空\",\r\n      \"無\",\r\n      \"也\"\r\n    ]\r\n  }"
   rawIndex: 10216
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "池中无水，地上无土（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring"
   - splitPath: AnswerList[0]
     text: "山"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountain"
   - splitPath: AnswerList[1]
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   - splitPath: AnswerList[2]
     text: "无"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "None"
   - splitPath: AnswerList[3]
     text: "也"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Also"
 - raw: "{\r\n    \"Key\": \"10217\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"半真半假（打一字）\",\r\n    \"AnswerList\": [\r\n      \"值\",\r\n      \"灵\",\r\n      \"瑕\",\r\n      \"落\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"半真半假（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"值\",\r\n      \"靈\",\r\n      \"瑕\",\r\n      \"落\"\r\n    ]\r\n  }"
   rawIndex: 10217
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "半真半假（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Half True Half False (Guess One Character) ‑ jia"
   - splitPath: AnswerList[0]
     text: "值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Worth"
   - splitPath: AnswerList[1]
     text: "灵"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spirit"
   - splitPath: AnswerList[2]
     text: "瑕"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blemish"
   - splitPath: AnswerList[3]
     text: "落"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fall"
 - raw: "{\r\n    \"Key\": \"10218\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"日落香残，洗却凡心一点（打一字）\",\r\n    \"AnswerList\": [\r\n      \"禅\",\r\n      \"了\",\r\n      \"洛\",\r\n      \"秃\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"日落香殘，洗卻凡心一點（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"禪\",\r\n      \"了\",\r\n      \"洛\",\r\n      \"禿\"\r\n    ]\r\n  }"
   rawIndex: 10218
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "日落香残，洗却凡心一点（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sunset Fragrance Fades, Wash Away a Trace of Mortal Thought (Guess a Chinese Character)"
   - splitPath: AnswerList[0]
     text: "禅"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zen"
   - splitPath: AnswerList[1]
     text: "了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Got"
   - splitPath: AnswerList[2]
     text: "洛"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Luo"
   - splitPath: AnswerList[3]
     text: "秃"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bald"
 - raw: "{\r\n    \"Key\": \"10219\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"横山雨落（打一字）\",\r\n    \"AnswerList\": [\r\n      \"洛\",\r\n      \"雪\",\r\n      \"黄\",\r\n      \"雷\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"橫山雨落（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"洛\",\r\n      \"雪\",\r\n      \"黃\",\r\n      \"雷\"\r\n    ]\r\n  }"
   rawIndex: 10219
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "横山雨落（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Horizontal rain falls (as one character)"
   - splitPath: AnswerList[0]
     text: "洛"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Luo"
   - splitPath: AnswerList[1]
     text: "雪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Snow"
   - splitPath: AnswerList[2]
     text: "黄"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yellow"
   - splitPath: AnswerList[3]
     text: "雷"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lightning"
 - raw: "{\r\n    \"Key\": \"10220\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"文武双全（打一字）\",\r\n    \"AnswerList\": [\r\n      \"齐\",\r\n      \"王\",\r\n      \"仝\",\r\n      \"斌\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"文武雙全（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"齊\",\r\n      \"王\",\r\n      \"仝\",\r\n      \"斌\"\r\n    ]\r\n  }"
   rawIndex: 10220
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "文武双全（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Well‑rounded"
   - splitPath: AnswerList[0]
     text: "齐"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Qi"
   - splitPath: AnswerList[1]
     text: "王"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wang"
   - splitPath: AnswerList[2]
     text: "仝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tong"
   - splitPath: AnswerList[3]
     text: "斌"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bin"
 - raw: "{\r\n    \"Key\": \"10221\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"佳人难再得（打一字）\",\r\n    \"AnswerList\": [\r\n      \"姻\",\r\n      \"聂\",\r\n      \"圭\",\r\n      \"绝\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"佳人難再得（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"姻\",\r\n      \"聶\",\r\n      \"圭\",\r\n      \"絕\"\r\n    ]\r\n  }"
   rawIndex: 10221
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "佳人难再得（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jiaren Nan Zai De (Guess a Chinese Character)"
   - splitPath: AnswerList[0]
     text: "姻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Marriage"
   - splitPath: AnswerList[1]
     text: "聂"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nie"
   - splitPath: AnswerList[2]
     text: "圭"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gui"
   - splitPath: AnswerList[3]
     text: "绝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Absolute"
 - raw: "{\r\n    \"Key\": \"10222\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"挥手自兹去（打一字）\",\r\n    \"AnswerList\": [\r\n      \"军\",\r\n      \"目\",\r\n      \"人\",\r\n      \"别\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"揮手自茲去（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"軍\",\r\n      \"目\",\r\n      \"人\",\r\n      \"別\"\r\n    ]\r\n  }"
   rawIndex: 10222
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "挥手自兹去（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wave goodbye and go (remove one stroke)"
   - splitPath: AnswerList[0]
     text: "军"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Military"
   - splitPath: AnswerList[1]
     text: "目"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eye"
   - splitPath: AnswerList[2]
     text: "人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Person"
   - splitPath: AnswerList[3]
     text: "别"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Don't..."
 - raw: "{\r\n    \"Key\": \"10223\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"空山之中一亩田（打一字）\",\r\n    \"AnswerList\": [\r\n      \"旦\",\r\n      \"画\",\r\n      \"丹\",\r\n      \"口\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"空山之中一畝田（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"旦\",\r\n      \"畫\",\r\n      \"丹\",\r\n      \"口\"\r\n    ]\r\n  }"
   rawIndex: 10223
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "空山之中一亩田（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The sentence contains no Chinese characters to translate."
   - splitPath: AnswerList[0]
     text: "旦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Morning"
   - splitPath: AnswerList[1]
     text: "画"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Painting"
   - splitPath: AnswerList[2]
     text: "丹"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dan"
   - splitPath: AnswerList[3]
     text: "口"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mouth"
 - raw: "{\r\n    \"Key\": \"10224\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"云破月来花弄影（打一字）\",\r\n    \"AnswerList\": [\r\n      \"坛\",\r\n      \"娇\",\r\n      \"能\",\r\n      \"化\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"雲破月來花弄影（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"壇\",\r\n      \"嬌\",\r\n      \"能\",\r\n      \"化\"\r\n    ]\r\n  }"
   rawIndex: 10224
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "云破月来花弄影（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Moon"
   - splitPath: AnswerList[0]
     text: "坛"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bowl"
   - splitPath: AnswerList[1]
     text: "娇"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Delicate"
   - splitPath: AnswerList[2]
     text: "能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can"
   - splitPath: AnswerList[3]
     text: "化"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Transform"
 - raw: "{\r\n    \"Key\": \"10225\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"念头打断（打一字）\",\r\n    \"AnswerList\": [\r\n      \"心\",\r\n      \"今\",\r\n      \"白\",\r\n      \"无\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"念頭打斷（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"心\",\r\n      \"今\",\r\n      \"白\",\r\n      \"無\"\r\n    ]\r\n  }"
   rawIndex: 10225
   splits:
   - splitPath: Name
     text: "锦心字谜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cunningly Worded Puzzles"
   - splitPath: Puzzle
     text: "念头打断（打一字）"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Think"
   - splitPath: AnswerList[0]
     text: "心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heart"
   - splitPath: AnswerList[1]
     text: "今"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Now"
   - splitPath: AnswerList[2]
     text: "白"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "White"
   - splitPath: AnswerList[3]
     text: "无"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "None"
 - raw: "{\r\n    \"Key\": \"10401\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"宠辱不惊，看庭前花开花落\",\r\n    \"AnswerList\": [\r\n      \"得失随意，任天上月缺月圆\",\r\n      \"去留无意，望天上云卷云舒\",\r\n      \"成败何妨，听窗外雨疏雨密\",\r\n      \"名利无牵，赏院中竹翠竹青\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"寵辱不驚，看庭前花開花落\",\r\n    \"AnswerTwList\": [\r\n      \"得失隨意，任天上月缺月圓\",\r\n      \"去留無意，望天上雲捲雲舒\",\r\n      \"成敗何妨，聽窗外雨疏雨密\",\r\n      \"名利無牽，賞院中竹翠竹青\"\r\n    ]\r\n  }"
   rawIndex: 10401
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "宠辱不惊，看庭前花开花落"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Calm in both honor and disgrace, watch the flowers bloom and fade in the courtyard."
   - splitPath: AnswerList[0]
     text: "得失随意，任天上月缺月圆"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain and loss, let it be as the waxing and waning moon."
   - splitPath: AnswerList[1]
     text: "去留无意，望天上云卷云舒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Come or go, I have no intention, just watching the clouds roll by in the sky."
   - splitPath: AnswerList[2]
     text: "成败何妨，听窗外雨疏雨密"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Failure or success, listen to the sparse and dense rain outside the window."
   - splitPath: AnswerList[3]
     text: "名利无牵，赏院中竹翠竹青"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unbound by fame and fortune, I greet the green bamboo in the courtyard."
 - raw: "{\r\n    \"Key\": \"10402\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"处世让一步为高，退步即进步张本\",\r\n    \"AnswerList\": [\r\n      \"待人宽一分是福，利人实利己根基\",\r\n      \"为人厚一分是德，吃亏乃积福之门\",\r\n      \"接物和三分是贵，忍让即成功之阶\",\r\n      \"立身谦一寸是贤，低调乃成事之基\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"處世讓一步為高，退步即進步張本\",\r\n    \"AnswerTwList\": [\r\n      \"待人寬一分是福，利人實利己根基\",\r\n      \"為人厚一分是德，吃虧乃積福之門\",\r\n      \"接物和三分是貴，忍讓即成功之階\",\r\n      \"立身謙一寸是賢，低調乃成事之基\"\r\n    ]\r\n  }"
   rawIndex: 10402
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "处世让一步为高，退步即进步张本"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dealing with others, yielding a step is the heights, and retreating is the groundwork for progress."
   - splitPath: AnswerList[0]
     text: "待人宽一分是福，利人实利己根基"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Treat others with an extra measure of kindness, and you benefit yourself by strengthening your own moral foundation."
   - splitPath: AnswerList[1]
     text: "为人厚一分是德，吃亏乃积福之门"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Being kind to others by even a fraction is a virtue, while suffering is the door to accumulating blessings."
   - splitPath: AnswerList[2]
     text: "接物和三分是贵，忍让即成功之阶"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Receiving things and being thrifty is valuable, but yielding is the step to success."
   - splitPath: AnswerList[3]
     text: "立身谦一寸是贤，低调乃成事之基"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Standing humble for an inch makes one wise; humility is the foundation of achieving success."
 - raw: "{\r\n    \"Key\": \"10403\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"交友须带三分侠气\",\r\n    \"AnswerList\": [\r\n      \"处世常存一片诚心\",\r\n      \"为人要存一点素心\",\r\n      \"待人当怀四海襟怀\",\r\n      \"立身应具十分刚正\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"交友須帶三分俠氣\",\r\n    \"AnswerTwList\": [\r\n      \"處世常存一片誠心\",\r\n      \"為人要存一點素心\",\r\n      \"待人當懷四海襟懷\",\r\n      \"立身應具十分剛正\"\r\n    ]\r\n  }"
   rawIndex: 10403
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "交友须带三分侠气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Making friends requires a touch of chivalry"
   - splitPath: AnswerList[0]
     text: "处世常存一片诚心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Always maintain sincerity in dealings with others"
   - splitPath: AnswerList[1]
     text: "为人要存一点素心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One should keep a simple heart"
   - splitPath: AnswerList[2]
     text: "待人当怀四海襟怀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Treat others with a heart as vast as the four seas."
   - splitPath: AnswerList[3]
     text: "立身应具十分刚正"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One should uphold great uprightness and integrity"
 - raw: "{\r\n    \"Key\": \"10404\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"竹影扫阶尘不动\",\r\n    \"AnswerList\": [\r\n      \"月光穿水底无痕\",\r\n      \"松风吹岭云自开\",\r\n      \"梅香入室梦犹清\",\r\n      \"琴声绕梁韵更长\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"竹影掃階塵不動\",\r\n    \"AnswerTwList\": [\r\n      \"月光穿水底無痕\",\r\n      \"松風吹嶺雲自開\",\r\n      \"梅香入室夢猶清\",\r\n      \"琴聲繞樑韻更長\"\r\n    ]\r\n  }"
   rawIndex: 10404
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "竹影扫阶尘不动"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bamboo shadows sweep across the steps without stirring the dust."
   - splitPath: AnswerList[0]
     text: "月光穿水底无痕"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Moonlight penetrates the water's surface leaving no trace."
   - splitPath: AnswerList[1]
     text: "松风吹岭云自开"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The breeze from the pines blows, and the mountain clouds part on their own."
   - splitPath: AnswerList[2]
     text: "梅香入室梦犹清"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mistress Mei Enters the Room, Dream Still Fresh"
   - splitPath: AnswerList[3]
     text: "琴声绕梁韵更长"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The melody lingers, enhancing the harmony even more."
 - raw: "{\r\n    \"Key\": \"10405\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"闭门即是深山\",\r\n    \"AnswerList\": [\r\n      \"开卷何须闹市\",\r\n      \"读书随处净土\",\r\n      \"静坐便是道场\",\r\n      \"掩卷犹闻梵音\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"閉門即是深山\",\r\n    \"AnswerTwList\": [\r\n      \"開卷何須鬧市\",\r\n      \"讀書隨處淨土\",\r\n      \"靜坐便是道場\",\r\n      \"掩卷猶聞梵音\"\r\n    ]\r\n  }"
   rawIndex: 10405
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "闭门即是深山"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Closing the door is like being in the depths of the mountains."
   - splitPath: AnswerList[0]
     text: "开卷何须闹市"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reading need not be in a bustling market."
   - splitPath: AnswerList[1]
     text: "读书随处净土"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reading anywhere is a pure land"
   - splitPath: AnswerList[2]
     text: "静坐便是道场"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sitting in silence is the temple of the way."
   - splitPath: AnswerList[3]
     text: "掩卷犹闻梵音"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Closing the book, the Buddhist chants still echo in the ears."
 - raw: "{\r\n    \"Key\": \"10406\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"一帘花影云拖地\",\r\n    \"AnswerList\": [\r\n      \"半夜书声月在天\",\r\n      \"半窗竹影月临轩\",\r\n      \"满院松风鹤入云\",\r\n      \"几树莺声雨送春\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"一簾花影雲拖地\",\r\n    \"AnswerTwList\": [\r\n      \"半夜書聲月在天\",\r\n      \"半窗竹影月臨軒\",\r\n      \"滿院松風鶴入雲\",\r\n      \"幾樹鶯聲雨送春\"\r\n    ]\r\n  }"
   rawIndex: 10406
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "一帘花影云拖地"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A curtain of flower shadows drapes across the ground, swayed by the wind."
   - splitPath: AnswerList[0]
     text: "半夜书声月在天"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Midnight, the sound of reading monthly magazines hangs in the sky."
   - splitPath: AnswerList[1]
     text: "半窗竹影月临轩"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Half‑window bamboo shadows with the moon facing the elegant courtyard"
   - splitPath: AnswerList[2]
     text: "满院松风鹤入云"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Full courtyard filled with pine wind, cranes ascending into the clouds"
   - splitPath: AnswerList[3]
     text: "几树莺声雨送春"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Several trees echo with the songs of rain‑borne springbirds."
 - raw: "{\r\n    \"Key\": \"10407\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"人品之不高，总为一利字看不破\",\r\n    \"AnswerList\": [\r\n      \"德行之不修，总为一欲字放不下\",\r\n      \"事业之不成，总为一骄字去不掉\",\r\n      \"心境之不清，总为一贪字解不开\",\r\n      \"学业之不进，总为一懒字丢不开\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"人品之不高，總為一利字看不破\",\r\n    \"AnswerTwList\": [\r\n      \"德行之不修，總為一欲字放不下\",\r\n      \"事業之不成，總為一驕字去不掉\",\r\n      \"心境之不清，總為一貪字解不開\",\r\n      \"學業之不進，總為一懶字丟不開\"\r\n    ]\r\n  }"
   rawIndex: 10407
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "人品之不高，总为一利字看不破"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One's lack of high moral character is always due to failing to see through the notion of profit."
   - splitPath: AnswerList[0]
     text: "德行之不修，总为一欲字放不下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Morality unrefined is merely held back by one desire."
   - splitPath: AnswerList[1]
     text: "事业之不成，总为一骄字去不掉"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Failure in one's career is always due to the inability to get rid of pride."
   - splitPath: AnswerList[2]
     text: "心境之不清，总为一贪字解不开"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A heart clouded by impurity can never be unraveled by merely one greedy character."
   - splitPath: AnswerList[3]
     text: "学业之不进，总为一懒字丢不开"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Failure to advance in studies is always due to laziness."
 - raw: "{\r\n    \"Key\": \"10408\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"饱谙世味，一任覆雨翻云，总慵开眼\",\r\n    \"AnswerList\": [\r\n      \"阅尽世情，且看朝秦暮楚，只作旁观\",\r\n      \"看透人情，任凭呼天抢地，只是无言\",\r\n      \"会尽人情，随教呼牛唤马，只是点头\",\r\n      \"历遍沧桑，休论是是非非，只管低头\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"飽諳世味，一任覆雨翻雲，總慵開眼\",\r\n    \"AnswerTwList\": [\r\n      \"閱盡世情，且看朝秦暮楚，只作旁觀\",\r\n      \"看透人情，任憑呼天搶地，只是無言\",\r\n      \"會盡人情，隨教呼牛喚馬，只是點頭\",\r\n      \"歷遍滄桑，休論是是非非，只管低頭\"\r\n    ]\r\n  }"
   rawIndex: 10408
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "饱谙世味，一任覆雨翻云，总慵开眼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Experienced in the ways of the world, I let the skies turn from clear to stormy, and yet I remain indifferent, choosing to keep my eyes closed."
   - splitPath: AnswerList[0]
     text: "阅尽世情，且看朝秦暮楚，只作旁观"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Experienced the world's emotions, just watch the fickle loyalties of morning and evening, content to be a mere spectator."
   - splitPath: AnswerList[1]
     text: "看透人情，任凭呼天抢地，只是无言"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Understanding human nature, no matter how one cries to heaven and shouts in despair, it's in vain."
   - splitPath: AnswerList[2]
     text: "会尽人情，随教呼牛唤马，只是点头"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Understand the social norms and respond appropriately, whether someone is addressing you formally or informally, just nod in acknowledgment."
   - splitPath: AnswerList[3]
     text: "历遍沧桑，休论是是非非，只管低头"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enduring the vicissitudes of time, let us not dwell on the right and wrong, but simply look ahead."
 - raw: "{\r\n    \"Key\": \"10409\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"茅檐外，忽闻犬吠鸡鸣，恍似云中世界\",\r\n    \"AnswerList\": [\r\n      \"茅檐外，忽闻犬吠鸡鸣，恍似云中世界\",\r\n      \"竹窗下，唯有琴声书韵，方知静里乾坤\",\r\n      \"竹窗下，唯有风声雨声，方知静里乾坤\",\r\n      \"竹窗下，唯有棋声茶韵，方知静里乾坤\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"茅簷外，忽聞犬吠雞鳴，恍似雲中世界\",\r\n    \"AnswerTwList\": [\r\n      \"茅簷外，忽聞犬吠雞鳴，恍似雲中世界\",\r\n      \"竹窗下，唯有琴聲書韻，方知靜裡乾坤\",\r\n      \"竹窗下，唯有風聲雨聲，方知靜裡乾坤\",\r\n      \"竹窗下，唯有棋聲茶韻，方知靜裡乾坤\"\r\n    ]\r\n  }"
   rawIndex: 10409
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "茅檐外，忽闻犬吠鸡鸣，恍似云中世界"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Outside the thatched roof, suddenly came the sound of barking dogs and crowing chickens, as if it were a world in the clouds."
   - splitPath: AnswerList[0]
     text: "茅檐外，忽闻犬吠鸡鸣，恍似云中世界"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Outside the thatched roof, suddenly came the sound of barking dogs and crowing chickens, as if it were a world in the clouds."
   - splitPath: AnswerList[1]
     text: "竹窗下，唯有琴声书韵，方知静里乾坤"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the bamboo window shade, only the sounds of the zither and book recitation reveal the profound universe in stillness."
   - splitPath: AnswerList[2]
     text: "竹窗下，唯有风声雨声，方知静里乾坤"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the bamboo window shade, only the sounds of wind and rain reveal the tranquility within the universe."
   - splitPath: AnswerList[3]
     text: "竹窗下，唯有棋声茶韵，方知静里乾坤"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the bamboo window shade, only the sounds of chess and tea brewing reveal the tranquility of the universe."
 - raw: "{\r\n    \"Key\": \"10410\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"留七分正经，以度生\",\r\n    \"AnswerList\": [\r\n      \"留三分痴顽，以应世\",\r\n      \"存三分疏懒，以养心\",\r\n      \"存三分痴呆，以防死\",\r\n      \"留三分愚拙，以安命\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"留七分正經，以度生\",\r\n    \"AnswerTwList\": [\r\n      \"留三分痴頑，以應世\",\r\n      \"存三分疏懶，以養心\",\r\n      \"存三分痴呆，以防死\",\r\n      \"留三分愚拙，以安命\"\r\n    ]\r\n  }"
   rawIndex: 10410
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "留七分正经，以度生"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Keep seven‑tenths serious to navigate life"
   - splitPath: AnswerList[0]
     text: "留三分痴顽，以应世"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Keep a third of childlike foolishness to adapt to the world."
   - splitPath: AnswerList[1]
     text: "存三分疏懒，以养心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Maintain three parts carefree ease to nurture your heart."
   - splitPath: AnswerList[2]
     text: "存三分痴呆，以防死"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Keep three parts of your wits about you, just in case."
   - splitPath: AnswerList[3]
     text: "留三分愚拙，以安命"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Keep three parts of your naivety, to accept one's fate."
 - raw: "{\r\n    \"Key\": \"10411\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"纸帐梅花，休惊他三春清梦\",\r\n    \"AnswerList\": [\r\n      \"笔床茶灶，可了我半日浮生\",\r\n      \"竹炉汤沸，且消我片刻闲情\",\r\n      \"琴囊书箧，足寄我一生幽怀\",\r\n      \"瓦鼎松涛，且伴我四季闲吟\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"紙帳梅花，休驚他三春清夢\",\r\n    \"AnswerTwList\": [\r\n      \"筆床茶灶，可了我半日浮生\",\r\n      \"竹爐湯沸，且消我片刻閒情\",\r\n      \"琴囊書篋，足寄我一生幽懷\",\r\n      \"瓦鼎松濤，且伴我四季閒吟\"\r\n    ]\r\n  }"
   rawIndex: 10411
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "纸帐梅花，休惊他三春清梦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Paper Flowers in the Spring, do not disturb his dreams."
   - splitPath: AnswerList[0]
     text: "笔床茶灶，可了我半日浮生"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A pen bed and tea stove, enough to fill my idle afternoon."
   - splitPath: AnswerList[1]
     text: "竹炉汤沸，且消我片刻闲情"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The fire in the bamboo stove boils the water, temporarily easing my momentary idle mood."
   - splitPath: AnswerList[2]
     text: "琴囊书箧，足寄我一生幽怀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lute case and book pouch, enough to hold my lifetime of melancholic thoughts."
   - splitPath: AnswerList[3]
     text: "瓦鼎松涛，且伴我四季闲吟"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wind through the copper cauldron, echo with my seasonless musings."
 - raw: "{\r\n    \"Key\": \"10412\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"为善不见其益，如草里冬瓜，自应暗长\",\r\n    \"AnswerList\": [\r\n      \"积德不见其福，如地上青苗，自然日长\",\r\n      \"读书不见其进，如檐下滴水，久而穿石\",\r\n      \"行恶不见其损，如庭前春雪，势必潜消\",\r\n      \"修身不见其成，如山中璞玉，待时乃现\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"為善不見其益，如草裡冬瓜，自應暗長\",\r\n    \"AnswerTwList\": [\r\n      \"積德不見其福，如地上青苗，自然日長\",\r\n      \"讀書不見其進，如簷下滴水，久而穿石\",\r\n      \"行惡不見其損，如庭前春雪，勢必潛消\",\r\n      \"修身不見其成，如山中璞玉，待時乃現\"\r\n    ]\r\n  }"
   rawIndex: 10412
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "为善不见其益，如草里冬瓜，自应暗长"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Doing good does not immediately show its benefits; it grows like a winter melon in the grass, silently increasing."
   - splitPath: AnswerList[0]
     text: "积德不见其福，如地上青苗，自然日长"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Accumulating virtue does not immediately bring fortune; it is like tender green seedlings on the ground, growing naturally day by day."
   - splitPath: AnswerList[1]
     text: "读书不见其进，如檐下滴水，久而穿石"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reading without seeing progress is like water dripping from the eaves; over time, it will wear through stone."
   - splitPath: AnswerList[2]
     text: "行恶不见其损，如庭前春雪，势必潜消"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Commit evil and see no harm, like spring snow before the courtyard, destined to melt silently."
   - splitPath: AnswerList[3]
     text: "修身不见其成，如山中璞玉，待时乃现"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improvement is not immediately visible, like a rough jade in the mountain, waiting for the right time to reveal its beauty."
 - raw: "{\r\n    \"Key\": \"10413\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"千载奇逢，无如好书良友\",\r\n    \"AnswerList\": [\r\n      \"万般乐事，不过朗月清风\",\r\n      \"一生清福，只在碗茗炉烟\",\r\n      \"百年雅趣，尽在琴韵书声\",\r\n      \"四时佳兴，莫过青山绿水\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"千載奇逢，無如好書良友\",\r\n    \"AnswerTwList\": [\r\n      \"萬般樂事，不過朗月清風\",\r\n      \"一生清福，只在碗茗爐煙\",\r\n      \"百年雅趣，盡在琴韻書聲\",\r\n      \"四時佳興，莫過青山綠水\"\r\n    ]\r\n  }"
   rawIndex: 10413
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "千载奇逢，无如好书良友"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A rare meeting in a thousand years, like good books and true friends."
   - splitPath: AnswerList[0]
     text: "万般乐事，不过朗月清风"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "All pleasures in life, nothing more than bright moonlight and gentle breezes."
   - splitPath: AnswerList[1]
     text: "一生清福，只在碗茗炉烟"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A lifetime of peace and contentment lies only in the bowl of tea and the smoke from the stove."
   - splitPath: AnswerList[2]
     text: "百年雅趣，尽在琴韵书声"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A century of refined pleasure, all embodied in the melody of the zither and the sound of books."
   - splitPath: AnswerList[3]
     text: "四时佳兴，莫过青山绿水"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Four seasons of pleasant delights, nothing surpasses the green mountains and clear waters."
 - raw: "{\r\n    \"Key\": \"10414\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"阶下几点飞翠落红，收拾来无非诗料\",\r\n    \"AnswerList\": [\r\n      \"窗前一片浮青映白，悟入处尽是禅机\",\r\n      \"庭前数竿修竹疏梅，赏玩处尽是画意\",\r\n      \"林间几声鸟啼蝉鸣，听来处皆成妙曲\",\r\n      \"案上半卷残书旧帖，品读时自得真趣\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"階下幾點飛翠落紅，收拾來無非詩料\",\r\n    \"AnswerTwList\": [\r\n      \"窗前一片浮青映白，悟入處盡是禪機\",\r\n      \"庭前數竿修竹疏梅，賞玩處盡是畫意\",\r\n      \"林間幾聲鳥啼蟬鳴，聽來處皆成妙曲\",\r\n      \"案上半卷殘書舊帖，品讀時自得真趣\"\r\n    ]\r\n  }"
   rawIndex: 10414
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "阶下几点飞翠落红，收拾来无非诗料"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A few green flies and red petals fall from above, all good material for poetry."
   - splitPath: AnswerList[0]
     text: "窗前一片浮青映白，悟入处尽是禅机"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Before the window, a floating green and white, enlightenment lies in every detail."
   - splitPath: AnswerList[1]
     text: "庭前数竿修竹疏梅，赏玩处尽是画意"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Before the courtyard, several tall bamboos and sparse plums line the path, and everywhere you look, it's like a painting."
   - splitPath: AnswerList[2]
     text: "林间几声鸟啼蝉鸣，听来处皆成妙曲"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Birdsong and cicadas echo through the woods, and all sounds blend into a delightful melody."
   - splitPath: AnswerList[3]
     text: "案上半卷残书旧帖，品读时自得真趣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "On the table, half‑read old books and scrolls offer true delights as I savor them."
 - raw: "{\r\n    \"Key\": \"10415\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"一失脚为千古恨\",\r\n    \"AnswerList\": [\r\n      \"一失足成万古悲\",\r\n      \"再回首是百年身\",\r\n      \"再回头是百年人\",\r\n      \"一蹉跎即万劫难\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"一失腳為千古恨\",\r\n    \"AnswerTwList\": [\r\n      \"一失足成萬古悲\",\r\n      \"再回首是百年身\",\r\n      \"再回頭是百年人\",\r\n      \"一蹉跎即萬劫難\"\r\n    ]\r\n  }"
   rawIndex: 10415
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "一失脚为千古恨"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One misstep brings sorrow for ages"
   - splitPath: AnswerList[0]
     text: "一失足成万古悲"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One misstep brings sorrow for ages to come."
   - splitPath: AnswerList[1]
     text: "再回首是百年身"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Looking back is a century's span"
   - splitPath: AnswerList[2]
     text: "再回头是百年人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Looking back is a century's span"
   - splitPath: AnswerList[3]
     text: "一蹉跎即万劫难"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A moment's delay can lead to innumerable hardships."
 - raw: "{\r\n    \"Key\": \"10416\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"是非不到钓鱼处\",\r\n    \"AnswerList\": [\r\n      \"恩怨不扰种瓜翁\",\r\n      \"名利不扰采菊人\",\r\n      \"得失不萦垂钓心\",\r\n      \"荣辱常随骑马人\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"是非不到釣魚處\",\r\n    \"AnswerTwList\": [\r\n      \"恩怨不擾種瓜翁\",\r\n      \"名利不擾採菊人\",\r\n      \"得失不縈垂釣心\",\r\n      \"榮辱常隨騎馬人\"\r\n    ]\r\n  }"
   rawIndex: 10416
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "是非不到钓鱼处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Trouble never finds its way to the angler's peace."
   - splitPath: AnswerList[0]
     text: "恩怨不扰种瓜翁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The old man who grows melons is not hindered by grudges."
   - splitPath: AnswerList[1]
     text: "名利不扰采菊人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prosperity and fame do not disturb the chrysanthemum picker."
   - splitPath: AnswerList[2]
     text: "得失不萦垂钓心"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Worry not about gain or loss, for the angler's heart lies elsewhere."
   - splitPath: AnswerList[3]
     text: "荣辱常随骑马人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Honor and disgrace often follow the horseman"
 - raw: "{\r\n    \"Key\": \"10417\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"一室闲居，必常怀振卓心，才有生气\",\r\n    \"AnswerList\": [\r\n      \"独处静坐，须时存警惕意，方免惰容\",\r\n      \"同人聚处，须多说切直话，方见古风\",\r\n      \"与人交往，须常有谦退意，才得人和\",\r\n      \"遇事临机，须常有果断心，方成事功\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"一室閒居，必常懷振卓心，才有生氣\",\r\n    \"AnswerTwList\": [\r\n      \"獨處靜坐，須時存警惕意，方免惰容\",\r\n      \"同人聚處，須多說切直話，方見古風\",\r\n      \"與人交往，須常有謙退意，才得人和\",\r\n      \"遇事臨機，須常有果斷心，方成事功\"\r\n    ]\r\n  }"
   rawIndex: 10417
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "一室闲居，必常怀振卓心，才有生气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Living alone, one must always harbor the ambition of Chen Zhaoguo; only then will there be vitality."
   - splitPath: AnswerList[0]
     text: "独处静坐，须时存警惕意，方免惰容"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alone and seated in meditation, one must maintain alertness to avoid laziness."
   - splitPath: AnswerList[1]
     text: "同人聚处，须多说切直话，方见古风"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In a fan gathering, one must speak frankly to see the ancient fashion."
   - splitPath: AnswerList[2]
     text: "与人交往，须常有谦退意，才得人和"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In dealings with others, one must always have a humble and retreating attitude to win harmony."
   - splitPath: AnswerList[3]
     text: "遇事临机，须常有果断心，方成事功"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In times of crisis, one must always have a decisive mindset to achieve success."
 - raw: "{\r\n    \"Key\": \"10418\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"富贵易生骄奢，骄奢必致祸败\",\r\n    \"AnswerList\": [\r\n      \"安乐每生怠惰，怠惰终致倾颓\",\r\n      \"功名易起骄矜，骄矜必招损折\",\r\n      \"贫寒足资勤俭，勤俭自可兴家\",\r\n      \"荣华每忘忧患，忧患乃能长久\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"富貴易生驕奢，驕奢必致禍敗\",\r\n    \"AnswerTwList\": [\r\n      \"安樂每生怠惰，怠惰終致傾頹\",\r\n      \"功名易起驕矜，驕矜必招損折\",\r\n      \"貧寒足資勤儉，勤儉自可興家\",\r\n      \"榮華每忘憂患，憂患乃能長久\"\r\n    ]\r\n  }"
   rawIndex: 10418
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "富贵易生骄奢，骄奢必致祸败"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prosperity easily breeds extravagance and arrogance, and arrogance inevitably leads to disaster."
   - splitPath: AnswerList[0]
     text: "安乐每生怠惰，怠惰终致倾颓"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Content leads to laziness, and laziness eventually leads to decline."
   - splitPath: AnswerList[1]
     text: "功名易起骄矜，骄矜必招损折"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Achievement and fame can easily breed arrogance, and arrogance inevitably leads to loss."
   - splitPath: AnswerList[2]
     text: "贫寒足资勤俭，勤俭自可兴家"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Frugality can sustain the poor, and through frugality, one can prosper."
   - splitPath: AnswerList[3]
     text: "荣华每忘忧患，忧患乃能长久"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prosperity often leads to complacency, and it is precisely this complacency that endangers longevity."
 - raw: "{\r\n    \"Key\": \"10419\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"误用聪明，何若一生守拙\",\r\n    \"AnswerList\": [\r\n      \"枉费心机，不如顺其自然\",\r\n      \"巧弄机心，不如本分做人\",\r\n      \"空谈道理，不如脚踏实地\",\r\n      \"滥交朋友，不如终日读书\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"誤用聰明，何若一生守拙\",\r\n    \"AnswerTwList\": [\r\n      \"枉費心機，不如順其自然\",\r\n      \"巧弄機心，不如本分做人\",\r\n      \"空談道理，不如腳踏實地\",\r\n      \"濫交朋友，不如終日讀書\"\r\n    ]\r\n  }"
   rawIndex: 10419
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "误用聪明，何若一生守拙"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Using cleverness improperly, what's better than a life of simplicity and honesty?"
   - splitPath: AnswerList[0]
     text: "枉费心机，不如顺其自然"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In vain, it's better to go with the flow."
   - splitPath: AnswerList[1]
     text: "巧弄机心，不如本分做人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Playing tricks doesn't compare to just being honest."
   - splitPath: AnswerList[2]
     text: "空谈道理，不如脚踏实地"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Talk of the doctrine is not as good as putting it into practice."
   - splitPath: AnswerList[3]
     text: "滥交朋友，不如终日读书"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Making superficial friends is not as good as studying all day."
 - raw: "{\r\n    \"Key\": \"10420\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"士必以诗书为性命\",\r\n    \"AnswerList\": [\r\n      \"人须从孝悌立根基\",\r\n      \"学当以圣贤为楷模\",\r\n      \"德须以仁义为纲常\",\r\n      \"业当以勤俭为始终\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"士必以詩書為性命\",\r\n    \"AnswerTwList\": [\r\n      \"人須從孝悌立根基\",\r\n      \"學當以聖賢為楷模\",\r\n      \"德須以仁義為綱常\",\r\n      \"業當以勤儉為始終\"\r\n    ]\r\n  }"
   rawIndex: 10420
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "士必以诗书为性命"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Scholars must regard poetry and classics as their life and soul."
   - splitPath: AnswerList[0]
     text: "人须从孝悌立根基"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One must establish their foundation with filial piety and fraternal duty."
   - splitPath: AnswerList[1]
     text: "学当以圣贤为楷模"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One should take sages and virtuous people as role models."
   - splitPath: AnswerList[2]
     text: "德须以仁义为纲常"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Morality should be guided by benevolence and righteousness."
   - splitPath: AnswerList[3]
     text: "业当以勤俭为始终"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It should be marked by diligence and frugality from beginning to end."
 - raw: "{\r\n    \"Key\": \"10421\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"身不饥寒，天未尝负我\",\r\n    \"AnswerList\": [\r\n      \"心无愧疚，我自可对天\",\r\n      \"学无长进，我何以对天\",\r\n      \"志不伸展，天岂能限我\",\r\n      \"德有亏缺，我何以立世\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"身不飢寒，天未嘗負我\",\r\n    \"AnswerTwList\": [\r\n      \"心無愧疚，我自可對天\",\r\n      \"學無長進，我何以對天\",\r\n      \"志不伸展，天豈能限我\",\r\n      \"德有虧缺，我何以立世\"\r\n    ]\r\n  }"
   rawIndex: 10421
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "身不饥寒，天未尝负我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unburdened by hunger or cold, the heavens have not betrayed me."
   - splitPath: AnswerList[0]
     text: "心无愧疚，我自可对天"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Free from guilt, I can look to the heavens with peace."
   - splitPath: AnswerList[1]
     text: "学无长进，我何以对天"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Without making progress in my studies, how can I face the heavens?"
   - splitPath: AnswerList[2]
     text: "志不伸展，天岂能限我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If my will cannot stretch, can the heavens limit me?"
   - splitPath: AnswerList[3]
     text: "德有亏缺，我何以立世"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "With flaws in my character, how can I exist in the world?"
 - raw: "{\r\n    \"Key\": \"10422\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"心静则明，水止乃能照物\",\r\n    \"AnswerList\": [\r\n      \"气定则闲，山静而能养神\",\r\n      \"品超斯远，云飞而不碍空\",\r\n      \"意清则朗，月明方能鉴人\",\r\n      \"神凝则慧，谷虚乃可应声\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"心靜則明，水止乃能照物\",\r\n    \"AnswerTwList\": [\r\n      \"氣定則閒，山靜而能養神\",\r\n      \"品超斯遠，雲飛而不礙空\",\r\n      \"意清則朗，月明方能鑑人\",\r\n      \"神凝則慧，谷虛乃可應聲\"\r\n    ]\r\n  }"
   rawIndex: 10422
   splits:
   - splitPath: Name
     text: "锦心联对"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heartwoven Couplet Contest"
   - splitPath: Puzzle
     text: "心静则明，水止乃能照物"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Peace of mind clarifies the intellect, and still water reflects objects."
   - splitPath: AnswerList[0]
     text: "气定则闲，山静而能养神"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Calmness brings tranquility; a quiet mountain nurtures the spirit."
   - splitPath: AnswerList[1]
     text: "品超斯远，云飞而不碍空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chen Chao Si Yuan, clouds fly without obstructing the sky."
   - splitPath: AnswerList[2]
     text: "意清则朗，月明方能鉴人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Clarity of mind brings clarity, and only a bright moon can truly reveal a person."
   - splitPath: AnswerList[3]
     text: "神凝则慧，谷虚乃可应声"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Concentrate your spirit to sharpen your wits; an empty valley resounds with echoes."
 - raw: "{\r\n    \"Key\": \"10601\",\r\n    \"Name\": \"含烟婉约\",\r\n    \"Puzzle\": \"此去经年，应是良辰好景虚设。便纵有千种风情，______。\",\r\n    \"AnswerList\": [\r\n      \"更与何人说\",\r\n      \"只对青山别\",\r\n      \"分付孤鸿灭\",\r\n      \"尽作杨花雪\"\r\n    ],\r\n    \"NameTw\": \"含煙婉約\",\r\n    \"PuzzleTw\": \"此去經年，應是良辰好景虛設。便縱有千種風情，______。\",\r\n    \"AnswerTwList\": [\r\n      \"更與何人說\",\r\n      \"只對青山別\",\r\n      \"分付孤鴻滅\",\r\n      \"盡作楊花雪\"\r\n    ]\r\n  }"
   rawIndex: 10601
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "此去经年，应是良辰好景虚设。便纵有千种风情，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This yearning for a year hence, should be fine times and beautiful scenery in vain. Even if there are a thousand kinds of feelings,"
   - splitPath: AnswerList[0]
     text: "更与何人说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who else can I talk to?"
   - splitPath: AnswerList[1]
     text: "只对青山别"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Only the green mountains remain"
   - splitPath: AnswerList[2]
     text: "分付孤鸿灭"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Command the solitary wild goose to vanish"
   - splitPath: AnswerList[3]
     text: "尽作杨花雪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As if everything were fallen willow snow"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3507,28 +3155,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "拟把疏狂图一醉，对酒当歌，强乐还无味。衣带渐宽终不悔，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Drunk with carefree joy to seek a tipsy dream, facing wine and singing, forced merriment is tasteless. Girdle grows loose, yet I remain unwavering."
   - splitPath: AnswerList[0]
     text: "此情难遣人如醉"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This feeling is hard to dispel, like being intoxicated."
   - splitPath: AnswerList[1]
     text: "空对青山两行泪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty hands gazing at the green mountains, two tears fall."
   - splitPath: AnswerList[2]
     text: "为伊消得人憔悴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wilt for her till I am haggard"
   - splitPath: AnswerList[3]
     text: "不似相逢好梦睡"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not like a dreamful meeting that one wishes to sleep through."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3537,28 +3179,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "一种相思，两处闲愁。此情无计可消除，才下眉头，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "One yearning thought, two places burdened with idle sorrow. This emotion cannot be erased; it just shifts from brow to heart."
   - splitPath: AnswerList[0]
     text: "又结重楼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yet another Zhonglou"
   - splitPath: AnswerList[1]
     text: "独倚清秋"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alone by the clear autumn"
   - splitPath: AnswerList[2]
     text: "泪暗偷流"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears secretly fell"
   - splitPath: AnswerList[3]
     text: "却上心头"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But it has gone to his head"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3567,28 +3203,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "柔情似水，佳期如梦，忍顾鹊桥归路。两情若是久长时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Soft as water, fair as a dream, how can we bear to look back on the path to the Magpie Bridge? If our love is to last forever, why should we sigh?"
   - splitPath: AnswerList[0]
     text: "又岂在朝朝暮暮"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yet, what does it matter if it is not every day and night?"
   - splitPath: AnswerList[1]
     text: "岂羡人间朝与暮"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Why envy the fleeting days of mortal life?"
   - splitPath: AnswerList[2]
     text: "何惧星河无渡处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fear not the celestial river if there be no crossing."
   - splitPath: AnswerList[3]
     text: "不似浮萍暂相顾"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not like a water plant that briefly clings on."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3597,28 +3227,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "梧桐更兼细雨，到黄昏、点点滴滴。这次第，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wutong trees are adorned with fine rain; by dusk, drop by drop. How can one bear such a scene?"
   - splitPath: AnswerList[0]
     text: "怎一个愁字了得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A single word captures it all: sorrow"
   - splitPath: AnswerList[1]
     text: "愁也如何能过得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How can sorrow pass by?"
   - splitPath: AnswerList[2]
     text: "更与何人可说得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who can I talk to about it?"
   - splitPath: AnswerList[3]
     text: "独对残灯暗滴流"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Solo facing the flickering oil lamp's slow drip"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3627,28 +3251,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "今年元夜时，月与灯依旧。不见去年人，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This year on the first night of the month, the moon and lanterns are as they were last year. But last year's person is not seen."
   - splitPath: AnswerList[0]
     text: "空对灯如昼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The empty room is illuminated as if it were daytime."
   - splitPath: AnswerList[1]
     text: "独倚花枝瘦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Leaning slender against the flower branch"
   - splitPath: AnswerList[2]
     text: "泪湿春衫袖"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears wet my spring shirt sleeves"
   - splitPath: AnswerList[3]
     text: "月冷黄昏后"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Month cold after dusk"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3657,28 +3275,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "记得小蘋初见，两重心字罗衣。琵琶弦上说相思。当时明月在，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Remember the first meeting with Xiaopin, dressed in a robe with two heart‑shaped patterns. The lute strings spoke of longing. The moon was the same as back then."
   - splitPath: AnswerList[0]
     text: "曾照人双立"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zengzhao ren shuang li"
   - splitPath: AnswerList[1]
     text: "曾照花如雪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cen Zhaohua as white as snow"
   - splitPath: AnswerList[2]
     text: "曾照罗衣湿"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wet through by the light robe's dew"
   - splitPath: AnswerList[3]
     text: "曾照彩云归"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Once the rainbow fades with the clouds"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3687,28 +3299,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "飞云冉冉蘅皋暮，彩笔新题断肠句。试问闲愁都几许？一川烟草，满城风絮，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mist shrouds the marsh as evening falls; with my colorful brush, I pen verses that pierce the heart. How much idle sorrow do I bear? Like a river of tobacco, like flying cotton in a city's breeze,"
   - splitPath: AnswerList[0]
     text: "燕子双飞去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Swallows fly off in pairs"
   - splitPath: AnswerList[1]
     text: "梅子黄时雨"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Plums yellow, rain falls"
   - splitPath: AnswerList[2]
     text: "杜宇啼春苦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The cuckoo cries in spring with hardship"
   - splitPath: AnswerList[3]
     text: "芳草迷南浦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fragrant grasses by the southern shoal"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3717,28 +3323,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "墙里秋千墙外道。墙外行人，墙里佳人笑。笑渐不闻声渐悄，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Within the wall, a swing sways; beyond it, a path. The passerby outside, the lady inside laughs. The laughter fades, the sound grows quiet."
   - splitPath: AnswerList[0]
     text: "无情不似多情苦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unfeeling is not as bitter as the pain of being deeply in love."
   - splitPath: AnswerList[1]
     text: "多情总被风吹去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Love is always carried away by the wind."
   - splitPath: AnswerList[2]
     text: "多情却被无情恼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yet it is the indifferent who frustrate the sentimental."
   - splitPath: AnswerList[3]
     text: "多情反作无情语"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Loving words often become indifferent ones"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3747,28 +3347,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "昨夜西风凋碧树，独上高楼，望尽天涯路。欲寄彩笺兼尺素，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Last night, the west wind withered the green trees; alone, I climbed the high tower, gazing to the end of the horizon. I long to send you colorful letters and small scrolls."
   - splitPath: AnswerList[0]
     text: "山长水远无凭处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountains long, waters far, with nowhere to rely on."
   - splitPath: AnswerList[1]
     text: "山遥水阔无寻处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountain distant, water vast, nowhere to be found."
   - splitPath: AnswerList[2]
     text: "山高水远人何处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountains so high, waters so far, where art thou?"
   - splitPath: AnswerList[3]
     text: "山长水阔知何处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountains long, waters wide, where can I find thee?"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3777,28 +3371,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A cup of wine to drown new verses, in weather like last year, by old terraces. When will the setting sun find its way back? Helpless, I watch flowers fall, while swallows that seemed familiar return."
   - splitPath: AnswerList[0]
     text: "孤鸿声里暮云开"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the twilight clouds, the sound of a solitary wild goose fades away."
   - splitPath: AnswerList[1]
     text: "残灯照壁影成堆"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Faint light casts shadows on the wall in piles"
   - splitPath: AnswerList[2]
     text: "小园香径独徘徊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wander alone in the fragrant garden path"
   - splitPath: AnswerList[3]
     text: "断桥烟雨送春来"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fog over the Broken Bridge ushers in spring."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3807,28 +3395,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "黯乡魂，追旅思，夜夜除非，好梦留人睡。明月楼高休独倚，酒入愁肠，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wistful for my homeland, I pursue thoughts of my travels; night after night, I can only rely on sweet dreams to keep me sleeping. At the high tower under the bright moon, do not lean alone; wine enters the sorrowful intestines,"
   - splitPath: AnswerList[0]
     text: "碎作孤鸿背"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Shattered like a solitary wild goose's back"
   - splitPath: AnswerList[1]
     text: "冷作秋江沸"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cold makes the autumn river boil"
   - splitPath: AnswerList[2]
     text: "散作寒烟翠"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Scattered as cold smoke"
   - splitPath: AnswerList[3]
     text: "化作相思泪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Turn into tears of longing"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3837,28 +3419,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "春色三分，二分尘土，一分流水。细看来，不是杨花，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring divides into three parts, two parts in dust, one part in flowing water. Upon closer inspection, it is not from the willow down."
   - splitPath: AnswerList[0]
     text: "点点是离人泪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Diandian is the tear of parting"
   - splitPath: AnswerList[1]
     text: "片片随流水去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Piece by piece, flowing with the water away"
   - splitPath: AnswerList[2]
     text: "缕缕成愁滋味"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A sorrowful taste lingers"
   - splitPath: AnswerList[3]
     text: "阵阵惹人憔悴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Waves of melancholy"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3867,28 +3443,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "何日归家洗客袍？银字笙调，心字香烧。流光容易把人抛，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When will I return home to wash my guest robe? Adjust the silver‑wire wind chime, and burn the heart‑shaped incense. Time flies and easily leaves people behind,"
   - splitPath: AnswerList[0]
     text: "断了鱼书，沉了雁杳"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lost fish messages, vanished swan feathers"
   - splitPath: AnswerList[1]
     text: "冷了香衾，残了凤箫"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chilled the fragrant bed, forsaken the phoenix flute"
   - splitPath: AnswerList[2]
     text: "瘦了腰肢，白了鬓毛"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Waist grew thinner, hair turned gray"
   - splitPath: AnswerList[3]
     text: "红了樱桃，绿了芭蕉"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cherries turn red, and bananas turn green"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3897,28 +3467,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "天不老，情难绝。心似双丝网，中有千千结。夜过也，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heaven may not last forever, but true love endures. Hearts are like a web of dual threads, entwined in a myriad of knots. The night has passed,"
   - splitPath: AnswerList[0]
     text: "孤灯欲灭箫声咽"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A dim lamp flickers as the flute's mournful notes fade."
   - splitPath: AnswerList[1]
     text: "东窗未白凝残月"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eastern window still dark with a waning moon hanging outside"
   - splitPath: AnswerList[2]
     text: "西楼人静霜如雪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "West Tower quiet, frost like snow"
   - splitPath: AnswerList[3]
     text: "寒江舟远星明灭"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cold riverboat distant, stars flicker"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3927,28 +3491,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "聚散苦匆匆，此恨无穷。今年花胜去年红。可惜明年花更好，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Parting and meeting bring sorrow, so fleeting and endless is this resentment. This year's flowers are redder than last year's. Alas, next year's flowers will be even more beautiful."
   - splitPath: AnswerList[0]
     text: "人在梦中"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A person in a dream"
   - splitPath: AnswerList[1]
     text: "春去成空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring gone, left nothing"
   - splitPath: AnswerList[2]
     text: "知与谁同"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who shall I share this with?"
   - splitPath: AnswerList[3]
     text: "泪落西风"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears fall in the west wind"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3957,28 +3515,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "一向年光有限身，等闲离别易销魂，酒筵歌席莫辞频。满目山河空念远，落花风雨更伤春，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A limited life in years, easy parting brings sorrow; at banquets and singing pavilions, do not hesitate to drink often. Full view of mountains and rivers, I muse on the distant; fallen flowers and rain in spring bring deeper sadness."
   - splitPath: AnswerList[0]
     text: "何如归去卧云根"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How about retiring to lie among the clouds?"
   - splitPath: AnswerList[1]
     text: "莫待无花空断魂"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Do not wait until flowers are gone to mourn their absence."
   - splitPath: AnswerList[2]
     text: "不如怜取眼前人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enjoy the one before you"
   - splitPath: AnswerList[3]
     text: "且向樽前醉几巡"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And drink a few more rounds to get thoroughly drunk."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -3987,28 +3539,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "云渺渺，水茫茫，征人归路许多长。相思本是无凭语，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Misty clouds, boundless waters, the road home for the warrior is long. Love, in truth, is but an empty word."
   - splitPath: AnswerList[0]
     text: "且把闲愁付酒觞"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And let idle worries be poured into the wine cup."
   - splitPath: AnswerList[1]
     text: "莫问归期在何方"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When will the journey home end?"
   - splitPath: AnswerList[2]
     text: "且听秋声过短墙"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Listen to the autumn sounds pass through the short wall"
   - splitPath: AnswerList[3]
     text: "莫向花笺费泪行"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Do not waste your tears on paper flowers."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4017,28 +3563,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "莺嘴啄花红溜，燕尾点波绿皱。指冷玉笙寒，吹彻小梅春透。依旧，依旧，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The oriole's beak dyes the flowers red, the swallow's tail ripples the green waves. My fingers feel cold as the jade flute grows chilly, yet I blow through the small plum blossom tune until spring fills the air. Still, still,"
   - splitPath: AnswerList[0]
     text: "泪湿青衫襟袖"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears wet his blue robe's sleeves"
   - splitPath: AnswerList[1]
     text: "月满西楼时候"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the moon is full over the western tower"
   - splitPath: AnswerList[2]
     text: "人与绿杨俱瘦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Man and willow both lean thin"
   - splitPath: AnswerList[3]
     text: "春在梨花前后"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring comes before the plum blossoms and after the cherry blossoms."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4047,28 +3587,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "才始送春归，又送君归去。若到江南赶上春，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hardly have we bid spring farewell when you must go. If you travel to Jiangnan and spring should still be there,"
   - splitPath: AnswerList[0]
     text: "莫使春光暮"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Do not let the spring light fade"
   - splitPath: AnswerList[1]
     text: "千万和春住"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stay with spring"
   - splitPath: AnswerList[2]
     text: "且共春同路"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And walk the road with spring together"
   - splitPath: AnswerList[3]
     text: "须把春留住"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Must keep spring from fading"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4077,28 +3611,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "此水几时休，此恨何时已。只愿君心似我心，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When will this water cease to flow, when will this resentment end? I but wish your heart might be like mine."
   - splitPath: AnswerList[0]
     text: "定不负相思意"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I shall not fail to honor your thoughts."
   - splitPath: AnswerList[1]
     text: "不负此长相忆"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Live up to this memory forever"
   - splitPath: AnswerList[2]
     text: "莫使年华空逝水"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Do not let your youth pass in vain."
   - splitPath: AnswerList[3]
     text: "且共天涯同憔悴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And share the witheredness of the distant horizon together."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4107,28 +3635,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "感月吟风多少事，如今老去无成。谁怜憔悴更凋零。试灯无意思，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How many things we once savored in the moonlight and breezes, now that I am old and have accomplished nothing. Who pities my withered and withering state? Trying the lanterns holds no meaning."
   - splitPath: AnswerList[0]
     text: "对酒怕听莺"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Drinking wine and dreading the sound of yellow‑throated warblers"
   - splitPath: AnswerList[1]
     text: "扶病看花明"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sick in Body, Bright in Spirit"
   - splitPath: AnswerList[2]
     text: "掩泪数寒更"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears falling as the cold hours pass"
   - splitPath: AnswerList[3]
     text: "踏雪没心情"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No mood for snowboarding"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4137,28 +3659,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "东篱把酒黄昏后，有暗香盈袖。莫道不销魂，帘卷西风，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the twilight after dusk, under the hedge, I hold wine; the faint fragrance fills my sleeves. How can one say it does not stir the soul? As the west wind rolls up the curtain,"
   - splitPath: AnswerList[0]
     text: "人比黄花瘦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A person is thinner than yellow flowers"
   - splitPath: AnswerList[1]
     text: "月比秋江皱"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Month wrinkles more than Autumn Lake"
   - splitPath: AnswerList[2]
     text: "影比孤灯瘦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The shadow is thinner than a solitary lamp."
   - splitPath: AnswerList[3]
     text: "心比寒潭透"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heart colder than a winter pond"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4167,28 +3683,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "昨夜雨疏风骤，浓睡不消残酒。试问卷帘人，却道海棠依旧。知否？知否？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Last night, the rain was light and the wind harsh; I slept deeply, the wine from the previous night still lingering. I asked the one rolling up the curtains, but she said the peony is just the same. Do you know? Do you know?"
   - splitPath: AnswerList[0]
     text: "正是花稀叶茂"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's when the flowers are few and the leaves are lush."
   - splitPath: AnswerList[1]
     text: "应是香残粉透"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Should be the fragrance fading, the powder staining."
   - splitPath: AnswerList[2]
     text: "应是绿肥红瘦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Should be green fat and red thin"
   - splitPath: AnswerList[3]
     text: "正是春归时候"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's the time when spring returns"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4197,28 +3707,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "春无踪迹谁知？除非问取黄鹂。百啭无人能解，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring's traces are known only to ask the yellowthroat. Though it sings in whispers, none can decode its meaning."
   - splitPath: AnswerList[0]
     text: "随风飞向朱户"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blown by the wind, fluttering towards the vermilion gate"
   - splitPath: AnswerList[1]
     text: "因风飞过蔷薇"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Carried by the wind over the roses"
   - splitPath: AnswerList[2]
     text: "衔花飞过南浦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Carry the flower and fly over the South Pond"
   - splitPath: AnswerList[3]
     text: "带香飞入烟雨"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Carry the fragrance as it floats into the misty rain"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4227,28 +3731,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "驿寄梅花，鱼传尺素，砌成此恨无重数。郴江幸自绕郴山，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blossoms carried by couriers, letters sent by fish, stacking up this endless sorrow. The Xun River flows by the Xun Mountains of its own accord."
   - splitPath: AnswerList[0]
     text: "为谁流下潇湘去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who flows away to Xiangjiang?"
   - splitPath: AnswerList[1]
     text: "何曾解识离人苦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How could you ever know the pain of a parted lover?"
   - splitPath: AnswerList[2]
     text: "日夜东流无歇处"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Day and night, flowing nonstop"
   - splitPath: AnswerList[3]
     text: "不送离愁到海东"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No sorrow sent to the eastern sea"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4257,28 +3755,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "轻舟八尺，低篷三扇，占断苹洲烟雨。镜湖元自属闲人，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A light skiff with eight feet, a low canopy of three panels, claims the mist‑shrouded water meadows. The Mirror Lake belongs inherently to idle people."
   - splitPath: AnswerList[0]
     text: "又何须、功名挂口"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Why mention achievements and fame merely in words?"
   - splitPath: AnswerList[1]
     text: "又那怕、风狂雨骤"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What if the wind is wild and the rain fierce?"
   - splitPath: AnswerList[2]
     text: "又何必、君恩赐与"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Why not, bestowed by your grace?"
   - splitPath: AnswerList[3]
     text: "又谁管、人间今古"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who will care about the ancient and modern times of this world?"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4287,28 +3779,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "寸寸柔肠，盈盈粉泪，楼高莫近危阑倚。平芜尽处是春山，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Every inch of tender intestines, every drop of delicate tears, do not lean near the high railing of the tower. The end of the boundless grass is the spring mountain."
   - splitPath: AnswerList[0]
     text: "行人远在斜阳外"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Travelers are far beyond the setting sun"
   - splitPath: AnswerList[1]
     text: "行人已隔烟云外"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Travelers are beyond the mist and clouds"
   - splitPath: AnswerList[2]
     text: "行人一去千山外"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A traveler is gone, far beyond a thousand mountains."
   - splitPath: AnswerList[3]
     text: "行人更在春山外"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The people walk even farther beyond the spring mountains."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4317,28 +3803,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Rain slaps and wind rages at the end of March, doors closed under the dusk, with no way to keep spring from leaving. Tears well up as I ask the flowers, but they remain silent."
   - splitPath: AnswerList[0]
     text: "落红满地无人扫"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Falling flowers lie scattered on the ground with no one to clean up."
   - splitPath: AnswerList[1]
     text: "乱红飞过秋千去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Falling petals fly over the swing"
   - splitPath: AnswerList[2]
     text: "残红片片随流去"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Falling petals drift away with the flowing water."
   - splitPath: AnswerList[3]
     text: "飞红万点愁如海"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A myriad of red flowers like the sea"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4347,28 +3827,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "低声问，向谁行宿？城上已三更。马滑霜浓，不如休去，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spoken softly, to whom shall I go for the night? It's already three o'clock on the city wall. The road is slippery with frost, and the weather is thick. Better not to leave."
   - splitPath: AnswerList[0]
     text: "独自对寒灯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Solitary by the cold lamp"
   - splitPath: AnswerList[1]
     text: "直是少人行"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's just that few people walk this way."
   - splitPath: AnswerList[2]
     text: "怕听漏声频"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Afraid of missing any sounds frequently"
   - splitPath: AnswerList[3]
     text: "霜重月华明"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heavy frost, bright moonlight"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4377,28 +3851,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "而今丽日明金屋，春色在桃枝。不似当时，小楼冲雨，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Now the bright day illuminates the golden chamber, spring color adorns the peach branches. Unlike those days in the small tower, drenched in the rain."
   - splitPath: AnswerList[0]
     text: "幽恨两人知"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hatred between the two of them is known only to the two of them."
   - splitPath: AnswerList[1]
     text: "泪眼问花枝"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tears in her eyes, she asks the flower branch"
   - splitPath: AnswerList[2]
     text: "独自立多时"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stand alone for a long time"
   - splitPath: AnswerList[3]
     text: "幽梦说相思"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Youmeng says she misses him"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4407,28 +3875,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "春风未了秋风到，老去万缘轻。只把平生，闲吟闲咏，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spring has not yet faded as autumn wind arrives, and with age, all worldly ties grow light. I only keep my life in idle recitations and verses."
   - splitPath: AnswerList[0]
     text: "付与晚山青"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Grant Evening Mountain Qing"
   - splitPath: AnswerList[1]
     text: "写入画图行"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Draw a picture"
   - splitPath: AnswerList[2]
     text: "谱作棹歌声"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Composed oarsmen's songs"
   - splitPath: AnswerList[3]
     text: "留待故人听"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Let the old friend listen"
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4437,28 +3899,22 @@
   splits:
   - splitPath: Name
     text: "含烟婉约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Han Yanyue"
   - splitPath: Puzzle
     text: "花不语，水空流，年年拚得为花愁。明朝万一西风动，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Flowers remain silent, water flows in vain; year after year, I bear the sorrow for the flowers. Tomorrow, if the west wind should blow,"
   - splitPath: AnswerList[0]
     text: "忍看朱颜空白头"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Watch in vain as youthful vigor fades to gray‑haired regret"
   - splitPath: AnswerList[1]
     text: "争向朱颜不耐秋"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Strive for the rosy cheek before autumn comes."
   - splitPath: AnswerList[2]
     text: "谁怜朱颜容易老"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who pities the red‑cheeked youth growing old too soon?"
   - splitPath: AnswerList[3]
     text: "只怕朱颜去不留"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fearing that Zhu Yan will leave without looking back."
   templates:
   - splitPath: Puzzle
     template: "{0}______。"
@@ -4467,367 +3923,286 @@
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "没来由犯王法，不提防遭刑宪，叫声屈动地惊天。顷刻间游魂先赴森罗殿，怎不将天地也生埋怨。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Without cause, I broke the king's law, unexpectedly falling into the grasp of punishment. My cries of injustice shook the heavens and the earth. In an instant, my soul hastened to the Hall of Hell, how could I not begrudge heaven and earth?"
   - splitPath: AnswerList[0]
     text: "《迷青琐倩女离魂》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Souls Departing from the Elusive Lady"
   - splitPath: AnswerList[1]
     text: "《感天动地窦娥冤》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Injustice to Lady Dou E Moves Heaven and Earth"
   - splitPath: AnswerList[2]
     text: "《冤报冤赵氏孤儿》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Orphan of Zhao: Revenge for the Zhao Family"
   - splitPath: AnswerList[3]
     text: "《闺怨佳人拜月亭》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
 - raw: "{\r\n    \"Key\": \"10802\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"花有重开日，人无再少年。休道黄金贵，安乐最值钱。\",\r\n    \"AnswerList\": [\r\n      \"《鲁大夫秋胡戏妻》\",\r\n      \"《裴少俊墙头马上》\",\r\n      \"《迷青琐倩女离魂》\",\r\n      \"《冤报冤赵氏孤儿》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"花有重開日，人無再少年。休道黃金貴，安樂最值錢。\",\r\n    \"AnswerTwList\": [\r\n      \"《魯大夫秋胡戲妻》\",\r\n      \"《裴少俊牆頭馬上》\",\r\n      \"《迷青瑣倩女離魂》\",\r\n      \"《冤報冤趙氏孤兒》\"\r\n    ]\r\n  }"
   rawIndex: 10802
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "花有重开日，人无再少年。休道黄金贵，安乐最值钱。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Flowers may bloom again, but youth never returns. Don't say that gold is precious; peace and happiness are most valuable."
   - splitPath: AnswerList[0]
     text: "《鲁大夫秋胡戏妻》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "《Doctor Liu Hu Teases His Wife》"
   - splitPath: AnswerList[1]
     text: "《裴少俊墙头马上》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Pei Shaojun on the Wall, Facing the Stable"
   - splitPath: AnswerList[2]
     text: "《迷青琐倩女离魂》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Souls Departing from the Elusive Lady"
   - splitPath: AnswerList[3]
     text: "《冤报冤赵氏孤儿》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Orphan of Zhao: Revenge for the Zhao Family"
 - raw: "{\r\n    \"Key\": \"10803\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"碧云天，黄花地，西风紧，北雁南飞。晓来谁染霜林醉？总是离人泪。\",\r\n    \"AnswerList\": [\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《钱大尹智宠谢天香》\",\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《包待制三勘蝴蝶梦》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"碧雲天，黃花地，西風緊，北雁南飛。曉來誰染霜林醉？總是離人淚。\",\r\n    \"AnswerTwList\": [\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《錢大尹智寵謝天香》\",\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《包待制三勘蝴蝶夢》\"\r\n    ]\r\n  }"
   rawIndex: 10803
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "碧云天，黄花地，西风紧，北雁南飞。晓来谁染霜林醉？总是离人泪。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A sky of blue clouds, yellow flowers, the west wind grows strong, and northern geese fly south. In the morning, who has dyed the frosty maple woods so red? It's always the tears of those who are parting."
   - splitPath: AnswerList[0]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[1]
     text: "《钱大尹智宠谢天香》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Wise Judge Qian Treats Lady Xie Tianxiang with Wit"
   - splitPath: AnswerList[2]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
   - splitPath: AnswerList[3]
     text: "《包待制三勘蝴蝶梦》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Judge Bao Investigates the Butterfly Dream Again"
 - raw: "{\r\n    \"Key\": \"10804\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"地也，你不分好歹何为地？天也，你错勘贤愚枉做天！\",\r\n    \"AnswerList\": [\r\n      \"《裴少俊墙头马上》\",\r\n      \"《感天动地窦娥冤》\",\r\n      \"《冤报冤赵氏孤儿》\",\r\n      \"《闺怨佳人拜月亭》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"地也，你不分好歹何為地？天也，你錯勘賢愚枉做天！\",\r\n    \"AnswerTwList\": [\r\n      \"《裴少俊牆頭馬上》\",\r\n      \"《感天動地竇娥冤》\",\r\n      \"《冤報冤趙氏孤兒》\",\r\n      \"《閨怨佳人拜月亭》\"\r\n    ]\r\n  }"
   rawIndex: 10804
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "地也，你不分好歹何为地？天也，你错勘贤愚枉做天！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Earth, if you cannot distinguish right from wrong, what right do you have to be Earth? Heaven, if you wrongly judge the wise and the foolish, you have no right to be Heaven!"
   - splitPath: AnswerList[0]
     text: "《裴少俊墙头马上》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Pei Shaojun on the Wall, Facing the Stable"
   - splitPath: AnswerList[1]
     text: "《感天动地窦娥冤》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Injustice to Lady Dou E Moves Heaven and Earth"
   - splitPath: AnswerList[2]
     text: "《冤报冤赵氏孤儿》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Orphan of Zhao: Revenge for the Zhao Family"
   - splitPath: AnswerList[3]
     text: "《闺怨佳人拜月亭》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
 - raw: "{\r\n    \"Key\": \"10805\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"待月西厢下，迎风户半开。隔墙花影动，疑是玉人来。\",\r\n    \"AnswerList\": [\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《赵盼儿风月救风尘》\",\r\n      \"《唐明皇秋夜梧桐雨》\",\r\n      \"《破幽梦孤雁汉宫秋》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"待月西廂下，迎風戶半開。隔牆花影動，疑是玉人來。\",\r\n    \"AnswerTwList\": [\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《趙盼兒風月救風塵》\",\r\n      \"《唐明皇秋夜梧桐雨》\",\r\n      \"《破幽夢孤雁漢宮秋》\"\r\n    ]\r\n  }"
   rawIndex: 10805
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "待月西厢下，迎风户半开。隔墙花影动，疑是玉人来。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half‑open door. The flower shadows behind the wall sway, as if it is the lady arriving."
   - splitPath: AnswerList[0]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
   - splitPath: AnswerList[1]
     text: "《赵盼儿风月救风尘》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
   - splitPath: AnswerList[2]
     text: "《唐明皇秋夜梧桐雨》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Autumn Night Rain on the Paulownia Trees of Emperor Xuanzong"
   - splitPath: AnswerList[3]
     text: "《破幽梦孤雁汉宫秋》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breaking the Phantom Dream: Solitary Wild Goose in the Palace in Autumn"
 - raw: "{\r\n    \"Key\": \"10806\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"碧云天，黄花地，西风紧，北雁南飞。晓来谁染霜林醉？总是离人泪。\",\r\n    \"AnswerList\": [\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《吕洞宾三度城南柳》\",\r\n      \"《破幽梦孤雁汉宫秋》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"碧雲天，黃花地，西風緊，北雁南飛。曉來誰染霜林醉？總是離人淚。\",\r\n    \"AnswerTwList\": [\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《呂洞賓三度城南柳》\",\r\n      \"《破幽夢孤雁漢宮秋》\"\r\n    ]\r\n  }"
   rawIndex: 10806
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "碧云天，黄花地，西风紧，北雁南飞。晓来谁染霜林醉？总是离人泪。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A sky of blue clouds, yellow flowers, the west wind grows strong, and northern geese fly south. In the morning, who has dyed the frosty maple woods so red? It's always the tears of those who are parting."
   - splitPath: AnswerList[0]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
   - splitPath: AnswerList[1]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[2]
     text: "《吕洞宾三度城南柳》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Third Visit of Lu Dongbin to the Willows by the South City Gate"
   - splitPath: AnswerList[3]
     text: "《破幽梦孤雁汉宫秋》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breaking the Phantom Dream: Solitary Wild Goose in the Palace in Autumn"
 - raw: "{\r\n    \"Key\": \"10807\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"大江东去浪千叠，引着这数十人驾着这小舟一叶。又不比九重龙凤阙，可正是千丈虎狼穴。\",\r\n    \"AnswerList\": [\r\n      \"《关大王独赴单刀会》\",\r\n      \"《刘玄德醉走黄鹤楼》\",\r\n      \"《包待制三勘蝴蝶梦》\",\r\n      \"《看钱奴买冤家债主》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"大江東去浪千疊，引著這數十人駕著這小舟一葉。又不比九重龍鳳闕，可正是千丈虎狼穴。\",\r\n    \"AnswerTwList\": [\r\n      \"《關大王獨赴單刀會》\",\r\n      \"《劉玄德醉走黃鶴樓》\",\r\n      \"《包待制三勘蝴蝶夢》\",\r\n      \"《看錢奴買冤家債主》\"\r\n    ]\r\n  }"
   rawIndex: 10807
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "大江东去浪千叠，引着这数十人驾着这小舟一叶。又不比九重龙凤阙，可正是千丈虎狼穴。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The great river flows eastward, its waves stretching countless folds, guiding these dozen men in their tiny boat. Unlike the imperial palaces of the dragon and phoenix, this is indeed the den of tigers and wolves."
   - splitPath: AnswerList[0]
     text: "《关大王独赴单刀会》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Guadang Wang Solo Meets the Single Blade Society"
   - splitPath: AnswerList[1]
     text: "《刘玄德醉走黄鹤楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Xuande Drunkenly Fleeing from Yellow Crane Tower"
   - splitPath: AnswerList[2]
     text: "《包待制三勘蝴蝶梦》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Judge Bao Investigates the Butterfly Dream Again"
   - splitPath: AnswerList[3]
     text: "《看钱奴买冤家债主》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Moneylord and His Debtor"
 - raw: "{\r\n    \"Key\": \"10808\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"有日月朝暮悬，有鬼神掌着生死权。天地也，只合把清浊分辨，可怎生糊突了盗跖颜渊？\",\r\n    \"AnswerList\": [\r\n      \"《感天动地窦娥冤》\",\r\n      \"《闺怨佳人拜月亭》\",\r\n      \"《醉思乡王粲登楼》\",\r\n      \"《裴少俊墙头马上》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"有日月朝暮懸，有鬼神掌著生死權。天地也，只合把清濁分辨，可怎生糊突了盜跖顏淵？\",\r\n    \"AnswerTwList\": [\r\n      \"《感天動地竇娥冤》\",\r\n      \"《閨怨佳人拜月亭》\",\r\n      \"《醉思鄉王粲登樓》\",\r\n      \"《裴少俊牆頭馬上》\"\r\n    ]\r\n  }"
   rawIndex: 10808
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "有日月朝暮悬，有鬼神掌着生死权。天地也，只合把清浊分辨，可怎生糊突了盗跖颜渊？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There are the sun and moon hanging in the sky, and ghosts and gods holding the power of life and death. Heaven and earth should only distinguish between the clear and the turbid, how can they blur the difference between Righteous Zipu and Benevolent Yan Yuan?"
   - splitPath: AnswerList[0]
     text: "《感天动地窦娥冤》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Injustice to Lady Dou E Moves Heaven and Earth"
   - splitPath: AnswerList[1]
     text: "《闺怨佳人拜月亭》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
   - splitPath: AnswerList[2]
     text: "《醉思乡王粲登楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Drunk with Homesickness: Wang Can Climbs the Tower"
   - splitPath: AnswerList[3]
     text: "《裴少俊墙头马上》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Pei Shaojun on the Wall, Facing the Stable"
 - raw: "{\r\n    \"Key\": \"10809\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"没来由犯王法，不提防遭刑宪，叫声屈动地惊天。顷刻间游魂先赴森罗殿，怎不将天地也生埋怨。\",\r\n    \"AnswerList\": [\r\n      \"《裴少俊墙头马上》\",\r\n      \"《昊天塔孟良盗骨》\",\r\n      \"《感天动地窦娥冤》\",\r\n      \"《忠义士豫让吞炭》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"沒來由犯王法，不提防遭刑憲，叫聲屈動地驚天。頃刻間遊魂先赴森羅殿，怎不將天地也生埋怨。\",\r\n    \"AnswerTwList\": [\r\n      \"《裴少俊牆頭馬上》\",\r\n      \"《昊天塔孟良盜骨》\",\r\n      \"《感天動地竇娥冤》\",\r\n      \"《忠義士豫讓吞炭》\"\r\n    ]\r\n  }"
   rawIndex: 10809
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "没来由犯王法，不提防遭刑宪，叫声屈动地惊天。顷刻间游魂先赴森罗殿，怎不将天地也生埋怨。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Without cause, I broke the king's law, unexpectedly falling into the grasp of punishment. My cries of injustice shook the heavens and the earth. In an instant, my soul hastened to the Hall of Hell, how could I not begrudge heaven and earth?"
   - splitPath: AnswerList[0]
     text: "《裴少俊墙头马上》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Pei Shaojun on the Wall, Facing the Stable"
   - splitPath: AnswerList[1]
     text: "《昊天塔孟良盗骨》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "He Tian Tower: Meng Liang's Bone Theft"
   - splitPath: AnswerList[2]
     text: "《感天动地窦娥冤》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Injustice to Lady Dou E Moves Heaven and Earth"
   - splitPath: AnswerList[3]
     text: "《忠义士豫让吞炭》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
 - raw: "{\r\n    \"Key\": \"10810\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"驿亭外，西风紧，雁儿又南宾。汉家君，今万里，怎禁得这凄凉。俺向着这迥野悲凉，草已添黄，兔早迎霜。\",\r\n    \"AnswerList\": [\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《吕洞宾三醉岳阳楼》\",\r\n      \"《破幽梦孤雁汉宫秋》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"驛亭外，西風緊，雁兒又南賓。漢家君，今萬里，怎禁得這淒涼。俺向著這迥野悲涼，草已添黃，兔早迎霜。\",\r\n    \"AnswerTwList\": [\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《呂洞賓三醉岳陽樓》\",\r\n      \"《破幽夢孤雁漢宮秋》\"\r\n    ]\r\n  }"
   rawIndex: 10810
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "驿亭外，西风紧，雁儿又南宾。汉家君，今万里，怎禁得这凄凉。俺向着这迥野悲凉，草已添黄，兔早迎霜。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Outside the waystation, the west wind blows fiercely, and geese head south once more. The Han ruler, now a thousand miles away, how can he endure this sorrow? Amidst this desolate wilderness, grass has turned yellow, and rabbits are already facing the frost."
   - splitPath: AnswerList[0]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[1]
     text: "《马丹阳度脱刘行首》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Yang Dunyang Redemption of Liu Xingshou"
   - splitPath: AnswerList[2]
     text: "《吕洞宾三醉岳阳楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Dongbin's Three Drunken Stints at Yueyang Tower"
   - splitPath: AnswerList[3]
     text: "《破幽梦孤雁汉宫秋》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breaking the Phantom Dream: Solitary Wild Goose in the Palace in Autumn"
 - raw: "{\r\n    \"Key\": \"10811\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"着意栽花花不发，等闲插柳柳成荫。谁识张珪坟院里，倒有风流可喜活观音。\",\r\n    \"AnswerList\": [\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《包待制智斩鲁斋郎》\",\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《钱大尹智宠谢天香》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"著意栽花花不發，等閒插柳柳成蔭。誰識張珪墳院裡，倒有風流可喜活觀音。\",\r\n    \"AnswerTwList\": [\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《包待制智斬魯齋郎》\",\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《錢大尹智寵謝天香》\"\r\n    ]\r\n  }"
   rawIndex: 10811
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "着意栽花花不发，等闲插柳柳成荫。谁识张珪坟院里，倒有风流可喜活观音。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Planting a flower may not make it bloom, but casually planting a willow might make it flourish. Who would recognize in Zhang Gui's tombyard, there resides a lively and charming Avalokitesvara."
   - splitPath: AnswerList[0]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[1]
     text: "《包待制智斩鲁斋郎》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Wise Judgment of Judge Bao: The Cunning Execution of Lord Lu Zhaoling"
   - splitPath: AnswerList[2]
     text: "《马丹阳度脱刘行首》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Yang Dunyang Redemption of Liu Xingshou"
   - splitPath: AnswerList[3]
     text: "《钱大尹智宠谢天香》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Wise Judge Qian Treats Lady Xie Tianxiang with Wit"
 - raw: "{\r\n    \"Key\": \"10812\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"月过十五光明少，人到中年万事休。儿孙自有儿孙福，莫为儿孙作远忧。\",\r\n    \"AnswerList\": [\r\n      \"《钱大尹智宠谢天香》\",\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《包待制三勘蝴蝶梦》\",\r\n      \"《崔莺莺待月西厢记》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"月過十五光明少，人到中年萬事休。兒孫自有兒孫福，莫為兒孫作遠憂。\",\r\n    \"AnswerTwList\": [\r\n      \"《錢大尹智寵謝天香》\",\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《包待制三勘蝴蝶夢》\",\r\n      \"《崔鶯鶯待月西廂記》\"\r\n    ]\r\n  }"
   rawIndex: 10812
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "月过十五光明少，人到中年万事休。儿孙自有儿孙福，莫为儿孙作远忧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The moon is less bright after the fifteenth day of the month, and by mid‑life, one leaves behind all worldly matters. Children will have their own fortune, so do not worry about them too much."
   - splitPath: AnswerList[0]
     text: "《钱大尹智宠谢天香》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Wise Judge Qian Treats Lady Xie Tianxiang with Wit"
   - splitPath: AnswerList[1]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[2]
     text: "《包待制三勘蝴蝶梦》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Judge Bao Investigates the Butterfly Dream Again"
   - splitPath: AnswerList[3]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
 - raw: "{\r\n    \"Key\": \"10813\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"你道是先下手强,后下手殃。我一只手揪住宝带,臂展猿猱,剑掣秋霜。\",\r\n    \"AnswerList\": [\r\n      \"《刘玄德醉走黄鹤楼》\",\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《关大王独赴单刀会》\",\r\n      \"《吕洞宾三醉岳阳楼》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"你道是先下手強,後下手殃。我一隻手揪住寶帶,臂展猿猱,劍掣秋霜。\",\r\n    \"AnswerTwList\": [\r\n      \"《劉玄德醉走黃鶴樓》\",\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《關大王獨赴單刀會》\",\r\n      \"《呂洞賓三醉岳陽樓》\"\r\n    ]\r\n  }"
   rawIndex: 10813
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "你道是先下手强"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You say the strong strike first"
   - splitPath: Puzzle
     subIndex: 1
     text: "后下手殃。我一只手揪住宝带"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Acting late brings trouble. I grabbed the treasure belt with one hand."
   - splitPath: Puzzle
     subIndex: 2
     text: "臂展猿猱"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Arm‑length ape"
   - splitPath: Puzzle
     subIndex: 3
     text: "剑掣秋霜。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sword of Autumn Frost drawn"
   - splitPath: AnswerList[0]
     text: "《刘玄德醉走黄鹤楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Xuande Drunkenly Fleeing from Yellow Crane Tower"
   - splitPath: AnswerList[1]
     text: "《马丹阳度脱刘行首》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Yang Dunyang Redemption of Liu Xingshou"
   - splitPath: AnswerList[2]
     text: "《关大王独赴单刀会》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Guadang Wang Solo Meets the Single Blade Society"
   - splitPath: AnswerList[3]
     text: "《吕洞宾三醉岳阳楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Dongbin's Three Drunken Stints at Yueyang Tower"
   templates:
   - splitPath: Puzzle
     template: "{0},{1},{2},{3}"
@@ -4836,133 +4211,103 @@
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "得放手时须放手，得饶人处且饶人。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Let go when you should, and be kind when you can."
   - splitPath: AnswerList[0]
     text: "《感天动地窦娥冤》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Injustice to Lady Dou E Moves Heaven and Earth"
   - splitPath: AnswerList[1]
     text: "《冤报冤赵氏孤儿》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Orphan of Zhao: Revenge for the Zhao Family"
   - splitPath: AnswerList[2]
     text: "《昊天塔孟良盗骨》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "He Tian Tower: Meng Liang's Bone Theft"
   - splitPath: AnswerList[3]
     text: "《忠义士豫让吞炭》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
 - raw: "{\r\n    \"Key\": \"10815\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"返咸阳，过宫墙；绕回廊，近椒房，月昏黄，夜生凉。\",\r\n    \"AnswerList\": [\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《破幽梦孤雁汉宫秋》\",\r\n      \"《吕洞宾三醉岳阳楼》\",\r\n      \"《杜蕊娘智赏金线池》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"返咸陽，過宮牆；繞回廊，近椒房，月昏黃，夜生涼。\",\r\n    \"AnswerTwList\": [\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《破幽夢孤雁漢宮秋》\",\r\n      \"《呂洞賓三醉岳陽樓》\",\r\n      \"《杜蕊娘智賞金線池》\"\r\n    ]\r\n  }"
   rawIndex: 10815
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "返咸阳，过宫墙；绕回廊，近椒房，月昏黄，夜生凉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Return to Xianyang, pass by the palace walls; wander the verandas, nearing the Jiaofang, where the moon is dim, and the night grows cool."
   - splitPath: AnswerList[0]
     text: "《马丹阳度脱刘行首》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Yang Dunyang Redemption of Liu Xingshou"
   - splitPath: AnswerList[1]
     text: "《破幽梦孤雁汉宫秋》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breaking the Phantom Dream: Solitary Wild Goose in the Palace in Autumn"
   - splitPath: AnswerList[2]
     text: "《吕洞宾三醉岳阳楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Dongbin's Three Drunken Stints at Yueyang Tower"
   - splitPath: AnswerList[3]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
 - raw: "{\r\n    \"Key\": \"10816\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"恁时节船到江心补漏迟，烦恼怨他谁？事要前思，免劳后悔。\",\r\n    \"AnswerList\": [\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《赵盼儿风月救风尘》\",\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《吕洞宾三醉岳阳楼》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"恁時節船到江心補漏遲，煩惱怨他誰？事要前思，免勞後悔。\",\r\n    \"AnswerTwList\": [\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《趙盼兒風月救風塵》\",\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《呂洞賓三醉岳陽樓》\"\r\n    ]\r\n  }"
   rawIndex: 10816
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "恁时节船到江心补漏迟，烦恼怨他谁？事要前思，免劳后悔。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If a boat leaks, it's too late to patch it when you're in the middle of the river. Whom can you blame then? Think ahead, to avoid useless regret."
   - splitPath: AnswerList[0]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
   - splitPath: AnswerList[1]
     text: "《赵盼儿风月救风尘》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
   - splitPath: AnswerList[2]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
   - splitPath: AnswerList[3]
     text: "《吕洞宾三醉岳阳楼》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu Dongbin's Three Drunken Stints at Yueyang Tower"
 - raw: "{\r\n    \"Key\": \"10817\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"花落水流红，闲愁万种，无语怨东风。\",\r\n    \"AnswerList\": [\r\n      \"《赵盼儿风月救风尘》\",\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《杜蕊娘智赏金线池》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"花落水流紅，閒愁萬種，無語怨東風。\",\r\n    \"AnswerTwList\": [\r\n      \"《趙盼兒風月救風塵》\",\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《杜蕊娘智賞金線池》\"\r\n    ]\r\n  }"
   rawIndex: 10817
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "花落水流红，闲愁万种，无语怨东风。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Flowers fall, waters flow, red petals drift; a myriad of idle sorrows, speechless blame on the west wind."
   - splitPath: AnswerList[0]
     text: "《赵盼儿风月救风尘》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
   - splitPath: AnswerList[1]
     text: "《崔莺莺待月西厢记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"
   - splitPath: AnswerList[2]
     text: "《马丹阳度脱刘行首》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Yang Dunyang Redemption of Liu Xingshou"
   - splitPath: AnswerList[3]
     text: "《杜蕊娘智赏金线池》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Du Rui Mother Wise Reward in Golden Thread Pool"
 - raw: "{\r\n    \"Key\": \"10818\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"原来姹紫嫣红开遍，似这般都付与断井颓垣。良辰美景奈何天，便赏心乐事谁家院？\",\r\n    \"AnswerList\": [\r\n      \"《牡丹亭还魂记》\",\r\n      \"《李太白贬夜郎》\",\r\n      \"《温太真玉镜台》\",\r\n      \"《死生交范张鸡黍》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"原來奼紫嫣紅開遍，似這般都付與斷井頹垣。良辰美景奈何天，便賞心樂事誰家院？\",\r\n    \"AnswerTwList\": [\r\n      \"《牡丹亭還魂記》\",\r\n      \"《李太白貶夜郎》\",\r\n      \"《溫太真玉鏡臺》\",\r\n      \"《死生交范張雞黍》\"\r\n    ]\r\n  }"
   rawIndex: 10818
   splits:
   - splitPath: Name
     text: "含烟唱戏"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yanhan performs the play"
   - splitPath: Puzzle
     text: "原来姹紫嫣红开遍，似这般都付与断井颓垣。良辰美景奈何天，便赏心乐事谁家院？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Originally, a riot of vibrant flowers bloomed; like this, they all wither before decayed wells and crumbling walls. Fine days and beautiful scenery, what can one do in such a world? Even joyful events and pleasant gatherings, whose courtyard do they belong to?"
   - splitPath: AnswerList[0]
     text: "《牡丹亭还魂记》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Dream of the Red Chamber"
   - splitPath: AnswerList[1]
     text: "《李太白贬夜郎》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Exile of Li Bai to Night Ravine"
   - splitPath: AnswerList[2]
     text: "《温太真玉镜台》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Jade Mirror Pavilion of Wen Taizhen"
   - splitPath: AnswerList[3]
     text: "《死生交范张鸡黍》"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Farewell My Concubine and Chicken and Shu Friendship of Fan Zhang"

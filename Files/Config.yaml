@@ -3,6 +3,18 @@ apiKeyRequired: false
 url: "http://localhost:11434/api/chat"
 model: "qwen2.5:7b"
 
+# FanslationStudio.LlmKit's ConfigurationExtensions.GetConfiguration (used by
+# JsonGameDataWorkflow/CsvGameDataWorkflow/PrefabTextWorkflow for their QualityReview.MinAcceptableScore
+# gate) requires at least one entry here - mirrors the legacy top-level model/url/apiKeyRequired
+# above. TranslationService's own (separate, pre-migration) Configuration.GetConfiguration ignores
+# this key entirely, so it's additive/safe alongside the legacy fields until this file's schema is
+# fully migrated.
+models:
+  - name: Standard
+    model: "qwen2.5:7b"
+    url: "http://localhost:11434/api/chat"
+    apiKeyRequired: false
+
 # apiKeyRequired: true
 # url: "https://api.openai.com/v1/chat/completions"
 # model: "gpt-4o-mini"

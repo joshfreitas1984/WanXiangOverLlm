@@ -41,9 +41,9 @@ public class FileInputWorkflowTests
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit)
         {
-            // LlmKit's workflows (PrefabText/DynamicStrings) always suffix the Raw/Export file with
-            // ".yaml"; this repo's own JSON export path does not (the file already ends in ".json").
-            var exportName = textFile.TextFileType is TextFileType.PrefabText or TextFileType.DynamicStrings
+            // Every LlmKit workflow (PrefabText/DynamicStrings/RawJson) suffixes its Raw/Export file
+            // with ".yaml".
+            var exportName = textFile.TextFileType is TextFileType.PrefabText or TextFileType.DynamicStrings or TextFileType.RawJson
                 ? $"{textFile.Path}.yaml"
                 : textFile.Path;
 

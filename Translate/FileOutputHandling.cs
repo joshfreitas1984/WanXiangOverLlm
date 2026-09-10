@@ -1,9 +1,6 @@
 ﻿using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Workflow;
-using System.Text.RegularExpressions;
 using Translate;
-using Translate.Utility;
-using YamlDotNet.Serialization;
 
 public class FileOutputHandling
 {
@@ -39,94 +36,13 @@ public class FileOutputHandling
             MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
         }
 
-        var jsonFiles = GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.RawCsv).ToArray();
-
-        await global::FileIteration.IterateTranslatedFilesAsync(workingDirectory, jsonFiles, async (outputFile, textFileToTranslate, fileLines) =>
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.RawJson))
         {
-            // Convert fileLines back into the original JSON array format
-            var jsonArray = new List<Dictionary<string, object>>();
-
-            foreach (var line in fileLines)
-            {
-                var jsonObject = new Dictionary<string, object>();
-
-                // Add the Key property from RawIndex
-                if (int.TryParse(line.RawIndex, out int key))
-                {
-                    jsonObject["Key"] = key;
-                }
-                else
-                {
-                    // If RawIndex is not an int, use it as-is (fallback)
-                    jsonObject["Key"] = line.RawIndex;
-                }
-
-                // Add each split as a property
-                foreach (var split in line.Splits)
-                {
-                    var arrayMatch = Regex.Match(split.SplitPath, @"^(.+)\[(\d+)\]$");
-                    if (arrayMatch.Success)
-                    {
-                        var propertyName = arrayMatch.Groups[1].Value;
-                        var index = int.Parse(arrayMatch.Groups[2].Value);
-
-                        // Initialize the list from the original JSON the first time we see this property
-                        if (!jsonObject.ContainsKey(propertyName))
-                        {
-                            using var originalDoc = System.Text.Json.JsonDocument.Parse(line.Raw);
-                            if (originalDoc.RootElement.TryGetProperty(propertyName, out var originalArray)
-                                && originalArray.ValueKind == System.Text.Json.JsonValueKind.Array)
-                            {
-                                jsonObject[propertyName] = originalArray.EnumerateArray()
-                                    .Select(e => e.ValueKind == System.Text.Json.JsonValueKind.String ? e.GetString() ?? string.Empty : string.Empty)
-                                    .ToList();
-                            }
-                            else
-                            {
-                                jsonObject[propertyName] = new List<string>();
-                            }
-                        }
-
-                        var list = (List<string>)jsonObject[propertyName];
-                        if (split.FlaggedForRetranslation)
-                        {
-                            failedCount++;
-                        }
-                        else if (index < list.Count)
-                        {
-                            list[index] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
-                            passedCount++;
-                        }
-                    }
-                    else if (split.FlaggedForRetranslation)
-                    {
-                        // Use original text and increment failed count
-                        jsonObject[split.SplitPath] = split.Text;
-                        failedCount++;
-                    }
-                    else
-                    {
-                        // Use translated text (or fallback to original if empty) and increment passed count
-                        jsonObject[split.SplitPath] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
-                        passedCount++;
-                    }
-                }
-
-                jsonArray.Add(jsonObject);
-            }
-
-            // Serialize to JSON and write to output file
-            var jsonOptions = new System.Text.Json.JsonSerializerOptions 
-            { 
-                WriteIndented = true,
-                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-            };
-            var jsonContent = System.Text.Json.JsonSerializer.Serialize(jsonArray, jsonOptions);
-
-            File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", jsonContent);
-
-            await Task.CompletedTask;
-        });
+            var (passed, failed) = await JsonGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+            passedCount += passed;
+            failedCount += failed;
+            MoveLlmKitPackagedJsonFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
 
         Console.WriteLine($"Passed: {passedCount}");
@@ -142,6 +58,19 @@ public class FileOutputHandling
     private static void MoveLlmKitPackagedFileIntoEnglishFolder(string workingDirectory, string fileOutputPath, string path)
     {
         var source = $"{workingDirectory}/Mod/{path}.yaml";
+        if (File.Exists(source))
+            File.Move(source, $"{fileOutputPath}/{path}", true);
+    }
+
+    /// <summary>
+    /// <see cref="JsonGameDataWorkflow.PackageAsync"/> writes its packaged output straight to
+    /// Mod/{path} with no ".yaml" suffix - unlike Prefab/DynamicStrings, its Mod-directory output is
+    /// already the final game-consumable JSON, not an intermediate YAML shape - so no suffix needs
+    /// stripping on the way into the English folder.
+    /// </summary>
+    private static void MoveLlmKitPackagedJsonFileIntoEnglishFolder(string workingDirectory, string fileOutputPath, string path)
+    {
+        var source = $"{workingDirectory}/Mod/{path}";
         if (File.Exists(source))
             File.Move(source, $"{fileOutputPath}/{path}", true);
     }

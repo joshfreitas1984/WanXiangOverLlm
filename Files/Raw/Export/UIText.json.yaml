@@ -52,7 +52,100 @@
   rawIndex: 10
   splits:
   - splitPath: Desc
-    text: "制作者\n应有语\n王小雄\n\n剧情贡献\n郭涵之、奶牛猫白某、倒栽葱、天阳峰、刀片收购站\n\n部分音乐来自\n乐夫免版税音乐：   / @nocopyrightmusic-ed2qv  \n\n官方QQ群：518845256\n\n特别鸣谢\nb站 武林商人聊游戏、苏日早、zjlblack\nsteam社区 bluesfly39等\n小黑盒 降本增效、易离先生、老实人评测组\nQQ群 白某人、风中之雾、果汁、咕咕鸽、菲儿、&&尜榮.、火神皇vs水神皇、风雪、夜哭止啼、fa栗鼠、墨惜严、对阿清一生推、hua、星照水、冰炎、小小白、蓝色空间、长安归故里、龚照、Ah，i'm dead，JKUS911、金三鱼、尘埃、cxk、灯花冷、刀倾城、箜篌、|||||||、末、青霜、青麟、如水、Ruri、尸九木仓、时区、穗之影、yuuki、一直战斗下去、纵横一刀、小今、飞花逐月、梵兰诺、或渊、伦蒂尼恩的骑士、Kwdmz、浪哥、浮生做梦、Destruction、墨墨、吔、龙傲风、良心胖大叔、无可奈何、摸鱼鸽手、易离、∵遐想∴流浪、李墨秋等等每一位支持万象群侠传的玩家"
+    text: "制作者"
+  - splitPath: Desc
+    subIndex: 1
+    text: "应有语"
+  - splitPath: Desc
+    subIndex: 2
+    text: "王小雄"
+  - splitPath: Desc
+    subIndex: 3
+    text: "剧情贡献"
+  - splitPath: Desc
+    subIndex: 4
+    text: "郭涵之、奶牛猫白某、倒栽葱、天阳峰、刀片收购站"
+  - splitPath: Desc
+    subIndex: 5
+    text: "部分音乐来自"
+  - splitPath: Desc
+    subIndex: 6
+    text: "乐夫免版税音乐"
+  - splitPath: Desc
+    subIndex: 7
+    text: "官方"
+  - splitPath: Desc
+    subIndex: 8
+    text: "群"
+  - splitPath: Desc
+    subIndex: 9
+    text: "特别鸣谢"
+  - splitPath: Desc
+    subIndex: 10
+    text: "站"
+  - splitPath: Desc
+    subIndex: 11
+    text: "武林商人聊游戏、苏日早、"
+  - splitPath: Desc
+    subIndex: 12
+    text: "社区"
+  - splitPath: Desc
+    subIndex: 13
+    text: "39等"
+  - splitPath: Desc
+    subIndex: 14
+    text: "小黑盒"
+  - splitPath: Desc
+    subIndex: 15
+    text: "降本增效、易离先生、老实人评测组"
+  - splitPath: Desc
+    subIndex: 16
+    text: "群"
+  - splitPath: Desc
+    subIndex: 17
+    text: "白某人、风中之雾、果汁、咕咕鸽、菲儿、"
+  - splitPath: Desc
+    subIndex: 18
+    text: "尜榮.、火神皇"
+  - splitPath: Desc
+    subIndex: 19
+    text: "水神皇、风雪、夜哭止啼、"
+  - splitPath: Desc
+    subIndex: 20
+    text: "栗鼠、墨惜严、对阿清一生推、"
+  - splitPath: Desc
+    subIndex: 21
+    text: "、星照水、冰炎、小小白、蓝色空间、长安归故里、龚照、"
+  - splitPath: Desc
+    subIndex: 22
+    text: "911、金三鱼、尘埃、"
+  - splitPath: Desc
+    subIndex: 23
+    text: "、灯花冷、刀倾城、箜篌、"
+  - splitPath: Desc
+    subIndex: 24
+    text: "、末、青霜、青麟、如水、"
+  - splitPath: Desc
+    subIndex: 25
+    text: "、尸九木仓、时区、穗之影、"
+  - splitPath: Desc
+    subIndex: 26
+    text: "、一直战斗下去、纵横一刀、小今、飞花逐月、梵兰诺、或渊、伦蒂尼恩的骑士、"
+  - splitPath: Desc
+    subIndex: 27
+    text: "、浪哥、浮生做梦、"
+  - splitPath: Desc
+    subIndex: 28
+    text: "、墨墨、吔、龙傲风、良心胖大叔、无可奈何、摸鱼鸽手、易离、"
+  - splitPath: Desc
+    subIndex: 29
+    text: "遐想"
+  - splitPath: Desc
+    subIndex: 30
+    text: "流浪、李墨秋等等每一位支持万象群侠传的玩家"
+  templates:
+  - splitPath: Desc
+    template: "{0}\n{1}\n{2}\n\n{3}\n{4}\n\n{5}\n{6}：   / @nocopyrightmusic-ed2qv  \n\n{7}QQ{8}：518845256\n\n{9}\nb{10} {11}zjlblack\nsteam{12} bluesfly{13}\n{14} {15}\nQQ{16} {17}&&{18}vs{19}fa{20}hua{21}Ah，i'm dead，JKUS{22}cxk{23}|||||||{24}Ruri{25}yuuki{26}Kwdmz{27}Destruction{28}∵{29}∴{30}"
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Desc\": \"读档\",\r\n    \"DescTw\": \"讀檔\"\r\n  }"
   rawIndex: 11
   splits:
@@ -67,7 +160,16 @@
   rawIndex: 13
   splits:
   - splitPath: Desc
-    text: "游戏时长：{0}小时{1}分钟"
+    text: "游戏时长"
+  - splitPath: Desc
+    subIndex: 1
+    text: "小时"
+  - splitPath: Desc
+    subIndex: 2
+    text: "分钟"
+  templates:
+  - splitPath: Desc
+    template: "{0}：⟦0⟧{1}⟦1⟧{2}"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Desc\": \"无备注\",\r\n    \"DescTw\": \"無備註\"\r\n  }"
   rawIndex: 14
   splits:
@@ -127,12 +229,18 @@
   rawIndex: 25
   splits:
   - splitPath: Desc
-    text: "可选天赋："
+    text: "可选天赋"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Desc\": \"请输入名字：\",\r\n    \"DescTw\": \"請輸入名字：\"\r\n  }"
   rawIndex: 26
   splits:
   - splitPath: Desc
-    text: "请输入名字："
+    text: "请输入名字"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Desc\": \"红点提示\",\r\n    \"DescTw\": \"紅點提示\"\r\n  }"
   rawIndex: 27
   splits:
@@ -147,17 +255,26 @@
   rawIndex: 29
   splits:
   - splitPath: Desc
-    text: "形象："
+    text: "形象"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Desc\": \"点数：\",\r\n    \"DescTw\": \"點數：\"\r\n  }"
   rawIndex: 30
   splits:
   - splitPath: Desc
-    text: "点数："
+    text: "点数"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Desc\": \"加载中……\",\r\n    \"DescTw\": \"載入中……\"\r\n  }"
   rawIndex: 31
   splits:
   - splitPath: Desc
-    text: "加载中……"
+    text: "加载中"
+  templates:
+  - splitPath: Desc
+    template: "{0}……"
 - raw: "{\r\n    \"Key\": \"32\",\r\n    \"Desc\": \"成就\",\r\n    \"DescTw\": \"成就\"\r\n  }"
   rawIndex: 32
   splits:
@@ -172,22 +289,34 @@
   rawIndex: 34
   splits:
   - splitPath: Desc
-    text: "已解锁："
+    text: "已解锁"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"35\",\r\n    \"Desc\": \"<color=#00ff00>（已解锁）</color>\",\r\n    \"DescTw\": \"<color=#00ff00>（已解鎖）</color>\"\r\n  }"
   rawIndex: 35
   splits:
   - splitPath: Desc
-    text: "<color=#00ff00>（已解锁）</color>"
+    text: "（已解锁）"
+  templates:
+  - splitPath: Desc
+    template: "<color=#00ff00>{0}</color>"
 - raw: "{\r\n    \"Key\": \"36\",\r\n    \"Desc\": \"<color=#ffffff>（未解锁）</color>\",\r\n    \"DescTw\": \"<color=#ffffff>（未解鎖）</color>\"\r\n  }"
   rawIndex: 36
   splits:
   - splitPath: Desc
-    text: "<color=#ffffff>（未解锁）</color>"
+    text: "（未解锁）"
+  templates:
+  - splitPath: Desc
+    template: "<color=#ffffff>{0}</color>"
 - raw: "{\r\n    \"Key\": \"37\",\r\n    \"Desc\": \"解锁天赋：\",\r\n    \"DescTw\": \"解鎖天賦：\"\r\n  }"
   rawIndex: 37
   splits:
   - splitPath: Desc
-    text: "解锁天赋："
+    text: "解锁天赋"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"38\",\r\n    \"Desc\": \"无\",\r\n    \"DescTw\": \"無\"\r\n  }"
   rawIndex: 38
   splits:
@@ -232,7 +361,10 @@
   rawIndex: 46
   splits:
   - splitPath: Desc
-    text: "解锁方式："
+    text: "解锁方式"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"47\",\r\n    \"Desc\": \"侠客\",\r\n    \"DescTw\": \"俠客\"\r\n  }"
   rawIndex: 47
   splits:
@@ -242,7 +374,16 @@
   rawIndex: 48
   splits:
   - splitPath: Desc
-    text: "点击切换查看技能\\n再次点击查看属性\\n快捷键{0}"
+    text: "点击切换查看技能"
+  - splitPath: Desc
+    subIndex: 1
+    text: "再次点击查看属性"
+  - splitPath: Desc
+    subIndex: 2
+    text: "快捷键"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}⟦0⟧"
 - raw: "{\r\n    \"Key\": \"49\",\r\n    \"Desc\": \"当前门派可加入角色\",\r\n    \"DescTw\": \"當前門派可加入角色\"\r\n  }"
   rawIndex: 49
   splits:
@@ -312,22 +453,34 @@
   rawIndex: 62
   splits:
   - splitPath: Desc
-    text: "<color=#00ff00>绿色</color>"
+    text: "绿色"
+  templates:
+  - splitPath: Desc
+    template: "<color=#00ff00>{0}</color>"
 - raw: "{\r\n    \"Key\": \"63\",\r\n    \"Desc\": \"<color=#0000ff>蓝色</color>\",\r\n    \"DescTw\": \"<color=#0000ff>藍色</color>\"\r\n  }"
   rawIndex: 63
   splits:
   - splitPath: Desc
-    text: "<color=#0000ff>蓝色</color>"
+    text: "蓝色"
+  templates:
+  - splitPath: Desc
+    template: "<color=#0000ff>{0}</color>"
 - raw: "{\r\n    \"Key\": \"64\",\r\n    \"Desc\": \"<color=#800080>紫色</color>\",\r\n    \"DescTw\": \"<color=#800080>紫色</color>\"\r\n  }"
   rawIndex: 64
   splits:
   - splitPath: Desc
-    text: "<color=#800080>紫色</color>"
+    text: "紫色"
+  templates:
+  - splitPath: Desc
+    template: "<color=#800080>{0}</color>"
 - raw: "{\r\n    \"Key\": \"65\",\r\n    \"Desc\": \"<color=#daa520>金色</color>\",\r\n    \"DescTw\": \"<color=#daa520>金色</color>\"\r\n  }"
   rawIndex: 65
   splits:
   - splitPath: Desc
-    text: "<color=#daa520>金色</color>"
+    text: "金色"
+  templates:
+  - splitPath: Desc
+    template: "<color=#daa520>{0}</color>"
 - raw: "{\r\n    \"Key\": \"66\",\r\n    \"Desc\": \"结局\",\r\n    \"DescTw\": \"結局\"\r\n  }"
   rawIndex: 66
   splits:
@@ -467,7 +620,10 @@
   rawIndex: 93
   splits:
   - splitPath: Desc
-    text: "<color=#00ffff>可重复：</color>"
+    text: "可重复"
+  templates:
+  - splitPath: Desc
+    template: "<color=#00ffff>{0}：</color>"
 - raw: "{\r\n    \"Key\": \"94\",\r\n    \"Desc\": \"注意\",\r\n    \"DescTw\": \"注意\"\r\n  }"
   rawIndex: 94
   splits:
@@ -522,7 +678,10 @@
   rawIndex: 104
   splits:
   - splitPath: Desc
-    text: "存档{0}"
+    text: "存档"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧"
 - raw: "{\r\n    \"Key\": \"105\",\r\n    \"Desc\": \"回顾\",\r\n    \"DescTw\": \"回顧\"\r\n  }"
   rawIndex: 105
   splits:
@@ -532,12 +691,21 @@
   rawIndex: 106
   splits:
   - splitPath: Desc
-    text: "跳过\\n（{0}）"
+    text: "跳过"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n（⟦0⟧）"
 - raw: "{\r\n    \"Key\": \"107\",\r\n    \"Desc\": \"长按{0}加速\",\r\n    \"DescTw\": \"長按{0}加速\"\r\n  }"
   rawIndex: 107
   splits:
   - splitPath: Desc
-    text: "长按{0}加速"
+    text: "长按"
+  - splitPath: Desc
+    subIndex: 1
+    text: "加速"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"108\",\r\n    \"Desc\": \"手动\",\r\n    \"DescTw\": \"手動\"\r\n  }"
   rawIndex: 108
   splits:
@@ -682,7 +850,118 @@
   rawIndex: 136
   splits:
   - splitPath: Desc
-    text: "一、投掷骰子\n每位玩家轮流投掷 3 个骰子。\n\n\n二、继续投掷或见好就收\n1、继续投掷：可以选择继续投掷，但如果出现数字6（劫数），且没有特殊得分组合（顺子、豹子），你的点数将被清空；反之，点数累积。\n2、见好就收：如果你觉得当前点数不错，可以选择停止，保留本轮点数。\n\n\n\n三、得分规则\n每轮点数=基础点数*当前倍率\n1、基础点数：\n豹子：3 个骰子点数相同（如 3 个 5）得 固定600 点。\n顺子：1-2-3 或 4-5-6等得固定 300 点。\n其它组合：按点数组合的10倍得分（如3-5-6得140点）。\n2、当前倍率\n\n\n每轮翻1倍，如第二轮是2倍。\n\n四、关于“劫数”\n“劫数”固定为6，“劫数”出现的概率公式为每轮基础概率/（1+（侠客赌术/400）)，即赌术越高，“劫数”出现的概率越低。\n\n五、关于雅厅：\n玩家需要取胜三局获得最终奖励，如果无法连胜，可以下次再来挑战，局数进度将会保存。玩家取得最终奖励后，对手将不再出现在雅厅。\n\n六、关于通杀：\n当玩家赌术≥对手时可以通杀对手，直接取胜，此功能只能在剧情以及雅厅中使用。"
+    text: "一、投掷骰子"
+  - splitPath: Desc
+    subIndex: 1
+    text: "每位玩家轮流投掷"
+  - splitPath: Desc
+    subIndex: 2
+    text: "个骰子。"
+  - splitPath: Desc
+    subIndex: 3
+    text: "二、继续投掷或见好就收"
+  - splitPath: Desc
+    subIndex: 4
+    text: "1、继续投掷"
+  - splitPath: Desc
+    subIndex: 5
+    text: "可以选择继续投掷，但如果出现数字6（劫数），且没有特殊得分组合（顺子、豹子），你的点数将被清空；反之，点数累积。"
+  - splitPath: Desc
+    subIndex: 6
+    text: "2、见好就收"
+  - splitPath: Desc
+    subIndex: 7
+    text: "如果你觉得当前点数不错，可以选择停止，保留本轮点数。"
+  - splitPath: Desc
+    subIndex: 8
+    text: "三、得分规则"
+  - splitPath: Desc
+    subIndex: 9
+    text: "每轮点数"
+  - splitPath: Desc
+    subIndex: 10
+    text: "基础点数"
+  - splitPath: Desc
+    subIndex: 11
+    text: "当前倍率"
+  - splitPath: Desc
+    subIndex: 12
+    text: "1、基础点数"
+  - splitPath: Desc
+    subIndex: 13
+    text: "豹子"
+  - splitPath: Desc
+    subIndex: 14
+    text: "个骰子点数相同（如"
+  - splitPath: Desc
+    subIndex: 15
+    text: "个"
+  - splitPath: Desc
+    subIndex: 16
+    text: "5）得"
+  - splitPath: Desc
+    subIndex: 17
+    text: "固定600"
+  - splitPath: Desc
+    subIndex: 18
+    text: "点。"
+  - splitPath: Desc
+    subIndex: 19
+    text: "顺子"
+  - splitPath: Desc
+    subIndex: 20
+    text: "或"
+  - splitPath: Desc
+    subIndex: 21
+    text: "-6等得固定"
+  - splitPath: Desc
+    subIndex: 22
+    text: "点。"
+  - splitPath: Desc
+    subIndex: 23
+    text: "其它组合"
+  - splitPath: Desc
+    subIndex: 24
+    text: "按点数组合的10倍得分（如3"
+  - splitPath: Desc
+    subIndex: 25
+    text: "-6得140点）。"
+  - splitPath: Desc
+    subIndex: 26
+    text: "2、当前倍率"
+  - splitPath: Desc
+    subIndex: 27
+    text: "每轮翻1倍，如第二轮是2倍。"
+  - splitPath: Desc
+    subIndex: 28
+    text: "四、关于“劫数”"
+  - splitPath: Desc
+    subIndex: 29
+    text: "“劫数”固定为6，“劫数”出现的概率公式为每轮基础概率"
+  - splitPath: Desc
+    subIndex: 30
+    text: "（侠客赌术"
+  - splitPath: Desc
+    subIndex: 31
+    text: "，即赌术越高，“劫数”出现的概率越低。"
+  - splitPath: Desc
+    subIndex: 32
+    text: "五、关于雅厅"
+  - splitPath: Desc
+    subIndex: 33
+    text: "玩家需要取胜三局获得最终奖励，如果无法连胜，可以下次再来挑战，局数进度将会保存。玩家取得最终奖励后，对手将不再出现在雅厅。"
+  - splitPath: Desc
+    subIndex: 34
+    text: "六、关于通杀"
+  - splitPath: Desc
+    subIndex: 35
+    text: "当玩家赌术"
+  - splitPath: Desc
+    subIndex: 36
+    text: "对手时可以通杀对手，直接取胜，此功能只能在剧情以及雅厅中使用。"
+  templates:
+  - splitPath: Desc
+    template: "{0}\n{1} 3 {2}\n\n\n{3}\n{4}：{5}\n{6}：{7}\n\n\n\n{8}\n{9}={10}*{11}\n{12}：\n{13}：3 {14} 3 {15} {16} {17} {18}\n{19}：1-2-3 {20} 4-5{21} 300 {22}\n{23}：{24}-5{25}\n{26}\n\n\n{27}\n\n{28}\n{29}/（1+{30}/400）){31}\n\n{32}：\n{33}\n\n{34}：\n{35}≥{36}"
 - raw: "{\r\n    \"Key\": \"137\",\r\n    \"Desc\": \"删除\",\r\n    \"DescTw\": \"刪除\"\r\n  }"
   rawIndex: 137
   splits:
@@ -742,17 +1021,35 @@
   rawIndex: 149
   splits:
   - splitPath: Desc
-    text: "共{0}题"
+    text: "共"
+  - splitPath: Desc
+    subIndex: 1
+    text: "题"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"150\",\r\n    \"Desc\": \"第{0}题\",\r\n    \"DescTw\": \"第{0}題\"\r\n  }"
   rawIndex: 150
   splits:
   - splitPath: Desc
-    text: "第{0}题"
+    text: "第"
+  - splitPath: Desc
+    subIndex: 1
+    text: "题"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"151\",\r\n    \"Desc\": \"正确：{0}题\",\r\n    \"DescTw\": \"正確：{0}題\"\r\n  }"
   rawIndex: 151
   splits:
   - splitPath: Desc
-    text: "正确：{0}题"
+    text: "正确"
+  - splitPath: Desc
+    subIndex: 1
+    text: "题"
+  templates:
+  - splitPath: Desc
+    template: "{0}：⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"152\",\r\n    \"Desc\": \"劫数计算方法\",\r\n    \"DescTw\": \"劫數計算方法\"\r\n  }"
   rawIndex: 152
   splits:
@@ -762,7 +1059,25 @@
   rawIndex: 153
   splits:
   - splitPath: Desc
-    text: "<nobr>玩家：本轮基础概率{0}%/（1+（侠客赌术x2/400）)</nobr>\\n<nobr>对手：本轮基础概率{1}%/（1+（侠客赌术/400）)</nobr>"
+    text: "玩家"
+  - splitPath: Desc
+    subIndex: 1
+    text: "本轮基础概率"
+  - splitPath: Desc
+    subIndex: 2
+    text: "（侠客赌术"
+  - splitPath: Desc
+    subIndex: 3
+    text: "对手"
+  - splitPath: Desc
+    subIndex: 4
+    text: "本轮基础概率"
+  - splitPath: Desc
+    subIndex: 5
+    text: "（侠客赌术"
+  templates:
+  - splitPath: Desc
+    template: "<nobr>{0}：{1}⟦0⟧%/（1+{2}x2/400）)</nobr>\\n<nobr>{3}：{4}⟦1⟧%/（1+{5}/400）)</nobr>"
 - raw: "{\r\n    \"Key\": \"154\",\r\n    \"Desc\": \"本轮“劫数”\",\r\n    \"DescTw\": \"本輪“劫數”\"\r\n  }"
   rawIndex: 154
   splits:
@@ -777,7 +1092,10 @@
   rawIndex: 156
   splits:
   - splitPath: Desc
-    text: "累积探索度："
+    text: "累积探索度"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"157\",\r\n    \"Desc\": \"江湖再会\",\r\n    \"DescTw\": \"江湖再會\"\r\n  }"
   rawIndex: 157
   splits:
@@ -812,7 +1130,13 @@
   rawIndex: 163
   splits:
   - splitPath: Desc
-    text: "第{0}回合"
+    text: "第"
+  - splitPath: Desc
+    subIndex: 1
+    text: "回合"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"164\",\r\n    \"Desc\": \"玩家行动\",\r\n    \"DescTw\": \"玩家行動\"\r\n  }"
   rawIndex: 164
   splits:
@@ -847,7 +1171,10 @@
   rawIndex: 170
   splits:
   - splitPath: Desc
-    text: "Steam创意工坊"
+    text: "创意工坊"
+  templates:
+  - splitPath: Desc
+    template: "Steam{0}"
 - raw: "{\r\n    \"Key\": \"171\",\r\n    \"Desc\": \"工坊\",\r\n    \"DescTw\": \"工坊\"\r\n  }"
   rawIndex: 171
   splits:
@@ -937,12 +1264,18 @@
   rawIndex: 188
   splits:
   - splitPath: Desc
-    text: "上传失败："
+    text: "上传失败"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"189\",\r\n    \"Desc\": \"路径：\",\r\n    \"DescTw\": \"路徑：\"\r\n  }"
   rawIndex: 189
   splits:
   - splitPath: Desc
-    text: "路径："
+    text: "路径"
+  templates:
+  - splitPath: Desc
+    template: "{0}："
 - raw: "{\r\n    \"Key\": \"190\",\r\n    \"Desc\": \"点击跳转至目录\",\r\n    \"DescTw\": \"點擊跳轉至目錄\"\r\n  }"
   rawIndex: 190
   splits:
@@ -952,7 +1285,10 @@
   rawIndex: 191
   splits:
   - splitPath: Desc
-    text: "Mod制作说明"
+    text: "制作说明"
+  templates:
+  - splitPath: Desc
+    template: "Mod{0}"
 - raw: "{\r\n    \"Key\": \"192\",\r\n    \"Desc\": \"难度界面中可使用点数兑换各类强化效果\",\r\n    \"DescTw\": \"難度介面中可使用點數兌換各類強化效果\"\r\n  }"
   rawIndex: 192
   splits:

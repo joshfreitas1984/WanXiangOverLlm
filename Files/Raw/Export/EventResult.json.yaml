@@ -232,82 +232,178 @@
   rawIndex: 390100
   splits:
   - splitPath: Name
-    text: "基-衡山理月账"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山理月账"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390200\",\r\n    \"Name\": \"基-下山运米粮\"\r\n  }"
   rawIndex: 390200
   splits:
   - splitPath: Name
-    text: "基-下山运米粮"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "下山运米粮"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390300\",\r\n    \"Name\": \"基-伙房帮厨灶\"\r\n  }"
   rawIndex: 390300
   splits:
   - splitPath: Name
-    text: "基-伙房帮厨灶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "伙房帮厨灶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390400\",\r\n    \"Name\": \"基-打扫演武场\"\r\n  }"
   rawIndex: 390400
   splits:
   - splitPath: Name
-    text: "基-打扫演武场"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "打扫演武场"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390500\",\r\n    \"Name\": \"基-庄院当值守\"\r\n  }"
   rawIndex: 390500
   splits:
   - splitPath: Name
-    text: "基-庄院当值守"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄院当值守"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390600\",\r\n    \"Name\": \"基-库房理库存\"\r\n  }"
   rawIndex: 390600
   splits:
   - splitPath: Name
-    text: "基-库房理库存"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "库房理库存"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390700\",\r\n    \"Name\": \"基-酒坊收银钱\"\r\n  }"
   rawIndex: 390700
   splits:
   - splitPath: Name
-    text: "基-酒坊收银钱"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "酒坊收银钱"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390800\",\r\n    \"Name\": \"基-酒楼惩地痞\"\r\n  }"
   rawIndex: 390800
   splits:
   - splitPath: Name
-    text: "基-酒楼惩地痞"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "酒楼惩地痞"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390900\",\r\n    \"Name\": \"基-山脚逐凶兽\"\r\n  }"
   rawIndex: 390900
   splits:
   - splitPath: Name
-    text: "基-山脚逐凶兽"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "山脚逐凶兽"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391000\",\r\n    \"Name\": \"基-散银赈百姓\"\r\n  }"
   rawIndex: 391000
   splits:
   - splitPath: Name
-    text: "基-散银赈百姓"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "散银赈百姓"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391100\",\r\n    \"Name\": \"基-衡山送信一\"\r\n  }"
   rawIndex: 391100
   splits:
   - splitPath: Name
-    text: "基-衡山送信一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391200\",\r\n    \"Name\": \"基-衡山送信二\"\r\n  }"
   rawIndex: 391200
   splits:
   - splitPath: Name
-    text: "基-衡山送信二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391300\",\r\n    \"Name\": \"基-衡山送信三\"\r\n  }"
   rawIndex: 391300
   splits:
   - splitPath: Name
-    text: "基-衡山送信三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391400\",\r\n    \"Name\": \"基-衡山采买一\"\r\n  }"
   rawIndex: 391400
   splits:
   - splitPath: Name
-    text: "基-衡山采买一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391500\",\r\n    \"Name\": \"基-衡山采买二\"\r\n  }"
   rawIndex: 391500
   splits:
   - splitPath: Name
-    text: "基-衡山采买二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391600\",\r\n    \"Name\": \"基-衡山采买三\"\r\n  }"
   rawIndex: 391600
   splits:
   - splitPath: Name
-    text: "基-衡山采买三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"400100\",\r\n    \"Name\": \"君子授冬学\"\r\n  }"
   rawIndex: 400100
   splits:
@@ -332,27 +428,57 @@
   rawIndex: 401100
   splits:
   - splitPath: Name
-    text: "基-冬学孟子课"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学孟子课"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401200\",\r\n    \"Name\": \"基-冬学春秋课\"\r\n  }"
   rawIndex: 401200
   splits:
   - splitPath: Name
-    text: "基-冬学春秋课"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学春秋课"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401300\",\r\n    \"Name\": \"基-冬学大学课\"\r\n  }"
   rawIndex: 401300
   splits:
   - splitPath: Name
-    text: "基-冬学大学课"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学大学课"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401400\",\r\n    \"Name\": \"基-冬学中庸课\"\r\n  }"
   rawIndex: 401400
   splits:
   - splitPath: Name
-    text: "基-冬学中庸课"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学中庸课"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401500\",\r\n    \"Name\": \"基-冬学尔雅课\"\r\n  }"
   rawIndex: 401500
   splits:
   - splitPath: Name
-    text: "基-冬学尔雅课"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学尔雅课"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"402100\",\r\n    \"Name\": \"花炮授冬学\"\r\n  }"
   rawIndex: 402100
   splits:
@@ -377,27 +503,57 @@
   rawIndex: 403100
   splits:
   - splitPath: Name
-    text: "基-花炮配方一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403200\",\r\n    \"Name\": \"基-花炮配方二\"\r\n  }"
   rawIndex: 403200
   splits:
   - splitPath: Name
-    text: "基-花炮配方二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403300\",\r\n    \"Name\": \"基-花炮配方三\"\r\n  }"
   rawIndex: 403300
   splits:
   - splitPath: Name
-    text: "基-花炮配方三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403400\",\r\n    \"Name\": \"基-花炮配方四\"\r\n  }"
   rawIndex: 403400
   splits:
   - splitPath: Name
-    text: "基-花炮配方四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403500\",\r\n    \"Name\": \"基-花炮配方五\"\r\n  }"
   rawIndex: 403500
   splits:
   - splitPath: Name
-    text: "基-花炮配方五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"404100\",\r\n    \"Name\": \"药王授冬学\"\r\n  }"
   rawIndex: 404100
   splits:
@@ -417,27 +573,57 @@
   rawIndex: 405100
   splits:
   - splitPath: Name
-    text: "基-医术药理一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405200\",\r\n    \"Name\": \"基-医术药理二\"\r\n  }"
   rawIndex: 405200
   splits:
   - splitPath: Name
-    text: "基-医术药理二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405300\",\r\n    \"Name\": \"基-医术药理三\"\r\n  }"
   rawIndex: 405300
   splits:
   - splitPath: Name
-    text: "基-医术药理三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405400\",\r\n    \"Name\": \"基-医术药理四\"\r\n  }"
   rawIndex: 405400
   splits:
   - splitPath: Name
-    text: "基-医术药理四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405500\",\r\n    \"Name\": \"基-医术药理五\"\r\n  }"
   rawIndex: 405500
   splits:
   - splitPath: Name
-    text: "基-医术药理五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405600\",\r\n    \"Name\": \"百味授冬学\"\r\n  }"
   rawIndex: 405600
   splits:
@@ -522,67 +708,145 @@
   rawIndex: 590100
   splits:
   - splitPath: Name
-    text: "基-演武练功一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590200\",\r\n    \"Name\": \"基-演武练功二\"\r\n  }"
   rawIndex: 590200
   splits:
   - splitPath: Name
-    text: "基-演武练功二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590300\",\r\n    \"Name\": \"基-演武练功三\"\r\n  }"
   rawIndex: 590300
   splits:
   - splitPath: Name
-    text: "基-演武练功三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590400\",\r\n    \"Name\": \"基-演武练功四\"\r\n  }"
   rawIndex: 590400
   splits:
   - splitPath: Name
-    text: "基-演武练功四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590500\",\r\n    \"Name\": \"基-演武练功五\"\r\n  }"
   rawIndex: 590500
   splits:
   - splitPath: Name
-    text: "基-演武练功五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590600\",\r\n    \"Name\": \"基-演武练功六\"\r\n  }"
   rawIndex: 590600
   splits:
   - splitPath: Name
-    text: "基-演武练功六"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功六"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590700\",\r\n    \"Name\": \"基-演武练功七\"\r\n  }"
   rawIndex: 590700
   splits:
   - splitPath: Name
-    text: "基-演武练功七"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功七"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590800\",\r\n    \"Name\": \"基-演武练功八\"\r\n  }"
   rawIndex: 590800
   splits:
   - splitPath: Name
-    text: "基-演武练功八"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功八"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590900\",\r\n    \"Name\": \"基-演武练功九\"\r\n  }"
   rawIndex: 590900
   splits:
   - splitPath: Name
-    text: "基-演武练功九"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功九"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591000\",\r\n    \"Name\": \"基-杨芸练功一\"\r\n  }"
   rawIndex: 591000
   splits:
   - splitPath: Name
-    text: "基-杨芸练功一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591100\",\r\n    \"Name\": \"基-杨芸练功二\"\r\n  }"
   rawIndex: 591100
   splits:
   - splitPath: Name
-    text: "基-杨芸练功二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591200\",\r\n    \"Name\": \"基-杨芸练功三\"\r\n  }"
   rawIndex: 591200
   splits:
   - splitPath: Name
-    text: "基-杨芸练功三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591300\",\r\n    \"Name\": \"基-演武练保底\"\r\n  }"
   rawIndex: 591300
   splits:
   - splitPath: Name
-    text: "基-演武练保底"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练保底"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"600100\",\r\n    \"Name\": \"连峰减三式\"\r\n  }"
   rawIndex: 600100
   splits:
@@ -602,47 +866,101 @@
   rawIndex: 690100
   splits:
   - splitPath: Name
-    text: "基-聚气练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "聚气练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690200\",\r\n    \"Name\": \"基-意定练内功\"\r\n  }"
   rawIndex: 690200
   splits:
   - splitPath: Name
-    text: "基-意定练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "意定练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690300\",\r\n    \"Name\": \"基-冥心练内功\"\r\n  }"
   rawIndex: 690300
   splits:
   - splitPath: Name
-    text: "基-冥心练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冥心练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690400\",\r\n    \"Name\": \"基-凝神练内功\"\r\n  }"
   rawIndex: 690400
   splits:
   - splitPath: Name
-    text: "基-凝神练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "凝神练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690500\",\r\n    \"Name\": \"基-庄子出尘外\"\r\n  }"
   rawIndex: 690500
   splits:
   - splitPath: Name
-    text: "基-庄子出尘外"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄子出尘外"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690600\",\r\n    \"Name\": \"基-论语世经纶\"\r\n  }"
   rawIndex: 690600
   splits:
   - splitPath: Name
-    text: "基-论语世经纶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "论语世经纶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690700\",\r\n    \"Name\": \"基-法华宏佛理\"\r\n  }"
   rawIndex: 690700
   splits:
   - splitPath: Name
-    text: "基-法华宏佛理"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "法华宏佛理"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690800\",\r\n    \"Name\": \"基-周易知明理\"\r\n  }"
   rawIndex: 690800
   splits:
   - splitPath: Name
-    text: "基-周易知明理"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "周易知明理"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690900\",\r\n    \"Name\": \"基-静室练保底\"\r\n  }"
   rawIndex: 690900
   splits:
   - splitPath: Name
-    text: "基-静室练保底"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "静室练保底"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"700100\",\r\n    \"Name\": \"游赏祝融峰\"\r\n  }"
   rawIndex: 700100
   splits:
@@ -927,62 +1245,134 @@
   rawIndex: 790100
   splits:
   - splitPath: Name
-    text: "基-后山烟霞峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山烟霞峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790200\",\r\n    \"Name\": \"基-后山紫云峰\"\r\n  }"
   rawIndex: 790200
   splits:
   - splitPath: Name
-    text: "基-后山紫云峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山紫云峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790300\",\r\n    \"Name\": \"基-后山掷钵峰\"\r\n  }"
   rawIndex: 790300
   splits:
   - splitPath: Name
-    text: "基-后山掷钵峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山掷钵峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790400\",\r\n    \"Name\": \"基-后山金简峰\"\r\n  }"
   rawIndex: 790400
   splits:
   - splitPath: Name
-    text: "基-后山金简峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山金简峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790500\",\r\n    \"Name\": \"基-后山集贤峰\"\r\n  }"
   rawIndex: 790500
   splits:
   - splitPath: Name
-    text: "基-后山集贤峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山集贤峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790600\",\r\n    \"Name\": \"基-后山灵禽峰\"\r\n  }"
   rawIndex: 790600
   splits:
   - splitPath: Name
-    text: "基-后山灵禽峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山灵禽峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790700\",\r\n    \"Name\": \"基-彩霞竞登峰\"\r\n  }"
   rawIndex: 790700
   splits:
   - splitPath: Name
-    text: "基-彩霞竞登峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "彩霞竞登峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790800\",\r\n    \"Name\": \"基-白石竞登峰\"\r\n  }"
   rawIndex: 790800
   splits:
   - splitPath: Name
-    text: "基-白石竞登峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "白石竞登峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790900\",\r\n    \"Name\": \"基-渔樵对歌一\"\r\n  }"
   rawIndex: 790900
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791000\",\r\n    \"Name\": \"基-渔樵对歌二\"\r\n  }"
   rawIndex: 791000
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791100\",\r\n    \"Name\": \"基-渔樵对歌三\"\r\n  }"
   rawIndex: 791100
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791200\",\r\n    \"Name\": \"基-渔樵对歌四\"\r\n  }"
   rawIndex: 791200
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"800811\",\r\n    \"Name\": \"铁口算渐卦\"\r\n  }"
   rawIndex: 800811
   splits:
@@ -1217,52 +1607,112 @@
   rawIndex: 890100
   splits:
   - splitPath: Name
-    text: "基-耒阳湖子酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "耒阳湖子酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890200\",\r\n    \"Name\": \"基-安仁鸡婆糕\"\r\n  }"
   rawIndex: 890200
   splits:
   - splitPath: Name
-    text: "基-安仁鸡婆糕"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安仁鸡婆糕"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890300\",\r\n    \"Name\": \"基-东安陈醋鸡\"\r\n  }"
   rawIndex: 890300
   splits:
   - splitPath: Name
-    text: "基-东安陈醋鸡"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "东安陈醋鸡"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890400\",\r\n    \"Name\": \"基-祁阳曲米鱼\"\r\n  }"
   rawIndex: 890400
   splits:
   - splitPath: Name
-    text: "基-祁阳曲米鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "祁阳曲米鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890500\",\r\n    \"Name\": \"基-衡山云雾茶\"\r\n  }"
   rawIndex: 890500
   splits:
   - splitPath: Name
-    text: "基-衡山云雾茶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山云雾茶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891100\",\r\n    \"Name\": \"基-浯溪有碑林\"\r\n  }"
   rawIndex: 891100
   splits:
   - splitPath: Name
-    text: "基-浯溪有碑林"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "浯溪有碑林"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891200\",\r\n    \"Name\": \"基-潇湘夜雨时\"\r\n  }"
   rawIndex: 891200
   splits:
   - splitPath: Name
-    text: "基-潇湘夜雨时"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "潇湘夜雨时"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891300\",\r\n    \"Name\": \"基-楚戏白兔记\"\r\n  }"
   rawIndex: 891300
   splits:
   - splitPath: Name
-    text: "基-楚戏白兔记"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏白兔记"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891400\",\r\n    \"Name\": \"基-楚戏拜月记\"\r\n  }"
   rawIndex: 891400
   splits:
   - splitPath: Name
-    text: "基-楚戏拜月记"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏拜月记"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891500\",\r\n    \"Name\": \"基-楚戏目连传\"\r\n  }"
   rawIndex: 891500
   splits:
   - splitPath: Name
-    text: "基-楚戏目连传"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏目连传"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"892300\",\r\n    \"Name\": \"首胜得虎骨\"\r\n  }"
   rawIndex: 892300
   splits:
@@ -1892,52 +2342,112 @@
   rawIndex: 1090100
   splits:
   - splitPath: Name
-    text: "基-黄州东坡肉"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "黄州东坡肉"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090200\",\r\n    \"Name\": \"基-黄州品烧梅\"\r\n  }"
   rawIndex: 1090200
   splits:
   - splitPath: Name
-    text: "基-黄州品烧梅"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "黄州品烧梅"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090300\",\r\n    \"Name\": \"基-沔阳三蒸菜\"\r\n  }"
   rawIndex: 1090300
   splits:
   - splitPath: Name
-    text: "基-沔阳三蒸菜"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "沔阳三蒸菜"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090400\",\r\n    \"Name\": \"基-清蒸武昌鱼\"\r\n  }"
   rawIndex: 1090400
   splits:
   - splitPath: Name
-    text: "基-清蒸武昌鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "清蒸武昌鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090500\",\r\n    \"Name\": \"基-孝感伏汁酒\"\r\n  }"
   rawIndex: 1090500
   splits:
   - splitPath: Name
-    text: "基-孝感伏汁酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "孝感伏汁酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090600\",\r\n    \"Name\": \"基-麻城老米酒\"\r\n  }"
   rawIndex: 1090600
   splits:
   - splitPath: Name
-    text: "基-麻城老米酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "麻城老米酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090700\",\r\n    \"Name\": \"基-排骨莲藕汤\"\r\n  }"
   rawIndex: 1090700
   splits:
   - splitPath: Name
-    text: "基-排骨莲藕汤"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "排骨莲藕汤"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091100\",\r\n    \"Name\": \"基-蕲春有艾叶\"\r\n  }"
   rawIndex: 1091100
   splits:
   - splitPath: Name
-    text: "基-蕲春有艾叶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "蕲春有艾叶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091200\",\r\n    \"Name\": \"基-武昌黄鹤楼\"\r\n  }"
   rawIndex: 1091200
   splits:
   - splitPath: Name
-    text: "基-武昌黄鹤楼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "武昌黄鹤楼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091300\",\r\n    \"Name\": \"基-两分大别山\"\r\n  }"
   rawIndex: 1091300
   splits:
   - splitPath: Name
-    text: "基-两分大别山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "两分大别山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1095500\",\r\n    \"Name\": \"战胜淳于望\"\r\n  }"
   rawIndex: 1095500
   splits:
@@ -2687,22 +3197,46 @@
   rawIndex: 2091100
   splits:
   - splitPath: Name
-    text: "基-长沙糖油粑"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "长沙糖油粑"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2091200\",\r\n    \"Name\": \"基-冰糖湘莲羹\"\r\n  }"
   rawIndex: 2091200
   splits:
   - splitPath: Name
-    text: "基-冰糖湘莲羹"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冰糖湘莲羹"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2091300\",\r\n    \"Name\": \"基-醴陵火焙鱼\"\r\n  }"
   rawIndex: 2091300
   splits:
   - splitPath: Name
-    text: "基-醴陵火焙鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "醴陵火焙鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2092100\",\r\n    \"Name\": \"基-长沙岳麓山\"\r\n  }"
   rawIndex: 2092100
   splits:
   - splitPath: Name
-    text: "基-长沙岳麓山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "长沙岳麓山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2096000\",\r\n    \"Name\": \"彩头五百钱\"\r\n  }"
   rawIndex: 2096000
   splits:
@@ -2817,7 +3351,13 @@
   rawIndex: 2290300
   splits:
   - splitPath: Name
-    text: "从这行起，条件id为负数，沾这行条件公式"
+    text: "从这行起，条件"
+  - splitPath: Name
+    subIndex: 1
+    text: "为负数，沾这行条件公式"
+  templates:
+  - splitPath: Name
+    template: "{0}id{1}"
 - raw: "{\r\n    \"Key\": \"2300300\",\r\n    \"Name\": \"入门考过关\"\r\n  }"
   rawIndex: 2300300
   splits:
@@ -3217,27 +3757,57 @@
   rawIndex: 2591100
   splits:
   - splitPath: Name
-    text: "基-云梦泽鱼面"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "云梦泽鱼面"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591200\",\r\n    \"Name\": \"基-襄阳应时酒\"\r\n  }"
   rawIndex: 2591200
   splits:
   - splitPath: Name
-    text: "基-襄阳应时酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳应时酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591300\",\r\n    \"Name\": \"基-襄阳地封酒\"\r\n  }"
   rawIndex: 2591300
   splits:
   - splitPath: Name
-    text: "基-襄阳地封酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳地封酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591400\",\r\n    \"Name\": \"基-襄阳鹿门山\"\r\n  }"
   rawIndex: 2591400
   splits:
   - splitPath: Name
-    text: "基-襄阳鹿门山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳鹿门山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591500\",\r\n    \"Name\": \"基-襄阳外隆中\"\r\n  }"
   rawIndex: 2591500
   splits:
   - splitPath: Name
-    text: "基-襄阳外隆中"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳外隆中"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2600200\",\r\n    \"Name\": \"拜见连山谷\"\r\n  }"
   rawIndex: 2600200
   splits:
@@ -3272,27 +3842,57 @@
   rawIndex: 2690100
   splits:
   - splitPath: Name
-    text: "基-医术药理一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690200\",\r\n    \"Name\": \"基-医术药理二\"\r\n  }"
   rawIndex: 2690200
   splits:
   - splitPath: Name
-    text: "基-医术药理二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690300\",\r\n    \"Name\": \"基-医术药理三\"\r\n  }"
   rawIndex: 2690300
   splits:
   - splitPath: Name
-    text: "基-医术药理三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690400\",\r\n    \"Name\": \"基-医术药理四\"\r\n  }"
   rawIndex: 2690400
   splits:
   - splitPath: Name
-    text: "基-医术药理四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690500\",\r\n    \"Name\": \"基-医术药理五\"\r\n  }"
   rawIndex: 2690500
   splits:
   - splitPath: Name
-    text: "基-医术药理五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3000100\",\r\n    \"Name\": \"道玄授门规\"\r\n  }"
   rawIndex: 3000100
   splits:
@@ -3537,17 +4137,35 @@
   rawIndex: 3290100
   splits:
   - splitPath: Name
-    text: "基-下山运米粮"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "下山运米粮"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3290200\",\r\n    \"Name\": \"基-救难天仙女\"\r\n  }"
   rawIndex: 3290200
   splits:
   - splitPath: Name
-    text: "基-救难天仙女"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "救难天仙女"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3290300\",\r\n    \"Name\": \"基-武当执夜守\"\r\n  }"
   rawIndex: 3290300
   splits:
   - splitPath: Name
-    text: "基-武当执夜守"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "武当执夜守"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3300100\",\r\n    \"Name\": \"玄机坐忘台\"\r\n  }"
   rawIndex: 3300100
   splits:
@@ -3602,67 +4220,145 @@
   rawIndex: 3390100
   splits:
   - splitPath: Name
-    text: "基-道先传武一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道先传武一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390200\",\r\n    \"Name\": \"基-道先传武二\"\r\n  }"
   rawIndex: 3390200
   splits:
   - splitPath: Name
-    text: "基-道先传武二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道先传武二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390300\",\r\n    \"Name\": \"基-道生传武一\"\r\n  }"
   rawIndex: 3390300
   splits:
   - splitPath: Name
-    text: "基-道生传武一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道生传武一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390400\",\r\n    \"Name\": \"基-道生传武二\"\r\n  }"
   rawIndex: 3390400
   splits:
   - splitPath: Name
-    text: "基-道生传武二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道生传武二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390500\",\r\n    \"Name\": \"基-道朴传武一\"\r\n  }"
   rawIndex: 3390500
   splits:
   - splitPath: Name
-    text: "基-道朴传武一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道朴传武一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390600\",\r\n    \"Name\": \"基-道朴传武二\"\r\n  }"
   rawIndex: 3390600
   splits:
   - splitPath: Name
-    text: "基-道朴传武二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道朴传武二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390700\",\r\n    \"Name\": \"基-道安传武一\"\r\n  }"
   rawIndex: 3390700
   splits:
   - splitPath: Name
-    text: "基-道安传武一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道安传武一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390800\",\r\n    \"Name\": \"基-道安传武二\"\r\n  }"
   rawIndex: 3390800
   splits:
   - splitPath: Name
-    text: "基-道安传武二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道安传武二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390900\",\r\n    \"Name\": \"基-道衍传武二\"\r\n  }"
   rawIndex: 3390900
   splits:
   - splitPath: Name
-    text: "基-道衍传武二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391000\",\r\n    \"Name\": \"基-道衍传武三\"\r\n  }"
   rawIndex: 3391000
   splits:
   - splitPath: Name
-    text: "基-道衍传武三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391100\",\r\n    \"Name\": \"基-道衍传武四\"\r\n  }"
   rawIndex: 3391100
   splits:
   - splitPath: Name
-    text: "基-道衍传武四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391200\",\r\n    \"Name\": \"基-道衍传武五\"\r\n  }"
   rawIndex: 3391200
   splits:
   - splitPath: Name
-    text: "基-道衍传武五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3395100\",\r\n    \"Name\": \"基-道衍传武一\"\r\n  }"
   rawIndex: 3395100
   splits:
   - splitPath: Name
-    text: "基-道衍传武一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3400100\",\r\n    \"Name\": \"初知无根树\"\r\n  }"
   rawIndex: 3400100
   splits:
@@ -3777,32 +4473,68 @@
   rawIndex: 3490100
   splits:
   - splitPath: Name
-    text: "基-道学道德经"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学道德经"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490200\",\r\n    \"Name\": \"基-道学太平经\"\r\n  }"
   rawIndex: 3490200
   splits:
   - splitPath: Name
-    text: "基-道学太平经"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学太平经"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490300\",\r\n    \"Name\": \"基-道学清静经\"\r\n  }"
   rawIndex: 3490300
   splits:
   - splitPath: Name
-    text: "基-道学清静经"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学清静经"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490400\",\r\n    \"Name\": \"基-道学阴符经\"\r\n  }"
   rawIndex: 3490400
   splits:
   - splitPath: Name
-    text: "基-道学阴符经"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学阴符经"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490800\",\r\n    \"Name\": \"基-道学保底经\"\r\n  }"
   rawIndex: 3490800
   splits:
   - splitPath: Name
-    text: "基-道学保底经"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学保底经"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490900\",\r\n    \"Name\": \"基-解真阁保底\"\r\n  }"
   rawIndex: 3490900
   splits:
   - splitPath: Name
-    text: "基-解真阁保底"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "解真阁保底"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3700100\",\r\n    \"Name\": \"武当丹道传\"\r\n  }"
   rawIndex: 3700100
   splits:
@@ -4052,17 +4784,35 @@
   rawIndex: 3890100
   splits:
   - splitPath: Name
-    text: "基-后山南岩峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山南岩峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3890200\",\r\n    \"Name\": \"基-后山五龙峰\"\r\n  }"
   rawIndex: 3890200
   splits:
   - splitPath: Name
-    text: "基-后山五龙峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山五龙峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3890300\",\r\n    \"Name\": \"基-后山武柱峰\"\r\n  }"
   rawIndex: 3890300
   splits:
   - splitPath: Name
-    text: "基-后山武柱峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山武柱峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3900200\",\r\n    \"Name\": \"进广成丹穴\"\r\n  }"
   rawIndex: 3900200
   splits:
@@ -4112,32 +4862,68 @@
   rawIndex: 3949100
   splits:
   - splitPath: Name
-    text: "基-太乙论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "太乙论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949200\",\r\n    \"Name\": \"基-通明论丹诀\"\r\n  }"
   rawIndex: 3949200
   splits:
   - splitPath: Name
-    text: "基-通明论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "通明论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949300\",\r\n    \"Name\": \"基-化一论丹诀\"\r\n  }"
   rawIndex: 3949300
   splits:
   - splitPath: Name
-    text: "基-化一论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "化一论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949400\",\r\n    \"Name\": \"基-清风论丹诀\"\r\n  }"
   rawIndex: 3949400
   splits:
   - splitPath: Name
-    text: "基-清风论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "清风论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949500\",\r\n    \"Name\": \"基-道灵论丹诀\"\r\n  }"
   rawIndex: 3949500
   splits:
   - splitPath: Name
-    text: "基-道灵论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "道灵论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949600\",\r\n    \"Name\": \"基-玉鼎论丹诀\"\r\n  }"
   rawIndex: 3949600
   splits:
   - splitPath: Name
-    text: "基-玉鼎论丹诀"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "玉鼎论丹诀"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3950100\",\r\n    \"Name\": \"崆峒太初洞\"\r\n  }"
   rawIndex: 3950100
   splits:
@@ -4197,12 +4983,24 @@
   rawIndex: 3979100
   splits:
   - splitPath: Name
-    text: "基-太易基础一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "太易基础一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3979200\",\r\n    \"Name\": \"基-太易基础二\"\r\n  }"
   rawIndex: 3979200
   splits:
   - splitPath: Name
-    text: "基-太易基础二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "太易基础二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3999100\",\r\n    \"Name\": \"洞中勤修炼\"\r\n  }"
   rawIndex: 3999100
   splits:
@@ -4687,37 +5485,79 @@
   rawIndex: 4390100
   splits:
   - splitPath: Name
-    text: "基-岳州汨罗粽"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州汨罗粽"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390200\",\r\n    \"Name\": \"基-武陵桃源酒\"\r\n  }"
   rawIndex: 4390200
   splits:
   - splitPath: Name
-    text: "基-武陵桃源酒"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "武陵桃源酒"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390300\",\r\n    \"Name\": \"基-南江黄鳝面\"\r\n  }"
   rawIndex: 4390300
   splits:
   - splitPath: Name
-    text: "基-南江黄鳝面"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "南江黄鳝面"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390400\",\r\n    \"Name\": \"基-君山银针茶\"\r\n  }"
   rawIndex: 4390400
   splits:
   - splitPath: Name
-    text: "基-君山银针茶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "君山银针茶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390500\",\r\n    \"Name\": \"基-沅江壶头山\"\r\n  }"
   rawIndex: 4390500
   splits:
   - splitPath: Name
-    text: "基-沅江壶头山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "沅江壶头山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390600\",\r\n    \"Name\": \"基-岳州汨罗江\"\r\n  }"
   rawIndex: 4390600
   splits:
   - splitPath: Name
-    text: "基-岳州汨罗江"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州汨罗江"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390700\",\r\n    \"Name\": \"基-岳州岳阳楼\"\r\n  }"
   rawIndex: 4390700
   splits:
   - splitPath: Name
-    text: "基-岳州岳阳楼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州岳阳楼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4500100\",\r\n    \"Name\": \"拜访挂锤庄\"\r\n  }"
   rawIndex: 4500100
   splits:
@@ -5317,12 +6157,24 @@
   rawIndex: 5390700
   splits:
   - splitPath: Name
-    text: "基-龙女钓银鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙女钓银鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5390800\",\r\n    \"Name\": \"基-龙女钓鲈鱼\"\r\n  }"
   rawIndex: 5390800
   splits:
   - splitPath: Name
-    text: "基-龙女钓鲈鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙女钓鲈鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5400100\",\r\n    \"Name\": \"荆南寻杜涌\"\r\n  }"
   rawIndex: 5400100
   splits:
@@ -5447,22 +6299,46 @@
   rawIndex: 5491100
   splits:
   - splitPath: Name
-    text: "基-沔阳三蒸碗"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "沔阳三蒸碗"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491200\",\r\n    \"Name\": \"基-江陵千张肉\"\r\n  }"
   rawIndex: 5491200
   splits:
   - splitPath: Name
-    text: "基-江陵千张肉"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "江陵千张肉"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491300\",\r\n    \"Name\": \"基-冬瓜鳖裙羹\"\r\n  }"
   rawIndex: 5491300
   splits:
   - splitPath: Name
-    text: "基-冬瓜鳖裙羹"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬瓜鳖裙羹"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491600\",\r\n    \"Name\": \"基-江陵无高山\"\r\n  }"
   rawIndex: 5491600
   splits:
   - splitPath: Name
-    text: "基-江陵无高山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "江陵无高山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5500100\",\r\n    \"Name\": \"通天显神迹\"\r\n  }"
   rawIndex: 5500100
   splits:
@@ -5577,32 +6453,68 @@
   rawIndex: 5691100
   splits:
   - splitPath: Name
-    text: "基-龙兴油酥糖"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙兴油酥糖"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691200\",\r\n    \"Name\": \"基-湘地腊合蒸\"\r\n  }"
   rawIndex: 5691200
   splits:
   - splitPath: Name
-    text: "基-湘地腊合蒸"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "湘地腊合蒸"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691300\",\r\n    \"Name\": \"基-凤凰血粑鸭\"\r\n  }"
   rawIndex: 5691300
   splits:
   - splitPath: Name
-    text: "基-凤凰血粑鸭"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "凤凰血粑鸭"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691600\",\r\n    \"Name\": \"基-崀山丹霞地\"\r\n  }"
   rawIndex: 5691600
   splits:
   - splitPath: Name
-    text: "基-崀山丹霞地"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "崀山丹霞地"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691700\",\r\n    \"Name\": \"基-武冈法相岩\"\r\n  }"
   rawIndex: 5691700
   splits:
   - splitPath: Name
-    text: "基-武冈法相岩"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "武冈法相岩"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5692100\",\r\n    \"Name\": \"基-风扬炖牛头\"\r\n  }"
   rawIndex: 5692100
   splits:
   - splitPath: Name
-    text: "基-风扬炖牛头"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "风扬炖牛头"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5700900\",\r\n    \"Name\": \"战胜乔道安\"\r\n  }"
   rawIndex: 5700900
   splits:
@@ -5927,32 +6839,68 @@
   rawIndex: 6391100
   splits:
   - splitPath: Name
-    text: "基-达州灯影肉"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "达州灯影肉"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391200\",\r\n    \"Name\": \"基-铜梁六赢酥\"\r\n  }"
   rawIndex: 6391200
   splits:
   - splitPath: Name
-    text: "基-铜梁六赢酥"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "铜梁六赢酥"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391300\",\r\n    \"Name\": \"基-云阳桃片糕\"\r\n  }"
   rawIndex: 6391300
   splits:
   - splitPath: Name
-    text: "基-云阳桃片糕"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "云阳桃片糕"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391400\",\r\n    \"Name\": \"基-奉节巴乡清\"\r\n  }"
   rawIndex: 6391400
   splits:
   - splitPath: Name
-    text: "基-奉节巴乡清"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "奉节巴乡清"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6392100\",\r\n    \"Name\": \"基-泛舟翟塘峡\"\r\n  }"
   rawIndex: 6392100
   splits:
   - splitPath: Name
-    text: "基-泛舟翟塘峡"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "泛舟翟塘峡"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6392200\",\r\n    \"Name\": \"基-巫山十二峰\"\r\n  }"
   rawIndex: 6392200
   splits:
   - splitPath: Name
-    text: "基-巫山十二峰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "巫山十二峰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6400200\",\r\n    \"Name\": \"洗墨池再会\"\r\n  }"
   rawIndex: 6400200
   splits:
@@ -6212,37 +7160,79 @@
   rawIndex: 6691100
   splits:
   - splitPath: Name
-    text: "基-彭州军锅盔"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "彭州军锅盔"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691200\",\r\n    \"Name\": \"基-眉山东坡肘\"\r\n  }"
   rawIndex: 6691200
   splits:
   - splitPath: Name
-    text: "基-眉山东坡肘"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "眉山东坡肘"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691300\",\r\n    \"Name\": \"基-川西太白鸭\"\r\n  }"
   rawIndex: 6691300
   splits:
   - splitPath: Name
-    text: "基-川西太白鸭"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "川西太白鸭"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691400\",\r\n    \"Name\": \"基-金齑成玉脍\"\r\n  }"
   rawIndex: 6691400
   splits:
   - splitPath: Name
-    text: "基-金齑成玉脍"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "金齑成玉脍"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691500\",\r\n    \"Name\": \"基-蒙顶甘露茶\"\r\n  }"
   rawIndex: 6691500
   splits:
   - splitPath: Name
-    text: "基-蒙顶甘露茶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "蒙顶甘露茶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6692100\",\r\n    \"Name\": \"基-灌县都江堰\"\r\n  }"
   rawIndex: 6692100
   splits:
   - splitPath: Name
-    text: "基-灌县都江堰"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "灌县都江堰"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6692200\",\r\n    \"Name\": \"基-成都宝光寺\"\r\n  }"
   rawIndex: 6692200
   splits:
   - splitPath: Name
-    text: "基-成都宝光寺"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "成都宝光寺"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6700200\",\r\n    \"Name\": \"拜访郜春风\"\r\n  }"
   rawIndex: 6700200
   splits:
@@ -6967,27 +7957,57 @@
   rawIndex: 7390100
   splits:
   - splitPath: Name
-    text: "基-安乐游戏一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390200\",\r\n    \"Name\": \"基-安乐游戏二\"\r\n  }"
   rawIndex: 7390200
   splits:
   - splitPath: Name
-    text: "基-安乐游戏二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390300\",\r\n    \"Name\": \"基-安乐游戏三\"\r\n  }"
   rawIndex: 7390300
   splits:
   - splitPath: Name
-    text: "基-安乐游戏三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390400\",\r\n    \"Name\": \"基-安乐游戏四\"\r\n  }"
   rawIndex: 7390400
   splits:
   - splitPath: Name
-    text: "基-安乐游戏四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390500\",\r\n    \"Name\": \"基-安乐游戏四\"\r\n  }"
   rawIndex: 7390500
   splits:
   - splitPath: Name
-    text: "基-安乐游戏四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7400100\",\r\n    \"Name\": \"再会二先生\"\r\n  }"
   rawIndex: 7400100
   splits:
@@ -7032,22 +8052,46 @@
   rawIndex: 7490100
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490200\",\r\n    \"Name\": \"基-唐隐传毒二\"\r\n  }"
   rawIndex: 7490200
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490300\",\r\n    \"Name\": \"基-唐隐传毒三\"\r\n  }"
   rawIndex: 7490300
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490400\",\r\n    \"Name\": \"基-唐隐传毒四\"\r\n  }"
   rawIndex: 7490400
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490500\",\r\n    \"Name\": \"试毒天人衰\"\r\n  }"
   rawIndex: 7490500
   splits:
@@ -7152,27 +8196,57 @@
   rawIndex: 7590100
   splits:
   - splitPath: Name
-    text: "基-机关之学一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590200\",\r\n    \"Name\": \"基-机关之学二\"\r\n  }"
   rawIndex: 7590200
   splits:
   - splitPath: Name
-    text: "基-机关之学二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590300\",\r\n    \"Name\": \"基-机关之学三\"\r\n  }"
   rawIndex: 7590300
   splits:
   - splitPath: Name
-    text: "基-机关之学三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590400\",\r\n    \"Name\": \"基-机关之学四\"\r\n  }"
   rawIndex: 7590400
   splits:
   - splitPath: Name
-    text: "基-机关之学四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590500\",\r\n    \"Name\": \"基-机关之学四\"\r\n  }"
   rawIndex: 7590500
   splits:
   - splitPath: Name
-    text: "基-机关之学四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7600300\",\r\n    \"Name\": \"战胜唐兴\"\r\n  }"
   rawIndex: 7600300
   splits:
@@ -7192,87 +8266,189 @@
   rawIndex: 7690100
   splits:
   - splitPath: Name
-    text: "基-演武练功一"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功一"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690200\",\r\n    \"Name\": \"基-演武练功二\"\r\n  }"
   rawIndex: 7690200
   splits:
   - splitPath: Name
-    text: "基-演武练功二"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功二"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690300\",\r\n    \"Name\": \"基-演武练功三\"\r\n  }"
   rawIndex: 7690300
   splits:
   - splitPath: Name
-    text: "基-演武练功三"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功三"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690400\",\r\n    \"Name\": \"基-演武练功四\"\r\n  }"
   rawIndex: 7690400
   splits:
   - splitPath: Name
-    text: "基-演武练功四"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功四"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690500\",\r\n    \"Name\": \"基-演武练功五\"\r\n  }"
   rawIndex: 7690500
   splits:
   - splitPath: Name
-    text: "基-演武练功五"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功五"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690600\",\r\n    \"Name\": \"基-演武练功六\"\r\n  }"
   rawIndex: 7690600
   splits:
   - splitPath: Name
-    text: "基-演武练功六"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功六"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690700\",\r\n    \"Name\": \"基-演武练功七\"\r\n  }"
   rawIndex: 7690700
   splits:
   - splitPath: Name
-    text: "基-演武练功七"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功七"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7691100\",\r\n    \"Name\": \"基-演武练保底\"\r\n  }"
   rawIndex: 7691100
   splits:
   - splitPath: Name
-    text: "基-演武练保底"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练保底"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790100\",\r\n    \"Name\": \"基-聚气练内功\"\r\n  }"
   rawIndex: 7790100
   splits:
   - splitPath: Name
-    text: "基-聚气练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "聚气练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790200\",\r\n    \"Name\": \"基-意定练内功\"\r\n  }"
   rawIndex: 7790200
   splits:
   - splitPath: Name
-    text: "基-意定练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "意定练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790300\",\r\n    \"Name\": \"基-冥心练内功\"\r\n  }"
   rawIndex: 7790300
   splits:
   - splitPath: Name
-    text: "基-冥心练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "冥心练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790400\",\r\n    \"Name\": \"基-凝神练内功\"\r\n  }"
   rawIndex: 7790400
   splits:
   - splitPath: Name
-    text: "基-凝神练内功"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "凝神练内功"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790500\",\r\n    \"Name\": \"基-庄子出尘外\"\r\n  }"
   rawIndex: 7790500
   splits:
   - splitPath: Name
-    text: "基-庄子出尘外"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄子出尘外"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790600\",\r\n    \"Name\": \"基-论语世经纶\"\r\n  }"
   rawIndex: 7790600
   splits:
   - splitPath: Name
-    text: "基-论语世经纶"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "论语世经纶"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790700\",\r\n    \"Name\": \"基-法华宏佛理\"\r\n  }"
   rawIndex: 7790700
   splits:
   - splitPath: Name
-    text: "基-法华宏佛理"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "法华宏佛理"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790800\",\r\n    \"Name\": \"基-周易知明理\"\r\n  }"
   rawIndex: 7790800
   splits:
   - splitPath: Name
-    text: "基-周易知明理"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "周易知明理"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790900\",\r\n    \"Name\": \"基-静室练保底\"\r\n  }"
   rawIndex: 7790900
   splits:
   - splitPath: Name
-    text: "基-静室练保底"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "静室练保底"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7800100\",\r\n    \"Name\": \"后山解冤家\"\r\n  }"
   rawIndex: 7800100
   splits:
@@ -7487,42 +8663,90 @@
   rawIndex: 7991100
   splits:
   - splitPath: Name
-    text: "基-广元核桃酥"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "广元核桃酥"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991200\",\r\n    \"Name\": \"基-夫妻米凉面\"\r\n  }"
   rawIndex: 7991200
   splits:
   - splitPath: Name
-    text: "基-夫妻米凉面"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "夫妻米凉面"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991300\",\r\n    \"Name\": \"基-梓潼县酥饼\"\r\n  }"
   rawIndex: 7991300
   splits:
   - splitPath: Name
-    text: "基-梓潼县酥饼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "梓潼县酥饼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991400\",\r\n    \"Name\": \"基-巴中枣林鱼\"\r\n  }"
   rawIndex: 7991400
   splits:
   - splitPath: Name
-    text: "基-巴中枣林鱼"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "巴中枣林鱼"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991500\",\r\n    \"Name\": \"基-正直大酥肉\"\r\n  }"
   rawIndex: 7991500
   splits:
   - splitPath: Name
-    text: "基-正直大酥肉"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "正直大酥肉"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991600\",\r\n    \"Name\": \"基-南充卧龙鲊\"\r\n  }"
   rawIndex: 7991600
   splits:
   - splitPath: Name
-    text: "基-南充卧龙鲊"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "南充卧龙鲊"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991700\",\r\n    \"Name\": \"基-广元剑阁道\"\r\n  }"
   rawIndex: 7991700
   splits:
   - splitPath: Name
-    text: "基-广元剑阁道"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "广元剑阁道"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991800\",\r\n    \"Name\": \"基-水宁寺佛龛\"\r\n  }"
   rawIndex: 7991800
   splits:
   - splitPath: Name
-    text: "基-水宁寺佛龛"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "水宁寺佛龛"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8000100\",\r\n    \"Name\": \"唐五的舵三\"\r\n  }"
   rawIndex: 8000100
   splits:
@@ -7612,42 +8836,90 @@
   rawIndex: 8091100
   splits:
   - splitPath: Name
-    text: "基-盐津乌骨鸡"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "盐津乌骨鸡"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091200\",\r\n    \"Name\": \"基-彝良黄糕粑\"\r\n  }"
   rawIndex: 8091200
   splits:
   - splitPath: Name
-    text: "基-彝良黄糕粑"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "彝良黄糕粑"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091300\",\r\n    \"Name\": \"基-鲁甸牛干巴\"\r\n  }"
   rawIndex: 8091300
   splits:
   - splitPath: Name
-    text: "基-鲁甸牛干巴"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "鲁甸牛干巴"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091400\",\r\n    \"Name\": \"基-盐边油底肉\"\r\n  }"
   rawIndex: 8091400
   splits:
   - splitPath: Name
-    text: "基-盐边油底肉"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "盐边油底肉"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091500\",\r\n    \"Name\": \"基-富顺县豆花\"\r\n  }"
   rawIndex: 8091500
   splits:
   - splitPath: Name
-    text: "基-富顺县豆花"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "富顺县豆花"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091600\",\r\n    \"Name\": \"基-沫水大渡河\"\r\n  }"
   rawIndex: 8091600
   splits:
   - splitPath: Name
-    text: "基-沫水大渡河"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "沫水大渡河"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091700\",\r\n    \"Name\": \"基-会理龙肘山\"\r\n  }"
   rawIndex: 8091700
   splits:
   - splitPath: Name
-    text: "基-会理龙肘山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "会理龙肘山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091800\",\r\n    \"Name\": \"基-佛兴螺髻山\"\r\n  }"
   rawIndex: 8091800
   splits:
   - splitPath: Name
-    text: "基-佛兴螺髻山"
+    text: "基"
+  - splitPath: Name
+    subIndex: 1
+    text: "佛兴螺髻山"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8100200\",\r\n    \"Name\": \"庙祝姜云奎\"\r\n  }"
   rawIndex: 8100200
   splits:

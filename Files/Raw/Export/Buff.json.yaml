@@ -6,7 +6,13 @@
   - splitPath: Desc
     text: "我方阻止1人行动，敌方随机阻止1次行动"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>封穴</color>阻止对方行动"
+    text: "封穴"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "阻止对方行动"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"轻伤\",\r\n    \"Desc\": \"攻击、防御降低20%\",\r\n    \"NameTw\": \"輕傷\",\r\n    \"DescTw\": \"攻擊、防禦降低20%\"\r\n  }"
   rawIndex: 1
   splits:
@@ -22,7 +28,13 @@
   - splitPath: Desc
     text: "每轮损失当前气血5%"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>毒</color>造成伤害"
+    text: "毒"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "造成伤害"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Name\": \"绝脉\",\r\n    \"Desc\": \"消失时损失当前气血20%，再次使用回合数增加\",\r\n    \"AttackDesc\": \"<color=#00ff00>绝脉</color>造成伤害\",\r\n    \"NameTw\": \"絕脈\",\r\n    \"DescTw\": \"消失時損失當前氣血20%，再次使用回合數增加\",\r\n    \"AttackDescTw\": \"<color=#00ff00>絕脈</color>造成傷害\"\r\n  }"
   rawIndex: 3
   splits:
@@ -31,7 +43,13 @@
   - splitPath: Desc
     text: "消失时损失当前气血20%，再次使用回合数增加"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>绝脉</color>造成伤害"
+    text: "绝脉"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "造成伤害"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"禁疗\",\r\n    \"Desc\": \"回春无效\",\r\n    \"AttackDesc\": \"<color=#00ff00>禁疗</color>状态，无法回复\",\r\n    \"NameTw\": \"禁療\",\r\n    \"DescTw\": \"回春無效\",\r\n    \"AttackDescTw\": \"<color=#00ff00>禁療</color>狀態，無法回覆\"\r\n  }"
   rawIndex: 4
   splits:
@@ -40,7 +58,13 @@
   - splitPath: Desc
     text: "回春无效"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>禁疗</color>状态，无法回复"
+    text: "禁疗"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "状态，无法回复"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"失神\",\r\n    \"Desc\": \"无法行动，受到攻击时伤害翻倍、状态解除\",\r\n    \"AttackDesc\": \"<color=#00ff00>失神</color>中，无法行动\",\r\n    \"NameTw\": \"失神\",\r\n    \"DescTw\": \"無法行動，受到攻擊時傷害翻倍、狀態解除\",\r\n    \"AttackDescTw\": \"<color=#00ff00>失神</color>中，無法行動\"\r\n  }"
   rawIndex: 5
   splits:
@@ -49,7 +73,13 @@
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>失神</color>中，无法行动"
+    text: "失神"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "中，无法行动"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"力竭\",\r\n    \"Desc\": \"行动力回复减少1\",\r\n    \"NameTw\": \"力竭\",\r\n    \"DescTw\": \"行動力回覆減少1\"\r\n  }"
   rawIndex: 6
   splits:
@@ -72,7 +102,13 @@
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
   - splitPath: AttackDesc
-    text: "<color=#00ff00>惊神</color>中，无法行动"
+    text: "惊神"
+  - splitPath: AttackDesc
+    subIndex: 1
+    text: "中，无法行动"
+  templates:
+  - splitPath: AttackDesc
+    template: "<color=#00ff00>{0}</color>{1}"
 - raw: "{\r\n    \"Key\": \"9\",\r\n    \"Name\": \"致命\",\r\n    \"Desc\": \"攻击、防御降低50%\",\r\n    \"NameTw\": \"致命\",\r\n    \"DescTw\": \"攻擊、防禦降低50%\"\r\n  }"
   rawIndex: 9
   splits:

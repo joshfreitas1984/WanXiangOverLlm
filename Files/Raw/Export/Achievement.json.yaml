@@ -571,7 +571,13 @@
   - splitPath: Name
     text: "将军百战"
   - splitPath: Desc
-    text: "通过五场【闲话江湖-将军百战】挑战"
+    text: "通过五场【闲话江湖"
+  - splitPath: Desc
+    subIndex: 1
+    text: "将军百战】挑战"
+  templates:
+  - splitPath: Desc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"62\",\r\n    \"Name\": \"空谷无心\",\r\n    \"Desc\": \"通过十六场无心谷心魔挑战\",\r\n    \"NameTw\": \"空谷無心\",\r\n    \"DescTw\": \"通過十六場無心谷心魔挑戰\"\r\n  }"
   rawIndex: 62
   splits:
@@ -585,7 +591,13 @@
   - splitPath: Name
     text: "四时迭运"
   - splitPath: Desc
-    text: "通过四场【闲话江湖-四时迭运】挑战"
+    text: "通过四场【闲话江湖"
+  - splitPath: Desc
+    subIndex: 1
+    text: "四时迭运】挑战"
+  templates:
+  - splitPath: Desc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"寿比南山\",\r\n    \"Desc\": \"万寿帮友好到达100\",\r\n    \"NameTw\": \"壽比南山\",\r\n    \"DescTw\": \"萬壽幫友好到達100\"\r\n  }"
   rawIndex: 14
   splits:

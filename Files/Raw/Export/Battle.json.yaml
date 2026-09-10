@@ -4,7 +4,10 @@
   - splitPath: Name
     text: "深山寻幽"
   - splitPath: Desc
-    text: "异蛇（常规）*2"
+    text: "异蛇（常规）"
+  templates:
+  - splitPath: Desc
+    template: "{0}*2"
 - raw: "{\r\n    \"Key\": \"100101\",\r\n    \"Name\": \"衡山小校一\",\r\n    \"Desc\": \"褚相如\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"衡山小校一\",\r\n    \"DescTw\": \"褚相如\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100101
   splits:
@@ -83,9 +86,15 @@
   - splitPath: Name
     text: "娄村娄德旺"
   - splitPath: Desc
-    text: "娄德旺&娄七姑"
+    text: "娄德旺"
+  - splitPath: Desc
+    subIndex: 1
+    text: "娄七姑"
   - splitPath: PlayerName
     text: "风云少侠"
+  templates:
+  - splitPath: Desc
+    template: "{0}&{1}"
 - raw: "{\r\n    \"Key\": \"100112\",\r\n    \"Name\": \"乱石寨殷通\",\r\n    \"Desc\": \"殷通一众\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"亂石寨殷通\",\r\n    \"DescTw\": \"殷通一眾\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100112
   splits:

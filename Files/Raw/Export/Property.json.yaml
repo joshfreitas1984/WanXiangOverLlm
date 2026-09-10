@@ -86,14 +86,26 @@
   - splitPath: Name
     text: "财富"
   - splitPath: Desc
-    text: "影响特殊事件触发机会，放弃机会+，获得机会-"
+    text: "影响特殊事件触发机会，放弃机会"
+  - splitPath: Desc
+    subIndex: 1
+    text: "，获得机会"
+  templates:
+  - splitPath: Desc
+    template: "{0}+{1}-"
 - raw: "{\r\n    \"Key\": \"10\",\r\n    \"Name\": \"道德\",\r\n    \"Desc\": \"反映角色的行事立场，影响事件的触发与走向。\\\\n十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。\",\r\n    \"NameTw\": \"道德\",\r\n    \"DescTw\": \"反映角色的行事立場，影響事件的觸發與走向。\\\\n十大惡人事件、天魔教陰謀事件、寧王陰謀事件、幽冥道陰謀事件、六扇門緝捕任務都會增加道德。\"\r\n  }"
   rawIndex: 10
   splits:
   - splitPath: Name
     text: "道德"
   - splitPath: Desc
-    text: "反映角色的行事立场，影响事件的触发与走向。\\n十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
+    text: "反映角色的行事立场，影响事件的触发与走向。"
+  - splitPath: Desc
+    subIndex: 1
+    text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Name\": \"气血判断\",\r\n    \"Desc\": \"气血总数，判断条件使用，不能通过奖励表修改\",\r\n    \"NameTw\": \"氣血判斷\",\r\n    \"DescTw\": \"氣血總數，判斷條件使用，不能通過獎勵表修改\"\r\n  }"
   rawIndex: 11
   splits:
@@ -156,14 +168,25 @@
   - splitPath: Name
     text: "难度"
   - splitPath: Desc
-    text: "玩家选择的游戏难度，值对应Difficulty表，只读"
+    text: "玩家选择的游戏难度，值对应"
+  - splitPath: Desc
+    subIndex: 1
+    text: "表，只读"
+  templates:
+  - splitPath: Desc
+    template: "{0}Difficulty{1}"
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"立绘id\",\r\n    \"Desc\": \"玩家立绘id\",\r\n    \"NameTw\": \"立繪id\",\r\n    \"DescTw\": \"玩家立繪id\"\r\n  }"
   rawIndex: 26
   splits:
   - splitPath: Name
-    text: "立绘id"
+    text: "立绘"
   - splitPath: Desc
-    text: "玩家立绘id"
+    text: "玩家立绘"
+  templates:
+  - splitPath: Name
+    template: "{0}id"
+  - splitPath: Desc
+    template: "{0}id"
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"技能额外上限\",\r\n    \"Desc\": \"技能额外上限\",\r\n    \"NameTw\": \"技能額外上限\",\r\n    \"DescTw\": \"技能額外上限\"\r\n  }"
   rawIndex: 27
   splits:

@@ -122,7 +122,13 @@
   rawIndex: 10010
   splits:
   - splitPath: Desc
-    text: "移除buff、支援"
+    text: "移除"
+  - splitPath: Desc
+    subIndex: 1
+    text: "、支援"
+  templates:
+  - splitPath: Desc
+    template: "{0}buff{1}"
 - raw: "{\r\n    \"Key\": \"10011\",\r\n    \"Desc\": \"庙\"\r\n  }"
   rawIndex: 10011
   splits:
@@ -162,7 +168,10 @@
   rawIndex: 10018
   splits:
   - splitPath: Desc
-    text: "buff攻击"
+    text: "攻击"
+  templates:
+  - splitPath: Desc
+    template: "buff{0}"
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Desc\": \"枪刺\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -182,7 +191,10 @@
   rawIndex: 10022
   splits:
   - splitPath: Desc
-    text: "剑canglang"
+    text: "剑"
+  templates:
+  - splitPath: Desc
+    template: "{0}canglang"
 - raw: "{\r\n    \"Key\": \"10023\",\r\n    \"Desc\": \"蛇\"\r\n  }"
   rawIndex: 10023
   splits:

@@ -213,7 +213,13 @@
   - splitPath: TypeText
     text: "宝物故事"
   - splitPath: Desc
-    text: "解锁晏蛾眉红颜后，一月到门派后山/钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
+    text: "解锁晏蛾眉红颜后，一月到门派后山"
+  - splitPath: Desc
+    subIndex: 1
+    text: "钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
+  templates:
+  - splitPath: Desc
+    template: "{0}/{1}"
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"靳红衣结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜靳红衣后解锁\",\r\n    \"NameTw\": \"靳紅衣結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏靳紅衣後解鎖\"\r\n  }"
   rawIndex: 5
   splits:

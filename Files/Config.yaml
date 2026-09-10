@@ -5,15 +5,23 @@ model: "qwen2.5:7b"
 
 # FanslationStudio.LlmKit's ConfigurationExtensions.GetConfiguration (used by
 # JsonGameDataWorkflow/CsvGameDataWorkflow/PrefabTextWorkflow for their QualityReview.MinAcceptableScore
-# gate) requires at least one entry here - mirrors the legacy top-level model/url/apiKeyRequired
-# above. TranslationService's own (separate, pre-migration) Configuration.GetConfiguration ignores
-# this key entirely, so it's additive/safe alongside the legacy fields until this file's schema is
-# fully migrated.
+# gate) requires this section - mirrors DragonHierOverLlm's Config.yaml `models:`/`qualityReview:`
+# shape, with quality review off. Additive alongside the legacy top-level fields above, which
+# TranslationService's own (separate, pre-migration) Configuration.GetConfiguration still reads and
+# ignores this section entirely - full Config.yaml schema migration is separate, later work.
 models:
-  - name: Standard
-    model: "qwen2.5:7b"
-    url: "http://localhost:11434/api/chat"
-    apiKeyRequired: false
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath:
+    apiKeyPath:
+  - name: Qwen25-StructuredText
+    modelPreset: Qwen25
+    modelPresetType: StructuredText
+    customPromptsPath:
+    apiKeyPath:
+qualityReview:
+  enabled: false
 
 # apiKeyRequired: true
 # url: "https://api.openai.com/v1/chat/completions"

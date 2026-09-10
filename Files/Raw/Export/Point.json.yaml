@@ -25,187 +25,278 @@
   rawIndex: 0
   splits:
   - splitPath: Name
-    text: "回合+1"
+    text: "回合"
   - splitPath: Desc
-    text: "加入门派后每月可行动次数+1"
+    text: "加入门派后每月可行动次数"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
+  - splitPath: Desc
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"17\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 17
   splits:
   - splitPath: Name
-    text: "回合+1"
+    text: "回合"
   - splitPath: Desc
-    text: "加入门派后每月可行动次数+1"
+    text: "加入门派后每月可行动次数"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
+  - splitPath: Desc
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"行动力+1\",\r\n    \"Desc\": \"战斗中每回合回复的行动力+1\",\r\n    \"NameTw\": \"行動力+1\",\r\n    \"DescTw\": \"戰鬥中每回合回覆的行動力+1\"\r\n  }"
   rawIndex: 1
   splits:
   - splitPath: Name
-    text: "行动力+1"
+    text: "行动力"
   - splitPath: Desc
-    text: "战斗中每回合回复的行动力+1"
+    text: "战斗中每回合回复的行动力"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
+  - splitPath: Desc
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"22\",\r\n    \"Name\": \"天生神力\",\r\n    \"Desc\": \"玩家可装备技能+2\",\r\n    \"NameTw\": \"天生神力\",\r\n    \"DescTw\": \"玩家可裝備技能+2\"\r\n  }"
   rawIndex: 22
   splits:
   - splitPath: Name
     text: "天生神力"
   - splitPath: Desc
-    text: "玩家可装备技能+2"
+    text: "玩家可装备技能"
+  templates:
+  - splitPath: Desc
+    template: "{0}+2"
 - raw: "{\r\n    \"Key\": \"2\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 3
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 4
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"19\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 19
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 20
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"21\",\r\n    \"Name\": \"天赋槽位+1\",\r\n    \"Desc\": \"可以多选择一个天赋\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"天賦槽位+1\",\r\n    \"DescTw\": \"可以多選擇一個天賦\"\r\n  }"
   rawIndex: 21
   splits:
   - splitPath: Name
-    text: "天赋槽位+1"
+    text: "天赋槽位"
   - splitPath: Desc
     text: "可以多选择一个天赋"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 5
   splits:
   - splitPath: Name
-    text: "伤害+10%"
+    text: "伤害"
   - splitPath: Desc
-    text: "全体角色的最终伤害+10%"
+    text: "全体角色的最终伤害"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 6
   splits:
   - splitPath: Name
-    text: "伤害+10%"
+    text: "伤害"
   - splitPath: Desc
-    text: "全体角色的最终伤害+10%"
+    text: "全体角色的最终伤害"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 7
   splits:
   - splitPath: Name
-    text: "伤害+10%"
+    text: "伤害"
   - splitPath: Desc
-    text: "全体角色的最终伤害+10%"
+    text: "全体角色的最终伤害"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"8\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 8
   splits:
   - splitPath: Name
-    text: "伤害+10%"
+    text: "伤害"
   - splitPath: Desc
-    text: "全体角色的最终伤害+10%"
+    text: "全体角色的最终伤害"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"9\",\r\n    \"Name\": \"伤害+10%\",\r\n    \"Desc\": \"全体角色的最终伤害+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"傷害+10%\",\r\n    \"DescTw\": \"全體角色的最終傷害+10%\"\r\n  }"
   rawIndex: 9
   splits:
   - splitPath: Name
-    text: "伤害+10%"
+    text: "伤害"
   - splitPath: Desc
-    text: "全体角色的最终伤害+10%"
+    text: "全体角色的最终伤害"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"10\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 10
   splits:
   - splitPath: Name
-    text: "气血+10%"
+    text: "气血"
   - splitPath: Desc
-    text: "全体角色的综合气血+10%"
+    text: "全体角色的综合气血"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 11
   splits:
   - splitPath: Name
-    text: "气血+10%"
+    text: "气血"
   - splitPath: Desc
-    text: "全体角色的综合气血+10%"
+    text: "全体角色的综合气血"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"12\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 12
   splits:
   - splitPath: Name
-    text: "气血+10%"
+    text: "气血"
   - splitPath: Desc
-    text: "全体角色的综合气血+10%"
+    text: "全体角色的综合气血"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"13\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 13
   splits:
   - splitPath: Name
-    text: "气血+10%"
+    text: "气血"
   - splitPath: Desc
-    text: "全体角色的综合气血+10%"
+    text: "全体角色的综合气血"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"气血+10%\",\r\n    \"Desc\": \"全体角色的综合气血+10%\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"氣血+10%\",\r\n    \"DescTw\": \"全體角色的綜合氣血+10%\"\r\n  }"
   rawIndex: 14
   splits:
   - splitPath: Name
-    text: "气血+10%"
+    text: "气血"
   - splitPath: Desc
-    text: "全体角色的综合气血+10%"
+    text: "全体角色的综合气血"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+10%"
+  - splitPath: Desc
+    template: "{0}+10%"
 - raw: "{\r\n    \"Key\": \"23\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 23
   splits:
   - splitPath: Name
-    text: "回合+1"
+    text: "回合"
   - splitPath: Desc
-    text: "加入门派后每月可行动次数+1"
+    text: "加入门派后每月可行动次数"
   - splitPath: EventResultDesc
     text: "加成测试"
+  templates:
+  - splitPath: Name
+    template: "{0}+1"
+  - splitPath: Desc
+    template: "{0}+1"
 - raw: "{\r\n    \"Key\": \"24\",\r\n    \"Name\": \"九流奇功\",\r\n    \"Desc\": \"初始可获得功法九流奇功\",\r\n    \"NameTw\": \"九流奇功\",\r\n    \"DescTw\": \"初始可獲得功法九流奇功\"\r\n  }"
   rawIndex: 24
   splits:

@@ -15,10 +15,13 @@
   splits:
   - splitPath: Name
     text: "毒术宗师"
+    translated: "Poison Master"
   - splitPath: TypeText
     text: "技艺结局"
+    translated: "Skill Outcome"
   - splitPath: Desc
     text: "毒术达到宗师解锁"
+    translated: "Poison technique reaches the Master level unlocks for them"
 - raw: "{\r\n    \"Key\": \"901003\",\r\n    \"Name\": \"术数宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"术数达到宗师解锁\",\r\n    \"NameTw\": \"術數宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"術數達到宗師解鎖\"\r\n  }"
   rawIndex: 901003
   splits:
@@ -144,10 +147,13 @@
   splits:
   - splitPath: Name
     text: "匠造宗师"
+    translated: "Master Artisan"
   - splitPath: TypeText
     text: "技艺结局"
+    translated: "Skill Outcome"
   - splitPath: Desc
     text: "匠造达到宗师解锁"
+    translated: "Mastercraft unlocked by reaching the zuoshi level in crafting."
 - raw: "{\r\n    \"Key\": \"0\",\r\n    \"Name\": \"杨芸结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜杨芸后解锁\",\r\n    \"NameTw\": \"楊芸結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏楊芸後解鎖\"\r\n  }"
   rawIndex: 0
   splits:
@@ -189,10 +195,13 @@
   splits:
   - splitPath: Name
     text: "唐幺幺结局"
+    translated: "Dong YaYa's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得红颜唐幺幺后解锁"
+    translated: "After obtaining Red Beauty Tang Yaoyao, unlock"
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"项欺霜结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜项欺霜后解锁\",\r\n    \"NameTw\": \"項欺霜結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏項欺霜後解鎖\"\r\n  }"
   rawIndex: 1
   splits:
@@ -275,8 +284,15 @@
     text: "宝物故事"
     translated: "Treasure tale"
   - splitPath: Desc
-    text: "解锁晏蛾眉红颜后，一月到门派后山/钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
-    translated: "After unlocking Yan Emei as a red‑haired beauty, go to the sect's rear mountain/haoaoji in January and select Yan Emei to obtain the Tear‑Streaked Blade. This will unlock the story of the Tear‑Streaked Blade."
+    text: "解锁晏蛾眉红颜后，一月到门派后山"
+    translated: "After unlocking Yan Emei as a red‑hued beauty, in the following month, she joins the sect's rear mountain."
+  - splitPath: Desc
+    subIndex: 1
+    text: "钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
+    translated: "Choose Yan Emei at Jiao Ao Ji to obtain the Tear‑Streaked Blade, and complete the Tear‑Streaked Blade story unlock."
+  templates:
+  - splitPath: Desc
+    template: "{0}/{1}"
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"靳红衣结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜靳红衣后解锁\",\r\n    \"NameTw\": \"靳紅衣結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏靳紅衣後解鎖\"\r\n  }"
   rawIndex: 5
   splits:
@@ -594,73 +610,97 @@
   splits:
   - splitPath: Name
     text: "诸葛慧结局"
+    translated: "Ending of Zhuge Hui"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得诸葛慧红颜后解锁"
+    translated: "After obtaining Zhu Ge Hui's Red Beauty, unlock..."
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"姜芽结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得姜芽红颜后解锁\",\r\n    \"NameTw\": \"姜芽結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得姜芽紅顏後解鎖\"\r\n  }"
   rawIndex: 26
   splits:
   - splitPath: Name
     text: "姜芽结局"
+    translated: "Jiang Ya's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得姜芽红颜后解锁"
+    translated: "After acquiring Jiang Yayaohong, unlock"
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"李云裳结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得李云裳红颜后解锁\",\r\n    \"NameTw\": \"李雲裳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得李雲裳紅顏後解鎖\"\r\n  }"
   rawIndex: 27
   splits:
   - splitPath: Name
     text: "李云裳结局"
+    translated: "Li Yunchang's ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得李云裳红颜后解锁"
+    translated: "Unlock after obtaining Li Yunsang's Red Beauty"
 - raw: "{\r\n    \"Key\": \"28\",\r\n    \"Name\": \"巫云凤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得巫云凤红颜后解锁\",\r\n    \"NameTw\": \"巫雲鳳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得巫雲鳳紅顏後解鎖\"\r\n  }"
   rawIndex: 28
   splits:
   - splitPath: Name
     text: "巫云凤结局"
+    translated: "Wu Yunfeng's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得巫云凤红颜后解锁"
+    translated: "After obtaining Wu Yunfeng's companion, unlock"
 - raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"萧雪雁结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得萧雪雁红颜后解锁\",\r\n    \"NameTw\": \"蕭雪雁結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蕭雪雁紅顏後解鎖\"\r\n  }"
   rawIndex: 29
   splits:
   - splitPath: Name
     text: "萧雪雁结局"
+    translated: "Xia Xueyan's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得萧雪雁红颜后解锁"
+    translated: "After acquiring Xiang Xueyan as a red‑cloaked companion, unlock"
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Name\": \"沈青鸬结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得沈青鸬红颜后解锁\",\r\n    \"NameTw\": \"沈青鸕結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得沈青鸕紅顏後解鎖\"\r\n  }"
   rawIndex: 30
   splits:
   - splitPath: Name
     text: "沈青鸬结局"
+    translated: "Shen Qinglu's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得沈青鸬红颜后解锁"
+    translated: "Unlock after obtaining Shen Qingen's Red Beauty"
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"蚩萤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得蚩萤红颜后解锁\",\r\n    \"NameTw\": \"蚩螢結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蚩螢紅顏後解鎖\"\r\n  }"
   rawIndex: 31
   splits:
   - splitPath: Name
     text: "蚩萤结局"
+    translated: "Chi Ying's Ending"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得蚩萤红颜后解锁"
+    translated: "After acquiring Chi Ying's feminine beauty, unlock"
 - raw: "{\r\n    \"Key\": \"2801\",\r\n    \"Name\": \"神女宫结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈青鸬、萧雪雁、巫云凤后解锁\",\r\n    \"NameTw\": \"神女宮結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈青鸕、蕭雪雁、巫雲鳳後解鎖\"\r\n  }"
   rawIndex: 2801
   splits:
   - splitPath: Name
     text: "神女宫结局"
+    translated: "The outcome of the Goddess Palace"
   - splitPath: TypeText
     text: "红颜结局"
+    translated: "Red Maiden Ending"
   - splitPath: Desc
     text: "获得红颜沈青鸬、萧雪雁、巫云凤后解锁"
+    translated: "After obtaining Red Beauty Shen Qinglu, Xiao Xueyan, and Wu Yufeng, unlock..."
 - raw: "{\r\n    \"Key\": \"700000\",\r\n    \"Name\": \"香衾成行\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"在一局游戏中，获得红颜项欺霜、阮碧青、左灵珠、晏蛾眉、靳红衣、连翘儿、柳含烟、文锦心、夏侯珺、萧令仪、艾琳娜、展青锋、风间爱、风间月、沈蓉蓉、薛如意后解锁。\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"在一局遊戲中，獲得紅顏項欺霜、阮碧青、左靈珠、晏蛾眉、靳紅衣、連翹兒、柳含煙、文錦心、夏侯珺、蕭令儀、艾琳娜、展青鋒、風間愛、風間月、沈蓉蓉、薛如意後解鎖。\"\r\n  }"
   rawIndex: 700000
   splits:
@@ -714,10 +754,13 @@
   splits:
   - splitPath: Name
     text: "唐门守护神"
+    translated: "Tang Clan Guardian God"
   - splitPath: TypeText
     text: "门派结局"
+    translated: "Sect Ending"
   - splitPath: Desc
     text: "选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁"
+    translated: "Choose Tang Clan to obtain Red Beauty Tang Yiaoyao. Finish the Demon Lord line without rescuing other sects to unlock the Demon Lord line ending."
 - raw: "{\r\n    \"Key\": \"800500\",\r\n    \"Name\": \"逍遥侯\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。\",\r\n    \"NameTw\": \"逍遙侯\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發寧王線，成功救援其餘二派，完成長樂坊考驗，擊敗寧王解鎖。\"\r\n  }"
   rawIndex: 800500
   splits:
@@ -855,7 +898,10 @@
   splits:
   - splitPath: Name
     text: "端午特辑"
+    translated: "Dragon Boat Festival Special"
   - splitPath: TypeText
     text: "端午特辑"
+    translated: "Dragon Boat Festival Special"
   - splitPath: Desc
     text: "直接解锁"
+    translated: "Unlock directly"

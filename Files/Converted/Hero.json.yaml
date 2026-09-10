@@ -260,8 +260,15 @@
     text: "衡山派弟子，豁达干练，宽厚赤诚，自幼拜师“南天玉柱”万轻舟，为衡山派大师兄，天资聪慧，善轻功掌法，亲和友善，为诸同门所敬重，亦深得“日游神”封行昭和“夜游神”封行晦兄弟喜爱，将二人毕生所学倾囊相授。"
     translated: "Disciple of the Hengshan Sect, broad‑minded and capable, kind and sincere, mastered qinggong and palm techniques under Senior Brother Wan Qingzhou since a young age. They showed great adeptness and diligence in their training from a tender age. While correcting, they also demonstrated a broad‑minded and capable demeanor, being tolerant and trustworthy. They were nurtured in the ways of the sect by their senior. They are the senior brother of the Hengshan Sect, with outstanding talents and a keen mind. Their fellow disciples respect them for their kindness and friendliness. They are also greatly beloved by Brothers Feng Xingzhao, known as Day Roaming God, and Feng Xinghui, known as Goddess of Night Wanderers. These two brothers have imparted all their life's knowledge to them without reservation."
   - splitPath: GetDesc
-    text: "1、加入衡山派，彭祖寿寿宴后加入\\n2、加入武当派第三年彭祖寿寿宴揭开阴谋，并在第一次战斗中便战胜章太歧后加入"
-    translated: "1, join the Hengshan Sect after attending Peng Zushou's longevity feast.\\nIn his third year at Wudang Sect, Peng Zushou's longevity feast unveiled a conspiracy. After defeating Zhang Taiqi in their first battle, he joined the festivities."
+    text: "1、加入衡山派，彭祖寿寿宴后加入"
+    translated: "1, join the Hengshan Sect after the Peng Zushou longevity feast."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派第三年彭祖寿寿宴揭开阴谋，并在第一次战斗中便战胜章太歧后加入"
+    translated: "2, in his third year of joining the Wudang Sect, Peng Zushou's longevity feast uncovered a conspiracy, and he defeated Zhang Taiqi in his very first battle before becoming a part of it."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1007\",\r\n    \"IdName\": \"杨慎1\",\r\n    \"Name\": \"杨慎\",\r\n    \"Title\": \"青史剑\",\r\n    \"CardName\": \"衡山弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"衡山派弟子，杨廷和之子，豁达清正，雅量高致，少年时和妹妹“湘妃剑”杨芸遇难，幸被“浪里渔翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人门下，经二人十载培养，修文武习音律，孜孜不倦，颇有所成。\",\r\n    \"GetDesc\": \"加入衡山派，第三年一月至第四年十二月探索湘南，战胜殷通后加入\",\r\n    \"NameTw\": \"楊慎\",\r\n    \"TitleTw\": \"青史劍\",\r\n    \"DescTw\": \"衡山派弟子，楊廷和之子，豁達清正，雅量高致，少年時和妹妹“湘妃劍”楊芸遇難，幸被“浪裡漁翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人門下，經二人十載培養，修文武習音律，孜孜不倦，頗有所成。\",\r\n    \"GetDescTw\": \"加入衡山派，第三年一月至第四年十二月探索湘南，戰勝殷通後加入\",\r\n    \"CardNameTw\": \"衡山弟子\"\r\n  }"
   rawIndex: 1007
   splits:
@@ -452,8 +459,19 @@
     text: "衡山派弟子，杨廷和之女，聪慧活泼，单纯直率，少年时和哥哥“青史剑”杨慎遇难，幸被“浪里渔翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人门下，经二人十载培养，亦学得了些不俗的武艺。"
     translated: "Disciple of the Hengshan Sect, Yang Shen's daughter. She is clever and lively, innocent and straightforward. When she was a young girl, she and her brother, Sword of Verdant Chronicles, Yang Shen, were killed. Fortunately, they were saved by Fisherman of the Waves, Jiang Huazhu, and Woodcutter in the Mountains, Bai Chengke. Ever since, she has been trained under them for ten years and learned some remarkable martial arts skills."
   - splitPath: GetDesc
-    text: "加入衡山派，第八年四月战胜殷夜啼时，杨芸友好度达到80加入。\\n\\n杨芸形象二\\n红颜解锁后自动获得。"
-    translated: "Joining the Hengshan Sect, by the eighth year in April, Yang Yun's friendship with Yin Yetai reached 80 upon defeating her.\\n\\nYang Yun's Second Image\\nRed‑eyed status unlocks automatically upon obtaining it"
+    text: "加入衡山派，第八年四月战胜殷夜啼时，杨芸友好度达到80加入。"
+    translated: "Joining the Hengshan Sect, by the eighth year, in April, when Yang Yun defeated Yin Yetai in battle, her friendly disposition reached 80."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "杨芸形象二"
+    translated: "Yang Yun Image Two"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得。"
+    translated: "Redyan unlocked will be automatically obtained"
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8166\",\r\n    \"IdName\": \"杨芸3\",\r\n    \"Name\": \"杨芸\",\r\n    \"Title\": \"湘妃剑\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"结缘\",\r\n    \"Desc\": \"2026年元旦特别形象。衡山派弟子，杨廷和之女，聪慧活泼，单纯直率，少年时和哥哥“青史剑”杨慎遇难，幸被“浪里渔翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人门下，经二人十载培养，亦学得了些不俗的武艺。\",\r\n    \"GetDesc\": \"加入衡山派，第八年四月战胜殷夜啼时，杨芸友好度达到80加入。\",\r\n    \"NameTw\": \"楊芸\",\r\n    \"TitleTw\": \"湘妃劍\",\r\n    \"DescTw\": \"2026年元旦特別形象。衡山派弟子，楊廷和之女，聰慧活潑，單純直率，少年時和哥哥“青史劍”楊慎遇難，幸被“浪裡漁翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人門下，經二人十載培養，亦學得了些不俗的武藝。\",\r\n    \"GetDescTw\": \"加入衡山派，第八年四月戰勝殷夜啼時，楊芸友好度達到80加入。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8166
   splits:
@@ -477,7 +495,7 @@
     translated: "In the year 2026, New Year's Day was particularly special. Hengshan Sect disciple and the daughter of Yang Yinghe, Yang Shen, was smart, lively, innocent, and straightforward. In her youth, she and her brother, Sword of Verdant Chronicles, Yang Shen, encountered misfortune together. Fortunately, they were rescued by Fisherman of the Waves, Jiang Huazhu, and Woodsman from the Mountains, Bai Chengke. Since then, she has been trained under their tutelage for ten years and learned some remarkable martial arts skills."
   - splitPath: GetDesc
     text: "加入衡山派，第八年四月战胜殷夜啼时，杨芸友好度达到80加入。"
-    translated: "Joining the Hengshan Sect, by the eighth year in April, Yang Yun's friendship with Yin Yetai reached 80."
+    translated: "Joining the Hengshan Sect, by the eighth year, in April, when Yang Yun defeated Yin Yetai in battle, her friendly disposition reached 80."
 - raw: "{\r\n    \"Key\": \"1009\",\r\n    \"IdName\": \"杨慎2\",\r\n    \"Name\": \"杨慎\",\r\n    \"Title\": \"青史剑\",\r\n    \"CardName\": \"状元之才\",\r\n    \"BaseDesc\": \"特殊\",\r\n    \"Desc\": \"衡山派弟子，杨廷和之子，豁达清正，雅量高致，少年时和妹妹“湘妃剑”杨芸遇难，幸被“浪里渔翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人门下，经二人十载培养，修文武习音律，孜孜不倦，颇有所成。\",\r\n    \"GetDesc\": \"加入衡山派，从第六年一月开始，探索后山九次观看江化渚、柏成柯剑歌，此后悟性到达110后再次探索后山可解锁\",\r\n    \"NameTw\": \"楊慎\",\r\n    \"TitleTw\": \"青史劍\",\r\n    \"DescTw\": \"衡山派弟子，楊廷和之子，豁達清正，雅量高致，少年時和妹妹“湘妃劍”楊芸遇難，幸被“浪裡漁翁”江化渚和“山中樵子”柏成柯所救，自此拜入其二人門下，經二人十載培養，修文武習音律，孜孜不倦，頗有所成。\",\r\n    \"GetDescTw\": \"加入衡山派，從第六年一月開始，探索後山九次觀看江化渚、柏成柯劍歌，此後悟性到達110後再次探索後山可解鎖\",\r\n    \"CardNameTw\": \"狀元之才\"\r\n  }"
   rawIndex: 1009
   splits:
@@ -572,8 +590,17 @@
     text: "衡山派弟子，豁达干练，宽厚赤诚，自幼拜师“南天玉柱”万轻舟，为衡山派大师兄，天资聪慧，善轻功掌法，亲和友善，为诸同门所敬重，亦深得“日游神”封行昭和“夜游神”封行晦兄弟喜爱，将二人毕生所学倾囊相授。"
     translated: "Disciple of the Hengshan Sect, broad‑minded and capable, kind and sincere, mastered qinggong and palm techniques under Senior Brother Wan Qingzhou since a young age. They showed great adeptness and diligence in their training from a tender age. While correcting, they also demonstrated a broad‑minded and capable demeanor, being tolerant and trustworthy. They were nurtured in the ways of the sect by their senior. They are the senior brother of the Hengshan Sect, with outstanding talents and a keen mind. Their fellow disciples respect them for their kindness and friendliness. They are also greatly beloved by Brothers Feng Xingzhao, known as Day Roaming God, and Feng Xinghui, known as Goddess of Night Wanderers. These two brothers have imparted all their life's knowledge to them without reservation."
   - splitPath: GetDesc
-    text: "1、加入衡山派，第七年一月开始，根骨、体魄、内息、灵活分别到达150，探索演武场触发霍连云四岳云游任务后，再次探索演武场对战战胜霍连云后加入\\n2、非衡山派，触发宁王结局后，在宁王拜山剧情前，驰援衡山派时御兽到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "On the seventh month of the year that 1 joined the Hengshan Sect, their root bone, resilience, inner qi, and flexibility all reached 150. After exploring the training ground to trigger Huo Lianyun's Four Peaks Wanderer quest, they defeated and overcame Huo Lianyun in another exploration of the training ground. Only then did they officially join.\\n2, not from the Hengshan Sect, appears after triggering the Ning Wang ending and before the Peaceful King's mountain visit. When arriving to assist the Hengshan Sect at the master level in Beast Taming, you learn that the Four Elders of Shangshan have appeared in Jingnan. After defeating the Shangshan elders in your own sect, you can explore Jingnan Changle Alley and join them there."
+    text: "1、加入衡山派，第七年一月开始，根骨、体魄、内息、灵活分别到达150，探索演武场触发霍连云四岳云游任务后，再次探索演武场对战战胜霍连云后加入"
+    translated: "1 joined the Hengshan Sect in its seventh year of training. By January, their root bone, resilience, inner qi, and flexibility had all reached 150. After exploring the training grounds and triggering the Huo Lianyun Cloud Tour Mission, they defeated and joined Huo Lianyun after a battle there."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、非衡山派，触发宁王结局后，在宁王拜山剧情前，驰援衡山派时御兽到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
+    translated: "2, not from the Hengshan Sect, will appear as a Beast Tamer upon the Peaceful King's pilgrimage plot, following the Ning Wang's call for aid to support the Hengshan Sect. After the sect repels the Four Elders of Shangshan, it is discovered that the Four Elders are appearing in Jingnan. Following this, by exploring the Changle Quarter in Jingnan, they will join."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Beast Taming,御兽,Beast Taming,御兽,Beast Taming,御兽,"
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1021\",\r\n    \"IdName\": \"翁和仲\",\r\n    \"Name\": \"翁和仲\",\r\n    \"Title\": \"大肚奇丐\",\r\n    \"CardName\": \"丐帮舵主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"丐帮忠字舵舵主，八袋长老，开朗豁达，乐天知命，自幼入丐帮，乞食八方，食欲极高，十分好吃，也因此练出了一手不俗的厨艺，平日间弟子们乞来的残羹剩饭，经其再一烹制，亦可十分美味，深得舵中弟子们的敬爱。\",\r\n    \"GetDesc\": \"丐帮忠字舵友好达到80，厨艺到达120，且为翁和仲带来过虎骨和野猪后腿后，探索富贵巷，翁和仲考较美食问题，全部答对后加入\",\r\n    \"NameTw\": \"翁和仲\",\r\n    \"TitleTw\": \"大肚奇丐\",\r\n    \"DescTw\": \"丐幫忠字舵舵主，八袋長老，開朗豁達，樂天知命，自幼入丐幫，乞食八方，食慾極高，十分好吃，也因此練出了一手不俗的廚藝，平日間弟子們乞來的殘羹剩飯，經其再一烹製，亦可十分美味，深得舵中弟子們的敬愛。\",\r\n    \"GetDescTw\": \"丐幫忠字舵友好達到80，廚藝到達120，且為翁和仲帶來過虎骨和野豬後腿後，探索富貴巷，翁和仲考較美食問題，全部答對後加入\",\r\n    \"CardNameTw\": \"丐幫舵主\"\r\n  }"
   rawIndex: 1021
   splits:
@@ -740,8 +767,15 @@
     text: "武当派长老，道心坚稳，虚怀若谷，精通剑法，以一手“三才剑法”闻名，志在修道练武，极少行走于武林之中，与“铁冠真人”郭道朴最为莫逆，二人常于后山以刀剑切磋对练，性情和蔼温厚，在武当一众长老之中，尤受门下弟子亲近。"
     translated: "Wudang Sect Elder Guo Daopu has a steadfast mind and an open heart. He is proficient in sword techniques and is renowned for his  “Three Talents Sword Art” . His ambition lies in cultivating Dao and practicing martial arts, rarely venturing into the Wulin. He shares a close bond with True Immortal with Iron‑Crowned Crown Guo Daopu, and the two often spar against each other using blades and knives on the rear hillside. Known for their amiable and kind nature, he is particularly beloved among the disciples of Wudang."
   - splitPath: GetDesc
-    text: "1、加入武当，第五年四月发现贼人屠戮村庄嫁祸武当，然后探索荆北，再次连续两次探索荆东遇到刘道生被黄乱截杀，击败黄乱，刘道生加入。\\n2、非武当派，第五年时，探索荆东遇到刘道生被黄乱截杀，击败黄乱，刘道生加入。"
-    translated: "1 joined Wudang in its fifth year, in April. In that month, they discovered bandits massacring a village and framing it on Wudang. Then, they ventured into Jingbei, only to encounter Liu Daosheng being intercepted and killed by Huang Luan during two consecutive explorations of Jingdong. After defeating Huang Luan, Liu Daosheng joined 1.\\n2, not a member of the Wudang Sect, in the fifth year, encountered Liu Daosheng being ambushed by Huang Luan while exploring Jing Dong. Defeated Huang Luan, and Liu Daosheng joined."
+    text: "1、加入武当，第五年四月发现贼人屠戮村庄嫁祸武当，然后探索荆北，再次连续两次探索荆东遇到刘道生被黄乱截杀，击败黄乱，刘道生加入。"
+    translated: "1, joined Wudang in the fifth Year of April, when he discovered that bandits had massacred a village and framed Wudang for it. Then, he explored Jingbei and subsequently Jingdong, where he encountered Liu Daosheng being ambushed by Huang Luan twice in a row. After defeating Huang Luan, Liu Daosheng joined 1."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、非武当派，第五年时，探索荆东遇到刘道生被黄乱截杀，击败黄乱，刘道生加入。"
+    translated: "2, not a member of the Wudang Sect, in the fifth year, when exploring Jingdong, encountered Liu Daosheng being intercepted and killed by Huang Luan. Defeated Huang Luan, and Liu Daosheng joined."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1058\",\r\n    \"IdName\": \"岳道章\",\r\n    \"Name\": \"岳道章\",\r\n    \"Title\": \"隐墨藏龙\",\r\n    \"CardName\": \"武当长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派长老，温文尔雅，心思缜密，出身书香门第，自幼喜好翰墨，崇尚道学，加入武当派后，每日研经悟道、勤习书法，尤其钟爱武当祖师张三丰所创的龙行大草，常年临摹参悟，其笔下文字已隐现龙行之态。\",\r\n    \"GetDesc\": \"加入武当派，第五年七月开始，翰墨已到达大师级学习了龙行八法，再次探索解真阁加入\",\r\n    \"NameTw\": \"嶽道章\",\r\n    \"TitleTw\": \"隱墨藏龍\",\r\n    \"DescTw\": \"武當派長老，溫文爾雅，心思縝密，出身書香門第，自幼喜好翰墨，崇尚道學，加入武當派後，每日研經悟道、勤習書法，尤其鍾愛武當祖師張三丰所創的龍行大草，常年臨摹參悟，其筆下文字已隱現龍行之態。\",\r\n    \"GetDescTw\": \"加入武當派，第五年七月開始，翰墨已到達大師級學習了龍行八法，再次探索解真閣加入\",\r\n    \"CardNameTw\": \"武當長老\"\r\n  }"
   rawIndex: 1058
   splits:
@@ -812,8 +846,15 @@
     text: "武当派弟子，性合自然，心无外求，自幼拜在“阴阳无相”庄道玄座下，为武当二师兄，虽天赋过人，却行事慵懒逍遥，得闲即闲，能睡便睡，人如闲云野鹤，万事不萦于心，顺意遂道，无拘无执，故亦颇得门中多位长老偏爱。"
     translated: "Wudang Sect disciple Xing He Ziran practiced in harmony with nature from a young age. Initiated under Zhuang Daoxuan's tutelage, he became known as the Second Senior Brother of Wudang Sect. Despite his exceptional talent, he led a lazy and carefree life, always taking things easy whenever possible, much like a wandering cloud or a wild crane. Nothing troubled him, and he followed the ways of nature without any constraints. Consequently, many elders in the sect had a particular fondness for him."
   - splitPath: GetDesc
-    text: "1、加入武当派，第三年彭祖寿寿宴后加入\\n2、加入衡山派第三年彭祖寿寿宴揭开阴谋，并在第一次战斗中便战胜章太歧后加入"
-    translated: "1 joined the Wudang Sect after the third year's Peng Zushou Feast.\\nIn his third year at the Hengshan Sect, Peng Zushou's birthday banquet unveiled a conspiracy. After defeating Zhang Taiqi in their first battle, he joined the fray."
+    text: "1、加入武当派，第三年彭祖寿寿宴后加入"
+    translated: "1, joined the Wudang Sect in its third year after the Peng Zushou celebration banquet."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入衡山派第三年彭祖寿寿宴揭开阴谋，并在第一次战斗中便战胜章太歧后加入"
+    translated: "2, in his third Year at the Hengshan Sect, Peng Zushou's longevity celebration unveiled a conspiracy, and he defeated Zhang Taiqi in his first battle, subsequently joining."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1062\",\r\n    \"IdName\": \"李玄通\",\r\n    \"Name\": \"李玄通\",\r\n    \"Title\": \"无量道人\",\r\n    \"CardName\": \"武当弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，光明磊落，坚韧不拔，自幼拜在“阴阳无相”庄道玄座下，为武当派大师兄，天资卓然，不仅在武学与道学之上悟性出众，于丹道一途亦颇具慧根，加之行事循规蹈矩，恪守门规，对同门师弟也十分照顾，深得武当派一众长老器重。\",\r\n    \"GetDesc\": \"加入武当派，未参与广成丹会，第四年三月至五月，行颠盗剑剧情触发后，探索后山加入\",\r\n    \"NameTw\": \"李玄通\",\r\n    \"TitleTw\": \"無量道人\",\r\n    \"DescTw\": \"武當派弟子，光明磊落，堅韌不拔，自幼拜在“陰陽無相”莊道玄座下，為武當派大師兄，天資卓然，不僅在武學與道學之上悟性出眾，于丹道一途亦頗具慧根，加之行事循規蹈矩，恪守門規，對同門師弟也十分照顧，深得武當派一眾長老器重。\",\r\n    \"GetDescTw\": \"加入武當派，未參與廣成丹會，第四年三月至五月，行顛盜劍劇情觸發後，探索後山加入\",\r\n    \"CardNameTw\": \"武當弟子\"\r\n  }"
   rawIndex: 1062
   splits:
@@ -884,8 +925,19 @@
     text: "武当派弟子，清冷出尘，淡雅绝俗，乃“天元坐照”邱道衍之女，自幼失恃，随父长于武当山中，后拜入“阴阳无相”庄道玄门下，平素深居简出，静参道学，勤修武艺，少与俗世交接，因而养成一副疏淡静谧的性情。"
     translated: "Wudang Sect disciple, clear and aloof, elegant yet unworldly, is the daughter of Qiu Daoyan, 'Heavenly Origin Seated Meditation.' Having lost her mother at a young age, she grew up with her father on Wudang Mountain. Later, she was initiated into the discipleship of Zhuang Daoxuan, 'Yin and Yang Indistinguishable.' She usually keeps to herself, deeply immersed in Daoist Studies, diligently training in martial arts, and rarely interacting with the secular world. Consequently, she has developed a temperament that is distant and serene."
   - splitPath: GetDesc
-    text: "加入武当派，第七年九月时，成功揭露乔道安阴谋，且邱灵素友好到达60，第七年十月时自动触发剧情解锁。\\n\\n邱灵素形象二\\n红颜解锁后自动获得"
-    translated: "Join the Wudang Sect in its seventh Year of the Monkey, and successfully uncover Qiao Dao'an's plot by September of that year. Additionally, Qiu Lingsu arrives on friendly terms in October of the same year, automatically triggering a plot event. 60 has been correctly retained.\\n\\nQiu Lingsu's Second Image\\nAfter unlocking the red beauty token, they will automatically gain it."
+    text: "加入武当派，第七年九月时，成功揭露乔道安阴谋，且邱灵素友好到达60，第七年十月时自动触发剧情解锁。"
+    translated: "Join the Wudang Sect in the seventh year, ninth month, and successfully uncover Qiao Dao'an's conspiracy. By the seventh year, tenth month, Qiu Lingsu arrives in a friendly manner, triggering the plot automatically. 60"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "邱灵素形象二"
+    translated: "Qiu Lingsu's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8165\",\r\n    \"IdName\": \"邱灵素3\",\r\n    \"Name\": \"邱灵素\",\r\n    \"Title\": \"云霄仙子\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"2026年元旦特别形象。武当派弟子，清冷出尘，淡雅绝俗，乃“天元坐照”邱道衍之女，自幼失恃，随父长于武当山中，后拜入“阴阳无相”庄道玄门下，平素深居简出，静参道学，勤修武艺，少与俗世交接，因而养成一副疏淡静谧的性情。\",\r\n    \"GetDesc\": \"加入武当派，第七年九月时，成功揭露乔道安阴谋，且邱灵素友好到达60，第七年十月时自动触发剧情解锁。\",\r\n    \"NameTw\": \"邱靈素\",\r\n    \"TitleTw\": \"雲霄仙子\",\r\n    \"DescTw\": \"2026年元旦特別形象。武當派弟子，清冷出塵，淡雅絕俗，乃“天元坐照”邱道衍之女，自幼失恃，隨父長於武當山中，後拜入“陰陽無相”莊道玄門下，平素深居簡出，靜參道學，勤修武藝，少與俗世交接，因而養成一副疏淡靜謐的性情。\",\r\n    \"GetDescTw\": \"加入武當派，第七年九月時，成功揭露喬道安陰謀，且邱靈素友好到達60，第七年十月時自動觸發劇情解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8165
   splits:
@@ -909,7 +961,7 @@
     translated: "In 2026 Year One of the new era, the depiction was particularly vivid. A disciple of the Wudang Sect, cool and detached, elegant yet transcendent‑this was Zhuang Daoxuan's daughter, Qiu Daoyan. She had lost her mother from a young age and grew up with her father in the mountains of Wudang. Later, she was initiated into the tutelage of Zhuang Daoxuan under the doctrine of 'Yin and Yang Indistinguishable.' Qiu Daoyan generally led a secluded life, deeply contemplating Daoist Studies while diligently practicing martial arts. She had little interaction with the mundane world, which helped cultivate her aloof and serene nature."
   - splitPath: GetDesc
     text: "加入武当派，第七年九月时，成功揭露乔道安阴谋，且邱灵素友好到达60，第七年十月时自动触发剧情解锁。"
-    translated: "Join the Wudang Sect in its seventh year, ninth month, and successfully uncover Qiao Dao'an's conspiracy. Additionally, Qiu Lingsu arrives on friendly terms at 60 in the eighth month of the seventh year, automatically unlocking a plot event."
+    translated: "Join the Wudang Sect in the seventh year, ninth month, and successfully uncover Qiao Dao'an's conspiracy. By the seventh year, tenth month, Qiu Lingsu arrives in a friendly manner, triggering the plot automatically. 60"
 - raw: "{\r\n    \"Key\": \"1065\",\r\n    \"IdName\": \"尹玄真2\",\r\n    \"Name\": \"尹玄真\",\r\n    \"Title\": \"闲云道人\",\r\n    \"CardName\": \"蛰龙高卧\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，性合自然，心无外求，自幼拜在“阴阳无相”庄道玄座下，为武当二师兄，虽天赋过人，却行事慵懒逍遥，得闲即闲，能睡便睡，人如闲云野鹤，万事不萦于心，顺意遂道，无拘无执，故亦颇得门中多位长老偏爱。\",\r\n    \"GetDesc\": \"1、加入武当派，第八年一月开始，福缘到达180，探索后山遇到尹玄真小憩，再次探索坐忘台，带着师叔和同门去后山寻找失踪的尹玄真，战胜尹玄真后加入。\\\\n2、非武当派，触发宁王结局后，在宁王拜山剧情前，驰援武当派时医术到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。\",\r\n    \"NameTw\": \"尹玄真\",\r\n    \"TitleTw\": \"閒雲道人\",\r\n    \"DescTw\": \"武當派弟子，性合自然，心無外求，自幼拜在“陰陽無相”莊道玄座下，為武當二師兄，雖天賦過人，卻行事慵懶逍遙，得閒即閒，能睡便睡，人如閒雲野鶴，萬事不縈於心，順意遂道，無拘無執，故亦頗得門中多位長老偏愛。\",\r\n    \"GetDescTw\": \"1、加入武當派，第八年一月開始，福緣到達180，探索後山遇到尹玄真小憩，再次探索坐忘臺，帶著師叔和同門去後山尋找失蹤的尹玄真，戰勝尹玄真後加入。\\\\n2、非武當派，觸發寧王結局後，在寧王拜山劇情前，馳援武當派時醫術到達大師級，此後在本門擊退商山四皓後，得知商山四皓在荊南出現，探索荊南長樂坊後加入。\",\r\n    \"CardNameTw\": \"蟄龍高臥\"\r\n  }"
   rawIndex: 1065
   splits:
@@ -932,8 +984,15 @@
     text: "武当派弟子，性合自然，心无外求，自幼拜在“阴阳无相”庄道玄座下，为武当二师兄，虽天赋过人，却行事慵懒逍遥，得闲即闲，能睡便睡，人如闲云野鹤，万事不萦于心，顺意遂道，无拘无执，故亦颇得门中多位长老偏爱。"
     translated: "Wudang Sect disciple Xing He Ziran practiced in harmony with nature from a young age. Initiated under Zhuang Daoxuan's tutelage, he became known as the Second Senior Brother of Wudang Sect. Despite his exceptional talent, he led a lazy and carefree life, always taking things easy whenever possible, much like a wandering cloud or a wild crane. Nothing troubled him, and he followed the ways of nature without any constraints. Consequently, many elders in the sect had a particular fondness for him."
   - splitPath: GetDesc
-    text: "1、加入武当派，第八年一月开始，福缘到达180，探索后山遇到尹玄真小憩，再次探索坐忘台，带着师叔和同门去后山寻找失踪的尹玄真，战胜尹玄真后加入。\\n2、非武当派，触发宁王结局后，在宁王拜山剧情前，驰援武当派时医术到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "1 joined the Wudang Sect in its eighth year, specifically in January. Luck 180 arrived, leading him to explore the back mountain where he encountered Master Uncle Yin Xuanzhen taking a rest. He then explored the Meditation Platform and accompanied Master Uncle and fellow disciples to the back mountain in search of the missing Master Yin Xuanzhen. After defeating Master Yin Xuanzhen, 1 joined the sect.\\n2, not a member of the Wudang Sect, will join after the Peaceful King storyline if your Medicine skill reaches master level when assisting the Wudang Sect during their defense. After repelling the Four Elders of Shangshan in this sect, you will learn that they have appeared in Jingnan. Exploring the Changle Neighborhood in Jingnan will lead to their joining."
+    text: "1、加入武当派，第八年一月开始，福缘到达180，探索后山遇到尹玄真小憩，再次探索坐忘台，带着师叔和同门去后山寻找失踪的尹玄真，战胜尹玄真后加入。"
+    translated: "1 joined the Wudang Sect in its eighth year, in January. Luck, 180, arrived, and upon exploring the back mountain, they encountered Yin Xuanzhen taking a break. They then explored the Seat of Absorption Platform again. Along with their Master Uncle and fellow disciples, they went to the back mountain to search for the missing Yin Xuanzhen. After defeating Yin Xuanzhen, they were inducted."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、非武当派，触发宁王结局后，在宁王拜山剧情前，驰援武当派时医术到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
+    translated: "2, not a Wudang Sect member, will trigger the Ning Wang ending after aiding the Wudang Sect during Ning Wang's mountain visit. If your medical skill reaches the master level when reinforcing Wudang, you will learn that the Four Elders of Shangshan have appeared in Jingnan after the sect repels them. After exploring the Longle Quarter in Jingnan, you will join them."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1066\",\r\n    \"IdName\": \"李玄通2\",\r\n    \"Name\": \"李玄通\",\r\n    \"Title\": \"无量道人\",\r\n    \"CardName\": \"真武薪传\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，光明磊落，坚韧不拔，自幼拜在“阴阳无相”庄道玄座下，为武当派大师兄，天资卓然，不仅在武学与道学之上悟性出众，于丹道一途亦颇具慧根，加之行事循规蹈矩，恪守门规，对同门师弟也十分照顾，深得武当派一众长老器重。\",\r\n    \"GetDesc\": \"加入武当派，未参与广成丹会，第九年一月开始探索坐忘台得知真武剑被盗，探索荆南遇到李玄通追捕凤栖梧，再次探索荆南战胜凤氏兄弟解锁。\",\r\n    \"NameTw\": \"李玄通\",\r\n    \"TitleTw\": \"無量道人\",\r\n    \"DescTw\": \"武當派弟子，光明磊落，堅韌不拔，自幼拜在“陰陽無相”莊道玄座下，為武當派大師兄，天資卓然，不僅在武學與道學之上悟性出眾，于丹道一途亦頗具慧根，加之行事循規蹈矩，恪守門規，對同門師弟也十分照顧，深得武當派一眾長老器重。\",\r\n    \"GetDescTw\": \"加入武當派，未參與廣成丹會，第九年一月開始探索坐忘臺得知真武劍被盜，探索荊南遇到李玄通追捕鳳棲梧，再次探索荊南戰勝鳳氏兄弟解鎖。\",\r\n    \"CardNameTw\": \"真武薪傳\"\r\n  }"
   rawIndex: 1066
   splits:
@@ -1097,11 +1156,18 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "长江盟五家联盟之一，老君观观主， 处事圆滑，多谋善变，自幼出家修炼太上禅，善用一双铁拐，灌注内息可裂石崩山，虽是出家之人却极好享受，平日所穿道袍，便需由乌蚕丝织锦，每日饭食酒酿，更需要珍馐佳品才能入口。"
-    translated: "One of the five major alliances in the Yangtze River Alliance, Laojun Temple's Abbot operates with great cunning and adaptability. He took up residence at the temple since childhood to cultivate Taoist practices focusing on the Teachings of the Supreme Ultimate. He is proficient in using a pair of iron canes; when infused with inner qi, they can split stones and collapse mountains. Despite being a monk, he has an insatiable desire for pleasure. His daily attire includes robes made from black silkworm silk, and his food and drink must be exquisite delicacies to be consumed."
+    text: "长江盟五家联盟之一，老君观观主，"
+    translated: "One of the five major alliances in the Yangtze Alliance, the Abbot of Laojun Temple."
+  - splitPath: Desc
+    subIndex: 1
+    text: "处事圆滑，多谋善变，自幼出家修炼太上禅，善用一双铁拐，灌注内息可裂石崩山，虽是出家之人却极好享受，平日所穿道袍，便需由乌蚕丝织锦，每日饭食酒酿，更需要珍馐佳品才能入口。"
+    translated: "He is smooth in his dealings, versatile and adept at change. Since childhood, he had renounced the world to practice the Supreme Sage Zen. He is skilled in using his pair of iron staffs, infusing them with inner qi to crack rocks and bring down mountains. Despite being a monk, he greatly enjoys luxuries; his daily robes must be made from black silkworm silk, and his food and wine need to be the finest delicacies to be palatable."
   - splitPath: GetDesc
     text: "加入洞庭帮，第五年五月至第八年二月，邹无计、向西飞、余元化加入后，财富到达5000，探索荆南消耗5000钱加入。"
     translated: "Joining the Dongting Sect, from May of the fifth year to February of the eighth year, Zou Wuji, Xiang Xifei, and Yu Yuanhua joined, increasing their wealth to 5000. The cost for exploring Jingnan was 5000 coins."
+  templates:
+  - splitPath: Desc
+    template: "{0} {1}"
 - raw: "{\r\n    \"Key\": \"1323\",\r\n    \"IdName\": \"余元化\",\r\n    \"Name\": \"余元化\",\r\n    \"Title\": \"避水金睛\",\r\n    \"CardName\": \"金睛掌门\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"长江盟五家联盟之一，金睛派掌门， 优柔寡断，圆滑世故，自幼修炼门中秘传金缕奇功，已有大成，双目之中，似有含金，是金睛派第四代传人，接手后殚精竭虑，一心想将金睛派发扬光大，故而在暗中还做下了一些不法的生意。\",\r\n    \"GetDesc\": \"加入洞庭帮，第五年五月至第八年二月，先后三次探索荆东，第三次探索式灵活到达150，发觉金睛派走私私盐后加入。\",\r\n    \"NameTw\": \"餘元化\",\r\n    \"TitleTw\": \"避水金睛\",\r\n    \"DescTw\": \"長江盟五家聯盟之一，金睛派掌門， 優柔寡斷，圓滑世故，自幼修煉門中祕傳金縷奇功，已有大成，雙目之中，似有含金，是金睛派第四代傳人，接手後殫精竭慮，一心想將金睛派發揚光大，故而在暗中還做下了一些不法的生意。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第五年五月至第八年二月，先後三次探索荊東，第三次探索式靈活到達150，發覺金睛派走私私鹽後加入。\",\r\n    \"CardNameTw\": \"金睛掌門\"\r\n  }"
   rawIndex: 1323
   splits:
@@ -1121,11 +1187,18 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "长江盟五家联盟之一，金睛派掌门， 优柔寡断，圆滑世故，自幼修炼门中秘传金缕奇功，已有大成，双目之中，似有含金，是金睛派第四代传人，接手后殚精竭虑，一心想将金睛派发扬光大，故而在暗中还做下了一些不法的生意。"
-    translated: "One of the five major alliances in the Yangtze River Alliance, Golden Eye Sect's Sect Leader is known for being indecisive and cunning. He has been practicing the sect's secret technique, Golden Thread Strange Skills, since he was a child and has already achieved great success. His eyes seem to shimmer with gold, making him the fourth‑generation successor of the Golden Eye Sect. Since taking over, he has exhausted himself in efforts to expand the sect, and thus has engaged in some illegal businesses in secret."
+    text: "长江盟五家联盟之一，金睛派掌门，"
+    translated: "One of the five alliances in the Yangtze River Alliance, Golden Eye Sect's Sect Master"
+  - splitPath: Desc
+    subIndex: 1
+    text: "优柔寡断，圆滑世故，自幼修炼门中秘传金缕奇功，已有大成，双目之中，似有含金，是金睛派第四代传人，接手后殚精竭虑，一心想将金睛派发扬光大，故而在暗中还做下了一些不法的生意。"
+    translated: "Lackluster and cautious, smooth‑tongued and worldly‑wise, he had been cultivating the sect's secret Golden Thread Miraculous Technique since he was a child, and had already reached a high level of mastery. His eyes seemed to contain a hint of gold, making him a descendant of the fourth generation of the Golden Eye Sect. After taking over, he devoted himself entirely, with one goal in mind: to expand and glorify the Golden Eye Sect. Thus, in secret, he had engaged in some unlawful business activities."
   - splitPath: GetDesc
     text: "加入洞庭帮，第五年五月至第八年二月，先后三次探索荆东，第三次探索式灵活到达150，发觉金睛派走私私盐后加入。"
     translated: "Join the Dongting Sect from May of the fifth year to February of the eighth year. During this period, explore Jingdong three times in succession. The third exploration was conducted with flexibility and arrived at 150. Upon discovering that the Golden Eye Sect was smuggling salt, I joined them."
+  templates:
+  - splitPath: Desc
+    template: "{0} {1}"
 - raw: "{\r\n    \"Key\": \"1324\",\r\n    \"IdName\": \"邹无计\",\r\n    \"Name\": \"邹无计\",\r\n    \"Title\": \"听风羽士\",\r\n    \"CardName\": \"听风阁主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"长江盟五家联盟之一，听风阁阁主，机变百出，老谋深算，为谋取更多利益而将听风阁加入长江盟与洞庭忙为对，在听风阁在洞庭帮和长江盟之间占了不少便宜，以智取胜便是其行走江湖的信条。\",\r\n    \"GetDesc\": \"加入洞庭帮，第五年五月至第八年二月，探索荆南战胜了尘救下邹九思，悟性到达150探索荆南加入。\",\r\n    \"NameTw\": \"鄒無計\",\r\n    \"TitleTw\": \"聽風羽士\",\r\n    \"DescTw\": \"長江盟五家聯盟之一，聽風閣閣主，機變百出，老謀深算，為謀取更多利益而將聽風閣加入長江盟與洞庭忙為對，在聽風閣在洞庭幫和長江盟之間佔了不少便宜，以智取勝便是其行走江湖的信條。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第五年五月至第八年二月，探索荊南戰勝了塵救下鄒九思，悟性到達150探索荊南加入。\",\r\n    \"CardNameTw\": \"聽風閣主\"\r\n  }"
   rawIndex: 1324
   splits:
@@ -1244,8 +1317,19 @@
     text: "洞庭帮大小姐，“白首龙君”钟离恨与“洞庭神女”聂湘君之女，任性倔强，率真活泼，幼年时因母亲聂湘君早逝，父亲钟离恨闭关而由外祖聂五龙抚养，对她宝贝呵护，娇惯异常，故而养成了她刁蛮泼辣的性格。"
     translated: "Dongting Sect's Heir Apparent, Old White‑Headed Dragon Lord Zhongli Hen and Divine Lady Tang Ting of Dongting Lake Nie Xiangjun's daughter, is willful and stubborn, straightforward and lively. She was born when her mother, Nie Xiangjun, passed away early, and her father, Zhongli Hen, closed himself off in seclusion. She was raised by her maternal grandfather, Nie Wulong, who doted on her excessively, spoiling her greatly. This led to her developing a spoiled and assertive personality."
   - splitPath: GetDesc
-    text: "第七年一月开始，钟离雪友好到达60，探索荆南遇到闻苍术救人，此后再次探索荆南，帮助钟离雪亲手杀掉仇人的施全性解锁。\\n\\n钟离雪形象二\\n红颜解锁后自动获得"
-    translated: "In the seventh Year of Month One, Zhongli Xue arrived amicably at 60. During her exploration of Jingnan, she encountered Wen Cangzhu saving someone. Afterwards, she revisited Jingnan and, with Zhongli Xue's help, personally eliminated Shi Quanxing, thus unlocking a new path.\\n\\nZhongli Xue's Second Appearance\\nAfter unlocking Red Yan, they will be automatically obtained."
+    text: "第七年一月开始，钟离雪友好到达60，探索荆南遇到闻苍术救人，此后再次探索荆南，帮助钟离雪亲手杀掉仇人的施全性解锁。"
+    translated: "Starting in January of the seventh year, Zhongli Xue kindly arrived at 60, explored Jingnan and encountered Wen Cangzhu saving people. After this, she again explored Jingnan, helping Zhongli Xue personally kill Shi Quanxing, her enemy, to unlock the achievement."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "钟离雪形象二"
+    translated: "Zhongli Xue Image Two"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8164\",\r\n    \"IdName\": \"钟离雪3\",\r\n    \"Name\": \"钟离雪\",\r\n    \"Title\": \"洞庭龙女\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"2026年元旦特别形象。洞庭帮大小姐，“白首龙君”钟离恨与“洞庭神女”聂湘君之女，任性倔强，率真活泼，幼年时因母亲聂湘君早逝，父亲钟离恨闭关而由外祖聂五龙抚养，对她宝贝呵护，娇惯异常，故而养成了她刁蛮泼辣的性格。\",\r\n    \"GetDesc\": \"第七年一月开始，钟离雪友好到达60，探索荆南遇到闻苍术救人，此后再次探索荆南，帮助钟离雪亲手杀掉仇人的施全性解锁。\",\r\n    \"NameTw\": \"鍾離雪\",\r\n    \"TitleTw\": \"洞庭龍女\",\r\n    \"DescTw\": \"2026年元旦特別形象。洞庭幫大小姐，“白首龍君”鍾離恨與“洞庭神女”聶湘君之女，任性倔強，率真活潑，幼年時因母親聶湘君早逝，父親鍾離恨閉關而由外祖聶五龍撫養，對她寶貝呵護，嬌慣異常，故而養成了她刁蠻潑辣的性格。\",\r\n    \"GetDescTw\": \"第七年一月開始，鍾離雪友好到達60，探索荊南遇到聞蒼朮救人，此後再次探索荊南，幫助鍾離雪親手殺掉仇人的施全性解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8164
   splits:
@@ -1269,7 +1353,7 @@
     translated: "In 2026 Year New Year's Day special image, Dongting Sect's Young Miss, the daughter of Old White‑headed Dragon Lord Zhongli Hen and Goddess of Dongting Lake Tang Ting, is mischievous and stubborn, candid and lively. Due to her mother Nie Xiangjun's early death and her father Zhongli Hen's seclusion, she was raised by her maternal grandfather Nie Wulong, who doted on her and spoiled her excessively. As a result, she developed a spoiled and tempestuous personality."
   - splitPath: GetDesc
     text: "第七年一月开始，钟离雪友好到达60，探索荆南遇到闻苍术救人，此后再次探索荆南，帮助钟离雪亲手杀掉仇人的施全性解锁。"
-    translated: "In the seventh year, in January, Zhongli Xue arrived at 60 friendly. During an exploration of Jingnan, she encountered Wen Cangzhu saving someone and later, while revisiting Jingnan, assisted Zhongli Xue in personally killing Shi Quanxing, her enemy, unlocking a new scenario."
+    translated: "Starting in January of the seventh year, Zhongli Xue kindly arrived at 60, explored Jingnan and encountered Wen Cangzhu saving people. After this, she again explored Jingnan, helping Zhongli Xue personally kill Shi Quanxing, her enemy, to unlock the achievement."
 - raw: "{\r\n    \"Key\": \"1306\",\r\n    \"IdName\": \"薛一笑\",\r\n    \"Name\": \"薛一笑\",\r\n    \"Title\": \"珠玉连环\",\r\n    \"CardName\": \"赤蛟堂堂主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"洞庭帮赤蛟堂堂主，风趣诙谐，机敏豁达，本是洞庭一地的游侠，后追随钟离恨一同创立洞庭帮，未曾说话总是先呵呵一笑，善于弓术，一手连珠箭法在洞庭湖上十分闻名，负责洞庭帮中管理武学兑换和新帮众之责。\",\r\n    \"GetDesc\": \"加入洞庭帮，第四年一月开始，在赤蛟堂将蛟龙息、九字刀法、莫怪枪法、风波十六叉、连珠箭法全部兑换学成后，再次探索赤蛟堂加入。\",\r\n    \"NameTw\": \"薛一笑\",\r\n    \"TitleTw\": \"珠玉連環\",\r\n    \"DescTw\": \"洞庭幫赤蛟堂堂主，風趣詼諧，機敏豁達，本是洞庭一地的遊俠，後追隨鍾離恨一同創立洞庭幫，未曾說話總是先呵呵一笑，善於弓術，一手連珠箭法在洞庭湖上十分聞名，負責洞庭幫中管理武學兌換和新幫眾之責。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第四年一月開始，在赤蛟堂將蛟龍息、九字刀法、莫怪槍法、風波十六叉、連珠箭法全部兌換學成後，再次探索赤蛟堂加入。\",\r\n    \"CardNameTw\": \"赤蛟堂堂主\"\r\n  }"
   rawIndex: 1306
   splits:
@@ -1412,8 +1496,17 @@
     text: "洞庭帮帮众，洒脱仗义，浪荡无拘，自幼父母双亡，得钟离恨所救，由帮主夫人聂湘君抚养，因其自幼便在洞庭帮中长大，也深得各堂长老喜爱，学得了少各位堂主的看家本事，在洞庭帮一众青年帮众中威信极高，皆称其为“浪哥”。"
     translated: "Dongting Sect disciples are carefree and righteous, roving freely without restraint. They lost both their parents at a young age and were saved by Zhongli Hen. They were raised by the sect leader's wife, Nie Xiangjun. Since they grew up within Dongting Sect, they also won the affection of various hall elders. They learned the unique skills of each hall master and have an extremely high reputation among the younger generation of Dongting Sect disciples, whom all call them  “Brother Wang” ."
   - splitPath: GetDesc
-    text: "1、加入洞庭帮，第七年一月开始，探索湘北战胜恶鼋后，根骨到达160，探索来龙口获取龙引刀，再次探索湘北斩杀恶鼋后解锁\\n2、非洞庭帮，触发宁王结局后，在宁王拜山剧情前，驰援洞庭帮时百戏到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "1, join the Dongting Sect. Starting from the seventh year of the month, after defeating the Evil Softshell Turtle in Xiangbei, your potential reaches 160. Explore Lailong Mouth to obtain the Dragon Guide Saber, and again explore Xiangbei to slay the Evil Softshell Turtle, unlocking this ability.\\n2, not a member of the Dongting Sect, joins after triggering the Ning Wang ending and before the Peaceful King's visit to the mountain. When the Variety Arts reach master level while aiding the Dongting Sect in this scenario, they later join upon learning that the Four Elders of Shangshan have appeared in Jingnan after defeating them at their sect headquarters in Changle Lane."
+    text: "1、加入洞庭帮，第七年一月开始，探索湘北战胜恶鼋后，根骨到达160，探索来龙口获取龙引刀，再次探索湘北斩杀恶鼋后解锁"
+    translated: "1, join the Dongting Sect. Starting in the seventh Year of the Month, after defeating the Evil Softshell Turtle in northern Hunan, your Potential reaches 160. Explore the Laolong Mouth to obtain the Dragon Guidance Saber, and revisit northern Hunan to slay the Evil Softshell Turtle, unlocking this path."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、非洞庭帮，触发宁王结局后，在宁王拜山剧情前，驰援洞庭帮时百戏到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
+    translated: "2, not a member of the Dongting Sect, joins after the Ning Wang scenario is triggered but before the Ning Wang pays homage to the sect. When Hundred Arts reaches master level while aiding the Dongting Sect, and after the sect repels the Four Elders of Shangshan, and learns that the Four Elders of Shangshan have appeared in Jingnan, they join after exploring the Changle Quarter in Jingnan."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Variety Arts,百戏,Variety Arts,百戏,Variety Arts,百戏,"
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"7031\",\r\n    \"IdName\": \"姚波\",\r\n    \"Name\": \"姚波\",\r\n    \"CardName\": \"洞庭帮众\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"洞庭帮帮众，光明磊落，一诺如山，善于用刀，平日江浪不在之时，帮众间多以他为首。\",\r\n    \"GetDesc\": \"加入洞庭帮，第三年二月被安排参加五月初五龙舟会事件后自动加入。\",\r\n    \"NameTw\": \"姚波\",\r\n    \"DescTw\": \"洞庭幫幫眾，光明磊落，一諾如山，善於用刀，平日江浪不在之時，幫眾間多以他為首。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第三年二月被安排參加五月初五龍舟會事件後自動加入。\",\r\n    \"CardNameTw\": \"洞庭幫眾\"\r\n  }"
   rawIndex: 7031
   splits:
@@ -1503,316 +1596,445 @@
   splits:
   - splitPath: IdName
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: Name
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: Title
     text: "不倒翁"
+    translated: "Puppet on a stick"
   - splitPath: CardName
     text: "唐门门主"
+    translated: "Clan Master of Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门门主"
+    translated: "Clan Master of Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第八年一月战胜唐纵后加入。"
+    translated: "Join the Tang Clan. After the victory over Tang Zhong in the eighth Year of the Month."
 - raw: "{\r\n    \"Key\": \"1402\",\r\n    \"IdName\": \"唐傲\",\r\n    \"Name\": \"唐傲\",\r\n    \"Title\": \"独目阎罗\",\r\n    \"CardName\": \"唐门大先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门大先生\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，福缘到达160后探索川西获取猞猁珠后，探索演武场遇到唐傲，此后两次探索川西，战胜卫悲后加入。\",\r\n    \"NameTw\": \"唐傲\",\r\n    \"TitleTw\": \"獨目閻羅\",\r\n    \"DescTw\": \"唐門大先生\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，福緣到達160後探索川西獲取猞猁珠後，探索演武場遇到唐傲，此後兩次探索川西，戰勝衛悲後加入。\",\r\n    \"CardNameTw\": \"唐門大先生\"\r\n  }"
   rawIndex: 1402
   splits:
   - splitPath: IdName
     text: "唐傲"
+    translated: "Zhongli Hen"
   - splitPath: Name
     text: "唐傲"
+    translated: "Zhongli Hen"
   - splitPath: Title
     text: "独目阎罗"
+    translated: "Old White‑headed Dragon Lord"
   - splitPath: CardName
     text: "唐门大先生"
+    translated: "Tang Clan's Senior Master"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门大先生"
+    translated: "Tang Clan's Senior Master"
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，福缘到达160后探索川西获取猞猁珠后，探索演武场遇到唐傲，此后两次探索川西，战胜卫悲后加入。"
+    translated: "Join the Tang Clan. Starting from the sixth year of the month, Luck arrives at 160 and explores Western Sichuan to obtain the lynx pearl. After encountering Tang Ao in the Training Ground, they explore Western Sichuan twice and join after defeating Wei Bei."
 - raw: "{\r\n    \"Key\": \"1403\",\r\n    \"IdName\": \"唐隐\",\r\n    \"Name\": \"唐隐\",\r\n    \"Title\": \"死生不二\",\r\n    \"CardName\": \"唐门二先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门二先生\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，毒术到达大师，财富到达4000，探索川西购买龙爪黄连，探索百毒坊得知此药为假，此后财富到达200，再次探索川西得知两骗子踪迹，探索川东遇到两骗子，此后连续两次探索百毒坊唐隐加入。\",\r\n    \"NameTw\": \"唐隱\",\r\n    \"TitleTw\": \"死生不二\",\r\n    \"DescTw\": \"唐門二先生\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，毒術到達大師，財富到達4000，探索川西購買龍爪黃連，探索百毒坊得知此藥為假，此後財富到達200，再次探索川西得知兩騙子蹤跡，探索川東遇到兩騙子，此後連續兩次探索百毒坊唐隱加入。\",\r\n    \"CardNameTw\": \"唐門二先生\"\r\n  }"
   rawIndex: 1403
   splits:
   - splitPath: IdName
     text: "唐隐"
+    translated: "Tang Yin"
   - splitPath: Name
     text: "唐隐"
+    translated: "Tang Yin"
   - splitPath: Title
     text: "死生不二"
+    translated: "Life and death are one and the same."
   - splitPath: CardName
     text: "唐门二先生"
+    translated: "Second Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门二先生"
+    translated: "Second Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，毒术到达大师，财富到达4000，探索川西购买龙爪黄连，探索百毒坊得知此药为假，此后财富到达200，再次探索川西得知两骗子踪迹，探索川东遇到两骗子，此后连续两次探索百毒坊唐隐加入。"
+    translated: "Join the Tang Clan. Starting in the sixth Year of the Month, the mastery of Poison reached them, and their Wealth reached 4000. They explored the western region of Sichuan to purchase Coptis root. After inquiring at the Hundred Poisons Hall, they learned that the Coptis root was fake. Following this, their Wealth reached 200. They then explored the western region again, discovering the whereabouts of the two fraudsters. In the eastern region, they encountered the two fraudsters. Thereafter, they continuously explored the Hundred Poisons Hall, and Tang Yin joined them."
 - raw: "{\r\n    \"Key\": \"1404\",\r\n    \"IdName\": \"唐冷\",\r\n    \"Name\": \"唐冷\",\r\n    \"Title\": \"伞下游魂\",\r\n    \"CardName\": \"唐门三先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门三先生\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后加入。\",\r\n    \"NameTw\": \"唐冷\",\r\n    \"TitleTw\": \"傘下游魂\",\r\n    \"DescTw\": \"唐門三先生\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，福緣到達150，探索川西五次，得知傅雲飛要挑戰閻鐵生，此後戰勝傅雲飛和寇伏魔，最後連續兩次探索千機坊，唐冷心結解開後加入。\",\r\n    \"CardNameTw\": \"唐門三先生\"\r\n  }"
   rawIndex: 1404
   splits:
   - splitPath: IdName
     text: "唐冷"
+    translated: "Tang Ling"
   - splitPath: Name
     text: "唐冷"
+    translated: "Tang Ling"
   - splitPath: Title
     text: "伞下游魂"
+    translated: "Drifting Ghost under the Umbrella"
   - splitPath: CardName
     text: "唐门三先生"
+    translated: "Third Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门三先生"
+    translated: "Third Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后加入。"
+    translated: "Join the Tang Clan. Starting from the sixth year of the month, Luck reached 150. Explore the western Sichuan five times, learn that Fu Yunfei is challenging Yan Tesheng. Afterward, defeat Fu Yunfei and Kou Fumu. Finally, explore the Thousand Mechanisms Hall twice consecutively. After Tang Leng's heart knot is untied, he joins."
 - raw: "{\r\n    \"Key\": \"1405\",\r\n    \"IdName\": \"唐安\",\r\n    \"Name\": \"唐安\",\r\n    \"Title\": \"四时藏锋\",\r\n    \"CardName\": \"唐门四先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门四先生\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，贡献到达90，探索演武场两次后，再次探索川西后加入。\",\r\n    \"NameTw\": \"唐安\",\r\n    \"TitleTw\": \"四時藏鋒\",\r\n    \"DescTw\": \"唐門四先生\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，貢獻到達90，探索演武場兩次後，再次探索川西后加入。\",\r\n    \"CardNameTw\": \"唐門四先生\"\r\n  }"
   rawIndex: 1405
   splits:
   - splitPath: IdName
     text: "唐安"
+    translated: "Tang An"
   - splitPath: Name
     text: "唐安"
+    translated: "Tang An"
   - splitPath: Title
     text: "四时藏锋"
+    translated: "Four Seasons Conceal Sharpness"
   - splitPath: CardName
     text: "唐门四先生"
+    translated: "Fourth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门四先生"
+    translated: "Fourth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，贡献到达90，探索演武场两次后，再次探索川西后加入。"
+    translated: "Join the Tang Clan. Starting in the sixth Year of the Month, Contribution reaches 90. After exploring the Arena of Martial Arts twice, rejoin after exploring the West Sichuan region."
 - raw: "{\r\n    \"Key\": \"1406\",\r\n    \"IdName\": \"唐影\",\r\n    \"Name\": \"唐影\",\r\n    \"Title\": \"无孔不入\",\r\n    \"CardName\": \"唐门五先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门五先生\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，贡献到达80，先后依次探访川东、川西、川南、川中，与唐影游历各处分舵后加入。\",\r\n    \"NameTw\": \"唐影\",\r\n    \"TitleTw\": \"無孔不入\",\r\n    \"DescTw\": \"唐門五先生\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，貢獻到達80，先後依次探訪川東、川西、川南、川中，與唐影遊歷各處分舵後加入。\",\r\n    \"CardNameTw\": \"唐門五先生\"\r\n  }"
   rawIndex: 1406
   splits:
   - splitPath: IdName
     text: "唐影"
+    translated: "Tang Ying"
   - splitPath: Name
     text: "唐影"
+    translated: "Tang Ying"
   - splitPath: Title
     text: "无孔不入"
+    translated: "Pierces every hole"
   - splitPath: CardName
     text: "唐门五先生"
+    translated: "Fifth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门五先生"
+    translated: "Fifth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，贡献到达80，先后依次探访川东、川西、川南、川中，与唐影游历各处分舵后加入。"
+    translated: "Joining the Tang Clan, starting from the sixth year of the month, Contribution reached 80. They began by sequentially visiting the eastern, western, southern, and central regions of Sichuan, and later joined after touring and spending time with Tang Ying at various branch headquarters."
 - raw: "{\r\n    \"Key\": \"1407\",\r\n    \"IdName\": \"唐觉\",\r\n    \"Name\": \"唐觉\",\r\n    \"Title\": \"六根清净\",\r\n    \"CardName\": \"唐门六先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门六先生\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，贡献到达70，探索两次后山后，再次探索演武场加入。\",\r\n    \"NameTw\": \"唐覺\",\r\n    \"TitleTw\": \"六根清淨\",\r\n    \"DescTw\": \"唐門六先生\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，貢獻到達70，探索兩次後山後，再次探索演武場加入。\",\r\n    \"CardNameTw\": \"唐門六先生\"\r\n  }"
   rawIndex: 1407
   splits:
   - splitPath: IdName
     text: "唐觉"
+    translated: "Tang Jue"
   - splitPath: Name
     text: "唐觉"
+    translated: "Tang Jue"
   - splitPath: Title
     text: "六根清净"
+    translated: "Six sense organs cleansed"
   - splitPath: CardName
     text: "唐门六先生"
+    translated: "Sixth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门六先生"
+    translated: "Sixth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第五年一月开始，贡献到达70，探索两次后山后，再次探索演武场加入。"
+    translated: "Join the Tang Clan. Starting from the fifth Year of the Month, Contribution has reached 70. After exploring the back mountain twice, rejoin by further exploring the practice arena."
 - raw: "{\r\n    \"Key\": \"1408\",\r\n    \"IdName\": \"唐矩\",\r\n    \"Name\": \"唐矩\",\r\n    \"Title\": \"玲珑七巧\",\r\n    \"CardName\": \"唐门七先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门七先生\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，贡献到达50，匠造到达高手，探索千机坊三次后加入。\",\r\n    \"NameTw\": \"唐矩\",\r\n    \"TitleTw\": \"玲瓏七巧\",\r\n    \"DescTw\": \"唐門七先生\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，貢獻到達50，匠造到達高手，探索千機坊三次後加入。\",\r\n    \"CardNameTw\": \"唐門七先生\"\r\n  }"
   rawIndex: 1408
   splits:
   - splitPath: IdName
     text: "唐矩"
+    translated: "Tang Ju"
   - splitPath: Name
     text: "唐矩"
+    translated: "Tang Ju"
   - splitPath: Title
     text: "玲珑七巧"
+    translated: "Seven‑Treasure Ingenious Trick"
   - splitPath: CardName
     text: "唐门七先生"
+    translated: "Seventh Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门七先生"
+    translated: "Seventh Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第五年一月开始，贡献到达50，匠造到达高手，探索千机坊三次后加入。"
+    translated: "Join the Tang Clan. Starting in the fifth Year of the Month, contribution reaches 50, craftsmanship reaches the level of a master, and after exploring the Thousand Mechanisms Workshop three times, join it."
 - raw: "{\r\n    \"Key\": \"1409\",\r\n    \"IdName\": \"唐墨\",\r\n    \"Name\": \"唐墨\",\r\n    \"Title\": \"巴山画匠\",\r\n    \"CardName\": \"唐门八先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门八先生\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，贡献到达60，匠造到达高手，探索后山后，两次探索千机坊加入。\",\r\n    \"NameTw\": \"唐墨\",\r\n    \"TitleTw\": \"巴山畫匠\",\r\n    \"DescTw\": \"唐門八先生\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，貢獻到達60，匠造到達高手，探索後山後，兩次探索千機坊加入。\",\r\n    \"CardNameTw\": \"唐門八先生\"\r\n  }"
   rawIndex: 1409
   splits:
   - splitPath: IdName
     text: "唐墨"
+    translated: "Jiang Mo"
   - splitPath: Name
     text: "唐墨"
+    translated: "Jiang Mo"
   - splitPath: Title
     text: "巴山画匠"
+    translated: "Painter of the Bashan Mountains"
   - splitPath: CardName
     text: "唐门八先生"
+    translated: "Eighth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门八先生"
+    translated: "Eighth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第五年一月开始，贡献到达60，匠造到达高手，探索后山后，两次探索千机坊加入。"
+    translated: "Join the Tang Clan. Starting from the first month of the fifth year, contribution reaches 60, and craftsmanship reaches the level of a master. After exploring the back mountain, two explorations lead to the joining of the Thousand Mechanisms Workshop."
 - raw: "{\r\n    \"Key\": \"1410\",\r\n    \"IdName\": \"唐醉\",\r\n    \"Name\": \"唐醉\",\r\n    \"Title\": \"酒里乾坤\",\r\n    \"CardName\": \"唐门九先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门九先生\",\r\n    \"GetDesc\": \"加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。\",\r\n    \"NameTw\": \"唐醉\",\r\n    \"TitleTw\": \"酒裡乾坤\",\r\n    \"DescTw\": \"唐門九先生\",\r\n    \"GetDescTw\": \"加入唐門，第四年三月明通找尋唐覺後，截止至第四年十月前，探索川東遇到明達，探索演武場回報明通，此後兩次探索川東第一次比武戰勝明達，第二次唐醉幫助斗酒勝過明達後加入。\",\r\n    \"CardNameTw\": \"唐門九先生\"\r\n  }"
   rawIndex: 1410
   splits:
   - splitPath: IdName
     text: "唐醉"
+    translated: "Dong Zui"
   - splitPath: Name
     text: "唐醉"
+    translated: "Dong Zui"
   - splitPath: Title
     text: "酒里乾坤"
+    translated: "A World in a Bottle"
   - splitPath: CardName
     text: "唐门九先生"
+    translated: "Ninth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门九先生"
+    translated: "Ninth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。"
+    translated: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
 - raw: "{\r\n    \"Key\": \"1411\",\r\n    \"IdName\": \"唐宝1\",\r\n    \"Name\": \"唐宝\",\r\n    \"Title\": \"飞石郎君\",\r\n    \"CardName\": \"唐门十先生\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门十先生\",\r\n    \"GetDesc\": \"加入唐门，第三年四月答应与唐宝外出找寻各位先生后加入。\",\r\n    \"NameTw\": \"唐寶\",\r\n    \"TitleTw\": \"飛石郎君\",\r\n    \"DescTw\": \"唐門十先生\",\r\n    \"GetDescTw\": \"加入唐門，第三年四月答應與唐寶外出找尋各位先生後加入。\",\r\n    \"CardNameTw\": \"唐門十先生\"\r\n  }"
   rawIndex: 1411
   splits:
   - splitPath: IdName
     text: "唐宝1"
+    translated: "Tang Bao1"
   - splitPath: Name
     text: "唐宝"
+    translated: "Tang Bao"
   - splitPath: Title
     text: "飞石郎君"
+    translated: "Stone‑Throwing Master"
   - splitPath: CardName
     text: "唐门十先生"
+    translated: "Tenth Master of the Tang Clan"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门十先生"
+    translated: "Tenth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第三年四月答应与唐宝外出找寻各位先生后加入。"
+    translated: "Join the Tang Clan in the third year, fourth month, after agreeing to accompany Tang Bao to find the various gentlemen."
 - raw: "{\r\n    \"Key\": \"1412\",\r\n    \"IdName\": \"唐宝2\",\r\n    \"Name\": \"唐宝\",\r\n    \"Title\": \"飞石郎君\",\r\n    \"CardName\": \"石破天惊\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门十先生\",\r\n    \"GetDesc\": \"加入唐门，第八年一月开始，探索后山，此后财富到达100，探索川南两次，再次探索后山一次，然后探索川南对战唐宝后加入。\",\r\n    \"NameTw\": \"唐寶\",\r\n    \"TitleTw\": \"飛石郎君\",\r\n    \"DescTw\": \"唐門十先生\",\r\n    \"GetDescTw\": \"加入唐門，第八年一月開始，探索後山，此後財富到達100，探索川南兩次，再次探索後山一次，然後探索川南對戰唐寶後加入。\",\r\n    \"CardNameTw\": \"石破天驚\"\r\n  }"
   rawIndex: 1412
   splits:
   - splitPath: IdName
     text: "唐宝2"
+    translated: "Tang Bao2"
   - splitPath: Name
     text: "唐宝"
+    translated: "Tang Bao"
   - splitPath: Title
     text: "飞石郎君"
+    translated: "Stone‑Throwing Master"
   - splitPath: CardName
     text: "石破天惊"
+    translated: "Startling like a stone breaking through the sky"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门十先生"
+    translated: "Tenth Master of the Tang Clan"
   - splitPath: GetDesc
     text: "加入唐门，第八年一月开始，探索后山，此后财富到达100，探索川南两次，再次探索后山一次，然后探索川南对战唐宝后加入。"
+    translated: "Join the Tang Clan. Starting from the eighth Year of the Rat in January, begin exploring the back mountain. Afterwards, wealth reached 100. Explore southwestern Sichuan twice, then explore the back mountain once, and finally join after a battle against Tang Bao."
 - raw: "{\r\n    \"Key\": \"1413\",\r\n    \"IdName\": \"唐幺幺1\",\r\n    \"Name\": \"唐幺幺\",\r\n    \"Title\": \"无影飞刀\",\r\n    \"CardName\": \"唐门小小姐\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门小小姐\",\r\n    \"GetDesc\": \"第三年一月开始，贡献到达20，探索安乐窝听到唐幺幺与唐纵吵架，此后探索演武场，和闹事的唐幺幺进行战斗，最后探索后山，为唐幺幺治腿结识。\",\r\n    \"NameTw\": \"唐么么\",\r\n    \"TitleTw\": \"無影飛刀\",\r\n    \"DescTw\": \"唐門小小姐\",\r\n    \"GetDescTw\": \"第三年一月開始，貢獻到達20，探索安樂窩聽到唐么么與唐縱吵架，此後探索演武場，和鬧事的唐么么進行戰鬥，最後探索後山，為唐么么治腿結識。\",\r\n    \"CardNameTw\": \"唐門小小姐\"\r\n  }"
   rawIndex: 1413
   splits:
   - splitPath: IdName
     text: "唐幺幺1"
+    translated: "Tang Yaoya 1"
   - splitPath: Name
     text: "唐幺幺"
+    translated: "Tang Yaoya"
   - splitPath: Title
     text: "无影飞刀"
+    translated: "Flickering Blade"
   - splitPath: CardName
     text: "唐门小小姐"
+    translated: "Tang Clan's Young Miss"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门小小姐"
+    translated: "Tang Clan's Young Miss"
   - splitPath: GetDesc
     text: "第三年一月开始，贡献到达20，探索安乐窝听到唐幺幺与唐纵吵架，此后探索演武场，和闹事的唐幺幺进行战斗，最后探索后山，为唐幺幺治腿结识。"
+    translated: "Starting in the third year, month, contributions reached 20. Exploring the Comfortable Nest, they heard Tang Yaoya arguing with Tang Zong. Afterwards, they explored the Training Ground, engaging in combat with the disruptive Yaoya. Finally, they explored the back hill, where Yaoya was treated for her leg, and thus befriended her."
 - raw: "{\r\n    \"Key\": \"1414\",\r\n    \"IdName\": \"唐幺幺2\",\r\n    \"Name\": \"唐幺幺\",\r\n    \"Title\": \"无影飞刀\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门小小姐\",\r\n    \"GetDesc\": \"第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。此后福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。最后匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。\",\r\n    \"NameTw\": \"唐么么\",\r\n    \"TitleTw\": \"無影飛刀\",\r\n    \"DescTw\": \"唐門小小姐\",\r\n    \"GetDescTw\": \"第五年一月開始，探索安樂窩，得知天蠶絲的隱祕。此後福緣到達180，探索川西在迷魂凼找到天蠶絲和雲鐵。最後匠造到達大師，探索千機坊，為唐么么鍛造“千羽千尋”後解鎖唐么么紅顏。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 1414
   splits:
   - splitPath: IdName
     text: "唐幺幺2"
+    translated: "Yang Yao Yao 2"
   - splitPath: Name
     text: "唐幺幺"
+    translated: "Tang Yaoya"
   - splitPath: Title
     text: "无影飞刀"
+    translated: "Flickering Blade"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门小小姐"
+    translated: "Tang Clan's Young Miss"
   - splitPath: GetDesc
     text: "第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。此后福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。最后匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。"
+    translated: "Starting in the first month of the fifth year, explore the Comfortable Nest and learn about the secrets of Heavenly Silkworm Silk. Afterwards, Luck reaches 180, where you explore the western Sichuan in the Enchanting Illusion Pool to find Heavenly Silkworm Silk and Cloud Iron. Finally, after reaching the master craftsman and exploring the Thousand Machines Shop, you forge the  “Qianyu Qianxin”  for Tang Yaoyao, unlocking her character as a red‑haired beauty."
 - raw: "{\r\n    \"Key\": \"7505\",\r\n    \"IdName\": \"唐风\",\r\n    \"Name\": \"唐风\",\r\n    \"CardName\": \"唐门门人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门门人\",\r\n    \"GetDesc\": \"加入唐门，第二年三月自动加入。\",\r\n    \"NameTw\": \"唐風\",\r\n    \"DescTw\": \"唐門門人\",\r\n    \"GetDescTw\": \"加入唐門，第二年三月自動加入。\",\r\n    \"CardNameTw\": \"唐門門人\"\r\n  }"
   rawIndex: 7505
   splits:
   - splitPath: IdName
     text: "唐风"
+    translated: "Tang Feng"
   - splitPath: Name
     text: "唐风"
+    translated: "Tang Feng"
   - splitPath: CardName
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: GetDesc
     text: "加入唐门，第二年三月自动加入。"
+    translated: "Join the Tang Clan; you will be automatically enrolled in the following March of the second year."
 - raw: "{\r\n    \"Key\": \"7507\",\r\n    \"IdName\": \"唐平\",\r\n    \"Name\": \"唐平\",\r\n    \"CardName\": \"唐门门人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门门人\",\r\n    \"GetDesc\": \"加入唐门，匠造到达入门后，探索千机坊加入。\",\r\n    \"NameTw\": \"唐平\",\r\n    \"DescTw\": \"唐門門人\",\r\n    \"GetDescTw\": \"加入唐門，匠造到達入門後，探索千機坊加入。\",\r\n    \"CardNameTw\": \"唐門門人\"\r\n  }"
   rawIndex: 7507
   splits:
   - splitPath: IdName
     text: "唐平"
+    translated: "Tang Ping"
   - splitPath: Name
     text: "唐平"
+    translated: "Tang Ping"
   - splitPath: CardName
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: GetDesc
     text: "加入唐门，匠造到达入门后，探索千机坊加入。"
+    translated: "Join the Tang Clan. After completing the basics of craftsmanship, explore Qianji Hall to join."
 - raw: "{\r\n    \"Key\": \"7508\",\r\n    \"IdName\": \"唐开\",\r\n    \"Name\": \"唐开\",\r\n    \"CardName\": \"唐门门人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门门人\",\r\n    \"GetDesc\": \"加入唐门，毒术到达入门后，探索百毒坊加入。\",\r\n    \"NameTw\": \"唐開\",\r\n    \"DescTw\": \"唐門門人\",\r\n    \"GetDescTw\": \"加入唐門，毒術到達入門後，探索百毒坊加入。\",\r\n    \"CardNameTw\": \"唐門門人\"\r\n  }"
   rawIndex: 7508
   splits:
   - splitPath: IdName
     text: "唐开"
+    translated: "Tang Kai"
   - splitPath: Name
     text: "唐开"
+    translated: "Tang Kai"
   - splitPath: CardName
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: GetDesc
     text: "加入唐门，毒术到达入门后，探索百毒坊加入。"
+    translated: "Join the Tang Clan and, after reaching the entry level in Poison Techniques, explore the Hundred Toxins Hall to train."
 - raw: "{\r\n    \"Key\": \"7506\",\r\n    \"IdName\": \"唐兴\",\r\n    \"Name\": \"唐兴\",\r\n    \"CardName\": \"唐门门人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"唐门门人\",\r\n    \"GetDesc\": \"加入唐门，第三年一月开始，根骨到达50，探索演武场和唐兴比武后加入。\",\r\n    \"NameTw\": \"唐興\",\r\n    \"DescTw\": \"唐門門人\",\r\n    \"GetDescTw\": \"加入唐門，第三年一月開始，根骨到達50，探索演武場和唐興比武后加入。\",\r\n    \"CardNameTw\": \"唐門門人\"\r\n  }"
   rawIndex: 7506
   splits:
   - splitPath: IdName
     text: "唐兴"
+    translated: "Tang Xing"
   - splitPath: Name
     text: "唐兴"
+    translated: "Tang Xing"
   - splitPath: CardName
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "唐门门人"
+    translated: "Tang Clan Disciple"
   - splitPath: GetDesc
     text: "加入唐门，第三年一月开始，根骨到达50，探索演武场和唐兴比武后加入。"
+    translated: "Join the Tang Clan. Starting from the third year in January, after your potential reaches 50, join after exploring the Training Grounds and the Tang Xing combat matches."
 - raw: "{\r\n    \"Key\": \"1353\",\r\n    \"IdName\": \"明通\",\r\n    \"Name\": \"明通\",\r\n    \"Title\": \"木鱼和尚\",\r\n    \"CardName\": \"少林弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"少林弟子\",\r\n    \"GetDesc\": \"加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。\",\r\n    \"NameTw\": \"明通\",\r\n    \"TitleTw\": \"木魚和尚\",\r\n    \"DescTw\": \"少林弟子\",\r\n    \"GetDescTw\": \"加入唐門，第四年三月明通找尋唐覺後，截止至第四年十月前，探索川東遇到明達，探索演武場回報明通，此後兩次探索川東第一次比武戰勝明達，第二次唐醉幫助斗酒勝過明達後加入。\",\r\n    \"CardNameTw\": \"少林弟子\"\r\n  }"
   rawIndex: 1353
   splits:
   - splitPath: IdName
     text: "明通"
+    translated: "Clear Communication"
   - splitPath: Name
     text: "明通"
+    translated: "Clear Communication"
   - splitPath: Title
     text: "木鱼和尚"
+    translated: "Fish Drum Monk"
   - splitPath: CardName
     text: "少林弟子"
+    translated: "Shaolin disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "少林弟子"
+    translated: "Shaolin disciple"
   - splitPath: GetDesc
     text: "加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。"
+    translated: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
 - raw: "{\r\n    \"Key\": \"1084\",\r\n    \"IdName\": \"游不归\",\r\n    \"Name\": \"游不归\",\r\n    \"Title\": \"铁面判官\",\r\n    \"CardName\": \"荆湘总捕\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘六扇门总捕，嫉恶如仇，铁面无私，自幼因遭匪乱，父母双亡，故而对作恶悖法之人深恶痛绝，加入六扇门后，缉捕凶总是奋勇在前，直至升任荆湘总捕，仍常亲赴衙外追缉捉拿，只留一位名捕于衙中帮其代为处理日常政令。\",\r\n    \"GetDesc\": \"第七年一月开始，荆湘六扇门友好度到达80，探索荆北加入。\",\r\n    \"NameTw\": \"遊不歸\",\r\n    \"TitleTw\": \"鐵面判官\",\r\n    \"DescTw\": \"荊湘六扇門總捕，嫉惡如仇，鐵面無私，自幼因遭匪亂，父母雙亡，故而對作惡悖法之人深惡痛絕，加入六扇門後，緝捕凶總是奮勇在前，直至升任荊湘總捕，仍常親赴衙外追緝捉拿，只留一位名捕於衙中幫其代為處理日常政令。\",\r\n    \"GetDescTw\": \"第七年一月開始，荊湘六扇門友好度到達80，探索荊北加入。\",\r\n    \"CardNameTw\": \"荊湘總捕\"\r\n  }"
   rawIndex: 1084
   splits:
@@ -1859,8 +2081,15 @@
     text: "荆湘六扇门名捕，沉稳干练，果决勇毅，出身于军伍之家，因少年时在外被盗寇所擒，幸得六扇门中人解救，故而在成年之后选择加入荆湘六扇门，此后奉公执法，擒拿江湖贼寇累计两百余名，在荆湘江湖之中颇有威名。"
     translated: "Jiang Xiang Six Doors Detective, steady and capable, decisive and resolute. He comes from a military family, but when he was a boy, he was captured by bandits outside. Fortunately, he was rescued by someone from the Six Doors, leading him to join the Jiang Xiang Six Doors as a grown man. Since then, he has upheld justice and apprehended over two hundred criminals from the Jianghu, earning considerable renown in the Jiang Xiang region."
   - splitPath: GetDesc
-    text: "1.加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入\\n2、加入武当派，第五年击败黄乱后，此后再次探索荆北加入"
-    translated: "1. joined the Hengshan Sect. After solving the case of the missing cargo wagon in its fourth year, they then returned to explore Xiangnan again.\\n2 joined the Wudang Sect in its fifth year and defeated Huang Luan. After that, they once again ventured into Jingbei."
+    text: "1.加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入"
+    translated: "1. joined the Hengshan Sect and, after solving the mystery of the missing cargo wagon in the fourth year, returned to explore Xiangnan again."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派，第五年击败黄乱后，此后再次探索荆北加入"
+    translated: "2, joined the Wudang Sect in its fifth year and defeated Huang Luan. After that, they once again explored Jingbei."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1086\",\r\n    \"IdName\": \"展青锋\",\r\n    \"Name\": \"展青锋\",\r\n    \"Title\": \"清风逐影\",\r\n    \"CardName\": \"荆湘名捕\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘名捕，真诚正直，飒爽干练，六扇门捕快展正雄之女，继承其父衣钵加入六扇门，加入六扇门三年便解决数十起江湖案件，成为了荆湘六扇门中唯一的一位女名捕，与她形影不离的还有一只在她初次办案时所收养名为芷白的三花猫。\",\r\n    \"GetDesc\": \"第六年一月开始，已开放荆湘六扇门，探索湘北选择相助展青锋抓捕贼人加入\",\r\n    \"NameTw\": \"展青鋒\",\r\n    \"TitleTw\": \"清風逐影\",\r\n    \"DescTw\": \"荊湘名捕，真誠正直，颯爽幹練，六扇門捕快展正雄之女，繼承其父衣缽加入六扇門，加入六扇門三年便解決數十起江湖案件，成為了荊湘六扇門中唯一的一位女名捕，與她形影不離的還有一隻在她初次辦案時所收養名為芷白的三花貓。\",\r\n    \"GetDescTw\": \"第六年一月開始，已開放荊湘六扇門，探索湘北選擇相助展青鋒抓捕賊人加入\",\r\n    \"CardNameTw\": \"荊湘名捕\"\r\n  }"
   rawIndex: 1086
   splits:
@@ -1914,35 +2143,49 @@
   splits:
   - splitPath: IdName
     text: "樊重关"
+    translated: "Fan Zhongguan"
   - splitPath: Name
     text: "樊重关"
+    translated: "Fan Zhongguan"
   - splitPath: Title
     text: "网开一面"
+    translated: "Cut them some slack"
   - splitPath: CardName
     text: "川蜀总捕"
+    translated: "Captain of the Sichuan Police Force"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "川蜀六扇门总捕"
+    translated: "Six Doors Chief Captian of Sichuan Province"
   - splitPath: GetDesc
     text: "开启川蜀六扇门后，探索川中川蜀六扇门拜访樊重关，此后在第五年一月开始，且完成过一次川蜀六扇门抓捕悬赏后，探索六扇门得知盗粮三鼠在川南，将其三人抓获。再次探索川蜀六扇门得知盗粮三鼠被杀。第六年一月开始，且川蜀六扇门好感到达60，探索川中，战胜富贵杀手，最后探索川蜀六扇门，揭露况天龙并战胜后加入。"
+    translated: "After unlocking the Six Doors in Sichuan Shu, explore Sichuan Shu to visit Fan Zhongguan. Starting from the fifth year, and after completing a bounty from the Six Doors to capture the Three Rats who stole grain in the south of Sichuan, explore the Six Doors to find out that the Three Rats have been killed. Starting from the sixth year in January, and when the affection between the Six Doors and Sichuan Shu reaches 60, explore the central part of Sichuan to defeat the Rich and Prosperous Assassin. Finally, explore the Six Doors to uncover Kuang Tianlong and defeat him, then join him."
 - raw: "{\r\n    \"Key\": \"1089\",\r\n    \"IdName\": \"方刚\",\r\n    \"Name\": \"方刚\",\r\n    \"Title\": \"百斩刀\",\r\n    \"CardName\": \"川蜀捕快\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"川蜀捕快\",\r\n    \"GetDesc\": \"探索川中，遇到盗粮三鼠围攻方刚，吓退三人，再次探索川中川蜀六扇门拜访樊重关后加入。\",\r\n    \"NameTw\": \"方剛\",\r\n    \"TitleTw\": \"百斬刀\",\r\n    \"DescTw\": \"川蜀捕快\",\r\n    \"GetDescTw\": \"探索川中，遇到盜糧三鼠圍攻方剛，嚇退三人，再次探索川中川蜀六扇門拜訪樊重關後加入。\",\r\n    \"CardNameTw\": \"川蜀捕快\"\r\n  }"
   rawIndex: 1089
   splits:
   - splitPath: IdName
     text: "方刚"
+    translated: "Hard"
   - splitPath: Name
     text: "方刚"
+    translated: "Hard"
   - splitPath: Title
     text: "百斩刀"
+    translated: "Blade of a Hundred Cuts"
   - splitPath: CardName
     text: "川蜀捕快"
+    translated: "Sichuan Detective"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "川蜀捕快"
+    translated: "Sichuan Detective"
   - splitPath: GetDesc
     text: "探索川中，遇到盗粮三鼠围攻方刚，吓退三人，再次探索川中川蜀六扇门拜访樊重关后加入。"
+    translated: "Explore Central Sichuan and encounter an attack by the Thrice‑Murderous Rats over grain theft. Defend Hard against the three attackers and successfully repel them. After this, explore Central Sichuan and visit Fan Zhongguan at Six Doors in Sichuan. Join the group afterward."
 - raw: "{\r\n    \"Key\": \"1161\",\r\n    \"IdName\": \"权玉真\",\r\n    \"Name\": \"权玉真\",\r\n    \"Title\": \"还丹道人\",\r\n    \"CardName\": \"崆峒弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"崆峒派弟子，颖悟缜密，内敛温和，出身关陇望族，因其父与“丹阳子”吕化一为方外至交，故而自幼拜入吕化一门下，天赋卓异，尤擅丹道，十三岁时便独立开炉，炼出此生的第一炉丹药，深得吕化一的赏识与喜爱。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。\",\r\n    \"NameTw\": \"權玉真\",\r\n    \"TitleTw\": \"還丹道人\",\r\n    \"DescTw\": \"崆峒派弟子，穎悟縝密，內斂溫和，出身關隴望族，因其父與“丹陽子”呂化一為方外至交，故而自幼拜入呂化一門下，天賦卓異，尤擅丹道，十三歲時便獨立開爐，煉出此生的第一爐丹藥，深得呂化一的賞識與喜愛。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間丹術到達高手，探索太初洞加入。\",\r\n    \"CardNameTw\": \"崆峒弟子\"\r\n  }"
   rawIndex: 1161
   splits:
@@ -2157,8 +2400,24 @@
     text: "药王谷长老，虚怀若谷，谦和宽厚，自幼因先天体弱而早生白发，为求性命，年少时即被送入药王谷学艺，艺成后游历天下行医济世，所救之人不计其数，更精通药酒酿制，独创的“千岁屠苏酒”不但酒香醇厚，更是疗伤妙品，堪称药王谷一绝。"
     translated: "Elder of Medicine King Valley, Vast as the Valley, Humble and Kind, born with weak constitution, turned white‑haired at a young age. To save his life, he was sent to Medicine King Valley to learn martial arts at a tender age. After mastering his skills, he traveled the world practicing medicine and saving lives. The number of people he has treated is countless. He is also well‑versed in brewing medicinal wine, creating 'Eternal Youth Du Su Wine,' which not only has a rich aroma but is also an excellent remedy for injuries. It is considered a masterpiece of Medicine King Valley."
   - splitPath: GetDesc
-    text: "1.加入衡山派，医术分别到达入门/精通/高手级后，从第四年一月起，三次去湘南帮助闻苍术义诊后加入\\n2.加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入"
-    translated: "1. joins the Hengshan Sect. While their medical skills reach the beginner/proficient/expert levels, starting from January of the fourth year, they will go to Xiangnan three times to help Wen Cangzhu with free clinics before joining.\\n2. joins the Dongting Sect. Starting from the seventh Year in Month One, Zhongli Xue arrives at 60 with Friendship, exploring Jingnan."
+    text: "1.加入衡山派，医术分别到达入门"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "精通"
+    translated: "Proficient in"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "高手级后，从第四年一月起，三次去湘南帮助闻苍术义诊后加入"
+    translated: "After reaching the expert level, starting from January of the fourth year, I went to Xiangnan three times to help Wen Cangzhu with free clinics before joining."
+  - splitPath: GetDesc
+    subIndex: 3
+    text: "2.加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入"
+    translated: "2. joins the Dongting Sect. Starting in the seventh Year of January, Zhongli Xue kindly arrives at 60 to explore and recruit in Jingnan."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}/{1}/{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"3001\",\r\n    \"IdName\": \"祖南雄\",\r\n    \"Name\": \"祖南雄\",\r\n    \"Title\": \"打虎太保\",\r\n    \"CardName\": \"永盛总镖头\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"永盛镖局总镖头，豪爽狂放，旷达果决，自幼修炼铁布衫横练，打磨筋骨，刀剑难伤，昔年行镖途经泉州府外饿虎坡，路遇双虎出林，赤手空拳独斗双虎，十八拳捶死公虎，十三拳擂死母虎，一时名扬，被赞有残唐猛将李存孝之勇猛。\",\r\n    \"GetDesc\": \"第六年一月开始，永盛镖局友好到达80，探索永盛镖局欧阳望托镖后，探索湘西，战胜黑白秀士后，祖南雄加入。\",\r\n    \"NameTw\": \"祖南雄\",\r\n    \"TitleTw\": \"打虎太保\",\r\n    \"DescTw\": \"永盛鏢局總鏢頭，豪爽狂放，曠達果決，自幼修煉鐵布衫橫練，打磨筋骨，刀劍難傷，昔年行鏢途經泉州府外餓虎坡，路遇雙虎出林，赤手空拳獨鬥雙虎，十八拳捶死公虎，十三拳擂死母虎，一時名揚，被贊有殘唐猛將李存孝之勇猛。\",\r\n    \"GetDescTw\": \"第六年一月開始，永盛鏢局友好到達80，探索永盛鏢局歐陽望託鏢後，探索湘西，戰勝黑白秀士後，祖南雄加入。\",\r\n    \"CardNameTw\": \"永盛總鏢頭\"\r\n  }"
   rawIndex: 3001
   splits:
@@ -2277,8 +2536,27 @@
     text: "盘蛇谷谷主夫人，冷艳清寒，坚毅果决，出身于荆东书香之家，十八岁时被盘蛇谷谷主食虺神君蒋疠夫强娶为妻，入谷后便跟随蒋疠夫修炼盘蛇谷各般秘术，皆有所成，尤在毒术之上天赋极佳，已不在蒋疠夫之下。"
     translated: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, excelling particularly in poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
   - splitPath: GetDesc
-    text: "阮碧青加入后，御兽到达150，在九嶷山战胜异蛇王，选择送给阮碧青后解锁\\n\\n阮碧青形象二、三\\n解锁阮碧青红颜后，完成阮碧青前传故事解锁\\n\\n阮碧青形象四\\n红颜解锁后自动获得"
-    translated: "After Ruan Biqing joined, Beast Taming arrived at 150 and defeated the Strange Snake King in Jiuyi Mountain. Unlocking this option gifts Ruan Biqing after the victory.\\n\\nRuan Biqing's Image Two and Three\\nUnlock Ruan Biqing's Red Maiden storyline after that, then complete Ruan Biqing's prologue story.\\n\\nRuan Biqing's character model four\\nAfter unlocking the red beauty, they will automatically gain it."
+    text: "阮碧青加入后，御兽到达150，在九嶷山战胜异蛇王，选择送给阮碧青后解锁"
+    translated: "After Ruan Biqing joined, Beast Taming reached 150 in September and defeated the Strange Snake King in Jiuyi Mountains. As a reward, they chose to give Ruan Biqing the Strange Snake, unlocking this option for them."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "阮碧青形象二、三"
+    translated: "Ruan Biqing's Image Two, Three"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "解锁阮碧青红颜后，完成阮碧青前传故事解锁"
+    translated: "After unlocking Ruan Biqing's Red Makeup, complete Ruan Biqing's Prologue Story."
+  - splitPath: GetDesc
+    subIndex: 3
+    text: "阮碧青形象四"
+    translated: "Ruan Biqing's image four"
+  - splitPath: GetDesc
+    subIndex: 4
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}\\n\\n{3}\\n{4}"
 - raw: "{\r\n    \"Key\": \"8091\",\r\n    \"IdName\": \"阮碧青3\",\r\n    \"Name\": \"阮碧青\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"结缘\",\r\n    \"Desc\": \"阮碧青，荆东书香门第出身，幼承诗书，眉眼清秀，气质如兰。自小不恋绣阁，不慕琴瑟，偏爱刀剑与江湖传闻，心怀快意恩仇之梦，渴望闯荡四方，亲见侠骨风流。然一念轻狂，终踏险途，自此命运沉入幽暗，江湖路远，生死未卜。\",\r\n    \"NameTw\": \"阮碧青\",\r\n    \"DescTw\": \"阮碧青，荊東書香門第出身，幼承詩書，眉眼清秀，氣質如蘭。自小不戀繡閣，不慕琴瑟，偏愛刀劍與江湖傳聞，心懷快意恩仇之夢，渴望闖蕩四方，親見俠骨風流。然一念輕狂，終踏險途，自此命運沉入幽暗，江湖路遠，生死未卜。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8091
   splits:
@@ -2457,212 +2735,326 @@
     text: "神农帮大小姐，“九指神农”连山谷之孙女，灵动活泼，天真烂漫，自幼失怙失恃，在连山谷的疼爱呵护之下长大，十分向往神农谷外的生活，故而经常使用各种手段逃离出谷游玩，但每逃走一段，便会被爷爷连山谷所发的悬赏安然抓回。"
     translated: "Shennong Sect's Heir Apparent,  “Nine‑Fingered Shen Nong”  Lian Shangu's granddaughter. She is lively and innocent, full of curiosity about the world outside the sect. Having lost her parents at a young age, she was raised with love and care by Lian Shangu himself. Despite this, she longs greatly for life beyond the walls of Shennong Valley. As such, she frequently uses various tricks to sneak out and explore, but every time she escapes, Grandfather Lian Shangu retrieves her using his bounty."
   - splitPath: GetDesc
-    text: "四月探索神农谷得知连翘儿愿望，并在探索荆东结识澜沧商人开启荆南宝象阁后，第七年探索荆南宝象阁，花费5000购买宝物老树根交给连山谷滋养长生稻，之后再次探索神农谷解锁。\\n\\n连翘儿形象二、三\\n解锁连翘儿红颜后，完成连翘儿前传故事解锁\\n\\n连翘儿形象四\\n解锁连翘儿和艾琳娜红颜后，完成连翘儿故事《云外仙裳见玉心》后解锁\\n\\n连翘儿形象五\\n红颜解锁后自动获得"
-    translated: "In April, exploring Shennong Valley, they learned of Lian Qiaoer's wish. After meeting the Lancang merchant in Jingdong in their sixth year of exploration, they spent 5000 to buy an ancient tree root and gave it to Lian Shangu to nourish the immortal rice. Following this, they explored Shennong Valley again and unlocked new areas.\\n\\nLian Qiaoer's second and third appearances\\nUnlock Lian Qiaoer's Femme Fatale trait after completing Lian Qiaoer's Prologue story.\\n\\nLian Qia'er's image, fourth edition\\nAfter unlocking Lian Qiaoer and Elena as your feminine companions, complete Lian Qiaoer's story Whispering Cloud Cloak Reveals Jade Heart to unlock further content.\\n\\nLian Qiaoer's image is five\\nAfter unlocking Red Beauty, she is automatically obtained."
+    text: "四月探索神农谷得知连翘儿愿望，并在探索荆东结识澜沧商人开启荆南宝象阁后，第七年探索荆南宝象阁，花费5000购买宝物老树根交给连山谷滋养长生稻，之后再次探索神农谷解锁。"
+    translated: "In April, we learned of Lian Qiaoer's wish while exploring Shen Nong Valley and befriended a Lancang merchant in Jingdong, leading us to establish the Baoxiang Pavilion in Jingnan. In the seventh year, we explored the Baoxiang Pavilion in Jingnan, spending 5000 to purchase an old tree root, which we gave to Lian Shangu to nurture the immortal rice. Afterward, we returned to explore Shen Nong Valley again to unlock new content."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "连翘儿形象二、三"
+    translated: "Lian Qiaoer's Image Two, Three"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "解锁连翘儿红颜后，完成连翘儿前传故事解锁"
+    translated: "After unlocking Lian Qiaoer's Red Beauty, complete the prequel story of Lian Qiaoer."
+  - splitPath: GetDesc
+    subIndex: 3
+    text: "连翘儿形象四"
+    translated: "Lian Qiaoe's Image Fourth Edition"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lian Qiaoer,連翹兒,Lian Qiaoer,連翹兒,Lian Qiaoer,連翹兒,"
+  - splitPath: GetDesc
+    subIndex: 4
+    text: "解锁连翘儿和艾琳娜红颜后，完成连翘儿故事《云外仙裳见玉心》后解锁"
+    translated: "After unlocking Lian Qiaoer and Elena as Beauty companions, unlock after completing Lian Qiaoer's story Whispering Cloud Garment Sees Jade Heart."
+  - splitPath: GetDesc
+    subIndex: 5
+    text: "连翘儿形象五"
+    translated: "Lian Qiaoer's image is five"
+  - splitPath: GetDesc
+    subIndex: 6
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}\\n\\n{3}\\n{4}\\n\\n{5}\\n{6}"
 - raw: "{\r\n    \"Key\": \"3063\",\r\n    \"IdName\": \"姜云奎\",\r\n    \"Name\": \"姜云奎\",\r\n    \"Title\": \"麒麟老人\",\r\n    \"CardName\": \"昭烈庙庙祝\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"汉昭烈庙庙祝\",\r\n    \"GetDesc\": \"探索汉昭烈庙，向姜云奎求学，然后继续探索汉昭烈庙，姜云奎演示木牛，匠造到达入门后，再次探索汉昭烈庙，操作木牛机关，武侯祠友好到达40，探索汉昭烈庙初遇诸葛慧，匠造到达高手，探索汉昭烈庙，拼装木牛，匠造到达大师，探索汉昭烈庙，再次挑战文臣武将廊，武侯祠友好到达80，且解锁诸葛慧红颜知己后，探索汉昭烈庙，姜云奎加入。\",\r\n    \"NameTw\": \"姜雲奎\",\r\n    \"TitleTw\": \"麒麟老人\",\r\n    \"DescTw\": \"漢昭烈廟廟祝\",\r\n    \"GetDescTw\": \"探索漢昭烈廟，向姜雲奎求學，然後繼續探索漢昭烈廟，姜雲奎演示木牛，匠造到達入門後，再次探索漢昭烈廟，操作木牛機關，武侯祠友好到達40，探索漢昭烈廟初遇諸葛慧，匠造到達高手，探索漢昭烈廟，拼裝木牛，匠造到達大師，探索漢昭烈廟，再次挑戰文臣武將廊，武侯祠友好到達80，且解鎖諸葛慧紅顏知己後，探索漢昭烈廟，姜雲奎加入。\",\r\n    \"CardNameTw\": \"昭烈廟廟祝\"\r\n  }"
   rawIndex: 3063
   splits:
   - splitPath: IdName
     text: "姜云奎"
+    translated: "Jiang Yunkui"
   - splitPath: Name
     text: "姜云奎"
+    translated: "Jiang Yunkui"
   - splitPath: Title
     text: "麒麟老人"
+    translated: "Qilin Elder"
   - splitPath: CardName
     text: "昭烈庙庙祝"
+    translated: "Temple Administrator of the Temple of Esteemed Valor"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "汉昭烈庙庙祝"
+    translated: "Temple Administrator of the Temple of Emperor Zhaolie"
   - splitPath: GetDesc
     text: "探索汉昭烈庙，向姜云奎求学，然后继续探索汉昭烈庙，姜云奎演示木牛，匠造到达入门后，再次探索汉昭烈庙，操作木牛机关，武侯祠友好到达40，探索汉昭烈庙初遇诸葛慧，匠造到达高手，探索汉昭烈庙，拼装木牛，匠造到达大师，探索汉昭烈庙，再次挑战文臣武将廊，武侯祠友好到达80，且解锁诸葛慧红颜知己后，探索汉昭烈庙，姜云奎加入。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "{\r\n    \"Key\": \"3064\",\r\n    \"IdName\": \"诸葛慧1\",\r\n    \"Name\": \"诸葛慧\",\r\n    \"Title\": \"神机百巧\",\r\n    \"CardName\": \"诸葛家主\",\r\n    \"BaseDesc\": \"结缘\",\r\n    \"Desc\": \"诸葛家家主\",\r\n    \"GetDesc\": \"在川西汉昭烈庙初遇诸葛慧后，财富到达一百，再次探索汉昭烈庙，选择跟顽童换木鸢并交还诸葛慧后加入。\",\r\n    \"NameTw\": \"諸葛慧\",\r\n    \"TitleTw\": \"神機百巧\",\r\n    \"DescTw\": \"諸葛家家主\",\r\n    \"GetDescTw\": \"在川西漢昭烈廟初遇諸葛慧後，財富到達一百，再次探索漢昭烈廟，選擇跟頑童換木鳶並交還諸葛慧後加入。\",\r\n    \"CardNameTw\": \"諸葛家主\"\r\n  }"
   rawIndex: 3064
   splits:
   - splitPath: IdName
     text: "诸葛慧1"
+    translated: "Zhuge Hui's 1"
   - splitPath: Name
     text: "诸葛慧"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "神机百巧"
+    translated: "Godwit's Hundred Tricks"
   - splitPath: CardName
     text: "诸葛家主"
+    translated: "Master Zhu Geliang"
   - splitPath: BaseDesc
     text: "结缘"
+    translated: "Braid fate"
   - splitPath: Desc
     text: "诸葛家家主"
+    translated: "Head of the Zhuge family"
   - splitPath: GetDesc
     text: "在川西汉昭烈庙初遇诸葛慧后，财富到达一百，再次探索汉昭烈庙，选择跟顽童换木鸢并交还诸葛慧后加入。"
+    translated: "After first encountering Zhu Ge Hui at the Han Zhaolie Temple in Western Sichuan, wealth reaches one hundred. Re‑exploring the Han Zhaolie Temple, they choose to trade the wooden kite with the mischievous child and return to Zhu Ge Hui to join her."
 - raw: "{\r\n    \"Key\": \"3065\",\r\n    \"IdName\": \"诸葛慧2\",\r\n    \"Name\": \"诸葛慧\",\r\n    \"Title\": \"神机百巧\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"结缘\",\r\n    \"Desc\": \"诸葛家家主\",\r\n    \"GetDesc\": \"探索川西带诸葛慧逛成都庙会，随后探索汉昭烈庙获得回礼，第五年一月开始，探索汉昭烈庙放孔明灯，最后当灵活和体魄两项都到达120时，探索川中寻异种铁橡木后解锁\",\r\n    \"NameTw\": \"諸葛慧\",\r\n    \"TitleTw\": \"神機百巧\",\r\n    \"DescTw\": \"諸葛家家主\",\r\n    \"GetDescTw\": \"探索川西帶諸葛慧逛成都廟會，隨後探索漢昭烈廟獲得回禮，第五年一月開始，探索漢昭烈廟放孔明燈，最後當靈活和體魄兩項都到達120時，探索川中尋異種鐵橡木後解鎖\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3065
   splits:
   - splitPath: IdName
     text: "诸葛慧2"
+    translated: "Zhuge Hui 2"
   - splitPath: Name
     text: "诸葛慧"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "神机百巧"
+    translated: "Godwit's Hundred Tricks"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "结缘"
+    translated: "Braid fate"
   - splitPath: Desc
     text: "诸葛家家主"
+    translated: "Head of the Zhuge family"
   - splitPath: GetDesc
     text: "探索川西带诸葛慧逛成都庙会，随后探索汉昭烈庙获得回礼，第五年一月开始，探索汉昭烈庙放孔明灯，最后当灵活和体魄两项都到达120时，探索川中寻异种铁橡木后解锁"
+    translated: "Explore the western part of Sichuan with Zhuge Hui to visit the Chengdu Lantern Festival, then explore the Han Zhao Lie Temple to receive a gift. Starting in the first month of the fifth year, explore the Han Zhao Lie Temple to release sky lanterns. Finally, unlock it once both flexibility and resilience reach 120 after exploring the exotic iron oakwood in central Sichuan."
 - raw: "{\r\n    \"Key\": \"3066\",\r\n    \"IdName\": \"巫云凤1\",\r\n    \"Name\": \"巫云凤\",\r\n    \"Title\": \"巫山神女\",\r\n    \"CardName\": \"神女宫主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫宫主\",\r\n    \"GetDesc\": \"解锁萧雪雁和沈青鸬红颜后，财富到达4000，探索川东丰都鬼市，购买寒峰冬青，此后两次探索神女宫，向巫云凤提供三株奇药，在三帮四寨威逼神女宫时，巫云凤出关收服三帮四寨后加入。\",\r\n    \"NameTw\": \"巫雲鳳\",\r\n    \"TitleTw\": \"巫山神女\",\r\n    \"DescTw\": \"巫山神女宮宮主\",\r\n    \"GetDescTw\": \"解鎖蕭雪雁和沈青鸕紅顏後，財富到達4000，探索川東豐都鬼市，購買寒峰冬青，此後兩次探索神女宮，向巫雲鳳提供三株奇藥，在三幫四寨威逼神女宮時，巫雲鳳出關收服三幫四寨後加入。\",\r\n    \"CardNameTw\": \"神女宮主\"\r\n  }"
   rawIndex: 3066
   splits:
   - splitPath: IdName
     text: "巫云凤1"
+    translated: "Wu Yunfeng 1"
   - splitPath: Name
     text: "巫云凤"
+    translated: "Wuyunfeng"
   - splitPath: Title
     text: "巫山神女"
+    translated: "Wushan Goddess"
   - splitPath: CardName
     text: "神女宫主"
+    translated: "Temple Maiden Pavilion Mistress"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫宫主"
+    translated: "Wushan Goddess Palace Lady Master"
   - splitPath: GetDesc
     text: "解锁萧雪雁和沈青鸬红颜后，财富到达4000，探索川东丰都鬼市，购买寒峰冬青，此后两次探索神女宫，向巫云凤提供三株奇药，在三帮四寨威逼神女宫时，巫云凤出关收服三帮四寨后加入。"
+    translated: "After unlocking Xiao Xueyan and Shen Qinglu, your wealth reaches 4000. Explore Fengdu Ghost Market in Eastern Sichuan, purchase the Cold Peak Wintercress, and subsequently explore the Goddess Palace twice. Provide Witchyunfeng with three rare medicines. After the Three Clans and Four Villages coerce the Goddess Palace, Witchyunfeng emerges from seclusion to subdue the Three Clans and Four Villages and joins them."
 - raw: "{\r\n    \"Key\": \"3067\",\r\n    \"IdName\": \"巫云凤2\",\r\n    \"Name\": \"巫云凤\",\r\n    \"Title\": \"巫山神女\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫朝云司司主\",\r\n    \"GetDesc\": \"连续三次探索神女宫，陪巫云凤寻找黑白无常报仇，此后因为萧雪雁和沈青鸬之事受到巫云凤惩罚，最后受到萧雪雁和沈青鸬鼓舞告白巫云凤解锁。\",\r\n    \"NameTw\": \"巫雲鳳\",\r\n    \"TitleTw\": \"巫山神女\",\r\n    \"DescTw\": \"巫山神女宮朝雲司司主\",\r\n    \"GetDescTw\": \"連續三次探索神女宮，陪巫雲鳳尋找黑白無常報仇，此後因為蕭雪雁和沈青鸕之事受到巫雲鳳懲罰，最後受到蕭雪雁和沈青鸕鼓舞告白巫雲鳳解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3067
   splits:
   - splitPath: IdName
     text: "巫云凤2"
+    translated: "Wu Yunfeng 2"
   - splitPath: Name
     text: "巫云凤"
+    translated: "Wuyunfeng"
   - splitPath: Title
     text: "巫山神女"
+    translated: "Wushan Goddess"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫朝云司司主"
+    translated: "Principal of the Morning Clouds Department in the Wu Mountain Goddess Palace"
   - splitPath: GetDesc
     text: "连续三次探索神女宫，陪巫云凤寻找黑白无常报仇，此后因为萧雪雁和沈青鸬之事受到巫云凤惩罚，最后受到萧雪雁和沈青鸬鼓舞告白巫云凤解锁。"
+    translated: "She continuously explored the Divine Maiden Palace, accompanying Wu Yufeng to seek revenge from Black and White Perpetual Officials. Subsequently, she was punished by Wu Yufeng due to incidents involving Xiao Xueyan and Shen Qingen. Finally, inspired by Xiao Xueyan and Shen Qingen, she confessed her feelings to Wu Yufeng, unlocking new plot."
 - raw: "{\r\n    \"Key\": \"3068\",\r\n    \"IdName\": \"萧雪雁1\",\r\n    \"Name\": \"萧雪雁\",\r\n    \"Title\": \"云峰雁首\",\r\n    \"CardName\": \"朝云司主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫朝云司司主\",\r\n    \"GetDesc\": \"第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后加入。\",\r\n    \"NameTw\": \"蕭雪雁\",\r\n    \"TitleTw\": \"雲峰雁首\",\r\n    \"DescTw\": \"巫山神女宮朝雲司司主\",\r\n    \"GetDescTw\": \"第六年一月開始，福緣到達120，探索川東遇到白開泰被懲治，再次探索川東遇到黑白無常埋伏巫雲鳳，向巫雲鳳報信，最後探索神女宮，將巫雲鳳護送回神女宮後，巫雲鳳閉關託付神女宮後加入。\",\r\n    \"CardNameTw\": \"朝雲司主\"\r\n  }"
   rawIndex: 3068
   splits:
   - splitPath: IdName
     text: "萧雪雁1"
+    translated: "Xiao Xueyan 1"
   - splitPath: Name
     text: "萧雪雁"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "云峰雁首"
+    translated: "Yunfeng Yanzhao"
   - splitPath: CardName
     text: "朝云司主"
+    translated: "Director Zhao Yunshi"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫朝云司司主"
+    translated: "Principal of the Morning Clouds Department in the Wu Mountain Goddess Palace"
   - splitPath: GetDesc
     text: "第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后加入。"
+    translated: "Starting in the sixth Year of Month One, Luck arrived at 120, explored the eastern part of Sichuan where they encountered Bai Kaitai and were punished. They then revisited the eastern part of Sichuan and encountered White and Black Permanents in ambush, informing Wu Yufeng of the situation. Finally, they explored the Goddess Palace, escorting Wu Yufeng back to the Goddess Palace, after which Wu Yufeng sequestered herself to entrust the Goddess Palace and subsequently joined it."
 - raw: "{\r\n    \"Key\": \"3069\",\r\n    \"IdName\": \"萧雪雁2\",\r\n    \"Name\": \"萧雪雁\",\r\n    \"Title\": \"云峰雁首\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫朝云司司主\",\r\n    \"GetDesc\": \"探索川东神女宫，和萧雪雁了解朝云司，第七年一月开始再次探索神女宫，得到玉珠重楼的消息，探索川南，探寻萧家消息，财富大于3000，探索川南，萧府认亲后解锁。\",\r\n    \"NameTw\": \"蕭雪雁\",\r\n    \"TitleTw\": \"雲峰雁首\",\r\n    \"DescTw\": \"巫山神女宮朝雲司司主\",\r\n    \"GetDescTw\": \"探索川東神女宮，和蕭雪雁瞭解朝雲司，第七年一月開始再次探索神女宮，得到玉珠重樓的訊息，探索川南，探尋蕭家訊息，財富大於3000，探索川南，蕭府認親後解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3069
   splits:
   - splitPath: IdName
     text: "萧雪雁2"
+    translated: "Xiao Xueyan 2"
   - splitPath: Name
     text: "萧雪雁"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "云峰雁首"
+    translated: "Yunfeng Yanzhao"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫朝云司司主"
+    translated: "Principal of the Morning Clouds Department in the Wu Mountain Goddess Palace"
   - splitPath: GetDesc
     text: "探索川东神女宫，和萧雪雁了解朝云司，第七年一月开始再次探索神女宫，得到玉珠重楼的消息，探索川南，探寻萧家消息，财富大于3000，探索川南，萧府认亲后解锁。"
+    translated: "Explore the Dongchuan Goddess Temple and learn about the Morning Cloud Office with Xiao Xueyan. Start exploring the Goddess Temple again in the seventh month of the year, upon receiving the news about Jade Pearl Zhonglou. Explore the Southern Sichuan region to seek information about the Xiao family. If the wealth is greater than 3000, explore Southern Sichuan and unlock recognition at the Xiao Mansion afterward."
 - raw: "{\r\n    \"Key\": \"3070\",\r\n    \"IdName\": \"沈青鸬1\",\r\n    \"Name\": \"沈青鸬\",\r\n    \"Title\": \"烟渚鸬魁\",\r\n    \"CardName\": \"暮雨司主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫暮雨司司主\",\r\n    \"GetDesc\": \"第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后加入。\",\r\n    \"NameTw\": \"沈青鸕\",\r\n    \"TitleTw\": \"煙渚鸕魁\",\r\n    \"DescTw\": \"巫山神女宮暮雨司司主\",\r\n    \"GetDescTw\": \"第六年一月開始，福緣到達120，探索川東遇到白開泰被懲治，再次探索川東遇到黑白無常埋伏巫雲鳳，向巫雲鳳報信，最後探索神女宮，將巫雲鳳護送回神女宮後，巫雲鳳閉關託付神女宮後加入。\",\r\n    \"CardNameTw\": \"暮雨司主\"\r\n  }"
   rawIndex: 3070
   splits:
   - splitPath: IdName
     text: "沈青鸬1"
+    translated: "Qinglu Shen1"
   - splitPath: Name
     text: "沈青鸬"
+    translated: "Shen Qinglu"
   - splitPath: Title
     text: "烟渚鸬魁"
+    translated: "Smoke‑mist Heron Hunter"
   - splitPath: CardName
     text: "暮雨司主"
+    translated: "Muyu Si Zu"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫暮雨司司主"
+    translated: "Wushan Goddess Palace's Evening Rain Department Head"
   - splitPath: GetDesc
     text: "第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后加入。"
+    translated: "Starting in the sixth Year of Month One, Luck arrived at 120, explored the eastern part of Sichuan where they encountered Bai Kaitai and were punished. They then revisited the eastern part of Sichuan and encountered White and Black Permanents in ambush, informing Wu Yufeng of the situation. Finally, they explored the Goddess Palace, escorting Wu Yufeng back to the Goddess Palace, after which Wu Yufeng sequestered herself to entrust the Goddess Palace and subsequently joined it."
 - raw: "{\r\n    \"Key\": \"3071\",\r\n    \"IdName\": \"沈青鸬2\",\r\n    \"Name\": \"沈青鸬\",\r\n    \"Title\": \"烟渚鸬魁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"巫山神女宫暮雨司司主\",\r\n    \"GetDesc\": \"探索神女宫，和沈青鸬了解暮雨司。第七年一月开始，探索神女宫，得到赤纹芍药的消息。财富到达200，探索川西，打探谷大升消息。探索神女宫，定下劫取谷大升赤纹芍药的计策。探索川东，击败洪通和封百水，劫船获取赤纹芍药。\",\r\n    \"NameTw\": \"沈青鸕\",\r\n    \"TitleTw\": \"煙渚鸕魁\",\r\n    \"DescTw\": \"巫山神女宮暮雨司司主\",\r\n    \"GetDescTw\": \"探索神女宮，和沈青鸕瞭解暮雨司。第七年一月開始，探索神女宮，得到赤紋芍藥的訊息。財富到達200，探索川西，打探谷大升訊息。探索神女宮，定下劫取谷大升赤紋芍藥的計策。探索川東，擊敗洪通和封百水，劫船獲取赤紋芍藥。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3071
   splits:
   - splitPath: IdName
     text: "沈青鸬2"
+    translated: "Qinglu Sheng2"
   - splitPath: Name
     text: "沈青鸬"
+    translated: "Shen Qinglu"
   - splitPath: Title
     text: "烟渚鸬魁"
+    translated: "Smoke‑mist Heron Hunter"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "巫山神女宫暮雨司司主"
+    translated: "Wushan Goddess Palace's Evening Rain Department Head"
   - splitPath: GetDesc
     text: "探索神女宫，和沈青鸬了解暮雨司。第七年一月开始，探索神女宫，得到赤纹芍药的消息。财富到达200，探索川西，打探谷大升消息。探索神女宫，定下劫取谷大升赤纹芍药的计策。探索川东，击败洪通和封百水，劫船获取赤纹芍药。"
+    translated: "Explore the Goddess Palace and learn about the Evening Rain Department from Shen Qingle. Starting in the seventh month of January, explore the Goddess Palace and learn about the Crimson Vein Paeonia. Wealth has reached 200, so explore the western Sichuan region to gather information on Gu Daisheng. Explore the Goddess Palace further to devise a plan to raid Gu Daisheng and seize the Crimson Vein Paeonia. Explore the eastern Sichuan region, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Crimson Vein Paeonia."
 - raw: "{\r\n    \"Key\": \"3080\",\r\n    \"IdName\": \"蚩萤1\",\r\n    \"Name\": \"蚩萤\",\r\n    \"Title\": \"紫萤蝶\",\r\n    \"CardName\": \"蚩黎圣女\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"蚩黎峒圣女\",\r\n    \"GetDesc\": \"蚩黎峒开放后，两次探索蚩黎峒拜访蚩连，御兽到达精通后获得苍狼开启大凉山，探索大凉山遇到小食铁兽小福后加入。\",\r\n    \"NameTw\": \"蚩螢\",\r\n    \"TitleTw\": \"紫螢蝶\",\r\n    \"DescTw\": \"蚩黎峒聖女\",\r\n    \"GetDescTw\": \"蚩黎峒開放後，兩次探索蚩黎峒拜訪蚩連，御獸到達精通後獲得蒼狼開啟大涼山，探索大涼山遇到小食鐵獸小福後加入。\",\r\n    \"CardNameTw\": \"蚩黎聖女\"\r\n  }"
   rawIndex: 3080
   splits:
   - splitPath: IdName
     text: "蚩萤1"
+    translated: "Chi Ying 1"
   - splitPath: Name
     text: "蚩萤"
+    translated: "Chi Ying"
   - splitPath: Title
     text: "紫萤蝶"
+    translated: "Purple Glow Butterfly"
   - splitPath: CardName
     text: "蚩黎圣女"
+    translated: "Chili Holy Maiden"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "蚩黎峒圣女"
+    translated: "Chili Dong Sacred Maiden"
   - splitPath: GetDesc
     text: "蚩黎峒开放后，两次探索蚩黎峒拜访蚩连，御兽到达精通后获得苍狼开启大凉山，探索大凉山遇到小食铁兽小福后加入。"
+    translated: "After the Chi Li Tung is opened, visiting Chi Lian twice in Chi Li Tung allows you to obtain Beast Taming. While reaching proficiency in Beast Taming, you can unlock the Blue Wolf to explore Da Liangshan. During your exploration of Da Liangshan, meeting Xiao Xi Tie Shi Xiaofu will allow you to join."
 - raw: "{\r\n    \"Key\": \"3081\",\r\n    \"IdName\": \"蚩萤2\",\r\n    \"Name\": \"蚩萤\",\r\n    \"Title\": \"紫萤蝶\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"蚩黎峒圣女\",\r\n    \"GetDesc\": \"探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。财富到达500后，探索川西，陪蚩萤和小福在成都城游玩。第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。此后探索大凉山，战胜五官王殷破败，救下大福。最后探索大凉山，大福帮助你和蚩黎成就姻缘后解锁。\",\r\n    \"NameTw\": \"蚩螢\",\r\n    \"TitleTw\": \"紫螢蝶\",\r\n    \"DescTw\": \"蚩黎峒聖女\",\r\n    \"GetDescTw\": \"探索川南，答應蚩黎送回小福。此後探索大涼山，將小福送回後大涼山竹林，被大福再次將小福託付。財富到達500後，探索川西，陪蚩螢和小福在成都城遊玩。第六年一月開始，探索川東，破廟休息，小福感到母親大福危險。此後探索大涼山，戰勝五官王殷破敗，救下大福。最後探索大涼山，大福幫助你和蚩黎成就姻緣後解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3081
   splits:
   - splitPath: IdName
     text: "蚩萤2"
+    translated: "Chi Ying 2"
   - splitPath: Name
     text: "蚩萤"
+    translated: "Chi Ying"
   - splitPath: Title
     text: "紫萤蝶"
+    translated: "Purple Glow Butterfly"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "蚩黎峒圣女"
+    translated: "Chili Dong Sacred Maiden"
   - splitPath: GetDesc
     text: "探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。财富到达500后，探索川西，陪蚩萤和小福在成都城游玩。第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。此后探索大凉山，战胜五官王殷破败，救下大福。最后探索大凉山，大福帮助你和蚩黎成就姻缘后解锁。"
+    translated: "Explore southwestern Sichuan to fulfill Chi Li's promise of returning Xiao Fu. Next, explore Daliang Mountains. After returning Xiao Fu, he is again entrusted to the bamboo forest in Daliang Mountains by Dali. Wealth reaching 500 marks the exploration of western Sichuan, where you will accompany Chi Ying and Xiao Fu on a tour of Chengdu City. Starting in the sixth month, explore eastern Sichuan. Resting in a dilapidated temple, Xiao Fu feels his mother Dali is in danger. Subsequently, explore Daliang Mountains, defeat the Wuguan Wang Yin Bocai, and rescue Dali. Finally, after Dali helps you and Chi Li fulfill your marital destiny in Daliang Mountains, the area unlocks."
 - raw: "{\r\n    \"Key\": \"3079\",\r\n    \"IdName\": \"蚩连\",\r\n    \"Name\": \"蚩连\",\r\n    \"Title\": \"九黎苍首\",\r\n    \"CardName\": \"蚩黎峒主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"蚩黎峒峒主\",\r\n    \"GetDesc\": \"解锁红颜蚩萤后，蚩黎峒友好到达60，探索川南蚩黎峒，击败五官王，然后再次探索蚩黎峒，听蚩连讲述过往后加入。\",\r\n    \"NameTw\": \"蚩連\",\r\n    \"TitleTw\": \"九黎蒼首\",\r\n    \"DescTw\": \"蚩黎峒峒主\",\r\n    \"GetDescTw\": \"解鎖紅顏蚩螢後，蚩黎峒友好到達60，探索川南蚩黎峒，擊敗五官王，然後再次探索蚩黎峒，聽蚩連講述過往後加入。\",\r\n    \"CardNameTw\": \"蚩黎峒主\"\r\n  }"
   rawIndex: 3079
   splits:
   - splitPath: IdName
     text: "蚩连"
+    translated: "Chi Lian"
   - splitPath: Name
     text: "蚩连"
+    translated: "Chi Lian"
   - splitPath: Title
     text: "九黎苍首"
+    translated: "Nine Li Cangshou"
   - splitPath: CardName
     text: "蚩黎峒主"
+    translated: "Chili Dongzhu"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "蚩黎峒峒主"
+    translated: "Chi Li Dong Dongzhu"
   - splitPath: GetDesc
     text: "解锁红颜蚩萤后，蚩黎峒友好到达60，探索川南蚩黎峒，击败五官王，然后再次探索蚩黎峒，听蚩连讲述过往后加入。"
+    translated: "After unlocking Red Beauty Chi Ying, Chi Li Convent peacefully arrives in 60. Explore Southern Chi Li Convent, defeat the Five Organs King, and then revisit Chi Li Convent. Join after listening to Chi Lian's past stories."
 - raw: "{\r\n    \"Key\": \"8154\",\r\n    \"IdName\": \"连翘儿3\",\r\n    \"Name\": \"连翘儿\",\r\n    \"Title\": \"谷中莲\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"神农帮大小姐，“九指神农”连山谷之孙女，灵动活泼，天真烂漫，自幼失怙失恃，在连山谷的疼爱呵护之下长大，十分向往神农谷外的生活，故而经常使用各种手段逃离出谷游玩，但每逃走一段，便会被爷爷连山谷所发的悬赏安然抓回。\",\r\n    \"GetDesc\": \"四月探索神农谷得知连翘儿愿望，并在探索荆东结识澜沧商人后，第六年再次探索荆东花费5000购买宝物老树根交给连山谷滋养长生稻，之后在此探索神农谷解锁。\",\r\n    \"NameTw\": \"連翹兒\",\r\n    \"TitleTw\": \"谷中蓮\",\r\n    \"DescTw\": \"神農幫大小姐，“九指神農”連山谷之孫女，靈動活潑，天真爛漫，自幼失怙失恃，在連山谷的疼愛呵護之下長大，十分嚮往神農谷外的生活，故而經常使用各種手段逃離出谷遊玩，但每逃走一段，便會被爺爺連山谷所發的懸賞安然抓回。\",\r\n    \"GetDescTw\": \"四月探索神農谷得知連翹兒願望，並在探索荊東結識瀾滄商人後，第六年再次探索荊東花費5000購買寶物老樹根交給連山谷滋養長生稻，之後在此探索神農谷解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8154
   splits:
@@ -2829,8 +3221,19 @@
     text: "六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。"
     translated: "Six Harmonies Sect's Second Miss, Fickle as morning and evening loyalties, Xiahou Chao's daughter. She is shrewd and capable, not bound by trivialities, naturally intelligent, skilled in martial arts, particularly adept at commerce, and has been traveling the Money River since childhood with her father Xiahou Chao, conducting business between Guanling and Jingxiang. Her dream is to expand her business throughout the entire world someday."
   - splitPath: GetDesc
-    text: "先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\\n\\n夏侯珺形象二、三、四\\n解锁夏侯珺红颜后，完成夏侯珺前传故事解锁"
-    translated: "First, explore Xiangdong and Xiangnan in sequence. Starting from January of the seventh year, Six Harmonies Sect arrives as friends (Six Harmonies Sect friendship can be increased by purchasing treasures) 50. Explore the Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's red scarf.\\n\\nXiahou Jun's Image in Scenes Two, Three, and Four\\nUnlock Xiahou Jun's Red Maiden story after completing the prequel story of Xiahou Jun."
+    text: "先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜"
+    translated: "First, explore Xiangdong and Xiangnan in succession. Starting from the seventh year in January, the Six Harmonies Sect friendly arrives at 50 (friendliness towards the Six Harmonies Sect can be increased by purchasing treasures). Explore the Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "夏侯珺形象二、三、四"
+    translated: "Xiahou Jun's Image Two, Three, Four"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "解锁夏侯珺红颜后，完成夏侯珺前传故事解锁"
+    translated: "Unlock Xiahou Jun's Red Girl Story and then complete Xiahou Jun's Prologue Story."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8107\",\r\n    \"IdName\": \"夏侯珺3\",\r\n    \"Name\": \"夏侯珺\",\r\n    \"Title\": \"金钱雁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。\",\r\n    \"GetDesc\": \"先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\",\r\n    \"NameTw\": \"夏侯珺\",\r\n    \"TitleTw\": \"金錢雁\",\r\n    \"DescTw\": \"六合幫大小姐，“朝秦暮楚”夏侯朝之女，精明強幹，不拘小節，天生聰慧，武藝精通，尤善於商賈之道，自幼便隨其父夏侯朝乘船在金錢河上，往來於關隴和荊湘兩地做生意，一直夢想著有朝一日能將生意做到全天下。\",\r\n    \"GetDescTw\": \"先後探索湘東、湘南，第七年一月開始，六合幫友好到達50（六合幫友好可通過購買寶物增加）探索六合幫，打敗崔三貫，解鎖夏侯珺紅顏\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8107
   splits:
@@ -2854,7 +3257,7 @@
     translated: "Six Harmonies Sect's Second Miss, Fickle as morning and evening loyalties, Xiahou Chao's daughter. She is shrewd and capable, not bound by trivialities, naturally intelligent, skilled in martial arts, particularly adept at commerce, and has been traveling the Money River since childhood with her father Xiahou Chao, conducting business between Guanling and Jingxiang. Her dream is to expand her business throughout the entire world someday."
   - splitPath: GetDesc
     text: "先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜"
-    translated: "First, explore Xiangdong and Xiangnan in sequence. Starting from the seventh year of January, Six Harmonies Sect's Friendship arrives at 50 (Six Harmonies Sect's Friendship can be increased by purchasing treasures). Explore Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
+    translated: "First, explore Xiangdong and Xiangnan in succession. Starting from the seventh year in January, the Six Harmonies Sect friendly arrives at 50 (friendliness towards the Six Harmonies Sect can be increased by purchasing treasures). Explore the Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
 - raw: "{\r\n    \"Key\": \"8141\",\r\n    \"IdName\": \"夏侯珺4\",\r\n    \"Name\": \"夏侯珺\",\r\n    \"Title\": \"金钱雁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。\",\r\n    \"GetDesc\": \"先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\",\r\n    \"NameTw\": \"夏侯珺\",\r\n    \"TitleTw\": \"金錢雁\",\r\n    \"DescTw\": \"六合幫大小姐，“朝秦暮楚”夏侯朝之女，精明強幹，不拘小節，天生聰慧，武藝精通，尤善於商賈之道，自幼便隨其父夏侯朝乘船在金錢河上，往來於關隴和荊湘兩地做生意，一直夢想著有朝一日能將生意做到全天下。\",\r\n    \"GetDescTw\": \"先後探索湘東、湘南，第七年一月開始，六合幫友好到達50（六合幫友好可通過購買寶物增加）探索六合幫，打敗崔三貫，解鎖夏侯珺紅顏\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8141
   splits:
@@ -2878,7 +3281,7 @@
     translated: "Six Harmonies Sect's Second Miss, Fickle as morning and evening loyalties, Xiahou Chao's daughter. She is shrewd and capable, not bound by trivialities, naturally intelligent, skilled in martial arts, particularly adept at commerce, and has been traveling the Money River since childhood with her father Xiahou Chao, conducting business between Guanling and Jingxiang. Her dream is to expand her business throughout the entire world someday."
   - splitPath: GetDesc
     text: "先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜"
-    translated: "First, explore Xiangdong and Xiangnan in sequence. Starting from the seventh year of January, Six Harmonies Sect's Friendship arrives at 50 (Six Harmonies Sect's Friendship can be increased by purchasing treasures). Explore Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
+    translated: "First, explore Xiangdong and Xiangnan in succession. Starting from the seventh year in January, the Six Harmonies Sect friendly arrives at 50 (friendliness towards the Six Harmonies Sect can be increased by purchasing treasures). Explore the Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
 - raw: "{\r\n    \"Key\": \"8143\",\r\n    \"IdName\": \"夏侯珺5\",\r\n    \"Name\": \"夏侯珺\",\r\n    \"Title\": \"金钱雁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。\",\r\n    \"GetDesc\": \"先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\",\r\n    \"NameTw\": \"夏侯珺\",\r\n    \"TitleTw\": \"金錢雁\",\r\n    \"DescTw\": \"六合幫大小姐，“朝秦暮楚”夏侯朝之女，精明強幹，不拘小節，天生聰慧，武藝精通，尤善於商賈之道，自幼便隨其父夏侯朝乘船在金錢河上，往來於關隴和荊湘兩地做生意，一直夢想著有朝一日能將生意做到全天下。\",\r\n    \"GetDescTw\": \"先後探索湘東、湘南，第七年一月開始，六合幫友好到達50（六合幫友好可通過購買寶物增加）探索六合幫，打敗崔三貫，解鎖夏侯珺紅顏\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8143
   splits:
@@ -2902,7 +3305,7 @@
     translated: "Six Harmonies Sect's Second Miss, Fickle as morning and evening loyalties, Xiahou Chao's daughter. She is shrewd and capable, not bound by trivialities, naturally intelligent, skilled in martial arts, particularly adept at commerce, and has been traveling the Money River since childhood with her father Xiahou Chao, conducting business between Guanling and Jingxiang. Her dream is to expand her business throughout the entire world someday."
   - splitPath: GetDesc
     text: "先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜"
-    translated: "First, explore Xiangdong and Xiangnan in sequence. Starting from the seventh year of January, Six Harmonies Sect's Friendship arrives at 50 (Six Harmonies Sect's Friendship can be increased by purchasing treasures). Explore Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
+    translated: "First, explore Xiangdong and Xiangnan in succession. Starting from the seventh year in January, the Six Harmonies Sect friendly arrives at 50 (friendliness towards the Six Harmonies Sect can be increased by purchasing treasures). Explore the Six Harmonies Sect, defeat Cui Sanguan, and unlock Xiahou Jun's Red Beauty."
 - raw: "{\r\n    \"Key\": \"3032\",\r\n    \"IdName\": \"谷藏锋\",\r\n    \"Name\": \"谷藏锋\",\r\n    \"Title\": \"学剑老人\",\r\n    \"CardName\": \"江湖奇人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖奇人，藏剑山庄二庄主，孤傲聪慧，执着率性，五岁习剑，二十一岁便将庄中所藏三十一门剑法全部学成，此后为了能学得更多剑法而离家游历，一生习得剑法四百七十一门，并创出一套可变化天下剑招的万化剑法。\",\r\n    \"GetDesc\": \"第八年间一月开始，财富到达500，探索湘北帮助结巴山贼，此后根骨到达180，三次探索湘北战胜三次谷藏锋后加入。\",\r\n    \"NameTw\": \"谷藏鋒\",\r\n    \"TitleTw\": \"學劍老人\",\r\n    \"DescTw\": \"江湖奇人，藏劍山莊二莊主，孤傲聰慧，執著率性，五歲習劍，二十一歲便將莊中所藏三十一門劍法全部學成，此後為了能學得更多劍法而離家遊歷，一生習得劍法四百七十一門，並創出一套可變化天下劍招的萬化劍法。\",\r\n    \"GetDescTw\": \"第八年間一月開始，財富到達500，探索湘北幫助結巴山賊，此後根骨到達180，三次探索湘北戰勝三次谷藏鋒後加入。\",\r\n    \"CardNameTw\": \"江湖奇人\"\r\n  }"
   rawIndex: 3032
   splits:
@@ -3114,11 +3517,18 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "浣花派掌门，豁达率性，温润随和 ，自幼入门浣花派，二十三岁便将本派武学尽数学成，此后游历江湖七年与同辈高手比武切磋，归来后折一束桃枝闭关悟剑三载，创出了享誉川蜀的“桃花一剑”。"
-    translated: "Sect Master of the Flower Washing Sect, broad‑minded and natural, warm and easy‑going, entered the sect from a young age and mastered all the sect's martial arts by the age of twenty‑three. They then traveled through the Jianghu for seven years, sparring with peers and refining their skills. Upon their return, they closed themselves in for three years, crafting a sword technique known as the 'Flower Petal Sword,' which became renowned throughout Sichuan and beyond."
+    text: "浣花派掌门，豁达率性，温润随和"
+    translated: "The Sect Leader of the Flower Washing Sect is open‑minded and straightforward, gentle and easygoing."
+  - splitPath: Desc
+    subIndex: 1
+    text: "，自幼入门浣花派，二十三岁便将本派武学尽数学成，此后游历江湖七年与同辈高手比武切磋，归来后折一束桃枝闭关悟剑三载，创出了享誉川蜀的“桃花一剑”。"
+    translated: ",He entered the Huaxia School from a young age and mastered all the school's martial arts by the age of twenty‑three. He then traveled through the Jianghu for seven years, sparring with peer‑level experts. Upon his return, he closed himself away and meditated on the sword for three years, using a branch of peach blossoms to refine his skills. This led to the creation of the renowned Flower Petal Sword technique."
   - splitPath: GetDesc
     text: "解锁红颜邵轻虹后，浣花派友好到达80，探索浣花阁选择向郜春风请教武艺，战胜全力的郜春风后加入。"
     translated: "After unlocking Hongyan Shao Qinghong, the Hanhuashan Sect arrives friendly at 80. Explore the Hanhuashuge, and choose to seek martial arts advice from Guo Chunfeng. After defeating Guo Chunfeng at full strength, join the Order."
+  templates:
+  - splitPath: Desc
+    template: "{0} {1}"
 - raw: "{\r\n    \"Key\": \"3054\",\r\n    \"IdName\": \"方逸飞\",\r\n    \"Name\": \"方逸飞\",\r\n    \"Title\": \"回雪流风\",\r\n    \"CardName\": \"浣花弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"浣花派弟子\",\r\n    \"GetDesc\": \"邵轻虹加入后，探索浣花庐加入。\",\r\n    \"NameTw\": \"方逸飛\",\r\n    \"TitleTw\": \"迴雪流風\",\r\n    \"DescTw\": \"浣花派弟子\",\r\n    \"GetDescTw\": \"邵輕虹加入後，探索浣花廬加入。\",\r\n    \"CardNameTw\": \"浣花弟子\"\r\n  }"
   rawIndex: 3054
   splits:
@@ -3235,7 +3645,7 @@
     translated: "Routine"
   - splitPath: Desc
     text: "天魔教散人，“八方怪客”之一，粗鲁凶恶，不羁耿直，本是嵩山上一无名小寺的弟子，方丈圆寂后，其继承庙产成为方丈，后因在庙中喝酒吃肉，被路过的少林弟子问罪，恼怒之下打伤少林弟子逃离嵩山，继而得遇“魔侯”任苍冥，加入天魔教。"
-    translated: "Guests from All Directions,'one of the Guests from All Directions', was crude and vicious, unbridled yet straightforward. Originally a disciple of an unnamed small temple on Songshan Mountain, he became abbot after the previous abbot attained Nirvana. Due to drinking and eating meat in the temple, he was questioned by passing Shaolin disciples. Angered, he injured one of them and fled from Songshan. Later, he met Empress Dowager Ren Cangming and joined the Heavenly Demon Sect."
+    translated: "Heavenly Demon Sect Wandering Monk, Eight‑sided Strange Guest One, rough and fierce, unbridled yet straightforward. Originally a disciple of an unnamed small temple on Songshan. After the abbot's nirvana, he inherited the temple's property and became the new abbot. Later, due to drinking and eating meat in the temple, he was questioned by passing Shaolin disciples. In his anger, he injured a Shaolin disciple and fled from Songshan. He then met Demon Lord Rencuangming and joined the Heavenly Demon Sect."
   - splitPath: GetDesc
     text: "加入衡山派，封行昭、封行晦加入后，探索苍山岭，战胜法元后选择饶过他加入"
     translated: "Join the Hengshan Sect. After Feng Xingzhao and Feng Xinghui join, explore Cangshan Ridge and defeat Fa Yuan before choosing to spare him and let him join."
@@ -3333,8 +3743,21 @@
     text: "义仆，赤诚忠义，勤勉朴实，自幼好武，后机缘习得开碑掌法，苦练十载后行走江湖，时值天魔教为祸，随正道群雄共讨天魔教，初战便被天魔教徒所伤，幸得一路过富户搭救，为报救命之恩，自愿卖身为仆，立誓终生守护恩主一家。"
     translated: "Devoted Retainer, honest and loyal, diligent and down‑to‑earth, grew up fond of martial arts. By chance, he later learned the Splitting Stone Palm technique and trained for ten years before venturing into the Jianghu. At that time, the Heavenly Demon Sect was causing chaos, so he joined forces with the righteous heroes to confront the Heavenly Demon Sect. In his first battle, he was injured by a Heavenly Demon Sect member. Fortunately, he was rescued by a passerby who happened to be a wealthy household. To repay this life‑saving favor, he volunteered to sell himself into servitude and vowed to protect his benefactor's family for life."
   - splitPath: GetDesc
-    text: "1、加入衡山派，拥有【忠义两全】天赋词条时，探索湘南加入\\n2、加入武当派，拥有【忠义两全】天赋词条时，探索荆北加入\\n3、加入洞庭帮，拥有【忠义两全】天赋词条时，探索湘北加入"
-    translated: "1, join the Hengshan Sect, and explore southern Hunan when you have the Loyalty and Righteousness Both Upheld talent trait.\\n2, join the Wudang Sect, and when you have the Loyalty and Righteousness Both Upheld talent trait, explore Jingbei.\\n3, join the Dongting Sect, and when you have the Loyalty and Righteousness Both Upheld talent trait, explore Xiangbei to enroll."
+    text: "1、加入衡山派，拥有【忠义两全】天赋词条时，探索湘南加入"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派，拥有【忠义两全】天赋词条时，探索荆北加入"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "3、加入洞庭帮，拥有【忠义两全】天赋词条时，探索湘北加入"
+    translated: "3, join the Dongting Sect and explore northern Hunan when you have the 'Loyalty and Righteousness Both Upheld' talent trait."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"6006\",\r\n    \"IdName\": \"李义\",\r\n    \"Name\": \"李义\",\r\n    \"Title\": \"蟠龙棍\",\r\n    \"CardName\": \"义仆\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"义仆，忠义磊落，果敢质朴，自幼丧父，随母修习家传盘龙棍法二十余载，母丧后开始行走江湖，恰逢天魔教为祸世间，随正道群雄共讨邪教，初战便被天魔教徒所伤，幸得一过路富户相救，为报救命之恩，自愿卖身为仆，立誓终生守护恩主一家。\",\r\n    \"GetDesc\": \"1、加入衡山派，拥有【忠义两全】天赋词条时，探索湘南加入\\\\n2、加入武当派，拥有【忠义两全】天赋词条时，探索荆北加入\\\\n3、加入洞庭帮，拥有【忠义两全】天赋词条时，探索湘北加入\",\r\n    \"NameTw\": \"李義\",\r\n    \"TitleTw\": \"蟠龍棍\",\r\n    \"DescTw\": \"義僕，忠義磊落，果敢質樸，自幼喪父，隨母修習家傳盤龍棍法二十餘載，母喪後開始行走江湖，恰逢天魔教為禍世間，隨正道群雄共討邪教，初戰便被天魔教徒所傷，幸得一過路富戶相救，為報救命之恩，自願賣身為僕，立誓終生守護恩主一家。\",\r\n    \"GetDescTw\": \"1、加入衡山派，擁有【忠義兩全】天賦詞條時，探索湘南加入\\\\n2、加入武當派，擁有【忠義兩全】天賦詞條時，探索荊北加入\\\\n3、加入洞庭幫，擁有【忠義兩全】天賦詞條時，探索湘北加入\",\r\n    \"CardNameTw\": \"義僕\"\r\n  }"
   rawIndex: 6006
   splits:
@@ -3357,8 +3780,21 @@
     text: "义仆，忠义磊落，果敢质朴，自幼丧父，随母修习家传盘龙棍法二十余载，母丧后开始行走江湖，恰逢天魔教为祸世间，随正道群雄共讨邪教，初战便被天魔教徒所伤，幸得一过路富户相救，为报救命之恩，自愿卖身为仆，立誓终生守护恩主一家。"
     translated: "Buddy‑in‑arms, loyal and righteous, bold and down‑to‑earth. He lost his father since childhood and trained in the family's Dragon Coiling Staff technique for over two decades under his mother's guidance. After his mother's passing, he began wandering through the Jianghu. It was then that he encountered the Heavenly Demon Sect wreaking havoc on the world. Joining forces with the righteous heroes of the Jianghu to combat the evil sect, he was wounded in his first battle against the Heavenly Demon Sect members. Fortunately, a passerby wealthy household saved him. To repay their life‑saving grace, he volunteered to serve as a servant and vowed to protect his benefactors' family for life."
   - splitPath: GetDesc
-    text: "1、加入衡山派，拥有【忠义两全】天赋词条时，探索湘南加入\\n2、加入武当派，拥有【忠义两全】天赋词条时，探索荆北加入\\n3、加入洞庭帮，拥有【忠义两全】天赋词条时，探索湘北加入"
-    translated: "1, join the Hengshan Sect, and explore southern Hunan when you have the Loyalty and Righteousness Both Upheld talent trait.\\n2, join the Wudang Sect, and when you have the Loyalty and Righteousness Both Upheld talent trait, explore Jingbei.\\n3, join the Dongting Sect, and when you have the Loyalty and Righteousness Both Upheld talent trait, explore Xiangbei to enroll."
+    text: "1、加入衡山派，拥有【忠义两全】天赋词条时，探索湘南加入"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派，拥有【忠义两全】天赋词条时，探索荆北加入"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "3、加入洞庭帮，拥有【忠义两全】天赋词条时，探索湘北加入"
+    translated: "3, join the Dongting Sect and explore northern Hunan when you have the 'Loyalty and Righteousness Both Upheld' talent trait."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"6008\",\r\n    \"IdName\": \"木桑\",\r\n    \"Name\": \"木桑\",\r\n    \"Title\": \"火手婆罗\",\r\n    \"CardName\": \"婆罗游僧\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"婆罗国僧人，贪婪狡诈，其法名木桑便是源于婆罗国语狐狸之意，自幼被寺庙收养出家，因缘学得戏法之术，此后仗此技艺在婆罗国行骗，后因行骗之时得罪贵族而出逃北渡神州，在神州四方游走，仍以戏法之术哄骗百姓。\",\r\n    \"GetDesc\": \"第三年一月开始，探索湘南，打赢木桑后加入\",\r\n    \"NameTw\": \"木桑\",\r\n    \"TitleTw\": \"火手婆羅\",\r\n    \"DescTw\": \"婆羅國僧人，貪婪狡詐，其法名木桑便是源於婆羅國語狐狸之意，自幼被寺廟收養出家，因緣學得戲法之術，此後仗此技藝在婆羅國行騙，後因行騙之時得罪貴族而出逃北渡神州，在神州四方遊走，仍以戲法之術哄騙百姓。\",\r\n    \"GetDescTw\": \"第三年一月開始，探索湘南，打贏木桑後加入\",\r\n    \"CardNameTw\": \"婆羅遊僧\"\r\n  }"
   rawIndex: 6008
   splits:
@@ -3645,8 +4081,19 @@
     text: "卖艺少女，“大幻仙翁”左游仙之孙女，活泼好动，古灵精怪，随着爷爷左游仙表演戏法幻术游戏江湖，善用一套精巧的七巧铁环，因平日被爷爷保护得极好，故而一直想要自己闯荡江湖，见见不一样的世界。"
     translated: "Acrobat Maiden, “Great Illusion Daoist”  Zuo Youxian's granddaughter, lively and active, quick‑witted and mischievous. She performs tricks and illusion shows alongside her grandfather Zuo Youxian in the Jianghu. Skilled with a set of cleverly designed seven‑piece iron rings, she has always yearned to venture into the Jianghu on her own and see a different world from what her grandfather protects her from every day."
   - splitPath: GetDesc
-    text: "第五年一月开始，左灵珠好感到达40，探索湘东与左灵珠谈论爷爷，第七年一月开始，探索湘东与左游仙约定幻术试炼，从八年一月开始，探索湘东成功闯出左游仙的幻术试炼解锁\\n\\n左灵珠形象二\\n红颜解锁后自动获得。"
-    translated: "Starting in the fifth Year of January, Zuo Lingzhu's affection has reached 40. In the seventh Year of January, they explore Xiangdong and discuss Grandfather with Zuo Youxian. From the eighth Year of January onwards, exploring Xiangdong involves agreeing to an illusion trial with Zuo Youxian, successfully navigating through his illusion trials starting from that month.\\n\\nZuo Lingzhu's Second Image\\nAfter unlocking the red‑clothed companion, she will be automatically acquired."
+    text: "第五年一月开始，左灵珠好感到达40，探索湘东与左灵珠谈论爷爷，第七年一月开始，探索湘东与左游仙约定幻术试炼，从八年一月开始，探索湘东成功闯出左游仙的幻术试炼解锁"
+    translated: "Starting in the fifth Year of January, Zuo Lingzhu's affection reached 40, allowing her to explore Xiangdong and discuss her grandfather with Zuo Lingzhu. In the seventh Year of January, she began exploring Xiangdong with Zuo Youxian to agree on an illusion trial. From January of the eighth year, she successfully navigated through Zuo Youxian's illusion trial in Xiangdong, unlocking new areas."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "左灵珠形象二"
+    translated: "Zuo Lingzhu's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得。"
+    translated: "Redyan unlocked will be automatically obtained"
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8168\",\r\n    \"IdName\": \"左灵珠3\",\r\n    \"Name\": \"左灵珠\",\r\n    \"Title\": \"七巧连环\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"2026年元旦特别形象。卖艺少女，“大幻仙翁”左游仙之孙女，活泼好动，古灵精怪，随着爷爷左游仙表演戏法幻术游戏江湖，善用一套精巧的七巧铁环，因平日被爷爷保护得极好，故而一直想要自己闯荡江湖，见见不一样的世界。\",\r\n    \"GetDesc\": \"第五年一月开始，左灵珠好感到达40，探索湘东与左灵珠谈论爷爷，第七年一月开始，探索湘东与左游仙约定幻术试炼，从八年一月开始，探索湘东成功闯出左游仙的幻术试炼解锁\\\\n\\\\n左灵珠形象二\\\\n红颜解锁后自动获得。\",\r\n    \"NameTw\": \"左靈珠\",\r\n    \"TitleTw\": \"七巧連環\",\r\n    \"DescTw\": \"2026年元旦特別形象。賣藝少女，“大幻仙翁”左遊仙之孫女，活潑好動，古靈精怪，隨著爺爺左遊仙表演戲法幻術遊戲江湖，善用一套精巧的七巧鐵環，因平日被爺爺保護得極好，故而一直想要自己闖蕩江湖，見見不一樣的世界。\",\r\n    \"GetDescTw\": \"第五年一月開始，左靈珠好感到達40，探索湘東與左靈珠談論爺爺，第七年一月開始，探索湘東與左遊仙約定幻術試煉，從八年一月開始，探索湘東成功闖出左遊仙的幻術試煉解鎖\\\\n\\\\n左靈珠形象二\\\\n紅顏解鎖後自動獲得。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8168
   splits:
@@ -3669,8 +4116,19 @@
     text: "2026年元旦特别形象。卖艺少女，“大幻仙翁”左游仙之孙女，活泼好动，古灵精怪，随着爷爷左游仙表演戏法幻术游戏江湖，善用一套精巧的七巧铁环，因平日被爷爷保护得极好，故而一直想要自己闯荡江湖，见见不一样的世界。"
     translated: "In 2026 Year's New Year's Day special performance. A young performer, granddaughter of Great Illusion Daoist Zuo Youxian, lively and active, clever and mischievous, accompanies their grandfather Zuo Youxian as he performs magic tricks in the Jianghu. They are skilled at using a set of intricate seven‑piece iron rings. Due to being well‑protected by their grandfather every day, they always yearn to venture out into the Jianghu and see different worlds."
   - splitPath: GetDesc
-    text: "第五年一月开始，左灵珠好感到达40，探索湘东与左灵珠谈论爷爷，第七年一月开始，探索湘东与左游仙约定幻术试炼，从八年一月开始，探索湘东成功闯出左游仙的幻术试炼解锁\\n\\n左灵珠形象二\\n红颜解锁后自动获得。"
-    translated: "Starting in the fifth Year of January, Zuo Lingzhu's affection has reached 40. In the seventh Year of January, they explore Xiangdong and discuss Grandfather with Zuo Youxian. From the eighth Year of January onwards, exploring Xiangdong involves agreeing to an illusion trial with Zuo Youxian, successfully navigating through his illusion trials starting from that month.\\n\\nZuo Lingzhu's Second Image\\nAfter unlocking the red‑clothed companion, she will be automatically acquired."
+    text: "第五年一月开始，左灵珠好感到达40，探索湘东与左灵珠谈论爷爷，第七年一月开始，探索湘东与左游仙约定幻术试炼，从八年一月开始，探索湘东成功闯出左游仙的幻术试炼解锁"
+    translated: "Starting in the fifth Year of January, Zuo Lingzhu's affection reached 40, allowing her to explore Xiangdong and discuss her grandfather with Zuo Lingzhu. In the seventh Year of January, she began exploring Xiangdong with Zuo Youxian to agree on an illusion trial. From January of the eighth year, she successfully navigated through Zuo Youxian's illusion trial in Xiangdong, unlocking new areas."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "左灵珠形象二"
+    translated: "Zuo Lingzhu's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得。"
+    translated: "Redyan unlocked will be automatically obtained"
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"6024\",\r\n    \"IdName\": \"广惠\",\r\n    \"Name\": \"广惠\",\r\n    \"Title\": \"破戒头陀\",\r\n    \"CardName\": \"荆湘奇人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘奇人，粗鲁直爽，洒脱不羁，平日里最好喝酒吃肉，尤爱狗肉，本为武家子弟，因出手打抱不平，刀伤二命，不得已出家躲祸，后因其直爽性格得一老僧看中，传其“破戒刀法”，艺成后拜别老僧，下山闯荡江湖。\",\r\n    \"GetDesc\": \"第四年一月开始，财富到达100，且未在黄鹤楼挑战遇到广惠，探索荆东，在酒馆中为广惠付账，此后探索黄鹤楼中遇到广惠，战胜后加入。\",\r\n    \"NameTw\": \"廣惠\",\r\n    \"TitleTw\": \"破戒頭陀\",\r\n    \"DescTw\": \"荊湘奇人，粗魯直爽，灑脫不羈，平日裡最好喝酒吃肉，尤愛狗肉，本為武家子弟，因出手打抱不平，刀傷二命，不得已出家躲禍，後因其直爽性格得一老僧看中，傳其“破戒刀法”，藝成後拜別老僧，下山闖蕩江湖。\",\r\n    \"GetDescTw\": \"第四年一月開始，財富到達100，且未在黃鶴樓挑戰遇到廣惠，探索荊東，在酒館中為廣惠付賬，此後探索黃鶴樓中遇到廣惠，戰勝後加入。\",\r\n    \"CardNameTw\": \"荊湘奇人\"\r\n  }"
   rawIndex: 6024
   splits:
@@ -3714,11 +4172,22 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "袁飞，湘西猎户之子，自幼精于驯兽，十三岁救得黑白双猿为伴，拜入没落小派\"灵猿派\"，受掌门师姐袁青青严厉教导。门派遭野猪帮灭门后，携双猿浪迹江湖寻仇，却发现仇家已灭，遂成飘忽独行客。"
-    translated: "Yuan Fei, the son of a hunter from Xiangxi, was skilled in training animals since childhood. At thirteen, he saved a pair of spirit monkeys and became their companion. He joined the declining sect known as \"Ling Yuan Sect\" and was rigorously taught by his senior sister, Master Sister Qingqing Yuan. After the sect was annihilated by the Wild Boar Gang, carrying the two monkeys with him, he wandered through the Jianghu seeking revenge. However, he found that his enemies were already destroyed, leaving him a lone wanderer."
+    text: "袁飞，湘西猎户之子，自幼精于驯兽，十三岁救得黑白双猿为伴，拜入没落小派"
+    translated: "Yuan Fei, the son of a hunter from Xiangxi, was skilled in training animals since childhood. At thirteen, he saved a pair of spirit monkeys and became their companion. He joined the declining sect known as Ling Yuan Sect and was rigorously taught by his senior sister, Master Sister Qingqing Yuan. After the sect was annihilated by the Wild Boar Gang, carrying the two monkeys with him, he wandered through the Jianghu seeking revenge. However, he found that his enemies were already destroyed, leaving him a lone wanderer."
+  - splitPath: Desc
+    subIndex: 1
+    text: "灵猿派"
+    translated: "Spirit Monkey Sect"
+  - splitPath: Desc
+    subIndex: 2
+    text: "，受掌门师姐袁青青严厉教导。门派遭野猪帮灭门后，携双猿浪迹江湖寻仇，却发现仇家已灭，遂成飘忽独行客。"
+    translated: ",under the strict teachings of his senior sect leader, Yuan Qingqing. After the sect was exterminated by the Wild Boar Gang, he carried two monkeys and wandered the Jianghu in search of revenge, only to discover that the enemies were already extinct, and thus became a wandering lone traveler."
   - splitPath: GetDesc
     text: "福缘到达100，探索野猪林战胜野猪，救下黑白护法后加入"
     translated: "Luck arrives at 100. Explore the Wild Boar Grove, defeat the wild boars, and rescue the Black White Guardian. Then join them."
+  templates:
+  - splitPath: Desc
+    template: "{0}\"{1}\"{2}"
 - raw: "{\r\n    \"Key\": \"6022\",\r\n    \"IdName\": \"晏蛾眉\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Title\": \"泪痕刀\",\r\n    \"CardName\": \"江湖杀手\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖杀手，岳麓书院“道林四友”之一“西崖先生”晏道几之女，百折不挠，清冷坚韧，幼年因其父被人暗害而流落江湖，幸得奇人传授武艺，并授予一柄“泪痕刀”，此后为追查当年其父被害一事，成为一名江湖杀手，暗中探寻真相。\",\r\n    \"GetDesc\": \"第三年一月开始，探索湘西在破庙中帮晏蛾眉藏身，从第四年一月到第五年十二月期间，探索湘东，战胜两书生后加入\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"TitleTw\": \"淚痕刀\",\r\n    \"DescTw\": \"江湖殺手，嶽麓書院“道林四友”之一“西崖先生”晏道幾之女，百折不撓，清冷堅韌，幼年因其父被人暗害而流落江湖，幸得奇人傳授武藝，並授予一柄“淚痕刀”，此後為追查當年其父被害一事，成為一名江湖殺手，暗中探尋真相。\",\r\n    \"GetDescTw\": \"第三年一月開始，探索湘西在破廟中幫晏蛾眉藏身，從第四年一月到第五年十二月期間，探索湘東，戰勝兩書生後加入\",\r\n    \"CardNameTw\": \"江湖殺手\"\r\n  }"
   rawIndex: 6022
   splits:
@@ -3789,8 +4258,19 @@
     text: "江湖杀手，岳麓书院“道林四友”之一“西崖先生”晏道几之女，百折不挠，清冷坚韧，幼年因其父被人暗害而流落江湖，幸得奇人传授武艺，并授予一柄“泪痕刀”，此后为追查当年其父被害一事，成为一名江湖杀手，暗中探寻真相。"
     translated: "Jianghu Assassin, one of Dao Lin's Four Companions from Yue Lu Academy. The daughter of Mr. Xiya, Yan Daji, is resolute and unyielding, cold and tenacious. Her father was secretly murdered when she was young, causing her to drift through the Jianghu. Fortunately, a mysterious master taught her martial arts and bestowed upon her the  “Tear‑Streaked Blade” . She subsequently became an Jianghu assassin, secretly searching for the truth about her father's murder from that year."
   - splitPath: GetDesc
-    text: "第五年一月开始，帮助晏蛾眉找到杀害父亲凶手，并将其击败后解锁\\n\\n晏蛾眉形象二\\n红颜解锁后自动获得"
-    translated: "In January of the fifth year, help Yan Emei find the murderer who killed her father and defeat them to unlock further progress.\\n\\nYan Emei's Second Image\\nAfter unlocking Red Beauty, she is automatically obtained."
+    text: "第五年一月开始，帮助晏蛾眉找到杀害父亲凶手，并将其击败后解锁"
+    translated: "Starting in the fifth Year of Month One, help Yan Emei find the murderer who killed her father, defeat them, and unlock"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "晏蛾眉形象二"
+    translated: "Yan Emei's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8120\",\r\n    \"IdName\": \"晏蛾眉3\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Title\": \"泪痕刀\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖杀手，岳麓书院“道林四友”之一“西崖先生”晏道几之女，百折不挠，清冷坚韧，幼年因其父被人暗害而流落江湖，幸得奇人传授武艺，并授予一柄“泪痕刀”，此后为追查当年其父被害一事，成为一名江湖杀手，暗中探寻真相。\",\r\n    \"GetDesc\": \"第五年一月开始，帮助晏蛾眉找到杀害父亲凶手，并将其击败后解锁\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"TitleTw\": \"淚痕刀\",\r\n    \"DescTw\": \"江湖殺手，嶽麓書院“道林四友”之一“西崖先生”晏道幾之女，百折不撓，清冷堅韌，幼年因其父被人暗害而流落江湖，幸得奇人傳授武藝，並授予一柄“淚痕刀”，此後為追查當年其父被害一事，成為一名江湖殺手，暗中探尋真相。\",\r\n    \"GetDescTw\": \"第五年一月開始，幫助晏蛾眉找到殺害父親凶手，並將其擊敗後解鎖\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8120
   splits:
@@ -3814,7 +4294,7 @@
     translated: "Jianghu Assassin, one of Dao Lin's Four Companions from Yue Lu Academy. The daughter of Mr. Xiya, Yan Daji, is resolute and unyielding, cold and tenacious. Her father was secretly murdered when she was young, causing her to drift through the Jianghu. Fortunately, a mysterious master taught her martial arts and bestowed upon her the  “Tear‑Streaked Blade” . She subsequently became an Jianghu assassin, secretly searching for the truth about her father's murder from that year."
   - splitPath: GetDesc
     text: "第五年一月开始，帮助晏蛾眉找到杀害父亲凶手，并将其击败后解锁"
-    translated: "Starting in the fifth year of January, help Yan Emei find the murderer who killed her father and defeat him to unlock the next stage."
+    translated: "Starting in the fifth Year of Month One, help Yan Emei find the murderer who killed her father, defeat them, and unlock"
 - raw: "{\r\n    \"Key\": \"6027\",\r\n    \"IdName\": \"褚百味\",\r\n    \"Name\": \"褚百味\",\r\n    \"Title\": \"大铁锅\",\r\n    \"CardName\": \"荆湘名厨\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"百味居老板，褚相如之父，耿直豪爽，忠勤固执，其家世代为宫中御厨，后因得罪尚膳监总管，携子避至荆湘，幸得衡山掌门万轻舟所救，收其子褚相如为徒，并助其在衡阳城中开设百味居，经数年苦心经营，在荆湘颇有名声。\",\r\n    \"GetDesc\": \"加入衡山派，从第五年一月起，褚百味冬学期间，厨艺到达高手级，且完成褚百味前期厨艺事件，探索雁客轩加入\",\r\n    \"NameTw\": \"褚百味\",\r\n    \"TitleTw\": \"大鐵鍋\",\r\n    \"DescTw\": \"百味居老闆，褚相如之父，耿直豪爽，忠勤固執，其家世代為宮中御廚，後因得罪尚膳監總管，攜子避至荊湘，幸得衡山掌門萬輕舟所救，收其子褚相如為徒，並助其在衡陽城中開設百味居，經數年苦心經營，在荊湘頗有名聲。\",\r\n    \"GetDescTw\": \"加入衡山派，從第五年一月起，褚百味冬學期間，廚藝到達高手級，且完成褚百味前期廚藝事件，探索雁客軒加入\",\r\n    \"CardNameTw\": \"荊湘名廚\"\r\n  }"
   rawIndex: 6027
   splits:
@@ -3909,8 +4389,19 @@
     text: "邬健，号“铁牯牛”。曾任宣府镇百户，为救灾民，私放军粮，被诬通敌，流亡湘东。"
     translated: "Wu Jian, known as 'Iron Bull.' Formerly a hundredth commander of the Xuan Fu Town, he released military grain privately to save disaster victims and was falsely accused of treason, fleeing to Xiang Dong."
   - splitPath: GetDesc
-    text: "第四年一月开始，探索湘东，战胜邬健后加入\\n\\n邬健形象二\\n完成邬健故事解锁，侠客界面邬健角色卡右上角进入故事模式。"
-    translated: "Starting in January of the fourth year, explore Xiangdong and join after defeating Wu Jian.\\n\\nWu Jian Image Two\\nComplete Wu Jian's story to unlock the story mode. After unlocking Wu Jian, enter the story mode by clicking on his card in the Wanderer interface at the upper right corner."
+    text: "第四年一月开始，探索湘东，战胜邬健后加入"
+    translated: "Starting in the fourth year, in January, the exploration of Xiangdong began. After defeating Wu Jian, the protagonist joined."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "邬健形象二"
+    translated: "Wu Jian Image Two"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "完成邬健故事解锁，侠客界面邬健角色卡右上角进入故事模式。"
+    translated: "Complete Wu Jian's story to unlock the story mode. Click on Wu Jian's character card in the top right corner of the Wanderer interface to enter the story mode."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"6002\",\r\n    \"IdName\": \"邬健2\",\r\n    \"Name\": \"邬健\",\r\n    \"Title\": \"铁脊狼\",\r\n    \"CardName\": \"边军百户\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"邬健，出身军户世家，自幼在边墙长大，习武通兵，精于骑射与布阵。因在宣府镇雪夜独守烽燧，独战五名鞑靼探子得名“铁脊狼”，军中有谚：\\\"宁挨曹阎王三十棍，莫惹铁脊狼一瞪眼\\\"。\",\r\n    \"NameTw\": \"鄔健\",\r\n    \"TitleTw\": \"鐵脊狼\",\r\n    \"DescTw\": \"鄔健，出身軍戶世家，自幼在邊牆長大，習武通兵，精於騎射與佈陣。因在宣府鎮雪夜獨守烽燧，獨戰五名韃靼探子得名“鐵脊狼”，軍中有諺：\\\"寧挨曹閻王三十棍，莫惹鐵脊狼一瞪眼\\\"。\",\r\n    \"CardNameTw\": \"邊軍百戶\"\r\n  }"
   rawIndex: 6002
   splits:
@@ -3930,8 +4421,15 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "邬健，出身军户世家，自幼在边墙长大，习武通兵，精于骑射与布阵。因在宣府镇雪夜独守烽燧，独战五名鞑靼探子得名“铁脊狼”，军中有谚：\"宁挨曹阎王三十棍，莫惹铁脊狼一瞪眼\"。"
-    translated: "Wu Jian, hailing from a military family lineage, grew up beside the border walls. He was trained in martial arts and warfare from a young age, excelling in horsemanship and battlefield formations. Due to his solo night watch at a beacon tower during a snowstorm in Xuanfu Town and his lone combat against five Tartar scouts, he earned the nickname \"Ironback Wolf.\" In the military, there's an old saying: \"Better endure thirty whacks from Cao Yanche Wang than risk angering Iron Spine Wolf with just one glare.\""
+    text: "邬健，出身军户世家，自幼在边墙长大，习武通兵，精于骑射与布阵。因在宣府镇雪夜独守烽燧，独战五名鞑靼探子得名“铁脊狼”，军中有谚"
+    translated: "Wu Jian, hailing from a military family lineage, grew up beside the border walls. He was trained in martial arts and warfare from a young age, excelling in horsemanship and battlefield formations. Due to his solo night watch at a beacon tower during a snowstorm in Xuanfu Town and his lone combat against five Tartar scouts, he earned the nickname Ironback Wolf. In the military, there's an old saying: Better endure thirty whacks from Cao Yanche Wang than risk angering Iron Spine Wolf with just one glare."
+  - splitPath: Desc
+    subIndex: 1
+    text: "宁挨曹阎王三十棍，莫惹铁脊狼一瞪眼"
+    translated: "Better endure Lord Cao's thirty staff strikes than provoke Iron Spine Wolf with a single glare."
+  templates:
+  - splitPath: Desc
+    template: "{0}：\"{1}\"。"
 - raw: "{\r\n    \"Key\": \"6031\",\r\n    \"IdName\": \"行颠\",\r\n    \"Name\": \"行颠\",\r\n    \"Title\": \"飞飞罗汉\",\r\n    \"CardName\": \"江湖散人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"净禅寺弟子，聪慧伶俐，顽劣狡黠，行事经常离经叛道，惹是生非，师从于净禅寺主持智清大师，天生根骨精奇，轻功修炼一日千里，曾与武当派长老“一步登天”魏道先三次比较轻功不胜，但始终不愿服输，一心要在轻功一道胜过魏道先。\",\r\n    \"GetDesc\": \"加入武当派，未参与广成丹会，第四年时帮助魏道先成功捉拿行颠，第五年一月开始，福缘到达120，探索坐忘台加入\",\r\n    \"NameTw\": \"行顛\",\r\n    \"TitleTw\": \"飛飛羅漢\",\r\n    \"DescTw\": \"淨禪寺弟子，聰慧伶俐，頑劣狡黠，行事經常離經叛道，惹是生非，師從於淨禪寺主持智清大師，天生根骨精奇，輕功修煉一日千里，曾與武當派長老“一步登天”魏道先三次比較輕功不勝，但始終不願服輸，一心要在輕功一道勝過魏道先。\",\r\n    \"GetDescTw\": \"加入武當派，未參與廣成丹會，第四年時幫助魏道先成功捉拿行顛，第五年一月開始，福緣到達120，探索坐忘臺加入\",\r\n    \"CardNameTw\": \"江湖散人\"\r\n  }"
   rawIndex: 6031
   splits:
@@ -4002,8 +4500,19 @@
     text: "章华台花魁娘子，冰雪聪明，善解人意，美貌绝伦，艳丽异常，精通音律歌舞，书画琴棋，诗词曲艺，是章华台创立百年来第一个以清倌人之身成为花魁娘子的女子，荆湘名门公子皆以能听她抚琴一曲、浅谈半刻为耀。"
     translated: "Chapter Huaitai's Flower Queen Lady, Chapter HuaTai HuaiQue, is ice‑cold yet astoundingly intelligent, deeply understanding and empathetic. Her beauty is breathtaking, her charm extraordinary. She excels in musical arts, dance, calligraphy, chess, poetry, and performance. This lady has been the first to hold the title of Flower Queen while remaining a clear concubine since the founding of Chapter Huaitai a hundred years ago. Prominent young lords from JingXiang all consider it an honor to hear her play a tune or chat for a brief moment."
   - splitPath: GetDesc
-    text: "第七年开始，柳含烟好感到达80后，财富到达3000探索章华台加入。\\n\\n柳含烟形象二\\n红颜解锁后自动获得"
-    translated: "Starting from the seventh year, Liu Hanyan's affection reached 80, and her wealth reached 3000 as she explored Zhuhuatai.\\n\\nLiu Hanyan's Second Image\\nAfter unlocking Red Beauty, she will be automatically obtained."
+    text: "第七年开始，柳含烟好感到达80后，财富到达3000探索章华台加入。"
+    translated: "Starting from the seventh year, Liu Hanyan's affection reached 80, and her wealth reached 3000 as she explored Zhuhuatai."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "柳含烟形象二"
+    translated: "Liu Hanyan's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8129\",\r\n    \"IdName\": \"柳含烟3\",\r\n    \"Name\": \"柳含烟\",\r\n    \"Title\": \"章台柳\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"章华台花魁娘子，冰雪聪明，善解人意，美貌绝伦，艳丽异常，精通音律歌舞，书画琴棋，诗词曲艺，是章华台创立百年来第一个以清倌人之身成为花魁娘子的女子，荆湘名门公子皆以能听她抚琴一曲、浅谈半刻为耀。\",\r\n    \"GetDesc\": \"第七年开始，柳含烟好感到达80后，财富到达3000探索章华台加入。\",\r\n    \"NameTw\": \"柳含煙\",\r\n    \"TitleTw\": \"章臺柳\",\r\n    \"DescTw\": \"章華臺花魁娘子，冰雪聰明，善解人意，美貌絕倫，豔麗異常，精通音律歌舞，書畫琴棋，詩詞曲藝，是章華臺創立百年來第一個以清倌人之身成為花魁娘子的女子，荊湘名門公子皆以能聽她撫琴一曲、淺談半刻為耀。\",\r\n    \"GetDescTw\": \"第七年開始，柳含煙好感到達80後，財富到達3000探索章華臺加入。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8129
   splits:
@@ -4027,7 +4536,7 @@
     translated: "Chapter Huaitai's Flower Queen Lady, Chapter HuaTai HuaiQue, is ice‑cold yet astoundingly intelligent, deeply understanding and empathetic. Her beauty is breathtaking, her charm extraordinary. She excels in musical arts, dance, calligraphy, chess, poetry, and performance. This lady has been the first to hold the title of Flower Queen while remaining a clear concubine since the founding of Chapter Huaitai a hundred years ago. Prominent young lords from JingXiang all consider it an honor to hear her play a tune or chat for a brief moment."
   - splitPath: GetDesc
     text: "第七年开始，柳含烟好感到达80后，财富到达3000探索章华台加入。"
-    translated: "Starting from the seventh year, Liu Hanyan's affection reached Level 80, and her wealth reached Level 3000. She then explored Zhuhua Terrace to join in."
+    translated: "Starting from the seventh year, Liu Hanyan's affection reached 80, and her wealth reached 3000 as she explored Zhuhuatai."
 - raw: "{\r\n    \"Key\": \"6035\",\r\n    \"IdName\": \"项欺霜2\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Title\": \"火凤凰\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖侠女，“铁枪霸王”项开山之女，“西楚霸王”项羽之后，热情似火，直爽率真，手中一杆霸王枪，不弱祖上之风，随父行走江湖之时，曾遍会不少江湖少年俊彦，皆不是其对手，也因此始终未能遇到能将她击败的心仪之人。\",\r\n    \"GetDesc\": \"项开山加入后，探索湘东遇罗元庆招揽。再次探索湘东树林战胜挑战招揽的陆彦平、高君可二人答应第二年枪锋会。七年七月开始，探索湘东，枪锋会战胜神枪四杰，解锁项欺霜红颜。\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"TitleTw\": \"火鳳凰\",\r\n    \"DescTw\": \"江湖俠女，“鐵槍霸王”項開山之女，“西楚霸王”項羽之後，熱情似火，直爽率真，手中一杆霸王槍，不弱祖上之風，隨父行走江湖之時，曾遍會不少江湖少年俊彥，皆不是其對手，也因此始終未能遇到能將她擊敗的心儀之人。\",\r\n    \"GetDescTw\": \"項開山加入後，探索湘東遇羅元慶招攬。再次探索湘東樹林戰勝挑戰招攬的陸彥平、高君可二人答應第二年槍鋒會。七年七月開始，探索湘東，槍鋒會戰勝神槍四傑，解鎖項欺霜紅顏。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6035
   splits:
@@ -4146,25 +4655,54 @@
     text: "宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。"
     translated: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
   - splitPath: GetDesc
-    text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。\\n\\n萧令仪形象二\\n红颜解锁后自动获得"
+    text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。"
     translated: "After Xiao Lingyi joined, she participated in three expeditions to Jingbei and subsequently joined after defeating Qiu Chaoren."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "萧令仪形象二"
+    translated: "Xiao Lingyi's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8169\",\r\n    \"IdName\": \"萧令仪3\",\r\n    \"Name\": \"萧令仪\",\r\n    \"Title\": \"连城璧\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。\",\r\n    \"GetDesc\": \"萧令仪加入后，三次探索荆北，击败仇朝恩后加入。\\\\n\\\\n萧令仪形象二\\\\n红颜解锁后自动获得\",\r\n    \"NameTw\": \"蕭令儀\",\r\n    \"TitleTw\": \"連城璧\",\r\n    \"DescTw\": \"寧王側妃，封號“素妃”，溫婉嫻靜，雍容大度，出生於襄陽世家蕭氏，有一胞弟“小春申”蕭令羽，乃其自幼看大，最為親密，寧王因看中蕭家在荊襄權勢而娶其聯姻，以一塊價值連城的無瑕玉璧求聘，但因其與寧王並無感情而從無侍奉。\",\r\n    \"GetDescTw\": \"蕭令儀加入後，三次探索荊北，擊敗仇朝恩後加入。\\\\n\\\\n蕭令儀形象二\\\\n紅顏解鎖後自動獲得\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8169
   splits:
   - splitPath: IdName
     text: "萧令仪3"
+    translated: "Xiao Lingyi3"
   - splitPath: Name
     text: "萧令仪"
+    translated: "Xiao Lingyi"
   - splitPath: Title
     text: "连城璧"
+    translated: "Jiang Cheng Bi"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。"
+    translated: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
   - splitPath: GetDesc
-    text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。\\n\\n萧令仪形象二\\n红颜解锁后自动获得"
+    text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。"
+    translated: "After Xiao Lingyi joined, she participated in three expeditions to Jingbei and subsequently joined after defeating Qiu Chaoren."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "萧令仪形象二"
+    translated: "Xiao Lingyi's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"6042\",\r\n    \"IdName\": \"萧子羽\",\r\n    \"Name\": \"萧子羽\",\r\n    \"Title\": \"小春申\",\r\n    \"CardName\": \"世家公子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"襄阳萧家二公子，温润宽和，轻财好施，出生于襄阳世家萧氏，自幼被长姐萧令仪照顾，与其最为亲厚，萧令仪嫁与宁王为妃后，他在襄阳仗义疏财，扶危济困，大肆招揽门客，大有战国之时“春申君”之风，只待有朝一日能将长姐救回。\",\r\n    \"GetDesc\": \"第七年一月开始，福缘到达150，探索荆东击击败黑衣人救下萧令仪姐弟，此后再次探索荆东加入。\",\r\n    \"NameTw\": \"蕭子羽\",\r\n    \"TitleTw\": \"小春申\",\r\n    \"DescTw\": \"襄陽蕭家二公子，溫潤寬和，輕財好施，出生於襄陽世家蕭氏，自幼被長姐蕭令儀照顧，與其最為親厚，蕭令儀嫁與寧王為妃後，他在襄陽仗義疏財，扶危濟困，大肆招攬門客，大有戰國之時“春申君”之風，只待有朝一日能將長姐救回。\",\r\n    \"GetDescTw\": \"第七年一月開始，福緣到達150，探索荊東擊擊敗黑衣人救下蕭令儀姐弟，此後再次探索荊東加入。\",\r\n    \"CardNameTw\": \"世家公子\"\r\n  }"
   rawIndex: 6042
   splits:
@@ -4208,11 +4746,18 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "Elena Kornaro, a descendant of the noble family of Venice. After her father's untimely death, her family became entangled in conspiracies. Her uncle and cousin seized power and appropriated their assets. She navigated through the palace and the canals with wit and swordsmanship, thwarting the schemes of the nobles multiple times. Acting with cold precision, she employed sharp tactics, pursuing both revenge and protection. In the midst of blood and flames, she reclaimed her dignity and freedom."
+    text: "艾琳娜"
+    translated: "Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
   - splitPath: GetDesc
     text: "第四年一月开始，福缘到达80探索荆北，答应艾琳娜成为向导加入。"
     translated: "In January of the fourth year, Luck arrived in 80 to explore Feng North and agreed to become a guide for Elena."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
 - raw: "{\r\n    \"Key\": \"6045\",\r\n    \"IdName\": \"艾琳娜2\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Title\": \"圣剑蔷薇\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。\",\r\n    \"GetDesc\": \"第四年一月开始，先后探索湘南、湘东、荆东，第七年一月开始，连续探索荆东，战胜达达里奥解锁\\\\n\\\\n艾琳娜形象二、三\\\\n解锁艾琳娜红颜后，完成艾琳娜前传故事解锁\\\\n\\\\n艾琳娜形象四\\\\n解锁艾琳娜红颜后，根骨、灵活达到160且完成艾琳娜故事对话解锁。\\\\n\\\\n艾琳娜形象五\\\\n红颜解锁后自动获得\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"TitleTw\": \"聖劍薔薇\",\r\n    \"DescTw\": \"艾琳娜·科爾納羅，威尼斯高門之後。父遇不測，家族陷於陰謀之中，堂叔與堂兄奪權篡產，她以智與劍力周旋宮廷與水巷，數次挫敗權貴。行事冷靜，手段凌厲，復仇與守護並行，在血與火中尋回尊嚴與自由。\",\r\n    \"GetDescTw\": \"第四年一月開始，先後探索湘南、湘東、荊東，第七年一月開始，連續探索荊東，戰勝達達里奧解鎖\\\\n\\\\n艾琳娜形象二、三\\\\n解鎖艾琳娜紅顏後，完成艾琳娜前傳故事解鎖\\\\n\\\\n艾琳娜形象四\\\\n解鎖艾琳娜紅顏後，根骨、靈活達到160且完成艾琳娜故事對話解鎖。\\\\n\\\\n艾琳娜形象五\\\\n紅顏解鎖後自動獲得\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6045
   splits:
@@ -4232,11 +4777,44 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "Elena Kornaro, a descendant of the noble family of Venice. After her father's untimely death, her family became entangled in conspiracies. Her uncle and cousin seized power and appropriated their assets. She navigated through the palace and the canals with wit and swordsmanship, thwarting the schemes of the nobles multiple times. Acting with cold precision, she employed sharp tactics, pursuing both revenge and protection. In the midst of blood and flames, she reclaimed her dignity and freedom."
+    text: "艾琳娜"
+    translated: "Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
   - splitPath: GetDesc
-    text: "第四年一月开始，先后探索湘南、湘东、荆东，第七年一月开始，连续探索荆东，战胜达达里奥解锁\\n\\n艾琳娜形象二、三\\n解锁艾琳娜红颜后，完成艾琳娜前传故事解锁\\n\\n艾琳娜形象四\\n解锁艾琳娜红颜后，根骨、灵活达到160且完成艾琳娜故事对话解锁。\\n\\n艾琳娜形象五\\n红颜解锁后自动获得"
-    translated: "Starting in January of the fourth year, the exploration of Xiangnan, Xiangdong, and Jingdong began sequentially. In January of the seventh year, continuous exploration of Jingdong commenced, leading to a victory over Dada Liao, which unlocked new content.\\n\\nElena's Second and Third Appearance\\nAfter unlocking Elena's Red Eyebrow, complete the prologue story of Elena to unlock it.\\n\\nElena's Image Four\\nUnlocking Elena's Red‑Haired Beauty requires that your root bone Potential and flexibility both reach 160, and you complete the Elena story dialogue.\\n\\nElena's character design fifth part\\nAfter unlocking Red Beauty, she will be automatically obtained."
+    text: "第四年一月开始，先后探索湘南、湘东、荆东，第七年一月开始，连续探索荆东，战胜达达里奥解锁"
+    translated: "Starting in the fourth year, January, the exploration of Xiangnan, Xiangdong, and Jingdong began in succession. In the seventh year, January, continuous exploration of Jingdong commenced, and defeating Dada Liao unlocked it."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "艾琳娜形象二、三"
+    translated: "Elena's Image Two, Three"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "解锁艾琳娜红颜后，完成艾琳娜前传故事解锁"
+    translated: "After unlocking Elena's Red Makeup, complete Elena's Prologue Story to unlock it."
+  - splitPath: GetDesc
+    subIndex: 3
+    text: "艾琳娜形象四"
+    translated: "Elena's Image Four"
+  - splitPath: GetDesc
+    subIndex: 4
+    text: "解锁艾琳娜红颜后，根骨、灵活达到160且完成艾琳娜故事对话解锁。"
+    translated: "After unlocking Elena as a red‑cloaked lady, her potential and flexibility must reach 160 and you need to complete Elena's story dialogues to unlock her."
+  - splitPath: GetDesc
+    subIndex: 5
+    text: "艾琳娜形象五"
+    translated: "Elena's image five"
+  - splitPath: GetDesc
+    subIndex: 6
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}\\n\\n{3}\\n{4}\\n\\n{5}\\n{6}"
 - raw: "{\r\n    \"Key\": \"8108\",\r\n    \"IdName\": \"艾琳娜3\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Title\": \"圣剑蔷薇\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"TitleTw\": \"聖劍薔薇\",\r\n    \"DescTw\": \"艾琳娜·科爾納羅，威尼斯高門之後。父遇不測，家族陷於陰謀之中，堂叔與堂兄奪權篡產，她以智與劍力周旋宮廷與水巷，數次挫敗權貴。行事冷靜，手段凌厲，復仇與守護並行，在血與火中尋回尊嚴與自由。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8108
   splits:
@@ -4256,8 +4834,15 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "Elena Kornaro, a descendant of the noble family of Venice. After her father's untimely death, her family became entangled in conspiracies. Her uncle and cousin seized power and appropriated their assets. She navigated through the palace and the canals with wit and swordsmanship, thwarting the schemes of the nobles multiple times. Acting with cold precision, she employed sharp tactics, pursuing both revenge and protection. In the midst of blood and flames, she reclaimed her dignity and freedom."
+    text: "艾琳娜"
+    translated: "Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
 - raw: "{\r\n    \"Key\": \"8109\",\r\n    \"IdName\": \"艾琳娜4\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Title\": \"圣剑蔷薇\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"TitleTw\": \"聖劍薔薇\",\r\n    \"DescTw\": \"艾琳娜·科爾納羅，威尼斯高門之後。父遇不測，家族陷於陰謀之中，堂叔與堂兄奪權篡產，她以智與劍力周旋宮廷與水巷，數次挫敗權貴。行事冷靜，手段凌厲，復仇與守護並行，在血與火中尋回尊嚴與自由。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8109
   splits:
@@ -4277,8 +4862,15 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "Elena Kornaro, a descendant of the noble family of Venice. After her father's untimely death, her family became entangled in conspiracies. Her uncle and cousin seized power and appropriated their assets. She navigated through the palace and the canals with wit and swordsmanship, thwarting the schemes of the nobles multiple times. Acting with cold precision, she employed sharp tactics, pursuing both revenge and protection. In the midst of blood and flames, she reclaimed her dignity and freedom."
+    text: "艾琳娜"
+    translated: "Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
 - raw: "{\r\n    \"Key\": \"8110\",\r\n    \"IdName\": \"艾琳娜5\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Title\": \"圣剑蔷薇\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"TitleTw\": \"聖劍薔薇\",\r\n    \"DescTw\": \"艾琳娜·科爾納羅，威尼斯高門之後。父遇不測，家族陷於陰謀之中，堂叔與堂兄奪權篡產，她以智與劍力周旋宮廷與水巷，數次挫敗權貴。行事冷靜，手段凌厲，復仇與守護並行，在血與火中尋回尊嚴與自由。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8110
   splits:
@@ -4298,8 +4890,15 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "Elena Kornaro, a descendant of the noble family of Venice. After her father's untimely death, her family became entangled in conspiracies. Her uncle and cousin seized power and appropriated their assets. She navigated through the palace and the canals with wit and swordsmanship, thwarting the schemes of the nobles multiple times. Acting with cold precision, she employed sharp tactics, pursuing both revenge and protection. In the midst of blood and flames, she reclaimed her dignity and freedom."
+    text: "艾琳娜"
+    translated: "Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
 - raw: "{\r\n    \"Key\": \"8162\",\r\n    \"IdName\": \"艾琳娜6\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Title\": \"圣剑蔷薇\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"2025年圣诞特别形象。艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"TitleTw\": \"聖劍薔薇\",\r\n    \"DescTw\": \"2025年聖誕特別形象。艾琳娜·科爾納羅，威尼斯高門之後。父遇不測，家族陷於陰謀之中，堂叔與堂兄奪權篡產，她以智與劍力周旋宮廷與水巷，數次挫敗權貴。行事冷靜，手段凌厲，復仇與守護並行，在血與火中尋回尊嚴與自由。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8162
   splits:
@@ -4319,8 +4918,15 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "2025年圣诞特别形象。艾琳娜·科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
-    translated: "In the Year‑end Christmas Special Character. Elena Cornaro, after her family's noble status in Venice. Her father met with unforeseen misfortune, and the family fell into the midst of conspiracies. Her cousin and cousin's brother seized power and appropriated assets. She maneuvered through the palace and waterways with intelligence and swordplay, thwarting the nobility multiple times. Acting with cold precision, her methods are sharp, balancing vengeance and protection. In blood and fire, she recovers her dignity and freedom."
+    text: "2025年圣诞特别形象。艾琳娜"
+    translated: "2025 Year Christmas Special Character. Elena"
+  - splitPath: Desc
+    subIndex: 1
+    text: "科尔纳罗，威尼斯高门之后。父遇不测，家族陷于阴谋之中，堂叔与堂兄夺权篡产，她以智与剑力周旋宫廷与水巷，数次挫败权贵。行事冷静，手段凌厉，复仇与守护并行，在血与火中寻回尊严与自由。"
+    translated: "Cornaro, a member of the noble family of Venice. Her father met with unforeseen misfortune, and the family was ensnared in a plot. Her cousin and younger brother seized power and appropriated the family's assets. She navigated the gongcheng and waterways with her wit and sword, thwarting the aristocracy multiple times. She acts with a cool head and ruthless methods, pursuing both revenge and protection. In the blood and fire of battle, they reclaim their dignity and freedom."
+  templates:
+  - splitPath: Desc
+    template: "{0}·{1}"
 - raw: "{\r\n    \"Key\": \"6059\",\r\n    \"IdName\": \"风间月\",\r\n    \"Name\": \"风间月\",\r\n    \"Title\": \"月影\",\r\n    \"CardName\": \"扶桑忍者\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"扶桑甲贺流风间家忍者，缜密机变，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”投诚而被以望月家为首的甲贺五十六家联手覆灭，与兄长“夜影”风间夜保护新族长“夜月幽狐”风间爱一路逃至神州，寻找能为风间家复仇的方法。\",\r\n    \"GetDesc\": \"第八年前解锁风间爱红颜，并粉碎至少两次阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂。此后两次次探索湘北战胜风间爱和吕霸先等人加入。\",\r\n    \"NameTw\": \"風間月\",\r\n    \"TitleTw\": \"月影\",\r\n    \"DescTw\": \"扶桑甲賀流風間家忍者，縝密機變，隱忍忠誠，風間家因老家主拒絕讓風間家向“神祕人”投誠而被以望月家為首的甲賀五十六家聯手覆滅，與兄長“夜影”風間夜保護新族長“夜月幽狐”風間愛一路逃至神州，尋找能為風間家復仇的方法。\",\r\n    \"GetDescTw\": \"第八年前解鎖風間愛紅顏，並粉碎至少兩次陰謀，探索湘北開啟招賢擂，探索招賢擂連勝三場攪亂寧王擂。此後兩次次探索湘北戰勝風間愛和呂霸先等人加入。\",\r\n    \"CardNameTw\": \"扶桑忍者\"\r\n  }"
   rawIndex: 6059
   splits:
@@ -4392,7 +4998,7 @@
     translated: "The master of the Koga School's Kazama household, cautious and suspicious, sharp‑witted and cunning. Originally, she was Lady Kazama, the eldest daughter of the Kazama family. Due to her father's refusal to have the Kazama family surrender to the 'Mysterious figure,' they were annihilated by the united forces of the Koga School's fifty‑six families, with the main family led by the Moonlight family. Afterward, she fled with two trusted companions to Shengzhou, traveling extensively in search of a method to avenge her family."
   - splitPath: GetDesc
     text: "第四年一月开始，两次探索湘北帮助扶桑少女，第一次福缘到达70，第二次财富到达300，第六年一月开始探索湘北战胜鸟居翔太加入。"
-    translated: "In January of the eighth year, begin to crush at least twice the Peaceful King's conspiracies. Explore three consecutive victories in Xiangbei to disrupt the Peaceful King's arena, and ensure that the team includes the maiden Kazama Ai. Again explore Xiangbei and encounter an assassination attempt by Kazama Yue; defeat the assailant to join their ranks."
+    translated: "Starting in the fourth year, month one, they embarked on two expeditions to Xiangbei to assist the Shinto maiden. The first time, their luck reached 70; the second time, their wealth reached 300. In the sixth year, month one, they began exploring Xiangbei and defeating Kiriyama Shouta, joining the group."
 - raw: "{\r\n    \"Key\": \"6062\",\r\n    \"IdName\": \"风间爱2\",\r\n    \"Name\": \"风间爱\",\r\n    \"Title\": \"夜月幽狐\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"扶桑甲贺流风间家家主，谨慎多疑，灵黠狡慧，本为风间家大小姐，风间家因其父拒绝让风间家向“神秘人”投诚而被在以望月家为首的甲贺五十六家联手覆灭，后带领两位亲随一路逃至神州，四处游历，寻找能为风间家复仇的方法。\",\r\n    \"GetDesc\": \"第六年一月开始，探索三次湘北，在了解身世后，连续战胜神保清康与伴七郎后解锁。\",\r\n    \"NameTw\": \"風間愛\",\r\n    \"TitleTw\": \"夜月幽狐\",\r\n    \"DescTw\": \"扶桑甲賀流風間家家主，謹慎多疑，靈黠狡慧，本為風間家大小姐，風間家因其父拒絕讓風間家向“神祕人”投誠而被在以望月家為首的甲賀五十六家聯手覆滅，後帶領兩位親隨一路逃至神州，四處遊歷，尋找能為風間家復仇的方法。\",\r\n    \"GetDescTw\": \"第六年一月開始，探索三次湘北，在瞭解身世後，連續戰勝神保清康與伴七郎後解鎖。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6062
   splits:
@@ -4535,8 +5141,19 @@
     text: "本为东厂暗探，“九千岁”刘瑾三十六名义子、义女之一，狡黠圆滑，审时度势，行事不择手段，自幼被刘瑾训练，不但习得一身武艺，更精通于易容变装之术，刘瑾被抄家后，易容潜逃，暗中寻找能够开启刘瑾宝库的九龙牌。"
     translated: "Originally an undercover spy of the Eastern Factory, “Ninth Thousand Year Old”  Liu Jin had thirty‑six sworn brothers and sisters. As one of them, he was cunning and adaptable, always judging the situation before acting, often resorting to any means necessary. From a young age, he was trained by Liu Jin, not only mastering martial arts but also excelling in disguise techniques. After Liu Jin's family was confiscated, they disguised themselves and escaped secretly, searching for the Dragon Claw token that could unlock Liu Jin's treasure vault."
   - splitPath: GetDesc
-    text: "探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。\\n\\n薛如意形象二\\n红颜解锁后自动获得"
-    translated: "Explore the Jin Nan Ruined Temple to camp overnight and obtain the Yazhi Bronze Plaque. Re‑explore Jin Nan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Re‑explore Jin Nan to encounter Xue Ruyi again. Travel together to claim Liu Jin's treasures and unlock Xue Ruyi as a companion.\\n\\nXue Ruyi's Second Image\\nAfter unlocking Red Beauty, she is automatically acquired."
+    text: "探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
+    translated: "Explore the broken temple in Jingnan and camp overnight to obtain the Yazhi Bronze Plaque. Re‑explore Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall from a cliff. Re‑explore Jingnan to meet Xue Ruyi again. Together, go to Liu Jin's treasure to unlock Xue Ruyi as a red‑haired companion."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "薛如意形象二"
+    translated: "Xue Ruyi's Second Image"
+  - splitPath: GetDesc
+    subIndex: 2
+    text: "红颜解锁后自动获得"
+    translated: "After unlocking the Red Beauty, you will automatically gain her."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"8167\",\r\n    \"IdName\": \"薛如意3\",\r\n    \"Name\": \"薛如意\",\r\n    \"Title\": \"千面妖狐\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"2026年元旦特别形象。本为东厂暗探，“九千岁”刘瑾三十六名义子、义女之一，狡黠圆滑，审时度势，行事不择手段，自幼被刘瑾训练，不但习得一身武艺，更精通于易容变装之术，刘瑾被抄家后，易容潜逃，暗中寻找能够开启刘瑾宝库的九龙牌。\",\r\n    \"GetDesc\": \"探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。\",\r\n    \"NameTw\": \"薛如意\",\r\n    \"TitleTw\": \"千面妖狐\",\r\n    \"DescTw\": \"2026年元旦特別形象。本為東廠暗探，“九千歲”劉瑾三十六名義子、義女之一，狡黠圓滑，審時度勢，行事不擇手段，自幼被劉瑾訓練，不但習得一身武藝，更精通於易容變裝之術，劉瑾被抄家後，易容潛逃，暗中尋找能夠開啟劉瑾寶庫的九龍牌。\",\r\n    \"GetDescTw\": \"探索荊南破廟露宿獲取睚眥銅牌，再次探索荊南開啟寶藏山洞，戰勝劉瑾後劉瑾與薛如意墜崖，再次探索荊南再遇薛如意，一起前去劉瑾寶藏，解鎖薛如意紅顏。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 8167
   splits:
@@ -4560,7 +5177,7 @@
     translated: "In the special image for New Year 2026 of 1403, Liu Jin was originally an undercover agent from the Eastern Factory. As one of the thirty‑six adopted sons and daughters by Liu Jin, they were cunning and adaptable, always judging the situation before acting, often resorting to underhanded means. Trained by Liu Jin since childhood, they not only mastered martial arts but also excelled in disguise techniques. After Liu Jin's family was confiscated, they changed their appearance and escaped secretly, secretly searching for the Dragon Nine Tiles that could unlock Liu Jin's treasure vault."
   - splitPath: GetDesc
     text: "探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
-    translated: "Explore the broken temple in Jingnan to camp overnight and obtain the Yazhi Bronze Plaque. Re‑explore Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Re‑explore Jingnan to meet Xue Ruyi again. Together, go to Liu Jin's treasure and unlock the Red Maiden for Xue Ruyi."
+    translated: "Explore the broken temple in Jingnan and camp overnight to obtain the Yazhi Bronze Plaque. Re‑explore Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall from a cliff. Re‑explore Jingnan to meet Xue Ruyi again. Together, go to Liu Jin's treasure to unlock Xue Ruyi as a red‑haired companion."
 - raw: "{\r\n    \"Key\": \"6080\",\r\n    \"IdName\": \"司徒伶\",\r\n    \"Name\": \"司徒伶\",\r\n    \"Title\": \"千杯不醉\",\r\n    \"CardName\": \"江湖酒客\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖酒客，豪爽不羁，率性洒脱，生于酒坊之家，自幼与酒为伴，五岁时曾不慎跌入酒坛近半个时辰，幸得一位江湖奇人所救，奇人见她天赋异禀，遂将一身武学传下，成年后一心尝遍天下美酒，故而辞别父母，一人游走江湖。\",\r\n    \"GetDesc\": \"第五年一月开始，探索川东，选择帮助司徒伶，此后再次探索川东结识。\",\r\n    \"NameTw\": \"司徒伶\",\r\n    \"TitleTw\": \"千杯不醉\",\r\n    \"DescTw\": \"江湖酒客，豪爽不羈，率性灑脫，生於酒坊之家，自幼與酒為伴，五歲時曾不慎跌入酒罈近半個時辰，幸得一位江湖奇人所救，奇人見她天賦異稟，遂將一身武學傳下，成年後一心嚐遍天下美酒，故而辭別父母，一人遊走江湖。\",\r\n    \"GetDescTw\": \"第五年一月開始，探索川東，選擇幫助司徒伶，此後再次探索川東結識。\",\r\n    \"CardNameTw\": \"江湖酒客\"\r\n  }"
   rawIndex: 6080
   splits:
@@ -4628,130 +5245,188 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "丰都鬼市之主，阴郁孤僻，多愁善感 ，本是江湖游侠，一手离魂钩闻名川蜀，与结义兄弟王冼平联手创建丰都鬼市，却阴一时心胸狭窄欺瞒至交，致使王冼平醉酒坠崖而死，此后一直因此郁郁于心，不得宽解。"
-    translated: "The master of the Fengdu Ghost Market, Yin Yugu, tender and sensitive, was originally a Jianghu wanderer. He was renowned for his skill with the Separating Soul Hook in Sichuan and Chuan. Along with his sworn brother Wang Xianping, they jointly established the Fengdu Ghost Market. However, due to his narrow‑mindedness and deceit, he wronged his close friend, leading to Wang Xianping's death from a fall while drunk. Since then, he has been deeply troubled by this, finding no solace."
+    text: "丰都鬼市之主，阴郁孤僻，多愁善感"
+    translated: "The Master of the Yin Market in Fengdu, melancholic and aloof, often sensitive and sentimental."
+  - splitPath: Desc
+    subIndex: 1
+    text: "，本是江湖游侠，一手离魂钩闻名川蜀，与结义兄弟王冼平联手创建丰都鬼市，却阴一时心胸狭窄欺瞒至交，致使王冼平醉酒坠崖而死，此后一直因此郁郁于心，不得宽解。"
+    translated: "Yet, in a moment of narrow‑mindedness, he deceived a close friend, leading to Wang Xianping's fatal fall from a cliff while drunk. Ever since, this guilt has weighed heavily on him, bringing him no peace."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Brother,兄弟,Sworn Brother,义兄,Jianghu,江湖,Brother,兄弟,Sworn Brother,义兄,Jianghu,江湖,Brother,兄弟,Sworn Brother,义兄,"
   - splitPath: GetDesc
     text: "福缘到达60，探索川东开启丰都鬼市后，累计三次在三月探索鬼市庙会，从第七年开始，再次探索丰都鬼市，战胜阎罗王后加入。"
     translated: "Luck arrives at 60. After uncovering the Fengdu Ghost Market following the exploration of the Chuan Dong region, if one explores the ghost market and fair three times starting from the seventh year in March, they can once again explore the Fengdu Ghost Market, defeat King Yama, and join."
+  templates:
+  - splitPath: Desc
+    template: "{0} {1}"
 - raw: "{\r\n    \"Key\": \"6089\",\r\n    \"IdName\": \"秦一用\",\r\n    \"Name\": \"秦一用\",\r\n    \"Title\": \"青竹公子\",\r\n    \"CardName\": \"世家公子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"世家公子\",\r\n    \"GetDesc\": \"第五年一月开始，福缘到达120，探索川东酒楼遇到秦一用，再次探索川东再次遇到秦一用后加入。\",\r\n    \"NameTw\": \"秦一用\",\r\n    \"TitleTw\": \"青竹公子\",\r\n    \"DescTw\": \"世家公子\",\r\n    \"GetDescTw\": \"第五年一月開始，福緣到達120，探索川東酒樓遇到秦一用，再次探索川東再次遇到秦一用後加入。\",\r\n    \"CardNameTw\": \"世家公子\"\r\n  }"
   rawIndex: 6089
   splits:
   - splitPath: IdName
     text: "秦一用"
+    translated: "Qin Yi used"
   - splitPath: Name
     text: "秦一用"
+    translated: "Qin Yi used"
   - splitPath: Title
     text: "青竹公子"
+    translated: "Young Lord Qingzhu"
   - splitPath: CardName
     text: "世家公子"
+    translated: "Young Lord of a Noble Family"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "世家公子"
+    translated: "Young Lord of a Noble Family"
   - splitPath: GetDesc
     text: "第五年一月开始，福缘到达120，探索川东酒楼遇到秦一用，再次探索川东再次遇到秦一用后加入。"
+    translated: "In Year Five, Month One, Luck arrives at 120, explores the Teng Dong Tavern and meets Qin Yiyong, and joins again after encountering Qin Yiyong a second time."
 - raw: "{\r\n    \"Key\": \"6093\",\r\n    \"IdName\": \"姜芽\",\r\n    \"Name\": \"姜芽\",\r\n    \"Title\": \"姜辣子\",\r\n    \"CardName\": \"川蜀厨娘\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"川蜀厨娘\",\r\n    \"GetDesc\": \"第四年一月开始，财富到达800，探索川南，选择帮助姜芽后加入。\",\r\n    \"NameTw\": \"姜芽\",\r\n    \"TitleTw\": \"薑辣子\",\r\n    \"DescTw\": \"川蜀廚娘\",\r\n    \"GetDescTw\": \"第四年一月開始，財富到達800，探索川南，選擇幫助姜芽後加入。\",\r\n    \"CardNameTw\": \"川蜀廚娘\"\r\n  }"
   rawIndex: 6093
   splits:
   - splitPath: IdName
     text: "姜芽"
+    translated: "Think about it some more"
   - splitPath: Name
     text: "姜芽"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "姜辣子"
+    translated: "Sichuan Pepper"
   - splitPath: CardName
     text: "川蜀厨娘"
+    translated: "Sichuan Cooking Maid"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "川蜀厨娘"
+    translated: "Sichuan Cooking Maid"
   - splitPath: GetDesc
     text: "第四年一月开始，财富到达800，探索川南，选择帮助姜芽后加入。"
+    translated: "Starting in the first Month of the Fourth Year, wealth reaches 800. Explore the southern region of Chu, and join after choosing to help Jiang Ya."
 - raw: "{\r\n    \"Key\": \"6094\",\r\n    \"IdName\": \"姜芽2\",\r\n    \"Name\": \"姜芽\",\r\n    \"Title\": \"姜辣子\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"川蜀厨娘\",\r\n    \"GetDesc\": \"福缘到达80，探索川中，福禄楼学核桃酥，根骨到达80，探索川东，丰庆楼学六赢羊酥，财富到达800，探索川西，锦芳楼学太白鸭，三菜全部学会后探索川南，解锁姜芽红颜。\",\r\n    \"NameTw\": \"姜芽\",\r\n    \"TitleTw\": \"薑辣子\",\r\n    \"DescTw\": \"川蜀廚娘\",\r\n    \"GetDescTw\": \"福緣到達80，探索川中，福祿樓學核桃酥，根骨到達80，探索川東，豐慶樓學六贏羊酥，財富到達800，探索川西，錦芳樓學太白鴨，三菜全部學會後探索川南，解鎖姜芽紅顏。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6094
   splits:
   - splitPath: IdName
     text: "姜芽2"
+    translated: "Jiang Ya 2"
   - splitPath: Name
     text: "姜芽"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "姜辣子"
+    translated: "Sichuan Pepper"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "川蜀厨娘"
+    translated: "Sichuan Cooking Maid"
   - splitPath: GetDesc
     text: "福缘到达80，探索川中，福禄楼学核桃酥，根骨到达80，探索川东，丰庆楼学六赢羊酥，财富到达800，探索川西，锦芳楼学太白鸭，三菜全部学会后探索川南，解锁姜芽红颜。"
+    translated: "Luck arrives at 80, explore Central Sichuan, learn walnut cookies at Fujulou. Potential reaches 80, explore Eastern Sichuan, learn six‑win mutton cookies at Fengqing Lou. Wealth reaches 800, explore Western Sichuan, learn Tai Bai duck at Jinfang Lou. After mastering all three dishes, explore Southern Sichuan to unlock qinga ranyan."
 - raw: "{\r\n    \"Key\": \"6098\",\r\n    \"IdName\": \"李云裳\",\r\n    \"Name\": \"李云裳\",\r\n    \"Title\": \"青莲映月\",\r\n    \"CardName\": \"太白传人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"李太白后人\",\r\n    \"GetDesc\": \"第五年一月开始，福缘到达120，探索川西开启罨画池，探索罨画池，战胜夏南屏、褚良玉、江惟远三人后加入。\",\r\n    \"NameTw\": \"李雲裳\",\r\n    \"TitleTw\": \"青蓮映月\",\r\n    \"DescTw\": \"李太白後人\",\r\n    \"GetDescTw\": \"第五年一月開始，福緣到達120，探索川西開啟罨畫池，探索罨畫池，戰勝夏南屏、褚良玉、江惟遠三人後加入。\",\r\n    \"CardNameTw\": \"太白傳人\"\r\n  }"
   rawIndex: 6098
   splits:
   - splitPath: IdName
     text: "李云裳"
+    translated: "Think about it some more"
   - splitPath: Name
     text: "李云裳"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "青莲映月"
+    translated: "Lotus Reflecting Moon"
   - splitPath: CardName
     text: "太白传人"
+    translated: "White Sparrow Disciple"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "李太白后人"
+    translated: "Li Taibai's descendant"
   - splitPath: GetDesc
     text: "第五年一月开始，福缘到达120，探索川西开启罨画池，探索罨画池，战胜夏南屏、褚良玉、江惟远三人后加入。"
+    translated: "Starting in the fifth year, Month One, Luck reaches 120. Exploring West Sichuan initiates the exploration of Painted Pool, where they delve into the mysteries of Painted Pool. After defeating the three individuals‑Summer Nanping, Zhu Liangyu, and Jiang Weiyuan‑they join the party."
 - raw: "{\r\n    \"Key\": \"6099\",\r\n    \"IdName\": \"李云裳2\",\r\n    \"Name\": \"李云裳\",\r\n    \"Title\": \"青莲映月\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"李太白后人\",\r\n    \"GetDesc\": \"先后探索川东、川西、川中，游历巫山、峨眉山，剑阁，最后探索川西罨画池，战胜缪辟邪，解锁李云裳。\",\r\n    \"NameTw\": \"李雲裳\",\r\n    \"TitleTw\": \"青蓮映月\",\r\n    \"DescTw\": \"李太白後人\",\r\n    \"GetDescTw\": \"先後探索川東、川西、川中，遊歷巫山、峨眉山，劍閣，最後探索川西罨畫池，戰勝繆辟邪，解鎖李雲裳。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6099
   splits:
   - splitPath: IdName
     text: "李云裳2"
+    translated: "Li Yunshang2"
   - splitPath: Name
     text: "李云裳"
+    translated: "Think about it some more"
   - splitPath: Title
     text: "青莲映月"
+    translated: "Lotus Reflecting Moon"
   - splitPath: CardName
     text: "红颜知己"
+    translated: "Close female friend"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "李太白后人"
+    translated: "Li Taibai's descendant"
   - splitPath: GetDesc
     text: "先后探索川东、川西、川中，游历巫山、峨眉山，剑阁，最后探索川西罨画池，战胜缪辟邪，解锁李云裳。"
+    translated: "First, explore the eastern, western, and central regions of Sichuan, wandering through Wushan, Emei Mountain, and Jianmen Pass. Finally, explore the western painted landscape pool of Sichuan, defeat Miao Bixie, and unlock Li Yunshang."
 - raw: "{\r\n    \"Key\": \"6117\",\r\n    \"IdName\": \"普度\",\r\n    \"Name\": \"普度\",\r\n    \"Title\": \"白眉上人\",\r\n    \"CardName\": \"隐世奇僧\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"隐世奇僧\",\r\n    \"GetDesc\": \"任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南后加入。\",\r\n    \"NameTw\": \"普度\",\r\n    \"TitleTw\": \"白眉上人\",\r\n    \"DescTw\": \"隱世奇僧\",\r\n    \"GetDescTw\": \"任意年七月時探索川南，初識普度，此後，第八年七月開始，道德到達40，七月時探索川南後加入。\",\r\n    \"CardNameTw\": \"隱世奇僧\"\r\n  }"
   rawIndex: 6117
   splits:
   - splitPath: IdName
     text: "普度"
+    translated: "Universal Salvation"
   - splitPath: Name
     text: "普度"
+    translated: "Universal Salvation"
   - splitPath: Title
     text: "白眉上人"
+    translated: "White‑Browed Master"
   - splitPath: CardName
     text: "隐世奇僧"
+    translated: "Recluse Master of Qishu"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "隐世奇僧"
+    translated: "Recluse Master of Qishu"
   - splitPath: GetDesc
     text: "任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南后加入。"
+    translated: "Explore Sichuan South in the seventh month of any year, initially meeting Pupu. From the eighth year of July onwards, Morality arrived. After exploring Sichuan South in the seventh month, they joined 40."
 - raw: "{\r\n    \"Key\": \"6120\",\r\n    \"IdName\": \"牟行方\",\r\n    \"Name\": \"牟行方\",\r\n    \"Title\": \"相通三变\",\r\n    \"CardName\": \"傩戏艺人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"傩戏艺人\",\r\n    \"GetDesc\": \"第三年一月开始探索川南看到牟行方表演，第四年一月开始，福缘到达100，两次探索川南战胜山贼救下牟行方，酒楼中得知牟行方之仇，决定帮他报仇后加入。\",\r\n    \"NameTw\": \"牟行方\",\r\n    \"TitleTw\": \"相通三變\",\r\n    \"DescTw\": \"儺戲藝人\",\r\n    \"GetDescTw\": \"第三年一月開始探索川南看到牟行方表演，第四年一月開始，福緣到達100，兩次探索川南戰勝山賊救下牟行方，酒樓中得知牟行方之仇，決定幫他報仇後加入。\",\r\n    \"CardNameTw\": \"儺戲藝人\"\r\n  }"
   rawIndex: 6120
   splits:
   - splitPath: IdName
     text: "牟行方"
+    translated: "Mou Xingfang"
   - splitPath: Name
     text: "牟行方"
+    translated: "Mou Xingfang"
   - splitPath: Title
     text: "相通三变"
+    translated: "Three Transformations Through Each Other"
   - splitPath: CardName
     text: "傩戏艺人"
+    translated: "Nuo opera performer"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "傩戏艺人"
+    translated: "Nuo opera performer"
   - splitPath: GetDesc
     text: "第三年一月开始探索川南看到牟行方表演，第四年一月开始，福缘到达100，两次探索川南战胜山贼救下牟行方，酒楼中得知牟行方之仇，决定帮他报仇后加入。"
+    translated: "Starting the exploration of Chuannan in the first month of the third year, I witnessed Mu Xingfang's performance. In the first month of the fourth year, Luck arrived at 100. After twice exploring Chuannan and defeating bandits to save Mu Xingfang, I learned of Mu Xingfang's vendetta in the tavern. Deciding to help him avenge his enemies, I joined him."
 - raw: "{\r\n    \"Key\": \"7021\",\r\n    \"IdName\": \"晏明\",\r\n    \"Name\": \"晏明\",\r\n    \"CardName\": \"荆湘捕快\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘捕快\",\r\n    \"NameTw\": \"晏明\",\r\n    \"DescTw\": \"荊湘捕快\",\r\n    \"CardNameTw\": \"荊湘捕快\"\r\n  }"
   rawIndex: 7021
   splits:
@@ -5332,8 +6007,15 @@
     text: "奇宝，撰写着天下各名家枪法评述之纪要，对项家枪、罗家枪、岳家枪、伍家枪、杨家枪、赵家枪等天下知名的枪法皆有十分独到的记载与点评，对修炼枪法一道拥有极大的裨益。"
     translated: "Treasure Record, documenting the evaluations of various renowned families' spear techniques across the land, includes detailed and insightful accounts of the Xiang Family Spear, Lu Family Spear, Yue Family Spear, Wu Family Spear, Yang Family Spear, and Zhao Family Spear. It provides significant benefits for those practicing spear techniques."
   - splitPath: GetDesc
-    text: "第八年一月开始，探索荆北，无事发生时选择《江湖闲话-将军百战》胜利五次后获取"
+    text: "第八年一月开始，探索荆北，无事发生时选择《江湖闲话"
     translated: "Starting in January of the eighth year, begin exploring Jingbei. After winning five times when there is no event occurring, acquire  《Chatter of the Jianghu ‑ General's Hundred Battles》 ."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "将军百战》胜利五次后获取"
+    translated: "After winning five times, unlock General Hundred Battles."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"10027\",\r\n    \"IdName\": \"白玉美人\",\r\n    \"Name\": \"白玉美人\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物，是由萧令仪用宁王朱宸濠的迎娶聘礼，价值连城的无瑕玉璧对着镜中的自己亲手雕琢而成，白玉美人晶莹剔透、清雅脱俗、气韵生动、顾盼生姿，其容貌神态与萧令仪如出一辙。\",\r\n    \"GetDesc\": \"解锁红颜萧令仪后，每年一月可探索一次后山，选择过年陪伴萧令仪，获得礼物解锁。\",\r\n    \"NameTw\": \"白玉美人\",\r\n    \"DescTw\": \"珍物，是由蕭令儀用寧王朱宸濠的迎娶聘禮，價值連城的無瑕玉璧對著鏡中的自己親手雕琢而成，白玉美人晶瑩剔透、清雅脫俗、氣韻生動、顧盼生姿，其容貌神態與蕭令儀如出一轍。\",\r\n    \"GetDescTw\": \"解鎖紅顏蕭令儀後，每年一月可探索一次後山，選擇過年陪伴蕭令儀，獲得禮物解鎖。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10027
   splits:
@@ -5455,11 +6137,25 @@
     text: "常规"
     translated: "Routine"
   - splitPath: Desc
-    text: "奇宝，一帖之中景分四色，分别绘制春、夏、秋、冬四季之景，春景笔意中嫩芽破雪，夏景墨色内暴雨倾荷，秋景肃杀间藏敛劲诀，冬景留白处寒江凝寂 ，更难得四时交替处墨痕相渗，似乎隐藏着十分高深的武学意蕴。"
+    text: "奇宝，一帖之中景分四色，分别绘制春、夏、秋、冬四季之景，春景笔意中嫩芽破雪，夏景墨色内暴雨倾荷，秋景肃杀间藏敛劲诀，冬景留白处寒江凝寂"
     translated: "Treasure Scroll, each of the four sections depicts a different season‑Spring, Summer, Autumn, and Winter. The spring scene shows tender buds breaking through the snow, while the summer scene features heavy rain pounding on lotus leaves in ink. The autumn scene conveys a sense of severity with concealed strength, and the winter scene uses minimal ink to depict a silent, frozen river. Most remarkable is how the transitions between the seasons blend the ink marks seamlessly, suggesting a profound martial arts philosophy."
+  - splitPath: Desc
+    subIndex: 1
+    text: "，更难得四时交替处墨痕相渗，似乎隐藏着十分高深的武学意蕴。"
+    translated: "What makes it even more remarkable is the interplay of the Four Seasons' markings, as if concealing extremely profound martial arts principles."
   - splitPath: GetDesc
-    text: "第八年一月开始，探索荆东，无事发生时选择《江湖闲话-四时迭运》胜利四次后获取"
+    text: "第八年一月开始，探索荆东，无事发生时选择《江湖闲话"
     translated: "Starting in January of the eighth year, begin exploring Jingdong. After achieving victory four times in  《The Chatter of the Jianghu ‑ Seasons Change》  when there is no incident, you will obtain it."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "四时迭运》胜利四次后获取"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  templates:
+  - splitPath: Desc
+    template: "{0} {1}"
+  - splitPath: GetDesc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"10034\",\r\n    \"IdName\": \"龙吟刀\",\r\n    \"Name\": \"龙吟刀\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"神兵，刀锋三尺九寸，重四斤十二两，为洞庭帮帮主“白首龙君”钟离恨所用兵器，昔年钟离恨持此刀独上君山，会尽洞庭豪杰，开创洞庭帮基业，此刀亦随之扬名荆湘，却在钟离恨之妻聂湘君病逝后，被钟离恨插入来龙口旁化的蛟石上，自此封存。\",\r\n    \"GetDesc\": \"加入洞庭帮，第七年一月开始，探索湘北战胜恶鼋后，根骨到达160，探索来龙口获取。\",\r\n    \"NameTw\": \"龍吟刀\",\r\n    \"DescTw\": \"神兵，刀鋒三尺九寸，重四斤十二兩，為洞庭幫幫主“白首龍君”鍾離恨所用兵器，昔年鍾離恨持此刀獨上君山，會盡洞庭豪傑，開創洞庭幫基業，此刀亦隨之揚名荊湘，卻在鍾離恨之妻聶湘君病逝後，被鍾離恨插入來龍口旁化的蛟石上，自此封存。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第七年一月開始，探索湘北戰勝惡黿後，根骨到達160，探索來龍口獲取。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10034
   splits:
@@ -5528,91 +6224,130 @@
   splits:
   - splitPath: IdName
     text: "猞猁珠"
+    translated: "Lynx pearl"
   - splitPath: Name
     text: "猞猁珠"
+    translated: "Lynx pearl"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "神兵"
+    translated: "Divine weapon"
   - splitPath: GetDesc
     text: "第六年一月开始，福缘到达160，探索川西获得。"
+    translated: "In Year Six, Month One, Luck arrives at 160, to be obtained by exploring the Western Sichuan region."
 - raw: "{\r\n    \"Key\": \"10038\",\r\n    \"IdName\": \"孔明灯\",\r\n    \"Name\": \"孔明灯\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物\",\r\n    \"GetDesc\": \"诸葛慧加入后，先探索川西逛庙会，然后探索汉昭烈庙诸葛慧回礼，五年一月开始，再次探索汉昭烈庙与诸葛慧放孔明灯后获得。\",\r\n    \"NameTw\": \"孔明燈\",\r\n    \"DescTw\": \"珍物\",\r\n    \"GetDescTw\": \"諸葛慧加入後，先探索川西逛廟會，然後探索漢昭烈廟諸葛慧回禮，五年一月開始，再次探索漢昭烈廟與諸葛慧放孔明燈後獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10038
   splits:
   - splitPath: IdName
     text: "孔明灯"
+    translated: "Sky lantern"
   - splitPath: Name
     text: "孔明灯"
+    translated: "Sky lantern"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "珍物"
+    translated: "Precious item"
   - splitPath: GetDesc
     text: "诸葛慧加入后，先探索川西逛庙会，然后探索汉昭烈庙诸葛慧回礼，五年一月开始，再次探索汉昭烈庙与诸葛慧放孔明灯后获得。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "{\r\n    \"Key\": \"10039\",\r\n    \"IdName\": \"鹿茸\",\r\n    \"Name\": \"鹿茸\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物，川南大凉山中山鹿之茸，药材，性温味甘咸，归肾、肝二经，具有壮元阳、补气血、益精髓、强筋骨等功效，对于治疗肾虚阳痿、腰膝酸软、宫冷不孕等症颇有奇效。\",\r\n    \"GetDesc\": \"开放蚩黎峒后，连续两次探索蚩黎峒，且第二次时御兽到达精通，开放大凉山，探索大凉山战胜山鹿获得。\",\r\n    \"NameTw\": \"鹿茸\",\r\n    \"DescTw\": \"珍物，川南大涼山中山鹿之茸，藥材，性溫味甘鹹，歸腎、肝二經，具有壯元陽、補氣血、益精髓、強筋骨等功效，對於治療腎虛陽痿、腰膝痠軟、宮冷不孕等症頗有奇效。\",\r\n    \"GetDescTw\": \"開放蚩黎峒後，連續兩次探索蚩黎峒，且第二次時御獸到達精通，開放大涼山，探索大涼山戰勝山鹿獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10039
   splits:
   - splitPath: IdName
     text: "鹿茸"
+    translated: "Deer antler"
   - splitPath: Name
     text: "鹿茸"
+    translated: "Deer antler"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "珍物，川南大凉山中山鹿之茸，药材，性温味甘咸，归肾、肝二经，具有壮元阳、补气血、益精髓、强筋骨等功效，对于治疗肾虚阳痿、腰膝酸软、宫冷不孕等症颇有奇效。"
+    translated: "The precious ingredient is the deer antler from the central mountains of Daliangshan, Sichuan South. It is warm in nature, sweet and slightly salty in taste, and enters the kidney and liver meridians. It is known for its ability to strengthen the Yang, replenish lifeforce, invigorate essence and blood, and strengthen muscle and bone. It is particularly effective in treating kidney deficiency with erectile dysfunction, soreness and weakness in the waist and knees, and cold uterus infertility."
   - splitPath: GetDesc
     text: "开放蚩黎峒后，连续两次探索蚩黎峒，且第二次时御兽到达精通，开放大凉山，探索大凉山战胜山鹿获得。"
+    translated: "After opening Chi Li Dong, explore Chi Li Dong twice consecutively, and achieve proficiency with the Beast Taming during the second exploration. This will unlock Da Liang Shan. Exploring Da Liang Shan and defeating the mountain deer there will obtain the reward."
 - raw: "{\r\n    \"Key\": \"10040\",\r\n    \"IdName\": \"半晌贪欢\",\r\n    \"Name\": \"半晌贪欢\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"神兵，状若圆球，重十三两，乃唐门前辈所铸机关暗器，取二百七十三种世间珍稀材料锻造而成，以独门手法打出，此物便即刻炸裂，凡目之所及者至少半息之内，皆会坠入令人痴醉于幻境之中无法自拔。\",\r\n    \"GetDesc\": \"加入唐门，第八年一月开始，且锻造出自己的独门暗器后，探索演武场得知半晌贪欢在唐纵手中，贡献到达100，探索安乐窝获得。\",\r\n    \"NameTw\": \"半晌貪歡\",\r\n    \"DescTw\": \"神兵，狀若圓球，重十三兩，乃唐門前輩所鑄機關暗器，取二百七十三種世間珍稀材料鍛造而成，以獨門手法打出，此物便即刻炸裂，凡目之所及者至少半息之內，皆會墜入令人痴醉於幻境之中無法自拔。\",\r\n    \"GetDescTw\": \"加入唐門，第八年一月開始，且鍛造出自己的獨門暗器後，探索演武場得知半晌貪歡在唐縱手中，貢獻到達100，探索安樂窩獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10040
   splits:
   - splitPath: IdName
     text: "半晌贪欢"
+    translated: "A moment of indulgence"
   - splitPath: Name
     text: "半晌贪欢"
+    translated: "A moment of indulgence"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "神兵，状若圆球，重十三两，乃唐门前辈所铸机关暗器，取二百七十三种世间珍稀材料锻造而成，以独门手法打出，此物便即刻炸裂，凡目之所及者至少半息之内，皆会坠入令人痴醉于幻境之中无法自拔。"
+    translated: "The divine weapon appears spherical, weighing thirteen taels. It is an organization mechanism dark weapon crafted by a senior from the Tang Clan. Made from 273 types of rare materials, it is forged using a unique technique. The moment this object explodes, anything within sight will be ensnared by a captivating illusion, unable to extricate themselves for at least half a breath."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hidden Weapon,暗器,Hidden Weapon,暗器,Hidden Weapon,暗器,"
   - splitPath: GetDesc
     text: "加入唐门，第八年一月开始，且锻造出自己的独门暗器后，探索演武场得知半晌贪欢在唐纵手中，贡献到达100，探索安乐窝获得。"
+    translated: "Join the Tang Clan. Starting from the eighth month, and after forging your own unique hidden weapon, you discover that Half‑hour Joy is in Tang Zong's possession through the Martial Arts Arena. Your contribution reaches 100, and you obtain it by exploring the Haven of Tranquility."
 - raw: "{\r\n    \"Key\": \"10501\",\r\n    \"IdName\": \"粽子\",\r\n    \"Name\": \"粽子\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物\",\r\n    \"GetDesc\": \"解锁红颜姜芽后，五月时，探索湘北获得。\",\r\n    \"NameTw\": \"粽子\",\r\n    \"DescTw\": \"珍物\",\r\n    \"GetDescTw\": \"解鎖紅顏姜芽後，五月時，探索湘北獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10501
   splits:
   - splitPath: IdName
     text: "粽子"
+    translated: "Zongzi"
   - splitPath: Name
     text: "粽子"
+    translated: "Zongzi"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "珍物"
+    translated: "Precious item"
   - splitPath: GetDesc
     text: "解锁红颜姜芽后，五月时，探索湘北获得。"
+    translated: "After unlocking Red Beauty Jiang Ya, obtain it during the month of May by exploring Xiangbei."
 - raw: "{\r\n    \"Key\": \"10502\",\r\n    \"IdName\": \"糍粑\",\r\n    \"Name\": \"糍粑\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物\",\r\n    \"GetDesc\": \"解锁红颜姜芽后，八月时，探索川东获得。\",\r\n    \"NameTw\": \"餈粑\",\r\n    \"DescTw\": \"珍物\",\r\n    \"GetDescTw\": \"解鎖紅顏姜芽後，八月時，探索川東獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10502
   splits:
   - splitPath: IdName
     text: "糍粑"
+    translated: "Sticky rice cake"
   - splitPath: Name
     text: "糍粑"
+    translated: "Sticky rice cake"
   - splitPath: CardName
     text: "宝物"
+    translated: "Treasure"
   - splitPath: BaseDesc
     text: "常规"
+    translated: "Routine"
   - splitPath: Desc
     text: "珍物"
+    translated: "Precious item"
   - splitPath: GetDesc
     text: "解锁红颜姜芽后，八月时，探索川东获得。"
+    translated: "After unlocking Red Beauty Jiang Ya, obtain it during August while exploring Eastern Sichuan."
 - raw: "{\r\n    \"Key\": \"20000\",\r\n    \"IdName\": \"瑞兔\",\r\n    \"Name\": \"瑞兔\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"瑞兔\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20000
   splits:
@@ -5744,63 +6479,88 @@
   splits:
   - splitPath: IdName
     text: "孙悟空"
+    translated: "Sun Wukong"
   - splitPath: Name
     text: "孙悟空"
+    translated: "Sun Wukong"
   - splitPath: CardName
     text: "齐天大圣"
+    translated: "Heavenly Demon King"
   - splitPath: BaseDesc
     text: "齐天大圣"
+    translated: "Heavenly Demon King"
   - splitPath: Desc
     text: "齐天大圣"
+    translated: "Heavenly Demon King"
 - raw: "{\r\n    \"Key\": \"21002\",\r\n    \"IdName\": \"猪八戒\",\r\n    \"Name\": \"猪八戒\",\r\n    \"CardName\": \"天蓬元帅\",\r\n    \"BaseDesc\": \"天蓬元帅\",\r\n    \"Desc\": \"天蓬元帅\",\r\n    \"NameTw\": \"豬八戒\",\r\n    \"DescTw\": \"天蓬元帥\",\r\n    \"CardNameTw\": \"天蓬元帥\"\r\n  }"
   rawIndex: 21002
   splits:
   - splitPath: IdName
     text: "猪八戒"
+    translated: "Wu Cheng'en's Pigsy"
   - splitPath: Name
     text: "猪八戒"
+    translated: "Wu Cheng'en's Pigsy"
   - splitPath: CardName
     text: "天蓬元帅"
+    translated: "Marshal Tianpeng"
   - splitPath: BaseDesc
     text: "天蓬元帅"
+    translated: "Marshal Tianpeng"
   - splitPath: Desc
     text: "天蓬元帅"
+    translated: "Marshal Tianpeng"
 - raw: "{\r\n    \"Key\": \"21003\",\r\n    \"IdName\": \"沙悟净\",\r\n    \"Name\": \"沙悟净\",\r\n    \"CardName\": \"卷帘大将\",\r\n    \"BaseDesc\": \"卷帘大将\",\r\n    \"Desc\": \"卷帘大将\",\r\n    \"NameTw\": \"沙悟淨\",\r\n    \"DescTw\": \"捲簾大將\",\r\n    \"CardNameTw\": \"捲簾大將\"\r\n  }"
   rawIndex: 21003
   splits:
   - splitPath: IdName
     text: "沙悟净"
+    translated: "Sanditya"
   - splitPath: Name
     text: "沙悟净"
+    translated: "Sanditya"
   - splitPath: CardName
     text: "卷帘大将"
+    translated: "Chuanjian Senior General"
   - splitPath: BaseDesc
     text: "卷帘大将"
+    translated: "Chuanjian Senior General"
   - splitPath: Desc
     text: "卷帘大将"
+    translated: "Chuanjian Senior General"
 - raw: "{\r\n    \"Key\": \"21004\",\r\n    \"IdName\": \"小白龙\",\r\n    \"Name\": \"小白龙\",\r\n    \"CardName\": \"西海太子\",\r\n    \"BaseDesc\": \"西海太子\",\r\n    \"Desc\": \"西海太子\",\r\n    \"NameTw\": \"小白龍\",\r\n    \"DescTw\": \"西海太子\",\r\n    \"CardNameTw\": \"西海太子\"\r\n  }"
   rawIndex: 21004
   splits:
   - splitPath: IdName
     text: "小白龙"
+    translated: "White Dragon"
   - splitPath: Name
     text: "小白龙"
+    translated: "White Dragon"
   - splitPath: CardName
     text: "西海太子"
+    translated: "Princely Crown Prince of the Western Sea"
   - splitPath: BaseDesc
     text: "西海太子"
+    translated: "Princely Crown Prince of the Western Sea"
   - splitPath: Desc
     text: "西海太子"
+    translated: "Princely Crown Prince of the Western Sea"
 - raw: "{\r\n    \"Key\": \"21005\",\r\n    \"IdName\": \"唐三藏\",\r\n    \"Name\": \"唐三藏\",\r\n    \"CardName\": \"金蝉子\",\r\n    \"BaseDesc\": \"金蝉子\",\r\n    \"Desc\": \"金蝉子\",\r\n    \"NameTw\": \"唐三藏\",\r\n    \"DescTw\": \"金蟬子\",\r\n    \"CardNameTw\": \"金蟬子\"\r\n  }"
   rawIndex: 21005
   splits:
   - splitPath: IdName
     text: "唐三藏"
+    translated: "Tripitaka"
   - splitPath: Name
     text: "唐三藏"
+    translated: "Tripitaka"
   - splitPath: CardName
     text: "金蝉子"
+    translated: "Jinchanzi"
   - splitPath: BaseDesc
     text: "金蝉子"
+    translated: "Jinchanzi"
   - splitPath: Desc
     text: "金蝉子"
+    translated: "Jinchanzi"

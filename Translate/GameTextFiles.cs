@@ -4,42 +4,6 @@ namespace Translate;
 
 public class GameTextFiles
 {
-    // "。" doesnt work like u think it would   
-    public static string[] SplitCharactersList = [
-            "\\n",
-            //"10.", "1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "0."
-            "⑩", 
-            "⓪", 
-            "①",
-            "②",
-            "③",
-            "④",
-            "⑤",
-            "⑥",
-            "⑦",
-            "⑧",
-            "⑨",
-            
-            //"-", // This will split between other groups
-            //"友好到达",
-            //":", // This will split between other groups
-            //"|",
-            // "。"
-            //  "<br>", "-", 
-        ];
-
-    public static string[] SplitRegexPatterns = [
-        //@"(.*?)",
-        //@"（.*?）",
-        @"《.*?》",
-        @"\〈.*?\〉",
-        @"\「.*?\」",
-        @"\『.*?\』",
-        @"\【.*?\】",
-        @"\〖.*?\〗",
-        @"\“.*?”"
-    ];
-
     public static string[] FilesNotHandled = [
     ];
 

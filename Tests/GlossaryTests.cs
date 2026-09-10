@@ -1,6 +1,7 @@
 ﻿using System.Text;
-using Translate.Support;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Configuration;
+using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Utility;
 using ToolGood.Words;
 
 namespace Translate.Tests;
@@ -12,9 +13,9 @@ public class GlossaryTests
     [Fact]
     public void UpdateSimplifiedAndTraditional()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
-        foreach (var line in config.GlossaryLines)
+        foreach (var line in config.Runtime.GlossaryLines)
         {
             if (string.IsNullOrEmpty(line.RawSimplified) && string.IsNullOrEmpty(line.RawTraditional))
             {
@@ -33,20 +34,20 @@ public class GlossaryTests
                 }             
             }
         }
-        var serializer = Yaml.CreateSerializer();
-        var yaml = serializer.Serialize(config.GlossaryLines);
+        var serializer = YamlHelper.CreateSerializer();
+        var yaml = serializer.Serialize(config.Runtime.GlossaryLines);
         File.WriteAllText($"{workingDirectory}/TestResults/Glossary/UpdatedGlossary.yaml", yaml);
     }
 
     [Fact]
     public void CheckForDuplicateGlossaryItems()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
-        // Check for duplicate `raw` entries in config.GlossaryLines and config.ManualTranslations
+        // Check for duplicate `raw` entries in config.Runtime.GlossaryLines and config.Runtime.ManualTranslations
         var cache = new Dictionary<string, string>();
         var duplicates = new List<string>();
-        var allEntries = config.GlossaryLines.Concat(config.ManualTranslations);
+        var allEntries = config.Runtime.GlossaryLines.Concat(config.Runtime.ManualTranslations);
 
         foreach (var entry in allEntries)
         {
@@ -64,9 +65,9 @@ public class GlossaryTests
         Directory.CreateDirectory($"{workingDirectory}/TestResults");
         File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/DupeGlossary.yaml", duplicates);
 
-        // Check for entries in `raw` with similar `raw` but different `result` in config.GlossaryLines
+        // Check for entries in `raw` with similar `raw` but different `result` in config.Runtime.GlossaryLines
         var similarEntries = new List<string>();
-        var glossaryList = config.GlossaryLines.ToList();
+        var glossaryList = config.Runtime.GlossaryLines.ToList();
 
         for (int i = 0; i < glossaryList.Count; i++)
         {
@@ -140,14 +141,14 @@ public class GlossaryTests
     [Fact]
     public void CleanupManualTranslations_RemovesEmptyEntries()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
         var cache = new Dictionary<string, string>();
         var badDupes = new List<string>();
         var cleanedManuals = new List<GlossaryLine>();
         var cleanMe = new List<string>();
 
-        foreach (var k in config.ManualTranslations)
+        foreach (var k in config.Runtime.ManualTranslations)
         {
             if (cache.ContainsKey(k.Raw))
             {
@@ -171,7 +172,7 @@ public class GlossaryTests
 
         File.WriteAllLines($"{workingDirectory}/TestResults/Glossary/DupeGlossary.yaml", cleanMe);
 
-        //var serializer = Yaml.CreateSerializer();
+        //var serializer = YamlHelper.CreateSerializer();
         //var clean = serializer.Serialize(cleanedManuals);
         //File.WriteAllText($"{workingDirectory}/TestResults/CleanManualTranslations.yaml", clean);
     }
@@ -179,9 +180,9 @@ public class GlossaryTests
     [Fact]
     public void CheckForConflictingGlossaryItems()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
-        var allEntries = config.GlossaryLines.Concat(config.ManualTranslations).ToList();
+        var allEntries = config.Runtime.GlossaryLines.Concat(config.Runtime.ManualTranslations).ToList();
         var conflicts = new List<string>();
 
         // Check if raw of one entry contains raw, rawSimplified, or rawTraditional of another entry

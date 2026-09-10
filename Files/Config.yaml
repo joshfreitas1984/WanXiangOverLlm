@@ -1,15 +1,4 @@
-﻿apiKey: "None"
-apiKeyRequired: false
-url: "http://localhost:11434/api/chat"
-model: "qwen2.5:7b"
-
-# FanslationStudio.LlmKit's ConfigurationExtensions.GetConfiguration (used by
-# JsonGameDataWorkflow/CsvGameDataWorkflow/PrefabTextWorkflow for their QualityReview.MinAcceptableScore
-# gate) requires this section - mirrors DragonHierOverLlm's Config.yaml `models:`/`qualityReview:`
-# shape, with quality review off. Additive alongside the legacy top-level fields above, which
-# TranslationService's own (separate, pre-migration) Configuration.GetConfiguration still reads and
-# ignores this section entirely - full Config.yaml schema migration is separate, later work.
-models:
+﻿models:
   - name: Qwen25-Standard
     modelPreset: Qwen25
     modelPresetType: Standard
@@ -20,62 +9,43 @@ models:
     modelPresetType: StructuredText
     customPromptsPath:
     apiKeyPath:
+  - name: QwenQc-14B
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    model: qwen2.5:14b-instruct
 qualityReview:
-  enabled: false
-
-# apiKeyRequired: true
-# url: "https://api.openai.com/v1/chat/completions"
-# model: "gpt-4o-mini"
-
-modelParams:
-  # Qwen2.5
-  temperature: 0.15
-  top_p: 0.92
-  top_k: 40
-  repeat_penalty: 1.05
-  frequency_penalty: 0
-  presence_penalty: 0
-  num_ctx: 16384
-  num_predict: 512
-
-  # Qwen 3.5
-  # temperature: 0.2
-  # top_p: 0.9
-  # repeat_penalty: 1.05
-  # frequency_penalty: 0
-  # presence_penalty: 0
-  # top_k: 40
-  # min_p: 0
-  # num_ctx: 16384
-  # num_predict: 512
-  
-  # ChatGPT
-  # temperature: 0.2
-  # top_p: 0.9
-  # frequency_penalty: 0
-  # presence_penalty: 0
-tagModelParams:
-  # Qwen2.5
-  temperature: 0
-  top_p: 0.95
-  top_k: 0
-  repeat_penalty: 1.0
-  frequency_penalty: 0
-  presence_penalty: 0
-  num_ctx: 16384
-  num_predict: 512
-  # Qwen 3.5
-  # temperature: 0
-  # top_p: 0.9
-  # repeat_penalty: 1.0
-  # frequency_penalty: 0
-  # presence_penalty: 0
-  # top_k: 0
-  # min_p: 0
-  # num_ctx: 16384
-  # num_predict: 512
-retryCount: 4
-batchSize: 20000
+  enabled: true
+  modelName: QwenQc-14B #Glm4Qc-9B 
+  minAcceptableScore: 70 # tune freely and re-run packaging only - no LLM calls needed to see the effect  
+glossaryPreset:
+  usePresetChineseGlossary: true
+  chineseGlossaryTypesToSupress:
+    - Phonetics
+useContinuousWorkerPool: true
+maxConcurrency: 4 # Ollama is capped anyway
+retryCount: 3 # Dropped from 3 - no stronger model to escalate to, so extra retries mostly just burn time on the same qwen2.5:7b model
 skipLineValidation: false
 correctionPromptsEnabled: true
+batchSize: 100
 translateFlagged: true
+# splitCharactersList:
+#   - '\n'
+#   - '⑩'
+#   - '⓪'
+#   - '①'
+#   - '②'
+#   - '③'
+#   - '④'
+#   - '⑤'
+#   - '⑥'
+#   - '⑦'
+#   - '⑧'
+#   - '⑨'
+# splitRegexPatterns:
+#   - '《.*?》'
+#   - '\〈.*?\〉'
+#   - '\「.*?\」'
+#   - '\『.*?\』'
+#   - '\【.*?\】'
+#   - '\〖.*?\〗'
+#   - '\“.*?”'

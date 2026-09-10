@@ -20,20 +20,28 @@
     text: "自动防御"
     translated: "Automatic Defense"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"2\",\r\n    \"Name\": \"防御\",\r\n    \"ItemName\": \"防御（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"防禦\",\r\n    \"ItemNameTw\": \"防禦（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
     text: "防御"
-    translated: "Defense"
-  - splitPath: ItemName
-    text: "防御（{0}/{1}）"
-    translated: "Defense ({0}/{1})"
-  - splitPath: Desc
-    text: "防御+{0}%"
     translated: "Defense +{0}%"
+  - splitPath: ItemName
+    text: "防御"
+    translated: "Defense +{0}%"
+  - splitPath: Desc
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Name\": \"攻击加成\",\r\n    \"ItemName\": \"攻击加成（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"攻擊加成\",\r\n    \"ItemNameTw\": \"攻擊加成（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 3
   splits:
@@ -41,11 +49,16 @@
     text: "攻击加成"
     translated: "Attack Boost"
   - splitPath: ItemName
-    text: "攻击加成（{0}/{1}）"
-    translated: "Attack Boost ({0}/{1})"
+    text: "攻击加成"
+    translated: "Attack Boost"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"盾\",\r\n    \"ItemName\": \"盾（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次\",\r\n    \"NameTw\": \"盾\",\r\n    \"ItemNameTw\": \"盾（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次\"\r\n  }"
   rawIndex: 4
   splits:
@@ -53,11 +66,14 @@
     text: "盾"
     translated: "Shield"
   - splitPath: ItemName
-    text: "盾（{0}/{1}）"
-    translated: "Shield ({{0}}/{{1}})"
+    text: "盾"
+    translated: "Shield"
   - splitPath: Desc
     text: "每层抵消一次"
     translated: "Dissipate one layer at a time"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"大黄\",\r\n    \"ItemName\": \"大黄\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（300）\\\\n增伤（10倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"大黃\",\r\n    \"ItemNameTw\": \"大黃\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（300）\\\\n增傷（10倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 5
   splits:
@@ -68,8 +84,23 @@
     text: "大黄"
     translated: "Big Yellow"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（300）\\n增伤（10倍御兽）\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 300\\nIncreased Damage (10 times Beast Taming)\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（300）"
+    translated: "Attack 300"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍御兽）"
+    translated: "Increased Damage (10 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"包子\",\r\n    \"ItemName\": \"包子\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（300）\\\\n增伤（10倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"包子\",\r\n    \"ItemNameTw\": \"包子\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（300）\\\\n增傷（10倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 6
   splits:
@@ -80,8 +111,23 @@
     text: "包子"
     translated: "Steamed bun"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（300）\\n增伤（10倍御兽）\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 300\\nIncreased Damage (10 times Beast Taming)\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（300）"
+    translated: "Attack 300"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍御兽）"
+    translated: "Increased Damage (10 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"旺财\",\r\n    \"ItemName\": \"旺财\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（300）\\\\n增伤（10倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"旺財\",\r\n    \"ItemNameTw\": \"旺財\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（300）\\\\n增傷（10倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 7
   splits:
@@ -92,8 +138,23 @@
     text: "旺财"
     translated: "Fortune"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（300）\\n增伤（10倍御兽）\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 300\\nIncreased Damage (10 times Beast Taming)\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（300）"
+    translated: "Attack 300"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍御兽）"
+    translated: "Increased Damage (10 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"8\",\r\n    \"Name\": \"渔樵剑歌\",\r\n    \"ItemName\": \"渔樵剑歌\",\r\n    \"Desc\": \"攻击+50%\",\r\n    \"NameTw\": \"漁樵劍歌\",\r\n    \"ItemNameTw\": \"漁樵劍歌\",\r\n    \"DescTw\": \"攻擊+50%\"\r\n  }"
   rawIndex: 8
   splits:
@@ -104,8 +165,11 @@
     text: "渔樵剑歌"
     translated: "Fisherman's Sword Song"
   - splitPath: Desc
-    text: "攻击+50%"
-    translated: "Attack +50%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+50%"
 - raw: "{\r\n    \"Key\": \"9\",\r\n    \"Name\": \"衡山心法\",\r\n    \"ItemName\": \"衡山心法（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"衡山心法\",\r\n    \"ItemNameTw\": \"衡山心法（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 9
   splits:
@@ -113,11 +177,16 @@
     text: "衡山心法"
     translated: "Heart Method"
   - splitPath: ItemName
-    text: "衡山心法（{0}/{1}）"
-    translated: "Heart Method ({0}/{1})"
+    text: "衡山心法"
+    translated: "Heart Method"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"10\",\r\n    \"Name\": \"雁云功\",\r\n    \"ItemName\": \"雁云功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"雁雲功\",\r\n    \"ItemNameTw\": \"雁雲功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 10
   splits:
@@ -125,11 +194,16 @@
     text: "雁云功"
     translated: "Feiyun Skill"
   - splitPath: ItemName
-    text: "雁云功（{0}/{1}）"
-    translated: "Feiyun Skill ({0}/{1})"
+    text: "雁云功"
+    translated: "Feiyun Skill"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Name\": \"闪避\",\r\n    \"ItemName\": \"闪避（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"閃避\",\r\n    \"ItemNameTw\": \"閃避（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 11
   splits:
@@ -137,11 +211,14 @@
     text: "闪避"
     translated: "Dodge"
   - splitPath: ItemName
-    text: "闪避（{0}/{1}）"
-    translated: "Dodge ({0}/{1})"
+    text: "闪避"
+    translated: "Dodge"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"13\",\r\n    \"Name\": \"碧鳞蛇\",\r\n    \"ItemName\": \"碧鳞青蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（800）\\\\n增伤（12倍御兽）\\\\n中毒<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"碧鱗蛇\",\r\n    \"ItemNameTw\": \"碧鱗青蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（800）\\\\n增傷（12倍御獸）\\\\n中毒<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 13
   splits:
@@ -152,8 +229,27 @@
     text: "碧鳞青蛇"
     translated: "Green‑Scaled Silver Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（800）\\n增伤（12倍御兽）\\n中毒<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 800\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <30%>\\n70% activate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（800）"
+    translated: "Attack 800"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"仗势诀\",\r\n    \"ItemName\": \"仗势诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"仗勢訣\",\r\n    \"ItemNameTw\": \"仗勢訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 14
   splits:
@@ -161,11 +257,16 @@
     text: "仗势诀"
     translated: "Powerplay Technique"
   - splitPath: ItemName
-    text: "仗势诀（{0}/{1}）"
-    translated: "Using Power Technique ({0}/{1})"
+    text: "仗势诀"
+    translated: "Powerplay Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"15\",\r\n    \"Name\": \"潇湘诀\",\r\n    \"ItemName\": \"潇湘诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"瀟湘訣\",\r\n    \"ItemNameTw\": \"瀟湘訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 15
   splits:
@@ -173,11 +274,16 @@
     text: "潇湘诀"
     translated: "Xiangxi Formula"
   - splitPath: ItemName
-    text: "潇湘诀（{0}/{1}）"
-    translated: "Xiangxi Skill ({0}/{1})"
+    text: "潇湘诀"
+    translated: "Xiangxi Formula"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"16\",\r\n    \"Name\": \"阿罗汉功\",\r\n    \"ItemName\": \"阿罗汉功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"阿羅漢功\",\r\n    \"ItemNameTw\": \"阿羅漢功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 16
   splits:
@@ -185,11 +291,16 @@
     text: "阿罗汉功"
     translated: "Arhat Skill"
   - splitPath: ItemName
-    text: "阿罗汉功（{0}/{1}）"
-    translated: "Arhat Skill ({0}/{1})"
+    text: "阿罗汉功"
+    translated: "Arhat Skill"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"17\",\r\n    \"Name\": \"入魔心法\",\r\n    \"ItemName\": \"入魔心法\",\r\n    \"Desc\": \"攻击+20%\",\r\n    \"NameTw\": \"入魔心法\",\r\n    \"ItemNameTw\": \"入魔心法\",\r\n    \"DescTw\": \"攻擊+20%\"\r\n  }"
   rawIndex: 17
   splits:
@@ -200,8 +311,11 @@
     text: "入魔心法"
     translated: "Heart Method of Evil Path"
   - splitPath: Desc
-    text: "攻击+20%"
-    translated: "Attack +20%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+20%"
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Name\": \"衡山心法\",\r\n    \"ItemName\": \"衡山心法（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"衡山心法\",\r\n    \"ItemNameTw\": \"衡山心法（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 18
   splits:
@@ -209,11 +323,16 @@
     text: "衡山心法"
     translated: "Heart Method"
   - splitPath: ItemName
-    text: "衡山心法（{0}/{1}）"
-    translated: "Heart Method ({0}/{1})"
+    text: "衡山心法"
+    translated: "Heart Method"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"19\",\r\n    \"Name\": \"娄家寨众\",\r\n    \"ItemName\": \"娄家寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"婁家寨眾\",\r\n    \"ItemNameTw\": \"婁家寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 19
   splits:
@@ -245,11 +364,16 @@
     text: "天魔功"
     translated: "Devil Magic Technique"
   - splitPath: ItemName
-    text: "天魔功（{0}/{1}）"
-    translated: "Devil Magic Technique ({0}/{1})"
+    text: "天魔功"
+    translated: "Devil Magic Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"25\",\r\n    \"Name\": \"地魔功\",\r\n    \"ItemName\": \"地魔功（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"地魔功\",\r\n    \"ItemNameTw\": \"地魔功（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 25
   splits:
@@ -257,11 +381,16 @@
     text: "地魔功"
     translated: "Demon Magic Technique"
   - splitPath: ItemName
-    text: "地魔功（{0}/{1}）"
-    translated: "Asura Technique ({0}/{1})"
+    text: "地魔功"
+    translated: "Demon Magic Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"护卫\",\r\n    \"ItemName\": \"护卫（{0}/{1}）\",\r\n    \"Desc\": \"防御+20%\",\r\n    \"NameTw\": \"護衛\",\r\n    \"ItemNameTw\": \"護衛（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+20%\"\r\n  }"
   rawIndex: 26
   splits:
@@ -269,11 +398,16 @@
     text: "护卫"
     translated: "Guard"
   - splitPath: ItemName
-    text: "护卫（{0}/{1}）"
-    translated: "Guard (Guard {0}/{1})"
+    text: "护卫"
+    translated: "Guard"
   - splitPath: Desc
-    text: "防御+20%"
-    translated: "Defense +20%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+20%"
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"王府护卫\",\r\n    \"ItemName\": \"王府护卫\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"王府護衛\",\r\n    \"ItemNameTw\": \"王府護衛\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 27
   splits:
@@ -317,11 +451,16 @@
     text: "炼石奇功"
     translated: "Asura Skill of Stone Welding"
   - splitPath: ItemName
-    text: "炼石奇功（{0}/{1}）"
-    translated: "Heavenly Stone Skill ({0}/{1})"
+    text: "炼石奇功"
+    translated: "Asura Skill of Stone Welding"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"一朝入魔半世癫\",\r\n    \"ItemName\": \"一朝入魔半世癫（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"一朝入魔半世癲\",\r\n    \"ItemNameTw\": \"一朝入魔半世癲（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 31
   splits:
@@ -329,11 +468,16 @@
     text: "一朝入魔半世癫"
     translated: "Once tainted by evil, one's life is forever plagued by madness."
   - splitPath: ItemName
-    text: "一朝入魔半世癫（{0}/{1}）"
-    translated: "Once tainted by evil, one's life is forever plagued by madness ({{0}}/{{1}})"
+    text: "一朝入魔半世癫"
+    translated: "Once tainted by evil, one's life is forever plagued by madness."
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"32\",\r\n    \"Name\": \"九流奇功\",\r\n    \"ItemName\": \"九流奇功\",\r\n    \"Desc\": \"归元-1<50%>\",\r\n    \"NameTw\": \"九流奇功\",\r\n    \"ItemNameTw\": \"九流奇功\",\r\n    \"DescTw\": \"歸元-1<50%>\"\r\n  }"
   rawIndex: 32
   splits:
@@ -344,8 +488,11 @@
     text: "九流奇功"
     translated: "Nine Schools of Strange Martial Arts"
   - splitPath: Desc
-    text: "归元-1<50%>"
-    translated: "Return to the original ‑1<50%>"
+    text: "归元"
+    translated: "Origin"
+  templates:
+  - splitPath: Desc
+    template: "{0}-1<50%>"
 - raw: "{\r\n    \"Key\": \"33\",\r\n    \"Name\": \"桃花合欢尘\",\r\n    \"ItemName\": \"桃花合欢尘（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"桃花合歡塵\",\r\n    \"ItemNameTw\": \"桃花合歡塵（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 33
   splits:
@@ -353,11 +500,14 @@
     text: "桃花合欢尘"
     translated: "Peach Blossom Joy Dust"
   - splitPath: ItemName
-    text: "桃花合欢尘（{0}/{1}）"
-    translated: "Crimson Peach Blossom Dust ({0}/{1})"
+    text: "桃花合欢尘"
+    translated: "Peach Blossom Joy Dust"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"34\",\r\n    \"Name\": \"力拔山兮气盖世\",\r\n    \"ItemName\": \"力拔山兮气盖世\",\r\n    \"Desc\": \"攻击+100%\",\r\n    \"NameTw\": \"力拔山兮氣蓋世\",\r\n    \"ItemNameTw\": \"力拔山兮氣蓋世\",\r\n    \"DescTw\": \"攻擊+100%\"\r\n  }"
   rawIndex: 34
   splits:
@@ -368,8 +518,11 @@
     text: "力拔山兮气盖世"
     translated: "My strength tears down mountains; my spirit dominates the world."
   - splitPath: Desc
-    text: "攻击+100%"
-    translated: "Attack +100%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+100%"
 - raw: "{\r\n    \"Key\": \"35\",\r\n    \"Name\": \"养性延命功\",\r\n    \"ItemName\": \"养性延命功（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"養性延命功\",\r\n    \"ItemNameTw\": \"養性延命功（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 35
   splits:
@@ -377,11 +530,16 @@
     text: "养性延命功"
     translated: "Nourish Nature Extend Life Technique"
   - splitPath: ItemName
-    text: "养性延命功（{0}/{1}）"
-    translated: "Nourish Nature and Prolong Life Skill (Level {0}/Level {1})"
+    text: "养性延命功"
+    translated: "Nourish Nature Extend Life Technique"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
     translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"36\",\r\n    \"Name\": \"修身诀\",\r\n    \"ItemName\": \"修身诀（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"修身訣\",\r\n    \"ItemNameTw\": \"修身訣（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 36
   splits:
@@ -389,11 +547,16 @@
     text: "修身诀"
     translated: "Nurturing Virtue Technique"
   - splitPath: ItemName
-    text: "修身诀（{0}/{1}）"
-    translated: "Path of Cultivation ({0}/{1})"
+    text: "修身诀"
+    translated: "Nurturing Virtue Technique"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"37\",\r\n    \"Name\": \"破釜奇功\",\r\n    \"ItemName\": \"破釜奇功（{0}/{1}）\",\r\n    \"Desc\": \"攻击+80%\",\r\n    \"NameTw\": \"破釜奇功\",\r\n    \"ItemNameTw\": \"破釜奇功（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+80%\"\r\n  }"
   rawIndex: 37
   splits:
@@ -401,11 +564,16 @@
     text: "破釜奇功"
     translated: "Unmatched Force Technique"
   - splitPath: ItemName
-    text: "破釜奇功（{0}/{1}）"
-    translated: "Broken Cauldron Strange Skill ({0}/{1})"
+    text: "破釜奇功"
+    translated: "Unmatched Force Technique"
   - splitPath: Desc
-    text: "攻击+80%"
-    translated: "Attack +80%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+80%"
 - raw: "{\r\n    \"Key\": \"38\",\r\n    \"Name\": \"归刀养势术\",\r\n    \"ItemName\": \"归刀养势术（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"歸刀養勢術\",\r\n    \"ItemNameTw\": \"歸刀養勢術（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 38
   splits:
@@ -413,11 +581,16 @@
     text: "归刀养势术"
     translated: "Return Blade and Cultivate Power Technique"
   - splitPath: ItemName
-    text: "归刀养势术（{0}/{1}）"
-    translated: "Return Blade and Cultivate Power Technique ({0}/{1})"
+    text: "归刀养势术"
+    translated: "Return Blade and Cultivate Power Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"39\",\r\n    \"Name\": \"幽篁诀\",\r\n    \"ItemName\": \"幽篁诀（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"幽篁訣\",\r\n    \"ItemNameTw\": \"幽篁訣（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 39
   splits:
@@ -425,11 +598,16 @@
     text: "幽篁诀"
     translated: "Secluded Bamboo Formula"
   - splitPath: ItemName
-    text: "幽篁诀（{0}/{1}）"
-    translated: "Secluded Bamboo Formula ({0}/{1})"
+    text: "幽篁诀"
+    translated: "Secluded Bamboo Formula"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"40\",\r\n    \"Name\": \"余处幽篁不见天\",\r\n    \"ItemName\": \"余处幽篁不见天（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"餘處幽篁不見天\",\r\n    \"ItemNameTw\": \"餘處幽篁不見天（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 40
   splits:
@@ -437,11 +615,14 @@
     text: "余处幽篁不见天"
     translated: "I am in a bamboo grove where I cannot see the sky."
   - splitPath: ItemName
-    text: "余处幽篁不见天（{0}/{1}）"
-    translated: "I am in a secluded bamboo grove where I can't see the sky ({0}/{1})"
+    text: "余处幽篁不见天"
+    translated: "I am in a bamboo grove where I cannot see the sky."
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"41\",\r\n    \"Name\": \"桃花合欢尘\",\r\n    \"ItemName\": \"桃花合欢尘（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"桃花合歡塵\",\r\n    \"ItemNameTw\": \"桃花合歡塵（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 41
   splits:
@@ -449,11 +630,16 @@
     text: "桃花合欢尘"
     translated: "Peach Blossom Joy Dust"
   - splitPath: ItemName
-    text: "桃花合欢尘（{0}/{1}）"
-    translated: "Crimson Peach Blossom Dust ({0}/{1})"
+    text: "桃花合欢尘"
+    translated: "Peach Blossom Joy Dust"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"42\",\r\n    \"Name\": \"鹤冲宵\",\r\n    \"ItemName\": \"鹤冲宵（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"鶴衝宵\",\r\n    \"ItemNameTw\": \"鶴衝宵（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 42
   splits:
@@ -461,11 +647,14 @@
     text: "鹤冲宵"
     translated: "Eaglet Pierces the Sky"
   - splitPath: ItemName
-    text: "鹤冲宵（{0}/{1}）"
-    translated: "Eagle Soars to the Heavenly Summit ({0}/{1})"
+    text: "鹤冲宵"
+    translated: "Eaglet Pierces the Sky"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"43\",\r\n    \"Name\": \"三尺异蛇\",\r\n    \"ItemName\": \"三尺异蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（500）\\\\n增伤（6倍御兽）\\\\n中毒<20%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"三尺異蛇\",\r\n    \"ItemNameTw\": \"三尺異蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（500）\\\\n增傷（6倍御獸）\\\\n中毒<20%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 43
   splits:
@@ -476,8 +665,27 @@
     text: "三尺异蛇"
     translated: "Three‑footed strange snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（500）\\n增伤（6倍御兽）\\n中毒<20%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 500\\nIncreased Damage (x6 Beast Taming)\\nPoisoned <20%>\\n70% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（500）"
+    translated: "Attack 500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（6倍御兽）"
+    translated: "Increased Damage (by 6 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<20%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"44\",\r\n    \"Name\": \"五尺异蛇\",\r\n    \"ItemName\": \"五尺异蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n增伤（10倍御兽）\\\\n中毒<25%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"五尺異蛇\",\r\n    \"ItemNameTw\": \"五尺異蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n增傷（10倍御獸）\\\\n中毒<25%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 44
   splits:
@@ -488,8 +696,27 @@
     text: "五尺异蛇"
     translated: "Five‑foot‑long strange snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n增伤（10倍御兽）\\n中毒<25%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nIncreased Damage (x10 Beast Taming)\\nPoisoned <25%>\\n70% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍御兽）"
+    translated: "Increased Damage (10 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<25%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"45\",\r\n    \"Name\": \"七尺异蛇\",\r\n    \"ItemName\": \"七尺异蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1500）\\\\n增伤（14倍御兽）\\\\n中毒<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"七尺異蛇\",\r\n    \"ItemNameTw\": \"七尺異蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1500）\\\\n增傷（14倍御獸）\\\\n中毒<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 45
   splits:
@@ -500,8 +727,27 @@
     text: "七尺异蛇"
     translated: "Seven‑foot‑long strange snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1500）\\n增伤（14倍御兽）\\n中毒<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 1500\\nIncreased Damage (14 times Beast Taming)\\nPoisoned<30%>\\n70% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1500）"
+    translated: "Attack 1500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（14倍御兽）"
+    translated: "Increased Damage (x14 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"46\",\r\n    \"Name\": \"异蛇王\",\r\n    \"ItemName\": \"异蛇王\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（3000）\\\\n增伤（21倍御兽）\\\\n中毒<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"異蛇王\",\r\n    \"ItemNameTw\": \"異蛇王\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（3000）\\\\n增傷（21倍御獸）\\\\n中毒<40%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 46
   splits:
@@ -512,8 +758,27 @@
     text: "异蛇王"
     translated: "Strange Snake King"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（3000）\\n增伤（21倍御兽）\\n中毒<40%>\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 3000\\nIncreased Damage (x21 Beast Taming)\\nPoisoned <40%>\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（3000）"
+    translated: "Attack(3000)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（21倍御兽）"
+    translated: "Increased Damage (x21 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<40%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"47\",\r\n    \"Name\": \"福禄安康\",\r\n    \"ItemName\": \"福禄安康（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"福祿安康\",\r\n    \"ItemNameTw\": \"福祿安康（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 47
   splits:
@@ -521,11 +786,16 @@
     text: "福禄安康"
     translated: "Prosperity, Health, and Happiness"
   - splitPath: ItemName
-    text: "福禄安康（{0}/{1}）"
-    translated: "Prosperity, Health, and Happiness ({0}/{1})"
+    text: "福禄安康"
+    translated: "Prosperity, Health, and Happiness"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"48\",\r\n    \"Name\": \"碧鳞蛇\",\r\n    \"ItemName\": \"碧鳞蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（800）\\\\n增伤（12倍御兽）\\\\n中毒<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"碧鱗蛇\",\r\n    \"ItemNameTw\": \"碧鱗蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（800）\\\\n增傷（12倍御獸）\\\\n中毒<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 48
   splits:
@@ -536,8 +806,27 @@
     text: "碧鳞蛇"
     translated: "Silver‑Scaled Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（800）\\n增伤（12倍御兽）\\n中毒<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 800\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <30%>\\n70% activate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（800）"
+    translated: "Attack 800"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"49\",\r\n    \"Name\": \"赤鳞蛇\",\r\n    \"ItemName\": \"赤鳞蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（800）\\\\n增伤（12倍御兽）\\\\n中毒<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"赤鱗蛇\",\r\n    \"ItemNameTw\": \"赤鱗蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（800）\\\\n增傷（12倍御獸）\\\\n中毒<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 49
   splits:
@@ -548,8 +837,27 @@
     text: "赤鳞蛇"
     translated: "Red‑Scaled Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（800）\\n增伤（12倍御兽）\\n中毒<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 800\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <30%>\\n70% activate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（800）"
+    translated: "Attack 800"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"50\",\r\n    \"Name\": \"金鳞蛇\",\r\n    \"ItemName\": \"金鳞蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（800）\\\\n增伤（12倍御兽）\\\\n中毒<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"金鱗蛇\",\r\n    \"ItemNameTw\": \"金鱗蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（800）\\\\n增傷（12倍御獸）\\\\n中毒<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 50
   splits:
@@ -560,8 +868,27 @@
     text: "金鳞蛇"
     translated: "Golden‑Scaled Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（800）\\n增伤（12倍御兽）\\n中毒<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 800\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <30%>\\n70% activate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（800）"
+    translated: "Attack 800"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"51\",\r\n    \"Name\": \"碧尘五毒烟罗瘴\",\r\n    \"ItemName\": \"碧尘五毒烟罗瘴（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"碧塵五毒煙羅瘴\",\r\n    \"ItemNameTw\": \"碧塵五毒煙羅瘴（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 51
   splits:
@@ -569,11 +896,14 @@
     text: "碧尘五毒烟罗瘴"
     translated: "Five Poison Smoke Screen of Verdant Dust"
   - splitPath: ItemName
-    text: "碧尘五毒烟罗瘴（{0}/{1}）"
-    translated: "Poisonous Smoke Screen of the Five Toxins ({0}/{1})"
+    text: "碧尘五毒烟罗瘴"
+    translated: "Five Poison Smoke Screen of Verdant Dust"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"52\",\r\n    \"Name\": \"五毒烟罗瘴\",\r\n    \"ItemName\": \"五毒烟罗瘴（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"五毒煙羅瘴\",\r\n    \"ItemNameTw\": \"五毒煙羅瘴（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 52
   splits:
@@ -581,11 +911,14 @@
     text: "五毒烟罗瘴"
     translated: "Asura Smoke Fog"
   - splitPath: ItemName
-    text: "五毒烟罗瘴（{0}/{1}）"
-    translated: "Five Toxic Smoke Fog ({0}/{1})"
+    text: "五毒烟罗瘴"
+    translated: "Asura Smoke Fog"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"53\",\r\n    \"Name\": \"白发渔樵诸事懒\",\r\n    \"ItemName\": \"白发渔樵诸事懒（{0}/{1}）\",\r\n    \"Desc\": \"回春（3000）\",\r\n    \"NameTw\": \"白髮漁樵諸事懶\",\r\n    \"ItemNameTw\": \"白髮漁樵諸事懶（{0}/{1}）\",\r\n    \"DescTw\": \"回春（3000）\"\r\n  }"
   rawIndex: 53
   splits:
@@ -593,11 +926,14 @@
     text: "白发渔樵诸事懒"
     translated: "White‑haired fisherman indifferent to worldly affairs"
   - splitPath: ItemName
-    text: "白发渔樵诸事懒（{0}/{1}）"
-    translated: "Gray‑haired fisherman and woodcutter indifferent to worldly affairs ({0}/{1})"
+    text: "白发渔樵诸事懒"
+    translated: "White‑haired fisherman indifferent to worldly affairs"
   - splitPath: Desc
     text: "回春（3000）"
     translated: "Rejuvenate(3000)"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"54\",\r\n    \"Name\": \"玉髓铸成仙人骨\",\r\n    \"ItemName\": \"玉髓铸成仙人骨（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"玉髓鑄成仙人骨\",\r\n    \"ItemNameTw\": \"玉髓鑄成仙人骨（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 54
   splits:
@@ -605,11 +941,16 @@
     text: "玉髓铸成仙人骨"
     translated: "Agate forged into immortal bone"
   - splitPath: ItemName
-    text: "玉髓铸成仙人骨（{0}/{1}）"
-    translated: "Jade essence forged into a immortal's bone ({0}/{1})"
+    text: "玉髓铸成仙人骨"
+    translated: "Agate forged into immortal bone"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"55\",\r\n    \"Name\": \"减伤\",\r\n    \"ItemName\": \"减少伤害\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"減傷\",\r\n    \"ItemNameTw\": \"減少傷害\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 55
   splits:
@@ -620,8 +961,15 @@
     text: "减少伤害"
     translated: "Reduce damage"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"56\",\r\n    \"Name\": \"反伤\",\r\n    \"ItemName\": \"反弹伤害（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"反傷\",\r\n    \"ItemNameTw\": \"反彈傷害（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 56
   splits:
@@ -629,11 +977,16 @@
     text: "反伤"
     translated: "Reverse damage"
   - splitPath: ItemName
-    text: "反弹伤害（{0}/{1}）"
-    translated: "Rebound Damage ({0}/{1})"
-  - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  - splitPath: Desc
+    text: "反弹伤害"
+    translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"57\",\r\n    \"Name\": \"混世奇功\",\r\n    \"ItemName\": \"混世奇功（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"混世奇功\",\r\n    \"ItemNameTw\": \"混世奇功（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 57
   splits:
@@ -641,11 +994,16 @@
     text: "混世奇功"
     translated: "World‑Shocking Skill"
   - splitPath: ItemName
-    text: "混世奇功（{0}/{1}）"
-    translated: "Mixed World Wonder Skill ({0}/{1})"
+    text: "混世奇功"
+    translated: "World‑Shocking Skill"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"58\",\r\n    \"Name\": \"黑护法\",\r\n    \"ItemName\": \"黑护法\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（500）\\\\n增伤（6倍御兽）\\\\n轻伤<20%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"黑護法\",\r\n    \"ItemNameTw\": \"黑護法\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（500）\\\\n增傷（6倍御獸）\\\\n輕傷<20%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 58
   splits:
@@ -656,8 +1014,27 @@
     text: "黑护法"
     translated: "Black Dharma Protector"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（500）\\n增伤（6倍御兽）\\n轻伤<20%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 500\\nIncreased Damage (6 times Beast Taming)\\nLight wound <20%>\\n70% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（500）"
+    translated: "Attack 500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（6倍御兽）"
+    translated: "Increased Damage (by 6 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "轻伤"
+    translated: "Minor injury"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<20%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"59\",\r\n    \"Name\": \"白护法\",\r\n    \"ItemName\": \"白护法\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（500）\\\\n增伤（6倍御兽）\\\\n禁疗<30%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"白護法\",\r\n    \"ItemNameTw\": \"白護法\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（500）\\\\n增傷（6倍御獸）\\\\n禁療<30%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 59
   splits:
@@ -668,8 +1045,27 @@
     text: "白护法"
     translated: "White Guardian"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（500）\\n增伤（6倍御兽）\\n禁疗<30%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 500\\nIncreased Damage (6 Times Beast Taming)\\nNo Healing<30%>\\n70% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（500）"
+    translated: "Attack 500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（6倍御兽）"
+    translated: "Increased Damage (by 6 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "禁疗"
+    translated: "No healing"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"60\",\r\n    \"Name\": \"野猪王\",\r\n    \"ItemName\": \"野猪王\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（5000）\\\\n增伤（30倍御兽）\\\\n60%发动攻击\",\r\n    \"NameTw\": \"野豬王\",\r\n    \"ItemNameTw\": \"野豬王\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（5000）\\\\n增傷（30倍御獸）\\\\n60%發動攻擊\"\r\n  }"
   rawIndex: 60
   splits:
@@ -680,8 +1076,23 @@
     text: "野猪王"
     translated: "Wild Boar King"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（5000）\\n增伤（30倍御兽）\\n60%发动攻击"
-    translated: "【Pet】 \\nAttack 5000\\nIncreased Damage (30 Times Beast Taming)\\n60% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（5000）"
+    translated: "Attack 5000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（30倍御兽）"
+    translated: "Increased Damage (30 times Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "60%发动攻击"
+    translated: "60% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"61\",\r\n    \"Name\": \"离恨功\",\r\n    \"ItemName\": \"离恨功（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"離恨功\",\r\n    \"ItemNameTw\": \"離恨功（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 61
   splits:
@@ -689,11 +1100,16 @@
     text: "离恨功"
     translated: "Emptiness Hatred Technique"
   - splitPath: ItemName
-    text: "离恨功（{0}/{1}）"
-    translated: "Wrath Technique ({0}/{1})"
+    text: "离恨功"
+    translated: "Emptiness Hatred Technique"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"62\",\r\n    \"Name\": \"苦寒诀\",\r\n    \"ItemName\": \"苦寒诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"苦寒訣\",\r\n    \"ItemNameTw\": \"苦寒訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 62
   splits:
@@ -701,11 +1117,16 @@
     text: "苦寒诀"
     translated: "Cold Pain Technique"
   - splitPath: ItemName
-    text: "苦寒诀（{0}/{1}）"
-    translated: "Cold Pain Technique ({0}/{1})"
+    text: "苦寒诀"
+    translated: "Cold Pain Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"63\",\r\n    \"Name\": \"祥瑞之兆\",\r\n    \"ItemName\": \"祥瑞之兆（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"祥瑞之兆\",\r\n    \"ItemNameTw\": \"祥瑞之兆（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 63
   splits:
@@ -713,11 +1134,14 @@
     text: "祥瑞之兆"
     translated: "Omen of good fortune"
   - splitPath: ItemName
-    text: "祥瑞之兆（{0}/{1}）"
-    translated: "Omen of good fortune ({0}/{1})"
+    text: "祥瑞之兆"
+    translated: "Omen of good fortune"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"64\",\r\n    \"Name\": \"金刚诀\",\r\n    \"ItemName\": \"金刚诀（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"金剛訣\",\r\n    \"ItemNameTw\": \"金剛訣（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 64
   splits:
@@ -725,11 +1149,20 @@
     text: "金刚诀"
     translated: "Hard Technique"
   - splitPath: ItemName
-    text: "金刚诀（{0}/{1}）"
-    translated: "Hard Technique ({0}/{1})"
+    text: "金刚诀"
+    translated: "Hard Technique"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"65\",\r\n    \"Name\": \"诚意诀\",\r\n    \"ItemName\": \"诚意诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"誠意訣\",\r\n    \"ItemNameTw\": \"誠意訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 65
   splits:
@@ -737,11 +1170,16 @@
     text: "诚意诀"
     translated: "Intent Resolve"
   - splitPath: ItemName
-    text: "诚意诀（{0}/{1}）"
-    translated: "Intent Technique ({0}/{1})"
+    text: "诚意诀"
+    translated: "Intent Resolve"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"66\",\r\n    \"Name\": \"无相魔功\",\r\n    \"ItemName\": \"无相魔功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"無相魔功\",\r\n    \"ItemNameTw\": \"無相魔功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 66
   splits:
@@ -749,11 +1187,16 @@
     text: "无相魔功"
     translated: "Formless Devil Skill"
   - splitPath: ItemName
-    text: "无相魔功（{0}/{1}）"
-    translated: "Formless Evil Skill({0}/{1})"
+    text: "无相魔功"
+    translated: "Formless Devil Skill"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"67\",\r\n    \"Name\": \"众生有相魔无相\",\r\n    \"ItemName\": \"众生有相魔无相（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"眾生有相魔無相\",\r\n    \"ItemNameTw\": \"眾生有相魔無相（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 67
   splits:
@@ -761,11 +1204,16 @@
     text: "众生有相魔无相"
     translated: "All have form; evil has none"
   - splitPath: ItemName
-    text: "众生有相魔无相（{0}/{1}）"
-    translated: "Beings have form while demons have none ({0}/{1})"
+    text: "众生有相魔无相"
+    translated: "All have form; evil has none"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"68\",\r\n    \"Name\": \"阴劲\",\r\n    \"ItemName\": \"阴劲（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"陰勁\",\r\n    \"ItemNameTw\": \"陰勁（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 68
   splits:
@@ -773,11 +1221,16 @@
     text: "阴劲"
     translated: "Yin strength"
   - splitPath: ItemName
-    text: "阴劲（{0}/{1}）"
-    translated: "Yin Jin ({0}/{1})"
+    text: "阴劲"
+    translated: "Yin strength"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"69\",\r\n    \"Name\": \"阳劲\",\r\n    \"ItemName\": \"阳劲（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"陽勁\",\r\n    \"ItemNameTw\": \"陽勁（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 69
   splits:
@@ -785,11 +1238,16 @@
     text: "阳劲"
     translated: "Yang strength"
   - splitPath: ItemName
-    text: "阳劲（{0}/{1}）"
-    translated: "Yang Force ({0}/{1})"
+    text: "阳劲"
+    translated: "Yang strength"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"70\",\r\n    \"Name\": \"武当心法\",\r\n    \"ItemName\": \"武当心法（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"武當心法\",\r\n    \"ItemNameTw\": \"武當心法（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 70
   splits:
@@ -797,11 +1255,16 @@
     text: "武当心法"
     translated: "Heart Method of Wudang"
   - splitPath: ItemName
-    text: "武当心法（{0}/{1}）"
-    translated: "Wudang Heart Method ({0}/{1})"
+    text: "武当心法"
+    translated: "Heart Method of Wudang"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"71\",\r\n    \"Name\": \"太极神功\",\r\n    \"ItemName\": \"太极神功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"太極神功\",\r\n    \"ItemNameTw\": \"太極神功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 71
   splits:
@@ -809,11 +1272,16 @@
     text: "太极神功"
     translated: "Tai Chi Divine Skill"
   - splitPath: ItemName
-    text: "太极神功（{0}/{1}）"
-    translated: "Taiji Divine Skill ({0}/{1})"
+    text: "太极神功"
+    translated: "Tai Chi Divine Skill"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"72\",\r\n    \"Name\": \"上天梯\",\r\n    \"ItemName\": \"上天梯（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"上天梯\",\r\n    \"ItemNameTw\": \"上天梯（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 72
   splits:
@@ -821,11 +1289,14 @@
     text: "上天梯"
     translated: "Heavenly Ladder"
   - splitPath: ItemName
-    text: "上天梯（{0}/{1}）"
-    translated: "Heaven Ladder ({0}/{1})"
+    text: "上天梯"
+    translated: "Heavenly Ladder"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"73\",\r\n    \"Name\": \"火莲宫灯\",\r\n    \"ItemName\": \"火莲宫灯\",\r\n    \"Desc\": \"【幻术道具】\\\\n攻击（1000）\\\\n增伤（28倍幻术）\\\\n失神<28%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"火蓮宮燈\",\r\n    \"ItemNameTw\": \"火蓮宮燈\",\r\n    \"DescTw\": \"【幻術道具】\\\\n攻擊（1000）\\\\n增傷（28倍幻術）\\\\n失神<28%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 73
   splits:
@@ -836,8 +1307,27 @@
     text: "火莲宫灯"
     translated: "Flame Lotus Temple Lantern"
   - splitPath: Desc
-    text: "【幻术道具】\\n攻击（1000）\\n增伤（28倍幻术）\\n失神<28%>\\n100%发动攻击"
-    translated: "【Illusion tool】 \\nAttack 1000\\nIncreased Damage (28x Illusion)\\nTrance <28%>\\n100% initiate attack"
+    text: "【幻术道具】"
+    translated: "【Illusion tool】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（28倍幻术）"
+    translated: "Increased Damage (x28 Illusion)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "失神"
+    translated: "Trance"
+  - splitPath: Desc
+    subIndex: 4
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<28%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"74\",\r\n    \"Name\": \"如意财钱\",\r\n    \"ItemName\": \"如意财钱\",\r\n    \"Desc\": \"【幻术道具】\\\\n强化1\\\\n100%发动强化\",\r\n    \"NameTw\": \"如意財錢\",\r\n    \"ItemNameTw\": \"如意財錢\",\r\n    \"DescTw\": \"【幻術道具】\\\\n強化1\\\\n100%發動強化\"\r\n  }"
   rawIndex: 74
   splits:
@@ -848,8 +1338,19 @@
     text: "如意财钱"
     translated: "Desired Money"
   - splitPath: Desc
-    text: "【幻术道具】\\n强化1\\n100%发动强化"
-    translated: "【Illusion tool】 \\nStrengthen 1\\n100% activate enhancement"
+    text: "【幻术道具】"
+    translated: "【Illusion tool】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "强化1"
+    translated: "Strengthen 1<100%>"
+  - splitPath: Desc
+    subIndex: 2
+    text: "100%发动强化"
+    translated: "100 has been incorrectly removed from the translation. Alternatives were provided when none should be given."
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"75\",\r\n    \"Name\": \"瑶池仙桃\",\r\n    \"ItemName\": \"瑶池仙桃\",\r\n    \"Desc\": \"【幻术道具】\\\\n回春（3000）\\\\n增幅（10倍幻术）\\\\n100%发动回春\",\r\n    \"NameTw\": \"瑤池仙桃\",\r\n    \"ItemNameTw\": \"瑤池仙桃\",\r\n    \"DescTw\": \"【幻術道具】\\\\n回春（3000）\\\\n增幅（10倍幻術）\\\\n100%發動回春\"\r\n  }"
   rawIndex: 75
   splits:
@@ -860,8 +1361,23 @@
     text: "瑶池仙桃"
     translated: "Heavenly Peach of the Jade Pool"
   - splitPath: Desc
-    text: "【幻术道具】\\n回春（3000）\\n增幅（10倍幻术）\\n100%发动回春"
-    translated: "【Illusion tool】 \\nRevive 3000\\nEnhanced (×10 Illusion)\\n100% activate Revival Skill"
+    text: "【幻术道具】"
+    translated: "【Illusion tool】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "回春（3000）"
+    translated: "Rejuvenate(3000)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增幅（10倍幻术）"
+    translated: "Amplify (10 times illusion)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动回春"
+    translated: "100% activate Revitalizing Pulse"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"76\",\r\n    \"Name\": \"蛮牛劲\",\r\n    \"ItemName\": \"蛮牛劲（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"蠻牛勁\",\r\n    \"ItemNameTw\": \"蠻牛勁（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 76
   splits:
@@ -869,11 +1385,16 @@
     text: "蛮牛劲"
     translated: "Raging Bull Strength"
   - splitPath: ItemName
-    text: "蛮牛劲（{0}/{1}）"
-    translated: "Brawn of {0}/{1}"
+    text: "蛮牛劲"
+    translated: "Raging Bull Strength"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"77\",\r\n    \"Name\": \"卦.大吉\",\r\n    \"ItemName\": \"卦.大吉（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"卦.大吉\",\r\n    \"ItemNameTw\": \"卦.大吉（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 77
   splits:
@@ -881,11 +1402,14 @@
     text: "卦.大吉"
     translated: "Oracle. Great Fortune"
   - splitPath: ItemName
-    text: "卦.大吉（{0}/{1}）"
-    translated: "Divination. Great Fortune ({0}/{1})"
+    text: "卦.大吉"
+    translated: "Oracle. Great Fortune"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"78\",\r\n    \"Name\": \"卦.吉\",\r\n    \"ItemName\": \"卦.吉（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"卦.吉\",\r\n    \"ItemNameTw\": \"卦.吉（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 78
   splits:
@@ -893,11 +1417,14 @@
     text: "卦.吉"
     translated: "Divination. Good fortune."
   - splitPath: ItemName
-    text: "卦.吉（{0}/{1}）"
-    translated: "Divination. The fortune is good ({0}/{1})."
+    text: "卦.吉"
+    translated: "Divination. Good fortune."
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"79\",\r\n    \"Name\": \"卦.平\",\r\n    \"ItemName\": \"无事\",\r\n    \"Desc\": \"无事\",\r\n    \"NameTw\": \"卦.平\",\r\n    \"ItemNameTw\": \"無事\",\r\n    \"DescTw\": \"無事\"\r\n  }"
   rawIndex: 79
   splits:
@@ -917,11 +1444,16 @@
     text: "五禽戏"
     translated: "Five Animals Exercise"
   - splitPath: ItemName
-    text: "五禽戏（{0}/{1}）"
-    translated: "Five Animals Play ({0}/{1})"
+    text: "五禽戏"
+    translated: "Five Animals Exercise"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
     translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"81\",\r\n    \"Name\": \"杀字令\",\r\n    \"ItemName\": \"杀字令（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"殺字令\",\r\n    \"ItemNameTw\": \"殺字令（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 81
   splits:
@@ -929,11 +1461,16 @@
     text: "杀字令"
     translated: "Order of Execution"
   - splitPath: ItemName
-    text: "杀字令（{0}/{1}）"
-    translated: "Kill Command ({0}/{1})"
+    text: "杀字令"
+    translated: "Order of Execution"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"82\",\r\n    \"Name\": \"神农百草功\",\r\n    \"ItemName\": \"神农百草功（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"神農百草功\",\r\n    \"ItemNameTw\": \"神農百草功（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 82
   splits:
@@ -941,11 +1478,16 @@
     text: "神农百草功"
     translated: "Divine Farmer's Hundred Herbs Technique"
   - splitPath: ItemName
-    text: "神农百草功（{0}/{1}）"
-    translated: "Heavenly Farmer's Hundred Herbs Technique ({0}/{1})"
+    text: "神农百草功"
+    translated: "Divine Farmer's Hundred Herbs Technique"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
     translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"83\",\r\n    \"Name\": \"太极劲\",\r\n    \"ItemName\": \"太极劲（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"太極勁\",\r\n    \"ItemNameTw\": \"太極勁（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 83
   splits:
@@ -953,11 +1495,16 @@
     text: "太极劲"
     translated: "Taiji Force"
   - splitPath: ItemName
-    text: "太极劲（{0}/{1}）"
-    translated: "Taiji Force ({0}/{1})"
+    text: "太极劲"
+    translated: "Taiji Force"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"84\",\r\n    \"Name\": \"无为真气\",\r\n    \"ItemName\": \"无为真气（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"無為真氣\",\r\n    \"ItemNameTw\": \"無為真氣（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 84
   splits:
@@ -965,11 +1512,16 @@
     text: "无为真气"
     translated: "True Qi of Non‑action"
   - splitPath: ItemName
-    text: "无为真气（{0}/{1}）"
-    translated: "Unyielding True Qi ({0}/{1})"
+    text: "无为真气"
+    translated: "True Qi of Non‑action"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"85\",\r\n    \"Name\": \"云里飞飞云里翻\",\r\n    \"ItemName\": \"云里飞飞云里翻（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"雲裡飛飛雲裡翻\",\r\n    \"ItemNameTw\": \"雲裡飛飛雲裡翻（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 85
   splits:
@@ -977,11 +1529,14 @@
     text: "云里飞飞云里翻"
     translated: "Flying through the clouds and turning amidst them"
   - splitPath: ItemName
-    text: "云里飞飞云里翻（{0}/{1}）"
-    translated: "Soar Through Clouds and Turn Amidst Vapors ({0}/{1})"
+    text: "云里飞飞云里翻"
+    translated: "Flying through the clouds and turning amidst them"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"86\",\r\n    \"Name\": \"阴阳无相太极图\",\r\n    \"ItemName\": \"阴阳无相太极图（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"陰陽無相太極圖\",\r\n    \"ItemNameTw\": \"陰陽無相太極圖（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 86
   splits:
@@ -989,11 +1544,16 @@
     text: "阴阳无相太极图"
     translated: "Yin Yang Wu Xiang Tai Ji Diagram"
   - splitPath: ItemName
-    text: "阴阳无相太极图（{0}/{1}）"
-    translated: "Yin Yang Wu Xiang Tai Ji Tu ({0}/{1})"
+    text: "阴阳无相太极图"
+    translated: "Yin Yang Wu Xiang Tai Ji Diagram"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"87\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 87
   splits:
@@ -1049,11 +1609,14 @@
     text: "心魔瘴"
     translated: "Inner Demon Fog"
   - splitPath: ItemName
-    text: "心魔瘴（{0}/{1}）"
-    translated: "Inner Demon Fog ({0}/{1})"
+    text: "心魔瘴"
+    translated: "Inner Demon Fog"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"92\",\r\n    \"Name\": \"郝平\",\r\n    \"ItemName\": \"万寿帮众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"郝平\",\r\n    \"ItemNameTw\": \"萬壽幫眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 92
   splits:
@@ -1088,8 +1651,27 @@
     text: "碧鳞灵蛇"
     translated: "Mystic Scalesilver Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1400）\\n增伤（12倍御兽）\\n中毒<50%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 1400\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <50%>\\n70% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1400）"
+    translated: "Attack 1400"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<50%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"95\",\r\n    \"Name\": \"赤鳞灵蛇\",\r\n    \"ItemName\": \"赤鳞灵蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1400）\\\\n增伤（12倍御兽）\\\\n中毒<50%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"赤鱗靈蛇\",\r\n    \"ItemNameTw\": \"赤鱗靈蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1400）\\\\n增傷（12倍御獸）\\\\n中毒<50%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 95
   splits:
@@ -1100,8 +1682,27 @@
     text: "赤鳞灵蛇"
     translated: "Scarlet‑Scaled Spirit Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1400）\\n增伤（12倍御兽）\\n中毒<50%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 1400\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <50%>\\n70% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1400）"
+    translated: "Attack 1400"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<50%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"96\",\r\n    \"Name\": \"金鳞灵蛇\",\r\n    \"ItemName\": \"金鳞灵蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1400）\\\\n增伤（12倍御兽）\\\\n中毒<50%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"金鱗靈蛇\",\r\n    \"ItemNameTw\": \"金鱗靈蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1400）\\\\n增傷（12倍御獸）\\\\n中毒<50%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 96
   splits:
@@ -1112,8 +1713,27 @@
     text: "金鳞灵蛇"
     translated: "Golden‑Scaled Spirit Snake"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1400）\\n增伤（12倍御兽）\\n中毒<50%>\\n70%发动攻击"
-    translated: "【Pet】 \\nAttack 1400\\nIncreased Damage (12 times Beast Taming)\\nPoisoned <50%>\\n70% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1400）"
+    translated: "Attack 1400"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 4
+    text: "70%发动攻击"
+    translated: "70% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<50%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"97\",\r\n    \"Name\": \"烽火狼烟卷连城\",\r\n    \"ItemName\": \"烽火狼烟卷连城（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"烽火狼煙卷連城\",\r\n    \"ItemNameTw\": \"烽火狼煙卷連城（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 97
   splits:
@@ -1121,11 +1741,16 @@
     text: "烽火狼烟卷连城"
     translated: "Flames of War and Wolf Smoke Scroll: City Conquest"
   - splitPath: ItemName
-    text: "烽火狼烟卷连城（{0}/{1}）"
-    translated: "Flame and Smoke Scroll: Conquest of the City ({0}/{1})"
+    text: "烽火狼烟卷连城"
+    translated: "Flames of War and Wolf Smoke Scroll: City Conquest"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"98\",\r\n    \"Name\": \"飞云鼯\",\r\n    \"ItemName\": \"飞云鼯\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（100）\\\\n增伤（3倍御兽）\\\\n三连击\\\\n消除战术1<12%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"飛雲鼯\",\r\n    \"ItemNameTw\": \"飛雲鼯\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（100）\\\\n增傷（3倍御獸）\\\\n三連擊\\\\n消除戰術1<12%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 98
   splits:
@@ -1136,8 +1761,31 @@
     text: "飞云鼯"
     translated: "Swift Wind Squirrel Glider"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（100）\\n增伤（3倍御兽）\\n三连击\\n消除战术1<12%>\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 100\\nIncreased Damage (x3 Beast Taming)\\nTriple strike\\nEliminate tactical 1<12%>\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（100）"
+    translated: "Attack(100)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（3倍御兽）"
+    translated: "Increased Damage (x3 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "三连击"
+    translated: "Triple attack"
+  - splitPath: Desc
+    subIndex: 4
+    text: "消除战术1"
+    translated: "Eliminate Strategy 1"
+  - splitPath: Desc
+    subIndex: 5
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}<12%>\\n{5}"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"鱼龙百变\",\r\n    \"ItemName\": \"鱼龙百变（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"魚龍百變\",\r\n    \"ItemNameTw\": \"魚龍百變（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 99
   splits:
@@ -1145,11 +1793,14 @@
     text: "鱼龙百变"
     translated: "Transformation Unending"
   - splitPath: ItemName
-    text: "鱼龙百变（{0}/{1}）"
-    translated: "Fish and Dragon Transformation ({0}/{1})"
+    text: "鱼龙百变"
+    translated: "Transformation Unending"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"100\",\r\n    \"Name\": \"非攻\",\r\n    \"ItemName\": \"非攻（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"非攻\",\r\n    \"ItemNameTw\": \"非攻（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 100
   splits:
@@ -1157,11 +1808,20 @@
     text: "非攻"
     translated: "Non‑aggression"
   - splitPath: ItemName
-    text: "非攻（{0}/{1}）"
-    translated: "Non‑aggression ({0}/{1})"
+    text: "非攻"
+    translated: "Non‑aggression"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"101\",\r\n    \"Name\": \"蔷薇仪式\",\r\n    \"ItemName\": \"蔷薇仪式（{0}/{1}）\",\r\n    \"Desc\": \"攻击+30%\",\r\n    \"NameTw\": \"薔薇儀式\",\r\n    \"ItemNameTw\": \"薔薇儀式（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+30%\"\r\n  }"
   rawIndex: 101
   splits:
@@ -1169,11 +1829,16 @@
     text: "蔷薇仪式"
     translated: "Rose Ritual"
   - splitPath: ItemName
-    text: "蔷薇仪式（{0}/{1}）"
-    translated: "Rose Ceremony ({0}/{1})"
+    text: "蔷薇仪式"
+    translated: "Rose Ritual"
   - splitPath: Desc
-    text: "攻击+30%"
-    translated: "Attack +30%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+30%"
 - raw: "{\r\n    \"Key\": \"102\",\r\n    \"Name\": \"水手\",\r\n    \"ItemName\": \"水手\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"水手\",\r\n    \"ItemNameTw\": \"水手\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 102
   splits:
@@ -1229,11 +1894,14 @@
     text: "疾如风"
     translated: "Swift as a breeze"
   - splitPath: ItemName
-    text: "疾如风（{0}/{1}）"
-    translated: "Swift as the Wind ({0}/{1})"
+    text: "疾如风"
+    translated: "Swift as a breeze"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"107\",\r\n    \"Name\": \"徐如林\",\r\n    \"ItemName\": \"徐如林\",\r\n    \"Desc\": \"回复（20000）\",\r\n    \"NameTw\": \"徐如林\",\r\n    \"ItemNameTw\": \"徐如林\",\r\n    \"DescTw\": \"回覆（20000）\"\r\n  }"
   rawIndex: 107
   splits:
@@ -1256,8 +1924,11 @@
     text: "侵略如火"
     translated: "Invasion like fire"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"109\",\r\n    \"Name\": \"不动如山\",\r\n    \"ItemName\": \"不动如山\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"不動如山\",\r\n    \"ItemNameTw\": \"不動如山\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 109
   splits:
@@ -1268,8 +1939,15 @@
     text: "不动如山"
     translated: "Unmoved as a mountain"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"110\",\r\n    \"Name\": \"难知如阴\",\r\n    \"ItemName\": \"难知如阴\",\r\n    \"Desc\": \"消除战术1\",\r\n    \"NameTw\": \"難知如陰\",\r\n    \"ItemNameTw\": \"難知如陰\",\r\n    \"DescTw\": \"消除戰術1\"\r\n  }"
   rawIndex: 110
   splits:
@@ -1289,11 +1967,16 @@
     text: "天地独尊诀"
     translated: "The Sovereign of Heaven and Earth Technique"
   - splitPath: ItemName
-    text: "独尊诀（{0}/{1}）"
-    translated: "Exclusive Dominance Technique ({0}/{1})"
+    text: "独尊诀"
+    translated: "Solo Dominance Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"112\",\r\n    \"Name\": \"世间横行本无忌\",\r\n    \"ItemName\": \"世间横行本无忌（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"世間橫行本無忌\",\r\n    \"ItemNameTw\": \"世間橫行本無忌（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 112
   splits:
@@ -1301,11 +1984,20 @@
     text: "世间横行本无忌"
     translated: "Roaming the world without restraint is natural"
   - splitPath: ItemName
-    text: "世间横行本无忌（{0}/{1}）"
-    translated: "Roaming the world with no qualms ({0}/{1})"
+    text: "世间横行本无忌"
+    translated: "Roaming the world without restraint is natural"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"113\",\r\n    \"Name\": \"天地独尊诀\",\r\n    \"ItemName\": \"独尊诀\",\r\n    \"Desc\": \"攻击+200%\",\r\n    \"NameTw\": \"天地獨尊訣\",\r\n    \"ItemNameTw\": \"獨尊訣\",\r\n    \"DescTw\": \"攻擊+200%\"\r\n  }"
   rawIndex: 113
   splits:
@@ -1316,8 +2008,11 @@
     text: "独尊诀"
     translated: "Solo Dominance Technique"
   - splitPath: Desc
-    text: "攻击+200%"
-    translated: "Attack +200%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+200%"
 - raw: "{\r\n    \"Key\": \"114\",\r\n    \"Name\": \"金刚不动显浮屠\",\r\n    \"ItemName\": \"金刚不动显浮屠（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"金剛不動顯浮屠\",\r\n    \"ItemNameTw\": \"金剛不動顯浮屠（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 114
   splits:
@@ -1325,11 +2020,20 @@
     text: "金刚不动显浮屠"
     translated: "Hardness Manifests the Buddhist Temple"
   - splitPath: ItemName
-    text: "金刚不动显浮屠（{0}/{1}）"
-    translated: "Hard as a Diamond Shows the Buddha Nature ({0}/{1})"
+    text: "金刚不动显浮屠"
+    translated: "Hardness Manifests the Buddhist Temple"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"115\",\r\n    \"Name\": \"随风入夜潜无形\",\r\n    \"ItemName\": \"随风入夜潜无形（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"隨風入夜潛無形\",\r\n    \"ItemNameTw\": \"隨風入夜潛無形（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 115
   splits:
@@ -1337,11 +2041,14 @@
     text: "随风入夜潜无形"
     translated: "Drifting through the night like a shadow"
   - splitPath: ItemName
-    text: "随风入夜潜无形（{0}/{1}）"
-    translated: "Wield the Wind Through the Night Invisible ({0}/{1})"
+    text: "随风入夜潜无形"
+    translated: "Drifting through the night like a shadow"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"四象阵.冬\",\r\n    \"ItemName\": \"四象阵.冬（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"四象陣.冬\",\r\n    \"ItemNameTw\": \"四象陣.冬（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 116
   splits:
@@ -1349,11 +2056,16 @@
     text: "四象阵.冬"
     translated: "Four Symbols Formation. Winter"
   - splitPath: ItemName
-    text: "四象阵.冬（{0}/{1}）"
-    translated: "Four Symbols Formation. Winter ({0}/{1})"
+    text: "四象阵.冬"
+    translated: "Four Symbols Formation. Winter"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"117\",\r\n    \"Name\": \"四象阵.秋\",\r\n    \"ItemName\": \"四象阵.秋（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"四象陣.秋\",\r\n    \"ItemNameTw\": \"四象陣.秋（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 117
   splits:
@@ -1361,11 +2073,16 @@
     text: "四象阵.秋"
     translated: "Four Symbols Formation. Autumn"
   - splitPath: ItemName
-    text: "四象阵.秋（{0}/{1}）"
-    translated: "Four Symbols Formation. Autumn ({0}/{1})"
+    text: "四象阵.秋"
+    translated: "Four Symbols Formation. Autumn"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"118\",\r\n    \"Name\": \"四象阵.夏\",\r\n    \"ItemName\": \"四象阵.夏（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"四象陣.夏\",\r\n    \"ItemNameTw\": \"四象陣.夏（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 118
   splits:
@@ -1373,11 +2090,16 @@
     text: "四象阵.夏"
     translated: "Four Symbols Array. Xia"
   - splitPath: ItemName
-    text: "四象阵.夏（{0}/{1}）"
-    translated: "Four Symbols Formation. Xia ({0}/{1})"
+    text: "四象阵.夏"
+    translated: "Four Symbols Array. Xia"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"119\",\r\n    \"Name\": \"四象阵.春\",\r\n    \"ItemName\": \"四象阵.春（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"四象陣.春\",\r\n    \"ItemNameTw\": \"四象陣.春（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 119
   splits:
@@ -1385,11 +2107,16 @@
     text: "四象阵.春"
     translated: "Four Symbols Formation. Spring"
   - splitPath: ItemName
-    text: "四象阵.春（{0}/{1}）"
-    translated: "Four Symbols Formation. Spring ({0}/{1})"
+    text: "四象阵.春"
+    translated: "Four Symbols Formation. Spring"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
     translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"120\",\r\n    \"Name\": \"芷白\",\r\n    \"ItemName\": \"芷白\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n打断攻击<20%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"芷白\",\r\n    \"ItemNameTw\": \"芷白\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n打斷攻擊<20%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 120
   splits:
@@ -1400,8 +2127,23 @@
     text: "芷白"
     translated: "Zhi Bai"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n打断攻击<20%>\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nInterrupt attack <20%>\\n100% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "打断攻击"
+    translated: "Interrupt the attack"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<20%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"121\",\r\n    \"Name\": \"芷白\",\r\n    \"ItemName\": \"芷白\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（2000）\\\\n打断攻击<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"芷白\",\r\n    \"ItemNameTw\": \"芷白\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（2000）\\\\n打斷攻擊<40%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 121
   splits:
@@ -1412,8 +2154,23 @@
     text: "芷白"
     translated: "Zhi Bai"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（2000）\\n打断攻击<40%>\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 2000\\nInterrupt attack <40%>\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（2000）"
+    translated: "Attack 2000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "打断攻击"
+    translated: "Interrupt the attack"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<40%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"122\",\r\n    \"Name\": \"夜乌鸦\",\r\n    \"ItemName\": \"夜乌鸦\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n力竭<20%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"夜烏鴉\",\r\n    \"ItemNameTw\": \"夜烏鴉\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n力竭<20%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 122
   splits:
@@ -1424,8 +2181,23 @@
     text: "夜乌鸦"
     translated: "Night Crow"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n力竭<20%>\\n100%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nStrength depleted<20%>\\n100% initiate attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "力竭"
+    translated: "Exhausted"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<20%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"123\",\r\n    \"Name\": \"铁脊梁\",\r\n    \"ItemName\": \"铁脊梁（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"鐵脊樑\",\r\n    \"ItemNameTw\": \"鐵脊樑（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 123
   splits:
@@ -1433,11 +2205,16 @@
     text: "铁脊梁"
     translated: "Iron Backbone"
   - splitPath: ItemName
-    text: "铁脊梁（{0}/{1}）"
-    translated: "Steel Spine ({0}/{1})"
+    text: "铁脊梁"
+    translated: "Iron Backbone"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"125\",\r\n    \"Name\": \"千户府兵\",\r\n    \"ItemName\": \"千户府兵\",\r\n    \"Desc\": \"支援战斗\\\\n攻击（100000）\",\r\n    \"NameTw\": \"千戶府兵\",\r\n    \"ItemNameTw\": \"千戶府兵\",\r\n    \"DescTw\": \"支援戰鬥\\\\n攻擊（100000）\"\r\n  }"
   rawIndex: 125
   splits:
@@ -1448,8 +2225,15 @@
     text: "千户府兵"
     translated: "Commander's Regiment Soldiers"
   - splitPath: Desc
-    text: "支援战斗\\n攻击（100000）"
-    translated: "Support Combat\\nAttack (100000)"
+    text: "支援战斗"
+    translated: "Support Combat"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（100000）"
+    translated: "Attack (100000)"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"126\",\r\n    \"Name\": \"灵兽通心诀\",\r\n    \"ItemName\": \"灵兽通心诀\",\r\n    \"Desc\": \"助战攻击+60%\",\r\n    \"NameTw\": \"靈獸通心訣\",\r\n    \"ItemNameTw\": \"靈獸通心訣\",\r\n    \"DescTw\": \"助戰攻擊+60%\"\r\n  }"
   rawIndex: 126
   splits:
@@ -1460,8 +2244,11 @@
     text: "灵兽通心诀"
     translated: "Heartlinking Technique of Spirit Beasts"
   - splitPath: Desc
-    text: "助战攻击+60%"
+    text: "助战攻击"
     translated: "Pet attack +80%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+60%"
 - raw: "{\r\n    \"Key\": \"127\",\r\n    \"Name\": \"八大锤\",\r\n    \"ItemName\": \"八大锤\",\r\n    \"Desc\": \"攻击+20%\",\r\n    \"NameTw\": \"八大錘\",\r\n    \"ItemNameTw\": \"八大錘\",\r\n    \"DescTw\": \"攻擊+20%\"\r\n  }"
   rawIndex: 127
   splits:
@@ -1472,8 +2259,11 @@
     text: "八大锤"
     translated: "Eight Immortals Sabers"
   - splitPath: Desc
-    text: "攻击+20%"
-    translated: "Attack +20%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+20%"
 - raw: "{\r\n    \"Key\": \"128\",\r\n    \"Name\": \"碧波诀\",\r\n    \"ItemName\": \"碧波诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"碧波訣\",\r\n    \"ItemNameTw\": \"碧波訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 128
   splits:
@@ -1481,11 +2271,16 @@
     text: "碧波诀"
     translated: "Asura Wave Technique"
   - splitPath: ItemName
-    text: "碧波诀（{0}/{1}）"
-    translated: "Wave Serenity Technique ({0}/{1})"
+    text: "碧波诀"
+    translated: "Asura Wave Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"129\",\r\n    \"Name\": \"恨世奇功\",\r\n    \"ItemName\": \"恨世奇功（{0}/{1}）\",\r\n    \"Desc\": \"攻击+100%\",\r\n    \"NameTw\": \"恨世奇功\",\r\n    \"ItemNameTw\": \"恨世奇功（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+100%\"\r\n  }"
   rawIndex: 129
   splits:
@@ -1493,11 +2288,16 @@
     text: "恨世奇功"
     translated: "Furor World Technique"
   - splitPath: ItemName
-    text: "恨世奇功（{0}/{1}）"
-    translated: "Detested World Wonder Skill ({0}/{1})"
+    text: "恨世奇功"
+    translated: "Furor World Technique"
   - splitPath: Desc
-    text: "攻击+100%"
-    translated: "Attack +100%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+100%"
 - raw: "{\r\n    \"Key\": \"130\",\r\n    \"Name\": \"天地无情长恨歌\",\r\n    \"ItemName\": \"天地无情长恨歌（{0}/{1}）\",\r\n    \"Desc\": \"攻击+120%\",\r\n    \"NameTw\": \"天地無情長恨歌\",\r\n    \"ItemNameTw\": \"天地無情長恨歌（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+120%\"\r\n  }"
   rawIndex: 130
   splits:
@@ -1505,11 +2305,16 @@
     text: "天地无情长恨歌"
     translated: "Eternal Sorrow Amidst Heaven and Earth"
   - splitPath: ItemName
-    text: "天地无情长恨歌（{0}/{1}）"
-    translated: "Eternal Sorrow in a World Without Mercy ({0}/{1})"
+    text: "天地无情长恨歌"
+    translated: "Eternal Sorrow Amidst Heaven and Earth"
   - splitPath: Desc
-    text: "攻击+120%"
-    translated: "Attack +120%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+120%"
 - raw: "{\r\n    \"Key\": \"131\",\r\n    \"Name\": \"长江三叠浪\",\r\n    \"ItemName\": \"长江三叠浪（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"長江三疊浪\",\r\n    \"ItemNameTw\": \"長江三疊浪（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 131
   splits:
@@ -1517,11 +2322,14 @@
     text: "长江三叠浪"
     translated: "Three Great Tides of the Yangtze River"
   - splitPath: ItemName
-    text: "长江三叠浪（{0}/{1}）"
-    translated: "Three Fold Wave of the Yangtze River ({0}/{1})"
+    text: "长江三叠浪"
+    translated: "Three Great Tides of the Yangtze River"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"132\",\r\n    \"Name\": \"恨天无路\",\r\n    \"ItemName\": \"恨天无路（{0}/{1}）\",\r\n    \"Desc\": \"攻击+50%\",\r\n    \"NameTw\": \"恨天無路\",\r\n    \"ItemNameTw\": \"恨天無路（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+50%\"\r\n  }"
   rawIndex: 132
   splits:
@@ -1529,11 +2337,16 @@
     text: "恨天无路"
     translated: "Heaven has no path to resent it"
   - splitPath: ItemName
-    text: "恨天无路（{0}/{1}）"
-    translated: "Sky hates there is no way out ({0}/{1})"
+    text: "恨天无路"
+    translated: "Heaven has no path to resent it"
   - splitPath: Desc
-    text: "攻击+50%"
-    translated: "Attack +50%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+50%"
 - raw: "{\r\n    \"Key\": \"133\",\r\n    \"Name\": \"恨地无情\",\r\n    \"ItemName\": \"恨地无情（{0}/{1}）\",\r\n    \"Desc\": \"防御+50%\",\r\n    \"NameTw\": \"恨地無情\",\r\n    \"ItemNameTw\": \"恨地無情（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+50%\"\r\n  }"
   rawIndex: 133
   splits:
@@ -1541,11 +2354,16 @@
     text: "恨地无情"
     translated: "Hate the Earth for Lacking Sentiment"
   - splitPath: ItemName
-    text: "恨地无情（{0}/{1}）"
-    translated: "Hate the Earth for Lacking Sentiment ({0}/{1})"
+    text: "恨地无情"
+    translated: "Hate the Earth for Lacking Sentiment"
   - splitPath: Desc
-    text: "防御+50%"
-    translated: "Defense +50%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+50%"
 - raw: "{\r\n    \"Key\": \"134\",\r\n    \"Name\": \"恨世无常\",\r\n    \"ItemName\": \"恨世无常（{0}/{1}）\",\r\n    \"Desc\": \"抵消一次攻击\",\r\n    \"NameTw\": \"恨世無常\",\r\n    \"ItemNameTw\": \"恨世無常（{0}/{1}）\",\r\n    \"DescTw\": \"抵消一次攻擊\"\r\n  }"
   rawIndex: 134
   splits:
@@ -1553,11 +2371,14 @@
     text: "恨世无常"
     translated: "Hate that the world is ever‑changing"
   - splitPath: ItemName
-    text: "恨世无常（{0}/{1}）"
-    translated: "Hate the Ever‑Changing World ({0}/{1})"
+    text: "恨世无常"
+    translated: "Hate that the world is ever‑changing"
   - splitPath: Desc
     text: "抵消一次攻击"
     translated: "Neutralize an attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"135\",\r\n    \"Name\": \"金缕奇功\",\r\n    \"ItemName\": \"金缕奇功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"金縷奇功\",\r\n    \"ItemNameTw\": \"金縷奇功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 135
   splits:
@@ -1565,11 +2386,16 @@
     text: "金缕奇功"
     translated: "Strange Thread Skill"
   - splitPath: ItemName
-    text: "金缕奇功（{0}/{1}）"
-    translated: "Strange Thread Skill ({0}/{1})"
+    text: "金缕奇功"
+    translated: "Strange Thread Skill"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"136\",\r\n    \"Name\": \"尊称无量戾气生\",\r\n    \"ItemName\": \"尊称无量戾气生（{0}/{1}）\",\r\n    \"Desc\": \"攻击+70%\",\r\n    \"NameTw\": \"尊稱無量戾氣生\",\r\n    \"ItemNameTw\": \"尊稱無量戾氣生（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+70%\"\r\n  }"
   rawIndex: 136
   splits:
@@ -1577,11 +2403,16 @@
     text: "尊称无量戾气生"
     translated: "Honoring him brings forth boundless negative energy"
   - splitPath: ItemName
-    text: "尊称无量戾气生（{0}/{1}）"
-    translated: "Respectfully, boundless malevolent energy arises ({0}/{1})"
+    text: "尊称无量戾气生"
+    translated: "Honoring him brings forth boundless negative energy"
   - splitPath: Desc
-    text: "攻击+70%"
-    translated: "Attack +70%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+70%"
 - raw: "{\r\n    \"Key\": \"137\",\r\n    \"Name\": \"玉清观想法\",\r\n    \"ItemName\": \"玉清观想法（{0}/{1}）\",\r\n    \"Desc\": \"攻击+30%\",\r\n    \"NameTw\": \"玉清觀想法\",\r\n    \"ItemNameTw\": \"玉清觀想法（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+30%\"\r\n  }"
   rawIndex: 137
   splits:
@@ -1589,11 +2420,16 @@
     text: "玉清观想法"
     translated: "Purification Technique of Jade Purity Monastery"
   - splitPath: ItemName
-    text: "玉清观想法（{0}/{1}）"
-    translated: "Practice the Method of Observing Jade Purity ({0}/{1})"
+    text: "玉清观想法"
+    translated: "Purification Technique of Jade Purity Monastery"
   - splitPath: Desc
-    text: "攻击+30%"
-    translated: "Attack +30%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+30%"
 - raw: "{\r\n    \"Key\": \"138\",\r\n    \"Name\": \"太清观想法\",\r\n    \"ItemName\": \"太清观想法（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+30%\",\r\n    \"NameTw\": \"太清觀想法\",\r\n    \"ItemNameTw\": \"太清觀想法（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+30%\"\r\n  }"
   rawIndex: 138
   splits:
@@ -1601,11 +2437,16 @@
     text: "太清观想法"
     translated: "Cultivation Method of the Taiqing Monastery"
   - splitPath: ItemName
-    text: "太清观想法（{0}/{1}）"
-    translated: "Cultivation Technique of Taiqing Monastery ({0}/{1})"
+    text: "太清观想法"
+    translated: "Cultivation Method of the Taiqing Monastery"
   - splitPath: Desc
-    text: "反弹伤害+30%"
-    translated: "Rebound damage +30%"
+    text: "反弹伤害"
+    translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+30%"
 - raw: "{\r\n    \"Key\": \"139\",\r\n    \"Name\": \"上清观想法\",\r\n    \"ItemName\": \"上清观想法（{0}/{1}）\",\r\n    \"Desc\": \"防御+30%\",\r\n    \"NameTw\": \"上清觀想法\",\r\n    \"ItemNameTw\": \"上清觀想法（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+30%\"\r\n  }"
   rawIndex: 139
   splits:
@@ -1613,11 +2454,16 @@
     text: "上清观想法"
     translated: "Cleansing Upper Clear Viewing Meditation Technique"
   - splitPath: ItemName
-    text: "上清观想法（{0}/{1}）"
-    translated: "Cultivation Method of the Upper Purity Monastery ({0}/{1})"
+    text: "上清观想法"
+    translated: "Cleansing Upper Clear Viewing Meditation Technique"
   - splitPath: Desc
-    text: "防御+30%"
-    translated: "Defense +30%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+30%"
 - raw: "{\r\n    \"Key\": \"140\",\r\n    \"Name\": \"通天绳\",\r\n    \"ItemName\": \"通天绳（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"通天繩\",\r\n    \"ItemNameTw\": \"通天繩（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 140
   splits:
@@ -1625,11 +2471,14 @@
     text: "通天绳"
     translated: "Supernatural Cord"
   - splitPath: ItemName
-    text: "通天绳（{0}/{1}）"
-    translated: "Heaven‑Piercing Rope ({0}/{1})"
+    text: "通天绳"
+    translated: "Supernatural Cord"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"141\",\r\n    \"Name\": \"铁布衫\",\r\n    \"ItemName\": \"铁布衫（{0}/{1}）\",\r\n    \"Desc\": \"防御+50%\",\r\n    \"NameTw\": \"鐵布衫\",\r\n    \"ItemNameTw\": \"鐵布衫（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+50%\"\r\n  }"
   rawIndex: 141
   splits:
@@ -1637,11 +2486,16 @@
     text: "铁布衫"
     translated: "Iron Body Technique"
   - splitPath: ItemName
-    text: "铁布衫（{0}/{1}）"
-    translated: "Iron Skin ({0}/{1})"
+    text: "铁布衫"
+    translated: "Iron Body Technique"
   - splitPath: Desc
-    text: "防御+50%"
-    translated: "Defense +50%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+50%"
 - raw: "{\r\n    \"Key\": \"142\",\r\n    \"Name\": \"血影遁\",\r\n    \"ItemName\": \"血影遁（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"血影遁\",\r\n    \"ItemNameTw\": \"血影遁（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 142
   splits:
@@ -1649,11 +2503,14 @@
     text: "血影遁"
     translated: "Blood Shadow Evasion"
   - splitPath: ItemName
-    text: "血影遁（{0}/{1}）"
-    translated: "Blood Shadow Evasion ({0}/{1})"
+    text: "血影遁"
+    translated: "Blood Shadow Evasion"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"143\",\r\n    \"Name\": \"毒蛛\",\r\n    \"ItemName\": \"毒蛛\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n中毒<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"毒蛛\",\r\n    \"ItemNameTw\": \"毒蛛\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n中毒<30%>\\\\n90%發動攻擊\"\r\n  }"
   rawIndex: 143
   splits:
@@ -1664,8 +2521,23 @@
     text: "毒蛛"
     translated: "Poison Spider"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n中毒<30%>\\n90%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nPoisoned <30%>\\n90% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 3
+    text: "90%发动攻击"
+    translated: "90% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<30%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"144\",\r\n    \"Name\": \"毒蛛\",\r\n    \"ItemName\": \"毒蛛\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n中毒<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"毒蛛\",\r\n    \"ItemNameTw\": \"毒蛛\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n中毒<30%>\\\\n90%發動攻擊\"\r\n  }"
   rawIndex: 144
   splits:
@@ -1676,8 +2548,23 @@
     text: "毒蛛"
     translated: "Poison Spider"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n中毒<30%>\\n90%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nPoisoned <30%>\\n90% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 3
+    text: "90%发动攻击"
+    translated: "90% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<30%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"145\",\r\n    \"Name\": \"毒蛛\",\r\n    \"ItemName\": \"毒蛛\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n中毒<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"毒蛛\",\r\n    \"ItemNameTw\": \"毒蛛\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n中毒<30%>\\\\n90%發動攻擊\"\r\n  }"
   rawIndex: 145
   splits:
@@ -1688,8 +2575,23 @@
     text: "毒蛛"
     translated: "Poison Spider"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n中毒<30%>\\n90%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nPoisoned <30%>\\n90% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 3
+    text: "90%发动攻击"
+    translated: "90% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<30%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"146\",\r\n    \"Name\": \"毒蛛\",\r\n    \"ItemName\": \"毒蛛\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1000）\\\\n中毒<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"毒蛛\",\r\n    \"ItemNameTw\": \"毒蛛\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1000）\\\\n中毒<30%>\\\\n90%發動攻擊\"\r\n  }"
   rawIndex: 146
   splits:
@@ -1700,8 +2602,23 @@
     text: "毒蛛"
     translated: "Poison Spider"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1000）\\n中毒<30%>\\n90%发动攻击"
-    translated: "【Pet】 \\nAttack 1000\\nPoisoned <30%>\\n90% launch attack"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1000）"
+    translated: "Attack 1000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 3
+    text: "90%发动攻击"
+    translated: "90% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<30%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"147\",\r\n    \"Name\": \"四象阵.冬\",\r\n    \"ItemName\": \"四象阵.冬（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"四象陣.冬\",\r\n    \"ItemNameTw\": \"四象陣.冬（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 147
   splits:
@@ -1709,11 +2626,16 @@
     text: "四象阵.冬"
     translated: "Four Symbols Formation. Winter"
   - splitPath: ItemName
-    text: "四象阵.冬（{0}/{1}）"
-    translated: "Four Symbols Formation. Winter ({0}/{1})"
+    text: "四象阵.冬"
+    translated: "Four Symbols Formation. Winter"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"148\",\r\n    \"Name\": \"四象阵.秋\",\r\n    \"ItemName\": \"四象阵.秋（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"四象陣.秋\",\r\n    \"ItemNameTw\": \"四象陣.秋（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 148
   splits:
@@ -1721,11 +2643,16 @@
     text: "四象阵.秋"
     translated: "Four Symbols Formation. Autumn"
   - splitPath: ItemName
-    text: "四象阵.秋（{0}/{1}）"
-    translated: "Four Symbols Formation. Autumn ({0}/{1})"
+    text: "四象阵.秋"
+    translated: "Four Symbols Formation. Autumn"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"149\",\r\n    \"Name\": \"四象阵.夏\",\r\n    \"ItemName\": \"四象阵.夏（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"四象陣.夏\",\r\n    \"ItemNameTw\": \"四象陣.夏（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 149
   splits:
@@ -1733,11 +2660,16 @@
     text: "四象阵.夏"
     translated: "Four Symbols Array. Xia"
   - splitPath: ItemName
-    text: "四象阵.夏（{0}/{1}）"
-    translated: "Four Symbols Formation. Xia ({0}/{1})"
+    text: "四象阵.夏"
+    translated: "Four Symbols Array. Xia"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"150\",\r\n    \"Name\": \"四象阵.春\",\r\n    \"ItemName\": \"四象阵.春（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"四象陣.春\",\r\n    \"ItemNameTw\": \"四象陣.春（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 150
   splits:
@@ -1745,11 +2677,16 @@
     text: "四象阵.春"
     translated: "Four Symbols Formation. Spring"
   - splitPath: ItemName
-    text: "四象阵.春（{0}/{1}）"
-    translated: "Four Symbols Formation. Spring ({0}/{1})"
+    text: "四象阵.春"
+    translated: "Four Symbols Formation. Spring"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
     translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"151\",\r\n    \"Name\": \"铁衣寨众\",\r\n    \"ItemName\": \"铁衣寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"鐵衣寨眾\",\r\n    \"ItemNameTw\": \"鐵衣寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 151
   splits:
@@ -1901,11 +2838,20 @@
     text: "鼋甲"
     translated: "Turtle Plastron"
   - splitPath: ItemName
-    text: "鼋甲（{0}/{1}）"
-    translated: "Softshell Turtle Shell (Shell of {0} and {1})"
+    text: "鼋甲"
+    translated: "Turtle Plastron"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"164\",\r\n    \"Name\": \"枉然功\",\r\n    \"ItemName\": \"枉然功（{0}/{1}）\",\r\n    \"Desc\": \"反弹伤害+{0}%\",\r\n    \"NameTw\": \"枉然功\",\r\n    \"ItemNameTw\": \"枉然功（{0}/{1}）\",\r\n    \"DescTw\": \"反彈傷害+{0}%\"\r\n  }"
   rawIndex: 164
   splits:
@@ -1913,11 +2859,16 @@
     text: "枉然功"
     translated: "Wangran Skill"
   - splitPath: ItemName
-    text: "枉然功（{0}/{1}）"
-    translated: "Futile Technique ({0}/{1})"
+    text: "枉然功"
+    translated: "Wangran Skill"
   - splitPath: Desc
-    text: "反弹伤害+{0}%"
+    text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"165\",\r\n    \"Name\": \"玄阴罡煞\",\r\n    \"ItemName\": \"玄阴罡煞（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"玄陰罡煞\",\r\n    \"ItemNameTw\": \"玄陰罡煞（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 165
   splits:
@@ -1925,11 +2876,20 @@
     text: "玄阴罡煞"
     translated: "Yin Yin Gong Sha"
   - splitPath: ItemName
-    text: "玄阴罡煞（{0}/{1}）"
-    translated: "Yin Energy Malevolent Aura ({0}/{1})"
+    text: "玄阴罡煞"
+    translated: "Yin Yin Gong Sha"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"166\",\r\n    \"Name\": \"风沙万里金刚煞\",\r\n    \"ItemName\": \"风沙万里金刚煞（{0}/{1}）\",\r\n    \"Desc\": \"减少伤害{0}点\",\r\n    \"NameTw\": \"風沙萬里金剛煞\",\r\n    \"ItemNameTw\": \"風沙萬里金剛煞（{0}/{1}）\",\r\n    \"DescTw\": \"減少傷害{0}點\"\r\n  }"
   rawIndex: 166
   splits:
@@ -1937,11 +2897,20 @@
     text: "风沙万里金刚煞"
     translated: "Wind Sand Ten Thousand Miles Goldenancock Wrath"
   - splitPath: ItemName
-    text: "风沙万里金刚煞（{0}/{1}）"
-    translated: "Wind Sand Ten Thousand Miles Golden Firmament Deva ({0}/{1})"
+    text: "风沙万里金刚煞"
+    translated: "Wind Sand Ten Thousand Miles Goldenancock Wrath"
   - splitPath: Desc
-    text: "减少伤害{0}点"
-    translated: "Reduce damage by {0} points"
+    text: "减少伤害"
+    translated: "Reduce damage"
+  - splitPath: Desc
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"167\",\r\n    \"Name\": \"凤凰三展翅\",\r\n    \"ItemName\": \"凤凰三展翅（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"鳳凰三展翅\",\r\n    \"ItemNameTw\": \"鳳凰三展翅（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 167
   splits:
@@ -1949,11 +2918,14 @@
     text: "凤凰三展翅"
     translated: "Phoenix soars three times"
   - splitPath: ItemName
-    text: "凤凰三展翅（{0}/{1}）"
-    translated: "Phoenix Three Spread Wings ({0}/{1})"
+    text: "凤凰三展翅"
+    translated: "Phoenix soars three times"
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"168\",\r\n    \"Name\": \"无上琉璃诀\",\r\n    \"ItemName\": \"无上琉璃诀（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"無上琉璃訣\",\r\n    \"ItemNameTw\": \"無上琉璃訣（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 168
   splits:
@@ -1961,11 +2933,16 @@
     text: "无上琉璃诀"
     translated: "Supreme Crystal Mirror Technique"
   - splitPath: ItemName
-    text: "无上琉璃诀（{0}/{1}）"
-    translated: "Supreme Crystal Decree ({0}/{1})"
+    text: "无上琉璃诀"
+    translated: "Supreme Crystal Mirror Technique"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"169\",\r\n    \"Name\": \"净耀禅功\",\r\n    \"ItemName\": \"净耀禅功（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"淨耀禪功\",\r\n    \"ItemNameTw\": \"淨耀禪功（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 169
   splits:
@@ -1973,11 +2950,16 @@
     text: "净耀禅功"
     translated: "Pure Radiance Chan Technique"
   - splitPath: ItemName
-    text: "净耀禅功（{0}/{1}）"
-    translated: "Pure Radiant Zen Technique ({0}/{1})"
+    text: "净耀禅功"
+    translated: "Pure Radiance Chan Technique"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
     translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"170\",\r\n    \"Name\": \"地龙功\",\r\n    \"ItemName\": \"地龙功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"地龍功\",\r\n    \"ItemNameTw\": \"地龍功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 170
   splits:
@@ -1985,11 +2967,16 @@
     text: "地龙功"
     translated: "Earthworm Technique"
   - splitPath: ItemName
-    text: "地龙功（{0}/{1}）"
-    translated: "Earth Dragon Technique({0}/{1})"
+    text: "地龙功"
+    translated: "Earthworm Technique"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
     translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"171\",\r\n    \"Name\": \"长江恶鼋\",\r\n    \"ItemName\": \"长江恶鼋（{0}/{1}）\",\r\n    \"Desc\": \"防御+40%\",\r\n    \"NameTw\": \"長江惡黿\",\r\n    \"ItemNameTw\": \"長江惡黿（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+40%\"\r\n  }"
   rawIndex: 171
   splits:
@@ -1997,323 +2984,760 @@
     text: "长江恶鼋"
     translated: "Evil Softshell Turtle of the Yangtze River"
   - splitPath: ItemName
-    text: "长江恶鼋（{0}/{1}）"
-    translated: "Evil Softshell Turtle ({0}/{1})"
+    text: "长江恶鼋"
+    translated: "Evil Softshell Turtle of the Yangtze River"
   - splitPath: Desc
-    text: "防御+40%"
-    translated: "Defense +40%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+40%"
 - raw: "{\r\n    \"Key\": \"172\",\r\n    \"Name\": \"罗汉金身\",\r\n    \"ItemName\": \"罗汉金身（{0}/{1}）\",\r\n    \"Desc\": \"防御+100%\",\r\n    \"NameTw\": \"羅漢金身\",\r\n    \"ItemNameTw\": \"羅漢金身（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+100%\"\r\n  }"
   rawIndex: 172
   splits:
   - splitPath: Name
     text: "罗汉金身"
+    translated: "Golden Body of the Arhat"
   - splitPath: ItemName
-    text: "罗汉金身（{0}/{1}）"
+    text: "罗汉金身"
+    translated: "Golden Body of the Arhat"
   - splitPath: Desc
-    text: "防御+100%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+100%"
 - raw: "{\r\n    \"Key\": \"173\",\r\n    \"Name\": \"龙腾雾隐\",\r\n    \"ItemName\": \"龙腾雾隐（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"龍騰霧隱\",\r\n    \"ItemNameTw\": \"龍騰霧隱（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 173
   splits:
   - splitPath: Name
     text: "龙腾雾隐"
+    translated: "Dragon Ascends in Mist"
   - splitPath: ItemName
-    text: "龙腾雾隐（{0}/{1}）"
+    text: "龙腾雾隐"
+    translated: "Dragon Ascends in Mist"
   - splitPath: Desc
     text: "每层抵消一次攻击"
+    translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"174\",\r\n    \"Name\": \"三昧神风\",\r\n    \"ItemName\": \"三昧神风\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"三昧神風\",\r\n    \"ItemNameTw\": \"三昧神風\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 174
   splits:
   - splitPath: Name
     text: "三昧神风"
+    translated: "Tranquil Bliss Divine Wind"
   - splitPath: ItemName
     text: "三昧神风"
+    translated: "Tranquil Bliss Divine Wind"
   - splitPath: Desc
     text: "支援战斗"
+    translated: "Support Combat"
 - raw: "{\r\n    \"Key\": \"175\",\r\n    \"Name\": \"人种袋\",\r\n    \"ItemName\": \"人种袋\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"人種袋\",\r\n    \"ItemNameTw\": \"人種袋\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 175
   splits:
   - splitPath: Name
     text: "人种袋"
+    translated: "Race pouch"
   - splitPath: ItemName
     text: "人种袋"
+    translated: "Race pouch"
   - splitPath: Desc
     text: "支援战斗"
+    translated: "Support Combat"
 - raw: "{\r\n    \"Key\": \"176\",\r\n    \"Name\": \"小虎\",\r\n    \"ItemName\": \"小虎\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"小虎\",\r\n    \"ItemNameTw\": \"小虎\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 176
   splits:
   - splitPath: Name
     text: "小虎"
+    translated: "Tiger Cub"
   - splitPath: ItemName
     text: "小虎"
+    translated: "Tiger Cub"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（200）"
+    translated: "Attack 200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"177\",\r\n    \"Name\": \"於菟\",\r\n    \"ItemName\": \"於菟\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"於菟\",\r\n    \"ItemNameTw\": \"於菟\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 177
   splits:
   - splitPath: Name
     text: "於菟"
+    translated: "Yutu"
   - splitPath: ItemName
     text: "於菟"
+    translated: "Yutu"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（200）"
+    translated: "Attack 200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"178\",\r\n    \"Name\": \"招财\",\r\n    \"ItemName\": \"招财\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"招財\",\r\n    \"ItemNameTw\": \"招財\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 178
   splits:
   - splitPath: Name
     text: "招财"
+    translated: "Bring luck with finances"
   - splitPath: ItemName
     text: "招财"
+    translated: "Bring luck with finances"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（200）"
+    translated: "Attack 200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+    translated: "Increased Damage (x12 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"179\",\r\n    \"Name\": \"七星甲\",\r\n    \"ItemName\": \"七星甲（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"七星甲\",\r\n    \"ItemNameTw\": \"七星甲（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 179
   splits:
   - splitPath: Name
     text: "七星甲"
+    translated: "Seven‑Star Armor"
   - splitPath: ItemName
-    text: "七星甲（{0}/{1}）"
+    text: "七星甲"
+    translated: "Seven‑Star Armor"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"180\",\r\n    \"Name\": \"飞蝗匣\",\r\n    \"ItemName\": \"飞蝗匣\",\r\n    \"Desc\": \"【机关】\\\\n攻击（3000）\\\\n封穴<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"飛蝗匣\",\r\n    \"ItemNameTw\": \"飛蝗匣\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（3000）\\\\n封穴<40%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 180
   splits:
   - splitPath: Name
     text: "飞蝗匣"
+    translated: "Scorpion Case"
   - splitPath: ItemName
     text: "飞蝗匣"
+    translated: "Scorpion Case"
   - splitPath: Desc
-    text: "【机关】\\n攻击（3000）\\n封穴<40%>\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（3000）"
+    translated: "Attack(3000)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "封穴"
+    translated: "Seal acupoints"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<40%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"181\",\r\n    \"Name\": \"连弩机\",\r\n    \"ItemName\": \"连弩机\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1200）\\\\n三连击\\\\n100%发动攻击\",\r\n    \"NameTw\": \"連弩機\",\r\n    \"ItemNameTw\": \"連弩機\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1200）\\\\n三連擊\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 181
   splits:
   - splitPath: Name
     text: "连弩机"
+    translated: "Crossbow machine"
   - splitPath: ItemName
     text: "连弩机"
+    translated: "Crossbow machine"
   - splitPath: Desc
-    text: "【机关】\\n攻击（1200）\\n三连击\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1200）"
+    translated: "Attack 1200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "三连击"
+    translated: "Triple attack"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"182\",\r\n    \"Name\": \"蛛丝壶\",\r\n    \"ItemName\": \"蛛丝壶\",\r\n    \"Desc\": \"【机关】\\\\n攻击（3000）\\\\n中毒<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"蛛絲壺\",\r\n    \"ItemNameTw\": \"蛛絲壺\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（3000）\\\\n中毒<40%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 182
   splits:
   - splitPath: Name
     text: "蛛丝壶"
+    translated: "Web Silk Flask"
   - splitPath: ItemName
     text: "蛛丝壶"
+    translated: "Web Silk Flask"
   - splitPath: Desc
-    text: "【机关】\\n攻击（3000）\\n中毒<40%>\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（3000）"
+    translated: "Attack(3000)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "中毒"
+    translated: "Poisoned"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}<40%>\\n{3}"
 - raw: "{\r\n    \"Key\": \"183\",\r\n    \"Name\": \"万花筒\",\r\n    \"ItemName\": \"万花筒\",\r\n    \"Desc\": \"【机关】\\\\n攻击（5000）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"萬花筒\",\r\n    \"ItemNameTw\": \"萬花筒\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（5000）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 183
   splits:
   - splitPath: Name
     text: "万花筒"
+    translated: "Tangram"
   - splitPath: ItemName
     text: "万花筒"
+    translated: "Tangram"
   - splitPath: Desc
-    text: "【机关】\\n攻击（5000）\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（5000）"
+    translated: "Attack 5000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"184\",\r\n    \"Name\": \"星罗伞\",\r\n    \"ItemName\": \"星罗伞\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1100）\\\\n三连击\\\\n轻伤<33%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"星羅傘\",\r\n    \"ItemNameTw\": \"星羅傘\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1100）\\\\n三連擊\\\\n輕傷<33%>\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 184
   splits:
   - splitPath: Name
     text: "星罗伞"
+    translated: "Starry Net Umbrella"
   - splitPath: ItemName
     text: "星罗伞"
+    translated: "Starry Net Umbrella"
   - splitPath: Desc
-    text: "【机关】\\n攻击（1100）\\n三连击\\n轻伤<33%>\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1100）"
+    translated: "Attack 1100"
+  - splitPath: Desc
+    subIndex: 2
+    text: "三连击"
+    translated: "Triple attack"
+  - splitPath: Desc
+    subIndex: 3
+    text: "轻伤"
+    translated: "Minor injury"
+  - splitPath: Desc
+    subIndex: 4
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<33%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"185\",\r\n    \"Name\": \"玉露牌\",\r\n    \"ItemName\": \"玉露牌（{0}/{1}）\",\r\n    \"Desc\": \"防御+20%\",\r\n    \"NameTw\": \"玉露牌\",\r\n    \"ItemNameTw\": \"玉露牌（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+20%\"\r\n  }"
   rawIndex: 185
   splits:
   - splitPath: Name
     text: "玉露牌"
+    translated: "Yulu Brand"
   - splitPath: ItemName
-    text: "玉露牌（{0}/{1}）"
+    text: "玉露牌"
+    translated: "Yulu Brand"
   - splitPath: Desc
-    text: "防御+20%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+20%"
 - raw: "{\r\n    \"Key\": \"186\",\r\n    \"Name\": \"木鹊\",\r\n    \"ItemName\": \"木鹊\",\r\n    \"Desc\": \"【机关】\\\\n攻击（500）\\\\n增伤（10倍匠造）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"木鵲\",\r\n    \"ItemNameTw\": \"木鵲\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（500）\\\\n增傷（10倍匠造）\\\\n100%發動攻擊\"\r\n  }"
   rawIndex: 186
   splits:
   - splitPath: Name
     text: "木鹊"
+    translated: "Wood Swallow"
   - splitPath: ItemName
     text: "木鹊"
+    translated: "Wood Swallow"
   - splitPath: Desc
-    text: "【机关】\\n攻击（500）\\n增伤（10倍匠造）\\n100%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（500）"
+    translated: "Attack 500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍匠造）"
+    translated: "Increased Damage (10 times Craftsmanship)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+    translated: "100% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"187\",\r\n    \"Name\": \"木狗\",\r\n    \"ItemName\": \"木狗\",\r\n    \"Desc\": \"【机关】\\\\n攻击（800）\\\\n增伤（16倍匠造）\\\\n80%发动攻击\",\r\n    \"NameTw\": \"木狗\",\r\n    \"ItemNameTw\": \"木狗\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（800）\\\\n增傷（16倍匠造）\\\\n80%發動攻擊\"\r\n  }"
   rawIndex: 187
   splits:
   - splitPath: Name
     text: "木狗"
+    translated: "Wooden dog"
   - splitPath: ItemName
     text: "木狗"
+    translated: "Wooden dog"
   - splitPath: Desc
-    text: "【机关】\\n攻击（800）\\n增伤（16倍匠造）\\n80%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（800）"
+    translated: "Attack 800"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（16倍匠造）"
+    translated: "Increased Damage (16 Times Crafted)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "80%发动攻击"
+    translated: "80% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"190\",\r\n    \"Name\": \"木兽\",\r\n    \"ItemName\": \"木兽\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1200）\\\\n增伤（24倍匠造）\\\\n60%发动攻击\",\r\n    \"NameTw\": \"木獸\",\r\n    \"ItemNameTw\": \"木獸\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1200）\\\\n增傷（24倍匠造）\\\\n60%發動攻擊\"\r\n  }"
   rawIndex: 190
   splits:
   - splitPath: Name
     text: "木兽"
+    translated: "Wooden beast"
   - splitPath: ItemName
     text: "木兽"
+    translated: "Wooden beast"
   - splitPath: Desc
-    text: "【机关】\\n攻击（1200）\\n增伤（24倍匠造）\\n60%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1200）"
+    translated: "Attack 1200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（24倍匠造）"
+    translated: "Increased Damage (24 times Crafted)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "60%发动攻击"
+    translated: "60% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"191\",\r\n    \"Name\": \"木牛\",\r\n    \"ItemName\": \"木牛\",\r\n    \"Desc\": \"【机关】\\\\n回复一点行动力\\\\n50%发动\",\r\n    \"NameTw\": \"木牛\",\r\n    \"ItemNameTw\": \"木牛\",\r\n    \"DescTw\": \"【機關】\\\\n回覆一點行動力\\\\n50%發動\"\r\n  }"
   rawIndex: 191
   splits:
   - splitPath: Name
     text: "木牛"
+    translated: "Wooden ox"
   - splitPath: ItemName
     text: "木牛"
+    translated: "Wooden ox"
   - splitPath: Desc
-    text: "【机关】\\n回复一点行动力\\n50%发动"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "回复一点行动力"
+    translated: "Grant them some action points"
+  - splitPath: Desc
+    subIndex: 2
+    text: "50%发动"
+    translated: "50% activate"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}"
 - raw: "{\r\n    \"Key\": \"192\",\r\n    \"Name\": \"木麒麟\",\r\n    \"ItemName\": \"木麒麟\",\r\n    \"Desc\": \"【机关】\\\\n攻击（5555）\\\\n增伤（10倍匠造）\\\\n50%发动攻击\",\r\n    \"NameTw\": \"木麒麟\",\r\n    \"ItemNameTw\": \"木麒麟\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（5555）\\\\n增傷（10倍匠造）\\\\n50%發動攻擊\"\r\n  }"
   rawIndex: 192
   splits:
   - splitPath: Name
     text: "木麒麟"
+    translated: "Wooden Qilin"
   - splitPath: ItemName
     text: "木麒麟"
+    translated: "Wooden Qilin"
   - splitPath: Desc
-    text: "【机关】\\n攻击（5555）\\n增伤（10倍匠造）\\n50%发动攻击"
+    text: "【机关】"
+    translated: "【Mechanism】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（5555）"
+    translated: "Attack 5555"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（10倍匠造）"
+    translated: "Increased Damage (10 times Craftsmanship)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "50%发动攻击"
+    translated: "50% initiate the attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"193\",\r\n    \"Name\": \"鸢护\",\r\n    \"ItemName\": \"鸢护（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"鳶護\",\r\n    \"ItemNameTw\": \"鳶護（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 193
   splits:
   - splitPath: Name
     text: "鸢护"
+    translated: "Eagle Guard"
   - splitPath: ItemName
-    text: "鸢护（{0}/{1}）"
+    text: "鸢护"
+    translated: "Eagle Guard"
   - splitPath: Desc
     text: "每层抵消一次攻击"
+    translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"194\",\r\n    \"Name\": \"廿八星宿阵\",\r\n    \"ItemName\": \"廿八星宿阵\",\r\n    \"Desc\": \"助战攻击+100%\",\r\n    \"NameTw\": \"廿八星宿陣\",\r\n    \"ItemNameTw\": \"廿八星宿陣\",\r\n    \"DescTw\": \"助戰攻擊+100%\"\r\n  }"
   rawIndex: 194
   splits:
   - splitPath: Name
     text: "廿八星宿阵"
+    translated: "Twenty‑Eight Mansions Array"
   - splitPath: ItemName
     text: "廿八星宿阵"
+    translated: "Twenty‑Eight Mansions Array"
   - splitPath: Desc
-    text: "助战攻击+100%"
+    text: "助战攻击"
+    translated: "Pet attack +80%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+100%"
 - raw: "{\r\n    \"Key\": \"195\",\r\n    \"Name\": \"青莲剑歌\",\r\n    \"ItemName\": \"青莲剑歌\",\r\n    \"Desc\": \"攻击+30%\",\r\n    \"NameTw\": \"青蓮劍歌\",\r\n    \"ItemNameTw\": \"青蓮劍歌\",\r\n    \"DescTw\": \"攻擊+30%\"\r\n  }"
   rawIndex: 195
   splits:
   - splitPath: Name
     text: "青莲剑歌"
+    translated: "Sword Song of the White Lotus"
   - splitPath: ItemName
     text: "青莲剑歌"
+    translated: "Sword Song of the White Lotus"
   - splitPath: Desc
-    text: "攻击+30%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+30%"
 - raw: "{\r\n    \"Key\": \"196\",\r\n    \"Name\": \"夜渡无人盾自横\",\r\n    \"ItemName\": \"夜渡无人盾自横（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"夜渡無人盾自橫\",\r\n    \"ItemNameTw\": \"夜渡無人盾自橫（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 196
   splits:
   - splitPath: Name
     text: "夜渡无人盾自横"
+    translated: "Cross the night without raising one's shield"
   - splitPath: ItemName
-    text: "夜渡无人盾自横（{0}/{1}）"
+    text: "夜渡无人盾自横"
+    translated: "Cross the night without raising one's shield"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"197\",\r\n    \"Name\": \"云雨屏\",\r\n    \"ItemName\": \"云雨屏（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"雲雨屏\",\r\n    \"ItemNameTw\": \"雲雨屏（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 197
   splits:
   - splitPath: Name
     text: "云雨屏"
+    translated: "Cloud and Rain Screen"
   - splitPath: ItemName
-    text: "云雨屏（{0}/{1}）"
+    text: "云雨屏"
+    translated: "Cloud and Rain Screen"
   - splitPath: Desc
     text: "每层抵消一次攻击"
+    translated: "Each layer counters one attack"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
 - raw: "{\r\n    \"Key\": \"198\",\r\n    \"Name\": \"苍狼\",\r\n    \"ItemName\": \"苍狼\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（400）\\\\n增伤（13倍御兽）\\\\n轻伤<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"蒼狼\",\r\n    \"ItemNameTw\": \"蒼狼\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（400）\\\\n增傷（13倍御獸）\\\\n輕傷<30%>\\\\n90%發動攻擊\"\r\n  }"
   rawIndex: 198
   splits:
   - splitPath: Name
     text: "苍狼"
+    translated: "Wild Wolf"
   - splitPath: ItemName
     text: "苍狼"
+    translated: "Wild Wolf"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（400）\\n增伤（13倍御兽）\\n轻伤<30%>\\n90%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（400）"
+    translated: "Attack 400"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（13倍御兽）"
+    translated: "Increased Damage (x13 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "轻伤"
+    translated: "Minor injury"
+  - splitPath: Desc
+    subIndex: 4
+    text: "90%发动攻击"
+    translated: "90% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<30%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"199\",\r\n    \"Name\": \"小福\",\r\n    \"ItemName\": \"小福\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（500）\\\\n增伤（18倍御兽）\\\\n80%发动攻击\",\r\n    \"NameTw\": \"小福\",\r\n    \"ItemNameTw\": \"小福\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（500）\\\\n增傷（18倍御獸）\\\\n80%發動攻擊\"\r\n  }"
   rawIndex: 199
   splits:
   - splitPath: Name
     text: "小福"
+    translated: "Little Fortune"
   - splitPath: ItemName
     text: "小福"
+    translated: "Little Fortune"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（500）\\n增伤（18倍御兽）\\n80%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（500）"
+    translated: "Attack 500"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（18倍御兽）"
+    translated: "Increased Damage (x18 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "80%发动攻击"
+    translated: "80% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "{\r\n    \"Key\": \"200\",\r\n    \"Name\": \"大福\",\r\n    \"ItemName\": \"大福\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（4000）\\\\n增伤（20倍御兽）\\\\n重伤<40%>\\\\n60%发动攻击\",\r\n    \"NameTw\": \"大福\",\r\n    \"ItemNameTw\": \"大福\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（4000）\\\\n增傷（20倍御獸）\\\\n重傷<40%>\\\\n60%發動攻擊\"\r\n  }"
   rawIndex: 200
   splits:
   - splitPath: Name
     text: "大福"
+    translated: "Great Fortune"
   - splitPath: ItemName
     text: "大福"
+    translated: "Great Fortune"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（4000）\\n增伤（20倍御兽）\\n重伤<40%>\\n60%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（4000）"
+    translated: "Attack 4000"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（20倍御兽）"
+    translated: "Increased Damage (x20 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "重伤"
+    translated: "Severe injury"
+  - splitPath: Desc
+    subIndex: 4
+    text: "60%发动攻击"
+    translated: "60% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<40%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"201\",\r\n    \"Name\": \"兽灵秘术\",\r\n    \"ItemName\": \"兽灵秘术\",\r\n    \"Desc\": \"助战攻击+60%\",\r\n    \"NameTw\": \"獸靈祕術\",\r\n    \"ItemNameTw\": \"獸靈祕術\",\r\n    \"DescTw\": \"助戰攻擊+60%\"\r\n  }"
   rawIndex: 201
   splits:
   - splitPath: Name
     text: "兽灵秘术"
+    translated: "Wild Spirit Secret Art"
   - splitPath: ItemName
     text: "兽灵秘术"
+    translated: "Wild Spirit Secret Art"
   - splitPath: Desc
-    text: "助战攻击+60%"
+    text: "助战攻击"
+    translated: "Pet attack +80%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+60%"
 - raw: "{\r\n    \"Key\": \"202\",\r\n    \"Name\": \"灵心通契\",\r\n    \"ItemName\": \"灵心通契\",\r\n    \"Desc\": \"助战攻击+120%\",\r\n    \"NameTw\": \"靈心通契\",\r\n    \"ItemNameTw\": \"靈心通契\",\r\n    \"DescTw\": \"助戰攻擊+120%\"\r\n  }"
   rawIndex: 202
   splits:
   - splitPath: Name
     text: "灵心通契"
+    translated: "Heart and Soul Merged"
   - splitPath: ItemName
     text: "灵心通契"
+    translated: "Heart and Soul Merged"
   - splitPath: Desc
-    text: "助战攻击+120%"
+    text: "助战攻击"
+    translated: "Pet attack +80%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+120%"
 - raw: "{\r\n    \"Key\": \"203\",\r\n    \"Name\": \"苍狼王\",\r\n    \"ItemName\": \"苍狼王\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1200）\\\\n增伤（18倍御兽）\\\\n轻伤<40%>\\\\n80%发动攻击\",\r\n    \"NameTw\": \"蒼狼王\",\r\n    \"ItemNameTw\": \"蒼狼王\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1200）\\\\n增傷（18倍御獸）\\\\n輕傷<40%>\\\\n80%發動攻擊\"\r\n  }"
   rawIndex: 203
   splits:
   - splitPath: Name
     text: "苍狼王"
+    translated: "Wolf King"
   - splitPath: ItemName
     text: "苍狼王"
+    translated: "Wolf King"
   - splitPath: Desc
-    text: "【宠物】\\n攻击（1200）\\n增伤（18倍御兽）\\n轻伤<40%>\\n80%发动攻击"
+    text: "【宠物】"
+    translated: "【Pet】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1200）"
+    translated: "Attack 1200"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（18倍御兽）"
+    translated: "Increased Damage (x18 Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "轻伤"
+    translated: "Minor injury"
+  - splitPath: Desc
+    subIndex: 4
+    text: "80%发动攻击"
+    translated: "80% initiate attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<40%>\\n{4}"
 - raw: "{\r\n    \"Key\": \"204\",\r\n    \"Name\": \"漏尽通\",\r\n    \"ItemName\": \"漏尽通（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"漏盡通\",\r\n    \"ItemNameTw\": \"漏盡通（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 204
   splits:
   - splitPath: Name
     text: "漏尽通"
+    translated: "All leaks are plugged"
   - splitPath: ItemName
-    text: "漏尽通（{0}/{1}）"
+    text: "漏尽通"
+    translated: "All leaks are plugged"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"205\",\r\n    \"Name\": \"元阳神功\",\r\n    \"ItemName\": \"元阳神功\",\r\n    \"Desc\": \"攻击+40%\",\r\n    \"NameTw\": \"元陽神功\",\r\n    \"ItemNameTw\": \"元陽神功\",\r\n    \"DescTw\": \"攻擊+40%\"\r\n  }"
   rawIndex: 205
   splits:
   - splitPath: Name
     text: "元阳神功"
+    translated: "Yang Divine Skill"
   - splitPath: ItemName
     text: "元阳神功"
+    translated: "Yang Divine Skill"
   - splitPath: Desc
-    text: "攻击+40%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: Desc
+    template: "{0}+40%"
 - raw: "{\r\n    \"Key\": \"206\",\r\n    \"Name\": \"仙神变\",\r\n    \"ItemName\": \"仙神变（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"仙神變\",\r\n    \"ItemNameTw\": \"仙神變（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 206
   splits:
   - splitPath: Name
     text: "仙神变"
+    translated: "Deity's Transformation"
   - splitPath: ItemName
-    text: "仙神变（{0}/{1}）"
+    text: "仙神变"
+    translated: "Deity's Transformation"
   - splitPath: Desc
-    text: "攻击+{0}%"
+    text: "攻击"
+    translated: "Attack +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"207\",\r\n    \"Name\": \"鬼王变\",\r\n    \"ItemName\": \"鬼王变（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"鬼王變\",\r\n    \"ItemNameTw\": \"鬼王變（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 207
   splits:
   - splitPath: Name
     text: "鬼王变"
+    translated: "King of Demons Transformed"
   - splitPath: ItemName
-    text: "鬼王变（{0}/{1}）"
+    text: "鬼王变"
+    translated: "King of Demons Transformed"
   - splitPath: Desc
-    text: "防御+{0}%"
+    text: "防御"
+    translated: "Defense +{0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"208\",\r\n    \"Name\": \"英杰变\",\r\n    \"ItemName\": \"英杰变（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"英傑變\",\r\n    \"ItemNameTw\": \"英傑變（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 208
   splits:
   - splitPath: Name
     text: "英杰变"
+    translated: "Hero Turned"
   - splitPath: ItemName
-    text: "英杰变（{0}/{1}）"
+    text: "英杰变"
+    translated: "Hero Turned"
   - splitPath: Desc
-    text: "回复+{0}%"
+    text: "回复"
+    translated: "Reply with {0}%"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"
+  - splitPath: Desc
+    template: "{0}+⟦0⟧%"

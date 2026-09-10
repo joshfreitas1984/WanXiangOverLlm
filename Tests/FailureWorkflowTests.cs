@@ -1,13 +1,8 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using FanslationStudio.LlmKit;
+using FanslationStudio.LlmKit.Configuration;
 using FanslationStudio.LlmKit.Support;
-using Translate.Support;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Utility;
 
 namespace Translate.Tests
 {
@@ -15,10 +10,10 @@ namespace Translate.Tests
     {
         const string workingDirectory = "../../../../Files";
         private const string FailingTransactionsPath = $"{workingDirectory}/TestResults/Failed/FailingTranslations.yaml";
-        
+
         public static TextFileToSplit DefaultTestTextFile() => new TextFileToSplit()
         {
-            Path = "",            
+            Path = "",
         };
 
         public class FailedTranslation
@@ -51,7 +46,7 @@ namespace Translate.Tests
                             continue;
 
                         if (!string.IsNullOrEmpty(split.Text) && (string.IsNullOrEmpty(split.Translated) || split.FlaggedForRetranslation))
-                        {                            
+                        {
                             failures.Add(new FailedTranslation
                             {
                                 Text = split.Text,
@@ -69,7 +64,7 @@ namespace Translate.Tests
                 await Task.CompletedTask;
             });
 
-            var serializer = Yaml.CreateSerializer();
+            var serializer = YamlHelper.CreateSerializer();
             var yaml = serializer.Serialize(failures);
             File.WriteAllText(FailingTransactionsPath, yaml);
 
@@ -83,9 +78,9 @@ namespace Translate.Tests
         {
             using var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(300);
-            var config = Configuration.GetConfiguration(workingDirectory);
+            var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
-            var serializer = Yaml.CreateDeserializer();
+            var serializer = YamlHelper.CreateDeserializer();
             var content = File.ReadAllText(FailingTransactionsPath);
             var failures = serializer.Deserialize<List<FailedTranslation>>(content);
 
@@ -95,13 +90,14 @@ namespace Translate.Tests
                     textFile.EnableBasePrompts = true;
                     textFile.EnableGlossary = true;
 
-                    var messages = TranslationService.GenerateBaseMessages(config, failure.Text, textFile);
+                    var modelConfig = LlmHelpers.CalculateModelConfig(config, failure.Text);
+                    var messages = TranslationService.GenerateBaseMessages(modelConfig, config.Runtime.GlossaryLines, failure.Text, textFile);
                     messages.Add(LlmHelpers.GenerateAssistantPrompt(failure.Translated));
                     messages.Add(LlmHelpers.GenerateUserPrompt(
                         @"You have removed a tag from translated text
 Can you update the current system prompt and give me the full system prompt that would stop it from happening in future?"));
 
-                    var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
+                    var result = await TranslationService.TranslateMessagesAsync(client, config, modelConfig, messages);
 
                     File.WriteAllText($"{workingDirectory}/TestResults/Failed/TestExplain.txt", result);
 
@@ -116,9 +112,9 @@ Can you update the current system prompt and give me the full system prompt that
 
             using var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(300);
-            var config = Configuration.GetConfiguration(workingDirectory);
+            var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
-            var serializer = Yaml.CreateDeserializer();
+            var serializer = YamlHelper.CreateDeserializer();
             var content = File.ReadAllText(FailingTransactionsPath);
             var failures = serializer.Deserialize<List<FailedTranslation>>(content);
 
@@ -131,9 +127,10 @@ Can you update the current system prompt and give me the full system prompt that
 
                     if (isManual)
                     {
-                        var messages = TranslationService.GenerateBaseMessages(config, failure.Text, textFile);
+                        var modelConfig = LlmHelpers.CalculateModelConfig(config, failure.Text);
+                        var messages = TranslationService.GenerateBaseMessages(modelConfig, config.Runtime.GlossaryLines, failure.Text, textFile);
 
-                        var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
+                        var result = await TranslationService.TranslateMessagesAsync(client, config, modelConfig, messages);
                         File.WriteAllText($"{workingDirectory}/TestResults/Failed/RetestNewSystemPrompts.txt", result);
 
 

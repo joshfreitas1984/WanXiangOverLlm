@@ -4,8 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using Translate.Support;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Configuration;
 using Xunit.Sdk;
 
 namespace Translate.Tests;
@@ -17,10 +16,7 @@ public class SupportTests
     [Fact]
     public async Task GetNames()
     {
-        var config = Configuration.GetConfiguration(workingDirectory,
-            ""
-            //$"{workingDirectory}/TestResults"
-            );
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
         var names = new List<string>();
 
@@ -71,10 +67,7 @@ public class SupportTests
     [Fact]
     public async Task GetSects()
     {
-        var config = Configuration.GetConfiguration(workingDirectory,
-            ""
-            //$"{workingDirectory}/TestResults"
-            );
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
         var names = new List<string>();
 
@@ -127,10 +120,7 @@ public class SupportTests
     [Fact]
     public async Task GetProps()
     {
-        var config = Configuration.GetConfiguration(workingDirectory,
-            ""
-            //$"{workingDirectory}/TestResults"
-            );
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
         var names = new List<(string, string)>();
 

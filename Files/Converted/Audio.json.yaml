@@ -87,6 +87,7 @@
   splits:
   - splitPath: Desc
     text: "唐门"
+    translated: "Tang Clan"
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Desc\": \"战斗1\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -145,8 +146,15 @@
   rawIndex: 10010
   splits:
   - splitPath: Desc
-    text: "移除buff、支援"
-    translated: "Remove buff, support"
+    text: "移除"
+    translated: "Removed"
+  - splitPath: Desc
+    subIndex: 1
+    text: "、支援"
+    translated: ", support"
+  templates:
+  - splitPath: Desc
+    template: "{0}buff{1}"
 - raw: "{\r\n    \"Key\": \"10011\",\r\n    \"Desc\": \"庙\"\r\n  }"
   rawIndex: 10011
   splits:
@@ -193,8 +201,11 @@
   rawIndex: 10018
   splits:
   - splitPath: Desc
-    text: "buff攻击"
+    text: "攻击"
     translated: "Attack buff"
+  templates:
+  - splitPath: Desc
+    template: "buff{0}"
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Desc\": \"枪刺\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -217,8 +228,11 @@
   rawIndex: 10022
   splits:
   - splitPath: Desc
-    text: "剑canglang"
+    text: "剑"
     translated: "Sword canglang"
+  templates:
+  - splitPath: Desc
+    template: "{0}canglang"
 - raw: "{\r\n    \"Key\": \"10023\",\r\n    \"Desc\": \"蛇\"\r\n  }"
   rawIndex: 10023
   splits:

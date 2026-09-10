@@ -5,8 +5,11 @@
     text: "深山寻幽"
     translated: "Exploring the Depths of the Mountains"
   - splitPath: Desc
-    text: "异蛇（常规）*2"
+    text: "异蛇（常规）"
     translated: "Strange Snake (Normal)*2"
+  templates:
+  - splitPath: Desc
+    template: "{0}*2"
 - raw: "{\r\n    \"Key\": \"100101\",\r\n    \"Name\": \"衡山小校一\",\r\n    \"Desc\": \"褚相如\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"衡山小校一\",\r\n    \"DescTw\": \"褚相如\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100101
   splits:
@@ -110,11 +113,18 @@
     text: "娄村娄德旺"
     translated: "Lou Dewang from Lou Village"
   - splitPath: Desc
-    text: "娄德旺&娄七姑"
+    text: "娄德旺"
     translated: "Lou Dewang & Lou Qigu"
+  - splitPath: Desc
+    subIndex: 1
+    text: "娄七姑"
+    translated: "Liu Qi Gu"
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
+  templates:
+  - splitPath: Desc
+    template: "{0}&{1}"
 - raw: "{\r\n    \"Key\": \"100112\",\r\n    \"Name\": \"乱石寨殷通\",\r\n    \"Desc\": \"殷通一众\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"亂石寨殷通\",\r\n    \"DescTw\": \"殷通一眾\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100112
   splits:
@@ -1131,7 +1141,7 @@
     translated: "Unintentional Lou Dewang"
   - splitPath: Desc
     text: "娄德旺"
-    translated: "Lou Dewang"
+    translated: "Lou Dewang & Lou Qigu"
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -2868,505 +2878,673 @@
   splits:
   - splitPath: Name
     text: "艾琳娜全力"
+    translated: "Elena gave it her all"
   - splitPath: Desc
     text: "艾琳娜"
+    translated: "Elena"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100344\",\r\n    \"Name\": \"艾琳娜七分\",\r\n    \"Desc\": \"艾琳娜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"艾琳娜七分\",\r\n    \"DescTw\": \"艾琳娜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100344
   splits:
   - splitPath: Name
     text: "艾琳娜七分"
+    translated: "Elena seven parts"
   - splitPath: Desc
     text: "艾琳娜"
+    translated: "Elena"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100345\",\r\n    \"Name\": \"艾琳娜五分\",\r\n    \"Desc\": \"艾琳娜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"艾琳娜五分\",\r\n    \"DescTw\": \"艾琳娜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100345
   splits:
   - splitPath: Name
     text: "艾琳娜五分"
+    translated: "Elena received five points"
   - splitPath: Desc
     text: "艾琳娜"
+    translated: "Elena"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100346\",\r\n    \"Name\": \"艾琳娜三分\",\r\n    \"Desc\": \"艾琳娜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"艾琳娜三分\",\r\n    \"DescTw\": \"艾琳娜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100346
   splits:
   - splitPath: Name
     text: "艾琳娜三分"
+    translated: "Elena scores from beyond the arc"
   - splitPath: Desc
     text: "艾琳娜"
+    translated: "Elena"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100347\",\r\n    \"Name\": \"项欺霜全力\",\r\n    \"Desc\": \"项欺霜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"項欺霜全力\",\r\n    \"DescTw\": \"項欺霜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100347
   splits:
   - splitPath: Name
     text: "项欺霜全力"
+    translated: "Xiang Qishuang put forth all her effort"
   - splitPath: Desc
     text: "项欺霜"
+    translated: "Xiang Qishuang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100348\",\r\n    \"Name\": \"项欺霜七分\",\r\n    \"Desc\": \"项欺霜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"項欺霜七分\",\r\n    \"DescTw\": \"項欺霜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100348
   splits:
   - splitPath: Name
     text: "项欺霜七分"
+    translated: "Xiang Qishuang is seven parts"
   - splitPath: Desc
     text: "项欺霜"
+    translated: "Xiang Qishuang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100349\",\r\n    \"Name\": \"项欺霜五分\",\r\n    \"Desc\": \"项欺霜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"項欺霜五分\",\r\n    \"DescTw\": \"項欺霜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100349
   splits:
   - splitPath: Name
     text: "项欺霜五分"
+    translated: "Xiang Qishuang scored five points"
   - splitPath: Desc
     text: "项欺霜"
+    translated: "Xiang Qishuang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100350\",\r\n    \"Name\": \"项欺霜三分\",\r\n    \"Desc\": \"项欺霜\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"項欺霜三分\",\r\n    \"DescTw\": \"項欺霜\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100350
   splits:
   - splitPath: Name
     text: "项欺霜三分"
+    translated: "Xiang Qishuang holds three"
   - splitPath: Desc
     text: "项欺霜"
+    translated: "Xiang Qishuang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100351\",\r\n    \"Name\": \"晏蛾眉全力\",\r\n    \"Desc\": \"晏蛾眉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"晏蛾眉全力\",\r\n    \"DescTw\": \"晏蛾眉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100351
   splits:
   - splitPath: Name
     text: "晏蛾眉全力"
+    translated: "Yan Emei put forth her full strength"
   - splitPath: Desc
     text: "晏蛾眉"
+    translated: "Yan Emei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100352\",\r\n    \"Name\": \"晏蛾眉七分\",\r\n    \"Desc\": \"晏蛾眉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"晏蛾眉七分\",\r\n    \"DescTw\": \"晏蛾眉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100352
   splits:
   - splitPath: Name
     text: "晏蛾眉七分"
+    translated: "Yan Emei is seven‑tenths complete"
   - splitPath: Desc
     text: "晏蛾眉"
+    translated: "Yan Emei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100353\",\r\n    \"Name\": \"晏蛾眉五分\",\r\n    \"Desc\": \"晏蛾眉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"晏蛾眉五分\",\r\n    \"DescTw\": \"晏蛾眉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100353
   splits:
   - splitPath: Name
     text: "晏蛾眉五分"
+    translated: "Yan Emei is five percent"
   - splitPath: Desc
     text: "晏蛾眉"
+    translated: "Yan Emei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100354\",\r\n    \"Name\": \"晏蛾眉三分\",\r\n    \"Desc\": \"晏蛾眉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"晏蛾眉三分\",\r\n    \"DescTw\": \"晏蛾眉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100354
   splits:
   - splitPath: Name
     text: "晏蛾眉三分"
+    translated: "Yan Emei divides the sky into three"
   - splitPath: Desc
     text: "晏蛾眉"
+    translated: "Yan Emei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100355\",\r\n    \"Name\": \"沈蓉蓉全力\",\r\n    \"Desc\": \"沈蓉蓉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"沈蓉蓉全力\",\r\n    \"DescTw\": \"沈蓉蓉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100355
   splits:
   - splitPath: Name
     text: "沈蓉蓉全力"
+    translated: "Shen Rongrong gave it her all"
   - splitPath: Desc
     text: "沈蓉蓉"
+    translated: "Shen Rongrong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100356\",\r\n    \"Name\": \"沈蓉蓉七分\",\r\n    \"Desc\": \"沈蓉蓉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"沈蓉蓉七分\",\r\n    \"DescTw\": \"沈蓉蓉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100356
   splits:
   - splitPath: Name
     text: "沈蓉蓉七分"
+    translated: "Shen Rongrong is seven‑tenths"
   - splitPath: Desc
     text: "沈蓉蓉"
+    translated: "Shen Rongrong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100357\",\r\n    \"Name\": \"沈蓉蓉五分\",\r\n    \"Desc\": \"沈蓉蓉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"沈蓉蓉五分\",\r\n    \"DescTw\": \"沈蓉蓉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100357
   splits:
   - splitPath: Name
     text: "沈蓉蓉五分"
+    translated: "Shen Rongrong scored five points"
   - splitPath: Desc
     text: "沈蓉蓉"
+    translated: "Shen Rongrong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100358\",\r\n    \"Name\": \"沈蓉蓉三分\",\r\n    \"Desc\": \"沈蓉蓉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"沈蓉蓉三分\",\r\n    \"DescTw\": \"沈蓉蓉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100358
   splits:
   - splitPath: Name
     text: "沈蓉蓉三分"
+    translated: "Shen Rongrong split three points"
   - splitPath: Desc
     text: "沈蓉蓉"
+    translated: "Shen Rongrong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100359\",\r\n    \"Name\": \"唐纵江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"PlayerName\": \"唐老太爷\",\r\n    \"NameTw\": \"唐縱江湖人\",\r\n    \"DescTw\": \"江湖人\",\r\n    \"PlayerNameTw\": \"唐老太爺\"\r\n  }"
   rawIndex: 100359
   splits:
   - splitPath: Name
     text: "唐纵江湖人"
+    translated: "Dongzong roams the Jianghu"
   - splitPath: Desc
     text: "江湖人"
+    translated: "Jianghu People"
   - splitPath: PlayerName
     text: "唐老太爷"
+    translated: "Old Lord Tang"
 - raw: "{\r\n    \"Key\": \"100360\",\r\n    \"Name\": \"劫云助唐门\",\r\n    \"Desc\": \"石少康\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"劫雲助唐門\",\r\n    \"DescTw\": \"石少康\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100360
   splits:
   - splitPath: Name
     text: "劫云助唐门"
+    translated: "Devil's clouds assist the Tang Clan"
   - splitPath: Desc
     text: "石少康"
+    translated: "Shi Shaokang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100361\",\r\n    \"Name\": \"天魔谭培公\",\r\n    \"Desc\": \"谭培公\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"天魔譚培公\",\r\n    \"DescTw\": \"譚培公\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100361
   splits:
   - splitPath: Name
     text: "天魔谭培公"
+    translated: "Tan Peigong, Heavenly Demon"
   - splitPath: Desc
     text: "谭培公"
+    translated: "Tan Peigong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100362\",\r\n    \"Name\": \"天魔教魔候\",\r\n    \"Desc\": \"任苍溟\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"天魔教魔候\",\r\n    \"DescTw\": \"任蒼溟\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100362
   splits:
   - splitPath: Name
     text: "天魔教魔候"
+    translated: "Heavenly Demon Sect Demon Lord"
   - splitPath: Desc
     text: "任苍溟"
+    translated: "Ren Cangming"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100363\",\r\n    \"Name\": \"唐家老爷子\",\r\n    \"Desc\": \"唐纵\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐家老爺子\",\r\n    \"DescTw\": \"唐縱\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100363
   splits:
   - splitPath: Name
     text: "唐家老爷子"
+    translated: "Tang Family Patriarch"
   - splitPath: Desc
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100364\",\r\n    \"Name\": \"唐门武唐兴\",\r\n    \"Desc\": \"唐兴\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐門武唐興\",\r\n    \"DescTw\": \"唐興\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100364
   splits:
   - splitPath: Name
     text: "唐门武唐兴"
+    translated: "Tang Clan's Martial Flourishing"
   - splitPath: Desc
     text: "唐兴"
+    translated: "Tang Xing"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100365\",\r\n    \"Name\": \"唐门唐幺幺\",\r\n    \"Desc\": \"唐幺幺\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐門唐么么\",\r\n    \"DescTw\": \"唐么么\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100365
   splits:
   - splitPath: Name
     text: "唐门唐幺幺"
+    translated: "Tang Clan's Second Daughter"
   - splitPath: Desc
     text: "唐幺幺"
+    translated: "Tang Yaoya"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100366\",\r\n    \"Name\": \"明通寻明达\",\r\n    \"Desc\": \"明达\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"明通尋明達\",\r\n    \"DescTw\": \"明達\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100366
   splits:
   - splitPath: Name
     text: "明通寻明达"
+    translated: "Clear Path Seeks Clear Understanding"
   - splitPath: Desc
     text: "明达"
+    translated: "Ming Da"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100367\",\r\n    \"Name\": \"唐大了恩仇\",\r\n    \"Desc\": \"唐傲\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐大了恩仇\",\r\n    \"DescTw\": \"唐傲\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100367
   splits:
   - splitPath: Name
     text: "唐大了恩仇"
+    translated: "Tang Daresolved old grudges"
   - splitPath: Desc
     text: "唐傲"
+    translated: "Zhongli Hen"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100368\",\r\n    \"Name\": \"唐家老爷子\",\r\n    \"Desc\": \"唐纵\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐家老爺子\",\r\n    \"DescTw\": \"唐縱\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100368
   splits:
   - splitPath: Name
     text: "唐家老爷子"
+    translated: "Tang Family Patriarch"
   - splitPath: Desc
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100369\",\r\n    \"Name\": \"唐家老爷子\",\r\n    \"Desc\": \"唐纵\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐家老爺子\",\r\n    \"DescTw\": \"唐縱\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100369
   splits:
   - splitPath: Name
     text: "唐家老爷子"
+    translated: "Tang Family Patriarch"
   - splitPath: Desc
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100370\",\r\n    \"Name\": \"卢方与侯平\",\r\n    \"Desc\": \"卢方侯平\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"盧方與侯平\",\r\n    \"DescTw\": \"盧方侯平\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100370
   splits:
   - splitPath: Name
     text: "卢方与侯平"
+    translated: "Lu Fang and Hou Ping"
   - splitPath: Desc
     text: "卢方侯平"
+    translated: "Lord Ping Peng of Lu Fang"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100371\",\r\n    \"Name\": \"一战傅云飞\",\r\n    \"Desc\": \"傅云飞\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"一戰傅雲飛\",\r\n    \"DescTw\": \"傅雲飛\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100371
   splits:
   - splitPath: Name
     text: "一战傅云飞"
+    translated: "Battle of Fu Yungui"
   - splitPath: Desc
     text: "傅云飞"
+    translated: "Fu Yunfei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100372\",\r\n    \"Name\": \"二战傅云飞\",\r\n    \"Desc\": \"傅云飞\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"二戰傅雲飛\",\r\n    \"DescTw\": \"傅雲飛\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100372
   splits:
   - splitPath: Name
     text: "二战傅云飞"
+    translated: "World War II Zhu Furong"
   - splitPath: Desc
     text: "傅云飞"
+    translated: "Fu Yunfei"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100373\",\r\n    \"Name\": \"寇伏魔\",\r\n    \"Desc\": \"寇伏魔\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"寇伏魔\",\r\n    \"DescTw\": \"寇伏魔\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100373
   splits:
   - splitPath: Name
     text: "寇伏魔"
+    translated: "Foe Slayer Ku"
   - splitPath: Desc
     text: "寇伏魔"
+    translated: "Foe Slayer Ku"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100374\",\r\n    \"Name\": \"唐家老爷子\",\r\n    \"Desc\": \"唐纵\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐家老爺子\",\r\n    \"DescTw\": \"唐縱\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100374
   splits:
   - splitPath: Name
     text: "唐家老爷子"
+    translated: "Tang Family Patriarch"
   - splitPath: Desc
     text: "唐纵"
+    translated: "Tang Zong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100375\",\r\n    \"Name\": \"唐矩\",\r\n    \"Desc\": \"唐矩\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐矩\",\r\n    \"DescTw\": \"唐矩\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100375
   splits:
   - splitPath: Name
     text: "唐矩"
+    translated: "Tang Ju"
   - splitPath: Desc
     text: "唐矩"
+    translated: "Tang Ju"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100376\",\r\n    \"Name\": \"唐宝\",\r\n    \"Desc\": \"唐宝\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"唐寶\",\r\n    \"DescTw\": \"唐寶\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100376
   splits:
   - splitPath: Name
     text: "唐宝"
+    translated: "Tang Bao"
   - splitPath: Desc
     text: "唐宝"
+    translated: "Tang Bao"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100377\",\r\n    \"Name\": \"夏南屏\",\r\n    \"Desc\": \"夏南屏\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"夏南屏\",\r\n    \"DescTw\": \"夏南屏\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100377
   splits:
   - splitPath: Name
     text: "夏南屏"
+    translated: "Xia Nanping"
   - splitPath: Desc
     text: "夏南屏"
+    translated: "Xia Nanping"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100378\",\r\n    \"Name\": \"褚良玉\",\r\n    \"Desc\": \"褚良玉\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"褚良玉\",\r\n    \"DescTw\": \"褚良玉\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100378
   splits:
   - splitPath: Name
     text: "褚良玉"
+    translated: "Chu Liangyu"
   - splitPath: Desc
     text: "褚良玉"
+    translated: "Chu Liangyu"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100379\",\r\n    \"Name\": \"江惟远\",\r\n    \"Desc\": \"江惟远\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"江惟遠\",\r\n    \"DescTw\": \"江惟遠\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100379
   splits:
   - splitPath: Name
     text: "江惟远"
+    translated: "Jiang Wiyuan"
   - splitPath: Desc
     text: "江惟远"
+    translated: "Jiang Wiyuan"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100380\",\r\n    \"Name\": \"缪辟邪\",\r\n    \"Desc\": \"缪辟邪\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"繆辟邪\",\r\n    \"DescTw\": \"繆辟邪\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100380
   splits:
   - splitPath: Name
     text: "缪辟邪"
+    translated: "Miao Piye"
   - splitPath: Desc
     text: "缪辟邪"
+    translated: "Miao Piye"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100381\",\r\n    \"Name\": \"白开泰\",\r\n    \"Desc\": \"白开泰\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"白開泰\",\r\n    \"DescTw\": \"白開泰\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100381
   splits:
   - splitPath: Name
     text: "白开泰"
+    translated: "Bai Kaitai"
   - splitPath: Desc
     text: "白开泰"
+    translated: "Bai Kaitai"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100382\",\r\n    \"Name\": \"洪通\",\r\n    \"Desc\": \"洪通\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"洪通\",\r\n    \"DescTw\": \"洪通\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100382
   splits:
   - splitPath: Name
     text: "洪通"
+    translated: "Hong Tong"
   - splitPath: Desc
     text: "洪通"
+    translated: "Hong Tong"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100383\",\r\n    \"Name\": \"封百水\",\r\n    \"Desc\": \"封百水\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"封百水\",\r\n    \"DescTw\": \"封百水\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100383
   splits:
   - splitPath: Name
     text: "封百水"
+    translated: "Bind Water Hundred"
   - splitPath: Desc
     text: "封百水"
+    translated: "Bind Water Hundred"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100384\",\r\n    \"Name\": \"吴换\",\r\n    \"Desc\": \"吴换\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"吳換\",\r\n    \"DescTw\": \"吳換\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100384
   splits:
   - splitPath: Name
     text: "吴换"
+    translated: "Wu Huan"
   - splitPath: Desc
     text: "吴换"
+    translated: "Wu Huan"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100385\",\r\n    \"Name\": \"何旺\",\r\n    \"Desc\": \"何旺\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"何旺\",\r\n    \"DescTw\": \"何旺\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100385
   splits:
   - splitPath: Name
     text: "何旺"
+    translated: "Wang HE"
   - splitPath: Desc
     text: "何旺"
+    translated: "Wang HE"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100386\",\r\n    \"Name\": \"不空\",\r\n    \"Desc\": \"不空\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"不空\",\r\n    \"DescTw\": \"不空\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100386
   splits:
   - splitPath: Name
     text: "不空"
+    translated: "Not Empty"
   - splitPath: Desc
     text: "不空"
+    translated: "Not Empty"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100387\",\r\n    \"Name\": \"盗粮三鼠\",\r\n    \"Desc\": \"盗粮三鼠\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"盜糧三鼠\",\r\n    \"DescTw\": \"盜糧三鼠\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100387
   splits:
   - splitPath: Name
     text: "盗粮三鼠"
+    translated: "Three Rat Bandits who Steal Grain"
   - splitPath: Desc
     text: "盗粮三鼠"
+    translated: "Three Rat Bandits who Steal Grain"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100388\",\r\n    \"Name\": \"邹云吾\",\r\n    \"Desc\": \"邹云吾\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"鄒雲吾\",\r\n    \"DescTw\": \"鄒雲吾\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100388
   splits:
   - splitPath: Name
     text: "邹云吾"
+    translated: "Zhou Yunwu"
   - splitPath: Desc
     text: "邹云吾"
+    translated: "Zhou Yunwu"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100389\",\r\n    \"Name\": \"荣铁山\",\r\n    \"Desc\": \"荣铁山\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"榮鐵山\",\r\n    \"DescTw\": \"榮鐵山\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100389
   splits:
   - splitPath: Name
     text: "荣铁山"
+    translated: "Rong Tieshan"
   - splitPath: Desc
     text: "荣铁山"
+    translated: "Rong Tieshan"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100390\",\r\n    \"Name\": \"元阳子\",\r\n    \"Desc\": \"元阳子\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"元陽子\",\r\n    \"DescTw\": \"元陽子\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100390
   splits:
   - splitPath: Name
     text: "元阳子"
+    translated: "Yang Yangzi"
   - splitPath: Desc
     text: "元阳子"
+    translated: "Yang Yangzi"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100391\",\r\n    \"Name\": \"富贵杀手\",\r\n    \"Desc\": \"富贵杀手\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"富貴殺手\",\r\n    \"DescTw\": \"富貴殺手\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100391
   splits:
   - splitPath: Name
     text: "富贵杀手"
+    translated: "Rich‑Seeking Assassin"
   - splitPath: Desc
     text: "富贵杀手"
+    translated: "Rich‑Seeking Assassin"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100392\",\r\n    \"Name\": \"况天龙\",\r\n    \"Desc\": \"况天龙\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"況天龍\",\r\n    \"DescTw\": \"況天龍\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100392
   splits:
   - splitPath: Name
     text: "况天龙"
+    translated: "Sky Dragon Condition"
   - splitPath: Desc
     text: "况天龙"
+    translated: "Sky Dragon Condition"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100393\",\r\n    \"Name\": \"苍狼\",\r\n    \"Desc\": \"苍狼\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"蒼狼\",\r\n    \"DescTw\": \"蒼狼\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100393
   splits:
   - splitPath: Name
     text: "苍狼"
+    translated: "Wild Wolf"
   - splitPath: Desc
     text: "苍狼"
+    translated: "Wild Wolf"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100394\",\r\n    \"Name\": \"一只山鹿\",\r\n    \"Desc\": \"山鹿\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"一隻山鹿\",\r\n    \"DescTw\": \"山鹿\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100394
   splits:
   - splitPath: Name
     text: "一只山鹿"
+    translated: "A mountain deer"
   - splitPath: Desc
     text: "山鹿"
+    translated: "Deer Mountain"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100395\",\r\n    \"Name\": \"殷破败\",\r\n    \"Desc\": \"殷破败\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"殷破敗\",\r\n    \"DescTw\": \"殷破敗\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100395
   splits:
   - splitPath: Name
     text: "殷破败"
+    translated: "Yin Pobai"
   - splitPath: Desc
     text: "殷破败"
+    translated: "Yin Pobai"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100396\",\r\n    \"Name\": \"殷破败\",\r\n    \"Desc\": \"殷破败\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"殷破敗\",\r\n    \"DescTw\": \"殷破敗\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100396
   splits:
   - splitPath: Name
     text: "殷破败"
+    translated: "Yin Pobai"
   - splitPath: Desc
     text: "殷破败"
+    translated: "Yin Pobai"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100397\",\r\n    \"Name\": \"两只山鹿\",\r\n    \"Desc\": \"山鹿\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"兩隻山鹿\",\r\n    \"DescTw\": \"山鹿\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100397
   splits:
   - splitPath: Name
     text: "两只山鹿"
+    translated: "Two mountain deer"
   - splitPath: Desc
     text: "山鹿"
+    translated: "Deer Mountain"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"100398\",\r\n    \"Name\": \"三名山贼\",\r\n    \"Desc\": \"山贼\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"三名山賊\",\r\n    \"DescTw\": \"山賊\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100398
   splits:
   - splitPath: Name
     text: "三名山贼"
+    translated: "Three bandits from the mountains"
   - splitPath: Desc
     text: "山贼"
+    translated: "Bandit"
   - splitPath: PlayerName
     text: "风云少侠"
+    translated: "Young Hero Fengyun"
 - raw: "{\r\n    \"Key\": \"200100\",\r\n    \"Name\": \"幻境珍兽\",\r\n    \"Desc\": \"幻境珍兽\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"幻境珍獸\",\r\n    \"DescTw\": \"幻境珍獸\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 200100
   splits:
@@ -3480,43 +3658,58 @@
   splits:
   - splitPath: Name
     text: "黑熊怪"
+    translated: "Black Bear Monster"
   - splitPath: Desc
     text: "黑熊怪"
+    translated: "Black Bear Monster"
   - splitPath: PlayerName
     text: "取经队伍"
+    translated: "Journey‑to‑the‑West team"
 - raw: "{\r\n    \"Key\": \"200112\",\r\n    \"Name\": \"黄风怪\",\r\n    \"Desc\": \"黄风怪\",\r\n    \"PlayerName\": \"取经队伍\",\r\n    \"NameTw\": \"黃風怪\",\r\n    \"DescTw\": \"黃風怪\",\r\n    \"PlayerNameTw\": \"取經隊伍\"\r\n  }"
   rawIndex: 200112
   splits:
   - splitPath: Name
     text: "黄风怪"
+    translated: "Yellow Wind Monster"
   - splitPath: Desc
     text: "黄风怪"
+    translated: "Yellow Wind Monster"
   - splitPath: PlayerName
     text: "取经队伍"
+    translated: "Journey‑to‑the‑West team"
 - raw: "{\r\n    \"Key\": \"200113\",\r\n    \"Name\": \"白骨精\",\r\n    \"Desc\": \"白骨精\",\r\n    \"PlayerName\": \"取经队伍\",\r\n    \"NameTw\": \"白骨精\",\r\n    \"DescTw\": \"白骨精\",\r\n    \"PlayerNameTw\": \"取經隊伍\"\r\n  }"
   rawIndex: 200113
   splits:
   - splitPath: Name
     text: "白骨精"
+    translated: "Bone‑Eating Witch"
   - splitPath: Desc
     text: "白骨精"
+    translated: "Bone‑Eating Witch"
   - splitPath: PlayerName
     text: "取经队伍"
+    translated: "Journey‑to‑the‑West team"
 - raw: "{\r\n    \"Key\": \"200114\",\r\n    \"Name\": \"百眼魔君\",\r\n    \"Desc\": \"百眼魔君\",\r\n    \"PlayerName\": \"取经队伍\",\r\n    \"NameTw\": \"百眼魔君\",\r\n    \"DescTw\": \"百眼魔君\",\r\n    \"PlayerNameTw\": \"取經隊伍\"\r\n  }"
   rawIndex: 200114
   splits:
   - splitPath: Name
     text: "百眼魔君"
+    translated: "Hundred‑Eyed Demon Lord"
   - splitPath: Desc
     text: "百眼魔君"
+    translated: "Hundred‑Eyed Demon Lord"
   - splitPath: PlayerName
     text: "取经队伍"
+    translated: "Journey‑to‑the‑West team"
 - raw: "{\r\n    \"Key\": \"200115\",\r\n    \"Name\": \"黄眉老佛\",\r\n    \"Desc\": \"黄眉老佛\",\r\n    \"PlayerName\": \"取经队伍\",\r\n    \"NameTw\": \"黃眉老佛\",\r\n    \"DescTw\": \"黃眉老佛\",\r\n    \"PlayerNameTw\": \"取經隊伍\"\r\n  }"
   rawIndex: 200115
   splits:
   - splitPath: Name
     text: "黄眉老佛"
+    translated: "Old Buddha Golden Eyebrow"
   - splitPath: Desc
     text: "黄眉老佛"
+    translated: "Old Buddha Golden Eyebrow"
   - splitPath: PlayerName
     text: "取经队伍"
+    translated: "Journey‑to‑the‑West team"

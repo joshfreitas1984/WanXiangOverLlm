@@ -5,8 +5,15 @@
     text: "提示"
     translated: "Instructions"
   - splitPath: Dictionary
-    text: "剩余{0}点"
+    text: "剩余"
     translated: "You have {0} points remaining"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"你的属性还没分配完\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"你的屬性還沒分配完\"\r\n  }"
   rawIndex: 1
   splits:
@@ -23,8 +30,19 @@
     text: "提示"
     translated: "Instructions"
   - splitPath: Dictionary
-    text: "第{0}年{1}月"
-    translated: "Year {0}, Month {1}"
+    text: "第"
+    translated: "Chapter"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "年"
+    translated: "Year"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "月"
+    translated: "Month"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"{0}文\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"{0}文\"\r\n  }"
   rawIndex: 3
   splits:
@@ -32,8 +50,11 @@
     text: "提示"
     translated: "Instructions"
   - splitPath: Dictionary
-    text: "{0}文"
+    text: "文"
     translated: "{0} coin"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"尚未开放\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"尚未開放\"\r\n  }"
   rawIndex: 4
   splits:
@@ -56,68 +77,109 @@
   rawIndex: 12
   splits:
   - splitPath: Dictionary
-    text: "解锁地图：{0}"
+    text: "解锁地图"
     translated: "Unlock Map: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"13\",\r\n    \"Dictionary\": \"关闭地图：{0}\",\r\n    \"DictionaryTw\": \"關閉地圖：{0}\"\r\n  }"
   rawIndex: 13
   splits:
   - splitPath: Dictionary
-    text: "关闭地图：{0}"
+    text: "关闭地图"
     translated: "Close Map: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Dictionary\": \"加入门派：{0}\",\r\n    \"DictionaryTw\": \"加入門派：{0}\"\r\n  }"
   rawIndex: 14
   splits:
   - splitPath: Dictionary
-    text: "加入门派：{0}"
+    text: "加入门派"
     translated: "Join Sect: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"15\",\r\n    \"Dictionary\": \"离开门派：{0}\",\r\n    \"DictionaryTw\": \"離開門派：{0}\"\r\n  }"
   rawIndex: 15
   splits:
   - splitPath: Dictionary
-    text: "离开门派：{0}"
+    text: "离开门派"
     translated: "Leave Sect: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"16\",\r\n    \"Dictionary\": \"习得功法：{0}\",\r\n    \"DictionaryTw\": \"習得功法：{0}\"\r\n  }"
   rawIndex: 16
   splits:
   - splitPath: Dictionary
-    text: "习得功法：{0}"
+    text: "习得功法"
     translated: "Mastered Skill: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"17\",\r\n    \"Dictionary\": \"失去功法：{0}\",\r\n    \"DictionaryTw\": \"失去功法：{0}\"\r\n  }"
   rawIndex: 17
   splits:
   - splitPath: Dictionary
-    text: "失去功法：{0}"
+    text: "失去功法"
     translated: "Lose cultivation technique: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Dictionary\": \"{0}加入队伍\",\r\n    \"DictionaryTw\": \"{0}加入隊伍\"\r\n  }"
   rawIndex: 18
   splits:
   - splitPath: Dictionary
-    text: "{0}加入队伍"
+    text: "加入队伍"
     translated: "{0} joins the team"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"19\",\r\n    \"Dictionary\": \"{0}离开了队伍\",\r\n    \"DictionaryTw\": \"{0}離開了隊伍\"\r\n  }"
   rawIndex: 19
   splits:
   - splitPath: Dictionary
-    text: "{0}离开了队伍"
+    text: "离开了队伍"
     translated: "{0} left the team"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Dictionary\": \"<color=#ff00ff>追加天赋：{0}</color>\",\r\n    \"DictionaryTw\": \"<color=#ff00ff>追加天賦：{0}</color>\"\r\n  }"
   rawIndex: 20
   splits:
   - splitPath: Dictionary
-    text: "<color=#ff00ff>追加天赋：{0}</color>"
-    translated: "<color=#ff00ff>Additional Talent: {0}</color>"
+    text: "追加天赋"
+    translated: "Additional talent"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#ff00ff>{0}：⟦0⟧</color>"
 - raw: "{\r\n    \"Key\": \"21\",\r\n    \"Dictionary\": \"消耗{0}历练\",\r\n    \"DictionaryTw\": \"消耗{0}歷練\"\r\n  }"
   rawIndex: 21
   splits:
   - splitPath: Dictionary
-    text: "消耗{0}历练"
+    text: "消耗"
     translated: "Consume {0} Experience Points"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "历练"
+    translated: "Training"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"22\",\r\n    \"Dictionary\": \"消耗{0}钱\",\r\n    \"DictionaryTw\": \"消耗{0}錢\"\r\n  }"
   rawIndex: 22
   splits:
   - splitPath: Dictionary
-    text: "消耗{0}钱"
-    translated: "Spend {0} Coin"
+    text: "消耗"
+    translated: "Consume {0} Experience Points"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "钱"
+    translated: "Coin"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"23\",\r\n    \"Dictionary\": \"历练不足\",\r\n    \"DictionaryTw\": \"歷練不足\"\r\n  }"
   rawIndex: 23
   splits:
@@ -158,8 +220,11 @@
   rawIndex: 29
   splits:
   - splitPath: Dictionary
-    text: "<color=#00ff00>自动存档</color>"
-    translated: "<color=#00ff00>Auto‑Save</color>"
+    text: "自动存档"
+    translated: "Auto‑save"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>{0}</color>"
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Desc\": \"不可点击选项的提示\",\r\n    \"Dictionary\": \"敬请期待\",\r\n    \"DescTw\": \"不可點選選項的提示\",\r\n    \"DictionaryTw\": \"敬請期待\"\r\n  }"
   rawIndex: 30
   splits:
@@ -173,8 +238,11 @@
   rawIndex: 31
   splits:
   - splitPath: Dictionary
-    text: "解锁成就：{0}"
+    text: "解锁成就"
     translated: "Unlock Achievement: {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"32\",\r\n    \"Desc\": \"江湖消息购买提示\",\r\n    \"Dictionary\": \"<color=#00ff00>打听需花费{0}文，可保留三条消息</color>\",\r\n    \"DescTw\": \"江湖訊息購買提示\",\r\n    \"DictionaryTw\": \"<color=#00ff00>打聽需花費{0}文，可保留三條訊息</color>\"\r\n  }"
   rawIndex: 32
   splits:
@@ -182,8 +250,15 @@
     text: "江湖消息购买提示"
     translated: "Jianghu news purchase reminder"
   - splitPath: Dictionary
-    text: "<color=#00ff00>打听需花费{0}文，可保留三条消息</color>"
-    translated: "<color=#00ff00>Inquire for {0} cash and you can keep three messages.</color>"
+    text: "打听需花费"
+    translated: "Inquiring costs money"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "文，可保留三条消息"
+    translated: "Wen, you can keep three messages"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>{0}⟦0⟧{1}</color>"
 - raw: "{\r\n    \"Key\": \"33\",\r\n    \"Desc\": \"消息买完\",\r\n    \"Dictionary\": \"没有新的江湖消息\",\r\n    \"DescTw\": \"訊息買完\",\r\n    \"DictionaryTw\": \"沒有新的江湖訊息\"\r\n  }"
   rawIndex: 33
   splits:
@@ -200,8 +275,11 @@
     text: "我方技能"
     translated: "Our skills"
   - splitPath: Dictionary
-    text: "<color=#0088ff>{0}</color> 发动 <color=#ff8800>{1}</color>"
-    translated: "{0} activated {1}."
+    text: "发动"
+    translated: "{0} activated {1}"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#0088ff>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"35\",\r\n    \"Desc\": \"敌方技能\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"敵方技能\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 35
   splits:
@@ -209,8 +287,11 @@
     text: "敌方技能"
     translated: "Enemy skill"
   - splitPath: Dictionary
-    text: "<color=#ff0000>{0}</color> 发动 <color=#ff8800>{1}</color>"
-    translated: "{0} activated {1}."
+    text: "发动"
+    translated: "{0} activated {1}"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#ff0000>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"36\",\r\n    \"Desc\": \"我方支援\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 状态出现了\",\r\n    \"DescTw\": \"我方支援\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 狀態出現了\"\r\n  }"
   rawIndex: 36
   splits:
@@ -218,8 +299,11 @@
     text: "我方支援"
     translated: "Our reinforcements are arriving"
   - splitPath: Dictionary
-    text: "<color=#00ff00>{0}</color> 状态出现了"
-    translated: "{0}'s status has appeared."
+    text: "状态出现了"
+    translated: "{0}'s status has appeared"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>⟦0⟧</color> {0}"
 - raw: "{\r\n    \"Key\": \"37\",\r\n    \"Desc\": \"敌方支援\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 状态出现了\",\r\n    \"DescTw\": \"敵方支援\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 狀態出現了\"\r\n  }"
   rawIndex: 37
   splits:
@@ -227,26 +311,51 @@
     text: "敌方支援"
     translated: "Enemy reinforcement"
   - splitPath: Dictionary
-    text: "<color=#00ff00>{0}</color> 状态出现了"
-    translated: "{0}'s status has appeared."
+    text: "状态出现了"
+    translated: "{0}'s status has appeared"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>⟦0⟧</color> {0}"
 - raw: "{\r\n    \"Key\": \"38\",\r\n    \"Desc\": \"我方中buff\",\r\n    \"Dictionary\": \"<color=#0088ff>我方</color> 进入 <color=#00ff00>{1}</color>状态\",\r\n    \"DescTw\": \"我方中buff\",\r\n    \"DictionaryTw\": \"<color=#0088ff>我方</color> 進入 <color=#00ff00>{1}</color>狀態\"\r\n  }"
   rawIndex: 38
   splits:
   - splitPath: Desc
-    text: "我方中buff"
+    text: "我方中"
     translated: "Our team has buffs active"
   - splitPath: Dictionary
-    text: "<color=#0088ff>我方</color> 进入 <color=#00ff00>{1}</color>状态"
-    translated: "Our side entered a {1} state."
+    text: "我方"
+    translated: "Our side entered a {1} state"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "进入"
+    translated: "{0} enters {1} state"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "状态"
+    translated: "Condition"
+  templates:
+  - splitPath: Desc
+    template: "{0}buff"
+  - splitPath: Dictionary
+    template: "<color=#0088ff>{0}</color> {1} <color=#00ff00>⟦1⟧</color>{2}"
 - raw: "{\r\n    \"Key\": \"39\",\r\n    \"Desc\": \"敌方中buff\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 进入 <color=#00ff00>{1}</color>状态\",\r\n    \"DescTw\": \"敵方中buff\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 進入 <color=#00ff00>{1}</color>狀態\"\r\n  }"
   rawIndex: 39
   splits:
   - splitPath: Desc
-    text: "敌方中buff"
+    text: "敌方中"
     translated: "Enemy mid buff zone"
   - splitPath: Dictionary
-    text: "<color=#ff0000>{0}</color> 进入 <color=#00ff00>{1}</color>状态"
-    translated: "{0} enters {1} state."
+    text: "进入"
+    translated: "{0} enters {1} state"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "状态"
+    translated: "Condition"
+  templates:
+  - splitPath: Desc
+    template: "{0}buff"
+  - splitPath: Dictionary
+    template: "<color=#ff0000>⟦0⟧</color> {0} <color=#00ff00>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"40\",\r\n    \"Desc\": \"打断\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打断了\",\r\n    \"DescTw\": \"打斷\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打斷了\"\r\n  }"
   rawIndex: 40
   splits:
@@ -254,8 +363,15 @@
     text: "打断"
     translated: "Interrupt"
   - splitPath: Dictionary
-    text: "<color=#ff0000>{0}</color> 的 <color=#ff8800>{1}</color> 被打断了"
-    translated: "{0}'s {1} was interrupted."
+    text: "的"
+    translated: "Of"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "被打断了"
+    translated: "Interrupted"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#ff0000>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color> {1}"
 - raw: "{\r\n    \"Key\": \"41\",\r\n    \"Desc\": \"支援技能\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"支援技能\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 41
   splits:
@@ -263,8 +379,11 @@
     text: "支援技能"
     translated: "Support Skill"
   - splitPath: Dictionary
-    text: "<color=#00ff00>{0}</color> 发动 <color=#ff8800>{1}</color>"
-    translated: "{0} activated {1}."
+    text: "发动"
+    translated: "{0} activated {1}"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"42\",\r\n    \"Desc\": \"抵消伤害\",\r\n    \"Dictionary\": \"<color=#00ff00>{0}</color> 抵消了伤害\",\r\n    \"DescTw\": \"抵消傷害\",\r\n    \"DictionaryTw\": \"<color=#00ff00>{0}</color> 抵消了傷害\"\r\n  }"
   rawIndex: 42
   splits:
@@ -272,8 +391,11 @@
     text: "抵消伤害"
     translated: "Damage reduction"
   - splitPath: Dictionary
-    text: "<color=#00ff00>{0}</color> 抵消了伤害"
-    translated: "{0} negated the damage."
+    text: "抵消了伤害"
+    translated: "{0} negated the damage"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>⟦0⟧</color> {0}"
 - raw: "{\r\n    \"Key\": \"43\",\r\n    \"Desc\": \"排除成功\",\r\n    \"Dictionary\": \"排除对方战术\",\r\n    \"DescTw\": \"排除成功\",\r\n    \"DictionaryTw\": \"排除對方戰術\"\r\n  }"
   rawIndex: 43
   splits:
@@ -296,20 +418,26 @@
   rawIndex: 45
   splits:
   - splitPath: Desc
-    text: "buff清除成功"
+    text: "清除成功"
     translated: "Buff was successfully removed"
   - splitPath: Dictionary
     text: "异常被清除了"
     translated: "Anomaly has been cleared"
+  templates:
+  - splitPath: Desc
+    template: "buff{0}"
 - raw: "{\r\n    \"Key\": \"46\",\r\n    \"Desc\": \"buff清除失败\",\r\n    \"Dictionary\": \"没有效果\",\r\n    \"DescTw\": \"buff清除失敗\",\r\n    \"DictionaryTw\": \"沒有效果\"\r\n  }"
   rawIndex: 46
   splits:
   - splitPath: Desc
-    text: "buff清除失败"
+    text: "清除失败"
     translated: "Buff removal failed"
   - splitPath: Dictionary
     text: "没有效果"
     translated: "It didn't work"
+  templates:
+  - splitPath: Desc
+    template: "buff{0}"
 - raw: "{\r\n    \"Key\": \"47\",\r\n    \"Desc\": \"解除昏睡\",\r\n    \"Dictionary\": \"解除<color=#00ff00>失神</color>状态\",\r\n    \"DescTw\": \"解除昏睡\",\r\n    \"DictionaryTw\": \"解除<color=#00ff00>失神</color>狀態\"\r\n  }"
   rawIndex: 47
   splits:
@@ -317,8 +445,19 @@
     text: "解除昏睡"
     translated: "Awaken from your slumber"
   - splitPath: Dictionary
-    text: "解除<color=#00ff00>失神</color>状态"
-    translated: "Cure <color=#00ff00>Trance</color> state"
+    text: "解除"
+    translated: "Release"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "失神"
+    translated: "Trance"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "状态"
+    translated: "Condition"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}<color=#00ff00>{1}</color>{2}"
 - raw: "{\r\n    \"Key\": \"48\",\r\n    \"Desc\": \"多个打断\",\r\n    \"Dictionary\": \"<color=#ff0000>{0}</color> 的功法被打断了\",\r\n    \"DescTw\": \"多個打斷\",\r\n    \"DictionaryTw\": \"<color=#ff0000>{0}</color> 的功法被打斷了\"\r\n  }"
   rawIndex: 48
   splits:
@@ -326,26 +465,35 @@
     text: "多个打断"
     translated: "Multiple interruptions"
   - splitPath: Dictionary
-    text: "<color=#ff0000>{0}</color> 的功法被打断了"
-    translated: "The cultivation method of <color=#ff0000>{0}</color> was interrupted."
+    text: "的功法被打断了"
+    translated: "His cultivation method was interrupted"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#ff0000>⟦0⟧</color> {0}"
 - raw: "{\r\n    \"Key\": \"49\",\r\n    \"Desc\": \"combo追加\",\r\n    \"Dictionary\": \"连击追加\",\r\n    \"DescTw\": \"combo追加\",\r\n    \"DictionaryTw\": \"連擊追加\"\r\n  }"
   rawIndex: 49
   splits:
   - splitPath: Desc
-    text: "combo追加"
+    text: "追加"
     translated: "Combo addition"
   - splitPath: Dictionary
     text: "连击追加"
     translated: "Combo extension"
+  templates:
+  - splitPath: Desc
+    template: "combo{0}"
 - raw: "{\r\n    \"Key\": \"50\",\r\n    \"Desc\": \"ap回复\",\r\n    \"Dictionary\": \"行动力恢复了\",\r\n    \"DescTw\": \"ap回覆\",\r\n    \"DictionaryTw\": \"行動力恢復了\"\r\n  }"
   rawIndex: 50
   splits:
   - splitPath: Desc
-    text: "ap回复"
+    text: "回复"
     translated: "AP response"
   - splitPath: Dictionary
     text: "行动力恢复了"
     translated: "Action points have recovered"
+  templates:
+  - splitPath: Desc
+    template: "ap{0}"
 - raw: "{\r\n    \"Key\": \"51\",\r\n    \"Desc\": \"强化技能\",\r\n    \"Dictionary\": \"强化了队友\",\r\n    \"DescTw\": \"強化技能\",\r\n    \"DictionaryTw\": \"強化了隊友\"\r\n  }"
   rawIndex: 51
   splits:
@@ -452,8 +600,11 @@
     text: "反伤（不要删换行符）"
     translated: "Regeneration Reverse (do not remove line breaks)"
   - splitPath: Dictionary
-    text: "\\n反伤"
-    translated: "\\nReverse damage"
+    text: "反伤"
+    translated: "Reverse damage"
+  templates:
+  - splitPath: Dictionary
+    template: "\\n{0}"
 - raw: "{\r\n    \"Key\": \"70\",\r\n    \"Dictionary\": \"队伍中至少有1人\",\r\n    \"DictionaryTw\": \"隊伍中至少有1人\"\r\n  }"
   rawIndex: 70
   splits:
@@ -488,14 +639,20 @@
   rawIndex: 76
   splits:
   - splitPath: Dictionary
-    text: "获得了宝物{0}"
+    text: "获得了宝物"
     translated: "Obtained the treasure {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧"
 - raw: "{\r\n    \"Key\": \"77\",\r\n    \"Dictionary\": \"失去了宝物{0}\",\r\n    \"DictionaryTw\": \"失去了寶物{0}\"\r\n  }"
   rawIndex: 77
   splits:
   - splitPath: Dictionary
-    text: "失去了宝物{0}"
+    text: "失去了宝物"
     translated: "Lost the treasure {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧"
 - raw: "{\r\n    \"Key\": \"79\",\r\n    \"Dictionary\": \"点数不足\",\r\n    \"DictionaryTw\": \"點數不足\"\r\n  }"
   rawIndex: 79
   splits:
@@ -506,38 +663,60 @@
   rawIndex: 80
   splits:
   - splitPath: Dictionary
-    text: "\\n\\n点数：{0}"
-    translated: "\\n\\nPoints: {0}"
+    text: "点数"
+    translated: "Points:"
+  templates:
+  - splitPath: Dictionary
+    template: "\\n\\n{0}：⟦0⟧"
 - raw: "{\r\n    \"Key\": \"81\",\r\n    \"Dictionary\": \"\\\\n\\\\n获取功法奖励\\\\n{0}\",\r\n    \"DictionaryTw\": \"\\\\n\\\\n獲取功法獎勵\\\\n{0}\"\r\n  }"
   rawIndex: 81
   splits:
   - splitPath: Dictionary
-    text: "\\n\\n获取功法奖励\\n{0}"
-    translated: "\\n\\nAcquire cultivation technique rewards\\n{0}"
+    text: "获取功法奖励"
+    translated: "Acquire Skill Technique Rewards"
+  templates:
+  - splitPath: Dictionary
+    template: "\\n\\n{0}\\n⟦0⟧"
 - raw: "{\r\n    \"Key\": \"82\",\r\n    \"Dictionary\": \"锁定该天赋需消耗点数{0}\",\r\n    \"DictionaryTw\": \"鎖定該天賦需消耗點數{0}\"\r\n  }"
   rawIndex: 82
   splits:
   - splitPath: Dictionary
-    text: "锁定该天赋需消耗点数{0}"
+    text: "锁定该天赋需消耗点数"
     translated: "Unlocking this talent requires spending points {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧"
 - raw: "{\r\n    \"Key\": \"83\",\r\n    \"Dictionary\": \"<color=#00ffff>快速存档</color>\",\r\n    \"DictionaryTw\": \"<color=#00ffff>快速存檔</color>\"\r\n  }"
   rawIndex: 83
   splits:
   - splitPath: Dictionary
-    text: "<color=#00ffff>快速存档</color>"
-    translated: "<color=#00ffff>Quick Save</color>"
+    text: "快速存档"
+    translated: "Quick save"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ffff>{0}</color>"
 - raw: "{\r\n    \"Key\": \"84\",\r\n    \"Dictionary\": \"该按键已被【{0}】使用\",\r\n    \"DictionaryTw\": \"該按鍵已被【{0}】使用\"\r\n  }"
   rawIndex: 84
   splits:
   - splitPath: Dictionary
-    text: "该按键已被【{0}】使用"
+    text: "该按键已被"
     translated: "This key is already in use by  【{0}】 ."
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "使用"
+    translated: "Use"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}【⟦0⟧】{1}"
 - raw: "{\r\n    \"Key\": \"85\",\r\n    \"Dictionary\": \"{0}不能在该难度下使用\",\r\n    \"DictionaryTw\": \"{0}不能在該難度下使用\"\r\n  }"
   rawIndex: 85
   splits:
   - splitPath: Dictionary
-    text: "{0}不能在该难度下使用"
+    text: "不能在该难度下使用"
     translated: "{0} cannot be used at this difficulty level."
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"86\",\r\n    \"Dictionary\": \"需要关闭自动播放，方可跳过\",\r\n    \"DictionaryTw\": \"需要關閉自動播放，方可跳過\"\r\n  }"
   rawIndex: 86
   splits:
@@ -578,14 +757,20 @@
   rawIndex: 94
   splits:
   - splitPath: Dictionary
-    text: "粉碎阴谋 {0}"
+    text: "粉碎阴谋"
     translated: "Shatter the conspiracy {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0} ⟦0⟧"
 - raw: "{\r\n    \"Key\": \"95\",\r\n    \"Dictionary\": \"友好度 {0}\",\r\n    \"DictionaryTw\": \"友好度 {0}\"\r\n  }"
   rawIndex: 95
   splits:
   - splitPath: Dictionary
-    text: "友好度 {0}"
+    text: "友好度"
     translated: "Friendship Rating {0}"
+  templates:
+  - splitPath: Dictionary
+    template: "{0} ⟦0⟧"
 - raw: "{\r\n    \"Key\": \"96\",\r\n    \"Dictionary\": \"形象未解锁，图鉴中可查看攻略\",\r\n    \"DictionaryTw\": \"形象未解鎖，圖鑑中可檢視攻略\"\r\n  }"
   rawIndex: 96
   splits:
@@ -644,14 +829,20 @@
   rawIndex: 106
   splits:
   - splitPath: Dictionary
-    text: "\\n建议在游戏进行到第八年之后再体验此功能。"
-    translated: "\\nIt is recommended to experience this feature after the eighth year of gameplay."
+    text: "建议在游戏进行到第八年之后再体验此功能。"
+    translated: "It is recommended to experience this feature after the eighth year of the game."
+  templates:
+  - splitPath: Dictionary
+    template: "\\n{0}"
 - raw: "{\r\n    \"Key\": \"107\",\r\n    \"Dictionary\": \"<color=#00ff00>有新的江湖传闻</color>\",\r\n    \"DictionaryTw\": \"<color=#00ff00>有新的江湖傳聞</color>\"\r\n  }"
   rawIndex: 107
   splits:
   - splitPath: Dictionary
-    text: "<color=#00ff00>有新的江湖传闻</color>"
-    translated: "<color=#00ff00>There are new Jianghu rumors</color>"
+    text: "有新的江湖传闻"
+    translated: "There are new Jianghu rumors"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#00ff00>{0}</color>"
 - raw: "{\r\n    \"Key\": \"1999\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"无门派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"無門派\"\r\n  }"
   rawIndex: 1999
   splits:
@@ -1008,29 +1199,37 @@
   splits:
   - splitPath: Desc
     text: "门派"
+    translated: "Sect"
   - splitPath: Dictionary
     text: "唐门"
+    translated: "Tang Clan"
 - raw: "{\r\n    \"Key\": \"1039\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"武侯祠\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"武侯祠\"\r\n  }"
   rawIndex: 1039
   splits:
   - splitPath: Desc
     text: "门派"
+    translated: "Sect"
   - splitPath: Dictionary
     text: "武侯祠"
+    translated: "Martial Hall Shrine"
 - raw: "{\r\n    \"Key\": \"1040\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"神女宫\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"神女宮\"\r\n  }"
   rawIndex: 1040
   splits:
   - splitPath: Desc
     text: "门派"
+    translated: "Sect"
   - splitPath: Dictionary
     text: "神女宫"
+    translated: "Sage Maiden Palace"
 - raw: "{\r\n    \"Key\": \"1041\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"蚩黎峒\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"蚩黎峒\"\r\n  }"
   rawIndex: 1041
   splits:
   - splitPath: Desc
     text: "门派"
+    translated: "Sect"
   - splitPath: Dictionary
     text: "蚩黎峒"
+    translated: "Chi Li Dong"
 - raw: "{\r\n    \"Key\": \"1901\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"天魔教\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"天魔教\"\r\n  }"
   rawIndex: 1901
   splits:
@@ -1108,8 +1307,10 @@
   splits:
   - splitPath: Desc
     text: "门派"
+    translated: "Sect"
   - splitPath: Dictionary
     text: "传说"
+    translated: "Legend"
 - raw: "{\r\n    \"Key\": \"1996\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"幻兽\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"幻獸\"\r\n  }"
   rawIndex: 1996
   splits:
@@ -1390,20 +1591,26 @@
   rawIndex: 3001
   splits:
   - splitPath: Desc
-    text: "气血+3000"
+    text: "气血"
     translated: "Lifeforce +3000"
   - splitPath: Dictionary
     text: "娜迦圣血"
     translated: "Naga Holy Blood"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3000"
 - raw: "{\r\n    \"Key\": \"3002\",\r\n    \"Desc\": \"功力+300\",\r\n    \"Dictionary\": \"仙人酿\",\r\n    \"DescTw\": \"功力+300\",\r\n    \"DictionaryTw\": \"仙人釀\"\r\n  }"
   rawIndex: 3002
   splits:
   - splitPath: Desc
-    text: "功力+300"
+    text: "功力"
     translated: "Power +300"
   - splitPath: Dictionary
     text: "仙人酿"
     translated: "Immortal Brew"
+  templates:
+  - splitPath: Desc
+    template: "{0}+300"
 - raw: "{\r\n    \"Key\": \"3003\",\r\n    \"Dictionary\": \"盘蛇毒术\",\r\n    \"DictionaryTw\": \"盤蛇毒術\"\r\n  }"
   rawIndex: 3003
   splits:
@@ -1510,47 +1717,86 @@
   rawIndex: 10001
   splits:
   - splitPath: Desc
-    text: "赌术入门（≥40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
-    translated: "Gambling Tactics Introduction (≥40) unlocked. When 'Pair of Opponents' is rolled, the base points increase to 200 points, but 'Pair of Opponents' cannot be exempted from  “Destiny” ."
+    text: "赌术入门（"
+    translated: "Introduction to Gambling Techniques"
+  - splitPath: Desc
+    subIndex: 1
+    text: "40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
+    translated: "40 Unlock: When rolling 'Pair of Sons,' the base points increase to 200 points, but 'Pair of Opposites' cannot exempt 'Destiny.'"
   - splitPath: Dictionary
     text: "锦上添花"
     translated: "Adding insult to injury"
+  templates:
+  - splitPath: Desc
+    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10002\",\r\n    \"Desc\": \"赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。\",\r\n    \"Dictionary\": \"返璞归真\",\r\n    \"DescTw\": \"賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。\",\r\n    \"DictionaryTw\": \"返璞歸真\"\r\n  }"
   rawIndex: 10002
   splits:
   - splitPath: Desc
-    text: "赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
-    translated: "Gambling Skill Mastery (≥80) unlocked. When you roll a normal combination (not a pair, sequence, or full house), your score is multiplied by the sum of the dice values 15 times."
+    text: "赌术精通（"
+    translated: "Gambling skill proficiency"
+  - splitPath: Desc
+    subIndex: 1
+    text: "80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
+    translated: "80 Unlock: When you roll a common combination (not a pair, sequence, or dragon roll), score the points based on the combination's value multiplied by 15 times."
   - splitPath: Dictionary
     text: "返璞归真"
     translated: "Return to simplicity"
+  templates:
+  - splitPath: Desc
+    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Desc\": \"赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次\",\r\n    \"Dictionary\": \"孤注一掷\",\r\n    \"DescTw\": \"賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次\",\r\n    \"DictionaryTw\": \"孤注一擲\"\r\n  }"
   rawIndex: 10003
   splits:
   - splitPath: Desc
-    text: "赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次"
-    translated: "High‑skilled Gambling Master (≥120) unlocked. When you choose 'All‑in,' your points for this round will be doubled, but the probability of  “Fate”  appearing will also double. Moreover, if  “Fate”  appears, all previously accumulated points will be reset. You can only use this ability once per match."
+    text: "赌术高手（"
+    translated: "Gambling master"
+  - splitPath: Desc
+    subIndex: 1
+    text: "120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空"
+    translated: "120 Unlock: When you choose 'All‑in,' the points you earn in this round will be doubled. However, the probability of  “Fate”  appearing will also double. If  “Fate”  does appear, all previously accumulated points will be reset."
+  - splitPath: Desc
+    subIndex: 2
+    text: "每局只能使用一次"
+    translated: "You can use this only once per game."
   - splitPath: Dictionary
     text: "孤注一掷"
     translated: "All‑in"
+  templates:
+  - splitPath: Desc
+    template: "{0}≥{1},{2}"
 - raw: "{\r\n    \"Key\": \"10004\",\r\n    \"Desc\": \"赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用\",\r\n    \"Dictionary\": \"颠倒乾坤\",\r\n    \"DescTw\": \"賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用\",\r\n    \"DictionaryTw\": \"顛倒乾坤\"\r\n  }"
   rawIndex: 10004
   splits:
   - splitPath: Desc
-    text: "赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
-    translated: "Gambling Master ≥160 unlocked. When a calamity occurs in this round, you can convert the calamity into 1, avoiding the clearing of your points. You can only use this once per game. It cannot be used when in an 'all‑in' state.'"
+    text: "赌术大师"
+    translated: "Master of gambling tricks"
+  - splitPath: Desc
+    subIndex: 1
+    text: "160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
+    translated: "160 Unlock: When a calamity appears in this round, you can convert the calamity into 1 to avoid resetting the points. This can only be used once per game, and it is not available during an  “All‑in”  state."
   - splitPath: Dictionary
     text: "颠倒乾坤"
     translated: "Invert Heaven and Earth"
+  templates:
+  - splitPath: Desc
+    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Desc\": \"赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次\",\r\n    \"Dictionary\": \"天地同寂\",\r\n    \"DescTw\": \"賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次\",\r\n    \"DictionaryTw\": \"天地同寂\"\r\n  }"
   rawIndex: 10005
   splits:
   - splitPath: Desc
-    text: "赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
-    translated: "Gambling Master (200) Unlocked: At the start of each turn, you can choose to clear your points and your opponent's points. You can only use this ability once per match."
+    text: "赌术宗师（"
+    translated: "Gambling Master"
+  - splitPath: Desc
+    subIndex: 1
+    text: "200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
+    translated: "200 Unlock: Activate at the start of the turn, clears both your and your opponent's points. Can only be used once per match."
   - splitPath: Dictionary
     text: "天地同寂"
     translated: "Heaven and earth share the same silence"
+  templates:
+  - splitPath: Desc
+    template: "{0}={1}"
 - raw: "{\r\n    \"Key\": \"10100\",\r\n    \"Desc\": \"开始我方回合\",\r\n    \"Dictionary\": \"\\\\n<color=#63D47F>开始我方回合：</color>\",\r\n    \"DescTw\": \"開始我方回合\",\r\n    \"DictionaryTw\": \"\\\\n<color=#63D47F>開始我方回合：</color>\"\r\n  }"
   rawIndex: 10100
   splits:
@@ -1558,8 +1804,11 @@
     text: "开始我方回合"
     translated: "Start of our turn"
   - splitPath: Dictionary
-    text: "\\n<color=#63D47F>开始我方回合：</color>"
-    translated: "\\n<color=#63D47F>It's our turn:</color>"
+    text: "开始我方回合"
+    translated: "Start of our turn"
+  templates:
+  - splitPath: Dictionary
+    template: "\\n<color=#63D47F>{0}：</color>"
 - raw: "{\r\n    \"Key\": \"10101\",\r\n    \"Desc\": \"开始对方回合\",\r\n    \"Dictionary\": \"\\\\n<color=#D46963>开始对方回合：</color>\",\r\n    \"DescTw\": \"開始對方回合\",\r\n    \"DictionaryTw\": \"\\\\n<color=#D46963>開始對方回合：</color>\"\r\n  }"
   rawIndex: 10101
   splits:
@@ -1567,50 +1816,110 @@
     text: "开始对方回合"
     translated: "Begin the opponent's turn"
   - splitPath: Dictionary
-    text: "\\n<color=#D46963>开始对方回合：</color>"
-    translated: "\\n<color=#D46963>Begin opponent's turn:</color>"
+    text: "开始对方回合"
+    translated: "Begin the opponent's turn"
+  templates:
+  - splitPath: Dictionary
+    template: "\\n<color=#D46963>{0}：</color>"
 - raw: "{\r\n    \"Key\": \"10102\",\r\n    \"Dictionary\": \"{0}的技能<color=#FFD26E>{1}</color>产生了效果，对子可获得固定200点\",\r\n    \"DictionaryTw\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，對子可獲得固定200點\"\r\n  }"
   rawIndex: 10102
   splits:
   - splitPath: Dictionary
-    text: "{0}的技能<color=#FFD26E>{1}</color>产生了效果，对子可获得固定200点"
-    translated: "{0}'s skill <color=#FFD26E>{1}</color> has taken effect, granting Zike a fixed 200 points."
+    text: "的技能"
+    translated: "Their skills"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "产生了效果，对子可获得固定200点"
+    translated: "It had the desired effect, granting the child a fixed 200 points."
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10103\",\r\n    \"Dictionary\": \"{0}的技能<color=#FFD26E>{1}</color>产生了效果，按点数组合的15倍得分\",\r\n    \"DictionaryTw\": \"{0}的技能<color=#FFD26E>{1}</color>產生了效果，按點陣列合的15倍得分\"\r\n  }"
   rawIndex: 10103
   splits:
   - splitPath: Dictionary
-    text: "{0}的技能<color=#FFD26E>{1}</color>产生了效果，按点数组合的15倍得分"
-    translated: "{0}'s skill <color=#FFD26E>{1}</color> has taken effect, scoring 15 times the points based on the combination of dots."
+    text: "的技能"
+    translated: "Their skills"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "产生了效果，按点数组合的15倍得分"
+    translated: "Produced the effect, scored 15 times the points from the combination of points."
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10104\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，双方点数清零\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，雙方點數清零\"\r\n  }"
   rawIndex: 10104
   splits:
   - splitPath: Dictionary
-    text: "{0}使用了<color=#FFD26E>{1}</color>，双方点数清零"
-    translated: "{0} used <color=#FFD26E>{1}</color>, resetting both players' scores to zero."
+    text: "使用了"
+    translated: "{0} used {1}"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "，双方点数清零"
+    translated: ",Both scores reset to zero"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10105\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，劫数重置\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，劫數重置\"\r\n  }"
   rawIndex: 10105
   splits:
   - splitPath: Dictionary
-    text: "{0}使用了<color=#FFD26E>{1}</color>，劫数重置"
-    translated: "{0} used <color=#FFD26E>{1}</color> to reset their fate"
+    text: "使用了"
+    translated: "{0} used {1}"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "，劫数重置"
+    translated: "Fate has been reset"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10106\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，点数翻倍\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，點數翻倍\"\r\n  }"
   rawIndex: 10106
   splits:
   - splitPath: Dictionary
-    text: "{0}使用了<color=#FFD26E>{1}</color>，点数翻倍"
-    translated: "{0} used <color=#FFD26E>{1}</color>, doubling the points"
+    text: "使用了"
+    translated: "{0} used {1}"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "，点数翻倍"
+    translated: ", points doubled"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10107\",\r\n    \"Dictionary\": \"第{0}轮，{1}投出了“劫数”，<color=#FFD26E>{2}</color>导致累积点数全部清零，回合结束\",\r\n    \"DictionaryTw\": \"第{0}輪，{1}投出了“劫數”，<color=#FFD26E>{2}</color>導致累積點數全部清零，回合結束\"\r\n  }"
   rawIndex: 10107
   splits:
   - splitPath: Dictionary
-    text: "第{0}轮，{1}投出了“劫数”，<color=#FFD26E>{2}</color>导致累积点数全部清零，回合结束"
-    translated: "Round {0}, {1} rolled  “Destiny” , <color=#FFD26E>{2}</color>, resulting in all accumulated points being reset, and the turn ends."
+    text: "第"
+    translated: "Chapter"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "轮，"
+    translated: "Wheel,"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "投出了“劫数”，"
+    translated: "Threw 'Qiexin'"
+  - splitPath: Dictionary
+    subIndex: 3
+    text: "导致累积点数全部清零，回合结束"
+    translated: "Causes all accumulated points to reset to zero and ends the turn."
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}⟦1⟧{2}<color=#FFD26E>⟦2⟧</color>{3}"
 - raw: "{\r\n    \"Key\": \"10108\",\r\n    \"Dictionary\": \"{0}投出了“劫数”，<color=#FFD26E>{1}</color>导致累积点数全部清零\",\r\n    \"DictionaryTw\": \"{0}投出了“劫數”，<color=#FFD26E>{1}</color>導致累積點數全部清零\"\r\n  }"
   rawIndex: 10108
   splits:
   - splitPath: Dictionary
-    text: "{0}投出了“劫数”，<color=#FFD26E>{1}</color>导致累积点数全部清零"
-    translated: "{0} threw  “Destiny” , and <color=#FFD26E>{1}</color>, causing all accumulated points to be reset."
+    text: "投出了“劫数”，"
+    translated: "Threw 'Qiexin'"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "导致累积点数全部清零"
+    translated: "Causes all accumulated points to reset to zero."
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}"
 - raw: "{\r\n    \"Key\": \"10110\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"开始投掷\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"開始投擲\"\r\n  }"
   rawIndex: 10110
   splits:
@@ -1696,38 +2005,58 @@
   rawIndex: 10120
   splits:
   - splitPath: Desc
-    text: "AI行为"
+    text: "行为"
     translated: "AI Behavior"
   - splitPath: Dictionary
-    text: "{0}开始投掷"
-    translated: "{0} starts throwing"
+    text: "开始投掷"
+    translated: "Start throwing"
+  templates:
+  - splitPath: Desc
+    template: "AI{0}"
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10121\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}选择继续投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}選擇繼續投擲\"\r\n  }"
   rawIndex: 10121
   splits:
   - splitPath: Desc
-    text: "AI行为"
+    text: "行为"
     translated: "AI Behavior"
   - splitPath: Dictionary
-    text: "{0}选择继续投掷"
+    text: "选择继续投掷"
     translated: "{0} chooses to continue rolling"
+  templates:
+  - splitPath: Desc
+    template: "AI{0}"
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10122\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}选择停止投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}選擇停止投擲\"\r\n  }"
   rawIndex: 10122
   splits:
   - splitPath: Desc
-    text: "AI行为"
+    text: "行为"
     translated: "AI Behavior"
   - splitPath: Dictionary
-    text: "{0}选择停止投掷"
+    text: "选择停止投掷"
     translated: "{0} chose to stop throwing"
+  templates:
+  - splitPath: Desc
+    template: "AI{0}"
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10123\",\r\n    \"Desc\": \"AI行为note\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>\",\r\n    \"DescTw\": \"AI行為note\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>\"\r\n  }"
   rawIndex: 10123
   splits:
   - splitPath: Desc
-    text: "AI行为note"
-    translated: "AI Behavior Note"
+    text: "行为"
+    translated: "AI Behavior"
   - splitPath: Dictionary
-    text: "{0}使用了<color=#FFD26E>{1}</color>"
-    translated: "{0} used <color=#FFD26E>{1}</color>"
+    text: "使用了"
+    translated: "{0} used {1}"
+  templates:
+  - splitPath: Desc
+    template: "AI{0}note"
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"10130\",\r\n    \"Desc\": \"一次奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}拿出了{1}</color>\",\r\n    \"DescTw\": \"一次獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}拿出了{1}</color>\"\r\n  }"
   rawIndex: 10130
   splits:
@@ -1735,8 +2064,11 @@
     text: "一次奖励"
     translated: "A reward"
   - splitPath: Dictionary
-    text: "<color=#B7A97C>{0}拿出了{1}</color>"
-    translated: "<color=#B7A97C>{0} took out {1}</color>"
+    text: "拿出了"
+    translated: "Took out"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#B7A97C>⟦0⟧{0}⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"10131\",\r\n    \"Desc\": \"多次奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}又拿出了{1}</color>\",\r\n    \"DescTw\": \"多次獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}又拿出了{1}</color>\"\r\n  }"
   rawIndex: 10131
   splits:
@@ -1744,8 +2076,11 @@
     text: "多次奖励"
     translated: "Multiple rewards"
   - splitPath: Dictionary
-    text: "<color=#B7A97C>{0}又拿出了{1}</color>"
-    translated: "<color=#B7A97C>{0} took out {1} again</color>"
+    text: "又拿出了"
+    translated: "Pulled out again"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#B7A97C>⟦0⟧{0}⟦1⟧</color>"
 - raw: "{\r\n    \"Key\": \"10132\",\r\n    \"Desc\": \"技能奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}似乎拿出了不得了的功法作为赌注</color>\",\r\n    \"DescTw\": \"技能獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}似乎拿出了不得了的功法作為賭注</color>\"\r\n  }"
   rawIndex: 10132
   splits:
@@ -1753,8 +2088,11 @@
     text: "技能奖励"
     translated: "Skill reward"
   - splitPath: Dictionary
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的功法作为赌注</color>"
-    translated: "<color=#B7A97C>{0} seems to have brought out an formidable cultivation technique as a bet.</color>"
+    text: "似乎拿出了不得了的功法作为赌注"
+    translated: "It seems they're betting on an incredibly powerful cultivation technique."
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#B7A97C>⟦0⟧{0}</color>"
 - raw: "{\r\n    \"Key\": \"10137\",\r\n    \"Desc\": \"宝物奖励\",\r\n    \"Dictionary\": \"<color=#B7A97C>{0}似乎拿出了不得了的宝物作为赌注</color>\",\r\n    \"DescTw\": \"寶物獎勵\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>{0}似乎拿出了不得了的寶物作為賭注</color>\"\r\n  }"
   rawIndex: 10137
   splits:
@@ -1762,8 +2100,11 @@
     text: "宝物奖励"
     translated: "Treasure reward"
   - splitPath: Dictionary
-    text: "<color=#B7A97C>{0}似乎拿出了不得了的宝物作为赌注</color>"
-    translated: "<color=#B7A97C>{0} seems to have brought out a formidable treasure as a bet</color>"
+    text: "似乎拿出了不得了的宝物作为赌注"
+    translated: "It seems they've wagered an incredible treasure"
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#B7A97C>⟦0⟧{0}</color>"
 - raw: "{\r\n    \"Key\": \"10133\",\r\n    \"Desc\": \"无奖励\",\r\n    \"Dictionary\": \"{0}已经没有什么可以输给你的了\",\r\n    \"DescTw\": \"無獎勵\",\r\n    \"DictionaryTw\": \"{0}已經沒有什麼可以輸給你的了\"\r\n  }"
   rawIndex: 10133
   splits:
@@ -1771,8 +2112,11 @@
     text: "无奖励"
     translated: "No reward"
   - splitPath: Dictionary
-    text: "{0}已经没有什么可以输给你的了"
+    text: "已经没有什么可以输给你的了"
     translated: "{0} has nothing left to give you"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10134\",\r\n    \"Desc\": \"玩家输光\",\r\n    \"Dictionary\": \"你已经没有足够的财富继续玩下去了\",\r\n    \"DescTw\": \"玩家輸光\",\r\n    \"DictionaryTw\": \"你已經沒有足夠的財富繼續玩下去了\"\r\n  }"
   rawIndex: 10134
   splits:
@@ -1801,32 +2145,87 @@
     text: "点数计算文本"
     translated: "Point calculation text"
   - splitPath: Dictionary
-    text: "第{0}轮，{1}投出了{2}获得点数{3}（基数{4}x倍数{5}）"
-    translated: "Round {0}, {1} rolled a score of {2} (base {4} times multiplier {5}) {3}."
+    text: "第"
+    translated: "Chapter"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "轮，"
+    translated: "Wheel,"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "投出了"
+    translated: "Threw out"
+  - splitPath: Dictionary
+    subIndex: 3
+    text: "获得点数"
+    translated: "Earn points"
+  - splitPath: Dictionary
+    subIndex: 4
+    text: "（基数"
+    translated: "(base number)"
+  - splitPath: Dictionary
+    subIndex: 5
+    text: "倍数"
+    translated: "Multiple"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}⟦1⟧{2}⟦2⟧{3}⟦3⟧{4}⟦4⟧x{5}⟦5⟧）"
 - raw: "{\r\n    \"Key\": \"10141\",\r\n    \"Dictionary\": \"{0}投出{1}点\",\r\n    \"DictionaryTw\": \"{0}投出{1}點\"\r\n  }"
   rawIndex: 10141
   splits:
   - splitPath: Dictionary
-    text: "{0}投出{1}点"
+    text: "投出"
     translated: "{0} threw {1} point"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}⟦1⟧{1}"
 - raw: "{\r\n    \"Key\": \"10142\",\r\n    \"Dictionary\": \"第{0}轮，{1}投出了“劫数”，本轮点数清零，回合结束\",\r\n    \"DictionaryTw\": \"第{0}輪，{1}投出了“劫數”，本輪點數清零，回合結束\"\r\n  }"
   rawIndex: 10142
   splits:
   - splitPath: Dictionary
-    text: "第{0}轮，{1}投出了“劫数”，本轮点数清零，回合结束"
-    translated: "Round {0}, {1} rolled  “Fate” , resetting the point count for this round and ending their turn."
+    text: "第"
+    translated: "Chapter"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "轮，"
+    translated: "Wheel,"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "投出了“劫数”，本轮点数清零，回合结束"
+    translated: "Thrown  “Destiny” . This round's points reset, ending the turn."
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
 - raw: "{\r\n    \"Key\": \"10143\",\r\n    \"Dictionary\": \"{0}投出了“劫数”，本轮点数清零\",\r\n    \"DictionaryTw\": \"{0}投出了“劫數”，本輪點數清零\"\r\n  }"
   rawIndex: 10143
   splits:
   - splitPath: Dictionary
-    text: "{0}投出了“劫数”，本轮点数清零"
+    text: "投出了“劫数”，本轮点数清零"
     translated: "{0} threw  “Fate” , resetting the round score to zero."
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10144\",\r\n    \"Dictionary\": \"{0}使用了<color=#FFD26E>{1}</color>，投出了{2}点\",\r\n    \"DictionaryTw\": \"{0}使用了<color=#FFD26E>{1}</color>，投出了{2}點\"\r\n  }"
   rawIndex: 10144
   splits:
   - splitPath: Dictionary
-    text: "{0}使用了<color=#FFD26E>{1}</color>，投出了{2}点"
-    translated: "{0} used <color=#FFD26E>{1}</color> and threw {2} points"
+    text: "使用了"
+    translated: "{0} used {1}"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "，投出了"
+    translated: "Threw"
+  - splitPath: Dictionary
+    subIndex: 2
+    text: "点"
+    translated: "Click"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}⟦2⟧{2}"
 - raw: "{\r\n    \"Key\": \"10200\",\r\n    \"Desc\": \"劫数出现概率\",\r\n    \"Dictionary\": \"出现概率{0}%\",\r\n    \"DescTw\": \"劫數出現概率\",\r\n    \"DictionaryTw\": \"出現概率{0}%\"\r\n  }"
   rawIndex: 10200
   splits:
@@ -1834,50 +2233,90 @@
     text: "劫数出现概率"
     translated: "Chance of encountering a calamity"
   - splitPath: Dictionary
-    text: "出现概率{0}%"
+    text: "出现概率"
     translated: "Probability of occurrence {0}%"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧%"
 - raw: "{\r\n    \"Key\": \"10201\",\r\n    \"Dictionary\": \"无“劫数”获得{0}倍点数\",\r\n    \"DictionaryTw\": \"無“劫數”獲得{0}倍點數\"\r\n  }"
   rawIndex: 10201
   splits:
   - splitPath: Dictionary
-    text: "无“劫数”获得{0}倍点数"
+    text: "无“劫数”获得"
     translated: "No  “Destiny”  gets {0} times the points"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "倍点数"
+    translated: "Multiplier points"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"10202\",\r\n    \"Dictionary\": \"第{0}/{1}局\",\r\n    \"DictionaryTw\": \"第{0}/{1}局\"\r\n  }"
   rawIndex: 10202
   splits:
   - splitPath: Dictionary
-    text: "第{0}/{1}局"
-    translated: "Round {0}/{1}"
+    text: "第"
+    translated: "Chapter"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "局"
+    translated: "Agency"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧/⟦1⟧{1}"
 - raw: "{\r\n    \"Key\": \"10203\",\r\n    \"Dictionary\": \"本局赌注{0}文\",\r\n    \"DictionaryTw\": \"本局賭注{0}文\"\r\n  }"
   rawIndex: 10203
   splits:
   - splitPath: Dictionary
-    text: "本局赌注{0}文"
+    text: "本局赌注"
     translated: "The bet for this round is {0} wen."
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "文"
+    translated: "{0} coin"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"10204\",\r\n    \"Dictionary\": \"{0}获胜\",\r\n    \"DictionaryTw\": \"{0}獲勝\"\r\n  }"
   rawIndex: 10204
   splits:
   - splitPath: Dictionary
-    text: "{0}获胜"
+    text: "获胜"
     translated: "{0} wins"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}"
 - raw: "{\r\n    \"Key\": \"10206\",\r\n    \"Dictionary\": \"{0}赢走了{1}{2}\",\r\n    \"DictionaryTw\": \"{0}贏走了{1}{2}\"\r\n  }"
   rawIndex: 10206
   splits:
   - splitPath: Dictionary
-    text: "{0}赢走了{1}{2}"
+    text: "赢走了"
     translated: "{0} won and took {1}'s {2}"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}⟦1⟧⟦2⟧"
 - raw: "{\r\n    \"Key\": \"10207\",\r\n    \"Dictionary\": \"{0}赢走了{1}的<color=#B7A97C>{2}</color>\",\r\n    \"DictionaryTw\": \"{0}贏走了{1}的<color=#B7A97C>{2}</color>\"\r\n  }"
   rawIndex: 10207
   splits:
   - splitPath: Dictionary
-    text: "{0}赢走了{1}的<color=#B7A97C>{2}</color>"
-    translated: "{0} won {1}'s <color=#B7A97C>{2}</color>"
+    text: "赢走了"
+    translated: "{0} won and took {1}'s {2}"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "的"
+    translated: "Of"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}⟦1⟧{1}<color=#B7A97C>⟦2⟧</color>"
 - raw: "{\r\n    \"Key\": \"10208\",\r\n    \"Dictionary\": \"<color=#B7A97C>对方似乎还有不少财富</color>\",\r\n    \"DictionaryTw\": \"<color=#B7A97C>對方似乎還有不少財富</color>\"\r\n  }"
   rawIndex: 10208
   splits:
   - splitPath: Dictionary
-    text: "<color=#B7A97C>对方似乎还有不少财富</color>"
-    translated: "<color=#B7A97C>The other party seems to still have considerable wealth.</color>"
+    text: "对方似乎还有不少财富"
+    translated: "It seems the other party still has considerable wealth."
+  templates:
+  - splitPath: Dictionary
+    template: "<color=#B7A97C>{0}</color>"
 - raw: "{\r\n    \"Key\": \"10210\",\r\n    \"Dictionary\": \"如果无法连胜，可以下次再来挑战，进度将会保存。\",\r\n    \"DictionaryTw\": \"如果無法連勝，可以下次再來挑戰，進度將會儲存。\"\r\n  }"
   rawIndex: 10210
   splits:
@@ -1894,14 +2333,24 @@
   rawIndex: 10212
   splits:
   - splitPath: Dictionary
-    text: "{0}使用了{1}"
+    text: "使用了"
     translated: "{0} used {1}"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧{0}⟦1⟧"
 - raw: "{\r\n    \"Key\": \"10300\",\r\n    \"Dictionary\": \"赌术≥{0}方可通杀对手\",\r\n    \"DictionaryTw\": \"賭術≥{0}方可通殺對手\"\r\n  }"
   rawIndex: 10300
   splits:
   - splitPath: Dictionary
-    text: "赌术≥{0}方可通杀对手"
-    translated: "A gambling skill of at least {0} is required to defeat your opponent."
+    text: "赌术"
+    translated: "Gambling"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "方可通杀对手"
+    translated: "You can defeat your opponent with this"
+  templates:
+  - splitPath: Dictionary
+    template: "{0}≥⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"10301\",\r\n    \"Dictionary\": \"不可在对方回合使用\",\r\n    \"DictionaryTw\": \"不可在對方回合使用\"\r\n  }"
   rawIndex: 10301
   splits:
@@ -1912,8 +2361,15 @@
   rawIndex: 10302
   splits:
   - splitPath: Dictionary
-    text: "当玩家赌术≥对手时可以选择通杀对手，直接取胜，获取全部奖励"
-    translated: "When the player's Gambling Skill is equal to or higher than the opponent's, they can choose to Defeat the Opponent with a Single Move, directly winning the match and obtaining all rewards."
+    text: "当玩家赌术"
+    translated: "When the player uses gambling skills"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "对手时可以选择通杀对手，直接取胜，获取全部奖励"
+    translated: "In battle, you can choose to defeat all opponents directly to win and claim all rewards."
+  templates:
+  - splitPath: Dictionary
+    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10303\",\r\n    \"Dictionary\": \"你打算与谁较量一番？\",\r\n    \"DictionaryTw\": \"你打算與誰較量一番？\"\r\n  }"
   rawIndex: 10303
   splits:
@@ -1924,8 +2380,15 @@
   rawIndex: 10304
   splits:
   - splitPath: Dictionary
-    text: "{0}(赌术{1}可通杀）"
-    translated: "{0} (Gambling skills {1} can be versatile)"
+    text: "赌术"
+    translated: "Gambling"
+  - splitPath: Dictionary
+    subIndex: 1
+    text: "可通杀）"
+    translated: "Decapitate all enemies)"
+  templates:
+  - splitPath: Dictionary
+    template: "⟦0⟧({0}⟦1⟧{1}"
 - raw: "{\r\n    \"Key\": \"10305\",\r\n    \"Dictionary\": \"赌局已经开始，不能通杀了\",\r\n    \"DictionaryTw\": \"賭局已經開始，不能通殺了\"\r\n  }"
   rawIndex: 10305
   splits:

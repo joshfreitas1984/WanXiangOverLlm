@@ -39,13 +39,16 @@
   splits:
   - splitPath: Name
     text: "唐家堡"
+    translated: "Tang Family Fortaleza"
 - raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"有间客栈\",\r\n    \"Desc\": \"川蜀出生点\",\r\n    \"NameTw\": \"有間客棧\",\r\n    \"DescTw\": \"川蜀出生點\"\r\n  }"
   rawIndex: 7
   splits:
   - splitPath: Name
     text: "有间客栈"
+    translated: "A Small Inn"
   - splitPath: Desc
     text: "川蜀出生点"
+    translated: "Sichuan Starting Point"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"望驾山\",\r\n    \"NameTw\": \"望駕山\"\r\n  }"
   rawIndex: 99
   splits:
@@ -237,57 +240,73 @@
   splits:
   - splitPath: Name
     text: "无悔堂"
+    translated: "Regret‑Free Hall"
   - splitPath: Desc
     text: "唐家堡正殿，是唐门门主和各位长老议事之处。"
+    translated: "The main hall of Tang Family Fort is where the Tang Clan leader and various elders convene to discuss matters."
 - raw: "{\r\n    \"Key\": \"602\",\r\n    \"Name\": \"安乐窝\",\r\n    \"Desc\": \"唐家堡偏阁，是唐门老太爷唐放颐养之处。\",\r\n    \"NameTw\": \"安樂窩\",\r\n    \"DescTw\": \"唐家堡偏閣，是唐門老太爺唐放頤養之處。\"\r\n  }"
   rawIndex: 602
   splits:
   - splitPath: Name
     text: "安乐窝"
+    translated: "Haven of comfort"
   - splitPath: Desc
     text: "唐家堡偏阁，是唐门老太爷唐放颐养之处。"
+    translated: "The side pavilion of the Tang Family Manor is where the elder matriarch of the Tang Clan, Tang Fangyi, retires to."
 - raw: "{\r\n    \"Key\": \"603\",\r\n    \"Name\": \"百毒坊\",\r\n    \"Desc\": \"唐家堡制药坊，是唐门门人炼制药物之处。\",\r\n    \"NameTw\": \"百毒坊\",\r\n    \"DescTw\": \"唐家堡製藥坊，是唐門門人煉製藥物之處。\"\r\n  }"
   rawIndex: 603
   splits:
   - splitPath: Name
     text: "百毒坊"
+    translated: "Poison Den"
   - splitPath: Desc
     text: "唐家堡制药坊，是唐门门人炼制药物之处。"
+    translated: "The Tang Clan Pharmaceutical Workshop is where the Tang Clan practitioners refine medicines."
 - raw: "{\r\n    \"Key\": \"604\",\r\n    \"Name\": \"千机坊\",\r\n    \"Desc\": \"唐家堡锻造坊。是唐门门人制造机关、暗器之处。\",\r\n    \"NameTw\": \"千機坊\",\r\n    \"DescTw\": \"唐家堡鍛造坊。是唐門門人制造機關、暗器之處。\"\r\n  }"
   rawIndex: 604
   splits:
   - splitPath: Name
     text: "千机坊"
+    translated: "Million‑Droneworks Workshop"
   - splitPath: Desc
     text: "唐家堡锻造坊。是唐门门人制造机关、暗器之处。"
+    translated: "The Tang Family Forge is where Tang Clan disciples create mechanisms and hidden weapons."
 - raw: "{\r\n    \"Key\": \"605\",\r\n    \"Name\": \"演武场\",\r\n    \"Desc\": \"唐家堡演武场，是唐门门人日常习武，切磋技艺之处。\",\r\n    \"NameTw\": \"演武場\",\r\n    \"DescTw\": \"唐家堡演武場，是唐門門人日常習武，切磋技藝之處。\"\r\n  }"
   rawIndex: 605
   splits:
   - splitPath: Name
     text: "演武场"
+    translated: "Combat Arena"
   - splitPath: Desc
     text: "唐家堡演武场，是唐门门人日常习武，切磋技艺之处。"
+    translated: "The Tang Family Fort's Training Ground is where Tang Clan practitioners train and refine their martial arts skills."
 - raw: "{\r\n    \"Key\": \"606\",\r\n    \"Name\": \"卧房\",\r\n    \"Desc\": \"唐家堡弟子卧房，是唐门门人日常休息、闭关之处。\",\r\n    \"NameTw\": \"臥房\",\r\n    \"DescTw\": \"唐家堡弟子臥房，是唐門門人日常休息、閉關之處。\"\r\n  }"
   rawIndex: 606
   splits:
   - splitPath: Name
     text: "卧房"
+    translated: "Bedroom"
   - splitPath: Desc
     text: "唐家堡弟子卧房，是唐门门人日常休息、闭关之处。"
+    translated: "The dormitory of the disciples in the Tang Family Manor is where members of the Tang Clan rest and seclude themselves for training."
 - raw: "{\r\n    \"Key\": \"607\",\r\n    \"Name\": \"后山\",\r\n    \"Desc\": \"唐家堡后山群峰，共有七十一峰，皆藏妙景，别有洞天。\",\r\n    \"NameTw\": \"後山\",\r\n    \"DescTw\": \"唐家堡後山群峰，共有七十一峰，皆藏妙景，別有洞天。\"\r\n  }"
   rawIndex: 607
   splits:
   - splitPath: Name
     text: "后山"
+    translated: "Back mountain"
   - splitPath: Desc
     text: "唐家堡后山群峰，共有七十一峰，皆藏妙景，别有洞天。"
+    translated: "In the rear mountains of Tang Family Village, there are seventy‑one peaks, each concealing marvelous scenery and offering a world apart."
 - raw: "{\r\n    \"Key\": \"701\",\r\n    \"Name\": \"有间客栈\",\r\n    \"Desc\": \"川蜀之地间的一座客栈，虽然名声不显，却是过往行人的不二选择。\",\r\n    \"NameTw\": \"有間客棧\",\r\n    \"DescTw\": \"川蜀之地間的一座客棧，雖然名聲不顯，卻是過往行人的不二選擇。\"\r\n  }"
   rawIndex: 701
   splits:
   - splitPath: Name
     text: "有间客栈"
+    translated: "A Small Inn"
   - splitPath: Desc
     text: "川蜀之地间的一座客栈，虽然名声不显，却是过往行人的不二选择。"
+    translated: "In the region of Chu‑Shu, a small inn stands out as the go‑to choice for travelers despite its unremarkable reputation."
 - raw: "{\r\n    \"Key\": \"9901\",\r\n    \"Name\": \"广成丹穴\",\r\n    \"Desc\": \"崆峒山东峰望驾山绝壁丹穴，内中留有广成子遗刻。\",\r\n    \"NameTw\": \"廣成丹穴\",\r\n    \"DescTw\": \"崆峒山東峰望駕山絕壁丹穴，內中留有廣成子遺刻。\"\r\n  }"
   rawIndex: 9901
   splits:
@@ -581,8 +600,10 @@
   splits:
   - splitPath: Name
     text: "息心亭"
+    translated: "Calm Heart Pavilion"
   - splitPath: Desc
     text: "位于湘东长沙府境内，是北山山麓之间的一处凉亭，有人看到天魔教高手“魔心卿相”温残阳便在此处。。"
+    translated: "Located in the Xiangdong region of Changsha Prefecture, this pavilion is situated between the foothills of the Northern Mountains. Someone has seen the Heavenly Demon Sect expert 'Wen Canyang' here."
 - raw: "{\r\n    \"Key\": \"104011\",\r\n    \"Name\": \"荆北游历\",\r\n    \"Desc\": \"荆楚之北，襄阳府、德安府、郧阳府、随州、均州三府两州所在之地。\",\r\n    \"NameTw\": \"荊北遊歷\",\r\n    \"DescTw\": \"荊楚之北，襄陽府、德安府、鄖陽府、隨州、均州三府兩州所在之地。\"\r\n  }"
   rawIndex: 104011
   splits:
@@ -626,8 +647,16 @@
     text: "无心谷"
     translated: "Heartless Valley"
   - splitPath: Desc
-    text: "【挑战类副本】四星难度<color=#FF0000>\\n此副本为高难度战斗体验挑战，不影响游戏剧情！</color>"
-    translated: "【Challenger‑style dungeon】  four‑star difficulty<color=#FF0000>\\nThis copy offers a high‑difficulty battle experience challenge and does not affect the game's storyline! </color>"
+    text: "【挑战类副本】四星难度"
+    translated: "【Challenger‑type dungeon】  on four‑star difficulty"
+  - splitPath: Desc
+    subIndex: 1
+    text: "此副本为高难度战斗体验挑战，不影响游戏剧情！"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
+  templates:
+  - splitPath: Desc
+    template: "{0}<color=#FF0000>\\n{1}</color>"
 - raw: "{\r\n    \"Key\": \"105011\",\r\n    \"Name\": \"湘北游历\",\r\n    \"Desc\": \"潇湘之北，岳州府、常德府、澧州、南渭州、施溶州、上溪州两府四州及诸土司所在之地。\",\r\n    \"NameTw\": \"湘北遊歷\",\r\n    \"DescTw\": \"瀟湘之北，嶽州府、常德府、澧州、南渭州、施溶州、上溪州兩府四州及諸土司所在之地。\"\r\n  }"
   rawIndex: 105011
   splits:
@@ -660,15 +689,19 @@
   splits:
   - splitPath: Name
     text: "云梦小筑"
+    translated: "Dreamy Cloud Cottage"
   - splitPath: Desc
     text: "位于湘北岳州府境内，沿洞庭湖而建，依山傍水，景色怡人。"
+    translated: "Located in Xiangbei Prefecture's Yuezhou, this town was built along Dongting Lake, nestled among the mountains and beside the water, offering picturesque scenery."
 - raw: "{\r\n    \"Key\": \"105018\",\r\n    \"Name\": \"招贤擂\",\r\n    \"Desc\": \"位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。\",\r\n    \"NameTw\": \"招賢擂\",\r\n    \"DescTw\": \"位於湘北嶽州府城中心，是寧王府所佈下意欲招賢納士的擂臺。\"\r\n  }"
   rawIndex: 105018
   splits:
   - splitPath: Name
     text: "招贤擂"
+    translated: "Recruit Talents Battle Platform"
   - splitPath: Desc
     text: "位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。"
+    translated: "Located at the heart of Yuezhou City in Xiangbei, this platform was set up by the Peaceful King Manor to attract talents and scholars."
 - raw: "{\r\n    \"Key\": \"105019\",\r\n    \"Name\": \"烟波坞\",\r\n    \"Desc\": \"洞庭帮据点，位于湘北岳州府，洞庭湖中君山之上。\",\r\n    \"NameTw\": \"煙波塢\",\r\n    \"DescTw\": \"洞庭幫據點，位於湘北嶽州府，洞庭湖中君山之上。\"\r\n  }"
   rawIndex: 105019
   splits:
@@ -764,8 +797,10 @@
   splits:
   - splitPath: Name
     text: "永利当铺"
+    translated: "Lion Rock Pawnshop"
   - splitPath: Desc
     text: "永利当铺据点，位于湘西辰州府境内，大掌柜何友谅善鉴文玩珍宝，在湘西一地有口皆碑。"
+    translated: "Riyi Pawnshop Outpost is located within Chenzhou Prefecture in Xiangxi. The shopkeeper, He Youliang, is skilled at appraising literary and artistic treasures, and is well‑known throughout Xiangxi."
 - raw: "{\r\n    \"Key\": \"107018\",\r\n    \"Name\": \"秘魔崖\",\r\n    \"Desc\": \"位于湘西靖州境内，乃是天魔教总舵天魔宫盘踞之处。\",\r\n    \"NameTw\": \"祕魔崖\",\r\n    \"DescTw\": \"位於湘西靖州境內，乃是天魔教總舵天魔宮盤踞之處。\"\r\n  }"
   rawIndex: 107018
   splits:
@@ -816,15 +851,19 @@
   splits:
   - splitPath: Name
     text: "汉昭烈庙"
+    translated: "Temple of Emperor Zhaoxian"
   - splitPath: Desc
     text: "汉昭烈庙据点，位于川西成都府境内，一庙双祠，同时祭祀汉昭烈帝和诸葛武侯，香火鼎盛。"
+    translated: "Han Zhao Li Temple Outpost, located within the borders of West Sichuan's Chengdu Commandery, houses both a temple and two shrines, simultaneously honoring Emperor Zhao and Zhuge Liang, and is renowned for its prosperous incense offerings."
 - raw: "{\r\n    \"Key\": \"201017\",\r\n    \"Name\": \"罨画池\",\r\n    \"Desc\": \"位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。\",\r\n    \"NameTw\": \"罨畫池\",\r\n    \"DescTw\": \"位於川西成都府境內，園林祠廟相得益彰，滿園疊翠綠樹成蔭，乃是川西聞名的園林。\"\r\n  }"
   rawIndex: 201017
   splits:
   - splitPath: Name
     text: "罨画池"
+    translated: "Picture Perfect Pond"
   - splitPath: Desc
     text: "位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。"
+    translated: "Located in the western part of Chengdu, Sichuan, this garden temple complex showcases a harmonious blend of landscaped gardens and ancient shrines. The entire garden is adorned with lush, layered greenery, making it one of the most renowned gardens in the western part of Sichuan."
 - raw: "{\r\n    \"Key\": \"10202\",\r\n    \"Name\": \"川中\",\r\n    \"Desc\": \"川蜀中部，顺庆府、潼川府、保宁府三府所在之地。\",\r\n    \"NameTw\": \"川中\",\r\n    \"DescTw\": \"川蜀中部，順慶府、潼川府、保寧府三府所在之地。\"\r\n  }"
   rawIndex: 10202
   splits:
@@ -839,15 +878,20 @@
   splits:
   - splitPath: Name
     text: "川中游历"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - splitPath: Desc
     text: "川蜀中部，顺庆府、潼川府、保宁府三府所在之地。"
+    translated: "In central Sichuan, this area includes the prefectures of Shunqing, Tongchuan, and Baoding."
 - raw: "{\r\n    \"Key\": \"201026\",\r\n    \"Name\": \"六扇门\",\r\n    \"Desc\": \"六扇门川蜀分部据点，位于川蜀南充城内，川蜀总捕樊重关行事雷厉风行，率领衙中高手擒拿无数江湖败类。\",\r\n    \"NameTw\": \"六扇門\",\r\n    \"DescTw\": \"六扇門川蜀分部據點，位於川蜀南充城內，川蜀總捕樊重關行事雷厲風行，率領衙中高手擒拿無數江湖敗類。\"\r\n  }"
   rawIndex: 201026
   splits:
   - splitPath: Name
     text: "六扇门"
+    translated: "Six Doors"
   - splitPath: Desc
     text: "六扇门川蜀分部据点，位于川蜀南充城内，川蜀总捕樊重关行事雷厉风行，率领衙中高手擒拿无数江湖败类。"
+    translated: "The Six Doors outpost in the Sichuan region is located within Nanchong City. Chief Fang Zongguan of the Sichuan headquarters acts with great decisiveness, leading the officials in the prefecture to capture countless scoundrels from the Jianghu."
 - raw: "{\r\n    \"Key\": \"10203\",\r\n    \"Name\": \"川东\",\r\n    \"Desc\": \"川蜀之东，夔州府、重庆府、泸州、播州宣慰司、永宁宣慰司两府一州两宣慰司所在之地。\",\r\n    \"NameTw\": \"川東\",\r\n    \"DescTw\": \"川蜀之東，夔州府、重慶府、瀘州、播州宣慰司、永寧宣慰司兩府一州兩宣慰司所在之地。\"\r\n  }"
   rawIndex: 10203
   splits:
@@ -889,8 +933,10 @@
   splits:
   - splitPath: Name
     text: "神女宫"
+    translated: "Sage Maiden Palace"
   - splitPath: Desc
     text: "神女宫据点，位于夔州府巫山神女峰上，宫主巫云凤武功深不可测，庇佑宫中女子，与江湖人少有牵扯。"
+    translated: "The Outpost of the Goddess Palace is situated on the Wu Mountain Goddess Peak in Kuizhou Prefecture. The palace mistress, Wu Yunfeng, has martial arts beyond comprehension, and she protects the women of the palace, rarely entangling herself with affairs of the Jianghu."
 - raw: "{\r\n    \"Key\": \"10204\",\r\n    \"Name\": \"川南\",\r\n    \"Desc\": \"川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。\",\r\n    \"NameTw\": \"川南\",\r\n    \"DescTw\": \"川蜀之南，敘州府、馬湖府、烏蒙府、鎮雄府、烏撒府、東川府、四川行都司六府一都司所在之地。\"\r\n  }"
   rawIndex: 10204
   splits:
@@ -905,19 +951,25 @@
   splits:
   - splitPath: Name
     text: "川南游历"
+    translated: "Southern Sichuan Tour"
   - splitPath: Desc
     text: "川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。"
+    translated: "In the south of Sichuan Province, in Xushou Prefecture, Maluhu Prefecture, Wumeng Prefecture, Zhentong Prefecture, Wusa Prefecture, Dongchuan Prefecture, and the Six Prefectures and One Military Commission of Sichuan."
 - raw: "{\r\n    \"Key\": \"201045\",\r\n    \"Name\": \"蚩黎峒\",\r\n    \"Desc\": \"蚩黎峒据点，位于叙州府大凉山北麓，峒人擅长驯养苍狼，是川蜀之地各苗峒之首。\",\r\n    \"NameTw\": \"蚩黎峒\",\r\n    \"DescTw\": \"蚩黎峒據點，位於敘州府大涼山北麓，峒人擅長馴養蒼狼，是川蜀之地各苗峒之首。\"\r\n  }"
   rawIndex: 201045
   splits:
   - splitPath: Name
     text: "蚩黎峒"
+    translated: "Chi Li Dong"
   - splitPath: Desc
     text: "蚩黎峒据点，位于叙州府大凉山北麓，峒人擅长驯养苍狼，是川蜀之地各苗峒之首。"
+    translated: "The Chi Li Dong Outpost, situated in the northern foothills of Da Liang Mountain in Xuyang Prefecture, the Dong people here are skilled in taming gray wolves and are considered the foremost of all the Miao Dong in Sichuan and Shu regions."
 - raw: "{\r\n    \"Key\": \"201047\",\r\n    \"Name\": \"大凉山\",\r\n    \"Desc\": \"位于川南叙州府境内，层山盘峙，地高风寒，山中多有各种獐、狍、鹿、豹栖息，坊间传言还有奇兽亦蛰伏于此。\",\r\n    \"NameTw\": \"大涼山\",\r\n    \"DescTw\": \"位於川南敘州府境內，層山盤峙，地高風寒，山中多有各種獐、狍、鹿、豹棲息，坊間傳言還有奇獸亦蟄伏於此。\"\r\n  }"
   rawIndex: 201047
   splits:
   - splitPath: Name
     text: "大凉山"
+    translated: "Da Liang Shan"
   - splitPath: Desc
     text: "位于川南叙州府境内，层山盘峙，地高风寒，山中多有各种獐、狍、鹿、豹栖息，坊间传言还有奇兽亦蛰伏于此。"
+    translated: "Located in the Xuzhou prefecture of southern Sichuan, the area is characterized by layered mountains that twist and turn, with high altitudes and cool winds. The mountains are home to various muntjac, roe deer, deer, and leopards. Folk legends also speak of strange beasts that lurk here."

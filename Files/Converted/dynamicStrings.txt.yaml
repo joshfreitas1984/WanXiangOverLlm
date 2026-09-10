@@ -3,151 +3,181 @@
   - split: 3
     text: "备份失败: "
     translated: "Backup failed:"
+    safeToTranslate: false
 - raw: "GameTools,Load,51,[Load] 解析文件失败: ,[System.String]"
   splits:
   - split: 3
     text: "[Load] 解析文件失败: "
     translated: "[Load] Failed to parse file:"
+    safeToTranslate: false
 - raw: "GameTools,ConvertNumberToChineseDate,101,一十,[System.Int32]"
   splits:
   - split: 3
     text: "一十"
     translated: "11"
+    safeToTranslate: false
 - raw: "GameTools,ConvertNumberToChineseDate,106,十,[System.Int32]"
   splits:
   - split: 3
     text: "十"
     translated: "10"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,155,零,[]"
   splits:
   - split: 3
     text: "零"
     translated: "0"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,163,一,[]"
   splits:
   - split: 3
     text: "一"
     translated: "1"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,171,二,[]"
   splits:
   - split: 3
     text: "二"
     translated: "2"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,179,三,[]"
   splits:
   - split: 3
     text: "三"
     translated: "3"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,187,四,[]"
   splits:
   - split: 3
     text: "四"
     translated: "4"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,195,五,[]"
   splits:
   - split: 3
     text: "五"
     translated: "5"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,203,六,[]"
   splits:
   - split: 3
     text: "六"
     translated: "6"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,211,七,[]"
   splits:
   - split: 3
     text: "七"
     translated: "7"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,219,八,[]"
   splits:
   - split: 3
     text: "八"
     translated: "8"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,228,九,[]"
   splits:
   - split: 3
     text: "九"
     translated: "9"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,255,十,[]"
   splits:
   - split: 3
     text: "十"
     translated: "10"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,263,百,[]"
   splits:
   - split: 3
     text: "百"
     translated: "Hundred"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,271,千,[]"
   splits:
   - split: 3
     text: "千"
     translated: "Thousand"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,279,万,[]"
   splits:
   - split: 3
     text: "万"
     translated: "10 Thousand"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,287,亿,[]"
   splits:
   - split: 3
     text: "亿"
     translated: "Billion"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,295,万亿,[]"
   splits:
   - split: 3
     text: "万亿"
     translated: "Trillion"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,303,亿亿,[]"
   splits:
   - split: 3
     text: "亿亿"
     translated: "Hundred Quadrillion"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,331,一,[]"
   splits:
   - split: 3
     text: "一"
     translated: "1"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,339,二,[]"
   splits:
   - split: 3
     text: "二"
     translated: "2"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,347,三,[]"
   splits:
   - split: 3
     text: "三"
     translated: "3"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,355,四,[]"
   splits:
   - split: 3
     text: "四"
     translated: "4"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,363,五,[]"
   splits:
   - split: 3
     text: "五"
     translated: "5"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,371,六,[]"
   splits:
   - split: 3
     text: "六"
     translated: "6"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,379,七,[]"
   splits:
   - split: 3
     text: "七"
     translated: "7"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,387,八,[]"
   splits:
   - split: 3
     text: "八"
     translated: "8"
+    safeToTranslate: false
 - raw: "GameTools,.cctor,396,九,[]"
   splits:
   - split: 3
     text: "九"
     translated: "9"
+    safeToTranslate: false
 - raw: "CharacterObj,OnDamage,240,对方,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -427,6 +457,7 @@
   splits:
   - split: 3
     text: "[ResolutionFailsafe] 检测到异常的极小分辨率: {0}x{1}。正在强制重置为安全分辨率..."
+    translated: "[ResolutionFailsafe] Detected abnormal minimum resolution: {0}x{1}. Forcing reset to safe resolution..."
 - raw: "ModInfoPage/<UpdateProgressCoroutine>d__32,MoveNext,259,计算中...,[]"
   splits:
   - split: 3

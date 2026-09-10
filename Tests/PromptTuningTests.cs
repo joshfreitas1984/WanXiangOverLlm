@@ -1,10 +1,9 @@
-﻿using System.Diagnostics;
-using System.Text;
-using System.Text.Json;
-using System.Text.Json.Nodes;
-using System.Text.Json.Schema;
+using System.Collections.Concurrent;
+using System.Diagnostics;
+using FanslationStudio.LlmKit;
+using FanslationStudio.LlmKit.Configuration;
 using FanslationStudio.LlmKit.Support;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Utility;
 
 namespace Translate.Tests;
 public class PromptTuningTests
@@ -25,7 +24,7 @@ public class PromptTuningTests
     [Fact(DisplayName = "1. Test Current Prompts")]
     public async Task TestPrompt()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         config.SkipLineValidation = true;
         config.RetryCount = 1;
 
@@ -38,11 +37,11 @@ public class PromptTuningTests
 
         var testLines = new List<TranslatedRaw> {
             //new("{size=24}這就是習練點蒼心法，以劍問道的代價嗎？{/size}"),
-            new("我如何處世自有計較，上官娘子管得未免過寬。 妳都還沒嫁進南宮世家，這就管起帳房開支，想執掌中饋了？ 真當自己是女主人了嗎！溫順不了片刻，潑辣性子便暴露無遺！"),
+            new("我如何处世自有计较，上官娘子管得未免过宽。 妳都还没嫁进南宫世家，这就管起帐房开支，想执掌中馈了？ 真当自己是女主人了吗！温顺不了片刻，泼辣性子便暴露无遗！"),
         };
 
-        var cache = new Dictionary<string, string>();
-        await TranslationService.FillTranslationCacheAsync(workingDirectory, 10, cache, config);       
+        var cache = new ConcurrentDictionary<string, string>();
+        await TranslationService.FillTranslationCacheAsync(workingDirectory, 10, cache, config, GameTextFiles.TextFilesToSplit);
 
         var results = new List<string>();
         var totalLines = testLines.Count;
@@ -83,12 +82,13 @@ public class PromptTuningTests
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
+        var modelConfig = LlmHelpers.CalculateModelConfig(config, string.Empty);
 
         // Prime the Request
 
-        var basePrompt = config.Prompts["0PromptToOptimise"];
-        var optimisePrompt = config.Prompts["0OptimisePrompt"];
+        var basePrompt = modelConfig.Prompts["0PromptToOptimise"];
+        var optimisePrompt = modelConfig.Prompts["0OptimisePrompt"];
 
         List<object> messages =
             [
@@ -97,7 +97,7 @@ public class PromptTuningTests
             ];
 
         // Generate based on what would have been created
-        var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
+        var result = await TranslationService.TranslateMessagesAsync(client, config, modelConfig, messages);
 
         File.WriteAllText($"{workingDirectory}/TestResults/1.MinimisePrompt.txt", result);
     }
@@ -113,7 +113,7 @@ public class PromptTuningTests
 
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "白亦";
         var result = await TranslationService.TranslateSplitAsync(config, input, client, textFile);
 
@@ -131,7 +131,7 @@ public class PromptTuningTests
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain in a <think> why the glossary was or was not used. " +
             "How do I update the system prompt to make sure it uses the glossary in this case.");
@@ -144,7 +144,7 @@ public class PromptTuningTests
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "豆花嫂希望你能为她丈夫带来虎鞭，至于用途应该不难猜？";
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ? was removed. Also explain how to adjust the system prompt to correct it to make sure the '?' was not removed and context is retained.");
@@ -157,7 +157,7 @@ public class PromptTuningTests
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "若果有此意，叫八戒伐几棵树来，沙僧寻些草来，我做木匠，就在这里搭个窝铺，你与她圆房成事，我们大家散了，却不是件事业？何必又跋涉，取什经去！";
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ! was removed. Also explain how to adjust the system prompt to correct it to make sure the '!' was not removed and context is retained. Show an example prompt.");
@@ -170,14 +170,14 @@ public class PromptTuningTests
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         //var input = "好嘞，客官您慢走！";
         //var input = "完成菩提";
         //var input = "人阶";
         var input = "实力";
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. " +
-            "Explain if/why you provided an alternative." +           
+            "Explain if/why you provided an alternative." +
             "Show where to update my current system prompt to stop the alternative and just give me one answer.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainAltPrompt.txt", result.Result);
@@ -189,7 +189,7 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
 
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         //var input = "好嘞，客官您慢走！";
         var input = "幽影-剑意纵横";
 
@@ -208,7 +208,7 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
 
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "通关后天赋值";
 
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
@@ -224,7 +224,7 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
 
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         config.SkipLineValidation = true;
         config.RetryCount = 1;
 
@@ -244,12 +244,14 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
 
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "操作 地面上双击并长按<w >施放 ";
+        var textFile = DefaultTestTextFile();
+        var modelConfig = LlmHelpers.CalculateModelConfig(config, input);
 
-        var prompts = TranslationService.GenerateBaseMessages(config, input, DefaultTestTextFile());
+        var prompts = TranslationService.GenerateBaseMessages(modelConfig, config.Runtime.GlossaryLines, input, textFile);
 
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, textFile,
             "Explain your reasinging in a <explain> tag, why the <w  > tag is missing." +
             "Show in a <prompt> tag, An updated system prompt that would have translated this to english.");
 
@@ -262,10 +264,10 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
 
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
         var input = "在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。";
 
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),            
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasinging in a <explain> tag, why is there no <color> tag in the final result." +
             "Show in a <prompt> tag, An updated system prompt to ensure the <color> tag is included in the final result.");
 
@@ -279,26 +281,27 @@ public class PromptTuningTests
 
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
 
         // Prime the Request
         var raw = "<color=#FF0000>炼狱</color>";
         var origResult = "Hellforge";
-        var origValidationResult = LineValidation.CheckTransalationSuccessful(config, raw, origResult, textFile);
-        List<object> messages = TranslationService.GenerateBaseMessages(config, raw, textFile);
+        var modelConfig = LlmHelpers.CalculateModelConfig(config, raw);
+        var origValidationResult = LineValidation.CheckTransalationSuccessful(modelConfig, raw, origResult, textFile);
+        List<object> messages = TranslationService.GenerateBaseMessages(modelConfig, config.Runtime.GlossaryLines, raw, textFile);
 
         // Tweak Correction Prompt here
-        var correctionPrompt = TranslationService.CalulateCorrectionPrompt(config, origValidationResult, raw, origResult);
+        var correctionPrompt = TranslationService.CalulateCorrectionPrompt(modelConfig, origValidationResult, raw, origResult);
         //var correctionPrompt = "Try again. The markup rules were not followed.";
 
         // Add what the correction prompt would have been
         TranslationService.AddCorrectionMessages(messages, origResult, correctionPrompt);
 
-        var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
+        var result = await TranslationService.TranslateMessagesAsync(client, config, modelConfig, messages);
 
         // Calculate output of test
-        var validationResult = LineValidation.CheckTransalationSuccessful(config, raw, result, textFile);
+        var validationResult = LineValidation.CheckTransalationSuccessful(modelConfig, raw, result, textFile);
         var lines = $"Valid:{validationResult.Valid}\nRaw:{raw}\nResult:{result}";
         File.WriteAllText($"{workingDirectory}/TestResults/OptimiseCorrectTag.txt", lines);
-    }   
+    }
 }

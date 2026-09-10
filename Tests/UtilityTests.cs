@@ -1,8 +1,10 @@
 ﻿using SharedAssembly.DynamicStrings;
 using SweetPotato;
 using System.Text.RegularExpressions;
+using FanslationStudio.LlmKit;
+using FanslationStudio.LlmKit.Configuration;
 using FanslationStudio.LlmKit.Support;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Utility;
 
 namespace Translate.Tests;
 
@@ -93,7 +95,7 @@ public class UtilityTests
     [InlineData("[System.Collections.Generic.Dictionary`2<System.Int64>，SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]", 2)]
     public void TestParameterSplitRegex(string rawParameters, int index)
     {
-        var serializer = Yaml.CreateSerializer();
+        var serializer = YamlHelper.CreateSerializer();
         var parameters = DynamicStringSupport.PrepareMethodParameters(rawParameters);
         var output = serializer.Serialize(parameters);
 
@@ -217,10 +219,11 @@ public class UtilityTests
     [InlineData("前往乘风渡劫杀{E}（{IsCanFinish:0:1}/1)", "asffsdf {E}（0/1)", false)]
     public void CheckTransalationSuccessfulTest(string raw, string result, bool valid)
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(workingDirectory);
+        var modelConfig = LlmHelpers.CalculateModelConfig(config, raw);
 
         // Act
-        var validationResult = LineValidation.CheckTransalationSuccessful(config, raw, result, new TextFileToSplit());
+        var validationResult = LineValidation.CheckTransalationSuccessful(modelConfig, raw, result, new TextFileToSplit());
 
         // Assert
         Assert.Equal(valid, validationResult.Valid);

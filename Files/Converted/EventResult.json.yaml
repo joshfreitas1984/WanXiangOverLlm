@@ -278,98 +278,210 @@
   rawIndex: 390100
   splits:
   - splitPath: Name
-    text: "基-衡山理月账"
-    translated: "Base ‑ Harmonious Mountain Month Account"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山理月账"
+    translated: "Hengshan Li Yue Account"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390200\",\r\n    \"Name\": \"基-下山运米粮\"\r\n  }"
   rawIndex: 390200
   splits:
   - splitPath: Name
-    text: "基-下山运米粮"
-    translated: "Ji‑go down the mountain to transport rice and grain"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "下山运米粮"
+    translated: "Transport food supplies down the mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390300\",\r\n    \"Name\": \"基-伙房帮厨灶\"\r\n  }"
   rawIndex: 390300
   splits:
   - splitPath: Name
-    text: "基-伙房帮厨灶"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "伙房帮厨灶"
     translated: "Kitchen helper stove"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390400\",\r\n    \"Name\": \"基-打扫演武场\"\r\n  }"
   rawIndex: 390400
   splits:
   - splitPath: Name
-    text: "基-打扫演武场"
-    translated: "Clean and tidy up the training grounds"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "打扫演武场"
+    translated: "Clean the training ground"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390500\",\r\n    \"Name\": \"基-庄院当值守\"\r\n  }"
   rawIndex: 390500
   splits:
   - splitPath: Name
-    text: "基-庄院当值守"
-    translated: "Ji ‑ Mansion On‑Duty Guard"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄院当值守"
+    translated: "Manor's night watch duty"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390600\",\r\n    \"Name\": \"基-库房理库存\"\r\n  }"
   rawIndex: 390600
   splits:
   - splitPath: Name
-    text: "基-库房理库存"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "库房理库存"
     translated: "Manage warehouse inventory"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390700\",\r\n    \"Name\": \"基-酒坊收银钱\"\r\n  }"
   rawIndex: 390700
   splits:
   - splitPath: Name
-    text: "基-酒坊收银钱"
-    translated: "Base ‑ Winery Cashier Coin"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "酒坊收银钱"
+    translated: "Winery is collecting coin"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390800\",\r\n    \"Name\": \"基-酒楼惩地痞\"\r\n  }"
   rawIndex: 390800
   splits:
   - splitPath: Name
-    text: "基-酒楼惩地痞"
-    translated: "Base at the Tavern Punishes Thugs"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "酒楼惩地痞"
+    translated: "Tavern Fines the Rowdy"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"390900\",\r\n    \"Name\": \"基-山脚逐凶兽\"\r\n  }"
   rawIndex: 390900
   splits:
   - splitPath: Name
-    text: "基-山脚逐凶兽"
-    translated: "Base of the mountain, chasing ferocious beasts"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "山脚逐凶兽"
+    translated: "Climbing up the mountain to chase vicious beasts"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391000\",\r\n    \"Name\": \"基-散银赈百姓\"\r\n  }"
   rawIndex: 391000
   splits:
   - splitPath: Name
-    text: "基-散银赈百姓"
-    translated: "Base Scatter Silver to Benefit the People"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "散银赈百姓"
+    translated: "Distribute silver to ease the burden on the common people."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391100\",\r\n    \"Name\": \"基-衡山送信一\"\r\n  }"
   rawIndex: 391100
   splits:
   - splitPath: Name
-    text: "基-衡山送信一"
-    translated: "Ji delivered a message to Mount Hengshan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信一"
+    translated: "Mount Heng Delivery Mission One"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391200\",\r\n    \"Name\": \"基-衡山送信二\"\r\n  }"
   rawIndex: 391200
   splits:
   - splitPath: Name
-    text: "基-衡山送信二"
-    translated: "Ji ‑ Delivering a Message on Hengshan Mountain"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信二"
+    translated: "Hengshan Town Delivery Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391300\",\r\n    \"Name\": \"基-衡山送信三\"\r\n  }"
   rawIndex: 391300
   splits:
   - splitPath: Name
-    text: "基-衡山送信三"
-    translated: "Ji ‑ Delivery of Messages on Mount Hengshan Three"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山送信三"
+    translated: "Hengshan Delivering Messages Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391400\",\r\n    \"Name\": \"基-衡山采买一\"\r\n  }"
   rawIndex: 391400
   splits:
   - splitPath: Name
-    text: "基-衡山采买一"
-    translated: "Ji ‑ Hunshan Procurement Agent"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买一"
+    translated: "Hengshan Procurement Team Member One"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391500\",\r\n    \"Name\": \"基-衡山采买二\"\r\n  }"
   rawIndex: 391500
   splits:
   - splitPath: Name
-    text: "基-衡山采买二"
-    translated: "Qi ‑ Harmonious Mountain Procurement Second Assistant"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买二"
+    translated: "Hengshan's Procurement Team Members"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"391600\",\r\n    \"Name\": \"基-衡山采买三\"\r\n  }"
   rawIndex: 391600
   splits:
   - splitPath: Name
-    text: "基-衡山采买三"
-    translated: "Ji‑Hengshan bought three"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山采买三"
+    translated: "Hengshan Procurement Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"400100\",\r\n    \"Name\": \"君子授冬学\"\r\n  }"
   rawIndex: 400100
   splits:
@@ -398,32 +510,67 @@
   rawIndex: 401100
   splits:
   - splitPath: Name
-    text: "基-冬学孟子课"
-    translated: "Ji studied Confucianism with Mencius"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学孟子课"
+    translated: "Winter studies under Mencius's teachings"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401200\",\r\n    \"Name\": \"基-冬学春秋课\"\r\n  }"
   rawIndex: 401200
   splits:
   - splitPath: Name
-    text: "基-冬学春秋课"
-    translated: "Ji taught the Spring and Autumn Courses"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学春秋课"
+    translated: "Winter Studies the Spring and Autumn Annals"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401300\",\r\n    \"Name\": \"基-冬学大学课\"\r\n  }"
   rawIndex: 401300
   splits:
   - splitPath: Name
-    text: "基-冬学大学课"
-    translated: "Ji‑Dongxue University Classes"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学大学课"
+    translated: "Winter Study University Course"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401400\",\r\n    \"Name\": \"基-冬学中庸课\"\r\n  }"
   rawIndex: 401400
   splits:
   - splitPath: Name
-    text: "基-冬学中庸课"
-    translated: "Ji taught the Doctrine of the Mean class."
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学中庸课"
+    translated: "Winter Class on the Doctrine of the Mean"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"401500\",\r\n    \"Name\": \"基-冬学尔雅课\"\r\n  }"
   rawIndex: 401500
   splits:
   - splitPath: Name
-    text: "基-冬学尔雅课"
-    translated: "Ji studied the winter literature class"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬学尔雅课"
+    translated: "Winter Scholarly Manners Class"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"402100\",\r\n    \"Name\": \"花炮授冬学\"\r\n  }"
   rawIndex: 402100
   splits:
@@ -452,32 +599,67 @@
   rawIndex: 403100
   splits:
   - splitPath: Name
-    text: "基-花炮配方一"
-    translated: "Ji ‑ Firework Recipe One"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方一"
+    translated: "Firework Recipe One"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403200\",\r\n    \"Name\": \"基-花炮配方二\"\r\n  }"
   rawIndex: 403200
   splits:
   - splitPath: Name
-    text: "基-花炮配方二"
-    translated: "Base‑Pistol Fireworks Recipe Two"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方二"
+    translated: "Firework Formula Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403300\",\r\n    \"Name\": \"基-花炮配方三\"\r\n  }"
   rawIndex: 403300
   splits:
   - splitPath: Name
-    text: "基-花炮配方三"
-    translated: "Base ‑ Fireworks Formula Three"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方三"
+    translated: "Fireworks Formula Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403400\",\r\n    \"Name\": \"基-花炮配方四\"\r\n  }"
   rawIndex: 403400
   splits:
   - splitPath: Name
-    text: "基-花炮配方四"
-    translated: "Base‑H Fireworks Formula Four"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方四"
+    translated: "Firework Formula Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"403500\",\r\n    \"Name\": \"基-花炮配方五\"\r\n  }"
   rawIndex: 403500
   splits:
   - splitPath: Name
-    text: "基-花炮配方五"
-    translated: "Base ‑ Firework Formula Five"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "花炮配方五"
+    translated: "Five fireworks recipe formula"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"404100\",\r\n    \"Name\": \"药王授冬学\"\r\n  }"
   rawIndex: 404100
   splits:
@@ -500,32 +682,67 @@
   rawIndex: 405100
   splits:
   - splitPath: Name
-    text: "基-医术药理一"
-    translated: "Ji ‑ Medicine and Pharmacology"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理一"
+    translated: "Medicine and pharmacology one"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405200\",\r\n    \"Name\": \"基-医术药理二\"\r\n  }"
   rawIndex: 405200
   splits:
   - splitPath: Name
-    text: "基-医术药理二"
-    translated: "Ji ‑ Medicine and Pharmacology Expert"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理二"
+    translated: "Medicine and Pharmacology Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405300\",\r\n    \"Name\": \"基-医术药理三\"\r\n  }"
   rawIndex: 405300
   splits:
   - splitPath: Name
-    text: "基-医术药理三"
-    translated: "Ji ‑ Master of Medicine and Pharmacology"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理三"
+    translated: "Medicine and pharmacology three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405400\",\r\n    \"Name\": \"基-医术药理四\"\r\n  }"
   rawIndex: 405400
   splits:
   - splitPath: Name
-    text: "基-医术药理四"
-    translated: "Base Medicine and Pharmacology IV"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理四"
+    translated: "Medicine and pharmacology four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405500\",\r\n    \"Name\": \"基-医术药理五\"\r\n  }"
   rawIndex: 405500
   splits:
   - splitPath: Name
-    text: "基-医术药理五"
-    translated: "Ji ‑ Medicine and Pharmacology Five"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理五"
+    translated: "Medicine and pharmacology five"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"405600\",\r\n    \"Name\": \"百味授冬学\"\r\n  }"
   rawIndex: 405600
   splits:
@@ -626,80 +843,171 @@
   rawIndex: 590100
   splits:
   - splitPath: Name
-    text: "基-演武练功一"
-    translated: "Base ‑ Training Martial Arts and Skills"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功一"
+    translated: "Training and Practicing Combat Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590200\",\r\n    \"Name\": \"基-演武练功二\"\r\n  }"
   rawIndex: 590200
   splits:
   - splitPath: Name
-    text: "基-演武练功二"
-    translated: "Base ‑ Training and Practicing Techniques"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功二"
+    translated: "Practicing Martial Arts Techniques II"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590300\",\r\n    \"Name\": \"基-演武练功三\"\r\n  }"
   rawIndex: 590300
   splits:
   - splitPath: Name
-    text: "基-演武练功三"
-    translated: "Base ‑ Practice Martial Arts and Cultivate Skills Three"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功三"
+    translated: "Practicing Martial Arts for Three Days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590400\",\r\n    \"Name\": \"基-演武练功四\"\r\n  }"
   rawIndex: 590400
   splits:
   - splitPath: Name
-    text: "基-演武练功四"
-    translated: "Base ‑ Practice Martial Arts Four"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功四"
+    translated: "Practice Martial Arts for Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590500\",\r\n    \"Name\": \"基-演武练功五\"\r\n  }"
   rawIndex: 590500
   splits:
   - splitPath: Name
-    text: "基-演武练功五"
-    translated: "Base ‑ Martial Training and Skill Practice Five"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功五"
+    translated: "Practicing Martial Arts for Five Days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590600\",\r\n    \"Name\": \"基-演武练功六\"\r\n  }"
   rawIndex: 590600
   splits:
   - splitPath: Name
-    text: "基-演武练功六"
-    translated: "Base ‑ Sixteen Martial Arts Training Exercises"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功六"
+    translated: "Six martial arts practice and training sessions"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590700\",\r\n    \"Name\": \"基-演武练功七\"\r\n  }"
   rawIndex: 590700
   splits:
   - splitPath: Name
-    text: "基-演武练功七"
-    translated: "Train martial arts and cultivate skills for seven days"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功七"
+    translated: "Training in martial arts for seven days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590800\",\r\n    \"Name\": \"基-演武练功八\"\r\n  }"
   rawIndex: 590800
   splits:
   - splitPath: Name
-    text: "基-演武练功八"
-    translated: "Base ‑ Training in the Eight Martial Arts Forms"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功八"
+    translated: "Training in combat and martial arts for eight months"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"590900\",\r\n    \"Name\": \"基-演武练功九\"\r\n  }"
   rawIndex: 590900
   splits:
   - splitPath: Name
-    text: "基-演武练功九"
-    translated: "Base ‑ Training and Skill Practice Nine"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功九"
+    translated: "Practice Combat and Cultivation Nine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591000\",\r\n    \"Name\": \"基-杨芸练功一\"\r\n  }"
   rawIndex: 591000
   splits:
   - splitPath: Name
-    text: "基-杨芸练功一"
-    translated: "Ji‑Yang Yun practices her cultivation"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功一"
+    translated: "Yang Yun practiced her cultivation technique one day."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591100\",\r\n    \"Name\": \"基-杨芸练功二\"\r\n  }"
   rawIndex: 591100
   splits:
   - splitPath: Name
-    text: "基-杨芸练功二"
-    translated: "Ji‑Yang Yun Practices Dual Martial Arts Techniques"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功二"
+    translated: "YANG Yun Practices Her Techniques This Month"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591200\",\r\n    \"Name\": \"基-杨芸练功三\"\r\n  }"
   rawIndex: 591200
   splits:
   - splitPath: Name
-    text: "基-杨芸练功三"
-    translated: "Ji‑Yang Yun practices her cultivation for three days."
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "杨芸练功三"
+    translated: "Yang Yun practiced her kung fu for three days."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"591300\",\r\n    \"Name\": \"基-演武练保底\"\r\n  }"
   rawIndex: 591300
   splits:
   - splitPath: Name
-    text: "基-演武练保底"
-    translated: "Base Breaker Combat Training"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练保底"
+    translated: "Battle Training Guarantee"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"600100\",\r\n    \"Name\": \"连峰减三式\"\r\n  }"
   rawIndex: 600100
   splits:
@@ -722,56 +1030,119 @@
   rawIndex: 690100
   splits:
   - splitPath: Name
-    text: "基-聚气练内功"
-    translated: "Base ‑ Cultivating Neigong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "聚气练内功"
+    translated: "Gathering Qi to Cultivate Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690200\",\r\n    \"Name\": \"基-意定练内功\"\r\n  }"
   rawIndex: 690200
   splits:
   - splitPath: Name
-    text: "基-意定练内功"
-    translated: "Ji sets out to practice neigong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "意定练内功"
+    translated: "Intent to Practice Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690300\",\r\n    \"Name\": \"基-冥心练内功\"\r\n  }"
   rawIndex: 690300
   splits:
   - splitPath: Name
-    text: "基-冥心练内功"
-    translated: "Ji meditates on Neigong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冥心练内功"
+    translated: "Meditate on Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690400\",\r\n    \"Name\": \"基-凝神练内功\"\r\n  }"
   rawIndex: 690400
   splits:
   - splitPath: Name
-    text: "基-凝神练内功"
-    translated: "Focus and cultivate neigong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "凝神练内功"
+    translated: "Focus on cultivating neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690500\",\r\n    \"Name\": \"基-庄子出尘外\"\r\n  }"
   rawIndex: 690500
   splits:
   - splitPath: Name
-    text: "基-庄子出尘外"
-    translated: "Ji ‑ Zhuangzi Steps Out of the World"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄子出尘外"
+    translated: "Zhuangzi transcends the mundane"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690600\",\r\n    \"Name\": \"基-论语世经纶\"\r\n  }"
   rawIndex: 690600
   splits:
   - splitPath: Name
-    text: "基-论语世经纶"
-    translated: "The Way and Its Power as Discussed in the Analects"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "论语世经纶"
+    translated: "The Analects of Confucius: The Way of Governance"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690700\",\r\n    \"Name\": \"基-法华宏佛理\"\r\n  }"
   rawIndex: 690700
   splits:
   - splitPath: Name
-    text: "基-法华宏佛理"
-    translated: "Ki‑Fa Hua Hong Fo Li"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "法华宏佛理"
+    translated: "Lotus Sutra Great Buddha Doctrine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690800\",\r\n    \"Name\": \"基-周易知明理\"\r\n  }"
   rawIndex: 690800
   splits:
   - splitPath: Name
-    text: "基-周易知明理"
-    translated: "Ji‑Zhou Yi Zhi Ming Li"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "周易知明理"
+    translated: "Zhou Yi Zhi Ming Li"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"690900\",\r\n    \"Name\": \"基-静室练保底\"\r\n  }"
   rawIndex: 690900
   splits:
   - splitPath: Name
-    text: "基-静室练保底"
-    translated: "Ji ‑ Tranquility Chamber Training Guarantee"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "静室练保底"
+    translated: "Quiet Room Training for Guaranteed Results"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"700100\",\r\n    \"Name\": \"游赏祝融峰\"\r\n  }"
   rawIndex: 700100
   splits:
@@ -1065,36 +1436,43 @@
   splits:
   - splitPath: Name
     text: "选择诸葛慧"
+    translated: "Choose Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"774200\",\r\n    \"Name\": \"选择选姜芽\"\r\n  }"
   rawIndex: 774200
   splits:
   - splitPath: Name
     text: "选择选姜芽"
+    translated: "Choose Jiang Ya"
 - raw: "{\r\n    \"Key\": \"774300\",\r\n    \"Name\": \"选择李云裳\"\r\n  }"
   rawIndex: 774300
   splits:
   - splitPath: Name
     text: "选择李云裳"
+    translated: "Choose Li Yunchang"
 - raw: "{\r\n    \"Key\": \"774400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 774400
   splits:
   - splitPath: Name
     text: "选择萧雪雁"
+    translated: "Choose Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"774500\",\r\n    \"Name\": \"选择沈青鸬\"\r\n  }"
   rawIndex: 774500
   splits:
   - splitPath: Name
     text: "选择沈青鸬"
+    translated: "Choose Shen Qinglu"
 - raw: "{\r\n    \"Key\": \"774600\",\r\n    \"Name\": \"选择巫云凤\"\r\n  }"
   rawIndex: 774600
   splits:
   - splitPath: Name
     text: "选择巫云凤"
+    translated: "Choose Wu Yunfeng"
 - raw: "{\r\n    \"Key\": \"774700\",\r\n    \"Name\": \"选择选蚩萤\"\r\n  }"
   rawIndex: 774700
   splits:
   - splitPath: Name
     text: "选择选蚩萤"
+    translated: "Choose Qi Chi Ying"
 - raw: "{\r\n    \"Key\": \"779800\",\r\n    \"Name\": \"独自一人过\"\r\n  }"
   rawIndex: 779800
   splits:
@@ -1105,74 +1483,158 @@
   rawIndex: 790100
   splits:
   - splitPath: Name
-    text: "基-后山烟霞峰"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山烟霞峰"
     translated: "Back Mountain's Smoky Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790200\",\r\n    \"Name\": \"基-后山紫云峰\"\r\n  }"
   rawIndex: 790200
   splits:
   - splitPath: Name
-    text: "基-后山紫云峰"
-    translated: "Back Mountain Zi Yun Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山紫云峰"
+    translated: "Back Mountain Purple Cloud Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790300\",\r\n    \"Name\": \"基-后山掷钵峰\"\r\n  }"
   rawIndex: 790300
   splits:
   - splitPath: Name
-    text: "基-后山掷钵峰"
-    translated: "Back Mountain's Asura Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山掷钵峰"
+    translated: "Rushing Cauldron Peak on the Rear Hill"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790400\",\r\n    \"Name\": \"基-后山金简峰\"\r\n  }"
   rawIndex: 790400
   splits:
   - splitPath: Name
-    text: "基-后山金简峰"
-    translated: "Back Mountain Jin Jian Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山金简峰"
+    translated: "Back Mountain Gold Simplify Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790500\",\r\n    \"Name\": \"基-后山集贤峰\"\r\n  }"
   rawIndex: 790500
   splits:
   - splitPath: Name
-    text: "基-后山集贤峰"
-    translated: "Ji ‑ Rear Mountain Ji Xiandian Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山集贤峰"
+    translated: "Hill Jiexian Peak in the Back Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790600\",\r\n    \"Name\": \"基-后山灵禽峰\"\r\n  }"
   rawIndex: 790600
   splits:
   - splitPath: Name
-    text: "基-后山灵禽峰"
-    translated: "Back Mountain Spirit Bird Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山灵禽峰"
+    translated: "Spirit Bird Peak in the Rear Mountain Range"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790700\",\r\n    \"Name\": \"基-彩霞竞登峰\"\r\n  }"
   rawIndex: 790700
   splits:
   - splitPath: Name
-    text: "基-彩霞竞登峰"
-    translated: "Ji‑Cai Xia Jing Deng Feng"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "彩霞竞登峰"
+    translated: "Rainbow Struggles to Climb the Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790800\",\r\n    \"Name\": \"基-白石竞登峰\"\r\n  }"
   rawIndex: 790800
   splits:
   - splitPath: Name
-    text: "基-白石竞登峰"
-    translated: "Ji ‑ White Stone Climbs to the Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "白石竞登峰"
+    translated: "White Stone Competes for Summit"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"790900\",\r\n    \"Name\": \"基-渔樵对歌一\"\r\n  }"
   rawIndex: 790900
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌一"
-    translated: "Ji‑sang and daoist woodcutter sang a ballad together."
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌一"
+    translated: "Fisherman and woodcutter sing in harmony for a while."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791000\",\r\n    \"Name\": \"基-渔樵对歌二\"\r\n  }"
   rawIndex: 791000
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌二"
-    translated: "Ji ‑ Fisher and Woodcutter Duel in Song"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌二"
+    translated: "Fisherman and Woodcutter Duel in Song"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791100\",\r\n    \"Name\": \"基-渔樵对歌三\"\r\n  }"
   rawIndex: 791100
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌三"
-    translated: "Ji ‑ The Woodcutter and Fisherman Singing Duel Three Times"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌三"
+    translated: "Fisherman and Woodcutter Singing Duel Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"791200\",\r\n    \"Name\": \"基-渔樵对歌四\"\r\n  }"
   rawIndex: 791200
   splits:
   - splitPath: Name
-    text: "基-渔樵对歌四"
-    translated: "Fisher and Woodcutter Singing Contest IV"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "渔樵对歌四"
+    translated: "Fisherman and Woodcutter Singing Contest Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"800811\",\r\n    \"Name\": \"铁口算渐卦\"\r\n  }"
   rawIndex: 800811
   splits:
@@ -1453,62 +1915,132 @@
   rawIndex: 890100
   splits:
   - splitPath: Name
-    text: "基-耒阳湖子酒"
-    translated: "Ji ‑ Lake Liyang's Cured Fish Wine"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "耒阳湖子酒"
+    translated: "Yang Lake Son Wine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890200\",\r\n    \"Name\": \"基-安仁鸡婆糕\"\r\n  }"
   rawIndex: 890200
   splits:
   - splitPath: Name
-    text: "基-安仁鸡婆糕"
-    translated: "Ji‑An Renshen Jiapo Cake"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安仁鸡婆糕"
+    translated: "Anren Jipo Gao"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890300\",\r\n    \"Name\": \"基-东安陈醋鸡\"\r\n  }"
   rawIndex: 890300
   splits:
   - splitPath: Name
-    text: "基-东安陈醋鸡"
-    translated: "Base‑Aromatic Changle Chive Chicken"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "东安陈醋鸡"
+    translated: "East Anhui Vinegar Chicken"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890400\",\r\n    \"Name\": \"基-祁阳曲米鱼\"\r\n  }"
   rawIndex: 890400
   splits:
   - splitPath: Name
-    text: "基-祁阳曲米鱼"
-    translated: "Ji Qiyang Qumi Yu"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "祁阳曲米鱼"
+    translated: "Yang Curly Rice Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"890500\",\r\n    \"Name\": \"基-衡山云雾茶\"\r\n  }"
   rawIndex: 890500
   splits:
   - splitPath: Name
-    text: "基-衡山云雾茶"
-    translated: "Ji ‑ Clear Mountain Cloud Mist Tea"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "衡山云雾茶"
+    translated: "Cloud Mist Tea from Mount Heng"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891100\",\r\n    \"Name\": \"基-浯溪有碑林\"\r\n  }"
   rawIndex: 891100
   splits:
   - splitPath: Name
-    text: "基-浯溪有碑林"
-    translated: "Ji ‑ Langxi has a Stele Forest"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "浯溪有碑林"
+    translated: "There are stele forests at Luoxi"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891200\",\r\n    \"Name\": \"基-潇湘夜雨时\"\r\n  }"
   rawIndex: 891200
   splits:
   - splitPath: Name
-    text: "基-潇湘夜雨时"
-    translated: "Base ‑ Night Rain over Xiao‑Xiang"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "潇湘夜雨时"
+    translated: "Night Rain Over Xiangjiang"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891300\",\r\n    \"Name\": \"基-楚戏白兔记\"\r\n  }"
   rawIndex: 891300
   splits:
   - splitPath: Name
-    text: "基-楚戏白兔记"
-    translated: "Ji‑Chu's Performance of Playing Rabbit Records"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏白兔记"
+    translated: "Record of White Rabbit Play by Chu"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891400\",\r\n    \"Name\": \"基-楚戏拜月记\"\r\n  }"
   rawIndex: 891400
   splits:
   - splitPath: Name
-    text: "基-楚戏拜月记"
-    translated: "Qi Chu's Moon Worship Record"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏拜月记"
+    translated: "Chu Xie's Moon Worship Record"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"891500\",\r\n    \"Name\": \"基-楚戏目连传\"\r\n  }"
   rawIndex: 891500
   splits:
   - splitPath: Name
-    text: "基-楚戏目连传"
-    translated: "Qi‑Chu's Jixu Chu Xie Qi Luanchuan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "楚戏目连传"
+    translated: "Qi Xiumu's Recital of Moli Transmigration"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"892300\",\r\n    \"Name\": \"首胜得虎骨\"\r\n  }"
   rawIndex: 892300
   splits:
@@ -2263,62 +2795,132 @@
   rawIndex: 1090100
   splits:
   - splitPath: Name
-    text: "基-黄州东坡肉"
-    translated: "Base ‑ Huangzhou Dongpo Meat"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "黄州东坡肉"
+    translated: "Dongpo Pork from Huizhou"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090200\",\r\n    \"Name\": \"基-黄州品烧梅\"\r\n  }"
   rawIndex: 1090200
   splits:
   - splitPath: Name
-    text: "基-黄州品烧梅"
-    translated: "Base ‑ Yellowzhou Pinyao Mei"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "黄州品烧梅"
+    translated: "Huangzhou Tasting Stuffed Plum Dumplings"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090300\",\r\n    \"Name\": \"基-沔阳三蒸菜\"\r\n  }"
   rawIndex: 1090300
   splits:
   - splitPath: Name
-    text: "基-沔阳三蒸菜"
-    translated: "Base ‑ Three Steamed Dishes of Yanyang"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "沔阳三蒸菜"
+    translated: "Yang Triple Steamed Dishes"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090400\",\r\n    \"Name\": \"基-清蒸武昌鱼\"\r\n  }"
   rawIndex: 1090400
   splits:
   - splitPath: Name
-    text: "基-清蒸武昌鱼"
-    translated: "Base ‑ Steamed Wuchang Fish"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "清蒸武昌鱼"
+    translated: "Steamed Wuchang Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090500\",\r\n    \"Name\": \"基-孝感伏汁酒\"\r\n  }"
   rawIndex: 1090500
   splits:
   - splitPath: Name
-    text: "基-孝感伏汁酒"
-    translated: "Ji Xianguan Bojiang Jiu"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "孝感伏汁酒"
+    translated: "Hao Geng Fu Zhi Jiu"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090600\",\r\n    \"Name\": \"基-麻城老米酒\"\r\n  }"
   rawIndex: 1090600
   splits:
   - splitPath: Name
-    text: "基-麻城老米酒"
-    translated: "Ji Ma Cheng Old Rice Wine"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "麻城老米酒"
+    translated: "Ma Cheng Old Rice Wine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1090700\",\r\n    \"Name\": \"基-排骨莲藕汤\"\r\n  }"
   rawIndex: 1090700
   splits:
   - splitPath: Name
-    text: "基-排骨莲藕汤"
-    translated: "Rib and Lotus Root Soup"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "排骨莲藕汤"
+    translated: "Pork Rib and Lotus Root Soup"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091100\",\r\n    \"Name\": \"基-蕲春有艾叶\"\r\n  }"
   rawIndex: 1091100
   splits:
   - splitPath: Name
-    text: "基-蕲春有艾叶"
-    translated: "Base ‑ Qichun has mugwort"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "蕲春有艾叶"
+    translated: "Qichun is known for its sweet wormwood"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091200\",\r\n    \"Name\": \"基-武昌黄鹤楼\"\r\n  }"
   rawIndex: 1091200
   splits:
   - splitPath: Name
-    text: "基-武昌黄鹤楼"
-    translated: "Base‑Wuchang Yellow Crane Tower"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "武昌黄鹤楼"
+    translated: "Wuchang Yellow Crane Tower"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1091300\",\r\n    \"Name\": \"基-两分大别山\"\r\n  }"
   rawIndex: 1091300
   splits:
   - splitPath: Name
-    text: "基-两分大别山"
-    translated: "Ji ‑ Two Divided Dabie Mountains"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "两分大别山"
+    translated: "Two Divided Dabie Mountains"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"1095500\",\r\n    \"Name\": \"战胜淳于望\"\r\n  }"
   rawIndex: 1095500
   splits:
@@ -2600,6 +3202,7 @@
   splits:
   - splitPath: Name
     text: "结识辛十九"
+    translated: "Meeting Xin Shijiu"
 - raw: "{\r\n    \"Key\": \"1600900\",\r\n    \"Name\": \"长孙玉拜师\"\r\n  }"
   rawIndex: 1600900
   splits:
@@ -3205,35 +3808,65 @@
   splits:
   - splitPath: Name
     text: "残阳现息心"
+    translated: "Setting sun calms the mind"
 - raw: "{\r\n    \"Key\": \"2080300\",\r\n    \"Name\": \"战胜温残阳\"\r\n  }"
   rawIndex: 2080300
   splits:
   - splitPath: Name
     text: "战胜温残阳"
+    translated: "Defeat Wen Canyang"
 - raw: "{\r\n    \"Key\": \"2091100\",\r\n    \"Name\": \"基-长沙糖油粑\"\r\n  }"
   rawIndex: 2091100
   splits:
   - splitPath: Name
-    text: "基-长沙糖油粑"
-    translated: "Ji‑Changsha Tangyouba"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "长沙糖油粑"
+    translated: "Changsha Sugar‑Fried Rice Cake"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2091200\",\r\n    \"Name\": \"基-冰糖湘莲羹\"\r\n  }"
   rawIndex: 2091200
   splits:
   - splitPath: Name
-    text: "基-冰糖湘莲羹"
-    translated: "Ji‑Bingtang Xianglian Gong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冰糖湘莲羹"
+    translated: "Rock Sugar Lotus Seed Soup"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2091300\",\r\n    \"Name\": \"基-醴陵火焙鱼\"\r\n  }"
   rawIndex: 2091300
   splits:
   - splitPath: Name
-    text: "基-醴陵火焙鱼"
-    translated: "Basia Fire‑Baked Fish from Liling"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "醴陵火焙鱼"
+    translated: "Liyang Roasted Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2092100\",\r\n    \"Name\": \"基-长沙岳麓山\"\r\n  }"
   rawIndex: 2092100
   splits:
   - splitPath: Name
-    text: "基-长沙岳麓山"
-    translated: "Ji‑Changsha Yuemoshan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "长沙岳麓山"
+    translated: "Changsha Yue Lu Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2096000\",\r\n    \"Name\": \"彩头五百钱\"\r\n  }"
   rawIndex: 2096000
   splits:
@@ -3370,8 +4003,15 @@
   rawIndex: 2290300
   splits:
   - splitPath: Name
-    text: "从这行起，条件id为负数，沾这行条件公式"
+    text: "从这行起，条件"
     translated: "Starting from this line, the condition ID is negative, and this line applies the condition formula."
+  - splitPath: Name
+    subIndex: 1
+    text: "为负数，沾这行条件公式"
+    translated: "For a negative number, apply this conditional formula."
+  templates:
+  - splitPath: Name
+    template: "{0}id{1}"
 - raw: "{\r\n    \"Key\": \"2300300\",\r\n    \"Name\": \"入门考过关\"\r\n  }"
   rawIndex: 2300300
   splits:
@@ -3850,32 +4490,67 @@
   rawIndex: 2591100
   splits:
   - splitPath: Name
-    text: "基-云梦泽鱼面"
-    translated: "Ji Yun Meng Ze Fish Face"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "云梦泽鱼面"
+    translated: "Wuyou Face‑Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591200\",\r\n    \"Name\": \"基-襄阳应时酒\"\r\n  }"
   rawIndex: 2591200
   splits:
   - splitPath: Name
-    text: "基-襄阳应时酒"
-    translated: "Base‑Yangxi Ying Shi Jiu"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳应时酒"
+    translated: "Yangzhou Yingshi Wine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591300\",\r\n    \"Name\": \"基-襄阳地封酒\"\r\n  }"
   rawIndex: 2591300
   splits:
   - splitPath: Name
-    text: "基-襄阳地封酒"
-    translated: "Base Yangxi Enclosed Wine"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳地封酒"
+    translated: "Yangzhou Earth‑Sealed Wine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591400\",\r\n    \"Name\": \"基-襄阳鹿门山\"\r\n  }"
   rawIndex: 2591400
   splits:
   - splitPath: Name
-    text: "基-襄阳鹿门山"
-    translated: "Base at Yangluomen Mountain"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳鹿门山"
+    translated: "Yangshan Deer Gate Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2591500\",\r\n    \"Name\": \"基-襄阳外隆中\"\r\n  }"
   rawIndex: 2591500
   splits:
   - splitPath: Name
-    text: "基-襄阳外隆中"
-    translated: "Ji ‑ Xiangyang Externally Near Zhong"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "襄阳外隆中"
+    translated: "Outside Xiangyang, Longzhong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2600200\",\r\n    \"Name\": \"拜见连山谷\"\r\n  }"
   rawIndex: 2600200
   splits:
@@ -3916,32 +4591,67 @@
   rawIndex: 2690100
   splits:
   - splitPath: Name
-    text: "基-医术药理一"
-    translated: "Ji ‑ Medicine and Pharmacology"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理一"
+    translated: "Medicine and pharmacology one"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690200\",\r\n    \"Name\": \"基-医术药理二\"\r\n  }"
   rawIndex: 2690200
   splits:
   - splitPath: Name
-    text: "基-医术药理二"
-    translated: "Ji ‑ Medicine and Pharmacology Expert"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理二"
+    translated: "Medicine and Pharmacology Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690300\",\r\n    \"Name\": \"基-医术药理三\"\r\n  }"
   rawIndex: 2690300
   splits:
   - splitPath: Name
-    text: "基-医术药理三"
-    translated: "Ji ‑ Master of Medicine and Pharmacology"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理三"
+    translated: "Medicine and pharmacology three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690400\",\r\n    \"Name\": \"基-医术药理四\"\r\n  }"
   rawIndex: 2690400
   splits:
   - splitPath: Name
-    text: "基-医术药理四"
-    translated: "Base Medicine and Pharmacology IV"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理四"
+    translated: "Medicine and pharmacology four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"2690500\",\r\n    \"Name\": \"基-医术药理五\"\r\n  }"
   rawIndex: 2690500
   splits:
   - splitPath: Name
-    text: "基-医术药理五"
-    translated: "Ji ‑ Medicine and Pharmacology Five"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "医术药理五"
+    translated: "Medicine and pharmacology five"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3000100\",\r\n    \"Name\": \"道玄授门规\"\r\n  }"
   rawIndex: 3000100
   splits:
@@ -4234,20 +4944,41 @@
   rawIndex: 3290100
   splits:
   - splitPath: Name
-    text: "基-下山运米粮"
-    translated: "Ji‑go down the mountain to transport rice and grain"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "下山运米粮"
+    translated: "Transport food supplies down the mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3290200\",\r\n    \"Name\": \"基-救难天仙女\"\r\n  }"
   rawIndex: 3290200
   splits:
   - splitPath: Name
-    text: "基-救难天仙女"
-    translated: "Emergency Heavenly Maiden"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "救难天仙女"
+    translated: "Rescue Heavenly Maiden"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3290300\",\r\n    \"Name\": \"基-武当执夜守\"\r\n  }"
   rawIndex: 3290300
   splits:
   - splitPath: Name
-    text: "基-武当执夜守"
-    translated: "Ji ‑ Wudang Night Watchman"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "武当执夜守"
+    translated: "Wudang Night Watchman"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3300100\",\r\n    \"Name\": \"玄机坐忘台\"\r\n  }"
   rawIndex: 3300100
   splits:
@@ -4312,80 +5043,171 @@
   rawIndex: 3390100
   splits:
   - splitPath: Name
-    text: "基-道先传武一"
-    translated: "Kai ‑ Dao Xian transmits Wu Yi first."
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道先传武一"
+    translated: "The Way first teaches martial arts"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390200\",\r\n    \"Name\": \"基-道先传武二\"\r\n  }"
   rawIndex: 3390200
   splits:
   - splitPath: Name
-    text: "基-道先传武二"
-    translated: "Ji Dao Xian Transmits Wu Er"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道先传武二"
+    translated: "Way before passing on martial arts techniques, Brother Er should be taught."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390300\",\r\n    \"Name\": \"基-道生传武一\"\r\n  }"
   rawIndex: 3390300
   splits:
   - splitPath: Name
-    text: "基-道生传武一"
-    translated: "Qi Dao Sheng Transmits Wu Skill One"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道生传武一"
+    translated: "Dao Sheng transmitted one technique of martial arts."
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390400\",\r\n    \"Name\": \"基-道生传武二\"\r\n  }"
   rawIndex: 3390400
   splits:
   - splitPath: Name
-    text: "基-道生传武二"
-    translated: "Ji Daosheng Transmits Wuxia Martial Arts Two"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道生传武二"
+    translated: "Dao Sheng Transmission of Martial Arts Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390500\",\r\n    \"Name\": \"基-道朴传武一\"\r\n  }"
   rawIndex: 3390500
   splits:
   - splitPath: Name
-    text: "基-道朴传武一"
-    translated: "Ji Da Pok Transmits Wuxia Martial Arts"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道朴传武一"
+    translated: "Dao Pu teaches martial arts techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390600\",\r\n    \"Name\": \"基-道朴传武二\"\r\n  }"
   rawIndex: 3390600
   splits:
   - splitPath: Name
-    text: "基-道朴传武二"
-    translated: "Ji Daopu Transmits Wuxia Skills Two"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道朴传武二"
+    translated: "Dao Pu Transmits Martial Arts Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390700\",\r\n    \"Name\": \"基-道安传武一\"\r\n  }"
   rawIndex: 3390700
   splits:
   - splitPath: Name
-    text: "基-道安传武一"
-    translated: "Ji Dao'an teaches Wuyu skills"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道安传武一"
+    translated: "Dao An Proclaims Martial Arts Skill"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390800\",\r\n    \"Name\": \"基-道安传武二\"\r\n  }"
   rawIndex: 3390800
   splits:
   - splitPath: Name
-    text: "基-道安传武二"
-    translated: "Ji Da'angan Transcendence Martial Arts II"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道安传武二"
+    translated: "Dao An Teach Martial Arts Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3390900\",\r\n    \"Name\": \"基-道衍传武二\"\r\n  }"
   rawIndex: 3390900
   splits:
   - splitPath: Name
-    text: "基-道衍传武二"
-    translated: "Ji Daoyan Transmits Wuxia Arts Two"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武二"
+    translated: "Tongyuan Transmits Martial Arts II"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391000\",\r\n    \"Name\": \"基-道衍传武三\"\r\n  }"
   rawIndex: 3391000
   splits:
   - splitPath: Name
-    text: "基-道衍传武三"
-    translated: "Ji Daoyan's Transmission of Martial Arts Three"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武三"
+    translated: "Dao Yan Transmits Martial Arts Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391100\",\r\n    \"Name\": \"基-道衍传武四\"\r\n  }"
   rawIndex: 3391100
   splits:
   - splitPath: Name
-    text: "基-道衍传武四"
-    translated: "Ji‑Dao Yan Transcendent Martial Four"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武四"
+    translated: "Dao Yanyuan Transmits Martial Arts Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3391200\",\r\n    \"Name\": \"基-道衍传武五\"\r\n  }"
   rawIndex: 3391200
   splits:
   - splitPath: Name
-    text: "基-道衍传武五"
-    translated: "Ji Daoyan Transcendental Martial Arts Five"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武五"
+    translated: "Transmitting the Wu Five Tradition"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3395100\",\r\n    \"Name\": \"基-道衍传武一\"\r\n  }"
   rawIndex: 3395100
   splits:
   - splitPath: Name
-    text: "基-道衍传武一"
-    translated: "Ji‑Dao Yan Transmits Martial Arts Techniques"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道衍传武一"
+    translated: "Deyan Transmits Martial Arts Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3400100\",\r\n    \"Name\": \"初知无根树\"\r\n  }"
   rawIndex: 3400100
   splits:
@@ -4522,38 +5344,80 @@
   rawIndex: 3490100
   splits:
   - splitPath: Name
-    text: "基-道学道德经"
-    translated: "Base Daoist Studies and Morality Classic"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学道德经"
+    translated: "Daoist Studies and Morality Classic"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490200\",\r\n    \"Name\": \"基-道学太平经\"\r\n  }"
   rawIndex: 3490200
   splits:
   - splitPath: Name
-    text: "基-道学太平经"
-    translated: "Ji ‑ Daoist Studies Peaceful Government Classic"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学太平经"
+    translated: "Daoist Studies Peaceful Principle Classic"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490300\",\r\n    \"Name\": \"基-道学清静经\"\r\n  }"
   rawIndex: 3490300
   splits:
   - splitPath: Name
-    text: "基-道学清静经"
-    translated: "Ji ‑ Daoist Studies Purity Classic"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学清静经"
+    translated: "Daoist Studies Purity and Tranquility Sutra"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490400\",\r\n    \"Name\": \"基-道学阴符经\"\r\n  }"
   rawIndex: 3490400
   splits:
   - splitPath: Name
-    text: "基-道学阴符经"
-    translated: "Ji ‑ The Yin Pill Scripture of Daoist Studies"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学阴符经"
+    translated: "The Yin Scripture of Daoist Studies"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490800\",\r\n    \"Name\": \"基-道学保底经\"\r\n  }"
   rawIndex: 3490800
   splits:
   - splitPath: Name
-    text: "基-道学保底经"
-    translated: "Base Daoist Studies Scroll"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道学保底经"
+    translated: "Daoist Studies Guaranteed Scripture"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3490900\",\r\n    \"Name\": \"基-解真阁保底\"\r\n  }"
   rawIndex: 3490900
   splits:
   - splitPath: Name
-    text: "基-解真阁保底"
-    translated: "Ji‑Jie Zhen True Pavilion Guarantee"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "解真阁保底"
+    translated: "True Essence Pavilion Guarantee"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3700100\",\r\n    \"Name\": \"武当丹道传\"\r\n  }"
   rawIndex: 3700100
   splits:
@@ -4805,36 +5669,43 @@
   splits:
   - splitPath: Name
     text: "选择诸葛慧"
+    translated: "Choose Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"3874200\",\r\n    \"Name\": \"选择选姜芽\"\r\n  }"
   rawIndex: 3874200
   splits:
   - splitPath: Name
     text: "选择选姜芽"
+    translated: "Choose Jiang Ya"
 - raw: "{\r\n    \"Key\": \"3874300\",\r\n    \"Name\": \"选择李云裳\"\r\n  }"
   rawIndex: 3874300
   splits:
   - splitPath: Name
     text: "选择李云裳"
+    translated: "Choose Li Yunchang"
 - raw: "{\r\n    \"Key\": \"3874400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 3874400
   splits:
   - splitPath: Name
     text: "选择萧雪雁"
+    translated: "Choose Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"3874500\",\r\n    \"Name\": \"选择沈青鸬\"\r\n  }"
   rawIndex: 3874500
   splits:
   - splitPath: Name
     text: "选择沈青鸬"
+    translated: "Choose Shen Qinglu"
 - raw: "{\r\n    \"Key\": \"3874600\",\r\n    \"Name\": \"选择巫云凤\"\r\n  }"
   rawIndex: 3874600
   splits:
   - splitPath: Name
     text: "选择巫云凤"
+    translated: "Choose Wu Yunfeng"
 - raw: "{\r\n    \"Key\": \"3874700\",\r\n    \"Name\": \"选择选蚩萤\"\r\n  }"
   rawIndex: 3874700
   splits:
   - splitPath: Name
     text: "选择选蚩萤"
+    translated: "Choose Qi Chi Ying"
 - raw: "{\r\n    \"Key\": \"3879800\",\r\n    \"Name\": \"独自一人过\"\r\n  }"
   rawIndex: 3879800
   splits:
@@ -4845,20 +5716,41 @@
   rawIndex: 3890100
   splits:
   - splitPath: Name
-    text: "基-后山南岩峰"
-    translated: "Base of South Rock Peak on the Rear Hill"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山南岩峰"
+    translated: "South Rock Peak on the Rear Hill"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3890200\",\r\n    \"Name\": \"基-后山五龙峰\"\r\n  }"
   rawIndex: 3890200
   splits:
   - splitPath: Name
-    text: "基-后山五龙峰"
-    translated: "Base ‑ Behind‑the‑Hill Five Dragon Peak"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山五龙峰"
+    translated: "Back Mountain Five Dragons Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3890300\",\r\n    \"Name\": \"基-后山武柱峰\"\r\n  }"
   rawIndex: 3890300
   splits:
   - splitPath: Name
-    text: "基-后山武柱峰"
-    translated: "Asura Peak Behind the Mountain"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "后山武柱峰"
+    translated: "Back Mountain Wu Zhu Peak"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3900200\",\r\n    \"Name\": \"进广成丹穴\"\r\n  }"
   rawIndex: 3900200
   splits:
@@ -4917,38 +5809,80 @@
   rawIndex: 3949100
   splits:
   - splitPath: Name
-    text: "基-太乙论丹诀"
-    translated: "Ji‑Tai Yi Lun Dan Jue"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "太乙论丹诀"
+    translated: "Art of Alchemical Cultivation"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949200\",\r\n    \"Name\": \"基-通明论丹诀\"\r\n  }"
   rawIndex: 3949200
   splits:
   - splitPath: Name
-    text: "基-通明论丹诀"
-    translated: "Ji‑Tongming's Pill Art Exposition"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "通明论丹诀"
+    translated: "Clear Brightness Discussion on Pill Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949300\",\r\n    \"Name\": \"基-化一论丹诀\"\r\n  }"
   rawIndex: 3949300
   splits:
   - splitPath: Name
-    text: "基-化一论丹诀"
-    translated: "Ji‑Hua Yi Lun Dan Jue"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "化一论丹诀"
+    translated: "The Art of Cultivating Qi and Alchemy"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949400\",\r\n    \"Name\": \"基-清风论丹诀\"\r\n  }"
   rawIndex: 3949400
   splits:
   - splitPath: Name
-    text: "基-清风论丹诀"
-    translated: "Base ‑ Clear Breeze Theory of Condensing Essences"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "清风论丹诀"
+    translated: "The Wind Clearing Discussion on Pill Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949500\",\r\n    \"Name\": \"基-道灵论丹诀\"\r\n  }"
   rawIndex: 3949500
   splits:
   - splitPath: Name
-    text: "基-道灵论丹诀"
-    translated: "Ji Dao Lingling Dan Jue"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "道灵论丹诀"
+    translated: "The Way of Spirit and Pill Cultivation"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3949600\",\r\n    \"Name\": \"基-玉鼎论丹诀\"\r\n  }"
   rawIndex: 3949600
   splits:
   - splitPath: Name
-    text: "基-玉鼎论丹诀"
-    translated: "Ji‑Yudeng Lun Danjue"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "玉鼎论丹诀"
+    translated: "The Jade Cauldron Discussion on Alchemical Formula"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3950100\",\r\n    \"Name\": \"崆峒太初洞\"\r\n  }"
   rawIndex: 3950100
   splits:
@@ -5019,14 +5953,28 @@
   rawIndex: 3979100
   splits:
   - splitPath: Name
-    text: "基-太易基础一"
-    translated: "Ji ‑ Taiyi Foundation One"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "太易基础一"
+    translated: "Taiyi Foundation I"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3979200\",\r\n    \"Name\": \"基-太易基础二\"\r\n  }"
   rawIndex: 3979200
   splits:
   - splitPath: Name
-    text: "基-太易基础二"
-    translated: "Ji Taiyi Foundation 2"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "太易基础二"
+    translated: "Easiest Foundation II"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"3999100\",\r\n    \"Name\": \"洞中勤修炼\"\r\n  }"
   rawIndex: 3999100
   splits:
@@ -5224,6 +6172,7 @@
   splits:
   - splitPath: Name
     text: "购买椒图牌"
+    translated: "Purchase Jietu brand"
 - raw: "{\r\n    \"Key\": \"4201311\",\r\n    \"Name\": \"购买椒图牌\"\r\n  }"
   rawIndex: 4201311
   splits:
@@ -5259,6 +6208,7 @@
   splits:
   - splitPath: Name
     text: "购买蒲牢牌"
+    translated: "Purchase PuLan brand"
 - raw: "{\r\n    \"Key\": \"4200900\",\r\n    \"Name\": \"汉中送苍子\"\r\n  }"
   rawIndex: 4200900
   splits:
@@ -5576,68 +6526,122 @@
   splits:
   - splitPath: Name
     text: "云梦泽小筑"
+    translated: "Dreamy Cloud Marsh Retreat"
 - raw: "{\r\n    \"Key\": \"4313700\",\r\n    \"Name\": \"听闻招贤擂\"\r\n  }"
   rawIndex: 4313700
   splits:
   - splitPath: Name
     text: "听闻招贤擂"
+    translated: "Heard about the Recruitment Tournament where they compete for a position?"
 - raw: "{\r\n    \"Key\": \"4313800\",\r\n    \"Name\": \"荆湘食粽子\"\r\n  }"
   rawIndex: 4313800
   splits:
   - splitPath: Name
     text: "荆湘食粽子"
+    translated: "Jingxiang eats zongzi"
 - raw: "{\r\n    \"Key\": \"4381111\",\r\n    \"Name\": \"散财江湖道\"\r\n  }"
   rawIndex: 4381111
   splits:
   - splitPath: Name
     text: "散财江湖道"
+    translated: "Charity on the Jianghu Path"
 - raw: "{\r\n    \"Key\": \"4381112\",\r\n    \"Name\": \"揭露庙堂谋\"\r\n  }"
   rawIndex: 4381112
   splits:
   - splitPath: Name
     text: "揭露庙堂谋"
+    translated: "Reveal the plot in the temple hall"
 - raw: "{\r\n    \"Key\": \"4390100\",\r\n    \"Name\": \"基-岳州汨罗粽\"\r\n  }"
   rawIndex: 4390100
   splits:
   - splitPath: Name
-    text: "基-岳州汨罗粽"
-    translated: "Ji Yuezhou's Miluo Zongbuquerque"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州汨罗粽"
+    translated: "Fuyang Miluo Zongzi"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390200\",\r\n    \"Name\": \"基-武陵桃源酒\"\r\n  }"
   rawIndex: 4390200
   splits:
   - splitPath: Name
-    text: "基-武陵桃源酒"
-    translated: "Ji Wu Ling Tao Yuan Jiu"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "武陵桃源酒"
+    translated: "Floral Peach Source Wine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390300\",\r\n    \"Name\": \"基-南江黄鳝面\"\r\n  }"
   rawIndex: 4390300
   splits:
   - splitPath: Name
-    text: "基-南江黄鳝面"
-    translated: "Kai‑Nan Jiang Huangshan Noodles"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "南江黄鳝面"
+    translated: "South River Eel Noodles"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390400\",\r\n    \"Name\": \"基-君山银针茶\"\r\n  }"
   rawIndex: 4390400
   splits:
   - splitPath: Name
-    text: "基-君山银针茶"
-    translated: "King Mountain Silver Needle Tea"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "君山银针茶"
+    translated: "Silver Needle Tea from Junshan Island"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390500\",\r\n    \"Name\": \"基-沅江壶头山\"\r\n  }"
   rawIndex: 4390500
   splits:
   - splitPath: Name
-    text: "基-沅江壶头山"
-    translated: "Ji‑Yuanjiang Hu Tou Shan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "沅江壶头山"
+    translated: "Wuyang River Huashan Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390600\",\r\n    \"Name\": \"基-岳州汨罗江\"\r\n  }"
   rawIndex: 4390600
   splits:
   - splitPath: Name
-    text: "基-岳州汨罗江"
-    translated: "Ji ‑ Yuezhou Mili River"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州汨罗江"
+    translated: "Yuezhou Miluo Jiang"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4390700\",\r\n    \"Name\": \"基-岳州岳阳楼\"\r\n  }"
   rawIndex: 4390700
   splits:
   - splitPath: Name
-    text: "基-岳州岳阳楼"
-    translated: "Ji ‑ Yueyang Tower"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "岳州岳阳楼"
+    translated: "Yueyang Tower"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"4500100\",\r\n    \"Name\": \"拜访挂锤庄\"\r\n  }"
   rawIndex: 4500100
   splits:
@@ -6273,36 +7277,43 @@
   splits:
   - splitPath: Name
     text: "选择诸葛慧"
+    translated: "Choose Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"5374200\",\r\n    \"Name\": \"选择选姜芽\"\r\n  }"
   rawIndex: 5374200
   splits:
   - splitPath: Name
     text: "选择选姜芽"
+    translated: "Choose Jiang Ya"
 - raw: "{\r\n    \"Key\": \"5374300\",\r\n    \"Name\": \"选择李云裳\"\r\n  }"
   rawIndex: 5374300
   splits:
   - splitPath: Name
     text: "选择李云裳"
+    translated: "Choose Li Yunchang"
 - raw: "{\r\n    \"Key\": \"5374400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 5374400
   splits:
   - splitPath: Name
     text: "选择萧雪雁"
+    translated: "Choose Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"5374500\",\r\n    \"Name\": \"选择沈青鸬\"\r\n  }"
   rawIndex: 5374500
   splits:
   - splitPath: Name
     text: "选择沈青鸬"
+    translated: "Choose Shen Qinglu"
 - raw: "{\r\n    \"Key\": \"5374600\",\r\n    \"Name\": \"选择巫云凤\"\r\n  }"
   rawIndex: 5374600
   splits:
   - splitPath: Name
     text: "选择巫云凤"
+    translated: "Choose Wu Yunfeng"
 - raw: "{\r\n    \"Key\": \"5374700\",\r\n    \"Name\": \"选择选蚩萤\"\r\n  }"
   rawIndex: 5374700
   splits:
   - splitPath: Name
     text: "选择选蚩萤"
+    translated: "Choose Qi Chi Ying"
 - raw: "{\r\n    \"Key\": \"5379800\",\r\n    \"Name\": \"独自一人过\"\r\n  }"
   rawIndex: 5379800
   splits:
@@ -6349,14 +7360,28 @@
   rawIndex: 5390700
   splits:
   - splitPath: Name
-    text: "基-龙女钓银鱼"
-    translated: "Base‑Dragon Maiden Fishing for Silver Fish"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙女钓银鱼"
+    translated: "Dragon Maiden Hooks Silver Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5390800\",\r\n    \"Name\": \"基-龙女钓鲈鱼\"\r\n  }"
   rawIndex: 5390800
   splits:
   - splitPath: Name
-    text: "基-龙女钓鲈鱼"
-    translated: "Ji‑Dragon Maiden Fishing for Bass"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙女钓鲈鱼"
+    translated: "Dragon Maiden Fishing for Trout"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5400100\",\r\n    \"Name\": \"荆南寻杜涌\"\r\n  }"
   rawIndex: 5400100
   splits:
@@ -6505,26 +7530,54 @@
   rawIndex: 5491100
   splits:
   - splitPath: Name
-    text: "基-沔阳三蒸碗"
-    translated: "Base ‑ Three Steamed Bowls of YanYang"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "沔阳三蒸碗"
+    translated: "Yang Triple Steamed Bowls"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491200\",\r\n    \"Name\": \"基-江陵千张肉\"\r\n  }"
   rawIndex: 5491200
   splits:
   - splitPath: Name
-    text: "基-江陵千张肉"
-    translated: "Ji Jiangling's Thousand‑Pound Meat Dish"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "江陵千张肉"
+    translated: "Jiangling Qianzhang Rou"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491300\",\r\n    \"Name\": \"基-冬瓜鳖裙羹\"\r\n  }"
   rawIndex: 5491300
   splits:
   - splitPath: Name
-    text: "基-冬瓜鳖裙羹"
-    translated: "Base‑Dongguazi Abalone Soup"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冬瓜鳖裙羹"
+    translated: "Winter Melon Soft Turtle Soup"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5491600\",\r\n    \"Name\": \"基-江陵无高山\"\r\n  }"
   rawIndex: 5491600
   splits:
   - splitPath: Name
-    text: "基-江陵无高山"
-    translated: "Ji ‑ Jiangling has no towering mountains"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "江陵无高山"
+    translated: "Jiangling has no towering mountains"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5500100\",\r\n    \"Name\": \"通天显神迹\"\r\n  }"
   rawIndex: 5500100
   splits:
@@ -6656,42 +7709,85 @@
   splits:
   - splitPath: Name
     text: "听闻永利当"
+    translated: "Heard that Yongli is the leader"
 - raw: "{\r\n    \"Key\": \"5691100\",\r\n    \"Name\": \"基-龙兴油酥糖\"\r\n  }"
   rawIndex: 5691100
   splits:
   - splitPath: Name
-    text: "基-龙兴油酥糖"
-    translated: "Ji‑Dragon Rising Crispy Sugar Candy"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "龙兴油酥糖"
+    translated: "Dragon Prosperity Crispy Sugar Candy"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691200\",\r\n    \"Name\": \"基-湘地腊合蒸\"\r\n  }"
   rawIndex: 5691200
   splits:
   - splitPath: Name
-    text: "基-湘地腊合蒸"
-    translated: "Ji‑Xiang District Steam Bath"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "湘地腊合蒸"
+    translated: "Xiang‑style waxed and steamed meat"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691300\",\r\n    \"Name\": \"基-凤凰血粑鸭\"\r\n  }"
   rawIndex: 5691300
   splits:
   - splitPath: Name
-    text: "基-凤凰血粑鸭"
-    translated: "Fire Phoenix Blood Duck"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "凤凰血粑鸭"
+    translated: "Phoenix Blood Braised Duck"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691600\",\r\n    \"Name\": \"基-崀山丹霞地\"\r\n  }"
   rawIndex: 5691600
   splits:
   - splitPath: Name
-    text: "基-崀山丹霞地"
-    translated: "Ji‑Ngxiangshan Danxia Landform"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "崀山丹霞地"
+    translated: "Niangshan Danxia Landform"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5691700\",\r\n    \"Name\": \"基-武冈法相岩\"\r\n  }"
   rawIndex: 5691700
   splits:
   - splitPath: Name
-    text: "基-武冈法相岩"
-    translated: "Ji Wugang Faxiang Rock"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "武冈法相岩"
+    translated: "Wugang Faxiang Rock"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5692100\",\r\n    \"Name\": \"基-风扬炖牛头\"\r\n  }"
   rawIndex: 5692100
   splits:
   - splitPath: Name
-    text: "基-风扬炖牛头"
-    translated: "Base‑Feng Yang Slow‑Cooked Ox Head"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "风扬炖牛头"
+    translated: "Windblown Braised Bull Head"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"5700900\",\r\n    \"Name\": \"战胜乔道安\"\r\n  }"
   rawIndex: 5700900
   splits:
@@ -6937,6 +8033,7 @@
   splits:
   - splitPath: Name
     text: "战胜石少康"
+    translated: "Defeat Shi Shao Kang"
 - raw: "{\r\n    \"Key\": \"6000900\",\r\n    \"Name\": \"逃出劫云谷\"\r\n  }"
   rawIndex: 6000900
   splits:
@@ -7002,102 +8099,157 @@
   splits:
   - splitPath: Name
     text: "蝉也不是蝉"
+    translated: "The cicada is not a cicada"
 - raw: "{\r\n    \"Key\": \"6302100\",\r\n    \"Name\": \"酒肆九先生\"\r\n  }"
   rawIndex: 6302100
   splits:
   - splitPath: Name
     text: "酒肆九先生"
+    translated: "Mr. Ninth in the Wine Shop"
 - raw: "{\r\n    \"Key\": \"6302300\",\r\n    \"Name\": \"巴山八先生\"\r\n  }"
   rawIndex: 6302300
   splits:
   - splitPath: Name
     text: "巴山八先生"
+    translated: "Eighth Master of Bashan Mountain"
 - raw: "{\r\n    \"Key\": \"6303100\",\r\n    \"Name\": \"斗酒败明达\"\r\n  }"
   rawIndex: 6303100
   splits:
   - splitPath: Name
     text: "斗酒败明达"
+    translated: "Drank a dou of wine and defeated Ming Da"
 - raw: "{\r\n    \"Key\": \"6303500\",\r\n    \"Name\": \"战胜两骗子\"\r\n  }"
   rawIndex: 6303500
   splits:
   - splitPath: Name
     text: "战胜两骗子"
+    translated: "Defeated the two frauds"
 - raw: "{\r\n    \"Key\": \"6303700\",\r\n    \"Name\": \"唐五的舵一\"\r\n  }"
   rawIndex: 6303700
   splits:
   - splitPath: Name
     text: "唐五的舵一"
+    translated: "Tang Wu's helm one"
 - raw: "{\r\n    \"Key\": \"6303800\",\r\n    \"Name\": \"川东丰庆楼\"\r\n  }"
   rawIndex: 6303800
   splits:
   - splitPath: Name
     text: "川东丰庆楼"
+    translated: "East River Abundant Harvest Restaurant"
 - raw: "{\r\n    \"Key\": \"6303900\",\r\n    \"Name\": \"川蜀食糍粑\"\r\n  }"
   rawIndex: 6303900
   splits:
   - splitPath: Name
     text: "川蜀食糍粑"
+    translated: "Sichuan Sticky Rice Dumplings"
 - raw: "{\r\n    \"Key\": \"6304000\",\r\n    \"Name\": \"云裳游巫山\"\r\n  }"
   rawIndex: 6304000
   splits:
   - splitPath: Name
     text: "云裳游巫山"
+    translated: "Cloud Robe Wanderer Through Wu Mountain"
 - raw: "{\r\n    \"Key\": \"6304300\",\r\n    \"Name\": \"报信巫云凤\"\r\n  }"
   rawIndex: 6304300
   splits:
   - splitPath: Name
     text: "报信巫云凤"
+    translated: "Messenger Witch Yun Feng"
 - raw: "{\r\n    \"Key\": \"6304900\",\r\n    \"Name\": \"战胜封百水\"\r\n  }"
   rawIndex: 6304900
   splits:
   - splitPath: Name
     text: "战胜封百水"
+    translated: "Defeat Feng Bashi"
 - raw: "{\r\n    \"Key\": \"6305400\",\r\n    \"Name\": \"野和尚归案\"\r\n  }"
   rawIndex: 6305400
   splits:
   - splitPath: Name
     text: "野和尚归案"
+    translated: "Wild Monk has been apprehended"
 - raw: "{\r\n    \"Key\": \"6305600\",\r\n    \"Name\": \"母子感同心\"\r\n  }"
   rawIndex: 6305600
   splits:
   - splitPath: Name
     text: "母子感同心"
+    translated: "Mother and son share a heartfelt connection"
 - raw: "{\r\n    \"Key\": \"6391100\",\r\n    \"Name\": \"基-达州灯影肉\"\r\n  }"
   rawIndex: 6391100
   splits:
   - splitPath: Name
-    text: "基-达州灯影肉"
-    translated: "Ji Yuezhou's Miluo Zongbuquerque"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "达州灯影肉"
+    translated: "Dazhou Shadow Play Meat"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391200\",\r\n    \"Name\": \"基-铜梁六赢酥\"\r\n  }"
   rawIndex: 6391200
   splits:
   - splitPath: Name
-    text: "基-铜梁六赢酥"
-    translated: "Kai‑Nan Jiang Huangshan Noodles"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "铜梁六赢酥"
+    translated: "Six‑Win Copper Beam Cookie"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391300\",\r\n    \"Name\": \"基-云阳桃片糕\"\r\n  }"
   rawIndex: 6391300
   splits:
   - splitPath: Name
-    text: "基-云阳桃片糕"
-    translated: "Kai‑Nan Jiang Huangshan Noodles"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "云阳桃片糕"
+    translated: "Yang Tiaoguo"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6391400\",\r\n    \"Name\": \"基-奉节巴乡清\"\r\n  }"
   rawIndex: 6391400
   splits:
   - splitPath: Name
-    text: "基-奉节巴乡清"
-    translated: "Ji Wu Ling Tao Yuan Jiu"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "奉节巴乡清"
+    translated: "Fengji Ba Country Clean"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6392100\",\r\n    \"Name\": \"基-泛舟翟塘峡\"\r\n  }"
   rawIndex: 6392100
   splits:
   - splitPath: Name
-    text: "基-泛舟翟塘峡"
-    translated: "Ji‑Yuanjiang Hu Tou Shan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "泛舟翟塘峡"
+    translated: "Paddle through Zhang Tang Gorge"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6392200\",\r\n    \"Name\": \"基-巫山十二峰\"\r\n  }"
   rawIndex: 6392200
   splits:
   - splitPath: Name
-    text: "基-巫山十二峰"
-    translated: "Ji ‑ Yuezhou Mili River"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "巫山十二峰"
+    translated: "Twelve Peaks of Wu Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6400200\",\r\n    \"Name\": \"洗墨池再会\"\r\n  }"
   rawIndex: 6400200
   splits:
@@ -7217,6 +8369,7 @@
   splits:
   - splitPath: Name
     text: "鬼市寒冬青"
+    translated: "Ghost Market in the Frosty Winter"
 - raw: "{\r\n    \"Key\": \"6591200\",\r\n    \"Name\": \"选择血芝丸\"\r\n  }"
   rawIndex: 6591200
   splits:
@@ -7294,138 +8447,206 @@
   splits:
   - splitPath: Name
     text: "迷魂凼寻宝"
+    translated: "Search for Treasures in the Soul‑Deluding Pit"
 - raw: "{\r\n    \"Key\": \"6601600\",\r\n    \"Name\": \"行侠斗卫聊\"\r\n  }"
   rawIndex: 6601600
   splits:
   - splitPath: Name
     text: "行侠斗卫聊"
+    translated: "Wuxia combat and banter"
 - raw: "{\r\n    \"Key\": \"6602000\",\r\n    \"Name\": \"战胜卫悲\"\r\n  }"
   rawIndex: 6602000
   splits:
   - splitPath: Name
     text: "战胜卫悲"
+    translated: "Defeat Wei Bi"
 - raw: "{\r\n    \"Key\": \"6602200\",\r\n    \"Name\": \"巧遇龙爪连\"\r\n  }"
   rawIndex: 6602200
   splits:
   - splitPath: Name
     text: "巧遇龙爪连"
+    translated: "Unexpectedly encountered the dragon's claws connected together"
 - raw: "{\r\n    \"Key\": \"6602300\",\r\n    \"Name\": \"酒肆访贼踪\"\r\n  }"
   rawIndex: 6602300
   splits:
   - splitPath: Name
     text: "酒肆访贼踪"
+    translated: "Visit the tavern to investigate the bandit's trail"
 - raw: "{\r\n    \"Key\": \"6603300\",\r\n    \"Name\": \"战胜傅云飞\"\r\n  }"
   rawIndex: 6603300
   splits:
   - splitPath: Name
     text: "战胜傅云飞"
+    translated: "Defeat Fu Yunfei"
 - raw: "{\r\n    \"Key\": \"6603700\",\r\n    \"Name\": \"战胜寇伏魔\"\r\n  }"
   rawIndex: 6603700
   splits:
   - splitPath: Name
     text: "战胜寇伏魔"
+    translated: "Overcoming Kou Fu Mo, they encountered Zhang San."
 - raw: "{\r\n    \"Key\": \"6603900\",\r\n    \"Name\": \"唐五的舵二\"\r\n  }"
   rawIndex: 6603900
   splits:
   - splitPath: Name
     text: "唐五的舵二"
+    translated: "Tang Wu's Steersman Second"
 - raw: "{\r\n    \"Key\": \"6604000\",\r\n    \"Name\": \"唐四的恩三\"\r\n  }"
   rawIndex: 6604000
   splits:
   - splitPath: Name
     text: "唐四的恩三"
+    translated: "Tang Si's En San"
 - raw: "{\r\n    \"Key\": \"6604100\",\r\n    \"Name\": \"听闻昭烈庙\"\r\n  }"
   rawIndex: 6604100
   splits:
   - splitPath: Name
     text: "听闻昭烈庙"
+    translated: "Hearing about Zhao Li Temple"
 - raw: "{\r\n    \"Key\": \"6604200\",\r\n    \"Name\": \"庙会逛游玩\"\r\n  }"
   rawIndex: 6604200
   splits:
   - splitPath: Name
     text: "庙会逛游玩"
+    translated: "Festival fair tour and play"
 - raw: "{\r\n    \"Key\": \"6604300\",\r\n    \"Name\": \"川西锦芳楼\"\r\n  }"
   rawIndex: 6604300
   splits:
   - splitPath: Name
     text: "川西锦芳楼"
+    translated: "Western Sichuan Jinfang Pavilion"
 - raw: "{\r\n    \"Key\": \"6604400\",\r\n    \"Name\": \"听闻罨画池\"\r\n  }"
   rawIndex: 6604400
   splits:
   - splitPath: Name
     text: "听闻罨画池"
+    translated: "Hear about the Yanhuaci pond"
 - raw: "{\r\n    \"Key\": \"6604500\",\r\n    \"Name\": \"云裳游蛾眉\"\r\n  }"
   rawIndex: 6604500
   splits:
   - splitPath: Name
     text: "云裳游蛾眉"
+    translated: "Cloud‑Cloth Wandering Among Slender Brows"
 - raw: "{\r\n    \"Key\": \"6604800\",\r\n    \"Name\": \"邛州访大升\"\r\n  }"
   rawIndex: 6604800
   splits:
   - splitPath: Name
     text: "邛州访大升"
+    translated: "Visit Great Prosperity in Fengzhou"
 - raw: "{\r\n    \"Key\": \"6605200\",\r\n    \"Name\": \"荣宝山归案\"\r\n  }"
   rawIndex: 6605200
   splits:
   - splitPath: Name
     text: "荣宝山归案"
+    translated: "Rong Baoshan turned himself in"
 - raw: "{\r\n    \"Key\": \"6605400\",\r\n    \"Name\": \"游城生好感\"\r\n  }"
   rawIndex: 6605400
   splits:
   - splitPath: Name
     text: "游城生好感"
+    translated: "Zheng feels affection for Yun Cheng"
 - raw: "{\r\n    \"Key\": \"6671400\",\r\n    \"Name\": \"战胜缪辟邪\"\r\n  }"
   rawIndex: 6671400
   splits:
   - splitPath: Name
     text: "战胜缪辟邪"
+    translated: "Defeat Mou Bixie"
 - raw: "{\r\n    \"Key\": \"6671100\",\r\n    \"Name\": \"初识李云裳\"\r\n  }"
   rawIndex: 6671100
   splits:
   - splitPath: Name
     text: "初识李云裳"
+    translated: "First Meeting Li Yunshang"
 - raw: "{\r\n    \"Key\": \"6691100\",\r\n    \"Name\": \"基-彭州军锅盔\"\r\n  }"
   rawIndex: 6691100
   splits:
   - splitPath: Name
-    text: "基-彭州军锅盔"
-    translated: "Base Pengzhou Army Potcake"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "彭州军锅盔"
+    translated: "Pengzhou Military Helmet Bread"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691200\",\r\n    \"Name\": \"基-眉山东坡肘\"\r\n  }"
   rawIndex: 6691200
   splits:
   - splitPath: Name
-    text: "基-眉山东坡肘"
-    translated: "Ji Meishan Dongpo Arm"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "眉山东坡肘"
+    translated: "East Slope Beef Bulb from Meishan"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691300\",\r\n    \"Name\": \"基-川西太白鸭\"\r\n  }"
   rawIndex: 6691300
   splits:
   - splitPath: Name
-    text: "基-川西太白鸭"
-    translated: "Ji Chuanshita's Great White Swan Duck"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "川西太白鸭"
+    translated: "Western Sichuan Tai Bai Duck"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691400\",\r\n    \"Name\": \"基-金齑成玉脍\"\r\n  }"
   rawIndex: 6691400
   splits:
   - splitPath: Name
-    text: "基-金齑成玉脍"
-    translated: "Ji‑Jin Jisi Cheng Yu Kuai"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "金齑成玉脍"
+    translated: "Golden chopped fish like jade slices"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6691500\",\r\n    \"Name\": \"基-蒙顶甘露茶\"\r\n  }"
   rawIndex: 6691500
   splits:
   - splitPath: Name
-    text: "基-蒙顶甘露茶"
-    translated: "While they were walking through the misty mountains, Ji Mengting suggested they try sweet dew tea."
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "蒙顶甘露茶"
+    translated: "Mount Meng Sweet Dew Tea"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6692100\",\r\n    \"Name\": \"基-灌县都江堰\"\r\n  }"
   rawIndex: 6692100
   splits:
   - splitPath: Name
-    text: "基-灌县都江堰"
-    translated: "Ji‑Guan County Dujiangyan"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "灌县都江堰"
+    translated: "Duanqian Dujiangyan"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6692200\",\r\n    \"Name\": \"基-成都宝光寺\"\r\n  }"
   rawIndex: 6692200
   splits:
   - splitPath: Name
-    text: "基-成都宝光寺"
-    translated: "Ji‑Chengdu Bright Light Temple"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "成都宝光寺"
+    translated: "Chengdu Bao Guang Temple"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"6700200\",\r\n    \"Name\": \"拜访郜春风\"\r\n  }"
   rawIndex: 6700200
   splits:
@@ -7503,1621 +8724,2276 @@
   splits:
   - splitPath: Name
     text: "战胜黑风怪"
+    translated: "Defeat the Black Gale Beast"
 - raw: "{\r\n    \"Key\": \"6811200\",\r\n    \"Name\": \"战胜黄风怪\"\r\n  }"
   rawIndex: 6811200
   splits:
   - splitPath: Name
     text: "战胜黄风怪"
+    translated: "Defeat the Yellow Wind Monster"
 - raw: "{\r\n    \"Key\": \"6811600\",\r\n    \"Name\": \"战胜白骨精\"\r\n  }"
   rawIndex: 6811600
   splits:
   - splitPath: Name
     text: "战胜白骨精"
+    translated: "Defeat the White Bones Demon"
 - raw: "{\r\n    \"Key\": \"6812000\",\r\n    \"Name\": \"战胜百眼魔\"\r\n  }"
   rawIndex: 6812000
   splits:
   - splitPath: Name
     text: "战胜百眼魔"
+    translated: "Defeat the Hundred‑Eyed Demon"
 - raw: "{\r\n    \"Key\": \"6812400\",\r\n    \"Name\": \"战胜黄眉佛\"\r\n  }"
   rawIndex: 6812400
   splits:
   - splitPath: Name
     text: "战胜黄眉佛"
+    translated: "Defeat the Yellow Brow Buddha"
 - raw: "{\r\n    \"Key\": \"6810900\",\r\n    \"Name\": \"不敌黑风怪\"\r\n  }"
   rawIndex: 6810900
   splits:
   - splitPath: Name
     text: "不敌黑风怪"
+    translated: "Defeated by the Black Gale Beast"
 - raw: "{\r\n    \"Key\": \"6811300\",\r\n    \"Name\": \"不敌黄风怪\"\r\n  }"
   rawIndex: 6811300
   splits:
   - splitPath: Name
     text: "不敌黄风怪"
+    translated: "Defeated by the Yellow Wind Monster"
 - raw: "{\r\n    \"Key\": \"6811700\",\r\n    \"Name\": \"不敌白骨精\"\r\n  }"
   rawIndex: 6811700
   splits:
   - splitPath: Name
     text: "不敌白骨精"
+    translated: "Defeated by the White Bone Demon"
 - raw: "{\r\n    \"Key\": \"6812200\",\r\n    \"Name\": \"不敌百眼魔\"\r\n  }"
   rawIndex: 6812200
   splits:
   - splitPath: Name
     text: "不敌百眼魔"
+    translated: "Defeated by the Hundred‑Eyed Demon"
 - raw: "{\r\n    \"Key\": \"6812500\",\r\n    \"Name\": \"不敌黄眉佛\"\r\n  }"
   rawIndex: 6812500
   splits:
   - splitPath: Name
     text: "不敌黄眉佛"
+    translated: "Defeated by the Yellow Brow Buddha"
 - raw: "{\r\n    \"Key\": \"6814900\",\r\n    \"Name\": \"左灵珠春宵\"\r\n  }"
   rawIndex: 6814900
   splits:
   - splitPath: Name
     text: "左灵珠春宵"
+    translated: "Zuo Lingzhu Spring Night"
 - raw: "{\r\n    \"Key\": \"6816300\",\r\n    \"Name\": \"艾琳娜答胜\"\r\n  }"
   rawIndex: 6816300
   splits:
   - splitPath: Name
     text: "艾琳娜答胜"
+    translated: "Elena triumphed"
 - raw: "{\r\n    \"Key\": \"6816400\",\r\n    \"Name\": \"艾琳娜答败\"\r\n  }"
   rawIndex: 6816400
   splits:
   - splitPath: Name
     text: "艾琳娜答败"
+    translated: "Elena was defeated"
 - raw: "{\r\n    \"Key\": \"6817300\",\r\n    \"Name\": \"战胜艾琳娜\"\r\n  }"
   rawIndex: 6817300
   splits:
   - splitPath: Name
     text: "战胜艾琳娜"
+    translated: "Defeat Elena"
 - raw: "{\r\n    \"Key\": \"6817400\",\r\n    \"Name\": \"不敌艾琳娜\"\r\n  }"
   rawIndex: 6817400
   splits:
   - splitPath: Name
     text: "不敌艾琳娜"
+    translated: "Defeated by Elena"
 - raw: "{\r\n    \"Key\": \"6817800\",\r\n    \"Name\": \"战胜艾琳娜\"\r\n  }"
   rawIndex: 6817800
   splits:
   - splitPath: Name
     text: "战胜艾琳娜"
+    translated: "Defeat Elena"
 - raw: "{\r\n    \"Key\": \"6817900\",\r\n    \"Name\": \"不敌艾琳娜\"\r\n  }"
   rawIndex: 6817900
   splits:
   - splitPath: Name
     text: "不敌艾琳娜"
+    translated: "Defeated by Elena"
 - raw: "{\r\n    \"Key\": \"6818200\",\r\n    \"Name\": \"战胜艾琳娜\"\r\n  }"
   rawIndex: 6818200
   splits:
   - splitPath: Name
     text: "战胜艾琳娜"
+    translated: "Defeat Elena"
 - raw: "{\r\n    \"Key\": \"6818300\",\r\n    \"Name\": \"不敌艾琳娜\"\r\n  }"
   rawIndex: 6818300
   splits:
   - splitPath: Name
     text: "不敌艾琳娜"
+    translated: "Defeated by Elena"
 - raw: "{\r\n    \"Key\": \"6818600\",\r\n    \"Name\": \"战胜艾琳娜\"\r\n  }"
   rawIndex: 6818600
   splits:
   - splitPath: Name
     text: "战胜艾琳娜"
+    translated: "Defeat Elena"
 - raw: "{\r\n    \"Key\": \"6818700\",\r\n    \"Name\": \"不敌艾琳娜\"\r\n  }"
   rawIndex: 6818700
   splits:
   - splitPath: Name
     text: "不敌艾琳娜"
+    translated: "Defeated by Elena"
 - raw: "{\r\n    \"Key\": \"6819900\",\r\n    \"Name\": \"艾琳娜春宵\"\r\n  }"
   rawIndex: 6819900
   splits:
   - splitPath: Name
     text: "艾琳娜春宵"
+    translated: "Elena's Night Blossom"
 - raw: "{\r\n    \"Key\": \"6821400\",\r\n    \"Name\": \"战胜项欺霜\"\r\n  }"
   rawIndex: 6821400
   splits:
   - splitPath: Name
     text: "战胜项欺霜"
+    translated: "Defeat Xiang Qishuang"
 - raw: "{\r\n    \"Key\": \"6821500\",\r\n    \"Name\": \"不敌项欺霜\"\r\n  }"
   rawIndex: 6821500
   splits:
   - splitPath: Name
     text: "不敌项欺霜"
+    translated: "Unable to match Xiang Qishuang in combat"
 - raw: "{\r\n    \"Key\": \"6821800\",\r\n    \"Name\": \"战胜项欺霜\"\r\n  }"
   rawIndex: 6821800
   splits:
   - splitPath: Name
     text: "战胜项欺霜"
+    translated: "Defeat Xiang Qishuang"
 - raw: "{\r\n    \"Key\": \"6821900\",\r\n    \"Name\": \"不敌项欺霜\"\r\n  }"
   rawIndex: 6821900
   splits:
   - splitPath: Name
     text: "不敌项欺霜"
+    translated: "Unable to match Xiang Qishuang in combat"
 - raw: "{\r\n    \"Key\": \"6822200\",\r\n    \"Name\": \"战胜项欺霜\"\r\n  }"
   rawIndex: 6822200
   splits:
   - splitPath: Name
     text: "战胜项欺霜"
+    translated: "Defeat Xiang Qishuang"
 - raw: "{\r\n    \"Key\": \"6822300\",\r\n    \"Name\": \"不敌项欺霜\"\r\n  }"
   rawIndex: 6822300
   splits:
   - splitPath: Name
     text: "不敌项欺霜"
+    translated: "Unable to match Xiang Qishuang in combat"
 - raw: "{\r\n    \"Key\": \"6822600\",\r\n    \"Name\": \"战胜项欺霜\"\r\n  }"
   rawIndex: 6822600
   splits:
   - splitPath: Name
     text: "战胜项欺霜"
+    translated: "Defeat Xiang Qishuang"
 - raw: "{\r\n    \"Key\": \"6822700\",\r\n    \"Name\": \"不敌项欺霜\"\r\n  }"
   rawIndex: 6822700
   splits:
   - splitPath: Name
     text: "不敌项欺霜"
+    translated: "Unable to match Xiang Qishuang in combat"
 - raw: "{\r\n    \"Key\": \"6824900\",\r\n    \"Name\": \"项欺霜春宵\"\r\n  }"
   rawIndex: 6824900
   splits:
   - splitPath: Name
     text: "项欺霜春宵"
+    translated: "Xiang Qishuang in the spring night"
 - raw: "{\r\n    \"Key\": \"6826300\",\r\n    \"Name\": \"文锦心答胜\"\r\n  }"
   rawIndex: 6826300
   splits:
   - splitPath: Name
     text: "文锦心答胜"
+    translated: "Wen Jinxin answers Sheng"
 - raw: "{\r\n    \"Key\": \"6826400\",\r\n    \"Name\": \"文锦心答败\"\r\n  }"
   rawIndex: 6826400
   splits:
   - splitPath: Name
     text: "文锦心答败"
+    translated: "Wen Jinxin answered defeat"
 - raw: "{\r\n    \"Key\": \"6826700\",\r\n    \"Name\": \"文锦心答胜\"\r\n  }"
   rawIndex: 6826700
   splits:
   - splitPath: Name
     text: "文锦心答胜"
+    translated: "Wen Jinxin answers Sheng"
 - raw: "{\r\n    \"Key\": \"6826800\",\r\n    \"Name\": \"文锦心答败\"\r\n  }"
   rawIndex: 6826800
   splits:
   - splitPath: Name
     text: "文锦心答败"
+    translated: "Wen Jinxin answered defeat"
 - raw: "{\r\n    \"Key\": \"6829900\",\r\n    \"Name\": \"文锦心春宵\"\r\n  }"
   rawIndex: 6829900
   splits:
   - splitPath: Name
     text: "文锦心春宵"
+    translated: "Wen Jinxin's spring nights"
 - raw: "{\r\n    \"Key\": \"6836400\",\r\n    \"Name\": \"战胜晏蛾眉\"\r\n  }"
   rawIndex: 6836400
   splits:
   - splitPath: Name
     text: "战胜晏蛾眉"
+    translated: "Defeat Yan Emei"
 - raw: "{\r\n    \"Key\": \"6836500\",\r\n    \"Name\": \"不敌晏蛾眉\"\r\n  }"
   rawIndex: 6836500
   splits:
   - splitPath: Name
     text: "不敌晏蛾眉"
+    translated: "Defeated by Yan Emei"
 - raw: "{\r\n    \"Key\": \"6836800\",\r\n    \"Name\": \"战胜晏蛾眉\"\r\n  }"
   rawIndex: 6836800
   splits:
   - splitPath: Name
     text: "战胜晏蛾眉"
+    translated: "Defeat Yan Emei"
 - raw: "{\r\n    \"Key\": \"6836900\",\r\n    \"Name\": \"不敌晏蛾眉\"\r\n  }"
   rawIndex: 6836900
   splits:
   - splitPath: Name
     text: "不敌晏蛾眉"
+    translated: "Defeated by Yan Emei"
 - raw: "{\r\n    \"Key\": \"6837200\",\r\n    \"Name\": \"战胜晏蛾眉\"\r\n  }"
   rawIndex: 6837200
   splits:
   - splitPath: Name
     text: "战胜晏蛾眉"
+    translated: "Defeat Yan Emei"
 - raw: "{\r\n    \"Key\": \"6837300\",\r\n    \"Name\": \"不敌晏蛾眉\"\r\n  }"
   rawIndex: 6837300
   splits:
   - splitPath: Name
     text: "不敌晏蛾眉"
+    translated: "Defeated by Yan Emei"
 - raw: "{\r\n    \"Key\": \"6837600\",\r\n    \"Name\": \"战胜晏蛾眉\"\r\n  }"
   rawIndex: 6837600
   splits:
   - splitPath: Name
     text: "战胜晏蛾眉"
+    translated: "Defeat Yan Emei"
 - raw: "{\r\n    \"Key\": \"6837700\",\r\n    \"Name\": \"不敌晏蛾眉\"\r\n  }"
   rawIndex: 6837700
   splits:
   - splitPath: Name
     text: "不敌晏蛾眉"
+    translated: "Defeated by Yan Emei"
 - raw: "{\r\n    \"Key\": \"6839900\",\r\n    \"Name\": \"晏蛾眉春宵\"\r\n  }"
   rawIndex: 6839900
   splits:
   - splitPath: Name
     text: "晏蛾眉春宵"
+    translated: "Yan Emei spends the spring night"
 - raw: "{\r\n    \"Key\": \"6831300\",\r\n    \"Name\": \"四美女沉鱼\"\r\n  }"
   rawIndex: 6831300
   splits:
   - splitPath: Name
     text: "四美女沉鱼"
+    translated: "Four Beauties Faded"
 - raw: "{\r\n    \"Key\": \"6831400\",\r\n    \"Name\": \"四美女落雁\"\r\n  }"
   rawIndex: 6831400
   splits:
   - splitPath: Name
     text: "四美女落雁"
+    translated: "Four Beauties Arrows of Desire"
 - raw: "{\r\n    \"Key\": \"6831500\",\r\n    \"Name\": \"四美女闭月\"\r\n  }"
   rawIndex: 6831500
   splits:
   - splitPath: Name
     text: "四美女闭月"
+    translated: "Four Beauties Blocking the Moon"
 - raw: "{\r\n    \"Key\": \"6831600\",\r\n    \"Name\": \"四美女羞花\"\r\n  }"
   rawIndex: 6831600
   splits:
   - splitPath: Name
     text: "四美女羞花"
+    translated: "Four Beauties shame the flowers"
 - raw: "{\r\n    \"Key\": \"6834900\",\r\n    \"Name\": \"薛如意春宵\"\r\n  }"
   rawIndex: 6834900
   splits:
   - splitPath: Name
     text: "薛如意春宵"
+    translated: "Xue Ruyi in the spring night"
 - raw: "{\r\n    \"Key\": \"6841300\",\r\n    \"Name\": \"柳含烟答胜\"\r\n  }"
   rawIndex: 6841300
   splits:
   - splitPath: Name
     text: "柳含烟答胜"
+    translated: "Liu Hanyan answered Sheng"
 - raw: "{\r\n    \"Key\": \"6841400\",\r\n    \"Name\": \"柳含烟答败\"\r\n  }"
   rawIndex: 6841400
   splits:
   - splitPath: Name
     text: "柳含烟答败"
+    translated: "Liu Hanyan answered with a defeat"
 - raw: "{\r\n    \"Key\": \"6841700\",\r\n    \"Name\": \"柳含烟答胜\"\r\n  }"
   rawIndex: 6841700
   splits:
   - splitPath: Name
     text: "柳含烟答胜"
+    translated: "Liu Hanyan answered Sheng"
 - raw: "{\r\n    \"Key\": \"6841800\",\r\n    \"Name\": \"柳含烟答败\"\r\n  }"
   rawIndex: 6841800
   splits:
   - splitPath: Name
     text: "柳含烟答败"
+    translated: "Liu Hanyan answered with a defeat"
 - raw: "{\r\n    \"Key\": \"6841900\",\r\n    \"Name\": \"柳含烟春宵\"\r\n  }"
   rawIndex: 6841900
   splits:
   - splitPath: Name
     text: "柳含烟春宵"
+    translated: "Liu Hanyan's Spring Night"
 - raw: "{\r\n    \"Key\": \"6846400\",\r\n    \"Name\": \"赌胜靳红衣\"\r\n  }"
   rawIndex: 6846400
   splits:
   - splitPath: Name
     text: "赌胜靳红衣"
+    translated: "Betting Against Jin Hongyi"
 - raw: "{\r\n    \"Key\": \"6846500\",\r\n    \"Name\": \"不敌靳红衣\"\r\n  }"
   rawIndex: 6846500
   splits:
   - splitPath: Name
     text: "不敌靳红衣"
+    translated: "Unable to match Jin Hongyi in combat"
 - raw: "{\r\n    \"Key\": \"6846800\",\r\n    \"Name\": \"赌胜靳红衣\"\r\n  }"
   rawIndex: 6846800
   splits:
   - splitPath: Name
     text: "赌胜靳红衣"
+    translated: "Betting Against Jin Hongyi"
 - raw: "{\r\n    \"Key\": \"6846900\",\r\n    \"Name\": \"不敌靳红衣\"\r\n  }"
   rawIndex: 6846900
   splits:
   - splitPath: Name
     text: "不敌靳红衣"
+    translated: "Unable to match Jin Hongyi in combat"
 - raw: "{\r\n    \"Key\": \"6847200\",\r\n    \"Name\": \"赌胜靳红衣\"\r\n  }"
   rawIndex: 6847200
   splits:
   - splitPath: Name
     text: "赌胜靳红衣"
+    translated: "Betting Against Jin Hongyi"
 - raw: "{\r\n    \"Key\": \"6847300\",\r\n    \"Name\": \"不敌靳红衣\"\r\n  }"
   rawIndex: 6847300
   splits:
   - splitPath: Name
     text: "不敌靳红衣"
+    translated: "Unable to match Jin Hongyi in combat"
 - raw: "{\r\n    \"Key\": \"6847600\",\r\n    \"Name\": \"赌胜靳红衣\"\r\n  }"
   rawIndex: 6847600
   splits:
   - splitPath: Name
     text: "赌胜靳红衣"
+    translated: "Betting Against Jin Hongyi"
 - raw: "{\r\n    \"Key\": \"6847700\",\r\n    \"Name\": \"不敌靳红衣\"\r\n  }"
   rawIndex: 6847700
   splits:
   - splitPath: Name
     text: "不敌靳红衣"
+    translated: "Unable to match Jin Hongyi in combat"
 - raw: "{\r\n    \"Key\": \"6849900\",\r\n    \"Name\": \"靳红衣春宵\"\r\n  }"
   rawIndex: 6849900
   splits:
   - splitPath: Name
     text: "靳红衣春宵"
+    translated: "Jin Hongyi in the Spring Night"
 - raw: "{\r\n    \"Key\": \"6851400\",\r\n    \"Name\": \"战胜沈蓉蓉\"\r\n  }"
   rawIndex: 6851400
   splits:
   - splitPath: Name
     text: "战胜沈蓉蓉"
+    translated: "Defeat Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6851500\",\r\n    \"Name\": \"不敌沈蓉蓉\"\r\n  }"
   rawIndex: 6851500
   splits:
   - splitPath: Name
     text: "不敌沈蓉蓉"
+    translated: "Defeated by Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6851800\",\r\n    \"Name\": \"战胜沈蓉蓉\"\r\n  }"
   rawIndex: 6851800
   splits:
   - splitPath: Name
     text: "战胜沈蓉蓉"
+    translated: "Defeat Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6851900\",\r\n    \"Name\": \"不敌沈蓉蓉\"\r\n  }"
   rawIndex: 6851900
   splits:
   - splitPath: Name
     text: "不敌沈蓉蓉"
+    translated: "Defeated by Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6852200\",\r\n    \"Name\": \"战胜沈蓉蓉\"\r\n  }"
   rawIndex: 6852200
   splits:
   - splitPath: Name
     text: "战胜沈蓉蓉"
+    translated: "Defeat Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6852300\",\r\n    \"Name\": \"不敌沈蓉蓉\"\r\n  }"
   rawIndex: 6852300
   splits:
   - splitPath: Name
     text: "不敌沈蓉蓉"
+    translated: "Defeated by Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6852600\",\r\n    \"Name\": \"战胜沈蓉蓉\"\r\n  }"
   rawIndex: 6852600
   splits:
   - splitPath: Name
     text: "战胜沈蓉蓉"
+    translated: "Defeat Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6852700\",\r\n    \"Name\": \"不敌沈蓉蓉\"\r\n  }"
   rawIndex: 6852700
   splits:
   - splitPath: Name
     text: "不敌沈蓉蓉"
+    translated: "Defeated by Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"6854900\",\r\n    \"Name\": \"沈蓉蓉春宵\"\r\n  }"
   rawIndex: 6854900
   splits:
   - splitPath: Name
     text: "沈蓉蓉春宵"
+    translated: "Shen Rongrong in the spring night"
 - raw: "{\r\n    \"Key\": \"6901100\",\r\n    \"Name\": \"当物飞景剑\"\r\n  }"
   rawIndex: 6901100
   splits:
   - splitPath: Name
     text: "当物飞景剑"
+    translated: "When the Flying Scene Sword soars through the air"
 - raw: "{\r\n    \"Key\": \"6901200\",\r\n    \"Name\": \"当物泪痕刀\"\r\n  }"
   rawIndex: 6901200
   splits:
   - splitPath: Name
     text: "当物泪痕刀"
+    translated: "When the Tear‑Streaked Blade Appears"
 - raw: "{\r\n    \"Key\": \"6901300\",\r\n    \"Name\": \"当物霸王枪\"\r\n  }"
   rawIndex: 6901300
   splits:
   - splitPath: Name
     text: "当物霸王枪"
+    translated: "When wielding the Overlord Spear"
 - raw: "{\r\n    \"Key\": \"6901400\",\r\n    \"Name\": \"当物狐鬼面\"\r\n  }"
   rawIndex: 6901400
   splits:
   - splitPath: Name
     text: "当物狐鬼面"
+    translated: "When the Fox Demon Mask appears"
 - raw: "{\r\n    \"Key\": \"6901500\",\r\n    \"Name\": \"当物宝石戒\"\r\n  }"
   rawIndex: 6901500
   splits:
   - splitPath: Name
     text: "当物宝石戒"
+    translated: "When the object gem ring appears"
 - raw: "{\r\n    \"Key\": \"6901600\",\r\n    \"Name\": \"当物异蛇胆\"\r\n  }"
   rawIndex: 6901600
   splits:
   - splitPath: Name
     text: "当物异蛇胆"
+    translated: "When dealing with strange snake gallbladders"
 - raw: "{\r\n    \"Key\": \"6901700\",\r\n    \"Name\": \"当物玄铁匕\"\r\n  }"
   rawIndex: 6901700
   splits:
   - splitPath: Name
     text: "当物玄铁匕"
+    translated: "When using Dark Steel dagger"
 - raw: "{\r\n    \"Key\": \"6901800\",\r\n    \"Name\": \"当物白玉神\"\r\n  }"
   rawIndex: 6901800
   splits:
   - splitPath: Name
     text: "当物白玉神"
+    translated: "When the White Jade Spirit appears"
 - raw: "{\r\n    \"Key\": \"6901900\",\r\n    \"Name\": \"当物金刚串\"\r\n  }"
   rawIndex: 6901900
   splits:
   - splitPath: Name
     text: "当物金刚串"
+    translated: "When the Hard Jade Staff appears"
 - raw: "{\r\n    \"Key\": \"6902100\",\r\n    \"Name\": \"当物月食石\"\r\n  }"
   rawIndex: 6902100
   splits:
   - splitPath: Name
     text: "当物月食石"
+    translated: "When the Lunar Eclipse Stone"
 - raw: "{\r\n    \"Key\": \"6902200\",\r\n    \"Name\": \"当物波斯毯\"\r\n  }"
   rawIndex: 6902200
   splits:
   - splitPath: Name
     text: "当物波斯毯"
+    translated: "When the wave Persian rug"
 - raw: "{\r\n    \"Key\": \"6902300\",\r\n    \"Name\": \"当物飞虎玉\"\r\n  }"
   rawIndex: 6902300
   splits:
   - splitPath: Name
     text: "当物飞虎玉"
+    translated: "When the object flies like a tiger jade"
 - raw: "{\r\n    \"Key\": \"6903100\",\r\n    \"Name\": \"赎物飞景剑\"\r\n  }"
   rawIndex: 6903100
   splits:
   - splitPath: Name
     text: "赎物飞景剑"
+    translated: "Redemption Flying Scene Sword"
 - raw: "{\r\n    \"Key\": \"6903200\",\r\n    \"Name\": \"赎物泪痕刀\"\r\n  }"
   rawIndex: 6903200
   splits:
   - splitPath: Name
     text: "赎物泪痕刀"
+    translated: "Ransom Blade, Tear‑Streaked"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tear‑Streaked Blade,淚痕刀,Tear‑Streaked Blade,淚痕刀,"
 - raw: "{\r\n    \"Key\": \"6903300\",\r\n    \"Name\": \"赎物霸王枪\"\r\n  }"
   rawIndex: 6903300
   splits:
   - splitPath: Name
     text: "赎物霸王枪"
+    translated: "Ransom Overlord Spear"
 - raw: "{\r\n    \"Key\": \"6903400\",\r\n    \"Name\": \"赎物狐鬼面\"\r\n  }"
   rawIndex: 6903400
   splits:
   - splitPath: Name
     text: "赎物狐鬼面"
+    translated: "Fox Demon Mask of Redemption"
 - raw: "{\r\n    \"Key\": \"6903500\",\r\n    \"Name\": \"赎物宝石戒\"\r\n  }"
   rawIndex: 6903500
   splits:
   - splitPath: Name
     text: "赎物宝石戒"
+    translated: "Redemption Gem Ring"
 - raw: "{\r\n    \"Key\": \"6903600\",\r\n    \"Name\": \"赎物异蛇胆\"\r\n  }"
   rawIndex: 6903600
   splits:
   - splitPath: Name
     text: "赎物异蛇胆"
+    translated: "Purchased Strange Snake Gallbladder"
 - raw: "{\r\n    \"Key\": \"6903700\",\r\n    \"Name\": \"赎物玄铁匕\"\r\n  }"
   rawIndex: 6903700
   splits:
   - splitPath: Name
     text: "赎物玄铁匕"
+    translated: "Ransom Iron Dark Steel Dagger"
 - raw: "{\r\n    \"Key\": \"6903800\",\r\n    \"Name\": \"赎物白玉神\"\r\n  }"
   rawIndex: 6903800
   splits:
   - splitPath: Name
     text: "赎物白玉神"
+    translated: "Ransom Artifact White Jade Divine"
 - raw: "{\r\n    \"Key\": \"6903900\",\r\n    \"Name\": \"赎物金刚串\"\r\n  }"
   rawIndex: 6903900
   splits:
   - splitPath: Name
     text: "赎物金刚串"
+    translated: "Hard Priced Metal Beads"
 - raw: "{\r\n    \"Key\": \"6904100\",\r\n    \"Name\": \"赎物月食石\"\r\n  }"
   rawIndex: 6904100
   splits:
   - splitPath: Name
     text: "赎物月食石"
+    translated: "Redemption Item Lunar Eclipse Stone"
 - raw: "{\r\n    \"Key\": \"6904200\",\r\n    \"Name\": \"赎物波斯毯\"\r\n  }"
   rawIndex: 6904200
   splits:
   - splitPath: Name
     text: "赎物波斯毯"
+    translated: "Redemption Wave Persian Carpet"
 - raw: "{\r\n    \"Key\": \"6904300\",\r\n    \"Name\": \"赎物飞虎玉\"\r\n  }"
   rawIndex: 6904300
   splits:
   - splitPath: Name
     text: "赎物飞虎玉"
+    translated: "Redemption Item Flying Tiger Jade"
 - raw: "{\r\n    \"Key\": \"7000211\",\r\n    \"Name\": \"选择是唐门\"\r\n  }"
   rawIndex: 7000211
   splits:
   - splitPath: Name
     text: "选择是唐门"
+    translated: "The choice is the Tang Clan"
 - raw: "{\r\n    \"Key\": \"7000212\",\r\n    \"Name\": \"选择青城派\"\r\n  }"
   rawIndex: 7000212
   splits:
   - splitPath: Name
     text: "选择青城派"
+    translated: "Choose the Qingcheng Sect"
 - raw: "{\r\n    \"Key\": \"7000300\",\r\n    \"Name\": \"客栈打工起\"\r\n  }"
   rawIndex: 7000300
   splits:
   - splitPath: Name
     text: "客栈打工起"
+    translated: "Working at an inn to start off"
 - raw: "{\r\n    \"Key\": \"7000400\",\r\n    \"Name\": \"数说川中势\"\r\n  }"
   rawIndex: 7000400
   splits:
   - splitPath: Name
     text: "数说川中势"
+    translated: "Statistics on Central Sichuan's Strategic Position"
 - raw: "{\r\n    \"Key\": \"7000611\",\r\n    \"Name\": \"名字叫小虎\"\r\n  }"
   rawIndex: 7000611
   splits:
   - splitPath: Name
     text: "名字叫小虎"
+    translated: "His name is Little Tiger"
 - raw: "{\r\n    \"Key\": \"7000612\",\r\n    \"Name\": \"名字叫於菟\"\r\n  }"
   rawIndex: 7000612
   splits:
   - splitPath: Name
     text: "名字叫於菟"
+    translated: "Name is Yu Tu"
 - raw: "{\r\n    \"Key\": \"7000613\",\r\n    \"Name\": \"名字叫招财\"\r\n  }"
   rawIndex: 7000613
   splits:
   - splitPath: Name
     text: "名字叫招财"
+    translated: "The name is Zhao Cai, which means Fortune Bringer."
 - raw: "{\r\n    \"Key\": \"7000616\",\r\n    \"Name\": \"加入唐门内\"\r\n  }"
   rawIndex: 7000616
   splits:
   - splitPath: Name
     text: "加入唐门内"
+    translated: "Join the Tang Clan internally"
 - raw: "{\r\n    \"Key\": \"7000617\",\r\n    \"Name\": \"客栈江湖梦\"\r\n  }"
   rawIndex: 7000617
   splits:
   - splitPath: Name
     text: "客栈江湖梦"
+    translated: "Inn Life in the Jianghu Dreams"
 - raw: "{\r\n    \"Key\": \"7100100\",\r\n    \"Name\": \"唐门唐家堡\"\r\n  }"
   rawIndex: 7100100
   splits:
   - splitPath: Name
     text: "唐门唐家堡"
+    translated: "Tang Clan Tang Ji Fortaleza"
 - raw: "{\r\n    \"Key\": \"7100400\",\r\n    \"Name\": \"唐宝传内功\"\r\n  }"
   rawIndex: 7100400
   splits:
   - splitPath: Name
     text: "唐宝传内功"
+    translated: "Tang Bao transmits neigong"
 - raw: "{\r\n    \"Key\": \"7100600\",\r\n    \"Name\": \"唐门飞刀术\"\r\n  }"
   rawIndex: 7100600
   splits:
   - splitPath: Name
     text: "唐门飞刀术"
+    translated: "Tang Clan Flying Blade Technique"
 - raw: "{\r\n    \"Key\": \"7100900\",\r\n    \"Name\": \"离开百毒坊\"\r\n  }"
   rawIndex: 7100900
   splits:
   - splitPath: Name
     text: "离开百毒坊"
+    translated: "Leave the Hundred Poison Compound"
 - raw: "{\r\n    \"Key\": \"7101200\",\r\n    \"Name\": \"离开千机坊\"\r\n  }"
   rawIndex: 7101200
   splits:
   - splitPath: Name
     text: "离开千机坊"
+    translated: "Leave the Thousand Mechanisms Guild"
 - raw: "{\r\n    \"Key\": \"7101400\",\r\n    \"Name\": \"入山采笋子\"\r\n  }"
   rawIndex: 7101400
   splits:
   - splitPath: Name
     text: "入山采笋子"
+    translated: "Go into the mountains to gather bamboo shoots"
 - raw: "{\r\n    \"Key\": \"7101600\",\r\n    \"Name\": \"安乐窝游戏\"\r\n  }"
   rawIndex: 7101600
   splits:
   - splitPath: Name
     text: "安乐窝游戏"
+    translated: "Safe Haven Game"
 - raw: "{\r\n    \"Key\": \"7101700\",\r\n    \"Name\": \"寻访诸先生\"\r\n  }"
   rawIndex: 7101700
   splits:
   - splitPath: Name
     text: "寻访诸先生"
+    translated: "Visiting the Various Gentlemen"
 - raw: "{\r\n    \"Key\": \"7101800\",\r\n    \"Name\": \"诸生归唐门\"\r\n  }"
   rawIndex: 7101800
   splits:
   - splitPath: Name
     text: "诸生归唐门"
+    translated: "Students returned to the Tang Clan"
 - raw: "{\r\n    \"Key\": \"7210200\",\r\n    \"Name\": \"三年新年到\"\r\n  }"
   rawIndex: 7210200
   splits:
   - splitPath: Name
     text: "三年新年到"
+    translated: "Three years into the new year"
 - raw: "{\r\n    \"Key\": \"7215500\",\r\n    \"Name\": \"选唐宝打赢老头\"\r\n  }"
   rawIndex: 7215500
   splits:
   - splitPath: Name
     text: "选唐宝打赢老头"
+    translated: "Choose Tang Bao to defeat the old man."
 - raw: "{\r\n    \"Key\": \"7215900\",\r\n    \"Name\": \"选独眼打赢老头\"\r\n  }"
   rawIndex: 7215900
   splits:
   - splitPath: Name
     text: "选独眼打赢老头"
+    translated: "Choose to fight the old man with one eye open."
 - raw: "{\r\n    \"Key\": \"7216300\",\r\n    \"Name\": \"选白发打赢老头\"\r\n  }"
   rawIndex: 7216300
   splits:
   - splitPath: Name
     text: "选白发打赢老头"
+    translated: "Choose White Hair Wins against Old Man"
 - raw: "{\r\n    \"Key\": \"7216700\",\r\n    \"Name\": \"选黑伞打赢老头\"\r\n  }"
   rawIndex: 7216700
   splits:
   - splitPath: Name
     text: "选黑伞打赢老头"
+    translated: "Choose the black umbrella to defeat the old man."
 - raw: "{\r\n    \"Key\": \"7210300\",\r\n    \"Name\": \"四年新年到\"\r\n  }"
   rawIndex: 7210300
   splits:
   - splitPath: Name
     text: "四年新年到"
+    translated: "Year four of the New Year has arrived."
 - raw: "{\r\n    \"Key\": \"7210400\",\r\n    \"Name\": \"五年新年到\"\r\n  }"
   rawIndex: 7210400
   splits:
   - splitPath: Name
     text: "五年新年到"
+    translated: "Year 5 New Year arrives"
 - raw: "{\r\n    \"Key\": \"7210500\",\r\n    \"Name\": \"六年新年到\"\r\n  }"
   rawIndex: 7210500
   splits:
   - splitPath: Name
     text: "六年新年到"
+    translated: "Year Six New Year arrives"
 - raw: "{\r\n    \"Key\": \"7210600\",\r\n    \"Name\": \"七年新年到\"\r\n  }"
   rawIndex: 7210600
   splits:
   - splitPath: Name
     text: "七年新年到"
+    translated: "Year Seven New Year arrives"
 - raw: "{\r\n    \"Key\": \"7210700\",\r\n    \"Name\": \"九年新年到\"\r\n  }"
   rawIndex: 7210700
   splits:
   - splitPath: Name
     text: "九年新年到"
+    translated: "Year nine New Year arrives"
 - raw: "{\r\n    \"Key\": \"7210800\",\r\n    \"Name\": \"十年新年到\"\r\n  }"
   rawIndex: 7210800
   splits:
   - splitPath: Name
     text: "十年新年到"
+    translated: "Year 10 New Year arrives"
 - raw: "{\r\n    \"Key\": \"7210900\",\r\n    \"Name\": \"春节又来到\"\r\n  }"
   rawIndex: 7210900
   splits:
   - splitPath: Name
     text: "春节又来到"
+    translated: "The Spring Festival has arrived again"
 - raw: "{\r\n    \"Key\": \"7110600\",\r\n    \"Name\": \"完胜魔侯\"\r\n  }"
   rawIndex: 7110600
   splits:
   - splitPath: Name
     text: "完胜魔侯"
+    translated: "Defeated the Demon Lord"
 - raw: "{\r\n    \"Key\": \"7201600\",\r\n    \"Name\": \"唐门讨天魔\"\r\n  }"
   rawIndex: 7201600
   splits:
   - splitPath: Name
     text: "唐门讨天魔"
+    translated: "The Tang Clan Challenges the Heavenly Demon"
 - raw: "{\r\n    \"Key\": \"7202100\",\r\n    \"Name\": \"天魔秘魔崖\"\r\n  }"
   rawIndex: 7202100
   splits:
   - splitPath: Name
     text: "天魔秘魔崖"
+    translated: "Asura Secret Cliff"
 - raw: "{\r\n    \"Key\": \"7300200\",\r\n    \"Name\": \"天蚕丝之秘\"\r\n  }"
   rawIndex: 7300200
   splits:
   - splitPath: Name
     text: "天蚕丝之秘"
+    translated: "Secret of Silkworm Silk"
 - raw: "{\r\n    \"Key\": \"7300300\",\r\n    \"Name\": \"老爷子馈赠\"\r\n  }"
   rawIndex: 7300300
   splits:
   - splitPath: Name
     text: "老爷子馈赠"
+    translated: "Grandfather's gift"
 - raw: "{\r\n    \"Key\": \"7390100\",\r\n    \"Name\": \"基-安乐游戏一\"\r\n  }"
   rawIndex: 7390100
   splits:
   - splitPath: Name
-    text: "基-安乐游戏一"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏一"
+    translated: "Comfort Game One"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390200\",\r\n    \"Name\": \"基-安乐游戏二\"\r\n  }"
   rawIndex: 7390200
   splits:
   - splitPath: Name
-    text: "基-安乐游戏二"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏二"
+    translated: "Comfortable Games Two"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390300\",\r\n    \"Name\": \"基-安乐游戏三\"\r\n  }"
   rawIndex: 7390300
   splits:
   - splitPath: Name
-    text: "基-安乐游戏三"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏三"
+    translated: "Anle Game Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390400\",\r\n    \"Name\": \"基-安乐游戏四\"\r\n  }"
   rawIndex: 7390400
   splits:
   - splitPath: Name
-    text: "基-安乐游戏四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏四"
+    translated: "Happy Game Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7390500\",\r\n    \"Name\": \"基-安乐游戏四\"\r\n  }"
   rawIndex: 7390500
   splits:
   - splitPath: Name
-    text: "基-安乐游戏四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "安乐游戏四"
+    translated: "Happy Game Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7400100\",\r\n    \"Name\": \"再会二先生\"\r\n  }"
   rawIndex: 7400100
   splits:
   - splitPath: Name
     text: "再会二先生"
+    translated: "Goodbye, Second Master"
 - raw: "{\r\n    \"Key\": \"7400200\",\r\n    \"Name\": \"唐门叩三更\"\r\n  }"
   rawIndex: 7400200
   splits:
   - splitPath: Name
     text: "唐门叩三更"
+    translated: "Tang Clan at Three Rings Past Midnight"
 - raw: "{\r\n    \"Key\": \"7400300\",\r\n    \"Name\": \"唐门百日缠\"\r\n  }"
   rawIndex: 7400300
   splits:
   - splitPath: Name
     text: "唐门百日缠"
+    translated: "Tang Clan's Hundred‑Day Winding Technique"
 - raw: "{\r\n    \"Key\": \"7400400\",\r\n    \"Name\": \"三停秘术传\"\r\n  }"
   rawIndex: 7400400
   splits:
   - splitPath: Name
     text: "三停秘术传"
+    translated: "The Secret Art of Three Stopped Techniques"
 - raw: "{\r\n    \"Key\": \"7400500\",\r\n    \"Name\": \"唐九的酒一\"\r\n  }"
   rawIndex: 7400500
   splits:
   - splitPath: Name
     text: "唐九的酒一"
+    translated: "Tang Jiu's wine cellar"
 - raw: "{\r\n    \"Key\": \"7400600\",\r\n    \"Name\": \"唐九的酒二\"\r\n  }"
   rawIndex: 7400600
   splits:
   - splitPath: Name
     text: "唐九的酒二"
+    translated: "Tang Jiu's Wine Second"
 - raw: "{\r\n    \"Key\": \"7400700\",\r\n    \"Name\": \"唐九的酒三\"\r\n  }"
   rawIndex: 7400700
   splits:
   - splitPath: Name
     text: "唐九的酒三"
+    translated: "Tang Jiujiu's Alcohol Three"
 - raw: "{\r\n    \"Key\": \"7401000\",\r\n    \"Name\": \"唐隐噬毒解\"\r\n  }"
   rawIndex: 7401000
   splits:
   - splitPath: Name
     text: "唐隐噬毒解"
+    translated: "Tang Yin consumed the poison to neutralize it."
 - raw: "{\r\n    \"Key\": \"7490100\",\r\n    \"Name\": \"基-唐隐传毒一\"\r\n  }"
   rawIndex: 7490100
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒一"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒一"
+    translated: "Tang Yin transmitted the Poison Technique"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490200\",\r\n    \"Name\": \"基-唐隐传毒二\"\r\n  }"
   rawIndex: 7490200
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒二"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒二"
+    translated: "Tang Yin Transmits Poison Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490300\",\r\n    \"Name\": \"基-唐隐传毒三\"\r\n  }"
   rawIndex: 7490300
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒三"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒三"
+    translated: "Tang Yin Transmits Poison Techniques Three"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490400\",\r\n    \"Name\": \"基-唐隐传毒四\"\r\n  }"
   rawIndex: 7490400
   splits:
   - splitPath: Name
-    text: "基-唐隐传毒四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "唐隐传毒四"
+    translated: "Tang Yin Transmits the Poison Technique Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7490500\",\r\n    \"Name\": \"试毒天人衰\"\r\n  }"
   rawIndex: 7490500
   splits:
   - splitPath: Name
     text: "试毒天人衰"
+    translated: "Poison Tester Declines"
 - raw: "{\r\n    \"Key\": \"7490600\",\r\n    \"Name\": \"试毒七情封\"\r\n  }"
   rawIndex: 7490600
   splits:
   - splitPath: Name
     text: "试毒七情封"
+    translated: "Poison Testing Seven Emotions Seal"
 - raw: "{\r\n    \"Key\": \"7490700\",\r\n    \"Name\": \"试毒半盏枯\"\r\n  }"
   rawIndex: 7490700
   splits:
   - splitPath: Name
     text: "试毒半盏枯"
+    translated: "Taste the Poison in Half a Dried Cup"
 - raw: "{\r\n    \"Key\": \"7490800\",\r\n    \"Name\": \"试毒心魔引\"\r\n  }"
   rawIndex: 7490800
   splits:
   - splitPath: Name
     text: "试毒心魔引"
+    translated: "Inner Demon of Poison Wushen Duipo"
 - raw: "{\r\n    \"Key\": \"7500100\",\r\n    \"Name\": \"拆解袖箭筒\"\r\n  }"
   rawIndex: 7500100
   splits:
   - splitPath: Name
     text: "拆解袖箭筒"
+    translated: "Disassemble the sleeve arrow case"
 - raw: "{\r\n    \"Key\": \"7500200\",\r\n    \"Name\": \"研习连排弩\"\r\n  }"
   rawIndex: 7500200
   splits:
   - splitPath: Name
     text: "研习连排弩"
+    translated: "Studying the lian pai nu technique"
 - raw: "{\r\n    \"Key\": \"7500300\",\r\n    \"Name\": \"毒物蚀心灯\"\r\n  }"
   rawIndex: 7500300
   splits:
   - splitPath: Name
     text: "毒物蚀心灯"
+    translated: "Poisonous Heart Lamp"
 - raw: "{\r\n    \"Key\": \"7500500\",\r\n    \"Name\": \"唐矩释心怀\"\r\n  }"
   rawIndex: 7500500
   splits:
   - splitPath: Name
     text: "唐矩释心怀"
+    translated: "Tang Juxi Unveiled His True Intentions"
 - raw: "{\r\n    \"Key\": \"7500600\",\r\n    \"Name\": \"桃花之幺幺\"\r\n  }"
   rawIndex: 7500600
   splits:
   - splitPath: Name
     text: "桃花之幺幺"
+    translated: "Crimson Petal, the Youngest Daughter"
 - raw: "{\r\n    \"Key\": \"7501000\",\r\n    \"Name\": \"暗器相见欢\"\r\n  }"
   rawIndex: 7501000
   splits:
   - splitPath: Name
     text: "暗器相见欢"
+    translated: "Hidden Weapon They Meet Joyfully"
 - raw: "{\r\n    \"Key\": \"7501100\",\r\n    \"Name\": \"暗器为昙花\"\r\n  }"
   rawIndex: 7501100
   splits:
   - splitPath: Name
     text: "暗器为昙花"
+    translated: "Hidden Weapons are Tan Hua's"
 - raw: "{\r\n    \"Key\": \"7501200\",\r\n    \"Name\": \"暗器破阵子\"\r\n  }"
   rawIndex: 7501200
   splits:
   - splitPath: Name
     text: "暗器破阵子"
+    translated: "Hidden Weapon Disrupts Array"
 - raw: "{\r\n    \"Key\": \"7501300\",\r\n    \"Name\": \"暗器红尘泪\"\r\n  }"
   rawIndex: 7501300
   splits:
   - splitPath: Name
     text: "暗器红尘泪"
+    translated: "Hidden Weapon Red Dust Tears"
 - raw: "{\r\n    \"Key\": \"7502100\",\r\n    \"Name\": \"唐八的画二\"\r\n  }"
   rawIndex: 7502100
   splits:
   - splitPath: Name
     text: "唐八的画二"
+    translated: "Tang Ba's Sketches Two"
 - raw: "{\r\n    \"Key\": \"7502200\",\r\n    \"Name\": \"唐八的画三\"\r\n  }"
   rawIndex: 7502200
   splits:
   - splitPath: Name
     text: "唐八的画三"
+    translated: "Tang Ba's Painting Three"
 - raw: "{\r\n    \"Key\": \"7502400\",\r\n    \"Name\": \"唐冷心劫解\"\r\n  }"
   rawIndex: 7502400
   splits:
   - splitPath: Name
     text: "唐冷心劫解"
+    translated: "Dong Ling's Heart Crisis Correction"
 - raw: "{\r\n    \"Key\": \"7502500\",\r\n    \"Name\": \"唐七的匠一\"\r\n  }"
   rawIndex: 7502500
   splits:
   - splitPath: Name
     text: "唐七的匠一"
+    translated: "Tang Qi's Craft One"
 - raw: "{\r\n    \"Key\": \"7502800\",\r\n    \"Name\": \"战胜唐矩\"\r\n  }"
   rawIndex: 7502800
   splits:
   - splitPath: Name
     text: "战胜唐矩"
+    translated: "Defeat Tang Ju"
 - raw: "{\r\n    \"Key\": \"7502900\",\r\n    \"Name\": \"不敌唐矩\"\r\n  }"
   rawIndex: 7502900
   splits:
   - splitPath: Name
     text: "不敌唐矩"
+    translated: "Defeated by Tang Ju"
 - raw: "{\r\n    \"Key\": \"7503000\",\r\n    \"Name\": \"唐七的匠三\"\r\n  }"
   rawIndex: 7503000
   splits:
   - splitPath: Name
     text: "唐七的匠三"
+    translated: "Tang Qi's Jiansan"
 - raw: "{\r\n    \"Key\": \"7590100\",\r\n    \"Name\": \"基-机关之学一\"\r\n  }"
   rawIndex: 7590100
   splits:
   - splitPath: Name
-    text: "基-机关之学一"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学一"
+    translated: "Study of Mechanisms ‑"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590200\",\r\n    \"Name\": \"基-机关之学二\"\r\n  }"
   rawIndex: 7590200
   splits:
   - splitPath: Name
-    text: "基-机关之学二"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学二"
+    translated: "Study of Mechanisms II"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590300\",\r\n    \"Name\": \"基-机关之学三\"\r\n  }"
   rawIndex: 7590300
   splits:
   - splitPath: Name
-    text: "基-机关之学三"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学三"
+    translated: "Study of Mechanisms III"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590400\",\r\n    \"Name\": \"基-机关之学四\"\r\n  }"
   rawIndex: 7590400
   splits:
   - splitPath: Name
-    text: "基-机关之学四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学四"
+    translated: "Art of Mechanisms IV"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7590500\",\r\n    \"Name\": \"基-机关之学四\"\r\n  }"
   rawIndex: 7590500
   splits:
   - splitPath: Name
-    text: "基-机关之学四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "机关之学四"
+    translated: "Art of Mechanisms IV"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7600300\",\r\n    \"Name\": \"战胜唐兴\"\r\n  }"
   rawIndex: 7600300
   splits:
   - splitPath: Name
     text: "战胜唐兴"
+    translated: "Defeat Tang Xing"
 - raw: "{\r\n    \"Key\": \"7600900\",\r\n    \"Name\": \"唐六的禅三\"\r\n  }"
   rawIndex: 7600900
   splits:
   - splitPath: Name
     text: "唐六的禅三"
+    translated: "Tang Liu's Zen Three"
 - raw: "{\r\n    \"Key\": \"7601300\",\r\n    \"Name\": \"蜻蜓点水功\"\r\n  }"
   rawIndex: 7601300
   splits:
   - splitPath: Name
     text: "蜻蜓点水功"
+    translated: "Dipping Dragonfly Skill"
 - raw: "{\r\n    \"Key\": \"7690100\",\r\n    \"Name\": \"基-演武练功一\"\r\n  }"
   rawIndex: 7690100
   splits:
   - splitPath: Name
-    text: "基-演武练功一"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功一"
+    translated: "Training and Practicing Combat Techniques"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690200\",\r\n    \"Name\": \"基-演武练功二\"\r\n  }"
   rawIndex: 7690200
   splits:
   - splitPath: Name
-    text: "基-演武练功二"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功二"
+    translated: "Practicing Martial Arts Techniques II"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690300\",\r\n    \"Name\": \"基-演武练功三\"\r\n  }"
   rawIndex: 7690300
   splits:
   - splitPath: Name
-    text: "基-演武练功三"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功三"
+    translated: "Practicing Martial Arts for Three Days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690400\",\r\n    \"Name\": \"基-演武练功四\"\r\n  }"
   rawIndex: 7690400
   splits:
   - splitPath: Name
-    text: "基-演武练功四"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功四"
+    translated: "Practice Martial Arts for Four"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690500\",\r\n    \"Name\": \"基-演武练功五\"\r\n  }"
   rawIndex: 7690500
   splits:
   - splitPath: Name
-    text: "基-演武练功五"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功五"
+    translated: "Practicing Martial Arts for Five Days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690600\",\r\n    \"Name\": \"基-演武练功六\"\r\n  }"
   rawIndex: 7690600
   splits:
   - splitPath: Name
-    text: "基-演武练功六"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功六"
+    translated: "Six martial arts practice and training sessions"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7690700\",\r\n    \"Name\": \"基-演武练功七\"\r\n  }"
   rawIndex: 7690700
   splits:
   - splitPath: Name
-    text: "基-演武练功七"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练功七"
+    translated: "Training in martial arts for seven days"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7691100\",\r\n    \"Name\": \"基-演武练保底\"\r\n  }"
   rawIndex: 7691100
   splits:
   - splitPath: Name
-    text: "基-演武练保底"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "演武练保底"
+    translated: "Battle Training Guarantee"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790100\",\r\n    \"Name\": \"基-聚气练内功\"\r\n  }"
   rawIndex: 7790100
   splits:
   - splitPath: Name
-    text: "基-聚气练内功"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "聚气练内功"
+    translated: "Gathering Qi to Cultivate Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790200\",\r\n    \"Name\": \"基-意定练内功\"\r\n  }"
   rawIndex: 7790200
   splits:
   - splitPath: Name
-    text: "基-意定练内功"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "意定练内功"
+    translated: "Intent to Practice Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790300\",\r\n    \"Name\": \"基-冥心练内功\"\r\n  }"
   rawIndex: 7790300
   splits:
   - splitPath: Name
-    text: "基-冥心练内功"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "冥心练内功"
+    translated: "Meditate on Neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790400\",\r\n    \"Name\": \"基-凝神练内功\"\r\n  }"
   rawIndex: 7790400
   splits:
   - splitPath: Name
-    text: "基-凝神练内功"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "凝神练内功"
+    translated: "Focus on cultivating neigong"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790500\",\r\n    \"Name\": \"基-庄子出尘外\"\r\n  }"
   rawIndex: 7790500
   splits:
   - splitPath: Name
-    text: "基-庄子出尘外"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "庄子出尘外"
+    translated: "Zhuangzi transcends the mundane"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790600\",\r\n    \"Name\": \"基-论语世经纶\"\r\n  }"
   rawIndex: 7790600
   splits:
   - splitPath: Name
-    text: "基-论语世经纶"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "论语世经纶"
+    translated: "The Analects of Confucius: The Way of Governance"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790700\",\r\n    \"Name\": \"基-法华宏佛理\"\r\n  }"
   rawIndex: 7790700
   splits:
   - splitPath: Name
-    text: "基-法华宏佛理"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "法华宏佛理"
+    translated: "Lotus Sutra Great Buddha Doctrine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790800\",\r\n    \"Name\": \"基-周易知明理\"\r\n  }"
   rawIndex: 7790800
   splits:
   - splitPath: Name
-    text: "基-周易知明理"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "周易知明理"
+    translated: "Zhou Yi Zhi Ming Li"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7790900\",\r\n    \"Name\": \"基-静室练保底\"\r\n  }"
   rawIndex: 7790900
   splits:
   - splitPath: Name
-    text: "基-静室练保底"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "静室练保底"
+    translated: "Quiet Room Training for Guaranteed Results"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7800100\",\r\n    \"Name\": \"后山解冤家\"\r\n  }"
   rawIndex: 7800100
   splits:
   - splitPath: Name
     text: "后山解冤家"
+    translated: "Backhill Unifier of Grievances"
 - raw: "{\r\n    \"Key\": \"7800300\",\r\n    \"Name\": \"唐六的禅一\"\r\n  }"
   rawIndex: 7800300
   splits:
   - splitPath: Name
     text: "唐六的禅一"
+    translated: "Tang Li's Zen Yi"
 - raw: "{\r\n    \"Key\": \"7800400\",\r\n    \"Name\": \"唐六的禅二\"\r\n  }"
   rawIndex: 7800400
   splits:
   - splitPath: Name
     text: "唐六的禅二"
+    translated: "Tang Liu's Zen Two"
 - raw: "{\r\n    \"Key\": \"7880700\",\r\n    \"Name\": \"选择唐幺幺\"\r\n  }"
   rawIndex: 7880700
   splits:
   - splitPath: Name
     text: "选择唐幺幺"
+    translated: "Choose Tang Yaoyao"
 - raw: "{\r\n    \"Key\": \"7880800\",\r\n    \"Name\": \"选择左灵珠\"\r\n  }"
   rawIndex: 7880800
   splits:
   - splitPath: Name
     text: "选择左灵珠"
+    translated: "Choose Zuo Lingzhu"
 - raw: "{\r\n    \"Key\": \"7880900\",\r\n    \"Name\": \"选择连翘儿\"\r\n  }"
   rawIndex: 7880900
   splits:
   - splitPath: Name
     text: "选择连翘儿"
+    translated: "Choose Lian Qiaoer"
 - raw: "{\r\n    \"Key\": \"7881000\",\r\n    \"Name\": \"选择沈蓉蓉\"\r\n  }"
   rawIndex: 7881000
   splits:
   - splitPath: Name
     text: "选择沈蓉蓉"
+    translated: "Choose Shen Rongrong"
 - raw: "{\r\n    \"Key\": \"7881100\",\r\n    \"Name\": \"选择阮碧青\"\r\n  }"
   rawIndex: 7881100
   splits:
   - splitPath: Name
     text: "选择阮碧青"
+    translated: "Choose Ruan Biqing"
 - raw: "{\r\n    \"Key\": \"7881200\",\r\n    \"Name\": \"选择靳红衣\"\r\n  }"
   rawIndex: 7881200
   splits:
   - splitPath: Name
     text: "选择靳红衣"
+    translated: "Choose Jin Hongyi"
 - raw: "{\r\n    \"Key\": \"7881300\",\r\n    \"Name\": \"选择萧令仪\"\r\n  }"
   rawIndex: 7881300
   splits:
   - splitPath: Name
     text: "选择萧令仪"
+    translated: "Choose Xiao Lingyi"
 - raw: "{\r\n    \"Key\": \"7881400\",\r\n    \"Name\": \"选择晏峨眉\"\r\n  }"
   rawIndex: 7881400
   splits:
   - splitPath: Name
     text: "选择晏峨眉"
+    translated: "Choose Yan Gemu"
 - raw: "{\r\n    \"Key\": \"7881500\",\r\n    \"Name\": \"选择夏侯珺\"\r\n  }"
   rawIndex: 7881500
   splits:
   - splitPath: Name
     text: "选择夏侯珺"
+    translated: "Choose Xiahou Jun"
 - raw: "{\r\n    \"Key\": \"7881600\",\r\n    \"Name\": \"选择项欺霜\"\r\n  }"
   rawIndex: 7881600
   splits:
   - splitPath: Name
     text: "选择项欺霜"
+    translated: "Choose Xiang Qishuang"
 - raw: "{\r\n    \"Key\": \"7881700\",\r\n    \"Name\": \"选择艾琳娜\"\r\n  }"
   rawIndex: 7881700
   splits:
   - splitPath: Name
     text: "选择艾琳娜"
+    translated: "Choose Elena"
 - raw: "{\r\n    \"Key\": \"7881800\",\r\n    \"Name\": \"选择文锦心\"\r\n  }"
   rawIndex: 7881800
   splits:
   - splitPath: Name
     text: "选择文锦心"
+    translated: "Choose Wen Jinxin"
 - raw: "{\r\n    \"Key\": \"7881900\",\r\n    \"Name\": \"选择柳含烟\"\r\n  }"
   rawIndex: 7881900
   splits:
   - splitPath: Name
     text: "选择柳含烟"
+    translated: "Choose Liu Hanyan"
 - raw: "{\r\n    \"Key\": \"7882000\",\r\n    \"Name\": \"选择展青锋\"\r\n  }"
   rawIndex: 7882000
   splits:
   - splitPath: Name
     text: "选择展青锋"
+    translated: "Choose Zhan Qingfeng"
 - raw: "{\r\n    \"Key\": \"7882100\",\r\n    \"Name\": \"选择风间爱\"\r\n  }"
   rawIndex: 7882100
   splits:
   - splitPath: Name
     text: "选择风间爱"
+    translated: "Choose Kazama Ai"
 - raw: "{\r\n    \"Key\": \"7882200\",\r\n    \"Name\": \"选择风间月\"\r\n  }"
   rawIndex: 7882200
   splits:
   - splitPath: Name
     text: "选择风间月"
+    translated: "Choose Kazama Yue"
 - raw: "{\r\n    \"Key\": \"7882300\",\r\n    \"Name\": \"选择薛如意\"\r\n  }"
   rawIndex: 7882300
   splits:
   - splitPath: Name
     text: "选择薛如意"
+    translated: "Choose Xue Ruyi"
 - raw: "{\r\n    \"Key\": \"7882400\",\r\n    \"Name\": \"选择司徒伶\"\r\n  }"
   rawIndex: 7882400
   splits:
   - splitPath: Name
     text: "选择司徒伶"
+    translated: "Choose Situ Ling"
 - raw: "{\r\n    \"Key\": \"7882500\",\r\n    \"Name\": \"选择谈文秀\"\r\n  }"
   rawIndex: 7882500
   splits:
   - splitPath: Name
     text: "选择谈文秀"
+    translated: "Choose Tan Wenshou"
 - raw: "{\r\n    \"Key\": \"7882600\",\r\n    \"Name\": \"选择邵轻虹\"\r\n  }"
   rawIndex: 7882600
   splits:
   - splitPath: Name
     text: "选择邵轻虹"
+    translated: "Choose Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"7882800\",\r\n    \"Name\": \"选择诸葛慧\"\r\n  }"
   rawIndex: 7882800
   splits:
   - splitPath: Name
     text: "选择诸葛慧"
+    translated: "Choose Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"7882900\",\r\n    \"Name\": \"选择选姜芽\"\r\n  }"
   rawIndex: 7882900
   splits:
   - splitPath: Name
     text: "选择选姜芽"
+    translated: "Choose Jiang Ya"
 - raw: "{\r\n    \"Key\": \"7883000\",\r\n    \"Name\": \"选择李云裳\"\r\n  }"
   rawIndex: 7883000
   splits:
   - splitPath: Name
     text: "选择李云裳"
+    translated: "Choose Li Yunchang"
 - raw: "{\r\n    \"Key\": \"7883100\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 7883100
   splits:
   - splitPath: Name
     text: "选择萧雪雁"
+    translated: "Choose Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"7883200\",\r\n    \"Name\": \"选择沈青鸬\"\r\n  }"
   rawIndex: 7883200
   splits:
   - splitPath: Name
     text: "选择沈青鸬"
+    translated: "Choose Shen Qinglu"
 - raw: "{\r\n    \"Key\": \"7883300\",\r\n    \"Name\": \"选择巫云凤\"\r\n  }"
   rawIndex: 7883300
   splits:
   - splitPath: Name
     text: "选择巫云凤"
+    translated: "Choose Wu Yunfeng"
 - raw: "{\r\n    \"Key\": \"7883400\",\r\n    \"Name\": \"选择选蚩萤\"\r\n  }"
   rawIndex: 7883400
   splits:
   - splitPath: Name
     text: "选择选蚩萤"
+    translated: "Choose Qi Chi Ying"
 - raw: "{\r\n    \"Key\": \"7882700\",\r\n    \"Name\": \"独自一人过\"\r\n  }"
   rawIndex: 7882700
   splits:
   - splitPath: Name
     text: "独自一人过"
+    translated: "Traverse alone"
 - raw: "{\r\n    \"Key\": \"7890100\",\r\n    \"Name\": \"望乡台瀑布\"\r\n  }"
   rawIndex: 7890100
   splits:
   - splitPath: Name
     text: "望乡台瀑布"
+    translated: "Homesickness Falls"
 - raw: "{\r\n    \"Key\": \"7890200\",\r\n    \"Name\": \"四面山瀑布\"\r\n  }"
   rawIndex: 7890200
   splits:
   - splitPath: Name
     text: "四面山瀑布"
+    translated: "Four‑Faced Mountain Waterfall"
 - raw: "{\r\n    \"Key\": \"7890300\",\r\n    \"Name\": \"山中朝源观\"\r\n  }"
   rawIndex: 7890300
   splits:
   - splitPath: Name
     text: "山中朝源观"
+    translated: "Within the Mountains of Morning Source lies the Morning Source Convent."
 - raw: "{\r\n    \"Key\": \"7900100\",\r\n    \"Name\": \"唐五的舵四\"\r\n  }"
   rawIndex: 7900100
   splits:
   - splitPath: Name
     text: "唐五的舵四"
+    translated: "Tang Wu's Dou Si"
 - raw: "{\r\n    \"Key\": \"7900200\",\r\n    \"Name\": \"坠崖定情缘\"\r\n  }"
   rawIndex: 7900200
   splits:
   - splitPath: Name
     text: "坠崖定情缘"
+    translated: "Falling off the cliff seals our eternal bond."
 - raw: "{\r\n    \"Key\": \"7900300\",\r\n    \"Name\": \"川中福禄楼\"\r\n  }"
   rawIndex: 7900300
   splits:
   - splitPath: Name
     text: "川中福禄楼"
+    translated: "Central Prosperity Hall"
 - raw: "{\r\n    \"Key\": \"7900400\",\r\n    \"Name\": \"云裳游剑阁\"\r\n  }"
   rawIndex: 7900400
   splits:
   - splitPath: Name
     text: "云裳游剑阁"
+    translated: "Cloud Robe Wanders Through the Sword Gate"
 - raw: "{\r\n    \"Key\": \"7900500\",\r\n    \"Name\": \"智退三盗鼠\"\r\n  }"
   rawIndex: 7900500
   splits:
   - splitPath: Name
     text: "智退三盗鼠"
+    translated: "While skillfully outmaneuvering three bandit rats"
 - raw: "{\r\n    \"Key\": \"7900900\",\r\n    \"Name\": \"劫江鬼归案\"\r\n  }"
   rawIndex: 7900900
   splits:
   - splitPath: Name
     text: "劫江鬼归案"
+    translated: "The Ghost of Jiangjiang has returned to settle accounts."
 - raw: "{\r\n    \"Key\": \"7901400\",\r\n    \"Name\": \"还阳道归案\"\r\n  }"
   rawIndex: 7901400
   splits:
   - splitPath: Name
     text: "还阳道归案"
+    translated: "Return to the Way of Reviving Yang"
 - raw: "{\r\n    \"Key\": \"7901900\",\r\n    \"Name\": \"打败富贵杀\"\r\n  }"
   rawIndex: 7901900
   splits:
   - splitPath: Name
     text: "打败富贵杀"
+    translated: "Defeat Fugui and kill him"
 - raw: "{\r\n    \"Key\": \"7991100\",\r\n    \"Name\": \"基-广元核桃酥\"\r\n  }"
   rawIndex: 7991100
   splits:
   - splitPath: Name
-    text: "基-广元核桃酥"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "广元核桃酥"
+    translated: "Yongzhou Walnut Cookie"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991200\",\r\n    \"Name\": \"基-夫妻米凉面\"\r\n  }"
   rawIndex: 7991200
   splits:
   - splitPath: Name
-    text: "基-夫妻米凉面"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "夫妻米凉面"
+    translated: "Spouse Cold Noodles"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991300\",\r\n    \"Name\": \"基-梓潼县酥饼\"\r\n  }"
   rawIndex: 7991300
   splits:
   - splitPath: Name
-    text: "基-梓潼县酥饼"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "梓潼县酥饼"
+    translated: "Zitong County Crispy Pastry"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991400\",\r\n    \"Name\": \"基-巴中枣林鱼\"\r\n  }"
   rawIndex: 7991400
   splits:
   - splitPath: Name
-    text: "基-巴中枣林鱼"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "巴中枣林鱼"
+    translated: "Ba Zhong Zao Lin Fish"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991500\",\r\n    \"Name\": \"基-正直大酥肉\"\r\n  }"
   rawIndex: 7991500
   splits:
   - splitPath: Name
-    text: "基-正直大酥肉"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "正直大酥肉"
+    translated: "Honesty Stewed Pork.Slice"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991600\",\r\n    \"Name\": \"基-南充卧龙鲊\"\r\n  }"
   rawIndex: 7991600
   splits:
   - splitPath: Name
-    text: "基-南充卧龙鲊"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "南充卧龙鲊"
+    translated: "Nanchong Wulong Zha"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991700\",\r\n    \"Name\": \"基-广元剑阁道\"\r\n  }"
   rawIndex: 7991700
   splits:
   - splitPath: Name
-    text: "基-广元剑阁道"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "广元剑阁道"
+    translated: "Broad Sword Ridge Path"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"7991800\",\r\n    \"Name\": \"基-水宁寺佛龛\"\r\n  }"
   rawIndex: 7991800
   splits:
   - splitPath: Name
-    text: "基-水宁寺佛龛"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "水宁寺佛龛"
+    translated: "Water Calm Temple Buddha Shrine"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8000100\",\r\n    \"Name\": \"唐五的舵三\"\r\n  }"
   rawIndex: 8000100
   splits:
   - splitPath: Name
     text: "唐五的舵三"
+    translated: "Tang Wu's Dao San"
 - raw: "{\r\n    \"Key\": \"8000200\",\r\n    \"Name\": \"顽童打水漂\"\r\n  }"
   rawIndex: 8000200
   splits:
   - splitPath: Name
     text: "顽童打水漂"
+    translated: "Child playing with water skipping stones"
 - raw: "{\r\n    \"Key\": \"8000600\",\r\n    \"Name\": \"战胜唐宝\"\r\n  }"
   rawIndex: 8000600
   splits:
   - splitPath: Name
     text: "战胜唐宝"
+    translated: "Defeat Tang Bao"
 - raw: "{\r\n    \"Key\": \"8000700\",\r\n    \"Name\": \"不敌唐宝\"\r\n  }"
   rawIndex: 8000700
   splits:
   - splitPath: Name
     text: "不敌唐宝"
+    translated: "Defeated by Tang Bao"
 - raw: "{\r\n    \"Key\": \"8001000\",\r\n    \"Name\": \"帮助姜芽\"\r\n  }"
   rawIndex: 8001000
   splits:
   - splitPath: Name
     text: "帮助姜芽"
+    translated: "Help Jiang Ya"
 - raw: "{\r\n    \"Key\": \"8001200\",\r\n    \"Name\": \"姜芽表真心\"\r\n  }"
   rawIndex: 8001200
   splits:
   - splitPath: Name
     text: "姜芽表真心"
+    translated: "Yang expresses her genuine feelings sincerely"
 - raw: "{\r\n    \"Key\": \"8001300\",\r\n    \"Name\": \"游探叙州府\"\r\n  }"
   rawIndex: 8001300
   splits:
   - splitPath: Name
     text: "游探叙州府"
+    translated: "Investigate the Prefecture of Yunosu"
 - raw: "{\r\n    \"Key\": \"8001500\",\r\n    \"Name\": \"雪雁认亲归\"\r\n  }"
   rawIndex: 8001500
   splits:
   - splitPath: Name
     text: "雪雁认亲归"
+    translated: "Snowswan Recognizes Her Kin and Returns"
 - raw: "{\r\n    \"Key\": \"8001900\",\r\n    \"Name\": \"盗粮鼠归案\"\r\n  }"
   rawIndex: 8001900
   splits:
   - splitPath: Name
     text: "盗粮鼠归案"
+    translated: "Stolen grain rats have been apprehended"
 - raw: "{\r\n    \"Key\": \"8002400\",\r\n    \"Name\": \"夜千家归案\"\r\n  }"
   rawIndex: 8002400
   splits:
   - splitPath: Name
     text: "夜千家归案"
+    translated: "Night Thousand Family returns to the case"
 - raw: "{\r\n    \"Key\": \"8002900\",\r\n    \"Name\": \"独眼虎归案\"\r\n  }"
   rawIndex: 8002900
   splits:
   - splitPath: Name
     text: "独眼虎归案"
+    translated: "One‑eyed Tiger has been apprehended"
 - raw: "{\r\n    \"Key\": \"8003700\",\r\n    \"Name\": \"食铁兽正名\"\r\n  }"
   rawIndex: 8003700
   splits:
   - splitPath: Name
     text: "食铁兽正名"
+    translated: "Iron‑tooth Beast renamed itself"
 - raw: "{\r\n    \"Key\": \"8003800\",\r\n    \"Name\": \"普度渡亡魂\"\r\n  }"
   rawIndex: 8003800
   splits:
   - splitPath: Name
     text: "普度渡亡魂"
+    translated: "Serenity for the Departed Souls"
 - raw: "{\r\n    \"Key\": \"8003900\",\r\n    \"Name\": \"普度随同行\"\r\n  }"
   rawIndex: 8003900
   splits:
   - splitPath: Name
     text: "普度随同行"
+    translated: "Prosper Together and Walk Side by Side"
 - raw: "{\r\n    \"Key\": \"8004000\",\r\n    \"Name\": \"六通神足通\"\r\n  }"
   rawIndex: 8004000
   splits:
   - splitPath: Name
     text: "六通神足通"
+    translated: "Six Paths Divine Step"
 - raw: "{\r\n    \"Key\": \"8004100\",\r\n    \"Name\": \"中元听佛经\"\r\n  }"
   rawIndex: 8004100
   splits:
   - splitPath: Name
     text: "中元听佛经"
+    translated: "Zhongyuan listens to Buddhist scriptures"
 - raw: "{\r\n    \"Key\": \"8004200\",\r\n    \"Name\": \"中元听经一\"\r\n  }"
   rawIndex: 8004200
   splits:
   - splitPath: Name
     text: "中元听经一"
+    translated: "Mid‑Autumn Listen to the Sutra Once"
 - raw: "{\r\n    \"Key\": \"8091100\",\r\n    \"Name\": \"基-盐津乌骨鸡\"\r\n  }"
   rawIndex: 8091100
   splits:
   - splitPath: Name
-    text: "基-盐津乌骨鸡"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "盐津乌骨鸡"
+    translated: "Salt‑preserved black bone chicken"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091200\",\r\n    \"Name\": \"基-彝良黄糕粑\"\r\n  }"
   rawIndex: 8091200
   splits:
   - splitPath: Name
-    text: "基-彝良黄糕粑"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "彝良黄糕粑"
+    translated: "Yiliang Huang Gao Ba"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091300\",\r\n    \"Name\": \"基-鲁甸牛干巴\"\r\n  }"
   rawIndex: 8091300
   splits:
   - splitPath: Name
-    text: "基-鲁甸牛干巴"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "鲁甸牛干巴"
+    translated: "Lu Di Beef Jerky"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091400\",\r\n    \"Name\": \"基-盐边油底肉\"\r\n  }"
   rawIndex: 8091400
   splits:
   - splitPath: Name
-    text: "基-盐边油底肉"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "盐边油底肉"
+    translated: "Stir‑fried meat with preserved salt and oil"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091500\",\r\n    \"Name\": \"基-富顺县豆花\"\r\n  }"
   rawIndex: 8091500
   splits:
   - splitPath: Name
-    text: "基-富顺县豆花"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "富顺县豆花"
+    translated: "Fushun County Douhua"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091600\",\r\n    \"Name\": \"基-沫水大渡河\"\r\n  }"
   rawIndex: 8091600
   splits:
   - splitPath: Name
-    text: "基-沫水大渡河"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "沫水大渡河"
+    translated: "Mo Shui Da Duh River"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091700\",\r\n    \"Name\": \"基-会理龙肘山\"\r\n  }"
   rawIndex: 8091700
   splits:
   - splitPath: Name
-    text: "基-会理龙肘山"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "会理龙肘山"
+    translated: "Huili Longzhoushan"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8091800\",\r\n    \"Name\": \"基-佛兴螺髻山\"\r\n  }"
   rawIndex: 8091800
   splits:
   - splitPath: Name
-    text: "基-佛兴螺髻山"
+    text: "基"
+    translated: "Ji"
+  - splitPath: Name
+    subIndex: 1
+    text: "佛兴螺髻山"
+    translated: "Buddha Prosperity Looped Hair Mountain"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"8100200\",\r\n    \"Name\": \"庙祝姜云奎\"\r\n  }"
   rawIndex: 8100200
   splits:
   - splitPath: Name
     text: "庙祝姜云奎"
+    translated: "Temple Clerk Jiang Yunkui"
 - raw: "{\r\n    \"Key\": \"8100300\",\r\n    \"Name\": \"云奎演木牛\"\r\n  }"
   rawIndex: 8100300
   splits:
   - splitPath: Name
     text: "云奎演木牛"
+    translated: "Yun Kai performs the Wood Ox routine"
 - raw: "{\r\n    \"Key\": \"8100500\",\r\n    \"Name\": \"巧思解木牛\"\r\n  }"
   rawIndex: 8100500
   splits:
   - splitPath: Name
     text: "巧思解木牛"
+    translated: "Ingenious solution to the wooden ox puzzle"
 - raw: "{\r\n    \"Key\": \"8100600\",\r\n    \"Name\": \"初识诸葛慧\"\r\n  }"
   rawIndex: 8100600
   splits:
   - splitPath: Name
     text: "初识诸葛慧"
+    translated: "First meeting with Zhu Ge Hui"
 - raw: "{\r\n    \"Key\": \"8100900\",\r\n    \"Name\": \"成都庙会约\"\r\n  }"
   rawIndex: 8100900
   splits:
   - splitPath: Name
     text: "成都庙会约"
+    translated: "Chengdu Temple Fair Reservation"
 - raw: "{\r\n    \"Key\": \"8101000\",\r\n    \"Name\": \"诸葛慧回礼\"\r\n  }"
   rawIndex: 8101000
   splits:
   - splitPath: Name
     text: "诸葛慧回礼"
+    translated: "Zhuge Hui reciprocated"
 - raw: "{\r\n    \"Key\": \"8101100\",\r\n    \"Name\": \"同燃孔明灯\"\r\n  }"
   rawIndex: 8101100
   splits:
   - splitPath: Name
     text: "同燃孔明灯"
+    translated: "Light the same sky lantern together"
 - raw: "{\r\n    \"Key\": \"8101200\",\r\n    \"Name\": \"机关拼木牛\"\r\n  }"
   rawIndex: 8101200
   splits:
   - splitPath: Name
     text: "机关拼木牛"
+    translated: "Mechanical Wooden Ox"
 - raw: "{\r\n    \"Key\": \"8101300\",\r\n    \"Name\": \"再试文武廊\"\r\n  }"
   rawIndex: 8101300
   splits:
   - splitPath: Name
     text: "再试文武廊"
+    translated: "Try the Martial Arts Corridor again"
 - raw: "{\r\n    \"Key\": \"8101400\",\r\n    \"Name\": \"云奎授剑诀\"\r\n  }"
   rawIndex: 8101400
   splits:
   - splitPath: Name
     text: "云奎授剑诀"
+    translated: "Yun Kui teaches the sword technique"
 - raw: "{\r\n    \"Key\": \"8101500\",\r\n    \"Name\": \"廿八星宿阵\"\r\n  }"
   rawIndex: 8101500
   splits:
   - splitPath: Name
     text: "廿八星宿阵"
+    translated: "Twenty‑Eight Mansions Array"
 - raw: "{\r\n    \"Key\": \"8190211\",\r\n    \"Name\": \"武侯机关一\"\r\n  }"
   rawIndex: 8190211
   splits:
   - splitPath: Name
     text: "武侯机关一"
+    translated: "Mechanism of the War Lord's Office"
 - raw: "{\r\n    \"Key\": \"8190212\",\r\n    \"Name\": \"武侯机关二\"\r\n  }"
   rawIndex: 8190212
   splits:
   - splitPath: Name
     text: "武侯机关二"
+    translated: "Mechanism of the Second Chancellor"
 - raw: "{\r\n    \"Key\": \"8200600\",\r\n    \"Name\": \"接手神女宫\"\r\n  }"
   rawIndex: 8200600
   splits:
   - splitPath: Name
     text: "接手神女宫"
+    translated: "Take over the Goddess Palace"
 - raw: "{\r\n    \"Key\": \"8200700\",\r\n    \"Name\": \"朝云萧雪雁\"\r\n  }"
   rawIndex: 8200700
   splits:
   - splitPath: Name
     text: "朝云萧雪雁"
+    translated: "Morning Cloud, Snowy Feather"
 - raw: "{\r\n    \"Key\": \"8200800\",\r\n    \"Name\": \"玉珠落重楼\"\r\n  }"
   rawIndex: 8200800
   splits:
   - splitPath: Name
     text: "玉珠落重楼"
+    translated: "Jade Beads Fall into the Heavily Laden Tower"
 - raw: "{\r\n    \"Key\": \"8200900\",\r\n    \"Name\": \"暮雨沈青鸬\"\r\n  }"
   rawIndex: 8200900
   splits:
   - splitPath: Name
     text: "暮雨沈青鸬"
+    translated: "Evening rain drizzles on the green gallinule"
 - raw: "{\r\n    \"Key\": \"8201000\",\r\n    \"Name\": \"赤纹芍药枝\"\r\n  }"
   rawIndex: 8201000
   splits:
   - splitPath: Name
     text: "赤纹芍药枝"
+    translated: "Crimson‑veined peony branch"
 - raw: "{\r\n    \"Key\": \"8201100\",\r\n    \"Name\": \"定计劫赤纹\"\r\n  }"
   rawIndex: 8201100
   splits:
   - splitPath: Name
     text: "定计劫赤纹"
+    translated: "Plot to kidnap Chiwen"
 - raw: "{\r\n    \"Key\": \"8201300\",\r\n    \"Name\": \"回告雪与青\"\r\n  }"
   rawIndex: 8201300
   splits:
   - splitPath: Name
     text: "回告雪与青"
+    translated: "Report to Snow and Qing"
 - raw: "{\r\n    \"Key\": \"8201500\",\r\n    \"Name\": \"巫云凤出关\"\r\n  }"
   rawIndex: 8201500
   splits:
   - splitPath: Name
     text: "巫云凤出关"
+    translated: "Wu Yunfeng emerges from seclusion"
 - raw: "{\r\n    \"Key\": \"8201800\",\r\n    \"Name\": \"卞城王拦路\"\r\n  }"
   rawIndex: 8201800
   splits:
   - splitPath: Name
     text: "卞城王拦路"
+    translated: "King Biancheng Blocks the Road"
 - raw: "{\r\n    \"Key\": \"8201900\",\r\n    \"Name\": \"神女问雪青\"\r\n  }"
   rawIndex: 8201900
   splits:
   - splitPath: Name
     text: "神女问雪青"
+    translated: "Goddess asked Xue Qing"
 - raw: "{\r\n    \"Key\": \"8202100\",\r\n    \"Name\": \"巫山神女情\"\r\n  }"
   rawIndex: 8202100
   splits:
   - splitPath: Name
     text: "巫山神女情"
+    translated: "Wuxiang Goddess's Affection"
 - raw: "{\r\n    \"Key\": \"8202300\",\r\n    \"Name\": \"出关元阳成\"\r\n  }"
   rawIndex: 8202300
   splits:
   - splitPath: Name
     text: "出关元阳成"
+    translated: "Emerging from seclusion, Yang energy is cultivated"
 - raw: "{\r\n    \"Key\": \"8299011\",\r\n    \"Name\": \"巡视赤蛟寨\"\r\n  }"
   rawIndex: 8299011
   splits:
   - splitPath: Name
     text: "巡视赤蛟寨"
+    translated: "Patrol Red Viper Crag"
 - raw: "{\r\n    \"Key\": \"8299012\",\r\n    \"Name\": \"巡视金沙寨\"\r\n  }"
   rawIndex: 8299012
   splits:
   - splitPath: Name
     text: "巡视金沙寨"
+    translated: "Patrol Jin Sandi Village"
 - raw: "{\r\n    \"Key\": \"8299013\",\r\n    \"Name\": \"巡视筏排帮\"\r\n  }"
   rawIndex: 8299013
   splits:
   - splitPath: Name
     text: "巡视筏排帮"
+    translated: "Patrol raft team"
 - raw: "{\r\n    \"Key\": \"8299014\",\r\n    \"Name\": \"巡视五凤帮\"\r\n  }"
   rawIndex: 8299014
   splits:
   - splitPath: Name
     text: "巡视五凤帮"
+    translated: "Patrol the Five Phoenix Clan"
 - raw: "{\r\n    \"Key\": \"8299015\",\r\n    \"Name\": \"巡视江心寨\"\r\n  }"
   rawIndex: 8299015
   splits:
   - splitPath: Name
     text: "巡视江心寨"
+    translated: "Patrol the Jiangxin Fortress"
 - raw: "{\r\n    \"Key\": \"8299016\",\r\n    \"Name\": \"巡视七曲寨\"\r\n  }"
   rawIndex: 8299016
   splits:
   - splitPath: Name
     text: "巡视七曲寨"
+    translated: "Patrol Seven‑Acres Fortress"
 - raw: "{\r\n    \"Key\": \"8299017\",\r\n    \"Name\": \"巡视通江帮\"\r\n  }"
   rawIndex: 8299017
   splits:
   - splitPath: Name
     text: "巡视通江帮"
+    translated: "Patrol through the Tongjiang Gang"
 - raw: "{\r\n    \"Key\": \"8300300\",\r\n    \"Name\": \"交友结方刚\"\r\n  }"
   rawIndex: 8300300
   splits:
   - splitPath: Name
     text: "交友结方刚"
+    translated: "Making friends with those who are strong and reliable."
 - raw: "{\r\n    \"Key\": \"8300800\",\r\n    \"Name\": \"打败况天龙\"\r\n  }"
   rawIndex: 8300800
   splits:
   - splitPath: Name
     text: "打败况天龙"
+    translated: "Defeat Kuang Tianlong"
 - raw: "{\r\n    \"Key\": \"8003200\",\r\n    \"Name\": \"蚩木反苗峒\"\r\n  }"
   rawIndex: 8003200
   splits:
   - splitPath: Name
     text: "蚩木反苗峒"
+    translated: "Chimu Fanzhuangトンdens"
 - raw: "{\r\n    \"Key\": \"8003500\",\r\n    \"Name\": \"林中遇苍狼\"\r\n  }"
   rawIndex: 8003500
   splits:
   - splitPath: Name
     text: "林中遇苍狼"
+    translated: "Encountered a wild wolf in the woods"
 - raw: "{\r\n    \"Key\": \"8004300\",\r\n    \"Name\": \"初识牟三变\"\r\n  }"
   rawIndex: 8004300
   splits:
   - splitPath: Name
     text: "初识牟三变"
+    translated: "First meeting with Mu Sanyuan"
 - raw: "{\r\n    \"Key\": \"8004600\",\r\n    \"Name\": \"三变戏恶徒\"\r\n  }"
   rawIndex: 8004600
   splits:
   - splitPath: Name
     text: "三变戏恶徒"
+    translated: "Three Transformations plays on the wicked bandits"
 - raw: "{\r\n    \"Key\": \"8004800\",\r\n    \"Name\": \"十殿阎王面\"\r\n  }"
   rawIndex: 8004800
   splits:
   - splitPath: Name
     text: "十殿阎王面"
+    translated: "Ten Kings of Hell Faces"
 - raw: "{\r\n    \"Key\": \"8410200\",\r\n    \"Name\": \"拜访蚩峒主\"\r\n  }"
   rawIndex: 8410200
   splits:
   - splitPath: Name
     text: "拜访蚩峒主"
+    translated: "Visit Lord Chi Dong"
 - raw: "{\r\n    \"Key\": \"8410400\",\r\n    \"Name\": \"狼圈喂苍狼\"\r\n  }"
   rawIndex: 8410400
   splits:
   - splitPath: Name
     text: "狼圈喂苍狼"
+    translated: "Wolf pen feeding wild wolves"
 - raw: "{\r\n    \"Key\": \"8420111\",\r\n    \"Name\": \"蚩黎喂狼一\"\r\n  }"
   rawIndex: 8420111
   splits:
   - splitPath: Name
     text: "蚩黎喂狼一"
+    translated: "Chi Li feeds the wolf one"
 - raw: "{\r\n    \"Key\": \"8420112\",\r\n    \"Name\": \"蚩黎喂狼二\"\r\n  }"
   rawIndex: 8420112
   splits:
   - splitPath: Name
     text: "蚩黎喂狼二"
+    translated: "Chi Li feeds the wolves"
 - raw: "{\r\n    \"Key\": \"8420113\",\r\n    \"Name\": \"蚩黎喂狼三\"\r\n  }"
   rawIndex: 8420113
   splits:
   - splitPath: Name
     text: "蚩黎喂狼三"
+    translated: "Chi Lei feeds the wolves three times"
 - raw: "{\r\n    \"Key\": \"8420114\",\r\n    \"Name\": \"蚩黎喂狼四\"\r\n  }"
   rawIndex: 8420114
   splits:
   - splitPath: Name
     text: "蚩黎喂狼四"
+    translated: "Chi Li feed wolves four"
 - raw: "{\r\n    \"Key\": \"8410500\",\r\n    \"Name\": \"苍狼认主人\"\r\n  }"
   rawIndex: 8410500
   splits:
   - splitPath: Name
     text: "苍狼认主人"
+    translated: "The white wolf recognizes its master"
 - raw: "{\r\n    \"Key\": \"8430100\",\r\n    \"Name\": \"路遇小熊猫\"\r\n  }"
   rawIndex: 8430100
   splits:
   - splitPath: Name
     text: "路遇小熊猫"
+    translated: "Encountered a red panda"
 - raw: "{\r\n    \"Key\": \"8430200\",\r\n    \"Name\": \"圣兽食铁兽\"\r\n  }"
   rawIndex: 8430200
   splits:
   - splitPath: Name
     text: "圣兽食铁兽"
+    translated: "Iron Eater Beast"
 - raw: "{\r\n    \"Key\": \"8430500\",\r\n    \"Name\": \"打败五官王\"\r\n  }"
   rawIndex: 8430500
   splits:
   - splitPath: Name
     text: "打败五官王"
+    translated: "Defeat the Five Senses King"
 - raw: "{\r\n    \"Key\": \"8430700\",\r\n    \"Name\": \"大福助姻缘\"\r\n  }"
   rawIndex: 8430700
   splits:
   - splitPath: Name
     text: "大福助姻缘"
+    translated: "Great Fortune Aids Marriages"
 - raw: "{\r\n    \"Key\": \"8440300\",\r\n    \"Name\": \"战胜山马一\"\r\n  }"
   rawIndex: 8440300
   splits:
   - splitPath: Name
     text: "战胜山马一"
+    translated: "Defeat the Mountain Horse"
 - raw: "{\r\n    \"Key\": \"8440700\",\r\n    \"Name\": \"战胜山马二\"\r\n  }"
   rawIndex: 8440700
   splits:
   - splitPath: Name
     text: "战胜山马二"
+    translated: "Defeat the Mountain Horse II"
 - raw: "{\r\n    \"Key\": \"8410700\",\r\n    \"Name\": \"蚩连嘱托咐\"\r\n  }"
   rawIndex: 8410700
   splits:
   - splitPath: Name
     text: "蚩连嘱托咐"
+    translated: "Chi Lian instructed them"
 - raw: "{\r\n    \"Key\": \"8411000\",\r\n    \"Name\": \"打败五官王\"\r\n  }"
   rawIndex: 8411000
   splits:
   - splitPath: Name
     text: "打败五官王"
+    translated: "Defeat the Five Senses King"
 - raw: "{\r\n    \"Key\": \"8411200\",\r\n    \"Name\": \"蚩连说根源\"\r\n  }"
   rawIndex: 8411200
   splits:
   - splitPath: Name
     text: "蚩连说根源"
+    translated: "Chi Lian explained the yuan TMPro as the origin."
 - raw: "{\r\n    \"Key\": \"10000200\",\r\n    \"Name\": \"邬健传上篇\"\r\n  }"
   rawIndex: 10000200
   splits:

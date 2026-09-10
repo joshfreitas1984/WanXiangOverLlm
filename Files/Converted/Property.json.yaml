@@ -110,8 +110,15 @@
     text: "财富"
     translated: "Wealth"
   - splitPath: Desc
-    text: "影响特殊事件触发机会，放弃机会+，获得机会-"
+    text: "影响特殊事件触发机会，放弃机会"
     translated: "Affect the chance of special events triggering. Sacrifice opportunity +, gain opportunity ‑."
+  - splitPath: Desc
+    subIndex: 1
+    text: "，获得机会"
+    translated: ", seize the opportunity"
+  templates:
+  - splitPath: Desc
+    template: "{0}+{1}-"
 - raw: "{\r\n    \"Key\": \"10\",\r\n    \"Name\": \"道德\",\r\n    \"Desc\": \"反映角色的行事立场，影响事件的触发与走向。\\\\n十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。\",\r\n    \"NameTw\": \"道德\",\r\n    \"DescTw\": \"反映角色的行事立場，影響事件的觸發與走向。\\\\n十大惡人事件、天魔教陰謀事件、寧王陰謀事件、幽冥道陰謀事件、六扇門緝捕任務都會增加道德。\"\r\n  }"
   rawIndex: 10
   splits:
@@ -119,8 +126,15 @@
     text: "道德"
     translated: "Morality"
   - splitPath: Desc
-    text: "反映角色的行事立场，影响事件的触发与走向。\\n十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
-    translated: "Reflecting the character's actions and stance can influence when events trigger and how they unfold.\\nEngaging in the Ten Evil Men Incident, the Heavenly Demon Sect Conspiracy Event, the Peaceful King Conspiracy Event, and the Six Doors Arrest Mission will increase morality."
+    text: "反映角色的行事立场，影响事件的触发与走向。"
+    translated: "Reflecting the character's actions and stance can influence when and how events trigger and unfold."
+  - splitPath: Desc
+    subIndex: 1
+    text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
+    translated: "While correcting the Ten Foul Men Incident, the Heavenly Demon Sect Conspiracy, the Ning Wang Conspiracy, the Yin Dao Conspiracy, and the Six Doors Arrest Task, your morality will increase."
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Name\": \"气血判断\",\r\n    \"Desc\": \"气血总数，判断条件使用，不能通过奖励表修改\",\r\n    \"NameTw\": \"氣血判斷\",\r\n    \"DescTw\": \"氣血總數，判斷條件使用，不能通過獎勵表修改\"\r\n  }"
   rawIndex: 11
   splits:
@@ -200,17 +214,29 @@
     text: "难度"
     translated: "Difficulty"
   - splitPath: Desc
-    text: "玩家选择的游戏难度，值对应Difficulty表，只读"
+    text: "玩家选择的游戏难度，值对应"
     translated: "The difficulty level chosen by the player corresponds to the values in the Difficulty table, which is read‑only."
+  - splitPath: Desc
+    subIndex: 1
+    text: "表，只读"
+    translated: "Table, read‑only"
+  templates:
+  - splitPath: Desc
+    template: "{0}Difficulty{1}"
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"立绘id\",\r\n    \"Desc\": \"玩家立绘id\",\r\n    \"NameTw\": \"立繪id\",\r\n    \"DescTw\": \"玩家立繪id\"\r\n  }"
   rawIndex: 26
   splits:
   - splitPath: Name
-    text: "立绘id"
+    text: "立绘"
     translated: "Character sprite ID"
   - splitPath: Desc
-    text: "玩家立绘id"
+    text: "玩家立绘"
     translated: "Player character sprite ID"
+  templates:
+  - splitPath: Name
+    template: "{0}id"
+  - splitPath: Desc
+    template: "{0}id"
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"技能额外上限\",\r\n    \"Desc\": \"技能额外上限\",\r\n    \"NameTw\": \"技能額外上限\",\r\n    \"DescTw\": \"技能額外上限\"\r\n  }"
   rawIndex: 27
   splits:
@@ -255,7 +281,7 @@
     translated: "Poison Technique"
   - splitPath: Desc
     text: "毒术的掌握水平，唐门可在百毒坊提高毒术。"
-    translated: "The mastery level of poison techniques"
+    translated: "The mastery of poison techniques can be improved at the Hundred Poison Hall by the Tang Clan."
 - raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Name\": \"术数\",\r\n    \"Desc\": \"奇门术数掌握的水平，可在湘东岳麓书院学习术数。\",\r\n    \"NameTw\": \"術數\",\r\n    \"DescTw\": \"奇門術數掌握的水平，可在湘東嶽麓書院學習術數。\"\r\n  }"
   rawIndex: 1003
   splits:
@@ -318,7 +344,7 @@
     translated: "Cooking"
   - splitPath: Desc
     text: "厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。衡山派冬学可以学习厨艺。"
-    translated: "The level of cooking skill can be improved by trying local delicacies when traveling to various places without encountering any special events. After mastering the basics of cooking, you can trigger an event with the Beggar Sect in Xiangdong, which will allow you to further enhance your cooking skills within the sect."
+    translated: "The level of cooking can be increased by trying local delicacies during travels to different regions, especially when there are no special events. After mastering cooking basics, you can trigger an event with the Beggar Sect in Xiangdong, which will allow you to improve your cooking skills within the sect. The Winter Academy of the Hengshan Sect also offers courses in cooking."
 - raw: "{\r\n    \"Key\": \"1009\",\r\n    \"Name\": \"火器\",\r\n    \"Desc\": \"火器制作和运用的水平，衡山派冬学可以学习火器。\",\r\n    \"NameTw\": \"火器\",\r\n    \"DescTw\": \"火器製作和運用的水平，衡山派冬學可以學習火器。\"\r\n  }"
   rawIndex: 1009
   splits:
@@ -423,8 +449,10 @@
   splits:
   - splitPath: Name
     text: "匠造"
+    translated: "Craftsmanship"
   - splitPath: Desc
     text: "冶炼匠造、机关制作的掌握水平，唐门可在千机坊提高匠造。"
+    translated: "Smelter Crafting Master, the skill level in mechanism creation. Tang Clan can improve this in the Thousand Mechanism Workshop."
 - raw: "{\r\n    \"Key\": \"10001\",\r\n    \"Name\": \"帮助日游\",\r\n    \"Desc\": \"帮助日游神干活的次数\",\r\n    \"NameTw\": \"幫助日遊\",\r\n    \"DescTw\": \"幫助日遊神幹活的次數\"\r\n  }"
   rawIndex: 10001
   splits:
@@ -619,15 +647,19 @@
   splits:
   - splitPath: Name
     text: "永利典当"
+    translated: "Ryuzen Pawnshop"
   - splitPath: Desc
     text: "在永利当铺典当物品的数量"
+    translated: "The number of items pawned at the Yongli Pawnshop"
 - raw: "{\r\n    \"Key\": \"10023\",\r\n    \"Name\": \"川蜀悬赏\",\r\n    \"Desc\": \"川蜀悬赏次数\",\r\n    \"NameTw\": \"川蜀懸賞\",\r\n    \"DescTw\": \"川蜀懸賞次數\"\r\n  }"
   rawIndex: 10023
   splits:
   - splitPath: Name
     text: "川蜀悬赏"
+    translated: "Bounty in Sichuan"
   - splitPath: Desc
     text: "川蜀悬赏次数"
+    translated: "Bounty for Chu Shi issued times"
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Name\": \"荆湘六扇门友好\",\r\n    \"Desc\": \"影响侠客和荆湘六扇门的关系\",\r\n    \"NameTw\": \"荊湘六扇門友好\",\r\n    \"DescTw\": \"影響俠客和荊湘六扇門的關係\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -777,85 +809,109 @@
   splits:
   - splitPath: Name
     text: "武侯祠友好"
+    translated: "While visiting the Wuliu Temple, they pay respects to the wise sage."
   - splitPath: Desc
     text: "影响侠客和武侯祠的关系"
+    translated: "Influences on the relationship between the Wanderer and the Martial Chancellor's Shrine"
 - raw: "{\r\n    \"Key\": \"20018\",\r\n    \"Name\": \"神女宫友好\",\r\n    \"Desc\": \"影响侠客和神女宫的关系\",\r\n    \"NameTw\": \"神女宮友好\",\r\n    \"DescTw\": \"影響俠客和神女宮的關係\"\r\n  }"
   rawIndex: 20018
   splits:
   - splitPath: Name
     text: "神女宫友好"
+    translated: "Temple of the Divine Maiden is friendly"
   - splitPath: Desc
     text: "影响侠客和神女宫的关系"
+    translated: "Affecting the relationship between the Wanderer and the Divine Maiden Palace"
 - raw: "{\r\n    \"Key\": \"20019\",\r\n    \"Name\": \"川蜀六扇门友好\",\r\n    \"Desc\": \"影响侠客和川蜀六扇门的关系\",\r\n    \"NameTw\": \"川蜀六扇門友好\",\r\n    \"DescTw\": \"影響俠客和川蜀六扇門的關係\"\r\n  }"
   rawIndex: 20019
   splits:
   - splitPath: Name
     text: "川蜀六扇门友好"
+    translated: "Six Doors from Sichuan Province are friendly"
   - splitPath: Desc
     text: "影响侠客和川蜀六扇门的关系"
+    translated: "Affecting the relationship between wanderers and the Six Doors of Sichuan Province"
 - raw: "{\r\n    \"Key\": \"20020\",\r\n    \"Name\": \"蚩黎峒友好\",\r\n    \"Desc\": \"影响侠客和蚩黎峒的关系\",\r\n    \"NameTw\": \"蚩黎峒友好\",\r\n    \"DescTw\": \"影響俠客和蚩黎峒的關係\"\r\n  }"
   rawIndex: 20020
   splits:
   - splitPath: Name
     text: "蚩黎峒友好"
+    translated: "Chili Dong Friendly"
   - splitPath: Desc
     text: "影响侠客和蚩黎峒的关系"
+    translated: "Affects the relationship between the Wanderer and Chi Li Dung"
 - raw: "{\r\n    \"Key\": \"29970\",\r\n    \"Name\": \"蚩萤好感\",\r\n    \"Desc\": \"影响侠客和蚩萤的关系\",\r\n    \"NameTw\": \"蚩螢好感\",\r\n    \"DescTw\": \"影響俠客和蚩螢的關係\"\r\n  }"
   rawIndex: 29970
   splits:
   - splitPath: Name
     text: "蚩萤好感"
+    translated: "Chi Ying's Affection"
   - splitPath: Desc
     text: "影响侠客和蚩萤的关系"
+    translated: "Influences on the relationship between the Wanderer and Chi Ying"
 - raw: "{\r\n    \"Key\": \"29971\",\r\n    \"Name\": \"巫云凤好感\",\r\n    \"Desc\": \"影响侠客和巫云凤的关系\",\r\n    \"NameTw\": \"巫雲鳳好感\",\r\n    \"DescTw\": \"影響俠客和巫雲鳳的關係\"\r\n  }"
   rawIndex: 29971
   splits:
   - splitPath: Name
     text: "巫云凤好感"
+    translated: "Wu Yufeng's Affection"
   - splitPath: Desc
     text: "影响侠客和巫云凤的关系"
+    translated: "Influences on the relationship between the Wanderer and Wu Yunfeng"
 - raw: "{\r\n    \"Key\": \"29972\",\r\n    \"Name\": \"萧雪雁好感\",\r\n    \"Desc\": \"影响侠客和萧雪雁的关系\",\r\n    \"NameTw\": \"蕭雪雁好感\",\r\n    \"DescTw\": \"影響俠客和蕭雪雁的關係\"\r\n  }"
   rawIndex: 29972
   splits:
   - splitPath: Name
     text: "萧雪雁好感"
+    translated: "Xiaoxueyan's Affection"
   - splitPath: Desc
     text: "影响侠客和萧雪雁的关系"
+    translated: "Affects the relationship between the Wanderer and Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"29973\",\r\n    \"Name\": \"沈青鸬好感\",\r\n    \"Desc\": \"影响侠客和沈青鸬的关系\",\r\n    \"NameTw\": \"沈青鸕好感\",\r\n    \"DescTw\": \"影響俠客和沈青鸕的關係\"\r\n  }"
   rawIndex: 29973
   splits:
   - splitPath: Name
     text: "沈青鸬好感"
+    translated: "Schen Qinglu's Affection"
   - splitPath: Desc
     text: "影响侠客和沈青鸬的关系"
+    translated: "Affects the relationship between the Wanderer and Shen Qinglu'a"
 - raw: "{\r\n    \"Key\": \"29974\",\r\n    \"Name\": \"李云裳好感\",\r\n    \"Desc\": \"影响侠客和李云裳的关系\",\r\n    \"NameTw\": \"李雲裳好感\",\r\n    \"DescTw\": \"影響俠客和李雲裳的關係\"\r\n  }"
   rawIndex: 29974
   splits:
   - splitPath: Name
     text: "李云裳好感"
+    translated: "Li Yunshang's Affection"
   - splitPath: Desc
     text: "影响侠客和李云裳的关系"
+    translated: "Affects the relationship between the Wanderer and Li Yunshang"
 - raw: "{\r\n    \"Key\": \"29975\",\r\n    \"Name\": \"姜芽好感\",\r\n    \"Desc\": \"影响侠客和姜芽的关系\",\r\n    \"NameTw\": \"姜芽好感\",\r\n    \"DescTw\": \"影響俠客和姜芽的關係\"\r\n  }"
   rawIndex: 29975
   splits:
   - splitPath: Name
     text: "姜芽好感"
+    translated: "Qingya's Affection"
   - splitPath: Desc
     text: "影响侠客和姜芽的关系"
+    translated: "Affect the relationship between the Wanderer and Jiang Ya"
 - raw: "{\r\n    \"Key\": \"29976\",\r\n    \"Name\": \"诸葛慧好感\",\r\n    \"Desc\": \"影响侠客和诸葛慧的关系\",\r\n    \"NameTw\": \"諸葛慧好感\",\r\n    \"DescTw\": \"影響俠客和諸葛慧的關係\"\r\n  }"
   rawIndex: 29976
   splits:
   - splitPath: Name
     text: "诸葛慧好感"
+    translated: "Zhuge Hui's affection"
   - splitPath: Desc
     text: "影响侠客和诸葛慧的关系"
+    translated: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
 - raw: "{\r\n    \"Key\": \"29977\",\r\n    \"Name\": \"唐幺幺好感\",\r\n    \"Desc\": \"影响侠客和唐幺幺的关系\",\r\n    \"NameTw\": \"唐么么好感\",\r\n    \"DescTw\": \"影響俠客和唐么么的關係\"\r\n  }"
   rawIndex: 29977
   splits:
   - splitPath: Name
     text: "唐幺幺好感"
+    translated: "Tang Yaoya's Affection"
   - splitPath: Desc
     text: "影响侠客和唐幺幺的关系"
+    translated: "Affects the relationship between the Wanderer and Tang Yaoyaomiao"
 - raw: "{\r\n    \"Key\": \"29978\",\r\n    \"Name\": \"邵轻虹好感\",\r\n    \"Desc\": \"影响侠客和邵轻虹的关系\",\r\n    \"NameTw\": \"邵輕虹好感\",\r\n    \"DescTw\": \"影響俠客和邵輕虹的關係\"\r\n  }"
   rawIndex: 29978
   splits:

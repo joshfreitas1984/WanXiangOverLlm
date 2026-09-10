@@ -1,29 +1,24 @@
-# Settings
 - path: Canvas/PopRoot/TitleSettingMenu/SettingPanel/Music/Text (TMP)_1
   sampleText: Music
   idealFontSize: 36
-  adjustWidth: 20
   allowWordWrap: true
+  adjustWidth: 20
 - path: Canvas/PopRoot/TitleSettingMenu/SettingPanel/Voice/Text (TMP)_1
   sampleText: Sound effects
   idealFontSize: 36
-  adjustWidth: 20
   allowWordWrap: true
+  adjustWidth: 20
 - path: Canvas/PopRoot/TitleSettingMenu/MainPanel/Box/Text (TMP)
   sampleText: Settings
   idealFontSize: 32
-  adjustWidth: -15
-  adjustX: 5
   allowWordWrap: true
-
-# Endings
+  adjustX: 5
+  adjustWidth: -15
 - path: Canvas/PopRoot/EndingMenu/Scroll View/Viewport/Content/EndingItem(Clone)/EndingName
   sampleText: Master of Medicine
   idealFontSize: 20
-  adjustWidth: 100
   allowWordWrap: true
-
-# Encyclopedia
+  adjustWidth: 100
 - path: Canvas/PopRoot/AtlasMenu/MainButtons/*/Text (TMP)
   sampleText: Core Principles of Cultivation Technique
   idealFontSize: 24
@@ -31,29 +26,24 @@
 - path: Canvas/PopRoot/AtlasMenu/MainPanel/Image/Text (TMP)
   sampleText: Bestiary
   idealFontSize: 32
-  adjustWidth: -30
   allowWordWrap: true
-
-# Wanderer
+  adjustWidth: -30
 - path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/HeroCards/Scroll View/Viewport/Heros/LockedHero(Clone)/Hero/CardNameImg_1/CardName
   sampleText: Close female friend
   idealFontSize: 18
-  adjustWidth: 150
-  adjustX: -0
   allowWordWrap: true
+  adjustWidth: 150
 - path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/HeroCards/Scroll View/Viewport/Heros/LockedHero(Clone)/Hero/Text (TMP)
   sampleText: Qiuling Suzhi
   idealFontSize: 40
-  adjustWidth: 150
   allowWordWrap: true
+  adjustWidth: 150
 - path: Canvas/PopRoot/HeroAtlasMenu/MainPanel/Bg/Text (TMP)
   sampleText: Wanderer
   idealFontSize: 40
-  adjustWidth: -30
-  adjustY: -10
   allowWordWrap: true
-
-# Cultivation
+  adjustY: -10
+  adjustWidth: -30
 - path: Canvas/PopRoot/SkillAtlasMenu/DropDown/*/*Text (TMP)
   sampleText: Effect Filtering of Cultivation Technique
   idealFontSize: 24
@@ -61,36 +51,31 @@
 - path: Canvas/PopRoot/SkillAtlasMenu/MainPanel/Bg/Text (TMP)
   sampleText: Cultivation method
   idealFontSize: 22
-  adjustWidth: 120
   allowWordWrap: true
-
-# Factions
+  adjustWidth: 120
 - path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Groups/Scroll View/Viewport/Groups/GroupItem(Clone)/Name
   sampleText: Jingxiang Six Palms Sect
   idealFontSize: 34
-  adjustWidth: 150
-  adjustX: 40
   allowWordWrap: true
+  adjustX: 40
+  adjustWidth: 150
 - path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Groups/Scroll View/Viewport/Groups/GroupItem(Clone)/Lock/Text
   sampleText: Located in Baleng City of Fuzhou Prefecture in Xiangbei, Iron‑Face Judge You Buer leads the six gates of justice for Jingxiang. He is responsible for managing cases involving Jianghu individuals within the Jingxiang region. Known for his uprightness and hatred of evil, You Buer always puts himself at risk by confronting criminals first. Throughout the year, he rarely stays long in the Six Gates Office.
   idealFontSize: 16
-  adjustY: 10
   allowWordWrap: true
+  adjustY: 10
 - path: Canvas/PopRoot/GroupAtlasMenu/MainPanel/Bg/Text (TMP)
   sampleText: Faction
   idealFontSize: 40
-  adjustWidth: -40
-  adjustY: -10
   allowWordWrap: true
-
-# Achievements
+  adjustY: -10
+  adjustWidth: -40
 - path: Canvas/PopRoot/AchievementMenu/Text (TMP)
   sampleText: Achievement
   idealFontSize: 34
-  adjustWidth: -50
-  adjustY: -10
   allowWordWrap: true
-
+  adjustY: -10
+  adjustWidth: -50
 - path: Canvas/PopRoot/AchievementMenu/Scroll View/Viewport/Content/AchievementItem(Clone)/Name
   sampleText: Entering the Jianghu
   idealFontSize: 26
@@ -103,7 +88,6 @@
   sampleText: 'Unlock Talent:'
   idealFontSize: 26
   allowWordWrap: true
-
 - path: Canvas/ToolTip/ToolTipRoot/Image/Title
   sampleText: Entering the Jianghu
   idealFontSize: 26
@@ -116,16 +100,12 @@
   sampleText: 解锁天赋：  无
   idealFontSize: 26
   allowWordWrap: true
-
-# Save game
 - path: Canvas/PopRoot/LoadMenu/MainPanel/Text (TMP)
   sampleText: Load save game
   idealFontSize: 34
-  adjustWidth: 50
-  adjustY: -10
   allowWordWrap: true
-
-# New Character
+  adjustY: -10
+  adjustWidth: 50
 - path: Canvas/PopRoot/CreateMenu/HeroBox/RedPointToggle/Text (TMP)
   sampleText: Red dot indicator
   idealFontSize: 30
@@ -134,13 +114,12 @@
   sampleText: Close Strategy Guide
   idealFontSize: 30
   allowWordWrap: true
-
 - path: Canvas/PopRoot/CreateMenu/HeroBox/HeroName
   sampleText: Wang
   idealFontSize: 120
-  adjustWidth: 300
-  adjustX: 100
   allowWordWrap: true
+  adjustX: 100
+  adjustWidth: 300
 - path: Canvas/PopRoot/CreateMenu/HeroBox/TotalPoint
   sampleText: Total Points
   idealFontSize: 26
@@ -152,8 +131,8 @@
 - path: Canvas/PopRoot/CreateMenu/HeroBox/Radar/NameContainer/Text (TMP)*
   sampleText: Resilience
   idealFontSize: 26
-  adjustWidth: 100
   allowWordWrap: true
+  adjustWidth: 100
 - path: Canvas/PopRoot/CreateMenu/HeroBox/Radar/ValueContainer/*
   sampleText: 21
   idealFontSize: 26
@@ -161,19 +140,18 @@
 - path: Canvas/PopRoot/CreateMenu/HeroBox/Scroll View/Viewport/Talents/Talent*/name
   sampleText: Love is stronger than steel
   idealFontSize: 20
-  adjustY: -16
   allowWordWrap: true
-
+  adjustY: -16
 - path: Canvas/PopRoot/CreateMenu/Bg/Text (TMP)
   sampleText: Create
   idealFontSize: 34
-  adjustWidth: -50
   adjustY: -10
+  adjustWidth: -50
 - path: Canvas/PopRoot/CreateMenu/HeroBox/TalentTitleText_1/CountText_1
   sampleText: 6/6
   idealFontSize: 28
-  adjustX: 50
   allowWordWrap: true
+  adjustX: 50
 - path: Canvas/PopRoot/CreateMenu/HeroBox/TalentTitleText_1
   sampleText: 'Optional Talents:'
   idealFontSize: 28
@@ -185,9 +163,8 @@
 - path: Canvas/PopRoot/CreateMenu/Talent/CountText
   sampleText: 3/6
   idealFontSize: 28
-  adjustX: 50
   allowWordWrap: true
-
+  adjustX: 50
 - path: Canvas/PopRoot/CreateMenu/Talent/Talents/Scroll View/Viewport/Items/TalentSelectItem(Clone)/Name
   sampleText: Love is stronger than steel
   idealFontSize: 24
@@ -200,50 +177,44 @@
 - path: Canvas/PopRoot/CreateMenu/Talent/MainPanel/Box/Text (TMP)
   sampleText: Talent
   idealFontSize: 34
-  adjustWidth: -50
-  adjustX: 14
   allowWordWrap: true
-
-# Difficulty
+  adjustX: 14
+  adjustWidth: -50
 - path: Canvas/PopRoot/CreateMenu/Point/MainPanel/Box/Text (TMP)
   sampleText: Difficulty
   idealFontSize: 30
-  adjustWidth: -50
-  adjustX: 14
   allowWordWrap: true
+  adjustX: 14
+  adjustWidth: -50
 - path: Canvas/PopRoot/CreateMenu/Point/Point/Scroll View/Viewport/Items/PointItem(Clone)/Name
   sampleText: Path of cultivation choice
   idealFontSize: 22
-  adjustWidth: 70
-  adjustX: 20
   allowWordWrap: true
+  adjustX: 20
+  adjustWidth: 70
 - path: Canvas/PopRoot/CreateMenu/Point/ChooseDiff/*/Text (TMP)
   sampleText: Easy
   idealFontSize: 24
-  adjustWidth: 20
   allowWordWrap: true
-
-# Main screen
+  adjustWidth: 20
 - path: Canvas/MainRoot/MainMenu/MainControls/HeroInfo/HeroInfo/Money
   sampleText: 500wen
   idealFontSize: 26
-  adjustY: -8
   allowWordWrap: true
+  adjustY: -8
 - path: Canvas/MainRoot/MainMenu/MainControls/HeroInfo/HeroInfo/Name
   sampleText: Wang Xiaoxiong·Jianghu
-  adjustWidth: -10
-  adjustX: -20
-  adjustY: 4
   idealFontSize: 26
   allowWordWrap: true
-
-# Relationship
+  adjustX: -20
+  adjustY: 4
+  adjustWidth: -10
 - path: Canvas/PopRoot/RelationMenu/MainPanel/Box/Text (TMP)
   sampleText: Relationship
   idealFontSize: 26
-  adjustWidth: -20
-  adjustX: 10
   allowWordWrap: true
+  adjustX: 10
+  adjustWidth: -20
 - path: Canvas/PopRoot/RelationMenu/Relation/Group/Scroll View/Viewport/Content/RelationItem(Clone)/Name
   sampleText: Six Doors of Jingxiang
   idealFontSize: 24
@@ -256,27 +227,21 @@
   sampleText: Demon Lord Line
   idealFontSize: 24
   allowWordWrap: true
-  
-#Main
 - path: Canvas/MainRoot/MainMenu/MainControls/Position/PositionGrid/Button*/Text (TMP)
   sampleText: Ruined temple
   idealFontSize: 18
-  adjustWidth: 100
   allowWordWrap: true
+  adjustWidth: 100
 - path: Canvas/MainRoot/MainMenu/MainControls/Dialog/*/Hero/NameBg/Layout/Name
   sampleText: Wang Xiaoxiong
   idealFontSize: 26
-  adjustWidth: 50
   allowWordWrap: true
+  adjustWidth: 50
 - path: Canvas/MainRoot/MainMenu/MainControls/Dialog/*/Hero/NameBg/Layout/Title
   sampleText: Draw sword as Heaven, Earth, and Man
   idealFontSize: 26
-  adjustWidth: 50
   allowWordWrap: true
-
-
-
-# Skill aquired
+  adjustWidth: 50
 - path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/Text_1/Text (TMP)
   sampleText: 新功法获得！
   idealFontSize: 30
@@ -288,8 +253,8 @@
 - path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/SkillItem/SubType/SubTypeName
   sampleText: Stunt
   idealFontSize: 10
-  adjustWidth: 25
   allowWordWrap: true
+  adjustWidth: 25
 - path: Canvas/ToolTip/ToolTipRoot/Image/content
   sampleText: >
     Automatically releases 【Jianghu】【Stunt】
@@ -313,16 +278,14 @@
 - path: Canvas/PopRoot/ResultLogMenu/MainPanel/Box/Text (TMP)
   sampleText: Event Log
   idealFontSize: 26
-  adjustWidth: -20
-  adjustX: 10
   allowWordWrap: true
-
-# Battle
+  adjustX: 10
+  adjustWidth: -20
 - path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/CardGo/CardNameImg/CardName
   sampleText: Wudang Disciples
   idealFontSize: 18
-  adjustWidth: 100
   allowWordWrap: true
+  adjustWidth: 100
 - path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/Skills*/SkillButton*/Text (TMP)
   sampleText: Nurturing Internal Alchemy
   idealFontSize: 15
@@ -334,21 +297,19 @@
 - path: Canvas/MainRoot/BattleMenu/HeroCards/HeroCard*/CardGo/Powerbg/Power
   sampleText: 1.26K
   idealFontSize: 14
-  adjustWidth: 40
-  adjustY: 40
   allowWordWrap: true
+  adjustY: 40
+  adjustWidth: 40
 - path: Canvas/MainRoot/BattleMenu/MonsterStatus/Name_1
   sampleText: 气血
   idealFontSize: 28.8
   allowWordWrap: true
-
-# Rumor
 - path: Canvas/PopRoot/NewsMenu/MainPanel/Box/Text (TMP)
   sampleText: Rumor
   idealFontSize: 40
-  adjustWidth: -20
-  adjustX: 8
   allowWordWrap: true
+  adjustX: 8
+  adjustWidth: -20
 - path: Canvas/PopRoot/NewsMenu/News/Scroll View/Viewport/Content/NewsItem(Clone)/Image/Text (TMP)
   sampleText: Personal handwritten notes
   fontPercentage: 0.6
@@ -357,19 +318,15 @@
   sampleText: By the second year, the sect must establish a solid foundation. Only in the third year, after venturing out to travel and explore, will one be able to calmly face various challenges.
   fontPercentage: 0.6
   allowWordWrap: true
-
-# New Card
 - path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/HeroObj/HeroItem/BgImg/CardNameImg/CardName
   sampleText: Wudang Disciples
   idealFontSize: 18
-  adjustWidth: 100
   allowWordWrap: true
+  adjustWidth: 100
 - path: Canvas/MainRoot/MainMenu/MainControls/Result/NewCardQueue/NewCard/CardObj/HeroObj/HeroItem/HeroName
   sampleText: Wudang Disciples·Sun Xuanji
   idealFontSize: 18
   allowWordWrap: true
- 
-#Menu
 - path: Canvas/PopRoot/HeroMenu/MainPanel/TeamProperty/*/Text (TMP)_1
   sampleText: 7020
   idealFontSize: 20
@@ -381,18 +338,18 @@
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/BgImg/CardNameImg/CardName
   sampleText: Up and Coming Storm Star
   idealFontSize: 18
-  adjustWidth: 70
   allowWordWrap: true
+  adjustWidth: 70
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/HeroName
   sampleText: Wang Xiaoxiong
   idealFontSize: 18
-  adjustWidth: 70
   allowWordWrap: true
+  adjustWidth: 70
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Skill/SkillBtns/SkillItem*/Name
   sampleText: Grandmaster Long Fist
   idealFontSize: 16
-  adjustWidth: -20
   allowWordWrap: true
+  adjustWidth: -20
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Skill/SkillBtns/SkillItem*/SubType/SubTypeName
   sampleText: Punch and kick
   idealFontSize: 12
@@ -404,31 +361,29 @@
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/Button/Text (TMP)
   sampleText: Details
   idealFontSize: 16
-  adjustWidth: 10
   allowWordWrap: true
+  adjustWidth: 10
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/BackImg*/*/*
   sampleText: 5720
   idealFontSize: 16
-  adjustX: 10
   allowWordWrap: true
+  adjustX: 10
 - path: Canvas/PopRoot/HeroMenu/MainPanel/HeroCards/*/Hero*/HeroItem(Clone)/Property/BackImg*/*
   sampleText: Lifeforce
   idealFontSize: 16
-  adjustWidth: 60
-  adjustX: 10
   allowWordWrap: true
-
-# Details
+  adjustX: 10
+  adjustWidth: 60
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Radar/NameContainer/Text (TMP)*
   sampleText: Potential
   idealFontSize: 24
-  adjustWidth: 40
   allowWordWrap: true
+  adjustWidth: 40
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Radar/ValueContainer/Text (TMP)*
   sampleText: 45
   idealFontSize: 24
-  adjustWidth: 40
   allowWordWrap: true
+  adjustWidth: 40
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Hero/Jiyi/*/Text (TMP)*
   sampleText: Variety ArtsBeginner
   idealFontSize: 12
@@ -436,135 +391,132 @@
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/Name
   sampleText: Wang Xiaoxiong
   idealFontSize: 40
-  adjustY: -100
   allowWordWrap: true
+  adjustY: -100
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/CardName
   sampleText: Up‑and‑Coming Storm Star
   idealFontSize: 40
-  adjustY: -100
   allowWordWrap: true
+  adjustY: -100
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Talents/Text (TMP)*
   sampleText: Loyalty and righteousness both upheld
   idealFontSize: 24
-  adjustWidth: 100
   allowWordWrap: true
+  adjustWidth: 100
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Bg/Text (TMP)
   sampleText: Wuxia Hall of Fame
   idealFontSize: 20
-  adjustWidth: 10
   allowWordWrap: true
+  adjustWidth: 10
 - path: Canvas/PopRoot/HeroMenu/HeroSelect/HeroBox/Details/Sc/Title
   sampleText: Wudang Disciples
   idealFontSize: 40
-  adjustY: -100
   allowWordWrap: true
-
-# Scroll
+  adjustY: -100
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/Title
   sampleText: Fundamentals
   idealFontSize: 24
+  allowWordWrap: true
   adjustX: 60
   adjustWidth: 120
-  allowWordWrap: true
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1/Text (TMP) (1)
   sampleText: Potential46
   idealFontSize: 20
-  adjustWidth: 110
-  adjustX: 10
   allowWordWrap: true
+  adjustX: 10
+  adjustWidth: 110
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_1/Text (TMP) (1)
   sampleText: Resilience25
   idealFontSize: 20
-  adjustWidth: 110
-  adjustY: -30
-  adjustX: -25
   allowWordWrap: true
+  adjustX: -25
+  adjustY: -30
+  adjustWidth: 110
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_2/Text (TMP) (1)
   sampleText: Resilience25
   idealFontSize: 20
-  adjustWidth: 110
-  adjustY: -60
-  adjustX: -60
   allowWordWrap: true
+  adjustX: -60
+  adjustY: -60
+  adjustWidth: 110
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_3/Text (TMP) (1)
   sampleText: Resilience25
   idealFontSize: 20
-  adjustWidth: 110
-  adjustY: -90
-  adjustX: -95
   allowWordWrap: true
+  adjustX: -95
+  adjustY: -90
+  adjustWidth: 110
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_4/Text (TMP) (1)
   sampleText: Resilience25
   idealFontSize: 20
-  adjustWidth: 110
-  adjustY: -120
-  adjustX: -130
   allowWordWrap: true
+  adjustX: -130
+  adjustY: -120
+  adjustWidth: 110
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Propertys/PropertyInfos/1_5/Text (TMP) (1)
   sampleText: Resilience25
   idealFontSize: 20
-  adjustWidth: 100
-  adjustY: -150
-  adjustX: -170
   allowWordWrap: true
-
-# Infos
+  adjustX: -170
+  adjustY: -150
+  adjustWidth: 100
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Title
   sampleText: Information
   idealFontSize: 24
-  adjustWidth: 115
   allowWordWrap: true
+  adjustWidth: 115
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/1/Text (TMP) (1)
   sampleText: Contribution5
   idealFontSize: 20
-  adjustWidth: 140
-  adjustX: -40
   allowWordWrap: true
+  adjustX: -40
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/2/Text (TMP) (1)
   sampleText: Contribution5
   idealFontSize: 20
-  adjustWidth: 140
-  adjustY: -30
-  adjustX: -75
   allowWordWrap: true
+  adjustX: -75
+  adjustY: -30
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/3/Text (TMP) (1)
   sampleText: Morality9
   idealFontSize: 20
-  adjustWidth: 140
-  adjustY: -60
-  adjustX: -110
   allowWordWrap: true
+  adjustX: -110
+  adjustY: -60
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/4/Text (TMP) (1)
   sampleText: Morality9
   idealFontSize: 20
-  adjustWidth: 140
-  adjustY: -90
-  adjustX: -145
   allowWordWrap: true
+  adjustX: -145
+  adjustY: -90
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/5/Text (TMP) (1)
   sampleText: Morality9
   idealFontSize: 20
-  adjustWidth: 140
-  adjustY: -120
-  adjustX: -180
   allowWordWrap: true
+  adjustX: -180
+  adjustY: -120
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Infos/Infos/6/Text (TMP) (1)
   sampleText: Morality9
   idealFontSize: 20
-  adjustWidth: 140
-  adjustY: -150
-  adjustX: -220
   allowWordWrap: true
-
-
+  adjustX: -220
+  adjustY: -150
+  adjustWidth: 140
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Title
   sampleText: Skill
   idealFontSize: 24
-  adjustWidth: 20
-  adjustX: 100
   allowWordWrap: true
+  adjustX: 100
+  adjustWidth: 20
 - path: Canvas/MainRoot/MainMenu/MainControls/Property/PropertyParent/Skills/Scroll View/Viewport/SkillInfos/*/Text (TMP) (1)
   sampleText: Variety ArtsBeginner
   idealFontSize: 20
   allowWordWrap: true
-
+- path: Canvas/MainRoot/StartMenu/Buttons/LoadGame/Text (TMP)
+  sampleText: Wuxia Journey Resumes
+  idealFontSize: 38.4
+  allowWordWrap: true

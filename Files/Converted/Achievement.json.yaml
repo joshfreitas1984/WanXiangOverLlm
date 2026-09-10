@@ -192,43 +192,56 @@
   splits:
   - splitPath: Name
     text: "林鸟归群"
+    translated: "Birds return to the flock"
   - splitPath: Desc
     text: "第三年时随同唐宝将一众唐门高手尽数带回唐门"
+    translated: "In the third year, along with Tang Bao, all of the Tang Clan's top experts were brought back to the Tang Clan."
 - raw: "{\r\n    \"Key\": \"109\",\r\n    \"Name\": \"不倒仙翁\",\r\n    \"Desc\": \"唐纵加入\",\r\n    \"NameTw\": \"不倒仙翁\",\r\n    \"DescTw\": \"唐縱加入\"\r\n  }"
   rawIndex: 109
   splits:
   - splitPath: Name
     text: "不倒仙翁"
+    translated: "Eternal Immortal"
   - splitPath: Desc
     text: "唐纵加入"
+    translated: "Tang Zong joined in"
 - raw: "{\r\n    \"Key\": \"106\",\r\n    \"Name\": \"六士同心\",\r\n    \"Desc\": \"唐安、唐影、唐觉、唐矩、唐墨、唐醉加入\",\r\n    \"NameTw\": \"六士同心\",\r\n    \"DescTw\": \"唐安、唐影、唐覺、唐矩、唐墨、唐醉加入\"\r\n  }"
   rawIndex: 106
   splits:
   - splitPath: Name
     text: "六士同心"
+    translated: "Six warriors of one heart"
   - splitPath: Desc
     text: "唐安、唐影、唐觉、唐矩、唐墨、唐醉加入"
+    translated: "Tang An, Tang Ying, Tang Jue, Tang Ju, Tang Mo, Tang Zui join"
 - raw: "{\r\n    \"Key\": \"107\",\r\n    \"Name\": \"三劫并化\",\r\n    \"Desc\": \"唐傲、唐冷、唐隐加入\",\r\n    \"NameTw\": \"三劫並化\",\r\n    \"DescTw\": \"唐傲、唐冷、唐隱加入\"\r\n  }"
   rawIndex: 107
   splits:
   - splitPath: Name
     text: "三劫并化"
+    translated: "Three calamities converge and transform"
   - splitPath: Desc
     text: "唐傲、唐冷、唐隐加入"
+    translated: "Tang Aoe, Tang Leng, and Tang Yin join in."
 - raw: "{\r\n    \"Key\": \"108\",\r\n    \"Name\": \"石破天惊\",\r\n    \"Desc\": \"“石破天惊”唐宝解锁\",\r\n    \"NameTw\": \"石破天驚\",\r\n    \"DescTw\": \"“石破天驚”唐寶解鎖\"\r\n  }"
   rawIndex: 108
   splits:
   - splitPath: Name
     text: "石破天惊"
+    translated: "Startling like a stone breaking through the sky"
   - splitPath: Desc
     text: "“石破天惊”唐宝解锁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "{\r\n    \"Key\": \"113\",\r\n    \"Name\": \"唐门传奇\",\r\n    \"Desc\": \"拜师唐门战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"唐門傳奇\",\r\n    \"DescTw\": \"拜師唐門戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 113
   splits:
   - splitPath: Name
     text: "唐门传奇"
+    translated: "Tang Clan Legend"
   - splitPath: Desc
     text: "拜师唐门战胜“魔侯”任苍溟"
+    translated: "Apprentice under the Tang Clan to Defeat the  “Demon Lord”  Ren Cangming"
 - raw: "{\r\n    \"Key\": \"71\",\r\n    \"Name\": \"商山四皓\",\r\n    \"Desc\": \"战胜宁王府高手“商山四皓”\",\r\n    \"NameTw\": \"商山四皓\",\r\n    \"DescTw\": \"戰勝寧王府高手“商山四皓”\"\r\n  }"
   rawIndex: 71
   splits:
@@ -459,57 +472,73 @@
   splits:
   - splitPath: Name
     text: "桃之夭夭"
+    translated: "Flourishing like a blooming peach blossom"
   - splitPath: Desc
     text: "“无影飞刀”唐幺幺解锁红颜"
+    translated: "“Flickering Blade”  Tang Yaoya unlocked Red‑Haired Beauty"
 - raw: "{\r\n    \"Key\": \"114\",\r\n    \"Name\": \"秀外慧中\",\r\n    \"Desc\": \"“神机百巧”诸葛慧解锁红颜\",\r\n    \"NameTw\": \"秀外慧中\",\r\n    \"DescTw\": \"“神機百巧”諸葛慧解鎖紅顏\"\r\n  }"
   rawIndex: 114
   splits:
   - splitPath: Name
     text: "秀外慧中"
+    translated: "Beautiful on the outside and wise on the inside"
   - splitPath: Desc
     text: "“神机百巧”诸葛慧解锁红颜"
+    translated: "“Godwit's Thousand Tricks”  is unlocked: Zhuo Ge Hu unlocks Red Beauty"
 - raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"芽苞初放\",\r\n    \"Desc\": \"“姜辣子”姜芽解锁红颜\",\r\n    \"NameTw\": \"芽苞初放\",\r\n    \"DescTw\": \"“薑辣子”姜芽解鎖紅顏\"\r\n  }"
   rawIndex: 116
   splits:
   - splitPath: Name
     text: "芽苞初放"
+    translated: "Buds Just Beginning to Bloom"
   - splitPath: Desc
     text: "“姜辣子”姜芽解锁红颜"
+    translated: "“Sichuan Pepper”  Jiaya Unlocks Hongyan"
 - raw: "{\r\n    \"Key\": \"117\",\r\n    \"Name\": \"云裳月容\",\r\n    \"Desc\": \"“青莲映月”李云裳解锁红颜\",\r\n    \"NameTw\": \"雲裳月容\",\r\n    \"DescTw\": \"“青蓮映月”李雲裳解鎖紅顏\"\r\n  }"
   rawIndex: 117
   splits:
   - splitPath: Name
     text: "云裳月容"
+    translated: "Cloud Dress and Moon Face"
   - splitPath: Desc
     text: "“青莲映月”李云裳解锁红颜"
+    translated: "“Lotus Moonlight”  Li Yunsang Unlocks Fair Lady"
 - raw: "{\r\n    \"Key\": \"118\",\r\n    \"Name\": \"雪雁凌空\",\r\n    \"Desc\": \"“云峰雁首”萧雪雁解锁红颜\",\r\n    \"NameTw\": \"雪雁凌空\",\r\n    \"DescTw\": \"“雲峰雁首”蕭雪雁解鎖紅顏\"\r\n  }"
   rawIndex: 118
   splits:
   - splitPath: Name
     text: "雪雁凌空"
+    translated: "Snow Crane Soars Through the Air"
   - splitPath: Desc
     text: "“云峰雁首”萧雪雁解锁红颜"
+    translated: "“Plum Peak Wild Goose Leader”  Xiao Xueyan unlocks Red Beauty"
 - raw: "{\r\n    \"Key\": \"119\",\r\n    \"Name\": \"鸬鹚戏水\",\r\n    \"Desc\": \"“烟渚鸬魁”沈青鸬解锁红颜\",\r\n    \"NameTw\": \"鸕鶿戲水\",\r\n    \"DescTw\": \"“煙渚鸕魁”沈青鸕解鎖紅顏\"\r\n  }"
   rawIndex: 119
   splits:
   - splitPath: Name
     text: "鸬鹚戏水"
+    translated: "The cormorant plays in the water"
   - splitPath: Desc
     text: "“烟渚鸬魁”沈青鸬解锁红颜"
+    translated: "“Smoke‑Whitened Heron Hunter”  unlocked: Crimson Beauty"
 - raw: "{\r\n    \"Key\": \"120\",\r\n    \"Name\": \"云雨巫山\",\r\n    \"Desc\": \"“巫山神女”巫云凤解锁红颜\",\r\n    \"NameTw\": \"雲雨巫山\",\r\n    \"DescTw\": \"“巫山神女”巫雲鳳解鎖紅顏\"\r\n  }"
   rawIndex: 120
   splits:
   - splitPath: Name
     text: "云雨巫山"
+    translated: "The rain in the cloud‑covered mountains of Wu Shan"
   - splitPath: Desc
     text: "“巫山神女”巫云凤解锁红颜"
+    translated: "“Wu Mountain Goddess”  Wu Yunkong unlocks Red‑Skirted Beauty"
 - raw: "{\r\n    \"Key\": \"123\",\r\n    \"Name\": \"灵蝶翩翩\",\r\n    \"Desc\": \"“紫萤蝶”蚩萤解锁红颜\",\r\n    \"NameTw\": \"靈蝶翩翩\",\r\n    \"DescTw\": \"“紫螢蝶”蚩螢解鎖紅顏\"\r\n  }"
   rawIndex: 123
   splits:
   - splitPath: Name
     text: "灵蝶翩翩"
+    translated: "Fairy Butterfly Flutters gracefuly"
   - splitPath: Desc
     text: "“紫萤蝶”蚩萤解锁红颜"
+    translated: "“Purple glow butterfly”  Chi Ying unlocked red‑haired beauty"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"香衾成行\",\r\n    \"Desc\": \"在一局游戏中解锁门派专属红颜外的全部十六位红颜\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"DescTw\": \"在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏\"\r\n  }"
   rawIndex: 99
   splits:
@@ -706,8 +735,15 @@
     text: "将军百战"
     translated: "General has fought a hundred battles"
   - splitPath: Desc
-    text: "通过五场【闲话江湖-将军百战】挑战"
+    text: "通过五场【闲话江湖"
     translated: "Through five challenges of 'Chattel about the Jianghu ‑ A General Through Many Battles'"
+  - splitPath: Desc
+    subIndex: 1
+    text: "将军百战】挑战"
+    translated: "General having seen much battle challenges"
+  templates:
+  - splitPath: Desc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"62\",\r\n    \"Name\": \"空谷无心\",\r\n    \"Desc\": \"通过十六场无心谷心魔挑战\",\r\n    \"NameTw\": \"空谷無心\",\r\n    \"DescTw\": \"通過十六場無心谷心魔挑戰\"\r\n  }"
   rawIndex: 62
   splits:
@@ -724,8 +760,15 @@
     text: "四时迭运"
     translated: "Four seasons alternate"
   - splitPath: Desc
-    text: "通过四场【闲话江湖-四时迭运】挑战"
+    text: "通过四场【闲话江湖"
     translated: "Complete four  【Jianghu ‑ Seasons Change】  challenges"
+  - splitPath: Desc
+    subIndex: 1
+    text: "四时迭运】挑战"
+    translated: "Four Seasons Change Challenge"
+  templates:
+  - splitPath: Desc
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"寿比南山\",\r\n    \"Desc\": \"万寿帮友好到达100\",\r\n    \"NameTw\": \"壽比南山\",\r\n    \"DescTw\": \"萬壽幫友好到達100\"\r\n  }"
   rawIndex: 14
   splits:
@@ -848,29 +891,45 @@
   splits:
   - splitPath: Name
     text: "鞠躬尽瘁"
+    translated: "Devote oneself entirely"
   - splitPath: Desc
     text: "武侯祠友好到达100"
+    translated: "Wuhou Ci reached 100"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "friendship reached,友好到达,friendship reached,友好到达,"
 - raw: "{\r\n    \"Key\": \"121\",\r\n    \"Name\": \"云朝暮雨\",\r\n    \"Desc\": \"神女宫友好到达100\",\r\n    \"NameTw\": \"雲朝暮雨\",\r\n    \"DescTw\": \"神女宮友好到達100\"\r\n  }"
   rawIndex: 121
   splits:
   - splitPath: Name
     text: "云朝暮雨"
+    translated: "Morning Rain Evening Cloud"
   - splitPath: Desc
     text: "神女宫友好到达100"
+    translated: "Goddess palace reached 100"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "friendship reached,友好到达,friendship reached,友好到达,"
 - raw: "{\r\n    \"Key\": \"122\",\r\n    \"Name\": \"川蜀侠少\",\r\n    \"Desc\": \"川蜀六扇门友好到达100\",\r\n    \"NameTw\": \"川蜀俠少\",\r\n    \"DescTw\": \"川蜀六扇門友好到達100\"\r\n  }"
   rawIndex: 122
   splits:
   - splitPath: Name
     text: "川蜀侠少"
+    translated: "Sichuan Wuxia Youth"
   - splitPath: Desc
     text: "川蜀六扇门友好到达100"
+    translated: "Six Doors reached friendship with 100"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "friendship reached,友好到达,friendship reached,友好到达,"
 - raw: "{\r\n    \"Key\": \"124\",\r\n    \"Name\": \"蚩黎遗裔\",\r\n    \"Desc\": \"蚩黎峒友好到达100\",\r\n    \"NameTw\": \"蚩黎遺裔\",\r\n    \"DescTw\": \"蚩黎峒友好到達100\"\r\n  }"
   rawIndex: 124
   splits:
   - splitPath: Name
     text: "蚩黎遗裔"
+    translated: "Descendant of Chi Li"
   - splitPath: Desc
     text: "蚩黎峒友好到达100"
+    translated: "Chili Dung reached 100 in a friendly manner."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "friendship reached,友好到达,friendship reached,友好到达,"
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"以身相许\",\r\n    \"Desc\": \"与一名红颜知己结缘\",\r\n    \"NameTw\": \"以身相許\",\r\n    \"DescTw\": \"與一名紅顏知己結緣\"\r\n  }"
   rawIndex: 31
   splits:
@@ -1029,12 +1088,16 @@
   splits:
   - splitPath: Name
     text: "五毒俱全"
+    translated: "All five poisons are present"
   - splitPath: Desc
     text: "毒数到达宗师"
+    translated: "Poison techniques have reached the Master level"
 - raw: "{\r\n    \"Key\": \"112\",\r\n    \"Name\": \"鬼斧神工\",\r\n    \"Desc\": \"匠造到达宗师\",\r\n    \"NameTw\": \"鬼斧神工\",\r\n    \"DescTw\": \"匠造到達宗師\"\r\n  }"
   rawIndex: 112
   splits:
   - splitPath: Name
     text: "鬼斧神工"
+    translated: "Masterpiece"
   - splitPath: Desc
     text: "匠造到达宗师"
+    translated: "Craftsmanship reached master level"

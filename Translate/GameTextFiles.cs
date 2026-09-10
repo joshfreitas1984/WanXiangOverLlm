@@ -1,4 +1,6 @@
-﻿namespace Translate;
+﻿using FanslationStudio.LlmKit.Support;
+
+namespace Translate;
 
 public class GameTextFiles
 {

@@ -7,6 +7,15 @@
     text: "技艺结局"
   - splitPath: Desc
     text: "医术达到宗师解锁"
+- raw: "{\r\n    \"Key\": \"901002\",\r\n    \"Name\": \"毒术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"毒术达到宗师解锁\",\r\n    \"NameTw\": \"毒術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"毒術達到宗師解鎖\"\r\n  }"
+  rawIndex: 901002
+  splits:
+  - splitPath: Name
+    text: "毒术宗师"
+  - splitPath: TypeText
+    text: "技艺结局"
+  - splitPath: Desc
+    text: "毒术达到宗师解锁"
 - raw: "{\r\n    \"Key\": \"901003\",\r\n    \"Name\": \"术数宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"术数达到宗师解锁\",\r\n    \"NameTw\": \"術數宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"術數達到宗師解鎖\"\r\n  }"
   rawIndex: 901003
   splits:
@@ -97,6 +106,15 @@
     text: "技艺结局"
   - splitPath: Desc
     text: "丹术达到宗师解锁"
+- raw: "{\r\n    \"Key\": \"901021\",\r\n    \"Name\": \"匠造宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"匠造达到宗师解锁\",\r\n    \"NameTw\": \"匠造宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"匠造達到宗師解鎖\"\r\n  }"
+  rawIndex: 901021
+  splits:
+  - splitPath: Name
+    text: "匠造宗师"
+  - splitPath: TypeText
+    text: "技艺结局"
+  - splitPath: Desc
+    text: "匠造达到宗师解锁"
 - raw: "{\r\n    \"Key\": \"0\",\r\n    \"Name\": \"杨芸结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜杨芸后解锁\",\r\n    \"NameTw\": \"楊芸結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏楊芸後解鎖\"\r\n  }"
   rawIndex: 0
   splits:
@@ -124,6 +142,15 @@
     text: "红颜结局"
   - splitPath: Desc
     text: "获得红颜钟离雪后解锁"
+- raw: "{\r\n    \"Key\": \"24\",\r\n    \"Name\": \"唐幺幺结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜唐幺幺后解锁\",\r\n    \"NameTw\": \"唐么么結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏唐么么後解鎖\"\r\n  }"
+  rawIndex: 24
+  splits:
+  - splitPath: Name
+    text: "唐幺幺结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得红颜唐幺幺后解锁"
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"项欺霜结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜项欺霜后解锁\",\r\n    \"NameTw\": \"項欺霜結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏項欺霜後解鎖\"\r\n  }"
   rawIndex: 1
   splits:
@@ -421,6 +448,78 @@
     text: "红颜结局"
   - splitPath: Desc
     text: "获得邵轻虹红颜后解锁"
+- raw: "{\r\n    \"Key\": \"25\",\r\n    \"Name\": \"诸葛慧结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得诸葛慧红颜后解锁\",\r\n    \"NameTw\": \"諸葛慧結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得諸葛慧紅顏後解鎖\"\r\n  }"
+  rawIndex: 25
+  splits:
+  - splitPath: Name
+    text: "诸葛慧结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得诸葛慧红颜后解锁"
+- raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"姜芽结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得姜芽红颜后解锁\",\r\n    \"NameTw\": \"姜芽結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得姜芽紅顏後解鎖\"\r\n  }"
+  rawIndex: 26
+  splits:
+  - splitPath: Name
+    text: "姜芽结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得姜芽红颜后解锁"
+- raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"李云裳结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得李云裳红颜后解锁\",\r\n    \"NameTw\": \"李雲裳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得李雲裳紅顏後解鎖\"\r\n  }"
+  rawIndex: 27
+  splits:
+  - splitPath: Name
+    text: "李云裳结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得李云裳红颜后解锁"
+- raw: "{\r\n    \"Key\": \"28\",\r\n    \"Name\": \"巫云凤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得巫云凤红颜后解锁\",\r\n    \"NameTw\": \"巫雲鳳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得巫雲鳳紅顏後解鎖\"\r\n  }"
+  rawIndex: 28
+  splits:
+  - splitPath: Name
+    text: "巫云凤结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得巫云凤红颜后解锁"
+- raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"萧雪雁结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得萧雪雁红颜后解锁\",\r\n    \"NameTw\": \"蕭雪雁結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蕭雪雁紅顏後解鎖\"\r\n  }"
+  rawIndex: 29
+  splits:
+  - splitPath: Name
+    text: "萧雪雁结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得萧雪雁红颜后解锁"
+- raw: "{\r\n    \"Key\": \"30\",\r\n    \"Name\": \"沈青鸬结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得沈青鸬红颜后解锁\",\r\n    \"NameTw\": \"沈青鸕結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得沈青鸕紅顏後解鎖\"\r\n  }"
+  rawIndex: 30
+  splits:
+  - splitPath: Name
+    text: "沈青鸬结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得沈青鸬红颜后解锁"
+- raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"蚩萤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得蚩萤红颜后解锁\",\r\n    \"NameTw\": \"蚩螢結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蚩螢紅顏後解鎖\"\r\n  }"
+  rawIndex: 31
+  splits:
+  - splitPath: Name
+    text: "蚩萤结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得蚩萤红颜后解锁"
+- raw: "{\r\n    \"Key\": \"2801\",\r\n    \"Name\": \"神女宫结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈青鸬、萧雪雁、巫云凤后解锁\",\r\n    \"NameTw\": \"神女宮結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈青鸕、蕭雪雁、巫雲鳳後解鎖\"\r\n  }"
+  rawIndex: 2801
+  splits:
+  - splitPath: Name
+    text: "神女宫结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得红颜沈青鸬、萧雪雁、巫云凤后解锁"
 - raw: "{\r\n    \"Key\": \"700000\",\r\n    \"Name\": \"香衾成行\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"在一局游戏中，获得红颜项欺霜、阮碧青、左灵珠、晏蛾眉、靳红衣、连翘儿、柳含烟、文锦心、夏侯珺、萧令仪、艾琳娜、展青锋、风间爱、风间月、沈蓉蓉、薛如意后解锁。\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"在一局遊戲中，獲得紅顏項欺霜、阮碧青、左靈珠、晏蛾眉、靳紅衣、連翹兒、柳含煙、文錦心、夏侯珺、蕭令儀、艾琳娜、展青鋒、風間愛、風間月、沈蓉蓉、薛如意後解鎖。\"\r\n  }"
   rawIndex: 700000
   splits:
@@ -457,6 +556,15 @@
     text: "门派结局"
   - splitPath: Desc
     text: "选择洞庭帮，获得红颜钟离雪，未救援其余门派，完成魔侯线或宁王线结局解锁"
+- raw: "{\r\n    \"Key\": \"800400\",\r\n    \"Name\": \"唐门守护神\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁\",\r\n    \"NameTw\": \"唐門守護神\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇唐門，獲得紅顏唐么么，魔侯線中未救援其他門派，完成魔侯線結局解鎖\"\r\n  }"
+  rawIndex: 800400
+  splits:
+  - splitPath: Name
+    text: "唐门守护神"
+  - splitPath: TypeText
+    text: "门派结局"
+  - splitPath: Desc
+    text: "选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁"
 - raw: "{\r\n    \"Key\": \"800500\",\r\n    \"Name\": \"逍遥侯\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。\",\r\n    \"NameTw\": \"逍遙侯\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發寧王線，成功救援其餘二派，完成長樂坊考驗，擊敗寧王解鎖。\"\r\n  }"
   rawIndex: 800500
   splits:
@@ -554,5 +662,14 @@
     text: "感谢特辑"
   - splitPath: TypeText
     text: "感谢特辑"
+  - splitPath: Desc
+    text: "直接解锁"
+- raw: "{\r\n    \"Key\": \"100009\",\r\n    \"Name\": \"端午特辑\",\r\n    \"TypeText\": \"端午特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"端午特輯\",\r\n    \"TypeTextTw\": \"端午特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
+  rawIndex: 100009
+  splits:
+  - splitPath: Name
+    text: "端午特辑"
+  - splitPath: TypeText
+    text: "端午特辑"
   - splitPath: Desc
     text: "直接解锁"

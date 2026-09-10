@@ -1,5 +1,5 @@
-﻿using SharedAssembly.DynamicStrings;
-using System.Diagnostics.Contracts;
+﻿using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Workflow;
 using System.Text.RegularExpressions;
 using Translate;
 using Translate.Utility;
@@ -23,81 +23,26 @@ public class FileOutputHandling
         var passedCount = 0;
         var failedCount = 0;
 
-        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.PrefabText))
         {
-            if (textFileToTranslate.TextFileType == TextFileType.PrefabText)
-            {
-                var outputLines = new List<string>();
+            var (passed, failed) = await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile);
+            passedCount += passed;
+            failedCount += failed;
+            MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
-                foreach (var line in fileLines)
-                {
-                    foreach (var split in line.Splits)
-                        if (!split.FlaggedForRetranslation && !(string.IsNullOrEmpty(split.Translated)))
-                            outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
-                        else if (!split.SafeToTranslate)
-                            continue; // Do not count failure
-                        else
-                            failedCount++;
-                }
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.DynamicStrings))
+        {
+            var (passed, failed) = await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile);
+            passedCount += passed;
+            failedCount += failed;
+            MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
-                File.WriteAllLines($"{fileOutputPath}/{textFileToTranslate.Path}", outputLines);
-                return;
-            }
-            else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
-            {
-                var serializer = Yaml.CreateSerializer();
-                var contracts = new List<DynamicStringContract>();
+        var jsonFiles = GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.RawCsv).ToArray();
 
-                foreach (var line in fileLines)
-                {
-                    if (line.Splits.Count != 1)
-                    {
-                        failedCount++;
-                        continue;
-                    }
-
-                    // Do not package but dont count as failure
-                    if (!line.Splits[0].SafeToTranslate)
-                        continue;
-
-                    var lineRaw = line.Raw;
-                    var splits = lineRaw.Split(",");
-
-                    var lineTrans = line.Splits[0].Translated
-                        .Replace("，", ","); // Replace Wide quotes back
-
-                    if (splits.Length != 5
-                        || string.IsNullOrEmpty(lineTrans)
-                        || line.Splits[0].FlaggedForRetranslation)
-                    {
-                        failedCount++;
-                        continue;
-                    }
-
-                    string[] parameters = DynamicStringSupport.PrepareMethodParameters(splits[4]);
-
-                    var contract = new DynamicStringContract()
-                    {
-                        Type = splits[0],
-                        Method = splits[1],
-                        ILOffset = long.Parse(splits[2]),
-                        Raw = splits[3],
-                        Translation = lineTrans,
-                        Parameters = parameters
-                    };
-
-                    if (DynamicStringSupport.IsSafeContract(contract, false))
-                        contracts.Add(contract);
-                }
-
-                File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", serializer.Serialize(contracts));
-                passedCount += contracts.Count;
-
-                await Task.CompletedTask;
-                return;
-            }
-
-
+        await global::FileIteration.IterateTranslatedFilesAsync(workingDirectory, jsonFiles, async (outputFile, textFileToTranslate, fileLines) =>
+        {
             // Convert fileLines back into the original JSON array format
             var jsonArray = new List<Dictionary<string, object>>();
 
@@ -186,6 +131,19 @@ public class FileOutputHandling
 
         Console.WriteLine($"Passed: {passedCount}");
         Console.WriteLine($"Failed: {failedCount}");
+    }
+
+    /// <summary>
+    /// LlmKit's Prefab/DynamicStrings workflows always write their packaged output to
+    /// Mod/{path}.yaml. This repo's own convention (see FileOutputWorkflowTests/ZipRelease) copies
+    /// the whole Mod/English folder into the game's BepInEx/english folder, so the packaged file is
+    /// moved there under its original name (no ".yaml" suffix) to preserve that existing contract.
+    /// </summary>
+    private static void MoveLlmKitPackagedFileIntoEnglishFolder(string workingDirectory, string fileOutputPath, string path)
+    {
+        var source = $"{workingDirectory}/Mod/{path}.yaml";
+        if (File.Exists(source))
+            File.Move(source, $"{fileOutputPath}/{path}", true);
     }
 
     public static void CopyDirectory(string sourceDir, string destDir)

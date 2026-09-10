@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
+using FanslationStudio.LlmKit.Support;
 using Translate.Utility;
 
 namespace Translate;

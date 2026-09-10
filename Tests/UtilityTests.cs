@@ -1,6 +1,7 @@
 ﻿using SharedAssembly.DynamicStrings;
 using SweetPotato;
 using System.Text.RegularExpressions;
+using FanslationStudio.LlmKit.Support;
 using Translate.Utility;
 
 namespace Translate.Tests;

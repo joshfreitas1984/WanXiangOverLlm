@@ -1,4 +1,6 @@
 ﻿using System.Text.RegularExpressions;
+using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Workflow;
 using Translate.Utility;
 
 
@@ -124,13 +126,20 @@ public class InputFileHandling
 
     public static async Task MergeFilesIntoTranslatedAsync(string workingDirectory)
     {
-        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        var llmKitFiles = GameTextFiles.TextFilesToSplit
+            .Where(f => f.TextFileType is TextFileType.PrefabText or TextFileType.DynamicStrings)
+            .ToArray();
+
+        if (llmKitFiles.Length > 0)
+            await FanslationStudio.LlmKit.GameFileHandlingBase.MergeFilesIntoTranslatedAsync(workingDirectory, llmKitFiles);
+
+        var jsonFiles = GameTextFiles.TextFilesToSplit
+            .Where(f => f.TextFileType == TextFileType.RawCsv)
+            .ToArray();
+
+        await global::FileIteration.IterateTranslatedFilesAsync(workingDirectory, jsonFiles, async (outputFile, textFileToTranslate, fileLines) =>
         {
             var newCount = 0;
-
-            ////Disable for now since they should be same
-            //if (textFileToTranslate.TextFileType == TextFileType.RegularDb)
-            //    return;
 
             var deserializer = Yaml.CreateDeserializer();
             var exportFile = outputFile.Replace("Converted", "Raw/Export").Replace(".yaml", "");
@@ -138,54 +147,20 @@ public class InputFileHandling
 
             foreach (var line in exportLines)
             {
-                if (textFileToTranslate.TextFileType == TextFileType.RegularDb)
+                var found = fileLines.FirstOrDefault(x => x.RawIndex == line.RawIndex);
+                if (found != null)
                 {
-
-                    var found = fileLines.FirstOrDefault(x => x.RawIndex == line.RawIndex);
-                    if (found != null)
+                    foreach (var split in line.Splits)
                     {
-                        foreach (var split in line.Splits)
-                        {
-
-                            var found2 = found.Splits.FirstOrDefault(x => x.SplitPath == split.SplitPath);
-                            if (found2 != null)
-                                split.Translated = found2.Translated;
-                            else
-                                newCount++;
-
-                        }
-                    }
-                    else
-                        newCount++;
-                }
-                else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
-                {
-                    var found = fileLines.FirstOrDefault(x => x.Raw == line.Raw);
-                    if (found != null)
-                    {
-                        foreach (var split in line.Splits)
-                        {
-                            var found2 = found.Splits.FirstOrDefault(x => x.Text == split.Text);
-                            if (found2 != null)
-                                split.Translated = found2.Translated;
-                        }
-                    }
-                    else
-                    {
-                        // Try matching on split instead of line incase they changed line format
-                        foreach (var split in line.Splits)
-                        {
-                            var found2 = fileLines
-                                .Select(x => x.Splits.FirstOrDefault(s => s.Text == split.Text))
-                                .FirstOrDefault(s => s != null);
-
-                            if (found2 != null)
-                                split.Translated = found2.Translated;
-                            else
-                                newCount++;
-                        }
+                        var found2 = found.Splits.FirstOrDefault(x => x.SplitPath == split.SplitPath);
+                        if (found2 != null)
+                            split.Translated = found2.Translated;
+                        else
+                            newCount++;
                     }
                 }
+                else
+                    newCount++;
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");
@@ -200,116 +175,23 @@ public class InputFileHandling
         });
     }
 
+    /// <summary>
+    /// Delegates to <see cref="PrefabTextWorkflow.ExportPrefabTextToCustomFormat"/> for every
+    /// registered <see cref="TextFileType.PrefabText"/> entry. Currently a no-op - dumpedPrefabText.txt
+    /// is commented out in <see cref="GameTextFiles.TextFilesToSplit"/> pending confirmation that
+    /// EnglishPatch is ready to consume its packaged output (see
+    /// docs/plans/llmkit-migration-piece1-prefab-dynamicstrings.md).
+    /// </summary>
     public static void ExportDumpedPrefabToCustomFormat(string workingDirectory)
     {
-        string inputPath = $"{workingDirectory}/Raw/ExportedText";
-        string outputPath = $"{workingDirectory}/Raw/Export";
-
-        if (!Directory.Exists(outputPath))
-            Directory.CreateDirectory(outputPath);
-
-        var serializer = Yaml.CreateSerializer();
-        var pattern = LineValidation.ChineseCharPattern;
-
-        var dir = new DirectoryInfo(inputPath);
-        FileInfo[] files = dir.GetFiles();
-        foreach (FileInfo file in files)
-        {
-            var foundLines = new List<TranslationLine>();
-            var lines = File.ReadAllLines(file.FullName);
-            var lineIncrement = 0;
-
-            foreach (var line in lines)
-            {
-                lineIncrement++;
-                var splits = new string[] { line };
-                var foundSplits = new List<TranslationSplit>();
-
-                // Default to line number when it doesnt have line number in split
-                if (!long.TryParse(splits[0], out long lineNum))
-                    lineNum = lineIncrement;
-
-                // Find Chinese
-                for (int i = 0; i < splits.Length; i++)
-                {
-                    if (Regex.IsMatch(splits[i], pattern))
-                    {
-                        foundSplits.Add(new TranslationSplit()
-                        {
-                            Split = i,
-                            Text = splits[i],
-                        });
-                    }
-                }
-
-                //The translation line
-                foundLines.Add(new TranslationLine()
-                {
-                    //LineNum = lineNum,
-                    Raw = line,
-                    Splits = foundSplits,
-                });
-            }
-
-            // Write the found lines
-            var yaml = serializer.Serialize(foundLines);
-            File.WriteAllText($"{outputPath}/{file.Name}", yaml);
-        }
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.PrefabText))
+            PrefabTextWorkflow.ExportPrefabTextToCustomFormat(workingDirectory, textFile);
     }
 
     public static void ExportDynamicStringsToCustomFormat(string workingDirectory)
     {
-        string inputFile = $"{workingDirectory}/Raw/Dumped/dynamicStrings.txt";
-        string outputFile = $"{workingDirectory}/Raw/Export/dynamicStrings.txt";
-
-        var serializer = Yaml.CreateSerializer();
-        var pattern = LineValidation.ChineseCharPattern;
-
-        var foundLines = new List<TranslationLine>();
-        var lines = File.ReadAllLines(inputFile);
-        var lineIncrement = 0;
-
-        foreach (var line in lines)
-        {
-            lineIncrement++;
-            var splits = line.Split(",");
-            var foundSplits = new List<TranslationSplit>();
-
-            // Default to line number when it doesnt have line number in split
-            if (!long.TryParse(splits[0], out long lineNum))
-                lineNum = lineIncrement;
-
-            // Find Chinese
-            for (int i = 0; i < splits.Length; i++)
-            {
-                if (Regex.IsMatch(splits[i], pattern))
-                {
-                    var cleaned = splits[i];
-                    if (cleaned.StartsWith('\"'))
-                        cleaned = cleaned[1..];
-                    if (cleaned.EndsWith('\"'))
-                        cleaned = cleaned[..^1];
-
-                    foundSplits.Add(new TranslationSplit()
-                    {
-                        Split = i,
-                        Text = cleaned,
-                    });
-                }
-            }
-
-            //The translation line
-            foundLines.Add(new TranslationLine()
-            {
-                //LineNum = lineNum,
-                Raw = line,
-                Splits = foundSplits,
-            });
-        }
-
-        // Write the found lines
-        var yaml = serializer.Serialize(foundLines);
-        File.WriteAllText($"{outputFile}", yaml);
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.DynamicStrings))
+            DynamicStringsCecilWorkflow.ExportDynamicStringsToCustomFormat(workingDirectory, textFile);
     }
 
 }

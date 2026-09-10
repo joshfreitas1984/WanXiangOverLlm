@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SharedAssembly\SharedAssembly.csproj" />
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj" />
   </ItemGroup>
 
 </Project>

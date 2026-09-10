@@ -308,26 +308,26 @@
   splits:
   - splitPath: Desc
     text: "自动"
-- raw: "{\r\n    \"Key\": \"62\",\r\n    \"Desc\": \"<color=#00ff00>绿色及以上</color>\",\r\n    \"DescTw\": \"<color=#00ff00>綠色及以上</color>\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"62\",\r\n    \"Desc\": \"<color=#00ff00>绿色</color>\",\r\n    \"DescTw\": \"<color=#00ff00>綠色</color>\"\r\n  }"
   rawIndex: 62
   splits:
   - splitPath: Desc
-    text: "<color=#00ff00>绿色及以上</color>"
-- raw: "{\r\n    \"Key\": \"63\",\r\n    \"Desc\": \"<color=#0000ff>蓝色及以上</color>\",\r\n    \"DescTw\": \"<color=#0000ff>藍色及以上</color>\"\r\n  }"
+    text: "<color=#00ff00>绿色</color>"
+- raw: "{\r\n    \"Key\": \"63\",\r\n    \"Desc\": \"<color=#0000ff>蓝色</color>\",\r\n    \"DescTw\": \"<color=#0000ff>藍色</color>\"\r\n  }"
   rawIndex: 63
   splits:
   - splitPath: Desc
-    text: "<color=#0000ff>蓝色及以上</color>"
-- raw: "{\r\n    \"Key\": \"64\",\r\n    \"Desc\": \"<color=#800080>紫色及以上</color>\",\r\n    \"DescTw\": \"<color=#800080>紫色及以上</color>\"\r\n  }"
+    text: "<color=#0000ff>蓝色</color>"
+- raw: "{\r\n    \"Key\": \"64\",\r\n    \"Desc\": \"<color=#800080>紫色</color>\",\r\n    \"DescTw\": \"<color=#800080>紫色</color>\"\r\n  }"
   rawIndex: 64
   splits:
   - splitPath: Desc
-    text: "<color=#800080>紫色及以上</color>"
-- raw: "{\r\n    \"Key\": \"65\",\r\n    \"Desc\": \"<color=#daa520>金色及以上</color>\",\r\n    \"DescTw\": \"<color=#daa520>金色及以上</color>\"\r\n  }"
+    text: "<color=#800080>紫色</color>"
+- raw: "{\r\n    \"Key\": \"65\",\r\n    \"Desc\": \"<color=#daa520>金色</color>\",\r\n    \"DescTw\": \"<color=#daa520>金色</color>\"\r\n  }"
   rawIndex: 65
   splits:
   - splitPath: Desc
-    text: "<color=#daa520>金色及以上</color>"
+    text: "<color=#daa520>金色</color>"
 - raw: "{\r\n    \"Key\": \"66\",\r\n    \"Desc\": \"结局\",\r\n    \"DescTw\": \"結局\"\r\n  }"
   rawIndex: 66
   splits:
@@ -953,3 +953,8 @@
   splits:
   - splitPath: Desc
     text: "Mod制作说明"
+- raw: "{\r\n    \"Key\": \"192\",\r\n    \"Desc\": \"难度界面中可使用点数兑换各类强化效果\",\r\n    \"DescTw\": \"難度介面中可使用點數兌換各類強化效果\"\r\n  }"
+  rawIndex: 192
+  splits:
+  - splitPath: Desc
+    text: "难度界面中可使用点数兑换各类强化效果"

@@ -880,14 +880,14 @@
   - splitPath: ExtraDesc
     text: "功力+40/根骨+4"
     translated: "Power Level +40/Potential +4"
-- raw: "{\r\n    \"Key\": \"320\",\r\n    \"Name\": \"万寿功\",\r\n    \"Desc\": \"回春（10%气血上限）\\\\n条件-我方气血10%以下\",\r\n    \"EchoName\": \"万寿功\",\r\n    \"DetailDesc\": \"自动触发类【万寿帮】【心法】\\\\n当我方气血总量低于10%时，回复我方20%气血上限的气血。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"探索宝象阁购买宝物老树根，探索万寿庄用老树根救治彭祖寿，再次探索万寿庄，彭祖寿传授。\",\r\n    \"ExtraDesc\": \"气血+1200/内息+6/体魄+6\",\r\n    \"DescTw\": \"回春（10%氣血上限）\\\\n條件-我方氣血10%以下\",\r\n    \"EchoNameTw\": \"萬壽功\",\r\n    \"DetailDescTw\": \"自動觸發類【萬壽幫】【心法】\\\\n當我方氣血總量低於10%時，回覆我方20%氣血上限的氣血。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"探索寶象閣購買寶物老樹根，探索萬壽莊用老樹根救治彭祖壽，再次探索萬壽莊，彭祖壽傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1200/內息+6/體魄+6\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"320\",\r\n    \"Name\": \"万寿功\",\r\n    \"Desc\": \"回春（20%气血上限）\\\\n条件-我方气血10%以下\",\r\n    \"EchoName\": \"万寿功\",\r\n    \"DetailDesc\": \"自动触发类【万寿帮】【心法】\\\\n当我方气血总量低于10%时，回复我方20%气血上限的气血。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"探索宝象阁购买宝物老树根，探索万寿庄用老树根救治彭祖寿，再次探索万寿庄，彭祖寿传授。\",\r\n    \"ExtraDesc\": \"气血+1200/内息+6/体魄+6\",\r\n    \"DescTw\": \"回春（20%氣血上限）\\\\n條件-我方氣血10%以下\",\r\n    \"EchoNameTw\": \"萬壽功\",\r\n    \"DetailDescTw\": \"自動觸發類【萬壽幫】【心法】\\\\n當我方氣血總量低於10%時，回覆我方20%氣血上限的氣血。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"探索寶象閣購買寶物老樹根，探索萬壽莊用老樹根救治彭祖壽，再次探索萬壽莊，彭祖壽傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1200/內息+6/體魄+6\"\r\n  }"
   rawIndex: 320
   splits:
   - splitPath: Name
     text: "万寿功"
     translated: "Eternal Life Technique"
   - splitPath: Desc
-    text: "回春（10%气血上限）\\n条件-我方气血10%以下"
+    text: "回春（20%气血上限）\\n条件-我方气血10%以下"
     translated: "Recover Spring (Lifeforce by 10% of maximum)\\nCondition: My side's lifeforce is at or below 10%"
   - splitPath: EchoName
     text: "万寿功"
@@ -1480,6 +1480,36 @@
   - splitPath: GetDesc
     text: "敬请期待"
     translated: "Look forward to it"
+- raw: "{\r\n    \"Key\": \"1270\",\r\n    \"Name\": \"三关锁骨手\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n封穴<30%>\",\r\n    \"EchoName\": \"三关锁骨手\",\r\n    \"DetailDesc\": \"攻击伤害类【六扇门】【拳脚】\\\\n单次攻击造成0.5倍侠客功力的伤害，并有30%几率令敌人进入封穴状态。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n封穴<30%>\",\r\n    \"EchoNameTw\": \"三關鎖骨手\",\r\n    \"DetailDescTw\": \"攻擊傷害類【六扇門】【拳腳】\\\\n單次攻擊造成0.5倍俠客功力的傷害，並有30%機率令敵人進入封穴狀態。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 1270
+  splits:
+  - splitPath: Name
+    text: "三关锁骨手"
+  - splitPath: Desc
+    text: "攻击（0.5倍）\\n封穴<30%>"
+  - splitPath: EchoName
+    text: "三关锁骨手"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【六扇门】【拳脚】\\n单次攻击造成0.5倍侠客功力的伤害，并有30%几率令敌人进入封穴状态。"
+  - splitPath: SubType
+    text: "拳脚"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"1480\",\r\n    \"Name\": \"千关网\",\r\n    \"Desc\": \"封穴<80%>\\\\n行动力累积\",\r\n    \"EchoName\": \"千关网\",\r\n    \"DetailDesc\": \"攻击伤害类【六扇门】【奇门】\\\\n80%几率令敌人进入封穴状态，使用后行动力持续累积。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"封穴<80%>\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"千關網\",\r\n    \"DetailDescTw\": \"攻擊傷害類【六扇門】【奇門】\\\\n80%機率令敵人進入封穴狀態，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 1480
+  splits:
+  - splitPath: Name
+    text: "千关网"
+  - splitPath: Desc
+    text: "封穴<80%>\\n行动力累积"
+  - splitPath: EchoName
+    text: "千关网"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【六扇门】【奇门】\\n80%几率令敌人进入封穴状态，使用后行动力持续累积。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "敬请期待"
 - raw: "{\r\n    \"Key\": \"1410\",\r\n    \"Name\": \"六合刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n轻伤<18%>\\\\n条件-我方气血尾数小于6\",\r\n    \"EchoName\": \"六合刀法\",\r\n    \"DetailDesc\": \"自动释放类【六合帮】【刀剑】\\\\n我方气血尾数小于6时，单次攻击造成0.6倍侠客功力的伤害，并有18%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"六合帮开启，首次拜访后，从第四年一月开始至第六年十二月，财富到达1000，探索六合帮，花费八百钱从夏侯朝处购买。\",\r\n    \"ExtraDesc\": \"功力+40/根骨+4\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n輕傷<18%>\\\\n條件-我方氣血尾數小於6\",\r\n    \"EchoNameTw\": \"六合刀法\",\r\n    \"DetailDescTw\": \"自動釋放類【六合幫】【刀劍】\\\\n我方氣血尾數小於6時，單次攻擊造成0.6倍俠客功力的傷害，並有18%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"六合幫開啟，首次拜訪後，從第四年一月開始至第六年十二月，財富到達1000，探索六合幫，花費八百錢從夏侯朝處購買。\",\r\n    \"ExtraDescTw\": \"功力+40/根骨+4\"\r\n  }"
   rawIndex: 1410
   splits:
@@ -3358,6 +3388,824 @@
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
+- raw: "{\r\n    \"Key\": \"3910\",\r\n    \"Name\": \"木鹊\",\r\n    \"Desc\": \"[木鹊]支援战斗\",\r\n    \"EchoName\": \"木鹊\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【助战】\\\\n召唤机关【木鹊】。木鹊单次攻击造成500点+10倍匠造伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"DescTw\": \"[木鵲]支援戰鬥\",\r\n    \"EchoNameTw\": \"木鵲\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【助戰】\\\\n召喚機關【木鵲】。木鵲單次攻擊造成500點+10倍匠造傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\"\r\n  }"
+  rawIndex: 3910
+  splits:
+  - splitPath: Name
+    text: "木鹊"
+  - splitPath: Desc
+    text: "[木鹊]支援战斗"
+  - splitPath: EchoName
+    text: "木鹊"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【助战】\\n召唤机关【木鹊】。木鹊单次攻击造成500点+10倍匠造伤害，发动几率100%。"
+  - splitPath: SubType
+    text: "助战"
+- raw: "{\r\n    \"Key\": \"3920\",\r\n    \"Name\": \"木狗\",\r\n    \"Desc\": \"[木狗]支援战斗\",\r\n    \"EchoName\": \"木狗\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【助战】\\\\n召唤机关【木狗】。木狗单次攻击造成800点+16倍匠造伤害，发动几率80%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"诸葛慧加入后，先探索川西逛庙会，然后探索汉昭烈庙诸葛慧回礼获得。\",\r\n    \"ExtraDesc\": \"匠造+8\",\r\n    \"DescTw\": \"[木狗]支援戰鬥\",\r\n    \"EchoNameTw\": \"木狗\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【助戰】\\\\n召喚機關【木狗】。木狗單次攻擊造成800點+16倍匠造傷害，發動機率80%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"諸葛慧加入後，先探索川西逛廟會，然後探索漢昭烈廟諸葛慧回禮獲得。\",\r\n    \"ExtraDescTw\": \"匠造+8\"\r\n  }"
+  rawIndex: 3920
+  splits:
+  - splitPath: Name
+    text: "木狗"
+  - splitPath: Desc
+    text: "[木狗]支援战斗"
+  - splitPath: EchoName
+    text: "木狗"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【助战】\\n召唤机关【木狗】。木狗单次攻击造成800点+16倍匠造伤害，发动几率80%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "诸葛慧加入后，先探索川西逛庙会，然后探索汉昭烈庙诸葛慧回礼获得。"
+  - splitPath: ExtraDesc
+    text: "匠造+8"
+- raw: "{\r\n    \"Key\": \"3930\",\r\n    \"Name\": \"木鸢\",\r\n    \"Desc\": \"伤害无效1<16%>\",\r\n    \"EchoName\": \"木鸢\",\r\n    \"DetailDesc\": \"自动触发类【武侯祠】【特技】\\\\n16%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"傷害無效1<16%>\",\r\n    \"EchoNameTw\": \"木鳶\",\r\n    \"DetailDescTw\": \"自動觸發類【武侯祠】【特技】\\\\n16%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 3930
+  splits:
+  - splitPath: Name
+    text: "木鸢"
+  - splitPath: Desc
+    text: "伤害无效1<16%>"
+  - splitPath: EchoName
+    text: "木鸢"
+  - splitPath: DetailDesc
+    text: "自动触发类【武侯祠】【特技】\\n16%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"3940\",\r\n    \"Name\": \"木鸢改\",\r\n    \"Desc\": \"伤害无效1<40%>\",\r\n    \"EchoName\": \"木鸢\",\r\n    \"DetailDesc\": \"自动触发类【武侯祠】【特技】\\\\n40%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"傷害無效1<40%>\",\r\n    \"EchoNameTw\": \"木鳶\",\r\n    \"DetailDescTw\": \"自動觸發類【武侯祠】【特技】\\\\n40%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 3940
+  splits:
+  - splitPath: Name
+    text: "木鸢改"
+  - splitPath: Desc
+    text: "伤害无效1<40%>"
+  - splitPath: EchoName
+    text: "木鸢"
+  - splitPath: DetailDesc
+    text: "自动触发类【武侯祠】【特技】\\n40%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"3950\",\r\n    \"Name\": \"木兽\",\r\n    \"Desc\": \"[木兽]支援战斗\",\r\n    \"EchoName\": \"木兽\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【助战】\\\\n召唤机关【木兽】。木兽单次攻击造成1200点+24倍匠造伤害，发动几率50%。\",\r\n    \"SubType\": \"助战\",\r\n    \"DescTw\": \"[木獸]支援戰鬥\",\r\n    \"EchoNameTw\": \"木獸\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【助戰】\\\\n召喚機關【木獸】。木獸單次攻擊造成1200點+24倍匠造傷害，發動機率50%。\",\r\n    \"SubTypeTw\": \"助戰\"\r\n  }"
+  rawIndex: 3950
+  splits:
+  - splitPath: Name
+    text: "木兽"
+  - splitPath: Desc
+    text: "[木兽]支援战斗"
+  - splitPath: EchoName
+    text: "木兽"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【助战】\\n召唤机关【木兽】。木兽单次攻击造成1200点+24倍匠造伤害，发动几率50%。"
+  - splitPath: SubType
+    text: "助战"
+- raw: "{\r\n    \"Key\": \"3960\",\r\n    \"Name\": \"木牛\",\r\n    \"Desc\": \"[木牛]支援战斗\",\r\n    \"EchoName\": \"木牛\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【助战】\\\\n召唤宠物【木牛】。木牛可回复一点行动力，发动几率50%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"匠造到达高手，探索川西汉昭烈庙，拼装木牛后获得。\",\r\n    \"ExtraDesc\": \"匠造+14\",\r\n    \"DescTw\": \"[木牛]支援戰鬥\",\r\n    \"EchoNameTw\": \"木牛\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【助戰】\\\\n召喚寵物【木牛】。木牛可回覆一點行動力，發動機率50%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"匠造到達高手，探索川西漢昭烈廟，拼裝木牛後獲得。\",\r\n    \"ExtraDescTw\": \"匠造+14\"\r\n  }"
+  rawIndex: 3960
+  splits:
+  - splitPath: Name
+    text: "木牛"
+  - splitPath: Desc
+    text: "[木牛]支援战斗"
+  - splitPath: EchoName
+    text: "木牛"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【助战】\\n召唤宠物【木牛】。木牛可回复一点行动力，发动几率50%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "匠造到达高手，探索川西汉昭烈庙，拼装木牛后获得。"
+  - splitPath: ExtraDesc
+    text: "匠造+14"
+- raw: "{\r\n    \"Key\": \"3970\",\r\n    \"Name\": \"木麒麟\",\r\n    \"Desc\": \"[木麒麟]支援战斗\",\r\n    \"EchoName\": \"木麒麟\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【助战】\\\\n召唤机关【木麒麟】。木麒麟单次攻击造成5555点+10倍匠造伤害，发动几率50%。\",\r\n    \"SubType\": \"助战\",\r\n    \"DescTw\": \"[木麒麟]支援戰鬥\",\r\n    \"EchoNameTw\": \"木麒麟\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【助戰】\\\\n召喚機關【木麒麟】。木麒麟單次攻擊造成5555點+10倍匠造傷害，發動機率50%。\",\r\n    \"SubTypeTw\": \"助戰\"\r\n  }"
+  rawIndex: 3970
+  splits:
+  - splitPath: Name
+    text: "木麒麟"
+  - splitPath: Desc
+    text: "[木麒麟]支援战斗"
+  - splitPath: EchoName
+    text: "木麒麟"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【助战】\\n召唤机关【木麒麟】。木麒麟单次攻击造成5555点+10倍匠造伤害，发动几率50%。"
+  - splitPath: SubType
+    text: "助战"
+- raw: "{\r\n    \"Key\": \"3980\",\r\n    \"Name\": \"廿八星宿阵\",\r\n    \"Desc\": \"[廿八星宿阵]可叠加1层，助战类技能伤害+100%\",\r\n    \"EchoName\": \"廿八星宿阵\",\r\n    \"DetailDesc\": \"战术协同类【武侯祠】【心法】\\\\n释放战术【廿八星宿阵】，助战类技能伤害增加100%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"解锁诸葛慧红颜知己后，武侯祠友好度到达80，探索汉昭烈庙，姜云奎传授。\",\r\n    \"ExtraDesc\": \"功力+200\",\r\n    \"DescTw\": \"[廿八星宿陣]可疊加1層，助戰類技能傷害+100%\",\r\n    \"EchoNameTw\": \"廿八星宿陣\",\r\n    \"DetailDescTw\": \"戰術協同類【武侯祠】【心法】\\\\n釋放戰術【廿八星宿陣】，助戰類技能傷害增加100%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"解鎖諸葛慧紅顏知己後，武侯祠友好度到達80，探索漢昭烈廟，姜雲奎傳授。\",\r\n    \"ExtraDescTw\": \"功力+200\"\r\n  }"
+  rawIndex: 3980
+  splits:
+  - splitPath: Name
+    text: "廿八星宿阵"
+  - splitPath: Desc
+    text: "[廿八星宿阵]可叠加1层，助战类技能伤害+100%"
+  - splitPath: EchoName
+    text: "廿八星宿阵"
+  - splitPath: DetailDesc
+    text: "战术协同类【武侯祠】【心法】\\n释放战术【廿八星宿阵】，助战类技能伤害增加100%。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "解锁诸葛慧红颜知己后，武侯祠友好度到达80，探索汉昭烈庙，姜云奎传授。"
+  - splitPath: ExtraDesc
+    text: "功力+200"
+- raw: "{\r\n    \"Key\": \"3990\",\r\n    \"Name\": \"顾应剑法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n防御-1\",\r\n    \"EchoName\": \"顾应剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【武侯祠】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害,并释放战术【防御】。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"解锁武侯祠后，探索汉昭烈庙，挑战文臣武将廊后领悟。\",\r\n    \"ExtraDesc\": \"功力+140/灵活+10/根骨+4\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n防禦-1\",\r\n    \"EchoNameTw\": \"顧應劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武侯祠】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害,並釋放戰術【防禦】。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"解鎖武侯祠後，探索漢昭烈廟，挑戰文臣武將廊後領悟。\",\r\n    \"ExtraDescTw\": \"功力+140/靈活+10/根骨+4\"\r\n  }"
+  rawIndex: 3990
+  splits:
+  - splitPath: Name
+    text: "顾应剑法"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n防御-1"
+  - splitPath: EchoName
+    text: "顾应剑法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【武侯祠】【刀剑】\\n单次攻击造成1倍侠客功力的伤害,并释放战术【防御】。"
+  - splitPath: SubType
+    text: "刀剑"
+  - splitPath: GetDesc
+    text: "解锁武侯祠后，探索汉昭烈庙，挑战文臣武将廊后领悟。"
+  - splitPath: ExtraDesc
+    text: "功力+140/灵活+10/根骨+4"
+- raw: "{\r\n    \"Key\": \"4210\",\r\n    \"Name\": \"敛息诀\",\r\n    \"Desc\": \"行动回复1-10%\",\r\n    \"EchoName\": \"敛息诀\",\r\n    \"DetailDesc\": \"自动释放类【唐门】【心法】\\\\n10%几率释放回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入唐门，第二年二月唐宝传授。\",\r\n    \"ExtraDesc\": \"气血+300/内息+3\",\r\n    \"DescTw\": \"行動回覆1-10%\",\r\n    \"EchoNameTw\": \"斂息訣\",\r\n    \"DetailDescTw\": \"自動釋放類【唐門】【心法】\\\\n10%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入唐門，第二年二月唐寶傳授。\",\r\n    \"ExtraDescTw\": \"氣血+300/內息+3\"\r\n  }"
+  rawIndex: 4210
+  splits:
+  - splitPath: Name
+    text: "敛息诀"
+  - splitPath: Desc
+    text: "行动回复1-10%"
+  - splitPath: EchoName
+    text: "敛息诀"
+  - splitPath: DetailDesc
+    text: "自动释放类【唐门】【心法】\\n10%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "加入唐门，第二年二月唐宝传授。"
+  - splitPath: ExtraDesc
+    text: "气血+300/内息+3"
+- raw: "{\r\n    \"Key\": \"4230\",\r\n    \"Name\": \"三停秘术\",\r\n    \"Desc\": \"回春（0.3倍）\\\\n消除异常-1\",\r\n    \"EchoName\": \"三停秘术\",\r\n    \"DetailDesc\": \"辅助回复类【唐门】【心法】\\\\n回复我方0.3倍侠客功力气血，并消除1个异常状态。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入唐门，毒术到达高手，贡献到达50，探索百毒坊唐隐传授。\",\r\n    \"ExtraDesc\": \"气血+900/内息+9/毒术+6\",\r\n    \"DescTw\": \"回春（0.3倍）\\\\n消除異常-1\",\r\n    \"EchoNameTw\": \"三停祕術\",\r\n    \"DetailDescTw\": \"輔助回覆類【唐門】【心法】\\\\n回覆我方0.3倍俠客功力氣血，並消除1個異常狀態。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入唐門，毒術到達高手，貢獻到達50，探索百毒坊唐隱傳授。\",\r\n    \"ExtraDescTw\": \"氣血+900/內息+9/毒術+6\"\r\n  }"
+  rawIndex: 4230
+  splits:
+  - splitPath: Name
+    text: "三停秘术"
+  - splitPath: Desc
+    text: "回春（0.3倍）\\n消除异常-1"
+  - splitPath: EchoName
+    text: "三停秘术"
+  - splitPath: DetailDesc
+    text: "辅助回复类【唐门】【心法】\\n回复我方0.3倍侠客功力气血，并消除1个异常状态。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "加入唐门，毒术到达高手，贡献到达50，探索百毒坊唐隐传授。"
+  - splitPath: ExtraDesc
+    text: "气血+900/内息+9/毒术+6"
+- raw: "{\r\n    \"Key\": \"4260\",\r\n    \"Name\": \"游墙身法\",\r\n    \"Desc\": \"闪避1<5%>\",\r\n    \"EchoName\": \"游墙身法\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【心法】\\\\n5%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入唐门，第二年六月唐宝传授。\",\r\n    \"ExtraDesc\": \"功力+40/灵活+4\",\r\n    \"DescTw\": \"閃避1<5%>\",\r\n    \"EchoNameTw\": \"遊牆身法\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【心法】\\\\n5%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入唐門，第二年六月唐寶傳授。\",\r\n    \"ExtraDescTw\": \"功力+40/靈活+4\"\r\n  }"
+  rawIndex: 4260
+  splits:
+  - splitPath: Name
+    text: "游墙身法"
+  - splitPath: Desc
+    text: "闪避1<5%>"
+  - splitPath: EchoName
+    text: "游墙身法"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【心法】\\n5%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "加入唐门，第二年六月唐宝传授。"
+  - splitPath: ExtraDesc
+    text: "功力+40/灵活+4"
+- raw: "{\r\n    \"Key\": \"4270\",\r\n    \"Name\": \"蜻蜓点水\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"蜻蜓点水\",\r\n    \"DetailDesc\": \"战术协同类【唐门】【心法】\\\\n释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入唐门，第三年一月开始，灵活到达70，贡献到达30，探索演武场唐傲传授。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"蜻蜓點水\",\r\n    \"DetailDescTw\": \"戰術協同類【唐門】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入唐門，第三年一月開始，靈活到達70，貢獻到達30，探索演武場唐傲傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
+  rawIndex: 4270
+  splits:
+  - splitPath: Name
+    text: "蜻蜓点水"
+  - splitPath: Desc
+    text: "闪避1"
+  - splitPath: EchoName
+    text: "蜻蜓点水"
+  - splitPath: DetailDesc
+    text: "战术协同类【唐门】【心法】\\n释放战术【闪避】，可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "加入唐门，第三年一月开始，灵活到达70，贡献到达30，探索演武场唐傲传授。"
+  - splitPath: ExtraDesc
+    text: "功力+80/灵活+8"
+- raw: "{\r\n    \"Key\": \"4280\",\r\n    \"Name\": \"随风百步\",\r\n    \"Desc\": \"闪避1<20%>\",\r\n    \"EchoName\": \"随风百步\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【心法】\\\\n20%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，贡献到达80，先后依次探访川东、川西、川南、川中，与唐影游历各处分舵后，唐影传授。\",\r\n    \"ExtraDesc\": \"功力+130/灵活+13\",\r\n    \"DescTw\": \"閃避1<20%>\",\r\n    \"EchoNameTw\": \"隨風百步\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【心法】\\\\n20%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，貢獻到達80，先後依次探訪川東、川西、川南、川中，與唐影遊歷各處分舵後，唐影傳授。\",\r\n    \"ExtraDescTw\": \"功力+130/靈活+13\"\r\n  }"
+  rawIndex: 4280
+  splits:
+  - splitPath: Name
+    text: "随风百步"
+  - splitPath: Desc
+    text: "闪避1<20%>"
+  - splitPath: EchoName
+    text: "随风百步"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【心法】\\n20%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "加入唐门，第六年一月开始，贡献到达80，先后依次探访川东、川西、川南、川中，与唐影游历各处分舵后，唐影传授。"
+  - splitPath: ExtraDesc
+    text: "功力+130/灵活+13"
+- raw: "{\r\n    \"Key\": \"4310\",\r\n    \"Name\": \"飞刀术\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"飞刀术\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.6倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第二年三月唐宝传授。\",\r\n    \"ExtraDesc\": \"功力+30/灵活+2/根骨+1\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"飛刀術\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.6倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第二年三月唐寶傳授。\",\r\n    \"ExtraDescTw\": \"功力+30/靈活+2/根骨+1\"\r\n  }"
+  rawIndex: 4310
+  splits:
+  - splitPath: Name
+    text: "飞刀术"
+  - splitPath: Desc
+    text: "攻击（0.6倍）"
+  - splitPath: EchoName
+    text: "飞刀术"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.6倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第二年三月唐宝传授。"
+  - splitPath: ExtraDesc
+    text: "功力+30/灵活+2/根骨+1"
+- raw: "{\r\n    \"Key\": \"4320\",\r\n    \"Name\": \"飞星手\",\r\n    \"Desc\": \"攻击（1倍）\\\\n轻伤<20%>\",\r\n    \"EchoName\": \"飞星手\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第三年一月开始，根骨到达50，探索演武场和唐兴比武后唐宝传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+4/根骨+3\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n輕傷<20%>\",\r\n    \"EchoNameTw\": \"飛星手\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第三年一月開始，根骨到達50，探索演武場和唐興比武后唐寶傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+4/根骨+3\"\r\n  }"
+  rawIndex: 4320
+  splits:
+  - splitPath: Name
+    text: "飞星手"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n轻伤<20%>"
+  - splitPath: EchoName
+    text: "飞星手"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第三年一月开始，根骨到达50，探索演武场和唐兴比武后唐宝传授。"
+  - splitPath: ExtraDesc
+    text: "功力+70/灵活+4/根骨+3"
+- raw: "{\r\n    \"Key\": \"4330\",\r\n    \"Name\": \"飞刀连环\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n二连击\",\r\n    \"EchoName\": \"连环飞刀\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.4倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"連環飛刀\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.4倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4330
+  splits:
+  - splitPath: Name
+    text: "飞刀连环"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n二连击"
+  - splitPath: EchoName
+    text: "连环飞刀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，连续攻击两次。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4340\",\r\n    \"Name\": \"弹指飞石\",\r\n    \"Desc\": \"攻击（1.1倍）\\\\n封穴<33%>\",\r\n    \"EchoName\": \"弹指飞石\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.1倍侠客功力的伤害，并有33%几率使敌人进入封穴状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1.1倍）\\\\n封穴<33%>\",\r\n    \"EchoNameTw\": \"彈指飛石\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.1倍俠客功力的傷害，並有33%機率使敵人進入封穴狀態。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4340
+  splits:
+  - splitPath: Name
+    text: "弹指飞石"
+  - splitPath: Desc
+    text: "攻击（1.1倍）\\n封穴<33%>"
+  - splitPath: EchoName
+    text: "弹指飞石"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.1倍侠客功力的伤害，并有33%几率使敌人进入封穴状态。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4360\",\r\n    \"Name\": \"袖里乾坤\",\r\n    \"Desc\": \"攻击（2.2倍）\\\\n打断功法<50%>\",\r\n    \"EchoName\": \"袖里乾坤\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成2.2倍侠客功力的伤害，并有50%几率打断敌人功法。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，贡献到达90，探索演武场两次后，再次探索川西后唐安传授。\",\r\n    \"ExtraDesc\": \"功力+140/灵活+7/根骨+7\",\r\n    \"DescTw\": \"攻擊（2.2倍）\\\\n打斷功法<50%>\",\r\n    \"EchoNameTw\": \"袖裡乾坤\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成2.2倍俠客功力的傷害，並有50%機率打斷敵人功法。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，貢獻到達90，探索演武場兩次後，再次探索川西后唐安傳授。\",\r\n    \"ExtraDescTw\": \"功力+140/靈活+7/根骨+7\"\r\n  }"
+  rawIndex: 4360
+  splits:
+  - splitPath: Name
+    text: "袖里乾坤"
+  - splitPath: Desc
+    text: "攻击（2.2倍）\\n打断功法<50%>"
+  - splitPath: EchoName
+    text: "袖里乾坤"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成2.2倍侠客功力的伤害，并有50%几率打断敌人功法。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第六年一月开始，贡献到达90，探索演武场两次后，再次探索川西后唐安传授。"
+  - splitPath: ExtraDesc
+    text: "功力+140/灵活+7/根骨+7"
+- raw: "{\r\n    \"Key\": \"4380\",\r\n    \"Name\": \"漫天花雨\",\r\n    \"Desc\": \"攻击（0.3倍伤害）\\\\n四连击\\\\n轻伤<40%>\",\r\n    \"EchoName\": \"漫天花雨\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击三次，并有40%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，福缘到达160后探索川西获取猞猁珠后，探索演武场遇到唐傲，此后两次探索川西，战胜卫悲后学得。\",\r\n    \"ExtraDesc\": \"功力+130/灵活+13\",\r\n    \"DescTw\": \"攻擊（0.3倍傷害）\\\\n四連擊\\\\n輕傷<40%>\",\r\n    \"EchoNameTw\": \"漫天花雨\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.3倍俠客功力的傷害，連續攻擊三次，並有40%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，福緣到達160後探索川西獲取猞猁珠後，探索演武場遇到唐傲，此後兩次探索川西，戰勝衛悲後學得。\",\r\n    \"ExtraDescTw\": \"功力+130/靈活+13\"\r\n  }"
+  rawIndex: 4380
+  splits:
+  - splitPath: Name
+    text: "漫天花雨"
+  - splitPath: Desc
+    text: "攻击（0.3倍伤害）\\n四连击\\n轻伤<40%>"
+  - splitPath: EchoName
+    text: "漫天花雨"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击三次，并有40%几率使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第六年一月开始，福缘到达160后探索川西获取猞猁珠后，探索演武场遇到唐傲，此后两次探索川西，战胜卫悲后学得。"
+  - splitPath: ExtraDesc
+    text: "功力+130/灵活+13"
+- raw: "{\r\n    \"Key\": \"4410\",\r\n    \"Name\": \"袖箭筒\",\r\n    \"Desc\": \"攻击（700）<100%>\",\r\n    \"EchoName\": \"袖箭筒\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n自动释放700点伤害的攻击。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第二年五月唐矩赠与。\",\r\n    \"ExtraDesc\": \"匠造+7\",\r\n    \"DescTw\": \"攻擊（700）<100%>\",\r\n    \"EchoNameTw\": \"袖箭筒\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n自動釋放700點傷害的攻擊。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第二年五月唐矩贈與。\",\r\n    \"ExtraDescTw\": \"匠造+7\"\r\n  }"
+  rawIndex: 4410
+  splits:
+  - splitPath: Name
+    text: "袖箭筒"
+  - splitPath: Desc
+    text: "攻击（700）<100%>"
+  - splitPath: EchoName
+    text: "袖箭筒"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n自动释放700点伤害的攻击。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第二年五月唐矩赠与。"
+  - splitPath: ExtraDesc
+    text: "匠造+7"
+- raw: "{\r\n    \"Key\": \"4420\",\r\n    \"Name\": \"连排弩\",\r\n    \"Desc\": \"攻击（400）\\\\n三连击\",\r\n    \"EchoName\": \"连排弩\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n单次攻击造成400点伤害，连续攻击三次。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，匠造到达入门，探索千机坊唐隐传授。\",\r\n    \"ExtraDesc\": \"匠造+9\",\r\n    \"DescTw\": \"攻擊（400）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"連排弩\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n單次攻擊造成400點傷害，連續攻擊三次。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，匠造到達入門，探索千機坊唐隱傳授。\",\r\n    \"ExtraDescTw\": \"匠造+9\"\r\n  }"
+  rawIndex: 4420
+  splits:
+  - splitPath: Name
+    text: "连排弩"
+  - splitPath: Desc
+    text: "攻击（400）\\n三连击"
+  - splitPath: EchoName
+    text: "连排弩"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n单次攻击造成400点伤害，连续攻击三次。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，匠造到达入门，探索千机坊唐隐传授。"
+  - splitPath: ExtraDesc
+    text: "匠造+9"
+- raw: "{\r\n    \"Key\": \"4430\",\r\n    \"Name\": \"蚀心灯\",\r\n    \"Desc\": \"【开局触发】中毒<100%>\",\r\n    \"EchoName\": \"蚀心灯\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【特技】\\\\n开局触发一次，为敌人添加中毒状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，匠造到达精通，贡献到达30，探索千机坊唐矩传授。\",\r\n    \"ExtraDesc\": \"匠造+11\",\r\n    \"DescTw\": \"【開局觸發】中毒<100%>\",\r\n    \"EchoNameTw\": \"蝕心燈\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【特技】\\\\n開局觸發一次，為敵人新增中毒狀態。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，匠造到達精通，貢獻到達30，探索千機坊唐矩傳授。\",\r\n    \"ExtraDescTw\": \"匠造+11\"\r\n  }"
+  rawIndex: 4430
+  splits:
+  - splitPath: Name
+    text: "蚀心灯"
+  - splitPath: Desc
+    text: "【开局触发】中毒<100%>"
+  - splitPath: EchoName
+    text: "蚀心灯"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【特技】\\n开局触发一次，为敌人添加中毒状态。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，匠造到达精通，贡献到达30，探索千机坊唐矩传授。"
+  - splitPath: ExtraDesc
+    text: "匠造+11"
+- raw: "{\r\n    \"Key\": \"4440\",\r\n    \"Name\": \"朝日飞烟图\",\r\n    \"Desc\": \"【开局触发】攻击（600）\\\\n四连击\\\\n轻伤<50%>\",\r\n    \"EchoName\": \"朝日飞烟图\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n开局触发一次，单次攻击造成600点伤害，连续攻击四次，并有50%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第三年四月开始，随唐宝找回各位先生，探索川东两次巴山寻找唐墨，唐墨赠与\",\r\n    \"ExtraDesc\": \"匠造+11\",\r\n    \"DescTw\": \"【開局觸發】攻擊（600）\\\\n四連擊\\\\n輕傷<50%>\",\r\n    \"EchoNameTw\": \"朝日飛煙圖\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n開局觸發一次，單次攻擊造成600點傷害，連續攻擊四次，並有50%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第三年四月開始，隨唐寶找回各位先生，探索川東兩次巴山尋找唐墨，唐墨贈與\",\r\n    \"ExtraDescTw\": \"匠造+11\"\r\n  }"
+  rawIndex: 4440
+  splits:
+  - splitPath: Name
+    text: "朝日飞烟图"
+  - splitPath: Desc
+    text: "【开局触发】攻击（600）\\n四连击\\n轻伤<50%>"
+  - splitPath: EchoName
+    text: "朝日飞烟图"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n开局触发一次，单次攻击造成600点伤害，连续攻击四次，并有50%几率使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第三年四月开始，随唐宝找回各位先生，探索川东两次巴山寻找唐墨，唐墨赠与"
+  - splitPath: ExtraDesc
+    text: "匠造+11"
+- raw: "{\r\n    \"Key\": \"4450\",\r\n    \"Name\": \"雪上霜\",\r\n    \"Desc\": \"中毒<100%>\\\\n条件-对方处于轻伤状态\",\r\n    \"EchoName\": \"雪上霜\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【特技】\\\\n对方处于轻伤状态时可发动，让对方进入中毒状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"中毒<100%>\\\\n條件-對方處於輕傷狀態\",\r\n    \"EchoNameTw\": \"雪上霜\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【特技】\\\\n對方處於輕傷狀態時可發動，讓對方進入中毒狀態。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 4450
+  splits:
+  - splitPath: Name
+    text: "雪上霜"
+  - splitPath: Desc
+    text: "中毒<100%>\\n条件-对方处于轻伤状态"
+  - splitPath: EchoName
+    text: "雪上霜"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【特技】\\n对方处于轻伤状态时可发动，让对方进入中毒状态。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"4460\",\r\n    \"Name\": \"七星甲\",\r\n    \"Desc\": \"[七星甲]-可叠1层防御+70%\\\\n条件-我方气血低于40%\\\\n限一次\",\r\n    \"EchoName\": \"七星甲\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n气血低于40%时，自动释放【七星甲】，每场战斗只能使用一次。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，匠造到达高手，贡献到达60，探索千机坊唐冷传授。\",\r\n    \"ExtraDesc\": \"匠造+14\",\r\n    \"DescTw\": \"[七星甲]-可疊1層防禦+70%\\\\n條件-我方氣血低於40%\\\\n限一次\",\r\n    \"EchoNameTw\": \"七星甲\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n氣血低於40%時，自動釋放【七星甲】，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，匠造到達高手，貢獻到達60，探索千機坊唐冷傳授。\",\r\n    \"ExtraDescTw\": \"匠造+14\"\r\n  }"
+  rawIndex: 4460
+  splits:
+  - splitPath: Name
+    text: "七星甲"
+  - splitPath: Desc
+    text: "[七星甲]-可叠1层防御+70%\\n条件-我方气血低于40%\\n限一次"
+  - splitPath: EchoName
+    text: "七星甲"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n气血低于40%时，自动释放【七星甲】，每场战斗只能使用一次。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第五年一月开始，匠造到达高手，贡献到达60，探索千机坊唐冷传授。"
+  - splitPath: ExtraDesc
+    text: "匠造+14"
+- raw: "{\r\n    \"Key\": \"4470\",\r\n    \"Name\": \"子夜啼\",\r\n    \"Desc\": \"攻击（4倍）\\\\n清除对方中毒\\\\n条件-敌方处于中毒状态\",\r\n    \"EchoName\": \"子夜啼\",\r\n    \"DetailDesc\": \"战术协同类【唐门】【特技】\\\\n敌方处于中毒状态时，消除对方中毒状态，并单次攻击造成4倍侠客功力的伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，毒术到达大师，财富到达4000，探索川西购买龙爪黄连，探索百毒坊得知此药为假，此后财富到达二百再次探索川西得知两骗子踪迹，探索川东遇到两骗子，此后连续两次探索百毒坊，唐隐传授。\",\r\n    \"ExtraDesc\": \"毒术+14\",\r\n    \"DescTw\": \"攻擊（4倍）\\\\n清除對方中毒\\\\n條件-敵方處於中毒狀態\",\r\n    \"EchoNameTw\": \"子夜啼\",\r\n    \"DetailDescTw\": \"戰術協同類【唐門】【特技】\\\\n敵方處於中毒狀態時，消除對方中毒狀態，並單次攻擊造成4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，毒術到達大師，財富到達4000，探索川西購買龍爪黃連，探索百毒坊得知此藥為假，此後財富到達二百再次探索川西得知兩騙子蹤跡，探索川東遇到兩騙子，此後連續兩次探索百毒坊，唐隱傳授。\",\r\n    \"ExtraDescTw\": \"毒術+14\"\r\n  }"
+  rawIndex: 4470
+  splits:
+  - splitPath: Name
+    text: "子夜啼"
+  - splitPath: Desc
+    text: "攻击（4倍）\\n清除对方中毒\\n条件-敌方处于中毒状态"
+  - splitPath: EchoName
+    text: "子夜啼"
+  - splitPath: DetailDesc
+    text: "战术协同类【唐门】【特技】\\n敌方处于中毒状态时，消除对方中毒状态，并单次攻击造成4倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第六年一月开始，毒术到达大师，财富到达4000，探索川西购买龙爪黄连，探索百毒坊得知此药为假，此后财富到达二百再次探索川西得知两骗子踪迹，探索川东遇到两骗子，此后连续两次探索百毒坊，唐隐传授。"
+  - splitPath: ExtraDesc
+    text: "毒术+14"
+- raw: "{\r\n    \"Key\": \"4480\",\r\n    \"Name\": \"暮雨锁江图\",\r\n    \"Desc\": \"攻击（4000）\\\\n轻伤<100%>\\\\n限一次\",\r\n    \"EchoName\": \"暮雨锁江图\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n单次攻击造成4000点伤害，并使敌人进入轻伤状态，每场战斗只可使用一次。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，匠造到达高手，且获取丹霞瀑布图后，探索千机坊获取。\",\r\n    \"ExtraDesc\": \"匠造+16\",\r\n    \"DescTw\": \"攻擊（4000）\\\\n輕傷<100%>\\\\n限一次\",\r\n    \"EchoNameTw\": \"暮雨鎖江圖\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n單次攻擊造成4000點傷害，並使敵人進入輕傷狀態，每場戰鬥只可使用一次。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，匠造到達高手，且獲取丹霞瀑布圖後，探索千機坊獲取。\",\r\n    \"ExtraDescTw\": \"匠造+16\"\r\n  }"
+  rawIndex: 4480
+  splits:
+  - splitPath: Name
+    text: "暮雨锁江图"
+  - splitPath: Desc
+    text: "攻击（4000）\\n轻伤<100%>\\n限一次"
+  - splitPath: EchoName
+    text: "暮雨锁江图"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n单次攻击造成4000点伤害，并使敌人进入轻伤状态，每场战斗只可使用一次。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第五年一月开始，匠造到达高手，且获取丹霞瀑布图后，探索千机坊获取。"
+  - splitPath: ExtraDesc
+    text: "匠造+16"
+- raw: "{\r\n    \"Key\": \"4490\",\r\n    \"Name\": \"丹霞瀑布图\",\r\n    \"Desc\": \"攻击（4000）\\\\n中毒<100%>\\\\n限一次\",\r\n    \"EchoName\": \"丹霞瀑布图\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n单次攻击造成4000点伤害，并使敌人进入中毒状态，每场战斗只可使用一次。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，贡献到达60，探索后山后，再次探索千机坊获取。\",\r\n    \"ExtraDesc\": \"匠造+16\",\r\n    \"DescTw\": \"攻擊（4000）\\\\n中毒<100%>\\\\n限一次\",\r\n    \"EchoNameTw\": \"丹霞瀑布圖\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n單次攻擊造成4000點傷害，並使敵人進入中毒狀態，每場戰鬥只可使用一次。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，貢獻到達60，探索後山後，再次探索千機坊獲取。\",\r\n    \"ExtraDescTw\": \"匠造+16\"\r\n  }"
+  rawIndex: 4490
+  splits:
+  - splitPath: Name
+    text: "丹霞瀑布图"
+  - splitPath: Desc
+    text: "攻击（4000）\\n中毒<100%>\\n限一次"
+  - splitPath: EchoName
+    text: "丹霞瀑布图"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n单次攻击造成4000点伤害，并使敌人进入中毒状态，每场战斗只可使用一次。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第五年一月开始，贡献到达60，探索后山后，再次探索千机坊获取。"
+  - splitPath: ExtraDesc
+    text: "匠造+16"
+- raw: "{\r\n    \"Key\": \"4500\",\r\n    \"Name\": \"巴山夜雨图\",\r\n    \"Desc\": \"攻击（4000）\\\\n三连击\\\\n限一次\",\r\n    \"EchoName\": \"巴山夜雨图\",\r\n    \"DetailDesc\": \"自动触发类【唐门】【特技】\\\\n单次攻击造成4000点伤害，连续攻击三次，每场战斗只可使用一次。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（4000）\\\\n三連擊\\\\n限一次\",\r\n    \"EchoNameTw\": \"巴山夜雨圖\",\r\n    \"DetailDescTw\": \"自動觸發類【唐門】【特技】\\\\n單次攻擊造成4000點傷害，連續攻擊三次，每場戰鬥只可使用一次。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 4500
+  splits:
+  - splitPath: Name
+    text: "巴山夜雨图"
+  - splitPath: Desc
+    text: "攻击（4000）\\n三连击\\n限一次"
+  - splitPath: EchoName
+    text: "巴山夜雨图"
+  - splitPath: DetailDesc
+    text: "自动触发类【唐门】【特技】\\n单次攻击造成4000点伤害，连续攻击三次，每场战斗只可使用一次。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"4510\",\r\n    \"Name\": \"千机箱\",\r\n    \"Desc\": \"[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]支援战斗\",\r\n    \"EchoName\": \"千机箱\",\r\n    \"DetailDesc\": \"自动释放类【唐门】【特技】\\\\n释[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]四种战术之一。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[飛蝗匣]或[連弩機]或[蛛絲壺]或[萬花筒]支援戰鬥\",\r\n    \"EchoNameTw\": \"千機箱\",\r\n    \"DetailDescTw\": \"自動釋放類【唐門】【特技】\\\\n釋[飛蝗匣]或[連弩機]或[蛛絲壺]或[萬花筒]四種戰術之一。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 4510
+  splits:
+  - splitPath: Name
+    text: "千机箱"
+  - splitPath: Desc
+    text: "[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]支援战斗"
+  - splitPath: EchoName
+    text: "千机箱"
+  - splitPath: DetailDesc
+    text: "自动释放类【唐门】【特技】\\n释[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]四种战术之一。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"4520\",\r\n    \"Name\": \"星罗伞\",\r\n    \"Desc\": \"【开局触发】[星罗伞]支援战斗\",\r\n    \"EchoName\": \"星罗伞\",\r\n    \"DetailDesc\": \"战术协同类【唐门】【特技】\\\\n释放战术【星罗伞】。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"【開局觸發】[星羅傘]支援戰鬥\",\r\n    \"EchoNameTw\": \"星羅傘\",\r\n    \"DetailDescTw\": \"戰術協同類【唐門】【特技】\\\\n釋放戰術【星羅傘】。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 4520
+  splits:
+  - splitPath: Name
+    text: "星罗伞"
+  - splitPath: Desc
+    text: "【开局触发】[星罗伞]支援战斗"
+  - splitPath: EchoName
+    text: "星罗伞"
+  - splitPath: DetailDesc
+    text: "战术协同类【唐门】【特技】\\n释放战术【星罗伞】。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"4530\",\r\n    \"Name\": \"玉露牌\",\r\n    \"Desc\": \"【开局触发】[玉露牌]可叠加1层，每层防御+20%\",\r\n    \"EchoName\": \"玉露牌\",\r\n    \"DetailDesc\": \"战术协同类【唐门】【特技】\\\\n释放战术【玉露牌】。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后赠与。\",\r\n    \"ExtraDesc\": \"匠造+15\",\r\n    \"DescTw\": \"【開局觸發】[玉露牌]可疊加1層，每層防禦+20%\",\r\n    \"EchoNameTw\": \"玉露牌\",\r\n    \"DetailDescTw\": \"戰術協同類【唐門】【特技】\\\\n釋放戰術【玉露牌】。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，第六年一月開始，福緣到達150，探索川西五次，得知傅雲飛要挑戰閻鐵生，此後戰勝傅雲飛和寇伏魔，最後連續兩次探索千機坊，唐冷心結解開後贈與。\",\r\n    \"ExtraDescTw\": \"匠造+15\"\r\n  }"
+  rawIndex: 4530
+  splits:
+  - splitPath: Name
+    text: "玉露牌"
+  - splitPath: Desc
+    text: "【开局触发】[玉露牌]可叠加1层，每层防御+20%"
+  - splitPath: EchoName
+    text: "玉露牌"
+  - splitPath: DetailDesc
+    text: "战术协同类【唐门】【特技】\\n释放战术【玉露牌】。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后赠与。"
+  - splitPath: ExtraDesc
+    text: "匠造+15"
+- raw: "{\r\n    \"Key\": \"4610\",\r\n    \"Name\": \"流烟飞火\",\r\n    \"Desc\": \"攻击（0.7倍伤害）\\\\n轻伤<50%>\",\r\n    \"EchoName\": \"飞火流烟\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.7倍侠客功力的伤害，并有50%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.7倍傷害）\\\\n輕傷<50%>\",\r\n    \"EchoNameTw\": \"飛火流煙\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.7倍俠客功力的傷害，並有50%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4610
+  splits:
+  - splitPath: Name
+    text: "流烟飞火"
+  - splitPath: Desc
+    text: "攻击（0.7倍伤害）\\n轻伤<50%>"
+  - splitPath: EchoName
+    text: "飞火流烟"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.7倍侠客功力的伤害，并有50%几率使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4620\",\r\n    \"Name\": \"醉菩提\",\r\n    \"Desc\": \"攻击（1.2倍伤害）<70%>\\\\n轻伤状态增伤（2.4倍伤害）\",\r\n    \"EchoName\": \"醉菩提\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n70%几率自动释放，单次攻击造成1.8倍侠客功力的伤害，若敌人处于轻伤状态额外增加2.4倍伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1.2倍傷害）<70%>\\\\n輕傷狀態增傷（2.4倍傷害）\",\r\n    \"EchoNameTw\": \"醉菩提\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n70%機率自動釋放，單次攻擊造成1.8倍俠客功力的傷害，若敵人處於輕傷狀態額外增加2.4倍傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4620
+  splits:
+  - splitPath: Name
+    text: "醉菩提"
+  - splitPath: Desc
+    text: "攻击（1.2倍伤害）<70%>\\n轻伤状态增伤（2.4倍伤害）"
+  - splitPath: EchoName
+    text: "醉菩提"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n70%几率自动释放，单次攻击造成1.8倍侠客功力的伤害，若敌人处于轻伤状态额外增加2.4倍伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4630\",\r\n    \"Name\": \"阴阳胆\",\r\n    \"Desc\": \"攻击（0.8倍伤害）\\\\n二连击\\\\n行动回复1<50%>\",\r\n    \"EchoName\": \"阴阳胆\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次，并有50%回复一点行动力。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.8倍傷害）\\\\n二連擊\\\\n行動回覆1<50%>\",\r\n    \"EchoNameTw\": \"陰陽膽\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩次，並有50%回覆一點行動力。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4630
+  splits:
+  - splitPath: Name
+    text: "阴阳胆"
+  - splitPath: Desc
+    text: "攻击（0.8倍伤害）\\n二连击\\n行动回复1<50%>"
+  - splitPath: EchoName
+    text: "阴阳胆"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次，并有50%回复一点行动力。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4640\",\r\n    \"Name\": \"阎王账\",\r\n    \"Desc\": \"攻击（1倍伤害）\\\\n轻伤状态增伤（3倍伤害）\",\r\n    \"EchoName\": \"阎王账\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1倍侠客功力的伤害，若敌人处于轻伤状态额外增加3倍伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1倍傷害）\\\\n輕傷狀態增傷（3倍傷害）\",\r\n    \"EchoNameTw\": \"閻王賬\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1倍俠客功力的傷害，若敵人處於輕傷狀態額外增加3倍傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4640
+  splits:
+  - splitPath: Name
+    text: "阎王账"
+  - splitPath: Desc
+    text: "攻击（1倍伤害）\\n轻伤状态增伤（3倍伤害）"
+  - splitPath: EchoName
+    text: "阎王账"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1倍侠客功力的伤害，若敌人处于轻伤状态额外增加3倍伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4650\",\r\n    \"Name\": \"千羽千寻\",\r\n    \"Desc\": \"攻击（0.2倍）\\\\n七连击\\\\n轻伤<40%>\",\r\n    \"EchoName\": \"千羽千寻\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.2倍侠客功力的伤害，连续攻击七次。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.2倍）\\\\n七連擊\\\\n輕傷<40%>\",\r\n    \"EchoNameTw\": \"千羽千尋\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.2倍俠客功力的傷害，連續攻擊七次。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4650
+  splits:
+  - splitPath: Name
+    text: "千羽千寻"
+  - splitPath: Desc
+    text: "攻击（0.2倍）\\n七连击\\n轻伤<40%>"
+  - splitPath: EchoName
+    text: "千羽千寻"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.2倍侠客功力的伤害，连续攻击七次。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4660\",\r\n    \"Name\": \"四不像\",\r\n    \"Desc\": \"攻击（0.4倍伤害）\\\\n四连击\",\r\n    \"EchoName\": \"四不像\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.4倍侠客功力的伤害，连续攻击四次。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.4倍傷害）\\\\n四連擊\",\r\n    \"EchoNameTw\": \"四不像\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.4倍俠客功力的傷害，連續攻擊四次。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4660
+  splits:
+  - splitPath: Name
+    text: "四不像"
+  - splitPath: Desc
+    text: "攻击（0.4倍伤害）\\n四连击"
+  - splitPath: EchoName
+    text: "四不像"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，连续攻击四次。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4670\",\r\n    \"Name\": \"尾后针\",\r\n    \"Desc\": \"攻击（0.4倍伤害）\\\\n中毒状态增伤（1.4倍伤害）\",\r\n    \"EchoName\": \"尾后针\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.4倍侠客功力的伤害，若敌人处于中毒状态额外增加1.4倍伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.4倍傷害）\\\\n中毒狀態增傷（1.4倍傷害）\",\r\n    \"EchoNameTw\": \"尾後針\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.4倍俠客功力的傷害，若敵人處於中毒狀態額外增加1.4倍傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4670
+  splits:
+  - splitPath: Name
+    text: "尾后针"
+  - splitPath: Desc
+    text: "攻击（0.4倍伤害）\\n中毒状态增伤（1.4倍伤害）"
+  - splitPath: EchoName
+    text: "尾后针"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，若敌人处于中毒状态额外增加1.4倍伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4680\",\r\n    \"Name\": \"罗汉果\",\r\n    \"Desc\": \"攻击（1.8倍伤害）\",\r\n    \"EchoName\": \"罗汉果\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1.8倍傷害）\",\r\n    \"EchoNameTw\": \"羅漢果\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4680
+  splits:
+  - splitPath: Name
+    text: "罗汉果"
+  - splitPath: Desc
+    text: "攻击（1.8倍伤害）"
+  - splitPath: EchoName
+    text: "罗汉果"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.8倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4690\",\r\n    \"Name\": \"黄泉露\",\r\n    \"Desc\": \"攻击（1倍伤害）\\\\n中毒状态增伤（1倍伤害）\",\r\n    \"EchoName\": \"黄泉露\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1倍侠客功力的伤害，若敌人处于中毒状态额外增加1倍伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1倍傷害）\\\\n中毒狀態增傷（1倍傷害）\",\r\n    \"EchoNameTw\": \"黃泉露\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1倍俠客功力的傷害，若敵人處於中毒狀態額外增加1倍傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4690
+  splits:
+  - splitPath: Name
+    text: "黄泉露"
+  - splitPath: Desc
+    text: "攻击（1倍伤害）\\n中毒状态增伤（1倍伤害）"
+  - splitPath: EchoName
+    text: "黄泉露"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1倍侠客功力的伤害，若敌人处于中毒状态额外增加1倍伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4700\",\r\n    \"Name\": \"落魂砂\",\r\n    \"Desc\": \"攻击（0.3倍伤害）\\\\n四连击\\\\n中毒状态增伤（0.6倍伤害）\",\r\n    \"EchoName\": \"落魂砂\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击四次，若敌人处于中毒状态额外增加0.6倍伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.3倍傷害）\\\\n四連擊\\\\n中毒狀態增傷（0.6倍傷害）\",\r\n    \"EchoNameTw\": \"落魂砂\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.3倍俠客功力的傷害，連續攻擊四次，若敵人處於中毒狀態額外增加0.6倍傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4700
+  splits:
+  - splitPath: Name
+    text: "落魂砂"
+  - splitPath: Desc
+    text: "攻击（0.3倍伤害）\\n四连击\\n中毒状态增伤（0.6倍伤害）"
+  - splitPath: EchoName
+    text: "落魂砂"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击四次，若敌人处于中毒状态额外增加0.6倍伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4710\",\r\n    \"Name\": \"叩三更\",\r\n    \"Desc\": \"中毒<33%>\",\r\n    \"EchoName\": \"叩三更\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【特技】\\\\n33%几率令敌人进入中毒状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，毒术到达入门，探索百毒坊唐隐传授。\",\r\n    \"ExtraDesc\": \"毒术+6\",\r\n    \"DescTw\": \"中毒<33%>\",\r\n    \"EchoNameTw\": \"叩三更\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【特技】\\\\n33%機率令敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，毒術到達入門，探索百毒坊唐隱傳授。\",\r\n    \"ExtraDescTw\": \"毒術+6\"\r\n  }"
+  rawIndex: 4710
+  splits:
+  - splitPath: Name
+    text: "叩三更"
+  - splitPath: Desc
+    text: "中毒<33%>"
+  - splitPath: EchoName
+    text: "叩三更"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【特技】\\n33%几率令敌人进入中毒状态。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，毒术到达入门，探索百毒坊唐隐传授。"
+  - splitPath: ExtraDesc
+    text: "毒术+6"
+- raw: "{\r\n    \"Key\": \"4720\",\r\n    \"Name\": \"百日缠\",\r\n    \"Desc\": \"中毒<30%>\",\r\n    \"EchoName\": \"百日缠\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【特技】\\\\n30%几率令敌人进入中毒状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入唐门，毒术到达精通，贡献到达30，探索百毒坊唐隐传授。\",\r\n    \"ExtraDesc\": \"毒术+10\",\r\n    \"DescTw\": \"中毒<30%>\",\r\n    \"EchoNameTw\": \"百日纏\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【特技】\\\\n30%機率令敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入唐門，毒術到達精通，貢獻到達30，探索百毒坊唐隱傳授。\",\r\n    \"ExtraDescTw\": \"毒術+10\"\r\n  }"
+  rawIndex: 4720
+  splits:
+  - splitPath: Name
+    text: "百日缠"
+  - splitPath: Desc
+    text: "中毒<30%>"
+  - splitPath: EchoName
+    text: "百日缠"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【特技】\\n30%几率令敌人进入中毒状态。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "加入唐门，毒术到达精通，贡献到达30，探索百毒坊唐隐传授。"
+  - splitPath: ExtraDesc
+    text: "毒术+10"
+- raw: "{\r\n    \"Key\": \"4730\",\r\n    \"Name\": \"如意笔\",\r\n    \"Desc\": \"攻击（1.1倍伤害）\\\\n条件-对方处于异常状态\",\r\n    \"EchoName\": \"如意笔\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n对方处于异常状态时，单次攻击造成1.1倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1.1倍傷害）\\\\n條件-對方處於異常狀態\",\r\n    \"EchoNameTw\": \"如意筆\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n對方處於異常狀態時，單次攻擊造成1.1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4730
+  splits:
+  - splitPath: Name
+    text: "如意笔"
+  - splitPath: Desc
+    text: "攻击（1.1倍伤害）\\n条件-对方处于异常状态"
+  - splitPath: EchoName
+    text: "如意笔"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n对方处于异常状态时，单次攻击造成1.1倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4740\",\r\n    \"Name\": \"百炼珠\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n轻伤<40%>\",\r\n    \"EchoName\": \"百炼珠\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成0.4倍侠客功力的伤害，并有40%几率使敌人进入轻伤状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n輕傷<40%>\",\r\n    \"EchoNameTw\": \"百鍊珠\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成0.4倍俠客功力的傷害，並有40%機率使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4740
+  splits:
+  - splitPath: Name
+    text: "百炼珠"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n轻伤<40%>"
+  - splitPath: EchoName
+    text: "百炼珠"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成0.4倍侠客功力的伤害，并有40%几率使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4750\",\r\n    \"Name\": \"飞星恨\",\r\n    \"Desc\": \"攻击（4.4倍伤害）\\\\n条件-对方处于轻伤状态\",\r\n    \"EchoName\": \"飞星恨\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n对方处于轻伤状态时，单次攻击造成4.4倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（4.4倍傷害）\\\\n條件-對方處於輕傷狀態\",\r\n    \"EchoNameTw\": \"飛星恨\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n對方處於輕傷狀態時，單次攻擊造成4.4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4750
+  splits:
+  - splitPath: Name
+    text: "飞星恨"
+  - splitPath: Desc
+    text: "攻击（4.4倍伤害）\\n条件-对方处于轻伤状态"
+  - splitPath: EchoName
+    text: "飞星恨"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n对方处于轻伤状态时，单次攻击造成4.4倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4760\",\r\n    \"Name\": \"破天石\",\r\n    \"Desc\": \"攻击（5倍）\\\\n条件-敌方气血大于70%\",\r\n    \"EchoName\": \"破天石\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n敌方气血大于70%时，单次攻击造成5倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（5倍）\\\\n條件-敵方氣血大於70%\",\r\n    \"EchoNameTw\": \"破天石\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n敵方氣血大於70%時，單次攻擊造成5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 4760
+  splits:
+  - splitPath: Name
+    text: "破天石"
+  - splitPath: Desc
+    text: "攻击（5倍）\\n条件-敌方气血大于70%"
+  - splitPath: EchoName
+    text: "破天石"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n敌方气血大于70%时，单次攻击造成5倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"4910\",\r\n    \"Name\": \"相见欢\",\r\n    \"Desc\": \"攻击（3.6倍）\\\\n打断功法<100%>\",\r\n    \"EchoName\": \"相见欢\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成3.6倍侠客功力的伤害，并打断敌人功法。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第七年一月开始，匠造到达大师，探索千机坊选择相见欢为独门暗器制作。（独门暗器只能制作一次）\",\r\n    \"ExtraDesc\": \"功力+160/灵活+16/匠造+16\",\r\n    \"DescTw\": \"攻擊（3.6倍）\\\\n打斷功法<100%>\",\r\n    \"EchoNameTw\": \"相見歡\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成3.6倍俠客功力的傷害，並打斷敵人功法。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第七年一月開始，匠造到達大師，探索千機坊選擇相見歡為獨門暗器製作。（獨門暗器只能製作一次）\",\r\n    \"ExtraDescTw\": \"功力+160/靈活+16/匠造+16\"\r\n  }"
+  rawIndex: 4910
+  splits:
+  - splitPath: Name
+    text: "相见欢"
+  - splitPath: Desc
+    text: "攻击（3.6倍）\\n打断功法<100%>"
+  - splitPath: EchoName
+    text: "相见欢"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成3.6倍侠客功力的伤害，并打断敌人功法。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第七年一月开始，匠造到达大师，探索千机坊选择相见欢为独门暗器制作。（独门暗器只能制作一次）"
+  - splitPath: ExtraDesc
+    text: "功力+160/灵活+16/匠造+16"
+- raw: "{\r\n    \"Key\": \"4920\",\r\n    \"Name\": \"昙花\",\r\n    \"Desc\": \"攻击（1.5倍）\",\r\n    \"EchoName\": \"昙花\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第七年一月开始，匠造到达宗师，探索千机坊选择昙花为独门暗器制作。（独门暗器只能制作一次）\",\r\n    \"ExtraDesc\": \"功力+160/灵活+16/匠造+16\",\r\n    \"DescTw\": \"攻擊（1.5倍）\",\r\n    \"EchoNameTw\": \"曇花\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第七年一月開始，匠造到達宗師，探索千機坊選擇曇花為獨門暗器製作。（獨門暗器只能製作一次）\",\r\n    \"ExtraDescTw\": \"功力+160/靈活+16/匠造+16\"\r\n  }"
+  rawIndex: 4920
+  splits:
+  - splitPath: Name
+    text: "昙花"
+  - splitPath: Desc
+    text: "攻击（1.5倍）"
+  - splitPath: EchoName
+    text: "昙花"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.5倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第七年一月开始，匠造到达宗师，探索千机坊选择昙花为独门暗器制作。（独门暗器只能制作一次）"
+  - splitPath: ExtraDesc
+    text: "功力+160/灵活+16/匠造+16"
+- raw: "{\r\n    \"Key\": \"4930\",\r\n    \"Name\": \"破阵子\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n消除战术1<100%>\",\r\n    \"EchoName\": \"破阵子\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.8倍侠客功力的伤害，并消除敌人1个战术。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第七年一月开始，匠造到达大师，根骨到达160，探索千机坊选择破阵子为独门暗器制作。（独门暗器只能制作一次）\",\r\n    \"ExtraDesc\": \"功力+160/根骨+16/匠造+16\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n消除戰術1<100%>\",\r\n    \"EchoNameTw\": \"破陣子\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並消除敵人1個戰術。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第七年一月開始，匠造到達大師，根骨到達160，探索千機坊選擇破陣子為獨門暗器製作。（獨門暗器只能製作一次）\",\r\n    \"ExtraDescTw\": \"功力+160/根骨+16/匠造+16\"\r\n  }"
+  rawIndex: 4930
+  splits:
+  - splitPath: Name
+    text: "破阵子"
+  - splitPath: Desc
+    text: "攻击（1.8倍）\\n消除战术1<100%>"
+  - splitPath: EchoName
+    text: "破阵子"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.8倍侠客功力的伤害，并消除敌人1个战术。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第七年一月开始，匠造到达大师，根骨到达160，探索千机坊选择破阵子为独门暗器制作。（独门暗器只能制作一次）"
+  - splitPath: ExtraDesc
+    text: "功力+160/根骨+16/匠造+16"
+- raw: "{\r\n    \"Key\": \"4940\",\r\n    \"Name\": \"红尘泪\",\r\n    \"Desc\": \"攻击（1.4倍）\\\\n中毒<100%>\",\r\n    \"EchoName\": \"红尘泪\",\r\n    \"DetailDesc\": \"攻击伤害类【唐门】【百兵】\\\\n单次攻击造成1.8倍侠客功力的伤害，并令敌人进入中毒状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"加入唐门，第七年一月开始，匠造到达大师，毒术到达大师，探索千机坊选择相思泪为独门暗器制作。（独门暗器只能制作一次）\",\r\n    \"ExtraDesc\": \"功力+160/灵活+16/匠造+16\",\r\n    \"DescTw\": \"攻擊（1.4倍）\\\\n中毒<100%>\",\r\n    \"EchoNameTw\": \"紅塵淚\",\r\n    \"DetailDescTw\": \"攻擊傷害類【唐門】【百兵】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並令敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"加入唐門，第七年一月開始，匠造到達大師，毒術到達大師，探索千機坊選擇相思淚為獨門暗器製作。（獨門暗器只能製作一次）\",\r\n    \"ExtraDescTw\": \"功力+160/靈活+16/匠造+16\"\r\n  }"
+  rawIndex: 4940
+  splits:
+  - splitPath: Name
+    text: "红尘泪"
+  - splitPath: Desc
+    text: "攻击（1.4倍）\\n中毒<100%>"
+  - splitPath: EchoName
+    text: "红尘泪"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【唐门】【百兵】\\n单次攻击造成1.8倍侠客功力的伤害，并令敌人进入中毒状态。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "加入唐门，第七年一月开始，匠造到达大师，毒术到达大师，探索千机坊选择相思泪为独门暗器制作。（独门暗器只能制作一次）"
+  - splitPath: ExtraDesc
+    text: "功力+160/灵活+16/匠造+16"
+- raw: "{\r\n    \"Key\": \"4990\",\r\n    \"Name\": \"半晌贪欢\",\r\n    \"Desc\": \"【助力】功力+7%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"半晌贪欢\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客功力加成7%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】功力+7%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"半晌貪歡\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客功力加成7%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 4990
+  splits:
+  - splitPath: Name
+    text: "半晌贪欢"
+  - splitPath: Desc
+    text: "【助力】功力+7%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "半晌贪欢"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】\\n出战侠客功力加成7%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
 - raw: "{\r\n    \"Key\": \"5040\",\r\n    \"Name\": \"十八转掌\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"十八转掌\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【拳脚】\\\\n单次攻击造1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞，杜清风传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+4/根骨+3\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"十八轉掌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【拳腳】\\\\n單次攻擊造1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術精通，可隨姜道靈參與崆峒廣成丹會，丹會期間探索太素洞，杜清風傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+4/根骨+3\"\r\n  }"
   rawIndex: 5040
   splits:
@@ -3751,6 +4599,170 @@
   - splitPath: ExtraDesc
     text: "功力+100/根骨+5/体魄+5"
     translated: "Combat Power +100/Potential +5/Resilience +5"
+- raw: "{\r\n    \"Key\": \"9210\",\r\n    \"Name\": \"朝云刀法\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"朝云刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"朝雲刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 9210
+  splits:
+  - splitPath: Name
+    text: "朝云刀法"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+  - splitPath: EchoName
+    text: "朝云刀法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【刀剑】\\n单次攻击造成1倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"9220\",\r\n    \"Name\": \"翻云刀法\",\r\n    \"Desc\": \"攻击（4倍）\\\\n条件-[云雨屏]\",\r\n    \"EchoName\": \"翻云刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【刀剑】\\\\n当我方拥有战术【云雨屏】时可使用，单次攻击造成4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（4倍）\\\\n條件-[雲雨屏]\",\r\n    \"EchoNameTw\": \"翻雲刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【刀劍】\\\\n當我方擁有戰術【雲雨屏】時可使用，單次攻擊造成4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 9220
+  splits:
+  - splitPath: Name
+    text: "翻云刀法"
+  - splitPath: Desc
+    text: "攻击（4倍）\\n条件-[云雨屏]"
+  - splitPath: EchoName
+    text: "翻云刀法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【刀剑】\\n当我方拥有战术【云雨屏】时可使用，单次攻击造成4倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"9230\",\r\n    \"Name\": \"暮雨剑法\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"暮雨剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"暮雨劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 9230
+  splits:
+  - splitPath: Name
+    text: "暮雨剑法"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+  - splitPath: EchoName
+    text: "暮雨剑法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【刀剑】\\n单次攻击造成1倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"9240\",\r\n    \"Name\": \"覆雨剑法\",\r\n    \"Desc\": \"攻击（4倍）\\\\n条件-[云雨屏]\",\r\n    \"EchoName\": \"覆雨剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【刀剑】\\\\n当我方拥有战术【云雨屏】时可使用，单次攻击造成4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（4倍）\\\\n條件-[雲雨屏]\",\r\n    \"EchoNameTw\": \"覆雨劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【刀劍】\\\\n當我方擁有戰術【雲雨屏】時可使用，單次攻擊造成4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 9240
+  splits:
+  - splitPath: Name
+    text: "覆雨剑法"
+  - splitPath: Desc
+    text: "攻击（4倍）\\n条件-[云雨屏]"
+  - splitPath: EchoName
+    text: "覆雨剑法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【刀剑】\\n当我方拥有战术【云雨屏】时可使用，单次攻击造成4倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"9250\",\r\n    \"Name\": \"云雨诀\",\r\n    \"Desc\": \"行动回复1-25%\",\r\n    \"EchoName\": \"云雨诀\",\r\n    \"DetailDesc\": \"自动释放类【神女宫】【心法】\\\\n25%几率释放回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"行動回覆1-25%\",\r\n    \"EchoNameTw\": \"雲雨訣\",\r\n    \"DetailDescTw\": \"自動釋放類【神女宮】【心法】\\\\n25%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 9250
+  splits:
+  - splitPath: Name
+    text: "云雨诀"
+  - splitPath: Desc
+    text: "行动回复1-25%"
+  - splitPath: EchoName
+    text: "云雨诀"
+  - splitPath: DetailDesc
+    text: "自动释放类【神女宫】【心法】\\n25%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "心法"
+- raw: "{\r\n    \"Key\": \"9260\",\r\n    \"Name\": \"云雨交征赋\",\r\n    \"Desc\": \"[云雨屏]-伤害无效1\",\r\n    \"EchoName\": \"云雨交征赋\",\r\n    \"DetailDesc\": \"自动触发类【神女宫】【特技】\\\\n释放战术【云雨屏】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"[雲雨屏]-傷害無效1\",\r\n    \"EchoNameTw\": \"雲雨交徵賦\",\r\n    \"DetailDescTw\": \"自動觸發類【神女宮】【特技】\\\\n釋放戰術【雲雨屏】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 9260
+  splits:
+  - splitPath: Name
+    text: "云雨交征赋"
+  - splitPath: Desc
+    text: "[云雨屏]-伤害无效1"
+  - splitPath: EchoName
+    text: "云雨交征赋"
+  - splitPath: DetailDesc
+    text: "自动触发类【神女宫】【特技】\\n释放战术【云雨屏】，可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
+- raw: "{\r\n    \"Key\": \"9270\",\r\n    \"Name\": \"云雨吟\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n[云雨屏]-伤害无效1<40%>\",\r\n    \"EchoName\": \"云雨吟\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【功法】\\\\n单次攻击造成1.2倍侠客功力的伤害，并有40%几率释放战术【云雨屏】。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n[雲雨屏]-傷害無效1<40%>\",\r\n    \"EchoNameTw\": \"雲雨吟\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【功法】\\\\n單次攻擊造成1.2倍俠客功力的傷害，並有40%機率釋放戰術【雲雨屏】。\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 9270
+  splits:
+  - splitPath: Name
+    text: "云雨吟"
+  - splitPath: Desc
+    text: "攻击（1.2倍）\\n[云雨屏]-伤害无效1<40%>"
+  - splitPath: EchoName
+    text: "云雨吟"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【功法】\\n单次攻击造成1.2倍侠客功力的伤害，并有40%几率释放战术【云雨屏】。"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"9280\",\r\n    \"Name\": \"神女七诀\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n行动回复1<28%>\",\r\n    \"EchoName\": \"神女七诀\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【拳脚】\\\\n单次攻击造成0.7倍侠客功力的伤害，并有28%几率释放回复1点行动力。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n行動回覆1<28%>\",\r\n    \"EchoNameTw\": \"神女七訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【拳腳】\\\\n單次攻擊造成0.7倍俠客功力的傷害，並有28%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 9280
+  splits:
+  - splitPath: Name
+    text: "神女七诀"
+  - splitPath: Desc
+    text: "攻击（0.7倍）\\n行动回复1<28%>"
+  - splitPath: EchoName
+    text: "神女七诀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【拳脚】\\n单次攻击造成0.7倍侠客功力的伤害，并有28%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"9290\",\r\n    \"Name\": \"天上人间\",\r\n    \"Desc\": \"攻击（3.6倍）\\\\n行动回复1<50%>\",\r\n    \"EchoName\": \"天上人间\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【拳脚】\\\\n单次攻击造成3.6倍侠客功力的伤害，并有50%几率释放回复1点行动力。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（3.6倍）\\\\n行動回覆1<50%>\",\r\n    \"EchoNameTw\": \"天上人間\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【拳腳】\\\\n單次攻擊造成3.6倍俠客功力的傷害，並有50%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 9290
+  splits:
+  - splitPath: Name
+    text: "天上人间"
+  - splitPath: Desc
+    text: "攻击（3.6倍）\\n行动回复1<50%>"
+  - splitPath: EchoName
+    text: "天上人间"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【神女宫】【拳脚】\\n单次攻击造成3.6倍侠客功力的伤害，并有50%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"9300\",\r\n    \"Name\": \"元阳神功\",\r\n    \"Desc\": \"[元阳神功]<50%>可叠加1层，每层攻击+40%\",\r\n    \"EchoName\": \"元阳神功\",\r\n    \"DetailDesc\": \"自动释放类【神女宫】【功法】\\\\n50%几率自动释放战术【元阳神功】。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"解锁红颜巫云凤后，内息到达180，探索川东神女宫习得。\",\r\n    \"ExtraDesc\": \"气血+1800/内息+18\",\r\n    \"DescTw\": \"[元陽神功]<50%>可疊加1層，每層攻擊+40%\",\r\n    \"EchoNameTw\": \"元陽神功\",\r\n    \"DetailDescTw\": \"自動釋放類【神女宮】【功法】\\\\n50%機率自動釋放戰術【元陽神功】。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"解鎖紅顏巫雲鳳後，內息到達180，探索川東神女宮習得。\",\r\n    \"ExtraDescTw\": \"氣血+1800/內息+18\"\r\n  }"
+  rawIndex: 9300
+  splits:
+  - splitPath: Name
+    text: "元阳神功"
+  - splitPath: Desc
+    text: "[元阳神功]<50%>可叠加1层，每层攻击+40%"
+  - splitPath: EchoName
+    text: "元阳神功"
+  - splitPath: DetailDesc
+    text: "自动释放类【神女宫】【功法】\\n50%几率自动释放战术【元阳神功】。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "解锁红颜巫云凤后，内息到达180，探索川东神女宫习得。"
+  - splitPath: ExtraDesc
+    text: "气血+1800/内息+18"
+- raw: "{\r\n    \"Key\": \"9350\",\r\n    \"Name\": \"神足通\",\r\n    \"Desc\": \"【开局触发】行动回复5\",\r\n    \"EchoName\": \"神足通\",\r\n    \"DetailDesc\": \"自动释放类【江湖】【特技】\\\\n开局触发一次，回复5点行动力。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南，普度加入，此后道德到达60，探索川南，普度传授。\",\r\n    \"ExtraDesc\": \"功力+100/气血+1000\",\r\n    \"DescTw\": \"【開局觸發】行動回覆5\",\r\n    \"EchoNameTw\": \"神足通\",\r\n    \"DetailDescTw\": \"自動釋放類【江湖】【特技】\\\\n開局觸發一次，回覆5點行動力。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"任意年七月時探索川南，初識普度，此後，第八年七月開始，道德到達40，七月時探索川南，普度加入，此後道德到達60，探索川南，普度傳授。\",\r\n    \"ExtraDescTw\": \"功力+100/氣血+1000\"\r\n  }"
+  rawIndex: 9350
+  splits:
+  - splitPath: Name
+    text: "神足通"
+  - splitPath: Desc
+    text: "【开局触发】行动回复5"
+  - splitPath: EchoName
+    text: "神足通"
+  - splitPath: DetailDesc
+    text: "自动释放类【江湖】【特技】\\n开局触发一次，回复5点行动力。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南，普度加入，此后道德到达60，探索川南，普度传授。"
+  - splitPath: ExtraDesc
+    text: "功力+100/气血+1000"
+- raw: "{\r\n    \"Key\": \"9360\",\r\n    \"Name\": \"漏尽通\",\r\n    \"Desc\": \"[漏尽通]-可叠加1层，每层防御+180%\\\\n限一次\",\r\n    \"EchoName\": \"漏尽通\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【特技】\\\\n释放战术【漏尽通】，每场战斗只能使用一次。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"[漏盡通]-可疊加1層，每層防禦+180%\\\\n限一次\",\r\n    \"EchoNameTw\": \"漏盡通\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【特技】\\\\n釋放戰術【漏盡通】，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 9360
+  splits:
+  - splitPath: Name
+    text: "漏尽通"
+  - splitPath: Desc
+    text: "[漏尽通]-可叠加1层，每层防御+180%\\n限一次"
+  - splitPath: EchoName
+    text: "漏尽通"
+  - splitPath: DetailDesc
+    text: "战术协同类【江湖】【特技】\\n释放战术【漏尽通】，每场战斗只能使用一次。"
+  - splitPath: SubType
+    text: "特技"
 - raw: "{\r\n    \"Key\": \"13010\",\r\n    \"Name\": \"半拂折枝手\",\r\n    \"Desc\": \"攻击（1倍）\\\\n封穴<20%>\",\r\n    \"EchoName\": \"半拂折枝手\",\r\n    \"DetailDesc\": \"攻击伤害类【恶人谷】【拳脚】\\\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入衡山派，战胜殷夜啼解锁初始词条[花枝堪折]，初始天赋选择[花枝堪折]词条后开局即有。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n封穴<20%>\",\r\n    \"EchoNameTw\": \"半拂折枝手\",\r\n    \"DetailDescTw\": \"攻擊傷害類【惡人谷】【拳腳】\\\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入衡山派，戰勝殷夜啼解鎖初始詞條[花枝堪折]，初始天賦選擇[花枝堪折]詞條後開局即有。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
   rawIndex: 13010
   splits:
@@ -4129,6 +5141,53 @@
   - splitPath: GetDesc
     text: "敬请期待"
     translated: "Look forward to it"
+- raw: "{\r\n    \"Key\": \"14050\",\r\n    \"Name\": \"分解掌\",\r\n    \"Desc\": \"攻击（1倍）\\\\n消除战术1<50%>\",\r\n    \"EchoName\": \"分解掌\",\r\n    \"DetailDesc\": \"攻击伤害类【少林派】【拳脚】\\\\n单次攻击造成1倍侠客功力的伤害，并有50%几率消除敌人1个战术。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入唐门，第五年一月开始，贡献到达70，探索两次后山后，再次探索演武场唐觉传授。\",\r\n    \"ExtraDesc\": \"气血+1000/体魄+10\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n消除戰術1<50%>\",\r\n    \"EchoNameTw\": \"分解掌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【少林派】【拳腳】\\\\n單次攻擊造成1倍俠客功力的傷害，並有50%機率消除敵人1個戰術。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入唐門，第五年一月開始，貢獻到達70，探索兩次後山後，再次探索演武場唐覺傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1000/體魄+10\"\r\n  }"
+  rawIndex: 14050
+  splits:
+  - splitPath: Name
+    text: "分解掌"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n消除战术1<50%>"
+  - splitPath: EchoName
+    text: "分解掌"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【少林派】【拳脚】\\n单次攻击造成1倍侠客功力的伤害，并有50%几率消除敌人1个战术。"
+  - splitPath: SubType
+    text: "拳脚"
+  - splitPath: GetDesc
+    text: "加入唐门，第五年一月开始，贡献到达70，探索两次后山后，再次探索演武场唐觉传授。"
+  - splitPath: ExtraDesc
+    text: "气血+1000/体魄+10"
+- raw: "{\r\n    \"Key\": \"14210\",\r\n    \"Name\": \"罗汉棍法\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"罗汉棍法\",\r\n    \"DetailDesc\": \"攻击伤害类【少林派】【百兵】\\\\n单次攻击造1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"羅漢棍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【少林派】【百兵】\\\\n單次攻擊造1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 14210
+  splits:
+  - splitPath: Name
+    text: "罗汉棍法"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "罗汉棍法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【少林派】【百兵】\\n单次攻击造1.8倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"14220\",\r\n    \"Name\": \"夜叉棍法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n行动回复1<28%>\",\r\n    \"EchoName\": \"夜叉棍法\",\r\n    \"DetailDesc\": \"攻击伤害类【少林派】【百兵】\\\\n单次攻击造成1倍侠客功力的伤害，并有28%几率释放回复1点行动力。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n行動回覆1<28%>\",\r\n    \"EchoNameTw\": \"夜叉棍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【少林派】【百兵】\\\\n單次攻擊造成1倍俠客功力的傷害，並有28%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 14220
+  splits:
+  - splitPath: Name
+    text: "夜叉棍法"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n行动回复1<28%>"
+  - splitPath: EchoName
+    text: "夜叉棍法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【少林派】【百兵】\\n单次攻击造成1倍侠客功力的伤害，并有28%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "敬请期待"
 - raw: "{\r\n    \"Key\": \"14480\",\r\n    \"Name\": \"洗髓神功\",\r\n    \"Desc\": \"回春（1000）\\\\n消除异常-全\",\r\n    \"EchoName\": \"洗髓神功\",\r\n    \"DetailDesc\": \"自动触发类【少林派】【心法】\\\\n自动释放回春，回复我方1000气血并消除我方全部异常状态。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"第九年一月开始探索湘东，对战温残阳开启天魔线结局，此后正道讨伐劫云谷时，将各派全部救援后，了恩赠与。\",\r\n    \"ExtraDesc\": \"气血+2000/内息+20\",\r\n    \"DescTw\": \"回春（1000）\\\\n消除異常-全\",\r\n    \"EchoNameTw\": \"洗髓神功\",\r\n    \"DetailDescTw\": \"自動觸發類【少林派】【心法】\\\\n自動釋放回春，回覆我方1000氣血並消除我方全部異常狀態。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"第九年一月開始探索湘東，對戰溫殘陽開啟天魔線結局，此後正道討伐劫雲谷時，將各派全部救援後，了恩贈與。\",\r\n    \"ExtraDescTw\": \"氣血+2000/內息+20\"\r\n  }"
   rawIndex: 14480
   splits:
@@ -4669,6 +5728,132 @@
   - splitPath: ExtraDesc
     text: "气血+700/内息+7"
     translated: "Lifeforce +700/Inner Qi +7"
+- raw: "{\r\n    \"Key\": \"21310\",\r\n    \"Name\": \"苍狼\",\r\n    \"Desc\": \"[苍狼]支援战斗\",\r\n    \"EchoName\": \"苍狼\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【苍狼】，苍狼单次攻击造成400点+13倍御兽伤害，并有30%几率使敌人进入轻伤状态，发动几率90%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"开启蚩黎峒后，御兽到达精通后，探索川南蚩黎峒获取。\",\r\n    \"ExtraDesc\": \"御兽+12\",\r\n    \"DescTw\": \"[蒼狼]支援戰鬥\",\r\n    \"EchoNameTw\": \"蒼狼\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【蒼狼】，蒼狼單次攻擊造成400點+13倍御獸傷害，並有30%機率使敵人進入輕傷狀態，發動機率90%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"開啟蚩黎峒後，御獸到達精通後，探索川南蚩黎峒獲取。\",\r\n    \"ExtraDescTw\": \"御獸+12\"\r\n  }"
+  rawIndex: 21310
+  splits:
+  - splitPath: Name
+    text: "苍狼"
+  - splitPath: Desc
+    text: "[苍狼]支援战斗"
+  - splitPath: EchoName
+    text: "苍狼"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【苍狼】，苍狼单次攻击造成400点+13倍御兽伤害，并有30%几率使敌人进入轻伤状态，发动几率90%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "开启蚩黎峒后，御兽到达精通后，探索川南蚩黎峒获取。"
+  - splitPath: ExtraDesc
+    text: "御兽+12"
+- raw: "{\r\n    \"Key\": \"21320\",\r\n    \"Name\": \"小福\",\r\n    \"Desc\": \"[小福]支援战斗\",\r\n    \"EchoName\": \"小福\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【小福】，小福单次攻击造成400点+18倍御兽伤害，发动几率80%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付后获取。\",\r\n    \"ExtraDesc\": \"御兽+12\",\r\n    \"DescTw\": \"[小福]支援戰鬥\",\r\n    \"EchoNameTw\": \"小福\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【小福】，小福單次攻擊造成400點+18倍御獸傷害，發動機率80%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"探索川南，答應蚩黎送回小福。此後探索大涼山，將小福送回後大涼山竹林，被大福再次將小福託付後獲取。\",\r\n    \"ExtraDescTw\": \"御獸+12\"\r\n  }"
+  rawIndex: 21320
+  splits:
+  - splitPath: Name
+    text: "小福"
+  - splitPath: Desc
+    text: "[小福]支援战斗"
+  - splitPath: EchoName
+    text: "小福"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【小福】，小福单次攻击造成400点+18倍御兽伤害，发动几率80%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付后获取。"
+  - splitPath: ExtraDesc
+    text: "御兽+12"
+- raw: "{\r\n    \"Key\": \"21330\",\r\n    \"Name\": \"大福\",\r\n    \"Desc\": \"[大福]支援战斗\",\r\n    \"EchoName\": \"大福\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【大福】，大福单次攻击造成4000点+20倍御兽伤害，并有40%几率使敌人进入重伤状态，发动几率60%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。财富到达500后，探索川西，陪蚩萤和小福在成都城游玩。第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。此后探索大凉山，战胜五官王殷破败，救下大福。最后探索大凉山，大福帮助你和蚩黎成就姻缘后获取。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[大福]支援戰鬥\",\r\n    \"EchoNameTw\": \"大福\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【大福】，大福單次攻擊造成4000點+20倍御獸傷害，並有40%機率使敵人進入重傷狀態，發動機率60%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"探索川南，答應蚩黎送回小福。此後探索大涼山，將小福送回後大涼山竹林，被大福再次將小福託付。財富到達500後，探索川西，陪蚩螢和小福在成都城遊玩。第六年一月開始，探索川東，破廟休息，小福感到母親大福危險。此後探索大涼山，戰勝五官王殷破敗，救下大福。最後探索大涼山，大福幫助你和蚩黎成就姻緣後獲取。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
+  rawIndex: 21330
+  splits:
+  - splitPath: Name
+    text: "大福"
+  - splitPath: Desc
+    text: "[大福]支援战斗"
+  - splitPath: EchoName
+    text: "大福"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【大福】，大福单次攻击造成4000点+20倍御兽伤害，并有40%几率使敌人进入重伤状态，发动几率60%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "探索川南，答应蚩黎送回小福。此后探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。财富到达500后，探索川西，陪蚩萤和小福在成都城游玩。第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。此后探索大凉山，战胜五官王殷破败，救下大福。最后探索大凉山，大福帮助你和蚩黎成就姻缘后获取。"
+  - splitPath: ExtraDesc
+    text: "御兽+20"
+- raw: "{\r\n    \"Key\": \"21340\",\r\n    \"Name\": \"萤蝶粉\",\r\n    \"Desc\": \"打断功法<50%>\",\r\n    \"EchoName\": \"萤蝶粉\",\r\n    \"DetailDesc\": \"攻击伤害类【蚩黎峒】【特技】\\\\n50%几率打断敌人功法。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"打斷功法<50%>\",\r\n    \"EchoNameTw\": \"螢蝶粉\",\r\n    \"DetailDescTw\": \"攻擊傷害類【蚩黎峒】【特技】\\\\n50%機率打斷敵人功法。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21340
+  splits:
+  - splitPath: Name
+    text: "萤蝶粉"
+  - splitPath: Desc
+    text: "打断功法<50%>"
+  - splitPath: EchoName
+    text: "萤蝶粉"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【蚩黎峒】【特技】\\n50%几率打断敌人功法。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"21350\",\r\n    \"Name\": \"兽灵秘术\",\r\n    \"Desc\": \"[兽灵秘术]可叠加1层，助战类技能伤害+60%\",\r\n    \"EchoName\": \"兽灵秘术\",\r\n    \"DetailDesc\": \"战术协同类【蚩黎峒】【特技】\\\\n释放战术【兽灵秘术】，助战类技能伤害增加60%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[獸靈祕術]可疊加1層，助戰類技能傷害+60%\",\r\n    \"EchoNameTw\": \"獸靈祕術\",\r\n    \"DetailDescTw\": \"戰術協同類【蚩黎峒】【特技】\\\\n釋放戰術【獸靈祕術】，助戰類技能傷害增加60%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21350
+  splits:
+  - splitPath: Name
+    text: "兽灵秘术"
+  - splitPath: Desc
+    text: "[兽灵秘术]可叠加1层，助战类技能伤害+60%"
+  - splitPath: EchoName
+    text: "兽灵秘术"
+  - splitPath: DetailDesc
+    text: "战术协同类【蚩黎峒】【特技】\\n释放战术【兽灵秘术】，助战类技能伤害增加60%。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"21360\",\r\n    \"Name\": \"灵心通契\",\r\n    \"Desc\": \"[灵心通契]可叠加1层，助战类技能伤害+120%\",\r\n    \"EchoName\": \"灵心通契\",\r\n    \"DetailDesc\": \"战术协同类【蚩黎峒】【特技】\\\\n释放战术【灵心通契】，助战类技能伤害增加120%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[靈心通契]可疊加1層，助戰類技能傷害+120%\",\r\n    \"EchoNameTw\": \"靈心通契\",\r\n    \"DetailDescTw\": \"戰術協同類【蚩黎峒】【特技】\\\\n釋放戰術【靈心通契】，助戰類技能傷害增加120%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21360
+  splits:
+  - splitPath: Name
+    text: "灵心通契"
+  - splitPath: Desc
+    text: "[灵心通契]可叠加1层，助战类技能伤害+120%"
+  - splitPath: EchoName
+    text: "灵心通契"
+  - splitPath: DetailDesc
+    text: "战术协同类【蚩黎峒】【特技】\\n释放战术【灵心通契】，助战类技能伤害增加120%。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"21370\",\r\n    \"Name\": \"苍狼王\",\r\n    \"Desc\": \"[苍狼王]支援战斗\",\r\n    \"EchoName\": \"苍狼王\",\r\n    \"DetailDesc\": \"战术协同类【蚩黎峒】【助战】\\\\n召唤宠物【苍狼王】，苍狼王单次攻击造成1200点+18倍御兽伤害，并有40%几率使敌人进入轻伤状态，发动几率80%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[蒼狼王]支援戰鬥\",\r\n    \"EchoNameTw\": \"蒼狼王\",\r\n    \"DetailDescTw\": \"戰術協同類【蚩黎峒】【助戰】\\\\n召喚寵物【蒼狼王】，蒼狼王單次攻擊造成1200點+18倍御獸傷害，並有40%機率使敵人進入輕傷狀態，發動機率80%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21370
+  splits:
+  - splitPath: Name
+    text: "苍狼王"
+  - splitPath: Desc
+    text: "[苍狼王]支援战斗"
+  - splitPath: EchoName
+    text: "苍狼王"
+  - splitPath: DetailDesc
+    text: "战术协同类【蚩黎峒】【助战】\\n召唤宠物【苍狼王】，苍狼王单次攻击造成1200点+18倍御兽伤害，并有40%几率使敌人进入轻伤状态，发动几率80%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"21380\",\r\n    \"Name\": \"蚩武三刀\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n三连击\",\r\n    \"EchoName\": \"蚩武三刀\",\r\n    \"DetailDesc\": \"攻击伤害类【蚩黎峒】【刀剑】\\\\n单次攻击造0.4倍侠客功力的伤害，连续攻击三次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"蚩武三刀\",\r\n    \"DetailDescTw\": \"攻擊傷害類【蚩黎峒】【刀劍】\\\\n單次攻擊造0.4倍俠客功力的傷害，連續攻擊三次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21380
+  splits:
+  - splitPath: Name
+    text: "蚩武三刀"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n三连击"
+  - splitPath: EchoName
+    text: "蚩武三刀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【蚩黎峒】【刀剑】\\n单次攻击造0.4倍侠客功力的伤害，连续攻击三次。"
+  - splitPath: SubType
+    text: "刀剑"
+  - splitPath: GetDesc
+    text: "敬请期待"
 - raw: "{\r\n    \"Key\": \"100010\",\r\n    \"Name\": \"二分掌法\",\r\n    \"Desc\": \"攻春（1倍）\\\\n二连击\\\\n打断功法<20%>\",\r\n    \"EchoName\": \"二分掌法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次，并有20%几率打断敌人功法。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入衡山派，衡山派弟子从第六年四月起到第七年十二月，贡献达到60，体魄到达100，探索潇湘馆，封行昭、封行晦传授。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+7\",\r\n    \"DescTw\": \"攻春（1倍）\\\\n二連擊\\\\n打斷功法<20%>\",\r\n    \"EchoNameTw\": \"二分掌法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次，並有20%機率打斷敵人功法。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入衡山派，衡山派弟子從第六年四月起到第七年十二月，貢獻達到60，體魄到達100，探索瀟湘館，封行昭、封行晦傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+7\"\r\n  }"
   rawIndex: 100010
   splits:
@@ -6220,7 +7405,7 @@
   - splitPath: GetDesc
     text: "敬请期待"
     translated: "Look forward to it"
-- raw: "{\r\n    \"Key\": \"100720\",\r\n    \"Name\": \"海味乱炖\",\r\n    \"Desc\": \"回春（800）\\\\n增幅（5倍厨艺）\",\r\n    \"EchoName\": \"海味乱炖\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【特技】\\\\n100%几率自动释放回春，回复我方800点+50倍厨艺的气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"回春（800）\\\\n增幅（5倍廚藝）\",\r\n    \"EchoNameTw\": \"海味亂燉\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【特技】\\\\n100%機率自動釋放回春，回覆我方800點+50倍廚藝的氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"100720\",\r\n    \"Name\": \"海味乱炖\",\r\n    \"Desc\": \"回春（800）\\\\n增幅（5倍厨艺）\",\r\n    \"EchoName\": \"海味乱炖\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【特技】\\\\n100%几率自动释放回春，回复我方800点+5倍厨艺的气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"回春（800）\\\\n增幅（5倍廚藝）\",\r\n    \"EchoNameTw\": \"海味亂燉\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【特技】\\\\n100%機率自動釋放回春，回覆我方800點+5倍廚藝的氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100720
   splits:
   - splitPath: Name
@@ -6233,7 +7418,7 @@
     text: "海味乱炖"
     translated: "Seafood Stew Chaos"
   - splitPath: DetailDesc
-    text: "自动触发类【江湖】【特技】\\n100%几率自动释放回春，回复我方800点+50倍厨艺的气血。"
+    text: "自动触发类【江湖】【特技】\\n100%几率自动释放回春，回复我方800点+5倍厨艺的气血。"
     translated: "Auto‑triggered 【Jianghu】【Stunt】\\nThere is a 100% chance for this to automatically release Revitalization, restoring 800 points of +50 times Cooking lifeforce to my allies."
   - splitPath: SubType
     text: "特技"
@@ -7486,7 +8671,7 @@
   - splitPath: GetDesc
     text: "敬请期待"
     translated: "Look forward to it"
-- raw: "{\r\n    \"Key\": \"101240\",\r\n    \"Name\": \"铁蒺藜\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n中毒<15%>\",\r\n    \"EchoName\": \"铁蒺藜\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.5倍侠客功力的伤害，并有15%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第三年开始六扇门接取抓捕高亮的悬赏，探索湘南战胜高亮获取。\",\r\n    \"ExtraDesc\": \"功力+40/灵活+4\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n中毒<15%>\",\r\n    \"EchoNameTw\": \"鐵蒺藜\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.5倍俠客功力的傷害，並有15%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第三年開始六扇門接取抓捕高亮的懸賞，探索湘南戰勝高亮獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/靈活+4\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101240\",\r\n    \"Name\": \"铁蒺藜\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n中毒<15%>\",\r\n    \"EchoName\": \"铁蒺藜\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.5倍侠客功力的伤害，并有15%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第三年开始探索荆湘六扇门接取抓捕高亮的悬赏，探索湘南战胜高亮获取。\",\r\n    \"ExtraDesc\": \"功力+40/灵活+4\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n中毒<15%>\",\r\n    \"EchoNameTw\": \"鐵蒺藜\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.5倍俠客功力的傷害，並有15%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第三年開始探索荊湘六扇門接取抓捕高亮的懸賞，探索湘南戰勝高亮獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/靈活+4\"\r\n  }"
   rawIndex: 101240
   splits:
   - splitPath: Name
@@ -7505,12 +8690,12 @@
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
-    text: "第三年开始六扇门接取抓捕高亮的悬赏，探索湘南战胜高亮获取。"
+    text: "第三年开始探索荆湘六扇门接取抓捕高亮的悬赏，探索湘南战胜高亮获取。"
     translated: "Starting from the third year, the Six Doors take on the bounty for capturing Gao Liang. Explore Xiangnan to defeat Gao Liang and complete it."
   - splitPath: ExtraDesc
     text: "功力+40/灵活+4"
     translated: "Power +40/Flexibility +4"
-- raw: "{\r\n    \"Key\": \"101250\",\r\n    \"Name\": \"杀猪刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n重伤<10%>\",\r\n    \"EchoName\": \"杀猪刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.6倍侠客功力的伤害，并有10%几率使敌人进入重伤状态。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"第三年开始六扇门接取抓捕卞五嫂的悬赏，探索湘北战胜卞五嫂获取。\",\r\n    \"ExtraDesc\": \"功力+40/根骨+4\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n重傷<10%>\",\r\n    \"EchoNameTw\": \"殺豬刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，並有10%機率使敵人進入重傷狀態。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"第三年開始六扇門接取抓捕卞五嫂的懸賞，探索湘北戰勝卞五嫂獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/根骨+4\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101250\",\r\n    \"Name\": \"杀猪刀法\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n重伤<10%>\",\r\n    \"EchoName\": \"杀猪刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.6倍侠客功力的伤害，并有10%几率使敌人进入重伤状态。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"第三年开始探索荆湘六扇门接取抓捕卞五嫂的悬赏，探索湘北战胜卞五嫂获取。\",\r\n    \"ExtraDesc\": \"功力+40/根骨+4\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n重傷<10%>\",\r\n    \"EchoNameTw\": \"殺豬刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍俠客功力的傷害，並有10%機率使敵人進入重傷狀態。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"第三年開始探索荊湘六扇門接取抓捕卞五嫂的懸賞，探索湘北戰勝卞五嫂獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/根骨+4\"\r\n  }"
   rawIndex: 101250
   splits:
   - splitPath: Name
@@ -7529,12 +8714,12 @@
     text: "刀剑"
     translated: "Blades Swords"
   - splitPath: GetDesc
-    text: "第三年开始六扇门接取抓捕卞五嫂的悬赏，探索湘北战胜卞五嫂获取。"
+    text: "第三年开始探索荆湘六扇门接取抓捕卞五嫂的悬赏，探索湘北战胜卞五嫂获取。"
     translated: "Starting in the third year, the Six Doors took on the bounty for capturing Bian Wusao and explored Xiangbei to defeat her."
   - splitPath: ExtraDesc
     text: "功力+40/根骨+4"
     translated: "Power Level +40/Potential +4"
-- raw: "{\r\n    \"Key\": \"101260\",\r\n    \"Name\": \"遍撒金钱\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n三连击\",\r\n    \"EchoName\": \"遍撒金钱\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.3倍侠客功力的伤害，连续三次攻击。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次六扇门抓捕悬赏，六扇门接取抓捕管冲的悬赏，探索荆北战胜管冲获取。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"遍撒金錢\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.3倍俠客功力的傷害，連續三次攻擊。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次六扇門抓捕懸賞，六扇門接取抓捕管衝的懸賞，探索荊北戰勝管衝獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101260\",\r\n    \"Name\": \"遍撒金钱\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n三连击\",\r\n    \"EchoName\": \"遍撒金钱\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.3倍侠客功力的伤害，连续三次攻击。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次荆湘六扇门抓捕悬赏，探索荆湘接取抓捕管冲的悬赏，探索荆北战胜管冲获取。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"遍撒金錢\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.3倍俠客功力的傷害，連續三次攻擊。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次荊湘六扇門抓捕懸賞，探索荊湘接取抓捕管衝的懸賞，探索荊北戰勝管衝獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
   rawIndex: 101260
   splits:
   - splitPath: Name
@@ -7553,12 +8738,12 @@
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
-    text: "第五年开始，且完成过一次六扇门抓捕悬赏，六扇门接取抓捕管冲的悬赏，探索荆北战胜管冲获取。"
+    text: "第五年开始，且完成过一次荆湘六扇门抓捕悬赏，探索荆湘接取抓捕管冲的悬赏，探索荆北战胜管冲获取。"
     translated: "Starting from the fifth year, and after completing a Six Doors bounty mission for apprehending suspects, the Six Doors will take on the bounty to capture Guan Chong. Explore Jingbei and defeat Guan Chong to complete this quest."
   - splitPath: ExtraDesc
     text: "功力+80/灵活+8"
     translated: "Power +80/Flexibility +8"
-- raw: "{\r\n    \"Key\": \"101270\",\r\n    \"Name\": \"旋风斧法\",\r\n    \"Desc\": \"攻击（1.2倍）\",\r\n    \"EchoName\": \"旋风斧法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成1.2倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次六扇门抓捕悬赏，六扇门接取抓捕焦雄的悬赏，探索湘东战胜焦雄获取。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+8\",\r\n    \"DescTw\": \"攻擊（1.2倍）\",\r\n    \"EchoNameTw\": \"旋風斧法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次六扇門抓捕懸賞，六扇門接取抓捕焦雄的懸賞，探索湘東戰勝焦雄獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+8\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101270\",\r\n    \"Name\": \"旋风斧法\",\r\n    \"Desc\": \"攻击（1.2倍）\",\r\n    \"EchoName\": \"旋风斧法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成1.2倍侠客功力的伤害。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次荆湘六扇门抓捕悬赏，探索荆湘六扇门接取抓捕焦雄的悬赏，探索湘东战胜焦雄获取。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+8\",\r\n    \"DescTw\": \"攻擊（1.2倍）\",\r\n    \"EchoNameTw\": \"旋風斧法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.2倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次荊湘六扇門抓捕懸賞，探索荊湘六扇門接取抓捕焦雄的懸賞，探索湘東戰勝焦雄獲取。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+8\"\r\n  }"
   rawIndex: 101270
   splits:
   - splitPath: Name
@@ -7577,12 +8762,12 @@
     text: "百兵"
     translated: "Hundred Weapons Style"
   - splitPath: GetDesc
-    text: "第五年开始，且完成过一次六扇门抓捕悬赏，六扇门接取抓捕焦雄的悬赏，探索湘东战胜焦雄获取。"
+    text: "第五年开始，且完成过一次荆湘六扇门抓捕悬赏，探索荆湘六扇门接取抓捕焦雄的悬赏，探索湘东战胜焦雄获取。"
     translated: "Starting in the fifth year, after completing a Six Doors arrest bounty, the Six Doors took on the bounty to arrest Jiao Xiong. Explore Xiangdong and defeat Jiao Xiong to complete this mission."
   - splitPath: ExtraDesc
     text: "功力+80/根骨+8"
     translated: "Power Level +80/Potential +8"
-- raw: "{\r\n    \"Key\": \"101280\",\r\n    \"Name\": \"佛光掌法\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n强化1<40%>\",\r\n    \"EchoName\": \"佛光掌法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造成1.8倍侠客功力的伤害，并有40%几率强化我方一名侠客。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"第七年开始，且完成过三次六扇门抓捕悬赏，六扇门接取抓捕慈元的悬赏，探索荆东战胜慈元获取。\",\r\n    \"ExtraDesc\": \"功力+100/体魄+10\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n強化1<40%>\",\r\n    \"EchoNameTw\": \"佛光掌法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並有40%機率強化我方一名俠客。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"第七年開始，且完成過三次六扇門抓捕懸賞，六扇門接取抓捕慈元的懸賞，探索荊東戰勝慈元獲取。\",\r\n    \"ExtraDescTw\": \"功力+100/體魄+10\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101280\",\r\n    \"Name\": \"佛光掌法\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n强化1<40%>\",\r\n    \"EchoName\": \"佛光掌法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造成1.8倍侠客功力的伤害，并有40%几率强化我方一名侠客。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"第七年开始，且完成过三次荆湘六扇门抓捕悬赏，探索荆湘六扇门接取抓捕慈元的悬赏，探索荆东战胜慈元获取。\",\r\n    \"ExtraDesc\": \"功力+100/体魄+10\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n強化1<40%>\",\r\n    \"EchoNameTw\": \"佛光掌法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並有40%機率強化我方一名俠客。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"第七年開始，且完成過三次荊湘六扇門抓捕懸賞，探索荊湘六扇門接取抓捕慈元的懸賞，探索荊東戰勝慈元獲取。\",\r\n    \"ExtraDescTw\": \"功力+100/體魄+10\"\r\n  }"
   rawIndex: 101280
   splits:
   - splitPath: Name
@@ -7601,7 +8786,7 @@
     text: "拳脚"
     translated: "Punch and kick"
   - splitPath: GetDesc
-    text: "第七年开始，且完成过三次六扇门抓捕悬赏，六扇门接取抓捕慈元的悬赏，探索荆东战胜慈元获取。"
+    text: "第七年开始，且完成过三次荆湘六扇门抓捕悬赏，探索荆湘六扇门接取抓捕慈元的悬赏，探索荆东战胜慈元获取。"
     translated: "Since the seventh year, one must have completed three bounties for catching criminals from the Six Doors. The Six Doors then offer a bounty to catch Ci Yuan, which can be obtained by exploring Jin Dong and defeating Ci Yuan."
   - splitPath: ExtraDesc
     text: "功力+100/体魄+10"
@@ -7825,20 +9010,20 @@
   - splitPath: GetDesc
     text: "敬请期待"
     translated: "Look forward to it"
-- raw: "{\r\n    \"Key\": \"101390\",\r\n    \"Name\": \"灵兽通心诀\",\r\n    \"Desc\": \"[灵兽通心决]可叠加1层，助战类技能伤害+80%\",\r\n    \"EchoName\": \"灵兽通心决\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n释放战术【灵兽通心诀】，助战类技能伤害增加80%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"御兽达到160，完成袁飞故事解锁，侠客界面袁飞角色卡右上角进入故事模式。\",\r\n    \"ExtraDesc\": \"功力+100\",\r\n    \"DescTw\": \"[靈獸通心決]可疊加1層，助戰類技能傷害+80%\",\r\n    \"EchoNameTw\": \"靈獸通心決\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【靈獸通心訣】，助戰類技能傷害增加80%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"御獸達到160，完成袁飛故事解鎖，俠客介面袁飛角色卡右上角進入故事模式。\",\r\n    \"ExtraDescTw\": \"功力+100\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"101390\",\r\n    \"Name\": \"灵兽通心诀\",\r\n    \"Desc\": \"[灵兽通心决]可叠加1层，助战类技能伤害+60%\",\r\n    \"EchoName\": \"灵兽通心决\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n释放战术【灵兽通心诀】，助战类技能伤害增加60%。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"御兽达到160，完成袁飞故事解锁，侠客界面袁飞角色卡右上角进入故事模式。\",\r\n    \"ExtraDesc\": \"功力+100\",\r\n    \"DescTw\": \"[靈獸通心決]可疊加1層，助戰類技能傷害+60%\",\r\n    \"EchoNameTw\": \"靈獸通心決\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【靈獸通心訣】，助戰類技能傷害增加60%。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"御獸達到160，完成袁飛故事解鎖，俠客介面袁飛角色卡右上角進入故事模式。\",\r\n    \"ExtraDescTw\": \"功力+100\"\r\n  }"
   rawIndex: 101390
   splits:
   - splitPath: Name
     text: "灵兽通心诀"
     translated: "Heartlinking Technique of Spirit Beasts"
   - splitPath: Desc
-    text: "[灵兽通心决]可叠加1层，助战类技能伤害+80%"
+    text: "[灵兽通心决]可叠加1层，助战类技能伤害+60%"
     translated: "[Spirit Beast Heart Insight] can stack up to 1 layers and increases the damage of support skills by +80%."
   - splitPath: EchoName
     text: "灵兽通心决"
     translated: "Heart Communication Technique of Spirit Beasts"
   - splitPath: DetailDesc
-    text: "战术协同类【江湖】【心法】\\n释放战术【灵兽通心诀】，助战类技能伤害增加80%。"
+    text: "战术协同类【江湖】【心法】\\n释放战术【灵兽通心诀】，助战类技能伤害增加60%。"
     translated: "Tactical coordination class 【Jianghu】【Heart Method】\\nDeploy tactical 【Heartlinking Technique of Spirit Beasts】; increase auxiliary skill damage by 80%."
   - splitPath: SubType
     text: "心法"
@@ -8581,6 +9766,483 @@
   - splitPath: ExtraDesc
     text: "御兽+12"
     translated: "Beast Taming +12"
+- raw: "{\r\n    \"Key\": \"101800\",\r\n    \"Name\": \"追魂小弩\",\r\n    \"Desc\": \"攻击（3000）<100%>\\\\n条件-敌方拥有异常状态\",\r\n    \"EchoName\": \"追魂小弩\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【特技】\\\\n当敌方拥有异常状态时，单次攻击造成3000点伤害的攻击。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（3000）<100%>\\\\n條件-敵方擁有異常狀態\",\r\n    \"EchoNameTw\": \"追魂小弩\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【特技】\\\\n當敵方擁有異常狀態時，單次攻擊造成3000點傷害的攻擊。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 101800
+  splits:
+  - splitPath: Name
+    text: "追魂小弩"
+  - splitPath: Desc
+    text: "攻击（3000）<100%>\\n条件-敌方拥有异常状态"
+  - splitPath: EchoName
+    text: "追魂小弩"
+  - splitPath: DetailDesc
+    text: "自动触发类【江湖】【特技】\\n当敌方拥有异常状态时，单次攻击造成3000点伤害的攻击。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"101810\",\r\n    \"Name\": \"点星芒\",\r\n    \"Desc\": \"【开局触发】攻击（15000）\\\\n轻伤<100%>\",\r\n    \"EchoName\": \"点星芒\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【特技】\\\\n单次攻击造成15000点伤害的攻击，并使敌人进入轻伤状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"【開局觸發】攻擊（15000）\\\\n輕傷<100%>\",\r\n    \"EchoNameTw\": \"點星芒\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【特技】\\\\n單次攻擊造成15000點傷害的攻擊，並使敵人進入輕傷狀態。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 101810
+  splits:
+  - splitPath: Name
+    text: "点星芒"
+  - splitPath: Desc
+    text: "【开局触发】攻击（15000）\\n轻伤<100%>"
+  - splitPath: EchoName
+    text: "点星芒"
+  - splitPath: DetailDesc
+    text: "自动触发类【江湖】【特技】\\n单次攻击造成15000点伤害的攻击，并使敌人进入轻伤状态。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"101820\",\r\n    \"Name\": \"小虎\",\r\n    \"Desc\": \"[小虎]支援战斗\",\r\n    \"EchoName\": \"小虎\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【小虎】。小虎单次攻击造成200点+12倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫小虎后获得。\",\r\n    \"ExtraDesc\": \"御兽+8\",\r\n    \"DescTw\": \"[小虎]支援戰鬥\",\r\n    \"EchoNameTw\": \"小虎\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【小虎】。小虎單次攻擊造成200點+12倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"出生地位於川蜀，第一年在有間客棧遇到小狸貓，起名叫小虎後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+8\"\r\n  }"
+  rawIndex: 101820
+  splits:
+  - splitPath: Name
+    text: "小虎"
+  - splitPath: Desc
+    text: "[小虎]支援战斗"
+  - splitPath: EchoName
+    text: "小虎"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【小虎】。小虎单次攻击造成200点+12倍御兽伤害，发动几率100%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫小虎后获得。"
+  - splitPath: ExtraDesc
+    text: "御兽+8"
+- raw: "{\r\n    \"Key\": \"101830\",\r\n    \"Name\": \"於菟\",\r\n    \"Desc\": \"[於菟]支援战斗\",\r\n    \"EchoName\": \"於菟\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【於菟】。於菟单次攻击造成200点+12倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫於菟后获得。\",\r\n    \"ExtraDesc\": \"御兽+8\",\r\n    \"DescTw\": \"[於菟]支援戰鬥\",\r\n    \"EchoNameTw\": \"於菟\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【於菟】。於菟單次攻擊造成200點+12倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"出生地位於川蜀，第一年在有間客棧遇到小狸貓，起名叫於菟後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+8\"\r\n  }"
+  rawIndex: 101830
+  splits:
+  - splitPath: Name
+    text: "於菟"
+  - splitPath: Desc
+    text: "[於菟]支援战斗"
+  - splitPath: EchoName
+    text: "於菟"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【於菟】。於菟单次攻击造成200点+12倍御兽伤害，发动几率100%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫於菟后获得。"
+  - splitPath: ExtraDesc
+    text: "御兽+8"
+- raw: "{\r\n    \"Key\": \"101840\",\r\n    \"Name\": \"招财\",\r\n    \"Desc\": \"[招财]支援战斗\",\r\n    \"EchoName\": \"招财\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【招财】。招财单次攻击造成200点+12倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫招财后获得。\",\r\n    \"ExtraDesc\": \"御兽+8\",\r\n    \"DescTw\": \"[招財]支援戰鬥\",\r\n    \"EchoNameTw\": \"招財\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【招財】。招財單次攻擊造成200點+12倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"出生地位於川蜀，第一年在有間客棧遇到小狸貓，起名叫招財後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+8\"\r\n  }"
+  rawIndex: 101840
+  splits:
+  - splitPath: Name
+    text: "招财"
+  - splitPath: Desc
+    text: "[招财]支援战斗"
+  - splitPath: EchoName
+    text: "招财"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】\\n召唤宠物【招财】。招财单次攻击造成200点+12倍御兽伤害，发动几率100%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "出生地位于川蜀，第一年在有间客栈遇到小狸猫，起名叫招财后获得。"
+  - splitPath: ExtraDesc
+    text: "御兽+8"
+- raw: "{\r\n    \"Key\": \"101850\",\r\n    \"Name\": \"四门刀法\",\r\n    \"Desc\": \"攻击（0.4倍）\",\r\n    \"EchoName\": \"四门刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造0.4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"出生地位于川蜀，第一年在有间客栈遇到江湖人传授。\",\r\n    \"ExtraDesc\": \"功力+40/根骨+2/体魄+2\",\r\n    \"DescTw\": \"攻擊（0.4倍）\",\r\n    \"EchoNameTw\": \"四門刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造0.4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"出生地位於川蜀，第一年在有間客棧遇到江湖人傳授。\",\r\n    \"ExtraDescTw\": \"功力+40/根骨+2/體魄+2\"\r\n  }"
+  rawIndex: 101850
+  splits:
+  - splitPath: Name
+    text: "四门刀法"
+  - splitPath: Desc
+    text: "攻击（0.4倍）"
+  - splitPath: EchoName
+    text: "四门刀法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造0.4倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+  - splitPath: GetDesc
+    text: "出生地位于川蜀，第一年在有间客栈遇到江湖人传授。"
+  - splitPath: ExtraDesc
+    text: "功力+40/根骨+2/体魄+2"
+- raw: "{\r\n    \"Key\": \"101860\",\r\n    \"Name\": \"猞猁珠\",\r\n    \"Desc\": \"【助力】会心+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"猞猁珠\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客会心发生率+2%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】會心+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"猞猁珠\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客會心發生率+2%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101860
+  splits:
+  - splitPath: Name
+    text: "猞猁珠"
+  - splitPath: Desc
+    text: "【助力】会心+2%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "猞猁珠"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】\\n出战侠客会心发生率+2%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101870\",\r\n    \"Name\": \"孔明灯\",\r\n    \"Desc\": \"【助力】气血上限+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"孔明灯\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"孔明燈\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101870
+  splits:
+  - splitPath: Name
+    text: "孔明灯"
+  - splitPath: Desc
+    text: "【助力】气血上限+3%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "孔明灯"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】\\n出战侠客气血上限+3%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101880\",\r\n    \"Name\": \"川椒麻\",\r\n    \"Desc\": \"【助力】功力+4%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"川椒麻\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客功力加成4%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】功力+4%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"川椒麻\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客功力加成4%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101880
+  splits:
+  - splitPath: Name
+    text: "川椒麻"
+  - splitPath: Desc
+    text: "【助力】功力+4%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "川椒麻"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客功力加成4%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101890\",\r\n    \"Name\": \"蜀豉香\",\r\n    \"Desc\": \"【助力】气血+4%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"蜀豉香\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血加成4%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+4%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"蜀豉香\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血加成4%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101890
+  splits:
+  - splitPath: Name
+    text: "蜀豉香"
+  - splitPath: Desc
+    text: "【助力】气血+4%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "蜀豉香"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客气血加成4%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101900\",\r\n    \"Name\": \"茱萸辛\",\r\n    \"Desc\": \"【助力】功力+4%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"茱萸辛\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客功力加成4%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】功力+4%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"茱萸辛\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客功力加成4%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101900
+  splits:
+  - splitPath: Name
+    text: "茱萸辛"
+  - splitPath: Desc
+    text: "【助力】功力+4%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "茱萸辛"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客功力加成4%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101910\",\r\n    \"Name\": \"百菜百味\",\r\n    \"Desc\": \"【助力】气血+8%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"百菜百味\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血加成8%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+8%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"百菜百味\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血加成8%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101910
+  splits:
+  - splitPath: Name
+    text: "百菜百味"
+  - splitPath: Desc
+    text: "【助力】气血+8%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "百菜百味"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客气血加成8%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101920\",\r\n    \"Name\": \"粽子\",\r\n    \"Desc\": \"【助力】气血+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"粽子\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血加成2%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"粽子\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血加成2%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101920
+  splits:
+  - splitPath: Name
+    text: "粽子"
+  - splitPath: Desc
+    text: "【助力】气血+2%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "粽子"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客气血加成2%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101930\",\r\n    \"Name\": \"糍粑\",\r\n    \"Desc\": \"【助力】气血+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"糍粑\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血加成2%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"餈粑\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血加成2%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 101930
+  splits:
+  - splitPath: Name
+    text: "糍粑"
+  - splitPath: Desc
+    text: "【助力】气血+2%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "糍粑"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客气血加成2%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"101940\",\r\n    \"Name\": \"邀月剑法\",\r\n    \"Desc\": \"攻击（0.9倍）\\\\n行动回复1<40%>\",\r\n    \"EchoName\": \"邀月剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，并有40%几率释放回复1点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.9倍）\\\\n行動回覆1<40%>\",\r\n    \"EchoNameTw\": \"邀月劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有40%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 101940
+  splits:
+  - splitPath: Name
+    text: "邀月剑法"
+  - splitPath: Desc
+    text: "攻击（0.9倍）\\n行动回复1<40%>"
+  - splitPath: EchoName
+    text: "邀月剑法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成1倍侠客功力的伤害，并有40%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"101950\",\r\n    \"Name\": \"青莲剑诀\",\r\n    \"Desc\": \"攻击（3.2倍）\",\r\n    \"EchoName\": \"青莲剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成3.2倍成侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（3.2倍）\",\r\n    \"EchoNameTw\": \"青蓮劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成3.2倍成俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 101950
+  splits:
+  - splitPath: Name
+    text: "青莲剑诀"
+  - splitPath: Desc
+    text: "攻击（3.2倍）"
+  - splitPath: EchoName
+    text: "青莲剑诀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成3.2倍成侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"101960\",\r\n    \"Name\": \"对影剑诀\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n二连击\",\r\n    \"EchoName\": \"对影剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.6倍成侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"對影劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.6倍成俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 101960
+  splits:
+  - splitPath: Name
+    text: "对影剑诀"
+  - splitPath: Desc
+    text: "攻击（0.6倍）\\n二连击"
+  - splitPath: EchoName
+    text: "对影剑诀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成0.6倍成侠客功力的伤害，连续攻击两次。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"101970\",\r\n    \"Name\": \"青莲剑歌\",\r\n    \"Desc\": \"攻击（3.2倍）\\\\n[青莲剑歌]可叠加1层，每层伤害+30%\",\r\n    \"EchoName\": \"青莲剑歌\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成3.2倍成侠客功力的伤害,并释放战术【青莲剑歌】。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（3.2倍）\\\\n[青蓮劍歌]可疊加1層，每層傷害+30%\",\r\n    \"EchoNameTw\": \"青蓮劍歌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成3.2倍成俠客功力的傷害,並釋放戰術【青蓮劍歌】。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 101970
+  splits:
+  - splitPath: Name
+    text: "青莲剑歌"
+  - splitPath: Desc
+    text: "攻击（3.2倍）\\n[青莲剑歌]可叠加1层，每层伤害+30%"
+  - splitPath: EchoName
+    text: "青莲剑歌"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成3.2倍成侠客功力的伤害,并释放战术【青莲剑歌】。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"101980\",\r\n    \"Name\": \"潜夜步\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"潜夜步\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【心法】\\\\n释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"第三年开始川蜀六扇门接取抓捕吴换的悬赏，探索川南战胜吴换获取。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+7\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"潛夜步\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"第三年開始川蜀六扇門接取抓捕吳換的懸賞，探索川南戰勝吳換獲取。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+7\"\r\n  }"
+  rawIndex: 101980
+  splits:
+  - splitPath: Name
+    text: "潜夜步"
+  - splitPath: Desc
+    text: "闪避1"
+  - splitPath: EchoName
+    text: "潜夜步"
+  - splitPath: DetailDesc
+    text: "战术协同类【江湖】【心法】\\n释放战术【闪避】，可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
+  - splitPath: GetDesc
+    text: "第三年开始川蜀六扇门接取抓捕吴换的悬赏，探索川南战胜吴换获取。"
+  - splitPath: ExtraDesc
+    text: "功力+70/灵活+7"
+- raw: "{\r\n    \"Key\": \"101990\",\r\n    \"Name\": \"玉房秘术\",\r\n    \"Desc\": \"回春（900倍红颜数量）\",\r\n    \"EchoName\": \"玉房秘术\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【特技】\\\\n单次回复900倍红颜知己数量的气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"第五年开始，且完成过一次川蜀六扇门抓捕悬赏，探索川蜀六扇门接取抓捕元阳子的悬赏，探索川南战元阳子雄获取。\",\r\n    \"ExtraDesc\": \"气血+1000/内息+10\",\r\n    \"DescTw\": \"回春（900倍紅顏數量）\",\r\n    \"EchoNameTw\": \"玉房祕術\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【特技】\\\\n單次回覆900倍紅顏知己數量的氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"第五年開始，且完成過一次川蜀六扇門抓捕懸賞，探索川蜀六扇門接取抓捕元陽子的懸賞，探索川南戰元陽子雄獲取。\",\r\n    \"ExtraDescTw\": \"氣血+1000/內息+10\"\r\n  }"
+  rawIndex: 101990
+  splits:
+  - splitPath: Name
+    text: "玉房秘术"
+  - splitPath: Desc
+    text: "回春（900倍红颜数量）"
+  - splitPath: EchoName
+    text: "玉房秘术"
+  - splitPath: DetailDesc
+    text: "战术协同类【江湖】【特技】\\n单次回复900倍红颜知己数量的气血。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "第五年开始，且完成过一次川蜀六扇门抓捕悬赏，探索川蜀六扇门接取抓捕元阳子的悬赏，探索川南战元阳子雄获取。"
+  - splitPath: ExtraDesc
+    text: "气血+1000/内息+10"
+- raw: "{\r\n    \"Key\": \"102000\",\r\n    \"Name\": \"飞龙剑法\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"飞龙剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"开启川蜀六扇门后，探索川中川蜀六扇门拜访樊重关，此后在第五年一月开始，且完成过一次川蜀六扇门抓捕悬赏后，探索六扇门得知盗粮三鼠在川南，将其三人抓获。再次探索川蜀六扇门得知盗粮三鼠被杀。第六年一月开始，且川蜀六扇门好感到达60，探索川中，战胜富贵杀手，最后探索川蜀六扇门，揭露况天龙并战胜，习得飞龙剑法。\",\r\n    \"ExtraDesc\": \"功力+130/根骨+13\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"飛龍劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"開啟川蜀六扇門後，探索川中川蜀六扇門拜訪樊重關，此後在第五年一月開始，且完成過一次川蜀六扇門抓捕懸賞後，探索六扇門得知盜糧三鼠在川南，將其三人抓獲。再次探索川蜀六扇門得知盜糧三鼠被殺。第六年一月開始，且川蜀六扇門好感到達60，探索川中，戰勝富貴殺手，最後探索川蜀六扇門，揭露況天龍並戰勝，習得飛龍劍法。\",\r\n    \"ExtraDescTw\": \"功力+130/根骨+13\"\r\n  }"
+  rawIndex: 102000
+  splits:
+  - splitPath: Name
+    text: "飞龙剑法"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "飞龙剑法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】\\n单次攻击造成1.8倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+  - splitPath: GetDesc
+    text: "开启川蜀六扇门后，探索川中川蜀六扇门拜访樊重关，此后在第五年一月开始，且完成过一次川蜀六扇门抓捕悬赏后，探索六扇门得知盗粮三鼠在川南，将其三人抓获。再次探索川蜀六扇门得知盗粮三鼠被杀。第六年一月开始，且川蜀六扇门好感到达60，探索川中，战胜富贵杀手，最后探索川蜀六扇门，揭露况天龙并战胜，习得飞龙剑法。"
+  - splitPath: ExtraDesc
+    text: "功力+130/根骨+13"
+- raw: "{\r\n    \"Key\": \"102010\",\r\n    \"Name\": \"鹿茸\",\r\n    \"Desc\": \"【助力】气血上限+1%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"鹿茸\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血上限+1%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+1%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"鹿茸\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102010
+  splits:
+  - splitPath: Name
+    text: "鹿茸"
+  - splitPath: Desc
+    text: "【助力】气血上限+1%\\n无需出战即可生效"
+  - splitPath: EchoName
+    text: "鹿茸"
+  - splitPath: DetailDesc
+    text: "助力收集类【江湖】【特技】\\n出战侠客气血上限+1%。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"102020\",\r\n    \"Name\": \"换脸三变\",\r\n    \"Desc\": \"[仙神变]或[鬼王变]或[英杰变]支援战斗\",\r\n    \"EchoName\": \"换脸三变\",\r\n    \"DetailDesc\": \"自动释放类【江湖】【特技】\\\\n释放[仙神变]或[鬼王变]或[英杰变]三种战术之一。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"[仙神變]或[鬼王變]或[英傑變]支援戰鬥\",\r\n    \"EchoNameTw\": \"換臉三變\",\r\n    \"DetailDescTw\": \"自動釋放類【江湖】【特技】\\\\n釋放[仙神變]或[鬼王變]或[英傑變]三種戰術之一。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102020
+  splits:
+  - splitPath: Name
+    text: "换脸三变"
+  - splitPath: Desc
+    text: "[仙神变]或[鬼王变]或[英杰变]支援战斗"
+  - splitPath: EchoName
+    text: "换脸三变"
+  - splitPath: DetailDesc
+    text: "自动释放类【江湖】【特技】\\n释放[仙神变]或[鬼王变]或[英杰变]三种战术之一。"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+- raw: "{\r\n    \"Key\": \"900010\",\r\n    \"Name\": \"多心咒\",\r\n    \"Desc\": \"消除战术-全\",\r\n    \"EchoName\": \"多心咒\",\r\n    \"DetailDesc\": \"辅助回复类【特技】\\\\n清除敌人全部战术。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"消除戰術-全\",\r\n    \"EchoNameTw\": \"多心咒\",\r\n    \"DetailDescTw\": \"輔助回覆類【特技】\\\\n清除敵人全部戰術。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900010
+  splits:
+  - splitPath: Name
+    text: "多心咒"
+  - splitPath: Desc
+    text: "消除战术-全"
+  - splitPath: EchoName
+    text: "多心咒"
+  - splitPath: DetailDesc
+    text: "辅助回复类【特技】\\n清除敌人全部战术。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900020\",\r\n    \"Name\": \"紧箍咒\",\r\n    \"Desc\": \"回春（10%我方最大气血）\\\\n我方力竭<100%>\",\r\n    \"EchoName\": \"紧箍咒\",\r\n    \"DetailDesc\": \"辅助回复类【特技】\\\\n回复我方当前最大气血的10%，并为我方添加力竭状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"回春（10%我方最大氣血）\\\\n我方力竭<100%>\",\r\n    \"EchoNameTw\": \"緊箍咒\",\r\n    \"DetailDescTw\": \"輔助回覆類【特技】\\\\n回覆我方當前最大氣血的10%，併為我方新增力竭狀態。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900020
+  splits:
+  - splitPath: Name
+    text: "紧箍咒"
+  - splitPath: Desc
+    text: "回春（10%我方最大气血）\\n我方力竭<100%>"
+  - splitPath: EchoName
+    text: "紧箍咒"
+  - splitPath: DetailDesc
+    text: "辅助回复类【特技】\\n回复我方当前最大气血的10%，并为我方添加力竭状态。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900030\",\r\n    \"Name\": \"如意棒法\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n打断功法<40%>\",\r\n    \"EchoName\": \"如意棒法\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n单次攻击造成1.8倍侠客功力的伤害，并有40%几率打断敌人一个功法。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n打斷功法<40%>\",\r\n    \"EchoNameTw\": \"如意棒法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n單次攻擊造成1.8倍俠客功力的傷害，並有40%機率打斷敵人一個功法。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900030
+  splits:
+  - splitPath: Name
+    text: "如意棒法"
+  - splitPath: Desc
+    text: "攻击（1.8倍）\\n打断功法<40%>"
+  - splitPath: EchoName
+    text: "如意棒法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n单次攻击造成1.8倍侠客功力的伤害，并有40%几率打断敌人一个功法。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900040\",\r\n    \"Name\": \"大圣棒法\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n九连击\",\r\n    \"EchoName\": \"大圣棒法\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击九次。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n九連擊\",\r\n    \"EchoNameTw\": \"大聖棒法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n單次攻擊造成0.3倍俠客功力的傷害，連續攻擊九次。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900040
+  splits:
+  - splitPath: Name
+    text: "大圣棒法"
+  - splitPath: Desc
+    text: "攻击（0.3倍）\\n九连击"
+  - splitPath: EchoName
+    text: "大圣棒法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n单次攻击造成0.3倍侠客功力的伤害，连续攻击九次。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900050\",\r\n    \"Name\": \"倒打一耙\",\r\n    \"Desc\": \"攻击（2.4倍）\\\\n禁疗<90%>\",\r\n    \"EchoName\": \"倒打一耙\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n单次攻击造成2.4倍侠客功力的伤害，并有90%几率为敌人添加禁疗状态。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（2.4倍）\\\\n禁療<90%>\",\r\n    \"EchoNameTw\": \"倒打一耙\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n單次攻擊造成2.4倍俠客功力的傷害，並有90%機率為敵人新增禁療狀態。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900050
+  splits:
+  - splitPath: Name
+    text: "倒打一耙"
+  - splitPath: Desc
+    text: "攻击（2.4倍）\\n禁疗<90%>"
+  - splitPath: EchoName
+    text: "倒打一耙"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n单次攻击造成2.4倍侠客功力的伤害，并有90%几率为敌人添加禁疗状态。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900060\",\r\n    \"Name\": \"天蓬化气\",\r\n    \"Desc\": \"行动回复2\\\\n条件-我方处于异常状态\",\r\n    \"EchoName\": \"天蓬化气\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n我方处于异常状态时，行动回复两点。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"行動回覆2\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameTw\": \"天蓬化氣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n我方處於異常狀態時，行動回覆兩點。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900060
+  splits:
+  - splitPath: Name
+    text: "天蓬化气"
+  - splitPath: Desc
+    text: "行动回复2\\n条件-我方处于异常状态"
+  - splitPath: EchoName
+    text: "天蓬化气"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n我方处于异常状态时，行动回复两点。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900070\",\r\n    \"Name\": \"降魔杖法\",\r\n    \"Desc\": \"攻击（4%对方气血上限）\",\r\n    \"EchoName\": \"降魔杖法\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n单次攻击对方气血上限4%的伤害。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（4%對方氣血上限）\",\r\n    \"EchoNameTw\": \"降魔杖法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n單次攻擊對方氣血上限4%的傷害。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900070
+  splits:
+  - splitPath: Name
+    text: "降魔杖法"
+  - splitPath: Desc
+    text: "攻击（4%对方气血上限）"
+  - splitPath: EchoName
+    text: "降魔杖法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n单次攻击对方气血上限4%的伤害。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900080\",\r\n    \"Name\": \"罗汉金身\",\r\n    \"Desc\": \"[罗汉金身]可叠加1层，每层防御+100%\\\\n限一次\",\r\n    \"EchoName\": \"罗汉金身\",\r\n    \"DetailDesc\": \"战术协同类【特技】\\\\n释放战术【罗汉金身】。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"[羅漢金身]可疊加1層，每層防禦+100%\\\\n限一次\",\r\n    \"EchoNameTw\": \"羅漢金身\",\r\n    \"DetailDescTw\": \"戰術協同類【特技】\\\\n釋放戰術【羅漢金身】。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 900080
+  splits:
+  - splitPath: Name
+    text: "罗汉金身"
+  - splitPath: Desc
+    text: "[罗汉金身]可叠加1层，每层防御+100%\\n限一次"
+  - splitPath: EchoName
+    text: "罗汉金身"
+  - splitPath: DetailDesc
+    text: "战术协同类【特技】\\n释放战术【罗汉金身】。"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"900090\",\r\n    \"Name\": \"白龙剑诀\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n二连击\",\r\n    \"EchoName\": \"白龙剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【特技】\\\\n单次攻击造成3倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"白龍劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【特技】\\\\n單次攻擊造成3倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 900090
+  splits:
+  - splitPath: Name
+    text: "白龙剑诀"
+  - splitPath: Desc
+    text: "攻击（0.7倍）\\n二连击"
+  - splitPath: EchoName
+    text: "白龙剑诀"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【特技】\\n单次攻击造成3倍侠客功力的伤害。"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"900100\",\r\n    \"Name\": \"龙腾雾隐\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"龙腾雾隐\",\r\n    \"DetailDesc\": \"战术协同类【特技】\\\\n释放战术【龙腾雾隐】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"龍騰霧隱\",\r\n    \"DetailDescTw\": \"戰術協同類【特技】\\\\n釋放戰術【龍騰霧隱】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 900100
+  splits:
+  - splitPath: Name
+    text: "龙腾雾隐"
+  - splitPath: Desc
+    text: "闪避1"
+  - splitPath: EchoName
+    text: "龙腾雾隐"
+  - splitPath: DetailDesc
+    text: "战术协同类【特技】\\n释放战术【龙腾雾隐】，可以抵消一次伤害。"
+  - splitPath: SubType
+    text: "心法"
 - raw: "{\r\n    \"Key\": \"1000010\",\r\n    \"Name\": \"半拂折枝手2\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n封穴<10%>\",\r\n    \"EchoName\": \"半拂折枝手\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n封穴<10%>\",\r\n    \"EchoNameTw\": \"半拂折枝手\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
   rawIndex: 1000010
   splits:
@@ -13138,7 +14800,7 @@
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
-- raw: "{\r\n    \"Key\": \"1003160\",\r\n    \"Name\": \"子午钩法2\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n二连击\",\r\n    \"EchoName\": \"离魂钩法2\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"離魂鉤法2\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1003160\",\r\n    \"Name\": \"子午钩法2\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n二连击\",\r\n    \"EchoName\": \"离魂钩法\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"離魂鉤法\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
   rawIndex: 1003160
   splits:
   - splitPath: Name
@@ -13148,12 +14810,12 @@
     text: "攻击（0.7倍）\\n二连击"
     translated: "Attack (0.7x)\\nDouble Strike"
   - splitPath: EchoName
-    text: "离魂钩法2"
+    text: "离魂钩法"
     translated: "Soul‑separating Hook Technique 2"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
-- raw: "{\r\n    \"Key\": \"1003170\",\r\n    \"Name\": \"子午勾魂追命归2\",\r\n    \"Desc\": \"攻击（2.7倍）\\\\n二连击\",\r\n    \"EchoName\": \"子午勾魂追命归2\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（2.7倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"子午勾魂追命歸2\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1003170\",\r\n    \"Name\": \"子午勾魂追命归2\",\r\n    \"Desc\": \"攻击（2.7倍）\\\\n二连击\",\r\n    \"EchoName\": \"子午勾魂追命归\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（2.7倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"子午勾魂追命歸\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
   rawIndex: 1003170
   splits:
   - splitPath: Name
@@ -13163,7 +14825,7 @@
     text: "攻击（2.7倍）\\n二连击"
     translated: "Attack (2.7x)\\nDouble hit"
   - splitPath: EchoName
-    text: "子午勾魂追命归2"
+    text: "子午勾魂追命归"
     translated: "Meridian Soul Reaper Pursuit Returns to 2"
   - splitPath: SubType
     text: "百兵"
@@ -13288,6 +14950,391 @@
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
+- raw: "{\r\n    \"Key\": \"1003260\",\r\n    \"Name\": \"飞蝗打穴2\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n封穴<30%>\",\r\n    \"EchoName\": \"飞蝗打穴\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n封穴<30%>\",\r\n    \"EchoNameTw\": \"飛蝗打穴\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003260
+  splits:
+  - splitPath: Name
+    text: "飞蝗打穴2"
+  - splitPath: Desc
+    text: "攻击（0.3倍）\\n封穴<30%>"
+  - splitPath: EchoName
+    text: "飞蝗打穴"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003270\",\r\n    \"Name\": \"没羽飞蝗无尽休2\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n七连击\\\\n封穴<100%>\",\r\n    \"EchoName\": \"没羽飞蝗无尽休\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n七連擊\\\\n封穴<100%>\",\r\n    \"EchoNameTw\": \"沒羽飛蝗無盡休\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003270
+  splits:
+  - splitPath: Name
+    text: "没羽飞蝗无尽休2"
+  - splitPath: Desc
+    text: "攻击（0.3倍）\\n七连击\\n封穴<100%>"
+  - splitPath: EchoName
+    text: "没羽飞蝗无尽休"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003280\",\r\n    \"Name\": \"漫天花雨2\",\r\n    \"Desc\": \"攻击（0.2倍伤害）\\\\n四连击\\\\n轻伤<40%>\",\r\n    \"EchoName\": \"漫天花雨\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.2倍傷害）\\\\n四連擊\\\\n輕傷<40%>\",\r\n    \"EchoNameTw\": \"漫天花雨\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003280
+  splits:
+  - splitPath: Name
+    text: "漫天花雨2"
+  - splitPath: Desc
+    text: "攻击（0.2倍伤害）\\n四连击\\n轻伤<40%>"
+  - splitPath: EchoName
+    text: "漫天花雨"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003290\",\r\n    \"Name\": \"追魂夺命猞猁孙2\",\r\n    \"Desc\": \"攻击（3倍）\\\\n二连击\",\r\n    \"EchoName\": \"追魂夺命猞猁孙\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（3倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"追魂奪命猞猁孫\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003290
+  splits:
+  - splitPath: Name
+    text: "追魂夺命猞猁孙2"
+  - splitPath: Desc
+    text: "攻击（3倍）\\n二连击"
+  - splitPath: EchoName
+    text: "追魂夺命猞猁孙"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003300\",\r\n    \"Name\": \"追风剑法2\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n二连击\",\r\n    \"EchoName\": \"追风剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"追風劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003300
+  splits:
+  - splitPath: Name
+    text: "追风剑法2"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n二连击"
+  - splitPath: EchoName
+    text: "追风剑法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003310\",\r\n    \"Name\": \"无锋两式2\",\r\n    \"Desc\": \"攻击（0.8倍）\\\\n二连击\",\r\n    \"EchoName\": \"无锋两式\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.8倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"無鋒兩式\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003310
+  splits:
+  - splitPath: Name
+    text: "无锋两式2"
+  - splitPath: Desc
+    text: "攻击（0.8倍）\\n二连击"
+  - splitPath: EchoName
+    text: "无锋两式"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003320\",\r\n    \"Name\": \"双峰叠落如泰山2\",\r\n    \"Desc\": \"攻击（4倍）\\\\n二连击\",\r\n    \"EchoName\": \"双峰叠落如泰山\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（4倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"雙峰疊落如泰山\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003320
+  splits:
+  - splitPath: Name
+    text: "双峰叠落如泰山2"
+  - splitPath: Desc
+    text: "攻击（4倍）\\n二连击"
+  - splitPath: EchoName
+    text: "双峰叠落如泰山"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003330\",\r\n    \"Name\": \"千机箱2\",\r\n    \"Desc\": \"[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]支援战斗\",\r\n    \"EchoName\": \"千机箱2\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"[飛蝗匣]或[連弩機]或[蛛絲壺]或[萬花筒]支援戰鬥\",\r\n    \"EchoNameTw\": \"千機箱2\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003330
+  splits:
+  - splitPath: Name
+    text: "千机箱2"
+  - splitPath: Desc
+    text: "[飞蝗匣]或[连弩机]或[蛛丝壶]或[万花筒]支援战斗"
+  - splitPath: EchoName
+    text: "千机箱2"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"1003340\",\r\n    \"Name\": \"破天石2\",\r\n    \"Desc\": \"攻击（3.6倍）\",\r\n    \"EchoName\": \"破天石2\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（3.6倍）\",\r\n    \"EchoNameTw\": \"破天石2\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003340
+  splits:
+  - splitPath: Name
+    text: "破天石2"
+  - splitPath: Desc
+    text: "攻击（3.6倍）"
+  - splitPath: EchoName
+    text: "破天石2"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003350\",\r\n    \"Name\": \"金刀十诀2\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"金刀十诀\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"金刀十訣\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003350
+  splits:
+  - splitPath: Name
+    text: "金刀十诀2"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+  - splitPath: EchoName
+    text: "金刀十诀"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003360\",\r\n    \"Name\": \"点墨指法2\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n封穴<30%>\",\r\n    \"EchoName\": \"点墨指法\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n封穴<30%>\",\r\n    \"EchoNameTw\": \"點墨指法\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003360
+  splits:
+  - splitPath: Name
+    text: "点墨指法2"
+  - splitPath: Desc
+    text: "攻击（0.6倍）\\n封穴<30%>"
+  - splitPath: EchoName
+    text: "点墨指法"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003370\",\r\n    \"Name\": \"分江剑法2\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n二连击\",\r\n    \"EchoName\": \"分江剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"分江劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003370
+  splits:
+  - splitPath: Name
+    text: "分江剑法2"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n二连击"
+  - splitPath: EchoName
+    text: "分江剑法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003380\",\r\n    \"Name\": \"靠山盾法2\",\r\n    \"Desc\": \"攻击（0.4倍）\\\\n[防御]支援战斗<20%>\",\r\n    \"EchoName\": \"靠山盾法\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.4倍）\\\\n[防禦]支援戰鬥<20%>\",\r\n    \"EchoNameTw\": \"靠山盾法\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003380
+  splits:
+  - splitPath: Name
+    text: "靠山盾法2"
+  - splitPath: Desc
+    text: "攻击（0.4倍）\\n[防御]支援战斗<20%>"
+  - splitPath: EchoName
+    text: "靠山盾法"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003390\",\r\n    \"Name\": \"夜渡无人盾自横2\",\r\n    \"Desc\": \"[夜渡无人盾自横]支援战斗\",\r\n    \"EchoName\": \"夜渡无人盾自横\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"[夜渡無人盾自橫]支援戰鬥\",\r\n    \"EchoNameTw\": \"夜渡無人盾自橫\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003390
+  splits:
+  - splitPath: Name
+    text: "夜渡无人盾自横2"
+  - splitPath: Desc
+    text: "[夜渡无人盾自横]支援战斗"
+  - splitPath: EchoName
+    text: "夜渡无人盾自横"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003400\",\r\n    \"Name\": \"推峰手2\",\r\n    \"Desc\": \"攻击（0.5倍）\",\r\n    \"EchoName\": \"推峰手\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.5倍）\",\r\n    \"EchoNameTw\": \"推峰手\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 1003400
+  splits:
+  - splitPath: Name
+    text: "推峰手2"
+  - splitPath: Desc
+    text: "攻击（0.5倍）"
+  - splitPath: EchoName
+    text: "推峰手"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"1003410\",\r\n    \"Name\": \"探水叉法2\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"探水叉法\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"探水叉法\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003410
+  splits:
+  - splitPath: Name
+    text: "探水叉法2"
+  - splitPath: Desc
+    text: "攻击（0.6倍）"
+  - splitPath: EchoName
+    text: "探水叉法"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003420\",\r\n    \"Name\": \"水云掌法2\",\r\n    \"Desc\": \"攻击（0.6倍）\\\\n中毒<40%>\",\r\n    \"EchoName\": \"水云掌法\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.6倍）\\\\n中毒<40%>\",\r\n    \"EchoNameTw\": \"水雲掌法\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 1003420
+  splits:
+  - splitPath: Name
+    text: "水云掌法2"
+  - splitPath: Desc
+    text: "攻击（0.6倍）\\n中毒<40%>"
+  - splitPath: EchoName
+    text: "水云掌法"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"1003430\",\r\n    \"Name\": \"百元重水此归来2\",\r\n    \"Desc\": \"攻击（1倍）\\\\n中毒<100%>\",\r\n    \"EchoName\": \"百元重水此归来\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n中毒<100%>\",\r\n    \"EchoNameTw\": \"百元重水此歸來\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003430
+  splits:
+  - splitPath: Name
+    text: "百元重水此归来2"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n中毒<100%>"
+  - splitPath: EchoName
+    text: "百元重水此归来"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"1003440\",\r\n    \"Name\": \"盗粮刀法2\",\r\n    \"Desc\": \"攻击（0.4倍）\",\r\n    \"EchoName\": \"盗粮刀法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.4倍）\",\r\n    \"EchoNameTw\": \"盜糧刀法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003440
+  splits:
+  - splitPath: Name
+    text: "盗粮刀法2"
+  - splitPath: Desc
+    text: "攻击（0.4倍）"
+  - splitPath: EchoName
+    text: "盗粮刀法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003450\",\r\n    \"Name\": \"劫江刀法2\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"劫江刀法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"劫江刀法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003450
+  splits:
+  - splitPath: Name
+    text: "劫江刀法2"
+  - splitPath: Desc
+    text: "攻击（0.6倍）"
+  - splitPath: EchoName
+    text: "劫江刀法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003460\",\r\n    \"Name\": \"梁上三刀2\",\r\n    \"Desc\": \"攻击（0.3倍）\",\r\n    \"EchoName\": \"梁上三刀\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.3倍）\",\r\n    \"EchoNameTw\": \"樑上三刀\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003460
+  splits:
+  - splitPath: Name
+    text: "梁上三刀2"
+  - splitPath: Desc
+    text: "攻击（0.3倍）"
+  - splitPath: EchoName
+    text: "梁上三刀"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003470\",\r\n    \"Name\": \"潜夜步2\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"潜夜步\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"潛夜步\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 1003470
+  splits:
+  - splitPath: Name
+    text: "潜夜步2"
+  - splitPath: Desc
+    text: "闪避1"
+  - splitPath: EchoName
+    text: "潜夜步"
+  - splitPath: SubType
+    text: "心法"
+- raw: "{\r\n    \"Key\": \"1003480\",\r\n    \"Name\": \"和尚拳法2\",\r\n    \"Desc\": \"攻击（0.8倍）\",\r\n    \"EchoName\": \"和尚拳法\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.8倍）\",\r\n    \"EchoNameTw\": \"和尚拳法\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 1003480
+  splits:
+  - splitPath: Name
+    text: "和尚拳法2"
+  - splitPath: Desc
+    text: "攻击（0.8倍）"
+  - splitPath: EchoName
+    text: "和尚拳法"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"1003500\",\r\n    \"Name\": \"虎林刀法2\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"虎林刀法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"虎林刀法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003500
+  splits:
+  - splitPath: Name
+    text: "虎林刀法2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+  - splitPath: EchoName
+    text: "虎林刀法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003510\",\r\n    \"Name\": \"铁手印2\",\r\n    \"Desc\": \"攻击（1.4倍）\",\r\n    \"EchoName\": \"铁手印\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（1.4倍）\",\r\n    \"EchoNameTw\": \"鐵手印\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 1003510
+  splits:
+  - splitPath: Name
+    text: "铁手印2"
+  - splitPath: Desc
+    text: "攻击（1.4倍）"
+  - splitPath: EchoName
+    text: "铁手印"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"1003520\",\r\n    \"Name\": \"玉房指诀2\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"玉房指诀\",\r\n    \"SubType\": \"拳脚\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"玉房指訣\",\r\n    \"SubTypeTw\": \"拳腳\"\r\n  }"
+  rawIndex: 1003520
+  splits:
+  - splitPath: Name
+    text: "玉房指诀2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+  - splitPath: EchoName
+    text: "玉房指诀"
+  - splitPath: SubType
+    text: "拳脚"
+- raw: "{\r\n    \"Key\": \"1003530\",\r\n    \"Name\": \"龙虎和合济玉房2\",\r\n    \"Desc\": \"回春（4倍）\",\r\n    \"EchoName\": \"龙虎和合济玉房\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"回春（4倍）\",\r\n    \"EchoNameTw\": \"龍虎和合濟玉房\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003530
+  splits:
+  - splitPath: Name
+    text: "龙虎和合济玉房2"
+  - splitPath: Desc
+    text: "回春（4倍）"
+  - splitPath: EchoName
+    text: "龙虎和合济玉房"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"1003540\",\r\n    \"Name\": \"富贵剑法2\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n轻伤<50%>\",\r\n    \"EchoName\": \"富贵剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n輕傷<50%>\",\r\n    \"EchoNameTw\": \"富貴劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003540
+  splits:
+  - splitPath: Name
+    text: "富贵剑法2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）\\n轻伤<50%>"
+  - splitPath: EchoName
+    text: "富贵剑法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003550\",\r\n    \"Name\": \"富贵转眼便成空2\",\r\n    \"Desc\": \"攻击（7倍）\\\\n重伤<100%>\",\r\n    \"EchoName\": \"富贵转眼便成空\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（7倍）\\\\n重傷<100%>\",\r\n    \"EchoNameTw\": \"富貴轉眼便成空\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003550
+  splits:
+  - splitPath: Name
+    text: "富贵转眼便成空2"
+  - splitPath: Desc
+    text: "攻击（7倍）\\n重伤<100%>"
+  - splitPath: EchoName
+    text: "富贵转眼便成空"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003560\",\r\n    \"Name\": \"飞龙剑法2\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"飞龙剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"飛龍劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003560
+  splits:
+  - splitPath: Name
+    text: "飞龙剑法2"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "飞龙剑法"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003570\",\r\n    \"Name\": \"飞龙九五即升天2\",\r\n    \"Desc\": \"攻击（9倍）\",\r\n    \"EchoName\": \"飞龙九五即升天\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（9倍）\",\r\n    \"EchoNameTw\": \"飛龍九五即昇天\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003570
+  splits:
+  - splitPath: Name
+    text: "飞龙九五即升天2"
+  - splitPath: Desc
+    text: "攻击（9倍）"
+  - splitPath: EchoName
+    text: "飞龙九五即升天"
+  - splitPath: SubType
+    text: "刀剑"
+- raw: "{\r\n    \"Key\": \"1003580\",\r\n    \"Name\": \"扑咬2\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n轻伤<40%>\",\r\n    \"EchoName\": \"扑咬\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n輕傷<40%>\",\r\n    \"EchoNameTw\": \"撲咬\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003580
+  splits:
+  - splitPath: Name
+    text: "扑咬2"
+  - splitPath: Desc
+    text: "攻击（0.5倍）\\n轻伤<40%>"
+  - splitPath: EchoName
+    text: "扑咬"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"1003590\",\r\n    \"Name\": \"角撞2\",\r\n    \"Desc\": \"攻击（0.5倍）\",\r\n    \"EchoName\": \"角撞\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（0.5倍）\",\r\n    \"EchoNameTw\": \"角撞\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003590
+  splits:
+  - splitPath: Name
+    text: "角撞2"
+  - splitPath: Desc
+    text: "攻击（0.5倍）"
+  - splitPath: EchoName
+    text: "角撞"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"1003600\",\r\n    \"Name\": \"干戚武诀2\",\r\n    \"Desc\": \"攻击（2.7倍）\",\r\n    \"EchoName\": \"干戚武诀\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（2.7倍）\",\r\n    \"EchoNameTw\": \"干鏚武訣\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003600
+  splits:
+  - splitPath: Name
+    text: "干戚武诀2"
+  - splitPath: Desc
+    text: "攻击（2.7倍）"
+  - splitPath: EchoName
+    text: "干戚武诀"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003610\",\r\n    \"Name\": \"干戚逐鹿定九黎2\",\r\n    \"Desc\": \"攻击（9倍）\",\r\n    \"EchoName\": \"干戚逐鹿定九黎\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（9倍）\",\r\n    \"EchoNameTw\": \"干鏚逐鹿定九黎\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003610
+  splits:
+  - splitPath: Name
+    text: "干戚逐鹿定九黎2"
+  - splitPath: Desc
+    text: "攻击（9倍）"
+  - splitPath: EchoName
+    text: "干戚逐鹿定九黎"
+  - splitPath: SubType
+    text: "百兵"
 - raw: "{\r\n    \"Key\": \"2000100\",\r\n    \"Name\": \"跃影追月2\",\r\n    \"Desc\": \"攻击（1倍）\\\\n两连击\",\r\n    \"EchoName\": \"跃影追月\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n兩連擊\",\r\n    \"EchoNameTw\": \"躍影追月\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 2000100
   splits:
@@ -13573,6 +15620,105 @@
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
+- raw: "{\r\n    \"Key\": \"2000310\",\r\n    \"Name\": \"黑风枪法2\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"黑风枪法\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"黑風槍法\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000310
+  splits:
+  - splitPath: Name
+    text: "黑风枪法2"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "黑风枪法"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000320\",\r\n    \"Name\": \"黑风破山2\",\r\n    \"Desc\": \"攻击（18倍）\",\r\n    \"EchoName\": \"黑风破山\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（18倍）\",\r\n    \"EchoNameTw\": \"黑風破山\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000320
+  splits:
+  - splitPath: Name
+    text: "黑风破山2"
+  - splitPath: Desc
+    text: "攻击（18倍）"
+  - splitPath: EchoName
+    text: "黑风破山"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000330\",\r\n    \"Name\": \"黄风叉法2\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"黄风叉法\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"黃風叉法\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000330
+  splits:
+  - splitPath: Name
+    text: "黄风叉法2"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "黄风叉法"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000340\",\r\n    \"Name\": \"三昧神风2\",\r\n    \"Desc\": \"[三昧神风]支援战斗\",\r\n    \"EchoName\": \"三昧神风\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"[三昧神風]支援戰鬥\",\r\n    \"EchoNameTw\": \"三昧神風\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000340
+  splits:
+  - splitPath: Name
+    text: "三昧神风2"
+  - splitPath: Desc
+    text: "[三昧神风]支援战斗"
+  - splitPath: EchoName
+    text: "三昧神风"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000350\",\r\n    \"Name\": \"白骨剑诀2\",\r\n    \"Desc\": \"攻击（1.4倍）\\\\n二连击\",\r\n    \"EchoName\": \"白骨剑诀\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1.4倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"白骨劍訣\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000350
+  splits:
+  - splitPath: Name
+    text: "白骨剑诀2"
+  - splitPath: Desc
+    text: "攻击（1.4倍）\\n二连击"
+  - splitPath: EchoName
+    text: "白骨剑诀"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000360\",\r\n    \"Name\": \"白骨化生2\",\r\n    \"Desc\": \"回春（44倍）\",\r\n    \"EchoName\": \"白骨重生\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"回春（44倍）\",\r\n    \"EchoNameTw\": \"白骨重生\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000360
+  splits:
+  - splitPath: Name
+    text: "白骨化生2"
+  - splitPath: Desc
+    text: "回春（44倍）"
+  - splitPath: EchoName
+    text: "白骨重生"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000370\",\r\n    \"Name\": \"蜈蚣剑法2\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"蜈蚣剑法\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"蜈蚣劍法\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000370
+  splits:
+  - splitPath: Name
+    text: "蜈蚣剑法2"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+  - splitPath: EchoName
+    text: "蜈蚣剑法"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000380\",\r\n    \"Name\": \"百眼金光2\",\r\n    \"Desc\": \"攻击（100000）\",\r\n    \"EchoName\": \"百眼金光\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（100000）\",\r\n    \"EchoNameTw\": \"百眼金光\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000380
+  splits:
+  - splitPath: Name
+    text: "百眼金光2"
+  - splitPath: Desc
+    text: "攻击（100000）"
+  - splitPath: EchoName
+    text: "百眼金光"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"2000390\",\r\n    \"Name\": \"雷音棒法2\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"雷音棒法\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"雷音棒法\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 2000390
+  splits:
+  - splitPath: Name
+    text: "雷音棒法2"
+  - splitPath: Desc
+    text: "攻击（1.8倍）"
+  - splitPath: EchoName
+    text: "雷音棒法"
+  - splitPath: SubType
+    text: "特技"
 - raw: "{\r\n    \"Key\": \"10000010\",\r\n    \"Name\": \"撕咬3\",\r\n    \"Desc\": \"包子/大黄/旺财\",\r\n    \"EchoName\": \"撕咬\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"包子/大黃/旺財\",\r\n    \"EchoNameTw\": \"撕咬\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 10000010
   splits:
@@ -14044,3 +16190,186 @@
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
+- raw: "{\r\n    \"Key\": \"10000330\",\r\n    \"Name\": \"三昧风3\",\r\n    \"Desc\": \"攻击（1倍）\\\\n三连击\\\\n力竭<66%>\",\r\n    \"EchoName\": \"三昧风\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n三連擊\\\\n力竭<66%>\",\r\n    \"EchoNameTw\": \"三昧風\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000330
+  splits:
+  - splitPath: Name
+    text: "三昧风3"
+  - splitPath: Desc
+    text: "攻击（1倍）\\n三连击\\n力竭<66%>"
+  - splitPath: EchoName
+    text: "三昧风"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000340\",\r\n    \"Name\": \"人种袋3\",\r\n    \"Desc\": \"力竭<100%>\",\r\n    \"EchoName\": \"三昧风\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"力竭<100%>\",\r\n    \"EchoNameTw\": \"三昧風\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000340
+  splits:
+  - splitPath: Name
+    text: "人种袋3"
+  - splitPath: Desc
+    text: "力竭<100%>"
+  - splitPath: EchoName
+    text: "三昧风"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000350\",\r\n    \"Name\": \"抓挠3\",\r\n    \"Desc\": \"小狸猫\",\r\n    \"EchoName\": \"抓挠\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"小狸貓\",\r\n    \"EchoNameTw\": \"抓撓\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000350
+  splits:
+  - splitPath: Name
+    text: "抓挠3"
+  - splitPath: Desc
+    text: "小狸猫"
+  - splitPath: EchoName
+    text: "抓挠"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000360\",\r\n    \"Name\": \"飞蝗匣3\",\r\n    \"Desc\": \"攻击（3000）\\\\n封穴<40%>\",\r\n    \"EchoName\": \"飞蝗匣\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（3000）\\\\n封穴<40%>\",\r\n    \"EchoNameTw\": \"飛蝗匣\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 10000360
+  splits:
+  - splitPath: Name
+    text: "飞蝗匣3"
+  - splitPath: Desc
+    text: "攻击（3000）\\n封穴<40%>"
+  - splitPath: EchoName
+    text: "飞蝗匣"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"10000370\",\r\n    \"Name\": \"连弩机3\",\r\n    \"Desc\": \"攻击（1200）\\\\n三连击\",\r\n    \"EchoName\": \"连弩机\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1200）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"連弩機\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 10000370
+  splits:
+  - splitPath: Name
+    text: "连弩机3"
+  - splitPath: Desc
+    text: "攻击（1200）\\n三连击"
+  - splitPath: EchoName
+    text: "连弩机"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"10000380\",\r\n    \"Name\": \"蛛丝壶3\",\r\n    \"Desc\": \"攻击（3000）\\\\n中毒<40%>\",\r\n    \"EchoName\": \"蛛丝壶\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（3000）\\\\n中毒<40%>\",\r\n    \"EchoNameTw\": \"蛛絲壺\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 10000380
+  splits:
+  - splitPath: Name
+    text: "蛛丝壶3"
+  - splitPath: Desc
+    text: "攻击（3000）\\n中毒<40%>"
+  - splitPath: EchoName
+    text: "蛛丝壶"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"10000390\",\r\n    \"Name\": \"万花筒3\",\r\n    \"Desc\": \"攻击（5000）\",\r\n    \"EchoName\": \"万花筒\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（5000）\",\r\n    \"EchoNameTw\": \"萬花筒\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 10000390
+  splits:
+  - splitPath: Name
+    text: "万花筒3"
+  - splitPath: Desc
+    text: "攻击（5000）"
+  - splitPath: EchoName
+    text: "万花筒"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"10000400\",\r\n    \"Name\": \"星罗伞3\",\r\n    \"Desc\": \"攻击（1200）\\\\n三连击\\\\n轻伤<33%>\",\r\n    \"EchoName\": \"星罗伞\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（1200）\\\\n三連擊\\\\n輕傷<33%>\",\r\n    \"EchoNameTw\": \"星羅傘\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 10000400
+  splits:
+  - splitPath: Name
+    text: "星罗伞3"
+  - splitPath: Desc
+    text: "攻击（1200）\\n三连击\\n轻伤<33%>"
+  - splitPath: EchoName
+    text: "星罗伞"
+  - splitPath: SubType
+    text: "百兵"
+- raw: "{\r\n    \"Key\": \"10000410\",\r\n    \"Name\": \"木鹊3\",\r\n    \"Desc\": \"木鹊\",\r\n    \"EchoName\": \"鹊抓\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"木鵲\",\r\n    \"EchoNameTw\": \"鵲抓\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000410
+  splits:
+  - splitPath: Name
+    text: "木鹊3"
+  - splitPath: Desc
+    text: "木鹊"
+  - splitPath: EchoName
+    text: "鹊抓"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000420\",\r\n    \"Name\": \"木狗3\",\r\n    \"Desc\": \"木狗\",\r\n    \"EchoName\": \"狗撞\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"木狗\",\r\n    \"EchoNameTw\": \"狗撞\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000420
+  splits:
+  - splitPath: Name
+    text: "木狗3"
+  - splitPath: Desc
+    text: "木狗"
+  - splitPath: EchoName
+    text: "狗撞"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000450\",\r\n    \"Name\": \"木兽3\",\r\n    \"Desc\": \"木鹊\",\r\n    \"EchoName\": \"木火\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"木鵲\",\r\n    \"EchoNameTw\": \"木火\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000450
+  splits:
+  - splitPath: Name
+    text: "木兽3"
+  - splitPath: Desc
+    text: "木鹊"
+  - splitPath: EchoName
+    text: "木火"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000460\",\r\n    \"Name\": \"木牛3\",\r\n    \"Desc\": \"木牛\",\r\n    \"EchoName\": \"牛运\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"木牛\",\r\n    \"EchoNameTw\": \"牛運\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000460
+  splits:
+  - splitPath: Name
+    text: "木牛3"
+  - splitPath: Desc
+    text: "木牛"
+  - splitPath: EchoName
+    text: "牛运"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000470\",\r\n    \"Name\": \"木麒麟3\",\r\n    \"Desc\": \"木麒麟\",\r\n    \"EchoName\": \"麒麟弹\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"木麒麟\",\r\n    \"EchoNameTw\": \"麒麟彈\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000470
+  splits:
+  - splitPath: Name
+    text: "木麒麟3"
+  - splitPath: Desc
+    text: "木麒麟"
+  - splitPath: EchoName
+    text: "麒麟弹"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000480\",\r\n    \"Name\": \"扑咬3\",\r\n    \"Desc\": \"苍狼\",\r\n    \"EchoName\": \"扑咬\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"蒼狼\",\r\n    \"EchoNameTw\": \"撲咬\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000480
+  splits:
+  - splitPath: Name
+    text: "扑咬3"
+  - splitPath: Desc
+    text: "苍狼"
+  - splitPath: EchoName
+    text: "扑咬"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000490\",\r\n    \"Name\": \"拍击3\",\r\n    \"EchoName\": \"拍击3\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"拍擊3\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000490
+  splits:
+  - splitPath: Name
+    text: "拍击3"
+  - splitPath: EchoName
+    text: "拍击3"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000500\",\r\n    \"Name\": \"大拍击3\",\r\n    \"EchoName\": \"大拍击3\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"大拍擊3\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000500
+  splits:
+  - splitPath: Name
+    text: "大拍击3"
+  - splitPath: EchoName
+    text: "大拍击3"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000510\",\r\n    \"Name\": \"噬咬3\",\r\n    \"Desc\": \"苍狼王\",\r\n    \"EchoName\": \"噬咬\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"蒼狼王\",\r\n    \"EchoNameTw\": \"噬咬\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000510
+  splits:
+  - splitPath: Name
+    text: "噬咬3"
+  - splitPath: Desc
+    text: "苍狼王"
+  - splitPath: EchoName
+    text: "噬咬"
+  - splitPath: SubType
+    text: "特技"

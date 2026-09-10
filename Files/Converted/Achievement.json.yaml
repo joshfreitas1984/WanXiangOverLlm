@@ -187,6 +187,48 @@
   - splitPath: Desc
     text: "加入洞庭帮战胜“魔侯”任苍溟"
     translated: "Join the Dongting Sect to defeat  “Demon Lord”  Ren Cangming"
+- raw: "{\r\n    \"Key\": \"105\",\r\n    \"Name\": \"林鸟归群\",\r\n    \"Desc\": \"第三年时随同唐宝将一众唐门高手尽数带回唐门\",\r\n    \"NameTw\": \"林鳥歸群\",\r\n    \"DescTw\": \"第三年時隨同唐寶將一眾唐門高手盡數帶回唐門\"\r\n  }"
+  rawIndex: 105
+  splits:
+  - splitPath: Name
+    text: "林鸟归群"
+  - splitPath: Desc
+    text: "第三年时随同唐宝将一众唐门高手尽数带回唐门"
+- raw: "{\r\n    \"Key\": \"109\",\r\n    \"Name\": \"不倒仙翁\",\r\n    \"Desc\": \"唐纵加入\",\r\n    \"NameTw\": \"不倒仙翁\",\r\n    \"DescTw\": \"唐縱加入\"\r\n  }"
+  rawIndex: 109
+  splits:
+  - splitPath: Name
+    text: "不倒仙翁"
+  - splitPath: Desc
+    text: "唐纵加入"
+- raw: "{\r\n    \"Key\": \"106\",\r\n    \"Name\": \"六士同心\",\r\n    \"Desc\": \"唐安、唐影、唐觉、唐矩、唐墨、唐醉加入\",\r\n    \"NameTw\": \"六士同心\",\r\n    \"DescTw\": \"唐安、唐影、唐覺、唐矩、唐墨、唐醉加入\"\r\n  }"
+  rawIndex: 106
+  splits:
+  - splitPath: Name
+    text: "六士同心"
+  - splitPath: Desc
+    text: "唐安、唐影、唐觉、唐矩、唐墨、唐醉加入"
+- raw: "{\r\n    \"Key\": \"107\",\r\n    \"Name\": \"三劫并化\",\r\n    \"Desc\": \"唐傲、唐冷、唐隐加入\",\r\n    \"NameTw\": \"三劫並化\",\r\n    \"DescTw\": \"唐傲、唐冷、唐隱加入\"\r\n  }"
+  rawIndex: 107
+  splits:
+  - splitPath: Name
+    text: "三劫并化"
+  - splitPath: Desc
+    text: "唐傲、唐冷、唐隐加入"
+- raw: "{\r\n    \"Key\": \"108\",\r\n    \"Name\": \"石破天惊\",\r\n    \"Desc\": \"“石破天惊”唐宝解锁\",\r\n    \"NameTw\": \"石破天驚\",\r\n    \"DescTw\": \"“石破天驚”唐寶解鎖\"\r\n  }"
+  rawIndex: 108
+  splits:
+  - splitPath: Name
+    text: "石破天惊"
+  - splitPath: Desc
+    text: "“石破天惊”唐宝解锁"
+- raw: "{\r\n    \"Key\": \"113\",\r\n    \"Name\": \"唐门传奇\",\r\n    \"Desc\": \"拜师唐门战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"唐門傳奇\",\r\n    \"DescTw\": \"拜師唐門戰勝“魔侯”任蒼溟\"\r\n  }"
+  rawIndex: 113
+  splits:
+  - splitPath: Name
+    text: "唐门传奇"
+  - splitPath: Desc
+    text: "拜师唐门战胜“魔侯”任苍溟"
 - raw: "{\r\n    \"Key\": \"71\",\r\n    \"Name\": \"商山四皓\",\r\n    \"Desc\": \"战胜宁王府高手“商山四皓”\",\r\n    \"NameTw\": \"商山四皓\",\r\n    \"DescTw\": \"戰勝寧王府高手“商山四皓”\"\r\n  }"
   rawIndex: 71
   splits:
@@ -412,6 +454,62 @@
   - splitPath: Desc
     text: "“千面妖狐”薛如意解锁红颜"
     translated: "“Multifaceted Fox Demon”  Xue Ruyi unlocked Red‑Haired Beauty"
+- raw: "{\r\n    \"Key\": \"110\",\r\n    \"Name\": \"桃之夭夭\",\r\n    \"Desc\": \"“无影飞刀”唐幺幺解锁红颜\",\r\n    \"NameTw\": \"桃之夭夭\",\r\n    \"DescTw\": \"“無影飛刀”唐么么解鎖紅顏\"\r\n  }"
+  rawIndex: 110
+  splits:
+  - splitPath: Name
+    text: "桃之夭夭"
+  - splitPath: Desc
+    text: "“无影飞刀”唐幺幺解锁红颜"
+- raw: "{\r\n    \"Key\": \"114\",\r\n    \"Name\": \"秀外慧中\",\r\n    \"Desc\": \"“神机百巧”诸葛慧解锁红颜\",\r\n    \"NameTw\": \"秀外慧中\",\r\n    \"DescTw\": \"“神機百巧”諸葛慧解鎖紅顏\"\r\n  }"
+  rawIndex: 114
+  splits:
+  - splitPath: Name
+    text: "秀外慧中"
+  - splitPath: Desc
+    text: "“神机百巧”诸葛慧解锁红颜"
+- raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"芽苞初放\",\r\n    \"Desc\": \"“姜辣子”姜芽解锁红颜\",\r\n    \"NameTw\": \"芽苞初放\",\r\n    \"DescTw\": \"“薑辣子”姜芽解鎖紅顏\"\r\n  }"
+  rawIndex: 116
+  splits:
+  - splitPath: Name
+    text: "芽苞初放"
+  - splitPath: Desc
+    text: "“姜辣子”姜芽解锁红颜"
+- raw: "{\r\n    \"Key\": \"117\",\r\n    \"Name\": \"云裳月容\",\r\n    \"Desc\": \"“青莲映月”李云裳解锁红颜\",\r\n    \"NameTw\": \"雲裳月容\",\r\n    \"DescTw\": \"“青蓮映月”李雲裳解鎖紅顏\"\r\n  }"
+  rawIndex: 117
+  splits:
+  - splitPath: Name
+    text: "云裳月容"
+  - splitPath: Desc
+    text: "“青莲映月”李云裳解锁红颜"
+- raw: "{\r\n    \"Key\": \"118\",\r\n    \"Name\": \"雪雁凌空\",\r\n    \"Desc\": \"“云峰雁首”萧雪雁解锁红颜\",\r\n    \"NameTw\": \"雪雁凌空\",\r\n    \"DescTw\": \"“雲峰雁首”蕭雪雁解鎖紅顏\"\r\n  }"
+  rawIndex: 118
+  splits:
+  - splitPath: Name
+    text: "雪雁凌空"
+  - splitPath: Desc
+    text: "“云峰雁首”萧雪雁解锁红颜"
+- raw: "{\r\n    \"Key\": \"119\",\r\n    \"Name\": \"鸬鹚戏水\",\r\n    \"Desc\": \"“烟渚鸬魁”沈青鸬解锁红颜\",\r\n    \"NameTw\": \"鸕鶿戲水\",\r\n    \"DescTw\": \"“煙渚鸕魁”沈青鸕解鎖紅顏\"\r\n  }"
+  rawIndex: 119
+  splits:
+  - splitPath: Name
+    text: "鸬鹚戏水"
+  - splitPath: Desc
+    text: "“烟渚鸬魁”沈青鸬解锁红颜"
+- raw: "{\r\n    \"Key\": \"120\",\r\n    \"Name\": \"云雨巫山\",\r\n    \"Desc\": \"“巫山神女”巫云凤解锁红颜\",\r\n    \"NameTw\": \"雲雨巫山\",\r\n    \"DescTw\": \"“巫山神女”巫雲鳳解鎖紅顏\"\r\n  }"
+  rawIndex: 120
+  splits:
+  - splitPath: Name
+    text: "云雨巫山"
+  - splitPath: Desc
+    text: "“巫山神女”巫云凤解锁红颜"
+- raw: "{\r\n    \"Key\": \"123\",\r\n    \"Name\": \"灵蝶翩翩\",\r\n    \"Desc\": \"“紫萤蝶”蚩萤解锁红颜\",\r\n    \"NameTw\": \"靈蝶翩翩\",\r\n    \"DescTw\": \"“紫螢蝶”蚩螢解鎖紅顏\"\r\n  }"
+  rawIndex: 123
+  splits:
+  - splitPath: Name
+    text: "灵蝶翩翩"
+  - splitPath: Desc
+    text: "“紫萤蝶”蚩萤解锁红颜"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"香衾成行\",\r\n    \"Desc\": \"在一局游戏中解锁门派专属红颜外的全部十六位红颜\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"DescTw\": \"在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏\"\r\n  }"
   rawIndex: 99
   splits:
@@ -745,6 +843,34 @@
   - splitPath: Desc
     text: "浣花派友好到达100"
     translated: "The Flowing Peony Sect friendship reached 100"
+- raw: "{\r\n    \"Key\": \"115\",\r\n    \"Name\": \"鞠躬尽瘁\",\r\n    \"Desc\": \"武侯祠友好到达100\",\r\n    \"NameTw\": \"鞠躬盡瘁\",\r\n    \"DescTw\": \"武侯祠友好到達100\"\r\n  }"
+  rawIndex: 115
+  splits:
+  - splitPath: Name
+    text: "鞠躬尽瘁"
+  - splitPath: Desc
+    text: "武侯祠友好到达100"
+- raw: "{\r\n    \"Key\": \"121\",\r\n    \"Name\": \"云朝暮雨\",\r\n    \"Desc\": \"神女宫友好到达100\",\r\n    \"NameTw\": \"雲朝暮雨\",\r\n    \"DescTw\": \"神女宮友好到達100\"\r\n  }"
+  rawIndex: 121
+  splits:
+  - splitPath: Name
+    text: "云朝暮雨"
+  - splitPath: Desc
+    text: "神女宫友好到达100"
+- raw: "{\r\n    \"Key\": \"122\",\r\n    \"Name\": \"川蜀侠少\",\r\n    \"Desc\": \"川蜀六扇门友好到达100\",\r\n    \"NameTw\": \"川蜀俠少\",\r\n    \"DescTw\": \"川蜀六扇門友好到達100\"\r\n  }"
+  rawIndex: 122
+  splits:
+  - splitPath: Name
+    text: "川蜀侠少"
+  - splitPath: Desc
+    text: "川蜀六扇门友好到达100"
+- raw: "{\r\n    \"Key\": \"124\",\r\n    \"Name\": \"蚩黎遗裔\",\r\n    \"Desc\": \"蚩黎峒友好到达100\",\r\n    \"NameTw\": \"蚩黎遺裔\",\r\n    \"DescTw\": \"蚩黎峒友好到達100\"\r\n  }"
+  rawIndex: 124
+  splits:
+  - splitPath: Name
+    text: "蚩黎遗裔"
+  - splitPath: Desc
+    text: "蚩黎峒友好到达100"
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"以身相许\",\r\n    \"Desc\": \"与一名红颜知己结缘\",\r\n    \"NameTw\": \"以身相許\",\r\n    \"DescTw\": \"與一名紅顏知己結緣\"\r\n  }"
   rawIndex: 31
   splits:
@@ -898,3 +1024,17 @@
   - splitPath: Desc
     text: "百戏到达宗师"
     translated: "Variety Arts reached the Master"
+- raw: "{\r\n    \"Key\": \"111\",\r\n    \"Name\": \"五毒俱全\",\r\n    \"Desc\": \"毒数到达宗师\",\r\n    \"NameTw\": \"五毒俱全\",\r\n    \"DescTw\": \"毒數到達宗師\"\r\n  }"
+  rawIndex: 111
+  splits:
+  - splitPath: Name
+    text: "五毒俱全"
+  - splitPath: Desc
+    text: "毒数到达宗师"
+- raw: "{\r\n    \"Key\": \"112\",\r\n    \"Name\": \"鬼斧神工\",\r\n    \"Desc\": \"匠造到达宗师\",\r\n    \"NameTw\": \"鬼斧神工\",\r\n    \"DescTw\": \"匠造到達宗師\"\r\n  }"
+  rawIndex: 112
+  splits:
+  - splitPath: Name
+    text: "鬼斧神工"
+  - splitPath: Desc
+    text: "匠造到达宗师"

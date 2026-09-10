@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using FanslationStudio.LlmKit.Support;
 using Translate.Support;
 using Translate.Utility;
 
@@ -536,7 +537,7 @@ public static class TranslationService
         {
             basePrompt.AppendLine("");
             basePrompt.AppendLine(config.Prompts["BaseGlossaryPrompt"]);
-            basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines, splitFile.Path));
+            basePrompt.AppendLine(Translate.Support.GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines, splitFile.Path));
         }
 
         if (splitFile.EnableBasePrompts)

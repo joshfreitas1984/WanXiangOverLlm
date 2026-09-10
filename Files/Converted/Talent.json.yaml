@@ -313,6 +313,20 @@
   - splitPath: Desc
     text: "百戏+40"
     translated: "Variety Arts +40"
+- raw: "{\r\n    \"Key\": \"30022\",\r\n    \"Name\": \"毒术入门\",\r\n    \"Desc\": \"毒术+40\",\r\n    \"NameTw\": \"毒術入門\",\r\n    \"DescTw\": \"毒術+40\"\r\n  }"
+  rawIndex: 30022
+  splits:
+  - splitPath: Name
+    text: "毒术入门"
+  - splitPath: Desc
+    text: "毒术+40"
+- raw: "{\r\n    \"Key\": \"30023\",\r\n    \"Name\": \"匠造入门\",\r\n    \"Desc\": \"匠造+40\",\r\n    \"NameTw\": \"匠造入門\",\r\n    \"DescTw\": \"匠造+40\"\r\n  }"
+  rawIndex: 30023
+  splits:
+  - splitPath: Name
+    text: "匠造入门"
+  - splitPath: Desc
+    text: "匠造+40"
 - raw: "{\r\n    \"Key\": \"30101\",\r\n    \"Name\": \"医术精通\",\r\n    \"Desc\": \"医术+80\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"醫術精通\",\r\n    \"DescTw\": \"醫術+80\"\r\n  }"
   rawIndex: 30101
   splits:
@@ -412,6 +426,20 @@
   - splitPath: Desc
     text: "百戏+80"
     translated: "Variety Arts +80"
+- raw: "{\r\n    \"Key\": \"30122\",\r\n    \"Name\": \"毒术精通\",\r\n    \"Desc\": \"毒术+80\",\r\n    \"NameTw\": \"毒術精通\",\r\n    \"DescTw\": \"毒術+80\"\r\n  }"
+  rawIndex: 30122
+  splits:
+  - splitPath: Name
+    text: "毒术精通"
+  - splitPath: Desc
+    text: "毒术+80"
+- raw: "{\r\n    \"Key\": \"30123\",\r\n    \"Name\": \"匠造精通\",\r\n    \"Desc\": \"匠造+80\",\r\n    \"NameTw\": \"匠造精通\",\r\n    \"DescTw\": \"匠造+80\"\r\n  }"
+  rawIndex: 30123
+  splits:
+  - splitPath: Name
+    text: "匠造精通"
+  - splitPath: Desc
+    text: "匠造+80"
 - raw: "{\r\n    \"Key\": \"50002\",\r\n    \"Name\": \"骨骼清奇\",\r\n    \"Desc\": \"修炼基本功时提升更多根骨\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"骨骼清奇\",\r\n    \"DescTw\": \"修煉基本功時提升更多根骨\"\r\n  }"
   rawIndex: 50002
   splits:
@@ -736,6 +764,15 @@
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+- raw: "{\r\n    \"Key\": \"60014\",\r\n    \"Name\": \"缘起唐门\",\r\n    \"Desc\": \"拜师唐门可获取30贡献\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"緣起唐門\",\r\n    \"DescTw\": \"拜師唐門可獲取30貢獻\"\r\n  }"
+  rawIndex: 60014
+  splits:
+  - splitPath: Name
+    text: "缘起唐门"
+  - splitPath: Desc
+    text: "拜师唐门可获取30贡献"
+  - splitPath: EventResultDesc
+    text: "加成测试"
 - raw: "{\r\n    \"Key\": \"70001\",\r\n    \"Name\": \"忠义两全\",\r\n    \"Desc\": \"家中尚有两名忠义老仆\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"忠義兩全\",\r\n    \"DescTw\": \"家中尚有兩名忠義老僕\"\r\n  }"
   rawIndex: 70001
   splits:

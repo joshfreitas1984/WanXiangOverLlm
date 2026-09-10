@@ -34,6 +34,18 @@
   - splitPath: Name
     text: "烟波坞"
     translated: "Smoke Wave Dock"
+- raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"唐家堡\",\r\n    \"NameTw\": \"唐家堡\"\r\n  }"
+  rawIndex: 6
+  splits:
+  - splitPath: Name
+    text: "唐家堡"
+- raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"有间客栈\",\r\n    \"Desc\": \"川蜀出生点\",\r\n    \"NameTw\": \"有間客棧\",\r\n    \"DescTw\": \"川蜀出生點\"\r\n  }"
+  rawIndex: 7
+  splits:
+  - splitPath: Name
+    text: "有间客栈"
+  - splitPath: Desc
+    text: "川蜀出生点"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"望驾山\",\r\n    \"NameTw\": \"望駕山\"\r\n  }"
   rawIndex: 99
   splits:
@@ -220,6 +232,62 @@
   - splitPath: Desc
     text: "君山岛西侧的一处石矶，是洞庭帮众平日垂钓鱼虾、划舟泛湖之处"
     translated: "West of Junshan Island, a rocky promontory is where the Dongting Sect members commonly fish for small carp and shrimp and paddle their boats to cruise the lake."
+- raw: "{\r\n    \"Key\": \"601\",\r\n    \"Name\": \"无悔堂\",\r\n    \"Desc\": \"唐家堡正殿，是唐门门主和各位长老议事之处。\",\r\n    \"NameTw\": \"無悔堂\",\r\n    \"DescTw\": \"唐家堡正殿，是唐門門主和各位長老議事之處。\"\r\n  }"
+  rawIndex: 601
+  splits:
+  - splitPath: Name
+    text: "无悔堂"
+  - splitPath: Desc
+    text: "唐家堡正殿，是唐门门主和各位长老议事之处。"
+- raw: "{\r\n    \"Key\": \"602\",\r\n    \"Name\": \"安乐窝\",\r\n    \"Desc\": \"唐家堡偏阁，是唐门老太爷唐放颐养之处。\",\r\n    \"NameTw\": \"安樂窩\",\r\n    \"DescTw\": \"唐家堡偏閣，是唐門老太爺唐放頤養之處。\"\r\n  }"
+  rawIndex: 602
+  splits:
+  - splitPath: Name
+    text: "安乐窝"
+  - splitPath: Desc
+    text: "唐家堡偏阁，是唐门老太爷唐放颐养之处。"
+- raw: "{\r\n    \"Key\": \"603\",\r\n    \"Name\": \"百毒坊\",\r\n    \"Desc\": \"唐家堡制药坊，是唐门门人炼制药物之处。\",\r\n    \"NameTw\": \"百毒坊\",\r\n    \"DescTw\": \"唐家堡製藥坊，是唐門門人煉製藥物之處。\"\r\n  }"
+  rawIndex: 603
+  splits:
+  - splitPath: Name
+    text: "百毒坊"
+  - splitPath: Desc
+    text: "唐家堡制药坊，是唐门门人炼制药物之处。"
+- raw: "{\r\n    \"Key\": \"604\",\r\n    \"Name\": \"千机坊\",\r\n    \"Desc\": \"唐家堡锻造坊。是唐门门人制造机关、暗器之处。\",\r\n    \"NameTw\": \"千機坊\",\r\n    \"DescTw\": \"唐家堡鍛造坊。是唐門門人制造機關、暗器之處。\"\r\n  }"
+  rawIndex: 604
+  splits:
+  - splitPath: Name
+    text: "千机坊"
+  - splitPath: Desc
+    text: "唐家堡锻造坊。是唐门门人制造机关、暗器之处。"
+- raw: "{\r\n    \"Key\": \"605\",\r\n    \"Name\": \"演武场\",\r\n    \"Desc\": \"唐家堡演武场，是唐门门人日常习武，切磋技艺之处。\",\r\n    \"NameTw\": \"演武場\",\r\n    \"DescTw\": \"唐家堡演武場，是唐門門人日常習武，切磋技藝之處。\"\r\n  }"
+  rawIndex: 605
+  splits:
+  - splitPath: Name
+    text: "演武场"
+  - splitPath: Desc
+    text: "唐家堡演武场，是唐门门人日常习武，切磋技艺之处。"
+- raw: "{\r\n    \"Key\": \"606\",\r\n    \"Name\": \"卧房\",\r\n    \"Desc\": \"唐家堡弟子卧房，是唐门门人日常休息、闭关之处。\",\r\n    \"NameTw\": \"臥房\",\r\n    \"DescTw\": \"唐家堡弟子臥房，是唐門門人日常休息、閉關之處。\"\r\n  }"
+  rawIndex: 606
+  splits:
+  - splitPath: Name
+    text: "卧房"
+  - splitPath: Desc
+    text: "唐家堡弟子卧房，是唐门门人日常休息、闭关之处。"
+- raw: "{\r\n    \"Key\": \"607\",\r\n    \"Name\": \"后山\",\r\n    \"Desc\": \"唐家堡后山群峰，共有七十一峰，皆藏妙景，别有洞天。\",\r\n    \"NameTw\": \"後山\",\r\n    \"DescTw\": \"唐家堡後山群峰，共有七十一峰，皆藏妙景，別有洞天。\"\r\n  }"
+  rawIndex: 607
+  splits:
+  - splitPath: Name
+    text: "后山"
+  - splitPath: Desc
+    text: "唐家堡后山群峰，共有七十一峰，皆藏妙景，别有洞天。"
+- raw: "{\r\n    \"Key\": \"701\",\r\n    \"Name\": \"有间客栈\",\r\n    \"Desc\": \"川蜀之地间的一座客栈，虽然名声不显，却是过往行人的不二选择。\",\r\n    \"NameTw\": \"有間客棧\",\r\n    \"DescTw\": \"川蜀之地間的一座客棧，雖然名聲不顯，卻是過往行人的不二選擇。\"\r\n  }"
+  rawIndex: 701
+  splits:
+  - splitPath: Name
+    text: "有间客栈"
+  - splitPath: Desc
+    text: "川蜀之地间的一座客栈，虽然名声不显，却是过往行人的不二选择。"
 - raw: "{\r\n    \"Key\": \"9901\",\r\n    \"Name\": \"广成丹穴\",\r\n    \"Desc\": \"崆峒山东峰望驾山绝壁丹穴，内中留有广成子遗刻。\",\r\n    \"NameTw\": \"廣成丹穴\",\r\n    \"DescTw\": \"崆峒山東峰望駕山絕壁丹穴，內中留有廣成子遺刻。\"\r\n  }"
   rawIndex: 9901
   splits:
@@ -508,6 +576,13 @@
   - splitPath: Desc
     text: "位于湘东长沙府境内，树高林密，林中栖息着一群野猪，不时出林侵扰周边村镇田地。"
     translated: "In the Xiangdong region of Changsha Prefecture, the trees are tall and the forest dense. Wild boars reside in the woods, frequently venturing out to raid nearby villages and farmlands."
+- raw: "{\r\n    \"Key\": \"103019\",\r\n    \"Name\": \"息心亭\",\r\n    \"Desc\": \"位于湘东长沙府境内，是北山山麓之间的一处凉亭，有人看到天魔教高手“魔心卿相”温残阳便在此处。。\",\r\n    \"NameTw\": \"息心亭\",\r\n    \"DescTw\": \"位於湘東長沙府境內，是北山山麓之間的一處涼亭，有人看到天魔教高手“魔心卿相”溫殘陽便在此處。。\"\r\n  }"
+  rawIndex: 103019
+  splits:
+  - splitPath: Name
+    text: "息心亭"
+  - splitPath: Desc
+    text: "位于湘东长沙府境内，是北山山麓之间的一处凉亭，有人看到天魔教高手“魔心卿相”温残阳便在此处。。"
 - raw: "{\r\n    \"Key\": \"104011\",\r\n    \"Name\": \"荆北游历\",\r\n    \"Desc\": \"荆楚之北，襄阳府、德安府、郧阳府、随州、均州三府两州所在之地。\",\r\n    \"NameTw\": \"荊北遊歷\",\r\n    \"DescTw\": \"荊楚之北，襄陽府、德安府、鄖陽府、隨州、均州三府兩州所在之地。\"\r\n  }"
   rawIndex: 104011
   splits:
@@ -580,6 +655,20 @@
   - splitPath: Desc
     text: "挂锤庄据点，位于湘北澧州府境内，庄资田产殷实，四位庄主虽莽撞冲动对周围乡里却多有帮衬。"
     translated: "Hanging Hammer Manor Outpost is located within Xiangbei's Liuzhou Prefecture. The manor's fields and properties are quite prosperous. Despite the four Manor Masters being rash and impulsive, they often provide assistance to the surrounding villages and towns."
+- raw: "{\r\n    \"Key\": \"105017\",\r\n    \"Name\": \"云梦小筑\",\r\n    \"Desc\": \"位于湘北岳州府境内，沿洞庭湖而建，依山傍水，景色怡人。\",\r\n    \"NameTw\": \"雲夢小築\",\r\n    \"DescTw\": \"位於湘北嶽州府境內，沿洞庭湖而建，依山傍水，景色怡人。\"\r\n  }"
+  rawIndex: 105017
+  splits:
+  - splitPath: Name
+    text: "云梦小筑"
+  - splitPath: Desc
+    text: "位于湘北岳州府境内，沿洞庭湖而建，依山傍水，景色怡人。"
+- raw: "{\r\n    \"Key\": \"105018\",\r\n    \"Name\": \"招贤擂\",\r\n    \"Desc\": \"位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。\",\r\n    \"NameTw\": \"招賢擂\",\r\n    \"DescTw\": \"位於湘北嶽州府城中心，是寧王府所佈下意欲招賢納士的擂臺。\"\r\n  }"
+  rawIndex: 105018
+  splits:
+  - splitPath: Name
+    text: "招贤擂"
+  - splitPath: Desc
+    text: "位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。"
 - raw: "{\r\n    \"Key\": \"105019\",\r\n    \"Name\": \"烟波坞\",\r\n    \"Desc\": \"洞庭帮据点，位于湘北岳州府，洞庭湖中君山之上。\",\r\n    \"NameTw\": \"煙波塢\",\r\n    \"DescTw\": \"洞庭幫據點，位於湘北嶽州府，洞庭湖中君山之上。\"\r\n  }"
   rawIndex: 105019
   splits:
@@ -670,6 +759,13 @@
   - splitPath: Desc
     text: "祝家寨据点，位于湘西武冈州境内，在湘西二十八寨中实力可排至第三。"
     translated: "Zhu Family Stronghold Outpost is located within Wugang State in Xiangxi. Among the twenty‑eight fortresses in Xiangxi, it ranks third in terms of strength."
+- raw: "{\r\n    \"Key\": \"107015\",\r\n    \"Name\": \"永利当铺\",\r\n    \"Desc\": \"永利当铺据点，位于湘西辰州府境内，大掌柜何友谅善鉴文玩珍宝，在湘西一地有口皆碑。\",\r\n    \"NameTw\": \"永利當鋪\",\r\n    \"DescTw\": \"永利當鋪據點，位於湘西辰州府境內，大掌櫃何友諒善鑑文玩珍寶，在湘西一地有口皆碑。\"\r\n  }"
+  rawIndex: 107015
+  splits:
+  - splitPath: Name
+    text: "永利当铺"
+  - splitPath: Desc
+    text: "永利当铺据点，位于湘西辰州府境内，大掌柜何友谅善鉴文玩珍宝，在湘西一地有口皆碑。"
 - raw: "{\r\n    \"Key\": \"107018\",\r\n    \"Name\": \"秘魔崖\",\r\n    \"Desc\": \"位于湘西靖州境内，乃是天魔教总舵天魔宫盘踞之处。\",\r\n    \"NameTw\": \"祕魔崖\",\r\n    \"DescTw\": \"位於湘西靖州境內，乃是天魔教總舵天魔宮盤踞之處。\"\r\n  }"
   rawIndex: 107018
   splits:
@@ -715,6 +811,20 @@
   - splitPath: Desc
     text: "浣花派据点，位于川西成都府境内，创立三百余年，以剑招优美灵动而闻名江湖。"
     translated: "The Outpost of the Flowing Flower Sect is located in the western part of Chengdu, Sichuan Province. Established over three hundred years ago, it is renowned in the Jianghu for the elegant and agile sword techniques it employs."
+- raw: "{\r\n    \"Key\": \"201013\",\r\n    \"Name\": \"汉昭烈庙\",\r\n    \"Desc\": \"汉昭烈庙据点，位于川西成都府境内，一庙双祠，同时祭祀汉昭烈帝和诸葛武侯，香火鼎盛。\",\r\n    \"NameTw\": \"漢昭烈廟\",\r\n    \"DescTw\": \"漢昭烈廟據點，位於川西成都府境內，一廟雙祠，同時祭祀漢昭烈帝和諸葛武侯，香火鼎盛。\"\r\n  }"
+  rawIndex: 201013
+  splits:
+  - splitPath: Name
+    text: "汉昭烈庙"
+  - splitPath: Desc
+    text: "汉昭烈庙据点，位于川西成都府境内，一庙双祠，同时祭祀汉昭烈帝和诸葛武侯，香火鼎盛。"
+- raw: "{\r\n    \"Key\": \"201017\",\r\n    \"Name\": \"罨画池\",\r\n    \"Desc\": \"位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。\",\r\n    \"NameTw\": \"罨畫池\",\r\n    \"DescTw\": \"位於川西成都府境內，園林祠廟相得益彰，滿園疊翠綠樹成蔭，乃是川西聞名的園林。\"\r\n  }"
+  rawIndex: 201017
+  splits:
+  - splitPath: Name
+    text: "罨画池"
+  - splitPath: Desc
+    text: "位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。"
 - raw: "{\r\n    \"Key\": \"10202\",\r\n    \"Name\": \"川中\",\r\n    \"Desc\": \"川蜀中部，顺庆府、潼川府、保宁府三府所在之地。\",\r\n    \"NameTw\": \"川中\",\r\n    \"DescTw\": \"川蜀中部，順慶府、潼川府、保寧府三府所在之地。\"\r\n  }"
   rawIndex: 10202
   splits:
@@ -724,6 +834,20 @@
   - splitPath: Desc
     text: "川蜀中部，顺庆府、潼川府、保宁府三府所在之地。"
     translated: "In central Sichuan, this area includes the prefectures of Shunqing, Tongchuan, and Baoding."
+- raw: "{\r\n    \"Key\": \"201021\",\r\n    \"Name\": \"川中游历\",\r\n    \"Desc\": \"川蜀中部，顺庆府、潼川府、保宁府三府所在之地。\",\r\n    \"NameTw\": \"川中游歷\",\r\n    \"DescTw\": \"川蜀中部，順慶府、潼川府、保寧府三府所在之地。\"\r\n  }"
+  rawIndex: 201021
+  splits:
+  - splitPath: Name
+    text: "川中游历"
+  - splitPath: Desc
+    text: "川蜀中部，顺庆府、潼川府、保宁府三府所在之地。"
+- raw: "{\r\n    \"Key\": \"201026\",\r\n    \"Name\": \"六扇门\",\r\n    \"Desc\": \"六扇门川蜀分部据点，位于川蜀南充城内，川蜀总捕樊重关行事雷厉风行，率领衙中高手擒拿无数江湖败类。\",\r\n    \"NameTw\": \"六扇門\",\r\n    \"DescTw\": \"六扇門川蜀分部據點，位於川蜀南充城內，川蜀總捕樊重關行事雷厲風行，率領衙中高手擒拿無數江湖敗類。\"\r\n  }"
+  rawIndex: 201026
+  splits:
+  - splitPath: Name
+    text: "六扇门"
+  - splitPath: Desc
+    text: "六扇门川蜀分部据点，位于川蜀南充城内，川蜀总捕樊重关行事雷厉风行，率领衙中高手擒拿无数江湖败类。"
 - raw: "{\r\n    \"Key\": \"10203\",\r\n    \"Name\": \"川东\",\r\n    \"Desc\": \"川蜀之东，夔州府、重庆府、泸州、播州宣慰司、永宁宣慰司两府一州两宣慰司所在之地。\",\r\n    \"NameTw\": \"川東\",\r\n    \"DescTw\": \"川蜀之東，夔州府、重慶府、瀘州、播州宣慰司、永寧宣慰司兩府一州兩宣慰司所在之地。\"\r\n  }"
   rawIndex: 10203
   splits:
@@ -760,6 +884,13 @@
   - splitPath: Desc
     text: "丰都鬼市据点，位于丰都县西三十里的丰都山下，每月初七、十七、二十七子时之后开市。"
     translated: "The Outpost of the Ghost Market in Fengdu, located at the foot of Fengdu Mountain, thirty li west of Fengdu County. The market opens after midnight on the 7th, 17th, and 27th of each month."
+- raw: "{\r\n    \"Key\": \"102035\",\r\n    \"Name\": \"神女宫\",\r\n    \"Desc\": \"神女宫据点，位于夔州府巫山神女峰上，宫主巫云凤武功深不可测，庇佑宫中女子，与江湖人少有牵扯。\",\r\n    \"NameTw\": \"神女宮\",\r\n    \"DescTw\": \"神女宮據點，位於夔州府巫山神女峰上，宮主巫雲鳳武功深不可測，庇佑宮中女子，與江湖人少有牽扯。\"\r\n  }"
+  rawIndex: 102035
+  splits:
+  - splitPath: Name
+    text: "神女宫"
+  - splitPath: Desc
+    text: "神女宫据点，位于夔州府巫山神女峰上，宫主巫云凤武功深不可测，庇佑宫中女子，与江湖人少有牵扯。"
 - raw: "{\r\n    \"Key\": \"10204\",\r\n    \"Name\": \"川南\",\r\n    \"Desc\": \"川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。\",\r\n    \"NameTw\": \"川南\",\r\n    \"DescTw\": \"川蜀之南，敘州府、馬湖府、烏蒙府、鎮雄府、烏撒府、東川府、四川行都司六府一都司所在之地。\"\r\n  }"
   rawIndex: 10204
   splits:
@@ -769,3 +900,24 @@
   - splitPath: Desc
     text: "川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。"
     translated: "In the south of Sichuan Province, in Xushou Prefecture, Maluhu Prefecture, Wumeng Prefecture, Zhentong Prefecture, Wusa Prefecture, Dongchuan Prefecture, and the Six Prefectures and One Military Commission of Sichuan."
+- raw: "{\r\n    \"Key\": \"201041\",\r\n    \"Name\": \"川南游历\",\r\n    \"Desc\": \"川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。\",\r\n    \"NameTw\": \"川南遊歷\",\r\n    \"DescTw\": \"川蜀之南，敘州府、馬湖府、烏蒙府、鎮雄府、烏撒府、東川府、四川行都司六府一都司所在之地。\"\r\n  }"
+  rawIndex: 201041
+  splits:
+  - splitPath: Name
+    text: "川南游历"
+  - splitPath: Desc
+    text: "川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。"
+- raw: "{\r\n    \"Key\": \"201045\",\r\n    \"Name\": \"蚩黎峒\",\r\n    \"Desc\": \"蚩黎峒据点，位于叙州府大凉山北麓，峒人擅长驯养苍狼，是川蜀之地各苗峒之首。\",\r\n    \"NameTw\": \"蚩黎峒\",\r\n    \"DescTw\": \"蚩黎峒據點，位於敘州府大涼山北麓，峒人擅長馴養蒼狼，是川蜀之地各苗峒之首。\"\r\n  }"
+  rawIndex: 201045
+  splits:
+  - splitPath: Name
+    text: "蚩黎峒"
+  - splitPath: Desc
+    text: "蚩黎峒据点，位于叙州府大凉山北麓，峒人擅长驯养苍狼，是川蜀之地各苗峒之首。"
+- raw: "{\r\n    \"Key\": \"201047\",\r\n    \"Name\": \"大凉山\",\r\n    \"Desc\": \"位于川南叙州府境内，层山盘峙，地高风寒，山中多有各种獐、狍、鹿、豹栖息，坊间传言还有奇兽亦蛰伏于此。\",\r\n    \"NameTw\": \"大涼山\",\r\n    \"DescTw\": \"位於川南敘州府境內，層山盤峙，地高風寒，山中多有各種獐、狍、鹿、豹棲息，坊間傳言還有奇獸亦蟄伏於此。\"\r\n  }"
+  rawIndex: 201047
+  splits:
+  - splitPath: Name
+    text: "大凉山"
+  - splitPath: Desc
+    text: "位于川南叙州府境内，层山盘峙，地高风寒，山中多有各种獐、狍、鹿、豹栖息，坊间传言还有奇兽亦蛰伏于此。"

@@ -1087,7 +1087,7 @@
     text: "千户府兵"
   - splitPath: Desc
     text: "支援战斗\\n攻击（100000）"
-- raw: "{\r\n    \"Key\": \"126\",\r\n    \"Name\": \"灵兽通心诀\",\r\n    \"ItemName\": \"灵兽通心诀\",\r\n    \"Desc\": \"宠物攻击+80%\",\r\n    \"NameTw\": \"靈獸通心訣\",\r\n    \"ItemNameTw\": \"靈獸通心訣\",\r\n    \"DescTw\": \"寵物攻擊+80%\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"126\",\r\n    \"Name\": \"灵兽通心诀\",\r\n    \"ItemName\": \"灵兽通心诀\",\r\n    \"Desc\": \"助战攻击+60%\",\r\n    \"NameTw\": \"靈獸通心訣\",\r\n    \"ItemNameTw\": \"靈獸通心訣\",\r\n    \"DescTw\": \"助戰攻擊+60%\"\r\n  }"
   rawIndex: 126
   splits:
   - splitPath: Name
@@ -1095,7 +1095,7 @@
   - splitPath: ItemName
     text: "灵兽通心诀"
   - splitPath: Desc
-    text: "宠物攻击+80%"
+    text: "助战攻击+60%"
 - raw: "{\r\n    \"Key\": \"127\",\r\n    \"Name\": \"八大锤\",\r\n    \"ItemName\": \"八大锤\",\r\n    \"Desc\": \"攻击+20%\",\r\n    \"NameTw\": \"八大錘\",\r\n    \"ItemNameTw\": \"八大錘\",\r\n    \"DescTw\": \"攻擊+20%\"\r\n  }"
   rawIndex: 127
   splits:
@@ -1501,3 +1501,318 @@
     text: "长江恶鼋（{0}/{1}）"
   - splitPath: Desc
     text: "防御+40%"
+- raw: "{\r\n    \"Key\": \"172\",\r\n    \"Name\": \"罗汉金身\",\r\n    \"ItemName\": \"罗汉金身（{0}/{1}）\",\r\n    \"Desc\": \"防御+100%\",\r\n    \"NameTw\": \"羅漢金身\",\r\n    \"ItemNameTw\": \"羅漢金身（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+100%\"\r\n  }"
+  rawIndex: 172
+  splits:
+  - splitPath: Name
+    text: "罗汉金身"
+  - splitPath: ItemName
+    text: "罗汉金身（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+100%"
+- raw: "{\r\n    \"Key\": \"173\",\r\n    \"Name\": \"龙腾雾隐\",\r\n    \"ItemName\": \"龙腾雾隐（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"龍騰霧隱\",\r\n    \"ItemNameTw\": \"龍騰霧隱（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
+  rawIndex: 173
+  splits:
+  - splitPath: Name
+    text: "龙腾雾隐"
+  - splitPath: ItemName
+    text: "龙腾雾隐（{0}/{1}）"
+  - splitPath: Desc
+    text: "每层抵消一次攻击"
+- raw: "{\r\n    \"Key\": \"174\",\r\n    \"Name\": \"三昧神风\",\r\n    \"ItemName\": \"三昧神风\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"三昧神風\",\r\n    \"ItemNameTw\": \"三昧神風\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
+  rawIndex: 174
+  splits:
+  - splitPath: Name
+    text: "三昧神风"
+  - splitPath: ItemName
+    text: "三昧神风"
+  - splitPath: Desc
+    text: "支援战斗"
+- raw: "{\r\n    \"Key\": \"175\",\r\n    \"Name\": \"人种袋\",\r\n    \"ItemName\": \"人种袋\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"人種袋\",\r\n    \"ItemNameTw\": \"人種袋\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
+  rawIndex: 175
+  splits:
+  - splitPath: Name
+    text: "人种袋"
+  - splitPath: ItemName
+    text: "人种袋"
+  - splitPath: Desc
+    text: "支援战斗"
+- raw: "{\r\n    \"Key\": \"176\",\r\n    \"Name\": \"小虎\",\r\n    \"ItemName\": \"小虎\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"小虎\",\r\n    \"ItemNameTw\": \"小虎\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 176
+  splits:
+  - splitPath: Name
+    text: "小虎"
+  - splitPath: ItemName
+    text: "小虎"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"177\",\r\n    \"Name\": \"於菟\",\r\n    \"ItemName\": \"於菟\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"於菟\",\r\n    \"ItemNameTw\": \"於菟\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 177
+  splits:
+  - splitPath: Name
+    text: "於菟"
+  - splitPath: ItemName
+    text: "於菟"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"178\",\r\n    \"Name\": \"招财\",\r\n    \"ItemName\": \"招财\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（200）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"招財\",\r\n    \"ItemNameTw\": \"招財\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（200）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 178
+  splits:
+  - splitPath: Name
+    text: "招财"
+  - splitPath: ItemName
+    text: "招财"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（200）\\n增伤（12倍御兽）\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"179\",\r\n    \"Name\": \"七星甲\",\r\n    \"ItemName\": \"七星甲（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"七星甲\",\r\n    \"ItemNameTw\": \"七星甲（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
+  rawIndex: 179
+  splits:
+  - splitPath: Name
+    text: "七星甲"
+  - splitPath: ItemName
+    text: "七星甲（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+{0}%"
+- raw: "{\r\n    \"Key\": \"180\",\r\n    \"Name\": \"飞蝗匣\",\r\n    \"ItemName\": \"飞蝗匣\",\r\n    \"Desc\": \"【机关】\\\\n攻击（3000）\\\\n封穴<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"飛蝗匣\",\r\n    \"ItemNameTw\": \"飛蝗匣\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（3000）\\\\n封穴<40%>\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 180
+  splits:
+  - splitPath: Name
+    text: "飞蝗匣"
+  - splitPath: ItemName
+    text: "飞蝗匣"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（3000）\\n封穴<40%>\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"181\",\r\n    \"Name\": \"连弩机\",\r\n    \"ItemName\": \"连弩机\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1200）\\\\n三连击\\\\n100%发动攻击\",\r\n    \"NameTw\": \"連弩機\",\r\n    \"ItemNameTw\": \"連弩機\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1200）\\\\n三連擊\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 181
+  splits:
+  - splitPath: Name
+    text: "连弩机"
+  - splitPath: ItemName
+    text: "连弩机"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（1200）\\n三连击\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"182\",\r\n    \"Name\": \"蛛丝壶\",\r\n    \"ItemName\": \"蛛丝壶\",\r\n    \"Desc\": \"【机关】\\\\n攻击（3000）\\\\n中毒<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"蛛絲壺\",\r\n    \"ItemNameTw\": \"蛛絲壺\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（3000）\\\\n中毒<40%>\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 182
+  splits:
+  - splitPath: Name
+    text: "蛛丝壶"
+  - splitPath: ItemName
+    text: "蛛丝壶"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（3000）\\n中毒<40%>\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"183\",\r\n    \"Name\": \"万花筒\",\r\n    \"ItemName\": \"万花筒\",\r\n    \"Desc\": \"【机关】\\\\n攻击（5000）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"萬花筒\",\r\n    \"ItemNameTw\": \"萬花筒\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（5000）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 183
+  splits:
+  - splitPath: Name
+    text: "万花筒"
+  - splitPath: ItemName
+    text: "万花筒"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（5000）\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"184\",\r\n    \"Name\": \"星罗伞\",\r\n    \"ItemName\": \"星罗伞\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1100）\\\\n三连击\\\\n轻伤<33%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"星羅傘\",\r\n    \"ItemNameTw\": \"星羅傘\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1100）\\\\n三連擊\\\\n輕傷<33%>\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 184
+  splits:
+  - splitPath: Name
+    text: "星罗伞"
+  - splitPath: ItemName
+    text: "星罗伞"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（1100）\\n三连击\\n轻伤<33%>\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"185\",\r\n    \"Name\": \"玉露牌\",\r\n    \"ItemName\": \"玉露牌（{0}/{1}）\",\r\n    \"Desc\": \"防御+20%\",\r\n    \"NameTw\": \"玉露牌\",\r\n    \"ItemNameTw\": \"玉露牌（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+20%\"\r\n  }"
+  rawIndex: 185
+  splits:
+  - splitPath: Name
+    text: "玉露牌"
+  - splitPath: ItemName
+    text: "玉露牌（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+20%"
+- raw: "{\r\n    \"Key\": \"186\",\r\n    \"Name\": \"木鹊\",\r\n    \"ItemName\": \"木鹊\",\r\n    \"Desc\": \"【机关】\\\\n攻击（500）\\\\n增伤（10倍匠造）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"木鵲\",\r\n    \"ItemNameTw\": \"木鵲\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（500）\\\\n增傷（10倍匠造）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 186
+  splits:
+  - splitPath: Name
+    text: "木鹊"
+  - splitPath: ItemName
+    text: "木鹊"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（500）\\n增伤（10倍匠造）\\n100%发动攻击"
+- raw: "{\r\n    \"Key\": \"187\",\r\n    \"Name\": \"木狗\",\r\n    \"ItemName\": \"木狗\",\r\n    \"Desc\": \"【机关】\\\\n攻击（800）\\\\n增伤（16倍匠造）\\\\n80%发动攻击\",\r\n    \"NameTw\": \"木狗\",\r\n    \"ItemNameTw\": \"木狗\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（800）\\\\n增傷（16倍匠造）\\\\n80%發動攻擊\"\r\n  }"
+  rawIndex: 187
+  splits:
+  - splitPath: Name
+    text: "木狗"
+  - splitPath: ItemName
+    text: "木狗"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（800）\\n增伤（16倍匠造）\\n80%发动攻击"
+- raw: "{\r\n    \"Key\": \"190\",\r\n    \"Name\": \"木兽\",\r\n    \"ItemName\": \"木兽\",\r\n    \"Desc\": \"【机关】\\\\n攻击（1200）\\\\n增伤（24倍匠造）\\\\n60%发动攻击\",\r\n    \"NameTw\": \"木獸\",\r\n    \"ItemNameTw\": \"木獸\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（1200）\\\\n增傷（24倍匠造）\\\\n60%發動攻擊\"\r\n  }"
+  rawIndex: 190
+  splits:
+  - splitPath: Name
+    text: "木兽"
+  - splitPath: ItemName
+    text: "木兽"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（1200）\\n增伤（24倍匠造）\\n60%发动攻击"
+- raw: "{\r\n    \"Key\": \"191\",\r\n    \"Name\": \"木牛\",\r\n    \"ItemName\": \"木牛\",\r\n    \"Desc\": \"【机关】\\\\n回复一点行动力\\\\n50%发动\",\r\n    \"NameTw\": \"木牛\",\r\n    \"ItemNameTw\": \"木牛\",\r\n    \"DescTw\": \"【機關】\\\\n回覆一點行動力\\\\n50%發動\"\r\n  }"
+  rawIndex: 191
+  splits:
+  - splitPath: Name
+    text: "木牛"
+  - splitPath: ItemName
+    text: "木牛"
+  - splitPath: Desc
+    text: "【机关】\\n回复一点行动力\\n50%发动"
+- raw: "{\r\n    \"Key\": \"192\",\r\n    \"Name\": \"木麒麟\",\r\n    \"ItemName\": \"木麒麟\",\r\n    \"Desc\": \"【机关】\\\\n攻击（5555）\\\\n增伤（10倍匠造）\\\\n50%发动攻击\",\r\n    \"NameTw\": \"木麒麟\",\r\n    \"ItemNameTw\": \"木麒麟\",\r\n    \"DescTw\": \"【機關】\\\\n攻擊（5555）\\\\n增傷（10倍匠造）\\\\n50%發動攻擊\"\r\n  }"
+  rawIndex: 192
+  splits:
+  - splitPath: Name
+    text: "木麒麟"
+  - splitPath: ItemName
+    text: "木麒麟"
+  - splitPath: Desc
+    text: "【机关】\\n攻击（5555）\\n增伤（10倍匠造）\\n50%发动攻击"
+- raw: "{\r\n    \"Key\": \"193\",\r\n    \"Name\": \"鸢护\",\r\n    \"ItemName\": \"鸢护（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"鳶護\",\r\n    \"ItemNameTw\": \"鳶護（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
+  rawIndex: 193
+  splits:
+  - splitPath: Name
+    text: "鸢护"
+  - splitPath: ItemName
+    text: "鸢护（{0}/{1}）"
+  - splitPath: Desc
+    text: "每层抵消一次攻击"
+- raw: "{\r\n    \"Key\": \"194\",\r\n    \"Name\": \"廿八星宿阵\",\r\n    \"ItemName\": \"廿八星宿阵\",\r\n    \"Desc\": \"助战攻击+100%\",\r\n    \"NameTw\": \"廿八星宿陣\",\r\n    \"ItemNameTw\": \"廿八星宿陣\",\r\n    \"DescTw\": \"助戰攻擊+100%\"\r\n  }"
+  rawIndex: 194
+  splits:
+  - splitPath: Name
+    text: "廿八星宿阵"
+  - splitPath: ItemName
+    text: "廿八星宿阵"
+  - splitPath: Desc
+    text: "助战攻击+100%"
+- raw: "{\r\n    \"Key\": \"195\",\r\n    \"Name\": \"青莲剑歌\",\r\n    \"ItemName\": \"青莲剑歌\",\r\n    \"Desc\": \"攻击+30%\",\r\n    \"NameTw\": \"青蓮劍歌\",\r\n    \"ItemNameTw\": \"青蓮劍歌\",\r\n    \"DescTw\": \"攻擊+30%\"\r\n  }"
+  rawIndex: 195
+  splits:
+  - splitPath: Name
+    text: "青莲剑歌"
+  - splitPath: ItemName
+    text: "青莲剑歌"
+  - splitPath: Desc
+    text: "攻击+30%"
+- raw: "{\r\n    \"Key\": \"196\",\r\n    \"Name\": \"夜渡无人盾自横\",\r\n    \"ItemName\": \"夜渡无人盾自横（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"夜渡無人盾自橫\",\r\n    \"ItemNameTw\": \"夜渡無人盾自橫（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
+  rawIndex: 196
+  splits:
+  - splitPath: Name
+    text: "夜渡无人盾自横"
+  - splitPath: ItemName
+    text: "夜渡无人盾自横（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+{0}%"
+- raw: "{\r\n    \"Key\": \"197\",\r\n    \"Name\": \"云雨屏\",\r\n    \"ItemName\": \"云雨屏（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"雲雨屏\",\r\n    \"ItemNameTw\": \"雲雨屏（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
+  rawIndex: 197
+  splits:
+  - splitPath: Name
+    text: "云雨屏"
+  - splitPath: ItemName
+    text: "云雨屏（{0}/{1}）"
+  - splitPath: Desc
+    text: "每层抵消一次攻击"
+- raw: "{\r\n    \"Key\": \"198\",\r\n    \"Name\": \"苍狼\",\r\n    \"ItemName\": \"苍狼\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（400）\\\\n增伤（13倍御兽）\\\\n轻伤<30%>\\\\n90%发动攻击\",\r\n    \"NameTw\": \"蒼狼\",\r\n    \"ItemNameTw\": \"蒼狼\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（400）\\\\n增傷（13倍御獸）\\\\n輕傷<30%>\\\\n90%發動攻擊\"\r\n  }"
+  rawIndex: 198
+  splits:
+  - splitPath: Name
+    text: "苍狼"
+  - splitPath: ItemName
+    text: "苍狼"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（400）\\n增伤（13倍御兽）\\n轻伤<30%>\\n90%发动攻击"
+- raw: "{\r\n    \"Key\": \"199\",\r\n    \"Name\": \"小福\",\r\n    \"ItemName\": \"小福\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（500）\\\\n增伤（18倍御兽）\\\\n80%发动攻击\",\r\n    \"NameTw\": \"小福\",\r\n    \"ItemNameTw\": \"小福\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（500）\\\\n增傷（18倍御獸）\\\\n80%發動攻擊\"\r\n  }"
+  rawIndex: 199
+  splits:
+  - splitPath: Name
+    text: "小福"
+  - splitPath: ItemName
+    text: "小福"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（500）\\n增伤（18倍御兽）\\n80%发动攻击"
+- raw: "{\r\n    \"Key\": \"200\",\r\n    \"Name\": \"大福\",\r\n    \"ItemName\": \"大福\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（4000）\\\\n增伤（20倍御兽）\\\\n重伤<40%>\\\\n60%发动攻击\",\r\n    \"NameTw\": \"大福\",\r\n    \"ItemNameTw\": \"大福\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（4000）\\\\n增傷（20倍御獸）\\\\n重傷<40%>\\\\n60%發動攻擊\"\r\n  }"
+  rawIndex: 200
+  splits:
+  - splitPath: Name
+    text: "大福"
+  - splitPath: ItemName
+    text: "大福"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（4000）\\n增伤（20倍御兽）\\n重伤<40%>\\n60%发动攻击"
+- raw: "{\r\n    \"Key\": \"201\",\r\n    \"Name\": \"兽灵秘术\",\r\n    \"ItemName\": \"兽灵秘术\",\r\n    \"Desc\": \"助战攻击+60%\",\r\n    \"NameTw\": \"獸靈祕術\",\r\n    \"ItemNameTw\": \"獸靈祕術\",\r\n    \"DescTw\": \"助戰攻擊+60%\"\r\n  }"
+  rawIndex: 201
+  splits:
+  - splitPath: Name
+    text: "兽灵秘术"
+  - splitPath: ItemName
+    text: "兽灵秘术"
+  - splitPath: Desc
+    text: "助战攻击+60%"
+- raw: "{\r\n    \"Key\": \"202\",\r\n    \"Name\": \"灵心通契\",\r\n    \"ItemName\": \"灵心通契\",\r\n    \"Desc\": \"助战攻击+120%\",\r\n    \"NameTw\": \"靈心通契\",\r\n    \"ItemNameTw\": \"靈心通契\",\r\n    \"DescTw\": \"助戰攻擊+120%\"\r\n  }"
+  rawIndex: 202
+  splits:
+  - splitPath: Name
+    text: "灵心通契"
+  - splitPath: ItemName
+    text: "灵心通契"
+  - splitPath: Desc
+    text: "助战攻击+120%"
+- raw: "{\r\n    \"Key\": \"203\",\r\n    \"Name\": \"苍狼王\",\r\n    \"ItemName\": \"苍狼王\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1200）\\\\n增伤（18倍御兽）\\\\n轻伤<40%>\\\\n80%发动攻击\",\r\n    \"NameTw\": \"蒼狼王\",\r\n    \"ItemNameTw\": \"蒼狼王\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1200）\\\\n增傷（18倍御獸）\\\\n輕傷<40%>\\\\n80%發動攻擊\"\r\n  }"
+  rawIndex: 203
+  splits:
+  - splitPath: Name
+    text: "苍狼王"
+  - splitPath: ItemName
+    text: "苍狼王"
+  - splitPath: Desc
+    text: "【宠物】\\n攻击（1200）\\n增伤（18倍御兽）\\n轻伤<40%>\\n80%发动攻击"
+- raw: "{\r\n    \"Key\": \"204\",\r\n    \"Name\": \"漏尽通\",\r\n    \"ItemName\": \"漏尽通（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"漏盡通\",\r\n    \"ItemNameTw\": \"漏盡通（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
+  rawIndex: 204
+  splits:
+  - splitPath: Name
+    text: "漏尽通"
+  - splitPath: ItemName
+    text: "漏尽通（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+{0}%"
+- raw: "{\r\n    \"Key\": \"205\",\r\n    \"Name\": \"元阳神功\",\r\n    \"ItemName\": \"元阳神功\",\r\n    \"Desc\": \"攻击+40%\",\r\n    \"NameTw\": \"元陽神功\",\r\n    \"ItemNameTw\": \"元陽神功\",\r\n    \"DescTw\": \"攻擊+40%\"\r\n  }"
+  rawIndex: 205
+  splits:
+  - splitPath: Name
+    text: "元阳神功"
+  - splitPath: ItemName
+    text: "元阳神功"
+  - splitPath: Desc
+    text: "攻击+40%"
+- raw: "{\r\n    \"Key\": \"206\",\r\n    \"Name\": \"仙神变\",\r\n    \"ItemName\": \"仙神变（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"仙神變\",\r\n    \"ItemNameTw\": \"仙神變（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
+  rawIndex: 206
+  splits:
+  - splitPath: Name
+    text: "仙神变"
+  - splitPath: ItemName
+    text: "仙神变（{0}/{1}）"
+  - splitPath: Desc
+    text: "攻击+{0}%"
+- raw: "{\r\n    \"Key\": \"207\",\r\n    \"Name\": \"鬼王变\",\r\n    \"ItemName\": \"鬼王变（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"鬼王變\",\r\n    \"ItemNameTw\": \"鬼王變（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
+  rawIndex: 207
+  splits:
+  - splitPath: Name
+    text: "鬼王变"
+  - splitPath: ItemName
+    text: "鬼王变（{0}/{1}）"
+  - splitPath: Desc
+    text: "防御+{0}%"
+- raw: "{\r\n    \"Key\": \"208\",\r\n    \"Name\": \"英杰变\",\r\n    \"ItemName\": \"英杰变（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"英傑變\",\r\n    \"ItemNameTw\": \"英傑變（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
+  rawIndex: 208
+  splits:
+  - splitPath: Name
+    text: "英杰变"
+  - splitPath: ItemName
+    text: "英杰变（{0}/{1}）"
+  - splitPath: Desc
+    text: "回复+{0}%"

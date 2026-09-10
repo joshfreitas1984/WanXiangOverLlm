@@ -1,4 +1,5 @@
-﻿using Translate.Utility;
+﻿using FanslationStudio.LlmKit.Support;
+using Translate.Utility;
 
 namespace Translate.Tests;
 
@@ -40,7 +41,13 @@ public class FileInputWorkflowTests
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit)
         {
-            var file = $"{TranslationWorkflowTests.WorkingDirectory}/Raw/Export/{textFile.Path}";
+            // LlmKit's workflows (PrefabText/DynamicStrings) always suffix the Raw/Export file with
+            // ".yaml"; this repo's own JSON export path does not (the file already ends in ".json").
+            var exportName = textFile.TextFileType is TextFileType.PrefabText or TextFileType.DynamicStrings
+                ? $"{textFile.Path}.yaml"
+                : textFile.Path;
+
+            var file = $"{TranslationWorkflowTests.WorkingDirectory}/Raw/Export/{exportName}";
             var convertedFile = $"{TranslationWorkflowTests.WorkingDirectory}/Converted/{textFile.Path}.yaml";
 
             var deserializer = Yaml.CreateDeserializer();

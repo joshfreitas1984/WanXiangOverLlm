@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using FanslationStudio.LlmKit.Support;
 using Translate.Support;
 using Translate.Utility;
 

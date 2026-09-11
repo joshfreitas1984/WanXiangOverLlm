@@ -67,7 +67,7 @@
   splits:
   - splitPath: Name
     text: "行动力"
-    translated: "Action Points +1"
+    translated: "Action Points"
   - splitPath: Desc
     text: "战斗中每回合回复的行动力"
     translated: "In battle, action points recover each turn by +1."
@@ -84,7 +84,7 @@
     translated: "Supernatural strength"
   - splitPath: Desc
     text: "玩家可装备技能"
-    translated: "Players can equip skill +2"
+    translated: "Players can equip skills"
   templates:
   - splitPath: Desc
     template: "{0}+2"
@@ -93,7 +93,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -108,7 +108,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -123,7 +123,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -138,7 +138,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -153,7 +153,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -168,7 +168,7 @@
   splits:
   - splitPath: Name
     text: "天赋槽位"
-    translated: "Talent Point Slot +1"
+    translated: "Talent slot"
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
@@ -186,7 +186,7 @@
     translated: "Damage +10%"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "All characters' final damage +10%"
+    translated: "Total damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -203,7 +203,7 @@
     translated: "Damage +10%"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "All characters' final damage +10%"
+    translated: "Total damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -220,7 +220,7 @@
     translated: "Damage +10%"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "All characters' final damage +10%"
+    translated: "Total damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -237,7 +237,7 @@
     translated: "Damage +10%"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "All characters' final damage +10%"
+    translated: "Total damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -254,7 +254,7 @@
     translated: "Damage +10%"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "All characters' final damage +10%"
+    translated: "Total damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -268,10 +268,10 @@
   splits:
   - splitPath: Name
     text: "气血"
-    translated: "Lifeforce +10%"
+    translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined lifeforce of all characters is +10%"
+    translated: "The combined Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -285,10 +285,10 @@
   splits:
   - splitPath: Name
     text: "气血"
-    translated: "Lifeforce +10%"
+    translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined lifeforce of all characters is +10%"
+    translated: "The combined Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -302,10 +302,10 @@
   splits:
   - splitPath: Name
     text: "气血"
-    translated: "Lifeforce +10%"
+    translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined lifeforce of all characters is +10%"
+    translated: "The combined Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -319,10 +319,10 @@
   splits:
   - splitPath: Name
     text: "气血"
-    translated: "Lifeforce +10%"
+    translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined lifeforce of all characters is +10%"
+    translated: "The combined Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -336,10 +336,10 @@
   splits:
   - splitPath: Name
     text: "气血"
-    translated: "Lifeforce +10%"
+    translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined lifeforce of all characters is +10%"
+    translated: "The combined Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"

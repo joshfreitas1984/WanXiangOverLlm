@@ -6583,7 +6583,7 @@
     translated: "Northern Jingbei"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
-    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家"
+    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家——"
     translated: "The story begins this time, detailing a master of spear techniques who emerged from the military in the Jianghu."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
@@ -6606,7 +6606,7 @@
     translated: "Northern Jingbei"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
-    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家"
+    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家——"
     translated: "The story begins this time, detailing a master of spear techniques who emerged from the military in the Jianghu."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
@@ -6614,9 +6614,9 @@
     translated: "《General has fought a hundred battles》"
   templates:
   - splitPath: ConditionSatisfiedDesc
-    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}——<color=#BA77D9>{5}</color>。"
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}<color=#BA77D9>{5}</color>。"
   - splitPath: ConditionUnsatisfiedDesc
-    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}——<color=#BA77D9>{5}</color>。"
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}<color=#BA77D9>{5}</color>。"
 - raw: "{\r\n    \"Key\": \"20024\",\r\n    \"Title\": \"江湖消息\",\r\n    \"ConditionSatisfiedDesc\": \"听闻江湖说书人<color=#BA77D9>“谈笑书生”陶乐天</color>在<color=#77CED9>荆东</color>开书了，这一次说的是江湖闻名的<color=#BA77D9>“商山四皓”</color>与<color=#D9C577>“四象之阵”</color>的传说——<color=#BA77D9>《四时迭运》</color>。\",\r\n    \"ConditionUnsatisfiedDesc\": \"听闻江湖说书人<color=#BA77D9>“谈笑书生”陶乐天</color>在<color=#77CED9>荆北</color>开书了，这一次说的是江湖中从军中衍化而成的枪法名家——<color=#BA77D9>《将军百战》</color>。\",\r\n    \"ConditionSatisfiedDescTw\": \"聽聞江湖說書人<color=#BA77D9>“談笑書生”陶樂天</color>在<color=#77CED9>荊東</color>開書了，這一次說的是江湖聞名的<color=#BA77D9>“商山四皓”</color>與<color=#D9C577>“四象之陣”</color>的傳說——<color=#BA77D9>《四時迭運》</color>。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"聽聞江湖說書人<color=#BA77D9>“談笑書生”陶樂天</color>在<color=#77CED9>荊北</color>開書了，這一次說的是江湖中從軍中衍化而成的槍法名家——<color=#BA77D9>《將軍百戰》</color>。\",\r\n    \"TitleTw\": \"江湖訊息\"\r\n  }"
   rawIndex: 20024
   splits:
@@ -6656,7 +6656,7 @@
     translated: "“Four Symbols Formation”"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
-    text: "的传说"
+    text: "的传说——"
     translated: "Legend"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 9
@@ -6679,7 +6679,7 @@
     translated: "Northern Jingbei"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
-    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家"
+    text: "开书了，这一次说的是江湖中从军中衍化而成的枪法名家——"
     translated: "The story begins this time, detailing a master of spear techniques who emerged from the military in the Jianghu."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
@@ -6687,9 +6687,9 @@
     translated: "《General has fought a hundred battles》"
   templates:
   - splitPath: ConditionSatisfiedDesc
-    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}——<color=#BA77D9>{9}</color>。"
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}<color=#BA77D9>{5}</color>{6}<color=#D9C577>{7}</color>{8}<color=#BA77D9>{9}</color>。"
   - splitPath: ConditionUnsatisfiedDesc
-    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}——<color=#BA77D9>{5}</color>。"
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}<color=#BA77D9>{5}</color>。"
 - raw: "{\r\n    \"Key\": \"20025\",\r\n    \"Title\": \"江湖消息\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#FF0000>进入第八十年后游戏将自动结束。</color>\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#FF0000>进入第八十年后游戏将自动结束。</color>\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#FF0000>進入第八十年後遊戲將自動結束。</color>\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#FF0000>進入第八十年後遊戲將自動結束。</color>\",\r\n    \"TitleTw\": \"江湖訊息\"\r\n  }"
   rawIndex: 20025
   splits:

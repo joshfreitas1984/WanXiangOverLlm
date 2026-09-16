@@ -173,10 +173,6 @@
   - splitPath: Name
     text: "道德"
     translated: "Morality"
-    qcReviewedText: "Morality \\nReflecting the character's actions and stance can influence when and how events trigger and unfold."
-    qcStatus: Passed
-    qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。"
     translated: "Reflecting the character's actions and stance can influence when and how events trigger and unfold."
@@ -293,10 +289,6 @@
   - splitPath: Name
     text: "难度"
     translated: "Difficulty"
-    qcReviewedText: "Difficulty Difficulty The difficulty level of the game chosen by the player, value corresponds to"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "玩家选择的游戏难度，值对应"
     translated: "The difficulty level of the game chosen by the player, value corresponds to"
@@ -313,10 +305,6 @@
   - splitPath: Name
     text: "立绘"
     translated: "Character sprite ID"
-    qcReviewedText: "Character sprite ID id"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "玩家立绘"
     translated: "Player character sprite ID"

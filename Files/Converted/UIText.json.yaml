@@ -467,10 +467,6 @@
   - splitPath: Desc
     text: "（已解锁）"
     translated: "(Already unlocked)"
-    qcReviewedText: "<color=#00ff00>(Already unlocked)</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#00ff00>{0}</color>"
@@ -480,10 +476,6 @@
   - splitPath: Desc
     text: "（未解锁）"
     translated: "(Not Unlocked)"
-    qcReviewedText: "<color=#ffffff>(Not Unlocked)</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#ffffff>{0}</color>"
@@ -597,10 +589,6 @@
   - splitPath: Desc
     text: "点击切换查看技能"
     translated: "Click to switch and view skills"
-    qcReviewedText: "Click to switch and view skills \\nClick again to view attributes \\nShortcuts {0}"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "再次点击查看属性"
@@ -748,10 +736,6 @@
   - splitPath: Desc
     text: "绿色"
     translated: "Green"
-    qcReviewedText: "<color=#00ff00>Green</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#00ff00>{0}</color>"
@@ -761,10 +745,6 @@
   - splitPath: Desc
     text: "蓝色"
     translated: "Blue"
-    qcReviewedText: "<color=#0000ff>Blue</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#0000ff>{0}</color>"
@@ -774,10 +754,6 @@
   - splitPath: Desc
     text: "紫色"
     translated: "Purple"
-    qcReviewedText: "<color=#800080>Purple</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#800080>{0}</color>"
@@ -787,10 +763,6 @@
   - splitPath: Desc
     text: "金色"
     translated: "Golden"
-    qcReviewedText: "<color=#daa520>Golden</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#daa520>{0}</color>"
@@ -1179,10 +1151,6 @@
   - splitPath: Desc
     text: "存档"
     translated: "Save"
-    qcReviewedText: "Save {0}"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}⟦0⟧"
@@ -1211,10 +1179,6 @@
   - splitPath: Desc
     text: "长按"
     translated: "Press and hold"
-    qcReviewedText: "Press and hold {0} Speed up"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "加速"
@@ -2011,10 +1975,6 @@
   - splitPath: Desc
     text: "创意工坊"
     translated: "Workshop"
-    qcReviewedText: "Steam Workshop"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "Steam{0}"
@@ -2222,10 +2182,6 @@
   - splitPath: Desc
     text: "制作说明"
     translated: "Production Notes"
-    qcReviewedText: "Mod Production Notes"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "Mod{0}"

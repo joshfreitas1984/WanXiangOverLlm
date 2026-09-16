@@ -220,9 +220,6 @@
   - splitPath: Desc
     text: "移除"
     translated: "Removed"
-    qcReviewedText: "Removed buff, support"
-    qcStatus: Passed
-    qcQualityScore: 90
   - splitPath: Desc
     subIndex: 1
     text: "、支援"
@@ -299,9 +296,6 @@
   - splitPath: Desc
     text: "攻击"
     translated: "Attack buff"
-    qcReviewedText: "buff Attack buff"
-    qcStatus: Passed
-    qcQualityScore: 95
   templates:
   - splitPath: Desc
     template: "buff{0}"

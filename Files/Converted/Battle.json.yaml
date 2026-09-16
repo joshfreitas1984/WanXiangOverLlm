@@ -4,9 +4,6 @@
   - splitPath: Name
     text: "深山寻幽"
     translated: "Exploring the Depths of the Mountains"
-    qcReviewedText: "Exploring the Depths of the Mountains*2"
-    qcStatus: Passed
-    qcQualityScore: 95
   - splitPath: Desc
     text: "异蛇（常规）"
     translated: "Strange Snake (Standard)"
@@ -49,6 +46,10 @@
   - splitPath: Name
     text: "衡山小校三"
     translated: "Hengshan Xiao Xiao San"
+    qcReviewedText: "Hengshan Xiao Xiao San"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "方东壁"
     translated: "Fang Dongbi"
@@ -106,6 +107,11 @@
   - splitPath: Name
     text: "杨慎遇恶寇"
     translated: "Yang Shenyu encountered evil bandits"
+    qcReviewedText: "Yang Shenyu encountered evil bandits"
+    qcTranslated: "Yang Shen Encounters Evil Bandits"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "殷通一众"
     translated: "Yin Tong and Followers"
@@ -133,9 +139,6 @@
   - splitPath: Name
     text: "娄村娄德旺"
     translated: "Lou Dewang from Lou Village"
-    qcReviewedText: "Lou Dewang from Lou Village&Lou Dewang & Lou Qigu"
-    qcStatus: Passed
-    qcQualityScore: 90
   - splitPath: Desc
     text: "娄德旺"
     translated: "Lou Dewang & Lou Qigu"
@@ -230,6 +233,11 @@
   - splitPath: Name
     text: "轻舟较武艺"
     translated: "Lightboat is skilled in martial arts"
+    qcReviewedText: "Lightboat is skilled in martial arts"
+    qcTranslated: "Light Boat's Martial Arts Duel"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
   - splitPath: Desc
     text: "万轻舟"
     translated: "Wan Qingzhou"
@@ -452,6 +460,11 @@
   - splitPath: Name
     text: "黄鹤项开山"
     translated: "Xiang Kaishan"
+    qcReviewedText: "Xiang Kaishan"
+    qcTranslated: "Huanghe Xiang Kaishan"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DroppedContent
   - splitPath: Desc
     text: "项开山"
     translated: "Xiang Kaishan"
@@ -796,6 +809,10 @@
   - splitPath: Name
     text: "一只野猪"
     translated: "A wild boar"
+    qcReviewedText: "A wild boar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "野猪"
     translated: "Wild boar"
@@ -823,6 +840,10 @@
   - splitPath: Name
     text: "一群野猪"
     translated: "A group of wild boars"
+    qcReviewedText: "A group of wild boars"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "野猪"
     translated: "Wild boar"
@@ -1619,6 +1640,11 @@
   - splitPath: Name
     text: "金霞枪锋会"
     translated: "The spear tip meets in a burst of golden mist."
+    qcReviewedText: "The spear tip meets in a burst of golden mist."
+    qcTranslated: "Golden Mist Spear Tip Society"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "神枪四杰"
     translated: "Four Spear Masters"
@@ -2207,6 +2233,10 @@
   - splitPath: Name
     text: "风间隐夜月"
     translated: "Kazama Yin Ye Yue"
+    qcReviewedText: "Kazama Yin Ye Yue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "吕霸先二人"
     translated: "Lu Baxian and One Other"
@@ -2379,6 +2409,11 @@
   - splitPath: Name
     text: "邹九思挑衅"
     translated: "Zou Jiushi taunted"
+    qcReviewedText: "Zou Jiushi taunted"
+    qcTranslated: "Zou Jius provoked"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UntranslatedPinyin
   - splitPath: Desc
     text: "邹九思"
     translated: "Zou Jius"
@@ -2519,6 +2554,11 @@
   - splitPath: Name
     text: "挑衅邹九思"
     translated: "Provoked Zou Jiushi"
+    qcReviewedText: "Provoked Zou Jiushi"
+    qcTranslated: "Provoked Zou Jius"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "邹九思"
     translated: "Zou Jius"
@@ -3011,6 +3051,11 @@
   - splitPath: Name
     text: "祝家寨众二"
     translated: "Zhu Family Stronghold Followers twitted"
+    qcReviewedText: "Zhu Family Stronghold Followers twitted"
+    qcTranslated: "Zhu Family Stronghold Followers II"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
   - splitPath: Desc
     text: "祝家寨众"
     translated: "Zhu Family Stronghold Followers"
@@ -3599,6 +3644,10 @@
   - splitPath: Name
     text: "邵轻虹"
     translated: "Think about it some more"
+    qcReviewedText: "Think about it some more"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "邵轻虹"
     translated: "Think about it some more"
@@ -4075,6 +4124,11 @@
   - splitPath: Name
     text: "唐大了恩仇"
     translated: "Tang Daresolved old grudges"
+    qcReviewedText: "Tang Daresolved old grudges"
+    qcTranslated: "Tang Da Resolved Old Grudges"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: HardToParseSeam
   - splitPath: Desc
     text: "唐傲"
     translated: "Zhongli Hen"
@@ -4135,6 +4189,11 @@
   - splitPath: Name
     text: "一战傅云飞"
     translated: "Battle of Fu Yungui"
+    qcReviewedText: "Battle of Fu Yungui"
+    qcTranslated: "Battle of Fu Yunfei"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "傅云飞"
     translated: "Fu Yunfei"
@@ -4147,6 +4206,11 @@
   - splitPath: Name
     text: "二战傅云飞"
     translated: "World War II Zhu Furong"
+    qcReviewedText: "World War II Zhu Furong"
+    qcTranslated: "World War II Fu Yunfei"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "傅云飞"
     translated: "Fu Yunfei"

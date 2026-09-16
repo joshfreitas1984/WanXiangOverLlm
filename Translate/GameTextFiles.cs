@@ -16,7 +16,7 @@ public class GameTextFiles
 
         new() {Path = "Achievement.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
         new() {Path = "Assist.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
-        new() {Path = "Audio.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
+        //new() {Path = "Audio.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
         new() {Path = "Battle.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
         new() {Path = "Birth.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },
         new() {Path = "Buff.json", TextFileType = TextFileType.RawJson, PackageOutput = true, },

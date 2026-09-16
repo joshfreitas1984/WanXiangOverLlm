@@ -4,10 +4,6 @@
   - splitPath: Desc
     text: "提示"
     translated: "Instructions"
-    qcReviewedText: "Instructions {0} You have {0} points remaining"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "剩余"
     translated: "You have {0} points remaining"
@@ -37,10 +33,6 @@
   - splitPath: Desc
     text: "提示"
     translated: "Instructions"
-    qcReviewedText: "Instructions {0} Chapter {1} Year"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "第"
     translated: "Chapter"
@@ -61,10 +53,6 @@
   - splitPath: Desc
     text: "提示"
     translated: "Instructions"
-    qcReviewedText: "{0} Instructions"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "文"
     translated: "{0} coin"
@@ -270,10 +258,6 @@
   - splitPath: Dictionary
     text: "自动存档"
     translated: "Auto‑save"
-    qcReviewedText: "<color=#00ff00>Auto‑save</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>{0}</color>"
@@ -305,10 +289,6 @@
   - splitPath: Desc
     text: "江湖消息购买提示"
     translated: "Jianghu news purchase reminder"
-    qcReviewedText: "<color=#00ff00>Jianghu news purchase reminder {0} Inquiring costs money</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "打听需花费"
     translated: "Inquiring costs money"
@@ -338,10 +318,6 @@
   - splitPath: Desc
     text: "我方技能"
     translated: "Our skills"
-    qcReviewedText: "<color=#0088ff>{0}</color> Our skills <color=#ff8800>{1}</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "{0} activated {1}"
@@ -354,10 +330,6 @@
   - splitPath: Desc
     text: "敌方技能"
     translated: "Enemy skill"
-    qcReviewedText: "<color=#ff0000>{0}</color> Enemy skill <color=#ff8800>{1}</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "{0} activated {1}"
@@ -370,10 +342,6 @@
   - splitPath: Desc
     text: "我方支援"
     translated: "Our reinforcements are arriving"
-    qcReviewedText: "<color=#00ff00>{0}</color> Our reinforcements are arriving"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "状态出现了"
     translated: "{0}'s status has appeared"
@@ -386,10 +354,6 @@
   - splitPath: Desc
     text: "敌方支援"
     translated: "Enemy reinforcement"
-    qcReviewedText: "<color=#00ff00>{0}</color> Enemy reinforcement"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "状态出现了"
     translated: "{0}'s status has appeared"
@@ -424,10 +388,6 @@
   - splitPath: Desc
     text: "敌方中"
     translated: "Enemy mid buff zone"
-    qcReviewedText: "Enemy mid buff zone buff"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "进入"
     translated: "{0} enters {1} state"
@@ -446,10 +406,6 @@
   - splitPath: Desc
     text: "打断"
     translated: "Interrupt"
-    qcReviewedText: "<color=#ff0000>{0}</color> Interrupt <color=#ff8800>{1}</color> Of"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "的"
     translated: "Of"
@@ -466,10 +422,6 @@
   - splitPath: Desc
     text: "支援技能"
     translated: "Support Skill"
-    qcReviewedText: "<color=#00ff00>{0}</color> Support Skill <color=#ff8800>{1}</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "{0} activated {1}"
@@ -482,10 +434,6 @@
   - splitPath: Desc
     text: "抵消伤害"
     translated: "Damage reduction"
-    qcReviewedText: "<color=#00ff00>{0}</color> Damage reduction"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "抵消了伤害"
     translated: "{0} negated the damage"
@@ -548,10 +496,6 @@
   - splitPath: Desc
     text: "解除昏睡"
     translated: "Awaken from your slumber"
-    qcReviewedText: "Awaken from your slumber <color=#00ff00>Release </color>Trance"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "解除"
     translated: "Release"
@@ -572,10 +516,6 @@
   - splitPath: Desc
     text: "多个打断"
     translated: "Multiple interruptions"
-    qcReviewedText: "<color=#ff0000>{0}</color> Multiple interruptions"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "的功法被打断了"
     translated: "His cultivation method was interrupted"
@@ -600,10 +540,6 @@
   - splitPath: Desc
     text: "回复"
     translated: "AP response"
-    qcReviewedText: "ap AP response"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "行动力恢复了"
     translated: "Action points have recovered"
@@ -850,10 +786,6 @@
   - splitPath: Dictionary
     text: "获取功法奖励"
     translated: "Acquire Skill Technique Rewards"
-    qcReviewedText: "\\n\\nAcquire Skill Technique Rewards \\n{0}"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n\\n{0}\\n⟦0⟧"
@@ -872,10 +804,6 @@
   - splitPath: Dictionary
     text: "快速存档"
     translated: "Quick save"
-    qcReviewedText: "<color=#00ffff>Quick save</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ffff>{0}</color>"
@@ -1067,10 +995,6 @@
   - splitPath: Dictionary
     text: "建议在游戏进行到第八年之后再体验此功能。"
     translated: "It is recommended to experience this feature after the eighth year of the game."
-    qcReviewedText: "\\nIt is recommended to experience this feature after the eighth year of the game."
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n{0}"
@@ -1080,10 +1004,6 @@
   - splitPath: Dictionary
     text: "有新的江湖传闻"
     translated: "There are new Jianghu rumors"
-    qcReviewedText: "<color=#00ff00>There are new Jianghu rumors</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>{0}</color>"
@@ -2169,10 +2089,6 @@
   - splitPath: Desc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+3000"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "娜迦圣血"
     translated: "Naga Holy Blood"
@@ -2185,10 +2101,6 @@
   - splitPath: Desc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+300"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "仙人酿"
     translated: "Immortal Brew"
@@ -2379,10 +2291,6 @@
   - splitPath: Desc
     text: "赌术精通（"
     translated: "(Gambling skill proficiency"
-    qcReviewedText: "(Gambling skill proficiency≥Return to simplicity"
-    qcStatus: Passed
-    qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
@@ -2399,10 +2307,6 @@
   - splitPath: Desc
     text: "赌术高手（"
     translated: "(Gambling master"
-    qcReviewedText: "(Gambling master≥All‑in,120 Unlock: When you choose 'All‑in,' the points you earn in this round will be doubled. However, the probability of  “Fate”  appearing will also double. If  “Fate”  does appear, all previously accumulated points will be reset.)"
-    qcStatus: Passed
-    qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空"
@@ -2423,10 +2327,6 @@
   - splitPath: Desc
     text: "赌术大师"
     translated: "Master of gambling tricks"
-    qcReviewedText: "Master of gambling tricks≥Invert Heaven and Earth"
-    qcStatus: Passed
-    qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
@@ -2443,10 +2343,6 @@
   - splitPath: Desc
     text: "赌术宗师（"
     translated: "(Gambling Master"
-    qcReviewedText: "(Gambling Master=Heaven and earth share the same silence"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
@@ -2463,10 +2359,6 @@
   - splitPath: Desc
     text: "开始我方回合"
     translated: "Start of our turn"
-    qcReviewedText: "\\n<color=#63D47F>Start of our turn：</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始我方回合"
     translated: "Start of our turn"
@@ -2479,10 +2371,6 @@
   - splitPath: Desc
     text: "开始对方回合"
     translated: "Begin the opponent's turn"
-    qcReviewedText: "\\n<color=#D46963>Begin the opponent's turn：</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始对方回合"
     translated: "Begin the opponent's turn"
@@ -2521,10 +2409,6 @@
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
-    qcRejectedCorrection: "{0} used <color=#FFD26E>{0}</color>, Both scores reset to zero"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} used , Both scores reset to zero <color=#FFD26E>{1}</color>, Both scores reset to zero"
   - splitPath: Dictionary
@@ -2540,10 +2424,6 @@
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
-    qcRejectedCorrection: "{0} used <color=#FFD26E>{0}</color>, Fate has been reset"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} used , Fate has been reset <color=#FFD26E>{1}</color>, Fate has been reset"
   - splitPath: Dictionary
@@ -2559,10 +2439,6 @@
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
-    qcRejectedCorrection: "{0} used <color=#FFD26E>{0}</color>, points doubled"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} used , points doubled <color=#FFD26E>{1}</color>, points doubled"
   - splitPath: Dictionary
@@ -2578,10 +2454,6 @@
   - splitPath: Dictionary
     text: "第"
     translated: "Chapter"
-    qcReviewedText: "Chapter {0} Wheel,{1} Threw 'Qiexin'<color=#FFD26E>{2}</color> Causes all accumulated points to reset to zero and ends the turn."
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -2603,10 +2475,6 @@
   - splitPath: Dictionary
     text: "投出了“劫数”，"
     translated: "Threw 'Qiexin'"
-    qcReviewedText: "{0} Threw 'Qiexin'<color=#FFD26E>{1}</color> Causes all accumulated points to reset to zero."
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "导致累积点数全部清零"
@@ -2737,10 +2605,6 @@
   - splitPath: Desc
     text: "行为"
     translated: "Behavior"
-    qcReviewedText: "AI Behavior"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始投掷"
     translated: "Start throwing"
@@ -2755,10 +2619,6 @@
   - splitPath: Desc
     text: "行为"
     translated: "Behavior"
-    qcReviewedText: "AI Behavior"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "选择继续投掷"
     translated: "{0} chooses to continue rolling"
@@ -2773,10 +2633,6 @@
   - splitPath: Desc
     text: "行为"
     translated: "Behavior"
-    qcReviewedText: "AI Behavior"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "选择停止投掷"
     translated: "{0} chose to stop throwing"
@@ -2791,10 +2647,6 @@
   - splitPath: Desc
     text: "行为"
     translated: "Behavior"
-    qcReviewedText: "AI Behavior note"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
@@ -2809,10 +2661,6 @@
   - splitPath: Desc
     text: "一次奖励"
     translated: "A reward"
-    qcReviewedText: "<color=#B7A97C>{0} A reward {1}</color>"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "拿出了"
     translated: "Took out"
@@ -2825,10 +2673,6 @@
   - splitPath: Desc
     text: "多次奖励"
     translated: "Multiple rewards"
-    qcReviewedText: "<color=#B7A97C>{0} Multiple rewards {1}</color>"
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "又拿出了"
     translated: "Pulled out again"
@@ -2841,10 +2685,6 @@
   - splitPath: Desc
     text: "技能奖励"
     translated: "Skill reward"
-    qcReviewedText: "<color=#B7A97C>{0} Skill reward</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "似乎拿出了不得了的功法作为赌注"
     translated: "It seems they're betting on an incredibly powerful cultivation technique."
@@ -2857,10 +2697,6 @@
   - splitPath: Desc
     text: "宝物奖励"
     translated: "Treasure reward"
-    qcReviewedText: "<color=#B7A97C>{0} Treasure reward</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "似乎拿出了不得了的宝物作为赌注"
     translated: "It seems they've wagered an incredible treasure"
@@ -2873,10 +2709,6 @@
   - splitPath: Desc
     text: "无奖励"
     translated: "No reward"
-    qcReviewedText: "{0} No reward"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "已经没有什么可以输给你的了"
     translated: "{0} has nothing left to give you"
@@ -2954,10 +2786,6 @@
   - splitPath: Dictionary
     text: "投出"
     translated: "{0} threw {1} point"
-    qcRejectedCorrection: "{0} threw {0} points"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} threw Click point {1} Click"
   - splitPath: Dictionary
@@ -2973,10 +2801,6 @@
   - splitPath: Dictionary
     text: "第"
     translated: "Chapter"
-    qcReviewedText: "Chapter {0} Wheel,{1} Thrown  “Destiny” . This round's points reset, ending the turn."
-    qcStatus: Passed
-    qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -2994,10 +2818,6 @@
   - splitPath: Dictionary
     text: "投出了“劫数”，本轮点数清零"
     translated: "{0} threw  “Fate” , resetting the round score to zero."
-    qcReviewedText: "{0}{0} threw  “Fate” , resetting the round score to zero."
-    qcStatus: Passed
-    qcQualityScore: 90
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -3007,10 +2827,6 @@
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
-    qcRejectedCorrection: "{0} used <color=#FFD26E>{0}</color>, Threw {1} points"
-    qcFailureReason: " Restore `{2}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} used , Threw <color=#FFD26E>{1}</color>, Threw {2} Click"
   - splitPath: Dictionary
@@ -3030,10 +2846,6 @@
   - splitPath: Desc
     text: "劫数出现概率"
     translated: "Chance of encountering a calamity"
-    qcReviewedText: "Chance of encountering a calamity {0}%"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "出现概率"
     translated: "Probability of occurrence {0}%"
@@ -3103,10 +2915,6 @@
   - splitPath: Dictionary
     text: "赢走了"
     translated: "{0} won and took {1}'s {2}"
-    qcRejectedCorrection: "{0} won and took {0}'s <color=#B7A97C>{2}</color>"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} won and took Of's {2}{1} Of <color=#B7A97C>{2}</color>"
   - splitPath: Dictionary
@@ -3122,10 +2930,6 @@
   - splitPath: Dictionary
     text: "对方似乎还有不少财富"
     translated: "It seems the other party still has considerable wealth."
-    qcReviewedText: "<color=#B7A97C>It seems the other party still has considerable wealth.</color>"
-    qcStatus: Passed
-    qcQualityScore: 95
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>{0}</color>"
@@ -3155,10 +2959,6 @@
   - splitPath: Dictionary
     text: "使用了"
     translated: "{0} used {1}"
-    qcRejectedCorrection: "{0} used {0}"
-    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
     qcRuleCheckFailureCount: 1
     qcRuleCheckFailureBaseline: "{0}{0} used {1}{1}"
   templates:

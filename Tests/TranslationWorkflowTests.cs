@@ -11,7 +11,7 @@ public class TranslationWorkflowTests
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
-        await TranslationWorkflow.ApplyAllRulesToCurrentTranslation(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await TranslationWorkflow.ApplyAllRulesToCurrentTranslation(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // QC-pipeline facts (RunQualityReviewPassSample "3a" through the full-reset fact) now live in
@@ -20,14 +20,14 @@ public class TranslationWorkflowTests
     [Fact(DisplayName = "4. TranslateLines")]
     public async Task TranslateLines()
     {
-        await TranslationWorkflow.TranslateLines(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await TranslationWorkflow.TranslateLines(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 
     [Fact(DisplayName = "0. TranslateLinesBruteForce")]
     public async Task TranslateLinesBruteForce()
     {
-        await TranslationWorkflow.TranslateLinesBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await TranslationWorkflow.TranslateLinesBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 

@@ -15,8 +15,8 @@ public class QualityControlWorkflowTests
     [Fact(DisplayName = "0. TranslateAndQualityReviewBruteForce")]
     public async Task TranslateAndQualityReviewBruteForce()
     {
-        await TranslationWorkflow.TranslateLinesBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit);
-        await QualityReviewWorkflow.RunBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await TranslationWorkflow.TranslateLinesBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityReviewWorkflow.RunBruteForce(WorkingDirectory, GameTextFiles.TextFilesToSplit, hooks: GameFileHandling.Hooks);
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 
@@ -28,7 +28,7 @@ public class QualityControlWorkflowTests
     [Fact(DisplayName = "1. RunQualityReviewPassSample")]
     public async Task RunQualityReviewPassSample()
     {
-        await QualityReviewWorkflow.RunAsync(WorkingDirectory, GameTextFiles.TextFilesToSplit, sampleSize: 300);
+        await QualityReviewWorkflow.RunAsync(WorkingDirectory, GameTextFiles.TextFilesToSplit, sampleSize: 300, hooks: GameFileHandling.Hooks);
     }
 
     // Independent of the main translate/apply-rules/translate-lines steps in TranslationWorkflowTests
@@ -39,7 +39,7 @@ public class QualityControlWorkflowTests
     [Fact(DisplayName = "2. RunQualityReviewPass")]
     public async Task RunQualityReviewPass()
     {
-        await QualityReviewWorkflow.RunAsync(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await QualityReviewWorkflow.RunAsync(WorkingDirectory, GameTextFiles.TextFilesToSplit, hooks: GameFileHandling.Hooks);
     }
 
     // Run this after a glossary/config change so already-QC'd QcTranslated text picks up the same
@@ -48,7 +48,7 @@ public class QualityControlWorkflowTests
     [Fact(DisplayName = "3. ApplyRulesToQCReview")]
     public async Task ApplyRulesToQCReview()
     {
-        await QualityReviewWorkflow.ApplyRulesToCurrentQcTranslated(WorkingDirectory, GameTextFiles.TextFilesToSplit);
+        await QualityReviewWorkflow.ApplyRulesToCurrentQcTranslated(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // Reporting-only, mirrors TranslationWorkflowTests' failure-finding facts but scoped to

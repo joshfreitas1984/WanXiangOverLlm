@@ -10,21 +10,41 @@
   - splitPath: ItemName
     text: "自动攻击"
     translated: "Auto Attack"
+    qcReviewedText: "Auto Attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "80%自动攻击"
     translated: "80% automatic attack"
+    qcReviewedText: "80% automatic attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"自动防御\",\r\n    \"ItemName\": \"自动防御\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"自動防禦\",\r\n    \"ItemNameTw\": \"自動防禦\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 1
   splits:
   - splitPath: Name
     text: "自动防御"
     translated: "Automatic Defense"
+    qcReviewedText: "Automatic Defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "自动防御"
     translated: "Automatic Defense"
+    qcReviewedText: "Automatic Defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+⟦0⟧%"
@@ -34,14 +54,24 @@
   - splitPath: Name
     text: "防御"
     translated: "Defense"
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "Defense +{0}%（{0}/{1}）"
+    qcReviewedText: "Defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -53,12 +83,24 @@
   - splitPath: Name
     text: "攻击加成"
     translated: "Attack bonus"
+    qcReviewedText: "Attack bonus"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "攻击加成"
     translated: "Attack bonus"
+    qcReviewedText: "Attack bonus（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -70,12 +112,24 @@
   - splitPath: Name
     text: "盾"
     translated: "Shield"
+    qcReviewedText: "Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "盾"
     translated: "Shield"
+    qcReviewedText: "Shield（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次"
     translated: "Dissipate one layer at a time"
+    qcReviewedText: "Dissipate one layer at a time"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -85,12 +139,24 @@
   - splitPath: Name
     text: "大黄"
     translated: "Big Yellow"
+    qcReviewedText: "Big Yellow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "大黄"
     translated: "Big Yellow"
+    qcReviewedText: "Big Yellow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 300 \\nIncreased Damage (10 times Beast Taming) \\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -112,12 +178,24 @@
   - splitPath: Name
     text: "包子"
     translated: "Steamed bun"
+    qcReviewedText: "Steamed bun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "包子"
     translated: "Steamed bun"
+    qcReviewedText: "Steamed bun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 300 \\nIncreased Damage (10 times Beast Taming) \\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -139,12 +217,24 @@
   - splitPath: Name
     text: "旺财"
     translated: "Wangcai"
+    qcReviewedText: "Wangcai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "旺财"
     translated: "Wangcai"
+    qcReviewedText: "Wangcai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 300 \\nIncreased Damage (10 times Beast Taming) \\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -166,12 +256,24 @@
   - splitPath: Name
     text: "渔樵剑歌"
     translated: "Fisher‑Hunter Sword Song"
+    qcReviewedText: "Fisher‑Hunter Sword Song"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "渔樵剑歌"
     translated: "Fisher‑Hunter Sword Song"
+    qcReviewedText: "Fisher‑Hunter Sword Song"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+50%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+50%"
@@ -181,12 +283,24 @@
   - splitPath: Name
     text: "衡山心法"
     translated: "Hengshan Heart Method"
+    qcReviewedText: "Hengshan Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "衡山心法"
     translated: "Hengshan Heart Method"
+    qcReviewedText: "Hengshan Heart Method（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -198,12 +312,24 @@
   - splitPath: Name
     text: "雁云功"
     translated: "Swan Cloud Technique"
+    qcReviewedText: "Swan Cloud Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "雁云功"
     translated: "Wild Goose Cloud Technique"
+    qcReviewedText: "Wild Goose Cloud Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -215,12 +341,24 @@
   - splitPath: Name
     text: "闪避"
     translated: "Dodge"
+    qcReviewedText: "Dodge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "闪避"
     translated: "Dodge"
+    qcReviewedText: "Dodge（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -230,12 +368,20 @@
   - splitPath: Name
     text: "碧鳞蛇"
     translated: "Blue‑scaled Viper"
+    qcReviewedText: "Blue‑scaled Viper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "碧鳞青蛇"
     translated: "Green‑Scaled Silver Snake"
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 800 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -261,12 +407,24 @@
   - splitPath: Name
     text: "仗势诀"
     translated: "Power by Authority Technique"
+    qcReviewedText: "Power by Authority Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "仗势诀"
     translated: "Power by Might Technique"
+    qcReviewedText: "Power by Might Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -278,12 +436,24 @@
   - splitPath: Name
     text: "潇湘诀"
     translated: "XiaoXiang Scripture"
+    qcReviewedText: "XiaoXiang Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "潇湘诀"
     translated: "XiaoXiang Mantra"
+    qcReviewedText: "XiaoXiang Mantra（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -295,12 +465,24 @@
   - splitPath: Name
     text: "阿罗汉功"
     translated: "Arhat Skill"
+    qcReviewedText: "Arhat Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "阿罗汉功"
     translated: "Arhat Skill"
+    qcReviewedText: "Arhat Skill（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -312,12 +494,24 @@
   - splitPath: Name
     text: "入魔心法"
     translated: "Demon Heart Method"
+    qcReviewedText: "Demon Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "入魔心法"
     translated: "Demon Heart Method"
+    qcReviewedText: "Demon Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+20%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+20%"
@@ -327,12 +521,24 @@
   - splitPath: Name
     text: "衡山心法"
     translated: "Hengshan Heart Method"
+    qcReviewedText: "Hengshan Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "衡山心法"
     translated: "Hengshan Heart Method"
+    qcReviewedText: "Hengshan Heart Method（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -344,15 +550,24 @@
   - splitPath: Name
     text: "娄家寨众"
     translated: "Lou Family Stronghold forces"
-    qcReviewedText: "The people of Lou Family Stronghold"
+    qcReviewedText: "Lou Family Stronghold forces"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "娄家寨众"
     translated: "Lou Family Stronghold forces"
+    qcReviewedText: "Lou Family Stronghold forces"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"王府护卫\",\r\n    \"ItemName\": \"王府护卫\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"王府護衛\",\r\n    \"ItemNameTw\": \"王府護衛\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 20
   splits:
@@ -365,21 +580,41 @@
   - splitPath: ItemName
     text: "王府护卫"
     translated: "Royal Guard"
+    qcReviewedText: "Royal Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"24\",\r\n    \"Name\": \"天魔功\",\r\n    \"ItemName\": \"天魔功（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"天魔功\",\r\n    \"ItemNameTw\": \"天魔功（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 24
   splits:
   - splitPath: Name
     text: "天魔功"
     translated: "Heavenly Demon Technique"
+    qcReviewedText: "Heavenly Demon Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "天魔功"
     translated: "Tianmo Technique"
+    qcReviewedText: "Tianmo Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -391,12 +626,24 @@
   - splitPath: Name
     text: "地魔功"
     translated: "Earth Demon Technique"
+    qcReviewedText: "Earth Demon Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "地魔功"
     translated: "Earth Demon Technique"
+    qcReviewedText: "Earth Demon Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -408,12 +655,24 @@
   - splitPath: Name
     text: "护卫"
     translated: "Guard"
+    qcReviewedText: "Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "护卫"
     translated: "Guard"
+    qcReviewedText: "Guard（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+20%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -431,9 +690,17 @@
   - splitPath: ItemName
     text: "王府护卫"
     translated: "Royal Guard"
+    qcReviewedText: "Royal Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"28\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 28
   splits:
@@ -446,9 +713,17 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 29
   splits:
@@ -461,21 +736,41 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Name\": \"炼石奇功\",\r\n    \"ItemName\": \"炼石奇功（{0}/{1}）\",\r\n    \"Desc\": \"防御+{0}%\",\r\n    \"NameTw\": \"煉石奇功\",\r\n    \"ItemNameTw\": \"煉石奇功（{0}/{1}）\",\r\n    \"DescTw\": \"防禦+{0}%\"\r\n  }"
   rawIndex: 30
   splits:
   - splitPath: Name
     text: "炼石奇功"
     translated: "Marvelous Stone Refining Technique"
+    qcReviewedText: "Marvelous Stone Refining Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "炼石奇功"
     translated: "Marvelous Stone Refining Technique"
+    qcReviewedText: "Marvelous Stone Refining Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -490,9 +785,17 @@
   - splitPath: ItemName
     text: "一朝入魔半世癫"
     translated: "A lifetime of madness begins with a fall into demonic ways."
+    qcReviewedText: "A lifetime of madness begins with a fall into demonic ways.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -504,12 +807,24 @@
   - splitPath: Name
     text: "九流奇功"
     translated: "Nine Schools Marvelous Skills"
+    qcReviewedText: "Nine Schools Marvelous Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "九流奇功"
     translated: "Nine Schools Marvelous Skills"
+    qcReviewedText: "Nine Schools Marvelous Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "归元"
     translated: "Origin"
+    qcReviewedText: "Origin-1<50%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}-1<50%>"
@@ -519,12 +834,24 @@
   - splitPath: Name
     text: "桃花合欢尘"
     translated: "Peach Blossom Intimate Dust"
+    qcReviewedText: "Peach Blossom Intimate Dust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "桃花合欢尘"
     translated: "Peach Blossom Intimate Dust"
+    qcReviewedText: "Peach Blossom Intimate Dust（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -534,12 +861,24 @@
   - splitPath: Name
     text: "力拔山兮气盖世"
     translated: "With strength to move mountains and a spirit that surpasses the world"
+    qcReviewedText: "With strength to move mountains and a spirit that surpasses the world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "力拔山兮气盖世"
     translated: "With strength to move mountains and a spirit that surpasses the world"
+    qcReviewedText: "With strength to move mountains and a spirit that surpasses the world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+100%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+100%"
@@ -549,12 +888,24 @@
   - splitPath: Name
     text: "养性延命功"
     translated: "Cultivating Nature and Prolonging Life Technique"
+    qcReviewedText: "Cultivating Nature and Prolonging Life Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "养性延命功"
     translated: "Cultivating Nature and Prolonging Life Technique"
+    qcReviewedText: "Cultivating Nature and Prolonging Life Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回复"
     translated: "Reply"
+    qcReviewedText: "Reply+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -566,12 +917,24 @@
   - splitPath: Name
     text: "修身诀"
     translated: "Cultivation Technique for Self‑Cultivation"
+    qcReviewedText: "Cultivation Technique for Self‑Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "修身诀"
     translated: "Cultivation Technique for Self‑Cultivation"
+    qcReviewedText: "Cultivation Technique for Self‑Cultivation（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -583,12 +946,24 @@
   - splitPath: Name
     text: "破釜奇功"
     translated: "Miracle of Shattered Cauldrons"
+    qcReviewedText: "Miracle of Shattered Cauldrons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "破釜奇功"
     translated: "Miracle of the Smashed Cauldron"
+    qcReviewedText: "Miracle of the Smashed Cauldron（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+80%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -600,12 +975,24 @@
   - splitPath: Name
     text: "归刀养势术"
     translated: "Blade Cultivation Posture Technique"
+    qcReviewedText: "Blade Cultivation Posture Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "归刀养势术"
     translated: "Blade Cultivation Posture Technique"
+    qcReviewedText: "Blade Cultivation Posture Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -617,12 +1004,24 @@
   - splitPath: Name
     text: "幽篁诀"
     translated: "You Huang Jue"
+    qcReviewedText: "You Huang Jue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "幽篁诀"
     translated: "Youhuang Technique"
+    qcReviewedText: "Youhuang Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -634,12 +1033,24 @@
   - splitPath: Name
     text: "余处幽篁不见天"
     translated: "Amid the dense bamboo, the sky is unseen."
+    qcReviewedText: "Amid the dense bamboo, the sky is unseen."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "余处幽篁不见天"
     translated: "Amid the dense bamboo, the sky is unseen."
+    qcReviewedText: "Amid the dense bamboo, the sky is unseen.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -649,12 +1060,24 @@
   - splitPath: Name
     text: "桃花合欢尘"
     translated: "Peach Blossom Intimate Dust"
+    qcReviewedText: "Peach Blossom Intimate Dust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "桃花合欢尘"
     translated: "Peach Blossom Intimate Dust"
+    qcReviewedText: "Peach Blossom Intimate Dust（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -666,12 +1089,24 @@
   - splitPath: Name
     text: "鹤冲宵"
     translated: "Soar Like the Crane"
+    qcReviewedText: "Soar Like the Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "鹤冲宵"
     translated: "Soar Like the Crane"
+    qcReviewedText: "Soar Like the Crane（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -681,12 +1116,24 @@
   - splitPath: Name
     text: "三尺异蛇"
     translated: "Three‑foot Strange Snake"
+    qcReviewedText: "Three‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "三尺异蛇"
     translated: "Three‑foot Strange Snake"
+    qcReviewedText: "Three‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 500 \\nIncreased Damage (by 6 times Beast Taming) \\nPoisoned<20%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -712,12 +1159,24 @@
   - splitPath: Name
     text: "五尺异蛇"
     translated: "Five‑foot Strange Snake"
+    qcReviewedText: "Five‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "五尺异蛇"
     translated: "Five‑foot Strange Snake"
+    qcReviewedText: "Five‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1000 \\nIncreased Damage (10 times Beast Taming) \\nPoisoned<25%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -743,12 +1202,24 @@
   - splitPath: Name
     text: "七尺异蛇"
     translated: "Seven‑foot Strange Snake"
+    qcReviewedText: "Seven‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "七尺异蛇"
     translated: "Seven‑foot Strange Snake"
+    qcReviewedText: "Seven‑foot Strange Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1500 \\nIncreased Damage (x14 Beast Taming) \\nPoisoned<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1500）"
@@ -774,12 +1245,24 @@
   - splitPath: Name
     text: "异蛇王"
     translated: "Strange Snake King"
+    qcReviewedText: "Strange Snake King"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "异蛇王"
     translated: "Strange Snake King"
+    qcReviewedText: "Strange Snake King"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack(3000) \\nIncreased Damage (x21 Beast Taming) \\nPoisoned<40%>\\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（3000）"
@@ -805,12 +1288,24 @@
   - splitPath: Name
     text: "福禄安康"
     translated: "Prosperity, honor, health, and peace"
+    qcReviewedText: "Prosperity, honor, health, and peace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "福禄安康"
     translated: "Prosperity, Honor, Health, and Safety"
+    qcReviewedText: "Prosperity, Honor, Health, and Safety（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -822,12 +1317,24 @@
   - splitPath: Name
     text: "碧鳞蛇"
     translated: "Blue‑scaled Viper"
+    qcReviewedText: "Blue‑scaled Viper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "碧鳞蛇"
     translated: "Blue‑scaled Viper"
+    qcReviewedText: "Blue‑scaled Viper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 800 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -853,12 +1360,24 @@
   - splitPath: Name
     text: "赤鳞蛇"
     translated: "Red‑scaled Viper"
+    qcReviewedText: "Red‑scaled Viper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "赤鳞蛇"
     translated: "Red‑scaled Viper"
+    qcReviewedText: "Red‑scaled Viper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 800 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -884,12 +1403,24 @@
   - splitPath: Name
     text: "金鳞蛇"
     translated: "Golden Scale Snake"
+    qcReviewedText: "Golden Scale Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "金鳞蛇"
     translated: "Golden Scale Snake"
+    qcReviewedText: "Golden Scale Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 800 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -918,9 +1449,17 @@
   - splitPath: ItemName
     text: "碧尘五毒烟罗瘴"
     translated: "Bicheen Five Poison Smokescreen Plague"
+    qcReviewedText: "Bicheen Five Poison Smokescreen Plague（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -930,12 +1469,24 @@
   - splitPath: Name
     text: "五毒烟罗瘴"
     translated: "Five Poison Smokescreen Miasma"
+    qcReviewedText: "Five Poison Smokescreen Miasma"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "五毒烟罗瘴"
     translated: "Five Poison Smoky Veil Fog"
+    qcReviewedText: "Five Poison Smoky Veil Fog（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -945,12 +1496,24 @@
   - splitPath: Name
     text: "白发渔樵诸事懒"
     translated: "A white‑haired fisherman or woodcutter, indifferent to all affairs."
+    qcReviewedText: "A white‑haired fisherman or woodcutter, indifferent to all affairs."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "白发渔樵诸事懒"
     translated: "A white‑haired fisherman or woodcutter, indifferent to all affairs."
+    qcReviewedText: "A white‑haired fisherman or woodcutter, indifferent to all affairs.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（3000）"
     translated: "Revive (3000)"
+    qcReviewedText: "Revive (3000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -960,12 +1523,24 @@
   - splitPath: Name
     text: "玉髓铸成仙人骨"
     translated: "Jade marrow forms immortal bones"
+    qcReviewedText: "Jade marrow forms immortal bones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "玉髓铸成仙人骨"
     translated: "Jade marrow forges the bones of immortals"
+    qcReviewedText: "Jade marrow forges the bones of immortals（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -977,9 +1552,17 @@
   - splitPath: Name
     text: "减伤"
     translated: "Damage reduction"
+    qcReviewedText: "Damage reduction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "减少伤害"
     translated: "Reduce damage"
+    qcReviewedText: "Reduce damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -996,9 +1579,19 @@
   - splitPath: Name
     text: "反伤"
     translated: "Counter damage"
+    qcReviewedText: "Counter damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
+    qcRejectedCorrection: "Reflect Damage ({0}/{0})"
+    qcFailureReason: " Restore `{1}` to the translation, as it was incorrectly removed."
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Reflect Damage +{0}%（{0}/{1}）"
   - splitPath: Desc
     text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
@@ -1013,9 +1606,17 @@
   - splitPath: Name
     text: "混世奇功"
     translated: "Worldly Marvelous Skill"
+    qcReviewedText: "Worldly Marvelous Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "混世奇功"
     translated: "Worldly Marvelous Skill"
+    qcReviewedText: "Worldly Marvelous Skill（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
@@ -1030,12 +1631,24 @@
   - splitPath: Name
     text: "黑护法"
     translated: "Black Guardian"
+    qcReviewedText: "Black Guardian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "黑护法"
     translated: "Black Guardian"
+    qcReviewedText: "Black Guardian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 500 \\nIncreased Damage (by 6 times Beast Taming) \\nMinor injuries<20%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -1061,12 +1674,24 @@
   - splitPath: Name
     text: "白护法"
     translated: "White Guardian"
+    qcReviewedText: "White Guardian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "白护法"
     translated: "White Guardian"
+    qcReviewedText: "White Guardian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 500 \\nIncreased Damage (by 6 times Beast Taming) \\nProhibition of healing<30%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -1092,12 +1717,24 @@
   - splitPath: Name
     text: "野猪王"
     translated: "Wild Boar King"
+    qcReviewedText: "Wild Boar King"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "野猪王"
     translated: "Wild Boar King"
+    qcReviewedText: "Wild Boar King"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack (5000) \\nIncreased Damage (30 times Beast Taming) \\n60% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（5000）"
@@ -1119,6 +1756,10 @@
   - splitPath: Name
     text: "离恨功"
     translated: "Hatred Technique"
+    qcReviewedText: "Hatred Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "离恨功"
     translated: "Hatred Technique"
@@ -1136,12 +1777,24 @@
   - splitPath: Name
     text: "苦寒诀"
     translated: "Suffering Cold Artifice"
+    qcReviewedText: "Suffering Cold Artifice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "苦寒诀"
     translated: "Suffering Cold Artifice"
+    qcReviewedText: "Suffering Cold Artifice（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1153,12 +1806,24 @@
   - splitPath: Name
     text: "祥瑞之兆"
     translated: "Auspicious omen"
+    qcReviewedText: "Auspicious omen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "祥瑞之兆"
     translated: "Auspicious omen"
+    qcReviewedText: "Auspicious omen（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1168,9 +1833,17 @@
   - splitPath: Name
     text: "金刚诀"
     translated: "Vajra Formula"
+    qcReviewedText: "Vajra Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "金刚诀"
     translated: "Vajra Formula"
+    qcReviewedText: "Vajra Formula（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -1189,12 +1862,24 @@
   - splitPath: Name
     text: "诚意诀"
     translated: "Sincere Intent Technique"
+    qcReviewedText: "Sincere Intent Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "诚意诀"
     translated: "Sincere Intent Technique"
+    qcReviewedText: "Sincere Intent Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1206,12 +1891,24 @@
   - splitPath: Name
     text: "无相魔功"
     translated: "Formless Demon Art"
+    qcReviewedText: "Formless Demon Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "无相魔功"
     translated: "Formless Demon Art"
+    qcReviewedText: "Formless Demon Art（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1223,12 +1920,24 @@
   - splitPath: Name
     text: "众生有相魔无相"
     translated: "Beings have form, but demons have none"
+    qcReviewedText: "Beings have form, but demons have none"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "众生有相魔无相"
     translated: "All beings have form, but the demon has none."
+    qcReviewedText: "All beings have form, but the demon has none.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1240,12 +1949,24 @@
   - splitPath: Name
     text: "阴劲"
     translated: "Yin energy"
+    qcReviewedText: "Yin energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "阴劲"
     translated: "Yin energy"
+    qcReviewedText: "Yin energy（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1257,12 +1978,24 @@
   - splitPath: Name
     text: "阳劲"
     translated: "Yang energy"
+    qcReviewedText: "Yang energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "阳劲"
     translated: "Yang energy"
+    qcReviewedText: "Yang energy（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1274,12 +2007,24 @@
   - splitPath: Name
     text: "武当心法"
     translated: "Wudang Heart Method"
+    qcReviewedText: "Wudang Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "武当心法"
     translated: "Wudang Heart Method"
+    qcReviewedText: "Wudang Heart Method（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1291,12 +2036,24 @@
   - splitPath: Name
     text: "太极神功"
     translated: "Tai Chi Divine Skill"
+    qcReviewedText: "Tai Chi Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "太极神功"
     translated: "Tai Chi Divine Skill"
+    qcReviewedText: "Tai Chi Divine Skill（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1308,12 +2065,24 @@
   - splitPath: Name
     text: "上天梯"
     translated: "Heaven's Ladder"
+    qcReviewedText: "Heaven's Ladder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "上天梯"
     translated: "Heavenward Ladder"
+    qcReviewedText: "Heavenward Ladder（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1323,12 +2092,24 @@
   - splitPath: Name
     text: "火莲宫灯"
     translated: "Fire Lotus Palace Lamp"
+    qcReviewedText: "Fire Lotus Palace Lamp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "火莲宫灯"
     translated: "Fire Lotus Palace Lamp"
+    qcReviewedText: "Fire Lotus Palace Lamp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "【Illusion tool】"
+    qcReviewedText: "【Illusion tool】\\nAttack 1000 \\nIncreased Damage (x28 Illusion) \\nDazed<28%>\\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -1354,12 +2135,24 @@
   - splitPath: Name
     text: "如意财钱"
     translated: "Prosperous Fortune Coin"
+    qcReviewedText: "Prosperous Fortune Coin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "如意财钱"
     translated: "Prosperous Fortune Coin"
+    qcReviewedText: "Prosperous Fortune Coin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "【Illusion tool】"
+    qcReviewedText: "【Illusion tool】\\nEnhance 1 \\n100% activate to strengthen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "强化1"
@@ -1377,9 +2170,17 @@
   - splitPath: Name
     text: "瑶池仙桃"
     translated: "Heavenly Peach of the Jade Pool"
+    qcReviewedText: "Heavenly Peach of the Jade Pool"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "瑶池仙桃"
     translated: "Heavenly Peach of the Jade Pool"
+    qcReviewedText: "Heavenly Peach of the Jade Pool"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "【Illusion tool】"
@@ -1404,12 +2205,24 @@
   - splitPath: Name
     text: "蛮牛劲"
     translated: "Beastly strength"
+    qcReviewedText: "Beastly strength"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "蛮牛劲"
     translated: "Beastly strength"
+    qcReviewedText: "Beastly strength（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1421,12 +2234,24 @@
   - splitPath: Name
     text: "卦.大吉"
     translated: "Divination: Greatly Favorable"
+    qcReviewedText: "Divination: Greatly Favorable"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "卦.大吉"
     translated: "Divination: Greatly Favorable"
+    qcReviewedText: "Divination: Greatly Favorable（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1436,12 +2261,24 @@
   - splitPath: Name
     text: "卦.吉"
     translated: "Divination. Auspicious."
+    qcReviewedText: "Divination. Auspicious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "卦.吉"
     translated: "Divination. Auspicious."
+    qcReviewedText: "Divination. Auspicious.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1451,15 +2288,24 @@
   - splitPath: Name
     text: "卦.平"
     translated: "Prediction: Calm"
-    qcReviewedText: "Divination. Calmly."
+    qcReviewedText: "Prediction: Calm"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "无事"
     translated: "No worries"
+    qcReviewedText: "No worries"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "无事"
     translated: "No worries"
+    qcReviewedText: "No worries"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"80\",\r\n    \"Name\": \"五禽戏\",\r\n    \"ItemName\": \"五禽戏（{0}/{1}）\",\r\n    \"Desc\": \"回复+{0}%\",\r\n    \"NameTw\": \"五禽戲\",\r\n    \"ItemNameTw\": \"五禽戲（{0}/{1}）\",\r\n    \"DescTw\": \"回覆+{0}%\"\r\n  }"
   rawIndex: 80
   splits:
@@ -1472,6 +2318,10 @@
   - splitPath: Desc
     text: "回复"
     translated: "Reply"
+    qcReviewedText: "Reply+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1483,12 +2333,24 @@
   - splitPath: Name
     text: "杀字令"
     translated: "Kill Word Order"
+    qcReviewedText: "Kill Word Order"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "杀字令"
     translated: "Death Sentence Order"
+    qcReviewedText: "Death Sentence Order（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1500,12 +2362,24 @@
   - splitPath: Name
     text: "神农百草功"
     translated: "Divine Farmer's Hundred Herbs Technique"
+    qcReviewedText: "Divine Farmer's Hundred Herbs Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "神农百草功"
     translated: "Shen Farmer Hundred Herbs Technique"
+    qcReviewedText: "Shen Farmer Hundred Herbs Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回复"
     translated: "Reply"
+    qcReviewedText: "Reply+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1517,9 +2391,17 @@
   - splitPath: Name
     text: "太极劲"
     translated: "Tai Chi Force"
+    qcReviewedText: "Tai Chi Force"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "太极劲"
     translated: "Tai Chi Force"
+    qcReviewedText: "Tai Chi Force（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
@@ -1534,12 +2416,24 @@
   - splitPath: Name
     text: "无为真气"
     translated: "True Qi of Non‑Action"
+    qcReviewedText: "True Qi of Non‑Action"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "无为真气"
     translated: "True Qi of Non‑Action"
+    qcReviewedText: "True Qi of Non‑Action（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1551,12 +2445,24 @@
   - splitPath: Name
     text: "云里飞飞云里翻"
     translated: "Soar through the clouds, flipping and flying freely in the sky"
+    qcReviewedText: "Soar through the clouds, flipping and flying freely in the sky"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "云里飞飞云里翻"
     translated: "Soar through the clouds, flipping and flying freely in the sky"
+    qcReviewedText: "Soar through the clouds, flipping and flying freely in the sky（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1572,6 +2478,10 @@
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1589,9 +2499,17 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"88\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 88
   splits:
@@ -1604,9 +2522,17 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"89\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 89
   splits:
@@ -1619,9 +2545,17 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"90\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"ItemName\": \"乱石寨众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"ItemNameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 90
   splits:
@@ -1634,21 +2568,41 @@
   - splitPath: ItemName
     text: "乱石寨众"
     translated: "Chaos Rock Stronghold Followers"
+    qcReviewedText: "Chaos Rock Stronghold Followers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"91\",\r\n    \"Name\": \"心魔瘴\",\r\n    \"ItemName\": \"心魔瘴（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"心魔瘴\",\r\n    \"ItemNameTw\": \"心魔瘴（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 91
   splits:
   - splitPath: Name
     text: "心魔瘴"
     translated: "Inner Demon Plague"
+    qcReviewedText: "Inner Demon Plague"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "心魔瘴"
     translated: "Inner Demon Plague"
+    qcReviewedText: "Inner Demon Plague（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1664,9 +2618,17 @@
   - splitPath: ItemName
     text: "万寿帮众"
     translated: "Longevity Sect members"
+    qcReviewedText: "Longevity Sect members"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"93\",\r\n    \"Name\": \"贺定\",\r\n    \"ItemName\": \"万寿帮众\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"賀定\",\r\n    \"ItemNameTw\": \"萬壽幫眾\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 93
   splits:
@@ -1679,21 +2641,41 @@
   - splitPath: ItemName
     text: "万寿帮众"
     translated: "Longevity Sect members"
+    qcReviewedText: "Longevity Sect members"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"94\",\r\n    \"Name\": \"碧鳞灵蛇\",\r\n    \"ItemName\": \"碧鳞灵蛇\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1400）\\\\n增伤（12倍御兽）\\\\n中毒<50%>\\\\n70%发动攻击\",\r\n    \"NameTw\": \"碧鱗靈蛇\",\r\n    \"ItemNameTw\": \"碧鱗靈蛇\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1400）\\\\n增傷（12倍御獸）\\\\n中毒<50%>\\\\n70%發動攻擊\"\r\n  }"
   rawIndex: 94
   splits:
   - splitPath: Name
     text: "碧鳞灵蛇"
     translated: "Mystic Scalesilver Snake"
+    qcReviewedText: "Mystic Scalesilver Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "碧鳞灵蛇"
     translated: "Mystic Scalesilver Snake"
+    qcReviewedText: "Mystic Scalesilver Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1400 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<50%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -1719,12 +2701,24 @@
   - splitPath: Name
     text: "赤鳞灵蛇"
     translated: "Scarlet‑Scaled Spirit Snake"
+    qcReviewedText: "Scarlet‑Scaled Spirit Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "赤鳞灵蛇"
     translated: "Scarlet‑Scaled Spirit Snake"
+    qcReviewedText: "Scarlet‑Scaled Spirit Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1400 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<50%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -1750,12 +2744,24 @@
   - splitPath: Name
     text: "金鳞灵蛇"
     translated: "Golden‑Scaled Spirit Snake"
+    qcReviewedText: "Golden‑Scaled Spirit Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "金鳞灵蛇"
     translated: "Golden‑Scaled Spirit Snake"
+    qcReviewedText: "Golden‑Scaled Spirit Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1400 \\nIncreased Damage (x12 Beast Taming) \\nPoisoned<50%>\\n70% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -1781,12 +2787,20 @@
   - splitPath: Name
     text: "烽火狼烟卷连城"
     translated: "The beacon fires and smoke signals roll across the city walls."
+    qcReviewedText: "The beacon fires and smoke signals roll across the city walls."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "烽火狼烟卷连城"
     translated: "Battles burn, wolf smoke rolls, scrolls of war unroll across the city."
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1798,12 +2812,24 @@
   - splitPath: Name
     text: "飞云鼯"
     translated: "Flying Cloud Squirrel"
+    qcReviewedText: "Flying Cloud Squirrel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "飞云鼯"
     translated: "Flying Cloud Squirrel"
+    qcReviewedText: "Flying Cloud Squirrel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack(100) \\nIncreased Damage (x3 Beast Taming) \\nTriple attack \\nElimination Tactics 1<12%>\\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（100）"
@@ -1836,9 +2862,17 @@
   - splitPath: ItemName
     text: "鱼龙百变"
     translated: "A Thousand Transformations of the Fish Dragon"
+    qcReviewedText: "A Thousand Transformations of the Fish Dragon（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1848,9 +2882,17 @@
   - splitPath: Name
     text: "非攻"
     translated: "Non‑aggression"
+    qcReviewedText: "Non‑aggression"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "非攻"
     translated: "Non‑aggression"
+    qcReviewedText: "Non‑aggression（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -1869,12 +2911,24 @@
   - splitPath: Name
     text: "蔷薇仪式"
     translated: "Rose Ceremony"
+    qcReviewedText: "Rose Ceremony"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "蔷薇仪式"
     translated: "Rose Ceremony"
+    qcReviewedText: "Rose Ceremony（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+30%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1892,9 +2946,17 @@
   - splitPath: ItemName
     text: "水手"
     translated: "Sailor"
+    qcReviewedText: "Sailor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"103\",\r\n    \"Name\": \"水手\",\r\n    \"ItemName\": \"水手\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"水手\",\r\n    \"ItemNameTw\": \"水手\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 103
   splits:
@@ -1907,9 +2969,17 @@
   - splitPath: ItemName
     text: "水手"
     translated: "Sailor"
+    qcReviewedText: "Sailor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"104\",\r\n    \"Name\": \"水手\",\r\n    \"ItemName\": \"水手\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"水手\",\r\n    \"ItemNameTw\": \"水手\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 104
   splits:
@@ -1922,9 +2992,17 @@
   - splitPath: ItemName
     text: "水手"
     translated: "Sailor"
+    qcReviewedText: "Sailor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"105\",\r\n    \"Name\": \"水手\",\r\n    \"ItemName\": \"水手\",\r\n    \"Desc\": \"支援战斗\",\r\n    \"NameTw\": \"水手\",\r\n    \"ItemNameTw\": \"水手\",\r\n    \"DescTw\": \"支援戰鬥\"\r\n  }"
   rawIndex: 105
   splits:
@@ -1937,21 +3015,41 @@
   - splitPath: ItemName
     text: "水手"
     translated: "Sailor"
+    qcReviewedText: "Sailor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
+    qcReviewedText: "Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"106\",\r\n    \"Name\": \"疾如风\",\r\n    \"ItemName\": \"疾如风（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"疾如風\",\r\n    \"ItemNameTw\": \"疾如風（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 106
   splits:
   - splitPath: Name
     text: "疾如风"
     translated: "Swift as the wind"
+    qcReviewedText: "Swift as the wind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "疾如风"
     translated: "Swift as the wind"
+    qcReviewedText: "Swift as the wind（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -1967,21 +3065,41 @@
   - splitPath: ItemName
     text: "徐如林"
     translated: "Xu Rulin"
+    qcReviewedText: "Xu Rulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回复（20000）"
     translated: "Reply to 20000"
+    qcReviewedText: "Reply to 20000"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"108\",\r\n    \"Name\": \"侵略如火\",\r\n    \"ItemName\": \"侵略如火\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"侵略如火\",\r\n    \"ItemNameTw\": \"侵略如火\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 108
   splits:
   - splitPath: Name
     text: "侵略如火"
     translated: "Invasion like fire"
+    qcReviewedText: "Invasion like fire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "侵略如火"
     translated: "Invasion like fire"
+    qcReviewedText: "Invasion like fire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+⟦0⟧%"
@@ -1991,9 +3109,17 @@
   - splitPath: Name
     text: "不动如山"
     translated: "Unmoved as a mountain"
+    qcReviewedText: "Unmoved as a mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "不动如山"
     translated: "Unmoved as a mountain"
+    qcReviewedText: "Unmoved as a mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -2016,21 +3142,37 @@
   - splitPath: ItemName
     text: "难知如阴"
     translated: "Difficult to know as Yin"
+    qcReviewedText: "Difficult to know as Yin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "消除战术1"
     translated: "Elimination Tactics 1"
+    qcReviewedText: "Elimination Tactics 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"111\",\r\n    \"Name\": \"天地独尊诀\",\r\n    \"ItemName\": \"独尊诀（{0}/{1}）\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"天地獨尊訣\",\r\n    \"ItemNameTw\": \"獨尊訣（{0}/{1}）\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 111
   splits:
   - splitPath: Name
     text: "天地独尊诀"
     translated: "Supremacy of the Sole Sovereign Technique"
+    qcReviewedText: "Supremacy of the Sole Sovereign Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "独尊诀"
     translated: "Duzun Jue"
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -2042,9 +3184,17 @@
   - splitPath: Name
     text: "世间横行本无忌"
     translated: "The world is lawless for those who dare to act without restraint."
+    qcReviewedText: "The world is lawless for those who dare to act without restraint."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "世间横行本无忌"
     translated: "The world is lawless for those who dare to act without restraint."
+    qcReviewedText: "The world is lawless for those who dare to act without restraint.（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -2063,12 +3213,24 @@
   - splitPath: Name
     text: "天地独尊诀"
     translated: "Supremacy of the Sole Sovereign Technique"
+    qcReviewedText: "Supremacy of the Sole Sovereign Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "独尊诀"
     translated: "Duzun Jue"
+    qcReviewedText: "Duzun Jue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+200%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+200%"
@@ -2078,9 +3240,17 @@
   - splitPath: Name
     text: "金刚不动显浮屠"
     translated: "Unmoving Vajra Reveals the Pagoda"
+    qcReviewedText: "Unmoving Vajra Reveals the Pagoda"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "金刚不动显浮屠"
     translated: "Invincible stillness reveals the Buddha's presence"
+    qcReviewedText: "Invincible stillness reveals the Buddha's presence（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "减少伤害"
     translated: "Reduce damage"
@@ -2099,12 +3269,24 @@
   - splitPath: Name
     text: "随风入夜潜无形"
     translated: "Slip in unseen with the night wind"
+    qcReviewedText: "Slip in unseen with the night wind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "随风入夜潜无形"
     translated: "Slip in unseen with the night wind"
+    qcReviewedText: "Slip in unseen with the night wind（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"
+    qcReviewedText: "Each layer counters one attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -2114,12 +3296,24 @@
   - splitPath: Name
     text: "四象阵.冬"
     translated: "Four Symbols Formation: Winter"
+    qcReviewedText: "Four Symbols Formation: Winter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "四象阵.冬"
     translated: "Four Symbols Formation: Winter"
+    qcReviewedText: "Four Symbols Formation: Winter（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -2131,9 +3325,17 @@
   - splitPath: Name
     text: "四象阵.秋"
     translated: "Four Symbols Formation: Autumn"
+    qcReviewedText: "Four Symbols Formation: Autumn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "四象阵.秋"
     translated: "Four Symbols Formation: Autumn"
+    qcReviewedText: "Four Symbols Formation: Autumn（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "反弹伤害"
     translated: "Reflect Damage +{0}%"
@@ -2148,12 +3350,24 @@
   - splitPath: Name
     text: "四象阵.夏"
     translated: "Four Symbols Formation. Summer"
+    qcReviewedText: "Four Symbols Formation. Summer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "四象阵.夏"
     translated: "Four Symbols Formation. Summer"
+    qcReviewedText: "Four Symbols Formation. Summer（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -2165,12 +3379,24 @@
   - splitPath: Name
     text: "四象阵.春"
     translated: "Four Symbols Formation: Spring"
+    qcReviewedText: "Four Symbols Formation: Spring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "四象阵.春"
     translated: "Four Symbols Formation: Spring"
+    qcReviewedText: "Four Symbols Formation: Spring（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回复"
     translated: "Reply"
+    qcReviewedText: "Reply+{0}%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: ItemName
     template: "{0}（⟦0⟧/⟦1⟧）"
@@ -2182,12 +3408,24 @@
   - splitPath: Name
     text: "芷白"
     translated: "Zhi Bai"
+    qcReviewedText: "Zhi Bai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "芷白"
     translated: "Zhi Bai"
+    qcReviewedText: "Zhi Bai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 1000 \\nInterrupt the attack<20%>\\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -2209,12 +3447,24 @@
   - splitPath: Name
     text: "芷白"
     translated: "Zhi Bai"
+    qcReviewedText: "Zhi Bai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "芷白"
     translated: "Zhi Bai"
+    qcReviewedText: "Zhi Bai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
+    qcReviewedText: "【Pet】\\nAttack 2000 \\nInterrupt the attack<40%>\\n100% initiate attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（2000）"
@@ -2236,9 +3486,17 @@
   - splitPath: Name
     text: "夜乌鸦"
     translated: "Night Crow"
+    qcReviewedText: "Night Crow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "夜乌鸦"
     translated: "Night Crow"
+    qcReviewedText: "Night Crow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【Pet】"
@@ -2263,6 +3521,10 @@
   - splitPath: Name
     text: "铁脊梁"
     translated: "Iron Spine"
+    qcReviewedText: "Iron Spine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "铁脊梁"
     translated: "Iron Spine"

@@ -18,35 +18,40 @@ public class FileOutputHandling
 
         var finalDb = new List<string>();
         var passedCount = 0;
-        var failedCount = 0;
+        var qcRejectedCount = 0;
+        var rawFallbackCount = 0;
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.PrefabText))
         {
-            var (passed, failed) = await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile);
+            var (passed, qcRejected, rawFallback) = await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile);
             passedCount += passed;
-            failedCount += failed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
             MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
         }
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.DynamicStrings))
         {
-            var (passed, failed) = await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile);
+            var (passed, qcRejected, rawFallback) = await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile);
             passedCount += passed;
-            failedCount += failed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
             MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
         }
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.RawJson))
         {
-            var (passed, failed) = await JsonGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+            var (passed, qcRejected, rawFallback) = await JsonGameDataWorkflow.PackageAsync(workingDirectory, textFile);
             passedCount += passed;
-            failedCount += failed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
             MoveLlmKitPackagedJsonFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
         }
 
 
         Console.WriteLine($"Passed: {passedCount}");
-        Console.WriteLine($"Failed: {failedCount}");
+        Console.WriteLine($"QC failures: {qcRejectedCount}");
+        Console.WriteLine($"Fell back to raw: {rawFallbackCount}");
     }
 
     /// <summary>

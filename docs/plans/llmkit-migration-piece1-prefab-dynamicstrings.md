@@ -45,7 +45,9 @@ of production behavior:
    in sync — but confirm whether `EnglishPatch` expects this file/shape before re-enabling, since a
    runtime plugin consuming it may not exist yet either.
 
-No LlmKit model or workflow-behavior changes needed for this part.
+No LlmKit model or workflow-behavior changes needed for this part. For the packaging
+score-gate/freshness rules and raw-fallback behavior `PackagePrefabTextAsync` follows, see
+[`../../../FanslationStudio.LlmKit/docs/packaging-reference.md`](../../../FanslationStudio.LlmKit/docs/packaging-reference.md).
 
 ## dynamicStrings.txt → new LlmKit workflow
 

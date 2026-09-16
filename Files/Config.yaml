@@ -9,14 +9,17 @@
     modelPresetType: StructuredText
     customPromptsPath:
     apiKeyPath:
-  - name: QwenQc-14B
-    modelPreset: Qwen25
+  - name: Qwen38Qc
+    modelPreset: Qwen38
     modelPresetType: Standard
-    model: qwen2.5:14b-instruct
 qualityReview:
   enabled: true
-  modelName: QwenQc-14B #Glm4Qc-9B 
-  minAcceptableScore: 70 # tune freely and re-run packaging only - no LLM calls needed to see the effect  
+  modelName: Qwen38Qc 
+  minAcceptableScore: 60
+  maxConcurrency: 2 
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+  twoStageVerificationEnabled: true
 glossaryPreset:
   usePresetChineseGlossary: true
   chineseGlossaryTypesToSupress:
@@ -28,24 +31,3 @@ skipLineValidation: false
 correctionPromptsEnabled: true
 batchSize: 100
 translateFlagged: true
-# splitCharactersList:
-#   - '\n'
-#   - '⑩'
-#   - '⓪'
-#   - '①'
-#   - '②'
-#   - '③'
-#   - '④'
-#   - '⑤'
-#   - '⑥'
-#   - '⑦'
-#   - '⑧'
-#   - '⑨'
-# splitRegexPatterns:
-#   - '《.*?》'
-#   - '\〈.*?\〉'
-#   - '\「.*?\」'
-#   - '\『.*?\』'
-#   - '\【.*?\】'
-#   - '\〖.*?\〗'
-#   - '\“.*?”'

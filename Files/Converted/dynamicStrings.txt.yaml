@@ -3,36 +3,58 @@
   - split: 3
     text: "备份失败: "
     translated: "Backup failed:"
+    qcReviewedText: "Backup failed:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,Load,51,[Load] 解析文件失败: ,[System.String]"
   splits:
   - split: 3
     text: "[Load] 解析文件失败: "
     translated: "[Load] Failed to parse file:"
+    qcReviewedText: "[Load] Failed to parse file:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,ConvertNumberToChineseDate,101,一十,[System.Int32]"
   splits:
   - split: 3
     text: "一十"
     translated: "11"
+    qcReviewedText: "11"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,ConvertNumberToChineseDate,106,十,[System.Int32]"
   splits:
   - split: 3
     text: "十"
     translated: "10"
+    qcReviewedText: "10"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,155,零,[]"
   splits:
   - split: 3
     text: "零"
     translated: "0"
+    qcReviewedText: "0"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,163,一,[]"
   splits:
   - split: 3
     text: "一"
     translated: "1"
+    qcReviewedText: "1"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,.cctor,171,二,[]"
   splits:
   - split: 3
     text: "二"
     translated: "2"
+    qcReviewedText: "2"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,179,三,[]"
   splits:
   - split: 3
@@ -43,6 +65,10 @@
   - split: 3
     text: "四"
     translated: "4"
+    qcReviewedText: "4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,195,五,[]"
   splits:
   - split: 3
@@ -53,66 +79,108 @@
   - split: 3
     text: "六"
     translated: "6"
+    qcReviewedText: "6"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,211,七,[]"
   splits:
   - split: 3
     text: "七"
     translated: "7"
+    qcReviewedText: "7"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,219,八,[]"
   splits:
   - split: 3
     text: "八"
     translated: "8"
+    qcReviewedText: "8"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,228,九,[]"
   splits:
   - split: 3
     text: "九"
     translated: "9"
+    qcReviewedText: "9"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,255,十,[]"
   splits:
   - split: 3
     text: "十"
     translated: "10"
+    qcReviewedText: "10"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,263,百,[]"
   splits:
   - split: 3
     text: "百"
     translated: "Hundred"
+    qcReviewedText: "Hundred"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "GameTools,.cctor,271,千,[]"
   splits:
   - split: 3
     text: "千"
     translated: "Thousand"
+    qcReviewedText: "Thousand"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "GameTools,.cctor,279,万,[]"
   splits:
   - split: 3
     text: "万"
     translated: "10 Thousand"
+    qcReviewedText: "10 Thousand"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,287,亿,[]"
   splits:
   - split: 3
     text: "亿"
     translated: "Billion"
+    qcReviewedText: "Billion"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,.cctor,295,万亿,[]"
   splits:
   - split: 3
     text: "万亿"
     translated: "Trillion"
+    qcReviewedText: "Trillion"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,.cctor,303,亿亿,[]"
   splits:
   - split: 3
     text: "亿亿"
     translated: "Hundred Quadrillion"
+    qcReviewedText: "Hundred Quadrillion"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "GameTools,.cctor,331,一,[]"
   splits:
   - split: 3
     text: "一"
     translated: "1"
+    qcReviewedText: "1"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GameTools,.cctor,339,二,[]"
   splits:
   - split: 3
     text: "二"
     translated: "2"
+    qcReviewedText: "2"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,347,三,[]"
   splits:
   - split: 3
@@ -123,6 +191,10 @@
   - split: 3
     text: "四"
     translated: "4"
+    qcReviewedText: "4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,363,五,[]"
   splits:
   - split: 3
@@ -133,318 +205,512 @@
   - split: 3
     text: "六"
     translated: "6"
+    qcReviewedText: "6"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "GameTools,.cctor,379,七,[]"
   splits:
   - split: 3
     text: "七"
     translated: "7"
+    qcReviewedText: "7"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,387,八,[]"
   splits:
   - split: 3
     text: "八"
     translated: "8"
+    qcReviewedText: "8"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "GameTools,.cctor,396,九,[]"
   splits:
   - split: 3
     text: "九"
     translated: "9"
+    qcReviewedText: "9"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,OnDamage,240,对方,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "对方"
     translated: "Opponent"
+    qcReviewedText: "Opponent"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,OnDamage,247,我方,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "我方"
     translated: "Our side"
+    qcReviewedText: "Our side"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,OnDamage,252,受到<color=#ff0000>,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "受到<color=#ff0000>"
     translated: "Receiving <color=#ff0000>"
+    qcReviewedText: "Receiving <color=#ff0000>"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,OnDamage,264,</color>点伤害,[System.Single，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "</color>点伤害"
     translated: "</color> damage"
+    qcReviewedText: "</color> damage"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,AddHp,54,对方,[System.Single]"
   splits:
   - split: 3
     text: "对方"
     translated: "Opponent"
+    qcReviewedText: "Opponent"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,AddHp,61,我方,[System.Single]"
   splits:
   - split: 3
     text: "我方"
     translated: "Our side"
+    qcReviewedText: "Our side"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,AddHp,66,恢复 <color=#00ff00>,[System.Single]"
   splits:
   - split: 3
     text: "恢复 <color=#00ff00>"
     translated: "Recovery <color=#00ff00>'"
+    qcReviewedText: "Recovery <color=#00ff00>'"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "CharacterObj,AddHp,81,</color>点气血,[System.Single]"
   splits:
   - split: 3
     text: "</color>点气血"
     translated: "</color> lifeforce"
+    qcReviewedText: "</color> lifeforce"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "ModManager/<LoadAudioFromDisk>d__19,MoveNext,270,加载音频失败: ,[]"
   splits:
   - split: 3
     text: "加载音频失败: "
     translated: "Failed to load audio:"
+    qcReviewedText: "Failed to load audio:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "ModManager,Clear,113,UnApply 失败: {0}\\n{1},[]"
   splits:
   - split: 3
     text: "UnApply 失败: {0}\\n{1}"
     translated: "Unapply failed: {0}\\n{1}"
+    qcReviewedText: "Unapply failed: {0}\\n{1}"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "DOTweenDebugHook/<>c,<Awake>b__0_0,64,正在运行的Tween目标: ,[UnityEngine.LogType，System.Object]"
   splits:
   - split: 3
     text: "正在运行的Tween目标: "
     translated: "Running Tween target:"
+    qcReviewedText: "Running Tween target:"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "UgcManager/<>c__DisplayClass12_0,<UploadNewMod>b__0,57,CreateItem 失败: {0},[Steamworks.CreateItemResult_t，System.Boolean]"
   splits:
   - split: 3
     text: "CreateItem 失败: {0}"
     translated: "CreateItem Failed: {0}"
+    qcReviewedText: "CreateItem Failed: {0}"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "UgcManager/<>c__DisplayClass15_0,<SubmitUpdate>b__0,73,SubmitItemUpdate 失败: {0},[Steamworks.SubmitItemUpdateResult_t，System.Boolean]"
   splits:
   - split: 3
     text: "SubmitItemUpdate 失败: {0}"
     translated: "SubmitItemUpdate failed: {0}"
+    qcReviewedText: "SubmitItemUpdate failed: {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "HeroCard,InitHeroInfo,286,功力,[ExHero]"
   splits:
   - split: 3
     text: "功力"
     translated: "Power"
+    qcReviewedText: "Power"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GroupItem,Init,209,\\n\\n解锁方式：\\n,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "\\n\\n解锁方式：\\n"
     translated: "\\n\\nUnlock method:\\n"
+    qcReviewedText: "\\n\\nUnlock method:\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "GroupItem,Init,409,\\n\\n解锁方式：\\n,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "\\n\\n解锁方式：\\n"
     translated: "\\n\\nUnlock method:\\n"
+    qcReviewedText: "\\n\\nUnlock method:\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "HeroAtlasMenu/<LoadHeroItemsCoroutine>d__33,MoveNext,276,获取方式,[]"
   splits:
   - split: 3
     text: "获取方式"
     translated: "Method of Acquisition"
+    qcReviewedText: "Method of Acquisition"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "lockedHeroItem,Init,147,获取方式,[System.String]"
   splits:
   - split: 3
     text: "获取方式"
     translated: "Method of Acquisition"
+    qcReviewedText: "Method of Acquisition"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "LogItem,Init,68,主角,[System.String，System.String]"
   splits:
   - split: 3
     text: "主角"
     translated: "Main Character"
+    qcReviewedText: "Main Character"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "DialogMenu,Init,335,主角,[System.String，System.String]"
   splits:
   - split: 3
     text: "主角"
     translated: "Main Character"
+    qcReviewedText: "Main Character"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "DialogMenu,Init,961,主角,[System.String，System.String]"
   splits:
   - split: 3
     text: "主角"
     translated: "Main Character"
+    qcReviewedText: "Main Character"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,InitSkills,450,技艺值\\n技艺条目可拖动,[]"
   splits:
   - split: 3
     text: "技艺值\\n技艺条目可拖动"
     translated: "Skill Points\\nSkill entries can be dragged"
+    qcReviewedText: "Skill Points\\nSkill entries can be dragged"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,InitSkills,478,技艺值\\n技艺条目可拖动,[]"
   splits:
   - split: 3
     text: "技艺值\\n技艺条目可拖动"
     translated: "Skill Points\\nSkill entries can be dragged"
+    qcReviewedText: "Skill Points\\nSkill entries can be dragged"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,InitSkills,483,暂无,[]"
   splits:
   - split: 3
     text: "暂无"
     translated: "None available at this time"
+    qcReviewedText: "None available at this time"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetConditionText,4,[条件嵌套过深],[System.String，System.Int32]"
   splits:
   - split: 3
     text: "[条件嵌套过深]"
     translated: "[Nested conditions too deep]"
+    qcReviewedText: "[Nested conditions too deep]"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetConditionText,25,无,[System.String，System.Int32]"
   splits:
   - split: 3
     text: "无"
     translated: "None"
+    qcReviewedText: "None"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetConditionText,109, 且 ,[System.String，System.Int32]"
   splits:
   - split: 3
     text: " 且 "
     translated: "And"
+    qcReviewedText: "And"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetConditionText,116, 或 ,[System.String，System.Int32]"
   splits:
   - split: 3
     text: " 或 "
     translated: "Or"
+    qcReviewedText: "Or"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetSingleConditionText,186,门派 ,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "门派 "
     translated: "Sect"
+    qcReviewedText: "Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetSingleConditionText,232,拥有技能【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "拥有技能【"
     translated: "Having the skill"
+    qcReviewedText: "Having the skill"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetSingleConditionText,249,未拥有技能【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "未拥有技能【"
     translated: "Unskilled in this, they proceed with verification"
+    qcReviewedText: "Unskilled in this, they proceed with verification"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetSingleConditionText,270,拥有伙伴【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "拥有伙伴【"
     translated: "Having a partner"
+    qcReviewedText: "Having a partner"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetSingleConditionText,287,未拥有伙伴【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "未拥有伙伴【"
     translated: "Didn't have a companion"
+    qcReviewedText: "Didn't have a companion"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetSingleConditionText,318,未解锁地图【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "未解锁地图【"
     translated: "Unlocked map【They discovered a hidden entrance.】"
+    qcReviewedText: "Unlocked map【They discovered a hidden entrance.】"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetSingleConditionText,335,已解锁地图【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "已解锁地图【"
     translated: "Unlocked map"
+    qcReviewedText: "Unlocked map"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetSingleConditionText,352,事件【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "事件【"
     translated: "Event"
+    qcReviewedText: "Event"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetSingleConditionText,358,】已发生,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "】已发生"
     translated: "】Already occurred"
+    qcReviewedText: "】Already occurred"
+    qcStatus: Passed
+    qcQualityScore: 85
 - raw: "MainMenu,GetSingleConditionText,369,事件【,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "事件【"
     translated: "Event"
+    qcReviewedText: "Event"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetSingleConditionText,375,】未发生,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "】未发生"
     translated: "No incident occurred"
+    qcReviewedText: "No incident occurred"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetSingleConditionText,394,开关,[ExCondition，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "开关"
     translated: "Toggle"
+    qcReviewedText: "Toggle"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetOptText,26,为,[OptType]"
   splits:
   - split: 3
     text: "为"
     translated: "For"
+    qcReviewedText: "For"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetOptText,32,不为,[OptType]"
   splits:
   - split: 3
     text: "不为"
     translated: "Not for"
+    qcReviewedText: "Not for"
+    qcStatus: Passed
+    qcQualityScore: 85
 - raw: "MainMenu,GetOptText,38,大于,[OptType]"
   splits:
   - split: 3
     text: "大于"
     translated: "Greater Than"
+    qcReviewedText: "Greater Than"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetOptText,44,小于,[OptType]"
   splits:
   - split: 3
     text: "小于"
     translated: "Xiao Yu"
+    qcReviewedText: "Xiao Yu"
+    qcStatus: Passed
+    qcQualityScore: 90
 - raw: "MainMenu,GetTimeText,33,时间：,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "时间："
     translated: "Time:"
+    qcReviewedText: "Time:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetTimeText,71,每月：,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每月："
     translated: "Every month:"
+    qcReviewedText: "Every month:"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetTimeText,89,每个,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每个"
     translated: "Every"
+    qcReviewedText: "Every"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,GetTimeText,124,月,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "月"
     translated: "Month"
+    qcReviewedText: "Month"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetTimeText,144,每季度：,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "每季度："
     translated: "Quarterly:"
+    qcReviewedText: "Quarterly:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetTimeText,162,第,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "第"
     translated: "Chapter"
+    qcReviewedText: "Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,GetTimeText,197,季度,[System.String，OptType，System.String]"
   splits:
   - split: 3
     text: "季度"
     translated: "Quarter"
+    qcReviewedText: "Quarter"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,LogEvent,16,当前事件：id,[ExEvent]"
   splits:
   - split: 3
     text: "当前事件：id"
     translated: "Current_event:id"
+    qcReviewedText: "Current_event:id"
+    qcStatus: Passed
+    qcQualityScore: 85
 - raw: "MainMenu,LogEvent,110,条件:,[ExEvent]"
   splits:
   - split: 3
     text: "条件:"
     translated: "Conditions:"
+    qcReviewedText: "Conditions:"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "MainMenu,ShowEvent,465,无事发生,[System.String]"
   splits:
   - split: 3
     text: "无事发生"
     translated: "Nothing happened"
+    qcReviewedText: "Nothing happened"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "MainMenu,ShowDice,22,无事发生,[System.String]"
   splits:
   - split: 3
     text: "无事发生"
     translated: "Nothing happened"
+    qcReviewedText: "Nothing happened"
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "BootMenu,CheckAndFixAbnormalResolution,22,[ResolutionFailsafe] 检测到异常的极小分辨率: {0}x{1}。正在强制重置为安全分辨率...,[]"
   splits:
   - split: 3
     text: "[ResolutionFailsafe] 检测到异常的极小分辨率: {0}x{1}。正在强制重置为安全分辨率..."
     translated: "[ResolutionFailsafe] Detected abnormal minimum resolution: {0}x{1}. Forcing reset to safe resolution..."
+    qcReviewedText: "[ResolutionFailsafe] Detected abnormal minimum resolution: {0}x{1}. Forcing reset to safe resolution..."
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "ModInfoPage/<UpdateProgressCoroutine>d__32,MoveNext,259,计算中...,[]"
   splits:
   - split: 3
     text: "计算中..."
     translated: "Calculating..."
+    qcReviewedText: "Calculating..."
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "ModInfoPage,StartUpload,13,开始上传...,[]"
   splits:
   - split: 3
     text: "开始上传..."
     translated: "Uploading..."
+    qcReviewedText: "Uploading..."
+    qcStatus: Passed
+    qcQualityScore: 95
 - raw: "RecordItem,Init,387,{0}年{1}月{2}日 {3}:{4:D2},[RecordHeader，System.Int32，System.Action`2<System.Boolean，System.Int32>，System.Action`1<System.Int32>]"
   splits:
   - split: 3
     text: "{0}年{1}月{2}日 {3}:{4:D2}"
     translated: "On {0} Year, {1} Month, {2} Day at {3}: {4:D2}"
+    qcReviewedText: "On {0} Year, {1} Month, {2} Day at {3}: {4:D2}"
+    qcStatus: Passed
+    qcQualityScore: 85
 - raw: "SettingPanel,Init,230,请返回标题设置语言,[]"
   splits:
   - split: 3
     text: "请返回标题设置语言"
     translated: "Please return to setting the language for the title."
+    qcReviewedText: "Please return to setting the language for the title."
+    qcStatus: Passed
+    qcQualityScore: 85

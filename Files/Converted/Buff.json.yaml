@@ -4,6 +4,10 @@
   - splitPath: Name
     text: "封穴"
     translated: "Seal acupoints"
+    qcReviewedText: "<color=#00ff00>Seal acupoints </color>Our side prevents 1 actions, while the enemy randomly blocks 1 actions."
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "我方阻止1人行动，敌方随机阻止1次行动"
     translated: "Our side prevents 1 actions, while the enemy randomly blocks 1 actions."
@@ -23,6 +27,10 @@
   - splitPath: Name
     text: "轻伤"
     translated: "Minor injury"
+    qcReviewedText: "Minor injury"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击、防御降低20%"
     translated: "Attack and defense reduced by 20%"
@@ -32,6 +40,10 @@
   - splitPath: Name
     text: "中毒"
     translated: "Poisoned"
+    qcReviewedText: "<color=#00ff00>Poisoned </color>Each round, you lose 5% of your lifeforce."
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每轮损失当前气血5%"
     translated: "Each round, you lose 5% of your lifeforce."
@@ -51,6 +63,10 @@
   - splitPath: Name
     text: "绝脉"
     translated: "Dead Pulse"
+    qcReviewedText: "<color=#00ff00>Dead Pulse </color>Disappear at a cost of 20% of current lifeforce, and the number of turns until next use increases."
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "消失时损失当前气血20%，再次使用回合数增加"
     translated: "Disappear at a cost of 20% of current lifeforce, and the number of turns until next use increases."
@@ -70,6 +86,10 @@
   - splitPath: Name
     text: "禁疗"
     translated: "No healing"
+    qcReviewedText: "<color=#00ff00>No healing </color>Revival is ineffective"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春无效"
     translated: "Revival is ineffective"
@@ -89,6 +109,10 @@
   - splitPath: Name
     text: "失神"
     translated: "Trance"
+    qcReviewedText: "<color=#00ff00>Trance </color>Unable to move. Double damage when attacked, status effects removed."
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
     translated: "Unable to move. Double damage when attacked, status effects removed."
@@ -108,6 +132,10 @@
   - splitPath: Name
     text: "力竭"
     translated: "Exhausted"
+    qcReviewedText: "Exhausted"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "行动力回复减少1"
     translated: "Action points recovery reduced by 1"
@@ -117,6 +145,10 @@
   - splitPath: Name
     text: "重伤"
     translated: "Severe injury"
+    qcReviewedText: "Severe injury"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击、防御降低35%"
     translated: "Attack and defense reduced by 35%"
@@ -126,6 +158,10 @@
   - splitPath: Name
     text: "惊神"
     translated: "Stunning Spirits"
+    qcReviewedText: "<color=#00ff00>Stunning Spirits </color>Unable to move. Double damage when attacked, status effects removed."
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
     translated: "Unable to move. Double damage when attacked, status effects removed."
@@ -145,6 +181,10 @@
   - splitPath: Name
     text: "致命"
     translated: "Fatal"
+    qcReviewedText: "Fatal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击、防御降低50%"
     translated: "Attack and defense reduced by 50%"

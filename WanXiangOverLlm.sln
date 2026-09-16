@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.4.11506.43 insiders
+VisualStudioVersion = 18.4.11506.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translate", "Translate\Translate.csproj", "{65718972-A78A-496C-8F48-4D98B0697E2B}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishPatch", "EnglishPatch\EnglishPatch.csproj", "{7BEEA7EA-DB39-E108-9CD5-0610EBA5404A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAssembly", "SharedAssembly\SharedAssembly.csproj", "{A2388868-6FCB-4715-EF90-4377812D7B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanslationStudio.LlmKit", "..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj", "{072AE00E-2485-2179-079E-03BF96364F37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A2388868-6FCB-4715-EF90-4377812D7B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2388868-6FCB-4715-EF90-4377812D7B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2388868-6FCB-4715-EF90-4377812D7B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072AE00E-2485-2179-079E-03BF96364F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072AE00E-2485-2179-079E-03BF96364F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072AE00E-2485-2179-079E-03BF96364F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072AE00E-2485-2179-079E-03BF96364F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,10 @@
   - splitPath: Name
     text: "九州"
     translated: "Nine Provinces"
+    qcReviewedText: "Nine Provinces"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "世界地图，无意义，占位用"
     translated: "World map, meaningless, just placeholder"
@@ -13,6 +17,10 @@
   - splitPath: Name
     text: "破庙"
     translated: "Ruined temple"
+    qcReviewedText: "Ruined temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆湘出生点"
     translated: "Jiang Xiang Birthplace Point"
@@ -22,18 +30,30 @@
   - splitPath: Name
     text: "九流山庄"
     translated: "Nine Streams Manor"
+    qcReviewedText: "Nine Streams Manor"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"真武观\",\r\n    \"NameTw\": \"真武觀\"\r\n  }"
   rawIndex: 4
   splits:
   - splitPath: Name
     text: "真武观"
     translated: "True Martial Monastery"
+    qcReviewedText: "True Martial Monastery"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"烟波坞\",\r\n    \"NameTw\": \"煙波塢\"\r\n  }"
   rawIndex: 5
   splits:
   - splitPath: Name
     text: "烟波坞"
     translated: "Smoke Wave Dock"
+    qcReviewedText: "Smoke Wave Dock"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"唐家堡\",\r\n    \"NameTw\": \"唐家堡\"\r\n  }"
   rawIndex: 6
   splits:
@@ -46,6 +66,10 @@
   - splitPath: Name
     text: "有间客栈"
     translated: "A Small Inn"
+    qcReviewedText: "A Small Inn"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀出生点"
     translated: "Sichuan Starting Point"
@@ -55,12 +79,20 @@
   - splitPath: Name
     text: "望驾山"
     translated: "Wangjia Mountain"
+    qcReviewedText: "Wangjia Mountain"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"201\",\r\n    \"Name\": \"破庙\",\r\n    \"Desc\": \"此庙废弃已久，荒草蔓生，杂乱无章。殿宇倾颓，墙壁斑驳，岁月的痕迹如同深深的刀刻，满目凄凉。\",\r\n    \"NameTw\": \"破廟\",\r\n    \"DescTw\": \"此廟廢棄已久，荒草蔓生，雜亂無章。殿宇傾頹，牆壁斑駁，歲月的痕跡如同深深的刀刻，滿目淒涼。\"\r\n  }"
   rawIndex: 201
   splits:
   - splitPath: Name
     text: "破庙"
     translated: "Ruined temple"
+    qcReviewedText: "Ruined temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "此庙废弃已久，荒草蔓生，杂乱无章。殿宇倾颓，墙壁斑驳，岁月的痕迹如同深深的刀刻，满目凄凉。"
     translated: "The temple has been abandoned for a long time, with weeds and wild grass sprawling everywhere in disarray. The halls are crumbling, the walls covered in spots, and the marks of time are like deep cuts, filled with melancholy."
@@ -70,6 +102,10 @@
   - splitPath: Name
     text: "诚心堂"
     translated: "Honesty Hall"
+    qcReviewedText: "Honesty Hall"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄正厅，是衡山派掌门议事与待客之处。"
     translated: "The main hall of Jiu Liu Villa is where the Hengshan Sect Leader convenes meetings and receives guests."
@@ -79,6 +115,10 @@
   - splitPath: Name
     text: "潇湘馆"
     translated: "Xiaoxiang Pavilion"
+    qcReviewedText: "Xiaoxiang Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄别院，是衡山派两位总管处理门中杂事之处。"
     translated: "Hengshan Sect's Secondary Residence is where the two stewards of the sect handle various internal affairs."
@@ -88,6 +128,10 @@
   - splitPath: Name
     text: "雁客轩"
     translated: "Yan Guest Hall"
+    qcReviewedText: "Yan Guest Hall"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄别院，是衡山派来客所居之处，亦是每年“冬学”讲学之处。"
     translated: "The Nine Streams Manor Guest Wing is where visitors from the Hengshan Sect reside and where the  “Winter Scholar”  holds his lectures each year."
@@ -97,6 +141,10 @@
   - splitPath: Name
     text: "演武场"
     translated: "Combat Arena"
+    qcReviewedText: "Combat Arena"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄演武场，是衡山派弟子日常习武，切磋技艺之处。"
     translated: "The Nine Streams Villa's Practice Ground is where the disciples of the Hengshan Sect practice martial arts and refine their skills on a daily basis."
@@ -106,6 +154,10 @@
   - splitPath: Name
     text: "静室"
     translated: "Quiet Room"
+    qcReviewedText: "Quiet Room"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄后院静室，是衡山派弟子闭关修炼，静心研习之处。"
     translated: "The tranquil chamber at the rear courtyard of Jiuliu Manor is where disciples of the Hengshan Sect seclude themselves for intensive cultivation and quiet study."
@@ -115,6 +167,10 @@
   - splitPath: Name
     text: "后山"
     translated: "Back mountain"
+    qcReviewedText: "Back mountain"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "九流山庄后山群峰，共有七十一峰，皆藏妙景，别有洞天。"
     translated: "In the rear mountain of Jiuli Compound, there are seventy‑one peaks, each concealing exquisite scenery and offering a world beyond."
@@ -124,6 +180,10 @@
   - splitPath: Name
     text: "报恩殿"
     translated: "Pavilion of Gratitude"
+    qcReviewedText: "Pavilion of Gratitude"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观正殿，是武当派掌门与众长老议事与待客之处。"
     translated: "The Main Hall of Zhenwu Monastery is where the Sect Leader of the Wudang Sect and the Elders convene to discuss matters and entertain guests."
@@ -133,6 +193,10 @@
   - splitPath: Name
     text: "全一殿"
     translated: "Full One Hall"
+    qcReviewedText: "Full One Hall"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观偏殿，是长老处理门中杂事之处。"
     translated: "True Martial Monastery Side Hall is where the Elder handles various internal affairs of the sect."
@@ -142,6 +206,10 @@
   - splitPath: Name
     text: "坐忘台"
     translated: "Seat of Forgetfulness"
+    qcReviewedText: "Seat of Forgetfulness"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观外石台，是武当派门人练功习武之处。"
     translated: "Outside Wudang Temple's stone platform is where practitioners of the Wudang Sect train and refine their martial arts skills."
@@ -151,6 +219,10 @@
   - splitPath: Name
     text: "解真阁"
     translated: "True Release Pavilion"
+    qcReviewedText: "True Release Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观书阁，是收藏武当派道学、武学和其余杂学之类书典之处。"
     translated: "The Wudang Sect's Scholarly Pavilion is where one can find texts on Daoist Studies, martial arts, and other miscellaneous disciplines of the Wudang Sect."
@@ -160,6 +232,10 @@
   - splitPath: Name
     text: "丹房"
     translated: "Alchemy Room"
+    qcReviewedText: "Alchemy Room"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观丹房，是武当派弟子烹炼金石，炼汞烧丹之处。"
     translated: "True Wudang Hall of Alchemy is where the disciples of the Wudang Sect prepare and refine metals and minerals to create elixirs."
@@ -169,6 +245,10 @@
   - splitPath: Name
     text: "后山"
     translated: "Back mountain"
+    qcReviewedText: "Back mountain"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "真武观后山群峰，共有七十一峰，皆藏妙景，别有洞天。"
     translated: "The back mountain range of Zhenwu Monastery consists of seventy‑one peaks, each concealing marvels and offering a world beyond."
@@ -178,6 +258,10 @@
   - splitPath: Name
     text: "龙首堂"
     translated: "Dragon Head Hall"
+    qcReviewedText: "Dragon Head Hall"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "烟波坞正厅，是洞庭帮帮主议事与待客之处。"
     translated: "The main hall of Yimobowu is where the Dongting Sect Leader holds meetings and receives guests."
@@ -196,6 +280,10 @@
   - splitPath: Name
     text: "青蛟堂"
     translated: "Azure Flood Dragon Hall"
+    qcReviewedText: "Azure Flood Dragon Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "烟波坞别院，是管理洞庭帮资材产业、收入支出等事务之处。"
     translated: "Dongting Sect's Riverside Guesthouse manages the sect's material industries, handling income and expenditure matters."
@@ -214,6 +302,10 @@
   - splitPath: Name
     text: "白蛟堂"
     translated: "White Serpent Hall"
+    qcReviewedText: "White Serpent Hall"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "烟波坞别院，是管理洞庭帮捕捞湖鱼、舟楫运渡等事务之处。"
     translated: "The Smoke‑Wave Dockside Guesthouse oversees the operations of the Dongting Sect's fishing in Lake Fish and the transportation of boats across the waters."
@@ -223,6 +315,10 @@
   - splitPath: Name
     text: "来龙口"
     translated: "Go to Longmouth"
+    qcReviewedText: "Go to Longmouth"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "君山岛东侧的一处水滩口岸，是洞庭帮众修炼潜水闭气之处。"
     translated: "On the eastern side of Junshan Island, a tidal marsh serves as the training ground for the Dongting Sect members to practice diving and holding their breath."
@@ -241,6 +337,10 @@
   - splitPath: Name
     text: "无悔堂"
     translated: "Regret‑Free Hall"
+    qcReviewedText: "Regret‑Free Hall"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡正殿，是唐门门主和各位长老议事之处。"
     translated: "The main hall of Tang Family Fort is where the Tang Clan leader and various elders convene to discuss matters."
@@ -250,6 +350,10 @@
   - splitPath: Name
     text: "安乐窝"
     translated: "Haven of comfort"
+    qcReviewedText: "Haven of comfort"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡偏阁，是唐门老太爷唐放颐养之处。"
     translated: "The side pavilion of the Tang Family Manor is where the elder matriarch of the Tang Clan, Tang Fangyi, retires to."
@@ -259,6 +363,10 @@
   - splitPath: Name
     text: "百毒坊"
     translated: "Poison Den"
+    qcReviewedText: "Poison Den"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡制药坊，是唐门门人炼制药物之处。"
     translated: "The Tang Clan Pharmaceutical Workshop is where the Tang Clan practitioners refine medicines."
@@ -268,6 +376,10 @@
   - splitPath: Name
     text: "千机坊"
     translated: "Million‑Droneworks Workshop"
+    qcReviewedText: "Million‑Droneworks Workshop"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡锻造坊。是唐门门人制造机关、暗器之处。"
     translated: "The Tang Family Forge is where Tang Clan disciples create mechanisms and hidden weapons."
@@ -277,6 +389,10 @@
   - splitPath: Name
     text: "演武场"
     translated: "Combat Arena"
+    qcReviewedText: "Combat Arena"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡演武场，是唐门门人日常习武，切磋技艺之处。"
     translated: "The Tang Family Fort's Training Ground is where Tang Clan practitioners train and refine their martial arts skills."
@@ -286,6 +402,10 @@
   - splitPath: Name
     text: "卧房"
     translated: "Bedroom"
+    qcReviewedText: "Bedroom"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡弟子卧房，是唐门门人日常休息、闭关之处。"
     translated: "The dormitory of the disciples in the Tang Family Manor is where members of the Tang Clan rest and seclude themselves for training."
@@ -295,6 +415,10 @@
   - splitPath: Name
     text: "后山"
     translated: "Back mountain"
+    qcReviewedText: "Back mountain"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "唐家堡后山群峰，共有七十一峰，皆藏妙景，别有洞天。"
     translated: "In the rear mountains of Tang Family Village, there are seventy‑one peaks, each concealing marvelous scenery and offering a world apart."
@@ -304,6 +428,10 @@
   - splitPath: Name
     text: "有间客栈"
     translated: "A Small Inn"
+    qcReviewedText: "A Small Inn"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之地间的一座客栈，虽然名声不显，却是过往行人的不二选择。"
     translated: "In the region of Chu‑Shu, a small inn stands out as the go‑to choice for travelers despite its unremarkable reputation."
@@ -313,6 +441,10 @@
   - splitPath: Name
     text: "广成丹穴"
     translated: "Asura Dan Cavern"
+    qcReviewedText: "Asura Dan Cavern"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒山东峰望驾山绝壁丹穴，内中留有广成子遗刻。"
     translated: "On the East Peak of Kongtong Mountain, looking down at Wujiao Mountain's sheer cliff face, there are carvings left by Guangchengzi."
@@ -322,6 +454,10 @@
   - splitPath: Name
     text: "太初洞"
     translated: "Primordial Cave"
+    qcReviewedText: "Primordial Cave"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒山东峰望驾山绝壁洞穴，为丹会期间崆峒派中人所住之处。"
     translated: "At the eastern peak of Kongtong Mountain, overlooking Waijia Shan, there are sheer cliff caves where members of the Kongtong Sect reside during the Dan Hui."
@@ -331,6 +467,10 @@
   - splitPath: Name
     text: "太始洞"
     translated: "Primordial Cave"
+    qcReviewedText: "Primordial Cave"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒山东峰望驾山绝壁洞穴，为丹会期间昆仑派中人所住之处。"
     translated: "At Kongtong Mountain's East Peak, overlooking Wangjie Mountain's sheer cliff, are caves where the Kunlun Sect practitioners reside during the Dan Hui."
@@ -340,6 +480,10 @@
   - splitPath: Name
     text: "太素洞"
     translated: "Purity Cavern"
+    qcReviewedText: "Purity Cavern"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒山东峰望驾山绝壁洞穴，为丹会期间青城派中人所住之处。"
     translated: "On the eastern peak of Kongtong Mountain, there is a cliffside cave on Wajiashan. This cave serves as accommodation for the members of the Qingcheng Sect during the Dan Hui period."
@@ -358,6 +502,10 @@
   - splitPath: Name
     text: "太极洞"
     translated: "Taiji Cave"
+    qcReviewedText: "Taiji Cave"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒山东峰望驾山绝壁洞穴，为丹会期间武当派中人所住之处。"
     translated: "During the Dan Hui period, members of the Wudang Sect resided in the cave on the eastern peak of Kongtong Mountain's precipice."
@@ -367,6 +515,10 @@
   - splitPath: Name
     text: "荆湘"
     translated: "Jingxiang"
+    qcReviewedText: "Jingxiang"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "大地图州选项，父节点世界地图"
     translated: "Major Map Province Options, Parent Node World Map"
@@ -376,6 +528,10 @@
   - splitPath: Name
     text: "川蜀"
     translated: "Sichuan Province"
+    qcReviewedText: "Sichuan Province"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "大地图州选项，父节点世界地图"
     translated: "Major Map Province Options, Parent Node World Map"
@@ -385,6 +541,10 @@
   - splitPath: Name
     text: "湘南"
     translated: "Xiangnan"
+    qcReviewedText: "Xiangnan"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之南，衡州府、永州府、郴州、道州、茶陵州、桂阳州两府四州所在之地。"
     translated: "In the south of Xiangxi and Yongzhou, Huizhou, Chenzhou, Daozhou, and Taling Prefecture and Guiyang Prefecture."
@@ -394,6 +554,10 @@
   - splitPath: Name
     text: "荆东"
     translated: "Jing Dong"
+    qcReviewedText: "Jing Dong"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆楚之东，武昌府、汉阳府、黄州府、兴国州三府一州所在之地。"
     translated: "In the east of Jingchu, lies Wuchang Prefecture, Hankou Prefecture, Huangzhou Prefecture, and Xingguo Prefecture."
@@ -403,6 +567,10 @@
   - splitPath: Name
     text: "湘东"
     translated: "Xiang Dong"
+    qcReviewedText: "Xiang Dong"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之东，长沙府一府所在之地。"
     translated: "East of Xiangxi, in the city of Changsha."
@@ -412,6 +580,10 @@
   - splitPath: Name
     text: "荆北"
     translated: "Northern Jingbei"
+    qcReviewedText: "Northern Jingbei"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆楚之北，襄阳府、德安府、郧阳府、随州、均州三府两州所在之地。"
     translated: "To the north of Jiangchu lies Xiangyang Prefecture, De'an Prefecture, Ynovyang Prefecture, Suizhou, and Junzhou, where these three prefectures and two states are located."
@@ -421,6 +593,10 @@
   - splitPath: Name
     text: "湘北"
     translated: "Northern Hunan"
+    qcReviewedText: "Northern Hunan"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之北，岳州府、常德府、澧州、南渭州、施溶州、上溪州两府四州及诸土司所在之地。"
     translated: "North of Xiangxi, Yuezhou Prefecture, Changde Prefecture, Lishui Prefecture, Nanwei Prefecture, Shiyunzhou, the two prefectures and four states of Shangxi, and the areas under various indigenous rulers."
@@ -430,6 +606,10 @@
   - splitPath: Name
     text: "荆南"
     translated: "Jingnan"
+    qcReviewedText: "Jingnan"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆楚之南，荆州府、承天府、沔阳州、荆门州、夷陵州、归州两府四洲所在之地。"
     translated: "In the south of Jiangchu, in Jingzhou Prefecture, Chengtian Prefecture, Mianyang Circuit, Jiumen Circuit, and Yiling Circuit, these are the locations of two prefectures and four circuits."
@@ -439,6 +619,10 @@
   - splitPath: Name
     text: "湘西"
     translated: "Xiangxi"
+    qcReviewedText: "Xiangxi"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之西，宝庆府、辰州府、沅州、靖州、武冈州、保靖州两府四州之地。"
     translated: "West of Xiangxi, in Baoqing Prefecture, Chenzhou Prefecture, Yuanzhou, Jingshou, Wugang, and Baoping prefectures and states."
@@ -448,6 +632,10 @@
   - splitPath: Name
     text: "湘南游历"
     translated: "South Hunan Wanderlust"
+    qcReviewedText: "South Hunan Wanderlust"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之南，衡州府、永州府、郴州、道州、茶陵州、桂阳州两府四州所在之地。"
     translated: "In the south of Xiangxi and Yongzhou, Huizhou, Chenzhou, Daozhou, and Taling Prefecture and Guiyang Prefecture."
@@ -457,6 +645,10 @@
   - splitPath: Name
     text: "盘蛇谷"
     translated: "Coiled Serpent Valley"
+    qcReviewedText: "Coiled Serpent Valley"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "盘蛇谷据点，位于湘南永州府境内，由永州捕蛇人组成，历经数代而创立，以牧蛇之术闻名江湖。"
     translated: "Coiled Serpent Valley Outpost is located in the Yongzhou Prefecture of Xiangnan. It was founded by snake catchers from Yongzhou and has been renowned in the Jianghu for its snake herding techniques over generations."
@@ -466,6 +658,10 @@
   - splitPath: Name
     text: "君子庄"
     translated: "Gentlemen Manor"
+    qcReviewedText: "Gentlemen Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "君子庄据点，位于湘南郴州府境内，庄主长孙诚学识名望享誉荆湘，诸多世家子弟皆求学于庄中。"
     translated: "Gentlemen Manor Outpost is located within Xiangnan's Chenzhou Prefecture. The Manor Master, Zhangsun Cheng, is renowned for his scholarly reputation in Jingxiang, and many aristocratic youths seek education at the manor."
@@ -475,6 +671,10 @@
   - splitPath: Name
     text: "苍山岭"
     translated: "Blue Mountains Ridge"
+    qcReviewedText: "Blue Mountains Ridge"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘南郴州府境内，岭上树高林密，乱石成堆，一伙匪人在此驻扎，立下乱石寨。"
     translated: "Located in Xiangnan's Chenzhou Prefecture, atop a ridge where tall trees are dense and rocks pile up chaotically, a gang of bandits has established their base camp here, naming it Chaos Rock Stronghold."
@@ -484,6 +684,10 @@
   - splitPath: Name
     text: "九嶷山"
     translated: "Jiuyi Mountain"
+    qcReviewedText: "Jiuyi Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘南永州府境内，山中草木清幽，孤峰林立，有天生异种奇蛇，在此繁衍生息。"
     translated: "Located in Yiyang County of Xiangnan, Yongzhou Prefecture, the mountains are lush and serene, with towering isolated peaks. There are naturally occurring strange and rare snakes that thrive and multiply here."
@@ -493,6 +697,10 @@
   - splitPath: Name
     text: "百兽林"
     translated: "Forest of a Hundred Beasts"
+    qcReviewedText: "Forest of a Hundred Beasts"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘南衡州府境内，古木参天，雾气缭绕，兽吼声回荡其间，危机与奇珍并存的秘境。"
     translated: "Located in Xiangnan's Hengzhou Prefecture, this secret realm is adorned with ancient trees reaching towards the sky, shrouded in mist. The echo of roars from beasts fills the air, where peril and precious treasures coexist."
@@ -502,6 +710,10 @@
   - splitPath: Name
     text: "九流山庄"
     translated: "Nine Streams Manor"
+    qcReviewedText: "Nine Streams Manor"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "衡山派据点，位于湘南衡州府，衡山之上。"
     translated: "Hengshan Sect outpost is located on Mount Heng in Xiangnan, at the foot of Mount Heng."
@@ -511,6 +723,10 @@
   - splitPath: Name
     text: "荆东游历"
     translated: "Jing Dong's Roaming Adventures"
+    qcReviewedText: "Jing Dong's Roaming Adventures"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆楚之东，武昌府、汉阳府、黄州府、兴国州三府一州所在之地。"
     translated: "In the east of Jingchu, lies Wuchang Prefecture, Hankou Prefecture, Huangzhou Prefecture, and Xingguo Prefecture."
@@ -520,6 +736,10 @@
   - splitPath: Name
     text: "永盛镖局"
     translated: "Yongsheng Escort Agency"
+    qcReviewedText: "Yongsheng Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "永盛镖局据点，位于荆东汉阳府境内，自老镖主祖承平创立开始，历经三代，是荆楚的镖局之首。"
     translated: "Yongsheng Escort Agency Outpost is located within Jiangdong Hanyang County. Since its establishment by the old master Zuo Chengping, it has spanned three generations and stands as the premier escort agency in Jingchu."
@@ -529,6 +749,10 @@
   - splitPath: Name
     text: "万寿庄"
     translated: "Ten Thousand Year Prosperity Manor"
+    qcReviewedText: "Ten Thousand Year Prosperity Manor"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "万寿帮据点，位于荆东武昌府境内，帮中所经营产业众多，遍及武昌五县之地，是荆东第一大帮。"
     translated: "Longevity Sect Outpost is located within Jingdong Wuchang County. The sect operates numerous businesses that span across the five counties of Wuchang, making it the largest organization in Jingdong."
@@ -538,6 +762,10 @@
   - splitPath: Name
     text: "黄鹤楼"
     translated: "Yellow Crane Tower"
+    qcReviewedText: "Yellow Crane Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于荆东武昌府境内，蛇山之巅，楼高五层，朱檐黄瓦，雕梁画栋，楼中所存美酒更是闻名荆湘。"
     translated: "Located atop Snake Hill within Wuchang Prefecture in Jingdong, this five‑story building boasts vermilion eaves and yellow tiles. Its intricately carved beams and painted pillars are a sight to behold. The fine wines stored within are renowned throughout Jingxiang."
@@ -556,6 +784,10 @@
   - splitPath: Name
     text: "湘东游历"
     translated: "Xiangdong Wanderlust"
+    qcReviewedText: "Xiangdong Wanderlust"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之东，长沙府一府所在之地。"
     translated: "East of Xiangxi, in the city of Changsha."
@@ -565,6 +797,10 @@
   - splitPath: Name
     text: "富贵巷"
     translated: "Wealthy Alley"
+    qcReviewedText: "Wealthy Alley"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "丐帮忠字舵据点，位于湘东长沙府境内，丐帮八大分舵之一，舵主翁和仲在各大长老中厨艺冠绝。"
     translated: "The outpost of the Beggar Sect's Loyalty Rudder is located in the Xiangdong region within Changsha Prefecture. It is one of the eight major branch rudders of the Beggar Sect. Master Weng Hezhong, the leader of the various elders, stands out for their exceptional skill in cooking."
@@ -574,6 +810,10 @@
   - splitPath: Name
     text: "岳麓书院"
     translated: "Yue Lu Academy"
+    qcReviewedText: "Yue Lu Academy"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "岳麓书院据点，位于湘东长沙府境内，天下四大书院之一，创立五百多年，乃是荆湘文坛之圣地。"
     translated: "Yue Lu Academy Outpost is located in Xiang Dong, Changsha Prefecture. It is one of the Four Great Academies under heaven, founded over five hundred years ago and serves as a holy land for literature in Jing‑Xiang."
@@ -583,6 +823,10 @@
   - splitPath: Name
     text: "朱雀坊"
     translated: "Phoenix Guild"
+    qcReviewedText: "Phoenix Guild"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "青龙坊据点，位于湘东长沙府境内，天下四大赌坊之一，坊主沅红衣是四大赌王之中的唯一女子。"
     translated: "The Green Dragon Outpost, located in Xiangdong's Changsha Prefecture, is one of the Four Great Gambling Den in all of China. The landowner Yuan Hongyi is the only female among the Four Great Gambling Kings."
@@ -592,6 +836,10 @@
   - splitPath: Name
     text: "野猪林"
     translated: "Wild Boar Grove"
+    qcReviewedText: "Wild Boar Grove"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘东长沙府境内，树高林密，林中栖息着一群野猪，不时出林侵扰周边村镇田地。"
     translated: "In the Xiangdong region of Changsha Prefecture, the trees are tall and the forest dense. Wild boars reside in the woods, frequently venturing out to raid nearby villages and farmlands."
@@ -601,6 +849,10 @@
   - splitPath: Name
     text: "息心亭"
     translated: "Calm Heart Pavilion"
+    qcReviewedText: "Calm Heart Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘东长沙府境内，是北山山麓之间的一处凉亭，有人看到天魔教高手“魔心卿相”温残阳便在此处。。"
     translated: "Located in the Xiangdong region of Changsha Prefecture, this pavilion is situated between the foothills of the Northern Mountains. Someone has seen the Heavenly Demon Sect expert 'Wen Canyang' here."
@@ -619,6 +871,10 @@
   - splitPath: Name
     text: "神农谷"
     translated: "Heavenly Farmer Valley"
+    qcReviewedText: "Heavenly Farmer Valley"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "神农帮据点，位于荆北郧阳府境内，由荆北一带药农所组成，凭着历经数代的药谷之术闻名江湖。"
     translated: "Shennong Sect Outpost is located within Jinnan Yunyang Prefecture. Comprised of herbalists from the Jinnan region, it is renowned in the Jianghu for its generations‑old knowledge of medicinal techniques."
@@ -628,6 +884,10 @@
   - splitPath: Name
     text: "六合庄"
     translated: "Hexing Village"
+    qcReviewedText: "Hexing Village"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "六合帮据点，位于荆北郧阳府境内，毗邻汉江支流金钱河，以荆湘、关陇两地的水运和贸易为主。"
     translated: "Six Harmonies Sect outpost is located within Jing North Yunyang Commandery, near the Han River tributary Qianjin River. It primarily serves the water transport and trade between Jingxiang and Guanlong regions."
@@ -637,6 +897,10 @@
   - splitPath: Name
     text: "真武观"
     translated: "True Martial Monastery"
+    qcReviewedText: "True Martial Monastery"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "武当派据点，位于荆北襄阳府，武当山之上。"
     translated: "Wudang Sect outpost is located on Mount Wudang in Xiangyang Prefecture, Jiangbei."
@@ -646,6 +910,10 @@
   - splitPath: Name
     text: "无心谷"
     translated: "Heartless Valley"
+    qcReviewedText: "Heartless Valley<color=#FF0000>\\n【Challenger‑type dungeon】  on four‑star difficulty</color>"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【挑战类副本】四星难度"
     translated: "【Challenger‑type dungeon】  on four‑star difficulty"
@@ -662,6 +930,10 @@
   - splitPath: Name
     text: "湘北游历"
     translated: "Xiangbei Wandering"
+    qcReviewedText: "Xiangbei Wandering"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "潇湘之北，岳州府、常德府、澧州、南渭州、施溶州、上溪州两府四州及诸土司所在之地。"
     translated: "North of Xiangxi, Yuezhou Prefecture, Changde Prefecture, Lishui Prefecture, Nanwei Prefecture, Shiyunzhou, the two prefectures and four states of Shangxi, and the areas under various indigenous rulers."
@@ -671,6 +943,10 @@
   - splitPath: Name
     text: "六扇门"
     translated: "Six Doors"
+    qcReviewedText: "Six Doors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "六扇门荆湘分部据点，位于湘北巴陵城内，荆湘总捕游不归嫉恶如仇，遇恶贼为患总是身先于众。"
     translated: "The Six Doors outpost in Jingxiang is located within Bashan City in northern Hunan. Jingxiang Head Bounty Hunter You Bugui is resolutely opposed to evil; he always takes the lead in dealing with wicked bandits before anyone else."
@@ -680,6 +956,10 @@
   - splitPath: Name
     text: "挂锤庄"
     translated: "Hanging Hammer Manor"
+    qcReviewedText: "Hanging Hammer Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "挂锤庄据点，位于湘北澧州府境内，庄资田产殷实，四位庄主虽莽撞冲动对周围乡里却多有帮衬。"
     translated: "Hanging Hammer Manor Outpost is located within Xiangbei's Liuzhou Prefecture. The manor's fields and properties are quite prosperous. Despite the four Manor Masters being rash and impulsive, they often provide assistance to the surrounding villages and towns."
@@ -689,6 +969,10 @@
   - splitPath: Name
     text: "云梦小筑"
     translated: "Dreamy Cloud Cottage"
+    qcReviewedText: "Dreamy Cloud Cottage"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘北岳州府境内，沿洞庭湖而建，依山傍水，景色怡人。"
     translated: "Located in Xiangbei Prefecture's Yuezhou, this town was built along Dongting Lake, nestled among the mountains and beside the water, offering picturesque scenery."
@@ -698,6 +982,10 @@
   - splitPath: Name
     text: "招贤擂"
     translated: "Recruit Talents Battle Platform"
+    qcReviewedText: "Recruit Talents Battle Platform"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。"
     translated: "Located at the heart of Yuezhou City in Xiangbei, this platform was set up by the Peaceful King Manor to attract talents and scholars."
@@ -707,6 +995,10 @@
   - splitPath: Name
     text: "烟波坞"
     translated: "Smoke Wave Dock"
+    qcReviewedText: "Smoke Wave Dock"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "洞庭帮据点，位于湘北岳州府，洞庭湖中君山之上。"
     translated: "Dongting Sect outpost is located on Jun Mountain in Yuezhou Prefecture, north of Xiang River, amidst Dongting Lake."
@@ -716,6 +1008,10 @@
   - splitPath: Name
     text: "荆南游历"
     translated: "Jingnan Wandering"
+    qcReviewedText: "Jingnan Wandering"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "荆楚之南，荆州府、承天府、沔阳州、荆门州、夷陵州、归州两府四洲所在之地。"
     translated: "In the south of Jiangchu, in Jingzhou Prefecture, Chengtian Prefecture, Mianyang Circuit, Jiumen Circuit, and Yiling Circuit, these are the locations of two prefectures and four circuits."
@@ -725,6 +1021,10 @@
   - splitPath: Name
     text: "树荫巷"
     translated: "Shade Alley"
+    qcReviewedText: "Shade Alley"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "福庆班作场撂地之处，位于荆南荆州城内，游走于荆湘一带，表演的杂耍戏法技艺颇有独到之处。"
     translated: "The performance venue of Fuqing Band in Jingnan's Jingzhou City is situated in an area where they perform acrobatic tricks and magic shows. This troupe travels through the regions of Jing and Xiang, and their variety show skills are particularly distinctive."
@@ -734,6 +1034,10 @@
   - splitPath: Name
     text: "宝象阁"
     translated: "Treasure Vase Pavilion"
+    qcReviewedText: "Treasure Vase Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "宝象阁据点，位于荆南承天府钟详城南，由澜沧国富商那瑜陀所开设，售卖西洋各国珍宝。"
     translated: "Outpost of Baoxiang Pavilion, located in the southern part of Zhongxiao City in Jingnan Provine, managed by wealthy merchant Nayuduo from Lancang Kingdom. It sells treasures from various Western countries."
@@ -743,6 +1047,10 @@
   - splitPath: Name
     text: "长乐坊"
     translated: "Chang Le Lane"
+    qcReviewedText: "Chang Le Lane"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于荆南荆州府境内，荆州城北，内有百戏乐艺表演，博戏赌坊，美食美酒，数不胜数。"
     translated: "Located within the Jingnan Prefecture of Jingzhou City in the northern part of the city, there are countless performances of Variety Arts, Gambling Dens for dice and card games, delicious food, and fine wine."
@@ -752,6 +1060,10 @@
   - splitPath: Name
     text: "藏龙谷"
     translated: "Hidden Dragon Valley"
+    qcReviewedText: "Hidden Dragon Valley"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于荆南承天府境内，谷口隐秘，且有瘴气，鲜有人行。"
     translated: "Located in Jingnan Chengtian Prefecture, this valley entrance is hidden and fraught with malaria‑infested air; few people venture there."
@@ -770,6 +1082,10 @@
   - splitPath: Name
     text: "黑风寨"
     translated: "Black Wind Camp"
+    qcReviewedText: "Black Wind Camp"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "黑风寨据点，位于湘宝庆府境内，在湘西二十八寨中实力可排至第一。"
     translated: "Black Wind Camp Outpost is located within Xiangbaoqing Prefecture and ranks first among the Twenty‑Eight Villages in Western Xiang."
@@ -779,6 +1095,10 @@
   - splitPath: Name
     text: "铁衣寨"
     translated: "Iron Garb Stronghold"
+    qcReviewedText: "Iron Garb Stronghold"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "铁衣寨据点，位于湘西沅州境内，在湘西二十八寨中实力可排至第二。"
     translated: "Iron Garb Stronghold Outpost is located in Wuling County of Xiangxi Prefecture. Among the twenty‑eight strongholds in Xiangxi, it ranks second in terms of strength."
@@ -788,6 +1108,10 @@
   - splitPath: Name
     text: "祝家寨"
     translated: "Zhu Family Stronghold"
+    qcReviewedText: "Zhu Family Stronghold"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "祝家寨据点，位于湘西武冈州境内，在湘西二十八寨中实力可排至第三。"
     translated: "Zhu Family Stronghold Outpost is located within Wugang State in Xiangxi. Among the twenty‑eight fortresses in Xiangxi, it ranks third in terms of strength."
@@ -797,6 +1121,10 @@
   - splitPath: Name
     text: "永利当铺"
     translated: "Lion Rock Pawnshop"
+    qcReviewedText: "Lion Rock Pawnshop"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "永利当铺据点，位于湘西辰州府境内，大掌柜何友谅善鉴文玩珍宝，在湘西一地有口皆碑。"
     translated: "Riyi Pawnshop Outpost is located within Chenzhou Prefecture in Xiangxi. The shopkeeper, He Youliang, is skilled at appraising literary and artistic treasures, and is well‑known throughout Xiangxi."
@@ -806,6 +1134,10 @@
   - splitPath: Name
     text: "秘魔崖"
     translated: "Asura Cliff"
+    qcReviewedText: "Asura Cliff"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘西靖州境内，乃是天魔教总舵天魔宫盘踞之处。"
     translated: "Located within Jingzhou, Xiangxi, this is where the Heavenly Demon Sect's main stronghold, Tianmo Palace, resides."
@@ -815,6 +1147,10 @@
   - splitPath: Name
     text: "劫云谷"
     translated: "Asura Valley"
+    qcReviewedText: "Asura Valley"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于湘西靖州境内，传言此地有常年有妖鬼作祟，故而少有人烟。"
     translated: "Located within Jingzhou in Xiangxi, it is said that this place has been plagued by demons and ghosts for years, which is why there are few inhabitants."
@@ -824,6 +1160,10 @@
   - splitPath: Name
     text: "川西"
     translated: "Western Sichuan"
+    qcReviewedText: "Western Sichuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之西，成都府、龙安府、嘉定府、邛州、眉州、雅州三府三州及诸土司所在之地。"
     translated: "West of Sichuan Province, in Chengdu Prefecture, Long'an Prefecture, Jiading Prefecture, Qiongzhou, Meizhou, and Ya Zhou‑areas also inhabited by various tribal chiefs."
@@ -833,6 +1173,10 @@
   - splitPath: Name
     text: "川西游历"
     translated: "Western Sichuan Exploration"
+    qcReviewedText: "Western Sichuan Exploration"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之西，成都府、龙安府、嘉定府、邛州、眉州、雅州三府三州及诸土司所在之地。"
     translated: "West of Sichuan Province, in Chengdu Prefecture, Long'an Prefecture, Jiading Prefecture, Qiongzhou, Meizhou, and Ya Zhou‑areas also inhabited by various tribal chiefs."
@@ -842,6 +1186,10 @@
   - splitPath: Name
     text: "浣花庐"
     translated: "Wan Hua Lodge"
+    qcReviewedText: "Wan Hua Lodge"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "浣花派据点，位于川西成都府境内，创立三百余年，以剑招优美灵动而闻名江湖。"
     translated: "The Outpost of the Flowing Flower Sect is located in the western part of Chengdu, Sichuan Province. Established over three hundred years ago, it is renowned in the Jianghu for the elegant and agile sword techniques it employs."
@@ -860,6 +1208,10 @@
   - splitPath: Name
     text: "罨画池"
     translated: "Picture Perfect Pond"
+    qcReviewedText: "Picture Perfect Pond"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。"
     translated: "Located in the western part of Chengdu, Sichuan, this garden temple complex showcases a harmonious blend of landscaped gardens and ancient shrines. The entire garden is adorned with lush, layered greenery, making it one of the most renowned gardens in the western part of Sichuan."
@@ -869,6 +1221,10 @@
   - splitPath: Name
     text: "川中"
     translated: "Central River Region"
+    qcReviewedText: "Central River Region"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀中部，顺庆府、潼川府、保宁府三府所在之地。"
     translated: "In central Sichuan, this area includes the prefectures of Shunqing, Tongchuan, and Baoding."
@@ -878,6 +1234,10 @@
   - splitPath: Name
     text: "川中游历"
     translated: "Journey Through Central Jiangzhou"
+    qcReviewedText: "Journey Through Central Jiangzhou"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀中部，顺庆府、潼川府、保宁府三府所在之地。"
     translated: "In central Sichuan, this area includes the prefectures of Shunqing, Tongchuan, and Baoding."
@@ -887,6 +1247,10 @@
   - splitPath: Name
     text: "六扇门"
     translated: "Six Doors"
+    qcReviewedText: "Six Doors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "六扇门川蜀分部据点，位于川蜀南充城内，川蜀总捕樊重关行事雷厉风行，率领衙中高手擒拿无数江湖败类。"
     translated: "The Six Doors outpost in the Sichuan region is located within Nanchong City. Chief Fang Zongguan of the Sichuan headquarters acts with great decisiveness, leading the officials in the prefecture to capture countless scoundrels from the Jianghu."
@@ -896,6 +1260,10 @@
   - splitPath: Name
     text: "川东"
     translated: "Sichuan East"
+    qcReviewedText: "Sichuan East"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之东，夔州府、重庆府、泸州、播州宣慰司、永宁宣慰司两府一州两宣慰司所在之地。"
     translated: "East of Sichuan Province, in Kuizhou Prefecture, Chongqing Municipality, Luzhou City, Bozhou and its Wielder Prefectures, and Yongning Wielder Prefectures."
@@ -905,6 +1273,10 @@
   - splitPath: Name
     text: "川东游历"
     translated: "Travel through eastern Sichuan"
+    qcReviewedText: "Travel through eastern Sichuan"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之东，夔州府、重庆府、泸州、播州宣慰司、永宁宣慰司两府一州两宣慰司所在之地。"
     translated: "East of Sichuan Province, in Kuizhou Prefecture, Chongqing Municipality, Luzhou City, Bozhou and its Wielder Prefectures, and Yongning Wielder Prefectures."
@@ -914,6 +1286,10 @@
   - splitPath: Name
     text: "洗墨山庄"
     translated: "Washing Ink Villa"
+    qcReviewedText: "Washing Ink Villa"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "洗墨山庄据点，位于川东泸州境内，庄主谈庭玉酷爱翰墨，在川蜀文坛颇负盛名。"
     translated: "The Manor Master's outpost in Ludong County, Chongqing Province, is located in eastern Sichuan. Tan Tingyu, the Manor Master, has a deep love for calligraphy and ink, and he enjoys great renown in the literary circles of Sichuan and Chongqing."
@@ -923,6 +1299,10 @@
   - splitPath: Name
     text: "丰都鬼市"
     translated: "Fengdu Ghost Market"
+    qcReviewedText: "Fengdu Ghost Market"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "丰都鬼市据点，位于丰都县西三十里的丰都山下，每月初七、十七、二十七子时之后开市。"
     translated: "The Outpost of the Ghost Market in Fengdu, located at the foot of Fengdu Mountain, thirty li west of Fengdu County. The market opens after midnight on the 7th, 17th, and 27th of each month."
@@ -932,6 +1312,10 @@
   - splitPath: Name
     text: "神女宫"
     translated: "Sage Maiden Palace"
+    qcReviewedText: "Sage Maiden Palace"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "神女宫据点，位于夔州府巫山神女峰上，宫主巫云凤武功深不可测，庇佑宫中女子，与江湖人少有牵扯。"
     translated: "The Outpost of the Goddess Palace is situated on the Wu Mountain Goddess Peak in Kuizhou Prefecture. The palace mistress, Wu Yunfeng, has martial arts beyond comprehension, and she protects the women of the palace, rarely entangling herself with affairs of the Jianghu."
@@ -941,6 +1325,10 @@
   - splitPath: Name
     text: "川南"
     translated: "South of the Yangtze River"
+    qcReviewedText: "South of the Yangtze River"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。"
     translated: "In the south of Sichuan Province, in Xushou Prefecture, Maluhu Prefecture, Wumeng Prefecture, Zhentong Prefecture, Wusa Prefecture, Dongchuan Prefecture, and the Six Prefectures and One Military Commission of Sichuan."
@@ -950,6 +1338,10 @@
   - splitPath: Name
     text: "川南游历"
     translated: "Southern Sichuan Tour"
+    qcReviewedText: "Southern Sichuan Tour"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀之南，叙州府、马湖府、乌蒙府、镇雄府、乌撒府、东川府、四川行都司六府一都司所在之地。"
     translated: "In the south of Sichuan Province, in Xushou Prefecture, Maluhu Prefecture, Wumeng Prefecture, Zhentong Prefecture, Wusa Prefecture, Dongchuan Prefecture, and the Six Prefectures and One Military Commission of Sichuan."
@@ -959,6 +1351,10 @@
   - splitPath: Name
     text: "蚩黎峒"
     translated: "Chi Li Dong"
+    qcReviewedText: "Chi Li Dong"
+    qcStatus: Passed
+    qcQualityScore: 85
+    qcDefectCategory: None
   - splitPath: Desc
     text: "蚩黎峒据点，位于叙州府大凉山北麓，峒人擅长驯养苍狼，是川蜀之地各苗峒之首。"
     translated: "The Chi Li Dong Outpost, situated in the northern foothills of Da Liang Mountain in Xuyang Prefecture, the Dong people here are skilled in taming gray wolves and are considered the foremost of all the Miao Dong in Sichuan and Shu regions."
@@ -968,6 +1364,10 @@
   - splitPath: Name
     text: "大凉山"
     translated: "Da Liang Shan"
+    qcReviewedText: "Da Liang Shan"
+    qcStatus: Passed
+    qcQualityScore: 95
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于川南叙州府境内，层山盘峙，地高风寒，山中多有各种獐、狍、鹿、豹栖息，坊间传言还有奇兽亦蛰伏于此。"
     translated: "Located in the Xuzhou prefecture of southern Sichuan, the area is characterized by layered mountains that twist and turn, with high altitudes and cool winds. The mountains are home to various muntjac, roe deer, deer, and leopards. Folk legends also speak of strange beasts that lurk here."

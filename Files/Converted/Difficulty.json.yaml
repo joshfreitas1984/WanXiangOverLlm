@@ -4,6 +4,10 @@
   - splitPath: Name
     text: "简单"
     translated: "Easy"
+    qcReviewedText: "Easy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "随便玩玩"
     translated: "Just for fun"
@@ -16,6 +20,10 @@
   - splitPath: Name
     text: "中等"
     translated: "Medium"
+    qcReviewedText: "Medium"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "敌人血量、伤害提升20%，一周目不推荐选择"
     translated: "Enemy health points and damage increased by 20%. Not recommended to choose in the first playthrough."
@@ -28,6 +36,10 @@
   - splitPath: Name
     text: "困难"
     translated: "Challenge"
+    qcReviewedText: "Challenge"
+    qcStatus: Passed
+    qcQualityScore: 90
+    qcDefectCategory: None
   - splitPath: Desc
     text: "敌人血量、伤害提升50%，一周目不推荐选择"
     translated: "Enemy health points, damage increased by 50%; not recommended to choose in the first playthrough."
@@ -40,6 +52,10 @@
   - splitPath: Name
     text: "地狱"
     translated: "Hell"
+    qcReviewedText: "Hell"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "敌人血量、伤害提升100%，一周目不推荐选择"
     translated: "Enemy HP and damage increased by 100%; not recommended to choose in the first playthrough."

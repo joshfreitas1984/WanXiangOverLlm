@@ -234,7 +234,9 @@ only reached when the primary match fails, and CSV/PrefabText/DynamicStrings lin
   operates on whatever the anchor/`SubIndex == 0` fragment is) and needs no new design — just verify
   `QualityReviewHelpers.IsQcReviewFresh` and `QualityReviewWorkflow` don't assume `Split`-based
   grouping anywhere they'd need a `SplitPath`-based equivalent (a quick check during implementation,
-  not a design decision).
+  not a design decision). See
+  [`../../../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md`](../../../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md)
+  for the current-state QC architecture rather than re-deriving it from the fields alone.
 
 ## Sequencing
 

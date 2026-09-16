@@ -10,7 +10,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
-    translated: "Dot"
+    translated: "Point"
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧{1}"
@@ -776,7 +776,7 @@
   splits:
   - splitPath: Dictionary
     text: "点数"
-    translated: "Points:"
+    translated: "Points"
   templates:
   - splitPath: Dictionary
     template: "\\n\\n{0}：⟦0⟧"
@@ -2168,7 +2168,7 @@
   splits:
   - splitPath: Dictionary
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
     qcReviewedText: "Nine Schools of Strange Martial Arts"
     qcStatus: Passed
     qcQualityScore: 90
@@ -2218,7 +2218,7 @@
   splits:
   - splitPath: Dictionary
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
 - raw: "{\r\n    \"Key\": \"3015\",\r\n    \"Dictionary\": \"五峰叠掌\",\r\n    \"DictionaryTw\": \"五峰疊掌\"\r\n  }"
   rawIndex: 3015
   splits:
@@ -2791,7 +2791,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
-    translated: "Dot"
+    translated: "Point"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2836,7 +2836,7 @@
   - splitPath: Dictionary
     subIndex: 2
     text: "点"
-    translated: "Dot"
+    translated: "Point"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}⟦2⟧{2}"
@@ -2992,7 +2992,7 @@
   splits:
   - splitPath: Dictionary
     text: "当玩家赌术"
-    translated: "When the player uses gambling skills"
+    translated: "When #PlayerName# gambles"
   - splitPath: Dictionary
     subIndex: 1
     text: "对手时可以选择通杀对手，直接取胜，获取全部奖励"

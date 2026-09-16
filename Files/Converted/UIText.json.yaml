@@ -422,7 +422,7 @@
   splits:
   - splitPath: Desc
     text: "点数"
-    translated: "Points:"
+    translated: "Points"
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -771,7 +771,7 @@
   splits:
   - splitPath: Desc
     text: "结局"
-    translated: "Endgame"
+    translated: "Ending"
     qcReviewedText: "Ending"
     qcStatus: Passed
     qcQualityScore: 100
@@ -1611,7 +1611,7 @@
   - splitPath: Desc
     subIndex: 35
     text: "当玩家赌术"
-    translated: "When the player uses gambling skills"
+    translated: "When #PlayerName# gambles"
   - splitPath: Desc
     subIndex: 36
     text: "对手时可以通杀对手，直接取胜，此功能只能在剧情以及雅厅中使用。"
@@ -1664,7 +1664,7 @@
   splits:
   - splitPath: Desc
     text: "点"
-    translated: "Dot\\n"
+    translated: "Dot"
     qcReviewedText: "Click"
     qcStatus: Passed
     qcQualityScore: 95
@@ -1704,7 +1704,7 @@
   splits:
   - splitPath: Desc
     text: "结局"
-    translated: "Endgame"
+    translated: "Ending"
     qcReviewedText: "Ending"
     qcStatus: Passed
     qcQualityScore: 100
@@ -1881,7 +1881,7 @@
   splits:
   - splitPath: Desc
     text: "点"
-    translated: "Dot\\n"
+    translated: "Dot"
     qcReviewedText: "Click"
     qcStatus: Passed
     qcQualityScore: 95
@@ -1905,7 +1905,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "回合"
-    translated: "Round +1"
+    translated: "Round"
   templates:
   - splitPath: Desc
     template: "{0}⟦0⟧{1}"

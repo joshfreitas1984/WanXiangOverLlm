@@ -286,7 +286,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "伤害"
-    translated: "Damage +10%"
+    translated: "Damage"
   - splitPath: Desc
     subIndex: 4
     text: "自身获得1层"
@@ -414,7 +414,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "伤害"
-    translated: "Damage +10%"
+    translated: "Damage"
   - splitPath: Desc
     subIndex: 3
     text: "50%添加1层"
@@ -520,7 +520,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "伤害"
-    translated: "Damage +10%"
+    translated: "Damage"
   - splitPath: EchoName
     text: "蛇咬"
     translated: "Snakebite"
@@ -550,7 +550,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "伤害"
-    translated: "Damage +10%"
+    translated: "Damage"
   - splitPath: Desc
     subIndex: 4
     text: "50%添加1层"
@@ -750,21 +750,21 @@
   splits:
   - splitPath: Name
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: Desc
     text: "攻击（2.8倍）"
     translated: "Attack (2.8 times)"
   - splitPath: Desc
     subIndex: 1
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: Desc
     subIndex: 2
     text: "可叠加1层，每层伤害"
     translated: "Stacks up to 1 layers, with damage per layer"
   - splitPath: EchoName
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: DetailDesc
     text: "攻击伤害类【衡山派】【刀剑】"
     translated: "Attacking Damage Type [Hengshan Sect] [Blade and Sword]"
@@ -900,7 +900,7 @@
     translated: "Swan Cloud Technique"
   - splitPath: Desc
     text: "雁云功"
-    translated: "Wild Goose Cloud Technique"
+    translated: "Swan Cloud Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加2层，每层防御"
@@ -940,10 +940,10 @@
   splits:
   - splitPath: Name
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: Desc
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: Desc
     subIndex: 1
     text: "行动回复"
@@ -954,7 +954,7 @@
     translated: "Action Points Accumulated"
   - splitPath: EchoName
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: DetailDesc
     text: "战术协同类【衡山派】【心法】"
     translated: "Tactical Coordination [Hengshan Sect] Heart Method"
@@ -1045,7 +1045,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: EchoName
     text: "渔樵对剑"
     translated: "Fisherman and Woodcutter Speak of the Sword"
@@ -1931,7 +1931,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -1965,7 +1965,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -2434,7 +2434,7 @@
   splits:
   - splitPath: Name
     text: "仗势诀"
-    translated: "Power by Authority Technique"
+    translated: "Power by Might Technique"
   - splitPath: Desc
     text: "仗势诀"
     translated: "Power by Might Technique"
@@ -2452,7 +2452,7 @@
     translated: "My lifeforce > 80%"
   - splitPath: EchoName
     text: "仗势诀"
-    translated: "Power by Authority Technique"
+    translated: "Power by Might Technique"
   - splitPath: DetailDesc
     text: "自动释放类【六扇门】【心法】"
     translated: "Automatic release skill [Six Doors] [Heart Method]"
@@ -2763,7 +2763,7 @@
   splits:
   - splitPath: Name
     text: "六合枪法"
-    translated: "Hexagon Spear Art"
+    translated: "Six Harmonies Spear Technique"
   - splitPath: Desc
     text: "攻击（0.6倍）"
     translated: "Attack (0.6 times)"
@@ -2781,7 +2781,7 @@
     translated: "My lifeforce ends with a number less than 6."
   - splitPath: EchoName
     text: "六合枪法"
-    translated: "Hexagon Spear Art"
+    translated: "Six Harmonies Spear Technique"
   - splitPath: DetailDesc
     text: "自动释放类【六合帮】【百兵】"
     translated: "Automatic release classes: Six Harmonies Sect, Hundred Armaments"
@@ -3026,7 +3026,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -3103,17 +3103,17 @@
   splits:
   - splitPath: Name
     text: "太极神功"
-    translated: "Tai Chi Divine Skill"
+    translated: "Tai Chi Divine Art"
   - splitPath: Desc
     text: "太极神功"
-    translated: "Tai Chi Divine Skill"
+    translated: "Tai Chi Divine Art"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层防御"
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "太极神功"
-    translated: "Tai Chi Divine Skill"
+    translated: "Tai Chi Divine Art"
   - splitPath: DetailDesc
     text: "战术协同类【武当派】【心法】"
     translated: "Tactical Synergy [Wudang Sect] Heart Method"
@@ -3218,7 +3218,7 @@
   splits:
   - splitPath: Name
     text: "上天梯"
-    translated: "Heaven's Ladder"
+    translated: "Heavenly Ladder Path"
   - splitPath: Desc
     text: "伤害无效3"
     translated: "Translateinvalid3todamage3translateinvalid3"
@@ -3232,7 +3232,7 @@
     translated: "Enemy lifeforce remainder greater than 8"
   - splitPath: EchoName
     text: "上天梯"
-    translated: "Heaven's Ladder"
+    translated: "Heavenly Ladder Path"
   - splitPath: DetailDesc
     text: "自动触发类【武当派】【心法】"
     translated: "Auto‑triggered Skills [Wudang Sect] [Heart Method]"
@@ -4366,7 +4366,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -4388,13 +4388,13 @@
   splits:
   - splitPath: Name
     text: "泰阿剑法"
-    translated: "T'ai'a Sword Technique"
+    translated: "Tai'a Sword Technique"
   - splitPath: Desc
     text: "攻击（4%我方当前气血）"
     translated: "Attack (decreases 4% of my team's current lifeforce)"
   - splitPath: EchoName
     text: "泰阿剑法"
-    translated: "T'ai'a Sword Technique"
+    translated: "Tai'a Sword Technique"
   - splitPath: DetailDesc
     text: "攻击伤害类【藏剑山庄】【刀剑】"
     translated: "Attacking Damage Class [Hidden Sword Manor] [Blade and Sword]"
@@ -4644,7 +4644,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "可叠加7层，每层攻击"
-    translated: "Stacks up to 7 layers, with each layer increasing attack."
+    translated: "Stacks up to 7 layers, each layer attacking"
   - splitPath: EchoName
     text: "碧波诀"
     translated: "Green Wave Technique"
@@ -4680,13 +4680,13 @@
   splits:
   - splitPath: Name
     text: "蛟龙息"
-    translated: "Dragon's Breath"
+    translated: "Jiaolong Breath"
   - splitPath: Desc
     text: "行动回复1"
     translated: "Action reply 1 at ‑10%"
   - splitPath: EchoName
     text: "蛟龙息"
-    translated: "Dragon's Breath"
+    translated: "Jiaolong Breath"
   - splitPath: DetailDesc
     text: "自动释放类【洞庭帮】【心法】"
     translated: "Automatic release skill [Dongting Sect] [Heart Method]"
@@ -5310,7 +5310,7 @@
   splits:
   - splitPath: Name
     text: "射蛟箭法"
-    translated: "Shooting Pearl Dragon Arrow Technique"
+    translated: "Shooting Dragon Arrow Technique"
   - splitPath: Desc
     text: "攻击（0.9倍）"
     translated: "Attack (0.9 times)"
@@ -5320,7 +5320,7 @@
     translated: "Prohibition of healing"
   - splitPath: EchoName
     text: "射蛟箭法"
-    translated: "Shooting Pearl Dragon Arrow Technique"
+    translated: "Shooting Dragon Arrow Technique"
   - splitPath: DetailDesc
     text: "攻击伤害类【洞庭帮】【百兵】"
     translated: "Attacks Damage Class【Dongting Sect】【Hundred Armies】"
@@ -6410,7 +6410,7 @@
   - splitPath: ExtraDesc
     subIndex: 2
     text: "毒术"
-    translated: "Poison"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}-1"
@@ -6969,10 +6969,10 @@
   splits:
   - splitPath: Name
     text: "七星甲"
-    translated: "Seven Stars Armor"
+    translated: "Seven‑star Armor"
   - splitPath: Desc
     text: "七星甲"
-    translated: "Seven Star Armor"
+    translated: "Seven‑star Armor"
   - splitPath: Desc
     subIndex: 1
     text: "可叠1层防御"
@@ -6991,7 +6991,7 @@
     translated: "Limit once"
   - splitPath: EchoName
     text: "七星甲"
-    translated: "Seven Stars Armor"
+    translated: "Seven‑star Armor"
   - splitPath: DetailDesc
     text: "自动触发类【唐门】【特技】"
     translated: "Automatic Trigger [Tang Clan] [Skill]"
@@ -7054,7 +7054,7 @@
     translated: "Join Tang Clan. Starting in the sixth year, month one, the skill of Poison reaches the master level, and wealth reaches 4000. Explore the western Sichuan to buy Coptis root. After exploring the Poison Guild, it was discovered that the medicine was fake. Wealth then reaches two hundred. Further exploration of the western Sichuan reveals the whereabouts of the two fraudsters. Meeting the two fraudsters in the eastern Sichuan, subsequent visits to the Poison Guild twice reveal the fraudsters. Tang Yin teaches."
   - splitPath: ExtraDesc
     text: "毒术"
-    translated: "Poison"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}\\n{2}-{3}"
@@ -7694,7 +7694,7 @@
     translated: "Join the Tang Clan and learn the basics of Poison Technique. Explore Hundred Poisons Hall where Tang Yin will teach."
   - splitPath: ExtraDesc
     text: "毒术"
-    translated: "Poison"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}<33%>"
@@ -7729,7 +7729,7 @@
     translated: "Join the Tang Clan, master the Poison technique, reach contribution level 30, and explore the Hundred Poisons Hall where Tang Yin imparts knowledge."
   - splitPath: ExtraDesc
     text: "毒术"
-    translated: "Poison"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}<30%>"
@@ -7966,7 +7966,7 @@
   splits:
   - splitPath: Name
     text: "破阵子"
-    translated: "Breaking Array Tune"
+    translated: "Breaking the Formation Verse"
   - splitPath: Desc
     text: "攻击（1.8倍）"
     translated: "Attack (1.8 times)"
@@ -7976,7 +7976,7 @@
     translated: "Elimination Tactics 1"
   - splitPath: EchoName
     text: "破阵子"
-    translated: "Breaking Array Tune"
+    translated: "Breaking the Formation Verse"
   - splitPath: DetailDesc
     text: "攻击伤害类【唐门】【百兵】"
     translated: "Attack damage Class Tang Clan Hundred Weapons"
@@ -9135,7 +9135,7 @@
     translated: "Leak Exhaustion Through"
   - splitPath: Desc
     text: "漏尽通"
-    translated: "Leak Exhaustion Technique"
+    translated: "Leak Exhaustion Through"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层防御"
@@ -9167,7 +9167,7 @@
   splits:
   - splitPath: Name
     text: "半拂折枝手"
-    translated: "Half‑Sweep Branch‑Grab Hand"
+    translated: "Half‑Sweep Branch Hand"
   - splitPath: Desc
     text: "攻击（1倍）"
     translated: "Attack (1 times)"
@@ -9177,14 +9177,14 @@
     translated: "Sealing the acupuncture point"
   - splitPath: EchoName
     text: "半拂折枝手"
-    translated: "Half‑Sweep Branch‑Grab Hand"
+    translated: "Half‑Sweep Branch Hand"
   - splitPath: DetailDesc
     text: "攻击伤害类【恶人谷】【拳脚】"
     translated: "Attack Damage Category: Villains Valley | Punch and Kick"
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Single attack deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy in Sealed Acupoint state."
+    translated: "Deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy into an Acupoint‑Sealed state."
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -9274,7 +9274,7 @@
     translated: "Kill Word Order"
   - splitPath: Desc
     text: "杀字令"
-    translated: "Death Sentence Order"
+    translated: "Kill Word Order"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层伤害"
@@ -9284,7 +9284,7 @@
     translated: "Kill Word Order"
   - splitPath: DetailDesc
     text: "战术协同类【恶人谷】【心法】"
-    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
+    translated: "Tactical Synergy Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "20%几率自动释放战术【杀字令】。"
@@ -9331,7 +9331,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    translated: "Each attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
+    translated: "Deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict a minor wound on the enemy."
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -9341,7 +9341,7 @@
   - splitPath: GetDesc
     subIndex: 1
     text: "血屠万里"
-    translated: "Massacre for Thousands of Miles"
+    translated: "Slaughter for Thousands of Miles"
   - splitPath: GetDesc
     subIndex: 2
     text: "，初始天赋选择"
@@ -9349,7 +9349,7 @@
   - splitPath: GetDesc
     subIndex: 3
     text: "血屠万里"
-    translated: "Massacre for Thousands of Miles"
+    translated: "Slaughter for Thousands of Miles"
   - splitPath: GetDesc
     subIndex: 4
     text: "词条后开局即有。"
@@ -9416,14 +9416,14 @@
   splits:
   - splitPath: Name
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: Desc
     text: "【开局触发】"
     translated: "'【Starting event triggered】He Chong Xiao' attacks are ineffective against 3."
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: Desc
     subIndex: 2
     text: "可叠1层，每层伤害"
@@ -9438,10 +9438,10 @@
     translated: "We will send 1 people into battle"
   - splitPath: EchoName
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: DetailDesc
     text: "战术协同类【恶人谷】【心法】"
-    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
+    translated: "Tactical Synergy Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "当我方出战人数为1人时，开局自动释放战术【天地独尊诀】。"
@@ -9485,7 +9485,7 @@
   splits:
   - splitPath: Name
     text: "玄禅无二法"
-    translated: "The Indistinguishable Zen and Dhyana Technique"
+    translated: "Mystic Zen Indivisible Law"
   - splitPath: Desc
     text: "回春（1倍）"
     translated: "Rejuvenate (1 Times)<50%>"
@@ -9503,14 +9503,14 @@
     translated: "The opponent has an abnormal condition"
   - splitPath: EchoName
     text: "玄禅无二法"
-    translated: "The Indistinguishable Zen and Dhyana Technique"
+    translated: "Mystic Zen Indivisible Law"
   - splitPath: DetailDesc
     text: "辅助回复类【恶人谷】【心法】"
-    translated: "Assistant Response Category: Villains Valley Heart Method"
+    translated: "Supportive Reply Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "When the opponent has an abnormal condition, restore to my side 1 times the Wanderer Power in Lifeforce, and remove 1 tactical effects from the enemy."
+    translated: "When the opponent is in an abnormal state, restore my party's wanderer's Lifeforce by 1 times their Power and remove 1 tactics from the enemy."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -9563,11 +9563,11 @@
     translated: "Cultivation Method of Maidenly Yin Mystique"
   - splitPath: DetailDesc
     text: "辅助回复类【恶人谷】【心法】"
-    translated: "Assistant Response Category: Villains Valley Heart Method"
+    translated: "Supportive Reply Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次回复800倍红颜知己数量的气血。"
-    translated: "Gain lifeforce equal to 800 times the number of Red Beauty Companions."
+    translated: "Restores 800 times the amount of Lifeforce of a Red Rose Companion."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -9622,7 +9622,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "40%几率为我方2名侠客添加强化状态。"
-    translated: "40% chance to add a strengthened state to 2 of my wanderers."
+    translated: "40% chance to add a enhancement state for our 2 wanderers."
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -9632,7 +9632,7 @@
   - splitPath: GetDesc
     subIndex: 1
     text: "回天定命"
-    translated: "Reversing Destiny"
+    translated: "Reversing Fate and Restoring Life"
   - splitPath: GetDesc
     subIndex: 2
     text: "，初始天赋选择"
@@ -9640,7 +9640,7 @@
   - splitPath: GetDesc
     subIndex: 3
     text: "回天定命"
-    translated: "Reversing Destiny"
+    translated: "Reversing Fate and Restoring Life"
   - splitPath: GetDesc
     subIndex: 4
     text: "词条后开局即有。"
@@ -9679,11 +9679,11 @@
     translated: "Sanqing Meditation Technique"
   - splitPath: DetailDesc
     text: "战术协同类【恶人谷】【心法】"
-    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
+    translated: "Tactical Synergy Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【玉清观想法】或【太清观想法】或【上清观想法】。"
-    translated: "Release tactical [Yingqing Guan Faxiang], [Taiqing Guan Faxiang], or [Shangqing Guan Faxiang]."
+    translated: "Release the tactic [Jade Purity Meditation] or [Supreme Purity Meditation] or [Upper Purity Meditation]."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -9725,7 +9725,7 @@
   splits:
   - splitPath: Name
     text: "点墨诛心笔"
-    translated: "Ink of the Mind Attack Brush"
+    translated: "Ink Pen of Mind Attack"
   - splitPath: Desc
     text: "绝脉"
     translated: "Deadly Pulse"
@@ -9735,14 +9735,14 @@
     translated: "Limit once"
   - splitPath: EchoName
     text: "点墨诛心笔"
-    translated: "Ink of the Mind Attack Brush"
+    translated: "Ink Pen of Mind Attack"
   - splitPath: DetailDesc
     text: "攻击伤害类【恶人谷】【百兵】"
-    translated: "Attack Damage Class: Villains Valley, Hundred Weapons"
+    translated: "Attack Damage Class [Villains Valley] [Hundred Weapons]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "100%使敌人进入绝脉状态，每场战斗只能使用一次。"
-    translated: "100% puts the enemy in a Bleeding Vein state, which can only be used once per battle."
+    translated: "100% causes enemies to enter the state of severed meridians, can only be used once per battle."
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -9752,7 +9752,7 @@
   - splitPath: GetDesc
     subIndex: 1
     text: "黑白颠倒"
-    translated: "Reversing right and wrong"
+    translated: "Reversed day and night"
   - splitPath: GetDesc
     subIndex: 2
     text: "，初始天赋选择"
@@ -9760,7 +9760,7 @@
   - splitPath: GetDesc
     subIndex: 3
     text: "黑白颠倒"
-    translated: "Reversing right and wrong"
+    translated: "Reversed day and night"
   - splitPath: GetDesc
     subIndex: 4
     text: "词条后开局即有。"
@@ -9807,7 +9807,7 @@
     translated: "Six Desires Inner Demon Incarnation"
   - splitPath: DetailDesc
     text: "攻击伤害类【恶人谷】【特技】"
-    translated: "Attack Damage Skill [Villains Valley] Special Technique"
+    translated: "Attack Damage Class [Villains Valley] [Special Skill]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%当前气血的伤害。"
@@ -9855,7 +9855,7 @@
   splits:
   - splitPath: Name
     text: "凤凰三展翅"
-    translated: "Phoenix Threefold Spread Wings"
+    translated: "Phoenix Spreads Its Wings Three Times"
   - splitPath: Desc
     text: "伤害无效3"
     translated: "Translateinvalid3todamage3translateinvalid3"
@@ -9865,14 +9865,14 @@
     translated: "Action Points Accumulated"
   - splitPath: EchoName
     text: "凤凰三展翅"
-    translated: "Phoenix Threefold Spread Wings"
+    translated: "Phoenix Spreads Its Wings Three Times"
   - splitPath: DetailDesc
     text: "战术协同类【恶人谷】【心法】"
-    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
+    translated: "Tactical Synergy Class [Villains Valley] [Heart Method]"
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。"
-    translated: "Release the tactic [Phoenix Soars Three Times], which can negate three damages. After using it, action points will continue to accumulate."
+    translated: "Release tactic [Phoenix Three Flaps], which can negate three instances of damage. After use, Action Points continue to accumulate."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -9882,7 +9882,7 @@
   - splitPath: GetDesc
     subIndex: 1
     text: "无宝不落"
-    translated: "Nothing is untouched by treasure"
+    translated: "Nothing is beyond price"
   - splitPath: GetDesc
     subIndex: 2
     text: "，初始天赋选择"
@@ -9890,7 +9890,7 @@
   - splitPath: GetDesc
     subIndex: 3
     text: "凤栖梧桐"
-    translated: "Feng Qiwu"
+    translated: "Feng Qiwu Tong"
   - splitPath: GetDesc
     subIndex: 4
     text: "词条后开局即有。"
@@ -9963,17 +9963,17 @@
   splits:
   - splitPath: Name
     text: "阿罗汉功"
-    translated: "Arhat Skill"
+    translated: "Arahan Technique"
   - splitPath: Desc
     text: "阿罗汉功"
-    translated: "Arhat Skill"
+    translated: "Arahan Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加3层，每层防御"
     translated: "Stacks up to 3 layers, with defense per layer"
   - splitPath: EchoName
     text: "阿罗汉功"
-    translated: "Arhat Skill"
+    translated: "Arahan Technique"
   - splitPath: DetailDesc
     text: "自动释放类【少林派】【外功】"
     translated: "Automatic release skill [Shaolin Sect] [External Skill]"
@@ -10508,7 +10508,7 @@
   splits:
   - splitPath: Name
     text: "神农百草功"
-    translated: "Divine Farmer's Hundred Herbs Technique"
+    translated: "Shen Farmer Hundred Herbs Technique"
   - splitPath: Desc
     text: "回春（1倍）"
     translated: "Rejuvenate (1 Times)<50%>"
@@ -10522,7 +10522,7 @@
     translated: "Stack up to 1 layers, with each layer restoring"
   - splitPath: EchoName
     text: "神农百草功"
-    translated: "Divine Farmer's Hundred Herbs Technique"
+    translated: "Shen Farmer Hundred Herbs Technique"
   - splitPath: DetailDesc
     text: "辅助回复类【神农帮】【心法】"
     translated: "Assistant Response Category [Shennong Sect] [Heart Method]"
@@ -10752,7 +10752,7 @@
   splits:
   - splitPath: Name
     text: "锥画沙"
-    translated: "Etched Sand Pattern"
+    translated: "Draw Sand Cone"
   - splitPath: Desc
     text: "攻击（18倍翰墨）"
     translated: "Attack (18 times Calligraphy)"
@@ -10766,7 +10766,7 @@
     translated: "My lifeforce is greater than 70%"
   - splitPath: EchoName
     text: "锥画沙"
-    translated: "Etched Sand Pattern"
+    translated: "Draw Sand Cone"
   - splitPath: DetailDesc
     text: "自动释放类【洗墨山庄】【百兵】"
     translated: "Auto‑releasing Skill [Wash Ink Villa][Hundred Weapons]"
@@ -11155,17 +11155,17 @@
   splits:
   - splitPath: Name
     text: "小福"
-    translated: "Xiao Fu"
+    translated: "Little Fu"
   - splitPath: Desc
     text: "小福"
-    translated: "Xiao Fu"
+    translated: "Little Fu"
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "小福"
-    translated: "Xiao Fu"
+    translated: "Little Fu"
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Support Pet"
@@ -11263,17 +11263,17 @@
   splits:
   - splitPath: Name
     text: "兽灵秘术"
-    translated: "Beast Spirit Secret Art"
+    translated: "Beast Spirit Secret Technique"
   - splitPath: Desc
     text: "兽灵秘术"
-    translated: "Beast Spirit Secret Art"
+    translated: "Beast Spirit Secret Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，助战类技能伤害"
     translated: "Stacks up to 1 layers, enhancing assistive skill damage"
   - splitPath: EchoName
     text: "兽灵秘术"
-    translated: "Beast Spirit Secret Art"
+    translated: "Beast Spirit Secret Technique"
   - splitPath: DetailDesc
     text: "战术协同类【蚩黎峒】【特技】"
     translated: "Tactical Coordination [Chi Li Dong] [Special Skill]"
@@ -11331,17 +11331,17 @@
   splits:
   - splitPath: Name
     text: "苍狼王"
-    translated: "Changlang King"
+    translated: "Chieftain of the Blue Wolves"
   - splitPath: Desc
     text: "苍狼王"
-    translated: "Changlang King"
+    translated: "Chieftain of the Blue Wolves"
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "苍狼王"
-    translated: "Changlang King"
+    translated: "Chieftain of the Blue Wolves"
   - splitPath: DetailDesc
     text: "战术协同类【蚩黎峒】【助战】"
     translated: "Tactical Support Squad [Chili Dung] [Assist]"
@@ -11446,7 +11446,7 @@
   splits:
   - splitPath: Name
     text: "潇湘诀"
-    translated: "XiaoXiang Scripture"
+    translated: "XiaoXiang Mantra"
   - splitPath: Desc
     text: "潇湘诀"
     translated: "XiaoXiang Mantra"
@@ -11456,7 +11456,7 @@
     translated: "Stacks up to 4 layers, with damage per layer"
   - splitPath: EchoName
     text: "潇湘诀"
-    translated: "XiaoXiang Scripture"
+    translated: "XiaoXiang Mantra"
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【心法】"
     translated: "Tactical Coordination Skills [Jianghu, Heart Method]"
@@ -11748,7 +11748,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -11819,7 +11819,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -12013,7 +12013,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -12135,7 +12135,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -12175,7 +12175,7 @@
     translated: "Stunt"
   - splitPath: GetDesc
     text: "第七年一月开始，财富到达五千，探索荆东开启荆南宝象阁后，从宝象阁购买，第一个老树根消耗后，财富到达三千，可在探索宝象阁再次购买老树根。"
-    translated: "Starting in January of the seventh year, when wealth reaches five thousand, exploration of Jingdong unlocks Jingnan's Sacred Elephant Pavilion. After purchasing the first old tree root from the Sacred Elephant Pavilion and spending it, wealth drops to three thousand, but you can purchase more old tree roots during further explorations of the Sacred Elephant Pavilion."
+    translated: "Starting in January of the seventh year, when wealth reaches five thousand, exploration of Jingdong unlocks Jingnan's Sacred Lotus Pavilion. After purchasing the first old tree root from the Sacred Lotus Pavilion and spending it, wealth drops to three thousand, but you can purchase more old tree roots during further explorations of the Sacred Lotus Pavilion."
   - splitPath: ExtraDesc
     text: "医术"
     translated: "Medicine"
@@ -12232,13 +12232,13 @@
   splits:
   - splitPath: Name
     text: "无量寿功"
-    translated: "Immeasurable Lifespan Technique"
+    translated: "Eternal Life Incantation Skill"
   - splitPath: Desc
     text: "回春（18%当前气血）"
     translated: "Recover Spring (18% current lifeforce)"
   - splitPath: EchoName
     text: "无量寿功"
-    translated: "Immeasurable Lifespan Technique"
+    translated: "Eternal Life Incantation Skill"
   - splitPath: DetailDesc
     text: "助力收集类【密宗】【心法】"
     translated: "Assist in collecting the Esoteric Sect's Heart Method"
@@ -12282,7 +12282,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -12577,7 +12577,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -12594,10 +12594,10 @@
   splits:
   - splitPath: Name
     text: "破釜奇功"
-    translated: "Miracle of Shattered Cauldrons"
+    translated: "Miracle of Shattering Limits"
   - splitPath: Desc
     text: "破釜奇功"
-    translated: "Miracle of the Smashed Cauldron"
+    translated: "Miracle of Shattering Limits"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层伤害"
@@ -12608,7 +12608,7 @@
     translated: "Limit once"
   - splitPath: EchoName
     text: "破釜奇功"
-    translated: "Miracle of Shattered Cauldrons"
+    translated: "Miracle of Shattering Limits"
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【心法】"
     translated: "Tactical Coordination Skills [Jianghu, Heart Method]"
@@ -12755,7 +12755,7 @@
   splits:
   - splitPath: Name
     text: "幽篁诀"
-    translated: "You Huang Jue"
+    translated: "Youhuang Technique"
   - splitPath: Desc
     text: "【开局触发】"
     translated: "'【Starting event triggered】He Chong Xiao' attacks are ineffective against 3."
@@ -12769,7 +12769,7 @@
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "幽篁诀"
-    translated: "You Huang Jue"
+    translated: "Youhuang Technique"
   - splitPath: DetailDesc
     text: "自动释放类【江湖】【心法】"
     translated: "Automatic release skills [Jianghu] [Heart Method]"
@@ -12830,7 +12830,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "鹤冲宵"
-    translated: "Soar Like the Crane"
+    translated: "Soar Like a Crane to the Clouds"
   - splitPath: Desc
     subIndex: 2
     text: "伤害无效3"
@@ -12977,7 +12977,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -13273,7 +13273,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -13471,7 +13471,7 @@
   - splitPath: Desc
     subIndex: 4
     text: "瑶池蟠桃"
-    translated: "Peach of the Penglai Isle"
+    translated: "Peaches of Immortality from the Jade Pool"
   - splitPath: Desc
     subIndex: 5
     text: "支援战斗"
@@ -13505,7 +13505,7 @@
   - splitPath: DetailDesc
     subIndex: 6
     text: "瑶池蟠桃"
-    translated: "Peach of the Penglai Isle"
+    translated: "Peaches of Immortality from the Jade Pool"
   - splitPath: DetailDesc
     subIndex: 7
     text: "三种战术之一。"
@@ -15074,7 +15074,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15227,13 +15227,13 @@
   splits:
   - splitPath: Name
     text: "劈山斧法"
-    translated: "Mountain‑Splitting Axe Technique"
+    translated: "Chopping Mountain Axe Technique"
   - splitPath: Desc
     text: "攻击（1.1倍）"
     translated: "Attack (1.1 times)"
   - splitPath: EchoName
     text: "劈山斧法"
-    translated: "Mountain‑Splitting Axe Technique"
+    translated: "Chopping Mountain Axe Technique"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack damage type: Jianghu, Babing"
@@ -15264,13 +15264,13 @@
   splits:
   - splitPath: Name
     text: "吠陀宝忏"
-    translated: "Veda Treasure Confession"
+    translated: "Veda Precious Confession"
   - splitPath: Desc
     text: "攻击（108倍道德）"
     translated: "Attack (x108 Morality)"
   - splitPath: EchoName
     text: "吠陀宝忏"
-    translated: "Veda Treasure Confession"
+    translated: "Veda Precious Confession"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【心法】"
     translated: "Attack Damage Class: Jianghu Heart Method"
@@ -15318,7 +15318,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15352,7 +15352,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15386,7 +15386,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15420,7 +15420,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15454,7 +15454,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15488,7 +15488,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15522,7 +15522,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15556,7 +15556,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15590,7 +15590,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15624,7 +15624,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15658,7 +15658,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -15812,7 +15812,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16017,7 +16017,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16051,7 +16051,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客功力"
-    translated: "Wanderer Power in Battle"
+    translated: "Wandering warrior's power"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16401,7 +16401,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16469,7 +16469,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16571,7 +16571,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -16588,7 +16588,7 @@
   splits:
   - splitPath: Name
     text: "玉碎剑法"
-    translated: "Jade Shattered Sword Art"
+    translated: "Jade Shattered Sword Technique"
   - splitPath: Desc
     text: "攻击（3倍）"
     translated: "Attack (3 times)"
@@ -16598,7 +16598,7 @@
     translated: "Our side suffered minor injuries"
   - splitPath: EchoName
     text: "玉碎剑法"
-    translated: "Jade Shattered Sword Art"
+    translated: "Jade Shattered Sword Technique"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】"
     translated: "Attack Damage Category: Jianghu, Blade and Sword"
@@ -16742,7 +16742,7 @@
     translated: "Heartlinking Technique of Spirit Beasts"
   - splitPath: Desc
     text: "灵兽通心决"
-    translated: "Spirit Beast Heart Connection Technique"
+    translated: "Spirit Beast Heart‑Link Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，助战类技能伤害"
@@ -16863,7 +16863,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -17048,7 +17048,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -18008,21 +18008,21 @@
   splits:
   - splitPath: Name
     text: "长江恶鼋"
-    translated: "Evil Softshell Turtle of the Yangtze River"
+    translated: "Evil Softshell Turtle in the Yangtze River"
   - splitPath: Desc
     text: "【开局触发】"
     translated: "'【Starting event triggered】He Chong Xiao' attacks are ineffective against 3."
   - splitPath: Desc
     subIndex: 1
     text: "长江恶鼋"
-    translated: "Evil Softshell Turtle of the Yangtze River"
+    translated: "Evil Softshell Turtle in the Yangtze River"
   - splitPath: Desc
     subIndex: 2
     text: "可叠加1层，每层防御"
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "长江恶鼋"
-    translated: "Evil Softshell Turtle of the Yangtze River"
+    translated: "Evil Softshell Turtle in the Yangtze River"
   - splitPath: DetailDesc
     text: "战术协同类【江湖】【心法】"
     translated: "Tactical Coordination Skills [Jianghu, Heart Method]"
@@ -18326,7 +18326,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -18801,7 +18801,7 @@
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
-    translated: "Wanderer's lifeforce upper limit in battle"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -19208,7 +19208,7 @@
     translated: "Sealing the acupuncture point"
   - splitPath: EchoName
     text: "半拂折枝手"
-    translated: "Half‑Sweep Branch‑Grab Hand"
+    translated: "Half‑Sweep Branch Hand"
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -19694,14 +19694,14 @@
   - splitPath: Desc
     subIndex: 2
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: Desc
     subIndex: 3
     text: "可叠加1层，伤害增加50%"
     translated: "Can stack up to 1 layers, increasing damage by 50%"
   - splitPath: EchoName
     text: "渔樵剑歌"
-    translated: "Fisher‑Hunter Sword Song"
+    translated: "Fisherman and Woodcutter's Sword Song"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -19739,7 +19739,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "雁云功"
-    translated: "Wild Goose Cloud Technique"
+    translated: "Swan Cloud Technique"
   - splitPath: EchoName
     text: "雁云功"
     translated: "Swan Cloud Technique"
@@ -19779,14 +19779,14 @@
     translated: "Strange Nine Schools Martial Arts 2"
   - splitPath: Desc
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
     translated: "Action reply 1 at ‑10%"
   - splitPath: EchoName
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -19801,14 +19801,14 @@
     translated: "Arhat Skill 2"
   - splitPath: Desc
     text: "阿罗汉功"
-    translated: "Arhat Skill"
+    translated: "Arahan Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加3层，每层防御"
     translated: "Stacks up to 3 layers, with defense per layer"
   - splitPath: EchoName
     text: "阿罗汉功"
-    translated: "Arhat Skill"
+    translated: "Arahan Technique"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -19842,7 +19842,7 @@
     translated: "Asura Technique 2"
   - splitPath: Desc
     text: "天魔功"
-    translated: "Tianmo Technique"
+    translated: "Heavenly Demon Technique"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加9层，每层伤害"
@@ -19886,7 +19886,7 @@
     translated: "Ethereal Bone Devil Technique 2"
   - splitPath: Desc
     text: "回春（2倍）"
-    translated: "Revive Health (2x)"
+    translated: "Revitalize (2x)"
   - splitPath: Desc
     subIndex: 1
     text: "清除一个异常状态"
@@ -20181,14 +20181,14 @@
     translated: "Once tainted by evil, one's life is forever tormented. 2"
   - splitPath: Desc
     text: "一朝入魔半世癫"
-    translated: "A lifetime of madness begins with a fall into demonic ways."
+    translated: "Once possessed by evil, a lifetime of madness follows."
   - splitPath: Desc
     subIndex: 1
     text: "可叠加3层，每层伤害"
     translated: "Stacks up to 3 layers, with damage per layer"
   - splitPath: EchoName
     text: "一朝入魔半世癫"
-    translated: "A lifetime of madness begins with a fall into evil."
+    translated: "Once possessed by evil, a lifetime of madness follows."
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -20266,14 +20266,14 @@
     translated: "My strength shakes the mountain, my spirit conquers the world 2"
   - splitPath: Desc
     text: "力拔山兮气盖世"
-    translated: "With strength to move mountains and a spirit that surpasses the world"
+    translated: "With strength to uproot mountains and dominating presence overwhelming the world,"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，伤害增加100%"
     translated: "Can stack up to 1 layers, damage increased by 100%"
   - splitPath: EchoName
     text: "力拔山兮气盖世"
-    translated: "With strength to move mountains and a spirit that surpasses the world"
+    translated: "With strength to uproot mountains and overwhelming momentum"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -20515,7 +20515,7 @@
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "幽篁诀"
-    translated: "You Huang Jue"
+    translated: "Youhuang Technique"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -20807,7 +20807,7 @@
     translated: "1 is invalid"
   - splitPath: EchoName
     text: "碧尘五毒烟罗瘴"
-    translated: "Bicheen Five Poison Smoke Veil Plague"
+    translated: "Bicheen Five Poison Smokescreen Plague"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -20889,7 +20889,7 @@
     translated: "Stacks up to 10 layers, with defense per layer"
   - splitPath: EchoName
     text: "玉髓铸成仙人骨"
-    translated: "Jade marrow forms immortal bones"
+    translated: "Jade marrow forges the bones of immortals"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -20986,14 +20986,14 @@
     translated: "Cold Pain Technique 2"
   - splitPath: Desc
     text: "苦寒诀"
-    translated: "Suffering Cold Artifice"
+    translated: "Suffering Cold Mantra"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层伤害"
     translated: "Stacks up to 1 layers, with damage per layer"
   - splitPath: EchoName
     text: "苦寒诀"
-    translated: "Suffering Cold Artifice"
+    translated: "Suffering Cold Mantra"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -21178,14 +21178,14 @@
     translated: "All beings have form; Evil Incarnation has none 2."
   - splitPath: Desc
     text: "众生有相魔无相"
-    translated: "All beings have form, but the demon has none."
+    translated: "Living beings have form, but demons are formless."
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层防御"
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "众生有相魔无相"
-    translated: "Beings have form, but demons have none"
+    translated: "Living beings have form, but demons are formless."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -21361,7 +21361,7 @@
     translated: "Order of the Blade Command 2"
   - splitPath: Desc
     text: "杀字令"
-    translated: "Death Sentence Order"
+    translated: "Kill Word Order"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层伤害"
@@ -21644,14 +21644,14 @@
     translated: "Yin Yang Without Form Taiji Diagram 2"
   - splitPath: Desc
     text: "阴阳无相太极图"
-    translated: "Invisible Tai Chi Diagram"
+    translated: "Yin and Yang formless Taiji Diagram"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层防御"
     translated: "Stacks up to 1 layers, with defense per layer"
   - splitPath: EchoName
     text: "阴阳无相太极图"
-    translated: "Invisible Tai Chi Diagram"
+    translated: "Yin and Yang formless Taiji Diagram"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -22096,14 +22096,14 @@
     translated: "Flames and Smoke Scroll: City in Peril 2"
   - splitPath: Desc
     text: "烽火狼烟卷连城"
-    translated: "Battles burn, wolf smoke rolls, scrolls of war unroll across the city."
+    translated: "The beacon fires and smoke signals roll over the city walls."
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层攻击"
     translated: "Stacks up to 1 layers, with each layer increasing attack."
   - splitPath: EchoName
     text: "烽火狼烟卷连城"
-    translated: "The beacon fires and smoke signals roll across the city walls."
+    translated: "The beacon fires and smoke signals roll over the city walls."
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -22282,7 +22282,7 @@
     translated: "Prohibition of healing"
   - splitPath: EchoName
     text: "六合枪法"
-    translated: "Hexagon Spear Art"
+    translated: "Six Harmonies Spear Technique"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -22690,14 +22690,14 @@
     translated: "The Sovereign of Heaven and Earth Skill 2"
   - splitPath: Desc
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层伤害"
     translated: "Stacks up to 1 layers, with damage per layer"
   - splitPath: EchoName
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -22753,14 +22753,14 @@
     translated: "Hard as Iron Shows the Buddha Path 2"
   - splitPath: Desc
     text: "金刚不动显浮屠"
-    translated: "Invincible stillness reveals the Buddha's presence"
+    translated: "Vajra immovable, revealing the pagoda"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加1层，每层减少伤害2000点"
     translated: "Stacks up to 1 layers, reducing damage by 2000 points per layer."
   - splitPath: EchoName
     text: "金刚不动显浮屠"
-    translated: "Unmoving Vajra Reveals the Pagoda"
+    translated: "Vajra immovable, revealing the pagoda"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -23214,14 +23214,14 @@
     translated: "Thousand Household Troop Soldier 2"
   - splitPath: Desc
     text: "千户府兵"
-    translated: "Thousand Household Troops"
+    translated: "Thousand‑household garrison troops"
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "千户府兵"
-    translated: "Thousand Household Troops"
+    translated: "Thousand‑household garrison troops"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -23258,7 +23258,7 @@
     translated: "Attack (attacks 0.1 times the opponent's current lifeforce)"
   - splitPath: EchoName
     text: "泰阿剑法"
-    translated: "T'ai'a Sword Technique"
+    translated: "Tai'a Sword Technique"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -23318,7 +23318,7 @@
     qcDefectCategory: None
   - splitPath: Desc
     text: "回复（50%气血上限）"
-    translated: "50 has been restored to the Lifeforce maximum"
+    translated: "Reply (50% Lifeforce maximum)"
   - splitPath: EchoName
     text: "石根高卧蛰龙吟"
     translated: "Shi Gen High on the Couch, Coiled Dragon Sighs"
@@ -23504,7 +23504,7 @@
     translated: "Elimination Tactics 1"
   - splitPath: EchoName
     text: "玄禅无二法"
-    translated: "The Indistinguishable Zen and Dhyana Technique"
+    translated: "Mystic Zen Indivisible Law"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -25064,14 +25064,14 @@
     translated: "Profound Yin Astral Fiend 2"
   - splitPath: Desc
     text: "玄阴罡煞"
-    translated: "Mystic Yin Vortex Demon Energy"
+    translated: "Mystic Yin Energy Sha"
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "玄阴罡煞"
-    translated: "Mystic Yin Vortex Malevolence"
+    translated: "Mystic Yin Energy Sha"
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -25357,14 +25357,14 @@
     translated: "Phoenix soars with three beats of its wings 2"
   - splitPath: Desc
     text: "凤凰三展翅"
-    translated: "Phoenix Threefold Spread Wings"
+    translated: "Phoenix Spreads Its Wings Three Times"
   - splitPath: Desc
     subIndex: 1
     text: "伤害无效3"
     translated: "Translateinvalid3todamage3translateinvalid3"
   - splitPath: EchoName
     text: "凤凰三展翅"
-    translated: "Phoenix Threefold Spread Wings"
+    translated: "Phoenix Spreads Its Wings Three Times"
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -26024,14 +26024,14 @@
     translated: "Cross the night without activating your shield 2"
   - splitPath: Desc
     text: "夜渡无人盾自横"
-    translated: "A shield stands alone in the night, uncrossed by anyone."
+    translated: "A shield stands alone in the night, uncrossed by any."
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "夜渡无人盾自横"
-    translated: "A shield stands alone in the night, crossing the river without company."
+    translated: "A shield stands alone in the night, uncrossed by any."
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -26541,7 +26541,7 @@
     translated: "Prosperity, Health, and Happiness 2"
   - splitPath: Desc
     text: "福禄安康"
-    translated: "Prosperity, Honor, Health, and Safety"
+    translated: "Prosperity, honor, health, and peace"
   - splitPath: Desc
     subIndex: 1
     text: "可叠加4层，每层防御"
@@ -27137,7 +27137,7 @@
     qcDefectCategory: None
   - splitPath: Desc
     text: "九流奇功"
-    translated: "Nine Schools Marvelous Skills"
+    translated: "Nine Strange Arts of the Nine Schools"
   - splitPath: EchoName
     text: "九流无拘"
     translated: "Nine Schools Unrestrained"
@@ -27552,10 +27552,10 @@
     qcDefectCategory: None
   - splitPath: Desc
     text: "千户府兵"
-    translated: "Thousand Household Troops"
+    translated: "Thousand‑household garrison troops"
   - splitPath: EchoName
     text: "千户府兵"
-    translated: "Thousand Household Troops"
+    translated: "Thousand‑household garrison troops"
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -27970,7 +27970,7 @@
     qcDefectCategory: None
   - splitPath: Desc
     text: "苍狼王"
-    translated: "Changlang King"
+    translated: "Chieftain of the Blue Wolves"
   - splitPath: EchoName
     text: "噬咬"
     translated: "Bite"

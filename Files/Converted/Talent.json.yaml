@@ -402,7 +402,7 @@
     translated: "Introduction to Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    translated: "Poison skill skill"
+    translated: "Poison skill technique"
   templates:
   - splitPath: Desc
     template: "{0}+40"
@@ -552,7 +552,7 @@
     translated: "Mastery of Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    translated: "Poison skill skill"
+    translated: "Poison skill technique"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -805,7 +805,7 @@
     translated: "Blessed with longevity and prosperity"
   - splitPath: Desc
     text: "万寿帮友好"
-    translated: "Friendly with the Longevity Sect"
+    translated: "Longevity Sect is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -851,7 +851,7 @@
     translated: "Food tastes good"
   - splitPath: Desc
     text: "丐帮忠字舵友好"
-    translated: "Friendly to the Beggar Sect's Loyalty Division"
+    translated: "Friendly with the Beggar Sect's Loyalty Division"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -912,7 +912,7 @@
     translated: "Six Directions Unified Wind"
   - splitPath: Desc
     text: "六合帮友好"
-    translated: "Friendly with the Six Harmonies Sect"
+    translated: "Six Harmonies Sect friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1032,7 +1032,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。"
-    translated: "Single attack deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy in Sealed Acupoint state."
+    translated: "Deals 1 times the Wanderer's Power in damage and has a 20% chance to put the enemy into an Acupoint‑Sealed state."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1044,14 +1044,14 @@
   splits:
   - splitPath: Name
     text: "血屠万里"
-    translated: "Massacre for Thousands of Miles"
+    translated: "Slaughter for Thousands of Miles"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "血屠刀法"
-    translated: "Bloodslaughter Blade Art"
+    translated: "Blood Carnage Blade Art"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【刀法】"
@@ -1059,7 +1059,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "单次攻击造1倍侠客功力的伤害，并有30%几率使敌人进入轻伤状态。"
-    translated: "Each attack deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict Light Injury on the enemy."
+    translated: "Deals 1 times the Wanderer's Power in damage and has a 30% chance to inflict a minor wound on the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1078,7 +1078,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
-    translated: "Supremacy of the Sole Sovereign Technique"
+    translated: "Supremacy of Sole Dominance Sutra"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【内功】"
@@ -1105,7 +1105,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "玄禅无二法"
-    translated: "Mystic Zen Indivisible Law"
+    translated: "The Indistinguishable Zen and Dhyana Technique"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【内功】"
@@ -1113,7 +1113,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "当对方有异常状态时，回复我方1倍侠客功力的气血，并消除敌人1个战术。"
-    translated: "When the opponent has an abnormal condition, restore to my side 1 times the Wanderer Power in Lifeforce, and remove 1 tactical effects from the enemy."
+    translated: "When the opponent is in an abnormal state, restore my party's wanderer's Lifeforce by 1 times their Power and remove 1 tactics from the enemy."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1136,11 +1136,11 @@
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【心法】"
-    translated: "Assistant Response Category: Villains Valley Heart Method"
+    translated: "Supportive Reply Category [Villains Valley] [Heart Method]"
   - splitPath: Desc
     subIndex: 3
     text: "单次回复800倍红颜知己数量的气血。"
-    translated: "Gain lifeforce equal to 800 times the number of Red Beauty Companions."
+    translated: "Restores 800 times the number of Red Rose Companions' Lifeforce."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1152,7 +1152,7 @@
   splits:
   - splitPath: Name
     text: "回天定命"
-    translated: "Reversing Destiny"
+    translated: "Reversing Fate and Restoring Life"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
@@ -1167,7 +1167,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "40%几率为我方2名侠客添加强化状态。"
-    translated: "40% chance to add a strengthened state to 2 of my wanderers."
+    translated: "40% chance to add a enhancement state for our 2 wanderers."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1194,7 +1194,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "释放战术【玉清观想法】或【太清观想法】或【上清观想法】。"
-    translated: "Release tactical [Yingqing Guan Faxiang], [Taiqing Guan Faxiang], or [Shangqing Guan Faxiang]."
+    translated: "Release the tactic [Jade Purity Meditation] or [Supreme Purity Meditation] or [Upper Purity Meditation]."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1206,7 +1206,7 @@
   splits:
   - splitPath: Name
     text: "黑白颠倒"
-    translated: "Reversing right and wrong"
+    translated: "Reversed day and night"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
@@ -1217,11 +1217,11 @@
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【百兵】"
-    translated: "Attack Damage Class: Villains Valley, Hundred Weapons"
+    translated: "Attack Damage Class [Villains Valley][Hundred Weapons]"
   - splitPath: Desc
     subIndex: 3
     text: "100%使敌人进入绝脉状态，每场战斗只能使用一次。"
-    translated: "100% puts the enemy in a Bleeding Vein state, which can only be used once per battle."
+    translated: "100% causes enemies to enter the state of severed meridians, can only be used once per battle."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1244,7 +1244,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【特技】"
-    translated: "Attack Damage Skill [Villains Valley] Special Technique"
+    translated: "Attack Damage Class [Villains Valley] [Special Skill]"
   - splitPath: Desc
     subIndex: 3
     text: "敌方处于异常状态时，消除对方一个异常状态，并单次攻击造成6%最大气血的伤害。"
@@ -1260,22 +1260,22 @@
   splits:
   - splitPath: Name
     text: "凤栖梧桐"
-    translated: "Feng Qiwu"
+    translated: "Feng Qiwu Tong"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "凤凰三展翅"
-    translated: "Phoenix Threefold Spread Wings"
+    translated: "Phoenix Spreads Its Wings Three Times"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【心法】"
-    translated: "Tactical Synergy [Villains Valley] [Heart Method]"
+    translated: "Tactical Synergy Class [Villains Valley] [Heart Method]"
   - splitPath: Desc
     subIndex: 3
     text: "释放战术【凤凰三展翅】，可以抵消三次伤害，使用后行动力持续累积。"
-    translated: "Release the tactic [Phoenix Soars Three Times], which can negate three damages. After using it, action points will continue to accumulate."
+    translated: "Release tactic [Phoenix Three Flaps], which can negate three instances of damage. After use, Action Points continue to accumulate."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1374,7 +1374,7 @@
   splits:
   - splitPath: Name
     text: "蛟龙息"
-    translated: "Dragon's Breath"
+    translated: "Jiaolong Breath"
   - splitPath: Desc
     text: "在水中修炼内功时功力额外"
     translated: "When cultivating neigong in water, your power gains additional +10."

@@ -54,8 +54,8 @@
   splits:
   - splitPath: Name
     text: "日夜游神"
-    translated: "Night and Day Spirit Wandering"
-    qcReviewedText: "Night and Day Spirit Wandering"
+    translated: "Night and Day Roaming Spirits"
+    qcReviewedText: "Night and Day Roaming Spirits"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -104,8 +104,8 @@
   splits:
   - splitPath: Name
     text: "五岳真形"
-    translated: "Five Great Mountains True Forms"
-    qcReviewedText: "Five Great Mountains True Forms"
+    translated: "Five Great Mountains True Form Map"
+    qcReviewedText: "Five Great Mountains True Form Map"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -137,8 +137,8 @@
   splits:
   - splitPath: Name
     text: "衡山传奇"
-    translated: "Legend of Mount Hengshan"
-    qcReviewedText: "Legend of Mount Hengshan"
+    translated: "Legend of Hengshan"
+    qcReviewedText: "Legend of Hengshan"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -171,8 +171,8 @@
   splits:
   - splitPath: Name
     text: "万藏归一"
-    translated: "Unify All Treasures Into One"
-    qcReviewedText: "Unify All Treasures Into One"
+    translated: "Unity of Ten Thousand Treasures"
+    qcReviewedText: "Unity of Ten Thousand Treasures"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -205,8 +205,8 @@
   splits:
   - splitPath: Name
     text: "阴阳无相"
-    translated: "Yin and Yang are formless"
-    qcReviewedText: "Yin and Yang are formless"
+    translated: "Yin and Yang formless"
+    qcReviewedText: "Yin and Yang formless"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -222,14 +222,18 @@
   splits:
   - splitPath: Name
     text: "金丹九转"
-    translated: "Ninefold Golden Elixir Transformations"
-    qcReviewedText: "Ninefold Golden Elixir Transformations"
+    translated: "Nine Transformations of Golden Elixir Dan"
+    qcReviewedText: "Nine Transformations of Golden Elixir Dan"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "崆峒丹会炼成“广成金丹”"
     translated: "The Kongtong Dan Meeting has resulted in the creation of  “Broad Success Golden Pill” ."
+    qcReviewedText: "The Kongtong Dan Meeting has resulted in the creation of  “Broad Success Golden Pill” ."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"45\",\r\n    \"Name\": \"武当传奇\",\r\n    \"Desc\": \"拜师武当派战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"武當傳奇\",\r\n    \"DescTw\": \"拜師武當派戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 45
   splits:
@@ -380,8 +384,8 @@
   splits:
   - splitPath: Name
     text: "六士同心"
-    translated: "Six Minds as One Heart"
-    qcReviewedText: "Six Minds as One Heart"
+    translated: "Six Talents in Harmony"
+    qcReviewedText: "Six Talents in Harmony"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -414,14 +418,18 @@
   splits:
   - splitPath: Name
     text: "石破天惊"
-    translated: "Astonishing as a Stone‑Breaking Thunderclap"
-    qcReviewedText: "Astonishing as a Stone‑Breaking Thunderclap"
+    translated: "Astonishingly Earth‑Shattering"
+    qcReviewedText: "Astonishingly Earth‑Shattering"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "“石破天惊”唐宝解锁"
     translated: "Stonebreaking Surprise Tang Bao Unlocks"
+    qcReviewedText: "Stonebreaking Surprise Tang Bao Unlocks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"113\",\r\n    \"Name\": \"唐门传奇\",\r\n    \"Desc\": \"拜师唐门战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"唐門傳奇\",\r\n    \"DescTw\": \"拜師唐門戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 113
   splits:
@@ -459,8 +467,8 @@
   splits:
   - splitPath: Name
     text: "逍遥公侯"
-    translated: "Elder Lord Xiaoyao"
-    qcReviewedText: "Elder Lord Xiaoyao"
+    translated: "Duke of Carefree"
+    qcReviewedText: "Duke of Carefree"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -484,6 +492,10 @@
   - splitPath: Desc
     text: "天魔殿中击败“魔侯”任沧溟"
     translated: "In the Demon Lord's Temple, they defeated Demon Lord Ren Cangming."
+    qcReviewedText: "In the Demon Lord's Temple, they defeated Demon Lord Ren Cangming."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"52\",\r\n    \"Name\": \"纤芸弄巧\",\r\n    \"Desc\": \"“湘妃剑”杨芸解锁红颜\",\r\n    \"NameTw\": \"纖芸弄巧\",\r\n    \"DescTw\": \"“湘妃劍”楊芸解鎖紅顏\"\r\n  }"
   rawIndex: 52
   splits:
@@ -506,8 +518,8 @@
   splits:
   - splitPath: Name
     text: "灵素清真"
-    translated: "Spiritual Purity and True Simplicity"
-    qcReviewedText: "Spiritual Purity and True Simplicity"
+    translated: "Spiritual Purity and True Clarity"
+    qcReviewedText: "Spiritual Purity and True Clarity"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -540,11 +552,7 @@
   splits:
   - splitPath: Name
     text: "臻首蛾眉"
-    translated: "Delicate eyebrows and a perfect face"
-    qcReviewedText: "Delicate eyebrows and a perfect face"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Delicate eyebrows and slender neck"
   - splitPath: Desc
     text: "“泪痕刀”晏蛾眉解锁红颜"
     translated: "“Tear‑Streaked Blade”  Yan Emei unlocked Red Beauty"
@@ -582,6 +590,10 @@
   - splitPath: Desc
     text: "“红娘子”靳红衣解锁红颜"
     translated: "“Wife Red Lady”  Jin Hongyi unlocks her red lady abilities."
+    qcReviewedText: "“Wife Red Lady”  Jin Hongyi unlocks her red lady abilities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"58\",\r\n    \"Name\": \"碧蛇青青\",\r\n    \"Desc\": \"“碧蛇夫人”阮碧青解锁红颜\",\r\n    \"NameTw\": \"碧蛇青青\",\r\n    \"DescTw\": \"“碧蛇夫人”阮碧青解鎖紅顏\"\r\n  }"
   rawIndex: 58
   splits:
@@ -612,14 +624,18 @@
   splits:
   - splitPath: Name
     text: "莲开并蒂"
-    translated: "Blossoms in Twin Pairs"
-    qcReviewedText: "Blossoms in Twin Pairs"
+    translated: "Lotus Blooms Twin Buds"
+    qcReviewedText: "Lotus Blooms Twin Buds"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "“谷中莲”连翘儿解锁红颜"
     translated: "Yu Zhonglian's Lian Qiaoer unlocks her feminine grace."
+    qcReviewedText: "Yu Zhonglian's Lian Qiaoer unlocks her feminine grace."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"61\",\r\n    \"Name\": \"章台新柳\",\r\n    \"Desc\": \"“章台柳”柳含烟解锁红颜\",\r\n    \"NameTw\": \"章臺新柳\",\r\n    \"DescTw\": \"“章臺柳”柳含煙解鎖紅顏\"\r\n  }"
   rawIndex: 61
   splits:
@@ -651,8 +667,8 @@
   splits:
   - splitPath: Name
     text: "珺璟如晔"
-    translated: "Jun Jing Like Yuehua"
-    qcReviewedText: "Jun Jing Like Yuehua"
+    translated: "Junn Jing Ruyue"
+    qcReviewedText: "Junn Jing Ruyue"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -668,30 +684,42 @@
   splits:
   - splitPath: Name
     text: "令仪令色"
-    translated: "Fake smiles and polite manners"
+    translated: "Flattering manners and appearance"
+    qcReviewedText: "Flattering manners and appearance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "“连城璧”萧令仪解锁红颜"
     translated: "“Jiang Cheng Bi”  Xiao Lingyi unlocks her lady‑in‑waiting status"
+    qcReviewedText: "“Jiang Cheng Bi”  Xiao Lingyi unlocks her lady‑in‑waiting status"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"67\",\r\n    \"Name\": \"太阿莫若\",\r\n    \"Desc\": \"“圣剑蔷薇”艾琳娜解锁红颜\",\r\n    \"NameTw\": \"太阿莫若\",\r\n    \"DescTw\": \"“聖劍薔薇”艾琳娜解鎖紅顏\"\r\n  }"
   rawIndex: 67
   splits:
   - splitPath: Name
     text: "太阿莫若"
-    translated: "Too Soft, Not Sharp Enough"
-    qcReviewedText: "Too Soft, Not Sharp Enough"
+    translated: "Too blunt, no comparison"
+    qcReviewedText: "Too blunt, no comparison"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "“圣剑蔷薇”艾琳娜解锁红颜"
     translated: "“Sword of Holy Rose”  Elena unlocks Fair Lady Mode"
+    qcReviewedText: "“Sword of Holy Rose”  Elena unlocks Fair Lady Mode"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"72\",\r\n    \"Name\": \"青锋照影\",\r\n    \"Desc\": \"“清风逐影”展青锋解锁红颜\",\r\n    \"NameTw\": \"青鋒照影\",\r\n    \"DescTw\": \"“清風逐影”展青鋒解鎖紅顏\"\r\n  }"
   rawIndex: 72
   splits:
   - splitPath: Name
     text: "青锋照影"
-    translated: "Azure Blade Reflects the Shadow"
-    qcReviewedText: "Azure Blade Reflects the Shadow"
+    translated: "Azure Blade Reflecting Shadow"
+    qcReviewedText: "Azure Blade Reflecting Shadow"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -749,13 +777,17 @@
   - splitPath: Desc
     text: "“千杯不醉”司徒伶解锁红颜"
     translated: "“Can drink a thousand cups and still not get drunk”  Situ Ling unlocked the beauty technique."
+    qcReviewedText: "“Can drink a thousand cups and still not get drunk”  Situ Ling unlocked the beauty technique."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"101\",\r\n    \"Name\": \"文姿秀色\",\r\n    \"Desc\": \"“俏药叉”谈文秀解锁红颜\",\r\n    \"NameTw\": \"文姿秀色\",\r\n    \"DescTw\": \"“俏藥叉”談文秀解鎖紅顏\"\r\n  }"
   rawIndex: 101
   splits:
   - splitPath: Name
     text: "文姿秀色"
-    translated: "Wenzi's graceful beauty"
-    qcReviewedText: "Wenzi's graceful beauty"
+    translated: "Wenzi's graceful and beautiful appearance"
+    qcReviewedText: "Wenzi's graceful and beautiful appearance"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -784,8 +816,8 @@
   splits:
   - splitPath: Name
     text: "明月照雪"
-    translated: "Moonlight illuminates the snow"
-    qcReviewedText: "Moonlight illuminates the snow"
+    translated: "Bright moonlight illuminates the snow"
+    qcReviewedText: "Bright moonlight illuminates the snow"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -805,6 +837,10 @@
   - splitPath: Desc
     text: "“千面妖狐”薛如意解锁红颜"
     translated: "“Multifaceted Fox Demon”  Xue Ruyi unlocked Red‑Haired Beauty"
+    qcReviewedText: "“Multifaceted Fox Demon”  Xue Ruyi unlocked Red‑Haired Beauty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"110\",\r\n    \"Name\": \"桃之夭夭\",\r\n    \"Desc\": \"“无影飞刀”唐幺幺解锁红颜\",\r\n    \"NameTw\": \"桃之夭夭\",\r\n    \"DescTw\": \"“無影飛刀”唐么么解鎖紅顏\"\r\n  }"
   rawIndex: 110
   splits:
@@ -826,14 +862,18 @@
   splits:
   - splitPath: Name
     text: "秀外慧中"
-    translated: "Beauty and wisdom in equal measure"
-    qcReviewedText: "Beauty and wisdom in equal measure"
+    translated: "Beauty and wisdom combined"
+    qcReviewedText: "Beauty and wisdom combined"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "“神机百巧”诸葛慧解锁红颜"
     translated: "“Godwit's Thousand Tricks”  is unlocked: Zhuo Ge Hu unlocks Red Beauty"
+    qcReviewedText: "“Godwit's Thousand Tricks”  is unlocked: Zhuo Ge Hu unlocks Red Beauty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"芽苞初放\",\r\n    \"Desc\": \"“姜辣子”姜芽解锁红颜\",\r\n    \"NameTw\": \"芽苞初放\",\r\n    \"DescTw\": \"“薑辣子”姜芽解鎖紅顏\"\r\n  }"
   rawIndex: 116
   splits:
@@ -873,8 +913,8 @@
   splits:
   - splitPath: Name
     text: "雪雁凌空"
-    translated: "Snow Geese Soaring Through the Air"
-    qcReviewedText: "Snow Geese Soaring Through the Air"
+    translated: "Snow geese soaring in the sky"
+    qcReviewedText: "Snow geese soaring in the sky"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -890,8 +930,8 @@
   splits:
   - splitPath: Name
     text: "鸬鹚戏水"
-    translated: "Cormorants playing in the water"
-    qcReviewedText: "Cormorants playing in the water"
+    translated: "Cormorants Playing in the Water"
+    qcReviewedText: "Cormorants Playing in the Water"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -904,6 +944,10 @@
   - splitPath: Name
     text: "云雨巫山"
     translated: "Cloud and Rainy Mountains of Wu Shan"
+    qcReviewedText: "Cloud and Rainy Mountains of Wu Shan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "“巫山神女”巫云凤解锁红颜"
     translated: "“Wu Mountain Goddess”  Wu Yunkong unlocks Red‑Skirted Beauty"
@@ -946,8 +990,8 @@
   splits:
   - splitPath: Name
     text: "乱石平寇"
-    translated: "Pacify the Bandits Among the Boulder Fields"
-    qcReviewedText: "Pacify the Bandits Among the Boulder Fields"
+    translated: "Disorderly Rocks Subdue Bandits"
+    qcReviewedText: "Disorderly Rocks Subdue Bandits"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -963,8 +1007,8 @@
   splits:
   - splitPath: Name
     text: "登楼黄鹤"
-    translated: "Yellow Crane Ascends the Tower"
-    qcReviewedText: "Yellow Crane Ascends the Tower"
+    translated: "Soar on the Yellow Crane"
+    qcReviewedText: "Soar on the Yellow Crane"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1065,8 +1109,8 @@
   splits:
   - splitPath: Name
     text: "富贵神仙"
-    translated: "Rich and divine immortal"
-    qcReviewedText: "Rich and divine immortal"
+    translated: "Rich Immortal God"
+    qcReviewedText: "Rich Immortal God"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1120,6 +1164,10 @@
   - splitPath: Desc
     text: "击败十大恶人中的“血手人屠”魏无忏"
     translated: "Defeat  “Butcher of Bloodied Hands”  Wei Wuchan among the Ten Evil Men."
+    qcReviewedText: "Defeat  “Butcher of Bloodied Hands”  Wei Wuchan among the Ten Evil Men."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"69\",\r\n    \"Name\": \"百无禁忌\",\r\n    \"Desc\": \"击败十大恶人中的“百无禁忌”君无忌\",\r\n    \"NameTw\": \"百無禁忌\",\r\n    \"DescTw\": \"擊敗十大惡人中的“百無禁忌”君無忌\"\r\n  }"
   rawIndex: 69
   splits:
@@ -1172,8 +1220,8 @@
   splits:
   - splitPath: Name
     text: "倒行逆施"
-    translated: "Going against the natural order"
-    qcReviewedText: "Going against the natural order"
+    translated: "Going against natural order and justice"
+    qcReviewedText: "Going against natural order and justice"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1219,8 +1267,8 @@
   splits:
   - splitPath: Name
     text: "八方风雨"
-    translated: "Gales from All Directions"
-    qcReviewedText: "Gales from All Directions"
+    translated: "Eight Directions Wind and Rain"
+    qcReviewedText: "Eight Directions Wind and Rain"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1236,21 +1284,25 @@
   splits:
   - splitPath: Name
     text: "无宝不落"
-    translated: "Nothing is untouched by treasure"
-    qcReviewedText: "Nothing is untouched by treasure"
+    translated: "Nothing is beyond price"
+    qcReviewedText: "Nothing is beyond price"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: Desc
     text: "击败十大恶人中的“无宝不落”凤栖梧"
     translated: "Defeat  “No treasure falls unclaimed”  Feng Qiwu"
+    qcReviewedText: "Defeat  “No treasure falls unclaimed”  Feng Qiwu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"38\",\r\n    \"Name\": \"魔心卿相\",\r\n    \"Desc\": \"击败天魔教的“魔心卿相”温残阳\",\r\n    \"NameTw\": \"魔心卿相\",\r\n    \"DescTw\": \"擊敗天魔教的“魔心卿相”溫殘陽\"\r\n  }"
   rawIndex: 38
   splits:
   - splitPath: Name
     text: "魔心卿相"
-    translated: "Demon Hearted Minister of Protocol"
-    qcReviewedText: "Demon Hearted Minister of Protocol"
+    translated: "Demon Hearted Minister"
+    qcReviewedText: "Demon Hearted Minister"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1267,6 +1319,10 @@
   - splitPath: Name
     text: "将军百战"
     translated: "General, battle‑hardened"
+    qcReviewedText: "General, battle‑hardened"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "通过五场【闲话江湖"
     translated: "Through five challenges of 'Chattel about the Jianghu ‑ A General Through Many Battles'"
@@ -1349,8 +1405,8 @@
   splits:
   - splitPath: Name
     text: "灵蛇食虺"
-    translated: "Spiritual Snake Feasts on the Venomous Lizard"
-    qcReviewedText: "Spiritual Snake Feasts on the Venomous Lizard"
+    translated: "Spiritual Snake Devours Venomous Serpent"
+    qcReviewedText: "Spiritual Snake Devours Venomous Serpent"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1374,12 +1430,10 @@
   - splitPath: Desc
     text: "丐帮忠字舵友好到达100"
     translated: "Beggar Sect Loyalty Steering Committee friendship reached 100"
-    qcRejectedCorrection: "Beggar Sect Loyalty Division friendly reached 100"
-    qcFailureReason: "Glossary term '友好到达' (expected 'friendship reached') is missing."
-    qcQualityScore: 65
-    qcDefectCategory: DomainTerm
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "Beggar Sect Loyalty Steering Committee friendship reached 100"
+    qcReviewedText: "Beggar Sect Loyalty Steering Committee friendship reached 100"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"19\",\r\n    \"Name\": \"惟楚有材\",\r\n    \"Desc\": \"岳麓书院友好到达100\",\r\n    \"NameTw\": \"惟楚有材\",\r\n    \"DescTw\": \"嶽麓書院友好到達100\"\r\n  }"
   rawIndex: 19
   splits:
@@ -1418,8 +1472,8 @@
   splits:
   - splitPath: Name
     text: "结稻长生"
-    translated: "Rice Knots for Eternal Life"
-    qcReviewedText: "Rice Knots for Eternal Life"
+    translated: "Bind Rice for Eternal Life"
+    qcReviewedText: "Bind Rice for Eternal Life"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1468,8 +1522,8 @@
   splits:
   - splitPath: Name
     text: "福庆有余"
-    translated: "Abundant Blessings and Surplus Luck"
-    qcReviewedText: "Abundant Blessings and Surplus Luck"
+    translated: "Abundant Blessings and Surplus Fortune"
+    qcReviewedText: "Abundant Blessings and Surplus Fortune"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1536,7 +1590,11 @@
   splits:
   - splitPath: Name
     text: "鞠躬尽瘁"
-    translated: "Diligently to the utmost, working until exhaustion"
+    translated: "Diligently to the point of exhaustion"
+    qcReviewedText: "Diligently to the point of exhaustion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "武侯祠友好到达100"
     translated: "Wu Hou Temple friendship reached 100"
@@ -1566,8 +1624,8 @@
   splits:
   - splitPath: Name
     text: "川蜀侠少"
-    translated: "Chuan‑Shu Heroic Youth"
-    qcReviewedText: "Chuan‑Shu Heroic Youth"
+    translated: "Chuan‑Shu Young Hero"
+    qcReviewedText: "Chuan‑Shu Young Hero"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1600,6 +1658,10 @@
   - splitPath: Name
     text: "以身相许"
     translated: "Pledge one's life to someone"
+    qcReviewedText: "Pledge one's life to someone"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "与一名红颜知己结缘"
     translated: "Form a bond with a red‑haired soulmate"
@@ -1608,8 +1670,8 @@
   splits:
   - splitPath: Name
     text: "大众情人"
-    translated: "Casanova"
-    qcReviewedText: "Casanova"
+    translated: "Cinderella Prince Charming"
+    qcReviewedText: "Cinderella Prince Charming"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1621,8 +1683,8 @@
   splits:
   - splitPath: Name
     text: "上根大器"
-    translated: "Gifted Talent"
-    qcReviewedText: "Gifted Talent"
+    translated: "Prodigy of Great Potential"
+    qcReviewedText: "Prodigy of Great Potential"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1655,8 +1717,8 @@
   splits:
   - splitPath: Name
     text: "铜筋铁骨"
-    translated: "Steel bones and iron sinews"
-    qcReviewedText: "Steel bones and iron sinews"
+    translated: "Tough as nails"
+    qcReviewedText: "Tough as nails"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1689,7 +1751,11 @@
   splits:
   - splitPath: Name
     text: "一闻千悟"
-    translated: "A single whiff leads to a thousand realizations."
+    translated: "One understands a thousand insights\\n"
+    qcReviewedText: "One understands a thousand insights\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "悟性到达200"
     translated: "Insight reached 200"
@@ -1719,8 +1785,8 @@
   splits:
   - splitPath: Name
     text: "华佗在世"
-    translated: "A living Hua Tuo"
-    qcReviewedText: "A living Hua Tuo"
+    translated: "A Living Hua Tuo"
+    qcReviewedText: "A Living Hua Tuo"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1770,8 +1836,8 @@
   splits:
   - splitPath: Name
     text: "万兽之王"
-    translated: "King of Ten Thousand Beasts"
-    qcReviewedText: "King of Ten Thousand Beasts"
+    translated: "King of a Thousand Beasts"
+    qcReviewedText: "King of a Thousand Beasts"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1821,6 +1887,10 @@
   - splitPath: Name
     text: "颜筋柳骨"
     translated: "Yan Sin Liuguj"
+    qcReviewedText: "Yan Sin Liuguj"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "翰墨到达宗师"
     translated: "Calligraphy has reached the Grandmaster level"

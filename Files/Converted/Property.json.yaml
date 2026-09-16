@@ -7,7 +7,6 @@
     qcReviewedText: "Action Count"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "行动次数上限"
     translated: "Action Count Limit"
@@ -20,7 +19,6 @@
     qcReviewedText: "Number of cards"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "升级卡牌随机的个数"
     translated: "Number of random upgrade cards"
@@ -33,7 +31,6 @@
     qcReviewedText: "Jianghu Info Cost"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "江湖消息价格"
     translated: "Jianghu Info Cost"
@@ -46,7 +43,6 @@
     qcReviewedText: "Maximum Action Points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Name\": \"行动力\",\r\n    \"Desc\": \"每回合增加行动力\",\r\n    \"NameTw\": \"行動力\",\r\n    \"DescTw\": \"每回合增加行動力\"\r\n  }"
   rawIndex: 18
   splits:
@@ -56,7 +52,6 @@
     qcReviewedText: "Action Points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "每回合增加行动力"
     translated: "Increase action points per turn"
@@ -69,7 +64,6 @@
     qcReviewedText: "Potential"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响角色的功力"
     translated: "Significantly affects the character's power"
@@ -82,7 +76,6 @@
     qcReviewedText: "Resilience"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响角色的气血"
     translated: "Significantly affects the character's lifeforce"
@@ -95,7 +88,6 @@
     qcReviewedText: "Inner Qi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响队伍的异常抗性，小幅影响角色的气血"
     translated: "Significantly affects the team's abnormal resistance, slightly affecting the character's lifeforce."
@@ -108,7 +100,6 @@
     qcReviewedText: "Flexibility"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响队伍的连击发生率，小幅影响角色的功力"
     translated: "Significantly affects the team's combo rate, slightly affecting the character's power."
@@ -121,7 +112,6 @@
     qcReviewedText: "Insight"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响队伍的强化发生率，影响一些武学的获取"
     translated: "Significantly affects the rate of team enhancement, impacting the acquisition of certain martial arts techniques."
@@ -134,7 +124,6 @@
     qcReviewedText: "Luck"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响队伍的会心发生率，影响一些事件的触发"
     translated: "Significantly affects the critical hit rate of the team and triggers some events."
@@ -147,7 +136,6 @@
     qcReviewedText: "Contribution"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "衡量角色对门派的付出与忠诚，贡献越高，不仅能获得更多门派的信任与重任，还能解锁特殊任务与珍贵奖励"
     translated: "Based on a character's contribution and loyalty to their sect, the higher the contributions they make, the more trust and important tasks they will earn from the sect. Additionally, they can unlock special missions and valuable rewards."
@@ -159,11 +147,11 @@
     translated: "Wealth"
   - splitPath: Desc
     text: "影响特殊事件触发机会，放弃机会"
-    translated: "Affect the chance of special events triggering. Sacrifice opportunity +, gain opportunity ‑."
+    translated: "Affects the chance of triggering special events, giving up the opportunity will forego the opportunity."
   - splitPath: Desc
     subIndex: 1
     text: "，获得机会"
-    translated: ", seize the opportunity"
+    translated: ", Gain an opportunity"
   templates:
   - splitPath: Desc
     template: "{0}+{1}-"
@@ -175,11 +163,11 @@
     translated: "Morality"
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。"
-    translated: "Reflecting the character's actions and stance can influence when and how events trigger and unfold."
+    translated: "Reflects the character's stance and influences the triggering and progression of events."
   - splitPath: Desc
     subIndex: 1
     text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
-    translated: "While correcting the Ten Foul Men Incident, the Heavenly Demon Sect Conspiracy, the Ning Wang Conspiracy, the Yin Dao Conspiracy, and the Six Doors Arrest Task, your morality will increase."
+    translated: "The Ten Worst Scoundrels incident, the Heavenly Demon Sect conspiracy incident, the Peaceful King conspiracy incident, the Dark Morality Sect conspiracy incident, and Six Doors arrest missions will all increase morality."
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}"
@@ -192,7 +180,6 @@
     qcReviewedText: "Lifeforce Assessment"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "气血总数，判断条件使用，不能通过奖励表修改"
     translated: "Lifeforce total, judgment conditions are used here and cannot be modified through the reward table."
@@ -214,7 +201,6 @@
     qcReviewedText: "Lifeforce"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "气血加成，事件奖励使用"
     translated: "Lifeforce Boost, use with event rewards"
@@ -227,7 +213,6 @@
     qcReviewedText: "Power"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "功力加成，事件奖励使用"
     translated: "Power Boost, use event rewards"
@@ -240,7 +225,6 @@
     qcReviewedText: "Gambling Den Occupancy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "赌坊可访问的特殊角色人数，只读"
     translated: "The number of special roles that can access the Gambling Den is read‑only."
@@ -253,7 +237,6 @@
     qcReviewedText: "Base Attributes"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "随机基础属性上下限"
     translated: "Random base attribute ranges"
@@ -266,7 +249,6 @@
     qcReviewedText: "Lifeforce percentage"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "气血的百分比加成"
     translated: "Percentage increase in lifeforce"
@@ -279,7 +261,6 @@
     qcReviewedText: "Damage Percentage"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "最终伤害的百分比加成"
     translated: "Percentage increase in final damage"
@@ -304,10 +285,10 @@
   splits:
   - splitPath: Name
     text: "立绘"
-    translated: "Character sprite ID"
+    translated: "Illustration"
   - splitPath: Desc
     text: "玩家立绘"
-    translated: "Player character sprite ID"
+    translated: "Player portrait"
   templates:
   - splitPath: Name
     template: "{0}id"
@@ -322,7 +303,6 @@
     qcReviewedText: "Extra Skill Limit"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "技能额外上限"
     translated: "Extra Skill Limit"
@@ -335,7 +315,6 @@
     qcReviewedText: "Character Card Count"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "角色卡张数，只读"
     translated: "Character card count, read‑only"
@@ -348,7 +327,6 @@
     qcReviewedText: "Character Skill Count"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "角色技能数量，只读"
     translated: "Character Skill Count, Read‑Only"
@@ -361,7 +339,6 @@
     qcReviewedText: "Medicine"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。"
     translated: "The level of medical skill can be mastered by studying medicine at the Shennong Sect in Jingbei. The Hengshan Sect's winter academy also offers courses in medicine."
@@ -383,7 +360,6 @@
     qcReviewedText: "Divination"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "奇门术数掌握的水平，可在湘东岳麓书院学习术数。"
     translated: "The level of proficiency in divination mastered"
@@ -396,7 +372,6 @@
     qcReviewedText: "Confucian Studies"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "儒学掌握的水平，可在湘东岳麓书院学习儒学。衡山派冬学可以学习儒学。"
     translated: "One can learn Confucian Studies at the Xiangdong Yuelu Academy. The Hengshan Sect's Winter School also offers courses in Confucian Studies."
@@ -409,7 +384,6 @@
     qcReviewedText: "Buddhist Studies"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "佛学掌握的水平"
     translated: "Proficiency in Buddhist studies"
@@ -422,7 +396,6 @@
     qcReviewedText: "Daoist Studies"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "道学掌握的水平，武当派可在解真阁提高道学。"
     translated: "The level of Daoist Studies can be improved at the Unravel True Pavilion by the Wudang Sect."
@@ -435,7 +408,6 @@
     qcReviewedText: "Drinking Art"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "品酒酿酒的水平"
     translated: "The skill level in wine tasting and brewing"
@@ -448,7 +420,6 @@
     qcReviewedText: "Tea Art"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "茶艺品茗的水平"
     translated: "The skill level in tea art and tasting"
@@ -461,7 +432,6 @@
     qcReviewedText: "Cooking"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。衡山派冬学可以学习厨艺。"
     translated: "The level of cooking can be increased by trying local delicacies during travels to different regions, especially when there are no special events. After mastering cooking basics, you can trigger an event with the Beggar Sect in Xiangdong, which will allow you to improve your cooking skills within the sect. The Winter Academy of the Hengshan Sect also offers courses in cooking."
@@ -474,7 +444,6 @@
     qcReviewedText: "Firearms"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "火器制作和运用的水平，衡山派冬学可以学习火器。"
     translated: "The Hengshan Sect's Winter Academy can learn about the manufacture and use of firearms."
@@ -487,7 +456,6 @@
     qcReviewedText: "Variety Arts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "曲艺和戏法杂技的水平，可在荆南福庆班学习百戏。"
     translated: "The level of variety arts and illusionistic acrobatics can be learned from the Jingnan Fukqing Performance Troupe."
@@ -500,7 +468,6 @@
     qcReviewedText: "Musical Arts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "音乐的水平"
     translated: "Level of the music"
@@ -513,7 +480,6 @@
     qcReviewedText: "Principle of Strategy"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "弈棋的水平"
     translated: "Skill level in chess"
@@ -526,7 +492,6 @@
     qcReviewedText: "Calligraphy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "书法的水平，可在湘东岳麓书院、川东洗墨山庄学习翰墨。"
     translated: "Level of calligraphy skills"
@@ -539,7 +504,6 @@
     qcReviewedText: "Painting"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "绘画的水平"
     translated: "Skill in painting"
@@ -552,7 +516,6 @@
     qcReviewedText: "Beast Taming"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "御兽驯兽的水平，可在湘南盘蛇谷和川南蚩黎峒学习御兽，盘蛇谷关闭后可在九嶷山提高御兽。"
     translated: "The skills of beast taming can be learned in Coiled Serpent Valley in Xiangnan. After Coiled Serpent Valley closes, you can improve your beast taming skills in Jiuyi Mountain."
@@ -565,7 +528,6 @@
     qcReviewedText: "Appraisal"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "收藏鉴赏的水平"
     translated: "The level of appraisal in collecting and appreciation can be quite high."
@@ -578,7 +540,6 @@
     qcReviewedText: "Illusion Technique"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "幻术的掌握水平"
     translated: "Mastery of illusion techniques"
@@ -591,7 +552,6 @@
     qcReviewedText: "Gambling skill"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "博彩的掌握水平，可在荆东朱雀坊提高赌术。"
     translated: "Proficiency in gambling"
@@ -604,7 +564,6 @@
     qcReviewedText: "Alchemy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "炼丹的掌握水平，武当派可在丹房提高丹术。"
     translated: "The mastery of alchemy can be improved in the Wudang Sect's alchemical room."
@@ -617,7 +576,6 @@
     qcReviewedText: "Craftsmanship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "冶炼匠造、机关制作的掌握水平，唐门可在千机坊提高匠造。"
     translated: "Smelter Crafting Master, the skill level in mechanism creation. Tang Clan can improve this in the Thousand Mechanism Workshop."
@@ -630,7 +588,6 @@
     qcReviewedText: "Assist Daily Routines"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "帮助日游神干活的次数"
     translated: "The number of times they helped the god with daily routines."
@@ -643,7 +600,6 @@
     qcReviewedText: "Assist Nightly Routines"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "帮助夜游神干活的次数"
     translated: "The number of times they have assisted the God of Nightly Rambles."
@@ -656,7 +612,6 @@
     qcReviewedText: "Golden Wound Secret Potion"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "购买金疮药的数量"
     translated: "The number of burn remedies purchased"
@@ -669,7 +624,6 @@
     qcReviewedText: "Minor Officer Victory"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "衡山小校获得胜利"
     translated: "The Xiao Xiao School of Hengshan Achieved Victory"
@@ -682,7 +636,6 @@
     qcReviewedText: "Divination Attempts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "和袁铁口卜卦的次数"
     translated: "The number of times Li Yuan has divined with him."
@@ -695,7 +648,6 @@
     qcReviewedText: "Chivalrous Deeds"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "行侠仗义次数"
     translated: "Chivalrous DeedsPerformed"
@@ -708,7 +660,6 @@
     qcReviewedText: "Lancang Consumption"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "在澜沧国富商处消费额金额"
     translated: "Spending amount at a merchant in Lanchang Country"
@@ -721,7 +672,6 @@
     qcReviewedText: "Yellow Crane Challenge"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "黄鹤楼中挑战的数量"
     translated: "The number of challenges in Yellow Crane Tower"
@@ -734,7 +684,6 @@
     qcReviewedText: "Close female friend"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "红颜知己数量"
     translated: "Number of close female friends"
@@ -747,7 +696,6 @@
     qcReviewedText: "Chaos Rock Lackey"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "乱石寨喽喽数量"
     translated: "Chaos Rock Stronghold looters' number"
@@ -760,7 +708,6 @@
     qcReviewedText: "Phoenix Diverted"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "去朱雀坊消遣的次数"
     translated: "The number of times they went to Phoenix Pavilion for entertainment."
@@ -773,7 +720,6 @@
     qcReviewedText: "Devil's Plot"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "天魔教的阴谋"
     translated: "Heavenly Demon Sect's Conspiracy"
@@ -786,7 +732,6 @@
     qcReviewedText: "Peaceful King's Plot"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "宁王的阴谋"
     translated: "Peaceful King's plot"
@@ -799,7 +744,6 @@
     qcReviewedText: "Lantern Riddle Attempts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "橘州灯谜次数"
     translated: "Lantern Riddle Attempts in Orange State"
@@ -812,7 +756,6 @@
     qcReviewedText: "Jingxiang's Bounty"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "荆湘悬赏次数"
     translated: "Jing Xiang's bounty count"
@@ -825,7 +768,6 @@
     qcReviewedText: "Flow of time"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "可邀请一同过年的红颜数量"
     translated: "The number of female companions invited to spend the New Year together."
@@ -838,7 +780,6 @@
     qcReviewedText: "Chang Jiang Chaos"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "对长江盟势力捣乱的次数"
     translated: "The number of times the force disrupted the Yangtze River Coalition."
@@ -851,7 +792,6 @@
     qcReviewedText: "Peaceful King support"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "驰援被宁王阴谋暗算的门派数量"
     translated: "The number of sects aiding in the defense against the Peaceful King's conspiracy attack"
@@ -864,7 +804,6 @@
     qcReviewedText: "Demon Lord Rescue"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "救援被温残阳毒计暗算的门派数量"
     translated: "The number of sects rescued from Wen Canyang's Poison Yang scheme"
@@ -877,7 +816,6 @@
     qcReviewedText: "Stewmaster Tasting Wine"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "陪着司徒伶天下品酒的次数"
     translated: "Accompanying Situ Ling in tasting wines across the world"
@@ -890,7 +828,6 @@
     qcReviewedText: "Fengdu Temple Fair"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "参与丰都庙会的次数"
     translated: "The number of times they have participated in the Fengdu Temple Fair."
@@ -903,7 +840,6 @@
     qcReviewedText: "Ryuzen Pawnshop"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "在永利当铺典当物品的数量"
     translated: "The number of items pawned at the Yongli Pawnshop"
@@ -916,7 +852,6 @@
     qcReviewedText: "Bounty in Sichuan"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "川蜀悬赏次数"
     translated: "Bounty for Chu Shi issued times"
@@ -929,7 +864,6 @@
     qcReviewedText: "Jingxiang Six Doors show friendship"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和荆湘六扇门的关系"
     translated: "Affects the relationship between wanderers and the Six Doors."
@@ -942,7 +876,6 @@
     qcReviewedText: "Beggar Sect Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和丐帮的关系"
     translated: "Affecting the relationship between wanderers and the Beggar Sect"
@@ -955,7 +888,6 @@
     qcReviewedText: "Hengshan Sect Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和衡山派的关系"
     translated: "Affecting the relationship between wanderers and the Hengshan Sect"
@@ -968,7 +900,6 @@
     qcReviewedText: "Gentlemen Manor Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和君子庄的关系"
     translated: "Affecting the relationship between the Wanderer and the Gentlemen Manor"
@@ -981,7 +912,6 @@
     qcReviewedText: "Iron Robe Gang Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和铁衣帮的关系"
     translated: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
@@ -994,7 +924,6 @@
     qcReviewedText: "Longevity Sect Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和万寿帮的关系"
     translated: "Influences on the relationship between the Wanderer and the Longevity Sect"
@@ -1007,7 +936,6 @@
     qcReviewedText: "Yongsheng Escort Agency Friendship"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和永盛镖局的关系"
     translated: "Affecting the relationship between wanderers and the Yongsheng Escort Agency"
@@ -1020,7 +948,6 @@
     qcReviewedText: "Coiled Serpent Valley Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和盘蛇谷的关系"
     translated: "Affecting the relationship between the Wanderer and Coiled Serpent Valley"
@@ -1033,7 +960,6 @@
     qcReviewedText: "Beggar Sect's Loyalty Steering Board values friendship"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和丐帮忠字舵的关系"
     translated: "Influences on the relationship between the Wanderer Sect and the Beggar Sect's Loyalty Paddle faction."
@@ -1046,7 +972,6 @@
     qcReviewedText: "Yue Lu Academy Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和岳麓书院的关系"
     translated: "Influences the relationship between the Wanderer and the YaLu Academy"
@@ -1059,7 +984,6 @@
     qcReviewedText: "Shennong Sect Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和神农帮的关系"
     translated: "Affecting the relationship between Wanderers and the Shennong Sect"
@@ -1072,7 +996,6 @@
     qcReviewedText: "Six Harmonies Sect Friendship"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和六合帮的关系"
     translated: "Affecting the relationship between Wanderers and the Six Harmonies Sect"
@@ -1085,7 +1008,6 @@
     qcReviewedText: "Hanging Hammer Manor Friendship"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和挂锤庄的关系"
     translated: "Affecting the relationship between the Wanderer and Hanging Hammer Manor"
@@ -1098,7 +1020,6 @@
     qcReviewedText: "Fuqing Battalion Friendship"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和福庆班的关系"
     translated: "Affecting the relationship between the Wanderer and Fugui Battalion"
@@ -1111,7 +1032,6 @@
     qcReviewedText: "Washing Ink Villa Friendship"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和洗墨山庄的关系"
     translated: "Affecting the relationship between the Wanderer and Shi Xiemu Cottage"
@@ -1124,7 +1044,6 @@
     qcReviewedText: "Wanhua Sect is friendly"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和浣花派的关系"
     translated: "Affects the relationship between the Wanderer and the Flower Washing Sect"
@@ -1137,7 +1056,6 @@
     qcReviewedText: "While visiting the Wuliu Temple, they pay respects to the wise sage."
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和武侯祠的关系"
     translated: "Influences on the relationship between the Wanderer and the Martial Chancellor's Shrine"
@@ -1150,7 +1068,6 @@
     qcReviewedText: "Temple of the Divine Maiden is friendly"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和神女宫的关系"
     translated: "Affecting the relationship between the Wanderer and the Divine Maiden Palace"
@@ -1163,7 +1080,6 @@
     qcReviewedText: "Six Doors from Sichuan Province are friendly"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和川蜀六扇门的关系"
     translated: "Affecting the relationship between wanderers and the Six Doors of Sichuan Province"
@@ -1176,7 +1092,6 @@
     qcReviewedText: "Chili Dong Friendly"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和蚩黎峒的关系"
     translated: "Affects the relationship between the Wanderer and Chi Li Dung"
@@ -1189,7 +1104,6 @@
     qcReviewedText: "Chi Ying's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和蚩萤的关系"
     translated: "Influences on the relationship between the Wanderer and Chi Ying"
@@ -1202,7 +1116,6 @@
     qcReviewedText: "Wu Yufeng's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和巫云凤的关系"
     translated: "Influences on the relationship between the Wanderer and Wu Yunfeng"
@@ -1215,7 +1128,6 @@
     qcReviewedText: "Xiaoxueyan's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和萧雪雁的关系"
     translated: "Affects the relationship between the Wanderer and Xiao Xueyan"
@@ -1228,7 +1140,6 @@
     qcReviewedText: "Schen Qinglu's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和沈青鸬的关系"
     translated: "Affects the relationship between the Wanderer and Shen Qinglu'a"
@@ -1241,7 +1152,6 @@
     qcReviewedText: "Li Yunshang's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和李云裳的关系"
     translated: "Affects the relationship between the Wanderer and Li Yunshang"
@@ -1254,7 +1164,6 @@
     qcReviewedText: "Qingya's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和姜芽的关系"
     translated: "Affect the relationship between the Wanderer and Jiang Ya"
@@ -1267,7 +1176,6 @@
     qcReviewedText: "Zhuge Hui's affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和诸葛慧的关系"
     translated: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
@@ -1280,7 +1188,6 @@
     qcReviewedText: "Tang Yaoya's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和唐幺幺的关系"
     translated: "Affects the relationship between the Wanderer and Tang Yaoyaomiao"
@@ -1293,7 +1200,6 @@
     qcReviewedText: "Spiao Qinghong's Affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和邵轻虹的关系"
     translated: "Affects the relationship between the Wanderer and Shao Qinghong"
@@ -1306,7 +1212,6 @@
     qcReviewedText: "Talk about Tan Wenshou's affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和谈文秀的关系"
     translated: "Affect the relationship between the Wanderer and Tang Wenshao"
@@ -1319,7 +1224,6 @@
     qcReviewedText: "Situ Ling's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和司徒伶的关系"
     translated: "Affecting the relationship between Wanderer and Situ Ling"
@@ -1332,7 +1236,6 @@
     qcReviewedText: "Xue Ruyi's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和薛如意的关系"
     translated: "Affecting the relationship between the Wanderer and Xue Ruyi"
@@ -1345,7 +1248,6 @@
     qcReviewedText: "Zhongli Xue Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和钟离雪的关系"
     translated: "Affects the relationship between the Wanderer and Zhongli Xue"
@@ -1358,7 +1260,6 @@
     qcReviewedText: "Kazama Yue's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和风间月的关系"
     translated: "Influences on the relationship between the Wanderer and Kazama Yue"
@@ -1371,7 +1272,6 @@
     qcReviewedText: "Kazama Ai's affection"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和风间爱的关系"
     translated: "Affects the relationship between the Wanderer and Kazama Ai"
@@ -1384,7 +1284,6 @@
     qcReviewedText: "Zhan Qingfeng's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和展青锋的关系"
     translated: "Influences on the relationship between Wanderer and Zhan Qingfeng"
@@ -1397,7 +1296,6 @@
     qcReviewedText: "Elena's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和艾琳娜的关系"
     translated: "Affecting the relationship between the Wanderer and Elena"
@@ -1410,7 +1308,6 @@
     qcReviewedText: "Xiao Lingyi's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和萧令仪的关系"
     translated: "Influences on the relationship between the Wanderer and Xiao Lingyi"
@@ -1423,7 +1320,6 @@
     qcReviewedText: "Xiahou Jun's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和夏侯珺的关系"
     translated: "Affects the relationship between the Wanderer and Xiahou Jun"
@@ -1436,7 +1332,6 @@
     qcReviewedText: "Wen Jinxin's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和文素心的关系"
     translated: "Affecting the relationship between the Wanderer and Wen Susixin"
@@ -1449,7 +1344,6 @@
     qcReviewedText: "Liu Hanyan's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和柳含烟的关系"
     translated: "Influences on the relationship between the Wanderer and Liu Hanyan"
@@ -1462,7 +1356,6 @@
     qcReviewedText: "Qiu Lingsu's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和邱灵素的关系"
     translated: "Affecting the relationship between the Wanderer and Qiu Lingsu"
@@ -1475,7 +1368,6 @@
     qcReviewedText: "Lian Qiaoer's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和连翘儿的关系"
     translated: "Affecting the relationship between the Wanderer and Lian Qiaoer"
@@ -1488,7 +1380,6 @@
     qcReviewedText: "Shen Rongrong's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和沈蓉蓉的关系"
     translated: "Affecting the relationship between the Wanderer and Shen Rongrong"
@@ -1501,7 +1392,6 @@
     qcReviewedText: "Jin Hongyi's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和靳红衣的关系"
     translated: "Affecting the relationship between the Wanderer and Jin Hongyi"
@@ -1514,7 +1404,6 @@
     qcReviewedText: "Yan Emei's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和晏蛾眉的关系"
     translated: "Affecting the relationship between the Wanderer and Yan Emei"
@@ -1527,7 +1416,6 @@
     qcReviewedText: "Zuo Lingzhu's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和左灵珠的关系"
     translated: "Affects the relationship between the Wanderer and Zuo Lingzhu"
@@ -1540,7 +1428,6 @@
     qcReviewedText: "Ruan Biqing's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和阮碧青的关系"
     translated: "Affecting the relationship between the Wanderer and Ruan Biqing"
@@ -1553,7 +1440,6 @@
     qcReviewedText: "Xiang Qishuang's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和项欺霜的关系"
     translated: "Affecting the relationship between Wanderer and Xiang Qishuang"
@@ -1566,7 +1452,6 @@
     qcReviewedText: "Yang Yun's Affection"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和杨芸的关系"
     translated: "Affecting the relationship between the Wanderer and Yang Yun"

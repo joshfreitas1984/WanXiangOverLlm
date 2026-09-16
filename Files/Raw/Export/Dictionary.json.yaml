@@ -1390,57 +1390,36 @@
   rawIndex: 10001
   splits:
   - splitPath: Desc
-    text: "赌术入门（"
-  - splitPath: Desc
-    subIndex: 1
-    text: "40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
+    text: "赌术入门（≥40）解锁，当掷出“对子”时，基础点数上升为200点，但“对子”不可豁免“劫数”"
   - splitPath: Dictionary
     text: "锦上添花"
-  templates:
-  - splitPath: Desc
-    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10002\",\r\n    \"Desc\": \"赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。\",\r\n    \"Dictionary\": \"返璞归真\",\r\n    \"DescTw\": \"賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。\",\r\n    \"DictionaryTw\": \"返璞歸真\"\r\n  }"
   rawIndex: 10002
   splits:
   - splitPath: Desc
-    text: "赌术精通（"
-  - splitPath: Desc
-    subIndex: 1
-    text: "80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
+    text: "赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。"
   - splitPath: Dictionary
     text: "返璞归真"
-  templates:
-  - splitPath: Desc
-    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Desc\": \"赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次\",\r\n    \"Dictionary\": \"孤注一掷\",\r\n    \"DescTw\": \"賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次\",\r\n    \"DictionaryTw\": \"孤注一擲\"\r\n  }"
   rawIndex: 10003
   splits:
   - splitPath: Desc
-    text: "赌术高手（"
+    text: "赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空"
   - splitPath: Desc
     subIndex: 1
-    text: "120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空"
-  - splitPath: Desc
-    subIndex: 2
     text: "每局只能使用一次"
   - splitPath: Dictionary
     text: "孤注一掷"
   templates:
   - splitPath: Desc
-    template: "{0}≥{1},{2}"
+    template: "{0},{1}"
 - raw: "{\r\n    \"Key\": \"10004\",\r\n    \"Desc\": \"赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用\",\r\n    \"Dictionary\": \"颠倒乾坤\",\r\n    \"DescTw\": \"賭術大師≥160）解鎖，當本輪出現劫數時，可以將劫數轉化為1，避免點數清空，每局只能使用一次，“孤注一擲”狀態下不可使用\",\r\n    \"DictionaryTw\": \"顛倒乾坤\"\r\n  }"
   rawIndex: 10004
   splits:
   - splitPath: Desc
-    text: "赌术大师"
-  - splitPath: Desc
-    subIndex: 1
-    text: "160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
+    text: "赌术大师≥160）解锁，当本轮出现劫数时，可以将劫数转化为1，避免点数清空，每局只能使用一次，“孤注一掷”状态下不可使用"
   - splitPath: Dictionary
     text: "颠倒乾坤"
-  templates:
-  - splitPath: Desc
-    template: "{0}≥{1}"
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Desc\": \"赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次\",\r\n    \"Dictionary\": \"天地同寂\",\r\n    \"DescTw\": \"賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次\",\r\n    \"DictionaryTw\": \"天地同寂\"\r\n  }"
   rawIndex: 10005
   splits:
@@ -1907,13 +1886,13 @@
   rawIndex: 10300
   splits:
   - splitPath: Dictionary
-    text: "赌术"
+    text: "赌术≥"
   - splitPath: Dictionary
     subIndex: 1
     text: "方可通杀对手"
   templates:
   - splitPath: Dictionary
-    template: "{0}≥⟦0⟧{1}"
+    template: "{0}⟦0⟧{1}"
 - raw: "{\r\n    \"Key\": \"10301\",\r\n    \"Dictionary\": \"不可在对方回合使用\",\r\n    \"DictionaryTw\": \"不可在對方回合使用\"\r\n  }"
   rawIndex: 10301
   splits:
@@ -1923,13 +1902,7 @@
   rawIndex: 10302
   splits:
   - splitPath: Dictionary
-    text: "当玩家赌术"
-  - splitPath: Dictionary
-    subIndex: 1
-    text: "对手时可以选择通杀对手，直接取胜，获取全部奖励"
-  templates:
-  - splitPath: Dictionary
-    template: "{0}≥{1}"
+    text: "当玩家赌术≥对手时可以选择通杀对手，直接取胜，获取全部奖励"
 - raw: "{\r\n    \"Key\": \"10303\",\r\n    \"Dictionary\": \"你打算与谁较量一番？\",\r\n    \"DictionaryTw\": \"你打算與誰較量一番？\"\r\n  }"
   rawIndex: 10303
   splits:

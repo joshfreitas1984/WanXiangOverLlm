@@ -703,7 +703,7 @@
 - raw: 狴犴銅牌
   rawSimplified: 狴犴铜牌
   rawTraditional: 狴犴銅牌
-  result: Bi''an Bronze Plaque
+  result: Bi'an Bronze Plaque
   direct: Bi An Tong Pai
   literal: Bi An Tong Pai
 - raw: 睚眥銅牌
@@ -1088,6 +1088,8 @@
   rawSimplified: 崔三贯一众
   rawTraditional: 崔三貫一眾
   result: Cui Sanguan and Followers
+  allowalt: 
+    - Cui Sanguan and his followers
   direct: Cui San Guan Yi Zhong
   literal: Cui Three Strings One Group
 - raw: 鍾其北一眾
@@ -1887,7 +1889,7 @@
   rawSimplified: 行动次数
   rawTraditional: 行動次數
   result: Action Count
-  badtrans: true
+  badtrans: false
   direct: act move times number
   literal: xing dong ci shu
   exclude: 

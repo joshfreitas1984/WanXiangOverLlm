@@ -7,7 +7,6 @@
     qcReviewedText: "Saber"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "伤害+2000%，仅简单难度可用"
     translated: "Deal +2000% damage, available only on Simple difficulty."
@@ -20,7 +19,6 @@
     qcReviewedText: "Path of cultivation choice"
     qcStatus: Passed
     qcQualityScore: 85
-    qcDefectCategory: None
   - splitPath: Desc
     text: "在门派修炼时可指定修炼的类型"
     translated: "While training in the sect, you can specify the type of training."
@@ -36,7 +34,6 @@
     qcReviewedText: "Take a rest for a while"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "门派第三年起可直接休息到下个月"
     translated: "Starting in the third year of the sect, members can directly rest until the next month."
@@ -48,7 +45,7 @@
     translated: "Round"
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
-    translated: "After joining the Sect, you have +1 Action Counts per Month."
+    translated: "After joining a sect, you can take actions a certain number of times each month."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -65,7 +62,7 @@
     translated: "Round"
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
-    translated: "After joining the Sect, you have +1 Action Counts per Month."
+    translated: "After joining a sect, you can take actions a certain number of times each month."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -82,7 +79,7 @@
     translated: "Action Points"
   - splitPath: Desc
     text: "战斗中每回合回复的行动力"
-    translated: "In battle, action points recover each turn by +1."
+    translated: "Action Points recovered each turn in battle"
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -198,7 +195,7 @@
     translated: "Damage"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "Total damage dealt by all characters"
+    translated: "The final damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -215,7 +212,7 @@
     translated: "Damage"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "Total damage dealt by all characters"
+    translated: "The final damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -232,7 +229,7 @@
     translated: "Damage"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "Total damage dealt by all characters"
+    translated: "The final damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -249,7 +246,7 @@
     translated: "Damage"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "Total damage dealt by all characters"
+    translated: "The final damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -266,7 +263,7 @@
     translated: "Damage"
   - splitPath: Desc
     text: "全体角色的最终伤害"
-    translated: "Total damage dealt by all characters"
+    translated: "The final damage dealt by all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -283,7 +280,7 @@
     translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined Lifeforce of all characters"
+    translated: "The overall Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -300,7 +297,7 @@
     translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined Lifeforce of all characters"
+    translated: "The overall Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -317,7 +314,7 @@
     translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined Lifeforce of all characters"
+    translated: "The overall Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -334,7 +331,7 @@
     translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined Lifeforce of all characters"
+    translated: "The overall Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -351,7 +348,7 @@
     translated: "Lifeforce"
   - splitPath: Desc
     text: "全体角色的综合气血"
-    translated: "The combined Lifeforce of all characters"
+    translated: "The overall Lifeforce of all characters"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -368,7 +365,7 @@
     translated: "Round"
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
-    translated: "After joining the Sect, you have +1 Action Counts per Month."
+    translated: "After joining a sect, you can take actions a certain number of times each month."
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -386,7 +383,6 @@
     qcReviewedText: "Nine Schools of Strange Martial Arts"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "初始可获得功法九流奇功"
     translated: "Initial available cultivation techniques include Nine Weird and Wondrous Skills."
@@ -399,7 +395,6 @@
     qcReviewedText: "True Martial Sword Technique"
     qcStatus: Passed
     qcQualityScore: 95
-    qcDefectCategory: None
   - splitPath: Desc
     text: "初始可获得功法真武剑诀"
     translated: "Initial available cultivation technique: True Martial Sword Art"
@@ -412,7 +407,6 @@
     qcReviewedText: "Calming the Furious Waves"
     qcStatus: Passed
     qcQualityScore: 90
-    qcDefectCategory: None
   - splitPath: Desc
     text: "初始可获得功法定风波"
     translated: "Initial available skill: Calm the Waves Fist"

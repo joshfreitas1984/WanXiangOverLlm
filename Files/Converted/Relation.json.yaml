@@ -122,7 +122,7 @@
   - splitPath: Desc
     subIndex: 4
     text: "钟离雪友好度未到达60时，探索钓鳌矶可与钟离雪钓鱼"
-    translated: "When Zhongli Xue's friendliness has not reached 60, you can fish with Zhongli Xue at Fishing Rock."
+    translated: "When Zhongli Xue's affinity has not reached 60, exploring Diao Aoji allows you to go fishing with Zhongli Xue."
   - splitPath: Desc
     subIndex: 5
     text: "可重复"
@@ -132,7 +132,7 @@
     translated: "Join the Dongting Sect. Starting from the fourth year in April, first explore Long Dragon Mouth and meet Zhongli Xue, then explore Fishing Platform to make acquaintance."
   - splitPath: RepeatDesc
     text: "钟离雪友好度未到达60时，探索钓鳌矶可与钟离雪钓鱼"
-    translated: "When Zhongli Xue's friendliness has not reached 60, you can fish with Zhongli Xue at Fishing Rock."
+    translated: "When Zhongli Xue's affinity has not reached 60, exploring Diao Aoji allows you to go fishing with Zhongli Xue."
   - splitPath: GuidDescList[0]
     text: "探索钓鳌矶钟离雪找大黄狗玩（非必要）。"
     translated: "Explore Jiao Ao Ji and find Zhongli Xue to play with the big yellow dog (not necessary)."
@@ -164,7 +164,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "项开山加入后，探索湘东遇罗元庆招揽。"
-    translated: "After Xiang Kaishan joined, the team encountered Luo Yuanqing who was recruiting in Xiangdong."
+    translated: "After Xiang Kaishan joined, exploring Xiangdong led to encountering Luo Yuanqing's recruitment."
   - splitPath: Desc
     subIndex: 3
     text: "探索湘东树林战胜挑战招揽的陆彦平、高君可二人"
@@ -179,7 +179,7 @@
   - splitPath: LockDesc
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: LockDesc
     subIndex: 2
     text: "在项欺霜加入前触发黄鹤楼挑战项开山事件，将无法触发此红颜事件。"
@@ -192,7 +192,7 @@
     translated: "Explore Yellow Crane Tower to challenge and defeat Xiang Kaishan."
   - splitPath: GuidDescList[2]
     text: "项开山加入后，探索湘东遇罗元庆招揽。"
-    translated: "After Xiang Kaishan joined, the team encountered Luo Yuanqing who was recruiting in Xiangdong."
+    translated: "After Xiang Kaishan joined, the exploration of Xiangdong encountered Luo Yuanqing's recruitment efforts."
   - splitPath: GuidDescList[3]
     text: "探索湘东树林战胜挑战招揽的陆彦平、高君可二人。"
     translated: "Explore the forests in Xiangdong and defeat the challenges to recruit Lu Yanping and Gao Junke."
@@ -202,7 +202,7 @@
   - splitPath: GuidDescList[4]
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: GuidDescList[4]
     subIndex: 2
     text: "在项欺霜加入前触发黄鹤楼挑战项开山事件，将无法解锁项欺霜红颜。"
@@ -260,7 +260,7 @@
   - splitPath: RepeatDesc
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: RepeatDesc
     subIndex: 2
     text: "在阮碧青加入前触发九嶷山异蛇王事件，将无法解锁阮碧青红颜"
@@ -425,7 +425,7 @@
   - splitPath: Desc
     subIndex: 1
     text: "探索荆北神农谷带着连翘儿向连山谷请罪"
-    translated: "Exploring Jingbei Shenngong Valley, Lian Qiaoer accompanies Lian Shangu to offer apologies."
+    translated: "Exploring Jingbei, I brought Lian Qiaoer to Lian Shangu to apologize."
   - splitPath: Desc
     subIndex: 2
     text: "任意一年四月探索神农谷遇到金枝连翘开花，得知连翘儿有三个愿望，连翘花开第一个愿望"
@@ -450,7 +450,7 @@
     translated: "Explore the Tavern in Jingdong and consume Lian Qiaoer's seven‑spice beans."
   - splitPath: GuidDescList[1]
     text: "探索荆北神农谷带着连翘儿向连山谷请罪"
-    translated: "Exploring Jingbei Shenngong Valley, Lian Qiaoer accompanies Lian Shangu to offer apologies."
+    translated: "Exploring Jingbei, I brought Lian Qiaoer to Lian Shangu to apologize."
   - splitPath: GuidDescList[2]
     text: "任意一年四月探索神农谷遇到金枝连翘开花，得知连翘儿有三个愿望，连翘花开第一个愿望。"
     translated: "Explore the Shennong Valley in any year during April to encounter Golden Branch Forsythia in bloom. According to this, Lian Qiaoer has three wishes, and the first wish comes true when the forsythia blooms."
@@ -770,26 +770,26 @@
     translated: "Xue Ruyi"
   - splitPath: Desc
     text: "探索荆南战胜薛宫得知九龙牌秘密。"
-    translated: "Explore Jingnan and defeat Xue Gong to uncover the secrets of the Nine‑Dragon Tiles."
+    translated: "Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token."
   - splitPath: Desc
     subIndex: 1
     text: "探索荆南破庙露宿获取睚眦铜牌。"
-    translated: "Explore the Broken Temple in Jingnan, spend the night there, and obtain the Yazhi Bronze Plaque."
+    translated: "Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque."
   - splitPath: Desc
     subIndex: 2
     text: "探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖。"
-    translated: "Explore Jingnan to uncover a treasure cave. After defeating Liu Jin, both he and Xue Ruyi fall off a cliff."
+    translated: "Exploring Jingnan and uncovering the treasure cave, after defeating Liu Jin, both Liu Jin and Xue Ruyi fell off the cliff."
   - splitPath: Desc
     subIndex: 3
     text: "探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
-    translated: "Explore Jingnan and reencounter Xue Ruyi. Go together to Liu Jin's treasury and unlock Xue Ruyi's maiden status."
+    translated: "Exploring Jingnan and encountering Xue Ruyi again, go together to Liu Jin's treasure to unlock Xue Ruyi's romance."
   - splitPath: LockDesc
     text: "获取七枚九龙铜牌后，探索荆南，遇到行脚商高五，再次探索荆南花费一千钱购买屃赑铜牌，并选择不转让给薛宫，此后再次探索荆南树林中遇到薛宫袭击，将其击败后结识。"
     translated: "After obtaining seven Xi Bi Bronze Plaques, explore Jingnan and encounter the itinerant merchant Gao Wu. Re‑explore Jingnan again to spend one thousand Coin to purchase another Xi Bi Bronze Plaque and choose not to transfer it to Xue Gong. Thereafter, you will encounter Xue Gong's attack in the Jingnan woods. Defeat him and subsequently become acquainted."
   - splitPath: LockDesc
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: LockDesc
     subIndex: 2
     text: "九龙铜牌获取方法见侠客图鉴，结识薛如意需要的七枚铜牌为"
@@ -800,16 +800,16 @@
     translated: "Chiwen Bronze Plaque, Taotie Bronze Plaque, Centipede Viper Bronze Plaque, Jiao Tu Bronze Plaque, Jin Ni Bronze Plaque, Pulao Bronze Plaque, and Bi''an Bronze Plaque."
   - splitPath: GuidDescList[0]
     text: "探索荆南战胜薛宫得知九龙牌秘密。"
-    translated: "Explore Jingnan and defeat Xue Gong to uncover the secrets of the Nine‑Dragon Tiles."
+    translated: "Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token."
   - splitPath: GuidDescList[1]
     text: "探索荆南破庙露宿获取睚眦铜牌。"
-    translated: "Explore the Broken Temple in Jingnan, spend the night there, and obtain the Yazhi Bronze Plaque."
+    translated: "Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque."
   - splitPath: GuidDescList[2]
     text: "探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖。"
-    translated: "Explore Jingnan to uncover a treasure cave. After defeating Liu Jin, both he and Xue Ruyi fall off a cliff."
+    translated: "Exploring Jingnan and uncovering the treasure cave, after defeating Liu Jin, both Liu Jin and Xue Ruyi fell off the cliff."
   - splitPath: GuidDescList[3]
     text: "探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
-    translated: "Explore Jingnan and reencounter Xue Ruyi. Go together to Liu Jin's treasury and unlock Xue Ruyi's maiden status."
+    translated: "Exploring Jingnan and encountering Xue Ruyi again, go together to Liu Jin's treasure to unlock Xue Ruyi's romance."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}"
@@ -827,15 +827,15 @@
   - splitPath: Desc
     subIndex: 1
     text: "探索湘北了解风间爱身世。"
-    translated: "Explore Shanghu to uncover the backstory of Kazama Ai."
+    translated: "Explore Xiangbei to uncover Kazama Ai's background"
   - splitPath: Desc
     subIndex: 2
     text: "探索湘北战胜神保清长。"
-    translated: "Explore Xiangbei and defeat Shenbao Qingchang"
+    translated: "Explore Xiangbei to defeat Shenbao Qingchang"
   - splitPath: Desc
     subIndex: 3
     text: "探索湘北战胜伴七郎，解锁风间爱红颜。"
-    translated: "Explore Xiangbei to defeat Ban Qilang and unlock Kazama Ai, the maiden."
+    translated: "Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai as a Red Rose."
   - splitPath: LockDesc
     text: "第四年一月开始，两次探索湘北帮助扶桑少女，第一次福缘到达70，第二次财富到达300，第六年一月开始探索湘北战胜鸟居翔太结识。"
     translated: "Starting in the fourth year of January, he embarked on two explorations of Xiangbei to assist a Shinto maiden. The first time, his luck reached 70; the second time, his wealth reached 300. In the sixth year of January, he began exploring Xiangbei and defeated Xiaotouji Xiaoxiangtai, thereby making acquaintances with them."
@@ -844,13 +844,13 @@
     translated: "In January of the sixth year, they began exploring northern Hunan Province to defeat Kage Shouta and rescue Kazama Ai."
   - splitPath: GuidDescList[1]
     text: "探索湘北了解风间爱身世。"
-    translated: "Explore Shanghu to uncover the backstory of Kazama Ai."
+    translated: "Explore Xiangbei to uncover Kazama Ai's background"
   - splitPath: GuidDescList[2]
     text: "探索湘北战胜神保清长。"
-    translated: "Explore Xiangbei and defeat Shenbao Qingchang"
+    translated: "Explore Xiangbei to defeat Shenbao Qingchang"
   - splitPath: GuidDescList[3]
     text: "探索湘北战胜伴七郎，解锁风间爱红颜。"
-    translated: "Explore Xiangbei to defeat Ban Qilang and unlock Kazama Ai, the maiden."
+    translated: "Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai as a Red Rose."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}\\n④{3}"
@@ -862,34 +862,34 @@
     translated: "Kazama Yue"
   - splitPath: Desc
     text: "探索湘北遇到风间月刺杀并战胜。"
-    translated: "Exploring Xiangbei, I encountered Kazama Yue's assassination attempt and defeated him."
+    translated: "Exploring Xiangbei, I encountered and defeated Kazama Yue's assassination attempt."
   - splitPath: Desc
     subIndex: 1
     text: "探索湘北在吕霸先和呼摩勒手中救下风间夜、风间月。"
-    translated: "Explore Xiangbei to rescue Kazama Ye and Kazama Yue from Lu Baxian and Hu Mole."
+    translated: "Exploring Xiangbei, Kazama Ye and Kazama Yue were saved from the hands of Lu Baxian and Hu Mole."
   - splitPath: Desc
     subIndex: 2
     text: "探索湘北风间爱、风间月夜话。"
-    translated: "Explore Kazama Ai and Kazama Yue's tales under the moonlit night in Xiangbei."
+    translated: "Explore Xiangbei with Kazama Ai, and spend a moonlit night chatting with Kazama Yue."
   - splitPath: Desc
     subIndex: 3
     text: "探索湘北风间月池边倾慕，解锁风间月红颜。"
-    translated: "Explore by the poolside of Xiangbei Kazama Month to unlock Kazama Yue, the lady of grace."
+    translated: "Explore by the poolside near Northern Xiang Kazama Yue, unlock Kazama Yue's affection."
   - splitPath: LockDesc
     text: "第八年一月开始，粉碎至少两次宁王阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂，且队伍中拥有红颜风间爱，再次探索湘北遇到风间月刺杀结识。"
     translated: "Starting in the eighth year of January, they began to crush at least twice the plots of the Peaceful King. They explored northern Hunan and won three consecutive battles, disrupting the Peaceful King's arena. Additionally, their team included a beauty named Kazama Ai, which led them to explore northern Hunan again where they met Kazama Yue in an assassination attempt."
   - splitPath: GuidDescList[0]
     text: "探索湘北遇到风间月刺杀并战胜。"
-    translated: "Exploring Xiangbei, I encountered Kazama Yue's assassination attempt and defeated him."
+    translated: "Exploring Xiangbei, I encountered and defeated Kazama Yue's assassination attempt."
   - splitPath: GuidDescList[1]
     text: "探索湘北在吕霸先和呼摩勒手中救下风间夜、风间月。"
-    translated: "Explore Xiangbei to rescue Kazama Ye and Kazama Yue from Lu Baxian and Hu Mole."
+    translated: "Exploring Xiangbei, Kazama Ye and Kazama Yue were saved from the hands of Lu Baxian and Hu Mole."
   - splitPath: GuidDescList[2]
     text: "探索湘北风间爱、风间月夜话。"
-    translated: "Explore Kazama Ai and Kazama Yue's tales under the moonlit night in Xiangbei."
+    translated: "Explore Xiangbei with Kazama Ai, and spend a moonlit night chatting with Kazama Yue."
   - splitPath: GuidDescList[3]
     text: "探索湘北风间月池边倾慕，解锁风间月红颜。"
-    translated: "Explore by the poolside of Xiangbei Kazama Month to unlock Kazama Yue, the lady of grace."
+    translated: "Explore by the poolside of Kazama Yue at Xiangbei, and unlock Kazama Yue's affection."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}\\n④{3}"
@@ -940,27 +940,27 @@
     translated: "Tang Yaoya"
   - splitPath: Desc
     text: "第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。"
-    translated: "Starting in January of the fifth year, explore the Comfortable Nest and uncover the secrets of Celestial Silkworm Silk."
+    translated: "In January of the fifth year, I began exploring the Comfortable Nest and discovered the secrets of silk worm thread."
   - splitPath: Desc
     subIndex: 1
     text: "福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。"
-    translated: "Luck has reached 180. Explore the Mysterious Soul Ditch in Western Sichuan to find heaven silkworm silk and cloud iron."
+    translated: "Your Luck has reached 180. Explore Western Sichuan to find Silk of the Sky Worm and Cloud Iron in the Confounding Marsh."
   - splitPath: Desc
     subIndex: 2
     text: "匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。"
-    translated: "Craftsmanship Arrival: Master, explore Thousand Mechanism Workshop. After forging Qianyu Qianxun for Tang Yaoyao, unlock Tang Yaoyao's Feminine Charm."
+    translated: "Crafting reaches Master level, explore the Thousand Mechanisms Workshop, and unlock Tang YaoYao's Red Romance after forging Thousand Feathers, Thousand Seekings for her."
   - splitPath: LockDesc
     text: "加入唐门，第三年一月开始，贡献到达20，探索安乐窝听到唐幺幺与唐纵吵架，此后探索演武场，和闹事的唐幺幺进行战斗，最后探索后山，为唐幺幺治腿结识。"
     translated: "Join the Tang Clan. Starting from January of the third year, when contributions reach 20, exploration of the Comfortable Nest reveals a quarrel between Tang Yaoya and Tang Zong. Thereafter, exploration of the Martial Arts Arena involves fighting the disruptive Yaoya. Finally, exploration of the back mountain leads to treating Yaoya's leg injury, where the two become acquainted."
   - splitPath: GuidDescList[0]
     text: "第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。"
-    translated: "Starting in January of the fifth year, explore the Comfortable Nest and uncover the secrets of Celestial Silkworm Silk."
+    translated: "In January of the fifth year, I began exploring Anle Cave and discovered the secrets of silk worm thread."
   - splitPath: GuidDescList[1]
     text: "福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。"
-    translated: "Luck has reached 180. Explore the Mysterious Soul Ditch in Western Sichuan to find heaven silkworm silk and cloud iron."
+    translated: "Your Luck has reached 180. Explore Western Sichuan to find Silk of the Celestial Silkworm and Cloud Iron in the Confounding Marsh."
   - splitPath: GuidDescList[2]
     text: "匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。"
-    translated: "Craftsmanship Arrival: Master, explore Thousand Mechanism Workshop. After forging Qianyu Qianxun for Tang Yaoyao, unlock Tang Yaoyao's Feminine Charm."
+    translated: "Crafting reached Master level. Explore the Thousand Mechanisms Workshop and forge Thousand Feathers, Thousand Seekings for Tang Yao Yao to unlock Tang Yao Yao as a Red Rose."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}"
@@ -972,27 +972,27 @@
     translated: "Wuyunfeng"
   - splitPath: Desc
     text: "探索神女宫，随巫云凤找黑白无常报仇。"
-    translated: "Explore the Temple of the Goddess, follow Wu Yunfeng to seek revenge on Black and White Immortals."
+    translated: "Explore the Shrine of the Divine Maiden, and accompany Wu Yunfeng to seek revenge on the King and Queen of Darkness."
   - splitPath: Desc
     subIndex: 1
     text: "探索神女宫，受到巫云凤惩罚。"
-    translated: "Explore the Temple of the Goddess and face punishment from Wu Yunfeng."
+    translated: "Exploring the Shrine of the Divine Maidens, I was punished by Wu Yunfeng."
   - splitPath: Desc
     subIndex: 2
     text: "探索神女宫，表白巫云凤，解锁巫云凤红颜。"
-    translated: "Explore the Goddess Palace, confess to Wu Yunfeng, and unlock Wu Yunfeng's feminine charm."
+    translated: "Explore the Shrine of the Divine Maiden, confess to Wu Yunfeng, and unlock Wu Yunfeng as a beloved."
   - splitPath: LockDesc
     text: "解锁萧雪雁和沈青鸬红颜后，财富到达4000，探索川东丰都鬼市，购买寒峰冬青，此后两次探索神女宫，向巫云凤提供三株奇药，在三帮四寨威逼神女宫时，巫云凤出关收服三帮四寨后结识。"
     translated: "After unlocking Xiao Xueyan and Shen Qinglu, your wealth reaches 4000. Explore Dongfeng Fungu Ghost Market in Eastern Sichuan, purchase Cold Peak Wintercress, and thereafter, explore the Goddess Palace twice, providing Witch Wunfeng with three rare medicines. After the three gangs and four villages besiege the Goddess Palace, Witch Wunfeng emerges from seclusion to subdue the three gangs and four villages, and you meet her."
   - splitPath: GuidDescList[0]
     text: "探索神女宫，随巫云凤找黑白无常报仇。"
-    translated: "Explore the Temple of the Goddess, follow Wu Yunfeng to seek revenge on Black and White Immortals."
+    translated: "Explore the Shrine of the Divine Maiden, and accompany Wu Yunfeng to seek revenge on the King and Queen of Darkness."
   - splitPath: GuidDescList[1]
     text: "探索神女宫，受到巫云凤惩罚。"
-    translated: "Explore the Temple of the Goddess and face punishment from Wu Yunfeng."
+    translated: "Exploring the Shrine of the Divine Maidens, I was punished by Wu Yunfeng."
   - splitPath: GuidDescList[2]
     text: "探索神女宫，表白巫云凤，解锁巫云凤红颜。"
-    translated: "Explore the Goddess Palace, confess to Wu Yunfeng, and unlock Wu Yunfeng's feminine charm."
+    translated: "Explore the Shrine of the Divine Maiden, confess to Wu Yunfeng, and unlock Wu Yunfeng as a beloved."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}"
@@ -1004,34 +1004,34 @@
     translated: "Think about it some more"
   - splitPath: Desc
     text: "探索神女宫，和萧雪雁了解朝云司。"
-    translated: "Explore the Goddess Shrine and get to know the Morning Cloud Office with Xiao Xueyan."
+    translated: "Explore the Shrine of the Divine Maidens and talk to Xiao Xueyan about the Bureau of Morning Clouds."
   - splitPath: Desc
     subIndex: 1
     text: "第七年一月开始，探索神女宫，得到玉珠重楼的消息。"
-    translated: "In January of the seventh year, exploration of the Temple of the Goddess began, and news of the jade bead Zhonglou was received."
+    translated: "Starting in January of the seventh year, I began exploring the Shrine of the Divine Maiden and received news about the Jade Pearl Tower."
   - splitPath: Desc
     subIndex: 2
     text: "探索川南，探寻萧家消息。"
-    translated: "Explore the southern part of Chu, searching for news about the Xiao family."
+    translated: "Explore Southern Sichuan to gather information about the Xiao family."
   - splitPath: Desc
     subIndex: 3
     text: "财富大于3000，探索川南，萧府认亲，解锁萧雪雁红颜。"
-    translated: "Wealth greater than 3000, explore Chuannan, recognize kinship with Xiao Family, unlock Xiao Xueyan as a romance interest."
+    translated: "Wealth exceeds 3000, explore southern Sichuan, meet the Xiao family, unlock Red Beauty Xiao Xueyan."
   - splitPath: LockDesc
     text: "第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后结识。"
     translated: "Starting in January of the sixth year, Luck arrives at 120. During exploration in Eastern Sichuan, Bai Kaitai is punished. Luck then encounters Black and White Yama during another exploration of Eastern Sichuan. Luck informs Wu Yinfeng of this. Ultimately, Luck explores the Temple of the Goddess, escorting Wu Yinfeng back to the Temple of the Goddess, where Wu Yinfeng secludes herself and befriends Luck."
   - splitPath: GuidDescList[0]
     text: "探索神女宫，和萧雪雁了解朝云司。"
-    translated: "Explore the Goddess Shrine and get to know the Morning Cloud Office with Xiao Xueyan."
+    translated: "Explore the Shrine of the Divine Maiden and talk to Xiao Xueyan about the Bureau of Morning Clouds."
   - splitPath: GuidDescList[1]
     text: "第七年一月开始，探索神女宫，得到玉珠重楼的消息。"
-    translated: "In January of the seventh year, exploration of the Temple of the Goddess began, and news of the jade bead Zhonglou was received."
+    translated: "Starting in January of the seventh year, I began exploring the Shrine of the Divine Maiden and received news about the Jade Pearl Tower."
   - splitPath: GuidDescList[2]
     text: "探索川南，探寻萧家消息。"
-    translated: "Explore the southern part of Chu, searching for news about the Xiao family."
+    translated: "Explore Southern Sichuan to gather news about the Xiao family."
   - splitPath: GuidDescList[3]
     text: "财富大于3000，探索川南，萧府认亲，解锁萧雪雁红颜。"
-    translated: "Wealth greater than 3000, explore Chuannan, recognize kinship with Xiao Family, unlock Xiao Xueyan as a romance interest."
+    translated: "Wealth exceeds 3000, explore southern Sichuan, meet the Xiao family, unlock Red Beauty Xiao Xueyan."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}"
@@ -1043,41 +1043,41 @@
     translated: "Shen Qinglu"
   - splitPath: Desc
     text: "探索神女宫，和沈青鸬了解暮雨司。"
-    translated: "Explore the Temple of the Goddess and learn about the Evening Rain Office from Shen Qinglu."
+    translated: "Explore the Shrine of the Divine Maiden and talk to Shen Qinghu about the Rainfall Bureau."
   - splitPath: Desc
     subIndex: 1
     text: "第七年一月开始，探索神女宫，得到赤纹芍药的消息。"
-    translated: "In January of the seventh year, exploration of the Temple of the Goddess began, and news of the Crimson Vein Peony was received."
+    translated: "Starting in January of the seventh year, I began exploring the Shrine of the Divine Maiden and received news about the Scarlet‑Vein Peony."
   - splitPath: Desc
     subIndex: 2
     text: "财富到达200，探索川西，打探谷大升消息。"
-    translated: "Wealth has arrived at 200, explore western Sichuan, and inquire about Valley Da Sheng's whereabouts."
+    translated: "Wealth reached 200, explore Western Sichuan, and inquire about Gu Da‑sheng's news."
   - splitPath: Desc
     subIndex: 3
     text: "探索神女宫，定下劫取谷大升赤纹芍药的计策。"
-    translated: "Explore the Temple of the Goddess and devise a plan to raid Valley Da Sheng for the vermilion‑striped peony."
+    translated: "Explore the Shrine of the Divine Maiden and devise a plan to steal the Crimson Patterned Peony from Gu Da‑sheng."
   - splitPath: Desc
     subIndex: 4
     text: "探索川东，击败洪通和封百水，劫船获取赤纹芍药。"
-    translated: "Explore Eastern Sichuan, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Scarlet Vein Paeonia."
+    translated: "Explore Eastern Sichuan, defeat Hong Tong and Feng Baishui, and hijack a ship to obtain the Crimson Patterned Peony."
   - splitPath: LockDesc
     text: "第六年一月开始，福缘到达120，探索川东遇到白开泰被惩治，再次探索川东遇到黑白无常埋伏巫云凤，向巫云凤报信，最后探索神女宫，将巫云凤护送回神女宫后，巫云凤闭关托付神女宫后结识。"
     translated: "Starting in January of the sixth year, Luck arrives at 120. During exploration in Eastern Sichuan, Bai Kaitai is punished. Luck then encounters Black and White Yama during another exploration of Eastern Sichuan. Luck informs Wu Yinfeng of this. Ultimately, Luck explores the Temple of the Goddess, escorting Wu Yinfeng back to the Temple of the Goddess, where Wu Yinfeng secludes herself and befriends Luck."
   - splitPath: GuidDescList[0]
     text: "探索神女宫，和沈青鸬了解暮雨司。"
-    translated: "Explore the Temple of the Goddess and learn about the Evening Rain Office from Shen Qinglu."
+    translated: "Explore the Shrine of the Divine Maidens and learn about the Rainfall Bureau from Shen Qinghu."
   - splitPath: GuidDescList[1]
     text: "第七年一月开始，探索神女宫，得到赤纹芍药的消息。"
-    translated: "In January of the seventh year, exploration of the Temple of the Goddess began, and news of the Crimson Vein Peony was received."
+    translated: "In January of the seventh year, I began exploring the Shrine of the Divine Maiden and received news about the Scarlet‑veined Peony."
   - splitPath: GuidDescList[2]
     text: "财富到达200，探索川西，打探谷大升消息。"
-    translated: "Wealth has arrived at 200, explore western Sichuan, and inquire about Valley Da Sheng's whereabouts."
+    translated: "Wealth reached 200, explore Western Sichuan, and inquire about Gu Da‑sheng's news."
   - splitPath: GuidDescList[3]
     text: "探索神女宫，定下劫取谷大升赤纹芍药的计策。"
-    translated: "Explore the Temple of the Goddess and devise a plan to raid Valley Da Sheng for the vermilion‑striped peony."
+    translated: "Explore the Shrine of the Divine Maiden and devise a plan to steal the Red Patterned Peony from Gu Da‑sheng."
   - splitPath: GuidDescList[4]
     text: "探索川东，击败洪通和封百水，劫船获取赤纹芍药。"
-    translated: "Explore Eastern Sichuan, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Scarlet Vein Paeonia."
+    translated: "Explore Eastern Sichuan, defeat Hong Tong and Feng Baishui, and board a ship to seize the Crimson Patterned Peony."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}⑤{4}"
@@ -1089,11 +1089,11 @@
     translated: "Think about it some more"
   - splitPath: Desc
     text: "探索川东，游历巫山。"
-    translated: "Explore eastern Sichuan and tour Wushan"
+    translated: "Explore the eastern part of the river, and travel through Wushan."
   - splitPath: Desc
     subIndex: 1
     text: "探索川西，游历峨眉山。"
-    translated: "Explore Western Sichuan and wander through Mount Emei."
+    translated: "Explore Western Sichuan and visit Mount Emei"
   - splitPath: Desc
     subIndex: 2
     text: "探索川中，游历剑阁，遇到夏南屏报信。"
@@ -1101,22 +1101,22 @@
   - splitPath: Desc
     subIndex: 3
     text: "探索川西罨画池，战胜缪辟邪，解锁李云裳。"
-    translated: "Explore the West Sichuan Imaptial Pool, defeat Mou Piyue, and unlock Li Yuxiang."
+    translated: "Explore Cuanxi Yanhu Pool, defeat Miao Pixie, unlock Li Yunchang."
   - splitPath: LockDesc
     text: "第五年一月开始，福缘到达120，探索川西开启罨画池，探索罨画池，战胜夏南屏、褚良玉、江惟远三人后加入。"
     translated: "Starting in January of the fifth year, Luck arrives at 120, exploring the West Sichuan region to begin the investigation of the Ink‑and‑Wash Pool. After exploring the Ink‑and‑Wash Pool and defeating Xia Nanping, Chu Liangyu, and Jiang Weiyuan, they join in."
   - splitPath: GuidDescList[0]
     text: "探索川东，游历巫山。"
-    translated: "Explore eastern Sichuan and tour Wushan"
+    translated: "Explore the eastern part of the river, and travel through Wushan."
   - splitPath: GuidDescList[1]
     text: "探索川西，游历峨眉山。"
-    translated: "Explore Western Sichuan and wander through Mount Emei."
+    translated: "Explore Western Sichuan and visit Mount Emei"
   - splitPath: GuidDescList[2]
     text: "探索川中，游历剑阁。"
     translated: "Explore Central Sichuan and wander through the Sword Gate."
   - splitPath: GuidDescList[3]
     text: "探索川西罨画池，战胜缪辟邪，解锁李云裳。"
-    translated: "Explore the West Sichuan Imaptial Pool, defeat Mou Piyue, and unlock Li Yuxiang."
+    translated: "Explore Wanyuhu Pool in Western Sichuan, defeat Miao Pixie, and unlock Li Yunchang."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}"
@@ -1128,34 +1128,34 @@
     translated: "Think about it some more"
   - splitPath: Desc
     text: "探索川西，带诸葛慧逛成都庙会。"
-    translated: "Explore Western Sichuan with Zhuo Zhenghui and wander the Chengdu Lantern Festival."
+    translated: "Explore Western Sichuan and take Zhuge Hui to the Chengdu temple fair."
   - splitPath: Desc
     subIndex: 1
     text: "探索汉昭烈庙，诸葛慧回礼木狗。"
-    translated: "Explore the Han Zhao Lie Temple and receive a gift from Zhuge Hui, the Wooden Dog."
+    translated: "Exploring the Temple of Emperor Xian of Han, Zhuge Hui returns a gift to Wu Gou."
   - splitPath: Desc
     subIndex: 2
     text: "第五年一月开始，探索汉昭烈庙，与诸葛慧一同放飞孔明灯。"
-    translated: "Starting in January of the fifth year, explore the Han Zhao Li Temple and release Kong Ming lanterns with Zhuge Hui."
+    translated: "Starting in January of the fifth year, explore the Han Zhao Lie Temple and release sky lanterns with Zhuge Hui."
   - splitPath: Desc
     subIndex: 3
     text: "体魄和灵活两项到达120，探索川中，寻找异种铁橡，解锁诸葛慧红颜。"
-    translated: "Resilience and flexibility both reach 120. Explore Central Sichuan, find the strange ironwood, and unlock Zhu Geliang's Female Brilliance."
+    translated: "Resilience and Flexibility have reached 120. Explore the region to find a rare iron oak and unlock Zhuge Hui's Red Jade."
   - splitPath: LockDesc
     text: "在川西汉昭烈庙初遇诸葛慧后，财富到达100，再次探索汉昭烈庙，选择跟顽童换木鸢并交还诸葛慧后加入。"
     translated: "Upon our initial meeting with Zhu Ge Hui at the Han Zhao Lie Temple in Western Sichuan, our wealth reached 100. We then explored the Han Zhao Lie Temple again, chose to trade the wooden kite with the mischievous child, and returned to join Zhu Ge Hui."
   - splitPath: GuidDescList[0]
     text: "探索川西，带诸葛慧逛成都庙会。"
-    translated: "Explore Western Sichuan with Zhuo Zhenghui and wander the Chengdu Lantern Festival."
+    translated: "Explore Western Sichuan and take Zhuge Hui to the Chengdu temple fair."
   - splitPath: GuidDescList[1]
     text: "探索汉昭烈庙，诸葛慧回礼木狗。"
-    translated: "Explore the Han Zhao Lie Temple and receive a gift from Zhuge Hui, the Wooden Dog."
+    translated: "Exploring the Temple of Emperor Han Zhao Lie, Zhuge Hui returns a gift to the Wooden Dog."
   - splitPath: GuidDescList[2]
     text: "第五年一月开始，探索汉昭烈庙，与诸葛慧一同放飞孔明灯。"
-    translated: "Starting in January of the fifth year, explore the Han Zhao Li Temple and release Kong Ming lanterns with Zhuge Hui."
+    translated: "Starting in January of the fifth year, explore the Han Zhao Lie Temple and release sky lanterns with Zhuge Hui. Han Zhao Lie Temple If there's a specific name for this temple in English, please provide it for an accurate translation.)"
   - splitPath: GuidDescList[3]
     text: "体魄和灵活两项到达120，探索川中，寻找异种铁橡，解锁诸葛慧红颜。"
-    translated: "Resilience and flexibility both reach 120. Explore Central Sichuan, find the strange ironwood, and unlock Zhu Geliang's Female Brilliance."
+    translated: "Resilience and Flexibility have reached 120. Explore the valley to find a rare iron oak and unlock Zhuge Hui's Red Jade."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}"
@@ -1167,41 +1167,41 @@
     translated: "Think about it some more"
   - splitPath: Desc
     text: "探索浣花庐，与邵轻虹辞别郜春风带方逸飞一同外出历练。"
-    translated: "Explore the Wanjialou and bid farewell to Sha Qinghong as Gao Chunfeng takes Fang Yifei out for training together."
+    translated: "Explore the Huanhua Study and bid farewell to Shao Qinghong. Gao Chunfeng will go out for training, taking Fang Yifei along with him."
   - splitPath: Desc
     subIndex: 1
     text: "探索川西，途径青城山讲解青城派。"
-    translated: "Explore Western Sichuan, passing through Qingcheng Mountain to learn about the Qingcheng Sect."
+    translated: "Explore western Sichuan, passing through Qingcheng Mountain and explaining the Qingcheng Sect."
   - splitPath: Desc
     subIndex: 2
     text: "探索川东，途径四方山讲解唐门。"
-    translated: "Explore Eastern Sichuan and pass through Four Directions Mountain to learn about the Tang Clan."
+    translated: "Exploring eastern Sichuan, passing through the Four Directions Mountain, explaining the Tang Clan."
   - splitPath: Desc
     subIndex: 3
     text: "第七年一月开始，探索川西战胜幽冥道都市王樊荡秽。"
-    translated: "In January of the seventh year, they began exploring the Wu Xi region to defeat the Pandanghui, the Demon Way Urban King."
+    translated: "Starting in January of the seventh year, explore Western Sichuan and defeat the Dark Path City Lord Fan Tang Hui."
   - splitPath: Desc
     subIndex: 4
     text: "探索川西遇都市王樊荡秽拦路，郜春风击杀樊荡秽，解锁邵轻虹红颜。"
-    translated: "Exploring Western Sichuan, Feng Danghui blocks our path. Gao Chunfeng kills Feng Danghui, unlocking Shao Qinghong as a red‑cloaked beauty."
+    translated: "Exploring Western Sichuan, encountering the Urban King Fan Danghui blocking the way. Gao Chunfeng killed Fan Danghui, unlocking the affection of Shao Qinghong."
   - splitPath: LockDesc
     text: "第四年一月后，探索川西，遇到山贼被邵轻虹相救后，再次探索川西击败岑嵩，此后开放浣花庐，浣花派友好到达30后，再次探访浣花庐对战邵轻虹，输赢都可，此后再次探索川西，在浣花溪后开解心结后结识。"
     translated: "After the fourth year of January, exploring Western Sichuan, encountering bandits and being saved by Shao Qinghong, I again explored Western Sichuan and defeated Chen Song. Thereafter, the Wenhua Hall opened, and upon the friendly arrival of the Wenhua sect after the Wenhua Hall, I revisited the Wenhua Hall to battle Shao Qinghong; the outcome of the battle would be up to chance. Thereafter, I once again explored Western Sichuan, resolving my inner conflicts by the Wenhua Stream, and came to know them. 30"
   - splitPath: GuidDescList[0]
     text: "探索浣花庐，与邵轻虹辞别郜春风带方逸飞一同外出历练。"
-    translated: "Explore the Wanjialou and bid farewell to Sha Qinghong as Gao Chunfeng takes Fang Yifei out for training together."
+    translated: "Explore the Huanhua Study and bid farewell to Shao Qinghong. Gao Chunfeng takes Fang Yifei along for some worldly experience outside."
   - splitPath: GuidDescList[1]
     text: "探索川西，途径青城山讲解青城派。"
-    translated: "Explore Western Sichuan, passing through Qingcheng Mountain to learn about the Qingcheng Sect."
+    translated: "Exploring western Sichuan, passing through Qingcheng Mountain, explaining the Qingcheng Sect."
   - splitPath: GuidDescList[2]
     text: "探索川东，途径四方山讲解唐门。"
-    translated: "Explore Eastern Sichuan and pass through Four Directions Mountain to learn about the Tang Clan."
+    translated: "Explore the eastern part of Sichuan, passing through Mount Sifang and learning about the Tang Clan."
   - splitPath: GuidDescList[3]
     text: "第七年一月开始，探索川西战胜幽冥道都市王樊荡秽。"
-    translated: "In January of the seventh year, they began exploring the Wu Xi region to defeat the Pandanghui, the Demon Way Urban King."
+    translated: "Starting in January of the seventh year, explore Western Sichuan and defeat the Dark Path City Lord Fan Tang Hui."
   - splitPath: GuidDescList[4]
     text: "探索川西遇都市王樊荡秽拦路，郜春风击杀樊荡秽，解锁邵轻虹红颜。"
-    translated: "Exploring Western Sichuan, Feng Danghui blocks our path. Gao Chunfeng kills Feng Danghui, unlocking Shao Qinghong as a red‑cloaked beauty."
+    translated: "Exploring Western Sichuan, encountering the Urban King Fan Danghui blocking the way. Gao Chunfeng killed Fan Danghui and unlocked the affection of Sao Qinghong."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}⑤{4}"
@@ -1213,34 +1213,34 @@
     translated: "Tan Wenshao"
   - splitPath: Desc
     text: "探索洗墨山庄代帮谈文秀写字。"
-    translated: "Explore Ink Washing Villa to help Tan Wenshuo practice writing."
+    translated: "Explore WASHINKU SHANZHUANG to help Wenxiu write"
   - splitPath: Desc
     subIndex: 1
     text: "第六年一月开始，探索洗墨山庄与谈庭玉等一同讨论俏药叉诨号。"
-    translated: "In January of the sixth year, exploration began at Xizhu Villa, and Tan Tingyu and others discussed the mischievous Medicine Fork under various aliases."
+    translated: "Starting in January of the sixth year, explore the Xi Mo Manor and discuss the nickname of Qiao Yaocha with Tan Tingyu and others."
   - splitPath: Desc
     subIndex: 2
     text: "探索川东，为谈文秀打开心结。"
-    translated: "Explore Eastern Sichuan to help Tan Wenshao resolve her heartache."
+    translated: "Explore Eastern Sichuan to help Tan Wenxiu resolve his heartache."
   - splitPath: Desc
     subIndex: 3
     text: "探索洗墨山庄，遇到幽冥道灭庄，击败平等王薛镇恶，解锁谈文秀红颜。"
-    translated: "Explore the Xiemu Villa and encounter the Yinming Daoist Immortal Sect. Defeat Equal King Xie Zhen'e to unlock Tan Wenshou's red envelope."
+    translated: "Exploring Ximo Manor, encountered the Yuming Daoist who destroyed the manor, defeated King Ping Wang Xue Zhen'e, and unlocked Tan Wenshou as a beauty."
   - splitPath: LockDesc
     text: "洗墨山庄友好到达40，翰墨到达精通，探索洗墨山庄听闻谈文秀之女，此后探索川东救下谈文秀，再次探索洗墨山庄加入。"
     translated: "Washing Ink Villa friendship reached 40, Calligraphy reaches proficiency by exploring the Ximen Village and hearing tales of Tang Wenshou's daughter. Afterward, traveling to eastern Sichuan rescues Tang Wenshou and once again explores Ximen Village, joining its community."
   - splitPath: GuidDescList[0]
     text: "探索洗墨山庄代帮谈文秀写字。"
-    translated: "Explore Ink Washing Villa to help Tan Wenshuo practice writing."
+    translated: "Explore WASHINKU SHANZHUANG and help Wenxiu write"
   - splitPath: GuidDescList[1]
     text: "第六年一月开始，探索洗墨山庄与谈庭玉等一同讨论俏药叉诨号。"
-    translated: "In January of the sixth year, exploration began at Xizhu Villa, and Tan Tingyu and others discussed the mischievous Medicine Fork under various aliases."
+    translated: "Starting in January of the sixth year, explore the Xi Mo Manor and discuss the nickname of Qiao Yaochan with Tan Tingyu and others."
   - splitPath: GuidDescList[2]
     text: "探索川东，为谈文秀打开心结。"
-    translated: "Explore Eastern Sichuan to help Tan Wenshao resolve her heartache."
+    translated: "Explore Chuan Dong to help Tan Wenxiu resolve his heartache."
   - splitPath: GuidDescList[3]
     text: "探索洗墨山庄，遇到幽冥道灭庄，击败平等王薛镇恶，解锁谈文秀红颜。"
-    translated: "Explore the Xiemu Villa and encounter the Yinming Daoist Immortal Sect. Defeat Equal King Xie Zhen'e to unlock Tan Wenshou's red envelope."
+    translated: "Exploring Ximo Manor, encountered the Dark Path Sect's destruction of the manor, defeated King Ping Wang Xue Zhen'e, and unlocked Tan Wenshou as a Red Beauty."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}\\n④{3}"
@@ -1252,27 +1252,27 @@
     translated: "Situ Ling"
   - splitPath: Desc
     text: "品尝三种天下美酒后探索川东听闻仙人醉。（湘南胡子酒、湘北桃源酒、荆东伏汁酒、荆北地封酒、川东巴乡清酒其中三种即可）"
-    translated: "After tasting three of the world's fine wines from the eastern part of Sichuan, explore tales of the Immortals' Drunkenness (such as the Southern Hunan Mustache Wine, Northern Hunan Peach Garden Wine, Eastern Hubei Buried Juice Wine, Northern Hubei Earth Sealed Wine, or Eastern Sichuan Ba Xiang Clear Wine)."
+    translated: "After tasting three of the world's finest wines, explore Chuan Dong to hear about the Immortal's intoxication. (Three of Xiang Nan Hu Zi Wine, Xiang Bei Tao Yuan Wine, Jing Dong Fu Ju Wine, Jing Bei Di Feng Wine, and Chuan Dong Ba Xiang Qing Wine will suffice.)"
   - splitPath: Desc
     subIndex: 1
     text: "黄鹤楼挑战成功结识辛无厌后，再次探索黄鹤楼品尝仙人醉。"
-    translated: "After successfully completing the challenge at Yellow Crane Tower and meeting Xin Wuyan, I once again explored the tower to taste Immortal Drunkenness."
+    translated: "After successfully challenging Huanghelou and meeting Xin Wuyan, I explored Huanghelou again to taste the Immortal's Intoxication."
   - splitPath: Desc
     subIndex: 2
     text: "第七年一月开始，探索黄鹤楼品尝古方仙人醉，解锁司徒伶红颜。"
-    translated: "Starting in the seventh Year of the Rat, explore Yellow Crane Tower to taste the ancient formula Immortal Drunk, and unlock Situ Ling, the Crimson Beauty."
+    translated: "Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
   - splitPath: LockDesc
     text: "第五年一月开始探索川东，选择帮助司徒伶，此后再次探索川东结识。"
     translated: "In January of the fifth year, start exploring Chu Dong and choose to help Situ Ling. Afterward, continue exploring Chu Dong to meet more characters."
   - splitPath: GuidDescList[0]
     text: "品尝三种天下美酒后探索川东听闻仙人醉。（湘南胡子酒、湘北桃源酒、荆东伏汁酒、荆北地封酒、川东巴乡清酒其中三种即可）"
-    translated: "After tasting three of the world's fine wines from the eastern part of Sichuan, explore tales of the Immortals' Drunkenness (such as the Southern Hunan Mustache Wine, Northern Hunan Peach Garden Wine, Eastern Hubei Buried Juice Wine, Northern Hubei Earth Sealed Wine, or Eastern Sichuan Ba Xiang Clear Wine)."
+    translated: "After tasting three of the world's finest wines, explore Chuan Dong to hear about the Immortal's intoxication. (Three of the following: Xiang Nan Hu Zi Wine, Xiang Bei Tao Yuan Wine, Jing Dong Fu Ju Wine, Jing Bei Di Feng Wine, and Chuan Dong Ba Xiang Qing Wine.)"
   - splitPath: GuidDescList[1]
     text: "黄鹤楼挑战成功结识辛无厌后，再次探索黄鹤楼品尝仙人醉。"
-    translated: "After successfully completing the challenge at Yellow Crane Tower and meeting Xin Wuyan, I once again explored the tower to taste Immortal Drunkenness."
+    translated: "After successfully challenging Huanghelou and meeting Xin Wuyan, I explored Huanghelou again to taste the Immortal's Intoxication."
   - splitPath: GuidDescList[2]
     text: "第七年一月开始，探索黄鹤楼品尝古方仙人醉，解锁司徒伶红颜。"
-    translated: "Starting in the seventh Year of the Rat, explore Yellow Crane Tower to taste the ancient formula Immortal Drunk, and unlock Situ Ling, the Crimson Beauty."
+    translated: "Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}"
@@ -1284,34 +1284,34 @@
     translated: "Think about it some more"
   - splitPath: Desc
     text: "福缘到达80，探索川中，福禄楼学核桃酥。"
-    translated: "Luck has arrived at 80. Explore Central Jiang, and learn the walnut cookie recipe at Fukulu Pavilion."
+    translated: "Your luck has reached 80. Explore Sichuan and learn how to make walnut cookies at the Fortune Pavilion."
   - splitPath: Desc
     subIndex: 1
     text: "根骨到达80，探索川东，丰庆楼学六赢羊酥。"
-    translated: "Potential reaches 80, explore Chu Dong, and learn Six‑Win Lamb Pastries at Fengqing Pavilion."
+    translated: "Potential has reached 80, explore eastern Sichuan, and learn Six Victory Sheep Paste at the Fengqing Tower."
   - splitPath: Desc
     subIndex: 2
     text: "财富到达800，探索川西，锦芳楼学太白鸭。"
-    translated: "Wealth has arrived at 800, explore West Sichuan, and learn how to make Taibai duck at Jinfang Pavilion."
+    translated: "Wealth reached 800, explore Western Sichuan, and learn Tai Bai Duck at Jin Fang Tower."
   - splitPath: Desc
     subIndex: 3
     text: "探索川南，解锁姜芽红颜。"
-    translated: "Explore Southern Sichuan to unlock Jiangya, the Beauty."
+    translated: "Explore Southern Sichuan, unlock Jiangya Hongyan"
   - splitPath: LockDesc
     text: "第四年一月开始，财富到达800，探索川南，选择帮助姜芽后加入。"
     translated: "Starting in the first Month of the Fourth Year, wealth reaches 800. Explore the southern region of Chu, and join after choosing to help Jiang Ya."
   - splitPath: GuidDescList[0]
     text: "福缘到达80，探索川中，福禄楼学核桃酥。"
-    translated: "Luck has arrived at 80. Explore Central Jiang, and learn the walnut cookie recipe at Fukulu Pavilion."
+    translated: "Luck reached 80, explore Sichuan, and learn Walnut Cookies at Fortune and Rank Tower."
   - splitPath: GuidDescList[1]
     text: "根骨到达80，探索川东，丰庆楼学六赢羊酥。"
-    translated: "Potential reaches 80, explore Chu Dong, and learn Six‑Win Lamb Pastries at Fengqing Pavilion."
+    translated: "Potential reached 80, explore eastern Sichuan, and learn Six Victory Sheep Suet at the Fengqing Tower."
   - splitPath: GuidDescList[2]
     text: "财富到达800，探索川西，锦芳楼学太白鸭。"
-    translated: "Wealth has arrived at 800, explore West Sichuan, and learn how to make Taibai duck at Jinfang Pavilion."
+    translated: "Wealth reached 800, explore Western Sichuan, and learn Taibai Duck at Jinfang Tower."
   - splitPath: GuidDescList[3]
     text: "探索川南，解锁姜芽红颜。"
-    translated: "Explore Southern Sichuan to unlock Jiangya, the Beauty."
+    translated: "Explore Southern Sichuan, unlock Jiangya Hongyan"
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤"
@@ -1323,55 +1323,55 @@
     translated: "Chi Ying"
   - splitPath: Desc
     text: "探索川南，答应蚩萤送回小福。"
-    translated: "Explore the southern part of Chu, and promise Chi Ying to return Xiao Fu."
+    translated: "Explore Southern Sichuan and promise Chi Ying that you will return Xiao Fu to her."
   - splitPath: Desc
     subIndex: 1
     text: "探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。"
-    translated: "Explore Daliangshan, and after sending Xiao Fu back to the bamboo groves of Daliangshan, Da Fu again takes Xiao Fu under his care."
+    translated: "Exploring Daliang Mountain, I took Xiao Fu back to the bamboo forest at the rear of Daliang Mountain, where Dafu entrusted Xiao Fu to me again."
   - splitPath: Desc
     subIndex: 2
     text: "获得小福后，探索蚩黎峒，拜访蚩连。"
-    translated: "After obtaining Xiao Fu, explore Chi Li Dong, and visit Chi Lian."
+    translated: "After obtaining Xiao Fu, explore Chili Dong and visit Chili Lian."
   - splitPath: Desc
     subIndex: 3
     text: "财富到达500，探索川西，陪蚩萤和小福在成都城游玩。"
-    translated: "Wealth has arrived at 500, explore Western Sichuan, and accompany Chiying and Xiao Fu to enjoy the city of Chengdu."
+    translated: "Wealth reaches 500, explore Western Sichuan, and spend time in Chengdu City with Chiyu and Xiaofu."
   - splitPath: Desc
     subIndex: 4
     text: "第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。"
-    translated: "Starting in January of the sixth year, Xiaofu began exploring Eastern Sichuan. At the abandoned temple for a break, he felt that his mother, Dafu, was in danger."
+    translated: "Starting in January of the sixth year, explore eastern Sichuan, rest at the dilapidated temple, and Xiao Fu feels that his mother, Da Fu, is in danger."
   - splitPath: Desc
     subIndex: 5
     text: "探索大凉山，战胜五官王殷破败，救下大福。"
-    translated: "Explore the Great Liangshan, defeat the Five Senses King Yin Pobai, and save Da Fu."
+    translated: "Explore Daliang Mountain, defeat the Five Senses King Yin Bopai, and save Da Fu."
   - splitPath: Desc
     subIndex: 6
     text: "探索大凉山，大福帮助你和蚩黎成就姻缘，解锁蚩萤。"
-    translated: "Explore Daliang Mountain, where Great Fortune can help you and Chi Li achieve your happiness and unlock Chi Ying."
+    translated: "Exploring Daliang Mountain, Dayu helps you and Chili to seal your fate, unlocking Qiying."
   - splitPath: LockDesc
     text: "蚩黎峒开放后，两次探索蚩黎峒拜访蚩连，御兽到达精通后获得苍狼开启大凉山，探索大凉山遇到小食铁兽小福后加入。"
     translated: "After the Chi Li Tong is opened, visiting Chi Lian twice in Chi Li Tong allows you to master Beast Taming, which unlocks the Blue Wolf for exploring Da Liangshan. After encountering Xiao Xi Tie Shi Xiao Fu during the exploration of Da Liangshan, he joins your party."
   - splitPath: GuidDescList[0]
     text: "探索川南，答应蚩萤送回小福。"
-    translated: "Explore the southern part of Chu, and promise Chi Ying to return Xiao Fu."
+    translated: "Explore Southern Sichuan and promise Chi Ying that I will return Xiao Fu to her."
   - splitPath: GuidDescList[1]
     text: "探索大凉山，将小福送回后大凉山竹林，被大福再次将小福托付。"
-    translated: "Explore Daliangshan, and after sending Xiao Fu back to the bamboo groves of Daliangshan, Da Fu again takes Xiao Fu under his care."
+    translated: "Exploring Daliang Mountain, I took Xiao Fu back to the bamboo forest at the rear of Daliang Mountain, where Dafu entrusted Xiao Fu to me again."
   - splitPath: GuidDescList[2]
     text: "获得小福后，探索蚩黎峒，拜访蚩连。"
-    translated: "After obtaining Xiao Fu, explore Chi Li Dong, and visit Chi Lian."
+    translated: "After obtaining Xiao Fu, explore Chili Dong and visit Chili Lian."
   - splitPath: GuidDescList[3]
     text: "财富到达500，探索川西，陪蚩萤和小福在成都城游玩。"
-    translated: "Wealth has arrived at 500, explore Western Sichuan, and accompany Chiying and Xiao Fu to enjoy the city of Chengdu."
+    translated: "Wealth reached 500, explore Western Sichuan, and accompany Chiyu and Xiaofu on a tour of Chengdu City."
   - splitPath: GuidDescList[4]
     text: "第六年一月开始，探索川东，破庙休息，小福感到母亲大福危险。"
-    translated: "Starting in January of the sixth year, Xiaofu began exploring Eastern Sichuan. At the abandoned temple for a break, he felt that his mother, Dafu, was in danger."
+    translated: "Starting in January of the sixth year, explore eastern Sichuan, rest at the dilapidated temple, and Xiao Fu feels that his mother, Da Fu, is in danger."
   - splitPath: GuidDescList[5]
     text: "探索大凉山，战胜五官王殷破败，救下大福。"
-    translated: "Explore the Great Liangshan, defeat the Five Senses King Yin Pobai, and save Da Fu."
+    translated: "Explore Daliang Mountain, defeat the Five Senses King Yin Bopi, and save Da Fu."
   - splitPath: GuidDescList[6]
     text: "探索大凉山，大福帮助你和蚩黎成就姻缘，解锁蚩萤。"
-    translated: "Explore Daliang Mountain, where Great Fortune can help you and Chi Li achieve your happiness and unlock Chi Ying."
+    translated: "Exploring Daliang Mountain, Dayu will help you and Chili form a romantic relationship, unlocking Qiying."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}"
@@ -1380,7 +1380,7 @@
   splits:
   - splitPath: Name
     text: "荆湘六扇门"
-    translated: "Six Doors of Jingxiang"
+    translated: "Jingxi Six Doors"
   - splitPath: Desc
     text: "第七年一月开始，六扇门友好度到达80，探索荆北战胜君无忌，游不归加入，解锁荆湘六扇门"
     translated: "Starting in January of the seventh year, the Six Doors' friendliness reaches 80. Explore Jingbei and defeat Jun Wuji; You Bugui joins; unlock Jingxiang Six Doors."
@@ -1418,7 +1418,7 @@
   splits:
   - splitPath: Name
     text: "丐帮忠字舵"
-    translated: "Beggar Sect Loyalty Rudder"
+    translated: "Beggar Sect Loyalty Division"
   - splitPath: Desc
     text: "第四年一月起，厨艺到达40探索湘东可遇翁和仲邀请吃叫花鸡"
     translated: "Starting from January of the fourth year, his cooking skills reached 40 where he could encounter Weng Hezhong in Xiangdong and be invited to try cooked clay chicken."
@@ -1484,7 +1484,7 @@
   splits:
   - splitPath: Name
     text: "岳麓书院"
-    translated: "Yue Lu Academy"
+    translated: "Yuelu Academy"
   - splitPath: Desc
     text: "第一年破庙在破庙中遇到受伤面纱女子选择将她藏起"
     translated: "In the first year, at a ruined temple within a broken‑down temple, you encounter an injured woman with a veil and choose to conceal her."
@@ -1511,11 +1511,11 @@
   - splitPath: Desc
     subIndex: 6
     text: "探索岳麓书院揭露元凶并战胜"
-    translated: "Explore Yue Lu Academy to uncover the culprit and defeat them."
+    translated: "Explore Yuelu Academy to uncover the mastermind and defeat them."
   - splitPath: Desc
     subIndex: 7
     text: "岳麓书院友好到达80，探索岳麓书院拜见山长。"
-    translated: "Friendly arrival at Yuelu Academy 80, explore and meet the mountain principal there."
+    translated: "Yuelu Academy's friendly arrival at 80. Explore Yuelu Academy and pay respects to the Dean."
   - splitPath: Desc
     subIndex: 8
     text: "探索岳麓书院可向书院夫子学习儒学、翰墨、术数"
@@ -1560,10 +1560,10 @@
     translated: "Explore Xiangdong to defeat the killers who were hired to assassinate Master Xi Yi."
   - splitPath: GuidDescList[7]
     text: "探索岳麓书院揭露元凶并战胜"
-    translated: "Explore Yue Lu Academy to uncover the culprit and defeat them."
+    translated: "Explore Yuelu Academy to uncover the mastermind and defeat them."
   - splitPath: GuidDescList[8]
     text: "岳麓书院友好到达80，探索岳麓书院拜见山长。"
-    translated: "Friendly arrival at Yuelu Academy 80, explore and meet the mountain principal there."
+    translated: "Yuelu Academy has arrived friendly at 80. Explore Yuelu Academy and pay respects to the Dean."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}\\n⑧{7}\\n⑨{8}\\n-{9}"
@@ -1816,7 +1816,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "第七年一月开始，财富到达五千，探索荆东开启荆南宝象阁后，从宝象阁购买，第一个老树根消耗后，财富到达三千，可在探索宝象阁再次购买老树根。"
-    translated: "Starting in January of the seventh year, wealth reached five thousand. After exploring Jingdong and opening Jingnan Baoxiang Pavilion, wealth dropped to three thousand after consuming the first old tree root from Baoxiang Pavilion. Wealth can be replenished by exploring Baoxiang Pavilion again to purchase another old tree root."
+    translated: "Starting in January of the seventh year, when wealth reaches five thousand, exploration of Jingdong unlocks Jingnan's Sacred Elephant Pavilion. After purchasing the first old tree root from the Sacred Elephant Pavilion and spending it, wealth drops to three thousand, but you can purchase more old tree roots during further explorations of the Sacred Elephant Pavilion."
   - splitPath: Desc
     subIndex: 3
     text: "探索神农谷将柔佛老树根赠与连山谷种植长生稻，完成连翘儿第二个愿望"
@@ -1898,17 +1898,17 @@
   - splitPath: Desc
     subIndex: 5
     text: "第五年一月起，探索荆北，击杀洪十四。"
-    translated: "Starting in the fifth Year of Month One, explore Jingbei and defeat Hong Shisi."
+    translated: "Starting from January of the fifth year, explore Jingbei and kill Hong Shisi."
   - splitPath: Desc
     subIndex: 6
     text: "第八年一月起，挂锤庄友好到达80，探索荆北，从衍劫手中救下符天罡，符天罡加入，解锁挂锤庄。"
-    translated: "Beginning in January of the eighth year, Hanging Hammer Manor kindly arrived at 80 to explore Jing North and rescue Fu Tiangang from Yan Jie's hands. Fu Tiangang joined as a result, unlocking Hanging Hammer Manor for us."
+    translated: "Starting from January of the eighth year, the friendly arrival of Hanging Hammer Manor at 80 begins. Explore Jingbei and rescue Fu Tiangang from Yan Jie. Fu Tiangang joins, unlocking Hanging Hammer Manor."
   - splitPath: DetailDesc
     text: "位于湘北澧州府澧州城西十里外，本名武家庄，后四位庄主为纪念道人十年挂锤传艺之恩将其改为挂锤庄，庄资田产殷实富足，四位庄主天生神力，善用双锤，虽为人莽撞冲动，但却天性正直，平日对周边乡里也多有照顾。"
     translated: "Located in the western outskirts of ten miles from Licheng City in Xiangbei Prefecture, this manor was originally named Wu Family Manor. After four successive Manor Masters dedicated a decade to learning martial arts under a Daoist with the hanging hammer technique, they renamed it Hanging Hammer Manor. With abundant land and wealth, these four Manor Masters possessed extraordinary strength and excelled in using dual hammers. Although they were often rash and impulsive, their inherent honesty was evident. They also frequently helped the surrounding villages and towns."
   - splitPath: LockDesc
     text: "第四年一月起，探索荆北选择去春风楼看热闹战胜挂锤四猛开启挂锤庄。"
-    translated: "Starting from the month of January in the fourth year, to explore Jinh North, one would go to Feng Chun Pavilion to watch the excitement and defeat the Four Fierce Hammer Holders, thereby opening Hanging Hammer Manor."
+    translated: "Starting from January of the fourth year, explore Jingbei and choose to go to Spring Breeze Tower to watch the spectacle of defeating the Four Fierce Hammer Holders and then opening up Hanging Hammer Manor."
   - splitPath: LockDesc
     subIndex: 1
     text: "与挂锤帮友好度到达100解锁。"
@@ -1918,7 +1918,7 @@
     translated: "Exploring Hanging Hammer Manor can build resilience"
   - splitPath: GuidDescList[0]
     text: "第四年一月起，探索荆北选择去春风楼看热闹战胜挂锤四猛开启挂锤庄。"
-    translated: "Starting from the month of January in the fourth year, to explore Jinh North, one would go to Feng Chun Pavilion to watch the excitement and defeat the Four Fierce Hammer Holders, thereby opening Hanging Hammer Manor."
+    translated: "Starting from January of the fourth year, explore Jingbei and choose to go to Spring Breeze Tower to watch the spectacle of defeating the Four Fierce Hammer Holders and opening up Hanging Hammer Manor."
   - splitPath: GuidDescList[1]
     text: "探索湘北挂锤庄，得知挂锤四猛的师承。"
     translated: "Explore Hanging Hammer Manor in Xiangbei and learn about the lineage of the Four Fierce Hammer Holders."
@@ -1927,10 +1927,10 @@
     translated: "Hanging Hammer Manor welcomes you amiably. Explore Xiangbei to help the Four Fierce Hammer Holders defeat Hong Shisi, 40."
   - splitPath: GuidDescList[3]
     text: "第五年一月起，探索荆北，击杀洪十四。"
-    translated: "Starting in the fifth Year of Month One, explore Jingbei and defeat Hong Shisi."
+    translated: "Starting from January of the fifth year, explore Jingbei and kill Hong Shisi."
   - splitPath: GuidDescList[4]
     text: "第八年一月起，挂锤庄友好到达80，探索荆北，从衍劫手中救下符天罡，符天罡加入，解锁挂锤庄。"
-    translated: "Beginning in January of the eighth year, Hanging Hammer Manor kindly arrived at 80 to explore Jing North and rescue Fu Tiangang from Yan Jie's hands. Fu Tiangang joined as a result, unlocking Hanging Hammer Manor for us."
+    translated: "Starting from January of the eighth year, the friendly arrival of Hanging Hammer Manor at 80 begins. Explore Jingbei and rescue Fu Tiangang from Yan Jie. Fu Tiangang joins, unlocking Hanging Hammer Manor."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n-{4}\\n⑤{5}\\n⑥{6}"
@@ -2078,7 +2078,7 @@
     translated: "Prosperity Fortune Gang"
   - splitPath: Desc
     text: "第三年一月起，财富到达50，探索荆南遇到福庆班作场撂地，选择继续观看表演开启树荫巷。"
-    translated: "Starting from the first month of the third year, wealth reaches 50. During exploration in Jingnan, they encounter Fuqing Pan acting on a temporary stage and decide to continue watching the performance, leading them into Shuying Alley."
+    translated: "Starting from January of the third year, when wealth reaches 50, encounter the Fuqing Troupe performing on the street while exploring Jingnan. Choose to continue watching the performance to start the Tree Shade Alley."
   - splitPath: Desc
     subIndex: 1
     text: "财富到达500，探索荆南帮福庆班结店帐"
@@ -2102,7 +2102,7 @@
   - splitPath: Desc
     subIndex: 6
     text: "福庆班友好到达80，探索荆南，遇到天通报复，帮助福庆班报仇，解锁福庆班。"
-    translated: "Fuqing Clan kindly arrives at 80. Explore Jingnan and encounter Tiantong's revenge. Help Fuqing Clan avenge their wrongs to unlock the Fuqing Clan storyline."
+    translated: "Fucheng Class has arrived amicably at 80. Explore Jingnan and encounter Tiantong's retaliation. Help Fucheng Class seek revenge and unlock their potential."
   - splitPath: DetailDesc
     text: "暂位于荆南荆州府荆州城内通天观后街树荫巷内撂地作场，是荆湘一带十分有名的杂耍班子，班中之人互通皆以艺名，并将福字冠之为姓，常年游走于荆湘各府之间，所表演的杂耍戏法技艺都颇有独到之处。"
     translated: "Currently situated in the Shade Alley behind Tongtian Monastery within Jizhou City of Jingnan, this is a very famous troupe in the region of Jingxiang. The performers all use art names and have adopted the character Fu as their surname. They travel frequently between various cities in Jingxiang, performing tricks and acrobatics with unique skills."
@@ -2118,7 +2118,7 @@
     translated: "Exploring the Fuqing Troupe allows you to watch acrobatic performances and learn Variety Arts."
   - splitPath: GuidDescList[0]
     text: "第三年一月起，财富到达50，探索荆南遇到福庆班作场撂地，选择继续观看表演开启树荫巷。"
-    translated: "Starting from the first month of the third year, wealth reaches 50. During exploration in Jingnan, they encounter Fuqing Pan acting on a temporary stage and decide to continue watching the performance, leading them into Shuying Alley."
+    translated: "Starting from January of the third year, when wealth reaches 50, encounter the Fucheng Troupe performing on the street while exploring Jingnan. Choose to continue watching the performance to begin the Tree Shade Alley."
   - splitPath: GuidDescList[1]
     text: "财富到达500，探索荆南帮福庆班结店帐。"
     translated: "Wealth has arrived at 500. Let's explore the settlement of accounts between Jingnan Gang Fuqing Battalion."
@@ -2136,7 +2136,7 @@
     translated: "Explore Jingnan and save an elderly person at Tiantong Monastery. Cause a ruckus at the monastery, but it is ultimately Counter by Tiantong."
   - splitPath: GuidDescList[6]
     text: "福庆班友好到达80，探索荆南，遇到天通报复，帮助福庆班报仇，解锁福庆班。"
-    translated: "Fuqing Clan kindly arrives at 80. Explore Jingnan and encounter Tiantong's revenge. Help Fuqing Clan avenge their wrongs to unlock the Fuqing Clan storyline."
+    translated: "Fuching Class has arrived amicably at 80. Explore Jingnan and encounter Tiantong's retaliation. Help Fuching Class seek revenge and unlock their story."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}"
@@ -2150,19 +2150,19 @@
     translated: "Washing Ink Villa"
   - splitPath: Desc
     text: "拜访洗墨山庄，受邀此后可来学习翰墨。"
-    translated: "Visit the Ximoshang Zhuang, and if invited, they can come to learn calligraphy here."
+    translated: "Visit the Xi Mo Manor, and henceforth I am invited to come here to study calligraphy."
   - splitPath: Desc
     subIndex: 1
     text: "洗墨山庄友好到达40，翰墨到达入门，探索洗墨山庄谈庭玉传授永字八法。"
-    translated: "Washing Ink Manor welcomes your friendly arrival 40. Upon reaching the entrance, explore Washing Ink Manor where Tan Tingyu teaches them the Eternal Word Eight Techniques of calligraphy."
+    translated: "Washing Ink Manor has arrived at 40 amicably, Calligraphy has reached the beginner level. Explore Washing Ink Manor as Tan Tingyu teaches the Eight Principles of Permanence."
   - splitPath: Desc
     subIndex: 2
     text: "探索洗墨山庄谈庭玉帮助解惑。"
-    translated: "Explore Ximoxiang Village to help Tan Tingyu resolve his doubts."
+    translated: "Explore the Xi Mo Manor to seek Tan Tingyu's help for guidance."
   - splitPath: Desc
     subIndex: 3
     text: "洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三绝技法之一。"
-    translated: "Ximo Shenzhang welcomes friendly arrivals 60, and upon Calligraphy's arrival, explore Ximo Shenzhang where Tan Tingyu teaches one of the Three Absolute Techniques."
+    translated: "Wash Ink Manor has arrived friendly at 60. Calligraphy has arrived; a master arrives to teach one of Tan Tingyu's Three Absolute Techniques."
   - splitPath: Desc
     subIndex: 4
     text: "解锁谈文秀红颜后，探索洗墨山庄加入。"
@@ -2190,16 +2190,16 @@
     translated: "Exploring the Ximo Villa allows you to learn calligraphy from Tan Tingyu."
   - splitPath: GuidDescList[0]
     text: "拜访洗墨山庄，受邀此后可来学习翰墨。"
-    translated: "Visit the Ximoshang Zhuang, and if invited, they can come to learn calligraphy here."
+    translated: "Visit the Xi Mo Manor, and henceforth you are invited to come learn calligraphy."
   - splitPath: GuidDescList[1]
     text: "洗墨山庄友好到达40，翰墨到达入门，探索洗墨山庄谈庭玉传授永字八法。"
-    translated: "Washing Ink Manor welcomes your friendly arrival 40. Upon reaching the entrance, explore Washing Ink Manor where Tan Tingyu teaches them the Eternal Word Eight Techniques of calligraphy."
+    translated: "Washing Ink Manor has arrived at 40 in friendly terms. Calligraphy has arrived at the beginner level. Explore Washing Ink Manor as Tan Tingyu teaches the Eight Principles of Permanence."
   - splitPath: GuidDescList[2]
     text: "探索洗墨山庄谈庭玉帮助解惑。"
-    translated: "Explore Ximoxiang Village to help Tan Tingyu resolve his doubts."
+    translated: "Explore the Xi Mo Manor to seek Tan Tingyu's help for guidance."
   - splitPath: GuidDescList[3]
     text: "洗墨山庄友好到达60，翰墨到达高手，探索洗墨山庄谈庭玉传授三绝技法之一。"
-    translated: "Ximo Shenzhang welcomes friendly arrivals 60, and upon Calligraphy's arrival, explore Ximo Shenzhang where Tan Tingyu teaches one of the Three Absolute Techniques."
+    translated: "Washing Ink Manor has arrived amicably at 60. Calligraphy expert has arrived. Explore Washing Ink Manor to learn one of Tan Tingyu's Three Absolute Techniques."
   - splitPath: GuidDescList[4]
     text: "洗墨山庄友好到达80，且解锁谈文秀红颜后，再次探索洗墨山庄加入，解锁洗墨山庄。"
     translated: "Upon a friendly arrival at Xiemo Villa and unlocking Tan Wenxiu as a red‑haired beauty, 80 revisits Xiemo Villa to unlock it."
@@ -2216,27 +2216,27 @@
     translated: "Wanhuapa"
   - splitPath: Desc
     text: "探索浣花庐，拜访郜春风。"
-    translated: "Explore the Wanhua Lu and visit Hao Chunfeng."
+    translated: "Explore the Huanhua Study and visit Gao Chunfeng."
   - splitPath: Desc
     subIndex: 1
     text: "浣花派友好到达20，探索浣花阁选择向郜春风请教武艺，战胜三成功力的郜春风。"
-    translated: "The Fragrant Lotus Sect warmly welcomes you, 20. Explore the Fragrant Lotus Pavilion and choose to seek martial arts advice from Gao Chunfeng. Defeat Gao Chunfeng, who possesses three Success Powers."
+    translated: "The friendly Huanhua Sect has arrived at 20. To explore the Huanhua Pavilion and seek martial arts guidance from Gao Chunfeng, defeat Gao Chunfeng, who has Power of three success levels."
   - splitPath: Desc
     subIndex: 2
     text: "浣花派友好到达40，探索浣花阁选择向郜春风请教武艺，战胜五成功力的郜春风。"
-    translated: "The Fragrant Stream School warmly welcomes you 40. Choose to explore the Fragrant Stream Pavilion and seek martial arts advice from Gao Chunfeng. Defeat Ga Chunfeng, who possesses five times the power."
+    translated: "The friendly Huanhua Sect has arrived at 40. To explore the Huanhua Pavilion, choose to seek martial arts guidance from Gao Chunfeng and defeat a Gao Chunfeng with 50% Power."
   - splitPath: Desc
     subIndex: 3
     text: "浣花派友好到达60，探索浣花阁选择向郜春风请教武艺，战胜七成功力的郜春风。"
-    translated: "The Fragrant Lotus School warmly welcomes you, 60. Explore the Fragrant Lotus Pavilion and choose to seek martial arts advice from Gos Chunfeng. Defeat Gos Chunfeng, who possesses seven‑tenths of the power."
+    translated: "The friendly Huanhua Sect has arrived at 60. To explore the Huanhua Pavilion, choose to seek martial arts guidance from Gao Chunfeng and defeat him at 70% of his power."
   - splitPath: Desc
     subIndex: 4
     text: "解锁红颜邵轻虹后，浣花派友好到达80，探索浣花阁选择向郜春风请教武艺，战胜全力的郜春风，解锁浣花派。"
-    translated: "After unlocking Red Beauty Shao Qinghong, the Flower Washing Sect kindly arrives on 80. While exploring the Flower Washing Pavilion and choosing to seek martial arts training from Gao Chunfeng, defeating Gao Chunfeng, unlock the Flower Washing Sect."
+    translated: "After unlocking Red Beauty Shao Qinghong, the Huanhua Sect's friendship level reaches 80. Explore the Huanhua Pavilion and choose to seek martial arts guidance from Gao Chunfeng. Defeat Gao Chunfeng at full strength to unlock the Huanhua Sect."
   - splitPath: Desc
     subIndex: 5
     text: "探索浣花派可与浣花派门人对练武艺提升根骨。"
-    translated: "Exploring the Hanhua Sect can allow you to practice martial arts with its disciples to enhance your potential."
+    translated: "Exploring the Huanhua Sect allows you to spar with Huanhua disciples to improve your Potential."
   - splitPath: Desc
     subIndex: 6
     text: "可重复"
@@ -2253,22 +2253,22 @@
     translated: "Friendly level with the Han Hua School reaches 100 to unlock."
   - splitPath: RepeatDesc
     text: "探索浣花派可与浣花派门人对练武艺提升根骨。"
-    translated: "Exploring the Hanhua Sect can allow you to practice martial arts with its disciples to enhance your potential."
+    translated: "Exploring the Huanhua Sect allows you to spar with Huanhua disciples to enhance your Potential."
   - splitPath: GuidDescList[0]
     text: "探索浣花庐，拜访郜春风。"
-    translated: "Explore the Wanhua Lu and visit Hao Chunfeng."
+    translated: "Explore the Huanhua Study and visit Gao Chunfeng."
   - splitPath: GuidDescList[1]
     text: "浣花派友好到达20，探索浣花阁选择向郜春风请教武艺，战胜三成功力的郜春风。"
-    translated: "The Fragrant Lotus Sect warmly welcomes you, 20. Explore the Fragrant Lotus Pavilion and choose to seek martial arts advice from Gao Chunfeng. Defeat Gao Chunfeng, who possesses three Success Powers."
+    translated: "The friendly Huanhua Sect has arrived at 20. To explore the Huanhua Pavilion, choose to seek martial arts guidance from Gao Chunfeng and defeat Gao Chunfeng, who has three levels of Power."
   - splitPath: GuidDescList[2]
     text: "浣花派友好到达40，探索浣花阁选择向郜春风请教武艺，战胜五成功力的郜春风。"
-    translated: "The Fragrant Stream School warmly welcomes you 40. Choose to explore the Fragrant Stream Pavilion and seek martial arts advice from Gao Chunfeng. Defeat Ga Chunfeng, who possesses five times the power."
+    translated: "The friendly Huanhua Sect has arrived at 40. To explore the Huanhua Pavilion, choose to seek martial arts guidance from Gao Chunfeng and defeat a Gao Chunfeng with 50% Power."
   - splitPath: GuidDescList[3]
     text: "浣花派友好到达60，探索浣花阁选择向郜春风请教武艺，战胜七成功力的郜春风。"
-    translated: "The Fragrant Lotus School warmly welcomes you, 60. Explore the Fragrant Lotus Pavilion and choose to seek martial arts advice from Gos Chunfeng. Defeat Gos Chunfeng, who possesses seven‑tenths of the power."
+    translated: "The friendly Huanhua Sect has arrived at 60. To explore the Huanhua Pavilion, choose to seek martial arts guidance from Gao Chunfeng and defeat him at 70% of his power."
   - splitPath: GuidDescList[4]
     text: "解锁红颜邵轻虹后，浣花派友好到达80，探索浣花阁选择向郜春风请教武艺，战胜全力的郜春风，解锁浣花派。"
-    translated: "After unlocking Red Beauty Shao Qinghong, the Flower Washing Sect kindly arrives on 80. While exploring the Flower Washing Pavilion and choosing to seek martial arts training from Gao Chunfeng, defeating Gao Chunfeng, unlock the Flower Washing Sect."
+    translated: "After unlocking Red Beauty Shao Qinghong, the Huanhua Sect's friendship level reaches 80. Explore the Huanhua Pavilion and choose to seek martial arts guidance from Gao Chunfeng. Defeat Gao Chunfeng at full strength to unlock the Huanhua Sect."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n-{6}"
@@ -2298,19 +2298,19 @@
   - splitPath: Desc
     subIndex: 4
     text: "匠造到达高手，探索汉昭烈庙，拼装木牛。"
-    translated: "Craftsmanship reach master level, explore Han ZhaoLie Temple, assemble wooden oxen."
+    translated: "Crafting reached expert level, explore the Han Zhao Lie Temple, assemble the wooden ox."
   - splitPath: Desc
     subIndex: 5
     text: "匠造到达大师，探索汉昭烈庙，再次挑战文臣武将廊。"
-    translated: "Craftsmanship Arrival: Master, explore Han Zhao Lie Temple and challenge the Confucian and Military Corridor again."
+    translated: "Crafting reached Master level, explore the Han Zhao Lie Temple, and challenge the Literary and Martial Corridors again."
   - splitPath: Desc
     subIndex: 6
     text: "武侯祠友好到达80，解锁诸葛慧红颜知己后，探索汉昭烈庙，姜云奎托付。"
-    translated: "Friendly arrival at Wu Hou Temple 80. After unlocking Zhu Geliang as a red‑haired acquaintance, explore Han Zhao Lie Temple, where Jiang Yunkui entrusts you."
+    translated: "Arrived at Wu Hou Temple amicably, 80, after unlocking Zhuge Hui as a close female friend, explore the Han Zhao Lie Temple, entrusted by Jiang Yunkui."
   - splitPath: Desc
     subIndex: 7
     text: "匠造到达宗师，挑战文臣武将廊，领悟廿八星宿阵。"
-    translated: "Crafter reach Master artisan, challenge Literati and Warrior Hall, comprehend the Twenty‑Eight Mansions Formation."
+    translated: "Craftsmanship reaches the level of Master, challenge the corridor of civil and military officials, comprehend the Array of the Twenty‑Eight Constellations."
   - splitPath: DetailDesc
     text: "位于川西成都府成都城南三十里外，于汉昭烈庙中，一庙双祀，香火鼎盛，是姜氏后人护佑诸葛武侯支脉的存身之所，两家继承了武侯诸葛亮与其妻黄月英的机关匠造之术，庙祝姜云奎虽精通机关巧技，但却从不显露身手。"
     translated: "Located thirty miles south of Chengdu City in the western Sichuan Province, within the Han Zhao Li Temple, this temple houses two deities under one roof, with abundant incense offerings. It is a place where the descendants of the Jiang family protect a branch of Zhuge Liang, the renowned strategist. Both the Jiang and the Li families inherited Zhuge Liang and his wife Huang Yueying's skills in constructing mechanical devices. Though temple caretaker Jiang Yunkui is well‑versed in the intricate workings of these mechanisms, he never demonstrates his abilities."
@@ -2334,16 +2334,16 @@
     translated: "Friendly arrival at Wu Hou Temple, explore Han Zhao Li Temple and initial encounter with Zhuo Zheng Hui.40"
   - splitPath: GuidDescList[4]
     text: "匠造到达高手，探索汉昭烈庙，拼装木牛。"
-    translated: "Craftsmanship reach master level, explore Han ZhaoLie Temple, assemble wooden oxen."
+    translated: "Crafting reached expert level, explore the Han Zhao Lie Temple, assemble the wooden ox."
   - splitPath: GuidDescList[5]
     text: "匠造到达大师，探索汉昭烈庙，再次挑战文臣武将廊。"
-    translated: "Craftsmanship Arrival: Master, explore Han Zhao Lie Temple and challenge the Confucian and Military Corridor again."
+    translated: "Craftsmanship reached Master level. Explore the Han Zhao Lie Temple and challenge the Literary Ministers and Generals Corridor again."
   - splitPath: GuidDescList[6]
     text: "武侯祠友好到达80，解锁诸葛慧红颜知己后，探索汉昭烈庙，姜云奎托付。"
-    translated: "Friendly arrival at Wu Hou Temple 80. After unlocking Zhu Geliang as a red‑haired acquaintance, explore Han Zhao Lie Temple, where Jiang Yunkui entrusts you."
+    translated: "Arrive amicably at Wu Hou Temple, 80. After unlocking Zhuge Hui as a close confidant, explore the Han Zhao Lie Shrine, entrusted by Jiang Yunkui."
   - splitPath: GuidDescList[7]
     text: "匠造到达宗师，挑战文臣武将廊，领悟廿八星宿阵。"
-    translated: "Crafter reach Master artisan, challenge Literati and Warrior Hall, comprehend the Twenty‑Eight Mansions Formation."
+    translated: "Craftsmanship reaches the level of Master, challenge the corridor of Scholar and Warrior Ministers, comprehend the Array of the Twenty‑Eight Constellations."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}\\n⑧{7}"
@@ -2355,35 +2355,35 @@
     translated: "Sage Maiden Palace"
   - splitPath: Desc
     text: "解锁萧雪雁红颜，并获得玉珠重楼。"
-    translated: "Unlock Xiao Xueyan as a Companion and obtain Jade Pearl Stemonitis."
+    translated: "Unlock Xiao Xueyan Red Beauty, and obtain Jade Pearl Heavy Tower."
   - splitPath: Desc
     subIndex: 1
     text: "解锁沈青鸬红颜，并获得赤纹芍药。"
-    translated: "Unlock Shen Qinglue's Red Beauty profile and obtain Scarlet Vein Peony."
+    translated: "Unlock Shen Qinghu's Red Beauty status, and obtain the Scarlet‑veined Peony."
   - splitPath: Desc
     subIndex: 2
     text: "财富到达4000，探索川东丰都鬼市，购买寒峰冬青。"
-    translated: "Wealth has reached 4000, explore Eastern Fengdu Ghost Market in Chuan Dong, and purchase Cold Peak Winter Cypress."
+    translated: "Wealth reached 4000, explore the Eastern Sichuan Fengdu Ghost Market to purchase Cold Peak Winter Camellia."
   - splitPath: Desc
     subIndex: 3
     text: "探索神女宫，向巫云凤提供三株奇药。"
-    translated: "Explore the Temple of the Goddess and provide Witch Wudi Feng with three rare medicines."
+    translated: "Explore the Shrine of the Divine Maiden and provide Witch Yunfeng with three rare herbs."
   - splitPath: Desc
     subIndex: 4
     text: "探索神女宫，三帮四寨威逼神女宫，巫云凤出关收服三帮四寨。"
-    translated: "Explore the Goddess Palace; the Three Factions and Four Villages threaten the Goddess Palace, and Wu Yunfeng emerges to subdue the Three Factions and Four Villages."
+    translated: "Exploring the Shrine of the Divine Maiden, the Three Clans and Four Tribes pressured the Shrine of the Divine Maiden. Witch Yunfeng emerged from seclusion to subdue the Three Clans and Four Tribes."
   - splitPath: Desc
     subIndex: 5
     text: "探索神女宫，随巫云凤找黑白无常报仇。"
-    translated: "Explore the Temple of the Goddess, follow Wu Yunfeng to seek revenge on Black and White Immortals."
+    translated: "Explore the Shrine of the Divine Maiden, and accompany Wu Yunfeng to seek revenge on the King and Queen of Darkness."
   - splitPath: Desc
     subIndex: 6
     text: "探索神女宫，受到巫云凤惩罚。"
-    translated: "Explore the Temple of the Goddess and face punishment from Wu Yunfeng."
+    translated: "Exploring the Shrine of the Divine Maidens, I was punished by Wu Yunfeng."
   - splitPath: Desc
     subIndex: 7
     text: "探索神女宫，表白巫云凤，解锁神女宫。"
-    translated: "Explore the Goddess Temple, confess to Wu Yunfeng, and unlock the Goddess Temple."
+    translated: "Explore the Shrine of the Divine Maiden, confess to Wu Yunfeng, unlock the Shrine of the Divine Maiden."
   - splitPath: DetailDesc
     text: "位于川东夔州府巫山神女峰上，为百年前一位江湖奇女子所立，宫中上下皆为女子，平素极少与外界江湖往来，现任宫主巫云凤风华绝代，一身修为深不可测，宫内分设朝云、暮雨两司，分管宫中产业营生和消息收集。"
     translated: "Located atop Wushan's Goddess Peak in Kuizhou, Eastern Sichuan, this was established a hundred years ago by a remarkable lady of the Jianghu. The palace is home to all women, rarely interacting with the outside Jianghu. The current Palace Mistress, Wufeng Yun, is unparalleled in her beauty and prowess, with an incomprehensible level of cultivation. The palace is divided into two departments: Morning Cloud and Dusk Rain, overseeing the internal affairs and information gathering of the palace."
@@ -2395,28 +2395,28 @@
     translated: "Exploring the Goddess Palace allows you to choose to patrol allied forces to gain offerings."
   - splitPath: GuidDescList[0]
     text: "解锁萧雪雁红颜，并获得玉珠重楼。"
-    translated: "Unlock Xiao Xueyan as a Companion and obtain Jade Pearl Stemonitis."
+    translated: "Unlock Xiao Xueyan Red Beauty, and obtain Jade Pearl Heavy Tower."
   - splitPath: GuidDescList[1]
     text: "解锁沈青鸬红颜，并获得赤纹芍药。"
-    translated: "Unlock Shen Qinglue's Red Beauty profile and obtain Scarlet Vein Peony."
+    translated: "Unlock Shen Qinghu's Red Beauty status, and obtain the Scarlet‑veined Peony."
   - splitPath: GuidDescList[2]
     text: "财富到达4000，探索川东丰都鬼市，购买寒峰冬青。"
-    translated: "Wealth has reached 4000, explore Eastern Fengdu Ghost Market in Chuan Dong, and purchase Cold Peak Winter Cypress."
+    translated: "Wealth reached 4000, explore the Eastern Sichuan Fengdu Ghost Market to purchase Cold Peak Winter Camellia."
   - splitPath: GuidDescList[3]
     text: "探索神女宫，向巫云凤提供三株奇药。"
-    translated: "Explore the Temple of the Goddess and provide Witch Wudi Feng with three rare medicines."
+    translated: "Explore the Shrine of the Divine Maidens and provide Witch Yunfeng with three rare herbs."
   - splitPath: GuidDescList[4]
     text: "探索神女宫，三帮四寨威逼神女宫，巫云凤出关收服三帮四寨。"
-    translated: "Explore the Goddess Palace; the Three Factions and Four Villages threaten the Goddess Palace, and Wu Yunfeng emerges to subdue the Three Factions and Four Villages."
+    translated: "Exploring the Shrine of the Divine Maiden, the Three Clans and Four Tribes pressured the Shrine of the Divine Maiden. Witch Yunfeng emerged from seclusion to subdue the Three Clans and Four Tribes."
   - splitPath: GuidDescList[5]
     text: "探索神女宫，随巫云凤找黑白无常报仇。"
-    translated: "Explore the Temple of the Goddess, follow Wu Yunfeng to seek revenge on Black and White Immortals."
+    translated: "Explore the Shrine of the Divine Maiden, and accompany Wu Yunfeng to seek revenge on the King and Queen of Darkness."
   - splitPath: GuidDescList[6]
     text: "探索神女宫，受到巫云凤惩罚。"
-    translated: "Explore the Temple of the Goddess and face punishment from Wu Yunfeng."
+    translated: "Exploring the Shrine of the Divine Maidens, I was punished by Wu Yunfeng."
   - splitPath: GuidDescList[7]
     text: "探索神女宫，表白巫云凤，解锁神女宫。"
-    translated: "Explore the Goddess Temple, confess to Wu Yunfeng, and unlock the Goddess Temple."
+    translated: "Explore the Shrine of the Divine Maiden, confess to Wu Yunfeng, unlock the Shrine of the Divine Maiden."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}\\n⑧{7}"
@@ -2425,26 +2425,26 @@
   splits:
   - splitPath: Name
     text: "川蜀六扇门"
-    translated: "Six Doors of Sichuan"
+    translated: "Sichuan Six Doors"
   - splitPath: Desc
     text: "拜访川中川蜀六扇门，拜见樊重关。"
-    translated: "Visit the Six Doors of Central and Sichuan, and meet Fan Zhongguan."
+    translated: "Visit the Six Doors in Central Sichuan and pay respects to Fan Zhongguan."
   - splitPath: Desc
     subIndex: 1
     text: "第五年一月开始，且完成过一次川蜀六扇门抓捕悬赏，探索六扇门得知盗粮三鼠在川南，将其三人抓获。"
-    translated: "Starting in the first month of the fifth year, and after completing a bounty for the Six Doors to capture the Three Thieves who were stealing grain in Sichuan South, the three were apprehended."
+    translated: "Starting in January of the fifth year, and having completed one Six Doors bounty capture mission in Sichuan, upon investigating the Six Doors, it was learned that the three grain‑thieving rats were in southern Sichuan. They were captured."
   - splitPath: Desc
     subIndex: 2
     text: "探索川蜀六扇门得知盗粮三鼠被杀。"
-    translated: "Exploring the Six Doors in Sichuan revealed that the Three Rats who stole the grain have been killed."
+    translated: "Exploring the Six Doors in Sichuan, it was learned that the Grain‑Thieving Three Rats were killed."
   - splitPath: Desc
     subIndex: 3
     text: "第六年一月开始，且川蜀六扇门好感到达60，探索川中，战胜富贵杀手。"
-    translated: "Starting in January of the sixth year, Duanchuan Sichuan Six Doors Affection reached 60, explore the heart of Sichuan, and defeat the wealthy killer."
+    translated: "Starting in January of the sixth year, when the Affection toward Kanshu Six Doors reaches 60, explore Central Sichuan and defeat the Wealth and Honor Assassin."
   - splitPath: Desc
     subIndex: 4
     text: "探索川蜀六扇门，揭露况天龙并战胜，解锁川蜀六扇门。"
-    translated: "Explore the Six Doors of Sichuan Shu, uncover Kuang Tianlong and defeat him to unlock the Six Doors of Sichuan Shu."
+    translated: "Explore the Six Doors of Sichuan, uncover and defeat Kuang Tianlong, and unlock the Six Doors of Sichuan."
   - splitPath: DetailDesc
     text: "位于川中顺庆府南充城中，统领川蜀一众六扇门衙门，负责管理川蜀地区江湖人所犯案件，总捕头【网开一面】樊重关经验老到，雷厉风行，自上任以来，便率领衙中高手擒拿了无数江湖败类。"
     translated: "Located in the city of Nanchong in the Southern Sichuan Prefecture of Zhungeqing, North Sichuan, the Six Doors headquarters oversees the management of criminal cases involving the Jianghu in the Sichuan region. Chief Inspector Wan Kaigen, with his seasoned and decisive approach, has since his appointment apprehended countless scoundrels from the Jianghu."
@@ -2460,19 +2460,19 @@
     translated: "Limited quantity"
   - splitPath: GuidDescList[0]
     text: "拜访川中川蜀六扇门，拜见樊重关。"
-    translated: "Visit the Six Doors of Central and Sichuan, and meet Fan Zhongguan."
+    translated: "Visit the Six Doors in Central Sichuan and pay respects to Fan Zhongguan."
   - splitPath: GuidDescList[1]
     text: "第五年一月开始，且完成过一次川蜀六扇门抓捕悬赏，探索六扇门得知盗粮三鼠在川南，将其三人抓获。"
-    translated: "Starting in the first month of the fifth year, and after completing a bounty for the Six Doors to capture the Three Thieves who were stealing grain in Sichuan South, the three were apprehended."
+    translated: "Starting in January of the fifth year, and having completed one Six Doors bounty capture mission in Sichuan, upon investigating the Six Doors, it was discovered that the three grain‑thieving rats were in southern Sichuan. They were apprehended."
   - splitPath: GuidDescList[2]
     text: "探索川蜀六扇门得知盗粮三鼠被杀。"
-    translated: "Exploring the Six Doors in Sichuan revealed that the Three Rats who stole the grain have been killed."
+    translated: "Exploring the Six Doors in Sichuan, it was learned that the grain‑stealing Three Mice have been killed."
   - splitPath: GuidDescList[3]
     text: "第六年一月开始，且川蜀六扇门好感到达60，探索川中，战胜富贵杀手。"
-    translated: "Starting in January of the sixth year, Duanchuan Sichuan Six Doors Affection reached 60, explore the heart of Sichuan, and defeat the wealthy killer."
+    translated: "Starting in January of the sixth year, when the Affection toward Kan Shu Six Doors reaches 60, explore Central Sichuan and defeat the Wealth and Honor Assassin."
   - splitPath: GuidDescList[4]
     text: "探索川蜀六扇门，揭露况天龙并战胜，解锁川蜀六扇门。"
-    translated: "Explore the Six Doors of Sichuan Shu, uncover Kuang Tianlong and defeat him to unlock the Six Doors of Sichuan Shu."
+    translated: "Explore the Six Doors of Sichuan, expose and defeat Kuang Tianlong, and unlock the Six Doors of Sichuan."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}"
@@ -2486,23 +2486,23 @@
     translated: "Chi Li Dong"
   - splitPath: Desc
     text: "探索川南蚩黎寨，拜访蚩连。"
-    translated: "Explore the Chilai Village in Southern Sichuan and visit Chi Lian."
+    translated: "Explore Chuannan Chili Village and visit Chilian"
   - splitPath: Desc
     subIndex: 1
     text: "御兽到达精通，探索蚩黎寨，带走狼圈中与你最亲密的苍狼。"
-    translated: "Reach proficiency in Beast Taming, explore Chi Li Village, and take the most intimate azure wolf from the wolf pen."
+    translated: "Reach mastery in Beast Taming, explore Chili Village, and take the gray wolf most closely bonded to you from the Wolf Circle."
   - splitPath: Desc
     subIndex: 2
     text: "获得小福后，探索蚩黎峒，拜访蚩连。"
-    translated: "After obtaining Xiao Fu, explore Chi Li Dong, and visit Chi Lian."
+    translated: "After obtaining Xiao Fu, explore Chili Dong and visit Chili Lian."
   - splitPath: Desc
     subIndex: 3
     text: "解锁蚩萤红颜后，蚩黎峒友好到达60，探索蚩黎峒，战胜五官王。"
-    translated: "After unlocking Chi Ying's beauty, Chi Li Dong becomes a friendly arrival 60. Explore Chi Li Dong and defeat the Five Sense King."
+    translated: "After unlocking the Red Beauty Chiyining, the friendly Chi Li Village has arrived at 60. Explore Chi Li Village and defeat the Five Senses King."
   - splitPath: Desc
     subIndex: 4
     text: "探索蚩黎峒，听蚩连讲述过往。"
-    translated: "Explore Chi Li Dong and listen to Chi Lian share their past."
+    translated: "Explore Chili Dong and listen to Chiliann recount the past."
   - splitPath: DetailDesc
     text: "位于川南叙州府大凉山北麓，乃是三苗后裔、蚩尤血脉传人，峒中世传驯养苍狼之术，峒主【九黎苍首】蚩连，为川蜀诸峒第一驯兽高手，蚩黎寨民平日自耕自渔，尤以苍狼狩猎为长，少与中原城镇来往。"
     translated: "Located in the northern foothills of Daliang Mountain in Xuzhou Prefecture, Sichuan South, it is home to the descendants of the ancient Miaofu people and the descendants of Chiyou. The Dungong has a tradition of taming and training blue wolves, passed down through generations. The Dungong chief, Nine‑Li Cangshou Chi Lian, is the top expert in animal taming among the various Dungong in Sichuan and Sichuan Province. The residents of Chi Li Village primarily engage in self‑cultivation and fishing, excelling particularly in blue wolf hunting, and rarely interact with towns in the Central Plains."
@@ -2514,19 +2514,19 @@
     translated: "Explore Chi Li Dong to feed the blue wolves and enhance your Beast Taming."
   - splitPath: GuidDescList[0]
     text: "探索川南蚩黎寨，拜访蚩连。"
-    translated: "Explore the Chilai Village in Southern Sichuan and visit Chi Lian."
+    translated: "Explore Chuannan Chili Village and visit Chilian"
   - splitPath: GuidDescList[1]
     text: "御兽到达精通，探索蚩黎寨，带走狼圈中与你最亲密的苍狼。"
-    translated: "Reach proficiency in Beast Taming, explore Chi Li Village, and take the most intimate azure wolf from the wolf pen."
+    translated: "Reach mastery in Beast Taming, explore Chili Village, and take the gray wolf most close to you from the Wolf Circle."
   - splitPath: GuidDescList[2]
     text: "获得小福后，探索蚩黎峒，拜访蚩连。"
-    translated: "After obtaining Xiao Fu, explore Chi Li Dong, and visit Chi Lian."
+    translated: "After obtaining Xiao Fu, explore Chili Dong and visit Chili Lian."
   - splitPath: GuidDescList[3]
     text: "解锁蚩萤红颜后，蚩黎峒友好到达60，探索蚩黎峒，战胜五官王。"
-    translated: "After unlocking Chi Ying's beauty, Chi Li Dong becomes a friendly arrival 60. Explore Chi Li Dong and defeat the Five Sense King."
+    translated: "After unlocking the Red Beauty Chi Ying, the friendly Chi Li Village has arrived at 60. Explore Chi Li Village and defeat the Five Senses King."
   - splitPath: GuidDescList[4]
     text: "探索蚩黎峒，听蚩连讲述过往。"
-    translated: "Explore Chi Li Dong and listen to Chi Lian share their past."
+    translated: "Explore Chili Dong and listen to Chiliann recount the past."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}"
@@ -2557,7 +2557,7 @@
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "触发此事件后将开启魔侯线结局，无法在在宁王招贤擂结束后选择继续搅闹的选项。"
@@ -2596,7 +2596,7 @@
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "选择此选项后将开启宁王线结局，无法在第九年湘东触发温残阳事件。"
@@ -2635,7 +2635,7 @@
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
-    translated: "Pay attention"
+    translated: "Be careful"
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "触发此事件后将开启魔侯线结局，无法在在宁王招贤擂结束后选择继续搅闹的选项。"

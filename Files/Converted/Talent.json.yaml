@@ -351,7 +351,7 @@
     translated: "Introduction to Gambling Techniques"
   - splitPath: Desc
     text: "赌术"
-    translated: "+40 Gambling"
+    translated: "Gambling"
   templates:
   - splitPath: Desc
     template: "{0}+40"
@@ -402,7 +402,7 @@
     translated: "Introduction to Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    translated: "Poison Skill"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}+40"
@@ -501,7 +501,7 @@
     translated: "Master gambling techniques"
   - splitPath: Desc
     text: "赌术"
-    translated: "+40 Gambling"
+    translated: "Gambling"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -552,7 +552,7 @@
     translated: "Mastery of Poison Techniques"
   - splitPath: Desc
     text: "毒术"
-    translated: "Poison Skill"
+    translated: "Poison skill skill"
   templates:
   - splitPath: Desc
     template: "{0}+80"
@@ -790,7 +790,7 @@
     translated: "A gentleman's friendship"
   - splitPath: Desc
     text: "君子庄友好"
-    translated: "Gentlemen Manor Friendship"
+    translated: "Gentlemen Manor is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -805,7 +805,7 @@
     translated: "Blessed with longevity and prosperity"
   - splitPath: Desc
     text: "万寿帮友好"
-    translated: "The Longevity Sect maintains a relationship of Friendship with +40."
+    translated: "Friendly with the Longevity Sect"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -836,7 +836,7 @@
     translated: "Coiling Serpent Repaying Pearls"
   - splitPath: Desc
     text: "盘蛇谷友好"
-    translated: "Coiled Serpent Valley Friendship"
+    translated: "Coiled Serpent Valley is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -851,7 +851,7 @@
     translated: "Food tastes good"
   - splitPath: Desc
     text: "丐帮忠字舵友好"
-    translated: "Beggar Sect's Faith Stearage is friendly with +40."
+    translated: "Friendly to the Beggar Sect's Loyalty Division"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -866,7 +866,7 @@
     translated: "Virtue Rectifier"
   - splitPath: Desc
     text: "岳麓书院友好"
-    translated: "Yue Lu Academy Friendship"
+    translated: "Yuelu Academy is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -881,7 +881,7 @@
     translated: "Divine Farmer's Hundred Herbs"
   - splitPath: Desc
     text: "神农帮友好"
-    translated: "Shennong Sect Friendship"
+    translated: "Friendly with the Shennong Sect"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -912,7 +912,7 @@
     translated: "Six Directions Unified Wind"
   - splitPath: Desc
     text: "六合帮友好"
-    translated: "The Six Harmonies Sect has a friendly relationship with +40."
+    translated: "Friendly with the Six Harmonies Sect"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -927,7 +927,7 @@
     translated: "Heaven and earth have no handle"
   - splitPath: Desc
     text: "挂锤庄友好"
-    translated: "Hanging Hammer Manor Friendship"
+    translated: "Hanging Hammer Manor is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -958,7 +958,7 @@
     translated: "Prosperity and Blessings"
   - splitPath: Desc
     text: "福庆班友好"
-    translated: "Fuqing Battalion Friendship"
+    translated: "Fuking Class is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -973,7 +973,7 @@
     translated: "Prosperity Everlasting"
   - splitPath: Desc
     text: "永盛镖局友好"
-    translated: "Yongsheng Escort Agency Friendship"
+    translated: "Yongsheng Escort Agency is friendly"
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1017,14 +1017,14 @@
   splits:
   - splitPath: Name
     text: "花枝堪折"
-    translated: "Flower branches ripe for plucking"
+    translated: "Pluck the blooming branch"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "半拂折枝手"
-    translated: "Half‑Flick Branch‑Picking Hand"
+    translated: "Half‑Sweep Branch Hand"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【掌法】"
@@ -1044,14 +1044,14 @@
   splits:
   - splitPath: Name
     text: "血屠万里"
-    translated: "Widespread Bloodshed for a Thousand Miles"
+    translated: "Massacre for Thousands of Miles"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "血屠刀法"
-    translated: "Bloodbutcher Blade Art"
+    translated: "Bloodslaughter Blade Art"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【刀法】"
@@ -1071,14 +1071,14 @@
   splits:
   - splitPath: Name
     text: "唯我独尊"
-    translated: "Supreme Ruler"
+    translated: "I am supreme"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
-    translated: "The Sovereign of Heaven and Earth Technique"
+    translated: "Supremacy of the Sole Sovereign Technique"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【内功】"
@@ -1098,14 +1098,14 @@
   splits:
   - splitPath: Name
     text: "非佛非道"
-    translated: "Neither Buddha nor Dao"
+    translated: "Neither Buddhist nor Taoist"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "玄禅无二法"
-    translated: "There is no distinction between the way of the profane and the sacred."
+    translated: "Mystic Zen Indivisible Law"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【内功】"
@@ -1125,14 +1125,14 @@
   splits:
   - splitPath: Name
     text: "阴阳合气"
-    translated: "Yin Yang Harmony"
+    translated: "Yin and Yang Combined Energy"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "姹女玄阴法"
-    translated: "Yin Method of the Maiden Immortal"
+    translated: "Cultivation Method of Maidenly Yin Mystique"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【心法】"
@@ -1152,14 +1152,14 @@
   splits:
   - splitPath: Name
     text: "回天定命"
-    translated: "Revive Destiny"
+    translated: "Reversing Destiny"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "逆脉行针诀"
-    translated: "Reversing Meridian Needling Technique"
+    translated: "Reversing Meridian Needle Technique"
   - splitPath: Desc
     subIndex: 2
     text: "辅助回复类【恶人谷】【特技】"
@@ -1179,14 +1179,14 @@
   splits:
   - splitPath: Name
     text: "装神弄鬼"
-    translated: "Fooling around with spirits and ghosts"
+    translated: "Playing at being supernatural"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "三清观想法"
-    translated: "Traverse the Three Pure Ones' Meditation Method"
+    translated: "Sanqing Meditation Technique"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【内功】"
@@ -1206,14 +1206,14 @@
   splits:
   - splitPath: Name
     text: "黑白颠倒"
-    translated: "Right and wrong are reversed"
+    translated: "Reversing right and wrong"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "点墨诛心笔"
-    translated: "Mind Attack Pen"
+    translated: "Ink Pen of Mind Attack"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【百兵】"
@@ -1233,14 +1233,14 @@
   splits:
   - splitPath: Name
     text: "念念心魔"
-    translated: "Inner Demon that Haunts You Continuously"
+    translated: "Chanting the Inner Demon"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "六欲心魔引"
-    translated: "Inner Demon Invoked by Six Desires"
+    translated: "Six Desires Inner Demon Incarnation"
   - splitPath: Desc
     subIndex: 2
     text: "攻击伤害类【恶人谷】【特技】"
@@ -1260,14 +1260,14 @@
   splits:
   - splitPath: Name
     text: "凤栖梧桐"
-    translated: "Feng Qiwu resides in the Tung Tree"
+    translated: "Feng Qiwu"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "凤凰三展翅"
-    translated: "Phoenix soars three times"
+    translated: "Phoenix Threefold Spread Wings"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【恶人谷】【心法】"
@@ -1287,14 +1287,14 @@
   splits:
   - splitPath: Name
     text: "潇湘夜雨"
-    translated: "Xiang River Night Rain"
+    translated: "Night Rain on the Xiao and Xiang Rivers"
   - splitPath: Desc
     text: "初始武学"
     translated: "Initial Martial Arts"
   - splitPath: Desc
     subIndex: 1
     text: "潇湘诀"
-    translated: "Xiangxi Formula"
+    translated: "XiaoXiang Mantra"
   - splitPath: Desc
     subIndex: 2
     text: "战术协同类【江湖】【内功】"
@@ -1374,7 +1374,7 @@
   splits:
   - splitPath: Name
     text: "蛟龙息"
-    translated: "Dragon Calm Down"
+    translated: "Dragon's Breath"
   - splitPath: Desc
     text: "在水中修炼内功时功力额外"
     translated: "When cultivating neigong in water, your power gains additional +10."

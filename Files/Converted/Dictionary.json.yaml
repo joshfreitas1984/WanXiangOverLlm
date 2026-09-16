@@ -10,7 +10,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
-    translated: "Click"
+    translated: "Dot"
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧{1}"
@@ -35,7 +35,7 @@
     translated: "Instructions"
   - splitPath: Dictionary
     text: "第"
-    translated: "Chapter"
+    translated: "First"
   - splitPath: Dictionary
     subIndex: 1
     text: "年"
@@ -273,7 +273,7 @@
     qcDefectCategory: None
   - splitPath: Dictionary
     text: "敬请期待"
-    translated: "Look forward to it"
+    translated: "Stay tuned"
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Dictionary\": \"解锁成就：{0}\",\r\n    \"DictionaryTw\": \"解鎖成就：{0}\"\r\n  }"
   rawIndex: 31
   splits:
@@ -368,7 +368,7 @@
     translated: "Our team has buffs active"
   - splitPath: Dictionary
     text: "我方"
-    translated: "Our side entered a {1} state"
+    translated: "Our side"
   - splitPath: Dictionary
     subIndex: 1
     text: "进入"
@@ -502,7 +502,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "失神"
-    translated: "Trance"
+    translated: "Dazed"
   - splitPath: Dictionary
     subIndex: 2
     text: "状态"
@@ -539,7 +539,7 @@
   splits:
   - splitPath: Desc
     text: "回复"
-    translated: "AP response"
+    translated: "Reply"
   - splitPath: Dictionary
     text: "行动力恢复了"
     translated: "Action points have recovered"
@@ -573,7 +573,7 @@
   splits:
   - splitPath: Desc
     text: "连击"
-    translated: "Combos"
+    translated: "Combo"
     qcReviewedText: "Combos"
     qcStatus: Passed
     qcQualityScore: 100
@@ -693,7 +693,7 @@
     translated: "Regeneration Reverse (do not remove line breaks)"
   - splitPath: Dictionary
     text: "反伤"
-    translated: "Reverse damage"
+    translated: "Counter damage"
   templates:
   - splitPath: Dictionary
     template: "\\n{0}"
@@ -903,7 +903,7 @@
   splits:
   - splitPath: Dictionary
     text: "友好度"
-    translated: "Friendship Rating {0}"
+    translated: "Friendship points"
   templates:
   - splitPath: Dictionary
     template: "{0} ⟦0⟧"
@@ -1838,7 +1838,7 @@
     qcDefectCategory: None
   - splitPath: Dictionary
     text: "毒术"
-    translated: "Poison Technique"
+    translated: "Poison"
 - raw: "{\r\n    \"Key\": \"2009\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"御兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"御獸\"\r\n  }"
   rawIndex: 2009
   splits:
@@ -1916,7 +1916,7 @@
     qcDefectCategory: None
   - splitPath: Dictionary
     text: "精通"
-    translated: "Proficient in"
+    translated: "Proficiency"
 - raw: "{\r\n    \"Key\": \"2202\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"高手\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"高手\"\r\n  }"
   rawIndex: 2202
   splits:
@@ -2152,7 +2152,7 @@
   splits:
   - splitPath: Dictionary
     text: "衡山心法"
-    translated: "Heart Method"
+    translated: "Hengshan Heart Method"
     qcReviewedText: "Heart Method"
     qcStatus: Passed
     qcQualityScore: 95
@@ -2168,7 +2168,7 @@
   splits:
   - splitPath: Dictionary
     text: "九流奇功"
-    translated: "Nine Schools of Strange Martial Arts"
+    translated: "Nine Schools Marvelous Skills"
     qcReviewedText: "Nine Schools of Strange Martial Arts"
     qcStatus: Passed
     qcQualityScore: 90
@@ -2218,7 +2218,7 @@
   splits:
   - splitPath: Dictionary
     text: "渔樵剑歌"
-    translated: "Fisherman's Sword Song"
+    translated: "Fisher‑Hunter Sword Song"
 - raw: "{\r\n    \"Key\": \"3015\",\r\n    \"Dictionary\": \"五峰叠掌\",\r\n    \"DictionaryTw\": \"五峰疊掌\"\r\n  }"
   rawIndex: 3015
   splits:
@@ -2358,10 +2358,10 @@
   splits:
   - splitPath: Desc
     text: "开始我方回合"
-    translated: "Start of our turn"
+    translated: "Start our turn"
   - splitPath: Dictionary
     text: "开始我方回合"
-    translated: "Start of our turn"
+    translated: "Start our turn"
   templates:
   - splitPath: Dictionary
     template: "\\n<color=#63D47F>{0}：</color>"
@@ -2453,7 +2453,7 @@
   splits:
   - splitPath: Dictionary
     text: "第"
-    translated: "Chapter"
+    translated: "First"
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -2494,7 +2494,7 @@
     qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始投掷"
-    translated: "Start throwing"
+    translated: "Begin throwing"
 - raw: "{\r\n    \"Key\": \"10111\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"就这样吧\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"就這樣吧\"\r\n  }"
   rawIndex: 10111
   splits:
@@ -2607,7 +2607,7 @@
     translated: "Behavior"
   - splitPath: Dictionary
     text: "开始投掷"
-    translated: "Start throwing"
+    translated: "Begin throwing"
   templates:
   - splitPath: Desc
     template: "AI{0}"
@@ -2756,7 +2756,7 @@
     translated: "Point calculation text"
   - splitPath: Dictionary
     text: "第"
-    translated: "Chapter"
+    translated: "First"
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -2791,7 +2791,7 @@
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
-    translated: "Click"
+    translated: "Dot"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2800,7 +2800,7 @@
   splits:
   - splitPath: Dictionary
     text: "第"
-    translated: "Chapter"
+    translated: "First"
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -2836,7 +2836,7 @@
   - splitPath: Dictionary
     subIndex: 2
     text: "点"
-    translated: "Click"
+    translated: "Dot"
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}<color=#FFD26E>⟦1⟧</color>{1}⟦2⟧{2}"
@@ -2870,7 +2870,7 @@
   splits:
   - splitPath: Dictionary
     text: "第"
-    translated: "Chapter"
+    translated: "First"
   - splitPath: Dictionary
     subIndex: 1
     text: "局"

@@ -9,8 +9,13 @@ This skill runs from `FanslationStudio.LlmKit`'s own working directory and creat
 repo** next to it (same convention as `DragonHierOverLlm`, `LegendOfMortalOverLlm`, `WanXiangOverLlm`).
 It gets a project off the ground; it does not write the game-specific dumper/patch logic. The
 baseline layout comes from `docs/OPTIMIZATION_PLAN.md`'s "Reuse / setup-time reduction" section —
-don't reinvent it. `WanXiangOverLlm` is the primary template (cleanest existing consumer); cross-check
-`DragonHierOverLlm` only for the IL2CPP-specific branch noted in step 5.
+don't reinvent it. **`docs/canonical-project-shape.md`** (and its `canonical-test-organization.md`/
+`canonical-config-shape.md`/`canonical-plugin-project-layout.md`/`canonical-repo-docs-taxonomy.md`
+siblings) is now the primary source for what to scaffold — it's a deliberately-maintained target
+shape, not a snapshot of whatever `DragonHierOverLlm`/`WanXiangOverLlm` currently look like. Read
+those docs first; cross-check `WanXiangOverLlm` (Mono) or `DragonHierOverLlm` (IL2CPP) only where
+the shape docs don't pin a concrete detail the scaffold needs, e.g. an exact package version to
+pin.
 
 1. **Ask the setup questions up front — do not scaffold anything until answered:**
    - Game name (used for the repo folder name `<GameName>OverLlm`, the plugin `RootNamespace`/
@@ -29,8 +34,10 @@ don't reinvent it. `WanXiangOverLlm` is the primary template (cleanest existing 
 2. **Create the new repo directory and initialize git.** `mkdir <path>` then `git init` inside it.
    Do not commit yet — later steps still need to populate it.
 
-3. **Scaffold the working-directory data layout** under the new repo's `Files/`, matching
-   `WanXiangOverLlm/Files/`'s real layout: `Raw/Dumped/` (raw game-dumped files land here),
+3. **Scaffold the working-directory data layout** under the new repo's `Files/`, per
+   `docs/canonical-project-shape.md`'s sub-project layout section (cross-check
+   `WanXiangOverLlm/Files/`'s real layout for exact folder names if the doc is ambiguous):
+   `Raw/Dumped/` (raw game-dumped files land here),
    `Raw/Export/` (per-file `.yaml` export of the split lines), `Converted/` (translated `.yaml`
    output), `Mod/` (final packaged output the game-facing plugin consumes), `Glossary/` (empty,
    holds `Glossary.yaml` once populated), and an empty prompt-override folder (see
@@ -39,8 +46,9 @@ don't reinvent it. `WanXiangOverLlm` is the primary template (cleanest existing 
    is a buildable/browsable project like the templates, with `<Folder Include="Mod\..." />` entries
    for the otherwise-empty output folders so git/VS keep them.
 
-4. **Create a starter `Files/Config.yaml`** based on `WanXiangOverLlm/Files/Config.yaml`'s real
-   shape: a `models:` list (at least one entry pointing at whatever local model preset this project
+4. **Create a starter `Files/Config.yaml`** based on `docs/canonical-config-shape.md`'s documented
+   shape (cross-check `WanXiangOverLlm/Files/Config.yaml` only for a field the doc doesn't pin): a
+   `models:` list (at least one entry pointing at whatever local model preset this project
    will use — leave `modelPreset`/`model` as placeholders the user fills in), a `qualityReview:`
    block using LlmKit's current defaults (`enabled: true`, placeholder `modelName`,
    `minAcceptableScore: 70`, leave `autoAcceptDefectCategories` empty/commented — that list is
@@ -52,7 +60,9 @@ don't reinvent it. `WanXiangOverLlm` is the primary template (cleanest existing 
    `GameTextFiles.cs` with an empty `TextFilesToSplit` array for the user to fill in once dumping
    is wired up.
 
-5. **Scaffold the BepInEx plugin project.** Create `<GameName>Plugin/<GameName>Plugin.csproj` (or
+5. **Scaffold the BepInEx plugin project**, per `docs/canonical-plugin-project-layout.md`'s IL2CPP/
+   Mono branches (cross-check `WanXiangOverLlm`/`DragonHierOverLlm` only for an exact package
+   version pin the doc doesn't specify). Create `<GameName>Plugin/<GameName>Plugin.csproj` (or
    `EnglishPatch/`, following WanXiang's naming) with a `ProjectReference` to LlmKit at the exact
    relative path used by every existing consumer:
    `../../FanslationStudio.LlmKit/FanslationStudio.LlmKit/FanslationStudio.LlmKit.csproj` (verified
@@ -85,12 +95,15 @@ don't reinvent it. `WanXiangOverLlm` is the primary template (cleanest existing 
    the new repo's own `docs/README.md` as the documentation hub. `CLAUDE.md` stays a thin pointer to
    `AGENTS.md` + `docs/README.md`, same as every existing repo.
 
-7. **Create the new repo's `docs/README.md`**, templated from `WanXiangOverLlm/docs/README.md`'s
-   structure (repository overview table of sub-projects, documentation taxonomy, "Where should I
-   look?" table). From day one, include rows pointing at LlmKit's canonical docs so this repo
-   doesn't accumulate the cross-referencing debt older repos had before this restructuring:
-   `../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md` for QC questions and
-   `../FanslationStudio.LlmKit/docs/packaging-reference.md` for packaging questions.
+7. **Create the new repo's `docs/README.md`**, per `docs/canonical-repo-docs-taxonomy.md`'s file
+   list/shape (cross-check `WanXiangOverLlm/docs/README.md`'s structure for wording/formatting
+   details the taxonomy doc doesn't spell out): repository overview table of sub-projects,
+   documentation taxonomy, "Where should I look?" table. From day one, include rows pointing at
+   LlmKit's canonical docs so this repo doesn't accumulate the cross-referencing debt older repos
+   had before this restructuring: `../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md`
+   for QC questions, `../FanslationStudio.LlmKit/docs/packaging-reference.md` for packaging
+   questions, and `../FanslationStudio.LlmKit/docs/canonical-project-shape.md` for future
+   structure reconciliation.
 
 8. **Copy this repo's `.claude/skills/`** (`investigate-qc-issue`, `investigate-packaging-issue`,
    `investigate-missing-translation`) into the new repo's `.claude/skills/` verbatim, so it isn't

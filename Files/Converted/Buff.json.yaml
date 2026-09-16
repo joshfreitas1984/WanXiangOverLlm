@@ -3,13 +3,13 @@
   splits:
   - splitPath: Name
     text: "封穴"
-    translated: "Seal acupoints"
+    translated: "Sealing the acupuncture point"
   - splitPath: Desc
     text: "我方阻止1人行动，敌方随机阻止1次行动"
     translated: "Our side prevents 1 actions, while the enemy randomly blocks 1 actions."
   - splitPath: AttackDesc
     text: "封穴"
-    translated: "Seal acupoints"
+    translated: "Sealing the acupuncture point"
   - splitPath: AttackDesc
     subIndex: 1
     text: "阻止对方行动"
@@ -22,7 +22,7 @@
   splits:
   - splitPath: Name
     text: "轻伤"
-    translated: "Minor injury"
+    translated: "Minor injuries"
     qcReviewedText: "Minor injury"
     qcStatus: Passed
     qcQualityScore: 100
@@ -54,13 +54,13 @@
   splits:
   - splitPath: Name
     text: "绝脉"
-    translated: "Dead Pulse"
+    translated: "Deadly Pulse"
   - splitPath: Desc
     text: "消失时损失当前气血20%，再次使用回合数增加"
     translated: "Disappear at a cost of 20% of current lifeforce, and the number of turns until next use increases."
   - splitPath: AttackDesc
     text: "绝脉"
-    translated: "Dead Pulse"
+    translated: "Deadly Pulse"
   - splitPath: AttackDesc
     subIndex: 1
     text: "造成伤害"
@@ -73,13 +73,13 @@
   splits:
   - splitPath: Name
     text: "禁疗"
-    translated: "No healing"
+    translated: "Prohibition of healing"
   - splitPath: Desc
     text: "回春无效"
     translated: "Revival is ineffective"
   - splitPath: AttackDesc
     text: "禁疗"
-    translated: "No healing"
+    translated: "Prohibition of healing"
   - splitPath: AttackDesc
     subIndex: 1
     text: "状态，无法回复"
@@ -92,13 +92,13 @@
   splits:
   - splitPath: Name
     text: "失神"
-    translated: "Trance"
+    translated: "Dazed"
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
     translated: "Unable to move. Double damage when attacked, status effects removed."
   - splitPath: AttackDesc
     text: "失神"
-    translated: "Trance"
+    translated: "Dazed"
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"
@@ -111,7 +111,7 @@
   splits:
   - splitPath: Name
     text: "力竭"
-    translated: "Exhausted"
+    translated: "Exhaustion"
     qcReviewedText: "Exhausted"
     qcStatus: Passed
     qcQualityScore: 95
@@ -124,7 +124,7 @@
   splits:
   - splitPath: Name
     text: "重伤"
-    translated: "Severe injury"
+    translated: "Severe injuries"
     qcReviewedText: "Severe injury"
     qcStatus: Passed
     qcQualityScore: 95
@@ -137,13 +137,13 @@
   splits:
   - splitPath: Name
     text: "惊神"
-    translated: "Stunning Spirits"
+    translated: "Shock Spirit"
   - splitPath: Desc
     text: "无法行动，受到攻击时伤害翻倍、状态解除"
     translated: "Unable to move. Double damage when attacked, status effects removed."
   - splitPath: AttackDesc
     text: "惊神"
-    translated: "Stunning Spirits"
+    translated: "Shock Spirit"
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"

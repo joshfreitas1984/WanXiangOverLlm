@@ -310,18 +310,30 @@
   - splitPath: Name
     text: "轻舟传武艺"
     translated: "Lightboat Transmits Martial Arts"
+    qcReviewedText: "Lightboat Transmits Martial Arts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"200400\",\r\n    \"Name\": \"衡山雁云功\"\r\n  }"
   rawIndex: 200400
   splits:
   - splitPath: Name
     text: "衡山雁云功"
     translated: "Hengshan Yanyun Skill"
+    qcReviewedText: "Hengshan Yanyun Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"200500\",\r\n    \"Name\": \"九流剑法传\"\r\n  }"
   rawIndex: 200500
   splits:
   - splitPath: Name
     text: "九流剑法传"
     translated: "Nine Stream Sword Art Passed Down"
+    qcReviewedText: "Nine Stream Sword Art Passed Down"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"200600\",\r\n    \"Name\": \"禀报宁王祸\"\r\n  }"
   rawIndex: 200600
   splits:
@@ -382,6 +394,10 @@
   - splitPath: Name
     text: "卖出散财"
     translated: "Sell scattered wealth"
+    qcReviewedText: "Sell scattered wealth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"301000\",\r\n    \"Name\": \"得胜回潇湘\"\r\n  }"
   rawIndex: 301000
   splits:
@@ -406,6 +422,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Balancing the accounts for the month on Mount Hengshan"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "衡山理月账"
@@ -419,6 +439,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Go down the mountain to transport rice and grain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "下山运米粮"
@@ -432,6 +456,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Kitchen helper in the canteen stove area"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "伙房帮厨灶"
@@ -445,6 +473,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Clean the training arena"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "打扫演武场"
@@ -458,6 +490,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Manor watch duty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "庄院当值守"
@@ -471,6 +507,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Managing inventory in the warehouse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "库房理库存"
@@ -484,6 +524,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winery is collecting money"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "酒坊收银钱"
@@ -497,6 +541,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tavern Deals with Bully Troublemakers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "酒楼惩地痞"
@@ -510,6 +558,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Chasing Fierce Beasts at the Mountain Foot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "山脚逐凶兽"
@@ -523,6 +575,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Disperse the silver for people's relief"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "散银赈百姓"
@@ -536,6 +592,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Delivering a Letter to Hengshan Mountain 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山送信一"
@@ -549,6 +609,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hengshan Letter Delivery II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山送信二"
@@ -562,6 +626,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hengshan Messenger Service Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山送信三"
@@ -575,6 +643,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Purchasing from Hengshan, Part 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山采买一"
@@ -588,6 +660,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hengshan Shopping Part 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山采买二"
@@ -601,6 +677,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hengshan Purchases Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山采买三"
@@ -650,6 +730,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winter study of Mencius lessons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬学孟子课"
@@ -663,6 +747,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winter studies spring and autumn lessons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬学春秋课"
@@ -676,6 +764,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winter Academy Major Course"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬学大学课"
@@ -689,6 +781,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winter study of the Doctrine of the Mean class"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬学中庸课"
@@ -702,6 +798,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Study Erya in winter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬学尔雅课"
@@ -751,6 +851,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Firework Recipe One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "花炮配方一"
@@ -764,6 +868,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Firework Recipe Two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "花炮配方二"
@@ -777,6 +885,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Firework Recipe Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "花炮配方三"
@@ -790,6 +902,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Firework Recipe Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "花炮配方四"
@@ -803,6 +919,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Firework Recipe Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "花炮配方五"
@@ -843,6 +963,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medicine and Pharmacology I"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理一"
@@ -856,6 +980,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理二"
@@ -869,6 +997,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理三"
@@ -882,6 +1014,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理四"
@@ -895,6 +1031,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理五"
@@ -1052,6 +1192,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Training Session 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功一"
@@ -1065,6 +1209,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功二"
@@ -1078,6 +1226,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance Training Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功三"
@@ -1091,6 +1243,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功四"
@@ -1104,6 +1260,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功五"
@@ -1117,6 +1277,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice Six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功六"
@@ -1130,6 +1294,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Seven Styles of Martial Arts Practice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功七"
@@ -1143,6 +1311,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance Combat Training VIII"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功八"
@@ -1156,6 +1328,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功九"
@@ -1169,6 +1345,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yang Yun practices her skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "杨芸练功一"
@@ -1182,6 +1362,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yang Yun practices her skills, part 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "杨芸练功二"
@@ -1195,6 +1379,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yang Yun practices her third training session"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "杨芸练功三"
@@ -1208,6 +1396,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Perform the martial arts practice for guaranteed progress."
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "演武练保底"
@@ -1248,6 +1440,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Focus on gathering energy to practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "聚气练内功"
@@ -1261,6 +1457,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Intent Training of Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "意定练内功"
@@ -1274,6 +1474,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Meditate and cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冥心练内功"
@@ -1287,6 +1491,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Focus and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "凝神练内功"
@@ -1300,6 +1508,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Zhuangzi transcends the mundane world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "庄子出尘外"
@@ -1313,6 +1525,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Confucian Scriptures of Worldly Affairs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "论语世经纶"
@@ -1326,6 +1542,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Promote the profound doctrines of the Lotus Sutra."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "法华宏佛理"
@@ -1339,6 +1559,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Understanding the principles through the Book of Changes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "周易知明理"
@@ -1352,6 +1576,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Practice the basics in the quiet room"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "静室练保底"
@@ -1446,6 +1674,10 @@
   - splitPath: Name
     text: "剑歌说三分"
     translated: "Jian Ge says three parts"
+    qcReviewedText: "Jian Ge says three parts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"701100\",\r\n    \"Name\": \"剑歌说南北\"\r\n  }"
   rawIndex: 701100
   splits:
@@ -1470,18 +1702,31 @@
   - splitPath: Name
     text: "剑歌说隋唐"
     translated: "Jiang Ge sings of the Sui and Tang dynasties."
+    qcReviewedText: "Jiang Ge sings of the Sui and Tang dynasties."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"701400\",\r\n    \"Name\": \"剑歌说五代\"\r\n  }"
   rawIndex: 701400
   splits:
   - splitPath: Name
     text: "剑歌说五代"
     translated: "Jiange says about the Five Dynasties"
+    qcReviewedText: "Jiange says about the Five Dynasties"
+    qcTranslated: "Sword Song Speaks of the Five Dynasties"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"701500\",\r\n    \"Name\": \"剑歌说宋辽\"\r\n  }"
   rawIndex: 701500
   splits:
   - splitPath: Name
     text: "剑歌说宋辽"
     translated: "Jiange sang about Song and Liao"
+    qcReviewedText: "Jiange sang about Song and Liao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"701600\",\r\n    \"Name\": \"剑歌学对剑\"\r\n  }"
   rawIndex: 701600
   splits:
@@ -1857,6 +2102,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hill of Clouds and Mist at the Rear Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山烟霞峰"
@@ -1870,6 +2119,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Purple Cloud Peak in the rear mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山紫云峰"
@@ -1883,6 +2136,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hill of Throwing Bowls at the Rear Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山掷钵峰"
@@ -1896,6 +2153,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Golden Scroll Peak at the back mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山金简峰"
@@ -1909,6 +2170,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Assembly of Talent Peak at the Rear Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山集贤峰"
@@ -1922,6 +2187,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hill of Divine Birds at the Rear Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山灵禽峰"
@@ -1935,6 +2204,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Rainbow clouds vie to climb the peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "彩霞竞登峰"
@@ -1948,6 +2221,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-White Stone Competes to Reach the Peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "白石竞登峰"
@@ -1961,6 +2238,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fishing and Woodcutting Song Exchange 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "渔樵对歌一"
@@ -1974,6 +2255,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fishing and Woodcutting Duet II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "渔樵对歌二"
@@ -1987,6 +2272,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fishing and Woodcutting Song Trio"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "渔樵对歌三"
@@ -2000,6 +2289,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fishing and Woodcutting Quartet Song 4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "渔樵对歌四"
@@ -2022,18 +2315,31 @@
   - splitPath: Name
     text: "铁口算履卦"
     translated: "Ironically calculating the hexagram Lift"
+    qcReviewedText: "Ironically calculating the hexagram Lift"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800813\",\r\n    \"Name\": \"铁口算否卦\"\r\n  }"
   rawIndex: 800813
   splits:
   - splitPath: Name
     text: "铁口算否卦"
     translated: "Iron Fist Calculation of the Hexagram"
+    qcReviewedText: "Iron Fist Calculation of the Hexagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800814\",\r\n    \"Name\": \"铁口算未济\"\r\n  }"
   rawIndex: 800814
   splits:
   - splitPath: Name
     text: "铁口算未济"
     translated: "Iron Mouth Calculating Unimpeded"
+    qcReviewedText: "Iron Mouth Calculating Unimpeded"
+    qcTranslated: "Iron Mouth Divination: Unfinished"
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"800815\",\r\n    \"Name\": \"铁口算坎卦\"\r\n  }"
   rawIndex: 800815
   splits:
@@ -2049,18 +2355,30 @@
   - splitPath: Name
     text: "铁口算比卦"
     translated: "Ironically, counting iron rods is more accurate than divination."
+    qcReviewedText: "Ironically, counting iron rods is more accurate than divination."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800817\",\r\n    \"Name\": \"铁口算巽卦\"\r\n  }"
   rawIndex: 800817
   splits:
   - splitPath: Name
     text: "铁口算巽卦"
     translated: "Ironically calculating the Xun trigram"
+    qcReviewedText: "Ironically calculating the Xun trigram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800818\",\r\n    \"Name\": \"铁口算泰卦\"\r\n  }"
   rawIndex: 800818
   splits:
   - splitPath: Name
     text: "铁口算泰卦"
     translated: "Ironically calculating the Tai hexagram"
+    qcReviewedText: "Ironically calculating the Tai hexagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800819\",\r\n    \"Name\": \"铁口算明夷\"\r\n  }"
   rawIndex: 800819
   splits:
@@ -2076,6 +2394,10 @@
   - splitPath: Name
     text: "铁口算蹇卦"
     translated: "Calculating the Jian Hexagram verbatim"
+    qcReviewedText: "Calculating the Jian Hexagram verbatim"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"801400\",\r\n    \"Name\": \"铁口传卦术\"\r\n  }"
   rawIndex: 801400
   splits:
@@ -2154,6 +2476,10 @@
   - splitPath: Name
     text: "学医三用药"
     translated: "Studied medicine for three years and learned about three types of drugs."
+    qcReviewedText: "Studied medicine for three years and learned about three types of drugs."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"805100\",\r\n    \"Name\": \"忠义两老仆\"\r\n  }"
   rawIndex: 805100
   splits:
@@ -2178,6 +2504,11 @@
   - splitPath: Name
     text: "婆罗僧寻仇"
     translated: "Pa long seng seeks revenge"
+    qcReviewedText: "Pa long seng seeks revenge"
+    qcTranslated: "Monk Seeks Revenge"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"806100\",\r\n    \"Name\": \"战胜乐悲风\"\r\n  }"
   rawIndex: 806100
   splits:
@@ -2274,6 +2605,10 @@
   - splitPath: Name
     text: "蓉蓉糖葫芦"
     translated: "Rong Rong's Jade Plum Popsicles"
+    qcReviewedText: "Rong Rong's Jade Plum Popsicles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"808500\",\r\n    \"Name\": \"再会文徵明\"\r\n  }"
   rawIndex: 808500
   splits:
@@ -2397,6 +2732,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Leyang Lake Son Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "耒阳湖子酒"
@@ -2410,6 +2749,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Anren Henwife Cake"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "安仁鸡婆糕"
@@ -2423,6 +2766,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dong'an Chicken in Vinegar Sauce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "东安陈醋鸡"
@@ -2436,6 +2783,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Qiyang Curved Rice Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "祁阳曲米鱼"
@@ -2449,6 +2800,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hengshan Cloud Mist Tea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山云雾茶"
@@ -2462,6 +2817,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wuxi has a forest of steles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "浯溪有碑林"
@@ -2475,6 +2834,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Rain at night on the Xiang River"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "潇湘夜雨时"
@@ -2488,6 +2851,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Chu Xi White Rabbit Play"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "楚戏白兔记"
@@ -2501,6 +2868,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Chu Opera Moon Worship Play"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "楚戏拜月记"
@@ -2514,6 +2885,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-The Chu Play: Legend of Mu Lian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "楚戏目连传"
@@ -2590,6 +2965,11 @@
   - splitPath: Name
     text: "首年小校负"
     translated: "First Year Xiao Xue"
+    qcReviewedText: "First Year Xiao Xue"
+    qcTranslated: "First Year Xiao Xue Loss"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"900800\",\r\n    \"Name\": \"二年小校胜\"\r\n  }"
   rawIndex: 900800
   splits:
@@ -3127,6 +3507,10 @@
   - splitPath: Name
     text: "天竺月食石"
     translated: "Lunar Eclipse Stone from the Moon Kingdom"
+    qcReviewedText: "Lunar Eclipse Stone from the Moon Kingdom"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"1001902\",\r\n    \"Name\": \"暹罗娜迦血\"\r\n  }"
   rawIndex: 1001902
   splits:
@@ -3142,6 +3526,11 @@
   - splitPath: Name
     text: "爪哇金刚串"
     translated: "Java Hard String"
+    qcReviewedText: "Java Hard String"
+    qcTranslated: "Javanese Diamond Bead Bracelet"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"1001909\",\r\n    \"Name\": \"并不感兴趣\"\r\n  }"
   rawIndex: 1001909
   splits:
@@ -3166,12 +3555,21 @@
   - splitPath: Name
     text: "天竺月食石"
     translated: "Lunar Eclipse Stone from the Moon Kingdom"
+    qcReviewedText: "Lunar Eclipse Stone from the Moon Kingdom"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"6100113\",\r\n    \"Name\": \"爪哇金刚串\"\r\n  }"
   rawIndex: 6100113
   splits:
   - splitPath: Name
     text: "爪哇金刚串"
     translated: "Java Hard String"
+    qcReviewedText: "Java Hard String"
+    qcTranslated: "Javanese Diamond Bead Bracelet"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"6100114\",\r\n    \"Name\": \"澜沧国剑谱\"\r\n  }"
   rawIndex: 6100114
   splits:
@@ -3493,6 +3891,10 @@
   - splitPath: Name
     text: "初闻章华台"
     translated: "First hearing about Chapter Huatai"
+    qcReviewedText: "First hearing about Chapter Huatai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1007600\",\r\n    \"Name\": \"打败崔三贯\"\r\n  }"
   rawIndex: 1007600
   splits:
@@ -3535,6 +3937,10 @@
   - splitPath: Name
     text: "黄金船船长"
     translated: "Gang Leader ‑ Huang Jin Chuang"
+    qcReviewedText: "Gang Leader ‑ Huang Jin Chuang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1008800\",\r\n    \"Name\": \"打败达里奥\"\r\n  }"
   rawIndex: 1008800
   splits:
@@ -3631,6 +4037,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Huangzhou Dongpo Pork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "黄州东坡肉"
@@ -3644,6 +4054,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tasting Burnt Plum Blossoms in Huangzhou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "黄州品烧梅"
@@ -3657,6 +4071,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Three Steamed Dishes of Mianyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "沔阳三蒸菜"
@@ -3670,6 +4088,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Steamed Wuchang Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "清蒸武昌鱼"
@@ -3683,6 +4105,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Filial Piety Hidden Sweat Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "孝感伏汁酒"
@@ -3696,6 +4122,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Old Mi Wine from Ma City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "麻城老米酒"
@@ -3709,6 +4139,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Pork rib lotus root soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "排骨莲藕汤"
@@ -3722,6 +4156,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Qichun has mugwort leaves"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "蕲春有艾叶"
@@ -3735,6 +4173,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wuchang Yellow Crane Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "武昌黄鹤楼"
@@ -3748,6 +4190,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Two Great Divisions of Mount Dabie"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "两分大别山"
@@ -3815,6 +4261,11 @@
   - splitPath: Name
     text: "永盛铁布衫"
     translated: "Ever Prosperous Iron Clothes Fist"
+    qcReviewedText: "Ever Prosperous Iron Clothes Fist"
+    qcTranslated: "Ever Prosperous Iron Shirt"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"1490411\",\r\n    \"Name\": \"永盛走镖一\"\r\n  }"
   rawIndex: 1490411
   splits:
@@ -4199,54 +4650,60 @@
   - splitPath: Name
     text: "君子乐学一"
     translated: "A Scholar Loves Learning 1"
-    qcReviewedText: "A gentleman derives joy from studying"
+    qcReviewedText: "A Scholar Loves Learning 1"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1690200\",\r\n    \"Name\": \"君子乐学二\"\r\n  }"
   rawIndex: 1690200
   splits:
   - splitPath: Name
     text: "君子乐学二"
     translated: "The Scholarly Way of Joyful Learning II"
-    qcReviewedText: "The Gentleman Takes Pleasure in Learning II"
+    qcReviewedText: "The Scholarly Way of Joyful Learning II"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1690300\",\r\n    \"Name\": \"君子术学一\"\r\n  }"
   rawIndex: 1690300
   splits:
   - splitPath: Name
     text: "君子术学一"
     translated: "Knightly Arts One"
-    qcReviewedText: "Art of Gentlemanly Deception"
+    qcReviewedText: "Knightly Arts One"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1690400\",\r\n    \"Name\": \"君子术学二\"\r\n  }"
   rawIndex: 1690400
   splits:
   - splitPath: Name
     text: "君子术学二"
     translated: "Knightly Arts Study Two"
-    qcReviewedText: "The Art of Virtuous Strategy Two"
+    qcReviewedText: "Knightly Arts Study Two"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1690500\",\r\n    \"Name\": \"君子书学一\"\r\n  }"
   rawIndex: 1690500
   splits:
   - splitPath: Name
     text: "君子书学一"
     translated: "The First Lesson of Gentlemanly Scholarship"
-    qcReviewedText: "Jian'er studies calligraphy"
+    qcReviewedText: "The First Lesson of Gentlemanly Scholarship"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1690600\",\r\n    \"Name\": \"君子书学二\"\r\n  }"
   rawIndex: 1690600
   splits:
   - splitPath: Name
     text: "君子书学二"
     translated: "Book of Gentleman Studies Two"
-    qcReviewedText: "Lian Junshu Studies Volume II"
+    qcReviewedText: "Book of Gentleman Studies Two"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1601200\",\r\n    \"Name\": \"结识长孙玉\"\r\n  }"
   rawIndex: 1601200
   splits:
@@ -4262,6 +4719,11 @@
   - splitPath: Name
     text: "长孙诚毒愈"
     translated: "Zhangsun Cheng poisons and heals"
+    qcReviewedText: "Zhangsun Cheng poisons and heals"
+    qcTranslated: "Zhangsun Cheng's Poison Cured"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"1601400\",\r\n    \"Name\": \"长孙诚毒解\"\r\n  }"
   rawIndex: 1601400
   splits:
@@ -4466,45 +4928,50 @@
   - splitPath: Name
     text: "牧蛇之术一"
     translated: "Snake Herding Technique ‑ Part One"
-    qcReviewedText: "Art of Herding Snakes"
+    qcReviewedText: "Snake Herding Technique ‑ Part One"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1890200\",\r\n    \"Name\": \"牧蛇之术二\"\r\n  }"
   rawIndex: 1890200
   splits:
   - splitPath: Name
     text: "牧蛇之术二"
     translated: "Snake Herding Technique II"
-    qcReviewedText: "Second Technique of Snake Taming"
+    qcReviewedText: "Snake Herding Technique II"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1890300\",\r\n    \"Name\": \"牧蛇之术三\"\r\n  }"
   rawIndex: 1890300
   splits:
   - splitPath: Name
     text: "牧蛇之术三"
     translated: "Snake Herding Technique III"
-    qcReviewedText: "Snake Taming Technique Three"
+    qcReviewedText: "Snake Herding Technique III"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1891100\",\r\n    \"Name\": \"碧蛇传艺一\"\r\n  }"
   rawIndex: 1891100
   splits:
   - splitPath: Name
     text: "碧蛇传艺一"
     translated: "Green Serpent's Martial Arts I"
-    qcReviewedText: "Green Snake Imparts Skill One"
+    qcReviewedText: "Green Serpent's Martial Arts I"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1891200\",\r\n    \"Name\": \"碧蛇传艺二\"\r\n  }"
   rawIndex: 1891200
   splits:
   - splitPath: Name
     text: "碧蛇传艺二"
     translated: "Green Serpent's Martial Arts II"
-    qcReviewedText: "Green Cobra Passes On Techniques II"
+    qcReviewedText: "Green Serpent's Martial Arts II"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1900300\",\r\n    \"Name\": \"无胆除异蛇\"\r\n  }"
   rawIndex: 1900300
   splits:
@@ -4691,6 +5158,10 @@
   - splitPath: Name
     text: "乞丐叫花鸡"
     translated: "Beggar‑seller chicken"
+    qcReviewedText: "Beggar‑seller chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2000300\",\r\n    \"Name\": \"再会张山峰\"\r\n  }"
   rawIndex: 2000300
   splits:
@@ -4904,6 +5375,10 @@
   - splitPath: Name
     text: "战胜野猪"
     translated: "Defeat the wild boar"
+    qcReviewedText: "Defeat the wild boar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2005600\",\r\n    \"Name\": \"战胜章太歧\"\r\n  }"
   rawIndex: 2005600
   splits:
@@ -5054,6 +5529,11 @@
   - splitPath: Name
     text: "品尝火焙鱼"
     translated: "Tasting fried mackerel seasoned with fireworm powder"
+    qcReviewedText: "Tasting fried mackerel seasoned with fireworm powder"
+    qcTranslated: "Tasting fire‑roasted fish"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"2010000\",\r\n    \"Name\": \"黑煞鬼归案\"\r\n  }"
   rawIndex: 2010000
   splits:
@@ -5087,6 +5567,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Changsha Sweet Oil Cake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "长沙糖油粑"
@@ -5100,6 +5584,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Sweetened Ice Sugar Lotus Root Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冰糖湘莲羹"
@@ -5113,6 +5601,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Liling Smoked Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "醴陵火焙鱼"
@@ -5126,6 +5618,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Changsha Yuelu Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "长沙岳麓山"
@@ -5139,6 +5635,11 @@
   - splitPath: Name
     text: "彩头五百钱"
     translated: "Lucky number five hundred coins"
+    qcReviewedText: "Lucky number five hundred coins"
+    qcTranslated: "A five‑hundred‑coin prize"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"2096100\",\r\n    \"Name\": \"彩头开碑掌\"\r\n  }"
   rawIndex: 2096100
   splits:
@@ -5334,6 +5835,11 @@
   - splitPath: Name
     text: "从这行起，条件"
     translated: "Starting from this line, conditions:"
+    qcReviewedText: "Starting from this line, conditions:id For negative numbers, apply this conditional formula"
+    qcTranslated: "Starting from this line, condition IDs are negative. Apply the conditional formula of this line."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: HardToParseSeam
   - splitPath: Name
     subIndex: 1
     text: "为负数，沾这行条件公式"
@@ -5383,6 +5889,10 @@
   - splitPath: Name
     text: "峨眉说岳麓"
     translated: "Emei speaks to Mount Hunan"
+    qcReviewedText: "Emei speaks to Mount Hunan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2301700\",\r\n    \"Name\": \"岳满胜东庐\"\r\n  }"
   rawIndex: 2301700
   splits:
@@ -5506,15 +6016,20 @@
   - splitPath: Name
     text: "南坡说婉约"
     translated: "Napo says Wanyue"
-    qcRejectedCorrection: "Napo says婉约"
-    qcFailureReason: " If your prior translation includes Chinese, output English only. Scan the last translation for Chinese text, cross-check with the original Chinese from the first user prompt, and translate all remaining Chinese into fluent, natural English."
-    qcQualityScore: 95
+    qcReviewedText: "Napo says Wanyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2391300\",\r\n    \"Name\": \"南坡说唐诗\"\r\n  }"
   rawIndex: 2391300
   splits:
   - splitPath: Name
     text: "南坡说唐诗"
     translated: "Napo says Tang poetry"
+    qcReviewedText: "Napo says Tang poetry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2391400\",\r\n    \"Name\": \"南坡说汉赋\"\r\n  }"
   rawIndex: 2391400
   splits:
@@ -5620,12 +6135,20 @@
   - splitPath: Name
     text: "山长说公权"
     translated: "The mountain master said public rights"
+    qcReviewedText: "The mountain master said public rights"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2393200\",\r\n    \"Name\": \"山长说张旭\"\r\n  }"
   rawIndex: 2393200
   splits:
   - splitPath: Name
     text: "山长说张旭"
     translated: "The mountain master said to Zhang Xu"
+    qcReviewedText: "The mountain master said to Zhang Xu"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"2400500\",\r\n    \"Name\": \"常规全赌赢\"\r\n  }"
   rawIndex: 2400500
   splits:
@@ -5776,6 +6299,11 @@
   - splitPath: Name
     text: "购买飞虎玉"
     translated: "Purchase Asura Jade"
+    qcReviewedText: "Purchase Asura Jade"
+    qcTranslated: "Purchase Flying Tiger Jade"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"2501214\",\r\n    \"Name\": \"选择全都要\"\r\n  }"
   rawIndex: 2501214
   splits:
@@ -6043,6 +6571,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Cloud Dream Lake Fish Face Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "云梦泽鱼面"
@@ -6056,6 +6588,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Xiangyang Seasonal Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "襄阳应时酒"
@@ -6069,6 +6605,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hankuang Sealed Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "襄阳地封酒"
@@ -6082,6 +6622,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Xiangyang Deer Gate Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "襄阳鹿门山"
@@ -6095,6 +6639,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Outside Xiangyang, Longzhong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "襄阳外隆中"
@@ -6162,6 +6710,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medicine and Pharmacology I"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理一"
@@ -6175,6 +6727,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理二"
@@ -6188,6 +6744,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理三"
@@ -6201,6 +6761,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理四"
@@ -6214,6 +6778,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Medical Pharmacology Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "医术药理五"
@@ -6560,6 +7128,10 @@
   - splitPath: Name
     text: "新年灵蛇丹"
     translated: "Year Asura Pill"
+    qcReviewedText: "Year Asura Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3062600\",\r\n    \"Name\": \"新年灵龟丹\"\r\n  }"
   rawIndex: 3062600
   splits:
@@ -6656,6 +7228,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Go down the mountain to transport rice and grain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "下山运米粮"
@@ -6669,6 +7245,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Angel of Rescuing Distress"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "救难天仙女"
@@ -6682,6 +7262,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wudang Night Watch Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "武当执夜守"
@@ -6695,6 +7279,10 @@
   - splitPath: Name
     text: "玄机坐忘台"
     translated: "Yuan Ji Sitong Stage"
+    qcReviewedText: "Yuan Ji Sitong Stage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3300200\",\r\n    \"Name\": \"道先传轻功\"\r\n  }"
   rawIndex: 3300200
   splits:
@@ -6719,6 +7307,10 @@
   - splitPath: Name
     text: "道生传剑法"
     translated: "Dao Sheng Inheres Sword Technique"
+    qcReviewedText: "Dao Sheng Inheres Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3300500\",\r\n    \"Name\": \"道生传三才\"\r\n  }"
   rawIndex: 3300500
   splits:
@@ -6779,6 +7371,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-First, transmit the martial arts"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -6792,6 +7388,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Pass on the martial arts to Wu Er first."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道先传武二"
@@ -6805,6 +7405,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dow Sheng's Martial Arts Legacy Volume 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道生传武一"
@@ -6818,6 +7422,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Sheng's Martial Arts Legacy II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道生传武二"
@@ -6831,6 +7439,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Pu's Martial Arts Legacy 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道朴传武一"
@@ -6844,6 +7456,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -6857,6 +7473,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao An's Martial Arts Legacy Volume 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道安传武一"
@@ -6870,6 +7490,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao An's Martial Arts Legacy Part 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道安传武二"
@@ -6883,6 +7507,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Yan Transmits Martial Arts II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道衍传武二"
@@ -6896,6 +7524,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Yan Transmits Martial Arts III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道衍传武三"
@@ -6909,6 +7541,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Yan's Martial Arts Legacy Volume 4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道衍传武四"
@@ -6922,6 +7558,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Yan's Martial Arts Legacy Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道衍传武五"
@@ -6935,6 +7575,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Yan's Martial Arts Legacy, Volume 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道衍传武一"
@@ -7146,6 +7790,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Daoist Studies: The Tao Te Ching"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学道德经"
@@ -7159,6 +7807,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Daoist Studies and the Taiping Jing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学太平经"
@@ -7172,6 +7824,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Daoist Studies Classic of Clarity and Tranquility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学清静经"
@@ -7185,6 +7841,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Daoist Studies Yin Symbol Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学阴符经"
@@ -7198,6 +7858,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Daoist Studies Basic Canon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学保底经"
@@ -7211,6 +7875,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Unveil the True Pavilion's guarantee"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "解真阁保底"
@@ -7269,78 +7937,90 @@
   - splitPath: Name
     text: "基础丹术一"
     translated: "Basic Alchemy One"
-    qcReviewedText: "Basic Alchemy Techniques"
+    qcReviewedText: "Basic Alchemy One"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3790200\",\r\n    \"Name\": \"基础丹术二\"\r\n  }"
   rawIndex: 3790200
   splits:
   - splitPath: Name
     text: "基础丹术二"
     translated: "Basic Alchemy Two"
-    qcReviewedText: "Basic Alchemy II"
+    qcReviewedText: "Basic Alchemy Two"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3790300\",\r\n    \"Name\": \"基础丹术三\"\r\n  }"
   rawIndex: 3790300
   splits:
   - splitPath: Name
     text: "基础丹术三"
     translated: "Basic Alchemy Three"
-    qcReviewedText: "Basic Alchemy III"
+    qcReviewedText: "Basic Alchemy Three"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791100\",\r\n    \"Name\": \"太和一气丹\"\r\n  }"
   rawIndex: 3791100
   splits:
   - splitPath: Name
     text: "太和一气丹"
     translated: "Taihe Qi Unity Pill"
-    qcReviewedText: "Great Harmony One Breath Pill"
+    qcReviewedText: "Taihe Qi Unity Pill"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791200\",\r\n    \"Name\": \"龙虎筑基丹\"\r\n  }"
   rawIndex: 3791200
   splits:
   - splitPath: Name
     text: "龙虎筑基丹"
     translated: "Dragon‑Tiger Foundation Establishment Pill"
-    qcReviewedText: "Tiger and Dragon Foundation Establishment Pill"
+    qcReviewedText: "Dragon‑Tiger Foundation Establishment Pill"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791300\",\r\n    \"Name\": \"混元锻骨丹\"\r\n  }"
   rawIndex: 3791300
   splits:
   - splitPath: Name
     text: "混元锻骨丹"
     translated: "Hunyuan Bone Forging Pill"
-    qcReviewedText: "Cosmic Bone Forging Pill"
+    qcReviewedText: "Hunyuan Bone Forging Pill"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791400\",\r\n    \"Name\": \"太乙通脉丹\"\r\n  }"
   rawIndex: 3791400
   splits:
   - splitPath: Name
     text: "太乙通脉丹"
     translated: "Taiyi Circulation Pill"
+    qcReviewedText: "Taiyi Circulation Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791500\",\r\n    \"Name\": \"玄黄三宝丹\"\r\n  }"
   rawIndex: 3791500
   splits:
   - splitPath: Name
     text: "玄黄三宝丹"
     translated: "Mystic Yellow Treasures Triple Elixir"
-    qcReviewedText: "Three Treasure Pills of Yin and Yang"
+    qcReviewedText: "Mystic Yellow Treasures Triple Elixir"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3791600\",\r\n    \"Name\": \"紫府归元丹\"\r\n  }"
   rawIndex: 3791600
   splits:
   - splitPath: Name
     text: "紫府归元丹"
     translated: "Purple Palace Reversion Pill"
-    qcReviewedText: "Purple Mansion Return‑to‑Source Pill"
+    qcReviewedText: "Purple Palace Reversion Pill"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3800100\",\r\n    \"Name\": \"山路寻贼踪\"\r\n  }"
   rawIndex: 3800100
   splits:
@@ -7662,6 +8342,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-South Rock Peak at the rear mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山南岩峰"
@@ -7675,6 +8359,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Five Dragons Peak in the Rear Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "后山五龙峰"
@@ -7688,6 +8376,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Mount Wu Zhu at the rear mountain"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "后山武柱峰"
@@ -7782,6 +8474,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Taiyi Theory of Elixir Formulas"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "太乙论丹诀"
@@ -7795,6 +8491,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tongming on Alchemy Formulas"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "通明论丹诀"
@@ -7808,6 +8508,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Theory of Unifying Alchemy and Elixir Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "化一论丹诀"
@@ -7821,6 +8525,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Qingfeng Dan Decision Discussion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "清风论丹诀"
@@ -7834,6 +8542,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dao Spirit Theory of Alchemy Formulae"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道灵论丹诀"
@@ -7847,6 +8559,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Jade Ding Discourse on Elixir Formulae"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "玉鼎论丹诀"
@@ -7878,24 +8594,31 @@
   - splitPath: Name
     text: "太初基础一"
     translated: "Primordial Basics One"
-    qcReviewedText: "Initial Foundation One"
+    qcReviewedText: "Primordial Basics One"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3959200\",\r\n    \"Name\": \"太初基础二\"\r\n  }"
   rawIndex: 3959200
   splits:
   - splitPath: Name
     text: "太初基础二"
     translated: "Tai Chu Foundation Two"
-    qcReviewedText: "Initial Foundation II"
+    qcReviewedText: "Tai Chu Foundation Two"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3960100\",\r\n    \"Name\": \"昆仑太始洞\"\r\n  }"
   rawIndex: 3960100
   splits:
   - splitPath: Name
     text: "昆仑太始洞"
     translated: "Kunlun Tai‑Shen Cave"
+    qcReviewedText: "Kunlun Tai‑Shen Cave"
+    qcTranslated: "Kunlun Taishi Cave"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"3960200\",\r\n    \"Name\": \"娄拙闻道经\"\r\n  }"
   rawIndex: 3960200
   splits:
@@ -7911,24 +8634,30 @@
   - splitPath: Name
     text: "太始基础一"
     translated: "Primordial Basics One"
-    qcReviewedText: "Primary Foundation One"
+    qcReviewedText: "Primordial Basics One"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3969200\",\r\n    \"Name\": \"太始基础二\"\r\n  }"
   rawIndex: 3969200
   splits:
   - splitPath: Name
     text: "太始基础二"
     translated: "Tai Shi Foundation Two"
-    qcReviewedText: "Initial Core Level 2"
+    qcReviewedText: "Tai Shi Foundation Two"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3970100\",\r\n    \"Name\": \"青城太素洞\"\r\n  }"
   rawIndex: 3970100
   splits:
   - splitPath: Name
     text: "青城太素洞"
     translated: "Qingcheng Tai sui dong"
+    qcReviewedText: "Qingcheng Tai sui dong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3970400\",\r\n    \"Name\": \"切磋胜利\"\r\n  }"
   rawIndex: 3970400
   splits:
@@ -7953,6 +8682,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Taiyi Basics 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "太易基础一"
@@ -7966,6 +8699,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Taiyi Foundation Two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "太易基础二"
@@ -7979,9 +8716,10 @@
   - splitPath: Name
     text: "洞中勤修炼"
     translated: "Work hard at cultivating in the cave"
-    qcReviewedText: "PRACTICE diligently in the cave"
+    qcReviewedText: "Work hard at cultivating in the cave"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4000100\",\r\n    \"Name\": \"初入章华台\"\r\n  }"
   rawIndex: 4000100
   splits:
@@ -8033,18 +8771,21 @@
   - splitPath: Name
     text: "柳含烟舞一"
     translated: "Liu Hanyan dances"
-    qcReviewedText: "Liu Hanyan dances one"
-    qcStatus: Passed
-    qcQualityScore: 85
+    qcReviewedText: "Liu Hanyan dances"
+    qcTranslated: "Liu Hanyan Dance I"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"4001000\",\r\n    \"Name\": \"柳含烟舞二\"\r\n  }"
   rawIndex: 4001000
   splits:
   - splitPath: Name
     text: "柳含烟舞二"
     translated: "Liu Hanyan's Dance II"
-    qcReviewedText: "Liu Hanyan dances second"
+    qcReviewedText: "Liu Hanyan's Dance II"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4001100\",\r\n    \"Name\": \"柳含烟舞三\"\r\n  }"
   rawIndex: 4001100
   splits:
@@ -8564,6 +9305,10 @@
   - splitPath: Name
     text: "风间爱与月"
     translated: "Kazama Ai and Yue"
+    qcReviewedText: "Kazama Ai and Yue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4307600\",\r\n    \"Name\": \"温泉风间月\"\r\n  }"
   rawIndex: 4307600
   splits:
@@ -8840,6 +9585,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yuezhou Miluo Zong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "岳州汨罗粽"
@@ -8853,6 +9602,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wuling Peach Spring Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "武陵桃源酒"
@@ -8866,6 +9619,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Nanjing Eel Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "南江黄鳝面"
@@ -8879,6 +9636,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Junshan Silver Needle Tea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "君山银针茶"
@@ -8892,6 +9653,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yuanjiang Hutan Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "沅江壶头山"
@@ -8905,6 +9670,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yuezhou Miluo River"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "岳州汨罗江"
@@ -8918,6 +9687,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yueyang Tower in Yueyang City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "岳州岳阳楼"
@@ -9021,6 +9794,10 @@
   - splitPath: Name
     text: "洞庭江蛤蟆"
     translated: "Tangding River Frog"
+    qcReviewedText: "Tangding River Frog"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4602100\",\r\n    \"Name\": \"回报段青山\"\r\n  }"
   rawIndex: 4602100
   splits:
@@ -9063,6 +9840,11 @@
   - splitPath: Name
     text: "钟离恨归帮"
     translated: "Zhongli Heng returns to the gang"
+    qcReviewedText: "Zhongli Heng returns to the gang"
+    qcTranslated: "Zhongli Hen returns to the gang"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"4603400\",\r\n    \"Name\": \"一笑分奖励\"\r\n  }"
   rawIndex: 4603400
   splits:
@@ -9186,12 +9968,22 @@
   - splitPath: Name
     text: "打败江阔海"
     translated: "Defeat Jiang Kuohaizi"
+    qcReviewedText: "Defeat Jiang Kuohaizi"
+    qcTranslated: "Defeat Jiang Kuohai"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"4606400\",\r\n    \"Name\": \"打败江阔海\"\r\n  }"
   rawIndex: 4606400
   splits:
   - splitPath: Name
     text: "打败江阔海"
     translated: "Defeat Jiang Kuohaizi"
+    qcReviewedText: "Defeat Jiang Kuohaizi"
+    qcTranslated: "Defeat Jiang Kuohai"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"4607300\",\r\n    \"Name\": \"四象战完胜\"\r\n  }"
   rawIndex: 4607300
   splits:
@@ -9369,6 +10161,11 @@
   - splitPath: Name
     text: "兑换卷旗枪"
     translated: "Spear Exchange Coupon Flag"
+    qcReviewedText: "Spear Exchange Coupon Flag"
+    qcTranslated: "Exchange Coupon: Flag Spear"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"4800512\",\r\n    \"Name\": \"兑换贯日枪\"\r\n  }"
   rawIndex: 4800512
   splits:
@@ -9438,6 +10235,10 @@
   - splitPath: Name
     text: "兑换射蛟箭"
     translated: "Exchange Arrow of the Bowstring"
+    qcReviewedText: "Exchange Arrow of the Bowstring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4800713\",\r\n    \"Name\": \"兑换连珠箭\"\r\n  }"
   rawIndex: 4800713
   splits:
@@ -9462,36 +10263,40 @@
   - splitPath: Name
     text: "青蛟任务一"
     translated: "Azure Flood Dragon Mission One"
-    qcReviewedText: "Azure Flood Dragon Task One"
+    qcReviewedText: "Azure Flood Dragon Mission One"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4990200\",\r\n    \"Name\": \"青蛟任务二\"\r\n  }"
   rawIndex: 4990200
   splits:
   - splitPath: Name
     text: "青蛟任务二"
     translated: "Azure Flood Dragon Mission Two"
-    qcReviewedText: "Azure Flood Dragon Task Two"
+    qcReviewedText: "Azure Flood Dragon Mission Two"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4990300\",\r\n    \"Name\": \"青蛟任务三\"\r\n  }"
   rawIndex: 4990300
   splits:
   - splitPath: Name
     text: "青蛟任务三"
     translated: "Azure Flood Dragon Mission Three"
-    qcReviewedText: "Azure Flood Dragon Task Three"
+    qcReviewedText: "Azure Flood Dragon Mission Three"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4990400\",\r\n    \"Name\": \"青蛟任务四\"\r\n  }"
   rawIndex: 4990400
   splits:
   - splitPath: Name
     text: "青蛟任务四"
     translated: "Azure Flood Dragon Mission Four"
-    qcReviewedText: "Azure Flood Dragon Quest Four"
+    qcReviewedText: "Azure Flood Dragon Mission Four"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5000300\",\r\n    \"Name\": \"打败段青山\"\r\n  }"
   rawIndex: 5000300
   splits:
@@ -9516,63 +10321,70 @@
   - splitPath: Name
     text: "紫蛟任务一"
     translated: "Purple Qiao Task One"
-    qcReviewedText: "Task One: Hunt the Purple Python"
+    qcReviewedText: "Purple Qiao Task One"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5090200\",\r\n    \"Name\": \"紫蛟任务二\"\r\n  }"
   rawIndex: 5090200
   splits:
   - splitPath: Name
     text: "紫蛟任务二"
     translated: "Purple Qiao Task Two"
-    qcReviewedText: "Task Two for Zi Jiao"
+    qcReviewedText: "Purple Qiao Task Two"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5090300\",\r\n    \"Name\": \"紫蛟任务三\"\r\n  }"
   rawIndex: 5090300
   splits:
   - splitPath: Name
     text: "紫蛟任务三"
     translated: "Purple Qiao Mission Three"
-    qcReviewedText: "Dragon‑Tailed Viper Mission Three"
+    qcReviewedText: "Purple Qiao Mission Three"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5190100\",\r\n    \"Name\": \"白蛟摆渡一\"\r\n  }"
   rawIndex: 5190100
   splits:
   - splitPath: Name
     text: "白蛟摆渡一"
     translated: "White Dragon Ferry Service 1"
-    qcReviewedText: "White Serpent Ferry One"
+    qcReviewedText: "White Dragon Ferry Service 1"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5190200\",\r\n    \"Name\": \"白蛟摆渡二\"\r\n  }"
   rawIndex: 5190200
   splits:
   - splitPath: Name
     text: "白蛟摆渡二"
     translated: "White Dragon Ferry II"
-    qcReviewedText: "White Dragon Ferryman Two"
+    qcReviewedText: "White Dragon Ferry II"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5190300\",\r\n    \"Name\": \"白蛟运货一\"\r\n  }"
   rawIndex: 5190300
   splits:
   - splitPath: Name
     text: "白蛟运货一"
     translated: "White Dragon Transport Service 1"
-    qcReviewedText: "White Dragon transports cargo one"
+    qcReviewedText: "White Dragon Transport Service 1"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5190400\",\r\n    \"Name\": \"白蛟运货二\"\r\n  }"
   rawIndex: 5190400
   splits:
   - splitPath: Name
     text: "白蛟运货二"
     translated: "White Dragon Transport Two"
-    qcReviewedText: "White Dragon Transport Team"
+    qcReviewedText: "White Dragon Transport Two"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5200100\",\r\n    \"Name\": \"初遇钟离雪\"\r\n  }"
   rawIndex: 5200100
   splits:
@@ -9597,33 +10409,40 @@
   - splitPath: Name
     text: "潜水修炼一"
     translated: "Underwater Cultivation Stage One"
+    qcReviewedText: "Underwater Cultivation Stage One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5290200\",\r\n    \"Name\": \"潜水修炼二\"\r\n  }"
   rawIndex: 5290200
   splits:
   - splitPath: Name
     text: "潜水修炼二"
     translated: "Second Stage of Stealth Cultivation"
-    qcReviewedText: "Submerged Meditation II"
+    qcReviewedText: "Second Stage of Stealth Cultivation"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5290300\",\r\n    \"Name\": \"潜水修炼三\"\r\n  }"
   rawIndex: 5290300
   splits:
   - splitPath: Name
     text: "潜水修炼三"
     translated: "Third Stage of Underwater Meditation Training"
-    qcReviewedText: "Submerged practice for three days"
+    qcReviewedText: "Third Stage of Underwater Meditation Training"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5290400\",\r\n    \"Name\": \"潜水修炼四\"\r\n  }"
   rawIndex: 5290400
   splits:
   - splitPath: Name
     text: "潜水修炼四"
     translated: "Fourth Stage of Underwater Cultivation"
-    qcReviewedText: "Submerged meditation for four days"
+    qcReviewedText: "Fourth Stage of Underwater Cultivation"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5300200\",\r\n    \"Name\": \"再遇钟离雪\"\r\n  }"
   rawIndex: 5300200
   splits:
@@ -9927,57 +10746,71 @@
   - splitPath: Name
     text: "钓鳌矶银鱼"
     translated: "Hooking Turtle Cliff should be translated as Hooking Turtle Cliff"
-    qcReviewedText: "Silver Fish at Jiao'ai Ji"
+    qcReviewedText: "Hooking Turtle Cliff should be translated as Hooking Turtle Cliff"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5390200\",\r\n    \"Name\": \"钓鳌矶老鳖\"\r\n  }"
   rawIndex: 5390200
   splits:
   - splitPath: Name
     text: "钓鳌矶老鳖"
     translated: "Old Turtle of Diao Aoji"
-    qcReviewedText: "Old Tortoise of Jiao'ao Ji"
+    qcReviewedText: "Old Turtle of Diao Aoji"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5390300\",\r\n    \"Name\": \"钓鳌矶回鱼\"\r\n  }"
   rawIndex: 5390300
   splits:
   - splitPath: Name
     text: "钓鳌矶回鱼"
     translated: "Hooking back the fish at Diao Ao Pier"
-    qcReviewedText: "Return Fish at Jieao Ji"
+    qcReviewedText: "Hooking back the fish at Diao Ao Pier"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5390400\",\r\n    \"Name\": \"钓鳌矶鲢鱼\"\r\n  }"
   rawIndex: 5390400
   splits:
   - splitPath: Name
     text: "钓鳌矶鲢鱼"
     translated: "Catch carp at the Anchored Turtle Rock Fishing Spot"
+    qcReviewedText: "Catch carp at the Anchored Turtle Rock Fishing Spot"
+    qcTranslated: "Catch silver carp at the Turtle‑Fishing Rock"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"5390500\",\r\n    \"Name\": \"钓鳌矶鲈鱼\"\r\n  }"
   rawIndex: 5390500
   splits:
   - splitPath: Name
     text: "钓鳌矶鲈鱼"
     translated: "Dredge abalone ridge sea bass"
-    qcReviewedText: "Sea Bass at Jiaoshai Rock"
+    qcReviewedText: "Dredge abalone ridge sea bass"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5390600\",\r\n    \"Name\": \"钓鳌矶湖蟹\"\r\n  }"
   rawIndex: 5390600
   splits:
   - splitPath: Name
     text: "钓鳌矶湖蟹"
     translated: "Catch crabs from Diao Aoji Lake"
-    qcReviewedText: "Crab from Lake at Jiao Ao Ji"
+    qcReviewedText: "Catch crabs from Diao Aoji Lake"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5390700\",\r\n    \"Name\": \"基-龙女钓银鱼\"\r\n  }"
   rawIndex: 5390700
   splits:
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-The Dragon Maiden catches silver fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "龙女钓银鱼"
@@ -9991,6 +10824,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-The Dragon Maiden reels in sea bass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "龙女钓鲈鱼"
@@ -10220,6 +11057,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Three Steamed Dishes of Mianyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "沔阳三蒸碗"
@@ -10233,6 +11074,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Jiangling Thousand Layered Meat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "江陵千张肉"
@@ -10246,6 +11091,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Winter Melon Turtle Broth Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冬瓜鳖裙羹"
@@ -10259,6 +11108,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Jiangling has no high mountains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "江陵无高山"
@@ -10470,6 +11323,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dragon Soaring Sesame Candy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "龙兴油酥糖"
@@ -10483,6 +11340,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Hunan Preserved Meat Steamer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "湘地腊合蒸"
@@ -10496,6 +11357,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Phoenix Blood Glutinous Duck"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "凤凰血粑鸭"
@@ -10509,6 +11374,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Danxia Landform of Langshan Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "崀山丹霞地"
@@ -10522,6 +11391,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wugang Faxiang Rock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "武冈法相岩"
@@ -10535,6 +11408,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Wind‑Blown Stewed Ox Head"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "风扬炖牛头"
@@ -11124,6 +12001,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dazhou Lantern Shadow Meat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "达州灯影肉"
@@ -11137,6 +12018,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tongli Six‑win Toffee"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "铜梁六赢酥"
@@ -11150,6 +12035,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Cloudy Yang Peach Slice Cake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "云阳桃片糕"
@@ -11163,6 +12052,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fengjie Baxiang Qing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "奉节巴乡清"
@@ -11176,6 +12069,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Boating in the Dazhai Gorge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "泛舟翟塘峡"
@@ -11189,6 +12086,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Twelve Peaks of Wushan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "巫山十二峰"
@@ -11238,6 +12139,10 @@
   - splitPath: Name
     text: "选择屋漏痕"
     translated: "Choose House Leaky Stroke"
+    qcReviewedText: "Choose House Leaky Stroke"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6400513\",\r\n    \"Name\": \"选择锥画沙\"\r\n  }"
   rawIndex: 6400513
   splits:
@@ -11361,6 +12266,11 @@
   - splitPath: Name
     text: "战胜辛绝灭"
     translated: "While correcting, also verify: ‑ Defeat Xing Jue defeat Xing Jue"
+    qcReviewedText: "While correcting, also verify: ‑ Defeat Xing Jue defeat Xing Jue"
+    qcTranslated: "Defeat Xing Juemian"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"6500900\",\r\n    \"Name\": \"鬼市寒冬青\"\r\n  }"
   rawIndex: 6500900
   splits:
@@ -11457,6 +12367,11 @@
   - splitPath: Name
     text: "浣花望青城"
     translated: "Wanhuɑ Flower Gaze at Qingcheng"
+    qcReviewedText: "Wanhuɑ Flower Gaze at Qingcheng"
+    qcTranslated: "Gazing at Qingcheng from Wanhu"
+    qcStatus: Corrected
+    qcQualityScore: 78
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"6601000\",\r\n    \"Name\": \"战胜樊荡秽\"\r\n  }"
   rawIndex: 6601000
   splits:
@@ -11508,6 +12423,10 @@
   - splitPath: Name
     text: "巧遇龙爪连"
     translated: "Unexpectedly encountered the dragon's claws connected together"
+    qcReviewedText: "Unexpectedly encountered the dragon's claws connected together"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6602300\",\r\n    \"Name\": \"酒肆访贼踪\"\r\n  }"
   rawIndex: 6602300
   splits:
@@ -11649,6 +12568,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Pengzhou Military Potcake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "彭州军锅盔"
@@ -11662,6 +12585,11 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Mianyang Dongpo Pork Knuckles"
+    qcTranslated: "Base‑Meishan Dongpo Pork Knuckles"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
   - splitPath: Name
     subIndex: 1
     text: "眉山东坡肘"
@@ -11675,6 +12603,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-West Sichuan Tai Bai Duck"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "川西太白鸭"
@@ -11688,6 +12620,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Golden shredded vegetables become jade slices"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "金齑成玉脍"
@@ -11701,6 +12637,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Mengding Sweet Dew Tea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "蒙顶甘露茶"
@@ -11714,6 +12654,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Dujiangyan, Guan County"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "灌县都江堰"
@@ -11727,6 +12671,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Chengdu Baoguang Temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "成都宝光寺"
@@ -12253,12 +13201,20 @@
   - splitPath: Name
     text: "四美女沉鱼"
     translated: "Four Beauties Faded"
+    qcReviewedText: "Four Beauties Faded"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6831400\",\r\n    \"Name\": \"四美女落雁\"\r\n  }"
   rawIndex: 6831400
   splits:
   - splitPath: Name
     text: "四美女落雁"
     translated: "Four Beauties Arrows of Desire"
+    qcReviewedText: "Four Beauties Arrows of Desire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6831500\",\r\n    \"Name\": \"四美女闭月\"\r\n  }"
   rawIndex: 6831500
   splits:
@@ -12796,6 +13752,11 @@
   - splitPath: Name
     text: "唐门唐家堡"
     translated: "Tang Clan Tang Ji Fortaleza"
+    qcReviewedText: "Tang Clan Tang Ji Fortaleza"
+    qcTranslated: "Tang Clan Tang Family Fortress"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"7100400\",\r\n    \"Name\": \"唐宝传内功\"\r\n  }"
   rawIndex: 7100400
   splits:
@@ -12901,6 +13862,11 @@
   - splitPath: Name
     text: "选白发打赢老头"
     translated: "Choose White Hair Wins against Old Man"
+    qcReviewedText: "Choose White Hair Wins against Old Man"
+    qcTranslated: "Choose White Hair to beat the old man"
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"7216700\",\r\n    \"Name\": \"选黑伞打赢老头\"\r\n  }"
   rawIndex: 7216700
   splits:
@@ -13024,6 +13990,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Safe and Happy Game One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "安乐游戏一"
@@ -13037,6 +14007,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Game of Bliss Two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "安乐游戏二"
@@ -13050,6 +14024,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Safe and Happy Game Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "安乐游戏三"
@@ -13063,6 +14041,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Game of Bliss Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "安乐游戏四"
@@ -13076,6 +14058,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Game of Bliss Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "安乐游戏四"
@@ -13116,6 +14102,10 @@
   - splitPath: Name
     text: "三停秘术传"
     translated: "The Secret Art of Three Stopped Techniques"
+    qcReviewedText: "The Secret Art of Three Stopped Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7400500\",\r\n    \"Name\": \"唐九的酒一\"\r\n  }"
   rawIndex: 7400500
   splits:
@@ -13158,6 +14148,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Chapter One: Tang Yin's Poison Incident"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "唐隐传毒一"
@@ -13171,6 +14165,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tang Yin's Poison Chronicles II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "唐隐传毒二"
@@ -13184,6 +14182,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tang Yin's Poison Chronicles III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "唐隐传毒三"
@@ -13197,6 +14199,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tang Yin's Poison Chronicles IV"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "唐隐传毒四"
@@ -13255,6 +14261,11 @@
   - splitPath: Name
     text: "研习连排弩"
     translated: "Studying the lian pai nu technique"
+    qcReviewedText: "Studying the lian pai nu technique"
+    qcTranslated: "Studying the Lianpai Crossbow Technique"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"7500300\",\r\n    \"Name\": \"毒物蚀心灯\"\r\n  }"
   rawIndex: 7500300
   splits:
@@ -13288,6 +14299,10 @@
   - splitPath: Name
     text: "暗器相见欢"
     translated: "Hidden Weapon They Meet Joyfully"
+    qcReviewedText: "Hidden Weapon They Meet Joyfully"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7501100\",\r\n    \"Name\": \"暗器为昙花\"\r\n  }"
   rawIndex: 7501100
   splits:
@@ -13384,6 +14399,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Study of Mechanisms I"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "机关之学一"
@@ -13397,6 +14416,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Study of Mechanisms II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "机关之学二"
@@ -13410,6 +14433,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Study of Mechanisms III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "机关之学三"
@@ -13423,6 +14450,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-The Study of Mechanisms, Part Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "机关之学四"
@@ -13436,6 +14467,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-The Study of Mechanisms, Part Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "机关之学四"
@@ -13476,6 +14511,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Training Session 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功一"
@@ -13489,6 +14528,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功二"
@@ -13502,6 +14545,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance Training Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功三"
@@ -13515,6 +14562,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功四"
@@ -13528,6 +14579,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功五"
@@ -13541,6 +14596,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Performance and Martial Arts Practice Six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功六"
@@ -13554,6 +14613,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Seven Styles of Martial Arts Practice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "演武练功七"
@@ -13567,6 +14630,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Perform the martial arts practice for guaranteed progress."
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "演武练保底"
@@ -13580,6 +14647,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Focus on gathering energy to practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "聚气练内功"
@@ -13593,6 +14664,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Intent Training of Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "意定练内功"
@@ -13606,6 +14681,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Meditate and cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "冥心练内功"
@@ -13619,6 +14698,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Focus and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "凝神练内功"
@@ -13632,6 +14715,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Zhuangzi transcends the mundane world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "庄子出尘外"
@@ -13645,6 +14732,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Confucian Scriptures of Worldly Affairs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "论语世经纶"
@@ -13658,6 +14749,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Promote the profound doctrines of the Lotus Sutra."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "法华宏佛理"
@@ -13671,6 +14766,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Understanding the principles through the Book of Changes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "周易知明理"
@@ -13684,6 +14783,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Practice the basics in the quiet room"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "静室练保底"
@@ -14075,6 +15178,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Guangyuan Walnut Cookies"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "广元核桃酥"
@@ -14088,6 +15195,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Husband‑and‑Wife Cold Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "夫妻米凉面"
@@ -14101,6 +15212,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Zitong County Crispy Pancake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "梓潼县酥饼"
@@ -14114,6 +15229,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Bazhong Jujube Forest Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "巴中枣林鱼"
@@ -14127,6 +15246,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Righteous Crispy Pork Ribs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "正直大酥肉"
@@ -14140,6 +15263,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Nanchong Wobridge Fish Roll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "南充卧龙鲊"
@@ -14153,6 +15280,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Guangyuan Sword Gate Path"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "广元剑阁道"
@@ -14166,6 +15297,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Water Calming Temple Buddha niche"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "水宁寺佛龛"
@@ -14323,12 +15458,21 @@
   - splitPath: Name
     text: "中元听经一"
     translated: "Mid‑Autumn Listen to the Sutra Once"
+    qcReviewedText: "Mid‑Autumn Listen to the Sutra Once"
+    qcTranslated: "Zhongyuan: Listening to the Sutra I"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"8091100\",\r\n    \"Name\": \"基-盐津乌骨鸡\"\r\n  }"
   rawIndex: 8091100
   splits:
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Salted Black‑Boned Chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "盐津乌骨鸡"
@@ -14342,6 +15486,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Yiliang Yellow Rice Cake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "彝良黄糕粑"
@@ -14355,6 +15503,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Ludian Beef Jerky"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "鲁甸牛干巴"
@@ -14368,6 +15520,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Salted‑edge fatty meat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "盐边油底肉"
@@ -14381,6 +15537,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Fu Shun County Tofu Pudding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "富顺县豆花"
@@ -14394,6 +15554,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Mo Shui Great Crossing River"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "沫水大渡河"
@@ -14407,6 +15571,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Visit Longzhoushan Mountain"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Name
     subIndex: 1
     text: "会理龙肘山"
@@ -14420,6 +15588,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Buddha's Revival on Mount Spiral Peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "佛兴螺髻山"
@@ -14523,9 +15695,10 @@
   - splitPath: Name
     text: "廿八星宿阵"
     translated: "Twenty‑Eight Constellations Formation"
-    qcReviewedText: "Twenty‑Eight Mansions Array"
+    qcReviewedText: "Twenty‑Eight Constellations Formation"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8190211\",\r\n    \"Name\": \"武侯机关一\"\r\n  }"
   rawIndex: 8190211
   splits:
@@ -14559,6 +15732,10 @@
   - splitPath: Name
     text: "朝云萧雪雁"
     translated: "Morning Cloud, Snowy Feather"
+    qcReviewedText: "Morning Cloud, Snowy Feather"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8200800\",\r\n    \"Name\": \"玉珠落重楼\"\r\n  }"
   rawIndex: 8200800
   splits:
@@ -14637,6 +15814,10 @@
   - splitPath: Name
     text: "巫山神女情"
     translated: "Wuxiang Goddess's Affection"
+    qcReviewedText: "Wuxiang Goddess's Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8202300\",\r\n    \"Name\": \"出关元阳成\"\r\n  }"
   rawIndex: 8202300
   splits:
@@ -14733,6 +15914,11 @@
   - splitPath: Name
     text: "蚩木反苗峒"
     translated: "Chimu Fanzhuangトンdens"
+    qcReviewedText: "Chimu Fanzhuangトンdens"
+    qcTranslated: "Chimu Anti‑Miao Dong"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8003500\",\r\n    \"Name\": \"林中遇苍狼\"\r\n  }"
   rawIndex: 8003500
   splits:
@@ -14910,6 +16096,11 @@
   - splitPath: Name
     text: "蚩连说根源"
     translated: "Chi Lian explained the yuan TMPro as the origin."
+    qcReviewedText: "Chi Lian explained the yuan TMPro as the origin."
+    qcTranslated: "Chi Lian explained the root cause"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"10000200\",\r\n    \"Name\": \"邬健传上篇\"\r\n  }"
   rawIndex: 10000200
   splits:
@@ -15258,6 +16449,11 @@
   - splitPath: Name
     text: "翘儿江湖行三"
     translated: "Qiao'er's Journey Through the Jianghu for Three Days"
+    qcReviewedText: "Qiao'er's Journey Through the Jianghu for Three Days"
+    qcTranslated: "Qiao'er's Jianghu Journey, Part Three"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"10010300\",\r\n    \"Name\": \"梦授天真诀\"\r\n  }"
   rawIndex: 10010300
   splits:

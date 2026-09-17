@@ -4,18 +4,36 @@
   - splitPath: Name
     text: "青釭剑"
     translated: "Sword"
+    qcReviewedText: "Sword"
+    qcTranslated: "Qinggang Sword"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DroppedContent
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": 2,\r\n    \"Name\": \"锁子甲\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
     text: "锁子甲"
     translated: "Scale mail armor"
+    qcReviewedText: "Scale mail armor"
+    qcTranslated: "Chain mail armor"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": 3,\r\n    \"Name\": \"九阴真经\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
   rawIndex: 3
   splits:
@@ -28,3 +46,7 @@
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

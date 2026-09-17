@@ -15,7 +15,7 @@
 qualityReview:
   enabled: true
   modelName: Qwen38Qc 
-  minAcceptableScore: 60
+  minAcceptableScore: 70
   maxConcurrency: 2 
   inlineRuleCheckRetries: 2
   autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]

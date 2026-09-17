@@ -10,6 +10,10 @@
   - splitPath: Desc
     text: "伤害+2000%，仅简单难度可用"
     translated: "Deal +2000% damage, available only on Simple difficulty."
+    qcReviewedText: "Deal +2000% damage, available only on Simple difficulty."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"16\",\r\n    \"Name\": \"修炼选择\",\r\n    \"Desc\": \"在门派修炼时可指定修炼的类型\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"修煉選擇\",\r\n    \"DescTw\": \"在門派修煉時可指定修煉的型別\"\r\n  }"
   rawIndex: 16
   splits:
@@ -22,9 +26,17 @@
   - splitPath: Desc
     text: "在门派修炼时可指定修炼的类型"
     translated: "While training in the sect, you can specify the type of training."
+    qcReviewedText: "While training in the sect, you can specify the type of training."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Name\": \"休息一会\",\r\n    \"Desc\": \"门派第三年起可直接休息到下个月\",\r\n    \"NameTw\": \"休息一會\",\r\n    \"DescTw\": \"門派第三年起可直接休息到下個月\"\r\n  }"
   rawIndex: 18
   splits:
@@ -37,18 +49,35 @@
   - splitPath: Desc
     text: "门派第三年起可直接休息到下个月"
     translated: "Starting in the third year of the sect, members can directly rest until the next month."
+    qcReviewedText: "Starting in the third year of the sect, members can directly rest until the next month."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"0\",\r\n    \"Name\": \"回合+1\",\r\n    \"Desc\": \"加入门派后每月可行动次数+1\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"回合+1\",\r\n    \"DescTw\": \"加入門派後每月可行動次數+1\"\r\n  }"
   rawIndex: 0
   splits:
   - splitPath: Name
     text: "回合"
     translated: "Round"
+    qcReviewedText: "Round+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
     translated: "After joining a sect, you can take actions a certain number of times each month."
+    qcReviewedText: "After joining a sect, you can take actions a certain number of times each month.+1"
+    qcTranslated: "After joining a Sect, your Action Count per Month is +1."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -60,12 +89,25 @@
   - splitPath: Name
     text: "回合"
     translated: "Round"
+    qcReviewedText: "Round+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
     translated: "After joining a sect, you can take actions a certain number of times each month."
+    qcReviewedText: "After joining a sect, you can take actions a certain number of times each month.+1"
+    qcTranslated: "After joining a Sect, your Action Count per Month is +1."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -77,9 +119,17 @@
   - splitPath: Name
     text: "行动力"
     translated: "Action Points"
+    qcReviewedText: "Action Points+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "战斗中每回合回复的行动力"
     translated: "Action Points recovered each turn in battle"
+    qcReviewedText: "Action Points recovered each turn in battle+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -91,9 +141,17 @@
   - splitPath: Name
     text: "天生神力"
     translated: "Supernatural strength"
+    qcReviewedText: "Supernatural strength"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "玩家可装备技能"
     translated: "Players can equip skills"
+    qcReviewedText: "Players can equip skills+2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+2"
@@ -103,12 +161,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -118,12 +188,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -133,12 +215,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -148,12 +242,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -163,12 +269,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -178,12 +296,24 @@
   - splitPath: Name
     text: "天赋槽位"
     translated: "Talent slot"
+    qcReviewedText: "Talent slot+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "可以多选择一个天赋"
     translated: "You can choose an additional talent"
+    qcReviewedText: "You can choose an additional talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -193,12 +323,24 @@
   - splitPath: Name
     text: "伤害"
     translated: "Damage"
+    qcReviewedText: "Damage+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的最终伤害"
     translated: "The final damage dealt by all characters"
+    qcReviewedText: "The final damage dealt by all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -210,12 +352,24 @@
   - splitPath: Name
     text: "伤害"
     translated: "Damage"
+    qcReviewedText: "Damage+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的最终伤害"
     translated: "The final damage dealt by all characters"
+    qcReviewedText: "The final damage dealt by all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -227,12 +381,24 @@
   - splitPath: Name
     text: "伤害"
     translated: "Damage"
+    qcReviewedText: "Damage+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的最终伤害"
     translated: "The final damage dealt by all characters"
+    qcReviewedText: "The final damage dealt by all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -244,12 +410,24 @@
   - splitPath: Name
     text: "伤害"
     translated: "Damage"
+    qcReviewedText: "Damage+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的最终伤害"
     translated: "The final damage dealt by all characters"
+    qcReviewedText: "The final damage dealt by all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -261,12 +439,24 @@
   - splitPath: Name
     text: "伤害"
     translated: "Damage"
+    qcReviewedText: "Damage+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的最终伤害"
     translated: "The final damage dealt by all characters"
+    qcReviewedText: "The final damage dealt by all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -278,12 +468,24 @@
   - splitPath: Name
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的综合气血"
     translated: "The overall Lifeforce of all characters"
+    qcReviewedText: "The overall Lifeforce of all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -295,12 +497,24 @@
   - splitPath: Name
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的综合气血"
     translated: "The overall Lifeforce of all characters"
+    qcReviewedText: "The overall Lifeforce of all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -312,12 +526,24 @@
   - splitPath: Name
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的综合气血"
     translated: "The overall Lifeforce of all characters"
+    qcReviewedText: "The overall Lifeforce of all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -329,12 +555,24 @@
   - splitPath: Name
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的综合气血"
     translated: "The overall Lifeforce of all characters"
+    qcReviewedText: "The overall Lifeforce of all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -346,12 +584,24 @@
   - splitPath: Name
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "全体角色的综合气血"
     translated: "The overall Lifeforce of all characters"
+    qcReviewedText: "The overall Lifeforce of all characters+10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+10%"
@@ -363,12 +613,25 @@
   - splitPath: Name
     text: "回合"
     translated: "Round"
+    qcReviewedText: "Round+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "加入门派后每月可行动次数"
     translated: "After joining a sect, you can take actions a certain number of times each month."
+    qcReviewedText: "After joining a sect, you can take actions a certain number of times each month.+1"
+    qcTranslated: "After joining a Sect, your Action Count per Month is +1."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}+1"
@@ -380,12 +643,17 @@
   - splitPath: Name
     text: "九流奇功"
     translated: "Nine Strange Arts of the Nine Schools"
-    qcReviewedText: "Nine Schools of Strange Martial Arts"
+    qcReviewedText: "Nine Strange Arts of the Nine Schools"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "初始可获得功法九流奇功"
     translated: "Initial available cultivation techniques include Nine Weird and Wondrous Skills."
+    qcReviewedText: "Initial available cultivation techniques include Nine Weird and Wondrous Skills."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"25\",\r\n    \"Name\": \"真武剑诀\",\r\n    \"Desc\": \"初始可获得功法真武剑诀\",\r\n    \"NameTw\": \"真武劍訣\",\r\n    \"DescTw\": \"初始可獲得功法真武劍訣\"\r\n  }"
   rawIndex: 25
   splits:
@@ -398,6 +666,10 @@
   - splitPath: Desc
     text: "初始可获得功法真武剑诀"
     translated: "Initial available cultivation technique: True Martial Sword Art"
+    qcReviewedText: "Initial available cultivation technique: True Martial Sword Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"定风波\",\r\n    \"Desc\": \"初始可获得功法定风波\",\r\n    \"NameTw\": \"定風波\",\r\n    \"DescTw\": \"初始可獲得功法定風波\"\r\n  }"
   rawIndex: 26
   splits:
@@ -410,3 +682,7 @@
   - splitPath: Desc
     text: "初始可获得功法定风波"
     translated: "Initial available skill: Calm the Waves Fist"
+    qcReviewedText: "Initial available skill: Calm the Waves Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

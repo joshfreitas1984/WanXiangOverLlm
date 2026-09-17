@@ -10,6 +10,10 @@
   - splitPath: Desc
     text: "行动次数上限"
     translated: "Action Count Limit"
+    qcReviewedText: "Action Count Limit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"15\",\r\n    \"Name\": \"卡牌个数\",\r\n    \"Desc\": \"升级卡牌随机的个数\",\r\n    \"NameTw\": \"卡牌個數\",\r\n    \"DescTw\": \"升級卡牌隨機的個數\"\r\n  }"
   rawIndex: 15
   splits:
@@ -22,6 +26,10 @@
   - splitPath: Desc
     text: "升级卡牌随机的个数"
     translated: "Number of random upgrade cards"
+    qcReviewedText: "Number of random upgrade cards"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"16\",\r\n    \"Name\": \"江湖消息价格\",\r\n    \"Desc\": \"江湖消息价格\",\r\n    \"NameTw\": \"江湖消息價格\",\r\n    \"DescTw\": \"江湖訊息價格\"\r\n  }"
   rawIndex: 16
   splits:
@@ -34,6 +42,10 @@
   - splitPath: Desc
     text: "江湖消息价格"
     translated: "Jianghu Info Cost"
+    qcReviewedText: "Jianghu Info Cost"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"17\",\r\n    \"Name\": \"行动力上限\",\r\n    \"NameTw\": \"行動力上限\"\r\n  }"
   rawIndex: 17
   splits:
@@ -55,6 +67,10 @@
   - splitPath: Desc
     text: "每回合增加行动力"
     translated: "Increase action points per turn"
+    qcReviewedText: "Increase action points per turn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2\",\r\n    \"Name\": \"根骨\",\r\n    \"Desc\": \"大幅影响角色的功力\",\r\n    \"NameTw\": \"根骨\",\r\n    \"DescTw\": \"大幅影響角色的功力\"\r\n  }"
   rawIndex: 2
   splits:
@@ -67,6 +83,10 @@
   - splitPath: Desc
     text: "大幅影响角色的功力"
     translated: "Significantly affects the character's power"
+    qcReviewedText: "Significantly affects the character's power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"体魄\",\r\n    \"Desc\": \"大幅影响角色的气血\",\r\n    \"NameTw\": \"體魄\",\r\n    \"DescTw\": \"大幅影響角色的氣血\"\r\n  }"
   rawIndex: 1
   splits:
@@ -79,6 +99,10 @@
   - splitPath: Desc
     text: "大幅影响角色的气血"
     translated: "Significantly affects the character's lifeforce"
+    qcReviewedText: "Significantly affects the character's lifeforce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Name\": \"内息\",\r\n    \"Desc\": \"大幅影响队伍的异常抗性，小幅影响角色的气血\",\r\n    \"NameTw\": \"內息\",\r\n    \"DescTw\": \"大幅影響隊伍的異常抗性，小幅影響角色的氣血\"\r\n  }"
   rawIndex: 3
   splits:
@@ -91,18 +115,27 @@
   - splitPath: Desc
     text: "大幅影响队伍的异常抗性，小幅影响角色的气血"
     translated: "Significantly affects the team's abnormal resistance, slightly affecting the character's lifeforce."
+    qcReviewedText: "Significantly affects the team's abnormal resistance, slightly affecting the character's lifeforce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"灵活\",\r\n    \"Desc\": \"大幅影响队伍的连击发生率，小幅影响角色的功力\",\r\n    \"NameTw\": \"靈活\",\r\n    \"DescTw\": \"大幅影響隊伍的連擊發生率，小幅影響角色的功力\"\r\n  }"
   rawIndex: 4
   splits:
   - splitPath: Name
     text: "灵活"
     translated: "Flexible"
-    qcReviewedText: "Flexibility"
+    qcReviewedText: "Flexible"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "大幅影响队伍的连击发生率，小幅影响角色的功力"
     translated: "Significantly affects the team's combo rate, slightly affecting the character's power."
+    qcReviewedText: "Significantly affects the team's combo rate, slightly affecting the character's power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Name\": \"悟性\",\r\n    \"Desc\": \"大幅影响队伍的强化发生率，影响一些武学的获取\",\r\n    \"NameTw\": \"悟性\",\r\n    \"DescTw\": \"大幅影響隊伍的強化發生率，影響一些武學的獲取\"\r\n  }"
   rawIndex: 5
   splits:
@@ -115,6 +148,10 @@
   - splitPath: Desc
     text: "大幅影响队伍的强化发生率，影响一些武学的获取"
     translated: "Significantly affects the rate of team enhancement, impacting the acquisition of certain martial arts techniques."
+    qcReviewedText: "Significantly affects the rate of team enhancement, impacting the acquisition of certain martial arts techniques."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"福缘\",\r\n    \"Desc\": \"大幅影响队伍的会心发生率，影响一些事件的触发\",\r\n    \"NameTw\": \"福緣\",\r\n    \"DescTw\": \"大幅影響隊伍的會心發生率，影響一些事件的觸發\"\r\n  }"
   rawIndex: 6
   splits:
@@ -127,6 +164,10 @@
   - splitPath: Desc
     text: "大幅影响队伍的会心发生率，影响一些事件的触发"
     translated: "Significantly affects the critical hit rate of the team and triggers some events."
+    qcReviewedText: "Significantly affects the critical hit rate of the team and triggers some events."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"贡献\",\r\n    \"Desc\": \"衡量角色对门派的付出与忠诚，贡献越高，不仅能获得更多门派的信任与重任，还能解锁特殊任务与珍贵奖励\",\r\n    \"NameTw\": \"貢獻\",\r\n    \"DescTw\": \"衡量角色對門派的付出與忠誠，貢獻越高，不僅能獲得更多門派的信任與重任，還能解鎖特殊任務與珍貴獎勵\"\r\n  }"
   rawIndex: 7
   splits:
@@ -139,15 +180,28 @@
   - splitPath: Desc
     text: "衡量角色对门派的付出与忠诚，贡献越高，不仅能获得更多门派的信任与重任，还能解锁特殊任务与珍贵奖励"
     translated: "Based on a character's contribution and loyalty to their sect, the higher the contributions they make, the more trust and important tasks they will earn from the sect. Additionally, they can unlock special missions and valuable rewards."
+    qcReviewedText: "Based on a character's contribution and loyalty to their sect, the higher the contributions they make, the more trust and important tasks they will earn from the sect. Additionally, they can unlock special missions and valuable rewards."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"9\",\r\n    \"Name\": \"财富\",\r\n    \"Desc\": \"影响特殊事件触发机会，放弃机会+，获得机会-\",\r\n    \"NameTw\": \"財富\",\r\n    \"DescTw\": \"影響特殊事件觸發機會，放棄機會+，獲得機會-\"\r\n  }"
   rawIndex: 9
   splits:
   - splitPath: Name
     text: "财富"
     translated: "Wealth"
+    qcReviewedText: "Wealth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响特殊事件触发机会，放弃机会"
     translated: "Affects the chance of triggering special events, giving up the opportunity will forego the opportunity."
+    qcReviewedText: "Affects the chance of triggering special events, giving up the opportunity will forego the opportunity.+, Gain an opportunity-"
+    qcTranslated: "Affects the chance of triggering special events; giving up the opportunity increases the chance, gaining the opportunity decreases it."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: HardToParseSeam
   - splitPath: Desc
     subIndex: 1
     text: "，获得机会"
@@ -161,9 +215,17 @@
   - splitPath: Name
     text: "道德"
     translated: "Morality"
+    qcReviewedText: "Morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。"
     translated: "Reflects the character's stance and influences the triggering and progression of events."
+    qcReviewedText: "Reflects the character's stance and influences the triggering and progression of events.\\nThe Ten Worst Scoundrels incident, the Heavenly Demon Sect conspiracy incident, the Peaceful King conspiracy incident, the Dark Morality Sect conspiracy incident, and Six Doors arrest missions will all increase morality."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
@@ -183,15 +245,27 @@
   - splitPath: Desc
     text: "气血总数，判断条件使用，不能通过奖励表修改"
     translated: "Lifeforce total, judgment conditions are used here and cannot be modified through the reward table."
+    qcReviewedText: "Lifeforce total, judgment conditions are used here and cannot be modified through the reward table."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"12\",\r\n    \"Name\": \"功力判断\",\r\n    \"Desc\": \"功力总数，判断条件使用，不能通过奖励表修改\",\r\n    \"NameTw\": \"功力判斷\",\r\n    \"DescTw\": \"功力總數，判斷條件使用，不能通過獎勵表修改\"\r\n  }"
   rawIndex: 12
   splits:
   - splitPath: Name
     text: "功力判断"
     translated: "Power assessment"
+    qcReviewedText: "Power assessment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "功力总数，判断条件使用，不能通过奖励表修改"
     translated: "Total power points cannot be modified through the reward table; judgment conditions are used for evaluation."
+    qcReviewedText: "Total power points cannot be modified through the reward table; judgment conditions are used for evaluation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"13\",\r\n    \"Name\": \"气血\",\r\n    \"Desc\": \"气血加成，事件奖励使用\",\r\n    \"NameTw\": \"氣血\",\r\n    \"DescTw\": \"氣血加成，事件獎勵使用\"\r\n  }"
   rawIndex: 13
   splits:
@@ -204,6 +278,10 @@
   - splitPath: Desc
     text: "气血加成，事件奖励使用"
     translated: "Lifeforce Boost, use with event rewards"
+    qcReviewedText: "Lifeforce Boost, use with event rewards"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"功力\",\r\n    \"Desc\": \"功力加成，事件奖励使用\",\r\n    \"NameTw\": \"功力\",\r\n    \"DescTw\": \"功力加成，事件獎勵使用\"\r\n  }"
   rawIndex: 14
   splits:
@@ -216,6 +294,10 @@
   - splitPath: Desc
     text: "功力加成，事件奖励使用"
     translated: "Power Boost, use event rewards"
+    qcReviewedText: "Power Boost, use event rewards"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"21\",\r\n    \"Name\": \"赌坊人数\",\r\n    \"Desc\": \"赌坊可访问的特殊角色人数，只读\",\r\n    \"NameTw\": \"賭坊人數\",\r\n    \"DescTw\": \"賭坊可訪問的特殊角色人數，只讀\"\r\n  }"
   rawIndex: 21
   splits:
@@ -228,6 +310,10 @@
   - splitPath: Desc
     text: "赌坊可访问的特殊角色人数，只读"
     translated: "The number of special roles that can access the Gambling Den is read‑only."
+    qcReviewedText: "The number of special roles that can access the Gambling Den is read‑only."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"基础属性\",\r\n    \"Desc\": \"随机基础属性上下限\",\r\n    \"NameTw\": \"基礎屬性\",\r\n    \"DescTw\": \"隨機基礎屬性上下限\"\r\n  }"
   rawIndex: 20
   splits:
@@ -240,6 +326,10 @@
   - splitPath: Desc
     text: "随机基础属性上下限"
     translated: "Random base attribute ranges"
+    qcReviewedText: "Random base attribute ranges"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"22\",\r\n    \"Name\": \"气血百分比\",\r\n    \"Desc\": \"气血的百分比加成\",\r\n    \"NameTw\": \"氣血百分比\",\r\n    \"DescTw\": \"氣血的百分比加成\"\r\n  }"
   rawIndex: 22
   splits:
@@ -252,6 +342,10 @@
   - splitPath: Desc
     text: "气血的百分比加成"
     translated: "Percentage increase in lifeforce"
+    qcReviewedText: "Percentage increase in lifeforce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"23\",\r\n    \"Name\": \"伤害百分比\",\r\n    \"Desc\": \"最终伤害的百分比加成\",\r\n    \"NameTw\": \"傷害百分比\",\r\n    \"DescTw\": \"最終傷害的百分比加成\"\r\n  }"
   rawIndex: 23
   splits:
@@ -264,15 +358,27 @@
   - splitPath: Desc
     text: "最终伤害的百分比加成"
     translated: "Percentage increase in final damage"
+    qcReviewedText: "Percentage increase in final damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"25\",\r\n    \"Name\": \"难度\",\r\n    \"Desc\": \"玩家选择的游戏难度，值对应Difficulty表，只读\",\r\n    \"NameTw\": \"難度\",\r\n    \"DescTw\": \"玩家選擇的遊戲難度，值對應Difficulty表，只讀\"\r\n  }"
   rawIndex: 25
   splits:
   - splitPath: Name
     text: "难度"
     translated: "Difficulty"
+    qcReviewedText: "Difficulty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "玩家选择的游戏难度，值对应"
     translated: "The difficulty level of the game chosen by the player, value corresponds to"
+    qcReviewedText: "The difficulty level of the game chosen by the player, value corresponds to Difficulty Table, read‑only"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "表，只读"
@@ -286,9 +392,17 @@
   - splitPath: Name
     text: "立绘"
     translated: "Illustration"
+    qcReviewedText: "Illustration id"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "玩家立绘"
     translated: "Player portrait"
+    qcReviewedText: "Player portrait id"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Name
     template: "{0}id"
@@ -306,6 +420,10 @@
   - splitPath: Desc
     text: "技能额外上限"
     translated: "Extra Skill Limit"
+    qcReviewedText: "Extra Skill Limit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"28\",\r\n    \"Name\": \"角色卡数量\",\r\n    \"Desc\": \"角色卡张数，只读\",\r\n    \"NameTw\": \"角色卡數量\",\r\n    \"DescTw\": \"角色卡張數，只讀\"\r\n  }"
   rawIndex: 28
   splits:
@@ -318,6 +436,10 @@
   - splitPath: Desc
     text: "角色卡张数，只读"
     translated: "Character card count, read‑only"
+    qcReviewedText: "Character card count, read‑only"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"角色技能数量\",\r\n    \"Desc\": \"角色技能数量，只读\",\r\n    \"NameTw\": \"角色技能數量\",\r\n    \"DescTw\": \"角色技能數量，只讀\"\r\n  }"
   rawIndex: 29
   splits:
@@ -330,6 +452,10 @@
   - splitPath: Desc
     text: "角色技能数量，只读"
     translated: "Character Skill Count, Read‑Only"
+    qcReviewedText: "Character Skill Count, Read‑Only"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"医术\",\r\n    \"Desc\": \"医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。\",\r\n    \"NameTw\": \"醫術\",\r\n    \"DescTw\": \"醫術的掌握水平，可在荊北神農幫學習醫術。衡山派冬學可以學習醫術。\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -342,15 +468,28 @@
   - splitPath: Desc
     text: "医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。"
     translated: "The level of medical skill can be mastered by studying medicine at the Shennong Sect in Jingbei. The Hengshan Sect's winter academy also offers courses in medicine."
+    qcReviewedText: "The level of medical skill can be mastered by studying medicine at the Shennong Sect in Jingbei. The Hengshan Sect's winter academy also offers courses in medicine."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1002\",\r\n    \"Name\": \"毒术\",\r\n    \"Desc\": \"毒术的掌握水平，唐门可在百毒坊提高毒术。\",\r\n    \"NameTw\": \"毒術\",\r\n    \"DescTw\": \"毒術的掌握水平，唐門可在百毒坊提高毒術。\"\r\n  }"
   rawIndex: 1002
   splits:
   - splitPath: Name
     text: "毒术"
     translated: "Poison skill skill"
+    qcReviewedText: "Poison skill skill"
+    qcTranslated: "Poison skill"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
   - splitPath: Desc
     text: "毒术的掌握水平，唐门可在百毒坊提高毒术。"
     translated: "The mastery of poison techniques can be improved at the Hundred Poison Hall by the Tang Clan."
+    qcReviewedText: "The mastery of poison techniques can be improved at the Hundred Poison Hall by the Tang Clan."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Name\": \"术数\",\r\n    \"Desc\": \"奇门术数掌握的水平，可在湘东岳麓书院学习术数。\",\r\n    \"NameTw\": \"術數\",\r\n    \"DescTw\": \"奇門術數掌握的水平，可在湘東嶽麓書院學習術數。\"\r\n  }"
   rawIndex: 1003
   splits:
@@ -363,6 +502,11 @@
   - splitPath: Desc
     text: "奇门术数掌握的水平，可在湘东岳麓书院学习术数。"
     translated: "The level of proficiency in divination mastered"
+    qcReviewedText: "The level of proficiency in divination mastered"
+    qcTranslated: "The level of proficiency in Divination mastered. You can study Divination at Xiangdong Yuelu Academy."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1004\",\r\n    \"Name\": \"儒学\",\r\n    \"Desc\": \"儒学掌握的水平，可在湘东岳麓书院学习儒学。衡山派冬学可以学习儒学。\",\r\n    \"NameTw\": \"儒學\",\r\n    \"DescTw\": \"儒學掌握的水平，可在湘東嶽麓書院學習儒學。衡山派冬學可以學習儒學。\"\r\n  }"
   rawIndex: 1004
   splits:
@@ -375,6 +519,11 @@
   - splitPath: Desc
     text: "儒学掌握的水平，可在湘东岳麓书院学习儒学。衡山派冬学可以学习儒学。"
     translated: "One can learn Confucian Studies at the Xiangdong Yuelu Academy. The Hengshan Sect's Winter School also offers courses in Confucian Studies."
+    qcReviewedText: "One can learn Confucian Studies at the Xiangdong Yuelu Academy. The Hengshan Sect's Winter School also offers courses in Confucian Studies."
+    qcTranslated: "The level of proficiency in Confucian Studies. One can learn Confucian Studies at the Xiangdong Yuelu Academy. The Hengshan Sect's Winter School also offers courses in Confucian Studies."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1005\",\r\n    \"Name\": \"佛学\",\r\n    \"Desc\": \"佛学掌握的水平\",\r\n    \"NameTw\": \"佛學\",\r\n    \"DescTw\": \"佛學掌握的水平\"\r\n  }"
   rawIndex: 1005
   splits:
@@ -387,6 +536,10 @@
   - splitPath: Desc
     text: "佛学掌握的水平"
     translated: "Proficiency in Buddhist studies"
+    qcReviewedText: "Proficiency in Buddhist studies"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1006\",\r\n    \"Name\": \"道学\",\r\n    \"Desc\": \"道学掌握的水平，武当派可在解真阁提高道学。\",\r\n    \"NameTw\": \"道學\",\r\n    \"DescTw\": \"道學掌握的水平，武當派可在解真閣提高道學。\"\r\n  }"
   rawIndex: 1006
   splits:
@@ -399,6 +552,11 @@
   - splitPath: Desc
     text: "道学掌握的水平，武当派可在解真阁提高道学。"
     translated: "The level of Daoist Studies can be improved at the Unravel True Pavilion by the Wudang Sect."
+    qcReviewedText: "The level of Daoist Studies can be improved at the Unravel True Pavilion by the Wudang Sect."
+    qcTranslated: "The level of Daoist Studies can be improved at the Unravel True Pavilion by members of the Wudang Sect."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"1007\",\r\n    \"Name\": \"酒道\",\r\n    \"Desc\": \"品酒酿酒的水平\",\r\n    \"NameTw\": \"酒道\",\r\n    \"DescTw\": \"品酒釀酒的水平\"\r\n  }"
   rawIndex: 1007
   splits:
@@ -411,6 +569,10 @@
   - splitPath: Desc
     text: "品酒酿酒的水平"
     translated: "The skill level in wine tasting and brewing"
+    qcReviewedText: "The skill level in wine tasting and brewing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1008\",\r\n    \"Name\": \"茶道\",\r\n    \"Desc\": \"茶艺品茗的水平\",\r\n    \"NameTw\": \"茶道\",\r\n    \"DescTw\": \"茶藝品茗的水平\"\r\n  }"
   rawIndex: 1008
   splits:
@@ -423,6 +585,10 @@
   - splitPath: Desc
     text: "茶艺品茗的水平"
     translated: "The skill level in tea art and tasting"
+    qcReviewedText: "The skill level in tea art and tasting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1011\",\r\n    \"Name\": \"厨艺\",\r\n    \"Desc\": \"厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。衡山派冬学可以学习厨艺。\",\r\n    \"NameTw\": \"廚藝\",\r\n    \"DescTw\": \"廚藝的水平，各地遊歷無特殊事件時選嚐嚐當地美食，可以增加廚藝。廚藝入門後，可在湘東觸發丐幫事件，之後可在丐幫增加廚藝。衡山派冬學可以學習廚藝。\"\r\n  }"
   rawIndex: 1011
   splits:
@@ -435,6 +601,10 @@
   - splitPath: Desc
     text: "厨艺的水平，各地游历无特殊事件时选尝尝当地美食，可以增加厨艺。厨艺入门后，可在湘东触发丐帮事件，之后可在丐帮增加厨艺。衡山派冬学可以学习厨艺。"
     translated: "The level of cooking can be increased by trying local delicacies during travels to different regions, especially when there are no special events. After mastering cooking basics, you can trigger an event with the Beggar Sect in Xiangdong, which will allow you to improve your cooking skills within the sect. The Winter Academy of the Hengshan Sect also offers courses in cooking."
+    qcReviewedText: "The level of cooking can be increased by trying local delicacies during travels to different regions, especially when there are no special events. After mastering cooking basics, you can trigger an event with the Beggar Sect in Xiangdong, which will allow you to improve your cooking skills within the sect. The Winter Academy of the Hengshan Sect also offers courses in cooking."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1009\",\r\n    \"Name\": \"火器\",\r\n    \"Desc\": \"火器制作和运用的水平，衡山派冬学可以学习火器。\",\r\n    \"NameTw\": \"火器\",\r\n    \"DescTw\": \"火器製作和運用的水平，衡山派冬學可以學習火器。\"\r\n  }"
   rawIndex: 1009
   splits:
@@ -447,6 +617,11 @@
   - splitPath: Desc
     text: "火器制作和运用的水平，衡山派冬学可以学习火器。"
     translated: "The Hengshan Sect's Winter Academy can learn about the manufacture and use of firearms."
+    qcReviewedText: "The Hengshan Sect's Winter Academy can learn about the manufacture and use of firearms."
+    qcTranslated: "The level of firearms manufacturing and application. The Hengshan Sect's Winter Academy can learn about firearms."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1010\",\r\n    \"Name\": \"百戏\",\r\n    \"Desc\": \"曲艺和戏法杂技的水平，可在荆南福庆班学习百戏。\",\r\n    \"NameTw\": \"百戲\",\r\n    \"DescTw\": \"曲藝和戲法雜技的水平，可在荊南福慶班學習百戲。\"\r\n  }"
   rawIndex: 1010
   splits:
@@ -459,6 +634,10 @@
   - splitPath: Desc
     text: "曲艺和戏法杂技的水平，可在荆南福庆班学习百戏。"
     translated: "The level of variety arts and illusionistic acrobatics can be learned from the Jingnan Fukqing Performance Troupe."
+    qcReviewedText: "The level of variety arts and illusionistic acrobatics can be learned from the Jingnan Fukqing Performance Troupe."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1012\",\r\n    \"Name\": \"音律\",\r\n    \"Desc\": \"音乐的水平\",\r\n    \"NameTw\": \"音律\",\r\n    \"DescTw\": \"音樂的水平\"\r\n  }"
   rawIndex: 1012
   splits:
@@ -471,6 +650,10 @@
   - splitPath: Desc
     text: "音乐的水平"
     translated: "Level of the music"
+    qcReviewedText: "Level of the music"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1013\",\r\n    \"Name\": \"弈理\",\r\n    \"Desc\": \"弈棋的水平\",\r\n    \"NameTw\": \"弈理\",\r\n    \"DescTw\": \"弈棋的水平\"\r\n  }"
   rawIndex: 1013
   splits:
@@ -483,6 +666,10 @@
   - splitPath: Desc
     text: "弈棋的水平"
     translated: "Skill level in chess"
+    qcReviewedText: "Skill level in chess"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1014\",\r\n    \"Name\": \"翰墨\",\r\n    \"Desc\": \"书法的水平，可在湘东岳麓书院、川东洗墨山庄学习翰墨。\",\r\n    \"NameTw\": \"翰墨\",\r\n    \"DescTw\": \"書法的水平，可在湘東嶽麓書院、川東洗墨山莊學習翰墨。\"\r\n  }"
   rawIndex: 1014
   splits:
@@ -495,6 +682,11 @@
   - splitPath: Desc
     text: "书法的水平，可在湘东岳麓书院、川东洗墨山庄学习翰墨。"
     translated: "Level of calligraphy skills"
+    qcReviewedText: "Level of calligraphy skills"
+    qcTranslated: "Level of calligraphy skills\\nYou can learn Calligraphy at Xiangdong Yuelu Academy and Chuandong Ximo Villa."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1015\",\r\n    \"Name\": \"丹青\",\r\n    \"Desc\": \"绘画的水平\",\r\n    \"NameTw\": \"丹青\",\r\n    \"DescTw\": \"繪畫的水平\"\r\n  }"
   rawIndex: 1015
   splits:
@@ -507,6 +699,10 @@
   - splitPath: Desc
     text: "绘画的水平"
     translated: "Skill in painting"
+    qcReviewedText: "Skill in painting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1016\",\r\n    \"Name\": \"御兽\",\r\n    \"Desc\": \"御兽驯兽的水平，可在湘南盘蛇谷和川南蚩黎峒学习御兽，盘蛇谷关闭后可在九嶷山提高御兽。\",\r\n    \"NameTw\": \"御獸\",\r\n    \"DescTw\": \"御獸馴獸的水平，可在湘南盤蛇谷和川南蚩黎峒學習御獸，盤蛇谷關閉後可在九嶷山提高御獸。\"\r\n  }"
   rawIndex: 1016
   splits:
@@ -519,6 +715,11 @@
   - splitPath: Desc
     text: "御兽驯兽的水平，可在湘南盘蛇谷和川南蚩黎峒学习御兽，盘蛇谷关闭后可在九嶷山提高御兽。"
     translated: "The skills of beast taming can be learned in Coiled Serpent Valley in Xiangnan. After Coiled Serpent Valley closes, you can improve your beast taming skills in Jiuyi Mountain."
+    qcReviewedText: "The skills of beast taming can be learned in Coiled Serpent Valley in Xiangnan. After Coiled Serpent Valley closes, you can improve your beast taming skills in Jiuyi Mountain."
+    qcTranslated: "The skills of Beast Taming can be learned in Coiled Serpent Valley in Xiangnan and Chilibei Dong in Chuannan. After Coiled Serpent Valley closes, you can improve your Beast Taming skills in Jiuyi Mountain."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1017\",\r\n    \"Name\": \"鉴赏\",\r\n    \"Desc\": \"收藏鉴赏的水平\",\r\n    \"NameTw\": \"鑑賞\",\r\n    \"DescTw\": \"收藏鑑賞的水平\"\r\n  }"
   rawIndex: 1017
   splits:
@@ -531,6 +732,11 @@
   - splitPath: Desc
     text: "收藏鉴赏的水平"
     translated: "The level of appraisal in collecting and appreciation can be quite high."
+    qcReviewedText: "The level of appraisal in collecting and appreciation can be quite high."
+    qcTranslated: "The level of appraisal in collecting and appreciation."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"1018\",\r\n    \"Name\": \"幻术\",\r\n    \"Desc\": \"幻术的掌握水平\",\r\n    \"NameTw\": \"幻術\",\r\n    \"DescTw\": \"幻術的掌握水平\"\r\n  }"
   rawIndex: 1018
   splits:
@@ -543,18 +749,28 @@
   - splitPath: Desc
     text: "幻术的掌握水平"
     translated: "Mastery of illusion techniques"
+    qcReviewedText: "Mastery of illusion techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1019\",\r\n    \"Name\": \"赌术\",\r\n    \"Desc\": \"博彩的掌握水平，可在荆东朱雀坊提高赌术。\",\r\n    \"NameTw\": \"賭術\",\r\n    \"DescTw\": \"博彩的掌握水平，可在荊東朱雀坊提高賭術。\"\r\n  }"
   rawIndex: 1019
   splits:
   - splitPath: Name
     text: "赌术"
     translated: "Gambling"
-    qcReviewedText: "Gambling skill"
+    qcReviewedText: "Gambling"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "博彩的掌握水平，可在荆东朱雀坊提高赌术。"
     translated: "Proficiency in gambling"
+    qcReviewedText: "Proficiency in gambling"
+    qcTranslated: "Proficiency in gambling\\nYou can improve your Gambling skills at the Vermilion Bird Quarter in Jingdong."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"1020\",\r\n    \"Name\": \"丹术\",\r\n    \"Desc\": \"炼丹的掌握水平，武当派可在丹房提高丹术。\",\r\n    \"NameTw\": \"丹術\",\r\n    \"DescTw\": \"煉丹的掌握水平，武當派可在丹房提高丹術。\"\r\n  }"
   rawIndex: 1020
   splits:
@@ -567,6 +783,10 @@
   - splitPath: Desc
     text: "炼丹的掌握水平，武当派可在丹房提高丹术。"
     translated: "The mastery of alchemy can be improved in the Wudang Sect's alchemical room."
+    qcReviewedText: "The mastery of alchemy can be improved in the Wudang Sect's alchemical room."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1021\",\r\n    \"Name\": \"匠造\",\r\n    \"Desc\": \"冶炼匠造、机关制作的掌握水平，唐门可在千机坊提高匠造。\",\r\n    \"NameTw\": \"匠造\",\r\n    \"DescTw\": \"冶煉匠造、機關製作的掌握水平，唐門可在千機坊提高匠造。\"\r\n  }"
   rawIndex: 1021
   splits:
@@ -579,6 +799,11 @@
   - splitPath: Desc
     text: "冶炼匠造、机关制作的掌握水平，唐门可在千机坊提高匠造。"
     translated: "Smelter Crafting Master, the skill level in mechanism creation. Tang Clan can improve this in the Thousand Mechanism Workshop."
+    qcReviewedText: "Smelter Crafting Master, the skill level in mechanism creation. Tang Clan can improve this in the Thousand Mechanism Workshop."
+    qcTranslated: "Proficiency in Smelter Crafting and Mechanism Creation. The Tang Clan can improve their crafting skills at the Thousand Mechanism Workshop."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"10001\",\r\n    \"Name\": \"帮助日游\",\r\n    \"Desc\": \"帮助日游神干活的次数\",\r\n    \"NameTw\": \"幫助日遊\",\r\n    \"DescTw\": \"幫助日遊神幹活的次數\"\r\n  }"
   rawIndex: 10001
   splits:
@@ -591,6 +816,11 @@
   - splitPath: Desc
     text: "帮助日游神干活的次数"
     translated: "The number of times they helped the god with daily routines."
+    qcReviewedText: "The number of times they helped the god with daily routines."
+    qcTranslated: "The number of times you helped the Day Traveling God with his work."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"10002\",\r\n    \"Name\": \"帮助夜游\",\r\n    \"Desc\": \"帮助夜游神干活的次数\",\r\n    \"NameTw\": \"幫助夜遊\",\r\n    \"DescTw\": \"幫助夜遊神幹活的次數\"\r\n  }"
   rawIndex: 10002
   splits:
@@ -603,6 +833,10 @@
   - splitPath: Desc
     text: "帮助夜游神干活的次数"
     translated: "The number of times they have assisted the God of Nightly Rambles."
+    qcReviewedText: "The number of times they have assisted the God of Nightly Rambles."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Name\": \"金疮秘药\",\r\n    \"Desc\": \"购买金疮药的数量\",\r\n    \"NameTw\": \"金瘡祕藥\",\r\n    \"DescTw\": \"購買金瘡藥的數量\"\r\n  }"
   rawIndex: 10003
   splits:
@@ -615,6 +849,11 @@
   - splitPath: Desc
     text: "购买金疮药的数量"
     translated: "The number of burn remedies purchased"
+    qcReviewedText: "The number of burn remedies purchased"
+    qcTranslated: "The number of wound medicines purchased"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"10004\",\r\n    \"Name\": \"小校获胜\",\r\n    \"Desc\": \"衡山小校获得胜利\",\r\n    \"NameTw\": \"小校獲勝\",\r\n    \"DescTw\": \"衡山小校獲得勝利\"\r\n  }"
   rawIndex: 10004
   splits:
@@ -627,6 +866,10 @@
   - splitPath: Desc
     text: "衡山小校获得胜利"
     translated: "The Xiao Xiao School of Hengshan Achieved Victory"
+    qcReviewedText: "The Xiao Xiao School of Hengshan Achieved Victory"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Name\": \"卜卦次数\",\r\n    \"Desc\": \"和袁铁口卜卦的次数\",\r\n    \"NameTw\": \"卜卦次數\",\r\n    \"DescTw\": \"和袁鐵口卜卦的次數\"\r\n  }"
   rawIndex: 10005
   splits:
@@ -639,6 +882,10 @@
   - splitPath: Desc
     text: "和袁铁口卜卦的次数"
     translated: "The number of times Li Yuan has divined with him."
+    qcReviewedText: "The number of times Li Yuan has divined with him."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10006\",\r\n    \"Name\": \"行侠仗义\",\r\n    \"Desc\": \"行侠仗义次数\",\r\n    \"NameTw\": \"行俠仗義\",\r\n    \"DescTw\": \"行俠仗義次數\"\r\n  }"
   rawIndex: 10006
   splits:
@@ -651,6 +898,11 @@
   - splitPath: Desc
     text: "行侠仗义次数"
     translated: "Chivalrous DeedsPerformed"
+    qcReviewedText: "Chivalrous DeedsPerformed"
+    qcTranslated: "Chivalrous Deeds Performed"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"10007\",\r\n    \"Name\": \"澜沧消费\",\r\n    \"Desc\": \"在澜沧国富商处消费额金额\",\r\n    \"NameTw\": \"瀾滄消費\",\r\n    \"DescTw\": \"在瀾滄國富商處消費額金額\"\r\n  }"
   rawIndex: 10007
   splits:
@@ -663,6 +915,10 @@
   - splitPath: Desc
     text: "在澜沧国富商处消费额金额"
     translated: "Spending amount at a merchant in Lanchang Country"
+    qcReviewedText: "Spending amount at a merchant in Lanchang Country"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10008\",\r\n    \"Name\": \"黄鹤挑战\",\r\n    \"Desc\": \"黄鹤楼中挑战的数量\",\r\n    \"NameTw\": \"黃鶴挑戰\",\r\n    \"DescTw\": \"黃鶴樓中挑戰的數量\"\r\n  }"
   rawIndex: 10008
   splits:
@@ -675,6 +931,10 @@
   - splitPath: Desc
     text: "黄鹤楼中挑战的数量"
     translated: "The number of challenges in Yellow Crane Tower"
+    qcReviewedText: "The number of challenges in Yellow Crane Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10009\",\r\n    \"Name\": \"红颜知己\",\r\n    \"Desc\": \"红颜知己数量\",\r\n    \"NameTw\": \"紅顏知己\",\r\n    \"DescTw\": \"紅顏知己數量\"\r\n  }"
   rawIndex: 10009
   splits:
@@ -687,6 +947,10 @@
   - splitPath: Desc
     text: "红颜知己数量"
     translated: "Number of close female friends"
+    qcReviewedText: "Number of close female friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10010\",\r\n    \"Name\": \"乱石喽喽\",\r\n    \"Desc\": \"乱石寨喽喽数量\",\r\n    \"NameTw\": \"亂石嘍嘍\",\r\n    \"DescTw\": \"亂石寨嘍嘍數量\"\r\n  }"
   rawIndex: 10010
   splits:
@@ -699,6 +963,10 @@
   - splitPath: Desc
     text: "乱石寨喽喽数量"
     translated: "Chaos Rock Stronghold looters' number"
+    qcReviewedText: "Chaos Rock Stronghold looters' number"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10011\",\r\n    \"Name\": \"朱雀消遣\",\r\n    \"Desc\": \"去朱雀坊消遣的次数\",\r\n    \"NameTw\": \"朱雀消遣\",\r\n    \"DescTw\": \"去朱雀坊消遣的次數\"\r\n  }"
   rawIndex: 10011
   splits:
@@ -711,6 +979,10 @@
   - splitPath: Desc
     text: "去朱雀坊消遣的次数"
     translated: "The number of times they went to Phoenix Pavilion for entertainment."
+    qcReviewedText: "The number of times they went to Phoenix Pavilion for entertainment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10012\",\r\n    \"Name\": \"天魔阴谋\",\r\n    \"Desc\": \"天魔教的阴谋\",\r\n    \"NameTw\": \"天魔陰謀\",\r\n    \"DescTw\": \"天魔教的陰謀\"\r\n  }"
   rawIndex: 10012
   splits:
@@ -723,6 +995,10 @@
   - splitPath: Desc
     text: "天魔教的阴谋"
     translated: "Heavenly Demon Sect's Conspiracy"
+    qcReviewedText: "Heavenly Demon Sect's Conspiracy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10013\",\r\n    \"Name\": \"宁王阴谋\",\r\n    \"Desc\": \"宁王的阴谋\",\r\n    \"NameTw\": \"寧王陰謀\",\r\n    \"DescTw\": \"寧王的陰謀\"\r\n  }"
   rawIndex: 10013
   splits:
@@ -735,6 +1011,10 @@
   - splitPath: Desc
     text: "宁王的阴谋"
     translated: "Peaceful King's plot"
+    qcReviewedText: "Peaceful King's plot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10014\",\r\n    \"Name\": \"灯谜次数\",\r\n    \"Desc\": \"橘州灯谜次数\",\r\n    \"NameTw\": \"燈謎次數\",\r\n    \"DescTw\": \"橘州燈謎次數\"\r\n  }"
   rawIndex: 10014
   splits:
@@ -747,6 +1027,10 @@
   - splitPath: Desc
     text: "橘州灯谜次数"
     translated: "Lantern Riddle Attempts in Orange State"
+    qcReviewedText: "Lantern Riddle Attempts in Orange State"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10015\",\r\n    \"Name\": \"荆湘悬赏\",\r\n    \"Desc\": \"荆湘悬赏次数\",\r\n    \"NameTw\": \"荊湘懸賞\",\r\n    \"DescTw\": \"荊湘懸賞次數\"\r\n  }"
   rawIndex: 10015
   splits:
@@ -759,6 +1043,10 @@
   - splitPath: Desc
     text: "荆湘悬赏次数"
     translated: "Jing Xiang's bounty count"
+    qcReviewedText: "Jing Xiang's bounty count"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10016\",\r\n    \"Name\": \"似水流年\",\r\n    \"Desc\": \"可邀请一同过年的红颜数量\",\r\n    \"NameTw\": \"似水流年\",\r\n    \"DescTw\": \"可邀請一同過年的紅顏數量\"\r\n  }"
   rawIndex: 10016
   splits:
@@ -771,6 +1059,10 @@
   - splitPath: Desc
     text: "可邀请一同过年的红颜数量"
     translated: "The number of female companions invited to spend the New Year together."
+    qcReviewedText: "The number of female companions invited to spend the New Year together."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10017\",\r\n    \"Name\": \"长江捣乱\",\r\n    \"Desc\": \"对长江盟势力捣乱的次数\",\r\n    \"NameTw\": \"長江搗亂\",\r\n    \"DescTw\": \"對長江盟勢力搗亂的次數\"\r\n  }"
   rawIndex: 10017
   splits:
@@ -783,6 +1075,10 @@
   - splitPath: Desc
     text: "对长江盟势力捣乱的次数"
     translated: "The number of times the force disrupted the Yangtze River Coalition."
+    qcReviewedText: "The number of times the force disrupted the Yangtze River Coalition."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10018\",\r\n    \"Name\": \"宁王支援\",\r\n    \"Desc\": \"驰援被宁王阴谋暗算的门派数量\",\r\n    \"NameTw\": \"寧王支援\",\r\n    \"DescTw\": \"馳援被寧王陰謀暗算的門派數量\"\r\n  }"
   rawIndex: 10018
   splits:
@@ -795,6 +1091,10 @@
   - splitPath: Desc
     text: "驰援被宁王阴谋暗算的门派数量"
     translated: "The number of sects aiding in the defense against the Peaceful King's conspiracy attack"
+    qcReviewedText: "The number of sects aiding in the defense against the Peaceful King's conspiracy attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Name\": \"魔侯救援\",\r\n    \"Desc\": \"救援被温残阳毒计暗算的门派数量\",\r\n    \"NameTw\": \"魔侯救援\",\r\n    \"DescTw\": \"救援被溫殘陽毒計暗算的門派數量\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -807,6 +1107,10 @@
   - splitPath: Desc
     text: "救援被温残阳毒计暗算的门派数量"
     translated: "The number of sects rescued from Wen Canyang's Poison Yang scheme"
+    qcReviewedText: "The number of sects rescued from Wen Canyang's Poison Yang scheme"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10020\",\r\n    \"Name\": \"司徒品酒\",\r\n    \"Desc\": \"陪着司徒伶天下品酒的次数\",\r\n    \"NameTw\": \"司徒品酒\",\r\n    \"DescTw\": \"陪著司徒伶天下品酒的次數\"\r\n  }"
   rawIndex: 10020
   splits:
@@ -819,6 +1123,10 @@
   - splitPath: Desc
     text: "陪着司徒伶天下品酒的次数"
     translated: "Accompanying Situ Ling in tasting wines across the world"
+    qcReviewedText: "Accompanying Situ Ling in tasting wines across the world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10021\",\r\n    \"Name\": \"丰都庙会\",\r\n    \"Desc\": \"参与丰都庙会的次数\",\r\n    \"NameTw\": \"豐都廟會\",\r\n    \"DescTw\": \"參與豐都廟會的次數\"\r\n  }"
   rawIndex: 10021
   splits:
@@ -831,6 +1139,10 @@
   - splitPath: Desc
     text: "参与丰都庙会的次数"
     translated: "The number of times they have participated in the Fengdu Temple Fair."
+    qcReviewedText: "The number of times they have participated in the Fengdu Temple Fair."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10022\",\r\n    \"Name\": \"永利典当\",\r\n    \"Desc\": \"在永利当铺典当物品的数量\",\r\n    \"NameTw\": \"永利典當\",\r\n    \"DescTw\": \"在永利當鋪典當物品的數量\"\r\n  }"
   rawIndex: 10022
   splits:
@@ -843,6 +1155,10 @@
   - splitPath: Desc
     text: "在永利当铺典当物品的数量"
     translated: "The number of items pawned at the Yongli Pawnshop"
+    qcReviewedText: "The number of items pawned at the Yongli Pawnshop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10023\",\r\n    \"Name\": \"川蜀悬赏\",\r\n    \"Desc\": \"川蜀悬赏次数\",\r\n    \"NameTw\": \"川蜀懸賞\",\r\n    \"DescTw\": \"川蜀懸賞次數\"\r\n  }"
   rawIndex: 10023
   splits:
@@ -855,6 +1171,10 @@
   - splitPath: Desc
     text: "川蜀悬赏次数"
     translated: "Bounty for Chu Shi issued times"
+    qcReviewedText: "Bounty for Chu Shi issued times"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Name\": \"荆湘六扇门友好\",\r\n    \"Desc\": \"影响侠客和荆湘六扇门的关系\",\r\n    \"NameTw\": \"荊湘六扇門友好\",\r\n    \"DescTw\": \"影響俠客和荊湘六扇門的關係\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -867,6 +1187,11 @@
   - splitPath: Desc
     text: "影响侠客和荆湘六扇门的关系"
     translated: "Affects the relationship between wanderers and the Six Doors."
+    qcReviewedText: "Affects the relationship between wanderers and the Six Doors."
+    qcTranslated: "Affects the relationship between Wanderers and the Six Doors of Jingxiang."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"20002\",\r\n    \"Name\": \"丐帮友好\",\r\n    \"Desc\": \"影响侠客和丐帮的关系\",\r\n    \"NameTw\": \"丐幫友好\",\r\n    \"DescTw\": \"影響俠客和丐幫的關係\"\r\n  }"
   rawIndex: 20002
   splits:
@@ -879,6 +1204,10 @@
   - splitPath: Desc
     text: "影响侠客和丐帮的关系"
     translated: "Affecting the relationship between wanderers and the Beggar Sect"
+    qcReviewedText: "Affecting the relationship between wanderers and the Beggar Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20003\",\r\n    \"Name\": \"衡山派友好\",\r\n    \"Desc\": \"影响侠客和衡山派的关系\",\r\n    \"NameTw\": \"衡山派友好\",\r\n    \"DescTw\": \"影響俠客和衡山派的關係\"\r\n  }"
   rawIndex: 20003
   splits:
@@ -891,18 +1220,27 @@
   - splitPath: Desc
     text: "影响侠客和衡山派的关系"
     translated: "Affecting the relationship between wanderers and the Hengshan Sect"
+    qcReviewedText: "Affecting the relationship between wanderers and the Hengshan Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20004\",\r\n    \"Name\": \"君子庄友好\",\r\n    \"Desc\": \"影响侠客和君子庄的关系\",\r\n    \"NameTw\": \"君子莊友好\",\r\n    \"DescTw\": \"影響俠客和君子莊的關係\"\r\n  }"
   rawIndex: 20004
   splits:
   - splitPath: Name
     text: "君子庄友好"
     translated: "Gentlemen Manor is friendly"
-    qcReviewedText: "Gentlemen Manor Friendship"
+    qcReviewedText: "Gentlemen Manor is friendly"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和君子庄的关系"
     translated: "Affecting the relationship between the Wanderer and the Gentlemen Manor"
+    qcReviewedText: "Affecting the relationship between the Wanderer and the Gentlemen Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20005\",\r\n    \"Name\": \"铁衣帮友好\",\r\n    \"Desc\": \"影响侠客和铁衣帮的关系\",\r\n    \"NameTw\": \"鐵衣幫友好\",\r\n    \"DescTw\": \"影響俠客和鐵衣幫的關係\"\r\n  }"
   rawIndex: 20005
   splits:
@@ -915,114 +1253,165 @@
   - splitPath: Desc
     text: "影响侠客和铁衣帮的关系"
     translated: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
+    qcTranslated: "Influences the relationship between the Wanderer and the Iron Robe Gang"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"20006\",\r\n    \"Name\": \"万寿帮友好\",\r\n    \"Desc\": \"影响侠客和万寿帮的关系\",\r\n    \"NameTw\": \"萬壽幫友好\",\r\n    \"DescTw\": \"影響俠客和萬壽幫的關係\"\r\n  }"
   rawIndex: 20006
   splits:
   - splitPath: Name
     text: "万寿帮友好"
     translated: "Longevity Sect is friendly"
-    qcReviewedText: "Longevity Sect Friendship"
+    qcReviewedText: "Longevity Sect is friendly"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和万寿帮的关系"
     translated: "Influences on the relationship between the Wanderer and the Longevity Sect"
+    qcReviewedText: "Influences on the relationship between the Wanderer and the Longevity Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20007\",\r\n    \"Name\": \"永盛镖局友好\",\r\n    \"Desc\": \"影响侠客和永盛镖局的关系\",\r\n    \"NameTw\": \"永盛鏢局友好\",\r\n    \"DescTw\": \"影響俠客和永盛鏢局的關係\"\r\n  }"
   rawIndex: 20007
   splits:
   - splitPath: Name
     text: "永盛镖局友好"
     translated: "Yongsheng Escort Agency is friendly"
-    qcReviewedText: "Yongsheng Escort Agency Friendship"
+    qcReviewedText: "Yongsheng Escort Agency is friendly"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和永盛镖局的关系"
     translated: "Affecting the relationship between wanderers and the Yongsheng Escort Agency"
+    qcReviewedText: "Affecting the relationship between wanderers and the Yongsheng Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20008\",\r\n    \"Name\": \"盘蛇谷友好\",\r\n    \"Desc\": \"影响侠客和盘蛇谷的关系\",\r\n    \"NameTw\": \"盤蛇谷友好\",\r\n    \"DescTw\": \"影響俠客和盤蛇谷的關係\"\r\n  }"
   rawIndex: 20008
   splits:
   - splitPath: Name
     text: "盘蛇谷友好"
     translated: "Coiled Serpent Valley is friendly"
-    qcReviewedText: "Coiled Serpent Valley Friendship"
+    qcReviewedText: "Coiled Serpent Valley is friendly"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和盘蛇谷的关系"
     translated: "Affecting the relationship between the Wanderer and Coiled Serpent Valley"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Coiled Serpent Valley"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20009\",\r\n    \"Name\": \"丐帮忠字舵友好\",\r\n    \"Desc\": \"影响侠客和丐帮忠字舵的关系\",\r\n    \"NameTw\": \"丐幫忠字舵友好\",\r\n    \"DescTw\": \"影響俠客和丐幫忠字舵的關係\"\r\n  }"
   rawIndex: 20009
   splits:
   - splitPath: Name
     text: "丐帮忠字舵友好"
     translated: "Friendly with the Beggar Sect's Loyalty Division"
-    qcReviewedText: "Beggar Sect's Loyalty Steering Board values friendship"
+    qcReviewedText: "Friendly with the Beggar Sect's Loyalty Division"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和丐帮忠字舵的关系"
     translated: "Influences on the relationship between the Wanderer Sect and the Beggar Sect's Loyalty Paddle faction."
+    qcReviewedText: "Influences on the relationship between the Wanderer Sect and the Beggar Sect's Loyalty Paddle faction."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20010\",\r\n    \"Name\": \"岳麓书院友好\",\r\n    \"Desc\": \"影响侠客和岳麓书院的关系\",\r\n    \"NameTw\": \"嶽麓書院友好\",\r\n    \"DescTw\": \"影響俠客和嶽麓書院的關係\"\r\n  }"
   rawIndex: 20010
   splits:
   - splitPath: Name
     text: "岳麓书院友好"
     translated: "Yuelu Academy is friendly"
-    qcReviewedText: "Yue Lu Academy Friendship"
+    qcReviewedText: "Yuelu Academy is friendly"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和岳麓书院的关系"
     translated: "Influences the relationship between the Wanderer and the YaLu Academy"
+    qcReviewedText: "Influences the relationship between the Wanderer and the YaLu Academy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20011\",\r\n    \"Name\": \"神农帮友好\",\r\n    \"Desc\": \"影响侠客和神农帮的关系\",\r\n    \"NameTw\": \"神農幫友好\",\r\n    \"DescTw\": \"影響俠客和神農幫的關係\"\r\n  }"
   rawIndex: 20011
   splits:
   - splitPath: Name
     text: "神农帮友好"
     translated: "Friendly with the Shennong Sect"
-    qcReviewedText: "Shennong Sect Friendship"
+    qcReviewedText: "Friendly with the Shennong Sect"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和神农帮的关系"
     translated: "Affecting the relationship between Wanderers and the Shennong Sect"
+    qcReviewedText: "Affecting the relationship between Wanderers and the Shennong Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20012\",\r\n    \"Name\": \"六合帮友好\",\r\n    \"Desc\": \"影响侠客和六合帮的关系\",\r\n    \"NameTw\": \"六合幫友好\",\r\n    \"DescTw\": \"影響俠客和六合幫的關係\"\r\n  }"
   rawIndex: 20012
   splits:
   - splitPath: Name
     text: "六合帮友好"
     translated: "Six Harmonies Sect friendly"
-    qcReviewedText: "Six Harmonies Sect Friendship"
+    qcReviewedText: "Six Harmonies Sect friendly"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和六合帮的关系"
     translated: "Affecting the relationship between Wanderers and the Six Harmonies Sect"
+    qcReviewedText: "Affecting the relationship between Wanderers and the Six Harmonies Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20013\",\r\n    \"Name\": \"挂锤庄友好\",\r\n    \"Desc\": \"影响侠客和挂锤庄的关系\",\r\n    \"NameTw\": \"掛錘莊友好\",\r\n    \"DescTw\": \"影響俠客和掛錘莊的關係\"\r\n  }"
   rawIndex: 20013
   splits:
   - splitPath: Name
     text: "挂锤庄友好"
     translated: "Hanging Hammer Manor is friendly"
-    qcReviewedText: "Hanging Hammer Manor Friendship"
+    qcReviewedText: "Hanging Hammer Manor is friendly"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和挂锤庄的关系"
     translated: "Affecting the relationship between the Wanderer and Hanging Hammer Manor"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Hanging Hammer Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20014\",\r\n    \"Name\": \"福庆班友好\",\r\n    \"Desc\": \"影响侠客和福庆班的关系\",\r\n    \"NameTw\": \"福慶班友好\",\r\n    \"DescTw\": \"影響俠客和福慶班的關係\"\r\n  }"
   rawIndex: 20014
   splits:
   - splitPath: Name
     text: "福庆班友好"
     translated: "Fuking Class is friendly"
-    qcReviewedText: "Fuqing Battalion Friendship"
+    qcReviewedText: "Fuking Class is friendly"
     qcStatus: Passed
-    qcQualityScore: 90
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
   - splitPath: Desc
     text: "影响侠客和福庆班的关系"
     translated: "Affecting the relationship between the Wanderer and Fugui Battalion"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Fugui Battalion"
+    qcTranslated: "Affecting the relationship between the Wanderer and Fuqing Troupe"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20015\",\r\n    \"Name\": \"洗墨山庄友好\",\r\n    \"Desc\": \"影响侠客和洗墨山庄的关系\",\r\n    \"NameTw\": \"洗墨山莊友好\",\r\n    \"DescTw\": \"影響俠客和洗墨山莊的關係\"\r\n  }"
   rawIndex: 20015
   splits:
@@ -1035,6 +1424,10 @@
   - splitPath: Desc
     text: "影响侠客和洗墨山庄的关系"
     translated: "Affecting the relationship between the Wanderer and Shi Xiemu Cottage"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Shi Xiemu Cottage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20016\",\r\n    \"Name\": \"浣花派友好\",\r\n    \"Desc\": \"影响侠客和浣花派的关系\",\r\n    \"NameTw\": \"浣花派友好\",\r\n    \"DescTw\": \"影響俠客和浣花派的關係\"\r\n  }"
   rawIndex: 20016
   splits:
@@ -1047,6 +1440,10 @@
   - splitPath: Desc
     text: "影响侠客和浣花派的关系"
     translated: "Affects the relationship between the Wanderer and the Flower Washing Sect"
+    qcReviewedText: "Affects the relationship between the Wanderer and the Flower Washing Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20017\",\r\n    \"Name\": \"武侯祠友好\",\r\n    \"Desc\": \"影响侠客和武侯祠的关系\",\r\n    \"NameTw\": \"武侯祠友好\",\r\n    \"DescTw\": \"影響俠客和武侯祠的關係\"\r\n  }"
   rawIndex: 20017
   splits:
@@ -1059,6 +1456,10 @@
   - splitPath: Desc
     text: "影响侠客和武侯祠的关系"
     translated: "Influences on the relationship between the Wanderer and the Martial Chancellor's Shrine"
+    qcReviewedText: "Influences on the relationship between the Wanderer and the Martial Chancellor's Shrine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20018\",\r\n    \"Name\": \"神女宫友好\",\r\n    \"Desc\": \"影响侠客和神女宫的关系\",\r\n    \"NameTw\": \"神女宮友好\",\r\n    \"DescTw\": \"影響俠客和神女宮的關係\"\r\n  }"
   rawIndex: 20018
   splits:
@@ -1071,6 +1472,10 @@
   - splitPath: Desc
     text: "影响侠客和神女宫的关系"
     translated: "Affecting the relationship between the Wanderer and the Divine Maiden Palace"
+    qcReviewedText: "Affecting the relationship between the Wanderer and the Divine Maiden Palace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20019\",\r\n    \"Name\": \"川蜀六扇门友好\",\r\n    \"Desc\": \"影响侠客和川蜀六扇门的关系\",\r\n    \"NameTw\": \"川蜀六扇門友好\",\r\n    \"DescTw\": \"影響俠客和川蜀六扇門的關係\"\r\n  }"
   rawIndex: 20019
   splits:
@@ -1083,6 +1488,10 @@
   - splitPath: Desc
     text: "影响侠客和川蜀六扇门的关系"
     translated: "Affecting the relationship between wanderers and the Six Doors of Sichuan Province"
+    qcReviewedText: "Affecting the relationship between wanderers and the Six Doors of Sichuan Province"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20020\",\r\n    \"Name\": \"蚩黎峒友好\",\r\n    \"Desc\": \"影响侠客和蚩黎峒的关系\",\r\n    \"NameTw\": \"蚩黎峒友好\",\r\n    \"DescTw\": \"影響俠客和蚩黎峒的關係\"\r\n  }"
   rawIndex: 20020
   splits:
@@ -1095,6 +1504,10 @@
   - splitPath: Desc
     text: "影响侠客和蚩黎峒的关系"
     translated: "Affects the relationship between the Wanderer and Chi Li Dung"
+    qcReviewedText: "Affects the relationship between the Wanderer and Chi Li Dung"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29970\",\r\n    \"Name\": \"蚩萤好感\",\r\n    \"Desc\": \"影响侠客和蚩萤的关系\",\r\n    \"NameTw\": \"蚩螢好感\",\r\n    \"DescTw\": \"影響俠客和蚩螢的關係\"\r\n  }"
   rawIndex: 29970
   splits:
@@ -1107,6 +1520,10 @@
   - splitPath: Desc
     text: "影响侠客和蚩萤的关系"
     translated: "Influences on the relationship between the Wanderer and Chi Ying"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Chi Ying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29971\",\r\n    \"Name\": \"巫云凤好感\",\r\n    \"Desc\": \"影响侠客和巫云凤的关系\",\r\n    \"NameTw\": \"巫雲鳳好感\",\r\n    \"DescTw\": \"影響俠客和巫雲鳳的關係\"\r\n  }"
   rawIndex: 29971
   splits:
@@ -1119,6 +1536,10 @@
   - splitPath: Desc
     text: "影响侠客和巫云凤的关系"
     translated: "Influences on the relationship between the Wanderer and Wu Yunfeng"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Wu Yunfeng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29972\",\r\n    \"Name\": \"萧雪雁好感\",\r\n    \"Desc\": \"影响侠客和萧雪雁的关系\",\r\n    \"NameTw\": \"蕭雪雁好感\",\r\n    \"DescTw\": \"影響俠客和蕭雪雁的關係\"\r\n  }"
   rawIndex: 29972
   splits:
@@ -1131,6 +1552,10 @@
   - splitPath: Desc
     text: "影响侠客和萧雪雁的关系"
     translated: "Affects the relationship between the Wanderer and Xiao Xueyan"
+    qcReviewedText: "Affects the relationship between the Wanderer and Xiao Xueyan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29973\",\r\n    \"Name\": \"沈青鸬好感\",\r\n    \"Desc\": \"影响侠客和沈青鸬的关系\",\r\n    \"NameTw\": \"沈青鸕好感\",\r\n    \"DescTw\": \"影響俠客和沈青鸕的關係\"\r\n  }"
   rawIndex: 29973
   splits:
@@ -1143,6 +1568,11 @@
   - splitPath: Desc
     text: "影响侠客和沈青鸬的关系"
     translated: "Affects the relationship between the Wanderer and Shen Qinglu'a"
+    qcReviewedText: "Affects the relationship between the Wanderer and Shen Qinglu'a"
+    qcTranslated: "Affects the relationship between the Wanderer and Shen Qinglu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"29974\",\r\n    \"Name\": \"李云裳好感\",\r\n    \"Desc\": \"影响侠客和李云裳的关系\",\r\n    \"NameTw\": \"李雲裳好感\",\r\n    \"DescTw\": \"影響俠客和李雲裳的關係\"\r\n  }"
   rawIndex: 29974
   splits:
@@ -1155,6 +1585,10 @@
   - splitPath: Desc
     text: "影响侠客和李云裳的关系"
     translated: "Affects the relationship between the Wanderer and Li Yunshang"
+    qcReviewedText: "Affects the relationship between the Wanderer and Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29975\",\r\n    \"Name\": \"姜芽好感\",\r\n    \"Desc\": \"影响侠客和姜芽的关系\",\r\n    \"NameTw\": \"姜芽好感\",\r\n    \"DescTw\": \"影響俠客和姜芽的關係\"\r\n  }"
   rawIndex: 29975
   splits:
@@ -1167,6 +1601,10 @@
   - splitPath: Desc
     text: "影响侠客和姜芽的关系"
     translated: "Affect the relationship between the Wanderer and Jiang Ya"
+    qcReviewedText: "Affect the relationship between the Wanderer and Jiang Ya"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29976\",\r\n    \"Name\": \"诸葛慧好感\",\r\n    \"Desc\": \"影响侠客和诸葛慧的关系\",\r\n    \"NameTw\": \"諸葛慧好感\",\r\n    \"DescTw\": \"影響俠客和諸葛慧的關係\"\r\n  }"
   rawIndex: 29976
   splits:
@@ -1179,6 +1617,11 @@
   - splitPath: Desc
     text: "影响侠客和诸葛慧的关系"
     translated: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
+    qcTranslated: "Affecting the relationship between the Wanderer and Zhuge Hui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"29977\",\r\n    \"Name\": \"唐幺幺好感\",\r\n    \"Desc\": \"影响侠客和唐幺幺的关系\",\r\n    \"NameTw\": \"唐么么好感\",\r\n    \"DescTw\": \"影響俠客和唐么么的關係\"\r\n  }"
   rawIndex: 29977
   splits:
@@ -1191,6 +1634,11 @@
   - splitPath: Desc
     text: "影响侠客和唐幺幺的关系"
     translated: "Affects the relationship between the Wanderer and Tang Yaoyaomiao"
+    qcReviewedText: "Affects the relationship between the Wanderer and Tang Yaoyaomiao"
+    qcTranslated: "Affects the relationship between the Wanderer and Tang Yaoyao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
 - raw: "{\r\n    \"Key\": \"29978\",\r\n    \"Name\": \"邵轻虹好感\",\r\n    \"Desc\": \"影响侠客和邵轻虹的关系\",\r\n    \"NameTw\": \"邵輕虹好感\",\r\n    \"DescTw\": \"影響俠客和邵輕虹的關係\"\r\n  }"
   rawIndex: 29978
   splits:
@@ -1203,6 +1651,10 @@
   - splitPath: Desc
     text: "影响侠客和邵轻虹的关系"
     translated: "Affects the relationship between the Wanderer and Shao Qinghong"
+    qcReviewedText: "Affects the relationship between the Wanderer and Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29979\",\r\n    \"Name\": \"谈文秀好感\",\r\n    \"Desc\": \"影响侠客和谈文秀的关系\",\r\n    \"NameTw\": \"談文秀好感\",\r\n    \"DescTw\": \"影響俠客和談文秀的關係\"\r\n  }"
   rawIndex: 29979
   splits:
@@ -1215,6 +1667,10 @@
   - splitPath: Desc
     text: "影响侠客和谈文秀的关系"
     translated: "Affect the relationship between the Wanderer and Tang Wenshao"
+    qcReviewedText: "Affect the relationship between the Wanderer and Tang Wenshao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29980\",\r\n    \"Name\": \"司徒伶好感\",\r\n    \"Desc\": \"影响侠客和司徒伶的关系\",\r\n    \"NameTw\": \"司徒伶好感\",\r\n    \"DescTw\": \"影響俠客和司徒伶的關係\"\r\n  }"
   rawIndex: 29980
   splits:
@@ -1227,6 +1683,10 @@
   - splitPath: Desc
     text: "影响侠客和司徒伶的关系"
     translated: "Affecting the relationship between Wanderer and Situ Ling"
+    qcReviewedText: "Affecting the relationship between Wanderer and Situ Ling"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29981\",\r\n    \"Name\": \"薛如意好感\",\r\n    \"Desc\": \"影响侠客和薛如意的关系\",\r\n    \"NameTw\": \"薛如意好感\",\r\n    \"DescTw\": \"影響俠客和薛如意的關係\"\r\n  }"
   rawIndex: 29981
   splits:
@@ -1239,6 +1699,10 @@
   - splitPath: Desc
     text: "影响侠客和薛如意的关系"
     translated: "Affecting the relationship between the Wanderer and Xue Ruyi"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Xue Ruyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29982\",\r\n    \"Name\": \"钟离雪好感\",\r\n    \"Desc\": \"影响侠客和钟离雪的关系\",\r\n    \"NameTw\": \"鍾離雪好感\",\r\n    \"DescTw\": \"影響俠客和鍾離雪的關係\"\r\n  }"
   rawIndex: 29982
   splits:
@@ -1251,6 +1715,10 @@
   - splitPath: Desc
     text: "影响侠客和钟离雪的关系"
     translated: "Affects the relationship between the Wanderer and Zhongli Xue"
+    qcReviewedText: "Affects the relationship between the Wanderer and Zhongli Xue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29983\",\r\n    \"Name\": \"风间月好感\",\r\n    \"Desc\": \"影响侠客和风间月的关系\",\r\n    \"NameTw\": \"風間月好感\",\r\n    \"DescTw\": \"影響俠客和風間月的關係\"\r\n  }"
   rawIndex: 29983
   splits:
@@ -1263,6 +1731,10 @@
   - splitPath: Desc
     text: "影响侠客和风间月的关系"
     translated: "Influences on the relationship between the Wanderer and Kazama Yue"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Kazama Yue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29984\",\r\n    \"Name\": \"风间爱好感\",\r\n    \"Desc\": \"影响侠客和风间爱的关系\",\r\n    \"NameTw\": \"風間愛好感\",\r\n    \"DescTw\": \"影響俠客和風間愛的關係\"\r\n  }"
   rawIndex: 29984
   splits:
@@ -1275,6 +1747,10 @@
   - splitPath: Desc
     text: "影响侠客和风间爱的关系"
     translated: "Affects the relationship between the Wanderer and Kazama Ai"
+    qcReviewedText: "Affects the relationship between the Wanderer and Kazama Ai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29985\",\r\n    \"Name\": \"展青锋好感\",\r\n    \"Desc\": \"影响侠客和展青锋的关系\",\r\n    \"NameTw\": \"展青鋒好感\",\r\n    \"DescTw\": \"影響俠客和展青鋒的關係\"\r\n  }"
   rawIndex: 29985
   splits:
@@ -1287,6 +1763,10 @@
   - splitPath: Desc
     text: "影响侠客和展青锋的关系"
     translated: "Influences on the relationship between Wanderer and Zhan Qingfeng"
+    qcReviewedText: "Influences on the relationship between Wanderer and Zhan Qingfeng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29986\",\r\n    \"Name\": \"艾琳娜好感\",\r\n    \"Desc\": \"影响侠客和艾琳娜的关系\",\r\n    \"NameTw\": \"艾琳娜好感\",\r\n    \"DescTw\": \"影響俠客和艾琳娜的關係\"\r\n  }"
   rawIndex: 29986
   splits:
@@ -1299,6 +1779,10 @@
   - splitPath: Desc
     text: "影响侠客和艾琳娜的关系"
     translated: "Affecting the relationship between the Wanderer and Elena"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Elena"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29987\",\r\n    \"Name\": \"萧令仪好感\",\r\n    \"Desc\": \"影响侠客和萧令仪的关系\",\r\n    \"NameTw\": \"蕭令儀好感\",\r\n    \"DescTw\": \"影響俠客和蕭令儀的關係\"\r\n  }"
   rawIndex: 29987
   splits:
@@ -1311,6 +1795,10 @@
   - splitPath: Desc
     text: "影响侠客和萧令仪的关系"
     translated: "Influences on the relationship between the Wanderer and Xiao Lingyi"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Xiao Lingyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29988\",\r\n    \"Name\": \"夏侯珺好感\",\r\n    \"Desc\": \"影响侠客和夏侯珺的关系\",\r\n    \"NameTw\": \"夏侯珺好感\",\r\n    \"DescTw\": \"影響俠客和夏侯珺的關係\"\r\n  }"
   rawIndex: 29988
   splits:
@@ -1323,6 +1811,10 @@
   - splitPath: Desc
     text: "影响侠客和夏侯珺的关系"
     translated: "Affects the relationship between the Wanderer and Xiahou Jun"
+    qcReviewedText: "Affects the relationship between the Wanderer and Xiahou Jun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29989\",\r\n    \"Name\": \"文锦心好感\",\r\n    \"Desc\": \"影响侠客和文素心的关系\",\r\n    \"NameTw\": \"文錦心好感\",\r\n    \"DescTw\": \"影響俠客和文素心的關係\"\r\n  }"
   rawIndex: 29989
   splits:
@@ -1335,6 +1827,10 @@
   - splitPath: Desc
     text: "影响侠客和文素心的关系"
     translated: "Affecting the relationship between the Wanderer and Wen Susixin"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Wen Susixin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29990\",\r\n    \"Name\": \"柳含烟好感\",\r\n    \"Desc\": \"影响侠客和柳含烟的关系\",\r\n    \"NameTw\": \"柳含煙好感\",\r\n    \"DescTw\": \"影響俠客和柳含煙的關係\"\r\n  }"
   rawIndex: 29990
   splits:
@@ -1347,6 +1843,10 @@
   - splitPath: Desc
     text: "影响侠客和柳含烟的关系"
     translated: "Influences on the relationship between the Wanderer and Liu Hanyan"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Liu Hanyan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29991\",\r\n    \"Name\": \"邱灵素好感\",\r\n    \"Desc\": \"影响侠客和邱灵素的关系\",\r\n    \"NameTw\": \"邱靈素好感\",\r\n    \"DescTw\": \"影響俠客和邱靈素的關係\"\r\n  }"
   rawIndex: 29991
   splits:
@@ -1359,6 +1859,10 @@
   - splitPath: Desc
     text: "影响侠客和邱灵素的关系"
     translated: "Affecting the relationship between the Wanderer and Qiu Lingsu"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Qiu Lingsu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29992\",\r\n    \"Name\": \"连翘儿好感\",\r\n    \"Desc\": \"影响侠客和连翘儿的关系\",\r\n    \"NameTw\": \"連翹兒好感\",\r\n    \"DescTw\": \"影響俠客和連翹兒的關係\"\r\n  }"
   rawIndex: 29992
   splits:
@@ -1371,6 +1875,10 @@
   - splitPath: Desc
     text: "影响侠客和连翘儿的关系"
     translated: "Affecting the relationship between the Wanderer and Lian Qiaoer"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Lian Qiaoer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29993\",\r\n    \"Name\": \"沈蓉蓉好感\",\r\n    \"Desc\": \"影响侠客和沈蓉蓉的关系\",\r\n    \"NameTw\": \"沈蓉蓉好感\",\r\n    \"DescTw\": \"影響俠客和沈蓉蓉的關係\"\r\n  }"
   rawIndex: 29993
   splits:
@@ -1383,6 +1891,10 @@
   - splitPath: Desc
     text: "影响侠客和沈蓉蓉的关系"
     translated: "Affecting the relationship between the Wanderer and Shen Rongrong"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Shen Rongrong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29994\",\r\n    \"Name\": \"靳红衣好感\",\r\n    \"Desc\": \"影响侠客和靳红衣的关系\",\r\n    \"NameTw\": \"靳紅衣好感\",\r\n    \"DescTw\": \"影響俠客和靳紅衣的關係\"\r\n  }"
   rawIndex: 29994
   splits:
@@ -1395,6 +1907,10 @@
   - splitPath: Desc
     text: "影响侠客和靳红衣的关系"
     translated: "Affecting the relationship between the Wanderer and Jin Hongyi"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Jin Hongyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29995\",\r\n    \"Name\": \"晏蛾眉好感\",\r\n    \"Desc\": \"影响侠客和晏蛾眉的关系\",\r\n    \"NameTw\": \"晏蛾眉好感\",\r\n    \"DescTw\": \"影響俠客和晏蛾眉的關係\"\r\n  }"
   rawIndex: 29995
   splits:
@@ -1407,6 +1923,10 @@
   - splitPath: Desc
     text: "影响侠客和晏蛾眉的关系"
     translated: "Affecting the relationship between the Wanderer and Yan Emei"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Yan Emei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29996\",\r\n    \"Name\": \"左灵珠好感\",\r\n    \"Desc\": \"影响侠客和左灵珠的关系\",\r\n    \"NameTw\": \"左靈珠好感\",\r\n    \"DescTw\": \"影響俠客和左靈珠的關係\"\r\n  }"
   rawIndex: 29996
   splits:
@@ -1419,6 +1939,10 @@
   - splitPath: Desc
     text: "影响侠客和左灵珠的关系"
     translated: "Affects the relationship between the Wanderer and Zuo Lingzhu"
+    qcReviewedText: "Affects the relationship between the Wanderer and Zuo Lingzhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29997\",\r\n    \"Name\": \"阮碧青好感\",\r\n    \"Desc\": \"影响侠客和阮碧青的关系\",\r\n    \"NameTw\": \"阮碧青好感\",\r\n    \"DescTw\": \"影響俠客和阮碧青的關係\"\r\n  }"
   rawIndex: 29997
   splits:
@@ -1431,6 +1955,10 @@
   - splitPath: Desc
     text: "影响侠客和阮碧青的关系"
     translated: "Affecting the relationship between the Wanderer and Ruan Biqing"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Ruan Biqing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29998\",\r\n    \"Name\": \"项欺霜好感\",\r\n    \"Desc\": \"影响侠客和项欺霜的关系\",\r\n    \"NameTw\": \"項欺霜好感\",\r\n    \"DescTw\": \"影響俠客和項欺霜的關係\"\r\n  }"
   rawIndex: 29998
   splits:
@@ -1443,6 +1971,10 @@
   - splitPath: Desc
     text: "影响侠客和项欺霜的关系"
     translated: "Affecting the relationship between Wanderer and Xiang Qishuang"
+    qcReviewedText: "Affecting the relationship between Wanderer and Xiang Qishuang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29999\",\r\n    \"Name\": \"杨芸好感\",\r\n    \"Desc\": \"影响侠客和杨芸的关系\",\r\n    \"NameTw\": \"楊芸好感\",\r\n    \"DescTw\": \"影響俠客和楊芸的關係\"\r\n  }"
   rawIndex: 29999
   splits:
@@ -1455,3 +1987,7 @@
   - splitPath: Desc
     text: "影响侠客和杨芸的关系"
     translated: "Affecting the relationship between the Wanderer and Yang Yun"
+    qcReviewedText: "Affecting the relationship between the Wanderer and Yang Yun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

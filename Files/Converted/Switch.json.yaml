@@ -319,9 +319,10 @@
   - splitPath: Name
     text: "魔心卿相"
     translated: "Demon Hearted Minister"
-    qcReviewedText: "Demonhearted Chancellor"
+    qcReviewedText: "Demon Hearted Minister"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"36\",\r\n    \"Name\": \"选择衡山\",\r\n    \"NameTw\": \"選擇衡山\"\r\n  }"
   rawIndex: 36
   splits:
@@ -499,18 +500,20 @@
   - splitPath: Name
     text: "宁王结局"
     translated: "Peaceful King's ending"
-    qcReviewedText: "Peaceful King's Ending"
+    qcReviewedText: "Peaceful King's ending"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"102\",\r\n    \"Name\": \"魔侯结局\",\r\n    \"NameTw\": \"魔侯結局\"\r\n  }"
   rawIndex: 102
   splits:
   - splitPath: Name
     text: "魔侯结局"
     translated: "Demon Lord's ending"
-    qcReviewedText: "Demon Lord's Conclusion"
+    qcReviewedText: "Demon Lord's ending"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"修炼选择\",\r\n    \"NameTw\": \"修煉選擇\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -652,12 +655,20 @@
   - splitPath: Name
     text: "逃婚少年"
     translated: "Boy Fugitive Marriage"
+    qcReviewedText: "Boy Fugitive Marriage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8016\",\r\n    \"Name\": \"养狼成患\",\r\n    \"NameTw\": \"養狼成患\"\r\n  }"
   rawIndex: 8016
   splits:
   - splitPath: Name
     text: "养狼成患"
     translated: "Raising wolves breeds trouble"
+    qcReviewedText: "Raising wolves breeds trouble"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501\",\r\n    \"Name\": \"剑法天赋\",\r\n    \"NameTw\": \"劍法天賦\"\r\n  }"
   rawIndex: 8501
   splits:

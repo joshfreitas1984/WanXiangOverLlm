@@ -10,9 +10,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "医术达到宗师解锁"
     translated: "Medicine reaching the level of Grandmaster unlocks"
+    qcReviewedText: "Medicine reaching the level of Grandmaster unlocks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901002\",\r\n    \"Name\": \"毒术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"毒术达到宗师解锁\",\r\n    \"NameTw\": \"毒術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"毒術達到宗師解鎖\"\r\n  }"
   rawIndex: 901002
   splits:
@@ -25,9 +33,18 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "毒术达到宗师解锁"
     translated: "Poison technique reaches the Master level unlocks for them"
+    qcReviewedText: "Poison technique reaches the Master level unlocks for them"
+    qcTranslated: "Master‑level Poison unlocks for them"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"901003\",\r\n    \"Name\": \"术数宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"术数达到宗师解锁\",\r\n    \"NameTw\": \"術數宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"術數達到宗師解鎖\"\r\n  }"
   rawIndex: 901003
   splits:
@@ -40,9 +57,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "术数达到宗师解锁"
     translated: "Divination techniques have unlocked upon reaching the Master level."
+    qcReviewedText: "Divination techniques have unlocked upon reaching the Master level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901004\",\r\n    \"Name\": \"儒学宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"儒学达到宗师解锁\",\r\n    \"NameTw\": \"儒學宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"儒學達到宗師解鎖\"\r\n  }"
   rawIndex: 901004
   splits:
@@ -55,9 +80,18 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "儒学达到宗师解锁"
     translated: "Confucian Studies reach Grandmaster level unlocking"
+    qcReviewedText: "Confucian Studies reach Grandmaster level unlocking"
+    qcTranslated: "Unlock when Confucian Studies reaches Grandmaster level"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"901006\",\r\n    \"Name\": \"道学宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"道学达到宗师解锁\",\r\n    \"NameTw\": \"道學宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"道學達到宗師解鎖\"\r\n  }"
   rawIndex: 901006
   splits:
@@ -70,9 +104,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "道学达到宗师解锁"
     translated: "Daoist Studies reach the Master level to unlock"
+    qcReviewedText: "Daoist Studies reach the Master level to unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901009\",\r\n    \"Name\": \"火器宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"火器达到宗师解锁\",\r\n    \"NameTw\": \"火器宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"火器達到宗師解鎖\"\r\n  }"
   rawIndex: 901009
   splits:
@@ -85,9 +127,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "火器达到宗师解锁"
     translated: "Firearms mastery unlocked"
+    qcReviewedText: "Firearms mastery unlocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901010\",\r\n    \"Name\": \"百戏宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"百戏达到宗师解锁\",\r\n    \"NameTw\": \"百戲宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"百戲達到宗師解鎖\"\r\n  }"
   rawIndex: 901010
   splits:
@@ -100,9 +150,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "百戏达到宗师解锁"
     translated: "Variety Arts reach master level to unlock"
+    qcReviewedText: "Variety Arts reach master level to unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901011\",\r\n    \"Name\": \"厨艺宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"厨艺达到宗师解锁\",\r\n    \"NameTw\": \"廚藝宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"廚藝達到宗師解鎖\"\r\n  }"
   rawIndex: 901011
   splits:
@@ -115,9 +173,18 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "厨艺达到宗师解锁"
     translated: "Cooking skill reaches Master level unlock"
+    qcReviewedText: "Cooking skill reaches Master level unlock"
+    qcTranslated: "Unlock when Cooking skill reaches Master level"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
 - raw: "{\r\n    \"Key\": \"901014\",\r\n    \"Name\": \"翰墨宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"翰墨达到宗师解锁\",\r\n    \"NameTw\": \"翰墨宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"翰墨達到宗師解鎖\"\r\n  }"
   rawIndex: 901014
   splits:
@@ -130,21 +197,42 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "翰墨达到宗师解锁"
     translated: "Calligraphy mastery unlocked"
+    qcReviewedText: "Calligraphy mastery unlocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901016\",\r\n    \"Name\": \"御兽宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"御兽达到宗师解锁\",\r\n    \"NameTw\": \"御獸宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"御獸達到宗師解鎖\"\r\n  }"
   rawIndex: 901016
   splits:
   - splitPath: Name
     text: "御兽宗师"
     translated: "Master of Beast Taming Sect"
+    qcReviewedText: "Master of Beast Taming Sect"
+    qcTranslated: "Grandmaster of Beast Taming"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "御兽达到宗师解锁"
     translated: "Beast Taming reaches the Master level to unlock."
+    qcReviewedText: "Beast Taming reaches the Master level to unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901019\",\r\n    \"Name\": \"赌术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"赌术达到宗师解锁\",\r\n    \"NameTw\": \"賭術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"賭術達到宗師解鎖\"\r\n  }"
   rawIndex: 901019
   splits:
@@ -157,9 +245,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "赌术达到宗师解锁"
     translated: "Gambling skills have unlocked upon reaching the Grandmaster level."
+    qcReviewedText: "Gambling skills have unlocked upon reaching the Grandmaster level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901020\",\r\n    \"Name\": \"丹术宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"丹术达到宗师解锁\",\r\n    \"NameTw\": \"丹術宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"丹術達到宗師解鎖\"\r\n  }"
   rawIndex: 901020
   splits:
@@ -172,9 +268,17 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "丹术达到宗师解锁"
     translated: "Alchemy skills unlock at Grandmaster level"
+    qcReviewedText: "Alchemy skills unlock at Grandmaster level"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901021\",\r\n    \"Name\": \"匠造宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"匠造达到宗师解锁\",\r\n    \"NameTw\": \"匠造宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"匠造達到宗師解鎖\"\r\n  }"
   rawIndex: 901021
   splits:
@@ -187,9 +291,18 @@
   - splitPath: TypeText
     text: "技艺结局"
     translated: "Skill Outcome"
+    qcReviewedText: "Skill Outcome"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "匠造达到宗师解锁"
     translated: "Mastercraft unlocked by reaching the zuoshi level in crafting."
+    qcReviewedText: "Mastercraft unlocked by reaching the zuoshi level in crafting."
+    qcTranslated: "Mastercraft unlocked by reaching the Grandmaster level in crafting."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"0\",\r\n    \"Name\": \"杨芸结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜杨芸后解锁\",\r\n    \"NameTw\": \"楊芸結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏楊芸後解鎖\"\r\n  }"
   rawIndex: 0
   splits:
@@ -202,9 +315,18 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜杨芸后解锁"
     translated: "After obtaining Yang Yun as a red haired beauty, unlock"
+    qcReviewedText: "After obtaining Yang Yun as a red haired beauty, unlock"
+    qcTranslated: "Unlocked after obtaining Yang Yun, a beauty"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"7\",\r\n    \"Name\": \"邱灵素结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜邱灵素后解锁\",\r\n    \"NameTw\": \"邱靈素結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏邱靈素後解鎖\"\r\n  }"
   rawIndex: 7
   splits:
@@ -217,9 +339,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜邱灵素后解锁"
     translated: "After obtaining Qiu Lingsu as a Red Beauty, unlock"
+    qcReviewedText: "After obtaining Qiu Lingsu as a Red Beauty, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"16\",\r\n    \"Name\": \"钟离雪结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜钟离雪后解锁\",\r\n    \"NameTw\": \"鍾離雪結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏鍾離雪後解鎖\"\r\n  }"
   rawIndex: 16
   splits:
@@ -232,9 +362,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜钟离雪后解锁"
     translated: "After obtaining Red Beauty Zhongli Xue, unlock"
+    qcReviewedText: "After obtaining Red Beauty Zhongli Xue, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"24\",\r\n    \"Name\": \"唐幺幺结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜唐幺幺后解锁\",\r\n    \"NameTw\": \"唐么么結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏唐么么後解鎖\"\r\n  }"
   rawIndex: 24
   splits:
@@ -247,9 +385,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜唐幺幺后解锁"
     translated: "After obtaining Red Beauty Tang Yaoyao, unlock"
+    qcReviewedText: "After obtaining Red Beauty Tang Yaoyao, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1\",\r\n    \"Name\": \"项欺霜结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜项欺霜后解锁\",\r\n    \"NameTw\": \"項欺霜結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏項欺霜後解鎖\"\r\n  }"
   rawIndex: 1
   splits:
@@ -262,9 +408,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜项欺霜后解锁"
     translated: "After obtaining Xiang Qishuang, unlock"
+    qcReviewedText: "After obtaining Xiang Qishuang, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2\",\r\n    \"Name\": \"阮碧青结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜阮碧青后解锁\",\r\n    \"NameTw\": \"阮碧青結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏阮碧青後解鎖\"\r\n  }"
   rawIndex: 2
   splits:
@@ -277,9 +431,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜阮碧青后解锁"
     translated: "After obtaining Red Beauty Ruan Biqing, unlock"
+    qcReviewedText: "After obtaining Red Beauty Ruan Biqing, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"201\",\r\n    \"Name\": \"阮碧青故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"完成阮碧青前传故事解锁\",\r\n    \"NameTw\": \"阮碧青故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"完成阮碧青前傳故事解鎖\"\r\n  }"
   rawIndex: 201
   splits:
@@ -292,9 +454,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "完成阮碧青前传故事解锁"
     translated: "Complete the prequel story of Ruan Biqing to unlock it."
+    qcReviewedText: "Complete the prequel story of Ruan Biqing to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"202\",\r\n    \"Name\": \"阮碧青故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"完成阮碧青前传故事解锁\",\r\n    \"NameTw\": \"阮碧青故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"完成阮碧青前傳故事解鎖\"\r\n  }"
   rawIndex: 202
   splits:
@@ -307,9 +477,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "完成阮碧青前传故事解锁"
     translated: "Complete the prequel story of Ruan Biqing to unlock it."
+    qcReviewedText: "Complete the prequel story of Ruan Biqing to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3\",\r\n    \"Name\": \"左灵珠结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜左灵珠后解锁\",\r\n    \"NameTw\": \"左靈珠結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏左靈珠後解鎖\"\r\n  }"
   rawIndex: 3
   splits:
@@ -322,9 +500,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜左灵珠后解锁"
     translated: "Obtain the Red Jade Zuo Lingzhui to unlock"
+    qcReviewedText: "Obtain the Red Jade Zuo Lingzhui to unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"晏蛾眉结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜晏蛾眉后解锁\",\r\n    \"NameTw\": \"晏蛾眉結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏晏蛾眉後解鎖\"\r\n  }"
   rawIndex: 4
   splits:
@@ -337,21 +523,42 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜晏蛾眉后解锁"
     translated: "After obtaining Yan Emei, unlock"
+    qcReviewedText: "After obtaining Yan Emei, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"401\",\r\n    \"Name\": \"泪痕刀故事\",\r\n    \"TypeText\": \"宝物故事\",\r\n    \"Desc\": \"解锁晏蛾眉红颜后，一月到门派后山/钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁\",\r\n    \"NameTw\": \"淚痕刀故事\",\r\n    \"TypeTextTw\": \"寶物故事\",\r\n    \"DescTw\": \"解鎖晏蛾眉紅顏後，一月到門派後山/釣鰲磯選擇晏蛾眉獲得淚痕刀，完成淚痕刀故事解鎖\"\r\n  }"
   rawIndex: 401
   splits:
   - splitPath: Name
     text: "泪痕刀故事"
     translated: "Tear‑Streaked Blade Tale"
+    qcReviewedText: "Tear‑Streaked Blade Tale"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "宝物故事"
     translated: "Treasure tale"
+    qcReviewedText: "Treasure tale"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁晏蛾眉红颜后，一月到门派后山"
     translated: "Unlock Yan Emei's Red Beauty after, and go to the back mountain of the Sect one month later."
+    qcReviewedText: "Unlock Yan Emei's Red Beauty after, and go to the back mountain of the Sect one month later./Choosing Yan Emei at Diao Ao Ji earns the Tear‑Streaked Blade and completes the Tear‑Streaked Blade story, unlocking it."
+    qcTranslated: "After unlocking Yan Emei's Red Beauty, go to the Sect's back mountain or Diao Ao Ji in Month One to select Yan Emei and obtain the Tear‑Streaked Blade; completing the Tear‑Streaked Blade story unlocks it."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: HardToParseSeam
   - splitPath: Desc
     subIndex: 1
     text: "钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
@@ -371,9 +578,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜靳红衣后解锁"
     translated: "After obtaining Red Beauty Jin Hongyi, unlock"
+    qcReviewedText: "After obtaining Red Beauty Jin Hongyi, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6\",\r\n    \"Name\": \"连翘儿结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜连翘儿后解锁\",\r\n    \"NameTw\": \"連翹兒結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏連翹兒後解鎖\"\r\n  }"
   rawIndex: 6
   splits:
@@ -386,9 +601,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜连翘儿后解锁"
     translated: "After obtaining Lian Qiaoer, unlock"
+    qcReviewedText: "After obtaining Lian Qiaoer, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"601\",\r\n    \"Name\": \"连翘儿故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁连翘儿红颜后，完成连翘儿故事解锁\",\r\n    \"NameTw\": \"連翹兒故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖連翹兒紅顏後，完成連翹兒故事解鎖\"\r\n  }"
   rawIndex: 601
   splits:
@@ -401,9 +624,18 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁连翘儿红颜后，完成连翘儿故事解锁"
     translated: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    qcReviewedText: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    qcTranslated: "After unlocking Lian Qiaoer's romance, complete her story to unlock it."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"602\",\r\n    \"Name\": \"连翘儿故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁连翘儿红颜后，完成连翘儿故事解锁\",\r\n    \"NameTw\": \"連翹兒故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖連翹兒紅顏後，完成連翹兒故事解鎖\"\r\n  }"
   rawIndex: 602
   splits:
@@ -416,9 +648,18 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁连翘儿红颜后，完成连翘儿故事解锁"
     translated: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    qcReviewedText: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    qcTranslated: "After unlocking Lian Qiaoer's romance, complete her story to unlock it."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"603\",\r\n    \"Name\": \"连翘儿故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁连翘儿和艾琳娜红颜后，完成连翘儿故事《云外仙裳见玉心》后解锁\",\r\n    \"NameTw\": \"連翹兒故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖連翹兒和艾琳娜紅顏後，完成連翹兒故事《雲外仙裳見玉心》後解鎖\"\r\n  }"
   rawIndex: 603
   splits:
@@ -431,9 +672,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁连翘儿和艾琳娜红颜后，完成连翘儿故事《云外仙裳见玉心》后解锁"
     translated: "Unlock Lian Qiaoer and Elena after obtaining the Red Beauty status with them. Unlock Lian Qiaoer's story Seeing Jade Heart Beyond the Clouds afterward."
+    qcReviewedText: "Unlock Lian Qiaoer and Elena after obtaining the Red Beauty status with them. Unlock Lian Qiaoer's story Seeing Jade Heart Beyond the Clouds afterward."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"604\",\r\n    \"Name\": \"金枝连翘\",\r\n    \"TypeText\": \"宝物故事\",\r\n    \"Desc\": \"解锁连翘儿红颜，获得宝物金枝连翘，完成金枝连翘故事后解锁\",\r\n    \"NameTw\": \"金枝連翹\",\r\n    \"TypeTextTw\": \"寶物故事\",\r\n    \"DescTw\": \"解鎖連翹兒紅顏，獲得寶物金枝連翹，完成金枝連翹故事後解鎖\"\r\n  }"
   rawIndex: 604
   splits:
@@ -446,9 +695,17 @@
   - splitPath: TypeText
     text: "宝物故事"
     translated: "Treasure tale"
+    qcReviewedText: "Treasure tale"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁连翘儿红颜，获得宝物金枝连翘，完成金枝连翘故事后解锁"
     translated: "Unlock Lian Qiaoer's Red Girl status to obtain the Treasure Golden Branch Forsythia. After completing the Golden Branch Forsythia story, unlock additional content."
+    qcReviewedText: "Unlock Lian Qiaoer's Red Girl status to obtain the Treasure Golden Branch Forsythia. After completing the Golden Branch Forsythia story, unlock additional content."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"605\",\r\n    \"Name\": \"今日喝什么\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁阮碧青红颜，完成阮碧青前传故事，解锁连翘儿红颜，完成连翘儿故事《梦授天真诀》后，触发《今日喝什么》故事解锁。\",\r\n    \"NameTw\": \"今日喝什麼\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖阮碧青紅顏，完成阮碧青前傳故事，解鎖連翹兒紅顏，完成連翹兒故事《夢授天真訣》後，觸發《今日喝什麼》故事解鎖。\"\r\n  }"
   rawIndex: 605
   splits:
@@ -461,9 +718,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁阮碧青红颜，完成阮碧青前传故事，解锁连翘儿红颜，完成连翘儿故事《梦授天真诀》后，触发《今日喝什么》故事解锁。"
     translated: "Unlock Ruan Biqing's Red‑Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red‑Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
+    qcReviewedText: "Unlock Ruan Biqing's Red‑Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red‑Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8\",\r\n    \"Name\": \"柳含烟结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜柳含烟后解锁\",\r\n    \"NameTw\": \"柳含煙結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏柳含煙後解鎖\"\r\n  }"
   rawIndex: 8
   splits:
@@ -476,9 +741,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜柳含烟后解锁"
     translated: "After obtaining Red Beauty Liu Hanyan, unlock"
+    qcReviewedText: "After obtaining Red Beauty Liu Hanyan, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"9\",\r\n    \"Name\": \"文锦心结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜文锦心后解锁\",\r\n    \"NameTw\": \"文錦心結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏文錦心後解鎖\"\r\n  }"
   rawIndex: 9
   splits:
@@ -491,9 +764,18 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜文锦心后解锁"
     translated: "After obtaining Wen Jinxin, unlock"
+    qcReviewedText: "After obtaining Wen Jinxin, unlock"
+    qcTranslated: "Unlocked after obtaining Wen Jinxin's affection"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"10\",\r\n    \"Name\": \"夏侯珺结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜夏侯珺后解锁\",\r\n    \"NameTw\": \"夏侯珺結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏夏侯珺後解鎖\"\r\n  }"
   rawIndex: 10
   splits:
@@ -506,9 +788,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜夏侯珺后解锁"
     translated: "After obtaining Xiahou Jun, unlock"
+    qcReviewedText: "After obtaining Xiahou Jun, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"夏侯珺故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁夏侯珺红颜后，完成夏侯珺故事解锁\",\r\n    \"NameTw\": \"夏侯珺故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖夏侯珺紅顏後，完成夏侯珺故事解鎖\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -521,9 +811,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁夏侯珺红颜后，完成夏侯珺故事解锁"
     translated: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcReviewedText: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1002\",\r\n    \"Name\": \"夏侯珺故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁夏侯珺红颜后，完成夏侯珺故事解锁\",\r\n    \"NameTw\": \"夏侯珺故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖夏侯珺紅顏後，完成夏侯珺故事解鎖\"\r\n  }"
   rawIndex: 1002
   splits:
@@ -536,9 +834,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁夏侯珺红颜后，完成夏侯珺故事解锁"
     translated: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcReviewedText: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Name\": \"夏侯珺故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"解锁夏侯珺红颜后，完成夏侯珺故事解锁\",\r\n    \"NameTw\": \"夏侯珺故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"解鎖夏侯珺紅顏後，完成夏侯珺故事解鎖\"\r\n  }"
   rawIndex: 1003
   splits:
@@ -551,9 +857,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "解锁夏侯珺红颜后，完成夏侯珺故事解锁"
     translated: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcReviewedText: "After unlocking Xiahou Jun's Red Ensign, complete the Xiahou Jun story unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"11\",\r\n    \"Name\": \"萧令仪结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜萧令仪后解锁\",\r\n    \"NameTw\": \"蕭令儀結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏蕭令儀後解鎖\"\r\n  }"
   rawIndex: 11
   splits:
@@ -566,9 +880,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜萧令仪后解锁"
     translated: "After acquiring Lady Xiao Lingyi, unlock"
+    qcReviewedText: "After acquiring Lady Xiao Lingyi, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"12\",\r\n    \"Name\": \"艾琳娜结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜艾琳娜后解锁\",\r\n    \"NameTw\": \"艾琳娜結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏艾琳娜後解鎖\"\r\n  }"
   rawIndex: 12
   splits:
@@ -581,9 +903,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜艾琳娜后解锁"
     translated: "After acquiring Elena, unlock her"
+    qcReviewedText: "After acquiring Elena, unlock her"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1201\",\r\n    \"Name\": \"艾琳娜故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"完成艾琳娜前传故事解锁\",\r\n    \"NameTw\": \"艾琳娜故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"完成艾琳娜前傳故事解鎖\"\r\n  }"
   rawIndex: 1201
   splits:
@@ -596,9 +926,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "完成艾琳娜前传故事解锁"
     translated: "Complete the prequel story of Elena to unlock it."
+    qcReviewedText: "Complete the prequel story of Elena to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1202\",\r\n    \"Name\": \"艾琳娜故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"完成艾琳娜前传故事解锁\",\r\n    \"NameTw\": \"艾琳娜故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"完成艾琳娜前傳故事解鎖\"\r\n  }"
   rawIndex: 1202
   splits:
@@ -611,9 +949,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "完成艾琳娜前传故事解锁"
     translated: "Complete the prequel story of Elena to unlock it."
+    qcReviewedText: "Complete the prequel story of Elena to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1203\",\r\n    \"Name\": \"艾琳娜故事\",\r\n    \"TypeText\": \"红颜故事\",\r\n    \"Desc\": \"完成艾琳娜前传故事解锁\",\r\n    \"NameTw\": \"艾琳娜故事\",\r\n    \"TypeTextTw\": \"紅顏故事\",\r\n    \"DescTw\": \"完成艾琳娜前傳故事解鎖\"\r\n  }"
   rawIndex: 1203
   splits:
@@ -626,9 +972,17 @@
   - splitPath: TypeText
     text: "红颜故事"
     translated: "Red Maiden Tales"
+    qcReviewedText: "Red Maiden Tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "完成艾琳娜前传故事解锁"
     translated: "Complete the prequel story of Elena to unlock it."
+    qcReviewedText: "Complete the prequel story of Elena to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"13\",\r\n    \"Name\": \"展青锋结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜展青锋后解锁\",\r\n    \"NameTw\": \"展青鋒結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏展青鋒後解鎖\"\r\n  }"
   rawIndex: 13
   splits:
@@ -641,9 +995,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜展青锋后解锁"
     translated: "After obtaining Zhan Qingfeng, unlock"
+    qcReviewedText: "After obtaining Zhan Qingfeng, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"14\",\r\n    \"Name\": \"风间爱结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜风间爱后解锁\",\r\n    \"NameTw\": \"風間愛結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏風間愛後解鎖\"\r\n  }"
   rawIndex: 14
   splits:
@@ -656,9 +1018,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜风间爱后解锁"
     translated: "Obtain Kazama Ai to unlock"
+    qcReviewedText: "Obtain Kazama Ai to unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"15\",\r\n    \"Name\": \"风间月结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜风间月后解锁\",\r\n    \"NameTw\": \"風間月結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏風間月後解鎖\"\r\n  }"
   rawIndex: 15
   splits:
@@ -671,9 +1041,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜风间月后解锁"
     translated: "After obtaining Kazama Yue, unlock new content"
+    qcReviewedText: "After obtaining Kazama Yue, unlock new content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"501\",\r\n    \"Name\": \"沈蓉蓉结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈蓉蓉后解锁\",\r\n    \"NameTw\": \"沈蓉蓉結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈蓉蓉後解鎖\"\r\n  }"
   rawIndex: 501
   splits:
@@ -686,9 +1064,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜沈蓉蓉后解锁"
     translated: "After obtaining Red Haired Shen Rongrong, unlock"
+    qcReviewedText: "After obtaining Red Haired Shen Rongrong, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"17\",\r\n    \"Name\": \"薛如意结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜薛如意后解锁\",\r\n    \"NameTw\": \"薛如意結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏薛如意後解鎖\"\r\n  }"
   rawIndex: 17
   splits:
@@ -701,9 +1087,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜薛如意后解锁"
     translated: "After obtaining Red Beauty Xue Ruyi, unlock"
+    qcReviewedText: "After obtaining Red Beauty Xue Ruyi, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Name\": \"司徒伶结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜司徒伶后解锁\",\r\n    \"NameTw\": \"司徒伶結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏司徒伶後解鎖\"\r\n  }"
   rawIndex: 18
   splits:
@@ -716,9 +1110,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜司徒伶后解锁"
     translated: "After acquiring Situ Ling, unlock new content"
+    qcReviewedText: "After acquiring Situ Ling, unlock new content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"19\",\r\n    \"Name\": \"谈文秀结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜谈文秀后解锁\",\r\n    \"NameTw\": \"談文秀結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏談文秀後解鎖\"\r\n  }"
   rawIndex: 19
   splits:
@@ -731,9 +1133,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜谈文秀后解锁"
     translated: "After obtaining Red‑Skinned Tan Wenshou, unlock"
+    qcReviewedText: "After obtaining Red‑Skinned Tan Wenshou, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"邵轻虹结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得邵轻虹红颜后解锁\",\r\n    \"NameTw\": \"邵輕虹結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得邵輕虹紅顏後解鎖\"\r\n  }"
   rawIndex: 20
   splits:
@@ -746,9 +1156,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得邵轻虹红颜后解锁"
     translated: "After obtaining Sha Qinghong's Red Beauty, unlock"
+    qcReviewedText: "After obtaining Sha Qinghong's Red Beauty, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"25\",\r\n    \"Name\": \"诸葛慧结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得诸葛慧红颜后解锁\",\r\n    \"NameTw\": \"諸葛慧結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得諸葛慧紅顏後解鎖\"\r\n  }"
   rawIndex: 25
   splits:
@@ -761,9 +1179,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得诸葛慧红颜后解锁"
     translated: "After obtaining Zhu Ge Hui's Red Beauty, unlock..."
+    qcReviewedText: "After obtaining Zhu Ge Hui's Red Beauty, unlock..."
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"26\",\r\n    \"Name\": \"姜芽结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得姜芽红颜后解锁\",\r\n    \"NameTw\": \"姜芽結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得姜芽紅顏後解鎖\"\r\n  }"
   rawIndex: 26
   splits:
@@ -776,9 +1202,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得姜芽红颜后解锁"
     translated: "After acquiring Jiang Yayaohong, unlock"
+    qcReviewedText: "After acquiring Jiang Yayaohong, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"27\",\r\n    \"Name\": \"李云裳结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得李云裳红颜后解锁\",\r\n    \"NameTw\": \"李雲裳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得李雲裳紅顏後解鎖\"\r\n  }"
   rawIndex: 27
   splits:
@@ -791,9 +1225,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得李云裳红颜后解锁"
     translated: "Unlock after obtaining Li Yunsang's Red Beauty"
+    qcReviewedText: "Unlock after obtaining Li Yunsang's Red Beauty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"28\",\r\n    \"Name\": \"巫云凤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得巫云凤红颜后解锁\",\r\n    \"NameTw\": \"巫雲鳳結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得巫雲鳳紅顏後解鎖\"\r\n  }"
   rawIndex: 28
   splits:
@@ -806,9 +1248,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得巫云凤红颜后解锁"
     translated: "After obtaining Wu Yunfeng's companion, unlock"
+    qcReviewedText: "After obtaining Wu Yunfeng's companion, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"萧雪雁结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得萧雪雁红颜后解锁\",\r\n    \"NameTw\": \"蕭雪雁結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蕭雪雁紅顏後解鎖\"\r\n  }"
   rawIndex: 29
   splits:
@@ -821,9 +1271,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得萧雪雁红颜后解锁"
     translated: "After acquiring Xiang Xueyan as a red‑cloaked companion, unlock"
+    qcReviewedText: "After acquiring Xiang Xueyan as a red‑cloaked companion, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Name\": \"沈青鸬结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得沈青鸬红颜后解锁\",\r\n    \"NameTw\": \"沈青鸕結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得沈青鸕紅顏後解鎖\"\r\n  }"
   rawIndex: 30
   splits:
@@ -836,9 +1294,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得沈青鸬红颜后解锁"
     translated: "Unlock after obtaining Shen Qingen's Red Beauty"
+    qcReviewedText: "Unlock after obtaining Shen Qingen's Red Beauty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"蚩萤结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得蚩萤红颜后解锁\",\r\n    \"NameTw\": \"蚩螢結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得蚩螢紅顏後解鎖\"\r\n  }"
   rawIndex: 31
   splits:
@@ -851,9 +1317,17 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得蚩萤红颜后解锁"
     translated: "After acquiring Chi Ying's feminine beauty, unlock"
+    qcReviewedText: "After acquiring Chi Ying's feminine beauty, unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2801\",\r\n    \"Name\": \"神女宫结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈青鸬、萧雪雁、巫云凤后解锁\",\r\n    \"NameTw\": \"神女宮結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈青鸕、蕭雪雁、巫雲鳳後解鎖\"\r\n  }"
   rawIndex: 2801
   splits:
@@ -866,54 +1340,91 @@
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "获得红颜沈青鸬、萧雪雁、巫云凤后解锁"
     translated: "After obtaining Red Beauty Shen Qinglu, Xiao Xueyan, and Wu Yufeng, unlock..."
+    qcReviewedText: "After obtaining Red Beauty Shen Qinglu, Xiao Xueyan, and Wu Yufeng, unlock..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"700000\",\r\n    \"Name\": \"香衾成行\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"在一局游戏中，获得红颜项欺霜、阮碧青、左灵珠、晏蛾眉、靳红衣、连翘儿、柳含烟、文锦心、夏侯珺、萧令仪、艾琳娜、展青锋、风间爱、风间月、沈蓉蓉、薛如意后解锁。\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"在一局遊戲中，獲得紅顏項欺霜、阮碧青、左靈珠、晏蛾眉、靳紅衣、連翹兒、柳含煙、文錦心、夏侯珺、蕭令儀、艾琳娜、展青鋒、風間愛、風間月、沈蓉蓉、薛如意後解鎖。\"\r\n  }"
   rawIndex: 700000
   splits:
   - splitPath: Name
     text: "香衾成行"
     translated: "Fragrant silken sheets in neat rows"
-    qcReviewedText: "Shared bedclothes"
+    qcReviewedText: "Fragrant silken sheets in neat rows"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
+    qcReviewedText: "Red Maiden Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "在一局游戏中，获得红颜项欺霜、阮碧青、左灵珠、晏蛾眉、靳红衣、连翘儿、柳含烟、文锦心、夏侯珺、萧令仪、艾琳娜、展青锋、风间爱、风间月、沈蓉蓉、薛如意后解锁。"
     translated: "In the game, after collecting Red Beauty Xiang Qishuang, Ruan Biqing, Zuo Lingzhu, Yan Emei, Jin Hongyi, Lian Qiaoer, Liu Hanyan, Wen Jinxin, Xiahou Jun, Xiao Lingyi, Elena, Zhan Qingfeng, Kazama Ai, Kazama Yue, Shen Rongrong, and Xue Ruyi, you unlock a special feature."
+    qcReviewedText: "In the game, after collecting Red Beauty Xiang Qishuang, Ruan Biqing, Zuo Lingzhu, Yan Emei, Jin Hongyi, Lian Qiaoer, Liu Hanyan, Wen Jinxin, Xiahou Jun, Xiao Lingyi, Elena, Zhan Qingfeng, Kazama Ai, Kazama Yue, Shen Rongrong, and Xue Ruyi, you unlock a special feature."
+    qcTranslated: "In a single game, after obtaining the Red Beauties Xiang Qishuang, Ruan Biqing, Zuo Lingzhu, Yan Emei, Jin Hongyi, Lian Qiaoer, Liu Hanyan, Wen Jinxin, Xiahou Jun, Xiao Lingyi, Elena, Zhan Qingfeng, Kazama Ai, Kazama Yue, Shen Rongrong, and Xue Ruyi, it unlocks."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
 - raw: "{\r\n    \"Key\": \"800100\",\r\n    \"Name\": \"衡山掌门\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择衡山派，获得红颜杨芸，未救援其余门派，完成魔侯线或宁王线结局解锁\",\r\n    \"NameTw\": \"衡山掌門\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇衡山派，獲得紅顏楊芸，未救援其餘門派，完成魔侯線或寧王線結局解鎖\"\r\n  }"
   rawIndex: 800100
   splits:
   - splitPath: Name
     text: "衡山掌门"
     translated: "Mount Heng Sect Leader"
-    qcReviewedText: "Sect Leader Hengshan"
+    qcReviewedText: "Mount Heng Sect Leader"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "门派结局"
     translated: "Sect Ending"
+    qcReviewedText: "Sect Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "选择衡山派，获得红颜杨芸，未救援其余门派，完成魔侯线或宁王线结局解锁"
     translated: "Choose Hengshan Sect to obtain Yang Yun, a red‑haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
+    qcReviewedText: "Choose Hengshan Sect to obtain Yang Yun, a red‑haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
+    qcTranslated: "Choose Hengshan Sect to obtain Yang Yun, a favored beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"800200\",\r\n    \"Name\": \"仗剑天涯\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择武当派，获得红颜邱灵素，未救援其余门派，完成魔侯线或宁王线结局解锁\",\r\n    \"NameTw\": \"仗劍天涯\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇武當派，獲得紅顏邱靈素，未救援其餘門派，完成魔侯線或寧王線結局解鎖\"\r\n  }"
   rawIndex: 800200
   splits:
   - splitPath: Name
     text: "仗剑天涯"
     translated: "Wander the faraway lands with sword in hand."
-    qcReviewedText: "Wield the sword and journey through the heavens"
+    qcReviewedText: "Wander the faraway lands with sword in hand."
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "门派结局"
     translated: "Sect Ending"
+    qcReviewedText: "Sect Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "选择武当派，获得红颜邱灵素，未救援其余门派，完成魔侯线或宁王线结局解锁"
     translated: "Choose Wudang Sect to gain Qiu Lingsu as a companion. Do not rescue the other sects. This unlocks the outcome related to the Demon Lord line or Peaceful King line."
+    qcReviewedText: "Choose Wudang Sect to gain Qiu Lingsu as a companion. Do not rescue the other sects. This unlocks the outcome related to the Demon Lord line or Peaceful King line."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800300\",\r\n    \"Name\": \"洞庭帮帮主\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择洞庭帮，获得红颜钟离雪，未救援其余门派，完成魔侯线或宁王线结局解锁\",\r\n    \"NameTw\": \"洞庭幫幫主\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇洞庭幫，獲得紅顏鍾離雪，未救援其餘門派，完成魔侯線或寧王線結局解鎖\"\r\n  }"
   rawIndex: 800300
   splits:
@@ -926,9 +1437,17 @@
   - splitPath: TypeText
     text: "门派结局"
     translated: "Sect Ending"
+    qcReviewedText: "Sect Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "选择洞庭帮，获得红颜钟离雪，未救援其余门派，完成魔侯线或宁王线结局解锁"
     translated: "Choose Dongting Sect to obtain Red‑Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
+    qcReviewedText: "Choose Dongting Sect to obtain Red‑Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800400\",\r\n    \"Name\": \"唐门守护神\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁\",\r\n    \"NameTw\": \"唐門守護神\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇唐門，獲得紅顏唐么么，魔侯線中未救援其他門派，完成魔侯線結局解鎖\"\r\n  }"
   rawIndex: 800400
   splits:
@@ -941,9 +1460,17 @@
   - splitPath: TypeText
     text: "门派结局"
     translated: "Sect Ending"
+    qcReviewedText: "Sect Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁"
     translated: "Choose Tang Clan to obtain Red Beauty Tang Yiaoyao. Finish the Demon Lord line without rescuing other sects to unlock the Demon Lord line ending."
+    qcReviewedText: "Choose Tang Clan to obtain Red Beauty Tang Yiaoyao. Finish the Demon Lord line without rescuing other sects to unlock the Demon Lord line ending."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800500\",\r\n    \"Name\": \"逍遥侯\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。\",\r\n    \"NameTw\": \"逍遙侯\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發寧王線，成功救援其餘二派，完成長樂坊考驗，擊敗寧王解鎖。\"\r\n  }"
   rawIndex: 800500
   splits:
@@ -956,24 +1483,41 @@
   - splitPath: TypeText
     text: "主线结局"
     translated: "Main storyline ending"
+    qcReviewedText: "Main storyline ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。"
     translated: "Trigger the Peaceful King scenario, successfully rescue the remaining two factions, complete the test at Changle Alley, and defeat the Peaceful King to unlock it."
+    qcReviewedText: "Trigger the Peaceful King scenario, successfully rescue the remaining two factions, complete the test at Changle Alley, and defeat the Peaceful King to unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800600\",\r\n    \"Name\": \"武林盟主\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发魔侯线，在劫云谷救援所有门派，完成讨伐秘魔崖事件后解锁。\",\r\n    \"NameTw\": \"武林盟主\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發魔侯線，在劫雲谷救援所有門派，完成討伐祕魔崖事件後解鎖。\"\r\n  }"
   rawIndex: 800600
   splits:
   - splitPath: Name
     text: "武林盟主"
     translated: "Alliance Leader"
-    qcReviewedText: "Wulin Alliance Leader"
+    qcReviewedText: "Alliance Leader"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "主线结局"
     translated: "Main storyline ending"
+    qcReviewedText: "Main storyline ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "触发魔侯线，在劫云谷救援所有门派，完成讨伐秘魔崖事件后解锁。"
     translated: "Trigger the Demon Lord Line: Rescue All Sects in Destructive Heaven Valley. This becomes available after completing the extermination event of Secret Demon Cliff."
+    qcReviewedText: "Trigger the Demon Lord Line: Rescue All Sects in Destructive Heaven Valley. This becomes available after completing the extermination event of Secret Demon Cliff."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100000\",\r\n    \"Name\": \"圣诞特辑一\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"聖誕特輯一\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100000
   splits:
@@ -986,9 +1530,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100001\",\r\n    \"Name\": \"圣诞特辑二\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"聖誕特輯二\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100001
   splits:
@@ -1001,9 +1553,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100002\",\r\n    \"Name\": \"元旦特辑一\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"元旦特輯一\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100002
   splits:
@@ -1016,9 +1576,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100003\",\r\n    \"Name\": \"元旦特辑二\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"元旦特輯二\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100003
   splits:
@@ -1031,9 +1599,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100004\",\r\n    \"Name\": \"元旦特辑三\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"元旦特輯三\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100004
   splits:
@@ -1046,9 +1622,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100005\",\r\n    \"Name\": \"元旦特辑四\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"元旦特輯四\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100005
   splits:
@@ -1061,9 +1645,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100006\",\r\n    \"Name\": \"元旦特辑五\",\r\n    \"TypeText\": \"节日特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"元旦特輯五\",\r\n    \"TypeTextTw\": \"節日特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100006
   splits:
@@ -1076,9 +1668,17 @@
   - splitPath: TypeText
     text: "节日特辑"
     translated: "Holiday Special Edition"
+    qcReviewedText: "Holiday Special Edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100007\",\r\n    \"Name\": \"感谢特辑\",\r\n    \"TypeText\": \"感谢特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"感謝特輯\",\r\n    \"TypeTextTw\": \"感謝特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100007
   splits:
@@ -1091,9 +1691,17 @@
   - splitPath: TypeText
     text: "感谢特辑"
     translated: "Thank you for the special edition"
+    qcReviewedText: "Thank you for the special edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100008\",\r\n    \"Name\": \"感谢特辑\",\r\n    \"TypeText\": \"感谢特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"感謝特輯\",\r\n    \"TypeTextTw\": \"感謝特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100008
   splits:
@@ -1106,9 +1714,17 @@
   - splitPath: TypeText
     text: "感谢特辑"
     translated: "Thank you for the special edition"
+    qcReviewedText: "Thank you for the special edition"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100009\",\r\n    \"Name\": \"端午特辑\",\r\n    \"TypeText\": \"端午特辑\",\r\n    \"Desc\": \"直接解锁\",\r\n    \"NameTw\": \"端午特輯\",\r\n    \"TypeTextTw\": \"端午特輯\",\r\n    \"DescTw\": \"直接解鎖\"\r\n  }"
   rawIndex: 100009
   splits:
@@ -1121,6 +1737,14 @@
   - splitPath: TypeText
     text: "端午特辑"
     translated: "Dragon Boat Festival Special"
+    qcReviewedText: "Dragon Boat Festival Special"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "直接解锁"
     translated: "Unlock directly"
+    qcReviewedText: "Unlock directly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

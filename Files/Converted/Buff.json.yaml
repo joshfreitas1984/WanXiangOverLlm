@@ -16,6 +16,10 @@
   - splitPath: AttackDesc
     text: "封穴"
     translated: "Seal the acupuncture point"
+    qcReviewedText: "<color=#00ff00>Seal the acupuncture point </color>Halt their movements"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "阻止对方行动"
@@ -56,6 +60,10 @@
   - splitPath: AttackDesc
     text: "毒"
     translated: "Poison"
+    qcReviewedText: "<color=#00ff00>Poison </color>Deal damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "造成伤害"
@@ -81,6 +89,10 @@
   - splitPath: AttackDesc
     text: "绝脉"
     translated: "Deadly Pulse"
+    qcReviewedText: "<color=#00ff00>Deadly Pulse </color>Deal damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "造成伤害"
@@ -106,6 +118,10 @@
   - splitPath: AttackDesc
     text: "禁疗"
     translated: "Prohibition of healing"
+    qcReviewedText: "<color=#00ff00>Prohibition of healing </color>Status: Unable to respond"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "状态，无法回复"
@@ -131,6 +147,11 @@
   - splitPath: AttackDesc
     text: "失神"
     translated: "Dazed"
+    qcReviewedText: "<color=#00ff00>Dazed </color>Wait, unable to move"
+    qcTranslated: "<color=#00ff00>Dazed</color>, unable to act"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"
@@ -186,6 +207,11 @@
   - splitPath: AttackDesc
     text: "惊神"
     translated: "Shock Spirit"
+    qcReviewedText: "<color=#00ff00>Shock Spirit </color>Wait, unable to move"
+    qcTranslated: "<color=#00ff00>Shock Spirit</color>: Unable to act"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: HardToParseSeam
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"

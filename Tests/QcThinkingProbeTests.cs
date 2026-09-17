@@ -53,8 +53,8 @@ public class QcThinkingProbeTests
         //new("照夜白", "Zhonghuabeiyang"),
 
         //// score 10, GarbledNumber - <b> tag + name placement issues around a date
-        new("口说无凭，正好<b>二月十五日</b>临近，\\n本门将举行每年一度的<b>门派大比</b>。",
-            "Words are but wind, this is perfect timing.<b>February 15th </b>Approaching,\\nThe sect will hold its annual ceremony <b>Sect Tournament</b>。"),
+        //new("口说无凭，正好<b>二月十五日</b>临近，\\n本门将举行每年一度的<b>门派大比</b>。",
+        //    "Words are but wind, this is perfect timing.<b>February 15th </b>Approaching,\\nThe sect will hold its annual ceremony <b>Sect Tournament</b>。"),
 
         //// score 20, GarbledNumber - structured skill-effect text with #Placeholder# tokens and a numeric range
         //new("<b>奇技</b>：七十二洞研究奇门兵器，提升奇门威力。\\n<b>百出</b>：每满级一门奇门武学，根据武学品级额外提升0.5/1/1.5/2/2.5/3点奇门。",
@@ -66,6 +66,9 @@ public class QcThinkingProbeTests
 
         //// score 20, LostIdiom - short inn name, idiom-derived
         //new("悦来客栈", "Yue Coming Inn"),
+
+        new("五毒俱全", "Fully versed in all five poisons")
+
     ];
 
     [Fact(DisplayName = "Probe Quality Review Reasoning (thinking mode)")]

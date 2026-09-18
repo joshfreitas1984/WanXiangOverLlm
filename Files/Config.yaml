@@ -20,6 +20,7 @@ qualityReview:
   inlineRuleCheckRetries: 2
   autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
   twoStageVerificationEnabled: true
+  verifyNoDefectClaims: true
 glossaryPreset:
   usePresetChineseGlossary: true
   chineseGlossaryTypesToSupress:

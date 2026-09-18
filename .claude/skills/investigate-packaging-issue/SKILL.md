@@ -18,7 +18,7 @@ workflow actually owns the reported line.
    `PackageAsync`/`PackagePrefabTextAsync`/`PackageDynamicStringsAsync` method
    (`CsvGameDataWorkflow`, `JsonGameDataWorkflow`, `PrefabTextWorkflow`, `DynamicStringWorkflow` in
    `../FanslationStudio.LlmKit/Workflow/`). Consult the per-workflow differences table in
-   `../FanslationStudio.LlmKit/docs/packaging-reference.md` before assuming behavior from one file
+   `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` before assuming behavior from one file
    type (especially CSV) transfers to another — reconstruction unit, failure granularity, and
    raw-fallback behavior all differ by workflow.
 
@@ -40,23 +40,21 @@ workflow actually owns the reported line.
 4. **If QC gating is involved** (a `QcTranslated` correction being used, discarded, or a
    `QcRejected` count looking wrong), do not re-derive the score-gate/freshness mechanism here —
    cross-check with the `investigate-qc-issue` skill and
-   `../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md` instead. Packaging only
+   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md` instead. Packaging only
    consumes the QC gate's result; it does not decide it.
 
-5. **Read `../FanslationStudio.LlmKit/docs/packaging-reference.md` in full** as the canonical
+5. **Read `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` in full** as the canonical
    current-state reference — it covers the shared `(Passed, QcRejected, RawFallback)` return shape,
-   the templated-vs-plain reconstruction logic, and the raw-fallback rules (including the
-   2026-09-16 startup-crash postmortem where `PrefabTextWorkflow`/`DynamicStringWorkflow` used to
-   collapse a `QcRejected` into a full raw-Chinese `RawFallback`).
+   the templated-vs-plain reconstruction logic, and the raw-fallback rules.
 
-6. **Check the downstream repo's own `Tests/KNOWN_ISSUES.md` and topic docs** (e.g. a
-   startup-crash or packaging-specific postmortem under `Tests/docs/`) before assuming a newly
+6. **Check the downstream repo's own `docs/KNOWN_ISSUES.md` and topic docs** (e.g. a
+   startup-crash or packaging-specific postmortem under `docs/investigations/`) before assuming a newly
    reported symptom is a new LlmKit bug — it may already be a known, understood issue with an
    existing investigation doc.
 
 7. **If the finding turns out to be about LlmKit-internal behavior** (a genuine bug or an
    undocumented rule in one of the four workflows), remember FanslationStudio.LlmKit's
    `docs/README.md` source-of-truth rule: write the finding into
-   `../FanslationStudio.LlmKit/docs/` (e.g. updating `packaging-reference.md`), not into the
+   `../FanslationStudio.LlmKit/docs/` (e.g. updating `packaging-workflows.md`), not into the
    downstream repo's own notes — the downstream repo's docs are for downstream-specific behavior
    only.

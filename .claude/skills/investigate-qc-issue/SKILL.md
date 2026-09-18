@@ -1,6 +1,6 @@
 ---
 name: investigate-qc-issue
-description: Investigates a reported quality-review (QC) issue — a wrong/missing QcQualityScore, a wrongly accepted/rejected correction, or packaging behaving oddly due to QC score-gating — by walking the fixed file map for the QC pass (Config.yaml, QualityReviewWorkflow.cs, QualityReviewHelpers, tests, architecture doc, downstream KNOWN_ISSUES.md) in the order that actually explains the behavior, before concluding it's a new bug. Use whenever someone reports a QC-related defect in a downstream "OverLlm" repo.
+description: Investigates a reported quality-review (QC) issue — a wrong/missing QcQualityScore, a wrongly accepted/rejected correction, or packaging behaving oddly due to QC score-gating — by walking the fixed file map for the QC pass (Config.yaml, QualityReviewWorkflow.cs, QualityReviewHelpers, tests, architecture doc, downstream docs/KNOWN_ISSUES.md) in the order that actually explains the behavior, before concluding it's a new bug. Use whenever someone reports a QC-related defect in a downstream "OverLlm" repo.
 ---
 
 # Investigate a QC issue
@@ -35,7 +35,7 @@ already explain the symptom.
    regression suite, and lives in each downstream repo separately.
 
 4. **Read the canonical architecture doc, don't re-derive from code alone.**
-   `../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md` is the current-state
+   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md` is the current-state
    reference for the data model (`QcStatus`, `QcDefectCategory`, `QcQualityScore`, the
    `SubIndex == 0` anchor convention for templated columns), packaging score-gating, the
    DEFECT-category auto-accept policy, and reset levels. Treat it as more authoritative than
@@ -44,8 +44,8 @@ already explain the symptom.
    does.
 
 5. **Check the downstream repo's own known-issues before assuming it's a new LlmKit bug.** Read
-   this repo's `Tests/KNOWN_ISSUES.md` "Quality-review (QC) pipeline" section and any linked
-   `Tests/docs/qc-*.md` topic files, plus the QC section of
+   this repo's `docs/KNOWN_ISSUES.md` "Quality-review (QC) pipeline" section and any linked
+   `docs/investigations/qc-*.md` topic files, plus the QC section of
    `.github/instructions/tests-translation-workflow.instructions.md` if present. Many "QC bugs" are
    already-documented, already-fixed, or project-specific quirks (a `CustomQcExclusionRule`, a
    `DEFECT` category left off `autoAcceptDefectCategories` on purpose) rather than new defects.
@@ -53,7 +53,7 @@ already explain the symptom.
 6. **If the finding is genuinely LlmKit-internal, write it up in LlmKit's own docs, not here.**
    Per `../FanslationStudio.LlmKit/docs/README.md`'s source-of-truth rule, a finding about how
    `QualityReviewWorkflow`/`QualityReviewHelpers`/packaging actually behaves belongs in
-   `../FanslationStudio.LlmKit/docs/` (e.g. extending `quality-review-pass-architecture.md` or
+   `../FanslationStudio.LlmKit/docs/` (e.g. extending `features/translation-pipeline/quality-review-pass.md` or
    adding a new topic file), even when you're investigating from this downstream repo's session.
    Only genuinely downstream-specific findings (a game-specific config choice, a per-file exclusion
-   rule, a repo's own test-run notes) belong in this repo's own `Tests/KNOWN_ISSUES.md`/`Tests/docs/`.
+   rule, a repo's own test-run notes) belong in this repo's own `docs/KNOWN_ISSUES.md`/`docs/investigations/`.

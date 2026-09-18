@@ -1,34 +1,34 @@
 # AGENTS.md
 
-Universal rules for any AI coding agent working in this repository, regardless of vendor. This
-file exists so no repository rule lives in only one vendor-specific format
-(`.github/copilot-instructions.md`, `CLAUDE.md`, etc.) — mirrors the same pattern used by
-`FanslationStudio.LlmKit` and `DragonHierOverLlm`.
+Universal rules for AI coding agents working in this repository. The canonical documentation hub
+is [`docs/README.md`](docs/README.md); read the scoped instruction file matching the project being
+edited before making changes.
 
-## Start here
+## Repository structure
 
-- [`docs/README.md`](docs/README.md) is the canonical documentation hub — project overview,
-  documentation taxonomy, and a "where should I look?" task table.
+- `Translate/` contains reusable game-specific extraction, translation, packaging, and configuration code.
+- `Tests/` contains manually-run workflow facts and pure regression tests.
+- `SharedAssembly/` contains contracts shared by `Translate/` and `EnglishPatch/`.
+- `EnglishPatch/` contains the BepInEx/Harmony runtime plugin.
+- `Files/` contains raw, converted, and packaged translation data.
 
-## Repository-wide rules
+## Documentation rules
 
-- This repository contains independent sub-projects (`Translate/`, `EnglishPatch/`,
-  `SharedAssembly/`, `Tests/`, `Files/`). Do not assume conventions from one apply to another
-  without checking its own code/docs first.
-- `Translate/` consumes `FanslationStudio.LlmKit` (sibling repo `../FanslationStudio.LlmKit`) via a
-  project reference, not a NuGet package — changes there take effect immediately here without a
-  version bump. LlmKit's `TranslationLine`/`TranslationSplit`/`FieldTemplate` shape is a
-  golden-rule-protected contract shared across every consuming repo: never change its shape from
-  this repo, only propose additive changes upstream in LlmKit itself.
-- `SharedAssembly/` is shared between `Translate/` and `EnglishPatch/` only — it is a different
-  project to `FanslationStudio.LlmKit` and is not migrated/covered by the LlmKit work (runtime
-  patching/resizing concerns are out of scope for LlmKit).
-- Do not update this file, `docs/`, or other instructions/documentation as a side effect of a fix or
-  feature. Only write documentation when explicitly asked to.
-- Keep this file short and operational. Long rationale, design proposals, and migration plans
-  belong in [`docs/plans/`](docs/plans/), not here.
+- Keep current operational rules in `.github/instructions/` and the root Copilot instructions.
+- Keep [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md) as an index only.
+- Put current behavior in `docs/features/`, investigations in `docs/investigations/`, active plans in
+  `docs/plans/`, and durable structure in `docs/architecture/`.
+- Shared-library mechanics belong in the sibling `FanslationStudio.LlmKit/docs/` tree; link to them
+  instead of duplicating implementation details here.
+- Do not update documentation as a side effect of an ordinary fix unless the user explicitly asks.
 
-## Where to look for more detail
+## Engineering rules
 
-See [`docs/README.md`](docs/README.md)'s "Where should I look?" table for task-specific starting
-points (translation pipeline work, the in-progress `FanslationStudio.LlmKit` migration, etc.).
+- `Translate/` references the sibling `FanslationStudio.LlmKit` by project reference, never NuGet.
+- Preserve LlmKit's `TranslationLine`/`TranslationSplit`/`FieldTemplate` contract; propose shared model
+  changes upstream in LlmKit.
+- Keep reusable pipeline code in `Translate/` and workflow/manual facts in `Tests/`.
+- Do not run workflow facts, live LLM calls, export, merge, or packaging steps unless requested.
+- Do not create throwaway verification projects.
+
+See [`docs/README.md`](docs/README.md)'s task table for the detailed feature and workflow references.

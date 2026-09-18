@@ -26,7 +26,7 @@ public class InputFileHandling
     /// registered <see cref="TextFileType.PrefabText"/> entry. Currently a no-op - dumpedPrefabText.txt
     /// is commented out in <see cref="GameTextFiles.TextFilesToSplit"/> pending confirmation that
     /// EnglishPatch is ready to consume its packaged output (see
-    /// docs/plans/llmkit-migration-piece1-prefab-dynamicstrings.md).
+    /// docs/features/translation-pipeline/workflow-execution-reference.md).
     /// </summary>
     public static void ExportDumpedPrefabToCustomFormat(string workingDirectory)
     {

@@ -125,7 +125,7 @@ public class QualityControlWorkflowTests
     }
 
     // Run this once to pick up the 2026-09-16 CONSISTENCY/SCORING ANCHORS prompt fix
-    // (../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md postmortem #4) - every
+    // (../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md postmortem #4) - every
     // Corrected column reviewed under either the old always-<40 rubric or the overcorrected
     // always-85+ intermediate rubric needs a fresh review under the final graduated-scale prompt.
     // "7. Reset Low-Score Quality Review State" can't reach these anymore once they were

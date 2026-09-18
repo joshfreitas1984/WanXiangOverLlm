@@ -15,7 +15,7 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
 1. **Confirm it was extracted/dumped at all.** Find the source game data file (CSV/JSON/prefab
    text/dynamic string) under `Raw/Dumped` (or this repo's equivalent raw-extraction folder) and
    confirm the exact line/key is actually present. If it isn't, the failure is at extraction time,
-   not translation. Check this repo's own extraction docs and `KNOWN_ISSUES.md` for that file type
+   not translation. Check this repo's own extraction docs and `docs/KNOWN_ISSUES.md` for that file type
    first — duplicate keys, encoding issues, and extraction skip-rules are common silent causes (see
    step 4; don't skip straight to code-diving here).
 
@@ -31,7 +31,7 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
    if packaging's raw-fallback rule kicked in (`SkipColumns`, `PackageOutput: false`, unsafe/flagged
    split, or the `PrefabText`/`DynamicString` "omit rather than write raw Chinese" rule). Don't
    re-derive this logic from scratch — read
-   `../FanslationStudio.LlmKit/docs/packaging-reference.md`'s (sibling repo, relative to this
+   `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md`'s (sibling repo, relative to this
    downstream repo's working directory) raw-fallback section and, if a QC score/rejection looks
    implicated, hand off to the
    `investigate-qc-issue` skill; if it's a packaging-logic question (reconstruction, `SkipColumns`,
@@ -40,7 +40,7 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
    "packaging" vs. somewhere else.
 
 4. **Check for game-specific known causes — look at THIS repo's own docs first.** Before assuming a
-   generic bug, read this repo's own `KNOWN_ISSUES.md` (or equivalent index) and its
+   generic bug, read this repo's own `docs/KNOWN_ISSUES.md` (or equivalent index) and its
    `docs/README.md` "Where should I look?" table for the affected file type/pipeline. Common
    game-specific root causes that live here, not in LlmKit:
    - **Duplicate/collision keys** — multiple source rows sharing one lookup key, where injection is
@@ -66,4 +66,4 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
    steps 1-5 didn't explain it, follow `investigate-qc-issue` or `investigate-packaging-issue` as
    appropriate for a deeper dive into that shared logic. If you do confirm a genuine LlmKit-internal
    bug, the finding belongs in `FanslationStudio.LlmKit`'s own `docs/` per its source-of-truth rule
-   — not in this downstream repo's `KNOWN_ISSUES.md`/`docs/`, even though you found it from here.
+   — not in this downstream repo's `docs/KNOWN_ISSUES.md`/`docs/`, even though you found it from here.

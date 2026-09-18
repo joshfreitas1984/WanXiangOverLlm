@@ -8,9 +8,11 @@ description: Scaffolds a brand-new sibling "OverLlm" game-translation repo (e.g.
 This skill runs from `FanslationStudio.LlmKit`'s own working directory and creates a **new sibling
 repo** next to it (same convention as `DragonHierOverLlm`, `LegendOfMortalOverLlm`, `WanXiangOverLlm`).
 It gets a project off the ground; it does not write the game-specific dumper/patch logic. The
-baseline layout comes from `docs/OPTIMIZATION_PLAN.md`'s "Reuse / setup-time reduction" section —
-don't reinvent it. **`docs/canonical-project-shape.md`** (and its `canonical-test-organization.md`/
-`canonical-config-shape.md`/`canonical-plugin-project-layout.md`/`canonical-repo-docs-taxonomy.md`
+baseline layout comes from the canonical downstream translation-project structure documentation —
+don't reinvent it. The required baseline is separate `Translate/` and `Tests/` projects; do not
+scaffold a combined tooling/test project. **`docs/architecture/downstream-project-structure/downstream-project-structure.md`** (and its
+`downstream-test-organization.md`/`downstream-config-shape.md`/`downstream-plugin-project-layout.md`/
+`downstream-repository-docs-taxonomy.md`
 siblings) is now the primary source for what to scaffold — it's a deliberately-maintained target
 shape, not a snapshot of whatever `DragonHierOverLlm`/`WanXiangOverLlm` currently look like. Read
 those docs first; cross-check `WanXiangOverLlm` (Mono) or `DragonHierOverLlm` (IL2CPP) only where
@@ -35,7 +37,7 @@ pin.
    Do not commit yet — later steps still need to populate it.
 
 3. **Scaffold the working-directory data layout** under the new repo's `Files/`, per
-   `docs/canonical-project-shape.md`'s sub-project layout section (cross-check
+   `docs/architecture/downstream-project-structure/downstream-project-structure.md`'s required project layout section (cross-check
    `WanXiangOverLlm/Files/`'s real layout for exact folder names if the doc is ambiguous):
    `Raw/Dumped/` (raw game-dumped files land here),
    `Raw/Export/` (per-file `.yaml` export of the split lines), `Converted/` (translated `.yaml`
@@ -46,7 +48,7 @@ pin.
    is a buildable/browsable project like the templates, with `<Folder Include="Mod\..." />` entries
    for the otherwise-empty output folders so git/VS keep them.
 
-4. **Create a starter `Files/Config.yaml`** based on `docs/canonical-config-shape.md`'s documented
+4. **Create a starter `Files/Config.yaml`** based on `docs/architecture/downstream-project-structure/downstream-config-shape.md`'s documented
    shape (cross-check `WanXiangOverLlm/Files/Config.yaml` only for a field the doc doesn't pin): a
    `models:` list (at least one entry pointing at whatever local model preset this project
    will use — leave `modelPreset`/`model` as placeholders the user fills in), a `qualityReview:`
@@ -60,7 +62,14 @@ pin.
    `GameTextFiles.cs` with an empty `TextFilesToSplit` array for the user to fill in once dumping
    is wired up.
 
-5. **Scaffold the BepInEx plugin project**, per `docs/canonical-plugin-project-layout.md`'s IL2CPP/
+    Create the two separate code projects required by the canonical layout:
+    - `Translate/Translate.csproj` contains reusable game-specific extraction, translation,
+       packaging, configuration, and workflow code. It references `FanslationStudio.LlmKit`.
+    - `Tests/Tests.csproj` references `Translate/` and contains xUnit regression tests plus the
+       numbered manual pipeline/runbook facts. Keep test execution and operational steps here;
+       `Translate/` is not a combined test runner.
+
+5. **Scaffold the BepInEx plugin project**, per `docs/architecture/downstream-project-structure/downstream-plugin-project-layout.md`'s IL2CPP/
    Mono branches (cross-check `WanXiangOverLlm`/`DragonHierOverLlm` only for an exact package
    version pin the doc doesn't specify). Create `<GameName>Plugin/<GameName>Plugin.csproj` (or
    `EnglishPatch/`, following WanXiang's naming) with a `ProjectReference` to LlmKit at the exact
@@ -95,19 +104,21 @@ pin.
    the new repo's own `docs/README.md` as the documentation hub. `CLAUDE.md` stays a thin pointer to
    `AGENTS.md` + `docs/README.md`, same as every existing repo.
 
-7. **Create the new repo's `docs/README.md`**, per `docs/canonical-repo-docs-taxonomy.md`'s file
+7. **Create the new repo's `docs/README.md`**, per `docs/architecture/downstream-project-structure/downstream-repository-docs-taxonomy.md`'s file
    list/shape (cross-check `WanXiangOverLlm/docs/README.md`'s structure for wording/formatting
    details the taxonomy doc doesn't spell out): repository overview table of sub-projects,
    documentation taxonomy, "Where should I look?" table. From day one, include rows pointing at
    LlmKit's canonical docs so this repo doesn't accumulate the cross-referencing debt older repos
-   had before this restructuring: `../FanslationStudio.LlmKit/docs/quality-review-pass-architecture.md`
-   for QC questions, `../FanslationStudio.LlmKit/docs/packaging-reference.md` for packaging
-   questions, and `../FanslationStudio.LlmKit/docs/canonical-project-shape.md` for future
+   had before this restructuring: `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md`
+   for QC questions, `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` for packaging
+   questions, and `../FanslationStudio.LlmKit/docs/architecture/downstream-project-structure/downstream-project-structure.md` for future
    structure reconciliation.
 
-8. **Copy this repo's `.claude/skills/`** (`investigate-qc-issue`, `investigate-packaging-issue`,
-   `investigate-missing-translation`) into the new repo's `.claude/skills/` verbatim, so it isn't
-   missing them from day one. Then flag, as a manual follow-up for whoever runs this skill (do not
+8. **Copy all skill directories in this repo's `.claude/skills/`** into the new repo's
+   `.claude/skills/` verbatim, so it has the same canonical skill set from day one. This currently
+   includes `investigate-qc-issue`, `investigate-packaging-issue`, `investigate-missing-translation`,
+   and `new-translation-project`; keep this step aligned with `Tests/SkillSyncTests.cs`, which copies
+   every source skill directory. Then flag, as a manual follow-up for whoever runs this skill (do not
    edit the file yourself): add the new repo's folder name to `DownstreamRepos` in
    `Tests/SkillSyncTests.cs` in `FanslationStudio.LlmKit`, so future skill updates sync to it
    automatically too.

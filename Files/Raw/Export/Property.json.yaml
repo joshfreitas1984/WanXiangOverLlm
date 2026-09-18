@@ -516,6 +516,13 @@
     text: "川蜀悬赏"
   - splitPath: Desc
     text: "川蜀悬赏次数"
+- raw: "{\r\n    \"Key\": \"10024\",\r\n    \"Name\": \"十殿阎君\",\r\n    \"Desc\": \"击败十殿阎君的数量\",\r\n    \"NameTw\": \"十殿閻君\",\r\n    \"DescTw\": \"擊敗十殿閻君的數量\"\r\n  }"
+  rawIndex: 10024
+  splits:
+  - splitPath: Name
+    text: "十殿阎君"
+  - splitPath: Desc
+    text: "击败十殿阎君的数量"
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Name\": \"荆湘六扇门友好\",\r\n    \"Desc\": \"影响侠客和荆湘六扇门的关系\",\r\n    \"NameTw\": \"荊湘六扇門友好\",\r\n    \"DescTw\": \"影響俠客和荊湘六扇門的關係\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -656,6 +663,13 @@
     text: "蚩黎峒友好"
   - splitPath: Desc
     text: "影响侠客和蚩黎峒的关系"
+- raw: "{\r\n    \"Key\": \"20021\",\r\n    \"Name\": \"丐帮廉字舵友好\",\r\n    \"Desc\": \"影响侠客和丐帮廉字舵的关系\",\r\n    \"NameTw\": \"丐幫廉字舵友好\",\r\n    \"DescTw\": \"影響俠客和丐幫廉字舵的關係\"\r\n  }"
+  rawIndex: 20021
+  splits:
+  - splitPath: Name
+    text: "丐帮廉字舵友好"
+  - splitPath: Desc
+    text: "影响侠客和丐帮廉字舵的关系"
 - raw: "{\r\n    \"Key\": \"29970\",\r\n    \"Name\": \"蚩萤好感\",\r\n    \"Desc\": \"影响侠客和蚩萤的关系\",\r\n    \"NameTw\": \"蚩螢好感\",\r\n    \"DescTw\": \"影響俠客和蚩螢的關係\"\r\n  }"
   rawIndex: 29970
   splits:

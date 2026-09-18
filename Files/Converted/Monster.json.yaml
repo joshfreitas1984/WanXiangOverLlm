@@ -13,7 +13,6 @@
     qcReviewedText: "Wan Qingzhou takes on a challenge alone"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Name\": \"褚相如\",\r\n    \"Desc\": \"第二年小校\",\r\n    \"NameTw\": \"褚相如\",\r\n    \"DescTw\": \"第二年小校\"\r\n  }"
   rawIndex: 10003
   splits:
@@ -29,7 +28,6 @@
     qcReviewedText: "In the second year, Xiao Xiao grew up."
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10004\",\r\n    \"Name\": \"管中平\",\r\n    \"Desc\": \"第三年小校\",\r\n    \"NameTw\": \"管中平\",\r\n    \"DescTw\": \"第三年小校\"\r\n  }"
   rawIndex: 10004
   splits:
@@ -46,7 +44,6 @@
     qcTranslated: "In the third year, Junior Officer"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Name\": \"方东壁\",\r\n    \"Desc\": \"第四年小校\",\r\n    \"NameTw\": \"方東壁\",\r\n    \"DescTw\": \"第四年小校\"\r\n  }"
   rawIndex: 10005
   splits:
@@ -62,7 +59,6 @@
     qcReviewedText: "In the fourth year of the school"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10006\",\r\n    \"Name\": \"黑衣人\",\r\n    \"Desc\": \"黑衣章太歧\",\r\n    \"NameTw\": \"黑衣人\",\r\n    \"DescTw\": \"黑衣章太歧\"\r\n  }"
   rawIndex: 10006
   splits:
@@ -72,14 +68,12 @@
     qcReviewedText: "Black‑clad figure"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "黑衣章太歧"
     translated: "Black‑robed Zhang Taiqi"
     qcReviewedText: "Black‑robed Zhang Taiqi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10007\",\r\n    \"Name\": \"章太歧\",\r\n    \"Desc\": \"怪客章太歧\",\r\n    \"NameTw\": \"章太歧\",\r\n    \"DescTw\": \"怪客章太歧\"\r\n  }"
   rawIndex: 10007
   splits:
@@ -95,7 +89,6 @@
     qcReviewedText: "Strange Guest Zhang Taiqi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10008\",\r\n    \"Name\": \"殷通一众\",\r\n    \"Desc\": \"杨慎救援\",\r\n    \"NameTw\": \"殷通一眾\",\r\n    \"DescTw\": \"楊慎救援\"\r\n  }"
   rawIndex: 10008
   splits:
@@ -111,7 +104,6 @@
     qcReviewedText: "Yang Shen's Rescue Mission"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10009\",\r\n    \"Name\": \"娄氏三雄\",\r\n    \"Desc\": \"娄村大案\",\r\n    \"NameTw\": \"婁氏三雄\",\r\n    \"DescTw\": \"婁村大案\"\r\n  }"
   rawIndex: 10009
   splits:
@@ -127,7 +119,6 @@
     qcReviewedText: "Lao Village Major Case"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10010\",\r\n    \"Name\": \"娄德旺一众\",\r\n    \"Desc\": \"娄村大案\",\r\n    \"NameTw\": \"婁德旺一眾\",\r\n    \"DescTw\": \"婁村大案\"\r\n  }"
   rawIndex: 10010
   splits:
@@ -143,7 +134,6 @@
     qcReviewedText: "Lao Village Major Case"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10011\",\r\n    \"Name\": \"季恒之一众\",\r\n    \"Desc\": \"君子之厄\",\r\n    \"NameTw\": \"季恆之一眾\",\r\n    \"DescTw\": \"君子之厄\"\r\n  }"
   rawIndex: 10011
   splits:
@@ -159,7 +149,6 @@
     qcReviewedText: "Peril of the Noble Man"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10012\",\r\n    \"Name\": \"贾孤山一众\",\r\n    \"Desc\": \"君子之厄\",\r\n    \"NameTw\": \"賈孤山一眾\",\r\n    \"DescTw\": \"君子之厄\"\r\n  }"
   rawIndex: 10012
   splits:
@@ -175,7 +164,6 @@
     qcReviewedText: "Peril of the Noble Man"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10013\",\r\n    \"Name\": \"渔樵双隐\",\r\n    \"Desc\": \"考验武功\",\r\n    \"NameTw\": \"漁樵雙隱\",\r\n    \"DescTw\": \"考驗武功\"\r\n  }"
   rawIndex: 10013
   splits:
@@ -191,7 +179,6 @@
     qcReviewedText: "Test of martial arts skills"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10014\",\r\n    \"Name\": \"殷夜啼\",\r\n    \"Desc\": \"淫魔夜啼\",\r\n    \"NameTw\": \"殷夜啼\",\r\n    \"DescTw\": \"淫魔夜啼\"\r\n  }"
   rawIndex: 10014
   splits:
@@ -207,7 +194,6 @@
     qcReviewedText: "Devil of the Night Cry"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10015\",\r\n    \"Name\": \"万轻舟\",\r\n    \"Desc\": \"考较武学\",\r\n    \"NameTw\": \"萬輕舟\",\r\n    \"DescTw\": \"考較武學\"\r\n  }"
   rawIndex: 10015
   splits:
@@ -223,7 +209,6 @@
     qcReviewedText: "Testing martial arts skills"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10016\",\r\n    \"Name\": \"万轻舟\",\r\n    \"Desc\": \"比试武艺\",\r\n    \"NameTw\": \"萬輕舟\",\r\n    \"DescTw\": \"比試武藝\"\r\n  }"
   rawIndex: 10016
   splits:
@@ -239,7 +224,6 @@
     qcReviewedText: "Combat skill demonstration"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10017\",\r\n    \"Name\": \"法元\",\r\n    \"Desc\": \"怪客无法\",\r\n    \"NameTw\": \"法元\",\r\n    \"DescTw\": \"怪客無法\"\r\n  }"
   rawIndex: 10017
   splits:
@@ -255,7 +239,6 @@
     qcReviewedText: "Guest cannot proceed"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10018\",\r\n    \"Name\": \"谭培公\",\r\n    \"Desc\": \"天魔攻山\",\r\n    \"NameTw\": \"譚培公\",\r\n    \"DescTw\": \"天魔攻山\"\r\n  }"
   rawIndex: 10018
   splits:
@@ -271,7 +254,6 @@
     qcReviewedText: "Asura Assault Mountain"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Name\": \"任苍溟\",\r\n    \"Desc\": \"天魔攻山\",\r\n    \"NameTw\": \"任蒼溟\",\r\n    \"DescTw\": \"天魔攻山\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -287,7 +269,6 @@
     qcReviewedText: "Asura Assault Mountain"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10020\",\r\n    \"Name\": \"金太岁\",\r\n    \"Desc\": \"破庙金太岁\",\r\n    \"NameTw\": \"金太歲\",\r\n    \"DescTw\": \"破廟金太歲\"\r\n  }"
   rawIndex: 10020
   splits:
@@ -303,7 +284,6 @@
     qcReviewedText: "Ruined Temple Jin Taisui"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10021\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"Desc\": \"副本乱石寨\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"副本亂石寨\"\r\n  }"
   rawIndex: 10021
   splits:
@@ -319,7 +299,6 @@
     qcReviewedText: "Dungeon Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10022\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"Desc\": \"副本乱石寨\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"副本亂石寨\"\r\n  }"
   rawIndex: 10022
   splits:
@@ -335,7 +314,6 @@
     qcReviewedText: "Dungeon Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10023\",\r\n    \"Name\": \"乱石寨众\",\r\n    \"Desc\": \"副本乱石寨\",\r\n    \"NameTw\": \"亂石寨眾\",\r\n    \"DescTw\": \"副本亂石寨\"\r\n  }"
   rawIndex: 10023
   splits:
@@ -351,7 +329,6 @@
     qcReviewedText: "Dungeon Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10024\",\r\n    \"Name\": \"殷通一众\",\r\n    \"Desc\": \"副本乱石寨\",\r\n    \"NameTw\": \"殷通一眾\",\r\n    \"DescTw\": \"副本亂石寨\"\r\n  }"
   rawIndex: 10024
   splits:
@@ -367,7 +344,6 @@
     qcReviewedText: "Dungeon Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10025\",\r\n    \"Name\": \"石重宝一众\",\r\n    \"Desc\": \"副本乱石寨\",\r\n    \"NameTw\": \"石重寶一眾\",\r\n    \"DescTw\": \"副本亂石寨\"\r\n  }"
   rawIndex: 10025
   splits:
@@ -383,7 +359,6 @@
     qcReviewedText: "Dungeon Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10026\",\r\n    \"Name\": \"法元\",\r\n    \"Desc\": \"收服无法\",\r\n    \"NameTw\": \"法元\",\r\n    \"DescTw\": \"收服無法\"\r\n  }"
   rawIndex: 10026
   splits:
@@ -399,7 +374,6 @@
     qcReviewedText: "Dominate uncontrollable enemies"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10027\",\r\n    \"Name\": \"木桑\",\r\n    \"Desc\": \"婆罗游僧\",\r\n    \"NameTw\": \"木桑\",\r\n    \"DescTw\": \"婆羅遊僧\"\r\n  }"
   rawIndex: 10027
   splits:
@@ -415,7 +389,6 @@
     qcReviewedText: "Bhikkhu Wanderer"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10028\",\r\n    \"Name\": \"乐悲风\",\r\n    \"Desc\": \"救长孙玉\",\r\n    \"NameTw\": \"樂悲風\",\r\n    \"DescTw\": \"救長孫玉\"\r\n  }"
   rawIndex: 10028
   splits:
@@ -431,7 +404,6 @@
     qcReviewedText: "Rescue Zhangsun Yu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10029\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"比武招亲\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"比武招親\"\r\n  }"
   rawIndex: 10029
   splits:
@@ -448,7 +420,6 @@
     qcTranslated: "Martial Arts Contest for a Bride"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"10030\",\r\n    \"Name\": \"项开山\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"項開山\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10030
   splits:
@@ -464,7 +435,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10031\",\r\n    \"Name\": \"魏子川\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"魏子川\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10031
   splits:
@@ -480,7 +450,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10032\",\r\n    \"Name\": \"斋藤归藏\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"齋藤歸藏\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10032
   splits:
@@ -496,7 +465,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10033\",\r\n    \"Name\": \"崔之嵬\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"崔之嵬\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10033
   splits:
@@ -512,7 +480,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10034\",\r\n    \"Name\": \"张山峰\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"張山峰\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10034
   splits:
@@ -528,7 +495,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10035\",\r\n    \"Name\": \"蒋承筹\",\r\n    \"Desc\": \"抓捕蒋承筹\",\r\n    \"NameTw\": \"蔣承籌\",\r\n    \"DescTw\": \"抓捕蔣承籌\"\r\n  }"
   rawIndex: 10035
   splits:
@@ -544,7 +510,6 @@
     qcReviewedText: "Arrest Jiang Chengchou"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10036\",\r\n    \"Name\": \"猛虎\",\r\n    \"Desc\": \"山林猛虎\",\r\n    \"NameTw\": \"猛虎\",\r\n    \"DescTw\": \"山林猛虎\"\r\n  }"
   rawIndex: 10036
   splits:
@@ -560,7 +525,6 @@
     qcReviewedText: "Fierce Tiger of the Mountain Forest"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10037\",\r\n    \"Name\": \"无赖\",\r\n    \"Desc\": \"无赖\",\r\n    \"NameTw\": \"無賴\",\r\n    \"DescTw\": \"無賴\"\r\n  }"
   rawIndex: 10037
   splits:
@@ -576,7 +540,6 @@
     qcReviewedText: "Rogue"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10038\",\r\n    \"Name\": \"异蛇\",\r\n    \"Desc\": \"三尺异蛇\",\r\n    \"NameTw\": \"異蛇\",\r\n    \"DescTw\": \"三尺異蛇\"\r\n  }"
   rawIndex: 10038
   splits:
@@ -592,7 +555,6 @@
     qcReviewedText: "Three‑foot Strange Snake"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10039\",\r\n    \"Name\": \"异蛇\",\r\n    \"Desc\": \"五尺异蛇\",\r\n    \"NameTw\": \"異蛇\",\r\n    \"DescTw\": \"五尺異蛇\"\r\n  }"
   rawIndex: 10039
   splits:
@@ -608,7 +570,6 @@
     qcReviewedText: "Five‑foot Strange Snake"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10040\",\r\n    \"Name\": \"异蛇\",\r\n    \"Desc\": \"七尺异蛇\",\r\n    \"NameTw\": \"異蛇\",\r\n    \"DescTw\": \"七尺異蛇\"\r\n  }"
   rawIndex: 10040
   splits:
@@ -624,7 +585,6 @@
     qcReviewedText: "Seven‑foot Strange Snake"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10041\",\r\n    \"Name\": \"蒋疠夫\",\r\n    \"Desc\": \"盘蛇决裂\",\r\n    \"NameTw\": \"蔣癘夫\",\r\n    \"DescTw\": \"盤蛇決裂\"\r\n  }"
   rawIndex: 10041
   splits:
@@ -640,7 +600,6 @@
     qcReviewedText: "Coiling Snake Splitting Decision"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10042\",\r\n    \"Name\": \"阮碧青\",\r\n    \"Desc\": \"盘蛇决裂\",\r\n    \"NameTw\": \"阮碧青\",\r\n    \"DescTw\": \"盤蛇決裂\"\r\n  }"
   rawIndex: 10042
   splits:
@@ -656,7 +615,6 @@
     qcReviewedText: "Coiling Snake Splitting Decision"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10043\",\r\n    \"Name\": \"异蛇王\",\r\n    \"Desc\": \"异蛇王\",\r\n    \"NameTw\": \"異蛇王\",\r\n    \"DescTw\": \"異蛇王\"\r\n  }"
   rawIndex: 10043
   splits:
@@ -672,7 +630,6 @@
     qcReviewedText: "Strange Snake King"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10044\",\r\n    \"Name\": \"金太岁\",\r\n    \"Desc\": \"金太岁报仇\",\r\n    \"NameTw\": \"金太歲\",\r\n    \"DescTw\": \"金太歲報仇\"\r\n  }"
   rawIndex: 10044
   splits:
@@ -688,7 +645,6 @@
     qcReviewedText: "Jin Taisui takes revenge"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10045\",\r\n    \"Name\": \"野猪\",\r\n    \"Desc\": \"一只野猪\",\r\n    \"NameTw\": \"野豬\",\r\n    \"DescTw\": \"一隻野豬\"\r\n  }"
   rawIndex: 10045
   splits:
@@ -704,7 +660,6 @@
     qcReviewedText: "A wild boar"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10046\",\r\n    \"Name\": \"野猪\",\r\n    \"Desc\": \"两只野猪\",\r\n    \"NameTw\": \"野豬\",\r\n    \"DescTw\": \"兩隻野豬\"\r\n  }"
   rawIndex: 10046
   splits:
@@ -720,7 +675,6 @@
     qcReviewedText: "Two wild boars"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10047\",\r\n    \"Name\": \"野猪\",\r\n    \"Desc\": \"一群野猪\",\r\n    \"NameTw\": \"野豬\",\r\n    \"DescTw\": \"一群野豬\"\r\n  }"
   rawIndex: 10047
   splits:
@@ -736,7 +690,6 @@
     qcReviewedText: "A group of wild boars"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10048\",\r\n    \"Name\": \"野猪王\",\r\n    \"Desc\": \"野猪王\",\r\n    \"NameTw\": \"野豬王\",\r\n    \"DescTw\": \"野豬王\"\r\n  }"
   rawIndex: 10048
   splits:
@@ -752,7 +705,6 @@
     qcReviewedText: "Wild Boar King"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10049\",\r\n    \"Name\": \"两书生\",\r\n    \"Desc\": \"两书生\",\r\n    \"NameTw\": \"兩書生\",\r\n    \"DescTw\": \"兩書生\"\r\n  }"
   rawIndex: 10049
   splits:
@@ -768,7 +720,6 @@
     qcReviewedText: "Two Scholars"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10050\",\r\n    \"Name\": \"广惠\",\r\n    \"Desc\": \"黄鹤楼\",\r\n    \"NameTw\": \"廣惠\",\r\n    \"DescTw\": \"黃鶴樓\"\r\n  }"
   rawIndex: 10050
   splits:
@@ -784,7 +735,6 @@
     qcReviewedText: "Yellow Crane Tower"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10051\",\r\n    \"Name\": \"黑衣人\",\r\n    \"Desc\": \"岳麓书院\",\r\n    \"NameTw\": \"黑衣人\",\r\n    \"DescTw\": \"嶽麓書院\"\r\n  }"
   rawIndex: 10051
   splits:
@@ -794,14 +744,12 @@
     qcReviewedText: "Black‑clad figure"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "岳麓书院"
     translated: "Yuelu Academy"
     qcReviewedText: "Yuelu Academy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10052\",\r\n    \"Name\": \"魏元康\",\r\n    \"Desc\": \"岳麓书院\",\r\n    \"NameTw\": \"魏元康\",\r\n    \"DescTw\": \"嶽麓書院\"\r\n  }"
   rawIndex: 10052
   splits:
@@ -817,7 +765,6 @@
     qcReviewedText: "Yuelu Academy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10053\",\r\n    \"Name\": \"野猪\",\r\n    \"Desc\": \"蓉蓉野猪\",\r\n    \"NameTw\": \"野豬\",\r\n    \"DescTw\": \"蓉蓉野豬\"\r\n  }"
   rawIndex: 10053
   splits:
@@ -833,7 +780,6 @@
     qcReviewedText: "Rong Rong Wild Boar"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10054\",\r\n    \"Name\": \"章太歧\",\r\n    \"Desc\": \"蓉蓉章太歧\",\r\n    \"NameTw\": \"章太歧\",\r\n    \"DescTw\": \"蓉蓉章太歧\"\r\n  }"
   rawIndex: 10054
   splits:
@@ -849,7 +795,6 @@
     qcReviewedText: "Rongrong Zhang Taiqi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10055\",\r\n    \"Name\": \"温残阳\",\r\n    \"Desc\": \"温残阳\",\r\n    \"NameTw\": \"溫殘陽\",\r\n    \"DescTw\": \"溫殘陽\"\r\n  }"
   rawIndex: 10055
   splits:
@@ -865,7 +810,6 @@
     qcReviewedText: "Wen Canyang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10056\",\r\n    \"Name\": \"渔樵双隐\",\r\n    \"Desc\": \"杨慎演武\",\r\n    \"NameTw\": \"漁樵雙隱\",\r\n    \"DescTw\": \"楊慎演武\"\r\n  }"
   rawIndex: 10056
   splits:
@@ -882,7 +826,6 @@
     qcTranslated: "Yang Shen's Martial Arts Demonstration"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"10057\",\r\n    \"Name\": \"邬健\",\r\n    \"Desc\": \"邬健\",\r\n    \"NameTw\": \"鄔健\",\r\n    \"DescTw\": \"鄔健\"\r\n  }"
   rawIndex: 10057
   splits:
@@ -898,7 +841,6 @@
     qcReviewedText: "Wu Jian"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10058\",\r\n    \"Name\": \"霍连云\",\r\n    \"Desc\": \"霍连云掌法\",\r\n    \"NameTw\": \"霍連雲\",\r\n    \"DescTw\": \"霍連雲掌法\"\r\n  }"
   rawIndex: 10058
   splits:
@@ -914,7 +856,6 @@
     qcReviewedText: "Huo Lianyun's Palm Technique"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10059\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10059
   splits:
@@ -930,7 +871,6 @@
     qcReviewedText: "Jianghu People"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10060\",\r\n    \"Name\": \"黄乱\",\r\n    \"Desc\": \"黄乱\",\r\n    \"NameTw\": \"黃亂\",\r\n    \"DescTw\": \"黃亂\"\r\n  }"
   rawIndex: 10060
   splits:
@@ -946,7 +886,6 @@
     qcReviewedText: "Huang Luan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10061\",\r\n    \"Name\": \"魏无忏\",\r\n    \"Desc\": \"魏无忏\",\r\n    \"NameTw\": \"魏無懺\",\r\n    \"DescTw\": \"魏無懺\"\r\n  }"
   rawIndex: 10061
   splits:
@@ -962,7 +901,6 @@
     qcReviewedText: "Wei Wuchan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10062\",\r\n    \"Name\": \"东方泰\",\r\n    \"Desc\": \"东方泰\",\r\n    \"NameTw\": \"東方泰\",\r\n    \"DescTw\": \"東方泰\"\r\n  }"
   rawIndex: 10062
   splits:
@@ -978,7 +916,6 @@
     qcReviewedText: "Dongfang Tai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10063\",\r\n    \"Name\": \"庄道玄\",\r\n    \"Desc\": \"庄道玄\",\r\n    \"NameTw\": \"莊道玄\",\r\n    \"DescTw\": \"莊道玄\"\r\n  }"
   rawIndex: 10063
   splits:
@@ -994,7 +931,6 @@
     qcReviewedText: "Zhuang Daoxuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10064\",\r\n    \"Name\": \"行颠\",\r\n    \"Desc\": \"行颠\",\r\n    \"NameTw\": \"行顛\",\r\n    \"DescTw\": \"行顛\"\r\n  }"
   rawIndex: 10064
   splits:
@@ -1010,7 +946,6 @@
     qcReviewedText: "Xing Dian"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10065\",\r\n    \"Name\": \"乔道安\",\r\n    \"Desc\": \"乔道安\",\r\n    \"NameTw\": \"喬道安\",\r\n    \"DescTw\": \"喬道安\"\r\n  }"
   rawIndex: 10065
   splits:
@@ -1026,7 +961,6 @@
     qcReviewedText: "Qiao Dao'an"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10066\",\r\n    \"Name\": \"庄道玄\",\r\n    \"Desc\": \"庄道玄\",\r\n    \"NameTw\": \"莊道玄\",\r\n    \"DescTw\": \"莊道玄\"\r\n  }"
   rawIndex: 10066
   splits:
@@ -1042,7 +976,6 @@
     qcReviewedText: "Zhuang Daoxuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10067\",\r\n    \"Name\": \"齐玄化\",\r\n    \"Desc\": \"齐玄化\",\r\n    \"NameTw\": \"齊玄化\",\r\n    \"DescTw\": \"齊玄化\"\r\n  }"
   rawIndex: 10067
   splits:
@@ -1058,7 +991,6 @@
     qcReviewedText: "Qi Xuanhua"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10068\",\r\n    \"Name\": \"武当弟子\",\r\n    \"Desc\": \"武当弟子\",\r\n    \"NameTw\": \"武當弟子\",\r\n    \"DescTw\": \"武當弟子\"\r\n  }"
   rawIndex: 10068
   splits:
@@ -1074,7 +1006,6 @@
     qcReviewedText: "Wudang Disciples"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10069\",\r\n    \"Name\": \"武和野猪\",\r\n    \"Desc\": \"两只野猪\",\r\n    \"NameTw\": \"武和野豬\",\r\n    \"DescTw\": \"兩隻野豬\"\r\n  }"
   rawIndex: 10069
   splits:
@@ -1090,7 +1021,6 @@
     qcReviewedText: "Two wild boars"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10070\",\r\n    \"Name\": \"岳松涛\",\r\n    \"Desc\": \"岳松涛\",\r\n    \"NameTw\": \"嶽松濤\",\r\n    \"DescTw\": \"嶽松濤\"\r\n  }"
   rawIndex: 10070
   splits:
@@ -1106,7 +1036,6 @@
     qcReviewedText: "Yue Songtao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10071\",\r\n    \"Name\": \"石胡子\",\r\n    \"Desc\": \"石胡子\",\r\n    \"NameTw\": \"石鬍子\",\r\n    \"DescTw\": \"石鬍子\"\r\n  }"
   rawIndex: 10071
   splits:
@@ -1122,7 +1051,6 @@
     qcReviewedText: "Stone Beard"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10072\",\r\n    \"Name\": \"金太岁\",\r\n    \"Desc\": \"无心金太岁\",\r\n    \"NameTw\": \"金太歲\",\r\n    \"DescTw\": \"無心金太歲\"\r\n  }"
   rawIndex: 10072
   splits:
@@ -1138,7 +1066,6 @@
     qcReviewedText: "Jin Taisui Without Heart"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10073\",\r\n    \"Name\": \"殷通\",\r\n    \"Desc\": \"无心殷通\",\r\n    \"NameTw\": \"殷通\",\r\n    \"DescTw\": \"無心殷通\"\r\n  }"
   rawIndex: 10073
   splits:
@@ -1154,7 +1081,6 @@
     qcReviewedText: "Careless Yin Tong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10074\",\r\n    \"Name\": \"石重宝\",\r\n    \"Desc\": \"无心石重宝\",\r\n    \"NameTw\": \"石重寶\",\r\n    \"DescTw\": \"無心石重寶\"\r\n  }"
   rawIndex: 10074
   splits:
@@ -1170,7 +1096,6 @@
     qcReviewedText: "Mindless Shi Chongbao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10075\",\r\n    \"Name\": \"娄德旺\",\r\n    \"Desc\": \"无心娄德旺\",\r\n    \"NameTw\": \"婁德旺\",\r\n    \"DescTw\": \"無心婁德旺\"\r\n  }"
   rawIndex: 10075
   splits:
@@ -1186,7 +1111,6 @@
     qcReviewedText: "Unintentional Lou Dewang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10076\",\r\n    \"Name\": \"魏子川\",\r\n    \"Desc\": \"无心魏子川\",\r\n    \"NameTw\": \"魏子川\",\r\n    \"DescTw\": \"無心魏子川\"\r\n  }"
   rawIndex: 10076
   splits:
@@ -1202,7 +1126,6 @@
     qcReviewedText: "Careless Wei Zichuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10077\",\r\n    \"Name\": \"张山峰\",\r\n    \"Desc\": \"无心张山峰\",\r\n    \"NameTw\": \"張山峰\",\r\n    \"DescTw\": \"無心張山峰\"\r\n  }"
   rawIndex: 10077
   splits:
@@ -1218,7 +1141,6 @@
     qcReviewedText: "Unintentional Zhang Shanfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10078\",\r\n    \"Name\": \"斋藤归藏\",\r\n    \"Desc\": \"无心斋藤归\",\r\n    \"NameTw\": \"齋藤歸藏\",\r\n    \"DescTw\": \"無心齋藤歸\"\r\n  }"
   rawIndex: 10078
   splits:
@@ -1234,7 +1156,6 @@
     qcReviewedText: "Gang Leader ‑ Teng Gui"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10079\",\r\n    \"Name\": \"魏元康\",\r\n    \"Desc\": \"无心魏元康\",\r\n    \"NameTw\": \"魏元康\",\r\n    \"DescTw\": \"無心魏元康\"\r\n  }"
   rawIndex: 10079
   splits:
@@ -1250,7 +1171,6 @@
     qcReviewedText: "Careless Wei Yuankang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10080\",\r\n    \"Name\": \"广惠\",\r\n    \"Desc\": \"无心谷广惠\",\r\n    \"NameTw\": \"廣惠\",\r\n    \"DescTw\": \"無心谷廣惠\"\r\n  }"
   rawIndex: 10080
   splits:
@@ -1266,7 +1186,6 @@
     qcReviewedText: "Guang Hui of Wuxing Valley"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10081\",\r\n    \"Name\": \"崔之嵬\",\r\n    \"Desc\": \"无心崔之嵬\",\r\n    \"NameTw\": \"崔之嵬\",\r\n    \"DescTw\": \"無心崔之嵬\"\r\n  }"
   rawIndex: 10081
   splits:
@@ -1282,7 +1201,6 @@
     qcReviewedText: "Unintentional Cui Zhiwei"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10082\",\r\n    \"Name\": \"项开山\",\r\n    \"Desc\": \"无心项开山\",\r\n    \"NameTw\": \"項開山\",\r\n    \"DescTw\": \"無心項開山\"\r\n  }"
   rawIndex: 10082
   splits:
@@ -1298,7 +1216,6 @@
     qcReviewedText: "Unintentional Xiang Kaishan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10083\",\r\n    \"Name\": \"乔道安\",\r\n    \"Desc\": \"无心乔道安\",\r\n    \"NameTw\": \"喬道安\",\r\n    \"DescTw\": \"無心喬道安\"\r\n  }"
   rawIndex: 10083
   splits:
@@ -1314,7 +1231,6 @@
     qcReviewedText: "Unintentional Qiao Dao'an"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10084\",\r\n    \"Name\": \"彭祖寿\",\r\n    \"Desc\": \"无心彭祖寿\",\r\n    \"NameTw\": \"彭祖壽\",\r\n    \"DescTw\": \"無心彭祖壽\"\r\n  }"
   rawIndex: 10084
   splits:
@@ -1330,7 +1246,6 @@
     qcReviewedText: "Careless Peng Zushou"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10085\",\r\n    \"Name\": \"连山谷\",\r\n    \"Desc\": \"无心连山谷\",\r\n    \"NameTw\": \"連山谷\",\r\n    \"DescTw\": \"無心連山谷\"\r\n  }"
   rawIndex: 10085
   splits:
@@ -1346,7 +1261,6 @@
     qcReviewedText: "Unintentionally in Lian Shangu Valley"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10086\",\r\n    \"Name\": \"蒋疠夫\",\r\n    \"Desc\": \"无心蒋疠夫\",\r\n    \"NameTw\": \"蔣癘夫\",\r\n    \"DescTw\": \"無心蔣癘夫\"\r\n  }"
   rawIndex: 10086
   splits:
@@ -1362,7 +1276,6 @@
     qcReviewedText: "Careless Jiang Lifu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10087\",\r\n    \"Name\": \"长孙诚\",\r\n    \"Desc\": \"无心长孙诚\",\r\n    \"NameTw\": \"長孫誠\",\r\n    \"DescTw\": \"無心長孫誠\"\r\n  }"
   rawIndex: 10087
   splits:
@@ -1378,7 +1291,6 @@
     qcReviewedText: "Unintentional Zhangsun Cheng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10088\",\r\n    \"Name\": \"陆彦平、高君可\",\r\n    \"Desc\": \"神枪双杰\",\r\n    \"NameTw\": \"陸彥平、高君可\",\r\n    \"DescTw\": \"神槍雙傑\"\r\n  }"
   rawIndex: 10088
   splits:
@@ -1394,7 +1306,6 @@
     qcReviewedText: "Dual Spear Masters"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10089\",\r\n    \"Name\": \"神枪四杰\",\r\n    \"Desc\": \"神枪四杰\",\r\n    \"NameTw\": \"神槍四傑\",\r\n    \"DescTw\": \"神槍四傑\"\r\n  }"
   rawIndex: 10089
   splits:
@@ -1410,7 +1321,6 @@
     qcReviewedText: "Four Spear Masters"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10090\",\r\n    \"Name\": \"一众混混\",\r\n    \"Desc\": \"混混\",\r\n    \"NameTw\": \"一眾混混\",\r\n    \"DescTw\": \"混混\"\r\n  }"
   rawIndex: 10090
   splits:
@@ -1426,7 +1336,6 @@
     qcReviewedText: "Thug"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10091\",\r\n    \"Name\": \"黑衣杀手\",\r\n    \"Desc\": \"黑衣杀手\",\r\n    \"NameTw\": \"黑衣殺手\",\r\n    \"DescTw\": \"黑衣殺手\"\r\n  }"
   rawIndex: 10091
   splits:
@@ -1442,7 +1351,6 @@
     qcReviewedText: "Black‑Clothed Assassin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10092\",\r\n    \"Name\": \"崔三贯\",\r\n    \"Desc\": \"崔三贯\",\r\n    \"NameTw\": \"崔三貫\",\r\n    \"DescTw\": \"崔三貫\"\r\n  }"
   rawIndex: 10092
   splits:
@@ -1458,7 +1366,6 @@
     qcReviewedText: "Cui Sanguan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10093\",\r\n    \"Name\": \"崔三贯一众\",\r\n    \"Desc\": \"崔三贯一众\",\r\n    \"NameTw\": \"崔三貫一眾\",\r\n    \"DescTw\": \"崔三貫一眾\"\r\n  }"
   rawIndex: 10093
   splits:
@@ -1474,7 +1381,6 @@
     qcReviewedText: "Cui Sanguan and Followers"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10094\",\r\n    \"Name\": \"钟其北一众\",\r\n    \"Desc\": \"钟其北一众\",\r\n    \"NameTw\": \"鍾其北一眾\",\r\n    \"DescTw\": \"鍾其北一眾\"\r\n  }"
   rawIndex: 10094
   splits:
@@ -1490,7 +1396,6 @@
     qcReviewedText: "Zhong Qibei and Followers"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10095\",\r\n    \"Name\": \"黑衣人\",\r\n    \"Desc\": \"黑衣人\",\r\n    \"NameTw\": \"黑衣人\",\r\n    \"DescTw\": \"黑衣人\"\r\n  }"
   rawIndex: 10095
   splits:
@@ -1500,14 +1405,12 @@
     qcReviewedText: "Black‑clad figure"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "黑衣人"
     translated: "Black‑clad figure"
     qcReviewedText: "Black‑clad figure"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10096\",\r\n    \"Name\": \"仇朝恩\",\r\n    \"Desc\": \"仇朝恩\",\r\n    \"NameTw\": \"仇朝恩\",\r\n    \"DescTw\": \"仇朝恩\"\r\n  }"
   rawIndex: 10096
   splits:
@@ -1523,7 +1426,6 @@
     qcReviewedText: "Qiu Chaoren"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10097\",\r\n    \"Name\": \"达达里奥\",\r\n    \"Desc\": \"达达里奥\",\r\n    \"NameTw\": \"達達里奧\",\r\n    \"DescTw\": \"達達里奧\"\r\n  }"
   rawIndex: 10097
   splits:
@@ -1539,7 +1441,6 @@
     qcReviewedText: "Dada Liao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10098\",\r\n    \"Name\": \"罗元庆\",\r\n    \"Desc\": \"谈笑罗元庆\",\r\n    \"NameTw\": \"羅元慶\",\r\n    \"DescTw\": \"談笑羅元慶\"\r\n  }"
   rawIndex: 10098
   splits:
@@ -1555,7 +1456,6 @@
     qcReviewedText: "Chat with Luo Yuanqing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10099\",\r\n    \"Name\": \"高君可\",\r\n    \"Desc\": \"谈笑高君可\",\r\n    \"NameTw\": \"高君可\",\r\n    \"DescTw\": \"談笑高君可\"\r\n  }"
   rawIndex: 10099
   splits:
@@ -1571,7 +1471,6 @@
     qcReviewedText: "Talk and Laugh with Gao Junke"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10100\",\r\n    \"Name\": \"陆彦平\",\r\n    \"Desc\": \"谈笑陆彦平\",\r\n    \"NameTw\": \"陸彥平\",\r\n    \"DescTw\": \"談笑陸彥平\"\r\n  }"
   rawIndex: 10100
   splits:
@@ -1587,7 +1486,6 @@
     qcReviewedText: "Chat and Laugh Lu Yanping"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10101\",\r\n    \"Name\": \"伍定边\",\r\n    \"Desc\": \"谈笑伍定边\",\r\n    \"NameTw\": \"伍定邊\",\r\n    \"DescTw\": \"談笑伍定邊\"\r\n  }"
   rawIndex: 10101
   splits:
@@ -1603,7 +1501,6 @@
     qcReviewedText: "Laughing Wu Dingbian"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10102\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"谈笑项欺霜\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"談笑項欺霜\"\r\n  }"
   rawIndex: 10102
   splits:
@@ -1619,7 +1516,6 @@
     qcReviewedText: "Chat Smile Xiang Qishuang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10103\",\r\n    \"Name\": \"高亮\",\r\n    \"Desc\": \"悬赏高亮\",\r\n    \"NameTw\": \"高亮\",\r\n    \"DescTw\": \"懸賞高亮\"\r\n  }"
   rawIndex: 10103
   splits:
@@ -1635,7 +1531,6 @@
     qcReviewedText: "Bounty Gao Liang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10104\",\r\n    \"Name\": \"卞五嫂\",\r\n    \"Desc\": \"悬赏卞五嫂\",\r\n    \"NameTw\": \"卞五嫂\",\r\n    \"DescTw\": \"懸賞卞五嫂\"\r\n  }"
   rawIndex: 10104
   splits:
@@ -1651,7 +1546,6 @@
     qcReviewedText: "Bounty on Bian Wusao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10105\",\r\n    \"Name\": \"施尤\",\r\n    \"Desc\": \"悬赏施尤\",\r\n    \"NameTw\": \"施尤\",\r\n    \"DescTw\": \"懸賞施尤\"\r\n  }"
   rawIndex: 10105
   splits:
@@ -1667,7 +1561,6 @@
     qcReviewedText: "Bounty for Shi You"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10106\",\r\n    \"Name\": \"萧金玉\",\r\n    \"Desc\": \"悬赏萧金玉\",\r\n    \"NameTw\": \"蕭金玉\",\r\n    \"DescTw\": \"懸賞蕭金玉\"\r\n  }"
   rawIndex: 10106
   splits:
@@ -1683,7 +1576,6 @@
     qcReviewedText: "Bounty on Xiao Jinyu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10107\",\r\n    \"Name\": \"管冲\",\r\n    \"Desc\": \"悬赏管冲\",\r\n    \"NameTw\": \"管衝\",\r\n    \"DescTw\": \"懸賞管衝\"\r\n  }"
   rawIndex: 10107
   splits:
@@ -1699,7 +1591,6 @@
     qcReviewedText: "Bounty for Guan Chong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10108\",\r\n    \"Name\": \"廖香\",\r\n    \"Desc\": \"悬赏廖香\",\r\n    \"NameTw\": \"廖香\",\r\n    \"DescTw\": \"懸賞廖香\"\r\n  }"
   rawIndex: 10108
   splits:
@@ -1715,7 +1606,6 @@
     qcReviewedText: "Bounty on Liao Xiang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10109\",\r\n    \"Name\": \"焦雄\",\r\n    \"Desc\": \"悬赏焦雄\",\r\n    \"NameTw\": \"焦雄\",\r\n    \"DescTw\": \"懸賞焦雄\"\r\n  }"
   rawIndex: 10109
   splits:
@@ -1731,7 +1621,6 @@
     qcReviewedText: "Bounty on Jiao Xiong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10110\",\r\n    \"Name\": \"简桂芝\",\r\n    \"Desc\": \"悬赏简桂芝\",\r\n    \"NameTw\": \"簡桂芝\",\r\n    \"DescTw\": \"懸賞簡桂芝\"\r\n  }"
   rawIndex: 10110
   splits:
@@ -1747,7 +1636,6 @@
     qcReviewedText: "Bounty on Jian Guizhi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10111\",\r\n    \"Name\": \"赵平\",\r\n    \"Desc\": \"悬赏赵平\",\r\n    \"NameTw\": \"趙平\",\r\n    \"DescTw\": \"懸賞趙平\"\r\n  }"
   rawIndex: 10111
   splits:
@@ -1763,7 +1651,6 @@
     qcReviewedText: "Bounty on Zhao Ping"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10112\",\r\n    \"Name\": \"慈元\",\r\n    \"Desc\": \"悬赏慈元\",\r\n    \"NameTw\": \"慈元\",\r\n    \"DescTw\": \"懸賞慈元\"\r\n  }"
   rawIndex: 10112
   splits:
@@ -1779,7 +1666,6 @@
     qcReviewedText: "Bounty for Ci Yuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10113\",\r\n    \"Name\": \"君无忌\",\r\n    \"Desc\": \"君无忌\",\r\n    \"NameTw\": \"君無忌\",\r\n    \"DescTw\": \"君無忌\"\r\n  }"
   rawIndex: 10113
   splits:
@@ -1795,7 +1681,6 @@
     qcReviewedText: "Jun Wuji"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10114\",\r\n    \"Name\": \"呼摩勒\",\r\n    \"Desc\": \"招贤呼摩勒\",\r\n    \"NameTw\": \"呼摩勒\",\r\n    \"DescTw\": \"招賢呼摩勒\"\r\n  }"
   rawIndex: 10114
   splits:
@@ -1811,7 +1696,6 @@
     qcReviewedText: "Recruit Hu Mole"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10115\",\r\n    \"Name\": \"风间夜\",\r\n    \"Desc\": \"招贤风间夜\",\r\n    \"NameTw\": \"風間夜\",\r\n    \"DescTw\": \"招賢風間夜\"\r\n  }"
   rawIndex: 10115
   splits:
@@ -1827,7 +1711,6 @@
     qcReviewedText: "Recruit Kazama Ye"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10116\",\r\n    \"Name\": \"吕霸先\",\r\n    \"Desc\": \"招贤吕霸先\",\r\n    \"NameTw\": \"呂霸先\",\r\n    \"DescTw\": \"招賢呂霸先\"\r\n  }"
   rawIndex: 10116
   splits:
@@ -1843,7 +1726,6 @@
     qcReviewedText: "Recruit Lu Baxian"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10117\",\r\n    \"Name\": \"商山四皓\",\r\n    \"Desc\": \"商山四皓\",\r\n    \"NameTw\": \"商山四皓\",\r\n    \"DescTw\": \"商山四皓\"\r\n  }"
   rawIndex: 10117
   splits:
@@ -1859,7 +1741,6 @@
     qcReviewedText: "Four Elders of Shangshan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10118\",\r\n    \"Name\": \"宗信一众\",\r\n    \"Desc\": \"宗信一众\",\r\n    \"NameTw\": \"宗信一眾\",\r\n    \"DescTw\": \"宗信一眾\"\r\n  }"
   rawIndex: 10118
   splits:
@@ -1875,7 +1756,6 @@
     qcReviewedText: "Zong Xin and Followers"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10119\",\r\n    \"Name\": \"无赖\",\r\n    \"Desc\": \"无赖\",\r\n    \"NameTw\": \"無賴\",\r\n    \"DescTw\": \"無賴\"\r\n  }"
   rawIndex: 10119
   splits:
@@ -1891,7 +1771,6 @@
     qcReviewedText: "Rogue"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10120\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10120
   splits:
@@ -1907,7 +1786,6 @@
     qcReviewedText: "Jianghu People"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10121\",\r\n    \"Name\": \"鸟居翔太\",\r\n    \"Desc\": \"鸟居翔太\",\r\n    \"NameTw\": \"鳥居翔太\",\r\n    \"DescTw\": \"鳥居翔太\"\r\n  }"
   rawIndex: 10121
   splits:
@@ -1923,7 +1801,6 @@
     qcReviewedText: "Kaburagi Shouta"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10122\",\r\n    \"Name\": \"神保清长\",\r\n    \"Desc\": \"神保清长\",\r\n    \"NameTw\": \"神保清長\",\r\n    \"DescTw\": \"神保清長\"\r\n  }"
   rawIndex: 10122
   splits:
@@ -1939,7 +1816,6 @@
     qcReviewedText: "Shenbao Qingchang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10123\",\r\n    \"Name\": \"伴七郎\",\r\n    \"Desc\": \"伴七郎\",\r\n    \"NameTw\": \"伴七郎\",\r\n    \"DescTw\": \"伴七郎\"\r\n  }"
   rawIndex: 10123
   splits:
@@ -1955,7 +1831,6 @@
     qcReviewedText: "Ban Qilang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10124\",\r\n    \"Name\": \"女忍者\",\r\n    \"Desc\": \"女忍者\",\r\n    \"NameTw\": \"女忍者\",\r\n    \"DescTw\": \"女忍者\"\r\n  }"
   rawIndex: 10124
   splits:
@@ -1971,7 +1846,6 @@
     qcReviewedText: "Female Assassin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10125\",\r\n    \"Name\": \"吕霸先二人\",\r\n    \"Desc\": \"吕霸先二人\",\r\n    \"NameTw\": \"呂霸先二人\",\r\n    \"DescTw\": \"呂霸先二人\"\r\n  }"
   rawIndex: 10125
   splits:
@@ -1987,7 +1861,6 @@
     qcReviewedText: "Lu Baxian and One Other"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10126\",\r\n    \"Name\": \"曹德昌\",\r\n    \"Desc\": \"曹德昌\",\r\n    \"NameTw\": \"曹德昌\",\r\n    \"DescTw\": \"曹德昌\"\r\n  }"
   rawIndex: 10126
   splits:
@@ -2003,7 +1876,6 @@
     qcReviewedText: "Cao Dechang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10127\",\r\n    \"Name\": \"谷藏锋\",\r\n    \"Desc\": \"谷藏锋\",\r\n    \"NameTw\": \"谷藏鋒\",\r\n    \"DescTw\": \"谷藏鋒\"\r\n  }"
   rawIndex: 10127
   splits:
@@ -2019,7 +1891,6 @@
     qcReviewedText: "Gu Cangfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10128\",\r\n    \"Name\": \"谷藏锋\",\r\n    \"Desc\": \"谷藏锋\",\r\n    \"NameTw\": \"谷藏鋒\",\r\n    \"DescTw\": \"谷藏鋒\"\r\n  }"
   rawIndex: 10128
   splits:
@@ -2035,7 +1906,6 @@
     qcReviewedText: "Gu Cangfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10129\",\r\n    \"Name\": \"谷藏锋\",\r\n    \"Desc\": \"谷藏锋\",\r\n    \"NameTw\": \"谷藏鋒\",\r\n    \"DescTw\": \"谷藏鋒\"\r\n  }"
   rawIndex: 10129
   splits:
@@ -2051,7 +1921,6 @@
     qcReviewedText: "Gu Cangfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10130\",\r\n    \"Name\": \"尹玄真\",\r\n    \"Desc\": \"尹玄真\",\r\n    \"NameTw\": \"尹玄真\",\r\n    \"DescTw\": \"尹玄真\"\r\n  }"
   rawIndex: 10130
   splits:
@@ -2067,7 +1936,6 @@
     qcReviewedText: "Yin Xuanzhen"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10131\",\r\n    \"Name\": \"挂锤四猛\",\r\n    \"Desc\": \"挂锤四猛\",\r\n    \"NameTw\": \"掛錘四猛\",\r\n    \"DescTw\": \"掛錘四猛\"\r\n  }"
   rawIndex: 10131
   splits:
@@ -2083,7 +1951,6 @@
     qcReviewedText: "Four Fierce Hammer Holders"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10132\",\r\n    \"Name\": \"洪十四\",\r\n    \"Desc\": \"洪十四\",\r\n    \"NameTw\": \"洪十四\",\r\n    \"DescTw\": \"洪十四\"\r\n  }"
   rawIndex: 10132
   splits:
@@ -2099,7 +1966,6 @@
     qcReviewedText: "Hong Shisi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10133\",\r\n    \"Name\": \"冷映雪\",\r\n    \"Desc\": \"冷映雪\",\r\n    \"NameTw\": \"冷映雪\",\r\n    \"DescTw\": \"冷映雪\"\r\n  }"
   rawIndex: 10133
   splits:
@@ -2115,7 +1981,6 @@
     qcReviewedText: "Leng Yingxue"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10134\",\r\n    \"Name\": \"洪十四\",\r\n    \"Desc\": \"洪十四\",\r\n    \"NameTw\": \"洪十四\",\r\n    \"DescTw\": \"洪十四\"\r\n  }"
   rawIndex: 10134
   splits:
@@ -2131,7 +1996,6 @@
     qcReviewedText: "Hong Shisi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10135\",\r\n    \"Name\": \"衍劫\",\r\n    \"Desc\": \"衍劫\",\r\n    \"NameTw\": \"衍劫\",\r\n    \"DescTw\": \"衍劫\"\r\n  }"
   rawIndex: 10135
   splits:
@@ -2147,7 +2011,6 @@
     qcReviewedText: "Yan Jie"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10136\",\r\n    \"Name\": \"淳于望\",\r\n    \"Desc\": \"淳于望\",\r\n    \"NameTw\": \"淳于望\",\r\n    \"DescTw\": \"淳于望\"\r\n  }"
   rawIndex: 10136
   splits:
@@ -2163,7 +2026,6 @@
     qcReviewedText: "Chunyu Wang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10137\",\r\n    \"Name\": \"夏思昭\",\r\n    \"Desc\": \"夏思昭\",\r\n    \"NameTw\": \"夏思昭\",\r\n    \"DescTw\": \"夏思昭\"\r\n  }"
   rawIndex: 10137
   splits:
@@ -2179,7 +2041,6 @@
     qcReviewedText: "Xia Sizhao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10138\",\r\n    \"Name\": \"邱行济\",\r\n    \"Desc\": \"邱行济\",\r\n    \"NameTw\": \"邱行濟\",\r\n    \"DescTw\": \"邱行濟\"\r\n  }"
   rawIndex: 10138
   splits:
@@ -2195,7 +2056,6 @@
     qcReviewedText: "Qiu Xingji"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10139\",\r\n    \"Name\": \"东郭越\",\r\n    \"Desc\": \"东郭越\",\r\n    \"NameTw\": \"東郭越\",\r\n    \"DescTw\": \"東郭越\"\r\n  }"
   rawIndex: 10139
   splits:
@@ -2211,7 +2071,6 @@
     qcReviewedText: "Dongguo Yue"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10140\",\r\n    \"Name\": \"夜销魂\",\r\n    \"Desc\": \"夜销魂\",\r\n    \"NameTw\": \"夜銷魂\",\r\n    \"DescTw\": \"夜銷魂\"\r\n  }"
   rawIndex: 10140
   splits:
@@ -2227,7 +2086,6 @@
     qcReviewedText: "Ye Xiaohun"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10141\",\r\n    \"Name\": \"安东尼奥\",\r\n    \"Desc\": \"安东尼奥\",\r\n    \"NameTw\": \"安東尼奧\",\r\n    \"DescTw\": \"安東尼奧\"\r\n  }"
   rawIndex: 10141
   splits:
@@ -2243,7 +2101,6 @@
     qcReviewedText: "Antonio"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10142\",\r\n    \"Name\": \"赖宝\",\r\n    \"Desc\": \"赖宝\",\r\n    \"NameTw\": \"賴寶\",\r\n    \"DescTw\": \"賴寶\"\r\n  }"
   rawIndex: 10142
   splits:
@@ -2259,7 +2116,6 @@
     qcReviewedText: "Lai Bao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10143\",\r\n    \"Name\": \"邹九思\",\r\n    \"Desc\": \"邹九思\",\r\n    \"NameTw\": \"鄒九思\",\r\n    \"DescTw\": \"鄒九思\"\r\n  }"
   rawIndex: 10143
   splits:
@@ -2275,7 +2131,6 @@
     qcReviewedText: "Zou Jius"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10144\",\r\n    \"Name\": \"施全性\",\r\n    \"Desc\": \"施全性\",\r\n    \"NameTw\": \"施全性\",\r\n    \"DescTw\": \"施全性\"\r\n  }"
   rawIndex: 10144
   splits:
@@ -2291,7 +2146,6 @@
     qcReviewedText: "Shi Quanxing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10145\",\r\n    \"Name\": \"邹九思\",\r\n    \"Desc\": \"邹九思\",\r\n    \"NameTw\": \"鄒九思\",\r\n    \"DescTw\": \"鄒九思\"\r\n  }"
   rawIndex: 10145
   splits:
@@ -2307,7 +2161,6 @@
     qcReviewedText: "Zou Jius"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10146\",\r\n    \"Name\": \"段青山\",\r\n    \"Desc\": \"段青山\",\r\n    \"NameTw\": \"段青山\",\r\n    \"DescTw\": \"段青山\"\r\n  }"
   rawIndex: 10146
   splits:
@@ -2323,7 +2176,6 @@
     qcReviewedText: "Duan Qingshan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10147\",\r\n    \"Name\": \"钟离恨\",\r\n    \"Desc\": \"钟离恨\",\r\n    \"NameTw\": \"鍾離恨\",\r\n    \"DescTw\": \"鍾離恨\"\r\n  }"
   rawIndex: 10147
   splits:
@@ -2339,7 +2191,6 @@
     qcReviewedText: "Zhongli Hen"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10148\",\r\n    \"Name\": \"毒蛇\",\r\n    \"Desc\": \"毒蛇\",\r\n    \"NameTw\": \"毒蛇\",\r\n    \"DescTw\": \"毒蛇\"\r\n  }"
   rawIndex: 10148
   splits:
@@ -2355,7 +2206,6 @@
     qcReviewedText: "Poisonous Snake"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10149\",\r\n    \"Name\": \"了尘\",\r\n    \"Desc\": \"了尘\",\r\n    \"NameTw\": \"了塵\",\r\n    \"DescTw\": \"了塵\"\r\n  }"
   rawIndex: 10149
   splits:
@@ -2371,7 +2221,6 @@
     qcReviewedText: "Liaocheng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10150\",\r\n    \"Name\": \"江阔海\",\r\n    \"Desc\": \"江阔海\",\r\n    \"NameTw\": \"江闊海\",\r\n    \"DescTw\": \"江闊海\"\r\n  }"
   rawIndex: 10150
   splits:
@@ -2387,7 +2236,6 @@
     qcReviewedText: "Jiang Kuohai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10151\",\r\n    \"Name\": \"天通\",\r\n    \"Desc\": \"天通\",\r\n    \"NameTw\": \"天通\",\r\n    \"DescTw\": \"天通\"\r\n  }"
   rawIndex: 10151
   splits:
@@ -2403,7 +2251,6 @@
     qcReviewedText: "Tiantong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10152\",\r\n    \"Name\": \"墨是非\",\r\n    \"Desc\": \"墨是非\",\r\n    \"NameTw\": \"墨是非\",\r\n    \"DescTw\": \"墨是非\"\r\n  }"
   rawIndex: 10152
   splits:
@@ -2419,7 +2266,6 @@
     qcReviewedText: "Mo Shefei"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10153\",\r\n    \"Name\": \"端木遗\",\r\n    \"Desc\": \"端木遗\",\r\n    \"NameTw\": \"端木遺\",\r\n    \"DescTw\": \"端木遺\"\r\n  }"
   rawIndex: 10153
   splits:
@@ -2435,7 +2281,6 @@
     qcReviewedText: "Duanmu Yi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10154\",\r\n    \"Name\": \"黑白秀士\",\r\n    \"Desc\": \"黑白秀士\",\r\n    \"NameTw\": \"黑白秀士\",\r\n    \"DescTw\": \"黑白秀士\"\r\n  }"
   rawIndex: 10154
   splits:
@@ -2451,7 +2296,6 @@
     qcReviewedText: "Black and White Scholar"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10155\",\r\n    \"Name\": \"屠千仞\",\r\n    \"Desc\": \"屠千仞\",\r\n    \"NameTw\": \"屠千仞\",\r\n    \"DescTw\": \"屠千仞\"\r\n  }"
   rawIndex: 10155
   splits:
@@ -2467,7 +2311,6 @@
     qcReviewedText: "Tu Qianren"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10156\",\r\n    \"Name\": \"厉无咎\",\r\n    \"Desc\": \"厉无咎\",\r\n    \"NameTw\": \"厲無咎\",\r\n    \"DescTw\": \"厲無咎\"\r\n  }"
   rawIndex: 10156
   splits:
@@ -2483,7 +2326,6 @@
     qcReviewedText: "Li Wujou"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10157\",\r\n    \"Name\": \"乔道安\",\r\n    \"Desc\": \"乔道安\",\r\n    \"NameTw\": \"喬道安\",\r\n    \"DescTw\": \"喬道安\"\r\n  }"
   rawIndex: 10157
   splits:
@@ -2499,7 +2341,6 @@
     qcReviewedText: "Qiao Dao'an"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10158\",\r\n    \"Name\": \"顾云奇\",\r\n    \"Desc\": \"顾云奇\",\r\n    \"NameTw\": \"顧雲奇\",\r\n    \"DescTw\": \"顧雲奇\"\r\n  }"
   rawIndex: 10158
   splits:
@@ -2515,7 +2356,6 @@
     qcReviewedText: "Gu Yunqi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10159\",\r\n    \"Name\": \"桑蓝锦\",\r\n    \"Desc\": \"桑蓝锦\",\r\n    \"NameTw\": \"桑藍錦\",\r\n    \"DescTw\": \"桑藍錦\"\r\n  }"
   rawIndex: 10159
   splits:
@@ -2531,7 +2371,6 @@
     qcReviewedText: "Sang Lanjin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10160\",\r\n    \"Name\": \"长江四门主\",\r\n    \"Desc\": \"长江四门主\",\r\n    \"NameTw\": \"長江四門主\",\r\n    \"DescTw\": \"長江四門主\"\r\n  }"
   rawIndex: 10160
   splits:
@@ -2547,7 +2386,6 @@
     qcReviewedText: "Four Masters of the Yangtze"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10161\",\r\n    \"Name\": \"江阔海\",\r\n    \"Desc\": \"江阔海\",\r\n    \"NameTw\": \"江闊海\",\r\n    \"DescTw\": \"江闊海\"\r\n  }"
   rawIndex: 10161
   splits:
@@ -2563,7 +2401,6 @@
     qcReviewedText: "Jiang Kuohai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10162\",\r\n    \"Name\": \"朱宸濠\",\r\n    \"Desc\": \"朱宸濠\",\r\n    \"NameTw\": \"朱宸濠\",\r\n    \"DescTw\": \"朱宸濠\"\r\n  }"
   rawIndex: 10162
   splits:
@@ -2579,7 +2416,6 @@
     qcReviewedText: "Zhu Chenhao"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10163\",\r\n    \"Name\": \"铁衣寨众\",\r\n    \"Desc\": \"副本铁衣寨\",\r\n    \"NameTw\": \"鐵衣寨眾\",\r\n    \"DescTw\": \"副本鐵衣寨\"\r\n  }"
   rawIndex: 10163
   splits:
@@ -2595,7 +2431,6 @@
     qcReviewedText: "Iron Garb Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10164\",\r\n    \"Name\": \"铁衣寨众\",\r\n    \"Desc\": \"副本铁衣寨\",\r\n    \"NameTw\": \"鐵衣寨眾\",\r\n    \"DescTw\": \"副本鐵衣寨\"\r\n  }"
   rawIndex: 10164
   splits:
@@ -2611,7 +2446,6 @@
     qcReviewedText: "Iron Garb Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10165\",\r\n    \"Name\": \"铁衣寨众\",\r\n    \"Desc\": \"副本铁衣寨\",\r\n    \"NameTw\": \"鐵衣寨眾\",\r\n    \"DescTw\": \"副本鐵衣寨\"\r\n  }"
   rawIndex: 10165
   splits:
@@ -2627,7 +2461,6 @@
     qcReviewedText: "Iron Garb Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10166\",\r\n    \"Name\": \"汲公远一众\",\r\n    \"Desc\": \"副本铁衣寨\",\r\n    \"NameTw\": \"汲公遠一眾\",\r\n    \"DescTw\": \"副本鐵衣寨\"\r\n  }"
   rawIndex: 10166
   splits:
@@ -2643,7 +2476,6 @@
     qcReviewedText: "Iron Garb Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10167\",\r\n    \"Name\": \"祝家寨众\",\r\n    \"Desc\": \"副本祝家寨\",\r\n    \"NameTw\": \"祝家寨眾\",\r\n    \"DescTw\": \"副本祝家寨\"\r\n  }"
   rawIndex: 10167
   splits:
@@ -2659,7 +2491,6 @@
     qcReviewedText: "Zhu Family Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10168\",\r\n    \"Name\": \"祝家寨众\",\r\n    \"Desc\": \"副本祝家寨\",\r\n    \"NameTw\": \"祝家寨眾\",\r\n    \"DescTw\": \"副本祝家寨\"\r\n  }"
   rawIndex: 10168
   splits:
@@ -2675,7 +2506,6 @@
     qcReviewedText: "Zhu Family Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10169\",\r\n    \"Name\": \"祝家寨众\",\r\n    \"Desc\": \"副本祝家寨\",\r\n    \"NameTw\": \"祝家寨眾\",\r\n    \"DescTw\": \"副本祝家寨\"\r\n  }"
   rawIndex: 10169
   splits:
@@ -2691,7 +2521,6 @@
     qcReviewedText: "Zhu Family Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10170\",\r\n    \"Name\": \"祝家远一众\",\r\n    \"Desc\": \"副本祝家寨\",\r\n    \"NameTw\": \"祝家遠一眾\",\r\n    \"DescTw\": \"副本祝家寨\"\r\n  }"
   rawIndex: 10170
   splits:
@@ -2707,7 +2536,6 @@
     qcReviewedText: "Zhu Family Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10171\",\r\n    \"Name\": \"铁衣寨众\",\r\n    \"Desc\": \"副本铁衣寨\",\r\n    \"NameTw\": \"鐵衣寨眾\",\r\n    \"DescTw\": \"副本鐵衣寨\"\r\n  }"
   rawIndex: 10171
   splits:
@@ -2723,7 +2551,6 @@
     qcReviewedText: "Iron Garb Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10172\",\r\n    \"Name\": \"祝家寨众\",\r\n    \"Desc\": \"副本祝家寨\",\r\n    \"NameTw\": \"祝家寨眾\",\r\n    \"DescTw\": \"副本祝家寨\"\r\n  }"
   rawIndex: 10172
   splits:
@@ -2739,7 +2566,6 @@
     qcReviewedText: "Zhu Family Stronghold dungeon"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10173\",\r\n    \"Name\": \"黑风寨众\",\r\n    \"Desc\": \"副本黑风寨\",\r\n    \"NameTw\": \"黑風寨眾\",\r\n    \"DescTw\": \"副本黑風寨\"\r\n  }"
   rawIndex: 10173
   splits:
@@ -2755,7 +2581,6 @@
     qcReviewedText: "Dungeon Black Gale Village"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10174\",\r\n    \"Name\": \"黑风寨众\",\r\n    \"Desc\": \"副本黑风寨\",\r\n    \"NameTw\": \"黑風寨眾\",\r\n    \"DescTw\": \"副本黑風寨\"\r\n  }"
   rawIndex: 10174
   splits:
@@ -2771,7 +2596,6 @@
     qcReviewedText: "Dungeon Black Gale Village"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10175\",\r\n    \"Name\": \"黑风寨众\",\r\n    \"Desc\": \"副本黑风寨\",\r\n    \"NameTw\": \"黑風寨眾\",\r\n    \"DescTw\": \"副本黑風寨\"\r\n  }"
   rawIndex: 10175
   splits:
@@ -2787,7 +2611,6 @@
     qcReviewedText: "Dungeon Black Gale Village"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10176\",\r\n    \"Name\": \"薛黑虎一众\",\r\n    \"Desc\": \"副本黑风寨\",\r\n    \"NameTw\": \"薛黑虎一眾\",\r\n    \"DescTw\": \"副本黑風寨\"\r\n  }"
   rawIndex: 10176
   splits:
@@ -2803,7 +2626,6 @@
     qcReviewedText: "Dungeon Black Gale Village"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10177\",\r\n    \"Name\": \"黑风寨众\",\r\n    \"Desc\": \"副本黑风寨\",\r\n    \"NameTw\": \"黑風寨眾\",\r\n    \"DescTw\": \"副本黑風寨\"\r\n  }"
   rawIndex: 10177
   splits:
@@ -2819,7 +2641,6 @@
     qcReviewedText: "Dungeon Black Gale Village"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10178\",\r\n    \"Name\": \"霍九渊\",\r\n    \"Desc\": \"霍九渊\",\r\n    \"NameTw\": \"霍九淵\",\r\n    \"DescTw\": \"霍九淵\"\r\n  }"
   rawIndex: 10178
   splits:
@@ -2835,7 +2656,6 @@
     qcReviewedText: "Huo Jiuyuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10179\",\r\n    \"Name\": \"恶鼋\",\r\n    \"Desc\": \"恶鼋\",\r\n    \"NameTw\": \"惡黿\",\r\n    \"DescTw\": \"惡黿\"\r\n  }"
   rawIndex: 10179
   splits:
@@ -2851,7 +2671,6 @@
     qcReviewedText: "Evil Softshell Turtle"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10180\",\r\n    \"Name\": \"廖无常\",\r\n    \"Desc\": \"劫云廖无常\",\r\n    \"NameTw\": \"廖無常\",\r\n    \"DescTw\": \"劫雲廖無常\"\r\n  }"
   rawIndex: 10180
   splits:
@@ -2868,7 +2687,6 @@
     qcTranslated: "Calamity Cloud Liao Wuchang"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"10181\",\r\n    \"Name\": \"杜伯祁\",\r\n    \"Desc\": \"劫云杜伯祁\",\r\n    \"NameTw\": \"杜伯祁\",\r\n    \"DescTw\": \"劫雲杜伯祁\"\r\n  }"
   rawIndex: 10181
   splits:
@@ -2884,7 +2702,6 @@
     qcReviewedText: "Thunderbolt of Misfortune Du Boqi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10182\",\r\n    \"Name\": \"公羊左\",\r\n    \"Desc\": \"劫云公羊左\",\r\n    \"NameTw\": \"公羊左\",\r\n    \"DescTw\": \"劫雲公羊左\"\r\n  }"
   rawIndex: 10182
   splits:
@@ -2900,7 +2717,6 @@
     qcReviewedText: "Gongyang Zuo of the Pillared Storm"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10183\",\r\n    \"Name\": \"隋公惰\",\r\n    \"Desc\": \"劫云隋公惰\",\r\n    \"NameTw\": \"隋公惰\",\r\n    \"DescTw\": \"劫雲隋公惰\"\r\n  }"
   rawIndex: 10183
   splits:
@@ -2916,7 +2732,6 @@
     qcReviewedText: "Fog of Desolation Sui Gongduo"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10184\",\r\n    \"Name\": \"辛百里\",\r\n    \"Desc\": \"劫云辛百里\",\r\n    \"NameTw\": \"辛百里\",\r\n    \"DescTw\": \"劫雲辛百里\"\r\n  }"
   rawIndex: 10184
   splits:
@@ -2932,7 +2747,6 @@
     qcReviewedText: "Thunderbolt of Desolation Xin Baili"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10185\",\r\n    \"Name\": \"司徒鲁\",\r\n    \"Desc\": \"劫云司徒鲁\",\r\n    \"NameTw\": \"司徒魯\",\r\n    \"DescTw\": \"劫雲司徒魯\"\r\n  }"
   rawIndex: 10185
   splits:
@@ -2948,7 +2762,6 @@
     qcReviewedText: "Storm Cloud Situ Lu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10186\",\r\n    \"Name\": \"温残阳\",\r\n    \"Desc\": \"劫云温残阳\",\r\n    \"NameTw\": \"溫殘陽\",\r\n    \"DescTw\": \"劫雲溫殘陽\"\r\n  }"
   rawIndex: 10186
   splits:
@@ -2965,7 +2778,6 @@
     qcTranslated: "Jieyun Wen Canyang"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"10187\",\r\n    \"Name\": \"薛宫\",\r\n    \"Desc\": \"薛宫\",\r\n    \"NameTw\": \"薛宮\",\r\n    \"DescTw\": \"薛宮\"\r\n  }"
   rawIndex: 10187
   splits:
@@ -2981,7 +2793,6 @@
     qcReviewedText: "Xue Gong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10188\",\r\n    \"Name\": \"刘瑾\",\r\n    \"Desc\": \"刘瑾\",\r\n    \"NameTw\": \"劉瑾\",\r\n    \"DescTw\": \"劉瑾\"\r\n  }"
   rawIndex: 10188
   splits:
@@ -2997,7 +2808,6 @@
     qcReviewedText: "Liu Jin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10189\",\r\n    \"Name\": \"谭培公\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"譚培公\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10189
   splits:
@@ -3013,7 +2823,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10190\",\r\n    \"Name\": \"任苍溟\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"任蒼溟\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10190
   splits:
@@ -3029,7 +2838,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10191\",\r\n    \"Name\": \"穆坎罗\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"穆坎羅\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10191
   splits:
@@ -3045,7 +2853,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10192\",\r\n    \"Name\": \"花非烟\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"花非煙\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10192
   splits:
@@ -3061,7 +2868,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10193\",\r\n    \"Name\": \"洞明\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"洞明\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10193
   splits:
@@ -3077,7 +2883,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10194\",\r\n    \"Name\": \"莫七殇\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"莫七殤\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10194
   splits:
@@ -3093,7 +2898,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10195\",\r\n    \"Name\": \"钟谈圣\",\r\n    \"Desc\": \"秘魔崖之役\",\r\n    \"NameTw\": \"鍾談聖\",\r\n    \"DescTw\": \"祕魔崖之役\"\r\n  }"
   rawIndex: 10195
   splits:
@@ -3109,7 +2913,6 @@
     qcReviewedText: "Battle of the Fiendish Cliffs"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10196\",\r\n    \"Name\": \"凤栖梧\",\r\n    \"Desc\": \"凤栖梧\",\r\n    \"NameTw\": \"鳳棲梧\",\r\n    \"DescTw\": \"鳳棲梧\"\r\n  }"
   rawIndex: 10196
   splits:
@@ -3125,7 +2928,6 @@
     qcReviewedText: "Feng Qiwu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10197\",\r\n    \"Name\": \"凤栖梧兄弟\",\r\n    \"Desc\": \"凤栖梧\",\r\n    \"NameTw\": \"鳳棲梧兄弟\",\r\n    \"DescTw\": \"鳳棲梧\"\r\n  }"
   rawIndex: 10197
   splits:
@@ -3141,7 +2943,6 @@
     qcReviewedText: "Feng Qiwu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10198\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉\"\r\n  }"
   rawIndex: 10198
   splits:
@@ -3157,7 +2958,6 @@
     qcReviewedText: "Yan Emei"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10199\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"项欺霜\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"項欺霜\"\r\n  }"
   rawIndex: 10199
   splits:
@@ -3173,7 +2973,6 @@
     qcReviewedText: "Xiang Qishuang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10200\",\r\n    \"Name\": \"欺霜蛾眉\",\r\n    \"Desc\": \"欺霜蛾眉\",\r\n    \"NameTw\": \"欺霜蛾眉\",\r\n    \"DescTw\": \"欺霜蛾眉\"\r\n  }"
   rawIndex: 10200
   splits:
@@ -3189,7 +2988,6 @@
     qcReviewedText: "Snow‑marring eyebrows"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10201\",\r\n    \"Name\": \"韩泰\",\r\n    \"Desc\": \"韩泰\",\r\n    \"NameTw\": \"韓泰\",\r\n    \"DescTw\": \"韓泰\"\r\n  }"
   rawIndex: 10201
   splits:
@@ -3205,7 +3003,6 @@
     qcReviewedText: "Han Tai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10202\",\r\n    \"Name\": \"薛镇恶\",\r\n    \"Desc\": \"薛镇恶\",\r\n    \"NameTw\": \"薛鎮惡\",\r\n    \"DescTw\": \"薛鎮惡\"\r\n  }"
   rawIndex: 10202
   splits:
@@ -3221,7 +3018,6 @@
     qcReviewedText: "Xue Zhen'e"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10203\",\r\n    \"Name\": \"辛绝灭\",\r\n    \"Desc\": \"辛绝灭\",\r\n    \"NameTw\": \"辛絕滅\",\r\n    \"DescTw\": \"辛絕滅\"\r\n  }"
   rawIndex: 10203
   splits:
@@ -3237,7 +3033,6 @@
     qcReviewedText: "Xin Juemie"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10204\",\r\n    \"Name\": \"岑嵩\",\r\n    \"Desc\": \"岑嵩\",\r\n    \"NameTw\": \"岑嵩\",\r\n    \"DescTw\": \"岑嵩\"\r\n  }"
   rawIndex: 10204
   splits:
@@ -3253,7 +3048,6 @@
     qcReviewedText: "Cen Song"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10205\",\r\n    \"Name\": \"邵轻虹\",\r\n    \"Desc\": \"邵轻虹\",\r\n    \"NameTw\": \"邵輕虹\",\r\n    \"DescTw\": \"邵輕虹\"\r\n  }"
   rawIndex: 10205
   splits:
@@ -3263,14 +3057,12 @@
     qcReviewedText: "Think about it some more"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "邵轻虹"
     translated: "Think about it some more"
     qcReviewedText: "Think about it some more"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10206\",\r\n    \"Name\": \"郜春风\",\r\n    \"Desc\": \"郜春风\",\r\n    \"NameTw\": \"郜春風\",\r\n    \"DescTw\": \"郜春風\"\r\n  }"
   rawIndex: 10206
   splits:
@@ -3286,7 +3078,6 @@
     qcReviewedText: "Ga Chunfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10207\",\r\n    \"Name\": \"郜春风\",\r\n    \"Desc\": \"郜春风\",\r\n    \"NameTw\": \"郜春風\",\r\n    \"DescTw\": \"郜春風\"\r\n  }"
   rawIndex: 10207
   splits:
@@ -3302,7 +3093,6 @@
     qcReviewedText: "Ga Chunfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10208\",\r\n    \"Name\": \"郜春风\",\r\n    \"Desc\": \"郜春风\",\r\n    \"NameTw\": \"郜春風\",\r\n    \"DescTw\": \"郜春風\"\r\n  }"
   rawIndex: 10208
   splits:
@@ -3318,7 +3108,6 @@
     qcReviewedText: "Ga Chunfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10209\",\r\n    \"Name\": \"郜春风\",\r\n    \"Desc\": \"郜春风\",\r\n    \"NameTw\": \"郜春風\",\r\n    \"DescTw\": \"郜春風\"\r\n  }"
   rawIndex: 10209
   splits:
@@ -3334,7 +3123,6 @@
     qcReviewedText: "Ga Chunfeng"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10210\",\r\n    \"Name\": \"樊荡秽\",\r\n    \"Desc\": \"樊荡秽\",\r\n    \"NameTw\": \"樊蕩穢\",\r\n    \"DescTw\": \"樊蕩穢\"\r\n  }"
   rawIndex: 10210
   splits:
@@ -3350,7 +3138,6 @@
     qcReviewedText: "Panzhanhui"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10211\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Desc\": \"艾琳娜全力\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"DescTw\": \"艾琳娜全力\"\r\n  }"
   rawIndex: 10211
   splits:
@@ -3366,7 +3153,6 @@
     qcReviewedText: "Elena gave it her all"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10212\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Desc\": \"艾琳娜七分\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"DescTw\": \"艾琳娜七分\"\r\n  }"
   rawIndex: 10212
   splits:
@@ -3382,7 +3168,6 @@
     qcReviewedText: "Elena seven parts"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10213\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Desc\": \"艾琳娜五分\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"DescTw\": \"艾琳娜五分\"\r\n  }"
   rawIndex: 10213
   splits:
@@ -3398,7 +3183,6 @@
     qcReviewedText: "Elena received five points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10214\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Desc\": \"艾琳娜三分\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"DescTw\": \"艾琳娜三分\"\r\n  }"
   rawIndex: 10214
   splits:
@@ -3414,7 +3198,6 @@
     qcReviewedText: "Elena scores from beyond the arc"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10215\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"项欺霜全力\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"項欺霜全力\"\r\n  }"
   rawIndex: 10215
   splits:
@@ -3430,7 +3213,6 @@
     qcReviewedText: "Xiang Qishuang put forth all her effort"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10216\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"项欺霜七分\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"項欺霜七分\"\r\n  }"
   rawIndex: 10216
   splits:
@@ -3446,7 +3228,6 @@
     qcReviewedText: "Xiang Qishuang is seven parts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10217\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"项欺霜五分\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"項欺霜五分\"\r\n  }"
   rawIndex: 10217
   splits:
@@ -3462,7 +3243,6 @@
     qcReviewedText: "Xiang Qishuang scored five points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10218\",\r\n    \"Name\": \"项欺霜\",\r\n    \"Desc\": \"项欺霜三分\",\r\n    \"NameTw\": \"項欺霜\",\r\n    \"DescTw\": \"項欺霜三分\"\r\n  }"
   rawIndex: 10218
   splits:
@@ -3478,7 +3258,6 @@
     qcReviewedText: "Xiang Qishuang holds three"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10219\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉全力\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉全力\"\r\n  }"
   rawIndex: 10219
   splits:
@@ -3494,7 +3273,6 @@
     qcReviewedText: "Yan Emei put forth her full strength"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10220\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉七分\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉七分\"\r\n  }"
   rawIndex: 10220
   splits:
@@ -3510,7 +3288,6 @@
     qcReviewedText: "Yan Emei is seven‑tenths complete"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10221\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉五分\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉五分\"\r\n  }"
   rawIndex: 10221
   splits:
@@ -3526,7 +3303,6 @@
     qcReviewedText: "Yan Emei is five percent"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10222\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉三分\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉三分\"\r\n  }"
   rawIndex: 10222
   splits:
@@ -3542,7 +3318,6 @@
     qcReviewedText: "Yan Emei divides the sky into three"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10223\",\r\n    \"Name\": \"沈蓉蓉\",\r\n    \"Desc\": \"沈蓉蓉全力\",\r\n    \"NameTw\": \"沈蓉蓉\",\r\n    \"DescTw\": \"沈蓉蓉全力\"\r\n  }"
   rawIndex: 10223
   splits:
@@ -3558,7 +3333,6 @@
     qcReviewedText: "Shen Rongrong gave it her all"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10224\",\r\n    \"Name\": \"沈蓉蓉\",\r\n    \"Desc\": \"沈蓉蓉七分\",\r\n    \"NameTw\": \"沈蓉蓉\",\r\n    \"DescTw\": \"沈蓉蓉七分\"\r\n  }"
   rawIndex: 10224
   splits:
@@ -3574,7 +3348,6 @@
     qcReviewedText: "Shen Rongrong seven parts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10225\",\r\n    \"Name\": \"沈蓉蓉\",\r\n    \"Desc\": \"沈蓉蓉五分\",\r\n    \"NameTw\": \"沈蓉蓉\",\r\n    \"DescTw\": \"沈蓉蓉五分\"\r\n  }"
   rawIndex: 10225
   splits:
@@ -3590,7 +3363,6 @@
     qcReviewedText: "Shen Rongrong scored five points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10226\",\r\n    \"Name\": \"沈蓉蓉\",\r\n    \"Desc\": \"沈蓉蓉三分\",\r\n    \"NameTw\": \"沈蓉蓉\",\r\n    \"DescTw\": \"沈蓉蓉三分\"\r\n  }"
   rawIndex: 10226
   splits:
@@ -3606,7 +3378,6 @@
     qcReviewedText: "Shen Rongrong split three points"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"10227\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10227
   splits:
@@ -3622,7 +3393,6 @@
     qcReviewedText: "Jianghu People"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10228\",\r\n    \"Name\": \"石少康\",\r\n    \"Desc\": \"劫云石少康\",\r\n    \"NameTw\": \"石少康\",\r\n    \"DescTw\": \"劫雲石少康\"\r\n  }"
   rawIndex: 10228
   splits:
@@ -3638,7 +3408,6 @@
     qcReviewedText: "Thunderbolt Stone Shaokang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10229\",\r\n    \"Name\": \"唐纵\",\r\n    \"Desc\": \"比试武艺\",\r\n    \"NameTw\": \"唐縱\",\r\n    \"DescTw\": \"比試武藝\"\r\n  }"
   rawIndex: 10229
   splits:
@@ -3654,7 +3423,6 @@
     qcReviewedText: "Combat skill demonstration"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10230\",\r\n    \"Name\": \"唐兴\",\r\n    \"Desc\": \"演武比武\",\r\n    \"NameTw\": \"唐興\",\r\n    \"DescTw\": \"演武比武\"\r\n  }"
   rawIndex: 10230
   splits:
@@ -3670,7 +3438,6 @@
     qcReviewedText: "Martial arts contest"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10231\",\r\n    \"Name\": \"唐幺幺\",\r\n    \"Desc\": \"演武比武\",\r\n    \"NameTw\": \"唐么么\",\r\n    \"DescTw\": \"演武比武\"\r\n  }"
   rawIndex: 10231
   splits:
@@ -3686,7 +3453,6 @@
     qcReviewedText: "Martial arts contest"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10232\",\r\n    \"Name\": \"明达\",\r\n    \"Desc\": \"明达\",\r\n    \"NameTw\": \"明達\",\r\n    \"DescTw\": \"明達\"\r\n  }"
   rawIndex: 10232
   splits:
@@ -3696,14 +3462,12 @@
     qcReviewedText: "Mingda"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "明达"
     translated: "Mingda"
     qcReviewedText: "Mingda"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10233\",\r\n    \"Name\": \"卫悲\",\r\n    \"Desc\": \"卫悲\",\r\n    \"NameTw\": \"衛悲\",\r\n    \"DescTw\": \"衛悲\"\r\n  }"
   rawIndex: 10233
   splits:
@@ -3719,7 +3483,6 @@
     qcReviewedText: "Wei Bei"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10234\",\r\n    \"Name\": \"卢方侯平\",\r\n    \"Desc\": \"卢方侯平\",\r\n    \"NameTw\": \"盧方侯平\",\r\n    \"DescTw\": \"盧方侯平\"\r\n  }"
   rawIndex: 10234
   splits:
@@ -3735,7 +3498,6 @@
     qcReviewedText: "Lord Ping Peng of Lu Fang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10235\",\r\n    \"Name\": \"傅云飞\",\r\n    \"Desc\": \"傅云飞\",\r\n    \"NameTw\": \"傅雲飛\",\r\n    \"DescTw\": \"傅雲飛\"\r\n  }"
   rawIndex: 10235
   splits:
@@ -3751,7 +3513,6 @@
     qcReviewedText: "Fu Yunfei"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10236\",\r\n    \"Name\": \"傅云飞\",\r\n    \"Desc\": \"傅云飞\",\r\n    \"NameTw\": \"傅雲飛\",\r\n    \"DescTw\": \"傅雲飛\"\r\n  }"
   rawIndex: 10236
   splits:
@@ -3767,7 +3528,6 @@
     qcReviewedText: "Fu Yunfei"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10237\",\r\n    \"Name\": \"寇伏魔\",\r\n    \"Desc\": \"寇伏魔\",\r\n    \"NameTw\": \"寇伏魔\",\r\n    \"DescTw\": \"寇伏魔\"\r\n  }"
   rawIndex: 10237
   splits:
@@ -3783,7 +3543,6 @@
     qcReviewedText: "Foe Slayer Ku"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10238\",\r\n    \"Name\": \"唐矩\",\r\n    \"Desc\": \"唐矩\",\r\n    \"NameTw\": \"唐矩\",\r\n    \"DescTw\": \"唐矩\"\r\n  }"
   rawIndex: 10238
   splits:
@@ -3799,7 +3558,6 @@
     qcReviewedText: "Tang Ju"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10239\",\r\n    \"Name\": \"唐宝\",\r\n    \"Desc\": \"石破天惊\",\r\n    \"NameTw\": \"唐寶\",\r\n    \"DescTw\": \"石破天驚\"\r\n  }"
   rawIndex: 10239
   splits:
@@ -3815,7 +3573,6 @@
     qcReviewedText: "Astonishingly Earth‑Shattering"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10240\",\r\n    \"Name\": \"夏南屏\",\r\n    \"Desc\": \"夏南屏\",\r\n    \"NameTw\": \"夏南屏\",\r\n    \"DescTw\": \"夏南屏\"\r\n  }"
   rawIndex: 10240
   splits:
@@ -3831,7 +3588,6 @@
     qcReviewedText: "Xia Nanping"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10241\",\r\n    \"Name\": \"褚良玉\",\r\n    \"Desc\": \"褚良玉\",\r\n    \"NameTw\": \"褚良玉\",\r\n    \"DescTw\": \"褚良玉\"\r\n  }"
   rawIndex: 10241
   splits:
@@ -3847,7 +3603,6 @@
     qcReviewedText: "Chu Liangyu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10242\",\r\n    \"Name\": \"江惟远\",\r\n    \"Desc\": \"江惟远\",\r\n    \"NameTw\": \"江惟遠\",\r\n    \"DescTw\": \"江惟遠\"\r\n  }"
   rawIndex: 10242
   splits:
@@ -3863,7 +3618,6 @@
     qcReviewedText: "Jiang Wiyuan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10243\",\r\n    \"Name\": \"缪辟邪\",\r\n    \"Desc\": \"缪辟邪\",\r\n    \"NameTw\": \"繆辟邪\",\r\n    \"DescTw\": \"繆辟邪\"\r\n  }"
   rawIndex: 10243
   splits:
@@ -3879,7 +3633,6 @@
     qcReviewedText: "Miao Piye"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10244\",\r\n    \"Name\": \"白开泰\",\r\n    \"Desc\": \"白开泰\",\r\n    \"NameTw\": \"白開泰\",\r\n    \"DescTw\": \"白開泰\"\r\n  }"
   rawIndex: 10244
   splits:
@@ -3895,7 +3648,6 @@
     qcReviewedText: "Bai Kaitai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10245\",\r\n    \"Name\": \"洪通\",\r\n    \"Desc\": \"洪通\",\r\n    \"NameTw\": \"洪通\",\r\n    \"DescTw\": \"洪通\"\r\n  }"
   rawIndex: 10245
   splits:
@@ -3911,7 +3663,6 @@
     qcReviewedText: "Hong Tong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10246\",\r\n    \"Name\": \"封百水\",\r\n    \"Desc\": \"封百水\",\r\n    \"NameTw\": \"封百水\",\r\n    \"DescTw\": \"封百水\"\r\n  }"
   rawIndex: 10246
   splits:
@@ -3927,7 +3678,6 @@
     qcReviewedText: "Bind Water Hundred"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10247\",\r\n    \"Name\": \"吴换\",\r\n    \"Desc\": \"悬赏吴换\",\r\n    \"NameTw\": \"吳換\",\r\n    \"DescTw\": \"懸賞吳換\"\r\n  }"
   rawIndex: 10247
   splits:
@@ -3943,7 +3693,6 @@
     qcReviewedText: "Bounty on Wu Huan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10248\",\r\n    \"Name\": \"何旺\",\r\n    \"Desc\": \"悬赏何旺\",\r\n    \"NameTw\": \"何旺\",\r\n    \"DescTw\": \"懸賞何旺\"\r\n  }"
   rawIndex: 10248
   splits:
@@ -3959,7 +3708,6 @@
     qcReviewedText: "Bounty on He Wang"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10249\",\r\n    \"Name\": \"不空\",\r\n    \"Desc\": \"悬赏不空\",\r\n    \"NameTw\": \"不空\",\r\n    \"DescTw\": \"懸賞不空\"\r\n  }"
   rawIndex: 10249
   splits:
@@ -3975,7 +3723,6 @@
     qcReviewedText: "The bounty is never in vain"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10250\",\r\n    \"Name\": \"盗粮三鼠\",\r\n    \"Desc\": \"悬赏三鼠\",\r\n    \"NameTw\": \"盜糧三鼠\",\r\n    \"DescTw\": \"懸賞三鼠\"\r\n  }"
   rawIndex: 10250
   splits:
@@ -3991,7 +3738,6 @@
     qcReviewedText: "Bounty for three rats"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10251\",\r\n    \"Name\": \"邹云吾\",\r\n    \"Desc\": \"悬赏邹云吾\",\r\n    \"NameTw\": \"鄒雲吾\",\r\n    \"DescTw\": \"懸賞鄒雲吾\"\r\n  }"
   rawIndex: 10251
   splits:
@@ -4007,7 +3753,6 @@
     qcReviewedText: "Bounty on Zouyun Wu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10252\",\r\n    \"Name\": \"荣铁山\",\r\n    \"Desc\": \"悬赏荣铁山\",\r\n    \"NameTw\": \"榮鐵山\",\r\n    \"DescTw\": \"懸賞榮鐵山\"\r\n  }"
   rawIndex: 10252
   splits:
@@ -4023,7 +3768,6 @@
     qcReviewedText: "Bounty on Rong Teshan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10253\",\r\n    \"Name\": \"元阳子\",\r\n    \"Desc\": \"悬赏元阳子\",\r\n    \"NameTw\": \"元陽子\",\r\n    \"DescTw\": \"懸賞元陽子\"\r\n  }"
   rawIndex: 10253
   splits:
@@ -4039,7 +3783,6 @@
     qcReviewedText: "Bounty for Yang Yangzi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10254\",\r\n    \"Name\": \"富贵杀手\",\r\n    \"Desc\": \"富贵杀手\",\r\n    \"NameTw\": \"富貴殺手\",\r\n    \"DescTw\": \"富貴殺手\"\r\n  }"
   rawIndex: 10254
   splits:
@@ -4055,7 +3798,6 @@
     qcReviewedText: "Rich‑Seeking Assassin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10255\",\r\n    \"Name\": \"况天龙\",\r\n    \"Desc\": \"况天龙\",\r\n    \"NameTw\": \"況天龍\",\r\n    \"DescTw\": \"況天龍\"\r\n  }"
   rawIndex: 10255
   splits:
@@ -4071,7 +3813,6 @@
     qcReviewedText: "Sky Dragon Condition"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10256\",\r\n    \"Name\": \"苍狼\",\r\n    \"Desc\": \"苍狼\",\r\n    \"NameTw\": \"蒼狼\",\r\n    \"DescTw\": \"蒼狼\"\r\n  }"
   rawIndex: 10256
   splits:
@@ -4081,14 +3822,12 @@
     qcReviewedText: "Blue Wolf"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "苍狼"
     translated: "Blue Wolf"
     qcReviewedText: "Blue Wolf"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10257\",\r\n    \"Name\": \"山马\",\r\n    \"Desc\": \"一只山马\",\r\n    \"NameTw\": \"山馬\",\r\n    \"DescTw\": \"一隻山馬\"\r\n  }"
   rawIndex: 10257
   splits:
@@ -4105,7 +3844,6 @@
     qcTranslated: "A mountain horse"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"10258\",\r\n    \"Name\": \"殷破败\",\r\n    \"Desc\": \"殷破败\",\r\n    \"NameTw\": \"殷破敗\",\r\n    \"DescTw\": \"殷破敗\"\r\n  }"
   rawIndex: 10258
   splits:
@@ -4121,7 +3859,6 @@
     qcReviewedText: "Yin Pobai"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10259\",\r\n    \"Name\": \"山马\",\r\n    \"Desc\": \"两只山马\",\r\n    \"NameTw\": \"山馬\",\r\n    \"DescTw\": \"兩隻山馬\"\r\n  }"
   rawIndex: 10259
   splits:
@@ -4137,7 +3874,6 @@
     qcReviewedText: "Two mountain ponies"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10260\",\r\n    \"Name\": \"山贼\",\r\n    \"Desc\": \"三个山贼\",\r\n    \"NameTw\": \"山賊\",\r\n    \"DescTw\": \"三個山賊\"\r\n  }"
   rawIndex: 10260
   splits:
@@ -4153,7 +3889,33 @@
     qcReviewedText: "Three bandits on the mountain"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
+- raw: "{\r\n    \"Key\": \"10261\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"一只猿猴\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"一隻猿猴\"\r\n  }"
+  rawIndex: 10261
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "一只猿猴"
+    translated: "A monkey"
+- raw: "{\r\n    \"Key\": \"10262\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"两只猿猴\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"兩隻猿猴\"\r\n  }"
+  rawIndex: 10262
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "两只猿猴"
+    translated: "Two monkeys"
+- raw: "{\r\n    \"Key\": \"10263\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"一群猿猴\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"一群猿猴\"\r\n  }"
+  rawIndex: 10263
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "一群猿猴"
+    translated: "A group of monkeys"
 - raw: "{\r\n    \"Key\": \"20000\",\r\n    \"Name\": \"幻境珍兽\",\r\n    \"Desc\": \"无稽林\",\r\n    \"NameTw\": \"幻境珍獸\",\r\n    \"DescTw\": \"無稽林\"\r\n  }"
   rawIndex: 20000
   splits:
@@ -4169,7 +3931,6 @@
     qcReviewedText: "Unfounded Grove"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Name\": \"幻境仙子\",\r\n    \"Desc\": \"百兽林\",\r\n    \"NameTw\": \"幻境仙子\",\r\n    \"DescTw\": \"百獸林\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -4185,7 +3946,6 @@
     qcReviewedText: "Forest of a Hundred Beasts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20002\",\r\n    \"Name\": \"幻境麒麟\",\r\n    \"Desc\": \"百兽林\",\r\n    \"NameTw\": \"幻境麒麟\",\r\n    \"DescTw\": \"百獸林\"\r\n  }"
   rawIndex: 20002
   splits:
@@ -4201,7 +3961,6 @@
     qcReviewedText: "Forest of a Hundred Beasts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20003\",\r\n    \"Name\": \"幻境讹兽\",\r\n    \"Desc\": \"百兽林\",\r\n    \"NameTw\": \"幻境訛獸\",\r\n    \"DescTw\": \"百獸林\"\r\n  }"
   rawIndex: 20003
   splits:
@@ -4217,7 +3976,6 @@
     qcReviewedText: "Forest of a Hundred Beasts"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20011\",\r\n    \"Name\": \"黑熊怪\",\r\n    \"Desc\": \"灵珠西游\",\r\n    \"NameTw\": \"黑熊怪\",\r\n    \"DescTw\": \"靈珠西遊\"\r\n  }"
   rawIndex: 20011
   splits:
@@ -4233,7 +3991,6 @@
     qcReviewedText: "Jade Pearl Travels West"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20012\",\r\n    \"Name\": \"黄风怪\",\r\n    \"Desc\": \"灵珠西游\",\r\n    \"NameTw\": \"黃風怪\",\r\n    \"DescTw\": \"靈珠西遊\"\r\n  }"
   rawIndex: 20012
   splits:
@@ -4249,7 +4006,6 @@
     qcReviewedText: "Jade Pearl Travels West"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20013\",\r\n    \"Name\": \"白骨精\",\r\n    \"Desc\": \"灵珠西游\",\r\n    \"NameTw\": \"白骨精\",\r\n    \"DescTw\": \"靈珠西遊\"\r\n  }"
   rawIndex: 20013
   splits:
@@ -4265,7 +4021,6 @@
     qcReviewedText: "Jade Pearl Travels West"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20014\",\r\n    \"Name\": \"百眼魔君\",\r\n    \"Desc\": \"灵珠西游\",\r\n    \"NameTw\": \"百眼魔君\",\r\n    \"DescTw\": \"靈珠西遊\"\r\n  }"
   rawIndex: 20014
   splits:
@@ -4281,7 +4036,6 @@
     qcReviewedText: "Jade Pearl Travels West"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20015\",\r\n    \"Name\": \"黄眉老佛\",\r\n    \"Desc\": \"灵珠西游\",\r\n    \"NameTw\": \"黃眉老佛\",\r\n    \"DescTw\": \"靈珠西遊\"\r\n  }"
   rawIndex: 20015
   splits:
@@ -4297,4 +4051,3 @@
     qcReviewedText: "Jade Pearl Travels West"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None

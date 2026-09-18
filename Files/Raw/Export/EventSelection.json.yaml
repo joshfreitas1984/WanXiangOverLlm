@@ -561,13 +561,13 @@
     text: "帮助阮碧青"
   - splitPath: SelectionList[1]
     text: "帮助蒋疠夫"
-- raw: "{\r\n    \"Key\": \"1903000\",\r\n    \"Desc\": \"如何处置异蛇王？\",\r\n    \"SelectionList\": [\r\n      \"驯牧异蛇作为宠物\",\r\n      \"杀蛇取胆修炼内功\",\r\n      \"杀蛇取胆以做后用\",\r\n      \"驯牧异蛇赠阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處置異蛇王？\",\r\n    \"SelectionTwList\": [\r\n      \"馴牧異蛇作為寵物\",\r\n      \"殺蛇取膽修煉內功\",\r\n      \"殺蛇取膽以做後用\",\r\n      \"馴牧異蛇贈阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+- raw: "{\r\n    \"Key\": \"1903000\",\r\n    \"Desc\": \"如何处置异蛇王？\",\r\n    \"SelectionList\": [\r\n      \"驯牧异蛇以为助力\",\r\n      \"杀蛇取胆修炼内功\",\r\n      \"杀蛇取胆以做后用\",\r\n      \"驯牧异蛇赠阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"如何處置異蛇王？\",\r\n    \"SelectionTwList\": [\r\n      \"馴牧異蛇以為助力\",\r\n      \"殺蛇取膽修煉內功\",\r\n      \"殺蛇取膽以做後用\",\r\n      \"馴牧異蛇贈阮碧青\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 1903000
   splits:
   - splitPath: Desc
     text: "如何处置异蛇王？"
   - splitPath: SelectionList[0]
-    text: "驯牧异蛇作为宠物"
+    text: "驯牧异蛇以为助力"
   - splitPath: SelectionList[1]
     text: "杀蛇取胆修炼内功"
   - splitPath: SelectionList[2]
@@ -3066,6 +3066,15 @@
     template: "{0}\\n{1}"
   - splitPath: TipTextList[3]
     template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"7902200\",\r\n    \"Desc\": \"无赖欺压耍猴老乞丐，是否出手相助？\",\r\n    \"SelectionList\": [\r\n      \"出手相助\",\r\n      \"静观其变\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"無賴欺壓耍猴老乞丐，是否出手相助？\",\r\n    \"SelectionTwList\": [\r\n      \"出手相助\",\r\n      \"靜觀其變\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 7902200
+  splits:
+  - splitPath: Desc
+    text: "无赖欺压耍猴老乞丐，是否出手相助？"
+  - splitPath: SelectionList[0]
+    text: "出手相助"
+  - splitPath: SelectionList[1]
+    text: "静观其变"
 - raw: "{\r\n    \"Key\": \"7990200\",\r\n    \"Desc\": \"川中没有什么特别事情发生，如何选择？\",\r\n    \"SelectionList\": [\r\n      \"尝一尝川中特色的美味\",\r\n      \"逛一逛川中有趣的地方\",\r\n      \"还是不在这里耽误时间了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"川中沒有什麼特別事情發生，如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"嘗一嘗川中特色的美味\",\r\n      \"逛一逛川中有趣的地方\",\r\n      \"還是不在這裡耽誤時間了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7990200
   splits:
@@ -3140,5 +3149,14 @@
     text: "今日拜访蚩黎峒何事？"
   - splitPath: SelectionList[0]
     text: "喂养苍狼"
+  - splitPath: SelectionList[1]
+    text: "还是改日再来吧"
+- raw: "{\r\n    \"Key\": \"8460110\",\r\n    \"Desc\": \"今日拜访白猿寺何事？\",\r\n    \"SelectionList\": [\r\n      \"猿猴戏耍\",\r\n      \"还是改日再来吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日拜訪白猿寺何事？\",\r\n    \"SelectionTwList\": [\r\n      \"猿猴戲耍\",\r\n      \"還是改日再來吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8460110
+  splits:
+  - splitPath: Desc
+    text: "今日拜访白猿寺何事？"
+  - splitPath: SelectionList[0]
+    text: "猿猴戏耍"
   - splitPath: SelectionList[1]
     text: "还是改日再来吧"

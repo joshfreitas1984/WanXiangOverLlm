@@ -7,14 +7,12 @@
     qcReviewedText: "Instructions"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "剩余"
     translated: "Remaining"
     qcReviewedText: "Remaining {0} Dot"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
@@ -37,7 +35,6 @@
     qcReviewedText: "You haven't allocated all your attributes yet"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2\",\r\n    \"Desc\": \"提示\",\r\n    \"Dictionary\": \"第{0}年{1}月\",\r\n    \"DescTw\": \"提示\",\r\n    \"DictionaryTw\": \"第{0}年{1}月\"\r\n  }"
   rawIndex: 2
   splits:
@@ -47,7 +44,6 @@
     qcReviewedText: "Instructions"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "第"
     translated: "First"
@@ -55,7 +51,6 @@
     qcTranslated: "Year {0}, Month {1}"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Dictionary
     subIndex: 1
     text: "年"
@@ -76,14 +71,12 @@
     qcReviewedText: "Instructions"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "文"
     translated: "Wen"
     qcReviewedText: "{0} Wen"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -102,7 +95,6 @@
     qcReviewedText: "Not yet open"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5\",\r\n    \"Desc\": \"侠客界面无侠客提示\",\r\n    \"Dictionary\": \"尚未招募\",\r\n    \"DescTw\": \"俠客介面無俠客提示\",\r\n    \"DictionaryTw\": \"尚未招募\"\r\n  }"
   rawIndex: 5
   splits:
@@ -118,7 +110,6 @@
     qcReviewedText: "Not yet recruited"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"12\",\r\n    \"Dictionary\": \"解锁地图：{0}\",\r\n    \"DictionaryTw\": \"解鎖地圖：{0}\"\r\n  }"
   rawIndex: 12
   splits:
@@ -128,7 +119,6 @@
     qcReviewedText: "Unlock map：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -141,7 +131,6 @@
     qcReviewedText: "Close the map：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -154,7 +143,6 @@
     qcReviewedText: "Join a Sect：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -167,7 +155,6 @@
     qcReviewedText: "Leave the Sect：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -180,7 +167,6 @@
     qcReviewedText: "Learned Technique：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -193,7 +179,6 @@
     qcReviewedText: "Losing the martial arts technique：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -206,7 +191,6 @@
     qcReviewedText: "{0} Join the team"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -219,7 +203,6 @@
     qcReviewedText: "{0} Left the team"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -232,7 +215,6 @@
     qcReviewedText: "<color=#ff00ff>Additional Talent：{0}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#ff00ff>{0}：⟦0⟧</color>"
@@ -245,7 +227,6 @@
     qcReviewedText: "Expenditure {0} Training and experience"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "历练"
@@ -262,7 +243,6 @@
     qcReviewedText: "Expenditure {0} Coin"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "钱"
@@ -333,7 +313,6 @@
     qcReviewedText: "<color=#00ff00>Auto‑save</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>{0}</color>"
@@ -352,7 +331,6 @@
     qcReviewedText: "Stay tuned"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Dictionary\": \"解锁成就：{0}\",\r\n    \"DictionaryTw\": \"解鎖成就：{0}\"\r\n  }"
   rawIndex: 31
   splits:
@@ -362,7 +340,6 @@
     qcReviewedText: "Unlock achievement：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}：⟦0⟧"
@@ -375,7 +352,6 @@
     qcReviewedText: "Jianghu news purchase reminder"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "打听需花费"
     translated: "Inquiring will cost"
@@ -383,7 +359,6 @@
     qcTranslated: "<color=#00ff00>Inquiring costs {0} wen. You can keep three messages.</color>"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Dictionary
     subIndex: 1
     text: "文，可保留三条消息"
@@ -406,7 +381,6 @@
     qcReviewedText: "No new Jianghu news yet"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"34\",\r\n    \"Desc\": \"我方技能\",\r\n    \"Dictionary\": \"<color=#0088ff>{0}</color> 发动 <color=#ff8800>{1}</color>\",\r\n    \"DescTw\": \"我方技能\",\r\n    \"DictionaryTw\": \"<color=#0088ff>{0}</color> 發動 <color=#ff8800>{1}</color>\"\r\n  }"
   rawIndex: 34
   splits:
@@ -416,14 +390,12 @@
     qcReviewedText: "Our skills"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "Launch"
     qcReviewedText: "<color=#0088ff>{0}</color> Launch <color=#ff8800>{1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#0088ff>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
@@ -436,14 +408,12 @@
     qcReviewedText: "Enemy skill"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "Launch"
     qcReviewedText: "<color=#ff0000>{0}</color> Launch <color=#ff8800>{1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#ff0000>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
@@ -456,14 +426,12 @@
     qcReviewedText: "Our reinforcements are arriving"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "状态出现了"
     translated: "Status has appeared"
     qcReviewedText: "<color=#00ff00>{0}</color> Status has appeared"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>⟦0⟧</color> {0}"
@@ -476,14 +444,12 @@
     qcReviewedText: "Enemy reinforcement"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "状态出现了"
     translated: "Status has appeared"
     qcReviewedText: "<color=#00ff00>{0}</color> Status has appeared"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>⟦0⟧</color> {0}"
@@ -497,14 +463,12 @@
     qcTranslated: "Our side has a buff"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Dictionary
     text: "我方"
     translated: "Our side"
     qcReviewedText: "<color=#0088ff>Our side</color> Enter <color=#00ff00>{1}</color> Status"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "进入"
@@ -528,14 +492,12 @@
     qcTranslated: "Enemy buff"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     text: "进入"
     translated: "Enter"
     qcReviewedText: "<color=#ff0000>{0}</color> Enter <color=#00ff00>{1}</color> Status"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "状态"
@@ -554,7 +516,6 @@
     qcReviewedText: "Interrupt"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "的"
     translated: "Of"
@@ -562,7 +523,6 @@
     qcTranslated: "<color=#ff0000>{0}</color>'s <color=#ff8800>{1}</color> was interrupted"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "被打断了"
@@ -579,14 +539,12 @@
     qcReviewedText: "Support Skill"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "发动"
     translated: "Launch"
     qcReviewedText: "<color=#00ff00>{0}</color> Launch <color=#ff8800>{1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>⟦0⟧</color> {0} <color=#ff8800>⟦1⟧</color>"
@@ -599,14 +557,12 @@
     qcReviewedText: "Damage reduction"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "抵消了伤害"
     translated: "Canceled the damage"
     qcReviewedText: "<color=#00ff00>{0}</color> Canceled the damage"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>⟦0⟧</color> {0}"
@@ -625,7 +581,6 @@
     qcReviewedText: "Counter the opponent's strategy"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"44\",\r\n    \"Desc\": \"排除失败\",\r\n    \"Dictionary\": \"没有效果\",\r\n    \"DescTw\": \"排除失敗\",\r\n    \"DictionaryTw\": \"沒有效果\"\r\n  }"
   rawIndex: 44
   splits:
@@ -641,7 +596,6 @@
     qcReviewedText: "It didn't work"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"45\",\r\n    \"Desc\": \"buff清除成功\",\r\n    \"Dictionary\": \"异常被清除了\",\r\n    \"DescTw\": \"buff清除成功\",\r\n    \"DictionaryTw\": \"異常被清除了\"\r\n  }"
   rawIndex: 45
   splits:
@@ -651,14 +605,12 @@
     qcReviewedText: "buff Clearing successful"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "异常被清除了"
     translated: "Anomaly has been cleared"
     qcReviewedText: "Anomaly has been cleared"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "buff{0}"
@@ -671,14 +623,12 @@
     qcReviewedText: "buff Clearing failed"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "没有效果"
     translated: "It didn't work"
     qcReviewedText: "It didn't work"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "buff{0}"
@@ -691,14 +641,12 @@
     qcReviewedText: "Awaken from your slumber"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "解除"
     translated: "Remove"
     qcReviewedText: "Remove <color=#00ff00>Dazed </color>Status"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "失神"
@@ -719,7 +667,6 @@
     qcReviewedText: "Multiple interruptions"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "的功法被打断了"
     translated: "Their cultivation technique was interrupted"
@@ -727,7 +674,6 @@
     qcTranslated: "<color=#ff0000>{0}</color>'s cultivation technique was interrupted"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
   templates:
   - splitPath: Dictionary
     template: "<color=#ff0000>⟦0⟧</color> {0}"
@@ -740,14 +686,12 @@
     qcReviewedText: "combo Addition"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "连击追加"
     translated: "Combo extension"
     qcReviewedText: "Combo extension"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "combo{0}"
@@ -760,14 +704,12 @@
     qcReviewedText: "ap Reply"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "行动力恢复了"
     translated: "Action points have recovered"
     qcReviewedText: "Action points have recovered"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "ap{0}"
@@ -786,7 +728,6 @@
     qcReviewedText: "Strengthened the teammates"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"89\",\r\n    \"Desc\": \"会心技能\",\r\n    \"Dictionary\": \"队友进入了会心状态\",\r\n    \"DescTw\": \"會心技能\",\r\n    \"DictionaryTw\": \"隊友進入了會心狀態\"\r\n  }"
   rawIndex: 89
   splits:
@@ -797,14 +738,12 @@
     qcTranslated: "Critical Skill"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: DomainTerm
   - splitPath: Dictionary
     text: "队友进入了会心状态"
     translated: "The teammate entered a Critical Hit state"
     qcReviewedText: "The teammate entered a Critical Hit state"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"90\",\r\n    \"Desc\": \"连击\",\r\n    \"Dictionary\": \"队友进入了连击状态\",\r\n    \"DescTw\": \"連擊\",\r\n    \"DictionaryTw\": \"隊友進入了連擊狀態\"\r\n  }"
   rawIndex: 90
   splits:
@@ -814,14 +753,12 @@
     qcReviewedText: "Combo"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "队友进入了连击状态"
     translated: "Teammate entered the combo state"
     qcReviewedText: "Teammate entered the combo state"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"52\",\r\n    \"Desc\": \"速度\",\r\n    \"Dictionary\": \"点击切换战斗速度\",\r\n    \"DescTw\": \"速度\",\r\n    \"DictionaryTw\": \"點選切換戰鬥速度\"\r\n  }"
   rawIndex: 52
   splits:
@@ -837,7 +774,6 @@
     qcReviewedText: "Click to toggle battle speed"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"53\",\r\n    \"Desc\": \"行动力\",\r\n    \"Dictionary\": \"每回合补充2点，施展功法需要消耗行动力，行动力可累积至下回合继续使用\",\r\n    \"DescTw\": \"行動力\",\r\n    \"DictionaryTw\": \"每回合補充2點，施展功法需要消耗行動力，行動力可累積至下回合繼續使用\"\r\n  }"
   rawIndex: 53
   splits:
@@ -853,7 +789,6 @@
     qcReviewedText: "Each turn regains 2 points. Activating combat skills requires expending action points, which can be accumulated to use in the next turn."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"54\",\r\n    \"Desc\": \"防御\",\r\n    \"Dictionary\": \"点击施展战术“防御”，消耗1点行动力\",\r\n    \"DescTw\": \"防禦\",\r\n    \"DictionaryTw\": \"點選施展戰術“防禦”，消耗1點行動力\"\r\n  }"
   rawIndex: 54
   splits:
@@ -869,7 +804,6 @@
     qcReviewedText: "Click to deploy the tactic  “Defense” , consuming 1 Action Points."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"55\",\r\n    \"Desc\": \"结束回合\",\r\n    \"Dictionary\": \"结束玩家回合，切换为敌方行动\",\r\n    \"DescTw\": \"結束回合\",\r\n    \"DictionaryTw\": \"結束玩家回合，切換為敵方行動\"\r\n  }"
   rawIndex: 55
   splits:
@@ -885,7 +819,6 @@
     qcReviewedText: "End player turn and switch to enemy action."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"56\",\r\n    \"Desc\": \"重来\",\r\n    \"Dictionary\": \"重新开始本场战斗\",\r\n    \"DescTw\": \"重來\",\r\n    \"DictionaryTw\": \"重新開始本場戰鬥\"\r\n  }"
   rawIndex: 56
   splits:
@@ -901,7 +834,6 @@
     qcReviewedText: "Restart this battle session"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"57\",\r\n    \"Desc\": \"认输\",\r\n    \"Dictionary\": \"放弃本场战斗，战斗结果判定为失败\",\r\n    \"DescTw\": \"認輸\",\r\n    \"DictionaryTw\": \"放棄本場戰鬥，戰鬥結果判定為失敗\"\r\n  }"
   rawIndex: 57
   splits:
@@ -917,7 +849,6 @@
     qcReviewedText: "Abandon this battle; the result of the fight is deemed a failure."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"58\",\r\n    \"Desc\": \"行动力不足\",\r\n    \"Dictionary\": \"行动力不足\",\r\n    \"DescTw\": \"行動力不足\",\r\n    \"DictionaryTw\": \"行動力不足\"\r\n  }"
   rawIndex: 58
   splits:
@@ -933,7 +864,6 @@
     qcReviewedText: "Insufficient action points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"59\",\r\n    \"Desc\": \"防御叠满\",\r\n    \"Dictionary\": \"防御已提升至最高层\",\r\n    \"DescTw\": \"防禦疊滿\",\r\n    \"DictionaryTw\": \"防禦已提升至最高層\"\r\n  }"
   rawIndex: 59
   splits:
@@ -949,7 +879,6 @@
     qcReviewedText: "Defense has been raised to its highest level."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"60\",\r\n    \"Desc\": \"反伤（不要删换行符）\",\r\n    \"Dictionary\": \"\\\\n反伤\",\r\n    \"DescTw\": \"反傷（不要刪換行符）\",\r\n    \"DictionaryTw\": \"\\\\n反傷\"\r\n  }"
   rawIndex: 60
   splits:
@@ -960,14 +889,12 @@
     qcTranslated: "Thorns (do not remove line breaks)"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: DomainTerm
   - splitPath: Dictionary
     text: "反伤"
     translated: "Counter damage"
     qcReviewedText: "\\nCounter damage"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n{0}"
@@ -998,7 +925,6 @@
     qcReviewedText: "The name should have at most 20 characters."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"73\",\r\n    \"Dictionary\": \"放弃本场战斗可能进入结局，确定要放弃吗？\",\r\n    \"DictionaryTw\": \"放棄本場戰鬥可能進入結局，確定要放棄嗎？\"\r\n  }"
   rawIndex: 73
   splits:
@@ -1026,7 +952,6 @@
     qcReviewedText: "Obtained a treasure {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧"
@@ -1039,7 +964,6 @@
     qcReviewedText: "Lost the treasure {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧"
@@ -1061,7 +985,6 @@
     qcReviewedText: "\\n\\nPoints：{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n\\n{0}：⟦0⟧"
@@ -1074,7 +997,6 @@
     qcReviewedText: "\\n\\nClaim cultivation technique reward \\n{0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n\\n{0}\\n⟦0⟧"
@@ -1087,7 +1009,6 @@
     qcReviewedText: "Points are required to unlock this talent {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧"
@@ -1100,7 +1021,6 @@
     qcReviewedText: "<color=#00ffff>Quick save</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ffff>{0}</color>"
@@ -1114,7 +1034,6 @@
     qcTranslated: "This key has already been used by 【{0}】"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "使用"
@@ -1131,7 +1050,6 @@
     qcReviewedText: "{0} Cannot use at this difficulty level"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -1198,7 +1116,6 @@
     qcReviewedText: "Crush the conspiracy {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0} ⟦0⟧"
@@ -1211,7 +1128,6 @@
     qcReviewedText: "Friendship points {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0} ⟦0⟧"
@@ -1225,7 +1141,6 @@
     qcTranslated: "The character's image is locked. Check the guide in the bestiary for tips on how to unlock it."
     qcStatus: Corrected
     qcQualityScore: 82
-    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"97\",\r\n    \"Dictionary\": \"剧情中不可进入故事模式\",\r\n    \"DictionaryTw\": \"劇情中不可進入故事模式\"\r\n  }"
   rawIndex: 97
   splits:
@@ -1245,7 +1160,6 @@
     qcTranslated: "Story mode cannot be entered during combat"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Dictionary\": \"攻略已关闭，设置界面中可重新打开\",\r\n    \"DictionaryTw\": \"攻略已關閉，設定介面中可重新開啟\"\r\n  }"
   rawIndex: 99
   splits:
@@ -1309,7 +1223,6 @@
     qcReviewedText: "\\nIt is recommended to experience this feature after the game progresses to the eighth year."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n{0}"
@@ -1322,7 +1235,6 @@
     qcReviewedText: "<color=#00ff00>There's new gossip in the Jianghu</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#00ff00>{0}</color>"
@@ -1341,7 +1253,6 @@
     qcReviewedText: "No Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1000\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"异蛇\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"異蛇\"\r\n  }"
   rawIndex: 1000
   splits:
@@ -1357,7 +1268,6 @@
     qcReviewedText: "Strange Snake"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"江湖\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"江湖\"\r\n  }"
   rawIndex: 1001
   splits:
@@ -1373,7 +1283,6 @@
     qcReviewedText: "Jianghu"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1002\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"衡山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"衡山派\"\r\n  }"
   rawIndex: 1002
   splits:
@@ -1389,7 +1298,6 @@
     qcReviewedText: "Hengshan Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1003\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"武当派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"武當派\"\r\n  }"
   rawIndex: 1003
   splits:
@@ -1405,7 +1313,6 @@
     qcReviewedText: "Wudang Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1004\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"丐帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"丐幫\"\r\n  }"
   rawIndex: 1004
   splits:
@@ -1421,7 +1328,6 @@
     qcReviewedText: "Beggar Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1005\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"盘蛇谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"盤蛇谷\"\r\n  }"
   rawIndex: 1005
   splits:
@@ -1437,7 +1343,6 @@
     qcReviewedText: "Coiled Serpent Valley"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1006\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"洞庭帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"洞庭幫\"\r\n  }"
   rawIndex: 1006
   splits:
@@ -1453,7 +1358,6 @@
     qcReviewedText: "Dongting Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1007\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"君子庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"君子莊\"\r\n  }"
   rawIndex: 1007
   splits:
@@ -1469,7 +1373,6 @@
     qcReviewedText: "Gentlemen Manor"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1008\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"万寿帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"萬壽幫\"\r\n  }"
   rawIndex: 1008
   splits:
@@ -1485,7 +1388,6 @@
     qcReviewedText: "Longevity Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1009\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"永盛镖局\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"永盛鏢局\"\r\n  }"
   rawIndex: 1009
   splits:
@@ -1501,7 +1403,6 @@
     qcReviewedText: "Yongsheng Escort Agency"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1010\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"娄家寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"婁家寨\"\r\n  }"
   rawIndex: 1010
   splits:
@@ -1517,7 +1418,6 @@
     qcReviewedText: "Lou Family Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1011\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"六扇门\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"六扇門\"\r\n  }"
   rawIndex: 1011
   splits:
@@ -1533,7 +1433,6 @@
     qcReviewedText: "Six Doors"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1012\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"药王谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"藥王谷\"\r\n  }"
   rawIndex: 1012
   splits:
@@ -1549,7 +1448,6 @@
     qcReviewedText: "Medicine King Valley"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1013\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"天工谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"天工谷\"\r\n  }"
   rawIndex: 1013
   splits:
@@ -1565,7 +1463,6 @@
     qcReviewedText: "Heavenly Craft Valley"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1014\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"少林派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"少林派\"\r\n  }"
   rawIndex: 1014
   splits:
@@ -1581,7 +1478,6 @@
     qcReviewedText: "Shaolin Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1015\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"乱石寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"亂石寨\"\r\n  }"
   rawIndex: 1015
   splits:
@@ -1597,7 +1493,6 @@
     qcReviewedText: "Chaos Rock Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1016\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"澜沧派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"瀾滄派\"\r\n  }"
   rawIndex: 1016
   splits:
@@ -1613,7 +1508,6 @@
     qcReviewedText: "Lancang Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1017\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"神农帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"神農幫\"\r\n  }"
   rawIndex: 1017
   splits:
@@ -1629,7 +1523,6 @@
     qcReviewedText: "Shennong Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1018\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"青城派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"青城派\"\r\n  }"
   rawIndex: 1018
   splits:
@@ -1645,7 +1538,6 @@
     qcReviewedText: "Qingcheng Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1019\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"崆峒派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"崆峒派\"\r\n  }"
   rawIndex: 1019
   splits:
@@ -1661,7 +1553,6 @@
     qcReviewedText: "Kongtong Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1020\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"昆仑派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"崑崙派\"\r\n  }"
   rawIndex: 1020
   splits:
@@ -1677,7 +1568,6 @@
     qcReviewedText: "Kunlun Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1021\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"崂山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"嶗山派\"\r\n  }"
   rawIndex: 1021
   splits:
@@ -1693,7 +1583,6 @@
     qcReviewedText: "Laoshan Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1022\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"华山派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"華山派\"\r\n  }"
   rawIndex: 1022
   splits:
@@ -1709,7 +1598,6 @@
     qcReviewedText: "Huashan Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1023\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"六合帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"六合幫\"\r\n  }"
   rawIndex: 1023
   splits:
@@ -1725,7 +1613,6 @@
     qcReviewedText: "Six Harmonies Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1024\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"墨门\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"墨門\"\r\n  }"
   rawIndex: 1024
   splits:
@@ -1741,7 +1628,6 @@
     qcReviewedText: "Mo School"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1025\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"点苍派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"點蒼派\"\r\n  }"
   rawIndex: 1025
   splits:
@@ -1757,7 +1643,6 @@
     qcReviewedText: "Diancang Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1026\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"藏剑山庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"藏劍山莊\"\r\n  }"
   rawIndex: 1026
   splits:
@@ -1773,7 +1658,6 @@
     qcReviewedText: "Hidden Sword Manor"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1027\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"挂锤庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"掛錘莊\"\r\n  }"
   rawIndex: 1027
   splits:
@@ -1789,7 +1673,6 @@
     qcReviewedText: "Hanging Hammer Manor"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1028\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"争雄帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"爭雄幫\"\r\n  }"
   rawIndex: 1028
   splits:
@@ -1805,7 +1688,6 @@
     qcReviewedText: "Striving Heroes Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1029\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"老君观\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"老君觀\"\r\n  }"
   rawIndex: 1029
   splits:
@@ -1821,7 +1703,6 @@
     qcReviewedText: "Laojun Temple"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1030\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"金睛派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"金睛派\"\r\n  }"
   rawIndex: 1030
   splits:
@@ -1837,7 +1718,6 @@
     qcReviewedText: "Golden Eye Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1031\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"听风阁\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"聽風閣\"\r\n  }"
   rawIndex: 1031
   splits:
@@ -1853,7 +1733,6 @@
     qcReviewedText: "Wind Listening Pavilion"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1032\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"飞鱼帮\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"飛魚幫\"\r\n  }"
   rawIndex: 1032
   splits:
@@ -1869,7 +1748,6 @@
     qcReviewedText: "Flying Fish Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1033\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"密宗\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"密宗\"\r\n  }"
   rawIndex: 1033
   splits:
@@ -1885,7 +1763,6 @@
     qcReviewedText: "Esoteric Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1034\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"铁衣寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"鐵衣寨\"\r\n  }"
   rawIndex: 1034
   splits:
@@ -1901,7 +1778,6 @@
     qcReviewedText: "Iron Garb Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1035\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"祝家寨\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"祝家寨\"\r\n  }"
   rawIndex: 1035
   splits:
@@ -1917,7 +1793,6 @@
     qcReviewedText: "Zhu Family Stronghold"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1036\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"洗墨山庄\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"洗墨山莊\"\r\n  }"
   rawIndex: 1036
   splits:
@@ -1933,7 +1808,6 @@
     qcReviewedText: "Washing Ink Villa"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1037\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"浣花派\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"浣花派\"\r\n  }"
   rawIndex: 1037
   splits:
@@ -1949,7 +1823,6 @@
     qcReviewedText: "Wanhuapa"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1038\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"唐门\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"唐門\"\r\n  }"
   rawIndex: 1038
   splits:
@@ -1965,7 +1838,6 @@
     qcReviewedText: "Tang Clan"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1039\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"武侯祠\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"武侯祠\"\r\n  }"
   rawIndex: 1039
   splits:
@@ -1981,7 +1853,6 @@
     qcReviewedText: "Martial Hall Shrine"
     qcStatus: Passed
     flaggedForQcReview: true
-    qcDefectCategory: Uncertain
 - raw: "{\r\n    \"Key\": \"1040\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"神女宫\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"神女宮\"\r\n  }"
   rawIndex: 1040
   splits:
@@ -1997,7 +1868,6 @@
     qcReviewedText: "Sage Maiden Palace"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1041\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"蚩黎峒\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"蚩黎峒\"\r\n  }"
   rawIndex: 1041
   splits:
@@ -2013,7 +1883,6 @@
     qcReviewedText: "Chi Li Dong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1901\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"天魔教\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"天魔教\"\r\n  }"
   rawIndex: 1901
   splits:
@@ -2029,7 +1898,6 @@
     qcReviewedText: "Heavenly Demon Sect"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1902\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"恶人谷\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"惡人谷\"\r\n  }"
   rawIndex: 1902
   splits:
@@ -2045,7 +1913,6 @@
     qcReviewedText: "Villains Valley"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1903\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"宁王府\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"寧王府\"\r\n  }"
   rawIndex: 1903
   splits:
@@ -2061,7 +1928,6 @@
     qcReviewedText: "Peaceful King Manor"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1958\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"伊贺流\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"伊賀流\"\r\n  }"
   rawIndex: 1958
   splits:
@@ -2077,7 +1943,6 @@
     qcReviewedText: "Iga School"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1959\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"甲贺流\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"甲賀流\"\r\n  }"
   rawIndex: 1959
   splits:
@@ -2093,7 +1958,6 @@
     qcReviewedText: "Koga School"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1960\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"漠武帐\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"漠武帳\"\r\n  }"
   rawIndex: 1960
   splits:
@@ -2109,7 +1973,6 @@
     qcReviewedText: "Desert Martial Camp"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1961\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"广厦\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"廣廈\"\r\n  }"
   rawIndex: 1961
   splits:
@@ -2125,7 +1988,6 @@
     qcReviewedText: "Grand Hall"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1962\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"无为教\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"無為教\"\r\n  }"
   rawIndex: 1962
   splits:
@@ -2141,7 +2003,6 @@
     qcReviewedText: "Wuwei Cult"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1995\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"传说\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"傳說\"\r\n  }"
   rawIndex: 1995
   splits:
@@ -2157,7 +2018,6 @@
     qcReviewedText: "Legend"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1996\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"幻兽\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"幻獸\"\r\n  }"
   rawIndex: 1996
   splits:
@@ -2173,7 +2033,6 @@
     qcReviewedText: "Phantom Beast"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1997\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"动物\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"動物\"\r\n  }"
   rawIndex: 1997
   splits:
@@ -2189,7 +2048,6 @@
     qcReviewedText: "Animals"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1998\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"机关\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"機關\"\r\n  }"
   rawIndex: 1998
   splits:
@@ -2205,7 +2063,6 @@
     qcReviewedText: "Mechanism"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2000\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"剑法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"劍法\"\r\n  }"
   rawIndex: 2000
   splits:
@@ -2221,7 +2078,6 @@
     qcReviewedText: "Sword Art"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2001\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"掌法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"掌法\"\r\n  }"
   rawIndex: 2001
   splits:
@@ -2237,7 +2093,6 @@
     qcReviewedText: "Palm technique"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2002\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"内功\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"內功\"\r\n  }"
   rawIndex: 2002
   splits:
@@ -2253,7 +2108,6 @@
     qcReviewedText: "Neigong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2003\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"轻功\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"輕功\"\r\n  }"
   rawIndex: 2003
   splits:
@@ -2269,7 +2123,6 @@
     qcReviewedText: "Qinggong"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2004\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"笔法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"筆法\"\r\n  }"
   rawIndex: 2004
   splits:
@@ -2285,7 +2138,6 @@
     qcReviewedText: "Calligraphy technique"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2005\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"刀法\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"刀法\"\r\n  }"
   rawIndex: 2005
   splits:
@@ -2301,7 +2153,6 @@
     qcReviewedText: "Blade Art"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2006\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"奇术\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"奇術\"\r\n  }"
   rawIndex: 2006
   splits:
@@ -2318,7 +2169,6 @@
     qcTranslated: "Mystic Arts"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"2007\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"棍棒\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"棍棒\"\r\n  }"
   rawIndex: 2007
   splits:
@@ -2334,7 +2184,6 @@
     qcReviewedText: "Staff"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2008\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"毒术\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"毒術\"\r\n  }"
   rawIndex: 2008
   splits:
@@ -2350,7 +2199,6 @@
     qcReviewedText: "Poison"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2009\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"御兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"御獸\"\r\n  }"
   rawIndex: 2009
   splits:
@@ -2366,7 +2214,6 @@
     qcReviewedText: "Beast Taming"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2010\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"异兽\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"異獸\"\r\n  }"
   rawIndex: 2010
   splits:
@@ -2382,7 +2229,6 @@
     qcReviewedText: "Strange Beast"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2011\",\r\n    \"Desc\": \"武功类型\",\r\n    \"Dictionary\": \"火器\",\r\n    \"DescTw\": \"武功型別\",\r\n    \"DictionaryTw\": \"火器\"\r\n  }"
   rawIndex: 2011
   splits:
@@ -2398,7 +2244,6 @@
     qcReviewedText: "Firearms"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2199\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"初学\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"初學\"\r\n  }"
   rawIndex: 2199
   splits:
@@ -2414,7 +2259,6 @@
     qcReviewedText: "Beginner"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2200\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"入门\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"入門\"\r\n  }"
   rawIndex: 2200
   splits:
@@ -2430,7 +2274,6 @@
     qcReviewedText: "Introduction"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2201\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"精通\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"精通\"\r\n  }"
   rawIndex: 2201
   splits:
@@ -2446,7 +2289,6 @@
     qcReviewedText: "Proficiency"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2202\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"高手\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"高手\"\r\n  }"
   rawIndex: 2202
   splits:
@@ -2462,7 +2304,6 @@
     qcReviewedText: "Skilled Warrior"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2203\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"大师\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"大師\"\r\n  }"
   rawIndex: 2203
   splits:
@@ -2478,7 +2319,6 @@
     qcReviewedText: "Master"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2204\",\r\n    \"Desc\": \"技艺\",\r\n    \"Dictionary\": \"宗师\",\r\n    \"DescTw\": \"技藝\",\r\n    \"DictionaryTw\": \"宗師\"\r\n  }"
   rawIndex: 2204
   splits:
@@ -2494,7 +2334,6 @@
     qcReviewedText: "Master"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2250\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"籍贯\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"籍貫\"\r\n  }"
   rawIndex: 2250
   splits:
@@ -2510,7 +2349,6 @@
     qcReviewedText: "Hometown"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2251\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"身世\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"身世\"\r\n  }"
   rawIndex: 2251
   splits:
@@ -2526,7 +2364,6 @@
     qcReviewedText: "Background"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2252\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"天赋\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"天賦\"\r\n  }"
   rawIndex: 2252
   splits:
@@ -2542,7 +2379,6 @@
     qcReviewedText: "Talent"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2253\",\r\n    \"Desc\": \"天赋类型\",\r\n    \"Dictionary\": \"奇遇\",\r\n    \"DescTw\": \"天賦型別\",\r\n    \"DictionaryTw\": \"奇遇\"\r\n  }"
   rawIndex: 2253
   splits:
@@ -2558,7 +2394,6 @@
     qcReviewedText: "Fortune"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2301\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"大宗师\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"大宗師\"\r\n  }"
   rawIndex: 2301
   splits:
@@ -2574,7 +2409,6 @@
     qcReviewedText: "Grandmaster"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2302\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"宗师\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"宗師\"\r\n  }"
   rawIndex: 2302
   splits:
@@ -2590,7 +2424,6 @@
     qcReviewedText: "Master"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2303\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"一流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"一流\"\r\n  }"
   rawIndex: 2303
   splits:
@@ -2606,7 +2439,6 @@
     qcReviewedText: "Top‑notch"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2304\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"二流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"二流\"\r\n  }"
   rawIndex: 2304
   splits:
@@ -2622,7 +2454,6 @@
     qcReviewedText: "Second‑rate"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2305\",\r\n    \"Desc\": \"境界\",\r\n    \"Dictionary\": \"三流\",\r\n    \"DescTw\": \"境界\",\r\n    \"DictionaryTw\": \"三流\"\r\n  }"
   rawIndex: 2305
   splits:
@@ -2638,7 +2469,6 @@
     qcReviewedText: "Third‑rate"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3000\",\r\n    \"Dictionary\": \"衡山剑法\",\r\n    \"DictionaryTw\": \"衡山劍法\"\r\n  }"
   rawIndex: 3000
   splits:
@@ -2657,14 +2487,12 @@
     qcReviewedText: "Lifeforce+3000"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "娜迦圣血"
     translated: "Naga Holy Blood"
     qcReviewedText: "Naga Holy Blood"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+3000"
@@ -2677,14 +2505,12 @@
     qcReviewedText: "Power+300"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "仙人酿"
     translated: "Immortal Brew"
     qcReviewedText: "Immortal Brew"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}+300"
@@ -2733,7 +2559,6 @@
     qcReviewedText: "Hengshan Heart Method"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3008\",\r\n    \"Dictionary\": \"回雁功\",\r\n    \"DictionaryTw\": \"回雁功\"\r\n  }"
   rawIndex: 3008
   splits:
@@ -2743,7 +2568,6 @@
     qcReviewedText: "Feiyu Skill"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3009\",\r\n    \"Dictionary\": \"九流奇功\",\r\n    \"DictionaryTw\": \"九流奇功\"\r\n  }"
   rawIndex: 3009
   splits:
@@ -2753,7 +2577,6 @@
     qcReviewedText: "Nine Strange Arts of the Nine Schools"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3010\",\r\n    \"Dictionary\": \"雁行诀\",\r\n    \"DictionaryTw\": \"雁行訣\"\r\n  }"
   rawIndex: 3010
   splits:
@@ -2799,7 +2622,6 @@
     qcReviewedText: "Fisherman and Woodcutter's Sword Song"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3015\",\r\n    \"Dictionary\": \"五峰叠掌\",\r\n    \"DictionaryTw\": \"五峰疊掌\"\r\n  }"
   rawIndex: 3015
   splits:
@@ -2854,7 +2676,6 @@
     qcReviewedText: "Unlock Beginner's Guide to Gambling (≥40), when rolling a pair, base points increase to 200, but a pair does not exempt you from Fate."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "锦上添花"
     translated: "Adding insult to injury"
@@ -2862,7 +2683,6 @@
     qcTranslated: "Gilding the lily"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"10002\",\r\n    \"Desc\": \"赌术精通（≥80）解锁，当掷出普通得分（非对子、顺子、豹子）组合时，按点数组合的15倍得分。\",\r\n    \"Dictionary\": \"返璞归真\",\r\n    \"DescTw\": \"賭術精通（≥80）解鎖，當擲出普通得分（非對子、順子、豹子）組合時，按點陣列合的15倍得分。\",\r\n    \"DictionaryTw\": \"返璞歸真\"\r\n  }"
   rawIndex: 10002
   splits:
@@ -2872,14 +2692,12 @@
     qcReviewedText: "Expertise in Gambling (≥80) unlocked: When rolling a standard score (not doubles, sequence, or triplets), earn 15 times the point combination score."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "返璞归真"
     translated: "Return to simplicity"
     qcReviewedText: "Return to simplicity"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10003\",\r\n    \"Desc\": \"赌术高手（≥120）解锁，当你选择“孤注一掷”时，本轮得点翻倍，但“劫数”出现概率也翻倍，且若出现“劫数”，之前累积的点数将全部清空,每局只能使用一次\",\r\n    \"Dictionary\": \"孤注一掷\",\r\n    \"DescTw\": \"賭術高手（≥120）解鎖，當你選擇“孤注一擲”時，本輪得點翻倍，但“劫數”出現概率也翻倍，且若出現“劫數”，之前累積的點數將全部清空,每局只能使用一次\",\r\n    \"DictionaryTw\": \"孤注一擲\"\r\n  }"
   rawIndex: 10003
   splits:
@@ -2889,7 +2707,6 @@
     qcReviewedText: "Unlock Gambling Master (≥120): When you choose All‑In, your points for this round double, but the probability of Fate's Wrath appearing also doubles. If Fate's Wrath does appear, all previously accumulated points will be reset to zero.,Can only be used once per game session."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "每局只能使用一次"
@@ -2900,7 +2717,6 @@
     qcReviewedText: "All‑in"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0},{1}"
@@ -2913,14 +2729,12 @@
     qcReviewedText: "Unlock when reaching Master of Gambling ≥ 160. When a calamity appears in the current round, you can convert it into 1 to prevent your points from being reset. This can only be used once per game and is not available in All‑In state.)"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "颠倒乾坤"
     translated: "Invert Heaven and Earth"
     qcReviewedText: "Invert Heaven and Earth"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10005\",\r\n    \"Desc\": \"赌术宗师（=200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次\",\r\n    \"Dictionary\": \"天地同寂\",\r\n    \"DescTw\": \"賭術宗師（=200）解鎖，回合開始時可選擇，清空自己和對手的點數，每局只能使用一次\",\r\n    \"DictionaryTw\": \"天地同寂\"\r\n  }"
   rawIndex: 10005
   splits:
@@ -2931,7 +2745,6 @@
     qcTranslated: "Master of Gambling (200) unlocked. Can be selected at the start of a turn to clear both your and your opponent's points. Usable once per match."
     qcStatus: Corrected
     qcQualityScore: 82
-    qcDefectCategory: HardToParseSeam
   - splitPath: Desc
     subIndex: 1
     text: "200）解锁，回合开始时可选择，清空自己和对手的点数，每局只能使用一次"
@@ -2942,7 +2755,6 @@
     qcReviewedText: "Heaven and earth share the same silence"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}={1}"
@@ -2955,14 +2767,12 @@
     qcReviewedText: "Start our turn"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始我方回合"
     translated: "Start our turn"
     qcReviewedText: "\\n<color=#63D47F>Start our turn：</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n<color=#63D47F>{0}：</color>"
@@ -2975,14 +2785,12 @@
     qcReviewedText: "Begin the opponent's turn"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始对方回合"
     translated: "Begin the opponent's turn"
     qcReviewedText: "\\n<color=#D46963>Begin the opponent's turn：</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "\\n<color=#D46963>{0}：</color>"
@@ -2996,7 +2804,6 @@
     qcTranslated: "{0}'s skill <color=#FFD26E>{1}</color> has taken effect, granting the son a fixed 200 points."
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "产生了效果，对子可获得固定200点"
@@ -3014,7 +2821,6 @@
     qcTranslated: "{0}'s skill <color=#FFD26E>{1}</color> triggered an effect, scoring 15 times the points based on the combination."
     qcStatus: Corrected
     qcQualityScore: 82
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "产生了效果，按点数组合的15倍得分"
@@ -3031,7 +2837,6 @@
     qcReviewedText: "{0} Used <color=#FFD26E>{1}</color>, Both sides' points reset to zero"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "，双方点数清零"
@@ -3048,7 +2853,6 @@
     qcReviewedText: "{0} Used <color=#FFD26E>{1}</color>, Fate Reset"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "，劫数重置"
@@ -3065,7 +2869,6 @@
     qcReviewedText: "{0} Used <color=#FFD26E>{1}</color>, Double points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "，点数翻倍"
@@ -3082,7 +2885,6 @@
     qcReviewedText: "First {0} Turn,{1} Cast Fateful Calamity,<color=#FFD26E>{2}</color> Resulting in all accumulated points being reset to zero, end of turn."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -3107,7 +2909,6 @@
     qcReviewedText: "{0} Cast Fateful Calamity,<color=#FFD26E>{1}</color> Resulting in all accumulated points being reset to zero"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "导致累积点数全部清零"
@@ -3130,7 +2931,6 @@
     qcReviewedText: "Begin throwing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10111\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"就这样吧\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"就這樣吧\"\r\n  }"
   rawIndex: 10111
   splits:
@@ -3146,7 +2946,6 @@
     qcReviewedText: "That's it then"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10112\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"继续挑战\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"繼續挑戰\"\r\n  }"
   rawIndex: 10112
   splits:
@@ -3162,7 +2961,6 @@
     qcReviewedText: "Continue the challenge"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10113\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"到此为止\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"到此為止\"\r\n  }"
   rawIndex: 10113
   splits:
@@ -3178,7 +2976,6 @@
     qcReviewedText: "That's it for now"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10114\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"进入下一局\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"進入下一局\"\r\n  }"
   rawIndex: 10114
   splits:
@@ -3194,7 +2991,6 @@
     qcReviewedText: "Enter the next round"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10115\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"大获全胜\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"大獲全勝\"\r\n  }"
   rawIndex: 10115
   splits:
@@ -3210,7 +3006,6 @@
     qcReviewedText: "Total victory"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10116\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"继续投掷\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"繼續投擲\"\r\n  }"
   rawIndex: 10116
   splits:
@@ -3226,7 +3021,6 @@
     qcReviewedText: "Keep throwing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10117\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"见好就收\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"見好就收\"\r\n  }"
   rawIndex: 10117
   splits:
@@ -3243,7 +3037,6 @@
     qcTranslated: "Take the win and leave"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: LostIdiom
 - raw: "{\r\n    \"Key\": \"10118\",\r\n    \"Desc\": \"玩家选项\",\r\n    \"Dictionary\": \"再次挑战\",\r\n    \"DescTw\": \"玩家選項\",\r\n    \"DictionaryTw\": \"再次挑戰\"\r\n  }"
   rawIndex: 10118
   splits:
@@ -3259,7 +3052,6 @@
     qcReviewedText: "Challenge again"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10120\",\r\n    \"Desc\": \"AI行为\",\r\n    \"Dictionary\": \"{0}开始投掷\",\r\n    \"DescTw\": \"AI行為\",\r\n    \"DictionaryTw\": \"{0}開始投擲\"\r\n  }"
   rawIndex: 10120
   splits:
@@ -3269,14 +3061,12 @@
     qcReviewedText: "AI Behavior"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "开始投掷"
     translated: "Begin throwing"
     qcReviewedText: "{0} Begin throwing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "AI{0}"
@@ -3291,14 +3081,12 @@
     qcReviewedText: "AI Behavior"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "选择继续投掷"
     translated: "Choose to continue throwing"
     qcReviewedText: "{0} Choose to continue throwing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "AI{0}"
@@ -3313,14 +3101,12 @@
     qcReviewedText: "AI Behavior"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "选择停止投掷"
     translated: "Choose to stop throwing"
     qcReviewedText: "{0} Choose to stop throwing"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "AI{0}"
@@ -3335,14 +3121,12 @@
     qcReviewedText: "AI Behavior note"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "使用了"
     translated: "Used"
     qcReviewedText: "{0} Used <color=#FFD26E>{1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "AI{0}note"
@@ -3357,14 +3141,12 @@
     qcReviewedText: "A reward"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "拿出了"
     translated: "Took out"
     qcReviewedText: "<color=#B7A97C>{0} Took out {1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>⟦0⟧{0}⟦1⟧</color>"
@@ -3377,14 +3159,12 @@
     qcReviewedText: "Multiple rewards"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "又拿出了"
     translated: "Took out again"
     qcReviewedText: "<color=#B7A97C>{0} Took out again {1}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>⟦0⟧{0}⟦1⟧</color>"
@@ -3397,14 +3177,12 @@
     qcReviewedText: "Skill reward"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "似乎拿出了不得了的功法作为赌注"
     translated: "Seems to be betting an extraordinary martial art technique as stakes."
     qcReviewedText: "<color=#B7A97C>{0} Seems to be betting an extraordinary martial art technique as stakes.</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>⟦0⟧{0}</color>"
@@ -3417,14 +3195,12 @@
     qcReviewedText: "Treasure reward"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "似乎拿出了不得了的宝物作为赌注"
     translated: "Seems to have put something extraordinary up as stakes."
     qcReviewedText: "<color=#B7A97C>{0} Seems to have put something extraordinary up as stakes.</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>⟦0⟧{0}</color>"
@@ -3437,14 +3213,12 @@
     qcReviewedText: "No reward"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "已经没有什么可以输给你的了"
     translated: "I have nothing left to lose against you."
     qcReviewedText: "{0} I have nothing left to lose against you."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -3463,7 +3237,6 @@
     qcReviewedText: "You no longer have enough wealth to continue playing."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10135\",\r\n    \"Dictionary\": \"我方回合\",\r\n    \"DictionaryTw\": \"我方回合\"\r\n  }"
   rawIndex: 10135
   splits:
@@ -3491,7 +3264,6 @@
     qcReviewedText: "Point calculation text"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "第"
     translated: "First"
@@ -3499,7 +3271,6 @@
     qcTranslated: "Round {0}, {1} rolled {2} to earn {3} points (base {4} x multiplier {5})"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -3533,7 +3304,6 @@
     qcTranslated: "{0} rolled {1} points"
     qcStatus: Corrected
     qcQualityScore: 92
-    qcDefectCategory: DomainTerm
   - splitPath: Dictionary
     subIndex: 1
     text: "点"
@@ -3551,7 +3321,6 @@
     qcTranslated: "Round {0}, {1} threw Fateful Calamity, this round's points reset to zero, turn ends."
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Dictionary
     subIndex: 1
     text: "轮，"
@@ -3573,7 +3342,6 @@
     qcTranslated: "{0} threw Destiny's Trial; points for this round are cleared to zero."
     qcStatus: Corrected
     qcQualityScore: 82
-    qcDefectCategory: HardToParseSeam
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -3586,7 +3354,6 @@
     qcReviewedText: "{0} Used <color=#FFD26E>{1}</color>, Has thrown {2} Dot"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "，投出了"
@@ -3607,14 +3374,12 @@
     qcReviewedText: "Chance of encountering a calamity"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     text: "出现概率"
     translated: "Probability of appearance"
     qcReviewedText: "Probability of appearance {0}%"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "{0}⟦0⟧%"
@@ -3627,7 +3392,6 @@
     qcReviewedText: "No Fated Calamity gained {0} Multiplier points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "倍点数"
@@ -3645,7 +3409,6 @@
     qcTranslated: "Round {0}/{1}"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
   - splitPath: Dictionary
     subIndex: 1
     text: "局"
@@ -3662,7 +3425,6 @@
     qcReviewedText: "Current bet {0} Wen"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "文"
@@ -3679,7 +3441,6 @@
     qcReviewedText: "{0} Victory"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}"
@@ -3692,7 +3453,6 @@
     qcReviewedText: "{0} Won {1} {2}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}⟦1⟧⟦2⟧"
@@ -3705,7 +3465,6 @@
     qcReviewedText: "{0} Won {1} Of <color=#B7A97C>{2}</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Dictionary
     subIndex: 1
     text: "的"
@@ -3722,7 +3481,6 @@
     qcReviewedText: "<color=#B7A97C>The other party seems to have quite a bit of wealth.</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "<color=#B7A97C>{0}</color>"
@@ -3753,7 +3511,6 @@
     qcReviewedText: "{0} Used {1}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Dictionary
     template: "⟦0⟧{0}⟦1⟧"
@@ -3767,7 +3524,6 @@
     qcTranslated: "Gambling ≥{0} required to defeat the opponent decisively"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: HardToParseSeam
   - splitPath: Dictionary
     subIndex: 1
     text: "方可通杀对手"
@@ -3793,7 +3549,6 @@
     qcReviewedText: "When your Gambling skill is equal to or greater than your opponent's, you can choose to defeat them outright and claim all the rewards."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10303\",\r\n    \"Dictionary\": \"你打算与谁较量一番？\",\r\n    \"DictionaryTw\": \"你打算與誰較量一番？\"\r\n  }"
   rawIndex: 10303
   splits:
@@ -3813,7 +3568,6 @@
     qcTranslated: "{0} (Gambling {1} can sweep the board)"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: LostIdiom
   - splitPath: Dictionary
     subIndex: 1
     text: "可通杀）"
@@ -3849,7 +3603,6 @@
     qcTranslated: "Check this option to hide the Wanderers and display treasures only."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
 - raw: "{\r\n    \"Key\": \"10308\",\r\n    \"Dictionary\": \"勾选此选项后，将隐藏已解锁的侠客、宝物。\",\r\n    \"DictionaryTw\": \"勾選此選項後，將隱藏已解鎖的俠客、寶物。\"\r\n  }"
   rawIndex: 10308
   splits:

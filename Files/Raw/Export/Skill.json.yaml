@@ -1781,7 +1781,7 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+10"
-- raw: "{\r\n    \"Key\": \"1190\",\r\n    \"Name\": \"异蛇王\",\r\n    \"Desc\": \"[异蛇王]支援战斗\",\r\n    \"EchoName\": \"异蛇王\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【助战】\\\\n召唤宠物【异蛇王】。异蛇王单次攻击造成3000点+21倍御兽伤害，发动几率100%；并有40%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择驯牧获得。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[異蛇王]支援戰鬥\",\r\n    \"EchoNameTw\": \"異蛇王\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【異蛇王】。異蛇王單次攻擊造成3000點+21倍御獸傷害，發動機率100%；並有40%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"從第六年一月起，福緣到達100，御獸到達大師級，戰勝異蛇王后選擇馴牧獲得。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1190\",\r\n    \"Name\": \"异蛇王\",\r\n    \"Desc\": \"[异蛇王]支援战斗\",\r\n    \"EchoName\": \"异蛇王\",\r\n    \"DetailDesc\": \"战术协同类【江湖】【助战】\\\\n召唤宠物【异蛇王】。异蛇王单次攻击造成3000点+21倍御兽伤害，发动几率100%；并有40%几率使敌人进入中毒状态。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择送给阮碧青或者自己驯养都可解锁。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[異蛇王]支援戰鬥\",\r\n    \"EchoNameTw\": \"異蛇王\",\r\n    \"DetailDescTw\": \"戰術協同類【江湖】【助戰】\\\\n召喚寵物【異蛇王】。異蛇王單次攻擊造成3000點+21倍御獸傷害，發動機率100%；並有40%機率使敵人進入中毒狀態。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"從第六年一月起，福緣到達100，御獸到達大師級，戰勝異蛇王后選擇送給阮碧青或者自己馴養都可解鎖。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
   rawIndex: 1190
   splits:
   - splitPath: Name
@@ -1801,7 +1801,7 @@
   - splitPath: SubType
     text: "助战"
   - splitPath: GetDesc
-    text: "从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择驯牧获得。"
+    text: "从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择送给阮碧青或者自己驯养都可解锁。"
   - splitPath: ExtraDesc
     text: "御兽"
   templates:
@@ -14423,6 +14423,334 @@
     template: "[{0}]{1}[{2}]{3}[{4}]{5}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}[{2}]{3}[{4}]{5}[{6}]{7}"
+- raw: "{\r\n    \"Key\": \"102030\",\r\n    \"Name\": \"秦广面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"秦广面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"秦廣面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102030
+  splits:
+  - splitPath: Name
+    text: "秦广面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "秦广面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102040\",\r\n    \"Name\": \"楚江面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"楚江面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"楚江面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102040
+  splits:
+  - splitPath: Name
+    text: "楚江面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "楚江面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102050\",\r\n    \"Name\": \"宋帝面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"宋帝面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"宋帝面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102050
+  splits:
+  - splitPath: Name
+    text: "宋帝面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "宋帝面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102060\",\r\n    \"Name\": \"五官面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"仵官面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"仵官面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102060
+  splits:
+  - splitPath: Name
+    text: "五官面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "仵官面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102070\",\r\n    \"Name\": \"阎罗面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"阎罗面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"閻羅面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102070
+  splits:
+  - splitPath: Name
+    text: "阎罗面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "阎罗面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102080\",\r\n    \"Name\": \"卞城面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"卞城面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"卞城面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102080
+  splits:
+  - splitPath: Name
+    text: "卞城面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "卞城面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102090\",\r\n    \"Name\": \"泰山面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"泰山面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"泰山面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102090
+  splits:
+  - splitPath: Name
+    text: "泰山面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "泰山面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102100\",\r\n    \"Name\": \"平等面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"平等面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"平等面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102100
+  splits:
+  - splitPath: Name
+    text: "平等面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "平等面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102110\",\r\n    \"Name\": \"都市面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"都市面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"都市面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102110
+  splits:
+  - splitPath: Name
+    text: "都市面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "都市面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102120\",\r\n    \"Name\": \"转轮面具\",\r\n    \"Desc\": \"【助力】气血+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"转轮面具\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"轉輪面具\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102120
+  splits:
+  - splitPath: Name
+    text: "转轮面具"
+  - splitPath: Desc
+    text: "【助力】气血"
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+  - splitPath: EchoName
+    text: "转轮面具"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+  - splitPath: SubType
+    text: "特技"
+  - splitPath: GetDesc
+    text: "敬请期待"
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102130\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"[猿猴]支援战斗\",\r\n    \"EchoName\": \"猿猴\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【猿猴】。猿猴单次攻击造成600点+12倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后获得。\",\r\n    \"ExtraDesc\": \"御兽+10\",\r\n    \"DescTw\": \"[猿猴]支援戰鬥\",\r\n    \"EchoNameTw\": \"猿猴\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【猿猴】。猿猴單次攻擊造成600點+12倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"開啟川西丐幫廉字舵後，御獸到達入門，開放川西峨眉山，探索峨眉山遇到猿猴搶奪行囊戰勝後獲得。\",\r\n    \"ExtraDescTw\": \"御獸+10\"\r\n  }"
+  rawIndex: 102130
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+  - splitPath: Desc
+    text: "猿猴"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+  - splitPath: EchoName
+    text: "猿猴"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "召唤宠物【猿猴】。猿猴单次攻击造成600点+12倍御兽伤害，发动几率100%。"
+  - splitPath: SubType
+    text: "助战"
+  - splitPath: GetDesc
+    text: "开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后获得。"
+  - splitPath: ExtraDesc
+    text: "御兽"
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+10"
+- raw: "{\r\n    \"Key\": \"102140\",\r\n    \"Name\": \"白猿棍法\",\r\n    \"Desc\": \"攻击（1.6倍）\\\\n行动回复1<24%>\",\r\n    \"EchoName\": \"白猿棍法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成1.6倍侠客功力的伤害，并有24%几率释放回复1点行动力。\",\r\n    \"SubType\": \"百兵\",\r\n    \"GetDesc\": \"开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后,再次探索川西白猿寺元大圣传授。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+8\",\r\n    \"DescTw\": \"攻擊（1.6倍）\\\\n行動回覆1<24%>\",\r\n    \"EchoNameTw\": \"白猿棍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成1.6倍俠客功力的傷害，並有24%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"百兵\",\r\n    \"GetDescTw\": \"開啟川西丐幫廉字舵後，御獸到達入門，開放川西峨眉山，探索峨眉山遇到猿猴搶奪行囊戰勝後,再次探索川西白猿寺元大聖傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+8\"\r\n  }"
+  rawIndex: 102140
+  splits:
+  - splitPath: Name
+    text: "白猿棍法"
+  - splitPath: Desc
+    text: "攻击（1.6倍）"
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+  - splitPath: EchoName
+    text: "白猿棍法"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【百兵】"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成1.6倍侠客功力的伤害，并有24%几率释放回复1点行动力。"
+  - splitPath: SubType
+    text: "百兵"
+  - splitPath: GetDesc
+    text: "开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后"
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "再次探索川西白猿寺元大圣传授。"
+  - splitPath: ExtraDesc
+    text: "功力"
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "根骨"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}<24%>"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: GetDesc
+    template: "{0},{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+80/{1}+8"
 - raw: "{\r\n    \"Key\": \"900010\",\r\n    \"Name\": \"多心咒\",\r\n    \"Desc\": \"消除战术-全\",\r\n    \"EchoName\": \"多心咒\",\r\n    \"DetailDesc\": \"辅助回复类【特技】\\\\n清除敌人全部战术。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"消除戰術-全\",\r\n    \"EchoNameTw\": \"多心咒\",\r\n    \"DetailDescTw\": \"輔助回覆類【特技】\\\\n清除敵人全部戰術。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 900010
   splits:
@@ -19769,6 +20097,17 @@
     text: "干戚逐鹿定九黎"
   - splitPath: SubType
     text: "百兵"
+- raw: "{\r\n    \"Key\": \"1003620\",\r\n    \"Name\": \"投石\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"投石\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"投石\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003620
+  splits:
+  - splitPath: Name
+    text: "投石"
+  - splitPath: Desc
+    text: "攻击（0.6倍）"
+  - splitPath: EchoName
+    text: "投石"
+  - splitPath: SubType
+    text: "特技"
 - raw: "{\r\n    \"Key\": \"2000100\",\r\n    \"Name\": \"跃影追月2\",\r\n    \"Desc\": \"攻击（1倍）\\\\n两连击\",\r\n    \"EchoName\": \"跃影追月\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n兩連擊\",\r\n    \"EchoNameTw\": \"躍影追月\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 2000100
   splits:
@@ -20736,22 +21075,22 @@
     text: "扑咬"
   - splitPath: SubType
     text: "特技"
-- raw: "{\r\n    \"Key\": \"10000490\",\r\n    \"Name\": \"拍击3\",\r\n    \"EchoName\": \"拍击3\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"拍擊3\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"10000490\",\r\n    \"Name\": \"拍击3\",\r\n    \"EchoName\": \"拍击\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"拍擊\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 10000490
   splits:
   - splitPath: Name
     text: "拍击3"
   - splitPath: EchoName
-    text: "拍击3"
+    text: "拍击"
   - splitPath: SubType
     text: "特技"
-- raw: "{\r\n    \"Key\": \"10000500\",\r\n    \"Name\": \"大拍击3\",\r\n    \"EchoName\": \"大拍击3\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"大拍擊3\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"10000500\",\r\n    \"Name\": \"大拍击3\",\r\n    \"EchoName\": \"大拍击\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"大拍擊\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 10000500
   splits:
   - splitPath: Name
     text: "大拍击3"
   - splitPath: EchoName
-    text: "大拍击3"
+    text: "大拍击"
   - splitPath: SubType
     text: "特技"
 - raw: "{\r\n    \"Key\": \"10000510\",\r\n    \"Name\": \"噬咬3\",\r\n    \"Desc\": \"苍狼王\",\r\n    \"EchoName\": \"噬咬\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"蒼狼王\",\r\n    \"EchoNameTw\": \"噬咬\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
@@ -20763,5 +21102,14 @@
     text: "苍狼王"
   - splitPath: EchoName
     text: "噬咬"
+  - splitPath: SubType
+    text: "特技"
+- raw: "{\r\n    \"Key\": \"10000520\",\r\n    \"Name\": \"投石\",\r\n    \"EchoName\": \"投石\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"投石\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000520
+  splits:
+  - splitPath: Name
+    text: "投石"
+  - splitPath: EchoName
+    text: "投石"
   - splitPath: SubType
     text: "特技"

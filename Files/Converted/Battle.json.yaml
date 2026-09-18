@@ -13,7 +13,6 @@
     qcReviewedText: "Strange Snake (Standard)*2"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}*2"
@@ -153,7 +152,6 @@
     qcTranslated: "Yang Shen Encounters Evil Bandits"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "殷通一众"
     translated: "Yin Tong and Followers"
@@ -202,7 +200,6 @@
     qcReviewedText: "Lou Dewang & Auntie Lou Qi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "娄七姑"
@@ -646,7 +643,6 @@
     qcTranslated: "Yellow Crane Xiang Kaishan"
     qcStatus: Corrected
     qcQualityScore: 90
-    qcDefectCategory: DroppedContent
   - splitPath: Desc
     text: "项开山"
     translated: "Xiang Kaishan"
@@ -2285,7 +2281,6 @@
     qcReviewedText: "The spear tip meets in a burst of golden mist."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "神枪四杰"
     translated: "Four Spear Masters"
@@ -3483,7 +3478,6 @@
     qcReviewedText: "Provoked Zou Jiushi"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "邹九思"
     translated: "Zou Jius"
@@ -4136,7 +4130,6 @@
     qcTranslated: "Zhu Family Stronghold Followers II"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
   - splitPath: Desc
     text: "祝家寨众"
     translated: "Zhu Family Stronghold Followers"
@@ -4920,7 +4913,6 @@
     qcReviewedText: "Think about it some more"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5629,7 +5621,6 @@
     qcReviewedText: "Battle of Fu Yungui"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     text: "傅云飞"
     translated: "Fu Yunfei"
@@ -5652,7 +5643,6 @@
     qcTranslated: "World War II Fu Yunfei"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     text: "傅云飞"
     translated: "Fu Yunfei"
@@ -6205,6 +6195,72 @@
     qcReviewedText: "Bandit"
     qcStatus: Passed
     qcQualityScore: 100
+  - splitPath: PlayerName
+    text: "风云少侠"
+    translated: "Young Hero Fengyun"
+    qcReviewedText: "Young Hero Fengyun"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"100399\",\r\n    \"Name\": \"无赖小混混\",\r\n    \"Desc\": \"无赖\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"無賴小混混\",\r\n    \"DescTw\": \"無賴\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
+  rawIndex: 100399
+  splits:
+  - splitPath: Name
+    text: "无赖小混混"
+    translated: "Rogue street thug"
+    qcReviewedText: "Rogue street thug"
+    qcStatus: Passed
+    qcQualityScore: 95
+  - splitPath: Desc
+    text: "无赖"
+    translated: "Rogue"
+    qcReviewedText: "Rogue"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: PlayerName
+    text: "风云少侠"
+    translated: "Young Hero Fengyun"
+    qcReviewedText: "Young Hero Fengyun"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"100400\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"猿猴\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"猿猴\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
+  rawIndex: 100400
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: PlayerName
+    text: "风云少侠"
+    translated: "Young Hero Fengyun"
+    qcReviewedText: "Young Hero Fengyun"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"100401\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"猿猴\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"猿猴\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
+  rawIndex: 100401
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: PlayerName
+    text: "风云少侠"
+    translated: "Young Hero Fengyun"
+    qcReviewedText: "Young Hero Fengyun"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"100402\",\r\n    \"Name\": \"猿猴\",\r\n    \"Desc\": \"猿猴\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"DescTw\": \"猿猴\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
+  rawIndex: 100402
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+    translated: "Monkey"
+  - splitPath: Desc
+    text: "猿猴"
+    translated: "Monkey"
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"

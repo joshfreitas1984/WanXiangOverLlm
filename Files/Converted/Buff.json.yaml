@@ -19,7 +19,6 @@
     qcReviewedText: "<color=#00ff00>Seal the acupuncture point </color>Halt their movements"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "阻止对方行动"
@@ -63,7 +62,6 @@
     qcReviewedText: "<color=#00ff00>Poison </color>Deal damage"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "造成伤害"
@@ -92,7 +90,6 @@
     qcReviewedText: "<color=#00ff00>Deadly Pulse </color>Deal damage"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "造成伤害"
@@ -121,7 +118,6 @@
     qcReviewedText: "<color=#00ff00>Prohibition of healing </color>Status: Unable to respond"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: AttackDesc
     subIndex: 1
     text: "状态，无法回复"
@@ -151,7 +147,6 @@
     qcTranslated: "<color=#00ff00>Dazed</color>, unable to act"
     qcStatus: Corrected
     qcQualityScore: 92
-    qcDefectCategory: HardToParseSeam
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"
@@ -211,7 +206,6 @@
     qcTranslated: "<color=#00ff00>Shock Spirit</color>: Unable to act"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: HardToParseSeam
   - splitPath: AttackDesc
     subIndex: 1
     text: "中，无法行动"

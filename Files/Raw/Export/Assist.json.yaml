@@ -2973,3 +2973,24 @@
     template: "{0}（⟦0⟧/⟦1⟧）"
   - splitPath: Desc
     template: "{0}+⟦0⟧%"
+- raw: "{\r\n    \"Key\": \"209\",\r\n    \"Name\": \"猿猴\",\r\n    \"ItemName\": \"猿猴\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（600）\\\\n增伤（12倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"猿猴\",\r\n    \"ItemNameTw\": \"猿猴\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（600）\\\\n增傷（12倍御獸）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 209
+  splits:
+  - splitPath: Name
+    text: "猿猴"
+  - splitPath: ItemName
+    text: "猿猴"
+  - splitPath: Desc
+    text: "【宠物】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（600）"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"

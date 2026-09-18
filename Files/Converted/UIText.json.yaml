@@ -97,7 +97,6 @@
     qcReviewedText: "Creator\nThere should be words\nWang Xiaoxiong\n\nPlot Contribution\nGuo Hanzhi, Nainiu Cat Bai Mou, Headfirst Dive, Heavenly Yang Peak, Knife Blade Collection Station\n\nPart of the music is from\nHappy Copyright‑Free Music：   / @nocopyrightmusic-ed2qv  \n\nOfficial QQ Group：518845256\n\nSpecial Thanks\nb Stand Wulin merchants chat about the game, Su Day early,zjlblack\nsteam Community bluesfly 39 wait\nBlack Box Cost reduction and efficiency improvement, Mr. Yi Li, Honest Reviewers Group\nQQ Group Bai Someone, Mist in the Wind, Juice, Cooing Pigeon, Fei'er,&& Garak, Fire God Emperor vs Water God Emperor, Wind and Snow, Night Cry to Hush the Cries fa Squirrel, Mo Xiyan, is head‑over‑heels for Ah Qing.hua, Starlight on Water, Ice Flame, Little Little White, Blue Space, Returning to Chang'an, Gong Zhao,Ah，i'm dead，JKUS 911, Jin San Yu, Dust,cxk, Cold lamp flowers, city‑toppling blades, konghou, becomes Cold lamp flowers, city‑toppling blades, konghou,|||||||, End, Qingfeng, Qinglin, Like Water,Ruri, Shijiumu Cang, Time Zone, Suizhiying yuuki, Fighting on, wielding the blade with abandon, Xiao Jin, Flying Flowers Chasing the Moon, Vanlano, or Yuan, a hero of Rendintien,Kwdmz, Brother Lang, Floating Life Dreams,Destruction, Momo, Yeah, Dragon Arrogant Wind, Kind‑hearted Fat Uncle, Helpless, Slackers and Flakers, Yi Li,∵Daydreaming∴Wandering players like Li Moqiu who support the Wanxiang Qun Xia Zhuan community"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "应有语"
@@ -248,7 +247,6 @@
     qcReviewedText: "Game duration：{0} Hours {1} Minutes"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "小时"
@@ -297,7 +295,6 @@
     qcTranslated: "Quick load"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"18\",\r\n    \"Desc\": \"创建\",\r\n    \"DescTw\": \"建立\"\r\n  }"
   rawIndex: 18
   splits:
@@ -370,7 +367,6 @@
     qcReviewedText: "Optional Talents："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -383,7 +379,6 @@
     qcReviewedText: "Please enter your name："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -414,7 +409,6 @@
     qcReviewedText: "Appearance："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -427,7 +421,6 @@
     qcReviewedText: "Points："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -458,7 +451,6 @@
     qcReviewedText: "Unlocked"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"34\",\r\n    \"Desc\": \"已解锁：\",\r\n    \"DescTw\": \"已解鎖：\"\r\n  }"
   rawIndex: 34
   splits:
@@ -468,7 +460,6 @@
     qcReviewedText: "Unlocked："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -481,7 +472,6 @@
     qcReviewedText: "<color=#00ff00>(unlocked)</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#00ff00>{0}</color>"
@@ -495,7 +485,6 @@
     qcTranslated: "<color=#ffffff>(Locked)</color>"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
   templates:
   - splitPath: Desc
     template: "<color=#ffffff>{0}</color>"
@@ -508,7 +497,6 @@
     qcReviewedText: "Unlock Talent："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -575,7 +563,6 @@
     qcReviewedText: "Unlocked"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"45\",\r\n    \"Desc\": \"未解锁\",\r\n    \"DescTw\": \"未解鎖\"\r\n  }"
   rawIndex: 45
   splits:
@@ -585,7 +572,6 @@
     qcReviewedText: "Unlocked"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"46\",\r\n    \"Desc\": \"解锁方式：\",\r\n    \"DescTw\": \"解鎖方式：\"\r\n  }"
   rawIndex: 46
   splits:
@@ -595,7 +581,6 @@
     qcReviewedText: "Unlock method："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -618,7 +603,6 @@
     qcTranslated: "Click to switch and view skills\\nClick again to view attributes\\nHotkey: {0}"
     qcStatus: Corrected
     qcQualityScore: 85
-    qcDefectCategory: HardToParseSeam
   - splitPath: Desc
     subIndex: 1
     text: "再次点击查看属性"
@@ -711,7 +695,6 @@
     qcReviewedText: "Reply"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"58\",\r\n    \"Desc\": \"异常\",\r\n    \"DescTw\": \"異常\"\r\n  }"
   rawIndex: 58
   splits:
@@ -730,7 +713,6 @@
     qcReviewedText: "Tactics"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"60\",\r\n    \"Desc\": \"助力\",\r\n    \"DescTw\": \"助力\"\r\n  }"
   rawIndex: 60
   splits:
@@ -758,7 +740,6 @@
     qcReviewedText: "<color=#00ff00>Green</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#00ff00>{0}</color>"
@@ -771,7 +752,6 @@
     qcReviewedText: "<color=#0000ff>Blue</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#0000ff>{0}</color>"
@@ -784,7 +764,6 @@
     qcReviewedText: "<color=#800080>Purple</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#800080>{0}</color>"
@@ -797,7 +776,6 @@
     qcReviewedText: "<color=#daa520>Golden</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#daa520>{0}</color>"
@@ -972,7 +950,6 @@
     qcReviewedText: "Hotkeys"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"85\",\r\n    \"Desc\": \"事件日志\",\r\n    \"DescTw\": \"事件日誌\"\r\n  }"
   rawIndex: 85
   splits:
@@ -1036,7 +1013,6 @@
     qcReviewedText: "Friendship points"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"92\",\r\n    \"Desc\": \"未结识\",\r\n    \"DescTw\": \"未結識\"\r\n  }"
   rawIndex: 92
   splits:
@@ -1055,7 +1031,6 @@
     qcReviewedText: "<color=#00ffff>Repeatable：</color>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "<color=#00ffff>{0}：</color>"
@@ -1068,7 +1043,6 @@
     qcReviewedText: "Be careful"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"95\",\r\n    \"Desc\": \"系统\",\r\n    \"DescTw\": \"系統\"\r\n  }"
   rawIndex: 95
   splits:
@@ -1150,7 +1124,6 @@
     qcReviewedText: "Save file"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"104\",\r\n    \"Desc\": \"存档{0}\",\r\n    \"DescTw\": \"存檔{0}\"\r\n  }"
   rawIndex: 104
   splits:
@@ -1160,7 +1133,6 @@
     qcReviewedText: "Save file {0}"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}⟦0⟧"
@@ -1182,7 +1154,6 @@
     qcReviewedText: "Skip\\n（{0}）"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}\\n（⟦0⟧）"
@@ -1195,7 +1166,6 @@
     qcReviewedText: "Long press {0} Speed up"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "加速"
@@ -1464,7 +1434,6 @@
     qcReviewedText: "Roll the dice\nEach player rolls in turn 3 A die\n\n\nTwo, continue throwing or take what you've got and leave\n1, continue throwing：You can choose to continue rolling, but if you roll the number 6 (Fate) and do not have any special scoring combinations (Straight or Triple), your points will be reset; otherwise, your points will accumulate.\n2, take what you've got and run：If you're happy with the current points, you can choose to stop and keep this round's points.\n\n\n\nThree, Scoring Rules \\n\nPoints per round=Basic Points*Current multiplier\n1, basic points：\nLeopard：3 All dice show the same number (such as 3 A 5 got it) Lock 600 Dot\nShunzi：1-2-3 Or 4-5‑6 stays fixed 300 Dot\nOther combinations：Score multiplied by the number of points array combinations (10, e.g., 3-5‑6 gets 140 points)\n2, current multiplier\n\n\nEach round flips to 1 times, such as 2 times for the second round.\n\nFour, Regarding Fate's Trials\nDestiny's Curse is fixed at 6, the probability formula for Destiny's Curse appearing per round is the base probability./（1+(Wanderer's Gambling/400）), The higher your Gambling skill, the lower the probability of karmic retribution occurring.\n\n5, About the Elegance Hall：\nTo win the final reward, you need to win three rounds. If you can't achieve a clean sweep, you can try again later; your progress will be saved. Once you obtain the ultimate prize, your opponent will no longer appear in the Hall.\n\nSix, Regarding the General Kill：\nWhen your Gambling skill is equal to or greater than your opponent's, you can defeat them outright. This feature can only be used in the story mode and the Elegant Hall."
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "每位玩家轮流投掷"
@@ -1653,7 +1622,6 @@
     qcReviewedText: "Dot"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"143\",\r\n    \"Desc\": \"简单\",\r\n    \"DescTw\": \"簡單\"\r\n  }"
   rawIndex: 143
   splits:
@@ -1718,7 +1686,6 @@
     qcTranslated: "Total {0} Questions"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "题"
@@ -1736,7 +1703,6 @@
     qcTranslated: "Question {0}"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "题"
@@ -1754,7 +1720,6 @@
     qcTranslated: "Correct: {0} Questions"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
   - splitPath: Desc
     subIndex: 1
     text: "题"
@@ -1780,7 +1745,6 @@
     qcReviewedText: "<nobr>Player：This round's base probability {0}%/（1+(Wanderer's Gambling x2/400）) </nobr>\\n<nobr>Opponent：This round's base probability {1}%/（1+(Wanderer's Gambling/400）)</nobr>"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "本轮基础概率"
@@ -1831,7 +1795,6 @@
     qcReviewedText: "Accumulated Exploration Points："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -1880,7 +1843,6 @@
     qcReviewedText: "Dot"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"162\",\r\n    \"Desc\": \"战斗开始\",\r\n    \"DescTw\": \"戰鬥開始\"\r\n  }"
   rawIndex: 162
   splits:
@@ -1900,7 +1862,6 @@
     qcTranslated: "Round {0}"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "回合"
@@ -1971,7 +1932,6 @@
     qcReviewedText: "Steam Workshop"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "Steam{0}"
@@ -2137,7 +2097,6 @@
     qcReviewedText: "Upload failed："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -2150,7 +2109,6 @@
     qcReviewedText: "Path："
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}："
@@ -2172,7 +2130,6 @@
     qcReviewedText: "Mod Production Notes"
     qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "Mod{0}"

@@ -155,12 +155,19 @@ public class FileOutputWorkflowTests
                 Directory.Delete(path, true);
         }
 
-        // Old releases also carried SharedAssembly as a separate DLL; the packager ships only what is listed here.
-        foreach (var dll in new[] { "FanslationStudio.EnglishPatch.dll", "FanslationStudio.Plugins.dll" })
+        // The packager ships everything in staging, so keep plugins to exactly the two DLLs the patch needs. Older
+        // releases also carried a stale FanslationStudio.SharedAssembly.dll that nothing loads any more.
+        string[] pluginDlls = ["FanslationStudio.EnglishPatch.dll", "FanslationStudio.Plugins.dll"];
+        var pluginsFolder = Path.Combine(bepInEx, "plugins");
+
+        foreach (var dll in pluginDlls)
         {
-            if (!File.Exists(Path.Combine(bepInEx, "plugins", dll)))
-                throw new FileNotFoundException($"{dll} is missing from {Path.GetFullPath(bepInEx)}/plugins: build the plugin projects first.");
+            if (!File.Exists(Path.Combine(pluginsFolder, dll)))
+                throw new FileNotFoundException($"{dll} is missing from {Path.GetFullPath(pluginsFolder)}: build the plugin projects first.");
         }
+
+        foreach (var file in Directory.GetFiles(pluginsFolder).Where(f => !pluginDlls.Contains(Path.GetFileName(f))))
+            File.Delete(file);
     }
 
     // Game version (Files/Packaging/GameVersion.txt, required, one line) first, then the installer links, then the git commits

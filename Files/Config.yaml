@@ -1,61 +1,47 @@
-﻿apiKey: "None"
-apiKeyRequired: false
-url: "http://localhost:11434/api/chat"
-model: "qwen2.5:7b"
-
-# apiKeyRequired: true
-# url: "https://api.openai.com/v1/chat/completions"
-# model: "gpt-4o-mini"
-
-modelParams:
-  # Qwen2.5
-  temperature: 0.15
-  top_p: 0.92
-  top_k: 40
-  repeat_penalty: 1.05
-  frequency_penalty: 0
-  presence_penalty: 0
-  num_ctx: 16384
-  num_predict: 512
-
-  # Qwen 3.5
-  # temperature: 0.2
-  # top_p: 0.9
-  # repeat_penalty: 1.05
-  # frequency_penalty: 0
-  # presence_penalty: 0
-  # top_k: 40
-  # min_p: 0
-  # num_ctx: 16384
-  # num_predict: 512
-  
-  # ChatGPT
-  # temperature: 0.2
-  # top_p: 0.9
-  # frequency_penalty: 0
-  # presence_penalty: 0
-tagModelParams:
-  # Qwen2.5
-  temperature: 0
-  top_p: 0.95
-  top_k: 0
-  repeat_penalty: 1.0
-  frequency_penalty: 0
-  presence_penalty: 0
-  num_ctx: 16384
-  num_predict: 512
-  # Qwen 3.5
-  # temperature: 0
-  # top_p: 0.9
-  # repeat_penalty: 1.0
-  # frequency_penalty: 0
-  # presence_penalty: 0
-  # top_k: 0
-  # min_p: 0
-  # num_ctx: 16384
-  # num_predict: 512
-retryCount: 4
-batchSize: 20000
+﻿# Model choice and QC model/quant/process-shape decision ported from DragonHierOverLlm's
+# investigation - see that repo's docs/investigations/tests/qc-evaluator-model-selection.md. The
+# FIRST entry in this list is the main translator model (see FanslationStudio.LlmKit's
+# LlmHelpers.CalculateModelConfig).
+models:
+  - name: HyMT2-7B
+    modelPreset: HyMT2
+    modelPresetType: Standard
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath:
+    apiKeyPath:
+  - name: Qwen25-StructuredText
+    modelPreset: Qwen25
+    modelPresetType: StructuredText
+    customPromptsPath:
+    apiKeyPath:
+  - name: Qwen38Qc
+    modelPreset: Qwen38
+    modelPresetType: Standard
+# Same options as DragonHierOverLlm's Config.yaml, see that repo's
+# docs/investigations/tests/qc-evaluator-model-selection.md for why. minAcceptableScore lowered from
+# 70 to match; twoStageVerificationEnabled/verifyNoDefectClaims dropped - dead config keys, no longer
+# read anywhere in FanslationStudio.LlmKit.
+qualityReview:
+  enabled: true
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+glossaryPreset:
+  usePresetChineseGlossary: true
+  chineseGlossaryTypesToSupress:
+    - Phonetics
+useContinuousWorkerPool: true
+maxConcurrency: 4 # Ollama is capped anyway
+retryCount: 3 # No escalation model configured - extra retries burn time on the same main translator model
 skipLineValidation: false
 correctionPromptsEnabled: true
+batchSize: 100
 translateFlagged: true

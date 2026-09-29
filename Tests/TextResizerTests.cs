@@ -6,13 +6,24 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Translate.Utility;
+using FanslationStudio.LlmKit.Utility;
 
 namespace Translate.Tests;
 
 public class TextResizerTests
 {
     const string workingDirectory = "../../../../Files";
+
+    // The splitting itself lives in LlmKit (EditorFileSplitter) so every game packages the editor folders the same way.
+    // WanXiang has no layouts or sprites yet; the splitter ignores missing folders.
+    [Fact]
+    public static void MoveResizersIntoPathBasedFiles() => EditorFileSplitter.SplitResizers(workingDirectory);
+
+    [Fact]
+    public static void MoveSpritesIntoPathBasedFiles() => EditorFileSplitter.SplitSprites(workingDirectory);
+
+    [Fact]
+    public static void MoveLayoutsIntoPathBasedFiles() => EditorFileSplitter.SplitLayouts(workingDirectory);
 
     [Fact] // Can only be run when VS is running in admin
     public void CreateSymlinks()
@@ -65,8 +76,8 @@ public class TextResizerTests
     [Fact]
     public void ReserializeResizerTest()
     {
-        var serializer = Yaml.CreateSerializer();
-        var deserializer = Yaml.CreateDeserializer();
+        var serializer = YamlHelper.CreateSerializer();
+        var deserializer = YamlHelper.CreateDeserializer();
         var folder = $"{workingDirectory}/Resizers";
 
         foreach (var file in Directory.EnumerateFiles(folder))

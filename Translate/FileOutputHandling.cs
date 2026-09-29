@@ -1,9 +1,6 @@
-﻿using SharedAssembly.DynamicStrings;
-using System.Diagnostics.Contracts;
-using System.Text.RegularExpressions;
+﻿using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Workflow;
 using Translate;
-using Translate.Utility;
-using YamlDotNet.Serialization;
 
 public class FileOutputHandling
 {
@@ -21,171 +18,66 @@ public class FileOutputHandling
 
         var finalDb = new List<string>();
         var passedCount = 0;
-        var failedCount = 0;
+        var qcRejectedCount = 0;
+        var rawFallbackCount = 0;
 
-        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.PrefabText))
         {
-            if (textFileToTranslate.TextFileType == TextFileType.PrefabText)
-            {
-                var outputLines = new List<string>();
+            var (passed, qcRejected, rawFallback) = await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile);
+            passedCount += passed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
+            MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
-                foreach (var line in fileLines)
-                {
-                    foreach (var split in line.Splits)
-                        if (!split.FlaggedForRetranslation && !(string.IsNullOrEmpty(split.Translated)))
-                            outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
-                        else if (!split.SafeToTranslate)
-                            continue; // Do not count failure
-                        else
-                            failedCount++;
-                }
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.DynamicStrings))
+        {
+            var (passed, qcRejected, rawFallback) = await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile);
+            passedCount += passed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
+            MoveLlmKitPackagedFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
-                File.WriteAllLines($"{fileOutputPath}/{textFileToTranslate.Path}", outputLines);
-                return;
-            }
-            else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
-            {
-                var serializer = Yaml.CreateSerializer();
-                var contracts = new List<DynamicStringContract>();
-
-                foreach (var line in fileLines)
-                {
-                    if (line.Splits.Count != 1)
-                    {
-                        failedCount++;
-                        continue;
-                    }
-
-                    // Do not package but dont count as failure
-                    if (!line.Splits[0].SafeToTranslate)
-                        continue;
-
-                    var lineRaw = line.Raw;
-                    var splits = lineRaw.Split(",");
-
-                    var lineTrans = line.Splits[0].Translated
-                        .Replace("，", ","); // Replace Wide quotes back
-
-                    if (splits.Length != 5
-                        || string.IsNullOrEmpty(lineTrans)
-                        || line.Splits[0].FlaggedForRetranslation)
-                    {
-                        failedCount++;
-                        continue;
-                    }
-
-                    string[] parameters = DynamicStringSupport.PrepareMethodParameters(splits[4]);
-
-                    var contract = new DynamicStringContract()
-                    {
-                        Type = splits[0],
-                        Method = splits[1],
-                        ILOffset = long.Parse(splits[2]),
-                        Raw = splits[3],
-                        Translation = lineTrans,
-                        Parameters = parameters
-                    };
-
-                    if (DynamicStringSupport.IsSafeContract(contract, false))
-                        contracts.Add(contract);
-                }
-
-                File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", serializer.Serialize(contracts));
-                passedCount += contracts.Count;
-
-                await Task.CompletedTask;
-                return;
-            }
-
-
-            // Convert fileLines back into the original JSON array format
-            var jsonArray = new List<Dictionary<string, object>>();
-
-            foreach (var line in fileLines)
-            {
-                var jsonObject = new Dictionary<string, object>();
-
-                // Add the Key property from RawIndex
-                if (int.TryParse(line.RawIndex, out int key))
-                {
-                    jsonObject["Key"] = key;
-                }
-                else
-                {
-                    // If RawIndex is not an int, use it as-is (fallback)
-                    jsonObject["Key"] = line.RawIndex;
-                }
-
-                // Add each split as a property
-                foreach (var split in line.Splits)
-                {
-                    var arrayMatch = Regex.Match(split.SplitPath, @"^(.+)\[(\d+)\]$");
-                    if (arrayMatch.Success)
-                    {
-                        var propertyName = arrayMatch.Groups[1].Value;
-                        var index = int.Parse(arrayMatch.Groups[2].Value);
-
-                        // Initialize the list from the original JSON the first time we see this property
-                        if (!jsonObject.ContainsKey(propertyName))
-                        {
-                            using var originalDoc = System.Text.Json.JsonDocument.Parse(line.Raw);
-                            if (originalDoc.RootElement.TryGetProperty(propertyName, out var originalArray)
-                                && originalArray.ValueKind == System.Text.Json.JsonValueKind.Array)
-                            {
-                                jsonObject[propertyName] = originalArray.EnumerateArray()
-                                    .Select(e => e.ValueKind == System.Text.Json.JsonValueKind.String ? e.GetString() ?? string.Empty : string.Empty)
-                                    .ToList();
-                            }
-                            else
-                            {
-                                jsonObject[propertyName] = new List<string>();
-                            }
-                        }
-
-                        var list = (List<string>)jsonObject[propertyName];
-                        if (split.FlaggedForRetranslation)
-                        {
-                            failedCount++;
-                        }
-                        else if (index < list.Count)
-                        {
-                            list[index] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
-                            passedCount++;
-                        }
-                    }
-                    else if (split.FlaggedForRetranslation)
-                    {
-                        // Use original text and increment failed count
-                        jsonObject[split.SplitPath] = split.Text;
-                        failedCount++;
-                    }
-                    else
-                    {
-                        // Use translated text (or fallback to original if empty) and increment passed count
-                        jsonObject[split.SplitPath] = string.IsNullOrEmpty(split.Translated) ? split.Text : split.Translated;
-                        passedCount++;
-                    }
-                }
-
-                jsonArray.Add(jsonObject);
-            }
-
-            // Serialize to JSON and write to output file
-            var jsonOptions = new System.Text.Json.JsonSerializerOptions 
-            { 
-                WriteIndented = true,
-                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-            };
-            var jsonContent = System.Text.Json.JsonSerializer.Serialize(jsonArray, jsonOptions);
-
-            File.WriteAllText($"{fileOutputPath}/{textFileToTranslate.Path}", jsonContent);
-
-            await Task.CompletedTask;
-        });
+        foreach (var textFile in GameTextFiles.TextFilesToSplit.Where(f => f.TextFileType == TextFileType.RawJson))
+        {
+            var (passed, qcRejected, rawFallback) = await JsonGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+            passedCount += passed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
+            MoveLlmKitPackagedJsonFileIntoEnglishFolder(workingDirectory, fileOutputPath, textFile.Path);
+        }
 
 
         Console.WriteLine($"Passed: {passedCount}");
-        Console.WriteLine($"Failed: {failedCount}");
+        Console.WriteLine($"QC failures: {qcRejectedCount}");
+        Console.WriteLine($"Fell back to raw: {rawFallbackCount}");
+    }
+
+    /// <summary>
+    /// LlmKit's Prefab/DynamicStrings workflows always write their packaged output to
+    /// Mod/{path}.yaml. This repo's own convention (see FileOutputWorkflowTests/ZipRelease) copies
+    /// the whole Mod/English folder into the game's BepInEx/english folder, so the packaged file is
+    /// moved there under its original name (no ".yaml" suffix) to preserve that existing contract.
+    /// </summary>
+    private static void MoveLlmKitPackagedFileIntoEnglishFolder(string workingDirectory, string fileOutputPath, string path)
+    {
+        var source = $"{workingDirectory}/Mod/{path}.yaml";
+        if (File.Exists(source))
+            File.Move(source, $"{fileOutputPath}/{path}", true);
+    }
+
+    /// <summary>
+    /// <see cref="JsonGameDataWorkflow.PackageAsync"/> writes its packaged output straight to
+    /// Mod/{path} with no ".yaml" suffix - unlike Prefab/DynamicStrings, its Mod-directory output is
+    /// already the final game-consumable JSON, not an intermediate YAML shape - so no suffix needs
+    /// stripping on the way into the English folder.
+    /// </summary>
+    private static void MoveLlmKitPackagedJsonFileIntoEnglishFolder(string workingDirectory, string fileOutputPath, string path)
+    {
+        var source = $"{workingDirectory}/Mod/{path}";
+        if (File.Exists(source))
+            File.Move(source, $"{fileOutputPath}/{path}", true);
     }
 
     public static void CopyDirectory(string sourceDir, string destDir)

@@ -1,4 +1,6 @@
-﻿using Translate.Utility;
+﻿using FanslationStudio.LlmKit.Configuration;
+using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Utility;
 
 namespace Translate.Tests;
 
@@ -35,15 +37,21 @@ public class FileInputWorkflowTests
     [Fact(DisplayName = "99. Check File Lines Match")]
     public void CheckFileLinesMatch()
     {
-        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var config = ConfigurationExtensions.GetConfiguration(WorkingDirectory);
         var badFiles = new List<string>();
 
         foreach (var textFile in GameTextFiles.TextFilesToSplit)
         {
-            var file = $"{TranslationWorkflowTests.WorkingDirectory}/Raw/Export/{textFile.Path}";
+            // Every LlmKit workflow (PrefabText/DynamicStrings/RawJson) suffixes its Raw/Export file
+            // with ".yaml".
+            var exportName = textFile.TextFileType is TextFileType.PrefabText or TextFileType.DynamicStrings or TextFileType.RawJson
+                ? $"{textFile.Path}.yaml"
+                : textFile.Path;
+
+            var file = $"{TranslationWorkflowTests.WorkingDirectory}/Raw/Export/{exportName}";
             var convertedFile = $"{TranslationWorkflowTests.WorkingDirectory}/Converted/{textFile.Path}.yaml";
 
-            var deserializer = Yaml.CreateDeserializer();
+            var deserializer = YamlHelper.CreateDeserializer();
 
             var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(file));
             var convertedLines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(convertedFile)); ;

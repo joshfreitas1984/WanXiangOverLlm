@@ -4,24 +4,44 @@
   - splitPath: Name
     text: "青釭剑"
     translated: "Sword"
+    qcReviewedText: "Sword"
+    qcTranslated: "Qinggang Sword"
+    qcStatus: Corrected
+    qcQualityScore: 90
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "{\r\n    \"Key\": 2,\r\n    \"Name\": \"锁子甲\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
   rawIndex: 2
   splits:
   - splitPath: Name
     text: "锁子甲"
     translated: "Scale mail armor"
+    qcReviewedText: "Scale mail armor"
+    qcTranslated: "Chain mail armor"
+    qcStatus: Corrected
+    qcQualityScore: 95
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "{\r\n    \"Key\": 3,\r\n    \"Name\": \"九阴真经\",\r\n    \"Desc\": \"道具描述\"\r\n  }"
   rawIndex: 3
   splits:
   - splitPath: Name
     text: "九阴真经"
     translated: "Yin Jing True Classic"
+    qcReviewedText: "Yin Jing True Classic"
+    qcStatus: Passed
+    qcQualityScore: 85
   - splitPath: Desc
     text: "道具描述"
     translated: "Item Description"
+    qcReviewedText: "Item Description"
+    qcStatus: Passed
+    qcQualityScore: 100

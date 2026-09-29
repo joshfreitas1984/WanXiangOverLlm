@@ -1162,6 +1162,36 @@
     qcReviewedText: "When the Loyalty Steering of the Beggar Sect reaches 80 Friendship and Cooking skills reach 120, and after bringing Weng Hezhong Tiger Bone and Wild Boar Hind Leg, explore Wealthy Alley. Weng Hezhong will test your knowledge on food‑related matters. Answer all questions correctly to join him."
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1022\",\r\n    \"IdName\": \"元大圣\",\r\n    \"Name\": \"元大圣\",\r\n    \"Title\": \"铁棒猴王\",\r\n    \"CardName\": \"丐帮舵主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"丐帮廉字舵舵主，八袋长老，\",\r\n    \"GetDesc\": \"解锁白猿寺后，探索川西白猿寺向元大圣学习驯猿。御兽到达入门后，探索白猿寺，听闻峨眉山上猿猴聚居。此后探索川西峨眉山，收服抢包裹的猿猴。再次探索白猿寺看到猿猴跪拜石像。第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。此后探索白猿寺，元大圣邀请喝猴儿酒。灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣后加入\",\r\n    \"NameTw\": \"元大聖\",\r\n    \"TitleTw\": \"鐵棒猴王\",\r\n    \"DescTw\": \"丐幫廉字舵舵主，八袋長老，\",\r\n    \"GetDescTw\": \"解鎖白猿寺後，探索川西白猿寺向元大聖學習馴猿。御獸到達入門後，探索白猿寺，聽聞峨眉山上猿猴聚居。此後探索川西峨眉山，收服搶包裹的猿猴。再次探索白猿寺看到猿猴跪拜石像。第七年一月開始，御獸到達高手，探索峨眉山，戰勝赤眉白猿後收服。此後探索白猿寺，元大聖邀請喝猴兒酒。靈活到達160，探索川南，登上無回峰取下靈明草救下元小聖後加入\",\r\n    \"CardNameTw\": \"丐幫舵主\"\r\n  }"
+  rawIndex: 1022
+  splits:
+  - splitPath: IdName
+    text: "元大圣"
+    translated: "Master Yuan the Sage"
+  - splitPath: Name
+    text: "元大圣"
+    translated: "Master Yuan the Sage"
+  - splitPath: Title
+    text: "铁棒猴王"
+    translated: "Iron Rod Monkey King"
+  - splitPath: CardName
+    text: "丐帮舵主"
+    translated: "Beggar Sect Leader"
+    qcReviewedText: "Beggar Sect Leader"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "丐帮廉字舵舵主，八袋长老，"
+    translated: "The leader of the Beggar Sect with the surname Lian, the Eighth Bag Elder."
+  - splitPath: GetDesc
+    text: "解锁白猿寺后，探索川西白猿寺向元大圣学习驯猿。御兽到达入门后，探索白猿寺，听闻峨眉山上猿猴聚居。此后探索川西峨眉山，收服抢包裹的猿猴。再次探索白猿寺看到猿猴跪拜石像。第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。此后探索白猿寺，元大圣邀请喝猴儿酒。灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣后加入"
+    translated: "After unlocking Baiyan Temple, explore it to learn Beast Taming from Yuan Dasheng. Once Beast Taming reaches the introductory stage, head back to Baiyan Temple where you'll hear about groups of monkeys living on Mount Emei. Next, explore Mount Emei in western Sichuan to subdue the monkeys that are stealing packages. Return to Baiyan Temple and observe the monkeys kneeling before a stone statue. Starting from January of the seventh year, take Beast Taming to meet the masters, explore Mount Emei, defeat the red‑eyed white monkeys, and bring them under control. After that, return to Baiyan Temple where Yuan Dasheng invites you to drink Monkey Wine. With Flexibility in hand, head to 160, explore southern Sichuan, climb Wu Hui Peak to retrieve Lingming Grass, rescue Yuan Xiaosheng, and then join them."
 - raw: "{\r\n    \"Key\": \"1051\",\r\n    \"IdName\": \"庄道玄\",\r\n    \"Name\": \"庄道玄\",\r\n    \"Title\": \"阴阳无相\",\r\n    \"CardName\": \"武当掌门\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派掌门，通透豁达，至情至性，自幼拜入武当门下，前半生清静修道，于江湖中名声不显，直至血手门祸乱武林之际，仗剑三入血海宫，连斩“血海十二煞”，一战而名动天下，后接掌武当门户，被誉为自张三丰祖师之后武当第一人。\",\r\n    \"GetDesc\": \"加入武当派，第九年一月时，自动触发庄道玄考较武艺，获胜后加入。\",\r\n    \"NameTw\": \"莊道玄\",\r\n    \"TitleTw\": \"陰陽無相\",\r\n    \"DescTw\": \"武當派掌門，通透豁達，至情至性，自幼拜入武當門下，前半生清靜修道，於江湖中名聲不顯，直至血手門禍亂武林之際，仗劍三入血海宮，連斬“血海十二煞”，一戰而名動天下，後接掌武當門戶，被譽為自張三丰祖師之後武當第一人。\",\r\n    \"GetDescTw\": \"加入武當派，第九年一月時，自動觸發莊道玄考較武藝，獲勝後加入。\",\r\n    \"CardNameTw\": \"武當掌門\"\r\n  }"
   rawIndex: 1051
   splits:

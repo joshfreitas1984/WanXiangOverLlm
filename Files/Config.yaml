@@ -1,4 +1,15 @@
-﻿models:
+﻿# Model choice and QC model/quant/process-shape decision ported from DragonHierOverLlm's
+# investigation - see that repo's docs/investigations/tests/qc-evaluator-model-selection.md. The
+# FIRST entry in this list is the main translator model (see FanslationStudio.LlmKit's
+# LlmHelpers.CalculateModelConfig).
+models:
+  - name: HyMT2-7B
+    modelPreset: HyMT2
+    modelPresetType: Standard
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
   - name: Qwen25-Standard
     modelPreset: Qwen25
     modelPresetType: Standard
@@ -12,22 +23,24 @@
   - name: Qwen38Qc
     modelPreset: Qwen38
     modelPresetType: Standard
+# Same options as DragonHierOverLlm's Config.yaml, see that repo's
+# docs/investigations/tests/qc-evaluator-model-selection.md for why. minAcceptableScore lowered from
+# 70 to match; twoStageVerificationEnabled/verifyNoDefectClaims dropped - dead config keys, no longer
+# read anywhere in FanslationStudio.LlmKit.
 qualityReview:
   enabled: true
-  modelName: Qwen38Qc 
-  minAcceptableScore: 70
-  maxConcurrency: 2 
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
   inlineRuleCheckRetries: 2
   autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
-  twoStageVerificationEnabled: true
-  verifyNoDefectClaims: true
 glossaryPreset:
   usePresetChineseGlossary: true
   chineseGlossaryTypesToSupress:
     - Phonetics
 useContinuousWorkerPool: true
 maxConcurrency: 4 # Ollama is capped anyway
-retryCount: 3 # Dropped from 3 - no stronger model to escalate to, so extra retries mostly just burn time on the same qwen2.5:7b model
+retryCount: 3 # No escalation model configured - extra retries burn time on the same main translator model
 skipLineValidation: false
 correctionPromptsEnabled: true
 batchSize: 100

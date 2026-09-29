@@ -1832,6 +1832,13 @@
     text: "猿猴"
   - splitPath: Desc
     text: "一群猿猴"
+- raw: "{\r\n    \"Key\": \"10264\",\r\n    \"Name\": \"赤眉白猿\",\r\n    \"Desc\": \"赤眉白猿\",\r\n    \"NameTw\": \"赤眉白猿\",\r\n    \"DescTw\": \"赤眉白猿\"\r\n  }"
+  rawIndex: 10264
+  splits:
+  - splitPath: Name
+    text: "赤眉白猿"
+  - splitPath: Desc
+    text: "赤眉白猿"
 - raw: "{\r\n    \"Key\": \"20000\",\r\n    \"Name\": \"幻境珍兽\",\r\n    \"Desc\": \"无稽林\",\r\n    \"NameTw\": \"幻境珍獸\",\r\n    \"DescTw\": \"無稽林\"\r\n  }"
   rawIndex: 20000
   splits:

@@ -6267,6 +6267,21 @@
     qcReviewedText: "Young Hero Fengyun"
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"100403\",\r\n    \"Name\": \"赤眉白猿\",\r\n    \"Desc\": \"赤眉白猿\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"赤眉白猿\",\r\n    \"DescTw\": \"赤眉白猿\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
+  rawIndex: 100403
+  splits:
+  - splitPath: Name
+    text: "赤眉白猿"
+    translated: "Red Eyebrows White Ape"
+  - splitPath: Desc
+    text: "赤眉白猿"
+    translated: "Red Eyebrows White Ape"
+  - splitPath: PlayerName
+    text: "风云少侠"
+    translated: "Young Hero Fengyun"
+    qcReviewedText: "Young Hero Fengyun"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"200100\",\r\n    \"Name\": \"幻境珍兽\",\r\n    \"Desc\": \"幻境珍兽\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"幻境珍獸\",\r\n    \"DescTw\": \"幻境珍獸\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 200100
   splits:

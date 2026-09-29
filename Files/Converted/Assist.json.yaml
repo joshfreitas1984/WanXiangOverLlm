@@ -5599,3 +5599,57 @@
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "{\r\n    \"Key\": \"210\",\r\n    \"Name\": \"元小圣\",\r\n    \"ItemName\": \"元小圣\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1500）\\\\n增伤（15倍御兽）\\\\n75%发动攻击\",\r\n    \"NameTw\": \"元小聖\",\r\n    \"ItemNameTw\": \"元小聖\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1500）\\\\n增傷（15倍御獸）\\\\n75%發動攻擊\"\r\n  }"
+  rawIndex: 210
+  splits:
+  - splitPath: Name
+    text: "元小圣"
+    translated: "Little Sage Yuan"
+  - splitPath: ItemName
+    text: "元小圣"
+    translated: "Little Sage Yuan"
+  - splitPath: Desc
+    text: "【宠物】"
+    translated: "【[Pet]】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1500）"
+    translated: "Attack (1500)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（15倍御兽）"
+    translated: "Increased Damage (15x Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "75%发动攻击"
+    translated: "Launch an attack at 75% intensity"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "{\r\n    \"Key\": \"211\",\r\n    \"Name\": \"赤眉\",\r\n    \"ItemName\": \"赤眉\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（7000）\\\\n增伤（15倍御兽）\\\\n50%发动攻击\",\r\n    \"NameTw\": \"赤眉\",\r\n    \"ItemNameTw\": \"赤眉\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（7000）\\\\n增傷（15倍御獸）\\\\n50%發動攻擊\"\r\n  }"
+  rawIndex: 211
+  splits:
+  - splitPath: Name
+    text: "赤眉"
+    translated: "Red Eyebrows"
+  - splitPath: ItemName
+    text: "赤眉"
+    translated: "Red Eyebrows"
+  - splitPath: Desc
+    text: "【宠物】"
+    translated: "【[Pet]】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（7000）"
+    translated: "Attack (7000)"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（15倍御兽）"
+    translated: "Increased Damage (15x Beast Taming)"
+  - splitPath: Desc
+    subIndex: 3
+    text: "50%发动攻击"
+    translated: "50% launch an attack"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"

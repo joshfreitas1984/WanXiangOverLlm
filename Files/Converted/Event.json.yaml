@@ -53562,6 +53562,15 @@
     qcReviewedText: "Ten Kings of Hell Faces"
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8004900\",\r\n    \"GroupName\": \"灵明救小圣\",\r\n    \"Name\": \"灵明救小圣\",\r\n    \"GroupNameTw\": \"靈明救小聖\",\r\n    \"NameTw\": \"靈明救小聖\"\r\n  }"
+  rawIndex: 8004900
+  splits:
+  - splitPath: GroupName
+    text: "灵明救小圣"
+    translated: "Lingming Saves the Little Sage"
+  - splitPath: Name
+    text: "灵明救小圣"
+    translated: "Lingming Saves the Little Sage"
 - raw: "{\r\n    \"Key\": \"8090100\",\r\n    \"GroupName\": \"川南无特殊\",\r\n    \"Name\": \"川南无特殊\",\r\n    \"GroupNameTw\": \"川南無特殊\",\r\n    \"NameTw\": \"川南無特殊\"\r\n  }"
   rawIndex: 8090100
   splits:
@@ -55561,6 +55570,15 @@
   - splitPath: Name
     text: "猿猴拜白猿"
     translated: "The ape worships the white ape"
+- raw: "{\r\n    \"Key\": \"8450400\",\r\n    \"GroupName\": \"破庙猴儿酒\",\r\n    \"Name\": \"破庙猴儿酒\",\r\n    \"GroupNameTw\": \"破廟猴兒酒\",\r\n    \"NameTw\": \"破廟猴兒酒\"\r\n  }"
+  rawIndex: 8450400
+  splits:
+  - splitPath: GroupName
+    text: "破庙猴儿酒"
+    translated: "Monkey Wine from the Ruined Temple"
+  - splitPath: Name
+    text: "破庙猴儿酒"
+    translated: "Monkey Wine from the Ruined Temple"
 - raw: "{\r\n    \"Key\": \"8460110\",\r\n    \"GroupName\": \"再访白猿寺\",\r\n    \"Name\": \"选择\",\r\n    \"GroupNameTw\": \"再訪白猿寺\",\r\n    \"NameTw\": \"選擇\"\r\n  }"
   rawIndex: 8460110
   splits:
@@ -55660,6 +55678,48 @@
   - splitPath: Name
     text: "战败猿猴"
     translated: "Defeated Ape"
+- raw: "{\r\n    \"Key\": \"8470500\",\r\n    \"GroupName\": \"峨眉斗白猿\",\r\n    \"Name\": \"峨眉斗白猿\",\r\n    \"GroupNameTw\": \"峨眉鬥白猿\",\r\n    \"NameTw\": \"峨眉鬥白猿\"\r\n  }"
+  rawIndex: 8470500
+  splits:
+  - splitPath: GroupName
+    text: "峨眉斗白猿"
+    translated: "The Battle of Emei against the White Ape"
+  - splitPath: Name
+    text: "峨眉斗白猿"
+    translated: "The Battle of Emei against the White Ape"
+- raw: "{\r\n    \"Key\": \"8470600\",\r\n    \"GroupName\": \"峨眉斗白猿\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"峨眉鬥白猿\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
+  rawIndex: 8470600
+  splits:
+  - splitPath: GroupName
+    text: "峨眉斗白猿"
+    translated: "The Battle of Emei against the White Ape"
+  - splitPath: Name
+    text: "战斗"
+    translated: "Battle"
+    qcReviewedText: "Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8470700\",\r\n    \"GroupName\": \"峨眉斗白猿\",\r\n    \"Name\": \"战胜白猿\",\r\n    \"GroupNameTw\": \"峨眉鬥白猿\",\r\n    \"NameTw\": \"戰勝白猿\"\r\n  }"
+  rawIndex: 8470700
+  splits:
+  - splitPath: GroupName
+    text: "峨眉斗白猿"
+    translated: "The Battle of Emei against the White Ape"
+  - splitPath: Name
+    text: "战胜白猿"
+    translated: "Defeat the white ape"
+- raw: "{\r\n    \"Key\": \"8470800\",\r\n    \"GroupName\": \"峨眉斗白猿\",\r\n    \"Name\": \"不敌白猿\",\r\n    \"SummaryDesc\": \"你与白猿比斗，慌乱之中一脚踩空，坠崖而死。\",\r\n    \"GroupNameTw\": \"峨眉鬥白猿\",\r\n    \"NameTw\": \"不敵白猿\"\r\n  }"
+  rawIndex: 8470800
+  splits:
+  - splitPath: GroupName
+    text: "峨眉斗白猿"
+    translated: "The Battle of Emei against the White Ape"
+  - splitPath: Name
+    text: "不敌白猿"
+    translated: "Unable to match the white ape"
+  - splitPath: SummaryDesc
+    text: "你与白猿比斗，慌乱之中一脚踩空，坠崖而死。"
+    translated: "You fought against the white ape, and in your panic, you stepped off the edge and fell to your death."
 - raw: "{\r\n    \"Key\": \"8478100\",\r\n    \"GroupName\": \"山猿劫路一\",\r\n    \"Name\": \"山猿劫路一\",\r\n    \"GroupNameTw\": \"山猿劫路一\",\r\n    \"NameTw\": \"山猿劫路一\"\r\n  }"
   rawIndex: 8478100
   splits:

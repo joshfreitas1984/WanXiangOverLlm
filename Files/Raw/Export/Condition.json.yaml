@@ -1339,6 +1339,17 @@
   templates:
   - splitPath: Name
     template: "{0}-{1}"
+- raw: "{\r\n    \"Key\": \"10125\",\r\n    \"Name\": \"成就-猿猴献果\"\r\n  }"
+  rawIndex: 10125
+  splits:
+  - splitPath: Name
+    text: "成就"
+  - splitPath: Name
+    subIndex: 1
+    text: "猿猴献果"
+  templates:
+  - splitPath: Name
+    template: "{0}-{1}"
 - raw: "{\r\n    \"Key\": \"80002\",\r\n    \"Name\": \"赌场贾孤山\"\r\n  }"
   rawIndex: 80002
   splits:
@@ -15989,6 +16000,11 @@
   splits:
   - splitPath: Name
     text: "十殿阎王面"
+- raw: "{\r\n    \"Key\": \"8004900\",\r\n    \"Name\": \"灵明救小圣\"\r\n  }"
+  rawIndex: 8004900
+  splits:
+  - splitPath: Name
+    text: "灵明救小圣"
 - raw: "{\r\n    \"Key\": \"8091100\",\r\n    \"Name\": \"基-广元核桃酥\"\r\n  }"
   rawIndex: 8091100
   splits:
@@ -16663,6 +16679,16 @@
   splits:
   - splitPath: Name
     text: "猿猴拜白猿"
+- raw: "{\r\n    \"Key\": \"8450400\",\r\n    \"Name\": \"破庙猴儿酒\"\r\n  }"
+  rawIndex: 8450400
+  splits:
+  - splitPath: Name
+    text: "破庙猴儿酒"
+- raw: "{\r\n    \"Key\": \"-84504000\",\r\n    \"Name\": \"破庙猴儿酒\"\r\n  }"
+  rawIndex: -84504000
+  splits:
+  - splitPath: Name
+    text: "破庙猴儿酒"
 - raw: "{\r\n    \"Key\": \"-84601110\",\r\n    \"Name\": \"寺中猿戏一\"\r\n  }"
   rawIndex: -84601110
   splits:
@@ -16743,6 +16769,11 @@
   splits:
   - splitPath: Name
     text: "寺中猿戏四"
+- raw: "{\r\n    \"Key\": \"8470500\",\r\n    \"Name\": \"峨眉斗白猿\"\r\n  }"
+  rawIndex: 8470500
+  splits:
+  - splitPath: Name
+    text: "峨眉斗白猿"
 - raw: "{\r\n    \"Key\": \"4002000\",\r\n    \"Name\": \"君子邀客来\"\r\n  }"
   rawIndex: 4002000
   splits:

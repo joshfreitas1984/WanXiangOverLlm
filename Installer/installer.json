@@ -1,0 +1,19 @@
+{
+  "gameName": "Wan Xiang Qi Xi Zhi",
+  "steamAppId": 3039500,
+  // The Steam folder holds a nested "wanxiang" folder that contains the exe; the installer searches for it.
+  "steamFolderName": "wanxiang",
+  "exeName": "WXQXZ.exe",
+  "gitHubRepo": "joshfreitas1984/WanXiangOverLlm",
+  // gh account to publish as from "7. Package Release". Leave null to open the browser instead.
+  "ghAccount": null,
+  "patchZipPrefix": "EnglishPatch",
+  "wineLaunchOption": "WINEDLLOVERRIDES=\"winhttp=n,b\" %command%",
+  "bepInEx": {
+    "flavour": "mono",
+    "architecture": "x64",
+    "version": "5.4.23.5",
+    "url": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip",
+    "sha256": "82f9878551030f54657792c0740d9d51a09500eeae1fba21106b0c441e6732c4"
+  }
+}

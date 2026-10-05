@@ -45,3 +45,10 @@ skipLineValidation: false
 correctionPromptsEnabled: true
 batchSize: 100
 translateFlagged: true
+# Adds per-line context from the game (speaker, gender) to the prompt; does nothing until the game sets a LineContextProvider hook.
+lineContextEnabled: true
+# Flags translations with an invented/wrong gender or "I" narration for retranslation during ApplyAllRulesToCurrentTranslation
+# (once per line per run). Lines whose translation names a character are checked too.
+pronounCheck:
+  enabled: true
+  skipWhenTranslationNamesSomeone: false

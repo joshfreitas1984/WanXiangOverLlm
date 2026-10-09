@@ -27,7 +27,7 @@ models:
 # docs/investigations/tests/qc-evaluator-model-selection.md for why. minAcceptableScore lowered from
 # 70 to match; twoStageVerificationEnabled/verifyNoDefectClaims dropped - dead config keys, no longer
 # read anywhere in FanslationStudio.LlmKit.
-qualityReview:
+qualityControl:
   enabled: true
   modelName: Qwen38Qc-IQ4XS
   minAcceptableScore: 60

@@ -5,7 +5,7 @@ namespace Translate.Tests;
 
 /// <summary>
 /// One-off remediation for the QC column-grouping bug fixed in FanslationStudio.LlmKit's
-/// QualityReviewWorkflow. Unlike the first pass, this unconditionally resets every Qc* field
+/// QualityControlWorkflow. Unlike the first pass, this unconditionally resets every Qc* field
 /// (including QcRuleCheckFailureCount/Baseline, which ResetQcState() deliberately leaves alone in
 /// normal operation but which can still hold corrupted values - e.g. a baseline string built from
 /// the wrong field's reconstructed template - left over from the bug) on every split in any line

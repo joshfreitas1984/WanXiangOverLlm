@@ -1,6 +1,6 @@
 # Translation workflow execution reference
 
-`Translate/` is the reusable game-specific adapter around the sibling `FanslationStudio.LlmKit` library. It declares the WanXiang text files in `GameTextFiles`, applies game hooks in `GameFileHandling`, and delegates shared extraction, translation, quality review, and packaging mechanics to LlmKit workflows.
+`Translate/` is the reusable game-specific adapter around the sibling `FanslationStudio.LlmKit` library. It declares the WanXiang text files in `GameTextFiles`, applies game hooks in `GameFileHandling`, and delegates shared extraction, translation, quality control, and packaging mechanics to LlmKit workflows.
 
 `Tests/` contains the numbered workflow facts and regression tests. These files may read or mutate the `Files/` working directory and may call a live LLM; do not run them as a normal build check.
 

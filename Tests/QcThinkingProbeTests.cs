@@ -5,11 +5,11 @@ namespace Translate.Tests;
 /// <summary>
 /// Diagnostic-only, NOT part of the numbered QualityControlWorkflowTests pipeline - probes the QC
 /// model's actual reasoning (thinking mode turned back on via
-/// QualityReviewWorkflow.ProbeReviewReasoningAsync's enableThinking: true) against a hand-picked set
+/// QualityControlWorkflow.ProbeReviewReasoningAsync's enableThinking: true) against a hand-picked set
 /// of SOURCE/TRANSLATION pairs, so a human can compare what the model actually reasoned against what
-/// BaseQualityReviewPrompt.txt/BaseQualityReviewVerificationPrompt.txt (in
+/// BaseQualityControlPrompt.txt/BaseQualityControlVerificationPrompt.txt (in
 /// ../FanslationStudio.LlmKit/FanslationStudio.LlmKit/BaseFiles/Qwen38/Prompts/) intended, before
-/// tweaking prompt/rubric wording. Production QC (QualityReviewWorkflow.RunAsync/RunBruteForce) never
+/// tweaking prompt/rubric wording. Production QC (QualityControlWorkflow.RunAsync/RunBruteForce) never
 /// enables thinking - both prompts explicitly forbid a reasoning preamble in their output format -
 /// so this exists purely to see the reasoning trace on demand, not to change production behavior.
 ///
@@ -29,7 +29,7 @@ public class QcThinkingProbeTests
     // unchanged). Spans every score band in the sample (0/10/15/20) and most DEFECT categories, plus
     // one outright anomaly (#1's qcReviewedText is leaked/garbled protocol-sounding text, not an
     // actual translation - worth seeing what the model "thinks" happened there).
-    private static readonly QualityReviewWorkflow.QcProbeSample[] Samples =
+    private static readonly QualityControlWorkflow.QcProbeSample[] Samples =
     [
         // score 0, OtherNamedDefect - qcReviewedText looks like leaked/garbled protocol text, not a translation
         //new("招式粗浅，以命相搏的刀法，多为贼寇所使", "Explanation was provided when none should be given. Alternatives were provided when none should be given."),
@@ -71,7 +71,7 @@ public class QcThinkingProbeTests
 
     ];
 
-    [Fact(DisplayName = "Probe Quality Review Reasoning (thinking mode)")]
+    [Fact(DisplayName = "Probe Quality Control Reasoning (thinking mode)")]
     public async Task ProbeReviewReasoning()
     {
         if (Samples.Length == 0)
@@ -80,7 +80,7 @@ public class QcThinkingProbeTests
             return;
         }
 
-        var results = await QualityReviewWorkflow.ProbeReviewReasoningAsync(WorkingDirectory, Samples, hooks: GameFileHandling.Hooks);
+        var results = await QualityControlWorkflow.ProbeReviewReasoningAsync(WorkingDirectory, Samples, hooks: GameFileHandling.Hooks);
 
         var serializer = FanslationStudio.LlmKit.Utility.YamlHelper.CreateSerializer();
         var yaml = serializer.Serialize(results);

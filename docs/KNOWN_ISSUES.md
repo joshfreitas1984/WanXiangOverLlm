@@ -8,4 +8,4 @@ This file is an index only. Keep detailed investigations and postmortems under `
 
 ## Shared library
 
-For shared translation, quality-review, packaging, and data-model behavior, use the corresponding topic in the sibling [`FanslationStudio.LlmKit/docs/`](../../FanslationStudio.LlmKit/docs/README.md) tree.
+For shared translation, quality-control, packaging, and data-model behavior, use the corresponding topic in the sibling [`FanslationStudio.LlmKit/docs/`](../../FanslationStudio.LlmKit/docs/README.md) tree.

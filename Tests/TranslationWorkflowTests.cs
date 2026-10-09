@@ -14,7 +14,7 @@ public class TranslationWorkflowTests
         await TranslationWorkflow.ApplyAllRulesToCurrentTranslation(WorkingDirectory, GameTextFiles.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
-    // QC-pipeline facts (RunQualityReviewPassSample "3a" through the full-reset fact) now live in
+    // QC-pipeline facts (RunQualityControlPassSample "3a" through the full-reset fact) now live in
     // QualityControlWorkflowTests.cs, matching DragonHierOverLlm's structure.
 
     [Fact(DisplayName = "4. TranslateLines")]

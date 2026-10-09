@@ -2394,3 +2394,20 @@
   only: 
     - Achievement.json
     #- Relation.json
+
+# Moved from the LlmKit preset (game-specific proper nouns)
+- raw: 恶人谷
+  rawSimplified: 恶人谷
+  rawTraditional: 惡人谷
+  result: Villains Valley
+  badtrans: true
+  direct: Evil person valley
+  literal: e ren gu
+- raw: 酒坊
+  result: Winery
+  allowalt:
+  - Wineries
+- raw: 盐场
+  rawSimplified: 盐场
+  rawTraditional: 鹽場
+  result: Salt Farm

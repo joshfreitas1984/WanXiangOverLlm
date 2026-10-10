@@ -952,9 +952,9 @@
     qcQualityScore: 85
   - splitPath: Puzzle
     text: "“笔画流畅、字形圆转、尚婉而通”是哪种书法的特点"
-    translated: "' The strokes flow smoothly, the characters are rounded and graceful, still soft yet well‑connected.' This describes the characteristics of regular script. All officials must report to the palace by the third day of March."
-    qcReviewedText: "' The strokes flow smoothly, the characters are rounded and graceful, still soft yet well‑connected.' This describes the characteristics of regular script. All officials must report to the palace by the third day of March."
-    qcTranslated: "'The strokes flow smoothly, the characters are rounded and graceful, still soft yet well‑connected.' This describes the characteristics of which calligraphy style?"
+    translated: "' The strokes flow smoothly, the characters are rounded and graceful, still soft yet well-connected.' This describes the characteristics of regular script. All officials must report to the palace by the third day of March."
+    qcReviewedText: "' The strokes flow smoothly, the characters are rounded and graceful, still soft yet well-connected.' This describes the characteristics of regular script. All officials must report to the palace by the third day of March."
+    qcTranslated: "'The strokes flow smoothly, the characters are rounded and graceful, still soft yet well-connected.' This describes the characteristics of which calligraphy style?"
     qcStatus: Corrected
     qcQualityScore: 90
   - splitPath: AnswerList[0]
@@ -2139,8 +2139,8 @@
     qcQualityScore: 90
   - splitPath: AnswerList[0]
     text: "豪放派"
-    translated: "Free‑and‑Easy School"
-    qcReviewedText: "Free‑and‑Easy School"
+    translated: "Free-and-Easy School"
+    qcReviewedText: "Free-and-Easy School"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]
@@ -2178,8 +2178,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[0]
     text: "豪放派"
-    translated: "Free‑and‑Easy School"
-    qcReviewedText: "Free‑and‑Easy School"
+    translated: "Free-and-Easy School"
+    qcReviewedText: "Free-and-Easy School"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]
@@ -3176,8 +3176,8 @@
     flaggedForQcReview: true
   - splitPath: AnswerList[3]
     text: "血染征衣志未央"
-    translated: "Blood‑soaked war garment, aspirations unfulfilled"
-    qcReviewedText: "Blood‑soaked war garment, aspirations unfulfilled"
+    translated: "Blood-soaked war garment, aspirations unfulfilled"
+    qcReviewedText: "Blood-soaked war garment, aspirations unfulfilled"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"95\",\r\n    \"Name\": \"南坡诗词\",\r\n    \"Puzzle\": \"桃李春风一杯酒\",\r\n    \"AnswerList\": [\r\n      \"醉卧花间梦悠长\",\r\n      \"江湖夜雨十年灯\",\r\n      \"共君今夜不须愁\",\r\n      \"月下独酌影成双\"\r\n    ],\r\n    \"NameTw\": \"南坡詩詞\",\r\n    \"PuzzleTw\": \"桃李春風一杯酒\",\r\n    \"AnswerTwList\": [\r\n      \"醉臥花間夢悠長\",\r\n      \"江湖夜雨十年燈\",\r\n      \"共君今夜不須愁\",\r\n      \"月下獨酌影成雙\"\r\n    ]\r\n  }"
@@ -3308,10 +3308,7 @@
     qcQualityScore: 95
   - splitPath: Puzzle
     text: "远看山有色，近听水无声，春去花还在，人来鸟不惊。（打一物）"
-    translated: "A picture"
-    qcReviewedText: "A picture"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "From afar, the mountains take on color; up close, the water makes no sound. Flowers remain even as spring departs, and birds stay unafraid when people arrive. (Guess an object)"
   - splitPath: AnswerList[0]
     text: "镜"
     translated: "Mirror"
@@ -3347,11 +3344,7 @@
     qcQualityScore: 95
   - splitPath: Puzzle
     text: "有风不动无风动，不动无风动有风。（打一物）"
-    translated: "A fan"
-    qcReviewedText: "A fan"
-    qcTranslated: "A fan\\nA fan that moves without wind and stays still when there is no wind; it moves when there is wind and stays still when there is no wind. (Guess an object)"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Still when there's wind, moves when there's no wind-still when there's no wind, moves when there's wind. (Guess an object)"
   - splitPath: AnswerList[0]
     text: "雨伞"
     translated: "Umbrella"
@@ -3465,10 +3458,7 @@
     qcQualityScore: 95
   - splitPath: Puzzle
     text: "三山倒挂，二月相连，上有可耕之田，下有长流之川（打一字）"
-    translated: "March"
-    qcReviewedText: "March"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    translated: "Three mountains hanging upside down, two months connected-above are arable fields, below flows an endless river (guess a character)"
   - splitPath: AnswerList[0]
     text: "周"
     translated: "Week"
@@ -3543,10 +3533,7 @@
     qcQualityScore: 95
   - splitPath: Puzzle
     text: "一箭穿心（打一字）"
-    translated: "Stab"
-    qcReviewedText: "Stab"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "One arrow piercing the heart (guess a character)"
   - splitPath: AnswerList[0]
     text: "必"
     translated: "MUST"
@@ -3667,8 +3654,8 @@
     qcQualityScore: 82
   - splitPath: AnswerList[0]
     text: "高碳钢"
-    translated: "High‑carbon steel"
-    qcReviewedText: "High‑carbon steel"
+    translated: "High-carbon steel"
+    qcReviewedText: "High-carbon steel"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]
@@ -4105,10 +4092,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "孔子登山（打一字）"
-    translated: "Mount Tai"
-    qcReviewedText: "Mount Tai"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Confucius climbs a mountain (guess a character)"
   - splitPath: AnswerList[0]
     text: "岳"
     translated: "Yue"
@@ -4183,11 +4167,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "刘邦闻之喜，刘备闻之泣（打一字）"
-    translated: "Rainbow"
-    qcReviewedText: "Rainbow"
-    qcTranslated: "Liu Bang heard it and rejoiced, Liu Bei heard it and wept (Guess a character)"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Liu Bang was overjoyed upon hearing this, while Liu Bei wept when he heard it (guess a character)."
   - splitPath: AnswerList[0]
     text: "羽"
     translated: "Feather"
@@ -4223,11 +4203,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "唐虞有，尧舜无，商周有，汤武无（打一字）"
-    translated: "Have, have, no, no"
-    qcReviewedText: "Have, have, no, no"
-    qcTranslated: "Tang and Yu have it, Yao and Shun don't; Shang and Zhou have it, Tang and Wu don't (Guess a character)"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "It existed in the Tang and Yu eras but not in the Yao and Shun eras; it existed in the Shang and Zhou dynasties but not in the Tang and Wu eras. (Guess a character)"
   - splitPath: AnswerList[0]
     text: "兵"
     translated: "Soldier"
@@ -4263,11 +4239,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "走于边，坐于边，堆于左，挂于右（打一字）"
-    translated: "Sit"
-    qcReviewedText: "Sit"
-    qcTranslated: "Walk on the edge, sit on the edge, pile on the left, hang on the right (Guess a character)"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Walk on the edge, sit on the edge, pile on the left, hang on the right (guess a character)"
   - splitPath: AnswerList[0]
     text: "山"
     translated: "Mountain"
@@ -4305,7 +4277,7 @@
     text: "九十九（打一字）"
     translated: "Jiushijiu (as a single character)"
     qcReviewedText: "Jiushijiu (as a single character)"
-    qcTranslated: "Ninety‑nine (guess a single character)"
+    qcTranslated: "Ninety-nine (guess a single character)"
     qcStatus: Corrected
     qcQualityScore: 90
   - splitPath: AnswerList[0]
@@ -4461,11 +4433,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "千里相逢（打一字）"
-    translated: "Ten Thousand Mile Journey"
-    qcReviewedText: "Ten Thousand Mile Journey"
-    qcTranslated: "Meeting After a Thousand Miles (Guess a Character)"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Meeting from a thousand miles away (guess a character)"
   - splitPath: AnswerList[0]
     text: "里"
     translated: "Inside"
@@ -4486,8 +4454,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "重"
-    translated: "Re‑weight"
-    qcReviewedText: "Re‑weight"
+    translated: "Re-weight"
+    qcReviewedText: "Re-weight"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10214\",\r\n    \"Name\": \"锦心字谜\",\r\n    \"Puzzle\": \"二小姐（打一字）\",\r\n    \"AnswerList\": [\r\n      \"次\",\r\n      \"妹\",\r\n      \"幼\",\r\n      \"姿\"\r\n    ],\r\n    \"NameTw\": \"錦心字謎\",\r\n    \"PuzzleTw\": \"二小姐（打一字）\",\r\n    \"AnswerTwList\": [\r\n      \"次\",\r\n      \"妹\",\r\n      \"幼\",\r\n      \"姿\"\r\n    ]\r\n  }"
@@ -4580,10 +4548,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "池中无水，地上无土（打一字）"
-    translated: "Spring"
-    qcReviewedText: "Spring"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "No water in the pond, no soil on the ground (guess a character)"
   - splitPath: AnswerList[0]
     text: "山"
     translated: "Mountain"
@@ -4619,8 +4584,8 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "半真半假（打一字）"
-    translated: "Half True Half False (Guess One Character) ‑ jia"
-    qcReviewedText: "Half True Half False (Guess One Character) ‑ jia"
+    translated: "Half True Half False (Guess One Character) - jia"
+    qcReviewedText: "Half True Half False (Guess One Character) - jia"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[0]
@@ -4736,10 +4701,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "文武双全（打一字）"
-    translated: "Well‑rounded"
-    qcReviewedText: "Well‑rounded"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Versatile in both martial arts and literature (guess a character)"
   - splitPath: AnswerList[0]
     text: "齐"
     translated: "Qi"
@@ -4854,11 +4816,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "空山之中一亩田（打一字）"
-    translated: "The sentence contains no Chinese characters to translate."
-    qcReviewedText: "The sentence contains no Chinese characters to translate."
-    qcTranslated: "A single acre of field in an empty mountain (guess a character)"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "One mu of field in an empty mountain (guess a character)"
   - splitPath: AnswerList[0]
     text: "旦"
     translated: "Morning"
@@ -4894,10 +4852,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "云破月来花弄影（打一字）"
-    translated: "Moon"
-    qcReviewedText: "Moon"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    translated: "(Clouds part, moon appears, flowers play with their shadows-guess the character)"
   - splitPath: AnswerList[0]
     text: "坛"
     translated: "Bowl"
@@ -4933,10 +4888,7 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "念头打断（打一字）"
-    translated: "Think"
-    qcReviewedText: "Think"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Thought interrupted (form a character)"
   - splitPath: AnswerList[0]
     text: "心"
     translated: "Heart"
@@ -5181,8 +5133,8 @@
     qcQualityScore: 85
   - splitPath: AnswerList[1]
     text: "半窗竹影月临轩"
-    translated: "Half‑window bamboo shadows with the moon facing the elegant courtyard"
-    qcReviewedText: "Half‑window bamboo shadows with the moon facing the elegant courtyard"
+    translated: "Half-window bamboo shadows with the moon facing the elegant courtyard"
+    qcReviewedText: "Half-window bamboo shadows with the moon facing the elegant courtyard"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[2]
@@ -5193,8 +5145,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "几树莺声雨送春"
-    translated: "Several trees echo with the songs of rain‑borne springbirds."
-    qcReviewedText: "Several trees echo with the songs of rain‑borne springbirds."
+    translated: "Several trees echo with the songs of rain-borne springbirds."
+    qcReviewedText: "Several trees echo with the songs of rain-borne springbirds."
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10407\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"人品之不高，总为一利字看不破\",\r\n    \"AnswerList\": [\r\n      \"德行之不修，总为一欲字放不下\",\r\n      \"事业之不成，总为一骄字去不掉\",\r\n      \"心境之不清，总为一贪字解不开\",\r\n      \"学业之不进，总为一懒字丢不开\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"人品之不高，總為一利字看不破\",\r\n    \"AnswerTwList\": [\r\n      \"德行之不修，總為一欲字放不下\",\r\n      \"事業之不成，總為一驕字去不掉\",\r\n      \"心境之不清，總為一貪字解不開\",\r\n      \"學業之不進，總為一懶字丟不開\"\r\n    ]\r\n  }"
@@ -5328,8 +5280,8 @@
     qcQualityScore: 90
   - splitPath: Puzzle
     text: "留七分正经，以度生"
-    translated: "Keep seven‑tenths serious to navigate life"
-    qcReviewedText: "Keep seven‑tenths serious to navigate life"
+    translated: "Keep seven-tenths serious to navigate life"
+    qcReviewedText: "Keep seven-tenths serious to navigate life"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[0]
@@ -5448,7 +5400,7 @@
     text: "千载奇逢，无如好书良友"
     translated: "A rare meeting in a thousand years, like good books and true friends."
     qcReviewedText: "A rare meeting in a thousand years, like good books and true friends."
-    qcTranslated: "A once‑in‑a‑thousand‑years encounter; nothing rivals good books and true friends."
+    qcTranslated: "A once-in-a-thousand-years encounter; nothing rivals good books and true friends."
     qcStatus: Corrected
     qcQualityScore: 82
   - splitPath: AnswerList[0]
@@ -5511,8 +5463,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "案上半卷残书旧帖，品读时自得真趣"
-    translated: "On the table, half‑read old books and scrolls offer true delights as I savor them."
-    qcReviewedText: "On the table, half‑read old books and scrolls offer true delights as I savor them."
+    translated: "On the table, half-read old books and scrolls offer true delights as I savor them."
+    qcReviewedText: "On the table, half-read old books and scrolls offer true delights as I savor them."
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10415\",\r\n    \"Name\": \"锦心联对\",\r\n    \"Puzzle\": \"一失脚为千古恨\",\r\n    \"AnswerList\": [\r\n      \"一失足成万古悲\",\r\n      \"再回首是百年身\",\r\n      \"再回头是百年人\",\r\n      \"一蹉跎即万劫难\"\r\n    ],\r\n    \"NameTw\": \"錦心聯對\",\r\n    \"PuzzleTw\": \"一失腳為千古恨\",\r\n    \"AnswerTwList\": [\r\n      \"一失足成萬古悲\",\r\n      \"再回首是百年身\",\r\n      \"再回頭是百年人\",\r\n      \"一蹉跎即萬劫難\"\r\n    ]\r\n  }"
@@ -6093,8 +6045,8 @@
     qcQualityScore: 100
   - splitPath: Puzzle
     text: "记得小蘋初见，两重心字罗衣。琵琶弦上说相思。当时明月在，"
-    translated: "Recalling our first meeting, Xiao Pen, in that double‑layered robe of love. The lute strings spoke of longing. The same moon still shines then, now."
-    qcReviewedText: "Recalling our first meeting, Xiao Pen, in that double‑layered robe of love. The lute strings spoke of longing. The same moon still shines then, now.______。"
+    translated: "Recalling our first meeting, Xiao Pen, in that double-layered robe of love. The lute strings spoke of longing. The same moon still shines then, now."
+    qcReviewedText: "Recalling our first meeting, Xiao Pen, in that double-layered robe of love. The lute strings spoke of longing. The same moon still shines then, now.______。"
     qcStatus: Passed
     flaggedForQcReview: true
   - splitPath: AnswerList[0]
@@ -6388,8 +6340,8 @@
     qcQualityScore: 100
   - splitPath: Puzzle
     text: "何日归家洗客袍？银字笙调，心字香烧。流光容易把人抛，"
-    translated: "When will I return home to wash my traveler's robe? Adjust the silver‑inlaid sheng, burn the heart‑shaped incense. Time easily leaves people behind,"
-    qcReviewedText: "When will I return home to wash my traveler's robe? Adjust the silver‑inlaid sheng, burn the heart‑shaped incense. Time easily leaves people behind,______。"
+    translated: "When will I return home to wash my traveler's robe? Adjust the silver-inlaid sheng, burn the heart-shaped incense. Time easily leaves people behind,"
+    qcReviewedText: "When will I return home to wash my traveler's robe? Adjust the silver-inlaid sheng, burn the heart-shaped incense. Time easily leaves people behind,______。"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[0]
@@ -6431,8 +6383,8 @@
     qcQualityScore: 100
   - splitPath: Puzzle
     text: "天不老，情难绝。心似双丝网，中有千千结。夜过也，"
-    translated: "Heaven never grows old, love never fades. My heart is like a double‑threaded net, with thousands of knots within. The night has passed,"
-    qcReviewedText: "Heaven never grows old, love never fades. My heart is like a double‑threaded net, with thousands of knots within. The night has passed,______。"
+    translated: "Heaven never grows old, love never fades. My heart is like a double-threaded net, with thousands of knots within. The night has passed,"
+    qcReviewedText: "Heaven never grows old, love never fades. My heart is like a double-threaded net, with thousands of knots within. The night has passed,______。"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[0]
@@ -6732,8 +6684,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[0]
     text: "对酒怕听莺"
-    translated: "Drinking wine and dreading the sound of yellow‑throated warblers"
-    qcReviewedText: "Drinking wine and dreading the sound of yellow‑throated warblers"
+    translated: "Drinking wine and dreading the sound of yellow-throated warblers"
+    qcReviewedText: "Drinking wine and dreading the sound of yellow-throated warblers"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]
@@ -6983,7 +6935,7 @@
     text: "寸寸柔肠，盈盈粉泪，楼高莫近危阑倚。平芜尽处是春山，"
     translated: "Tender thoughts and tears, do not lean on the high rail; beyond the distant plains lies spring's mountain."
     qcReviewedText: "Tender thoughts and tears, do not lean on the high rail; beyond the distant plains lies spring's mountain.______。"
-    qcTranslated: "Inch by inch, my tender heart aches; tears of pink blush well up. The tower is high‑do not lean on the perilous railing. Where the level grass ends, there are spring mountains.______."
+    qcTranslated: "Inch by inch, my tender heart aches; tears of pink blush well up. The tower is high-do not lean on the perilous railing. Where the level grass ends, there are spring mountains.______."
     qcStatus: Corrected
     qcQualityScore: 85
   - splitPath: AnswerList[0]
@@ -7199,8 +7151,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[0]
     text: "忍看朱颜空白头"
-    translated: "Watch in vain as youthful vigor fades to gray‑haired regret"
-    qcReviewedText: "Watch in vain as youthful vigor fades to gray‑haired regret"
+    translated: "Watch in vain as youthful vigor fades to gray-haired regret"
+    qcReviewedText: "Watch in vain as youthful vigor fades to gray-haired regret"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]
@@ -7211,8 +7163,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[2]
     text: "谁怜朱颜容易老"
-    translated: "Who pities the red‑cheeked youth growing old too soon?"
-    qcReviewedText: "Who pities the red‑cheeked youth growing old too soon?"
+    translated: "Who pities the red-cheeked youth growing old too soon?"
+    qcReviewedText: "Who pities the red-cheeked youth growing old too soon?"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[3]
@@ -7260,8 +7212,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "《闺怨佳人拜月亭》"
-    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
-    qcReviewedText: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
+    translated: "Month-Temple Pavilion for a Lady's Lunar Complaints"
+    qcReviewedText: "Month-Temple Pavilion for a Lady's Lunar Complaints"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10802\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"花有重开日，人无再少年。休道黄金贵，安乐最值钱。\",\r\n    \"AnswerList\": [\r\n      \"《鲁大夫秋胡戏妻》\",\r\n      \"《裴少俊墙头马上》\",\r\n      \"《迷青琐倩女离魂》\",\r\n      \"《冤报冤赵氏孤儿》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"花有重開日，人無再少年。休道黃金貴，安樂最值錢。\",\r\n    \"AnswerTwList\": [\r\n      \"《魯大夫秋胡戲妻》\",\r\n      \"《裴少俊牆頭馬上》\",\r\n      \"《迷青瑣倩女離魂》\",\r\n      \"《冤報冤趙氏孤兒》\"\r\n    ]\r\n  }"
@@ -7377,8 +7329,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "《闺怨佳人拜月亭》"
-    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
-    qcReviewedText: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
+    translated: "Month-Temple Pavilion for a Lady's Lunar Complaints"
+    qcReviewedText: "Month-Temple Pavilion for a Lady's Lunar Complaints"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10805\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"待月西厢下，迎风户半开。隔墙花影动，疑是玉人来。\",\r\n    \"AnswerList\": [\r\n      \"《崔莺莺待月西厢记》\",\r\n      \"《赵盼儿风月救风尘》\",\r\n      \"《唐明皇秋夜梧桐雨》\",\r\n      \"《破幽梦孤雁汉宫秋》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"待月西廂下，迎風戶半開。隔牆花影動，疑是玉人來。\",\r\n    \"AnswerTwList\": [\r\n      \"《崔鶯鶯待月西廂記》\",\r\n      \"《趙盼兒風月救風塵》\",\r\n      \"《唐明皇秋夜梧桐雨》\",\r\n      \"《破幽夢孤雁漢宮秋》\"\r\n    ]\r\n  }"
@@ -7392,8 +7344,8 @@
     qcQualityScore: 85
   - splitPath: Puzzle
     text: "待月西厢下，迎风户半开。隔墙花影动，疑是玉人来。"
-    translated: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half‑open door. The flower shadows behind the wall sway, as if it is the lady arriving."
-    qcReviewedText: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half‑open door. The flower shadows behind the wall sway, as if it is the lady arriving."
+    translated: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half-open door. The flower shadows behind the wall sway, as if it is the lady arriving."
+    qcReviewedText: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half-open door. The flower shadows behind the wall sway, as if it is the lady arriving."
     qcStatus: Passed
     flaggedForQcReview: true
   - splitPath: AnswerList[0]
@@ -7404,8 +7356,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[1]
     text: "《赵盼儿风月救风尘》"
-    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
-    qcReviewedText: "Zhao Pan'er's Month‑Saving Moon Dust"
+    translated: "Zhao Pan'er's Month-Saving Moon Dust"
+    qcReviewedText: "Zhao Pan'er's Month-Saving Moon Dust"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[2]
@@ -7523,8 +7475,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[1]
     text: "《闺怨佳人拜月亭》"
-    translated: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
-    qcReviewedText: "Month‑Temple Pavilion for a Lady's Lunar Complaints"
+    translated: "Month-Temple Pavilion for a Lady's Lunar Complaints"
+    qcReviewedText: "Month-Temple Pavilion for a Lady's Lunar Complaints"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[2]
@@ -7574,8 +7526,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "《忠义士豫让吞炭》"
-    translated: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
-    qcReviewedText: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
+    translated: "The Loyal and Righteous Shi Yu-liang Burns His Voice"
+    qcReviewedText: "The Loyal and Righteous Shi Yu-liang Burns His Voice"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10810\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"驿亭外，西风紧，雁儿又南宾。汉家君，今万里，怎禁得这凄凉。俺向着这迥野悲凉，草已添黄，兔早迎霜。\",\r\n    \"AnswerList\": [\r\n      \"《杜蕊娘智赏金线池》\",\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《吕洞宾三醉岳阳楼》\",\r\n      \"《破幽梦孤雁汉宫秋》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"驛亭外，西風緊，雁兒又南賓。漢家君，今萬里，怎禁得這淒涼。俺向著這迥野悲涼，草已添黃，兔早迎霜。\",\r\n    \"AnswerTwList\": [\r\n      \"《杜蕊娘智賞金線池》\",\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《呂洞賓三醉岳陽樓》\",\r\n      \"《破幽夢孤雁漢宮秋》\"\r\n    ]\r\n  }"
@@ -7670,8 +7622,8 @@
     qcQualityScore: 85
   - splitPath: Puzzle
     text: "月过十五光明少，人到中年万事休。儿孙自有儿孙福，莫为儿孙作远忧。"
-    translated: "The moon is less bright after the fifteenth day of the month, and by mid‑life, one leaves behind all worldly matters. Children will have their own fortune, so do not worry about them too much."
-    qcReviewedText: "The moon is less bright after the fifteenth day of the month, and by mid‑life, one leaves behind all worldly matters. Children will have their own fortune, so do not worry about them too much."
+    translated: "The moon is less bright after the fifteenth day of the month, and by mid-life, one leaves behind all worldly matters. Children will have their own fortune, so do not worry about them too much."
+    qcReviewedText: "The moon is less bright after the fifteenth day of the month, and by mid-life, one leaves behind all worldly matters. Children will have their own fortune, so do not worry about them too much."
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[0]
@@ -7790,8 +7742,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[3]
     text: "《忠义士豫让吞炭》"
-    translated: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
-    qcReviewedText: "The Loyal and Righteous Shi Yu‑liang Burns His Voice"
+    translated: "The Loyal and Righteous Shi Yu-liang Burns His Voice"
+    qcReviewedText: "The Loyal and Righteous Shi Yu-liang Burns His Voice"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"10815\",\r\n    \"Name\": \"含烟唱戏\",\r\n    \"Puzzle\": \"返咸阳，过宫墙；绕回廊，近椒房，月昏黄，夜生凉。\",\r\n    \"AnswerList\": [\r\n      \"《马丹阳度脱刘行首》\",\r\n      \"《破幽梦孤雁汉宫秋》\",\r\n      \"《吕洞宾三醉岳阳楼》\",\r\n      \"《杜蕊娘智赏金线池》\"\r\n    ],\r\n    \"NameTw\": \"含煙唱戲\",\r\n    \"PuzzleTw\": \"返咸陽，過宮牆；繞回廊，近椒房，月昏黃，夜生涼。\",\r\n    \"AnswerTwList\": [\r\n      \"《馬丹陽度脫劉行首》\",\r\n      \"《破幽夢孤雁漢宮秋》\",\r\n      \"《呂洞賓三醉岳陽樓》\",\r\n      \"《杜蕊娘智賞金線池》\"\r\n    ]\r\n  }"
@@ -7857,8 +7809,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[1]
     text: "《赵盼儿风月救风尘》"
-    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
-    qcReviewedText: "Zhao Pan'er's Month‑Saving Moon Dust"
+    translated: "Zhao Pan'er's Month-Saving Moon Dust"
+    qcReviewedText: "Zhao Pan'er's Month-Saving Moon Dust"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[2]
@@ -7890,8 +7842,8 @@
     qcQualityScore: 100
   - splitPath: AnswerList[0]
     text: "《赵盼儿风月救风尘》"
-    translated: "Zhao Pan'er's Month‑Saving Moon Dust"
-    qcReviewedText: "Zhao Pan'er's Month‑Saving Moon Dust"
+    translated: "Zhao Pan'er's Month-Saving Moon Dust"
+    qcReviewedText: "Zhao Pan'er's Month-Saving Moon Dust"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: AnswerList[1]

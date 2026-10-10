@@ -38,7 +38,7 @@
     text: "毒术达到宗师解锁"
     translated: "Poison technique reaches the Master level unlocks for them"
     qcReviewedText: "Poison technique reaches the Master level unlocks for them"
-    qcTranslated: "Master‑level Poison unlocks for them"
+    qcTranslated: "Master-level Poison unlocks for them"
     qcStatus: Corrected
     qcQualityScore: 85
 - raw: "{\r\n    \"Key\": \"901003\",\r\n    \"Name\": \"术数宗师\",\r\n    \"TypeText\": \"技艺结局\",\r\n    \"Desc\": \"术数达到宗师解锁\",\r\n    \"NameTw\": \"術數宗師\",\r\n    \"TypeTextTw\": \"技藝結局\",\r\n    \"DescTw\": \"術數達到宗師解鎖\"\r\n  }"
@@ -492,8 +492,8 @@
   splits:
   - splitPath: Name
     text: "泪痕刀故事"
-    translated: "Tear‑Streaked Blade Tale"
-    qcReviewedText: "Tear‑Streaked Blade Tale"
+    translated: "Tear-Streaked Blade Tale"
+    qcReviewedText: "Tear-Streaked Blade Tale"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: TypeText
@@ -505,14 +505,14 @@
   - splitPath: Desc
     text: "解锁晏蛾眉红颜后，一月到门派后山"
     translated: "Unlock Yan Emei's Red Beauty after, and go to the back mountain of the Sect one month later."
-    qcReviewedText: "Unlock Yan Emei's Red Beauty after, and go to the back mountain of the Sect one month later./Choosing Yan Emei at Diao Ao Ji earns the Tear‑Streaked Blade and completes the Tear‑Streaked Blade story, unlocking it."
-    qcTranslated: "After unlocking Yan Emei's Red Beauty, go to the Sect's back mountain or Diao Ao Ji in Month One to select Yan Emei and obtain the Tear‑Streaked Blade; completing the Tear‑Streaked Blade story unlocks it."
+    qcReviewedText: "Unlock Yan Emei's Red Beauty after, and go to the back mountain of the Sect one month later./Choosing Yan Emei at Diao Ao Ji earns the Tear-Streaked Blade and completes the Tear-Streaked Blade story, unlocking it."
+    qcTranslated: "After unlocking Yan Emei's Red Beauty, go to the Sect's back mountain or Diao Ao Ji in Month One to select Yan Emei and obtain the Tear-Streaked Blade; completing the Tear-Streaked Blade story unlocks it."
     qcStatus: Corrected
     qcQualityScore: 82
   - splitPath: Desc
     subIndex: 1
     text: "钓鳌矶选择晏蛾眉获得泪痕刀，完成泪痕刀故事解锁"
-    translated: "Choosing Yan Emei at Diao Ao Ji earns the Tear‑Streaked Blade and completes the Tear‑Streaked Blade story, unlocking it."
+    translated: "Choosing Yan Emei at Diao Ao Ji earns the Tear-Streaked Blade and completes the Tear-Streaked Blade story, unlocking it."
   templates:
   - splitPath: Desc
     template: "{0}/{1}"
@@ -575,8 +575,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "解锁连翘儿红颜后，完成连翘儿故事解锁"
-    translated: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
-    qcReviewedText: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    translated: "Unlocking Lian Qiaoer's red-maiden achievement, complete Lian Qiaoer's story unlock."
+    qcReviewedText: "Unlocking Lian Qiaoer's red-maiden achievement, complete Lian Qiaoer's story unlock."
     qcTranslated: "After unlocking Lian Qiaoer's romance, complete her story to unlock it."
     qcStatus: Corrected
     qcQualityScore: 82
@@ -597,8 +597,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "解锁连翘儿红颜后，完成连翘儿故事解锁"
-    translated: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
-    qcReviewedText: "Unlocking Lian Qiaoer's red‑maiden achievement, complete Lian Qiaoer's story unlock."
+    translated: "Unlocking Lian Qiaoer's red-maiden achievement, complete Lian Qiaoer's story unlock."
+    qcReviewedText: "Unlocking Lian Qiaoer's red-maiden achievement, complete Lian Qiaoer's story unlock."
     qcTranslated: "After unlocking Lian Qiaoer's romance, complete her story to unlock it."
     qcStatus: Corrected
     qcQualityScore: 82
@@ -661,8 +661,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "解锁阮碧青红颜，完成阮碧青前传故事，解锁连翘儿红颜，完成连翘儿故事《梦授天真诀》后，触发《今日喝什么》故事解锁。"
-    translated: "Unlock Ruan Biqing's Red‑Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red‑Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
-    qcReviewedText: "Unlock Ruan Biqing's Red‑Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red‑Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
+    translated: "Unlock Ruan Biqing's Red-Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red-Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
+    qcReviewedText: "Unlock Ruan Biqing's Red-Haired Beauty, complete her prologue story to unlock Lian Qiaoer's Red-Haired Beauty, and complete Lian Qiaoer's tale after mastering the 'Dreambestowing Innocence Technique.' This will trigger the quest What should we drink today? to unlock."
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"8\",\r\n    \"Name\": \"柳含烟结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜柳含烟后解锁\",\r\n    \"NameTw\": \"柳含煙結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏柳含煙後解鎖\"\r\n  }"
@@ -1040,8 +1040,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "获得红颜谈文秀后解锁"
-    translated: "After obtaining Red‑Skinned Tan Wenshou, unlock"
-    qcReviewedText: "After obtaining Red‑Skinned Tan Wenshou, unlock"
+    translated: "After obtaining Red-Skinned Tan Wenshou, unlock"
+    qcReviewedText: "After obtaining Red-Skinned Tan Wenshou, unlock"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"邵轻虹结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得邵轻虹红颜后解锁\",\r\n    \"NameTw\": \"邵輕虹結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得邵輕虹紅顏後解鎖\"\r\n  }"
@@ -1166,8 +1166,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "获得萧雪雁红颜后解锁"
-    translated: "After acquiring Xiang Xueyan as a red‑cloaked companion, unlock"
-    qcReviewedText: "After acquiring Xiang Xueyan as a red‑cloaked companion, unlock"
+    translated: "After acquiring Xiang Xueyan as a red-cloaked companion, unlock"
+    qcReviewedText: "After acquiring Xiang Xueyan as a red-cloaked companion, unlock"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"30\",\r\n    \"Name\": \"沈青鸬结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得沈青鸬红颜后解锁\",\r\n    \"NameTw\": \"沈青鸕結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得沈青鸕紅顏後解鎖\"\r\n  }"
@@ -1272,8 +1272,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "选择衡山派，获得红颜杨芸，未救援其余门派，完成魔侯线或宁王线结局解锁"
-    translated: "Choose Hengshan Sect to obtain Yang Yun, a red‑haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
-    qcReviewedText: "Choose Hengshan Sect to obtain Yang Yun, a red‑haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
+    translated: "Choose Hengshan Sect to obtain Yang Yun, a red-haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
+    qcReviewedText: "Choose Hengshan Sect to obtain Yang Yun, a red-haired beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
     qcTranslated: "Choose Hengshan Sect to obtain Yang Yun, a favored beauty. Do not rescue the other sects. Completing either the Demon Lord line or Peaceful King line will unlock the respective ending."
     qcStatus: Corrected
     qcQualityScore: 85
@@ -1315,8 +1315,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "选择洞庭帮，获得红颜钟离雪，未救援其余门派，完成魔侯线或宁王线结局解锁"
-    translated: "Choose Dongting Sect to obtain Red‑Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
-    qcReviewedText: "Choose Dongting Sect to obtain Red‑Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
+    translated: "Choose Dongting Sect to obtain Red-Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
+    qcReviewedText: "Choose Dongting Sect to obtain Red-Haired Zhongli Xue. Do not rescue any other sects. This unlocks the outcome for either the Demon Lord line or the Peaceful King line."
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"800400\",\r\n    \"Name\": \"唐门守护神\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁\",\r\n    \"NameTw\": \"唐門守護神\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇唐門，獲得紅顏唐么么，魔侯線中未救援其他門派，完成魔侯線結局解鎖\"\r\n  }"

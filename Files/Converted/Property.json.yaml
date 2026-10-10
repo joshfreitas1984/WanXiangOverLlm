@@ -288,8 +288,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "赌坊可访问的特殊角色人数，只读"
-    translated: "The number of special roles that can access the Gambling Den is read‑only."
-    qcReviewedText: "The number of special roles that can access the Gambling Den is read‑only."
+    translated: "The number of special roles that can access the Gambling Den is read-only."
+    qcReviewedText: "The number of special roles that can access the Gambling Den is read-only."
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"20\",\r\n    \"Name\": \"基础属性\",\r\n    \"Desc\": \"随机基础属性上下限\",\r\n    \"NameTw\": \"基礎屬性\",\r\n    \"DescTw\": \"隨機基礎屬性上下限\"\r\n  }"
@@ -349,13 +349,13 @@
   - splitPath: Desc
     text: "玩家选择的游戏难度，值对应"
     translated: "The difficulty level of the game chosen by the player, value corresponds to"
-    qcReviewedText: "The difficulty level of the game chosen by the player, value corresponds to Difficulty Table, read‑only"
+    qcReviewedText: "The difficulty level of the game chosen by the player, value corresponds to Difficulty Table, read-only"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
     text: "表，只读"
-    translated: "Table, read‑only"
+    translated: "Table, read-only"
   templates:
   - splitPath: Desc
     template: "{0}Difficulty{1}"
@@ -405,8 +405,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "角色卡张数，只读"
-    translated: "Character card count, read‑only"
-    qcReviewedText: "Character card count, read‑only"
+    translated: "Character card count, read-only"
+    qcReviewedText: "Character card count, read-only"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"29\",\r\n    \"Name\": \"角色技能数量\",\r\n    \"Desc\": \"角色技能数量，只读\",\r\n    \"NameTw\": \"角色技能數量\",\r\n    \"DescTw\": \"角色技能數量，只讀\"\r\n  }"
@@ -420,8 +420,8 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "角色技能数量，只读"
-    translated: "Character Skill Count, Read‑Only"
-    qcReviewedText: "Character Skill Count, Read‑Only"
+    translated: "Character Skill Count, Read-Only"
+    qcReviewedText: "Character Skill Count, Read-Only"
     qcStatus: Passed
     qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"1001\",\r\n    \"Name\": \"医术\",\r\n    \"Desc\": \"医术的掌握水平，可在荆北神农帮学习医术。衡山派冬学可以学习医术。\",\r\n    \"NameTw\": \"醫術\",\r\n    \"DescTw\": \"醫術的掌握水平，可在荊北神農幫學習醫術。衡山派冬學可以學習醫術。\"\r\n  }"
@@ -1178,8 +1178,8 @@
     qcQualityScore: 95
   - splitPath: Desc
     text: "影响侠客和铁衣帮的关系"
-    translated: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
-    qcReviewedText: "Influences on the relationship between the Wanderer and Gang Leader ‑ Shi"
+    translated: "Influences on the relationship between the Wanderer and Gang Leader - Shi"
+    qcReviewedText: "Influences on the relationship between the Wanderer and Gang Leader - Shi"
     qcTranslated: "Influences the relationship between the Wanderer and the Iron Robe Gang"
     qcStatus: Corrected
     qcQualityScore: 95

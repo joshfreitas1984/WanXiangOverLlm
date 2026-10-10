@@ -337,6 +337,10 @@
   - splitPath: Name
     text: "禀报宁王祸"
     translated: "Reporting the disaster to Prince Ning"
+    qcReviewedText: "Reporting the disaster to Prince Ning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"200711\",\r\n    \"Name\": \"衡山已明心\"\r\n  }"
   rawIndex: 200711
   splits:
@@ -352,6 +356,10 @@
   - splitPath: Name
     text: "洞庭寻宁王"
     translated: "Searching for Prince Ning at Dongting Lake"
+    qcReviewedText: "Searching for Prince Ning at Dongting Lake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"201600\",\r\n    \"Name\": \"衡山讨天魔\"\r\n  }"
   rawIndex: 201600
   splits:
@@ -1981,6 +1989,10 @@
   - splitPath: Name
     text: "选择李云裳"
     translated: "Select Li Yunshang"
+    qcReviewedText: "Select Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"774400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 774400
   splits:
@@ -2586,6 +2598,10 @@
   - splitPath: Name
     text: "抓捕铁蒺藜"
     translated: "Capture the Iron Caltrop"
+    qcReviewedText: "Capture the Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"810000\",\r\n    \"Name\": \"毒发被救治\"\r\n  }"
   rawIndex: 810000
   splits:
@@ -5302,6 +5318,10 @@
   - splitPath: Name
     text: "酒楼话宁王"
     translated: "Talks about Prince Ning at the Tavern"
+    qcReviewedText: "Talks about Prince Ning at the Tavern"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2007900\",\r\n    \"Name\": \"战胜双杰\"\r\n  }"
   rawIndex: 2007900
   splits:
@@ -5689,6 +5709,13 @@
   - splitPath: Name
     text: "从这行起，条件"
     translated: "Starting from this line, conditions:"
+    qcReviewedText: "Starting from this line, conditions: id For negative numbers, apply this conditional formula"
+    qcTranslated: "Starting from this line, if the condition id is a negative number, apply this conditional formula"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: Name
     subIndex: 1
     text: "为负数，沾这行条件公式"
@@ -6061,12 +6088,11 @@
   splits:
   - splitPath: Name
     text: "赌胜莫笑贫"
-    translated: "Win at gambling, do not mock the poor."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
-    qcReviewedText: "Win at gambling, do not mock the poor."
+    translated: "Bet on victory, Mo Xiaopin"
+    qcReviewedText: "Bet on victory, Mo Xiaopin"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"2402000\",\r\n    \"Name\": \"看赌客麻将\"\r\n  }"
   rawIndex: 2402000
   splits:
@@ -6999,6 +7025,10 @@
   - splitPath: Name
     text: "禀报宁王祸"
     translated: "Reporting the disaster to Prince Ning"
+    qcReviewedText: "Reporting the disaster to Prince Ning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3100411\",\r\n    \"Name\": \"武当已明心\"\r\n  }"
   rawIndex: 3100411
   splits:
@@ -7032,6 +7062,10 @@
   - splitPath: Name
     text: "洞庭寻宁王"
     translated: "Searching for Prince Ning at Dongting Lake"
+    qcReviewedText: "Searching for Prince Ning at Dongting Lake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3200400\",\r\n    \"Name\": \"初识邱灵素\"\r\n  }"
   rawIndex: 3200400
   splits:
@@ -8083,6 +8117,10 @@
   - splitPath: Name
     text: "选择李云裳"
     translated: "Select Li Yunshang"
+    qcReviewedText: "Select Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3874400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 3874400
   splits:
@@ -9059,6 +9097,10 @@
   - splitPath: Name
     text: "战胜女忍者"
     translated: "Defeat the Female Ninja"
+    qcReviewedText: "Defeat the Female Ninja"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4307300\",\r\n    \"Name\": \"战胜吕和乎\"\r\n  }"
   rawIndex: 4307300
   splits:
@@ -9810,6 +9852,10 @@
   - splitPath: Name
     text: "禀报宁王祸"
     translated: "Reporting the disaster to Prince Ning"
+    qcReviewedText: "Reporting the disaster to Prince Ning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4701011\",\r\n    \"Name\": \"洞庭已明心\"\r\n  }"
   rawIndex: 4701011
   splits:
@@ -9834,6 +9880,10 @@
   - splitPath: Name
     text: "洞庭寻宁王"
     translated: "Searching for Prince Ning at Dongting Lake"
+    qcReviewedText: "Searching for Prince Ning at Dongting Lake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4703100\",\r\n    \"Name\": \"天魔秘魔崖\"\r\n  }"
   rawIndex: 4703100
   splits:
@@ -10426,6 +10476,10 @@
   - splitPath: Name
     text: "选择李云裳"
     translated: "Select Li Yunshang"
+    qcReviewedText: "Select Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5374400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 5374400
   splits:
@@ -10600,6 +10654,10 @@
   - splitPath: Name
     text: "战胜邹九思"
     translated: "Defeat Zou Jiusi"
+    qcReviewedText: "Defeat Zou Jiusi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5401500\",\r\n    \"Name\": \"鱼糕送百川\"\r\n  }"
   rawIndex: 5401500
   splits:
@@ -11395,12 +11453,11 @@
   splits:
   - splitPath: Name
     text: "战胜祝八姐"
-    translated: "Defeat Sister Zhu Baxi"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Zhu Bajie,祝八姐,"
-    qcReviewedText: "Defeat Sister Zhu Baxi"
+    translated: "Defeat Zhu Bajie"
+    qcReviewedText: "Defeat Zhu Bajie"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5930300\",\r\n    \"Name\": \"战胜黑风众\"\r\n  }"
   rawIndex: 5930300
   splits:
@@ -11685,12 +11742,11 @@
   splits:
   - splitPath: Name
     text: "战胜封百水"
-    translated: "Defeat Feng Bashi"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Feng Baishui,封百水,"
-    qcReviewedText: "Defeat Feng Bashi"
+    translated: "Defeat Feng Baishui"
+    qcReviewedText: "Defeat Feng Baishui"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6305400\",\r\n    \"Name\": \"野和尚归案\"\r\n  }"
   rawIndex: 6305400
   splits:
@@ -11973,6 +12029,10 @@
   - splitPath: Name
     text: "战胜辛绝灭"
     translated: "Defeat Xin Juemie"
+    qcReviewedText: "Defeat Xin Juemie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6500900\",\r\n    \"Name\": \"鬼市寒冬青\"\r\n  }"
   rawIndex: 6500900
   splits:
@@ -12105,12 +12165,11 @@
   splits:
   - splitPath: Name
     text: "行侠斗卫聊"
-    translated: "Wuxia combat and banter"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wei Liao,卫聊,"
-    qcReviewedText: "Wuxia combat and banter"
+    translated: "Wandering Justice and Fighting Wei Liao"
+    qcReviewedText: "Wandering Justice and Fighting Wei Liao"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6602000\",\r\n    \"Name\": \"战胜卫悲\"\r\n  }"
   rawIndex: 6602000
   splits:
@@ -12152,12 +12211,11 @@
   splits:
   - splitPath: Name
     text: "战胜寇伏魔"
-    translated: "Overcoming Kou Fu Mo, they encountered Zhang San."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kou Fumo,寇伏魔,"
-    qcReviewedText: "Overcoming Kou Fu Mo, they encountered Zhang San."
+    translated: "Defeat Kou Fumo"
+    qcReviewedText: "Defeat Kou Fumo"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6603900\",\r\n    \"Name\": \"唐五的舵二\"\r\n  }"
   rawIndex: 6603900
   splits:
@@ -12254,17 +12312,20 @@
   - splitPath: Name
     text: "拜访元大圣"
     translated: "Visit Yuan the Great Sage"
+    qcReviewedText: "Visit Yuan the Great Sage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6671400\",\r\n    \"Name\": \"战胜缪辟邪\"\r\n  }"
   rawIndex: 6671400
   splits:
   - splitPath: Name
     text: "战胜缪辟邪"
-    translated: "Defeat Mou Bixie"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miao Bixie,缪辟邪,"
-    qcReviewedText: "Defeat Mou Bixie"
+    translated: "Defeat Miao Bixie"
+    qcReviewedText: "Defeat Miao Bixie"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6671100\",\r\n    \"Name\": \"初识李云裳\"\r\n  }"
   rawIndex: 6671100
   splits:
@@ -12402,12 +12463,20 @@
   - splitPath: Name
     text: "战胜邵轻虹"
     translated: "Defeat Shao Qinghong"
+    qcReviewedText: "Defeat Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6700600\",\r\n    \"Name\": \"战胜邵轻虹\"\r\n  }"
   rawIndex: 6700600
   splits:
   - splitPath: Name
     text: "战胜邵轻虹"
     translated: "Defeat Shao Qinghong"
+    qcReviewedText: "Defeat Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6700800\",\r\n    \"Name\": \"禀报郜春风\"\r\n  }"
   rawIndex: 6700800
   splits:
@@ -14686,6 +14755,10 @@
   - splitPath: Name
     text: "选择李云裳"
     translated: "Select Li Yunshang"
+    qcReviewedText: "Select Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7883100\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 7883100
   splits:
@@ -14836,6 +14909,10 @@
   - splitPath: Name
     text: "打败无赖"
     translated: "Defeat the rogue"
+    qcReviewedText: "Defeat the rogue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7991100\",\r\n    \"Name\": \"基-广元核桃酥\"\r\n  }"
   rawIndex: 7991100
   splits:
@@ -15015,6 +15092,13 @@
   - splitPath: Name
     text: "姜芽表真心"
     translated: "Jiang Ya to express sincerity"
+    qcReviewedText: "Jiang Ya to express sincerity"
+    qcTranslated: "Jiang Ya's Sincere Heart"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8001300\",\r\n    \"Name\": \"游探叙州府\"\r\n  }"
   rawIndex: 8001300
   splits:
@@ -15074,23 +15158,21 @@
   splits:
   - splitPath: Name
     text: "普度渡亡魂"
-    translated: "Serenity for the Departed Souls"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Pudu,普度,"
-    qcReviewedText: "Serenity for the Departed Souls"
+    translated: "Pudu guides the souls of the dead"
+    qcReviewedText: "Pudu guides the souls of the dead"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8003900\",\r\n    \"Name\": \"普度随同行\"\r\n  }"
   rawIndex: 8003900
   splits:
   - splitPath: Name
     text: "普度随同行"
-    translated: "Prosper Together and Walk Side by Side"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Pudu,普度,"
-    qcReviewedText: "Prosper Together and Walk Side by Side"
+    translated: "Pudu followed along"
+    qcReviewedText: "Pudu followed along"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8004000\",\r\n    \"Name\": \"六通神足通\"\r\n  }"
   rawIndex: 8004000
   splits:
@@ -15280,6 +15362,10 @@
   - splitPath: Name
     text: "初识诸葛慧"
     translated: "Introducing Zhuge Hui"
+    qcReviewedText: "Introducing Zhuge Hui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8100900\",\r\n    \"Name\": \"成都庙会约\"\r\n  }"
   rawIndex: 8100900
   splits:
@@ -15376,6 +15462,13 @@
   - splitPath: Name
     text: "朝云萧雪雁"
     translated: "Morning Cloud Xiao Xueyan"
+    qcReviewedText: "Morning Cloud Xiao Xueyan"
+    qcTranslated: "Chaoyun Xiao Xueyan"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8200800\",\r\n    \"Name\": \"玉珠落重楼\"\r\n  }"
   rawIndex: 8200800
   splits:
@@ -15535,6 +15628,10 @@
   - splitPath: Name
     text: "交友结方刚"
     translated: "Making friends with Fang Gang"
+    qcReviewedText: "Making friends with Fang Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8300800\",\r\n    \"Name\": \"打败况天龙\"\r\n  }"
   rawIndex: 8300800
   splits:
@@ -15596,6 +15693,10 @@
   - splitPath: Name
     text: "灵明救小圣"
     translated: "Lingming Saves the Little Sage"
+    qcReviewedText: "Lingming Saves the Little Sage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8410200\",\r\n    \"Name\": \"拜访蚩峒主\"\r\n  }"
   rawIndex: 8410200
   splits:
@@ -15747,90 +15848,167 @@
   - splitPath: Name
     text: "元大圣传艺"
     translated: "Yuan the Great Sage Passes on His Skills"
+    qcReviewedText: "Yuan the Great Sage Passes on His Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8450200\",\r\n    \"Name\": \"蛾眉出猿猴\"\r\n  }"
   rawIndex: 8450200
   splits:
   - splitPath: Name
     text: "蛾眉出猿猴"
     translated: "A monkey emerges from delicate eyebrows"
+    qcReviewedText: "A monkey emerges from delicate eyebrows"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"8450300\",\r\n    \"Name\": \"猿猴拜白猿\"\r\n  }"
   rawIndex: 8450300
   splits:
   - splitPath: Name
     text: "猿猴拜白猿"
     translated: "The ape worships the white ape"
+    qcReviewedText: "The ape worships the white ape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8450400\",\r\n    \"Name\": \"破庙猴儿酒\"\r\n  }"
   rawIndex: 8450400
   splits:
   - splitPath: Name
     text: "破庙猴儿酒"
     translated: "Monkey Wine from the Ruined Temple"
+    qcReviewedText: "Monkey Wine from the Ruined Temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8460111\",\r\n    \"Name\": \"寺中猿戏一\"\r\n  }"
   rawIndex: 8460111
   splits:
   - splitPath: Name
     text: "寺中猿戏一"
     translated: "Monkey Play in the Temple, Act 1"
+    qcReviewedText: "Monkey Play in the Temple, Act 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8460112\",\r\n    \"Name\": \"寺中猿戏二\"\r\n  }"
   rawIndex: 8460112
   splits:
   - splitPath: Name
     text: "寺中猿戏二"
     translated: "Monkey Play in the Temple, Part 2"
+    qcReviewedText: "Monkey Play in the Temple, Part 2"
+    qcTranslated: "Monkey Play in the Temple, Part Two"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8460113\",\r\n    \"Name\": \"寺中猿戏三\"\r\n  }"
   rawIndex: 8460113
   splits:
   - splitPath: Name
     text: "寺中猿戏三"
     translated: "Monkey Play in the Temple, Act Three"
+    qcReviewedText: "Monkey Play in the Temple, Act Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8460114\",\r\n    \"Name\": \"寺中猿戏四\"\r\n  }"
   rawIndex: 8460114
   splits:
   - splitPath: Name
     text: "寺中猿戏四"
     translated: "Temple Monkey Play Four"
+    qcReviewedText: "Temple Monkey Play Four"
+    qcTranslated: "Four Monkeys Play in the Temple"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8470300\",\r\n    \"Name\": \"峨眉山猿猴\"\r\n  }"
   rawIndex: 8470300
   splits:
   - splitPath: Name
     text: "峨眉山猿猴"
     translated: "E Mount Meng Mountain apes"
+    qcReviewedText: "E Mount Meng Mountain apes"
+    qcTranslated: "Mount Emei monkeys"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8470400\",\r\n    \"Name\": \"战败猿猴\"\r\n  }"
   rawIndex: 8470400
   splits:
   - splitPath: Name
     text: "战败猿猴"
     translated: "Defeated Ape"
+    qcReviewedText: "Defeated Ape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8470700\",\r\n    \"Name\": \"峨眉斗白猿\"\r\n  }"
   rawIndex: 8470700
   splits:
   - splitPath: Name
     text: "峨眉斗白猿"
     translated: "The Battle of Emei against the White Ape"
+    qcReviewedText: "The Battle of Emei against the White Ape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8478300\",\r\n    \"Name\": \"山猿劫路一\"\r\n  }"
   rawIndex: 8478300
   splits:
   - splitPath: Name
     text: "山猿劫路一"
     translated: "Mountain Ape Ambush Incident 1"
+    qcReviewedText: "Mountain Ape Ambush Incident 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8478400\",\r\n    \"Name\": \"战败猿猴\"\r\n  }"
   rawIndex: 8478400
   splits:
   - splitPath: Name
     text: "战败猿猴"
     translated: "Defeated Ape"
+    qcReviewedText: "Defeated Ape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8478700\",\r\n    \"Name\": \"山猿劫路二\"\r\n  }"
   rawIndex: 8478700
   splits:
   - splitPath: Name
     text: "山猿劫路二"
     translated: "Mountain Ape Ambush Incident 2"
+    qcReviewedText: "Mountain Ape Ambush Incident 2"
+    qcTranslated: "Mountain Ape Roadblock Two"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"8478800\",\r\n    \"Name\": \"战败猿猴\"\r\n  }"
   rawIndex: 8478800
   splits:
   - splitPath: Name
     text: "战败猿猴"
     translated: "Defeated Ape"
+    qcReviewedText: "Defeated Ape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10000200\",\r\n    \"Name\": \"邬健传上篇\"\r\n  }"
   rawIndex: 10000200
   splits:
@@ -16034,12 +16212,11 @@
   splits:
   - splitPath: Name
     text: "金天传上篇"
-    translated: "Golden Heaven Transmission: Upper Volume"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jin Tian,金天,"
-    qcReviewedText: "Golden Heaven Transmission: Upper Volume"
+    translated: "Jin Tian Chapter One: Upper Section"
+    qcReviewedText: "Jin Tian Chapter One: Upper Section"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10005800\",\r\n    \"Name\": \"金天传中篇\"\r\n  }"
   rawIndex: 10005800
   splits:
@@ -16054,12 +16231,11 @@
   splits:
   - splitPath: Name
     text: "金天传下篇"
-    translated: "Golden Heaven Transmission Part II"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jin Tian,金天,"
-    qcReviewedText: "Golden Heaven Transmission Part II"
+    translated: "Jin Tian Chapter Continued"
+    qcReviewedText: "Jin Tian Chapter Continued"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10006200\",\r\n    \"Name\": \"夏侯珺的生意经一\"\r\n  }"
   rawIndex: 10006200
   splits:

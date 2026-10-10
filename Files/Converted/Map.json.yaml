@@ -903,12 +903,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "位于荆东武昌府境内，蛇山之巅，楼高五层，朱檐黄瓦，雕梁画栋，楼中所存美酒更是闻名荆湘。"
-    translated: "Located atop Snake Hill within Wuchang Prefecture in Jingdong, this five-story building boasts vermilion eaves and yellow tiles. Its intricately carved beams and painted pillars are a sight to behold. The fine wines stored within are renowned throughout Jingxiang."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gao Wu,高五,"
-    qcReviewedText: "Located atop Snake Hill within Wuchang Prefecture in Jingdong, this five-story building boasts vermilion eaves and yellow tiles. Its intricately carved beams and painted pillars are a sight to behold. The fine wines stored within are renowned throughout Jingxiang."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Located within Jingdong Wuchang Prefecture, at the peak of Snake Mountain, this five-story tower boasts red eaves and yellow tiles, with intricately carved beams and painted rafters. The fine wine stored within is renowned throughout Jingxiang."
 - raw: "{\r\n    \"Key\": \"102015\",\r\n    \"Name\": \"章华台\",\r\n    \"Desc\": \"位于荆东武昌府境内，武昌城中，楼高三层，美酒、美食、美人数之不绝，是荆东第一的销金窟。\",\r\n    \"NameTw\": \"章華臺\",\r\n    \"DescTw\": \"位於荊東武昌府境內，武昌城中，樓高三層，美酒、美食、美人數之不絕，是荊東第一的銷金窟。\"\r\n  }"
   rawIndex: 102015
   splits:
@@ -1175,6 +1170,10 @@
   - splitPath: Desc
     text: "位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。"
     translated: "Located in the heart of Yuezhou Prefecture City in Xiangbei, it is the arena set up by Prince Ning's Residence to attract talented individuals."
+    qcReviewedText: "Located in the heart of Yuezhou Prefecture City in Xiangbei, it is the arena set up by Prince Ning's Residence to attract talented individuals."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"105019\",\r\n    \"Name\": \"烟波坞\",\r\n    \"Desc\": \"洞庭帮据点，位于湘北岳州府，洞庭湖中君山之上。\",\r\n    \"NameTw\": \"煙波塢\",\r\n    \"DescTw\": \"洞庭幫據點，位於湘北嶽州府，洞庭湖中君山之上。\"\r\n  }"
   rawIndex: 105019
   splits:
@@ -1233,13 +1232,14 @@
     qcQualityScore: 90
   - splitPath: Desc
     text: "宝象阁据点，位于荆南承天府钟详城南，由澜沧国富商那瑜陀所开设，售卖西洋各国珍宝。"
-    translated: "Outpost of Baoxiang Pavilion, located in the southern part of Zhongxiao City in Jingnan Provine, managed by wealthy merchant Nayuduo from Lancang Kingdom. It sells treasures from various Western countries."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Nayutuo,那瑜陀,"
-    qcReviewedText: "Outpost of Baoxiang Pavilion, located in the southern part of Zhongxiao City in Jingnan Provine, managed by wealthy merchant Nayuduo from Lancang Kingdom. It sells treasures from various Western countries."
-    qcTranslated: "Outpost of Baoxiang Pavilion, located south of Zhongxiang City in Chengtian Prefecture, Jingnan Province, established by Nayuduo, a wealthy merchant from the Lancang Kingdom, selling treasures from various Western countries."
+    translated: "The Phrabha Sang Palace Outpost is located in the southern part of Zhending Prefecture, Jingnan, to the south of Zhongxiang City. It was established by Nayutuo, a wealthy merchant from Lan Cang Kingdom, and sells rare treasures from various Western countries."
+    qcReviewedText: "The Phrabha Sang Palace Outpost is located in the southern part of Zhending Prefecture, Jingnan, to the south of Zhongxiang City. It was established by Nayutuo, a wealthy merchant from Lan Cang Kingdom, and sells rare treasures from various Western countries."
+    qcTranslated: "The Phrabha Sang Palace Outpost is located in the southern part of Chengtian Prefecture, Jingnan, to the south of Zhongxiang City. It was established by Nayutuo, a wealthy merchant from Lan Cang Kingdom, and sells rare treasures from various Western countries."
     qcStatus: Corrected
-    qcQualityScore: 90
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "{\r\n    \"Key\": \"106018\",\r\n    \"Name\": \"长乐坊\",\r\n    \"Desc\": \"位于荆南荆州府境内，荆州城北，内有百戏乐艺表演，博戏赌坊，美食美酒，数不胜数。\",\r\n    \"NameTw\": \"長樂坊\",\r\n    \"DescTw\": \"位於荊南荊州府境內，荊州城北，內有百戲樂藝表演，博戲賭坊，美食美酒，數不勝數。\"\r\n  }"
   rawIndex: 106018
   splits:
@@ -1446,18 +1446,34 @@
   - splitPath: Name
     text: "白猿庙"
     translated: "White Ape Temple"
+    qcReviewedText: "White Ape Temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "丐帮廉字舵据点，位于川西嘉定府内，丐帮八大分舵之一，舵主元大圣以驯猴之术享誉丐帮。"
     translated: "The Beggar Sect's Lian Character Division Outpost is located within Jiading Prefecture in western Sichuan. It is one of the eight major divisions of the Beggar Sect, with Chief Yuan DaSheng renowned for his monkey-taming skills."
+    qcReviewedText: "The Beggar Sect's Lian Character Division Outpost is located within Jiading Prefecture in western Sichuan. It is one of the eight major divisions of the Beggar Sect, with Chief Yuan DaSheng renowned for his monkey-taming skills."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"201015\",\r\n    \"Name\": \"峨眉山\",\r\n    \"Desc\": \"位于川西嘉定州境内，层峦叠秀，峰壑连绵，林木葱蔚，山高多雾。山中更有无数猿猴栖居，成群往来。\",\r\n    \"NameTw\": \"峨眉山\",\r\n    \"DescTw\": \"位於川西嘉定州境內，層巒疊秀，峰壑連綿，林木蔥蔚，山高多霧。山中更有無數猿猴棲居，成群往來。\"\r\n  }"
   rawIndex: 201015
   splits:
   - splitPath: Name
     text: "峨眉山"
     translated: "Mount Emei"
+    qcReviewedText: "Mount Emei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "位于川西嘉定州境内，层峦叠秀，峰壑连绵，林木葱蔚，山高多雾。山中更有无数猿猴栖居，成群往来。"
     translated: "Located within Jiading Prefecture in the western part of Sichuan, the mountains are layered with lush peaks and ridges stretching endlessly, forests dense and verdant, with high altitudes shrouded in mist. Countless monkeys dwell among the mountains, moving about in groups."
+    qcReviewedText: "Located within Jiading Prefecture in the western part of Sichuan, the mountains are layered with lush peaks and ridges stretching endlessly, forests dense and verdant, with high altitudes shrouded in mist. Countless monkeys dwell among the mountains, moving about in groups."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"201017\",\r\n    \"Name\": \"罨画池\",\r\n    \"Desc\": \"位于川西成都府境内，园林祠庙相得益彰，满园叠翠绿树成荫，乃是川西闻名的园林。\",\r\n    \"NameTw\": \"罨畫池\",\r\n    \"DescTw\": \"位於川西成都府境內，園林祠廟相得益彰，滿園疊翠綠樹成蔭，乃是川西聞名的園林。\"\r\n  }"
   rawIndex: 201017
   splits:

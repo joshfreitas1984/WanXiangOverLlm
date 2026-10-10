@@ -21,12 +21,11 @@
   splits:
   - splitPath: Name
     text: "莫笑贫"
-    translated: "Do not mock poverty"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
-    qcReviewedText: "Do not mock poverty"
+    translated: "Mo Xiaopin"
+    qcReviewedText: "Mo Xiaopin"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ChatList[0]
     text: "莫笑此身贫，散尽还千金！"
     translated: "Do not laugh at my poverty; I will scatter it and regain ten thousand gold!"
@@ -297,12 +296,11 @@
   splits:
   - splitPath: Name
     text: "那瑜陀"
-    translated: "That Jade Disk"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Nayutuo,那瑜陀,"
-    qcReviewedText: "That Jade Disk"
+    translated: "Nayutuo"
+    qcReviewedText: "Nayutuo"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "无条件"
     translated: "Unconditional"

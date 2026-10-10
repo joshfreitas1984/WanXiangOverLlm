@@ -207,6 +207,10 @@
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。"
     translated: "Reflects the character's stance and influences the triggering and progression of events."
+    qcReviewedText: "Reflects the character's stance and influences the triggering and progression of events.\\nCompleting the Ten Great Evil Men Cases, Heavenly Demon Sect conspiracy cases, Prince Ning conspiracy cases, Netherworld Path conspiracy cases, and Six Doors arrest missions will all increase Morality."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
@@ -783,6 +787,10 @@
   - splitPath: Name
     text: "金疮秘药"
     translated: "Golden Wound Salve"
+    qcReviewedText: "Golden Wound Salve"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "购买金疮药的数量"
     translated: "The number of burn remedies purchased"
@@ -816,12 +824,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "和袁铁口卜卦的次数"
-    translated: "The number of times Li Yuan has divined with him."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yuan Tiekou,袁铁口,"
-    qcReviewedText: "The number of times Li Yuan has divined with him."
+    translated: "The number of times you've consulted Yuan Tiekou for a divination"
+    qcReviewedText: "The number of times you've consulted Yuan Tiekou for a divination"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10006\",\r\n    \"Name\": \"行侠仗义\",\r\n    \"Desc\": \"行侠仗义次数\",\r\n    \"NameTw\": \"行俠仗義\",\r\n    \"DescTw\": \"行俠仗義次數\"\r\n  }"
   rawIndex: 10006
   splits:
@@ -934,9 +941,17 @@
   - splitPath: Name
     text: "宁王阴谋"
     translated: "Prince Ning's conspiracy"
+    qcReviewedText: "Prince Ning's conspiracy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "宁王的阴谋"
     translated: "Prince Ning's Conspiracy"
+    qcReviewedText: "Prince Ning's Conspiracy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10014\",\r\n    \"Name\": \"灯谜次数\",\r\n    \"Desc\": \"橘州灯谜次数\",\r\n    \"NameTw\": \"燈謎次數\",\r\n    \"DescTw\": \"橘州燈謎次數\"\r\n  }"
   rawIndex: 10014
   splits:
@@ -1003,9 +1018,17 @@
   - splitPath: Name
     text: "宁王支援"
     translated: "Prince Ning's support"
+    qcReviewedText: "Prince Ning's support"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "驰援被宁王阴谋暗算的门派数量"
     translated: "The number of Sects that have been secretly attacked by Prince Ning's schemes"
+    qcReviewedText: "The number of Sects that have been secretly attacked by Prince Ning's schemes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Name\": \"魔侯救援\",\r\n    \"Desc\": \"救援被温残阳毒计暗算的门派数量\",\r\n    \"NameTw\": \"魔侯救援\",\r\n    \"DescTw\": \"救援被溫殘陽毒計暗算的門派數量\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -1087,9 +1110,17 @@
   - splitPath: Name
     text: "十殿阎君"
     translated: "Ten Kings of the Underworld"
+    qcReviewedText: "Ten Kings of the Underworld"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "击败十殿阎君的数量"
     translated: "The number of Ten Yama Kings defeated"
+    qcReviewedText: "The number of Ten Yama Kings defeated"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Name\": \"荆湘六扇门友好\",\r\n    \"Desc\": \"影响侠客和荆湘六扇门的关系\",\r\n    \"NameTw\": \"荊湘六扇門友好\",\r\n    \"DescTw\": \"影響俠客和荊湘六扇門的關係\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -1399,9 +1430,17 @@
   - splitPath: Name
     text: "丐帮廉字舵友好"
     translated: "Friendly with the Beggar Sect's Lian Character Division"
+    qcReviewedText: "Friendly with the Beggar Sect's Lian Character Division"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和丐帮廉字舵的关系"
     translated: "Affect the relationship between the Wanderer and the Beggar Sect's Lian Character Division"
+    qcReviewedText: "Affect the relationship between the Wanderer and the Beggar Sect's Lian Character Division"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29970\",\r\n    \"Name\": \"蚩萤好感\",\r\n    \"Desc\": \"影响侠客和蚩萤的关系\",\r\n    \"NameTw\": \"蚩螢好感\",\r\n    \"DescTw\": \"影響俠客和蚩螢的關係\"\r\n  }"
   rawIndex: 29970
   splits:
@@ -1438,6 +1477,10 @@
   - splitPath: Name
     text: "萧雪雁好感"
     translated: "Xiao Xueyan's Affection"
+    qcReviewedText: "Xiao Xueyan's Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和萧雪雁的关系"
     translated: "Affects the relationship between the Wanderer and Xiao Xueyan"
@@ -1481,6 +1524,10 @@
   - splitPath: Name
     text: "姜芽好感"
     translated: "Jiang Ya's Affection"
+    qcReviewedText: "Jiang Ya's Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和姜芽的关系"
     translated: "Affect the relationship between the Wanderer and Jiang Ya"
@@ -1499,6 +1546,10 @@
   - splitPath: Desc
     text: "影响侠客和诸葛慧的关系"
     translated: "Affects the relationship between the Hero and Zhuge Hui."
+    qcReviewedText: "Affects the relationship between the Hero and Zhuge Hui."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"29977\",\r\n    \"Name\": \"唐幺幺好感\",\r\n    \"Desc\": \"影响侠客和唐幺幺的关系\",\r\n    \"NameTw\": \"唐么么好感\",\r\n    \"DescTw\": \"影響俠客和唐么么的關係\"\r\n  }"
   rawIndex: 29977
   splits:
@@ -1521,6 +1572,10 @@
   - splitPath: Name
     text: "邵轻虹好感"
     translated: "Shao Qinghong's Affection"
+    qcReviewedText: "Shao Qinghong's Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "影响侠客和邵轻虹的关系"
     translated: "Affects the relationship between the Wanderer and Shao Qinghong"

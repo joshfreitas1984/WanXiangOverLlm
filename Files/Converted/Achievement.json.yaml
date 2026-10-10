@@ -417,6 +417,10 @@
   - splitPath: Desc
     text: "战胜宁王府高手“商山四皓”"
     translated: "Defeat the masters of Prince Ning's Residence, the “Four Elders of Shangshan”!"
+    qcReviewedText: "Defeat the masters of Prince Ning's Residence, the “Four Elders of Shangshan”!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"93\",\r\n    \"Name\": \"逍遥公侯\",\r\n    \"Desc\": \"潜龙谷中击败“宁王”朱宸濠\",\r\n    \"NameTw\": \"逍遙公侯\",\r\n    \"DescTw\": \"潛龍谷中擊敗“寧王”朱宸濠\"\r\n  }"
   rawIndex: 93
   splits:
@@ -429,6 +433,10 @@
   - splitPath: Desc
     text: "潜龙谷中击败“宁王”朱宸濠"
     translated: "Defeat “Prince Ning” Zhu Chenhao in Hidden Dragon Valley"
+    qcReviewedText: "Defeat “Prince Ning” Zhu Chenhao in Hidden Dragon Valley"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"97\",\r\n    \"Name\": \"武林盟主\",\r\n    \"Desc\": \"天魔殿中击败“魔侯”任沧溟\",\r\n    \"NameTw\": \"武林盟主\",\r\n    \"DescTw\": \"天魔殿中擊敗“魔侯”任滄溟\"\r\n  }"
   rawIndex: 97
   splits:
@@ -807,6 +815,13 @@
   - splitPath: Desc
     text: "“神机百巧”诸葛慧解锁红颜"
     translated: "Godly Ingenuity Zhuge Hui unlocks Red Rose"
+    qcReviewedText: "Godly Ingenuity Zhuge Hui unlocks Red Rose"
+    qcTranslated: "Godly Ingenuity Zhuge Hui unlocks Beauty"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"芽苞初放\",\r\n    \"Desc\": \"“姜辣子”姜芽解锁红颜\",\r\n    \"NameTw\": \"芽苞初放\",\r\n    \"DescTw\": \"“薑辣子”姜芽解鎖紅顏\"\r\n  }"
   rawIndex: 116
   splits:
@@ -819,6 +834,10 @@
   - splitPath: Desc
     text: "“姜辣子”姜芽解锁红颜"
     translated: "'Ginger Hotshot' Jiang Ya unlocks Red Beauty"
+    qcReviewedText: "'Ginger Hotshot' Jiang Ya unlocks Red Beauty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"117\",\r\n    \"Name\": \"云裳月容\",\r\n    \"Desc\": \"“青莲映月”李云裳解锁红颜\",\r\n    \"NameTw\": \"雲裳月容\",\r\n    \"DescTw\": \"“青蓮映月”李雲裳解鎖紅顏\"\r\n  }"
   rawIndex: 117
   splits:
@@ -831,6 +850,13 @@
   - splitPath: Desc
     text: "“青莲映月”李云裳解锁红颜"
     translated: "Lotus in Moonlight Li Yunshang unlocks Red Rose"
+    qcReviewedText: "Lotus in Moonlight Li Yunshang unlocks Red Rose"
+    qcTranslated: "Blue Lotus Reflecting the Moon Li Yunshang unlocks Red Rose"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"118\",\r\n    \"Name\": \"雪雁凌空\",\r\n    \"Desc\": \"“云峰雁首”萧雪雁解锁红颜\",\r\n    \"NameTw\": \"雪雁凌空\",\r\n    \"DescTw\": \"“雲峰雁首”蕭雪雁解鎖紅顏\"\r\n  }"
   rawIndex: 118
   splits:
@@ -1024,12 +1050,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "赌赢“富贵神仙”莫笑贫"
-    translated: "'Bet against Rich Immortal Mo Xiao' and won"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
-    qcReviewedText: "'Bet against Rich Immortal Mo Xiao' and won"
+    translated: "Bet on Prosperous Immortal Mo Xiaopin"
+    qcReviewedText: "Bet on Prosperous Immortal Mo Xiaopin"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"96\",\r\n    \"Name\": \"千岁权宦\",\r\n    \"Desc\": \"击败“九千岁”刘瑾\",\r\n    \"NameTw\": \"千歲權宦\",\r\n    \"DescTw\": \"擊敗“九千歲”劉瑾\"\r\n  }"
   rawIndex: 96
   splits:
@@ -1532,9 +1557,21 @@
   - splitPath: Name
     text: "猿猴献果"
     translated: "Monkeys Present Fruits"
+    qcReviewedText: "Monkeys Present Fruits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "丐帮廉字舵友好到达100"
     translated: "The Beggar Sect's Lian-style leader achieved friendship reached 100"
+    qcReviewedText: "The Beggar Sect's Lian-style leader achieved friendship reached 100"
+    qcTranslated: "The Beggar Sect's Lian-style leader friendship reached 100"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"31\",\r\n    \"Name\": \"以身相许\",\r\n    \"Desc\": \"与一名红颜知己结缘\",\r\n    \"NameTw\": \"以身相許\",\r\n    \"DescTw\": \"與一名紅顏知己結緣\"\r\n  }"
   rawIndex: 31
   splits:

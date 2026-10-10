@@ -3532,6 +3532,10 @@
   - splitPath: GetDesc
     text: "从第六年一月起，福缘到达100，御兽到达大师级，战胜异蛇王后选择送给阮碧青或者自己驯养都可解锁。"
     translated: "Starting from January of the sixth Year, when Luck reaches 100 and Beast Taming reaches Master level, choosing to give Ruan Biqing or tame for yourself after defeating the Strange Snake King will unlock it."
+    qcReviewedText: "Starting from January of the sixth Year, when Luck reaches 100 and Beast Taming reaches Master level, choosing to give Ruan Biqing or tame for yourself after defeating the Strange Snake King will unlock it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
@@ -5650,6 +5654,14 @@
   - splitPath: GetDesc
     text: "加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好不足60，邱道衍传授。"
     translated: "Joining the Wudang Sect, in September of the seventh Year, when Qiao Dao'an's plot was exposed and Qiu Lingsu's friendliness was insufficient60, Qiu Daoyan imparted his teachings."
+    qcReviewedText: "①Joining the Wudang Sect, in September of the seventh Year, when Qiao Dao'an's plot was exposed and Qiu Lingsu's friendliness was insufficient60, Qiu Daoyan imparted his teachings.\\n②Joining the Wudang Sect, in September of the seventh Year, after uncovering Qiao Dao'an's conspiracy and with Qiu Lingsu's friendly arrival at 60, unlock Qiu Lingsu as a Red Beauty and obtain.\\n③Only after refusing to join the Wudang Sect and progressing to the Prince Ning storyline in the eighth year, exploring Zhenwu Temple to offer aid to Wudang, would Qiu Daoyan pass on the teachings."
+    qcTranslated: "1. Joining the Wudang Sect, in September of the seventh Year, when Qiao Dao'an's plot was exposed and Qiu Lingsu's friendliness is less than 60, Qiu Daoyan imparts his teachings.\\n2. Joining the Wudang Sect, in September of the seventh Year, after uncovering Qiao Dao'an's conspiracy and with Qiu Lingsu's friendliness reaching 60, unlock Qiu Lingsu as a Red Beauty to obtain it.\\n3. Without joining the Wudang Sect, after progressing to the Prince Ning storyline in the eighth year and exploring Zhenwu Temple to offer aid to Wudang, Qiu Daoyan imparts his teachings."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
   - splitPath: GetDesc
     subIndex: 1
     text: "加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好到达60，解锁秋灵素红颜后获取。"
@@ -6548,15 +6560,31 @@
   - splitPath: Name
     text: "铁棒十八打"
     translated: "Eighteen blows with an iron rod"
+    qcReviewedText: "Eighteen blows with an iron rod"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.8倍）"
     translated: "Attack (1.8 times)"
+    qcReviewedText: "Attack (1.8 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "铁棒十八打"
     translated: "Eighteen blows with an iron rod"
+    qcReviewedText: "Eighteen blows with an iron rod"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
+    qcReviewedText: "Attack Damage Class [Jianghu][Hundred Weapons]\\nDeals 1.8 times the Wanderer's Power in damage per hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造1.8倍侠客功力的伤害。"
@@ -6616,7 +6644,14 @@
   - splitPath: GetDesc
     text: "第八年间一月起，探索湘北资助结巴山贼后，此后根骨到达180，两次探索湘北并两次战胜谷藏锋后，选泰阿剑法谷藏锋传授。"
     translated: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
-    qcRuleCheckFailureCount: 1
+    qcReviewedText: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Starting in January of the eighth year, after exploring Xiangbei and funding the stammering bandits in Jiashan, once Potential reached {0}, and after two expeditions to Xiangbei and two victories against Gu Cangfeng, select Tai'a Swordsmanship for Gu Cangfeng to teach."
+    qcFailureReason: " `{0}` appears in the result but not in the original text."
+    qcDefectCategories:
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
   - splitPath: ExtraDesc
     text: "功力"
@@ -11007,13 +11042,11 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后赠与。"
-    translated: "Join the Tang Clan. Starting from January of the sixth year, Luck has reached 150. Explore the western Sichuan five times and learn that Fu Yunge is challenging Yan Tesheng. Subsequently, defeat Fu Yunge and Kao Fomu. Finally, explore the Thousand Mechanism Workshop twice consecutively. After resolving Tang Leng's heart knot, it is given as a gift."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kou Fumo,寇伏魔,"
-    qcReviewedText: "Join the Tang Clan. Starting from January of the sixth year, Luck has reached 150. Explore the western Sichuan five times and learn that Fu Yunge is challenging Yan Tesheng. Subsequently, defeat Fu Yunge and Kao Fomu. Finally, explore the Thousand Mechanism Workshop twice consecutively. After resolving Tang Leng's heart knot, it is given as a gift."
-    qcTranslated: "Join the Tang Clan. Starting from Month 1 of Year 6, Luck has reached 150., explore western Sichuan five times, learn that Fu Yunfei is challenging Yan Tiesheng, then defeat Fu Yunfei and Kou Fumo, finally explore Qianji Workshop twice consecutively, after Tang Lengxin's heart knot is resolved, it is given as a gift."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Joining the Tang Clan, in January of the sixth year, your Luck reaches 150. After five explorations in Western Sichuan, you learn that Fu Yunfei intends to challenge Yan Tiesheng. Following this, you defeat both Fu Yunfei and Kou Fumo. Finally, after two consecutive explorations at the Thousand-Machine Workshop, Tang Leng gifts something to you once his heartache is resolved."
+    qcReviewedText: "Joining the Tang Clan, in January of the sixth year, your Luck reaches 150. After five explorations in Western Sichuan, you learn that Fu Yunfei intends to challenge Yan Tiesheng. Following this, you defeat both Fu Yunfei and Kou Fumo. Finally, after two consecutive explorations at the Thousand-Machine Workshop, Tang Leng gifts something to you once his heartache is resolved."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "匠造"
     translated: "Craftsmanship"
@@ -13663,13 +13696,11 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南，普度加入，此后道德到达60，探索川南，普度传授。"
-    translated: "Explore Sichuan South in July of any year, first meeting Pu Du. From the eighth year of July, Morality reaches 40, and with Pu Du joining in July, Morality then reaches 60, exploring Sichuan South while Pu Du imparts knowledge."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Pudu,普度,"
-    qcReviewedText: "Explore Sichuan South in July of any year, first meeting Pu Du. From the eighth year of July, Morality reaches 40, and with Pu Du joining in July, Morality then reaches 60, exploring Sichuan South while Pu Du imparts knowledge."
-    qcTranslated: "Explore Sichuan South in July of any year to first meet Pu Du. Then, starting from the seventh month of the eighth year, once Morality reaches 40, explore Sichuan South in July for Pu Du to join. After that, once Morality reaches 60, explore Sichuan South for Pu Du to impart knowledge."
-    qcStatus: Corrected
-    qcQualityScore: 78
+    translated: "In any July when exploring southern Sichuan for the first time, you meet Pudu. Starting from the eighth year's July, when your morality reaches 40, explore southern Sichuan in July, and Pudu joins. Thereafter, when your morality reaches 60, explore southern Sichuan, and Pudu teaches you."
+    qcReviewedText: "In any July when exploring southern Sichuan for the first time, you meet Pudu. Starting from the eighth year's July, when your morality reaches 40, explore southern Sichuan in July, and Pudu joins. Thereafter, when your morality reaches 60, explore southern Sichuan, and Pudu teaches you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -15280,6 +15311,10 @@
   - splitPath: Name
     text: "三重手里剑"
     translated: "Triple shuriken"
+    qcReviewedText: "Triple shuriken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.4倍）"
     translated: "Attack (0.4 times)"
@@ -15297,6 +15332,10 @@
   - splitPath: EchoName
     text: "三重手里剑"
     translated: "Triple shuriken"
+    qcReviewedText: "Triple shuriken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【甲贺流】【百兵】"
     translated: "Attack Damage Class [Koga School][Hundred Weapons]"
@@ -17590,6 +17629,10 @@
   - splitPath: GetDesc
     text: "探索苍山岭战胜二寨主殷通后获得。"
     translated: "Obtained after exploring Cangshan Ridge and defeating the Second Stronghold Master, Yin Tong."
+    qcReviewedText: "Obtained after exploring Cangshan Ridge and defeating the Second Stronghold Master, Yin Tong."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -20465,6 +20508,14 @@
   - splitPath: GetDesc
     text: "第四年一月开始，且未在黄鹤楼挑战广晦，探索荆东遇到广惠吃霸王餐，选择帮助店小二管广惠要饭钱，在战胜广惠后获得"
     translated: "Starting from January of the fourth year, after failing to challenge Guang Hui at Yellow Crane Tower, encountering Guang Hui while exploring Jingdong and being forced to pay for food without paying, choosing to help the waiter chase Guang Hui for the money owed, and obtaining it after defeating Guang Hui"
+    qcReviewedText: "Starting from January of the fourth year, after failing to challenge Guang Hui at Yellow Crane Tower, encountering Guang Hui while exploring Jingdong and being forced to pay for food without paying, choosing to help the waiter chase Guang Hui for the money owed, and obtaining it after defeating Guang Hui"
+    qcTranslated: "Starting from January of the fourth year, after failing to challenge Guang Hui at Yellow Crane Tower, encountering Guang Hui while exploring Jingdong and eating a free meal, choosing to help the waiter demand the money owed from Guang Hui, and obtaining it after defeating Guang Hui"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
@@ -20804,8 +20855,13 @@
   - splitPath: Desc
     text: "攻击（0.1倍）"
     translated: "Attack (0.1 times)"
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "Attack (0.1 times) \\nIncreased Damage (Multiplied by -14 Gambling Skill) \\nAction response 1<20%>"
+    qcReviewedText: "Attack (0.1 times) \\nIncreased Damage (Multiplied by -14 Gambling Skill) \\nAction response 1<20%>"
+    qcTranslated: "Attack (0.1x) \\nIncreased Damage (Gambling -14x) \\nAction Recovery 1<20%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "增伤（赌术-14倍）"
@@ -23084,6 +23140,10 @@
   - splitPath: Name
     text: "蚣蝮铜牌"
     translated: "Gongfu Bronze Plaque"
+    qcReviewedText: "Gongfu Bronze Plaque"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】功力"
     translated: "【Boost Power】"
@@ -23097,6 +23157,10 @@
   - splitPath: EchoName
     text: "蚣蝮铜牌"
     translated: "Gongfu Bronze Plaque"
+    qcReviewedText: "Gongfu Bronze Plaque"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
@@ -23343,6 +23407,10 @@
   - splitPath: Name
     text: "睚眦铜牌"
     translated: "Yazi Bronze Plaque"
+    qcReviewedText: "Yazi Bronze Plaque"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】功力"
     translated: "【Boost Power】"
@@ -23356,6 +23424,10 @@
   - splitPath: EchoName
     text: "睚眦铜牌"
     translated: "Yazi Bronze Plaque"
+    qcReviewedText: "Yazi Bronze Plaque"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
@@ -24192,6 +24264,10 @@
   - splitPath: GetDesc
     text: "第四年一月开始，先后探索湘南、湘东、荆东、第七年一月开始，连续探索荆东，战胜达达里奥解锁后获得。"
     translated: "Starting from January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong in sequence. Beginning from January of the seventh year, continuously explore Jingdong and unlock it by defeating Dadario."
+    qcReviewedText: "Starting from January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong in sequence. Beginning from January of the seventh year, continuously explore Jingdong and unlock it by defeating Dadario."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "火器"
     translated: "Firearms"
@@ -24263,6 +24339,10 @@
   - splitPath: Name
     text: "铁蒺藜"
     translated: "Iron Caltrop"
+    qcReviewedText: "Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.5倍）"
     translated: "Attack (0.5 times)"
@@ -24276,6 +24356,10 @@
   - splitPath: EchoName
     text: "铁蒺藜"
     translated: "Iron Caltrop"
+    qcReviewedText: "Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
@@ -28375,9 +28459,17 @@
   - splitPath: Name
     text: "秦广面具"
     translated: "Qin Guang Mask"
+    qcReviewedText: "Qin Guang Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28385,9 +28477,21 @@
   - splitPath: EchoName
     text: "秦广面具"
     translated: "Qin Guang Mask"
+    qcReviewedText: "Qin Guang Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28415,9 +28519,17 @@
   - splitPath: Name
     text: "楚江面具"
     translated: "Chujiang Mask"
+    qcReviewedText: "Chujiang Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28425,9 +28537,21 @@
   - splitPath: EchoName
     text: "楚江面具"
     translated: "Chujiang Mask"
+    qcReviewedText: "Chujiang Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28455,9 +28579,17 @@
   - splitPath: Name
     text: "宋帝面具"
     translated: "Song Emperor Mask"
+    qcReviewedText: "Song Emperor Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28465,9 +28597,21 @@
   - splitPath: EchoName
     text: "宋帝面具"
     translated: "Song Emperor Mask"
+    qcReviewedText: "Song Emperor Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28495,9 +28639,17 @@
   - splitPath: Name
     text: "五官面具"
     translated: "Five-Sense Mask"
+    qcReviewedText: "Five-Sense Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28505,9 +28657,21 @@
   - splitPath: EchoName
     text: "仵官面具"
     translated: "Coroner's Mask"
+    qcReviewedText: "Coroner's Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28535,9 +28699,17 @@
   - splitPath: Name
     text: "阎罗面具"
     translated: "Yan Luo Mask"
+    qcReviewedText: "Yan Luo Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28545,9 +28717,21 @@
   - splitPath: EchoName
     text: "阎罗面具"
     translated: "Yan Luo Mask"
+    qcReviewedText: "Yan Luo Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28575,9 +28759,20 @@
   - splitPath: Name
     text: "卞城面具"
     translated: "Ban City Mask"
+    qcReviewedText: "Ban City Mask"
+    qcTranslated: "Bian City Mask"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28585,9 +28780,24 @@
   - splitPath: EchoName
     text: "卞城面具"
     translated: "Ban City Mask"
+    qcReviewedText: "Ban City Mask"
+    qcTranslated: "Bian City Mask"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28615,9 +28825,17 @@
   - splitPath: Name
     text: "泰山面具"
     translated: "Mount Tai Mask"
+    qcReviewedText: "Mount Tai Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28625,9 +28843,21 @@
   - splitPath: EchoName
     text: "泰山面具"
     translated: "Mount Tai Mask"
+    qcReviewedText: "Mount Tai Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28655,9 +28885,17 @@
   - splitPath: Name
     text: "平等面具"
     translated: "Equalizing Mask"
+    qcReviewedText: "Equalizing Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28665,9 +28903,21 @@
   - splitPath: EchoName
     text: "平等面具"
     translated: "Equalizing Mask"
+    qcReviewedText: "Equalizing Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28695,9 +28945,17 @@
   - splitPath: Name
     text: "都市面具"
     translated: "City Mask"
+    qcReviewedText: "City Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28705,9 +28963,21 @@
   - splitPath: EchoName
     text: "都市面具"
     translated: "City Mask"
+    qcReviewedText: "City Mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28735,9 +29005,20 @@
   - splitPath: Name
     text: "转轮面具"
     translated: "Rotating Mask"
+    qcReviewedText: "Rotating Mask"
+    qcTranslated: "Wheel Mask"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "【助力】气血"
     translated: "【Boost Lifeforce】"
+    qcReviewedText: "【Boost Lifeforce】+3%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -28745,9 +29026,24 @@
   - splitPath: EchoName
     text: "转轮面具"
     translated: "Rotating Mask"
+    qcReviewedText: "Rotating Mask"
+    qcTranslated: "Wheel Mask"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -28775,9 +29071,20 @@
   - splitPath: Name
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "[Monkey]Support battle"
+    qcTranslated: "[Ape] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -28785,9 +29092,17 @@
   - splitPath: EchoName
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon pet [Monkey]. The Monkey deals 600 points of +12x Beast Taming damage with each attack, with a trigger rate of 100%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【猿猴】。猿猴单次攻击造成600点+12倍御兽伤害，发动几率100%。"
@@ -28801,6 +29116,10 @@
   - splitPath: GetDesc
     text: "开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后获得。"
     translated: "After activating the Beggar Sect's Lian Division in Western Sichuan, Beast Taming reaches beginner level, opening up Mount Emei in Western Sichuan. Exploring Mount Emei, encountering monkeys that snatch baggage and defeating them to obtain."
+    qcReviewedText: "After activating the Beggar Sect's Lian Division in Western Sichuan, Beast Taming reaches beginner level, opening up Mount Emei in Western Sichuan. Exploring Mount Emei, encountering monkeys that snatch baggage and defeating them to obtain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
@@ -28820,9 +29139,20 @@
   - splitPath: Name
     text: "白猿棍法"
     translated: "White Ape Staff Techniques"
+    qcReviewedText: "White Ape Staff Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.6倍）"
     translated: "Attack (1.6 times)"
+    qcReviewedText: "Attack (1.6 times) \\nAction response 1<24%>"
+    qcTranslated: "Attack (1.6x) \\nAction recovery 1<24%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -28830,9 +29160,17 @@
   - splitPath: EchoName
     text: "白猿棍法"
     translated: "White Ape Staff Techniques"
+    qcReviewedText: "White Ape Staff Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
+    qcReviewedText: "Attack Damage Class [Jianghu][Hundred Weapons]\\nDeals 1.6 times the Wanderer's Power in damage and has a 24% chance to restore 1 Action Points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成1.6倍侠客功力的伤害，并有24%几率释放回复1点行动力。"
@@ -28846,6 +29184,14 @@
   - splitPath: GetDesc
     text: "开启川西丐帮廉字舵后，御兽到达入门，开放川西峨眉山，探索峨眉山遇到猿猴抢夺行囊战胜后"
     translated: "After activating the Beggar Sect's Lian Branch in Western Sichuan, Beast Taming reaches beginner level, opening up Mount Emei in Western Sichuan for exploration. Upon exploring Mount Emei, you encounter monkeys who steal your belongings; defeat them."
+    qcReviewedText: "After activating the Beggar Sect's Lian Branch in Western Sichuan, Beast Taming reaches beginner level, opening up Mount Emei in Western Sichuan for exploration. Upon exploring Mount Emei, you encounter monkeys who steal your belongings; defeat them.,Explore again to receive teachings from Yuan Daxian at the White Ape Temple in Western Sichuan."
+    qcTranslated: "After activating the Beggar Sect's Lian Branch in Western Sichuan, Beast Taming reaches beginner level, opening up Mount Emei in Western Sichuan for exploration. Upon exploring Mount Emei, you encounter monkeys who steal your belongings; defeat them. Explore again to receive teachings from Yuan Dasheng at the White Ape Temple in Western Sichuan."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
   - splitPath: GetDesc
     subIndex: 1
     text: "再次探索川西白猿寺元大圣传授。"
@@ -28853,6 +29199,10 @@
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
+    qcReviewedText: "Power+80/Potential+8"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "根骨"
@@ -28872,9 +29222,20 @@
   - splitPath: Name
     text: "元小圣"
     translated: "Little Sage Yuan"
+    qcReviewedText: "Little Sage Yuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "元小圣"
     translated: "Little Sage Yuan"
+    qcReviewedText: "[Little Sage Yuan]Support battle"
+    qcTranslated: "[Yuan Xiaosheng] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -28882,9 +29243,17 @@
   - splitPath: EchoName
     text: "元小圣"
     translated: "Little Sage Yuan"
+    qcReviewedText: "Little Sage Yuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon the pet [Yuan Xiaosheng]. Yuan Xiaosheng deals 1500 points of +15-times Beast Taming damage per attack, with a trigger chance of 75%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【元小圣】。元小圣单次攻击造成1500点+15倍御兽伤害，发动几率75%。"
@@ -28912,9 +29281,20 @@
   - splitPath: Name
     text: "赤眉"
     translated: "Red Eyebrows"
+    qcReviewedText: "Red Eyebrows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "赤眉"
     translated: "Red Eyebrows"
+    qcReviewedText: "[Red Eyebrows]Support battle"
+    qcTranslated: "[Red Eyebrows] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -28922,9 +29302,17 @@
   - splitPath: EchoName
     text: "赤眉"
     translated: "Red Eyebrows"
+    qcReviewedText: "Red Eyebrows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon the pet [Chimi]. The monkey deals 7000 points of +15-times Beast Taming damage per attack, with a chance of 50% to activate."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【赤眉】。猿猴单次攻击造成7000点+15倍御兽伤害，发动几率50%。"
@@ -28938,6 +29326,10 @@
   - splitPath: GetDesc
     text: "开启川西丐帮廉字舵后，御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。探索川西峨眉山，收服抢包裹的猿猴。探索白猿寺看到猿猴跪拜石像。第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。"
     translated: "After activating the Lian faction of the Beggar Sect in western Sichuan, Beast Taming reaches the beginner level. Explore White Ape Temple and learn about the ape colonies living on Mount Emei. Survey Mount Emei in western Sichuan and subdue the apes that steal packages. Visit White Ape Temple to witness the apes kneeling before stone statues. Starting from January of the seventh Year, Beast Taming advances to the expert level, explores Mount Emei, and defeats the red-eyed white apes before taming them."
+    qcReviewedText: "After activating the Lian faction of the Beggar Sect in western Sichuan, Beast Taming reaches the beginner level. Explore White Ape Temple and learn about the ape colonies living on Mount Emei. Survey Mount Emei in western Sichuan and subdue the apes that steal packages. Visit White Ape Temple to witness the apes kneeling before stone statues. Starting from January of the seventh Year, Beast Taming advances to the expert level, explores Mount Emei, and defeats the red-eyed white apes before taming them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
@@ -30127,9 +30519,17 @@
   - splitPath: Name
     text: "王府护卫2"
     translated: "Prince's Manor Guard 2"
+    qcReviewedText: "Prince's Manor Guard 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "[Prince's Manor Guard]Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -30137,6 +30537,10 @@
   - splitPath: EchoName
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "Prince's Manor Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -33443,6 +33847,10 @@
   - splitPath: Desc
     text: "攻击（80000）"
     translated: "Attack (80000)"
+    qcReviewedText: "Attack (80000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "天心无念一刀斩"
     translated: "Heart of Heaven, Mindless Blade Slash"
@@ -33533,6 +33941,10 @@
   - splitPath: Desc
     text: "回春（100000）"
     translated: "Revive Youth (100000)"
+    qcReviewedText: "Revive Youth (100000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "福如东海寿南山"
     translated: "May fortune flow like the ocean and longevity resemble the immortal mountains."
@@ -34358,6 +34770,10 @@
   - splitPath: Name
     text: "铁蒺藜2"
     translated: "Iron Caltrop 2"
+    qcReviewedText: "Iron Caltrop 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.3倍）"
     translated: "Attack (0.3 times)"
@@ -34371,6 +34787,10 @@
   - splitPath: EchoName
     text: "铁蒺藜"
     translated: "Iron Caltrop"
+    qcReviewedText: "Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -34524,6 +34944,10 @@
   - splitPath: EchoName
     text: "铁蒺藜"
     translated: "Iron Caltrop"
+    qcReviewedText: "Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -34854,6 +35278,10 @@
   - splitPath: Name
     text: "手里剑术2"
     translated: "Shuriken technique 2"
+    qcReviewedText: "Shuriken technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.4倍）"
     translated: "Attack (0.4 times)"
@@ -34867,6 +35295,10 @@
   - splitPath: EchoName
     text: "手里剑术"
     translated: "Shuriken Technique"
+    qcReviewedText: "Shuriken Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -36535,6 +36967,10 @@
   - splitPath: Desc
     text: "攻击（80000）"
     translated: "Attack (80000)"
+    qcReviewedText: "Attack (80000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "太岁横湖八百里"
     translated: "The Imperial Wood stretches for eight hundred miles over Lake Horizontal Fortune"
@@ -37091,6 +37527,10 @@
   - splitPath: Desc
     text: "攻击（50000）"
     translated: "Attack (50000)"
+    qcReviewedText: "Attack (50000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "血河万里灭人踪"
     translated: "Ten Thousand Miles of Blood River, Erasing All Signs of Humanity"
@@ -38080,6 +38520,10 @@
   - splitPath: Desc
     text: "攻击（300000）"
     translated: "Attack (300000)"
+    qcReviewedText: "Attack (300000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "上穷碧落追魂帖"
     translated: "Skyward Soul-Sealing Scroll"
@@ -40342,12 +40786,24 @@
   - splitPath: Name
     text: "投石"
     translated: "Throwing stones"
+    qcReviewedText: "Throwing stones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.6倍）"
     translated: "Attack (0.6 times)"
+    qcReviewedText: "Attack (0.6 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "投石"
     translated: "Throwing stones"
+    qcReviewedText: "Throwing stones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -40360,12 +40816,24 @@
   - splitPath: Name
     text: "白猿剑术2"
     translated: "White Ape Swordsmanship 2"
+    qcReviewedText: "White Ape Swordsmanship 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（4000）"
     translated: "Attack (4000)"
+    qcReviewedText: "Attack (4000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "白猿剑术"
     translated: "White Ape Swordsmanship"
+    qcReviewedText: "White Ape Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -41856,6 +42324,10 @@
   - splitPath: Desc
     text: "回复（20000）"
     translated: "Reply to (20000)"
+    qcReviewedText: "Reply to (20000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "徐如林"
     translated: "Xu Rulin"
@@ -42556,6 +43028,10 @@
   - splitPath: EchoName
     text: "拍击"
     translated: "Slap"
+    qcReviewedText: "Slap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -42574,6 +43050,10 @@
   - splitPath: EchoName
     text: "大拍击"
     translated: "Great Slap"
+    qcReviewedText: "Great Slap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -42613,9 +43093,17 @@
   - splitPath: Name
     text: "投石"
     translated: "Throwing stones"
+    qcReviewedText: "Throwing stones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "投石"
     translated: "Throwing stones"
+    qcReviewedText: "Throwing stones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -42628,12 +43116,24 @@
   - splitPath: Name
     text: "白猿棒法3"
     translated: "White Ape Staff Technique 3"
+    qcReviewedText: "White Ape Staff Technique 3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1500）"
     translated: "Attack (1500)"
+    qcReviewedText: "Attack (1500)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "白猴棒法"
     translated: "White Monkey Staff Technique"
+    qcReviewedText: "White Monkey Staff Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -42646,12 +43146,24 @@
   - splitPath: Name
     text: "白猿剑术3"
     translated: "White Ape Swordsmanship 3"
+    qcReviewedText: "White Ape Swordsmanship 3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（4000）"
     translated: "Attack (4000)"
+    qcReviewedText: "Attack (4000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "白猿剑术"
     translated: "White Ape Swordsmanship"
+    qcReviewedText: "White Ape Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"

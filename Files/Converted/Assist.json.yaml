@@ -522,9 +522,17 @@
   - splitPath: Name
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "Prince's Manor Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "Prince's Manor Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
@@ -615,9 +623,17 @@
   - splitPath: Name
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "Prince's Manor Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "王府护卫"
     translated: "Prince's Manor Guard"
+    qcReviewedText: "Prince's Manor Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "支援战斗"
     translated: "Support battle"
@@ -2839,6 +2855,10 @@
   - splitPath: Desc
     text: "回复（20000）"
     translated: "Reply to (20000)"
+    qcReviewedText: "Reply to (20000)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"108\",\r\n    \"Name\": \"侵略如火\",\r\n    \"ItemName\": \"侵略如火\",\r\n    \"Desc\": \"攻击+{0}%\",\r\n    \"NameTw\": \"侵略如火\",\r\n    \"ItemNameTw\": \"侵略如火\",\r\n    \"DescTw\": \"攻擊+{0}%\"\r\n  }"
   rawIndex: 108
   splits:
@@ -5560,12 +5580,27 @@
   - splitPath: Name
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【[Pet]】"
+    qcReviewedText: "【[Pet]】\\nAttack (600) \\nIncreased Damage (12 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "【[Pet]】\\nAttack (600) \\nIncreased Damage (12 times Beast Taming) \\n100% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "攻击（600）"
@@ -5587,12 +5622,27 @@
   - splitPath: Name
     text: "元小圣"
     translated: "Little Sage Yuan"
+    qcReviewedText: "Little Sage Yuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "元小圣"
     translated: "Little Sage Yuan"
+    qcReviewedText: "Little Sage Yuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【[Pet]】"
+    qcReviewedText: "【[Pet]】\\nAttack (1500) \\nIncreased Damage (15x Beast Taming) \\nLaunch an attack at 75% intensity"
+    qcTranslated: "【[Pet]】\\nAttack (1500) \\nIncreased Damage (15x Beast Taming) \\n75% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1500）"
@@ -5614,12 +5664,28 @@
   - splitPath: Name
     text: "赤眉"
     translated: "Red Eyebrows"
+    qcReviewedText: "Red Eyebrows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "赤眉"
     translated: "Red Eyebrows"
+    qcReviewedText: "Red Eyebrows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "【[Pet]】"
+    qcReviewedText: "【[Pet]】\\nAttack (7000) \\nIncreased Damage (15x Beast Taming) \\n50% launch an attack"
+    qcTranslated: "【[Pet]】\\nAttack (7000) \\nIncreased Damage (15x Beast Taming) \\n50% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（7000）"

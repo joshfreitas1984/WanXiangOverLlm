@@ -2446,9 +2446,17 @@
   - splitPath: Name
     text: "抓达达里奥"
     translated: "Catch Dadario"
+    qcReviewedText: "Catch Dadario"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "达达里奥一众"
     translated: "Dadario and his men"
+    qcReviewedText: "Dadario and his men"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -2566,6 +2574,10 @@
   - splitPath: Name
     text: "悬赏铁蒺藜"
     translated: "Bounty on Iron Caltrop"
+    qcReviewedText: "Bounty on Iron Caltrop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "高亮"
     translated: "Gao Liang"
@@ -2857,6 +2869,10 @@
   - splitPath: Name
     text: "宁王临武当"
     translated: "Prince Ning arrives at Wudang"
+    qcReviewedText: "Prince Ning arrives at Wudang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "商山四皓"
     translated: "Four Elders of Shangshan"
@@ -2875,6 +2891,10 @@
   - splitPath: Name
     text: "宁王临衡山"
     translated: "Prince Ning arrives at Mount Heng"
+    qcReviewedText: "Prince Ning arrives at Mount Heng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "商山四皓"
     translated: "Four Elders of Shangshan"
@@ -2983,6 +3003,10 @@
   - splitPath: Desc
     text: "神保清长"
     translated: "Jinbo Kiyonaga"
+    qcReviewedText: "Jinbo Kiyonaga"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -3001,6 +3025,10 @@
   - splitPath: Desc
     text: "伴七郎"
     translated: "Ban Shichiro"
+    qcReviewedText: "Ban Shichiro"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -3019,6 +3047,10 @@
   - splitPath: Desc
     text: "女忍者"
     translated: "Female Ninja"
+    qcReviewedText: "Female Ninja"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -3262,9 +3294,17 @@
   - splitPath: Name
     text: "邹九思挑衅"
     translated: "Zou Jiusi provokes them"
+    qcReviewedText: "Zou Jiusi provokes them"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "邹九思"
     translated: "Zou Jiusi"
+    qcReviewedText: "Zou Jiusi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "江浪一众"
     translated: "Jiang Lang and his followers"
@@ -3445,9 +3485,17 @@
   - splitPath: Name
     text: "挑衅邹九思"
     translated: "Provoking Zou Jiusi"
+    qcReviewedText: "Provoking Zou Jiusi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "邹九思"
     translated: "Zou Jiusi"
+    qcReviewedText: "Zou Jiusi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "江浪一众"
     translated: "Jiang Lang and his followers"
@@ -3523,6 +3571,10 @@
   - splitPath: Name
     text: "宁王临洞庭"
     translated: "Prince Ning arrives at Dongting Lake"
+    qcReviewedText: "Prince Ning arrives at Dongting Lake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "商山四皓"
     translated: "Four Elders of Shangshan"
@@ -3793,9 +3845,20 @@
   - splitPath: Name
     text: "血手厉无咎"
     translated: "Blood-Clad Li Wujiu"
+    qcReviewedText: "Blood-Clad Li Wujiu"
+    qcTranslated: "Blood Hand Li Wujiu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "厉无咎"
     translated: "Li Wujiu"
+    qcReviewedText: "Li Wujiu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -3913,6 +3976,10 @@
   - splitPath: Name
     text: "宁王朱宸濠"
     translated: "Prince Ning Zhu Chenhao"
+    qcReviewedText: "Prince Ning Zhu Chenhao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "长江四门主"
     translated: "Four Masters of the Yangtze"
@@ -4126,12 +4193,11 @@
     qcQualityScore: 90
   - splitPath: Desc
     text: "祝八姐一众"
-    translated: "Wish Sister Ba and her group well"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Zhu Bajie,祝八姐,"
-    qcReviewedText: "Wish Sister Ba and her group well"
+    translated: "Zhu Bajie and her group"
+    qcReviewedText: "Zhu Bajie and her group"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -4858,9 +4924,17 @@
   - splitPath: Name
     text: "邵轻虹"
     translated: "Shao Qinghong"
+    qcReviewedText: "Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "邵轻虹"
     translated: "Shao Qinghong"
+    qcReviewedText: "Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -4956,20 +5030,18 @@
   splits:
   - splitPath: Name
     text: "樊荡秽"
-    translated: "Panzhanhui"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Fan Danghui,樊荡秽,"
-    qcReviewedText: "Panzhanhui"
-    qcStatus: Passed
-    qcQualityScore: 95
-  - splitPath: Desc
-    text: "樊荡秽"
-    translated: "Panzhanhui"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Fan Danghui,樊荡秽,"
-    qcReviewedText: "Panzhanhui"
+    translated: "Fan Danghui"
+    qcReviewedText: "Fan Danghui"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "樊荡秽"
+    translated: "Fan Danghui"
+    qcReviewedText: "Fan Danghui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5464,12 +5536,11 @@
   splits:
   - splitPath: Name
     text: "明通寻明达"
-    translated: "Clear Path Seeks Clear Understanding"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mingtong,明通,"
-    qcReviewedText: "Clear Path Seeks Clear Understanding"
+    translated: "Mingtong seeks Mingda"
+    qcReviewedText: "Mingtong seeks Mingda"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "明达"
     translated: "Mingda"
@@ -5493,12 +5564,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "唐傲"
-    translated: "Zhongli Hen"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Tang Ao,唐傲,"
-    qcReviewedText: "Zhongli Hen"
+    translated: "Tang Ao"
+    qcReviewedText: "Tang Ao"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5558,12 +5628,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "卢方侯平"
-    translated: "Lord Ping Peng of Lu Fang"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hou Ping,侯平,"
-    qcReviewedText: "Lord Ping Peng of Lu Fang"
+    translated: "Lu Fang Hou Ping"
+    qcReviewedText: "Lu Fang Hou Ping"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5618,20 +5687,18 @@
   splits:
   - splitPath: Name
     text: "寇伏魔"
-    translated: "Foe Slayer Ku"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kou Fumo,寇伏魔,"
-    qcReviewedText: "Foe Slayer Ku"
-    qcStatus: Passed
-    qcQualityScore: 90
-  - splitPath: Desc
-    text: "寇伏魔"
-    translated: "Foe Slayer Ku"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kou Fumo,寇伏魔,"
-    qcReviewedText: "Foe Slayer Ku"
+    translated: "Kou Fumo"
+    qcReviewedText: "Kou Fumo"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "寇伏魔"
+    translated: "Kou Fumo"
+    qcReviewedText: "Kou Fumo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5769,20 +5836,18 @@
   splits:
   - splitPath: Name
     text: "缪辟邪"
-    translated: "Miao Piye"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miao Bixie,缪辟邪,"
-    qcReviewedText: "Miao Piye"
-    qcStatus: Passed
-    qcQualityScore: 95
-  - splitPath: Desc
-    text: "缪辟邪"
-    translated: "Miao Piye"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miao Bixie,缪辟邪,"
-    qcReviewedText: "Miao Piye"
+    translated: "Miao Bixie"
+    qcReviewedText: "Miao Bixie"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "缪辟邪"
+    translated: "Miao Bixie"
+    qcReviewedText: "Miao Bixie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5836,20 +5901,18 @@
   splits:
   - splitPath: Name
     text: "封百水"
-    translated: "Bind Water Hundred"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Feng Baishui,封百水,"
-    qcReviewedText: "Bind Water Hundred"
-    qcStatus: Passed
-    qcQualityScore: 95
-  - splitPath: Desc
-    text: "封百水"
-    translated: "Bind Water Hundred"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Feng Baishui,封百水,"
-    qcReviewedText: "Bind Water Hundred"
+    translated: "Feng Baishui"
+    qcReviewedText: "Feng Baishui"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "封百水"
+    translated: "Feng Baishui"
+    qcReviewedText: "Feng Baishui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5882,20 +5945,18 @@
   splits:
   - splitPath: Name
     text: "何旺"
-    translated: "Wang HE"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "He Wang,何旺,"
-    qcReviewedText: "Wang HE"
-    qcStatus: Passed
-    qcQualityScore: 90
-  - splitPath: Desc
-    text: "何旺"
-    translated: "Wang HE"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "He Wang,何旺,"
-    qcReviewedText: "Wang HE"
+    translated: "He Wang"
+    qcReviewedText: "He Wang"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "何旺"
+    translated: "He Wang"
+    qcReviewedText: "He Wang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -5907,20 +5968,18 @@
   splits:
   - splitPath: Name
     text: "不空"
-    translated: "Not Empty"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Bukong,不空,"
-    qcReviewedText: "Not Empty"
-    qcStatus: Passed
-    qcQualityScore: 95
-  - splitPath: Desc
-    text: "不空"
-    translated: "Not Empty"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Bukong,不空,"
-    qcReviewedText: "Not Empty"
+    translated: "Bukong"
+    qcReviewedText: "Bukong"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "不空"
+    translated: "Bukong"
+    qcReviewedText: "Bukong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6037,20 +6096,18 @@
   splits:
   - splitPath: Name
     text: "况天龙"
-    translated: "Sky Dragon Condition"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kuang Tianlong,况天龙,"
-    qcReviewedText: "Sky Dragon Condition"
-    qcStatus: Passed
-    qcQualityScore: 95
-  - splitPath: Desc
-    text: "况天龙"
-    translated: "Sky Dragon Condition"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Kuang Tianlong,况天龙,"
-    qcReviewedText: "Sky Dragon Condition"
+    translated: "Kuang Tianlong"
+    qcReviewedText: "Kuang Tianlong"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: Desc
+    text: "况天龙"
+    translated: "Kuang Tianlong"
+    qcReviewedText: "Kuang Tianlong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6210,9 +6267,17 @@
   - splitPath: Name
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6225,9 +6290,17 @@
   - splitPath: Name
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6240,9 +6313,17 @@
   - splitPath: Name
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "猿猴"
     translated: "Monkey"
+    qcReviewedText: "Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6255,9 +6336,23 @@
   - splitPath: Name
     text: "赤眉白猿"
     translated: "Red Eyebrows White Ape"
+    qcReviewedText: "Red Eyebrows White Ape"
+    qcTranslated: "Red-Browed White Ape"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "赤眉白猿"
     translated: "Red Eyebrows White Ape"
+    qcReviewedText: "Red Eyebrows White Ape"
+    qcTranslated: "Red-Browed White Ape"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"

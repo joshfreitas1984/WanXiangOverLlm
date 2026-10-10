@@ -30,12 +30,11 @@
   splits:
   - splitPath: Name
     text: "莫笑贫赌"
-    translated: "Do not mock a poor man who gambles."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
-    qcReviewedText: "Do not mock a poor man who gambles."
+    translated: "Do not mock Mo Xiaopin's gambling"
+    qcReviewedText: "Do not mock Mo Xiaopin's gambling"
     qcStatus: Passed
-    qcQualityScore: 95
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4\",\r\n    \"Name\": \"靳红衣五千\",\r\n    \"NameTw\": \"靳紅衣五千\"\r\n  }"
   rawIndex: 4
   splits:

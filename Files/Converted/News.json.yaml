@@ -1148,6 +1148,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "贾孤山"
     translated: "Jia Gushan"
+    qcReviewedText: "<color=#BA77D9>Jia Gushan </color>When leaving Gentlemen Manor, say <color=#77CED9>August </color>I'll have to visit again during the Mid-Autumn Festival-it seems I still haven't given up trying to secure favors for Prince Ning.<color=#BA77D9>Zhangsun Cheng </color>Sir's plans"
+    qcTranslated: "<color=#BA77D9>Jia Gushan </color>said when leaving Gentlemen Manor that he would visit again during the Mid-Autumn Festival in <color=#77CED9>August</color>, so it seems he still hasn't given up on his plan to recruit <color=#BA77D9>Zhangsun Cheng</color> for Prince Ning."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "从君子庄离去时说"
@@ -1171,6 +1179,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "贾孤山"
     translated: "Jia Gushan"
+    qcReviewedText: "<color=#BA77D9>Jia Gushan </color>When leaving Gentlemen Manor, say <color=#77CED9>August </color>I'll have to visit again during the Mid-Autumn Festival-it seems I still haven't given up trying to secure favors for Prince Ning.<color=#BA77D9>Zhangsun Cheng </color>Sir's plans"
+    qcTranslated: "<color=#BA77D9>Jia Gushan </color>said when leaving Gentlemen Manor that he would visit again during the Mid-Autumn Festival in <color=#77CED9>August</color>, so it seems he still hasn't given up on his plan to recruit <color=#BA77D9>Zhangsun Cheng</color> for Prince Ning."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "从君子庄离去时说"
@@ -2084,6 +2100,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Extremely ambitious <color=#BA77D9>Wudang</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should have their own plans in place, with many unusual and talented individuals under their command to enhance their capabilities.<color=#D9C577>Medicine</color>、<color=#D9C577>Variety Arts </color>By becoming a Master, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning</color> is extremely ambitious. The forces of sects such as <color=#BA77D9>Wudang</color> and <color=#BA77D9>Dongting Lake</color> should have their own plans in place. Additionally, he has many unusual and talented individuals under his command; raising <color=#D9C577>Medicine</color> and <color=#D9C577>Variety Arts</color> to Master level will allow you to gain additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -2115,6 +2139,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Has great ambition <color=#BA77D9>Wudang</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should have some plans in place, and with many unusual and talented individuals under their command, they can enhance their capabilities.<color=#D9C577>Medicine</color>、<color=#D9C577>Variety Arts </color>By mastering this, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning</color> has great ambitions. The forces of sects such as <color=#BA77D9>Wudang</color> and <color=#BA77D9>Dongting Lake</color> should have plans in place. Additionally, he has many unusual and talented individuals under his command; raising <color=#D9C577>Medicine</color> and <color=#D9C577>Variety Arts</color> to Master level will allow you to gain additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -2160,6 +2192,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan </color>have appeared in <color=#77CED9>Changle District </color>of <color=#77CED9>Jingnan </color>. If their whereabouts can be found, perhaps one might learn of <color=#BA77D9>Prince Ning </color>'s whereabouts."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -2195,6 +2235,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have appeared in <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of <color=#BA77D9>Prince Ning</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -2244,6 +2291,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>First clue, first stage <color=#BA77D9>Chunyu Wang </color>Trial \\n<color=#D9C577>Divination</color>, You can either learn Divination to a high level from Mr. Bei in Yuelu Academy or raise your friendship level with Yuelu Academy to 100 to complete this challenge."
+    qcTranslated: "You must complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The first stage, <color=#BA77D9>Chunyu Wang</color>'s trial, tests <color=#D9C577>Divination</color>; you can either learn Divination to an expert level from Mr. Bei at Yuelu Academy or raise your friendship with Yuelu Academy to 100 to complete this challenge."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2279,6 +2334,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>First clue, first stage <color=#BA77D9>Chunyu Wang </color>Trial <color=#D9C577>Divination</color>, You can either learn Divination to become an expert with Master Beicun at Yuelu Academy or raise your friendship level with Yuelu Academy to 100 to complete this challenge."
+    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The first stage, <color=#BA77D9>Chunyu Wang</color>'s trial in <color=#D9C577>Divination</color>, can be completed by learning Divination to the Expert level with Master Beicun at Yuelu Academy, or by raising your friendship level with Yuelu Academy to 100."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2328,6 +2391,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>A clue, second act <color=#BA77D9>Xia Sizhao </color>Trial \\n<color=#D9C577>Cooking</color>, You can either travel to different places and learn advanced cooking skills by tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100."
+    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The second <color=#BA77D9>Xia Sizhao</color> trial is <color=#D9C577>Cooking</color>; you can either travel to various places and taste local specialties to master advanced cooking skills, or raise your friendship with the Beggar Sect to 100. to complete this challenge."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2363,6 +2434,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>A clue, second act <color=#BA77D9>Xia Sizhao </color>Trial <color=#D9C577>Cooking</color>, You can either travel to various places and learn advanced cooking skills by tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100."
+    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The second <color=#BA77D9>Xia Sizhao</color> trial is <color=#D9C577>Cooking</color>; you can either travel to various places and learn advanced cooking skills by tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100.."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2412,6 +2490,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>A clue, the third act <color=#BA77D9>Qiu Xingji </color>Trial \\n<color=#D9C577>Gambling</color>, You can either improve your Gambling skills to become a master through Xiangdong Zhurou District, or unlock the challenge by completing it with Red Beauty Jin Hongyi."
+    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The third trial is <color=#BA77D9>Qiu Xingji</color>'s <color=#D9C577>Gambling</color> challenge, which can be passed by raising your Gambling skill to Master level at the Xiangdong Vermilion Bird Workshop, or by unlocking Jin Hongyi's Beauty Bond."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2447,6 +2533,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
+    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Prince Ning </color>A clue, the third act <color=#BA77D9>Qiu Xingji </color>Trial <color=#D9C577>Gambling</color>, You can either improve your Gambling skills to become a master through the Zhuque District in Xiangdong or unlock Jin Hongyi to complete this challenge."
+    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from <color=#BA77D9>Prince Ning</color>. The third act is <color=#BA77D9>Qiu Xingji</color>'s <color=#D9C577>Gambling</color> trial; you can improve your Gambling skills to Master level at the Zhuque District in Xiangdong, or unlock Jin Hongyi's favor to complete this challenge."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2496,6 +2590,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "只有完成"
     translated: "Only by completing"
+    qcReviewedText: "Only by completing <color=#BA77D9>Four Elders of Shangshan </color>To earn from them after passing their trials <color=#BA77D9>Prince Ning </color>A clue, watch the fourth performance <color=#BA77D9>Dongguo Liang </color>This way, if I were to offer to buy the Four Scenes of Mountain and Water painting for him,<color=#D9C577>Five thousand coins</color>, He's going to keep up this act of confusion."
+    qcTranslated: "Only by completing the trials of <color=#BA77D9>Four Elders of Shangshan</color> can you obtain a clue about <color=#BA77D9>Prince Ning</color> from them. In the fourth act, judging by how <color=#BA77D9>Dongguo Liang</color> is acting, if I were to offer him <color=#D9C577>Five thousand coins</color> to buy the Four Scenes of Mountain and Water, he would keep up this act of confusion indefinitely."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2531,6 +2633,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "只有完成"
     translated: "Only by completing"
+    qcReviewedText: "Only by completing <color=#BA77D9>Four Elders of Shangshan </color>To earn from them after passing their trials <color=#BA77D9>Prince Ning </color>A clue, watch the fourth performance <color=#BA77D9>Dongguo Liang </color>This way, if I were to offer to buy the Four Scenes of Mountains and Water for him,<color=#D9C577>Five thousand coins</color>, He's going to keep up this act of confusion."
+    qcTranslated: "Only by completing the trials of <color=#BA77D9>Four Elders of Shangshan</color> can you obtain a clue about <color=#BA77D9>Prince Ning</color> from them. In the fourth scene, judging by how <color=#BA77D9>Dongguo Liang</color> is acting, if I were to offer him <color=#D9C577>Five thousand coins</color> to buy the Four Scenes of Mountains and Water, he would keep up this act of confusion indefinitely."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -3560,6 +3670,15 @@
   - splitPath: ConditionSatisfiedDesc
     text: "若已经想明宁王一事，还要去"
     translated: "If you've already figured out everything about Prince Ning, why go there still?"
+    qcReviewedText: "If you've already figured out everything about Prince Ning, why go there still?<color=#77CED9>Hall of Repaying Gratitude </color>It's best to respond as soon as possible; before going, perhaps it might still be possible to go first to...<color=#77CED9>Nine Rivers Manor in Southern Xianghua</color>、<color=#77CED9>Xiangbei Misty Harbor Bay </color>Take a look"
+    qcTranslated: "If you've already figured out everything about Prince Ning, you should go to <color=#77CED9>Hall of Repaying Gratitude</color> and respond as soon as possible; before going, perhaps it might still be possible to first visit <color=#77CED9>Nine Rivers Manor in Southern Xiang</color>, <color=#77CED9>Misty Harbor Bay in Northern Xiang</color> and take a look."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - HardToParseSeam
+    - OtherNamedDefect
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "报恩殿"
@@ -3583,6 +3702,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "若已经想明宁王一事，还要去"
     translated: "If you've already figured out everything about Prince Ning, why go there still?"
+    qcReviewedText: "If you've already figured out everything about Prince Ning, why go there still?<color=#77CED9>Hall of Repaying Gratitude </color>It's best to respond as soon as possible; before going there, perhaps it might still be possible to go...<color=#77CED9>Nine Streams Manor in Southern Xianghua</color>、<color=#77CED9>Xiangbei Misty Harbor Bay </color>Take a look"
+    qcTranslated: "If you've already figured out everything about Prince Ning, you should go to the <color=#77CED9>Hall of Repaying Gratitude</color> and respond as soon as possible; before going there, perhaps it might still be possible to first visit <color=#77CED9>Nine Streams Manor in Southern Xiang</color>, <color=#77CED9>Misty Harbor Bay in Northern Xiang</color> and take a look."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - HardToParseSeam
+    - OtherNamedDefect
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "报恩殿"
@@ -3620,6 +3748,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Extremely ambitious <color=#BA77D9>Hengshan Mountain</color>、<color=#BA77D9>Dongting Lake </color>The various Sects must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals, which gives him an edge.<color=#D9C577>Beast Taming</color>、<color=#D9C577>Variety Arts </color>By becoming a Master, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning </color>is extremely ambitious, and the various Sects of <color=#BA77D9>Hengshan Mountain</color>, <color=#BA77D9>Dongting Lake</color>, and others must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals; raising <color=#D9C577>Beast Taming</color> and <color=#D9C577>Variety Arts </color>to Master level will allow you to gain additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -3651,6 +3787,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Has great ambition <color=#BA77D9>Hengshan Mountain</color>、<color=#BA77D9>Dongting Lake </color>The various Sect forces must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge.<color=#D9C577>Beast Taming</color>、<color=#D9C577>Variety Arts </color>By mastering this, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning</color> has great ambition. The forces of sects like <color=#BA77D9>Hengshan</color> and <color=#BA77D9>Dongting</color> must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals. Raising <color=#D9C577>Beast Taming</color> and <color=#D9C577>Variety Arts</color> to Master level will grant you additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -3696,6 +3840,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan </color>have appeared in <color=#77CED9>Changle District </color>of <color=#77CED9>Jingnan </color>. If their whereabouts can be found, perhaps one might learn of <color=#BA77D9>Prince Ning </color>'s whereabouts."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -3731,6 +3883,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have appeared in <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of <color=#BA77D9>Prince Ning</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -4844,6 +5003,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "飞鱼帮"
     translated: "Flying Fish Sect"
+    qcReviewedText: "<color=#BA77D9>Flying Fish Sect </color>Is located at <color=#77CED9>Jingdong Wuchang Prefecture</color>, It's said that <color=#BA77D9>Xiang Xifei </color>The son of the lord has been frail and sickly since childhood; we'll need to inquire further once we arrive at the local area."
+    qcTranslated: "<color=#BA77D9>Flying Fish Sect</color> is located in <color=#77CED9>Jingdong Wuchang Prefecture</color>. It's said that the son of <color=#BA77D9>Xiang Xifei</color> has been frail and sickly since childhood; we'll need to inquire further once we arrive in the area."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -4867,6 +5034,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "飞鱼帮"
     translated: "Flying Fish Sect"
+    qcReviewedText: "<color=#BA77D9>Flying Fish Sect </color>Is located at <color=#77CED9>Jingdong Wuchang Prefecture</color>, It's said that <color=#BA77D9>Xiang Xifei </color>The child of the family has been frail and often ill since childhood; we'll need to inquire further once we arrive at the local area."
+    qcTranslated: "<color=#BA77D9>Flying Fish Sect</color> is located in <color=#77CED9>Jingdong Wuchang Prefecture</color>. It's said that the son of <color=#BA77D9>Xiang Xifei</color> has been frail and often ill since childhood; we'll need to inquire further once we arrive in the area."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -4904,6 +5079,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "向西飞"
     translated: "Xiang Xifei"
+    qcReviewedText: "<color=#BA77D9>Xiang Xifei </color>This one is chosen <color=#BA77D9>Medicine King Valley </color>A divine doctor can treat it, but one ingredient is still missing.<color=#BA77D9>Nine-leaf Rehmannia Root</color>, It's said that <color=#BA77D9>Jingbei Yunyang Prefecture </color>This medicine was once found in the desolate mountains to the south. If one wishes to find it among the vast forests, it will likely require...<color=#D9C577>Luck </color>You're no longer an ordinary person"
+    qcTranslated: "<color=#BA77D9>Xiang Xifei</color>'s son was treated by a divine doctor from <color=#BA77D9>Medicine King Valley</color>, but one ingredient is still missing: <color=#BA77D9>Nine-leaf Rehmannia Root</color>. It's said that this medicine was once found in the desolate mountains south of <color=#BA77D9>Jingbei Yunyang Prefecture</color>. If one wishes to find it among the vast forests, it will likely require someone with deep <color=#D9C577>Luck</color>."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "之子得"
@@ -4943,6 +5126,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "向西飞"
     translated: "Xiang Xifei"
+    qcReviewedText: "<color=#BA77D9>Xiang Xifei </color>This one wins <color=#BA77D9>Medicine King Valley </color>A divine doctor can treat it, but one ingredient is still missing.<color=#BA77D9>Nine-leaf Rehmannia Root</color>, It's said that <color=#BA77D9>Jingbei Yunyang Prefecture </color>This medicine was once found in the desolate mountains to the south. If one wishes to find it among the vast forests, it will likely require...<color=#D9C577>Luck </color>You're no longer a novice; you've become someone of great depth and experience."
+    qcTranslated: "<color=#BA77D9>Xiang Xifei </color>'s son was treated by a divine doctor from <color=#BA77D9>Medicine King Valley</color>, but one ingredient is still missing: <color=#BA77D9>Nine-leaf Rehmannia Root</color>. It's said that this medicine was once found in the desolate mountains south of <color=#BA77D9>Jingbei Yunyang Prefecture</color>. If one wishes to find it among the vast forests, it will likely require someone with profound <color=#D9C577>Luck</color> and fortune."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "之子得"
@@ -4996,6 +5187,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "既已寻到了"
     translated: "Having already found"
+    qcReviewedText: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, If this medicine were to be delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, Perhaps with <color=#BA77D9>Xiang Xifei </color>It's not necessarily impossible to turn enemies into friends."
+    qcTranslated: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, if this medicine were delivered to the <color=#BA77D9>Flying Fish Sect</color> in <color=#77CED9>Jingdong Wuchang Prefecture</color>, it might be possible to turn <color=#BA77D9>Xiang Xifei</color> from enemy into friend."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "九叶地黄"
@@ -5027,6 +5226,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "既已寻到了"
     translated: "Having already found"
+    qcReviewedText: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, If this medicine were delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, Perhaps with <color=#BA77D9>Xiang Xifei </color>It's not necessarily impossible to turn enemies into friends."
+    qcTranslated: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, if this medicine were delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, perhaps with <color=#BA77D9>Xiang Xifei </color>it is not necessarily impossible to turn enemies into friends."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "九叶地黄"
@@ -5198,6 +5404,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "听风阁"
     translated: "Wind Listening Pavilion"
+    qcReviewedText: "<color=#BA77D9>Wind Listening Pavilion </color>Is located at <color=#77CED9>Jingnan Jingzhou Prefecture</color>，<color=#BA77D9>Zou Wuji </color>A life skilled in scheming; if success is desired, one might still have to start from <color=#BA77D9>Zou Jiusi </color>Attack him from behind"
+    qcTranslated: "<color=#BA77D9>Wind Listening Pavilion</color> is located in <color=#77CED9>Jingnan Jingzhou Prefecture</color>. <color=#BA77D9>Zou Wuji</color> was a master of scheming throughout his life; if you wish to succeed, you may still need to start with <color=#BA77D9>Zou Jiusi</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -5225,6 +5439,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "听风阁"
     translated: "Wind Listening Pavilion"
+    qcReviewedText: "<color=#BA77D9>Wind Listening Pavilion </color>Is located at <color=#77CED9>Jingnan Jingzhou Prefecture</color>，<color=#BA77D9>Zou Wuji </color>A life skilled in scheming; if success is the goal, one might still have to start from <color=#BA77D9>Zou Jiusi </color>Attack him from behind"
+    qcTranslated: "<color=#BA77D9>Wind Listening Pavilion</color> is located in <color=#77CED9>Jingnan Jingzhou Prefecture</color>. <color=#BA77D9>Zou Wuji</color> has spent his life mastering the art of scheming; if you wish to succeed, you may still need to start by targeting <color=#BA77D9>Zou Jiusi</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -5266,6 +5488,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "邹九思"
     translated: "Zou Jiusi"
+    qcReviewedText: "<color=#BA77D9>Zou Jiusi </color>Has already agreed to help persuade his father.<color=#BA77D9>Zou Wuji</color>, But <color=#BA77D9>Zou Wuji </color>A life spent in scheming requires a certain level of <color=#D9C577>Insight </color>Wisdom, and likely would also be underestimated by <color=#BA77D9>Zou Wuji </color>Take that into account"
+    qcTranslated: "<color=#BA77D9>Zou Jiusi </color>has already agreed to help persuade his father, <color=#BA77D9>Zou Wuji</color>, but since <color=#BA77D9>Zou Wuji </color>has spent his life scheming, without a certain level of <color=#D9C577>Insight </color>wisdom, one would likely be outsmarted by <color=#BA77D9>Zou Wuji </color>as well."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "已经同意了帮忙劝他父亲"
@@ -5305,6 +5535,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "邹九思"
     translated: "Zou Jiusi"
+    qcReviewedText: "<color=#BA77D9>Zou Jiusi </color>Has already agreed to help persuade his father.<color=#BA77D9>Zou Wuji</color>, But Zou Wuji is skilled at calculation for a reason; he wouldn't do anything without good cause.<color=#D9C577>Insight </color>Wisdom, and likely would also be underestimated by <color=#BA77D9>Zou Wuji </color>Take that into account"
+    qcTranslated: "<color=#BA77D9>Zou Jiusi </color>has already agreed to help persuade his father, <color=#BA77D9>Zou Wuji</color>. But Zou Wuji has spent his life mastering calculation; without a certain degree of <color=#D9C577>Insight</color> and wisdom, one would likely be outsmarted by <color=#BA77D9>Zou Wuji</color> as well."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "已经同意了帮忙劝他父亲"
@@ -5434,6 +5672,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "若已经想明宁王一事，还要去"
     translated: "If you've already figured out everything about Prince Ning, why go there still?"
+    qcReviewedText: "If you've already figured out everything about Prince Ning, why go there still?<color=#77CED9>Dragonhead Hall </color>It's best to respond as soon as possible; before going, perhaps it might still be possible to go first to...<color=#77CED9>Jingbei True Martial Temple</color>、<color=#77CED9>Nine Rivers Manor in Southern Xianghua </color>Take a look"
+    qcTranslated: "If you've already figured out everything about Prince Ning, you should go to <color=#77CED9>Dragonhead Hall</color> and respond as soon as possible; before going, perhaps it might still be possible to first visit <color=#77CED9>Jingbei True Martial Temple</color>, <color=#77CED9>Nine Rivers Manor in Southern Xianghua</color>."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - HardToParseSeam
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "龙首堂"
@@ -5457,6 +5703,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "若已经想明宁王一事，还要去"
     translated: "If you've already figured out everything about Prince Ning, why go there still?"
+    qcReviewedText: "If you've already figured out everything about Prince Ning, why go there still?<color=#77CED9>Dragonhead Hall </color>It's best to respond as soon as possible; before going there, perhaps it might still be possible to go...<color=#77CED9>Jingbei True Martial Observatory</color>、<color=#77CED9>Nine Streams Manor in Southern Xianghua </color>Take a look"
+    qcTranslated: "If you've already figured out everything about Prince Ning, you should go to <color=#77CED9>Dragonhead Hall</color> and reply as soon as possible; before going there, perhaps you can first visit <color=#77CED9>Jingbei True Martial Temple</color> or <color=#77CED9>Nine Streams Manor in Southern Xiang</color> to take a look."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - HardToParseSeam
+    - OtherNamedDefect
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "龙首堂"
@@ -5494,6 +5749,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Extremely ambitious <color=#BA77D9>Wudang</color>、<color=#BA77D9>Hengshan Mountain </color>The Sects must have made their own arrangements as well, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge.<color=#D9C577>Medicine</color>、<color=#D9C577>Beast Taming </color>By becoming a Master, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning</color> is extremely ambitious, so <color=#BA77D9>Wudang</color>, <color=#BA77D9>Hengshan Mountain</color>, and other Sects must have made their own arrangements as well. However, Prince Ning's entourage is full of extraordinary individuals; raising <color=#D9C577>Medicine</color> and <color=#D9C577>Beast Taming</color> to Master level will allow you to gain additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -5525,6 +5788,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
     translated: "Prince Ning"
+    qcReviewedText: "<color=#BA77D9>Prince Ning </color>Has great ambition <color=#BA77D9>Wudang</color>、<color=#BA77D9>Hengshan Mountain </color>The Sects must have made their own arrangements as well, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge.<color=#D9C577>Medicine</color>、<color=#D9C577>Beast Taming </color>By mastering this, you can gain additional teammates."
+    qcTranslated: "<color=#BA77D9>Prince Ning</color> has great ambitions. <color=#BA77D9>Wudang</color>, <color=#BA77D9>Hengshan Mountain</color>, and other sects must have made their own arrangements as well, but Prince Ning's entourage is full of extraordinary individuals. Raising <color=#D9C577>Medicine</color> and <color=#D9C577>Beast Taming</color> to Master level will allow you to gain additional teammates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+    - DroppedContent
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -5570,6 +5842,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan </color>have appeared in <color=#77CED9>Changle District </color>of <color=#77CED9>Jingnan </color>. If their whereabouts can be found, perhaps one might learn of <color=#BA77D9>Prince Ning </color>'s whereabouts."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -5605,6 +5885,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
+    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Prince Ning </color>Whereabouts"
+    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have appeared in <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of <color=#BA77D9>Prince Ning</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -6102,10 +6389,16 @@
   - splitPath: ConditionSatisfiedDesc
     text: "这位"
     translated: "This gentleman"
-    qcReviewedText: "This gentleman <color=#BA77D9>Shaolin Sect </color>Of <color=#BA77D9>Clear Path </color>Master, I want to find a way to escape before October.<color=#77CED9>Shaolin Sect </color>Of <color=#BA77D9>Mingda </color>The master indeed finds it difficult. Perhaps he can help look for some clues, starting with <color=#77CED9>Eastern Sichuan </color>Local exploration complete!"
-    qcTranslated: "This <color=#BA77D9>Shaolin Sect</color> Master <color=#BA77D9>Mingtong</color> wants to find Master <color=#BA77D9>Mingda</color>, who escaped the <color=#77CED9>Shaolin Sect</color>, before October. It is indeed not easy, but perhaps we can help look for his traces. Let's start by investigating locally in <color=#77CED9>Eastern Sichuan</color>!"
+    qcReviewedText: "This gentleman <color=#BA77D9>Shaolin Sect </color>Of <color=#BA77D9>Mingtong </color>Master, I want to find a way to escape before October.<color=#77CED9>Shaolin Sect </color>Of <color=#BA77D9>Mingda </color>The master indeed finds it difficult. Perhaps he can help look for some clues, starting with <color=#77CED9>Eastern Sichuan </color>Local exploration complete!"
+    qcTranslated: "This Master <color=#BA77D9>Mingtong</color> of the <color=#BA77D9>Shaolin Sect</color> wishes to find Master <color=#BA77D9>Mingda</color>, who escaped from the <color=#77CED9>Shaolin Sect</color>, before October, which is indeed no easy feat. Perhaps we can help him search for clues, starting with local investigations in <color=#77CED9>Eastern Sichuan</color>!"
     qcStatus: Corrected
-    qcQualityScore: 82
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
+    - UnnaturalPhrasing
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "少林派"
@@ -6117,9 +6410,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "明通"
-    translated: "Clear Path"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mingtong,明通,"
+    translated: "Mingtong"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "大师，想要在十月之前找到逃离"
@@ -6151,10 +6442,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "这位"
     translated: "This gentleman"
-    qcReviewedText: "This gentleman <color=#BA77D9>Shaolin Sect </color>Of <color=#BA77D9>Clear Path </color>Master, I want to find a way to escape by October.<color=#77CED9>Shaolin Sect </color>Of <color=#BA77D9>Mingda </color>The master indeed finds it difficult. Perhaps he can help look for some clues, starting with <color=#77CED9>Eastern Sichuan </color>Local exploration complete!"
-    qcTranslated: "This <color=#BA77D9>Shaolin Sect</color> Master <color=#BA77D9>Mingtong</color> wants to find Master <color=#BA77D9>Mingda</color>, who escaped the <color=#77CED9>Shaolin Sect</color>, before October. That is indeed no easy feat, but perhaps we can help track his whereabouts, starting with local searches in <color=#77CED9>Eastern Sichuan</color>!"
+    qcReviewedText: "This gentleman <color=#BA77D9>Shaolin Sect </color>Of <color=#BA77D9>Mingtong </color>Master, I want to find a way to escape by October.<color=#77CED9>Shaolin Sect </color>Of <color=#BA77D9>Mingda </color>The master indeed finds it difficult. Perhaps he can help look for some clues, starting with <color=#77CED9>Eastern Sichuan </color>Local exploration complete!"
+    qcTranslated: "This <color=#BA77D9>Shaolin Sect</color> Master <color=#BA77D9>Mingtong</color> wants to find Master <color=#BA77D9>Mingda</color>, who escaped from the <color=#77CED9>Shaolin Sect</color>, before October, which is indeed not easy. Perhaps we can help him search for clues, starting with exploring the local area of <color=#77CED9>Eastern Sichuan</color>!"
     qcStatus: Corrected
-    qcQualityScore: 82
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
+    - DroppedContent
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "少林派"
@@ -6166,9 +6462,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "明通"
-    translated: "Clear Path"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mingtong,明通,"
+    translated: "Mingtong"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "大师，想要在十月之前找到逃离"
@@ -7351,6 +7645,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "被"
     translated: "Was hit by"
+    qcReviewedText: "Was hit by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head <color=#BA77D9>Gao Liang of the Iron Caltrop </color>At <color=#77CED9>Southern Hunan </color>Roam around"
+    qcTranslated: "The wanted criminal with a bounty on their head, <color=#BA77D9>Iron Caltrop Gao Liang</color>, issued by the <color=#BA77D9>Jingxi Six Doors</color>, has been spotted roaming around <color=#77CED9>Southern Hunan</color>."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"
@@ -7378,6 +7680,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "被"
     translated: "Was trapped by"
+    qcReviewedText: "Was trapped by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head <color=#BA77D9>Gao Liang Iron Caltrop </color>At <color=#77CED9>Southern Hunan </color>Roam around"
+    qcTranslated: "The wanted criminal with a bounty on their head, <color=#BA77D9>Iron Caltrop Gao Liang</color>, issued by the <color=#BA77D9>Jingxi Six Doors</color>, has been spotted roaming in the <color=#77CED9>Southern Hunan</color> region."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"
@@ -7746,6 +8056,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "荆湘门派"
     translated: "Jingxi Sect"
+    qcReviewedText: "<color=#ff0000>Jingxi Sect </color><color=#D9C577>Eighth Year </color>Start by <color=#77CED9>Xiangbei </color>Of <color=#BA77D9>Recruitment Arena </color>Activate <color=#BA77D9>Ending of Prince Ning</color>，<color=#D9C577>Ninth Year </color>Start from the beginning <color=#77CED9>Xiangdong </color>Encounter <color=#BA77D9>Wen Canyang </color>Activate <color=#BA77D9>Demon Lord's ending</color>, For specific information, refer to the details <color=#D9C577>Relationship Interface </color>Of <color=#D9C577>Ending </color>One column"
+    qcTranslated: "<color=#ff0000>Jingxi Sect </color><color=#D9C577>Eighth Year </color>you can start by activating the <color=#BA77D9>Prince Ning Ending</color> through the <color=#BA77D9>Recruitment Arena</color> in <color=#77CED9>Xiangbei</color>, and from the <color=#D9C577>Ninth Year</color> you can encounter <color=#BA77D9>Wen Canyang</color> in <color=#77CED9>Xiangdong</color> to activate the <color=#BA77D9>Demon Lord Ending</color>. For specific information, refer to the <color=#D9C577>Ending</color> column in the <color=#D9C577>Relationship Interface</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "第八年"
@@ -7825,6 +8143,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "第八年"
     translated: "Eighth Year"
+    qcReviewedText: "<color=#D9C577>Eighth Year </color>Start by <color=#77CED9>Xiangbei </color>Of <color=#BA77D9>Recruitment Arena </color>Activate <color=#BA77D9>Fate of Prince Ning</color>，<color=#D9C577>Ninth Year </color>Start from the beginning <color=#77CED9>Xiangdong </color>Encounter <color=#BA77D9>Wen Canyang </color>Activate <color=#BA77D9>Demon Lord's ending</color>, For specific information, refer to the details <color=#D9C577>Relationship Interface </color>Of <color=#D9C577>Ending </color>One column"
+    qcTranslated: "<color=#D9C577>Eighth Year</color> Start by using <color=#77CED9>Xiangbei</color>'s <color=#BA77D9>Recruitment Arena</color> to unlock the <color=#BA77D9>Prince Ning ending</color>. From the <color=#D9C577>Ninth Year</color>, you can encounter <color=#BA77D9>Wen Canyang</color> in <color=#77CED9>Xiangdong</color> to unlock the <color=#BA77D9>Demon Lord ending</color>. For specific information, refer to the <color=#D9C577>Ending</color> section of the <color=#D9C577>Relationship Interface</color>."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "开始可以通过"

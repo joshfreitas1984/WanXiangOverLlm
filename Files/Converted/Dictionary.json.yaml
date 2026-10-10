@@ -1851,8 +1851,12 @@
     text: "武侯祠"
     translated: "Martial Hall Shrine"
     qcReviewedText: "Martial Hall Shrine"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Wuhou Shrine"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"1040\",\r\n    \"Desc\": \"门派\",\r\n    \"Dictionary\": \"神女宫\",\r\n    \"DescTw\": \"門派\",\r\n    \"DictionaryTw\": \"神女宮\"\r\n  }"
   rawIndex: 1040
   splits:

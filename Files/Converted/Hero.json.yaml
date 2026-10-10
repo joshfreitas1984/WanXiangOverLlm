@@ -657,8 +657,13 @@
     text: "夜游神"
     translated: "Goddess of Night Wanderers"
     qcReviewedText: "Goddess of Night Wanderers"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Night Wandering Spirit"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DomainTerm
   - splitPath: CardName
     text: "衡山二总管"
     translated: "Elder Deputy of Hengshan Branch"
@@ -972,16 +977,11 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "加入衡山派，从第六年一月开始，探索后山九次观看江化渚、柏成柯剑歌，此后悟性到达110后再次探索后山可解锁"
-    translated: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
-    qcReviewedText: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Joining Hengshan Sect in the first month of the sixth year, explore the back mountain nine times to observe Jiang Huazhu and Bai Chengke's Sword Song, and after Insight reaches {0}, you can unlock further exploration of the back mountain."
-    qcFailureReason: " `{0}` appears in the result but not in the original text."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
+    translated: "Join the Hengshan Sect. From January of the sixth year, explore the Back Mountain nine times to watch Jiang Huazhu and Bai Chengke's sword song. After your Insight reaches 110, explore the Back Mountain again to unlock."
+    qcReviewedText: "Join the Hengshan Sect. From January of the sixth year, explore the Back Mountain nine times to watch Jiang Huazhu and Bai Chengke's sword song. After your Insight reaches 110, explore the Back Mountain again to unlock."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"1012\",\r\n    \"IdName\": \"长孙玉2\",\r\n    \"Name\": \"长孙玉\",\r\n    \"Title\": \"玉公子\",\r\n    \"CardName\": \"衡山弟子\",\r\n    \"BaseDesc\": \"特殊\",\r\n    \"Desc\": \"君子庄少庄主，“三湘君子”长孙诚之子，谦恭儒雅，温润如玉，自幼随父研习君子六艺，颇有造诣，因其谦逊有礼，品性温良，兼之容貌清秀，肤质如玉，故被人称为“玉公子”，是荆湘一带众多闺阁淑女心中最倾慕的如意郎君。\",\r\n    \"GetDesc\": \"加入衡山派，第七年为长孙诚送茶后，君子庄友好度到达60，探索湘南两次得知宁王阴谋，八月时再次探索君子庄，揭露贾孤山阴谋，打赢贾孤山后，医术未到达高手解锁\",\r\n    \"NameTw\": \"長孫玉\",\r\n    \"TitleTw\": \"玉公子\",\r\n    \"DescTw\": \"君子莊少莊主，“三湘君子”長孫誠之子，謙恭儒雅，溫潤如玉，自幼隨父研習君子六藝，頗有造詣，因其謙遜有禮，品性溫良，兼之容貌清秀，膚質如玉，故被人稱為“玉公子”，是荊湘一帶眾多閨閣淑女心中最傾慕的如意郎君。\",\r\n    \"GetDescTw\": \"加入衡山派，第七年為長孫誠送茶後，君子莊友好度到達60，探索湘南兩次得知寧王陰謀，八月時再次探索君子莊，揭露賈孤山陰謀，打贏賈孤山後，醫術未到達高手解鎖\",\r\n    \"CardNameTw\": \"衡山弟子\"\r\n  }"
   rawIndex: 1012
   splits:
@@ -1907,13 +1907,13 @@
     text: "1、加入武当派，第八年一月开始，福缘到达180，探索后山遇到尹玄真小憩，再次探索坐忘台，带着师叔和同门去后山寻找失踪的尹玄真，战胜尹玄真后加入。"
     translated: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join him."
     qcReviewedText: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join him.\\n2, not belonging to the Wudang Sect, reaches master-level proficiency in Medicine after rushing to aid the Wudang Sect following the activation of Prince Ning's ending and before the scene where Prince Ning pays homage to the mountains. Later, after repelling the Four Elders of Shangshan back in his own sect, upon learning that the Four Elders of Shangshan have appeared in Jingnan, he joins them after exploring Changle Fang in Jingnan."
-    qcTranslated: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180.. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join the Wudang Sect.\\n2, not belonging to the Wudang Sect, reach master-level proficiency in Medicine after rushing to aid the Wudang Sect following the activation of Prince Ning's ending and before the scene where Prince Ning pays homage to the mountains. Later, after repelling the Four Elders of Shangshan back in your own sect, upon learning that the Four Elders of Shangshan have appeared in Jingnan, join the Four Elders of Shangshan after exploring Changle Fang in Jingnan."
+    qcTranslated: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180.. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join him.\\n2, not belonging to the Wudang Sect, after triggering Prince Ning's ending and before the scene where Prince Ning pays homage to the mountains, rush to aid the Wudang Sect with Medicine reaching master-level proficiency. Later, after repelling the Four Elders of Shangshan back in his own sect, upon learning that the Four Elders of Shangshan have appeared in Jingnan, he joins them after exploring Changle Fang in Jingnan."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - MeaningReversal
+    - DroppedContent
   - splitPath: GetDesc
     subIndex: 1
     text: "2、非武当派，触发宁王结局后，在宁王拜山剧情前，驰援武当派时医术到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
@@ -4786,8 +4786,12 @@
     text: "盘蛇主母"
     translated: "Asura Mother - Pan Snake Mistress"
     qcReviewedText: "Asura Mother - Pan Snake Mistress"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Asura Mother - Coiled Snake Mistress"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: BaseDesc
     text: "常规"
     translated: "Routine"
@@ -5590,8 +5594,12 @@
     text: "烟渚鸬魁"
     translated: "Smoke-mist Heron Hunter"
     qcReviewedText: "Smoke-mist Heron Hunter"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Yan Zhu Lu Kui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: CardName
     text: "暮雨司主"
     translated: "Muyu Si Zu"
@@ -5636,8 +5644,12 @@
     text: "烟渚鸬魁"
     translated: "Smoke-mist Heron Hunter"
     qcReviewedText: "Smoke-mist Heron Hunter"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Yan Zhu Lu Kui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: CardName
     text: "红颜知己"
     translated: "Close female friend"
@@ -6069,16 +6081,11 @@
     qcQualityScore: 78
   - splitPath: GetDesc
     text: "第四年一月开始，财富到达1000探索荆北，在夏侯珺处任意购买一件物品，探索荆北六合帮拜见后，再次探索荆东打败崔三贯后加入"
-    translated: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
-    qcReviewedText: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Starting in January of the fourth year, once Wealth reaches {0}, explore Jingbei and purchase any item at Xiahou Jun's place. After exploring Jingbei and paying respects to the Six Harmonies Sect, revisit Eastern Jing and defeat Cui Sanguan before joining."
-    qcFailureReason: " `{0}` appears in the result but not in the original text."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
+    translated: "From January of the fourth year, once your Wealth reaches 1000, explore Jingbei and buy any item from Xiahou Jun. After exploring the Six Harmonies Sect in Jingbei to pay your respects, explore Jing Dong again and defeat Cui Sanguan to join."
+    qcReviewedText: "From January of the fourth year, once your Wealth reaches 1000, explore Jingbei and buy any item from Xiahou Jun. After exploring the Six Harmonies Sect in Jingbei to pay your respects, explore Jing Dong again and defeat Cui Sanguan to join."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3028\",\r\n    \"IdName\": \"夏侯珺2\",\r\n    \"Name\": \"夏侯珺\",\r\n    \"Title\": \"金钱雁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。\",\r\n    \"GetDesc\": \"先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\\\\n\\\\n夏侯珺形象二、三、四\\\\n解锁夏侯珺红颜后，完成夏侯珺前传故事解锁\",\r\n    \"NameTw\": \"夏侯珺\",\r\n    \"TitleTw\": \"金錢雁\",\r\n    \"DescTw\": \"六合幫大小姐，“朝秦暮楚”夏侯朝之女，精明強幹，不拘小節，天生聰慧，武藝精通，尤善於商賈之道，自幼便隨其父夏侯朝乘船在金錢河上，往來於關隴和荊湘兩地做生意，一直夢想著有朝一日能將生意做到全天下。\",\r\n    \"GetDescTw\": \"先後探索湘東、湘南，第七年一月開始，六合幫友好到達50（六合幫友好可通過購買寶物增加）探索六合幫，打敗崔三貫，解鎖夏侯珺紅顏\\\\n\\\\n夏侯珺形象二、三、四\\\\n解鎖夏侯珺紅顏後，完成夏侯珺前傳故事解鎖\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3028
   splits:
@@ -7041,12 +7048,11 @@
     qcQualityScore: 100
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: CardName
     text: "花炮匠人"
     translated: "Fireworks Master craftsmen"
@@ -7399,8 +7405,13 @@
     text: "铁枪霸王"
     translated: "Spear Emperor Wang"
     qcReviewedText: "Spear Emperor Wang"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Iron Spear Overlord"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DroppedContent
   - splitPath: CardName
     text: "荆湘豪杰"
     translated: "Heros of Jingxiang"
@@ -7515,7 +7526,8 @@
     translated: "Starting in January of the fifth year, challenge and succeed at Yellow Crane Tower, then face Cui Zhiwei within the tower. After the sixth year, explore Jing Dong and join in."
     qcReviewedText: "Starting in January of the fifth year, challenge and succeed at Yellow Crane Tower, then face Cui Zhiwei within the tower. After the sixth year, explore Jing Dong and join in."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6015\",\r\n    \"IdName\": \"斋藤归藏\",\r\n    \"Name\": \"斋藤归藏\",\r\n    \"Title\": \"宫岛剑豪\",\r\n    \"CardName\": \"扶桑剑豪\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"扶桑剑豪，务实果敢，端方持重，出生于武士之家，自幼拜名师学习剑道，后于宫岛闭关三年领悟剑意，成为剑豪，因听闻神州武学高深莫测，故而便四处学习神州语言，并搭乘一艘从九州岛出发的商船来至神州请教武学。\",\r\n    \"GetDesc\": \"从第五年一月开始，挑战成功黄鹤楼，并在黄鹤楼中挑战过斋藤归藏，第六年后探索湘南加入。\",\r\n    \"NameTw\": \"齋藤歸藏\",\r\n    \"TitleTw\": \"宮島劍豪\",\r\n    \"DescTw\": \"扶桑劍豪，務實果敢，端方持重，出生於武士之家，自幼拜名師學習劍道，後於宮島閉關三年領悟劍意，成為劍豪，因聽聞神州武學高深莫測，故而便四處學習神州語言，並搭乘一艘從九州島出發的商船來至神州請教武學。\",\r\n    \"GetDescTw\": \"從第五年一月開始，挑戰成功黃鶴樓，並在黃鶴樓中挑戰過齋藤歸藏，第六年後探索湘南加入。\",\r\n    \"CardNameTw\": \"扶桑劍豪\"\r\n  }"
   rawIndex: 6015
   splits:
@@ -7553,8 +7565,12 @@
     text: "扶桑剑豪，务实果敢，端方持重，出生于武士之家，自幼拜名师学习剑道，后于宫岛闭关三年领悟剑意，成为剑豪，因听闻神州武学高深莫测，故而便四处学习神州语言，并搭乘一艘从九州岛出发的商船来至神州请教武学。"
     translated: "Fusang Sword Master, pragmatic and resolute, dignified and sober-minded, was born into a samurai family. Since childhood, he studied swordsmanship under renowned masters. After three years of seclusion on Jingado Island, he gained insight into the essence of swordsmanship and became a sword master. Hearing that Shaoshen martial arts were profound and intricate, he began studying the language of Shaoshen and sailed aboard a merchant ship from Kyushu to Shaoshen to seek further training in martial arts."
     qcReviewedText: "Fusang Sword Master, pragmatic and resolute, dignified and sober-minded, was born into a samurai family. Since childhood, he studied swordsmanship under renowned masters. After three years of seclusion on Jingado Island, he gained insight into the essence of swordsmanship and became a sword master. Hearing that Shaoshen martial arts were profound and intricate, he began studying the language of Shaoshen and sailed aboard a merchant ship from Kyushu to Shaoshen to seek further training in martial arts."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Fusang Sword Master, pragmatic and resolute, dignified and sober-minded, was born into a samurai family. Since childhood, he studied swordsmanship under renowned masters. After three years of seclusion on Miyajima Island, he gained insight into the essence of swordsmanship and became a sword master. Hearing that Shenzhou martial arts were profound and intricate, he began studying the language of Shenzhou and sailed aboard a merchant ship from Kyushu to Shenzhou to seek further training in martial arts."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: GetDesc
     text: "从第五年一月开始，挑战成功黄鹤楼，并在黄鹤楼中挑战过斋藤归藏，第六年后探索湘南加入。"
     translated: "Starting from January of the fifth year, successfully challenge Huanghelou, and then challenge Saito Kizo within it. After the sixth year, explore Xiangnan to join in."
@@ -8422,8 +8438,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: CardName
     text: "花魁娘子"
     translated: "Wife Flower Chief"
@@ -8469,8 +8489,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: CardName
     text: "红颜知己"
     translated: "Close female friend"
@@ -8525,8 +8549,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: CardName
     text: "红颜知己"
     translated: "Close female friend"
@@ -9255,20 +9283,22 @@
     text: "扶桑甲贺流风间家忍者，缜密机变，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”投诚而被以望月家为首的甲贺五十六家联手覆灭，与兄长“夜影”风间夜保护新族长“夜月幽狐”风间爱一路逃至神州，寻找能为风间家复仇的方法。"
     translated: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Kyuzo family due to the patriarch's refusal to surrender to the 'Mysterious Figure.' Brother  “Night Shadow”  Kazama Ye protected the new clan leader,  “Night Moon Shadow Fox”  Kazama Ai, fleeing to Shenzhou. They sought a way to avenge their family."
     qcReviewedText: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Kyuzo family due to the patriarch's refusal to surrender to the 'Mysterious Figure.' Brother  “Night Shadow”  Kazama Ye protected the new clan leader,  “Night Moon Shadow Fox”  Kazama Ai, fleeing to Shenzhou. They sought a way to avenge their family."
-    qcTranslated: "The ninja of the Kazama family, Koga School of Iga Province, meticulous and adaptable, patient and loyal. The Kazama family was annihilated by the fifty-six Koga families led by the Mochizuki family because the old patriarch refused to submit to the Mysterious Figure. Together with his brother Night Shadow Kazama Ye, he protected the new clan leader Night Moon Shadow Fox Kazama Ai as they fled all the way to Shenzhou, seeking a way to avenge the Kazama family."
+    qcTranslated: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Mochizuki family due to the old patriarch's refusal to have the Kazama family surrender to the 'Mysterious Figure.' Brother “Night Shadow” Kazama Ye protected the new clan leader, “Night Moon Shadow Fox” Kazama Ai, fleeing all the way to Shenzhou to seek a way to avenge their family."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: GetDesc
     text: "第八年前解锁风间爱红颜，并粉碎至少两次阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂。此后两次次探索湘北战胜风间爱和吕霸先等人加入。"
     translated: "Unlock Kazama Ai's beauty eight years ago, shatter at least two conspiracies, explore Xiangbei to launch the Talent Recruitment Tournament, and win three consecutive matches in that tournament to disrupt Prince Ning's arena. Subsequent explorations of Xiangbei lead to victories over Kazama Ai and Lu Baxian among others, who then join forces."
     qcReviewedText: "Unlock Kazama Ai's beauty eight years ago, shatter at least two conspiracies, explore Xiangbei to launch the Talent Recruitment Tournament, and win three consecutive matches in that tournament to disrupt Prince Ning's arena. Subsequent explorations of Xiangbei lead to victories over Kazama Ai and Lu Baxian among others, who then join forces."
-    qcTranslated: "Unlock Kazama Ai's beauty in the eighth year, shatter at least two conspiracies, explore Xiangbei to launch the Talent Recruitment Tournament, and win three consecutive matches in that tournament to disrupt Prince Ning's arena. Subsequent explorations of Xiangbei lead to victories over Kazama Ai and Lu Baxian among others, who then join you."
+    qcTranslated: "Unlock Kazama Ai's beauty in the eighth year, shatter at least two conspiracies, explore Xiangbei to launch the Talent Recruitment Tournament, and win three consecutive matches in that tournament to disrupt Prince Ning's arena. Subsequent explorations of Xiangbei lead to victories over Kazama Ai and Lu Baxian among others, who then join the player."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
+    - GarbledNumber
     - MeaningReversal
 - raw: "{\r\n    \"Key\": \"6060\",\r\n    \"IdName\": \"风间月2\",\r\n    \"Name\": \"风间月\",\r\n    \"Title\": \"月影\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"扶桑甲贺流风间家忍者，缜密机变，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”投诚而被以望月家为首的甲贺五十六家联手覆灭，与兄长“夜影”风间夜保护新族长“夜月幽狐”风间爱一路逃至神州，寻找能为风间家复仇的方法。\",\r\n    \"GetDesc\": \"获取风间月后，两次探索湘北加入。\",\r\n    \"NameTw\": \"風間月\",\r\n    \"TitleTw\": \"月影\",\r\n    \"DescTw\": \"扶桑甲賀流風間家忍者，縝密機變，隱忍忠誠，風間家因老家主拒絕讓風間家向“神祕人”投誠而被以望月家為首的甲賀五十六家聯手覆滅，與兄長“夜影”風間夜保護新族長“夜月幽狐”風間愛一路逃至神州，尋找能為風間家復仇的方法。\",\r\n    \"GetDescTw\": \"獲取風間月後，兩次探索湘北加入。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6060
@@ -9307,10 +9337,12 @@
     text: "扶桑甲贺流风间家忍者，缜密机变，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”投诚而被以望月家为首的甲贺五十六家联手覆灭，与兄长“夜影”风间夜保护新族长“夜月幽狐”风间爱一路逃至神州，寻找能为风间家复仇的方法。"
     translated: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Kyuzo family due to the patriarch's refusal to surrender to the 'Mysterious Figure.' Brother  “Night Shadow”  Kazama Ye protected the new clan leader,  “Night Moon Shadow Fox”  Kazama Ai, fleeing to Shenzhou. They sought a way to avenge their family."
     qcReviewedText: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Kyuzo family due to the patriarch's refusal to surrender to the 'Mysterious Figure.' Brother  “Night Shadow”  Kazama Ye protected the new clan leader,  “Night Moon Shadow Fox”  Kazama Ai, fleeing to Shenzhou. They sought a way to avenge their family."
-    qcTranslated: "The ninja of the Kazama family, Koga School of Iga Province, meticulous and adaptable, patient and loyal. The Kazama family was annihilated by the fifty-six Koga families led by the Mochizuki family because the old patriarch refused to submit to the Mysterious Figure. Together with his brother Night Shadow Kazama Ye, he protected the new clan leader Night Moon Shadow Fox Kazama Ai as they fled all the way to Shenzhou, seeking a way to avenge the Kazama family."
+    qcTranslated: "The ninja from the Koga School of Iga Province, meticulous and versatile, patient and loyal. The Kazama family was wiped out by the united forces of the fifty-six families led by the Mochizuki family due to the old patriarch's refusal to have the Kazama family surrender to the 'Mysterious Figure.' Brother “Night Shadow” Kazama Ye protected the new clan leader, “Night Moon Shadow Fox” Kazama Ai, fleeing all the way to Shenzhou to seek a way to avenge their family."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: GetDesc
     text: "获取风间月后，两次探索湘北加入。"
     translated: "After obtaining Kazama Yue, I embarked on two explorations of Xiangbei."
@@ -9500,10 +9532,9 @@
     text: "红颜知己数量到达3、5、7人以上后，三次探索荆北，第三次战胜夜销魂后加入。"
     translated: "When the number of Red-Skinned Companions reaches 3, 5, and 7 or more, explore Jingbei three times. After defeating Ye Xiaohun for the third time, they will join."
     qcReviewedText: "When the number of Red-Skinned Companions reaches 3, 5, and 7 or more, explore Jingbei three times. After defeating Ye Xiaohun for the third time, they will join."
-    qcTranslated: "Once you have 3, 5, or 7 or more Red-Headed Confidantes, explore Jingbei three times. After defeating Ye Xiaohun on the third attempt, they will join."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6073\",\r\n    \"IdName\": \"尚哭坟\",\r\n    \"Name\": \"尚哭坟\",\r\n    \"Title\": \"丧门孝子\",\r\n    \"CardName\": \"荆湘奇人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"湘西怪客，乖戾怪诞，诙谐随性，平日间总是身穿孝服，手持一柄哭丧棒，所行之处一遇有人家出殡，总是恸哭不止，哀凄之感尤甚于孝子，而一旦被本家请入家中丧宴席上，则会立时止哭，饱餐一顿扬长而去。\",\r\n    \"GetDesc\": \"第五年一月开始探索湘西初遇尚哭坟，此后再次探索湘西开放铁衣寨，此后探索四次铁衣寨，将铁衣寨剿灭，再次探索湘西尚哭坟加入。\",\r\n    \"NameTw\": \"尚哭墳\",\r\n    \"TitleTw\": \"喪門孝子\",\r\n    \"DescTw\": \"湘西怪客，乖戾怪誕，詼諧隨性，平日間總是身穿孝服，手持一柄哭喪棒，所行之處一遇有人家出殯，總是慟哭不止，哀悽之感尤甚於孝子，而一旦被本家請入家中喪宴席上，則會立時止哭，飽餐一頓揚長而去。\",\r\n    \"GetDescTw\": \"第五年一月開始探索湘西初遇尚哭墳，此後再次探索湘西開放鐵衣寨，此後探索四次鐵衣寨，將鐵衣寨剿滅，再次探索湘西尚哭墳加入。\",\r\n    \"CardNameTw\": \"荊湘奇人\"\r\n  }"
   rawIndex: 6073
   splits:
@@ -12360,8 +12391,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"IdName\": \"吉鼠\",\r\n    \"Name\": \"吉鼠\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"吉鼠\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20001
   splits:
@@ -12393,8 +12428,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20002\",\r\n    \"IdName\": \"福猪\",\r\n    \"Name\": \"福猪\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"福豬\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20002
   splits:
@@ -12426,8 +12465,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20003\",\r\n    \"IdName\": \"灵猿\",\r\n    \"Name\": \"灵猿\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"靈猿\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20003
   splits:
@@ -12459,8 +12502,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20004\",\r\n    \"IdName\": \"猫仙女\",\r\n    \"Name\": \"猫仙女\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"貓仙女\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20004
   splits:
@@ -12492,8 +12539,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20005\",\r\n    \"IdName\": \"蛇仙女\",\r\n    \"Name\": \"蛇仙女\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"蛇仙女\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20005
   splits:
@@ -12525,8 +12576,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"20006\",\r\n    \"IdName\": \"寿娥仙子\",\r\n    \"Name\": \"寿娥仙子\",\r\n    \"CardName\": \"幻兽\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"无稽林幻兽\",\r\n    \"NameTw\": \"壽娥仙子\",\r\n    \"DescTw\": \"無稽林幻獸\",\r\n    \"CardNameTw\": \"幻獸\"\r\n  }"
   rawIndex: 20006
   splits:
@@ -12558,8 +12613,12 @@
     text: "无稽林幻兽"
     translated: "Phantom Beast of Unsophisticated Forest"
     qcReviewedText: "Phantom Beast of Unsophisticated Forest"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Phantom Beast of the Absurd Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"21001\",\r\n    \"IdName\": \"孙悟空\",\r\n    \"Name\": \"孙悟空\",\r\n    \"CardName\": \"齐天大圣\",\r\n    \"BaseDesc\": \"齐天大圣\",\r\n    \"Desc\": \"齐天大圣\",\r\n    \"NameTw\": \"孫悟空\",\r\n    \"DescTw\": \"齊天大聖\",\r\n    \"CardNameTw\": \"齊天大聖\"\r\n  }"
   rawIndex: 21001
   splits:

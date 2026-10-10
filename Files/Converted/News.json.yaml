@@ -7646,13 +7646,13 @@
     text: "被"
     translated: "Was hit by"
     qcReviewedText: "Was hit by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head <color=#BA77D9>Gao Liang of the Iron Caltrop </color>At <color=#77CED9>Southern Hunan </color>Roam around"
-    qcTranslated: "The wanted criminal with a bounty on their head, <color=#BA77D9>Iron Caltrop Gao Liang</color>, issued by the <color=#BA77D9>Jingxi Six Doors</color>, has been spotted roaming around <color=#77CED9>Southern Hunan</color>."
+    qcTranslated: "The wanted criminal <color=#BA77D9>Iron Caltrop Gao Liang</color>, who has a <color=#BA77D9>Bounty</color> on his head from the <color=#BA77D9>Jingxi Six Doors</color>, is roaming around the <color=#77CED9>Southern Hunan</color> region."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
     qcDefectCategories:
-    - MeaningReversal
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"
@@ -7681,13 +7681,13 @@
     text: "被"
     translated: "Was trapped by"
     qcReviewedText: "Was trapped by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head <color=#BA77D9>Gao Liang Iron Caltrop </color>At <color=#77CED9>Southern Hunan </color>Roam around"
-    qcTranslated: "The wanted criminal with a bounty on their head, <color=#BA77D9>Iron Caltrop Gao Liang</color>, issued by the <color=#BA77D9>Jingxi Six Doors</color>, has been spotted roaming in the <color=#77CED9>Southern Hunan</color> region."
+    qcTranslated: "The wanted criminal <color=#BA77D9>Iron Caltrop Gao Liang</color>, who has a <color=#BA77D9>Bounty</color> on his head from the <color=#BA77D9>Jingxi Six Doors</color>, is roaming around in the <color=#77CED9>Southern Hunan</color> area."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
     qcDefectCategories:
-    - MeaningReversal
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"

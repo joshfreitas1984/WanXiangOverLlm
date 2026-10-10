@@ -737,16 +737,11 @@
     translated: "Starting in January of the seventh year, wealth reaches 3000, and Liu Hanyan's friendly status reaches 80. Explore Zhanghua Terrace to unlock Liu Hanyan as a Red Beauty."
   - splitPath: LockDesc
     text: "第四年一月起，探索荆东解锁章华台，财富大于500探索章华台结识。"
-    translated: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
-    qcReviewedText: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Starting from January of the fourth year, by exploring Jing Dong you unlock Zhang Huai Tai; when Wealth is greater than {0}, explore Zhang Huai Tai to make acquaintances."
-    qcFailureReason: " `{0}` appears in the result but not in the original text."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
+    translated: "From January of the fourth year, explore Jing Dong to unlock Zhanghua Terrace. With Wealth above 500, explore Zhanghua Terrace to become acquainted."
+    qcReviewedText: "From January of the fourth year, explore Jing Dong to unlock Zhanghua Terrace. With Wealth above 500, explore Zhanghua Terrace to become acquainted."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: RepeatDesc
     text: "柳含烟加入后，财富到达五百探索章华台，每次友好度"
     translated: "After Liu Hanyan joins, wealth reaches five hundred when exploring Zhanghuatai, and each friendship level \\n"
@@ -1982,8 +1977,13 @@
     text: "品尝三种天下美酒后探索川东听闻仙人醉。（湘南胡子酒、湘北桃源酒、荆东伏汁酒、荆北地封酒、川东巴乡清酒其中三种即可）"
     translated: "After tasting three of the world's finest wines, explore Chuan Dong to hear about the Immortal's intoxication. (Xiang Nan Hu Zi Wine, Xiang Bei Tao Yuan Wine, Jing Dong Fu Ju Wine, Jing Bei Di Feng Wine, and Chuan Dong Ba Xiang Qing Wine-any three will do.)"
     qcReviewedText: "①After tasting three of the world's finest wines, explore Chuan Dong to hear about the Immortal's intoxication. (Xiang Nan Hu Zi Wine, Xiang Bei Tao Yuan Wine, Jing Dong Fu Ju Wine, Jing Bei Di Feng Wine, and Chuan Dong Ba Xiang Qing Wine-any three will do.)②After successfully challenging Huanghelou and meeting Xin Wuyan, I explored Huanghelou again to taste the Immortal's Intoxication.\\n③Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
-    qcStatus: Passed
+    qcTranslated: "1. After tasting three of the world's finest wines, explore Chuan Dong to hear about the Immortal's Intoxication. (Xiang Nan Hu Zi Wine, Xiang Bei Tao Yuan Wine, Jing Dong Fu Ju Wine, Jing Bei Di Feng Wine, and Chuan Dong Ba Xiang Qing Wine-any three will do.)2. After successfully challenging Huanghelou and meeting Xin Wuyan, I explored Huanghelou again to taste the Immortal's Intoxication.\\n3. Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
+    qcStatus: Corrected
     flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "黄鹤楼挑战成功结识辛无厌后，再次探索黄鹤楼品尝仙人醉。"
@@ -1997,7 +1997,8 @@
     translated: "In January of the fifth year, start exploring Chu Dong and choose to help Situ Ling. Afterward, continue exploring Chu Dong to meet more characters."
     qcReviewedText: "In January of the fifth year, start exploring Chu Dong and choose to help Situ Ling. Afterward, continue exploring Chu Dong to meet more characters."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[0]
     text: "品尝三种天下美酒后探索川东听闻仙人醉。（湘南胡子酒、湘北桃源酒、荆东伏汁酒、荆北地封酒、川东巴乡清酒其中三种即可）"
     translated: "After tasting three of the world's finest wines, explore Eastern Sichuan to hear about the Immortal's intoxication. (Three of these: Southern Hunan Hu Zi Wine, Northern Hunan Peach Spring Wine, Eastern Jingfu Juice Wine, Northern Jing Sealed Earth Wine, and Eastern Sichuan Ba Xiang Qing Wine.)"
@@ -2015,7 +2016,8 @@
     translated: "Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
     qcReviewedText: "Starting in January of the seventh year, explore Yellow Crane Tower to taste the ancient recipe Immortal's Intoxication, and unlock Situ Ling as a Red Rose."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}"
@@ -2631,13 +2633,15 @@
     translated: "Located in Yunxi County of Yunchang Prefecture in Jinhubei, bordering the tributary of the Han River known as Money River, this place was founded by Xiahou Chao. Relying on the river transport along Money River, it facilitates trade and transportation between Jingxiang and Guanlong regions. The Gang Master  【Fickle as morning and evening loyalties】  Xiahou Chao is broad-minded and efficient, making many friends and allies. There are numerous individuals in both Jingxiang and Guanlong who conduct business with his gang."
     qcReviewedText: "Located in Yunxi County of Yunchang Prefecture in Jinhubei, bordering the tributary of the Han River known as Money River, this place was founded by Xiahou Chao. Relying on the river transport along Money River, it facilitates trade and transportation between Jingxiang and Guanlong regions. The Gang Master  【Fickle as morning and evening loyalties】  Xiahou Chao is broad-minded and efficient, making many friends and allies. There are numerous individuals in both Jingxiang and Guanlong who conduct business with his gang."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: LockDesc
     text: "第四年一月开始，财富到达1000探索荆北，在夏侯珺处任意购买一件物品开启六合庄。"
     translated: "In January of the fourth year, when your wealth reaches 1000, explore Jingbei and purchase any item from Xiahou Jun to unlock the Six Harmonies Manor."
     qcReviewedText: "In January of the fourth year, when your wealth reaches 1000, explore Jingbei and purchase any item from Xiahou Jun to unlock the Six Harmonies Manor.\\nUnlock when friendliness with the Six Harmonies Sect reaches 100."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: LockDesc
     subIndex: 1
     text: "与六合帮友好度到达100解锁。"
@@ -3311,7 +3315,8 @@
     translated: "Starting from January of the third year, when wealth reaches 50, encounter the Fucheng Troupe performing on the street while exploring Jingnan. Choose to continue watching the performance to begin the Tree Shade Alley."
     qcReviewedText: "Starting from January of the third year, when wealth reaches 50, encounter the Fucheng Troupe performing on the street while exploring Jingnan. Choose to continue watching the performance to begin the Tree Shade Alley."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[1]
     text: "财富到达500，探索荆南帮福庆班结店帐。"
     translated: "Wealth has arrived at 500. Let's explore the settlement of accounts between Jingnan Gang Fuqing Battalion."
@@ -3890,8 +3895,12 @@
     text: "武侯祠"
     translated: "Martial Hall Shrine"
     qcReviewedText: "Martial Hall Shrine"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Wuhou Shrine"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "探索汉昭烈庙，向姜云奎求学"
     translated: "Explore the Temple of Emperor Xian of Han and seek instruction from Jiang Yunkui."
@@ -4037,8 +4046,13 @@
     text: "位于川南叙州府大凉山北麓，乃是三苗后裔、蚩尤血脉传人，峒中世传驯养苍狼之术，峒主【九黎苍首】蚩连，为川蜀诸峒第一驯兽高手，蚩黎寨民平日自耕自渔，尤以苍狼狩猎为长，少与中原城镇来往。"
     translated: "Located in the northern foothills of Daliang Mountain in Xuzhou Prefecture, Sichuan South, it is home to the descendants of the ancient Miaofu people and the descendants of Chiyou. The Dungong has a tradition of taming and training blue wolves, passed down through generations. The Dungong chief, Nine-Li Cangshou Chi Lian, is the top expert in animal taming among the various Dungong in Sichuan and Sichuan Province. The residents of Chi Li Village primarily engage in self-cultivation and fishing, excelling particularly in blue wolf hunting, and rarely interact with towns in the Central Plains."
     qcReviewedText: "Located in the northern foothills of Daliang Mountain in Xuzhou Prefecture, Sichuan South, it is home to the descendants of the ancient Miaofu people and the descendants of Chiyou. The Dungong has a tradition of taming and training blue wolves, passed down through generations. The Dungong chief, Nine-Li Cangshou Chi Lian, is the top expert in animal taming among the various Dungong in Sichuan and Sichuan Province. The residents of Chi Li Village primarily engage in self-cultivation and fishing, excelling particularly in blue wolf hunting, and rarely interact with towns in the Central Plains."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Located in the northern foothills of Daliang Mountain in Xuzhou Prefecture, Sichuan South, it is home to the descendants of the ancient San Miao people and the descendants of Chiyou. The Dong has a tradition of taming and training blue wolves, passed down through generations. The Dong chief, Nine-Li Cangshou Chi Lian, is the top expert in animal taming among the various Dong in Sichuan and Shu. The residents of Chi Li Village primarily engage in self-cultivation and fishing, excelling particularly in blue wolf hunting, and rarely interact with towns in the Central Plains."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - DomainTerm
   - splitPath: LockDesc
     text: "第三年一月开始，福缘到达50，探索川南救助蚩木后，再次探索川南击败苍狼后开启。"
     translated: "Starting in January of the third year, Luck arrives at 50. After exploring Chu Nan to rescue Chi Mu, it reactivates after defeating the Blue Wolf."

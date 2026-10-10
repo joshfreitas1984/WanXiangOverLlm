@@ -5143,10 +5143,12 @@
     text: "寻找艾琳娜做一些什么？"
     translated: "What is Elena doing?"
     qcReviewedText: "What is Elena doing?"
-    qcTranslated: "What is Elena looking for to do something?"
+    qcTranslated: "What is Elena looking for?"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: SelectionList[0]
     text: "闲话家常"
     translated: "Small talk"

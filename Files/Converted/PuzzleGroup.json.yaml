@@ -2370,8 +2370,12 @@
     text: "乾卦代表什么？"
     translated: "The Dry Hexagram represents a time of uprightness and correctness."
     qcReviewedText: "The Dry Hexagram represents a time of uprightness and correctness."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "The Qian Hexagram represents a time of uprightness and correctness."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: AnswerList[0]
     text: "水"
     translated: "Water"
@@ -3174,7 +3178,8 @@
     translated: "The moonlight shines on the cold iron armor, casting a chilling glow."
     qcReviewedText: "The moonlight shines on the cold iron armor, casting a chilling glow."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: AnswerList[3]
     text: "血染征衣志未央"
     translated: "Blood-soaked war garment, aspirations unfulfilled"
@@ -4072,8 +4077,12 @@
     text: "春末夏初（打一字）"
     translated: "The boundary between spring and summer (zheng)"
     qcReviewedText: "The boundary between spring and summer (zheng)"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "The boundary between spring and summer (a character riddle)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: AnswerList[0]
     text: "秋"
     translated: "Autumn"
@@ -6104,8 +6113,13 @@
     text: "记得小蘋初见，两重心字罗衣。琵琶弦上说相思。当时明月在，"
     translated: "Recalling our first meeting, Xiao Pen, in that double-layered robe of love. The lute strings spoke of longing. The same moon still shines then, now."
     qcReviewedText: "Recalling our first meeting, Xiao Pen, in that double-layered robe of love. The lute strings spoke of longing. The same moon still shines then, now.______。"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Recalling when I first met Xiao Ping, her two-layered silk robe embroidered with the character heart. The pipa strings spoke of longing. The same moon that shone then still shines now.______."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - splitPath: AnswerList[0]
     text: "曾照人双立"
     translated: "Zengzhao ren shuang li"
@@ -7168,8 +7182,12 @@
     text: "付与晚山青"
     translated: "Grant Evening Mountain Qing"
     qcReviewedText: "Grant Evening Mountain Qing"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Grant to Wanshanqing"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: AnswerList[1]
     text: "写入画图行"
     translated: "Draw a picture"
@@ -7403,8 +7421,12 @@
     text: "待月西厢下，迎风户半开。隔墙花影动，疑是玉人来。"
     translated: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half-open door. The flower shadows behind the wall sway, as if it is the lady arriving."
     qcReviewedText: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half-open door. The flower shadows behind the wall sway, as if it is the lady arriving."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Wait for the moon to rise in the west chamber, where a gentle breeze stirs the half-open door. The flower shadows behind the wall sway, as if it is the jade man arriving."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: AnswerList[0]
     text: "《崔莺莺待月西厢记》"
     translated: "The Meeting of Cui Yingying and the Moon in the Western Chamber"

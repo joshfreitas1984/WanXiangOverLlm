@@ -520,8 +520,12 @@
     text: "成就"
     translated: "Achievement"
     qcReviewedText: "Achievement-Daoist Lin's Four Friends"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Achievement-Dorin's Four Friends"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "道林四友"
@@ -2478,7 +2482,8 @@
     translated: "Base"
     qcReviewedText: "Base-Balancing the accounts for the month on Mount Hengshan"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山理月账"
@@ -5438,8 +5443,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Anren Henwife Cake"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Anren Ji Po Gao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "安仁鸡婆糕"
@@ -5885,28 +5895,31 @@
   splits:
   - splitPath: Name
     text: "四年选冬学"
-    translated: "Four Years to Learn Winter Techniques"
-    qcReviewedText: "Four Years to Learn Winter Techniques"
+    translated: "Year Four: Choose Winter Studies"
+    qcReviewedText: "Year Four: Choose Winter Studies"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"909600\",\r\n    \"Name\": \"五年选冬学\"\r\n  }"
   rawIndex: 909600
   splits:
   - splitPath: Name
     text: "五年选冬学"
-    translated: "Five years to study with Winter"
-    qcReviewedText: "Five years to study with Winter"
+    translated: "Year Five: Choose Winter Studies"
+    qcReviewedText: "Year Five: Choose Winter Studies"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"909700\",\r\n    \"Name\": \"六年选冬学\"\r\n  }"
   rawIndex: 909700
   splits:
   - splitPath: Name
     text: "六年选冬学"
-    translated: "Six years to learn winter techniques"
-    qcReviewedText: "Six years to learn winter techniques"
+    translated: "Year Six: Choose Winter Studies"
+    qcReviewedText: "Year Six: Choose Winter Studies"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"909800\",\r\n    \"Name\": \"七年选冬学\"\r\n  }"
   rawIndex: 909800
   splits:
@@ -5957,10 +5970,11 @@
   splits:
   - splitPath: Name
     text: "百味再冬学"
-    translated: "Sweetness learns under Winter's guidance"
-    qcReviewedText: "Sweetness learns under Winter's guidance"
+    translated: "Baiwei Returns to Winter Studies"
+    qcReviewedText: "Baiwei Returns to Winter Studies"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"910600\",\r\n    \"Name\": \"宁王临衡山\"\r\n  }"
   rawIndex: 910600
   splits:
@@ -6949,8 +6963,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Two Great Divisions of Mount Dabie"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Two Parts of the Dabie Mountains"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "两分大别山"
@@ -6965,8 +6983,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Two Great Divisions of Mount Dabie"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Two Parts of the Dabie Mountains"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "两分大别山"
@@ -6981,8 +7003,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Two Great Divisions of Mount Dabie"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Two Parts of the Dabie Mountains"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "两分大别山"
@@ -12358,8 +12384,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-First, transmit the martial arts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-First, transmit the first martial art"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -12374,8 +12405,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-First, transmit the martial arts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-First, transmit the first martial art"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -12390,8 +12426,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-First, transmit the martial arts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-First, transmit the first martial art"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -12406,8 +12447,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-First, transmit the martial arts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-First, transmit the first martial art"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -12678,8 +12724,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Dao Pu Martial Arts Chapter Two"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -12694,8 +12744,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Dao Pu Martial Arts Chapter Two"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -12710,8 +12764,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Dao Pu Martial Arts Chapter Two"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -12726,8 +12784,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Dao Pu Martial Arts Chapter Two"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -14985,8 +15047,14 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Mount Wu Zhu at the rear mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Rear Mountain Wuzhu Peak"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "后山武柱峰"
@@ -15001,8 +15069,14 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Mount Wu Zhu at the rear mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Rear Mountain Wuzhu Peak"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "后山武柱峰"
@@ -15017,8 +15091,14 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Mount Wu Zhu at the rear mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Rear Mountain Wuzhu Peak"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "后山武柱峰"
@@ -17462,10 +17542,14 @@
   splits:
   - splitPath: Name
     text: "兑换风波叉"
-    translated: "Exchange Troubles Cross"
-    qcReviewedText: "Exchange Troubles Cross"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Exchange for the Fengbo Fork"
+    qcReviewedText: "Exchange for the Fengbo Fork"
+    qcTranslated: "Exchange for the Storm Fork"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"4800711\",\r\n    \"Name\": \"兑换收帆箭\"\r\n  }"
   rawIndex: 4800711
   splits:
@@ -17679,10 +17763,14 @@
   splits:
   - splitPath: Name
     text: "兑换风波叉"
-    translated: "Exchange Troubles Cross"
-    qcReviewedText: "Exchange Troubles Cross"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Exchange for the Fengbo Fork"
+    qcReviewedText: "Exchange for the Fengbo Fork"
+    qcTranslated: "Exchange for the Storm Fork"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"4800740\",\r\n    \"Name\": \"兑换连珠箭\"\r\n  }"
   rawIndex: 4800740
   splits:
@@ -19499,8 +19587,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Hooking back the fish at Diao Ao Pier"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Fishing for the Turtle at Diao Ao Pier"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "钓鳌矶回鱼"
@@ -19515,8 +19608,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Hooking back the fish at Diao Ao Pier"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Fishing for the Turtle at Diao Ao Pier"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "钓鳌矶回鱼"
@@ -20004,10 +20102,11 @@
   splits:
   - splitPath: Name
     text: "福庆班作场"
-    translated: "Fuqing Battalion Performance Venue"
-    qcReviewedText: "Fuqing Battalion Performance Venue"
+    translated: "Fuqing Troupe Performs"
+    qcReviewedText: "Fuqing Troupe Performs"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5402400\",\r\n    \"Name\": \"客栈结善缘\"\r\n  }"
   rawIndex: 5402400
   splits:
@@ -20058,10 +20157,11 @@
   splits:
   - splitPath: Name
     text: "福庆班了仇"
-    translated: "Blessing Feud Established"
-    qcReviewedText: "Blessing Feud Established"
+    translated: "Fuqing Troupe Settles the Feud"
+    qcReviewedText: "Fuqing Troupe Settles the Feud"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5403200\",\r\n    \"Name\": \"福义村负义\"\r\n  }"
   rawIndex: 5403200
   splits:
@@ -23246,10 +23346,11 @@
   splits:
   - splitPath: Name
     text: "再临永利当"
-    translated: "Return to Ye Liang Town"
-    qcReviewedText: "Return to Ye Liang Town"
+    translated: "Return to Yongli Pawnshop"
+    qcReviewedText: "Return to Yongli Pawnshop"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6900320\",\r\n    \"Name\": \"永利赎何物\"\r\n  }"
   rawIndex: 6900320
   splits:
@@ -23363,10 +23464,11 @@
   splits:
   - splitPath: Name
     text: "当物飞虎玉"
-    translated: "When the object flies like a tiger jade"
-    qcReviewedText: "When the object flies like a tiger jade"
+    translated: "Pawn the Flying Tiger Jade"
+    qcReviewedText: "Pawn the Flying Tiger Jade"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6900510\",\r\n    \"Name\": \"赎物飞景剑\"\r\n  }"
   rawIndex: 6900510
   splits:
@@ -26889,8 +26991,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Visit Longzhoushan Mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Visit Longzhou Elbow Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "会理龙肘山"
@@ -26905,8 +27011,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Visit Longzhoushan Mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Visit Longzhou Elbow Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "会理龙肘山"
@@ -26921,8 +27031,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Visit Longzhoushan Mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Visit Longzhou Elbow Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "会理龙肘山"
@@ -27899,25 +28013,21 @@
   splits:
   - splitPath: Name
     text: "蛾眉出猿猴"
-    translated: "A monkey emerges from delicate eyebrows"
-    qcReviewedText: "A monkey emerges from delicate eyebrows"
+    translated: "Monkeys Emerge on Mount Emei"
+    qcReviewedText: "Monkeys Emerge on Mount Emei"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-84502000\",\r\n    \"Name\": \"蛾眉出猿猴\"\r\n  }"
   rawIndex: -84502000
   splits:
   - splitPath: Name
     text: "蛾眉出猿猴"
-    translated: "A monkey emerges from delicate eyebrows"
-    qcReviewedText: "A monkey emerges from delicate eyebrows"
+    translated: "Monkeys Emerge on Mount Emei"
+    qcReviewedText: "Monkeys Emerge on Mount Emei"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8450300\",\r\n    \"Name\": \"猿猴拜白猿\"\r\n  }"
   rawIndex: 8450300
   splits:

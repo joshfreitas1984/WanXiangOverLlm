@@ -422,7 +422,8 @@
     translated: "Base"
     qcReviewedText: "Base-Balancing the accounts for the month on Mount Hengshan"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "衡山理月账"
@@ -1352,8 +1353,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Perform the martial arts practice for guaranteed progress."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Practice martial arts to guarantee minimum progress."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "演武练保底"
@@ -2670,8 +2675,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Anren Henwife Cake"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Anren Ji Po Gao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "安仁鸡婆糕"
@@ -2782,8 +2792,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Chu Opera Moon Worship Play"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Chu Opera Moon Worship Record"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "楚戏拜月记"
@@ -2903,19 +2917,21 @@
   splits:
   - splitPath: Name
     text: "三年小校胜"
-    translated: "Three years in the small academy proved victorious."
-    qcReviewedText: "Three years in the small academy proved victorious."
+    translated: "Three-Year Junior School: Victory"
+    qcReviewedText: "Three-Year Junior School: Victory"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"901300\",\r\n    \"Name\": \"三年小校负\"\r\n  }"
   rawIndex: 901300
   splits:
   - splitPath: Name
     text: "三年小校负"
-    translated: "Three-year-old Xiao Xiaoa Failed"
-    qcReviewedText: "Three-year-old Xiao Xiaoa Failed"
+    translated: "Three-Year Junior School: Defeat"
+    qcReviewedText: "Three-Year Junior School: Defeat"
     qcStatus: Passed
-    qcQualityScore: 90
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"902200\",\r\n    \"Name\": \"寿诞邀衡山\"\r\n  }"
   rawIndex: 902200
   splits:
@@ -3191,10 +3207,11 @@
   splits:
   - splitPath: Name
     text: "百味再冬学"
-    translated: "Sweetness learns under Winter's guidance"
-    qcReviewedText: "Sweetness learns under Winter's guidance"
+    translated: "Baiwei Returns to Winter Studies"
+    qcReviewedText: "Baiwei Returns to Winter Studies"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"910800\",\r\n    \"Name\": \"四象战完胜\"\r\n  }"
   rawIndex: 910800
   splits:
@@ -3418,8 +3435,12 @@
     text: "天竺月食石"
     translated: "Lunar Eclipse Stone from the Moon Kingdom"
     qcReviewedText: "Lunar Eclipse Stone from the Moon Kingdom"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Lunar Eclipse Stone from Tianzhu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"1001902\",\r\n    \"Name\": \"暹罗娜迦血\"\r\n  }"
   rawIndex: 1001902
   splits:
@@ -3464,8 +3485,12 @@
     text: "天竺月食石"
     translated: "Lunar Eclipse Stone from the Moon Kingdom"
     qcReviewedText: "Lunar Eclipse Stone from the Moon Kingdom"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Lunar Eclipse Stone from Tianzhu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"6100113\",\r\n    \"Name\": \"爪哇金刚串\"\r\n  }"
   rawIndex: 6100113
   splits:
@@ -4086,8 +4111,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Two Great Divisions of Mount Dabie"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Two Parts of the Dabie Mountains"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "两分大别山"
@@ -6018,8 +6047,13 @@
     text: "山长说张旭"
     translated: "The mountain master said to Zhang Xu"
     qcReviewedText: "The mountain master said to Zhang Xu"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "The Mountain Master spoke of Zhang Xu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"2400500\",\r\n    \"Name\": \"常规全赌赢\"\r\n  }"
   rawIndex: 2400500
   splits:
@@ -7229,8 +7263,13 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-First, transmit the martial arts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-First, transmit the first martial art"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - Uncertain
   - splitPath: Name
     subIndex: 1
     text: "道先传武一"
@@ -7309,8 +7348,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Dao Pu Wushu Chapter Two"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Dao Pu Martial Arts Chapter Two"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "道朴传武二"
@@ -8205,8 +8248,14 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Mount Wu Zhu at the rear mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Rear Mountain Wuzhu Peak"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "后山武柱峰"
@@ -8318,8 +8367,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Tongming on Alchemy Formulas"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Tongming Theory of Pill Formulas"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "通明论丹诀"
@@ -10016,10 +10069,14 @@
   splits:
   - splitPath: Name
     text: "兑换风波叉"
-    translated: "Exchange Troubles Cross"
-    qcReviewedText: "Exchange Troubles Cross"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Exchange for the Fengbo Fork"
+    qcReviewedText: "Exchange for the Fengbo Fork"
+    qcTranslated: "Exchange for the Storm Fork"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"4800711\",\r\n    \"Name\": \"兑换收帆箭\"\r\n  }"
   rawIndex: 4800711
   splits:
@@ -11087,10 +11144,11 @@
   splits:
   - splitPath: Name
     text: "听闻永利当"
-    translated: "Heard that Yongli is the leader"
-    qcReviewedText: "Heard that Yongli is the leader"
+    translated: "Hearing of Yongli Pawnshop"
+    qcReviewedText: "Hearing of Yongli Pawnshop"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5691100\",\r\n    \"Name\": \"基-龙兴油酥糖\"\r\n  }"
   rawIndex: 5691100
   splits:
@@ -13319,10 +13377,11 @@
   splits:
   - splitPath: Name
     text: "当物飞虎玉"
-    translated: "When the object flies like a tiger jade"
-    qcReviewedText: "When the object flies like a tiger jade"
+    translated: "Pawn the Flying Tiger Jade"
+    qcReviewedText: "Pawn the Flying Tiger Jade"
     qcStatus: Passed
-    qcQualityScore: 85
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6903100\",\r\n    \"Name\": \"赎物飞景剑\"\r\n  }"
   rawIndex: 6903100
   splits:
@@ -14371,8 +14430,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Perform the martial arts practice for guaranteed progress."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base - Practice martial arts to guarantee minimum progress."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Name
     subIndex: 1
     text: "演武练保底"
@@ -15304,8 +15367,12 @@
     text: "基"
     translated: "Base"
     qcReviewedText: "Base-Visit Longzhoushan Mountain"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Base-Visit Longzhou Elbow Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "会理龙肘山"
@@ -15857,13 +15924,11 @@
   splits:
   - splitPath: Name
     text: "蛾眉出猿猴"
-    translated: "A monkey emerges from delicate eyebrows"
-    qcReviewedText: "A monkey emerges from delicate eyebrows"
+    translated: "Monkeys Emerge on Mount Emei"
+    qcReviewedText: "Monkeys Emerge on Mount Emei"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8450300\",\r\n    \"Name\": \"猿猴拜白猿\"\r\n  }"
   rawIndex: 8450300
   splits:

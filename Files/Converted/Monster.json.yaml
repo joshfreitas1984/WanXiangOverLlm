@@ -26,8 +26,14 @@
     text: "第二年小校"
     translated: "In the second year, Xiao Xiao grew up."
     qcReviewedText: "In the second year, Xiao Xiao grew up."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "In the second year, the minor school"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"10004\",\r\n    \"Name\": \"管中平\",\r\n    \"Desc\": \"第三年小校\",\r\n    \"NameTw\": \"管中平\",\r\n    \"DescTw\": \"第三年小校\"\r\n  }"
   rawIndex: 10004
   splits:
@@ -235,10 +241,14 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "怪客无法"
-    translated: "Guest cannot proceed"
-    qcReviewedText: "Guest cannot proceed"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Strange Visitor Wufa"
+    qcReviewedText: "Strange Visitor Wufa"
+    qcTranslated: "Strange Visitor Cannot"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"10018\",\r\n    \"Name\": \"谭培公\",\r\n    \"Desc\": \"天魔攻山\",\r\n    \"NameTw\": \"譚培公\",\r\n    \"DescTw\": \"天魔攻山\"\r\n  }"
   rawIndex: 10018
   splits:
@@ -370,10 +380,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "收服无法"
-    translated: "Dominate uncontrollable enemies"
-    qcReviewedText: "Dominate uncontrollable enemies"
+    translated: "Subdue Wufa"
+    qcReviewedText: "Subdue Wufa"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10027\",\r\n    \"Name\": \"木桑\",\r\n    \"Desc\": \"婆罗游僧\",\r\n    \"NameTw\": \"木桑\",\r\n    \"DescTw\": \"婆羅遊僧\"\r\n  }"
   rawIndex: 10027
   splits:
@@ -1200,7 +1211,8 @@
     translated: "Unintentional Cui Zhiwei"
     qcReviewedText: "Unintentional Cui Zhiwei"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10082\",\r\n    \"Name\": \"项开山\",\r\n    \"Desc\": \"无心项开山\",\r\n    \"NameTw\": \"項開山\",\r\n    \"DescTw\": \"無心項開山\"\r\n  }"
   rawIndex: 10082
   splits:
@@ -1259,8 +1271,13 @@
     text: "无心连山谷"
     translated: "Unintentionally in Lian Shangu Valley"
     qcReviewedText: "Unintentionally in Lian Shangu Valley"
-    qcStatus: Passed
+    qcTranslated: "Unintentionally in Lian Shangu"
+    qcStatus: Corrected
     flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"10086\",\r\n    \"Name\": \"蒋疠夫\",\r\n    \"Desc\": \"无心蒋疠夫\",\r\n    \"NameTw\": \"蔣癘夫\",\r\n    \"DescTw\": \"無心蔣癘夫\"\r\n  }"
   rawIndex: 10086
   splits:
@@ -3184,8 +3201,12 @@
     text: "艾琳娜七分"
     translated: "Elena seven parts"
     qcReviewedText: "Elena seven parts"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Elena seven-tenths"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"10213\",\r\n    \"Name\": \"艾琳娜\",\r\n    \"Desc\": \"艾琳娜五分\",\r\n    \"NameTw\": \"艾琳娜\",\r\n    \"DescTw\": \"艾琳娜五分\"\r\n  }"
   rawIndex: 10213
   splits:
@@ -3320,7 +3341,8 @@
     translated: "Yan Emei is five percent"
     qcReviewedText: "Yan Emei is five percent"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10222\",\r\n    \"Name\": \"晏蛾眉\",\r\n    \"Desc\": \"晏蛾眉三分\",\r\n    \"NameTw\": \"晏蛾眉\",\r\n    \"DescTw\": \"晏蛾眉三分\"\r\n  }"
   rawIndex: 10222
   splits:
@@ -3395,7 +3417,8 @@
     translated: "Shen Rongrong split three points"
     qcReviewedText: "Shen Rongrong split three points"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10227\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10227
   splits:

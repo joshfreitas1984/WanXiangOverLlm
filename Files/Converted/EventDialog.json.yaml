@@ -9042,8 +9042,13 @@
     text: "夜游神"
     translated: "Goddess of Night Wanderers"
     qcReviewedText: "Goddess of Night Wanderers"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Night Wandering Spirit"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DomainTerm
   - splitPath: Name
     text: "封行晦"
     translated: "Feng Xinghui"
@@ -12720,7 +12725,8 @@
     translated: "The art of preserving meats has a long-standing tradition dating back to the Han Dynasty. It got its name due to the ideal conditions for preservation during the month of January, when there is less rain and the air is dry. This practice is prevalent in many regions across China, such as Jingxiang, Lingnan, and Chuan Shu, among others. However, the methods of making these preserved meats vary significantly from place to place."
     qcReviewedText: "The art of preserving meats has a long-standing tradition dating back to the Han Dynasty. It got its name due to the ideal conditions for preservation during the month of January, when there is less rain and the air is dry. This practice is prevalent in many regions across China, such as Jingxiang, Lingnan, and Chuan Shu, among others. However, the methods of making these preserved meats vary significantly from place to place."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3456\",\r\n    \"Title\": \"大铁锅\",\r\n    \"Name\": \"褚百味\",\r\n    \"Desc\": \"今天我给做一道咱们荆湘本土的腊味合蒸尝尝，这菜的做法最是简单，将风干腌渍好的腊味切好，佐上一些葱、姜、黄酒上锅合蒸，一炷香的时间就可完成......\",\r\n    \"TitleTw\": \"大鐵鍋\",\r\n    \"NameTw\": \"褚百味\",\r\n    \"DescTw\": \"今天我給做一道咱們荊湘本土的臘味合蒸嚐嚐，這菜的做法最是簡單，將風乾醃漬好的臘味切好，佐上一些蔥、姜、黃酒上鍋合蒸，一炷香的時間就可完成......\"\r\n  }"
   rawIndex: 3456
   splits:
@@ -13965,8 +13971,13 @@
     text: "白矢、参连、剡注、襄尺、井仪，此五者名为“五射”。"
     translated: "Ba Shi, Can Lian, Yan Zhuo, Xiang Chi, Jing Yi, these five are known as the “Five Accuracies”."
     qcReviewedText: "Ba Shi, Can Lian, Yan Zhuo, Xiang Chi, Jing Yi, these five are known as the “Five Accuracies”."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Bai Shi, San Lian, Shan Zhu, Xiang Chi, Jing Yi, these five are known as the Five Arrows."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"3724\",\r\n    \"Title\": \"三湘君子\",\r\n    \"Name\": \"长孙诚\",\r\n    \"Desc\": \"何又为“五御”？\",\r\n    \"TitleTw\": \"三湘君子\",\r\n    \"NameTw\": \"長孫誠\",\r\n    \"DescTw\": \"何又為“五御”？\"\r\n  }"
   rawIndex: 3724
   splits:
@@ -14573,12 +14584,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14617,12 +14627,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14641,12 +14650,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14708,12 +14716,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14732,12 +14739,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14776,12 +14782,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14820,12 +14825,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14843,12 +14847,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14866,12 +14869,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14889,12 +14891,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14912,12 +14913,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14935,12 +14935,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14958,12 +14957,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -14981,12 +14979,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15004,12 +15001,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15042,12 +15038,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15065,12 +15060,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15088,12 +15082,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15126,12 +15119,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15164,12 +15156,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15187,12 +15178,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15210,12 +15200,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15233,12 +15222,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15256,12 +15244,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15279,12 +15266,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15302,12 +15288,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15325,12 +15310,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15349,12 +15333,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15372,12 +15355,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15395,12 +15377,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15433,12 +15414,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15457,12 +15437,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15495,12 +15474,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15548,12 +15526,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15587,12 +15564,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15610,12 +15586,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15634,12 +15609,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15657,12 +15631,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15680,12 +15653,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15704,12 +15676,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15727,12 +15698,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15750,12 +15720,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15773,12 +15742,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15796,12 +15764,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -15820,12 +15787,11 @@
   splits:
   - splitPath: Title
     text: "火树银花"
-    translated: "Fiery tree silver flowers"
-    qcReviewedText: "Fiery tree silver flowers"
-    qcTranslated: "Fireworks"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    translated: "Fireworks"
+    qcReviewedText: "Fireworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     text: "花炮李"
     translated: "Huapao Li"
@@ -16540,8 +16506,12 @@
     text: "苗疆拜月寨，最是与众不同，秉承历代所传秘法，可以御使蛊虫治病疗伤。"
     translated: "Miaojiang Baimozhai stands out uniquely, adhering to ancient secret methods passed down through generations, allowing the manipulation of insectiles for healing and treatment."
     qcReviewedText: "Miaojiang Baimozhai stands out uniquely, adhering to ancient secret methods passed down through generations, allowing the manipulation of insectiles for healing and treatment."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Miaojiang Baimozhai stands out uniquely, adhering to ancient secret methods passed down through generations, allowing the manipulation of gu insects for healing and treatment."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"4128\",\r\n    \"Title\": \"白头翁\",\r\n    \"Name\": \"闻苍术\",\r\n    \"Desc\": \"此外还有巴蜀青羊观，雍凉崆峒派等等，亦有前人之医术传承。\",\r\n    \"TitleTw\": \"白頭翁\",\r\n    \"NameTw\": \"聞蒼朮\",\r\n    \"DescTw\": \"此外還有巴蜀青羊觀，雍涼崆峒派等等，亦有前人之醫術傳承。\"\r\n  }"
   rawIndex: 4128
   splits:
@@ -24889,10 +24859,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "虎鬬龙争势若何，百年豪杰苦无多。"
-    translated: "Tigers fight dragons; their struggle rages on. Few heroes have endured through a century of strife."
-    qcReviewedText: "Tigers fight dragons; their struggle rages on. Few heroes have endured through a century of strife."
+    translated: "Tiger and dragon contend, how will it end? Heroes of a hundred years are sadly few."
+    qcReviewedText: "Tiger and dragon contend, how will it end? Heroes of a hundred years are sadly few."
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"5351\",\r\n    \"Title\": \"浪里渔翁\",\r\n    \"Name\": \"江化渚\",\r\n    \"Desc\": \"飒飒西风渭水，萧萧落叶长安。\",\r\n    \"TitleTw\": \"浪裡漁翁\",\r\n    \"NameTw\": \"江化渚\",\r\n    \"DescTw\": \"颯颯西風渭水，蕭蕭落葉長安。\"\r\n  }"
   rawIndex: 5351
   splits:
@@ -32058,10 +32029,13 @@
     text: "其此行径太过狠辣，已经不为正道所容，而后萧谈圣便加入天魔教“魔君”、“魔侯”麾下，成为了天魔教“乱世八魔”之一的“白玉魔”。"
     translated: "His actions were too ruthless and no longer tolerated by the righteous path. Consequently, Xiang Tansheng joined the Heavenly Demon Sect “Despot Lord”, under “Demon Lord”'s banner, and became one of the “Era of the Eight Evils” within the Heavenly Demon Sect “White Jade Demon”."
     qcReviewedText: "His actions were too ruthless and no longer tolerated by the righteous path. Consequently, Xiang Tansheng joined the Heavenly Demon Sect “Despot Lord”, under “Demon Lord”'s banner, and became one of the “Era of the Eight Evils” within the Heavenly Demon Sect “White Jade Demon”."
-    qcTranslated: "His actions were too ruthless and no longer tolerated by the righteous path. Consequently, Xiang Tansheng joined the Heavenly Demon Sect under the banner of the “Demon Lord” and “Demon Marquis,” becoming the “White Jade Demon,” one of the “Eight Demons of Turbulent Times” in the Heavenly Demon Sect."
+    qcTranslated: "His actions were too ruthless and no longer tolerated by the righteous path. Consequently, Xiang Tansheng joined the Heavenly Demon Sect under the banner of the Despot Lord and Demon Lord, becoming one of the Eight Demons of Turbulent Times in the Heavenly Demon Sect, known as the White Jade Demon."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - HardToParseSeam
 - raw: "{\r\n    \"Key\": \"6427\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"柯师兄，我有个问题。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"柯師兄，我有個問題。\"\r\n  }"
   rawIndex: 6427
   splits:
@@ -39377,10 +39351,9 @@
     text: "所谓时乖运拙走不着，急忙过河拆了桥，恩人无义反为怨，凡事无功枉受劳。"
     translated: "When one's luck turns bad and fortune fails to hold, rushing across the river leaves the bridge behind. A benefactor becomes an enemy when expectations are not met, and all efforts end in vain without success."
     qcReviewedText: "When one's luck turns bad and fortune fails to hold, rushing across the river leaves the bridge behind. A benefactor becomes an enemy when expectations are not met, and all efforts end in vain without success."
-    qcTranslated: "When times are ill-fated and luck runs dry, one hastily crosses the river and breaks the bridge; a benefactor turns ungrateful into resentment, and all endeavors yield no merit, suffering labor in vain."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10678\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"这是何意？\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"這是何意？\"\r\n  }"
   rawIndex: 10678
   splits:
@@ -42030,10 +42003,9 @@
     text: "可不是么，我媳妇娘家叔伯兄弟的外甥，就是咱们县的药房当学徒，昨儿半夜，亲眼看见他们掌柜的带着伙计去湘南采购上品蛇胆去了。"
     translated: "Isn't that right? My wife's cousin, her uncle's brother or aunt's nephew, works as an apprentice in our county's pharmacy. Last night around midnight, he personally witnessed the shopkeeper and his assistants going to Xiangnan to procure high-quality snake gallbladders."
     qcReviewedText: "Isn't that right? My wife's cousin, her uncle's brother or aunt's nephew, works as an apprentice in our county's pharmacy. Last night around midnight, he personally witnessed the shopkeeper and his assistants going to Xiangnan to procure high-quality snake gallbladders."
-    qcTranslated: "Isn't that right? The nephew of my wife's uncle or brother from her family works as an apprentice in our county's pharmacy. Last night around midnight, he personally witnessed the Shopkeeper and his assistants going to Xiangnan to procure high-quality Snake Gallbladders."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"13005\",\r\n    \"Name\": \"百姓乙\",\r\n    \"Desc\": \"好像是卢员外得了一种怪病，双腿一夜之间就不能动了，正好他有一位酒友来府里做客，听说还是个有名的郎中，说是不用让他受针灸砭石之苦，只需要喝酒就能把他这病治好，现在还缺上品的蛇胆和虎骨作药引。\",\r\n    \"NameTw\": \"百姓乙\",\r\n    \"DescTw\": \"好像是盧員外得了一種怪病，雙腿一夜之間就不能動了，正好他有一位酒友來府裡做客，聽說還是個有名的郎中，說是不用讓他受鍼灸砭石之苦，只需要喝酒就能把他這病治好，現在還缺上品的蛇膽和虎骨作藥引。\"\r\n  }"
   rawIndex: 13005
   splits:
@@ -54163,8 +54135,12 @@
     text: "药用之艾叶以蕲艾为佳，今日见此倒是不虚此行......"
     translated: "Ampelodesmos, known as Qiai, is considered the best for medicinal use. Seeing this today has indeed made my trip worthwhile...."
     qcReviewedText: "Ampelodesmos, known as Qiai, is considered the best for medicinal use. Seeing this today has indeed made my trip worthwhile...."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Mugwort leaves are considered the best for medicinal use, with Qi mugwort being the finest. Seeing this today has indeed made my trip worthwhile...."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"29103\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"黄鹤楼初建于三国黄武年间，历经数代，几经修缮，多有文人墨客在此题诗留词，其中首推崔司勋那首令太白搁笔的《黄鹤楼》......\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"黃鶴樓初建於三國黃武年間，歷經數代，幾經修繕，多有文人墨客在此題詩留詞，其中首推崔司勳那首令太白擱筆的《黃鶴樓》......\"\r\n  }"
   rawIndex: 29103
   splits:
@@ -71005,8 +70981,12 @@
     text: "东庐先生，蛾眉这些年在外受了不少委屈，但这些委屈，不也是拜先生所赐吗！"
     translated: "Mr. Donglu, Sister Mei has endured a lot of hardships these years outside, but aren't these troubles also thanks to your teachings?"
     qcReviewedText: "Mr. Donglu, Sister Mei has endured a lot of hardships these years outside, but aren't these troubles also thanks to your teachings?"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Mr. Donglu, Emei has endured a lot of hardships these years outside, but aren't these troubles also thanks to your teachings?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"40547\",\r\n    \"Title\": \"东庐先生\",\r\n    \"Name\": \"魏元康\",\r\n    \"Desc\": \"你这是什么意思！\",\r\n    \"TitleTw\": \"東廬先生\",\r\n    \"NameTw\": \"魏元康\",\r\n    \"DescTw\": \"你這是什麼意思！\"\r\n  }"
   rawIndex: 40547
   splits:
@@ -72568,7 +72548,8 @@
     translated: "Nowadays, the most renowned works include 《The Classic of the Yellow Court》, 《On Ye Yi》, 《Letter on Fast Snow and Fair Weather》, 《Seventeen Letters》, 《First Month Decree》, and 《Preface to the Orchid Pavilion Gathering》."
     qcReviewedText: "Nowadays, the most renowned works include 《The Classic of the Yellow Court》, 《On Ye Yi》, 《Letter on Fast Snow and Fair Weather》, 《Seventeen Letters》, 《First Month Decree》, and 《Preface to the Orchid Pavilion Gathering》."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"40666\",\r\n    \"Title\": \"麓山居士\",\r\n    \"Name\": \"荀师道\",\r\n    \"Desc\": \"颜真卿，生于唐，字清臣，小名羡门子，别号应方，京兆万年人，唐代宗时官至吏部尚书、太子太师，封鲁郡公，故而人称“颜鲁公”。\",\r\n    \"TitleTw\": \"麓山居士\",\r\n    \"NameTw\": \"荀師道\",\r\n    \"DescTw\": \"顏真卿，生於唐，字清臣，小名羨門子，別號應方，京兆萬年人，唐代宗時官至吏部尚書、太子太師，封魯郡公，故而人稱“顏魯公”。\"\r\n  }"
   rawIndex: 40666
   splits:
@@ -79059,7 +79040,8 @@
     translated: "The Yan Wang Ledger of Big Master has been renowned throughout the Jianghu for decades, so we dare not claim to be seniors."
     qcReviewedText: "The Yan Wang Ledger of Big Master has been renowned throughout the Jianghu for decades, so we dare not claim to be seniors."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"42352\",\r\n    \"Title\": \"培松道长\",\r\n    \"Name\": \"杜清风\",\r\n    \"Desc\": \"哈哈哈，你家老爷子这些年烟抽得，酒喝得，骰子耍得，偏就正事办不得，可不像是当年的唐德喽......不过大先生能来，确是更好，“阎王账”的名头，老道我在川蜀可以久闻了。\",\r\n    \"TitleTw\": \"培鬆道長\",\r\n    \"NameTw\": \"杜清風\",\r\n    \"DescTw\": \"哈哈哈，你家老爺子這些年煙抽得，酒喝得，骰子耍得，偏就正事辦不得，可不像是當年的唐德嘍......不過大先生能來，確是更好，“閻王賬”的名頭，老道我在川蜀可以久聞了。\"\r\n  }"
   rawIndex: 42352
   splits:
@@ -79208,7 +79190,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "阿弥陀佛，清风道兄，多年未见，依然如此风趣。"
     translated: "Amituofo, Clear Breeze Dao Brother, it's been many years, and you're still as witty."
@@ -79250,7 +79233,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "阿弥陀佛，钟离先生之名，贫僧虽于禅寺，也常有耳闻。“声威八百里，万姓仰太平”，好气魄，好心胸。"
     translated: "Amituofo. The name of Master Zhongli is something I often hear even in the seclusion of my temple. Revered Peace for Eight Hundred Li, Ten Thousand People Look Up in Admiration, fine bearing, fine spirit."
@@ -79556,7 +79540,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "贫僧……"
     translated: "Poor monk......"
@@ -79599,7 +79584,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "阿弥陀佛，好吧，娄道兄与吕道兄说得皆有道理，温残阳诡计百出，我等也不可自堕士气。"
     translated: "Amituofo, well, Brother Dao Liu and Brother Dao Lu both make valid points. Wen Canyang is indeed cunning, and we shouldn't let his tricks undermine our morale."
@@ -79620,7 +79606,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "此番入谷，老衲有三令需与诸位共守，一令同进共退，各派弟子须相互照应，切莫孤身涉险，二令眼明心警，魔徒惯于暗处施袭，须臾不可松懈，三令赤诚相待，魔徒最善播弄是非、离间人心，各派当以诚相见，万勿生疑。诸位可有意见？"
     translated: "This time entering the valley, I have three commands to share with all of you: first, act together in unity, with each sect's disciples looking out for one another; do not venture into danger alone. Second, be vigilant and alert; evil practitioners often strike from the shadows, so never let your guard down. Third, treat each other with sincerity; evil practitioners excel at sowing discord, so all sects should meet with honesty and not harbor suspicions. Do any of you have objections?"
@@ -79662,7 +79649,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "好，诸位，既如此，我等便一同进谷。"
     translated: "All right, everyone, let's proceed into the valley together."
@@ -79812,7 +79800,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "各位，先护着众弟子撤出谷去，再做商议。"
     translated: "Everyone, first ensure that all disciples evacuate the valley, then we can discuss further."
@@ -79914,7 +79903,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "快，先撤出去，掩护弟子！"
     translated: "Hurry, retreat first and cover your disciple!"
@@ -80038,7 +80028,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "若一日、若二日……若七日，一心不乱……阿弥陀佛与诸圣众，现在其前……即得往生阿弥陀佛极乐国土。"
     translated: "If one day, if two days......if seven days, with a single-minded and undistracted mind......Amituofo and the holy assembly will appear before you......and you will immediately be reborn in Amituofo's Pure Land."
@@ -80147,7 +80138,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "阿弥陀佛，也只有如此了。今日之事，皆怨老衲思虑不周，带领诸位陷此险境，回山后老衲自当面壁不出，反思己过。"
     translated: "Amituofo, there is no other way. For today's events, all blame falls on the old monk for not considering things thoroughly enough, leading all of you into this perilous situation. Upon returning to the mountain, the old monk shall withdraw to meditate and reflect on his faults."
@@ -80235,7 +80227,8 @@
     translated: "Liaoen"
     qcReviewedText: "Liaoen"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "阿弥陀佛……"
     translated: "Amituofo......"
@@ -92241,8 +92234,12 @@
     text: "无根树，花正飞，卸了重开有定期。铅花乱，癸尽时，依旧西园花满枝。对月才经收拾去，又向朝阳补纳衣。这玄机，世罕知，须共神仙仔细推。"
     translated: "Rootless Tree, blossoms are flying, shedding and re-opening with regularity. Lead blooms in chaos, when Ji is exhausted, flowers still fill the western garden branches. After the moon has been tended to, one must add to the morning sun to mend clothes. This profound truth, seldom known by the world, must be carefully examined with the help of immortals."
     qcReviewedText: "Rootless Tree, blossoms are flying, shedding and re-opening with regularity. Lead blooms in chaos, when Ji is exhausted, flowers still fill the western garden branches. After the moon has been tended to, one must add to the morning sun to mend clothes. This profound truth, seldom known by the world, must be carefully examined with the help of immortals."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Rootless Tree, blossoms are flying, shedding and re-opening with regularity. Lead blooms in chaos, when Ji is exhausted, flowers still fill the western garden branches. Only after tending to the moon does one go to mend clothes under the morning sun. This profound truth, seldom known by the world, must be carefully examined with the help of immortals."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "{\r\n    \"Key\": \"52028\",\r\n    \"Title\": \"万藏归一\",\r\n    \"Name\": \"张道一\",\r\n    \"Desc\": \"今日便为你传讲这两篇，你且听好......\",\r\n    \"TitleTw\": \"萬藏歸一\",\r\n    \"NameTw\": \"張道一\",\r\n    \"DescTw\": \"今日便為你傳講這兩篇，你且聽好......\"\r\n  }"
   rawIndex: 52028
   splits:
@@ -92346,8 +92343,12 @@
     text: "无根树，花正亨，说到无根却有根。三才窍，二五精，天地交时万物生。日月交时寒暑顺，男女交时孕始成。甚分明，说与君，犹恐相逢认不真。"
     translated: "Rootless Tree, Hu Zhengheng, speaking of rootlessness yet there is a root. Three Talents Vortex, Two and Five Essences, when Heaven and Earth intersect, all things come to life. When sun and moon intersect, cold and heat follow their natural course; when male and female unite, pregnancy begins. Very clear, tell you this, still afraid that you might not recognize it in real life."
     qcReviewedText: "Rootless Tree, Hu Zhengheng, speaking of rootlessness yet there is a root. Three Talents Vortex, Two and Five Essences, when Heaven and Earth intersect, all things come to life. When sun and moon intersect, cold and heat follow their natural course; when male and female unite, pregnancy begins. Very clear, tell you this, still afraid that you might not recognize it in real life."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Rootless Tree, the flowers are in full bloom, speaking of rootlessness yet there is a root. Three Talents Vortex, Two and Five Essences, when Heaven and Earth intersect, all things come to life. When sun and moon intersect, cold and heat follow their natural course; when male and female unite, pregnancy begins. Very clear, tell you this, still afraid that you might not recognize it in real life."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"52037\",\r\n    \"Title\": \"万藏归一\",\r\n    \"Name\": \"张道一\",\r\n    \"Desc\": \"无根树，花正佳，对景忘情玩月华。全精旺，耀眼花，莫在园中错拣瓜。五金八石皆为假，万草千方总是差。金蛤蟆，玉老鸦，认得真时是作家。\",\r\n    \"TitleTw\": \"萬藏歸一\",\r\n    \"NameTw\": \"張道一\",\r\n    \"DescTw\": \"無根樹，花正佳，對景忘情玩月華。全精旺，耀眼花，莫在園中錯揀瓜。五金八石皆為假，萬草千方總是差。金蛤蟆，玉老鴉，認得真時是作家。\"\r\n  }"
   rawIndex: 52037
   splits:
@@ -92367,8 +92368,12 @@
     text: "无根树，花正佳，对景忘情玩月华。全精旺，耀眼花，莫在园中错拣瓜。五金八石皆为假，万草千方总是差。金蛤蟆，玉老鸦，认得真时是作家。"
     translated: "Rootless Tree, blooms in full splendor; admiring the scene, one forgets time and plays under the moonlight. At full vigor, the dazzling flowers shine; do not mistake the melons in the garden. Gold and eight stones are all fake, myriad herbs and formulas are mostly incorrect. Golden toad, jade old crow; recognizing the truth is to be the master."
     qcReviewedText: "Rootless Tree, blooms in full splendor; admiring the scene, one forgets time and plays under the moonlight. At full vigor, the dazzling flowers shine; do not mistake the melons in the garden. Gold and eight stones are all fake, myriad herbs and formulas are mostly incorrect. Golden toad, jade old crow; recognizing the truth is to be the master."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Rootless Tree, flowers in full bloom; gazing at the scene, one forgets emotion and plays with the moon's radiance. Essence complete and vigorous, dazzling flowers; do not mistakenly pick melons in the garden. The five metals and eight stones are all false, myriad herbs and thousand formulas are always flawed. Golden toad, jade old crow; recognizing the truth is to be a true master."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"52038\",\r\n    \"Title\": \"万藏归一\",\r\n    \"Name\": \"张道一\",\r\n    \"Desc\": \"今日便为你传讲这两篇，你且听好......\",\r\n    \"TitleTw\": \"萬藏歸一\",\r\n    \"NameTw\": \"張道一\",\r\n    \"DescTw\": \"今日便為你傳講這兩篇，你且聽好......\"\r\n  }"
   rawIndex: 52038
   splits:
@@ -93025,7 +93030,8 @@
     translated: "Primordial Essence, simple and dim. In its essence, it is unmarked; in the beginning, it has no name. With the breaking of chaos, Great Primordial Emerges. Two principles unite in harmony, as sunlight and moonlight alternate. Heaven interacts with Earth to transform, as Earth seeks to fulfill from Heaven. Different names arise from a single origin, one root shared by all. Inside and outside, form and void, hard and soft are balanced equally."
     qcReviewedText: "Primordial Essence, simple and dim. In its essence, it is unmarked; in the beginning, it has no name. With the breaking of chaos, Great Primordial Emerges. Two principles unite in harmony, as sunlight and moonlight alternate. Heaven interacts with Earth to transform, as Earth seeks to fulfill from Heaven. Different names arise from a single origin, one root shared by all. Inside and outside, form and void, hard and soft are balanced equally."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"52092\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"这笔锋所落之处，总觉得似乎欠缺一些什么......\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"這筆鋒所落之處，總覺得似乎欠缺一些什麼......\"\r\n  }"
   rawIndex: 52092
   splits:
@@ -99942,7 +99948,8 @@
     translated: "《Three Officials Scripture》、《Northern Dipper Technique》、《Initial Truth Sutra》、《Ten Precepts Sutra》、《The True Classic of Profound Mystery》......"
     qcReviewedText: "《Three Officials Scripture》、《Northern Dipper Technique》、《Initial Truth Sutra》、《Ten Precepts Sutra》、《The True Classic of Profound Mystery》......"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"55414\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"《中极经》、《内观经》、《胎息经》、《血手经》、《玉枢宝经》......《血手经》？\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"《中極經》、《內觀經》、《胎息經》、《血手經》、《玉樞寶經》......《血手經》？\"\r\n  }"
   rawIndex: 55414
   splits:
@@ -103598,8 +103605,12 @@
     text: "修炼此技，当先分辨前后三关穴窍，心源性海之窍、黄中正位之窍、关元气海之窍为前三关，以尾闾太玄之窍、夹脊双关之窍、天谷泥丸之窍为后三关......"
     translated: "To master this technique, one must first discern the Front Three Gates and the Rear Three Gates. The Front Three Gates are the Heart Source Sea acupoint, the Yellow Center Correct Position acupoint, and the Gate of Vitality acupoint. The Rear Three Gates are the Tail Vertex Tai Xuan acupoint, the Dual Channels between the Spine acupoint, and the Heavenly Valley and Mud Gorge acupoint...."
     qcReviewedText: "To master this technique, one must first discern the Front Three Gates and the Rear Three Gates. The Front Three Gates are the Heart Source Sea acupoint, the Yellow Center Correct Position acupoint, and the Gate of Vitality acupoint. The Rear Three Gates are the Tail Vertex Tai Xuan acupoint, the Dual Channels between the Spine acupoint, and the Heavenly Valley and Mud Gorge acupoint...."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "To master this technique, one must first discern the Front Three Passes and the Rear Three Passes. The Front Three Passes are the Heart Source Sea acupoint, the Yellow Center Correct Position acupoint, and the Gate of Vitality acupoint. The Rear Three Passes are the Tail Vertex Tai Xuan acupoint, the Dual Channels between the Spine acupoint, and the Heavenly Valley and Mud Gorge acupoint...."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"55851\",\r\n    \"Title\": \"天元坐照\",\r\n    \"Name\": \"邱道衍\",\r\n    \"Desc\": \"今日早课由我来负责，玄通，玄真，带领弟子对练......\",\r\n    \"TitleTw\": \"天元坐照\",\r\n    \"NameTw\": \"邱道衍\",\r\n    \"DescTw\": \"今日早課由我來負責，玄通，玄真，帶領弟子對練......\"\r\n  }"
   rawIndex: 55851
   splits:
@@ -109595,10 +109606,13 @@
     text: "邱道长，庄道长疗伤所需之药方便在此中，每日煎服，一个月后便可痊愈，也不会落下病根。"
     translated: "Master Qiu and Master Zhuang have prepared the medicine needed for your recovery. You should take it daily by boiling it first. After a month, you will be fully healed without any lingering effects."
     qcReviewedText: "Master Qiu and Master Zhuang have prepared the medicine needed for your recovery. You should take it daily by boiling it first. After a month, you will be fully healed without any lingering effects."
-    qcTranslated: "Daoist Qiu, the medicine needed for Daoist Zhuang's recovery is here. Boil and take it daily; after one Month, you will be fully healed without any lingering effects."
+    qcTranslated: "Daoist Qiu, the medicine needed for Daoist Zhuang's recovery is here. Take it daily by boiling it first. After a month, he will be fully healed without any lingering effects."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"56411\",\r\n    \"Title\": \"天元坐照\",\r\n    \"Name\": \"邱道衍\",\r\n    \"Desc\": \"好，多谢小兄弟了，这次武当一劫也是多亏了小兄弟出手相助，宁王狼子野心，江湖百姓皆受涂炭，我武当虽是方外之人也不能再坐视不理。小兄弟他日有需，我武当派定然全力相助。\",\r\n    \"TitleTw\": \"天元坐照\",\r\n    \"NameTw\": \"邱道衍\",\r\n    \"DescTw\": \"好，多謝小兄弟了，這次武當一劫也是多虧了小兄弟出手相助，寧王狼子野心，江湖百姓皆受塗炭，我武當雖是方外之人也不能再坐視不理。小兄弟他日有需，我武當派定然全力相助。\"\r\n  }"
   rawIndex: 56411
   splits:
@@ -114067,7 +114081,8 @@
     translated: "Trainer Senior Brother still maintains such a witty sense of humor. If your old friend Elder Tanlin were to hear this, one can only wonder how he would feel."
     qcReviewedText: "Trainer Senior Brother still maintains such a witty sense of humor. If your old friend Elder Tanlin were to hear this, one can only wonder how he would feel."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"57814\",\r\n    \"Title\": \"培松道长\",\r\n    \"Name\": \"杜清风\",\r\n    \"Desc\": \"那老和尚修禅修的气性全无，莫说我如此说，就是当面说他十个老秃驴，他也不过一句“善哉善哉”。对了，司师弟，上次丹会缘何未至啊。\",\r\n    \"TitleTw\": \"培鬆道長\",\r\n    \"NameTw\": \"杜清風\",\r\n    \"DescTw\": \"那老和尚修禪修的氣性全無，莫說我如此說，就是當面說他十個老禿驢，他也不過一句“善哉善哉”。對了，司師弟，上次丹會緣何未至啊。\"\r\n  }"
   rawIndex: 57814
   splits:
@@ -115120,8 +115135,12 @@
     text: "夺天地一点真阳，采日月二轮之气，行真水于铅炉，运真火于汞鼎，以铅见汞，名曰华池；以汞入铅，名曰神水。"
     translated: "Extract the true yang from heaven and earth, gather the essence of the sun and moon, conduct genuine water in the lead furnace, and circulate genuine fire in the mercury tripod. When lead meets mercury, it is called Huacui; when mercury enters lead, it is named Shenshui."
     qcReviewedText: "Extract the true yang from heaven and earth, gather the essence of the sun and moon, conduct genuine water in the lead furnace, and circulate genuine fire in the mercury tripod. When lead meets mercury, it is called Huacui; when mercury enters lead, it is named Shenshui."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Extract the true yang from heaven and earth, gather the essence of the sun and moon, conduct genuine water in the lead furnace, and circulate genuine fire in the mercury tripod. When lead meets mercury, it is called Huachi; when mercury enters lead, it is named Shenshui."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"57910\",\r\n    \"Title\": \"九转丹痴\",\r\n    \"Name\": \"姜道灵\",\r\n    \"Desc\": \"不可执于无为，不可形于有作，不可泥于存想，不可着于持守，不可枯坐灰心，不可盲修瞎炼。惟恐不识药材出处，又恐不知火候法度。要须知夫身中一窍，名曰玄牝。\",\r\n    \"TitleTw\": \"九轉丹痴\",\r\n    \"NameTw\": \"姜道靈\",\r\n    \"DescTw\": \"不可執於無為，不可形於有作，不可泥於存想，不可著於持守，不可枯坐灰心，不可盲修瞎煉。惟恐不識藥材出處，又恐不知火候法度。要須知夫身中一竅，名曰玄牝。\"\r\n  }"
   rawIndex: 57910
   splits:
@@ -116446,8 +116465,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     text: "柳含烟"
     translated: "Liu Hanyan"
@@ -118007,8 +118030,12 @@
     text: "宫岛剑豪"
     translated: "Swordmaster Gong Daojie"
     qcReviewedText: "Swordmaster Gong Daojie"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Swordmaster Gongdao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     text: "斋藤归藏"
     translated: "Saito Kizo"
@@ -124169,10 +124196,12 @@
     text: "哈哈"
     translated: "Ha ha"
     qcReviewedText: "Ha ha~Second Young Lord Xiao is indeed loyal. Very well, since I can't bear to see brothers turn on each other, let him watch here while I deal with them for you.~"
-    qcTranslated: "Ha ha~ Second Young Lord Xiao is indeed loyal. Very well, who am I to be so kind? I can't bear to see brothers turn on each other. Second Young Lord Xiao, just watch from here while I deal with them for you.~"
+    qcTranslated: "Ha ha~ Second Young Lord Xiao is indeed loyal. Very well, since I am kind-hearted and can't bear to see brothers turn on each other, you just watch here while I deal with them for you.~"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: Desc
     subIndex: 1
     text: "萧二公子果然忠心，也罢，谁让咱家心善呢，见不得手足相残，萧二公子在这看着就好，他们便由咱家替你料理了"
@@ -124865,7 +124894,8 @@
     translated: "To be able to come here, I studied the language and script of Zhongshan for years under an Eastern scholar. How about that? I don't do too badly, do I?"
     qcReviewedText: "To be able to come here, I studied the language and script of Zhongshan for years under an Eastern scholar. How about that? I don't do too badly, do I?~"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "{0}~"
@@ -125148,7 +125178,8 @@
     translated: "East Peak Tai Mountain towers over Shandong and Qi, South Peak Heng Mountain stands out in Jing and Xiang, West Peak Huashan commands the Guanzhong region, North Peak Hengshan is unique to Yan and Zhao, and Central Peak Songshan is profound in Central Plain."
     qcReviewedText: "East Peak Tai Mountain towers over Shandong and Qi, South Peak Heng Mountain stands out in Jing and Xiang, West Peak Huashan commands the Guanzhong region, North Peak Hengshan is unique to Yan and Zhao, and Central Peak Songshan is profound in Central Plain."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"59724\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"五岳虽然巍峨恢弘，但却也不是神州的全部，除此五岳之外，还有青城、峨眉、雁荡、王屋、太行、龙虎、终南等等，天下名山数以百计。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"五嶽雖然巍峨恢弘，但卻也不是神州的全部，除此五嶽之外，還有青城、峨眉、雁蕩、王屋、太行、龍虎、終南等等，天下名山數以百計。\"\r\n  }"
   rawIndex: 59724
   splits:
@@ -136151,8 +136182,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     text: "柳含烟"
     translated: "Liu Hanyan"
@@ -142204,11 +142239,11 @@
   splits:
   - splitPath: Desc
     text: "鸟居翔太手中的苦无向着风间爱咽喉处射出，已经被追赶的精疲力竭的风间爱绝望的闭上了眼睛，但这一枚本可射杀风间爱的苦无，被突然闯入两人中心的你击飞了。"
-    translated: "Birdige Shotaro's shuriken was aimed at Kazama Ai's throat. Exhausted from the relentless pursuit, Kazama Ai despaired and closed his eyes. However, this shuriken, which could have killed Kazama Ai, was knocked away by you, who suddenly appeared between the two of them."
-    qcReviewedText: "Birdige Shotaro's shuriken was aimed at Kazama Ai's throat. Exhausted from the relentless pursuit, Kazama Ai despaired and closed his eyes. However, this shuriken, which could have killed Kazama Ai, was knocked away by you, who suddenly appeared between the two of them."
-    qcTranslated: "Torii Shota's kunai shot toward Kazama Ai's throat. Exhausted from the relentless pursuit, Kazama Ai closed his eyes in despair. But this kunai, which could have killed Kazama Ai, was knocked away by you, who suddenly appeared between the two of them."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Shota Toriuchi's kunai flew towards Kazama Ai's throat. Already exhausted from being pursued, Kazama Ai closed her eyes in despair, but the kunai that could have killed her was deflected by you as you suddenly intervened between them."
+    qcReviewedText: "Shota Toriuchi's kunai flew towards Kazama Ai's throat. Already exhausted from being pursued, Kazama Ai closed her eyes in despair, but the kunai that could have killed her was deflected by you as you suddenly intervened between them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"65310\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"唉，本不应该管你们的闲事，谁让我还是心软呢！\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"唉，本不應該管你們的閒事，誰讓我還是心軟呢！\"\r\n  }"
   rawIndex: 65310
   splits:
@@ -143490,8 +143525,8 @@
   splits:
   - splitPath: Desc
     text: "你在树林间赶路之时，忽然数十个苦无向你飞射而来！伴随苦无之后紧随而来的是一个戴着面具的女忍者！"
-    translated: "As you hurried through the woods, dozens of shurikens suddenly flew toward you! Right behind the shurikens came a Female Ninja wearing a mask!"
-    qcReviewedText: "As you hurried through the woods, dozens of shurikens suddenly flew toward you! Right behind the shurikens came a Female Ninja wearing a mask!"
+    translated: "While traveling through the woods, suddenly dozens of kunai flew towards you! Following the kunai was a masked female ninja!"
+    qcReviewedText: "While traveling through the woods, suddenly dozens of kunai flew towards you! Following the kunai was a masked female ninja!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -145000,8 +145035,13 @@
     text: "结巴山贼"
     translated: "Stammering Bandit from Jabberwock Mountain"
     qcReviewedText: "Stammering Bandit from Jabberwock Mountain"
-    qcStatus: Passed
+    qcTranslated: "Stammering Bandit"
+    qcStatus: Corrected
     flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     text: "谢...谢...谢...谢过好心的少侠，您...您...您...您救了命了"
     translated: "T-thank... thank... thank you... thank you... kind Young Hero, y-you... you... you saved my life."
@@ -145787,7 +145827,8 @@
     translated: "The Jianfa of Guanchao Sword Technique starts with stillness to move into action. It observes the grand and continuous surge of the Qiantang River tide. By harnessing this momentum, it transforms into a wave-like torrent of sword intent, never-ending and surging. If you have the chance to personally visit Wuyue's Qiantang, perhaps you will gain a deeper understanding and appreciation of its essence."
     qcReviewedText: "The Jianfa of Guanchao Sword Technique starts with stillness to move into action. It observes the grand and continuous surge of the Qiantang River tide. By harnessing this momentum, it transforms into a wave-like torrent of sword intent, never-ending and surging. If you have the chance to personally visit Wuyue's Qiantang, perhaps you will gain a deeper understanding and appreciation of its essence."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"65693\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"是，多谢前辈授艺！\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"是，多謝前輩授藝！\"\r\n  }"
   rawIndex: 65693
   splits:
@@ -156949,8 +156990,12 @@
     text: "雪儿还在荆南她外公家，过些日子再回来，满川，你这是又胖了吧。"
     translated: "Xue'er is still at Jin Nan at her grandfather's place. She'll come back in a few days. Full Creek, you've gained weight again, haven't you?"
     qcReviewedText: "Xue'er is still at Jin Nan at her grandfather's place. She'll come back in a few days. Full Creek, you've gained weight again, haven't you?"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Xue'er is still at her maternal grandfather's home in Jingnan. She'll be back in a few days. Man Chuan, you've put on some weight, haven't you?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"67578\",\r\n    \"Title\": \"无舟划桨\",\r\n    \"Name\": \"杜满川\",\r\n    \"Desc\": \"没有吧，我感觉自己还瘦了不少呢。\",\r\n    \"TitleTw\": \"無舟划槳\",\r\n    \"NameTw\": \"杜滿川\",\r\n    \"DescTw\": \"沒有吧，我感覺自己還瘦了不少呢。\"\r\n  }"
   rawIndex: 67578
   splits:
@@ -171331,8 +171376,12 @@
     text: "......看月亮？大小姐，这太阳还没完全下山呢。"
     translated: "...Look at the moon? Miss, the sun hasn't fully set yet."
     qcReviewedText: "...Look at the moon? Miss, the sun hasn't fully set yet."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "...Look at the moon? Young Mistress, the sun hasn't fully set yet."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"69206\",\r\n    \"Title\": \"洞庭龙女\",\r\n    \"Name\": \"钟离雪\",\r\n    \"Desc\": \"我不管！我就要去！这些天待得我都要闷死了。你到底去不去？不去的话，我就去找阿爹，说你欺负我！\",\r\n    \"TitleTw\": \"洞庭龍女\",\r\n    \"NameTw\": \"鍾離雪\",\r\n    \"DescTw\": \"我不管！我就要去！這些天待得我都要悶死了。你到底去不去？不去的話，我就去找阿爹，說你欺負我！\"\r\n  }"
   rawIndex: 69206
   splits:
@@ -200507,7 +200556,8 @@
     translated: "Sir, you've come to the right person. In Bodie, we are skilled in brewing alcohol, especially our shopkeeper's handiwork. He has recreated the ancient winter fermentation and summer maturation process of Ba Country Clear Wine according to ancient texts. I guarantee you'll find it incredibly refreshing."
     qcReviewedText: "Sir, you've come to the right person. In Bodie, we are skilled in brewing alcohol, especially our shopkeeper's handiwork. He has recreated the ancient winter fermentation and summer maturation process of Ba Country Clear Wine according to ancient texts. I guarantee you'll find it incredibly refreshing."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"81303\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"嗯，巴乡清酒么……司徒姑娘，来尝尝这巴乡清酒的味道如何。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"嗯，巴鄉清酒麼……司徒姑娘，來嚐嚐這巴鄉清酒的味道如何。\"\r\n  }"
   rawIndex: 81303
   splits:
@@ -200915,7 +200965,8 @@
     translated: "Ling'er, come try the taste of this lake wine."
     qcReviewedText: "Ling'er, come try the taste of this lake wine."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"81349\",\r\n    \"Title\": \"千杯不醉\",\r\n    \"Name\": \"司徒伶\",\r\n    \"Desc\": \"嗯，酒香醇厚，绵而不腻，温和顺滑，好酒。\",\r\n    \"TitleTw\": \"千杯不醉\",\r\n    \"NameTw\": \"司徒伶\",\r\n    \"DescTw\": \"嗯，酒香醇厚，綿而不膩，溫和順滑，好酒。\"\r\n  }"
   rawIndex: 81349
   splits:
@@ -202576,10 +202627,12 @@
     text: "你倒是贪心，但要知“贪心不足蛇吞象”，以你现在的进境，只可选取其中一种习学。"
     translated: "You are indeed greedy, but you must know that “A greedy person tries to swallow an elephant.” with your current progress, you can only choose to learn one of them."
     qcReviewedText: "You are indeed greedy, but you must know that “A greedy person tries to swallow an elephant.” with your current progress, you can only choose to learn one of them."
-    qcTranslated: "You are indeed greedy, but remember that greed is a bottomless pit. Given your current progress, you can only choose to learn one of them."
+    qcTranslated: "You are indeed greedy, but you must know that greed is insatiable, like a snake trying to swallow an elephant. With your current progress, you can only choose to learn one of them."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "{\r\n    \"Key\": \"82078\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"好吧，但还请先生指教，何为折钗股？何为屋漏痕？又是何为锥画沙？\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"好吧，但還請先生指教，何為折釵股？何為屋漏痕？又是何為錐畫沙？\"\r\n  }"
   rawIndex: 82078
   splits:
@@ -206237,10 +206290,13 @@
     text: "遭你杀掉的那个幽冥道平等王，我们想起他是哪个咯，他就是十多年前在川南名头响得很的三绝奇枪孟东来。"
     translated: "The Equal King of the Yinming Dao that you killed was none other than Meng Donglai, who was famous in South Sichuan over a decade ago for his divine spear technique called Zhongwushi."
     qcReviewedText: "The Equal King of the Yinming Dao that you killed was none other than Meng Donglai, who was famous in South Sichuan over a decade ago for his divine spear technique called Zhongwushi."
-    qcTranslated: "The Pingdeng Wang of the Youming Dao that you killed, we remember who he is now. He was Meng Donglai, the Three Wonders of the Spear, whose name was very famous in South Sichuan over ten years ago."
+    qcTranslated: "The Equal King of the Yinming Dao that you killed was none other than Meng Donglai, who was famous in South Sichuan over a decade ago for his Three Wonders Divine Spear."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 92
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"82357\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"原来还是如此有名之人。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"原來還是如此有名之人。\"\r\n  }"
   rawIndex: 82357
   splits:
@@ -217741,8 +217797,12 @@
     text: "章台柳"
     translated: "Willow by the Chapter House"
     qcReviewedText: "Willow by the Chapter House"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Zhangtai Willow"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     text: "柳含烟"
     translated: "Liu Hanyan"
@@ -220567,7 +220627,8 @@
     translated: "Jade from the Heavenly Region, extraordinarily hard, can expel epidemics, good, Heavenly Region Lunar Eclipse Stone, priced at one thousand coins."
     qcReviewedText: "Jade from the Heavenly Region, extraordinarily hard, can expel epidemics, good, Heavenly Region Lunar Eclipse Stone, priced at one thousand coins."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100041\",\r\n    \"Title\": \"三分价\",\r\n    \"Name\": \"何有谅\",\r\n    \"Desc\": \"这倒是各稀罕的东西，好，波斯毛毯，典价一千钱。\",\r\n    \"TitleTw\": \"三分價\",\r\n    \"NameTw\": \"何有諒\",\r\n    \"DescTw\": \"這倒是各稀罕的東西，好，波斯毛毯，典價一千錢。\"\r\n  }"
   rawIndex: 100041
   splits:
@@ -223367,10 +223428,12 @@
     text: "看看老爷子我的手气如何……嗯，还不错，老爷子我是一对板凳，坐等输赢。"
     translated: "Check how lucky my old man is"
     qcReviewedText: "Check how lucky my old man is"
-    qcTranslated: "Check how lucky my old man is... Mm, not bad. My old man has a pair of stools, so I'll just sit here and wait to see who wins or loses."
+    qcTranslated: "Let's see how lucky I am, your old man... Mm, not bad. Your old man has a pair of stools, so I'll just sit here and wait for the outcome."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"110119\",\r\n    \"Name\": \"江湖人乙\",\r\n    \"Desc\": \"我这把高脚七是赢不了老爷子了，兄弟你呢？\",\r\n    \"NameTw\": \"江湖人乙\",\r\n    \"DescTw\": \"我這把高腳七是贏不了老爺子了，兄弟你呢？\"\r\n  }"
   rawIndex: 110119
   splits:
@@ -225653,8 +225716,12 @@
     text: "温残阳不愧是一代魔相，劫云谷中设下毒计，让正道各派损伤颇大，以天魔教行事而断，下一步定会趁此机会，反攻各派，若是他们来攻打唐门，你们这些小子可敢应对？"
     translated: "Wen Canyang truly deserves to be considered a great demon official. In the Desolate Heaven Thunder Valley, he set a poison trap that inflicted significant damage on the various sects of the orthodox sects. Given the Heavenly Demon Sect's modus operandi, their next move will likely be a counterattack against these sects. If they were to attack the Tang Clan, would any of you be capable of handling it?"
     qcReviewedText: "Wen Canyang truly deserves to be considered a great demon official. In the Desolate Heaven Thunder Valley, he set a poison trap that inflicted significant damage on the various sects of the orthodox sects. Given the Heavenly Demon Sect's modus operandi, their next move will likely be a counterattack against these sects. If they were to attack the Tang Clan, would any of you be capable of handling it?"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Wen Canyang truly deserves to be considered a great demon official. In the Desolate Heaven Thunder Valley, he set a poison trap that inflicted significant damage on the various sects of the orthodox path. Given the Heavenly Demon Sect's modus operandi, their next move will likely be a counterattack against these sects. If they were to attack the Tang Clan, would any of you be capable of handling it?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"110602\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"老爷子，我等皆已做好准备，若天魔教之人敢来唐门撒野，管教他们有来无回！\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"老爺子，我等皆已做好準備，若天魔教之人敢來唐門撒野，管教他們有來無回！\"\r\n  }"
   rawIndex: 110602
   splits:
@@ -234629,10 +234696,13 @@
     text: "我，唐家堡的小小姐，唐幺幺，会被这么一条蛇咬到？而且这还不是毒蛇！"
     translated: "Could this poisonous snake bite me, Tang Yaoya, the youngest miss of Tang Family Fort? And it's not just any snake!"
     qcReviewedText: "Could this poisonous snake bite me, Tang Yaoya, the youngest miss of Tang Family Fort? And it's not just any snake!"
-    qcTranslated: "Me, Tang Yaoya, the youngest miss of Tang Family Fort, bitten by such a snake? And it's not even a Poisonous Snake!"
+    qcTranslated: "Could I, Tang Yaoya, the youngest miss of Tang Family Fort, be bitten by such a snake? And it's not even a Poisonous Snake!"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 65
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
 - raw: "{\r\n    \"Key\": \"111281\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"……对不起，幺姐，是我错了！\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"……對不起，么姐，是我錯了！\"\r\n  }"
   rawIndex: 111281
   splits:
@@ -256492,8 +256562,12 @@
     text: "哈哈，这“半晌贪欢”的制作方法虽然失传了，但是本门却是留下了一颗……"
     translated: "Haha, although the method of making Hanshang Ganian has been lost, our sect still retains a single"
     qcReviewedText: "Haha, although the method of making Hanshang Ganian has been lost, our sect still retains a single"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Haha, although the method of making Half an Hour of Pleasure has been lost, our sect still retains a single"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"118342\",\r\n    \"Title\": \"唐门门人\",\r\n    \"Name\": \"唐平\",\r\n    \"Desc\": \"还留下了一颗？在哪里？\",\r\n    \"TitleTw\": \"唐門門人\",\r\n    \"NameTw\": \"唐平\",\r\n    \"DescTw\": \"還留下了一顆？在哪裡？\"\r\n  }"
   rawIndex: 118342
   splits:
@@ -265822,8 +265896,12 @@
     text: "我们想见见做这道六赢羊酥的廖大厨。"
     translated: "We want to meet the Head Chef Liao who made this six-win mutton pastry."
     qcReviewedText: "We want to meet the Head Chef Liao who made this six-win mutton pastry."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "We want to meet Head Chef Liao, who made this Six-Win Lamb Croissant."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"121089\",\r\n    \"Name\": \"小二\",\r\n    \"Desc\": \"好，二位稍等。\",\r\n    \"NameTw\": \"小二\",\r\n    \"DescTw\": \"好，二位稍等。\"\r\n  }"
   rawIndex: 121089
   splits:
@@ -267920,8 +267998,12 @@
     text: "在下听闻这罨画池其中园林祠庙相得益彰，满园叠翠，绿树成荫，今日前来在此赏玩一番。"
     translated: "I have heard that the Eyeharp Pool features gardens and temples complementing each other beautifully, with lush greenery and shady trees all over the garden. Today, I have come to enjoy the scenery here."
     qcReviewedText: "I have heard that the Eyeharp Pool features gardens and temples complementing each other beautifully, with lush greenery and shady trees all over the garden. Today, I have come to enjoy the scenery here."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "I have heard that the Yanhua Pool features gardens and temples complementing each other beautifully, with lush greenery and shady trees all over the garden. Today, I have come to enjoy the scenery here."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"121632\",\r\n    \"Title\": \"金刀公子\",\r\n    \"Name\": \"夏南屏\",\r\n    \"Desc\": \"呵，赏玩一番？那你来的可是不凑巧了，今日这罨画池你进不去了。\",\r\n    \"TitleTw\": \"金刀公子\",\r\n    \"NameTw\": \"夏南屏\",\r\n    \"DescTw\": \"呵，賞玩一番？那你來的可是不湊巧了，今日這罨畫池你進不去了。\"\r\n  }"
   rawIndex: 121632
   splits:
@@ -269103,7 +269185,8 @@
     translated: "Long ago, Li Bai wielded his sword as he left Shu Prefecture, and he also ascended to this place, reciting Half a moon in autumn on Mount Emei, its shadow flows into the Pingqiang River, in which he depicted the integration of mountains and moonlight in Mount Emei."
     qcReviewedText: "Long ago, Li Bai wielded his sword as he left Shu Prefecture, and he also ascended to this place, reciting Half a moon in autumn on Mount Emei, its shadow flows into the Pingqiang River, in which he depicted the integration of mountains and moonlight in Mount Emei."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"121733\",\r\n    \"Title\": \"青莲映月\",\r\n    \"Name\": \"李云裳\",\r\n    \"Desc\": \"蜀国多仙山，峨眉邈难匹，周流试登览，绝怪安可悉？青冥倚天开，彩错疑画出，泠然紫霞赏，果得锦囊术，云间吟琼箫，石上弄宝瑟，平生有微尚，欢笑自此毕，烟容如在颜，尘累忽相失，倘逢骑羊子，携手凌白日。\",\r\n    \"TitleTw\": \"青蓮映月\",\r\n    \"NameTw\": \"李雲裳\",\r\n    \"DescTw\": \"蜀國多仙山，峨眉邈難匹，周流試登覽，絕怪安可悉？青冥倚天開，彩錯疑畫出，泠然紫霞賞，果得錦囊術，雲間吟瓊簫，石上弄寶瑟，平生有微尚，歡笑自此畢，煙容如在顏，塵累忽相失，倘逢騎羊子，攜手凌白日。\"\r\n  }"
   rawIndex: 121733
   splits:
@@ -269392,8 +269475,12 @@
     text: "哈哈，好，今日尝了老酒，我便送姑娘回罨画池先休息几日，再由姑娘定下咱们较技之处……"
     translated: "HAHA, good. Today I sampled the old wine, so I'll see Miss back to the Iheca Pool first to rest for a few days, and then let Miss decide where we shall have our skill display."
     qcReviewedText: "HAHA, good. Today I sampled the old wine, so I'll see Miss back to the Iheca Pool first to rest for a few days, and then let Miss decide where we shall have our skill display."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "HAHA, good. Today I sampled the old wine, so I'll see Miss back to the Yanhua Pool first to rest for a few days, and then let Miss decide where we shall have our skill display."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"121771\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"李姑娘，咱们回来了，你先休息几日，三日后我再来拜访。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"李姑娘，咱們回來了，你先休息幾日，三日後我再來拜訪。\"\r\n  }"
   rawIndex: 121771
   splits:
@@ -272930,8 +273017,12 @@
     text: "是山下的一个船户刚刚送来的消息，是一个坐他船的客人所说。川南叙州府中，有一户姓萧的富贾名为萧长玉，家资丰厚，他的家中便有一株珍藏的玉珠重楼。"
     translated: "It's a message brought by a boatman from down the mountain, relayed by a guest traveling on his boat. In Xinyang, Sichuan South, there is a wealthy merchant surnamed Xiao named Xiao Changyu, whose family possesses a precious Epimedium plant."
     qcReviewedText: "It's a message brought by a boatman from down the mountain, relayed by a guest traveling on his boat. In Xinyang, Sichuan South, there is a wealthy merchant surnamed Xiao named Xiao Changyu, whose family possesses a precious Epimedium plant."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "It's a message brought by a boatman from down the mountain, relayed by a guest traveling on his boat. In Xuzhou Prefecture, Sichuan South, there is a wealthy merchant surnamed Xiao named Xiao Changyu, whose family possesses a precious Epimedium plant."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"122234\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"叙州府，姓萧的富贾……呵呵，雪雁，那富商姓萧，你也姓萧，说不得你们还是本家同宗呢，或许他们还能给你些面子，将玉珠重楼便宜些卖给咱们。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"敘州府，姓蕭的富賈……呵呵，雪雁，那富商姓蕭，你也姓蕭，說不得你們還是本家同宗呢，或許他們還能給你些面子，將玉珠重樓便宜些賣給咱們。\"\r\n  }"
   rawIndex: 122234
   splits:
@@ -273265,7 +273356,8 @@
     translated: "The Young Lord not only bears the Lady's mark but also boasts excellent literary talent. I will gift the Young Lord an additional half catty, as a token of respect for both the Young Lord and the Lady."
     qcReviewedText: "The Young Lord not only bears the Lady's mark but also boasts excellent literary talent. I will gift the Young Lord an additional half catty, as a token of respect for both the Young Lord and the Lady."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"122263\",\r\n    \"Title\": \"云峰雁首\",\r\n    \"Name\": \"萧雪雁\",\r\n    \"TitleTw\": \"雲峰雁首\",\r\n    \"NameTw\": \"蕭雪雁\"\r\n  }"
   rawIndex: 122263
   splits:
@@ -295594,16 +295686,11 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "带了带了。"
-    translated: "I have already brought them"
-    qcReviewedText: "I have already brought them"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "I-I have already brought them"
-    qcFailureReason: "A stutter was added, but the source text contains no stutter."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "I have already brought them"
+    translated: "I brought it, I brought it"
+    qcReviewedText: "I brought it, I brought it"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"126240\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"拿一百钱出来，给这位老人家。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"拿一百錢出來，給這位老人家。\"\r\n  }"
   rawIndex: 126240
   splits:
@@ -297113,10 +297200,9 @@
     text: "你将三只猿猴打败，想要逃跑，但你却一把提起那只起初抢你行囊的猿猴左腿，把它倒提了起来，而另外两只来援的猿猴见势不妙，纷纷落荒而逃。"
     translated: "You defeated the three monkeys and tried to escape, but you grabbed the leg of the one that had initially stolen your pack, lifting it upside down. The other two monkeys, seeing the situation was dire, fled in panic."
     qcReviewedText: "You defeated the three monkeys and tried to escape, but you grabbed the leg of the one that had initially stolen your pack, lifting it upside down. The other two monkeys, seeing the situation was dire, fled in panic."
-    qcTranslated: "You defeated the three monkeys and tried to escape, but you grabbed the left leg of the one that had initially snatched your pack, hoisting it upside down. The other two monkeys, seeing the situation was dire, fled in panic."
+    qcTranslated: "You defeated the three monkeys, and as they tried to escape, you grabbed the left leg of the one that had initially stolen your pack, lifting it upside down. The other two monkeys, seeing the situation was dire, fled in panic."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 55
+    qcQualityScore: 95
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
@@ -298402,13 +298488,12 @@
     text: "老叫花子我记得年轻时曾听师父说过，川南这处无回峰上有一种异草名为“灵明草”，天生九叶一枝，味道辛苦，寻常人服了毫无用处，但是对猿猴之伤颇有奇效。故而专程寻来，可惜……"
     translated: "The old beggar-I remember hearing from my master when I was young-that on Wu Hui Peak in southern Sichuan grows a peculiar herb called “Ling Ming Cao.” It naturally has nine leaves per stem, tastes bitter, and is useless for ordinary people who consume it. Yet it proves remarkably effective in healing wounds inflicted on monkeys. That's why I came all this way specifically to find it-sadly..."
     qcReviewedText: "The old beggar-I remember hearing from my master when I was young-that on Wu Hui Peak in southern Sichuan grows a peculiar herb called “Ling Ming Cao.” It naturally has nine leaves per stem, tastes bitter, and is useless for ordinary people who consume it. Yet it proves remarkably effective in healing wounds inflicted on monkeys. That's why I came all this way specifically to find it-sadly..."
-    qcTranslated: "The old beggar-I remember my master once telling me when I was young that a peculiar herb called Ling Ming Cao grows on Wu Hui Peak in southern Sichuan. It naturally has nine leaves per stem and tastes bitter and astringent; it is useless for ordinary people, but it works wonders on monkey bites. That's why I came all this way specifically to find it-alas..."
+    qcTranslated: "The old beggar-I remember my master once telling me, when I was young, that on Wu Hui Peak in southern Sichuan grows a peculiar herb called Ling Ming Cao. It naturally has nine leaves per stem and tastes bitter and astringent. While it is useless for ordinary people who consume it, it proves remarkably effective in healing monkey wounds. That's why I came all this way specifically to find it-sadly..."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - MeaningReversal
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"126486\",\r\n    \"Name\": \"主角\",\r\n    \"Desc\": \"前辈，既然此处有解药，又何必唉声叹气。\",\r\n    \"NameTw\": \"主角\",\r\n    \"DescTw\": \"前輩，既然此處有解藥，又何必唉聲嘆氣。\"\r\n  }"
   rawIndex: 126486
   splits:
@@ -303808,8 +303893,12 @@
     text: "恭喜谷主！贺喜谷主！虺食奇功大成在即！此乃守护灵蛇“碧鳞金线蚺”幼体！百年难遇！灵蛇现世，蛇王俯首！谷主神功指日可破瓶颈，登峰造极！弟子恭贺谷主！"
     translated: "Congratulations Master Valley! Congratulations Master Valley! The Weixie Qigong is about to be perfected! This is the spirit snake “Golden-threaded python snake” larva! A once-in-a-century occurrence! With the appearance of the spirit snake, the king cobra bows its head! Master Valley's divine skills will soon break through the bottleneck and reach the pinnacle! Disciple wishes you joy, Master Valley!"
     qcReviewedText: "Congratulations Master Valley! Congratulations Master Valley! The Weixie Qigong is about to be perfected! This is the spirit snake “Golden-threaded python snake” larva! A once-in-a-century occurrence! With the appearance of the spirit snake, the king cobra bows its head! Master Valley's divine skills will soon break through the bottleneck and reach the pinnacle! Disciple wishes you joy, Master Valley!"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Congratulations Master Valley! Congratulations Master Valley! The Weixie Qigong is about to be perfected! This is the spirit snake “Green-Scaled Golden-Line Boa” larva! A once-in-a-century occurrence! With the appearance of the spirit snake, the king cobra bows its head! Master Valley's divine skills will soon break through the bottleneck and reach the pinnacle! Disciple wishes you joy, Master Valley!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"1002715\",\r\n    \"Desc\": \"蒋疠夫眼神一变，如盯稀世奇珍，赤裸裸地占有欲瞬间爆发。\",\r\n    \"DescTw\": \"蔣癘夫眼神一變，如盯稀世奇珍，赤裸裸地佔有欲瞬間爆發。\"\r\n  }"
   rawIndex: 1002715
   splits:

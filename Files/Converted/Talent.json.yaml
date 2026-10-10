@@ -1483,8 +1483,12 @@
     text: "福庆班友好"
     translated: "Fuking Class is friendly"
     qcReviewedText: "Fuking Class is friendly+40"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Fuking Troupe is friendly+40"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"
@@ -1965,8 +1969,12 @@
     text: "虺食奇功"
     translated: "Asura Devouring Strange Skill"
     qcReviewedText: "Asura Devouring Strange Skill"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Hui Shi Qi Gong"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "九嶷山蛇胆内息额外"
     translated: "Extra Inner Qi from the Jiuyi Mountain Snake Gallbladder"

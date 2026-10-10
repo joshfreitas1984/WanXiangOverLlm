@@ -3185,8 +3185,12 @@
     text: "虺食奇功"
     translated: "Asura Devouring Strange Skill"
     qcReviewedText: "Asura Devouring Strange Skill"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Hui Shi Qi Gong"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "回春（4000）"
     translated: "Revive (4000)"
@@ -3209,8 +3213,12 @@
     text: "虺食奇功"
     translated: "Asura Devouring Strange Skill"
     qcReviewedText: "Asura Devouring Strange Skill"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Hui Shi Qi Gong"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: DetailDesc
     text: "辅助回复类【盘蛇谷】【心法】"
     translated: "Supportive Reply Class [Coiled Serpent Valley] [Heart Method]"
@@ -3771,8 +3779,12 @@
     text: "囚元指"
     translated: "Asura Finger Grip"
     qcReviewedText: "Asura Finger Grip"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Prison Spirit Finger"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "攻击（1倍）"
     translated: "Attack (1 times)"
@@ -3787,8 +3799,12 @@
     text: "囚元指"
     translated: "Asura Finger Grip"
     qcReviewedText: "Asura Finger Grip"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Prison Spirit Finger"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "攻击伤害类【六扇门】【拳脚】"
     translated: "Attack Damage Class [Six Doors] [Fist and Foot]"
@@ -6643,16 +6659,11 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "第八年间一月起，探索湘北资助结巴山贼后，此后根骨到达180，两次探索湘北并两次战胜谷藏锋后，选泰阿剑法谷藏锋传授。"
-    translated: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
-    qcReviewedText: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Starting in January of the eighth year, after exploring Xiangbei and funding the stammering bandits in Jiashan, once Potential reached {0}, and after two expeditions to Xiangbei and two victories against Gu Cangfeng, select Tai'a Swordsmanship for Gu Cangfeng to teach."
-    qcFailureReason: " `{0}` appears in the result but not in the original text."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
+    translated: "From January of the eighth year, after exploring Xiangbei and funding the stammering mountain bandit, once your Potential reaches 180, explore Xiangbei twice and defeat Gu Cangfeng twice, then choose Taia Swordsmanship to have Gu Cangfeng teach you."
+    qcReviewedText: "From January of the eighth year, after exploring Xiangbei and funding the stammering mountain bandit, once your Potential reaches 180, explore Xiangbei twice and defeat Gu Cangfeng twice, then choose Taia Swordsmanship to have Gu Cangfeng teach you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -8871,8 +8882,12 @@
     text: "攻击（0.8倍）"
     translated: "Attack (0.8 times)"
     qcReviewedText: "Attack (0.8 times) \\nAction response 1<20%>"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Attack (0.8x) \\nAction recovery 1<20%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -8911,8 +8926,12 @@
     text: "七秀针"
     translated: "Asura Needle"
     qcReviewedText: "Asura Needle"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Seven Beauties Needle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -8927,8 +8946,12 @@
     text: "七秀针"
     translated: "Asura Needle"
     qcReviewedText: "Asura Needle"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Seven Beauties Needle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "攻击伤害类【听风阁】【百兵】"
     translated: "Attack Damage Class [Wind Listening Pavilion] [Hundred Weapons]"
@@ -11256,7 +11279,8 @@
     translated: "Hinaki Hinadeki"
     qcReviewedText: "Hinaki Hinadeki"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.2倍）"
     translated: "Attack (0.2 times)"
@@ -11276,7 +11300,8 @@
     translated: "Hinaki Hinadeki"
     qcReviewedText: "Hinaki Hinadeki"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【唐门】【百兵】"
     translated: "Attack Damage [Tang Clan] [Hundred Weapons]"
@@ -11590,8 +11615,12 @@
     text: "百日缠"
     translated: "Hundred Day"
     qcReviewedText: "Hundred Day"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Hundred-Day Entanglement"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     text: "中毒"
     translated: "Poisoned"
@@ -11602,8 +11631,12 @@
     text: "百日缠"
     translated: "Hundred Day"
     qcReviewedText: "Hundred Day"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Hundred-Day Entanglement"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     text: "攻击伤害类【唐门】【特技】"
     translated: "Attack Damage Class [Tang Clan] [Special Technique]"
@@ -15258,10 +15291,11 @@
   splits:
   - splitPath: Name
     text: "毒苦无"
-    translated: "Poison Painlessness"
-    qcReviewedText: "Poison Painlessness"
+    translated: "Poisonous Kunai"
+    qcReviewedText: "Poisonous Kunai"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.1倍）"
     translated: "Attack (1.1 times)"
@@ -15274,10 +15308,11 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "毒苦无"
-    translated: "Poison Painlessness"
-    qcReviewedText: "Poison Painlessness"
+    translated: "Poisonous Kunai"
+    qcReviewedText: "Poisonous Kunai"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【甲贺流】【百兵】"
     translated: "Attack Damage Class [Koga School][Hundred Weapons]"
@@ -18252,8 +18287,12 @@
     text: "澜沧剑诀"
     translated: "Asura Sword Technique"
     qcReviewedText: "Asura Sword Technique"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Lancang Sword Formula"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "攻击（1.2倍）"
     translated: "Attack (1.2 times)"
@@ -18264,8 +18303,12 @@
     text: "澜沧剑诀"
     translated: "Asura Sword Technique"
     qcReviewedText: "Asura Sword Technique"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Lancang Sword Formula"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "攻击伤害类【澜沧派】【刀剑】"
     translated: "Attack Damage [Lancang Sect] [Blade and Sword]"
@@ -18686,7 +18729,8 @@
     translated: "Moon and Sun Whip Technique"
     qcReviewedText: "Moon and Sun Whip Technique"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.6倍）"
     translated: "Attack (0.6 times)"
@@ -18702,7 +18746,8 @@
     translated: "Moon and Sun Whip Technique"
     qcReviewedText: "Moon and Sun Whip Technique"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
@@ -22066,8 +22111,12 @@
     text: "青囊医诀"
     translated: "Tao of Medical Preservation"
     qcReviewedText: "Tao of Medical Preservation"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Blue Pouch Medical Formula"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "回春（2%气血上限）"
     translated: "Restore Vitality (2% Lifeforce maximum)"
@@ -22082,8 +22131,12 @@
     text: "青囊医诀"
     translated: "Tao of Medical Preservation"
     qcReviewedText: "Tao of Medical Preservation"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Blue Pouch Medical Formula"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "辅助回复类【江湖】【特技】"
     translated: "Support Reply Type [Jianghu] [Special Skill]"
@@ -22493,8 +22546,12 @@
     text: "燎原枪法"
     translated: "Asura Spear Technique"
     qcReviewedText: "Asura Spear Technique"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Prairie Fire Spear Technique"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     text: "攻击（3.7倍）"
     translated: "Attack (3.7x)"
@@ -22505,8 +22562,12 @@
     text: "燎原枪法"
     translated: "Asura Spear Technique"
     qcReviewedText: "Asura Spear Technique"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Prairie Fire Spear Technique"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
@@ -25330,8 +25391,12 @@
     text: "攻击（1.8倍）"
     translated: "Attack (1.8 times)"
     qcReviewedText: "Attack (1.8 times) \\nAction response 1<36%>"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Attack (1.8x) \\nAction recovery 1<36%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -25618,8 +25683,12 @@
     text: "会心1"
     translated: "Heartening Smile 1"
     qcReviewedText: "Heartening Smile 1<25%>"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Critical Hit 1<25%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: EchoName
     text: "九叶地黄"
     translated: "Nine-leaf Rehmannia Root"
@@ -25835,7 +25904,8 @@
     translated: "The Fuqing Troupe arrived in friendly terms at 60, with the Variety Arts reaching skilled performers. Explore what Second Fortune from the Fuqing Troupe has to teach."
     qcReviewedText: "The Fuqing Troupe arrived in friendly terms at 60, with the Variety Arts reaching skilled performers. Explore what Second Fortune from the Fuqing Troupe has to teach."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
@@ -31056,7 +31126,8 @@
     translated: "Thunderbolt Fire Child"
     qcReviewedText: "Thunderbolt Fire Child"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -31344,7 +31415,8 @@
     translated: "Heaven's law does not apply here where there is no law, 2."
     qcReviewedText: "Heaven's law does not apply here where there is no law, 2."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（36000）"
     translated: "Revive (36000)"
@@ -31516,7 +31588,8 @@
     translated: "Moon and Sun Whip Technique"
     qcReviewedText: "Moon and Sun Whip Technique"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -31534,7 +31607,8 @@
     translated: "Moon and Sun Double Whip in Rapid Succession 2"
     qcReviewedText: "Moon and Sun Double Whip in Rapid Succession 2"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.6倍）"
     translated: "Attack (0.6 times)"
@@ -31549,8 +31623,12 @@
     text: "日月双鞭打连环"
     translated: "Dual Moon and Sun Whip in Rapid Succession"
     qcReviewedText: "Dual Moon and Sun Whip in Rapid Succession"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Sun and Moon Twin Whips in a Continuous Chain"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -32234,8 +32312,12 @@
     text: "蜧螣蜦蚺尽为食"
     translated: "All these creatures-Asura, Phoenix, Serpent, and Python-are for food."
     qcReviewedText: "All these creatures-Asura, Phoenix, Serpent, and Python-are for food."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "All these creatures-Lu, Teng, Luan, and Zhan-are for food."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -32268,8 +32350,12 @@
     text: "碧尘五毒烟罗瘴"
     translated: "Bicheen Five Poison Smokescreen Plague"
     qcReviewedText: "Bicheen Five Poison Smokescreen Plague"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Azure Dust Five Poisons Smoke Veil Miasma"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -35797,10 +35883,11 @@
   splits:
   - splitPath: Name
     text: "毒苦无2"
-    translated: "Poison Pain 2"
-    qcReviewedText: "Poison Pain 2"
+    translated: "Poisonous Kunai 2"
+    qcReviewedText: "Poisonous Kunai 2"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.5倍）"
     translated: "Attack (0.5 times)"
@@ -35813,10 +35900,11 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "毒苦无"
-    translated: "Poison Painlessness"
-    qcReviewedText: "Poison Painlessness"
+    translated: "Poisonous Kunai"
+    qcReviewedText: "Poisonous Kunai"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -35897,8 +35985,12 @@
     text: "胧月夜影罗生毒2"
     translated: "Moonlit Shadows and Poisoned Night2"
     qcReviewedText: "Moonlit Shadows and Poisoned Night2"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Longyue Ye Ying Luo Sheng Du2"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     text: "中毒"
     translated: "Poisoned"
@@ -36746,8 +36838,12 @@
     text: "七秀针"
     translated: "Asura Needle"
     qcReviewedText: "Asura Needle"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Seven Beauties Needle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -36814,8 +36910,12 @@
     text: "乱脉指"
     translated: "Disorderly Pulse Indicator"
     qcReviewedText: "Disorderly Pulse Indicator"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Chaotic Meridian Finger"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -37269,7 +37369,8 @@
     translated: "Mind Attack written in ink can kill the most2"
     qcReviewedText: "Mind Attack written in ink can kill the most2"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "绝脉"
     translated: "Deadly Pulse"
@@ -37785,8 +37886,12 @@
     text: "七秀针"
     translated: "Asura Needle"
     qcReviewedText: "Asura Needle"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Seven Beauties Needle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -38831,8 +38936,12 @@
     text: "三邪杖法"
     translated: "Asura Staff Technique"
     qcReviewedText: "Asura Staff Technique"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Three Evil Staff Technique"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -39424,7 +39533,8 @@
     translated: "Meridian Soul Reaper Pursuit Returns to 2"
     qcReviewedText: "Meridian Soul Reaper Pursuit Returns to 2"
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"

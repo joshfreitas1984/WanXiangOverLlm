@@ -1325,8 +1325,12 @@
     text: "福庆班友好"
     translated: "Fuking Class is friendly"
     qcReviewedText: "Fuking Class is friendly"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    qcTranslated: "Fuking troupe is friendly"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "影响侠客和福庆班的关系"
     translated: "Affecting the relationship between the Wanderer and Fugui Battalion"

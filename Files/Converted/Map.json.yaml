@@ -904,6 +904,10 @@
   - splitPath: Desc
     text: "位于荆东武昌府境内，蛇山之巅，楼高五层，朱檐黄瓦，雕梁画栋，楼中所存美酒更是闻名荆湘。"
     translated: "Located within Jingdong Wuchang Prefecture, at the peak of Snake Mountain, this five-story tower boasts red eaves and yellow tiles, with intricately carved beams and painted rafters. The fine wine stored within is renowned throughout Jingxiang."
+    qcReviewedText: "Located within Jingdong Wuchang Prefecture, at the peak of Snake Mountain, this five-story tower boasts red eaves and yellow tiles, with intricately carved beams and painted rafters. The fine wine stored within is renowned throughout Jingxiang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"102015\",\r\n    \"Name\": \"章华台\",\r\n    \"Desc\": \"位于荆东武昌府境内，武昌城中，楼高三层，美酒、美食、美人数之不绝，是荆东第一的销金窟。\",\r\n    \"NameTw\": \"章華臺\",\r\n    \"DescTw\": \"位於荊東武昌府境內，武昌城中，樓高三層，美酒、美食、美人數之不絕，是荊東第一的銷金窟。\"\r\n  }"
   rawIndex: 102015
   splits:
@@ -1188,7 +1192,8 @@
     translated: "Dongting Sect outpost is located on Jun Mountain in Yuezhou Prefecture, north of Xiang River, amidst Dongting Lake."
     qcReviewedText: "Dongting Sect outpost is located on Jun Mountain in Yuezhou Prefecture, north of Xiang River, amidst Dongting Lake."
     qcStatus: Passed
-    flaggedForQcReview: true
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"106011\",\r\n    \"Name\": \"荆南游历\",\r\n    \"Desc\": \"荆楚之南，荆州府、承天府、沔阳州、荆门州、夷陵州、归州两府四洲所在之地。\",\r\n    \"NameTw\": \"荊南遊歷\",\r\n    \"DescTw\": \"荊楚之南，荊州府、承天府、沔陽州、荊門州、夷陵州、歸州兩府四洲所在之地。\"\r\n  }"
   rawIndex: 106011
   splits:

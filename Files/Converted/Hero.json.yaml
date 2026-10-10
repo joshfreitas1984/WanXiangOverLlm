@@ -88,6 +88,8 @@
   - splitPath: Desc
     text: "那瑜陀女使"
     translated: "That Jade Maiden Messenger"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "That Jade Maiden Messenger"
     qcStatus: Passed
     qcQualityScore: 100
@@ -115,6 +117,8 @@
   - splitPath: Desc
     text: "那瑜陀女使"
     translated: "That Jade Maiden Messenger"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "That Jade Maiden Messenger"
     qcStatus: Passed
     qcQualityScore: 100
@@ -175,6 +179,8 @@
   - splitPath: Desc
     text: "那瑜陀女使"
     translated: "That Jade Maiden Messenger"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "That Jade Maiden Messenger"
     qcStatus: Passed
     qcQualityScore: 100
@@ -208,6 +214,8 @@
   - splitPath: Desc
     text: "那瑜陀女使"
     translated: "That Jade Maiden Messenger"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "That Jade Maiden Messenger"
     qcStatus: Passed
     qcQualityScore: 100
@@ -506,8 +514,8 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "杨慎"
-    translated: "YANG Shen"
-    qcReviewedText: "YANG Shen"
+    translated: "Yang Shen"
+    qcReviewedText: "Yang Shen"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Title
@@ -938,8 +946,8 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "杨慎"
-    translated: "YANG Shen"
-    qcReviewedText: "YANG Shen"
+    translated: "Yang Shen"
+    qcReviewedText: "Yang Shen"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Title
@@ -969,10 +977,8 @@
   - splitPath: GetDesc
     text: "加入衡山派，从第六年一月开始，探索后山九次观看江化渚、柏成柯剑歌，此后悟性到达110后再次探索后山可解锁"
     translated: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
-    qcReviewedText: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
-    qcTranslated: "Joining Hengshan Sect, starting from Month 1 of Year 6, explore the back mountain nine times to watch Jiang Huazhu and Bai Chengke's Sword Song. After Insight reaches {0}, exploring the back mountain again will unlock it."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Joining Hengshan Sect in the sixth year of January, explore the back mountain nine times to observe Jiang Huazhu, Bai Chengke Jian Ge, and after reaching this level of insight, you can unlock further exploration of the back mountain."
 - raw: "{\r\n    \"Key\": \"1012\",\r\n    \"IdName\": \"长孙玉2\",\r\n    \"Name\": \"长孙玉\",\r\n    \"Title\": \"玉公子\",\r\n    \"CardName\": \"衡山弟子\",\r\n    \"BaseDesc\": \"特殊\",\r\n    \"Desc\": \"君子庄少庄主，“三湘君子”长孙诚之子，谦恭儒雅，温润如玉，自幼随父研习君子六艺，颇有造诣，因其谦逊有礼，品性温良，兼之容貌清秀，肤质如玉，故被人称为“玉公子”，是荆湘一带众多闺阁淑女心中最倾慕的如意郎君。\",\r\n    \"GetDesc\": \"加入衡山派，第七年为长孙诚送茶后，君子庄友好度到达60，探索湘南两次得知宁王阴谋，八月时再次探索君子庄，揭露贾孤山阴谋，打赢贾孤山后，医术未到达高手解锁\",\r\n    \"NameTw\": \"長孫玉\",\r\n    \"TitleTw\": \"玉公子\",\r\n    \"DescTw\": \"君子莊少莊主，“三湘君子”長孫誠之子，謙恭儒雅，溫潤如玉，自幼隨父研習君子六藝，頗有造詣，因其謙遜有禮，品性溫良，兼之容貌清秀，膚質如玉，故被人稱為“玉公子”，是荊湘一帶眾多閨閣淑女心中最傾慕的如意郎君。\",\r\n    \"GetDescTw\": \"加入衡山派，第七年為長孫誠送茶後，君子莊友好度到達60，探索湘南兩次得知寧王陰謀，八月時再次探索君子莊，揭露賈孤山陰謀，打贏賈孤山後，醫術未到達高手解鎖\",\r\n    \"CardNameTw\": \"衡山弟子\"\r\n  }"
   rawIndex: 1012
   splits:
@@ -1029,8 +1035,8 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "杨慎"
-    translated: "YANG Shen"
-    qcReviewedText: "YANG Shen"
+    translated: "Yang Shen"
+    qcReviewedText: "Yang Shen"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Title
@@ -1107,13 +1113,10 @@
   - splitPath: GetDesc
     text: "1、加入衡山派，第七年一月开始，根骨、体魄、内息、灵活分别到达150，探索演武场触发霍连云四岳云游任务后，再次探索演武场对战战胜霍连云后加入"
     translated: "1, joining the Hengshan Sect, starting from January of the seventh Year, Potential, Resilience, Inner Qi, and Flexibility reach 150. After triggering Huo Lianyun's Four Great Ranges Wandering quest by exploring the Training Grounds, winning against Huo Lianyun in battle leads to joining."
-    qcReviewedText: "1, joining the Hengshan Sect, starting from January of the seventh Year, Potential, Resilience, Inner Qi, and Flexibility reach 150. After triggering Huo Lianyun's Four Great Ranges Wandering quest by exploring the Training Grounds, winning against Huo Lianyun in battle leads to joining.\\n2, if you are not from the Hengshan Sect, after triggering the Peaceful King's ending and before the scene where the Peaceful King pays respects to the mountain, if you reach Master level in Beast Taming when rushing to aid the Hengshan Sect, afterwards, upon defeating the Four Elders of Shangshan within your own sect, you will learn that the Four Elders of Shangshan have appeared in Jingnan. After exploring the Changle District in Jingnan, you will join them."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: GetDesc
     subIndex: 1
     text: "2、非衡山派，触发宁王结局后，在宁王拜山剧情前，驰援衡山派时御兽到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "2, if you are not from the Hengshan Sect, after triggering the Peaceful King's ending and before the scene where the Peaceful King pays respects to the mountain, if you reach Master level in Beast Taming when rushing to aid the Hengshan Sect, afterwards, upon defeating the Four Elders of Shangshan within your own sect, you will learn that the Four Elders of Shangshan have appeared in Jingnan. After exploring the Changle District in Jingnan, you will join them."
+    translated: "2, not belonging to the Hengshan Sect, reaches Master level in Beast Taming after rushing to aid the Hengshan Sect following the activation of Prince Ning's ending and before the scene where Prince Ning pays homage to the mountain. After repelling the Four Elders of Shangshan back at his own sect, he learns that the Four Elders of Shangshan have appeared in Jingnan, explores Changle Fang there, and then joins their ranks."
   templates:
   - splitPath: GetDesc
     template: "{0}\\n{1}"
@@ -1865,13 +1868,10 @@
   - splitPath: GetDesc
     text: "1、加入武当派，第八年一月开始，福缘到达180，探索后山遇到尹玄真小憩，再次探索坐忘台，带着师叔和同门去后山寻找失踪的尹玄真，战胜尹玄真后加入。"
     translated: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join him."
-    qcReviewedText: "1, joining the Wudang Sect, starting in January of the eighth Year, your Luck reaches 180. After exploring the back mountain and encountering Yin Xuanzhen resting, revisit the Sitting Forget Platform. Bring Master Uncle and fellow disciples to search for the missing Yin Xuanzhen in the back mountains. After defeating Yin Xuanzhen, join him.\\n2, if you are not from the Wudang Sect and have reached Master level in Medicine after triggering the Peaceful King's ending but before the Peaceful King visits the mountain, you will aid Wudang Sect when they need help. After your sect defeats the Four Elders of Shangshan, you will learn that the Four Elders have appeared in Jingnan. Exploring Changle District in Jingnan will allow you to join them."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: GetDesc
     subIndex: 1
     text: "2、非武当派，触发宁王结局后，在宁王拜山剧情前，驰援武当派时医术到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "2, if you are not from the Wudang Sect and have reached Master level in Medicine after triggering the Peaceful King's ending but before the Peaceful King visits the mountain, you will aid Wudang Sect when they need help. After your sect defeats the Four Elders of Shangshan, you will learn that the Four Elders have appeared in Jingnan. Exploring Changle District in Jingnan will allow you to join them."
+    translated: "2, not belonging to the Wudang Sect, reaches master-level proficiency in Medicine after rushing to aid the Wudang Sect following the activation of Prince Ning's ending and before the scene where Prince Ning pays homage to the mountains. Later, after repelling the Four Elders of Shangshan back in his own sect, upon learning that the Four Elders of Shangshan have appeared in Jingnan, he joins them after exploring Changle Fang in Jingnan."
   templates:
   - splitPath: GetDesc
     template: "{0}\\n{1}"
@@ -2303,16 +2303,10 @@
   splits:
   - splitPath: IdName
     text: "向西飞"
-    translated: "Flies west"
-    qcReviewedText: "Flies west"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiang Xifei"
   - splitPath: Name
     text: "向西飞"
-    translated: "Flies west"
-    qcReviewedText: "Flies west"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiang Xifei"
   - splitPath: Title
     text: "孤舟一道"
     translated: "A lone boat on the water"
@@ -2333,11 +2327,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "长江盟五家联盟之一，飞羽帮帮主，狂放粗莽，百折不挠，一手控船操舟之术冠绝长江，长江有谚“滚滚长江东逝水，孤帆一道向西飞”便是赞其不屈之性格和逆水行舟的本事，曾为抓三名闹事的水寇，单人孤舟追缉三日三夜。"
-    translated: "'Fei Yu Gang's Gang Leader,' they are wild and untamed, unyielding in the face of adversity. His mastery of controlling ships stands unrivaled on the Yangtze. There is a saying about him: The mighty Yangtze flows eastward, while a solitary sail departs to fly west. This phrase praises his indomitable spirit and exceptional ability to navigate against the current. He once pursued three troublemaking water bandits alone in a small boat for three days and nights."
-    qcReviewedText: "'Fei Yu Gang's Gang Leader,' they are wild and untamed, unyielding in the face of adversity. His mastery of controlling ships stands unrivaled on the Yangtze. There is a saying about him: The mighty Yangtze flows eastward, while a solitary sail departs to fly west. This phrase praises his indomitable spirit and exceptional ability to navigate against the current. He once pursued three troublemaking water bandits alone in a small boat for three days and nights."
-    qcTranslated: "One of the five alliances of the Yangtze League, Gang Leader of Fei Yu Gang, wild and rough, unyielding in the face of adversity. His mastery of controlling ships stands unrivaled on the Yangtze. There is a saying about him: The mighty Yangtze flows eastward, while a solitary sail flies west. This phrase praises his indomitable spirit and exceptional ability to navigate against the current. He once pursued three troublemaking water bandits alone in a small boat for three days and nights."
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "One of the five allied factions of the Yangtze Alliance, and the leader of the Flying Feather Gang, Xiang Xifei is wild and rough, yet indomitable. His boat handling skills are unmatched on the Yangtze, and there's a local saying, The rolling Yangtze flows eastward, but a lone sail heads west, praising his unyielding spirit and ability to navigate against the current. He once pursued three bandits single-handedly for three days and nights."
   - splitPath: GetDesc
     text: "加入洞庭帮，第五年五月至第八年二月，先探索荆东得知九叶地黄，福缘到达150探索荆北战胜毒蛇获取九叶地黄，最后探索荆东将九叶地黄赠与向西飞加入。"
     translated: "Join the Dongting Sect. From the fifth year in May to the eighth year in February, first explore Jingdong to discover the Nine Leaf Rehmannia. Luck brings you to 150 to explore Jingbei and defeat the Poisonous Snake to obtain the Nine Leaf Rehmannia. Finally, explore Jingdong and gift the Nine Leaf Rehmannia to Xiang Xifei to join."
@@ -2814,13 +2804,10 @@
   - splitPath: GetDesc
     text: "1、加入洞庭帮，第七年一月开始，探索湘北战胜恶鼋后，根骨到达160，探索来龙口获取龙引刀，再次探索湘北斩杀恶鼋后解锁"
     translated: "1, joining the Dongting Sect, starting from January of the seventh Year, after exploring Xiangbei and defeating the Evil Softshell Turtle, your Potential reaches 160. Upon obtaining the Dragon-Attracting Blade by exploring Longmen Mouth, you unlock further exploration of Xiangbei to slay the Evil Softshell Turtle again."
-    qcReviewedText: "1, joining the Dongting Sect, starting from January of the seventh Year, after exploring Xiangbei and defeating the Evil Softshell Turtle, your Potential reaches 160. Upon obtaining the Dragon-Attracting Blade by exploring Longmen Mouth, you unlock further exploration of Xiangbei to slay the Evil Softshell Turtle again.\\n2, not a member of the Dongting Sect, after triggering the Peaceful King's ending and before the Peaceful King visits the mountain, reaches Master level in Variety Arts when aiding the Dongting Sect. After defeating the Four Elders of Shangshan within one's own sect, upon learning that the Four Elders have appeared in Jingnan, they join after exploring the Changle District in Jingnan."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: GetDesc
     subIndex: 1
     text: "2、非洞庭帮，触发宁王结局后，在宁王拜山剧情前，驰援洞庭帮时百戏到达大师级，此后在本门击退商山四皓后，得知商山四皓在荆南出现，探索荆南长乐坊后加入。"
-    translated: "2, not a member of the Dongting Sect, after triggering the Peaceful King's ending and before the Peaceful King visits the mountain, reaches Master level in Variety Arts when aiding the Dongting Sect. After defeating the Four Elders of Shangshan within one's own sect, upon learning that the Four Elders have appeared in Jingnan, they join after exploring the Changle District in Jingnan."
+    translated: "2, if not from the Dongting Sect and reaches Master level in Variety Arts after triggering Prince Ning's ending but before the scene where Prince Ning pays homage to the mountain, and then joins after repelling the Four Elders of Shangshan back at his own sect upon learning that the Four Elders of Shangshan have appeared in Jingnan, he can join by exploring Changle Fang in Jingnan."
   templates:
   - splitPath: GetDesc
     template: "{0}\\n{1}"
@@ -3037,12 +3024,16 @@
   - splitPath: IdName
     text: "唐傲"
     translated: "Zhongli Hen"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Ao,唐傲,"
     qcReviewedText: "Zhongli Hen"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Name
     text: "唐傲"
     translated: "Zhongli Hen"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Ao,唐傲,"
     qcReviewedText: "Zhongli Hen"
     qcStatus: Passed
     qcQualityScore: 100
@@ -3165,6 +3156,8 @@
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后加入。"
     translated: "Join the Tang Clan. Starting from the sixth year of the month, Luck reached 150. Explore the western Sichuan five times, learn that Fu Yunfei is challenging Yan Tesheng. Afterward, defeat Fu Yunfei and Kou Fumu. Finally, explore the Thousand Mechanisms Hall twice consecutively. After Tang Leng's heart knot is untied, he joins."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Join the Tang Clan. Starting from the sixth year of the month, Luck reached 150. Explore the western Sichuan five times, learn that Fu Yunfei is challenging Yan Tesheng. Afterward, defeat Fu Yunfei and Kou Fumu. Finally, explore the Thousand Mechanisms Hall twice consecutively. After Tang Leng's heart knot is untied, he joins."
     qcTranslated: "Join the Tang Clan. Starting from the first month of the sixth year, Luck reached 150.. Explore the western Sichuan five times, learn that Fu Yunfei is challenging Yan Tiesheng. Afterward, defeat Fu Yunfei and Kou Fumo. Finally, explore the Thousand Mechanisms Hall twice consecutively. After Tang Lengxin's heart knot is untied, he joins."
     qcStatus: Corrected
@@ -3360,12 +3353,16 @@
   - splitPath: IdName
     text: "唐墨"
     translated: "Jiang Mo"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Mo,唐墨,"
     qcReviewedText: "Jiang Mo"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Name
     text: "唐墨"
     translated: "Jiang Mo"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Mo,唐墨,"
     qcReviewedText: "Jiang Mo"
     qcStatus: Passed
     qcQualityScore: 100
@@ -3405,12 +3402,16 @@
   - splitPath: IdName
     text: "唐醉"
     translated: "Dong Zui"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Zui,唐醉,"
     qcReviewedText: "Dong Zui"
     qcStatus: Passed
     qcQualityScore: 85
   - splitPath: Name
     text: "唐醉"
     translated: "Dong Zui"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Zui,唐醉,"
     qcReviewedText: "Dong Zui"
     qcStatus: Passed
     qcQualityScore: 100
@@ -3441,6 +3442,8 @@
   - splitPath: GetDesc
     text: "加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。"
     translated: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
     qcTranslated: "Join the Tang Clan. In the third month of the fourth year, Ming Tong searched for Tang Jue. From then until before the tenth month of the fourth year, explore Chuan Dong to encounter Ming Da, and report back to Ming Tong at the Training Ground. Afterward, explore Chuan Dong twice: defeat Ming Da in a martial contest during the first exploration, and have Tang Zui help you win a drinking match against Ming Da during the second exploration, then join the Tang Clan."
     qcStatus: Corrected
@@ -3792,12 +3795,16 @@
   - splitPath: IdName
     text: "明通"
     translated: "Clear Path"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Clear Path"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Name
     text: "明通"
     translated: "Clear Path"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Clear Path"
     qcStatus: Passed
     qcQualityScore: 100
@@ -3828,6 +3835,8 @@
   - splitPath: GetDesc
     text: "加入唐门，第四年三月明通找寻唐觉后，截止至第四年十月前，探索川东遇到明达，探索演武场回报明通，此后两次探索川东第一次比武战胜明达，第二次唐醉帮助斗酒胜过明达后加入。"
     translated: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Join the Tang Clan. In the third month of the fourth year, they searched for Tang Jue in Chuan Dong. From then until the tenth month of the same year, they explored Chuan Dong, encountered Ming Da, reported back to Ming Tong in the Training Ground, and explored Chuan Dong twice. In the first exploration, they defeated Ming Da in a martial contest. In the second exploration, after Tang Zui helped them in a drinking match to defeat Ming Da, they joined the Tang Clan."
     qcTranslated: "Join the Tang Clan. In the third month of the fourth year, Ming Tong searched for Tang Jue. From then until before the tenth month of the fourth year, explore Chuan Dong to encounter Ming Da, and report back to Ming Tong at the Training Ground. Afterward, explore Chuan Dong twice: defeat Ming Da in a martial contest during the first exploration, and have Tang Zui help you win a drinking match against Ming Da during the second exploration, then join the Tang Clan."
     qcStatus: Corrected
@@ -4022,6 +4031,8 @@
   - splitPath: GetDesc
     text: "依次探索湘北、荆东、荆北拜访宗信、史忠泽、鲁孝宽，再次探索荆北发觉阴谋，灵活到达160时，探索湘北山洞遇险，逃出后击败宗信三人后解锁"
     translated: "Successively explore Xiangbei, Jingdong, and Jingbei to visit Zong Xin, Shi Zhongze, and Lu Xiaowan. Upon further exploration of Jingbei, you uncover a plot. Use flexibility to arrive at 160, then explore the mountains in Xiangbei and encounter danger. After escaping, defeat the three individuals Zong Xin and unlock"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lu Xiaokuan,鲁孝宽,"
     qcReviewedText: "Successively explore Xiangbei, Jingdong, and Jingbei to visit Zong Xin, Shi Zhongze, and Lu Xiaowan. Upon further exploration of Jingbei, you uncover a plot. Use flexibility to arrive at 160, then explore the mountains in Xiangbei and encounter danger. After escaping, defeat the three individuals Zong Xin and unlock"
     qcTranslated: "Successively explore Xiangbei, Jingdong, and Jingbei to visit Zong Xin, Shi Zhongze, and Lu Xiaowan. Upon further exploration of Jingbei, you uncover a plot. Use flexibility to arrive at 160, then explore the mountains in Xiangbei and encounter danger. After escaping, defeat Zong Xin and the other two and unlock"
     qcStatus: Corrected
@@ -4078,16 +4089,10 @@
   splits:
   - splitPath: IdName
     text: "方刚"
-    translated: "Hard"
-    qcReviewedText: "Hard"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Fang Gang"
   - splitPath: Name
     text: "方刚"
-    translated: "Hard"
-    qcReviewedText: "Hard"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Fang Gang"
   - splitPath: Title
     text: "百斩刀"
     translated: "Blade of a Hundred Cuts"
@@ -4114,11 +4119,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "探索川中，遇到盗粮三鼠围攻方刚，吓退三人，再次探索川中川蜀六扇门拜访樊重关后加入。"
-    translated: "Explore Central Sichuan and encounter an attack by the Thrice-Murderous Rats over grain theft. Defend Hard against the three attackers and successfully repel them. After this, explore Central Sichuan and visit Fan Zhongguan at Six Doors in Sichuan. Join the group afterward."
-    qcReviewedText: "Explore Central Sichuan and encounter an attack by the Thrice-Murderous Rats over grain theft. Defend Hard against the three attackers and successfully repel them. After this, explore Central Sichuan and visit Fan Zhongguan at Six Doors in Sichuan. Join the group afterward."
-    qcTranslated: "Explore Central Sichuan and encounter the Three Grain-Thieving Rats besieging Fang Gang. Scare off the three attackers, then explore Central Sichuan again and visit Fan Zhongguan at the Six Doors in Sichuan-Shu to join him."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Exploring Central Sichuan, you encountered the Thieving Trio of Mice attacking Fang Gang and scared them off. After visiting Fan Zhongguan at the Six Doors in Sichuan, you joined their side."
 - raw: "{\r\n    \"Key\": \"1161\",\r\n    \"IdName\": \"权玉真\",\r\n    \"Name\": \"权玉真\",\r\n    \"Title\": \"还丹道人\",\r\n    \"CardName\": \"崆峒弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"崆峒派弟子，颖悟缜密，内敛温和，出身关陇望族，因其父与“丹阳子”吕化一为方外至交，故而自幼拜入吕化一门下，天赋卓异，尤擅丹道，十三岁时便独立开炉，炼出此生的第一炉丹药，深得吕化一的赏识与喜爱。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。\",\r\n    \"NameTw\": \"權玉真\",\r\n    \"TitleTw\": \"還丹道人\",\r\n    \"DescTw\": \"崆峒派弟子，穎悟縝密，內斂溫和，出身關隴望族，因其父與“丹陽子”呂化一為方外至交，故而自幼拜入呂化一門下，天賦卓異，尤擅丹道，十三歲時便獨立開爐，煉出此生的第一爐丹藥，深得呂化一的賞識與喜愛。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間丹術到達高手，探索太初洞加入。\",\r\n    \"CardNameTw\": \"崆峒弟子\"\r\n  }"
   rawIndex: 1161
   splits:
@@ -4660,10 +4661,7 @@
     qcQualityScore: 100
   - splitPath: Title
     text: "食虺神君"
-    translated: "Serpent God"
-    qcReviewedText: "Serpent God"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Viper-Eating Divine Lord"
   - splitPath: CardName
     text: "盘蛇谷主"
     translated: "Coiled Serpent Valley Master"
@@ -4724,11 +4722,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "盘蛇谷谷主夫人，冷艳清寒，坚毅果决，出身于荆东书香之家，十八岁时被盘蛇谷谷主食虺神君蒋疠夫强娶为妻，入谷后便跟随蒋疠夫修炼盘蛇谷各般秘术，皆有所成，尤在毒术之上天赋极佳，已不在蒋疠夫之下。"
-    translated: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, excelling particularly in poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcReviewedText: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, excelling particularly in poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcTranslated: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, achieving success in all of them, excelling particularly in Poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "The Lady of Coiled Serpent Valley, cold and elegant with a resolute spirit, came from a scholarly family in eastern Jing. At the age of eighteen, she was forcibly married by the valley's master, the Viper-Eating Divine Lord Jiang Lifu. After entering the valley, she trained under him in various secret arts, achieving remarkable success-especially in Poison, where her natural talent surpassed even that of Jiang Lifu."
   - splitPath: GetDesc
     text: "从第五年一月起，阮碧青友好到达50，探索盘蛇谷可帮助阮碧青去荆东送信，为阮碧青送回家信后，从第六年一月起，阮碧青、盘蛇谷友好都达到60，御兽到达130，阮碧青暗算蒋疠夫，选择帮助阮碧青，战胜蒋疠夫后加入"
     translated: "Starting from January of the fifth year, Ruan Biqing arrived at 50 friendly. Exploring Coiled Serpent Valley can help Ruan Biqing deliver a message to Jingdong. After delivering the home letter for Ruan Biqing, starting from January of the sixth year, both Ruan Biqing and Coiled Serpent Valley maintained a friendly status, with Beast Taming reaching 60. Ruan Biqing attempted to scheme against Jiang Lifu. Choosing to assist Ruan Biqing, after defeating Jiang Lifu, Ruan Biqing joins. Beast Taming reaches 130."
@@ -4771,11 +4765,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "盘蛇谷谷主夫人，冷艳清寒，坚毅果决，出身于荆东书香之家，十八岁时被盘蛇谷谷主食虺神君蒋疠夫强娶为妻，入谷后便跟随蒋疠夫修炼盘蛇谷各般秘术，皆有所成，尤在毒术之上天赋极佳，已不在蒋疠夫之下。"
-    translated: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, excelling particularly in poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcReviewedText: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, excelling particularly in poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcTranslated: "Coiled Serpent Valley's Lady, cold and elegant with a clear and frigid demeanor, is resolute and decisive. She hails from the Jin Dong scholarly family, and at eighteen, was forcibly married to the valley's master, Serpent God Jiang Lifu. Upon entering the valley, she followed Jiang Lifu in mastering various secretive arts of Coiled Serpent Valley, achieving success in all of them, excelling particularly in Poison techniques, her innate talent surpassing that of even Jiang Lifu himself."
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "The Lady of Coiled Serpent Valley, cold and elegant with a resolute spirit, came from a scholarly family in eastern Jing. At the age of eighteen, she was forcibly married by the valley's master, the Viper-Eating Divine Lord Jiang Lifu. After entering the valley, she trained under him in various secret arts, achieving remarkable success-especially in Poison, where her natural talent surpassed even that of Jiang Lifu."
   - splitPath: GetDesc
     text: "阮碧青加入后，御兽到达150，在九嶷山战胜异蛇王，选择送给阮碧青后解锁"
     translated: "After Ruan Biqing joins, Beast Taming reaches 150, and she defeats the Strange Snake King on Jiuyi Mountain, unlocking this upon choosing to give it to Ruan Biqing."
@@ -4909,10 +4899,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "2025年圣诞特别形象。盘蛇谷谷主夫人，冷艳清寒，坚毅果决，出身于荆东书香之家，十八岁时被盘蛇谷谷主食虺神君蒋疠夫强娶为妻，入谷后便跟随蒋疠夫修炼盘蛇谷各般秘术，皆有所成，尤在毒术之上天赋极佳，已不在蒋疠夫之下。"
-    translated: "For the special Christmas image in year 2025. Lady of Coiled Serpent Valley, cold and elegant with a strong will, comes from an esteemed family in Jingdong. At eighteen, she was forcibly married to Lord Jiang Lifu, the head of Coiled Serpent Valley, known as the Serpent God. After entering the valley, she followed Jiang Lifu to practice various secretive arts of Coiled Serpent Valley and excelled, particularly in poison techniques, reaching a level where she no longer falls short of her husband."
-    qcReviewedText: "For the special Christmas image in year 2025. Lady of Coiled Serpent Valley, cold and elegant with a strong will, comes from an esteemed family in Jingdong. At eighteen, she was forcibly married to Lord Jiang Lifu, the head of Coiled Serpent Valley, known as the Serpent God. After entering the valley, she followed Jiang Lifu to practice various secretive arts of Coiled Serpent Valley and excelled, particularly in poison techniques, reaching a level where she no longer falls short of her husband."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "A special Christmas character from 2025 year. The wife of the lord of Coiled Serpent Valley, she is cold and aloof, resolute and determined. Coming from a scholarly family in Jingdong, she was forced to marry Jiang Lifu, the Viper-Eating Divine Lord and master of Coiled Serpent Valley, at the age of eighteen. After entering the valley, she trained under him in various secret arts, achieving great success, especially in Poison, where her natural talent surpassed even his own."
 - raw: "{\r\n    \"Key\": \"3019\",\r\n    \"IdName\": \"靳红衣\",\r\n    \"Name\": \"靳红衣\",\r\n    \"Title\": \"红娘子\",\r\n    \"CardName\": \"红娘子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"朱雀坊坊主，执掌天下四大赌坊之一的南坊朱雀坊，精明练达，八面玲珑，其家中三代经营赌业，五岁便会摇骰盅，七岁便精通打马吊，十五岁时赌术已超越自家赌坊众人，二十四岁以赌术纵横荆湘、江右、岭南等地，人称“南赌神”。\",\r\n    \"GetDesc\": \"从第四年一月起，与靳红衣友好到达60，赌术到达高手，探索朱雀坊与靳红衣博彩胜利后加入\",\r\n    \"NameTw\": \"靳紅衣\",\r\n    \"TitleTw\": \"紅娘子\",\r\n    \"DescTw\": \"朱雀坊坊主，執掌天下四大賭坊之一的南坊朱雀坊，精明練達，八面玲瓏，其家中三代經營賭業，五歲便會搖骰盅，七歲便精通打馬吊，十五歲時賭術已超越自家賭坊眾人，二十四歲以賭術縱橫荊湘、江右、嶺南等地，人稱“南賭神”。\",\r\n    \"GetDescTw\": \"從第四年一月起，與靳紅衣友好到達60，賭術到達高手，探索朱雀坊與靳紅衣博彩勝利後加入\",\r\n    \"CardNameTw\": \"紅娘子\"\r\n  }"
   rawIndex: 3019
   splits:
@@ -5230,10 +5217,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: Title
     text: "神机百巧"
     translated: "Godwit's Hundred Tricks"
@@ -5260,10 +5244,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "在川西汉昭烈庙初遇诸葛慧后，财富到达一百，再次探索汉昭烈庙，选择跟顽童换木鸢并交还诸葛慧后加入。"
-    translated: "After first encountering Zhu Ge Hui at the Han Zhaolie Temple in Western Sichuan, wealth reaches one hundred. Re-exploring the Han Zhaolie Temple, they choose to trade the wooden kite with the mischievous child and return to Zhu Ge Hui to join her."
-    qcReviewedText: "After first encountering Zhu Ge Hui at the Han Zhaolie Temple in Western Sichuan, wealth reaches one hundred. Re-exploring the Han Zhaolie Temple, they choose to trade the wooden kite with the mischievous child and return to Zhu Ge Hui to join her."
-    qcStatus: Passed
-    flaggedForQcReview: true
+    translated: "After first meeting Zhuge Hui at the Han Zhao Lie Shrine in Western Sichuan and reaching a wealth of one hundred, upon revisiting the Han Zhao Lie Shrine, choose to trade with the mischievous child for the wooden kite and return it to Zhuge Hui to join her."
 - raw: "{\r\n    \"Key\": \"3065\",\r\n    \"IdName\": \"诸葛慧2\",\r\n    \"Name\": \"诸葛慧\",\r\n    \"Title\": \"神机百巧\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"结缘\",\r\n    \"Desc\": \"诸葛家家主\",\r\n    \"GetDesc\": \"探索川西带诸葛慧逛成都庙会，随后探索汉昭烈庙获得回礼，第五年一月开始，探索汉昭烈庙放孔明灯，最后当灵活和体魄两项都到达120时，探索川中寻异种铁橡木后解锁\",\r\n    \"NameTw\": \"諸葛慧\",\r\n    \"TitleTw\": \"神機百巧\",\r\n    \"DescTw\": \"諸葛家家主\",\r\n    \"GetDescTw\": \"探索川西帶諸葛慧逛成都廟會，隨後探索漢昭烈廟獲得回禮，第五年一月開始，探索漢昭烈廟放孔明燈，最後當靈活和體魄兩項都到達120時，探索川中尋異種鐵橡木後解鎖\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3065
   splits:
@@ -5275,10 +5256,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: Title
     text: "神机百巧"
     translated: "Godwit's Hundred Tricks"
@@ -5412,10 +5390,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: Title
     text: "云峰雁首"
     translated: "Yunfeng Yanzhao"
@@ -5458,10 +5433,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: Title
     text: "云峰雁首"
     translated: "Yunfeng Yanzhao"
@@ -5581,6 +5553,8 @@
   - splitPath: GetDesc
     text: "探索神女宫，和沈青鸬了解暮雨司。第七年一月开始，探索神女宫，得到赤纹芍药的消息。财富到达200，探索川西，打探谷大升消息。探索神女宫，定下劫取谷大升赤纹芍药的计策。探索川东，击败洪通和封百水，劫船获取赤纹芍药。"
     translated: "Explore the Goddess Palace and learn about the Evening Rain Department from Shen Qingle. Starting in the seventh month of January, explore the Goddess Palace and learn about the Crimson Vein Paeonia. Wealth has reached 200, so explore the western Sichuan region to gather information on Gu Daisheng. Explore the Goddess Palace further to devise a plan to raid Gu Daisheng and seize the Crimson Vein Paeonia. Explore the eastern Sichuan region, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Crimson Vein Paeonia."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Feng Baishui,封百水,"
     qcReviewedText: "Explore the Goddess Palace and learn about the Evening Rain Department from Shen Qingle. Starting in the seventh month of January, explore the Goddess Palace and learn about the Crimson Vein Paeonia. Wealth has reached 200, so explore the western Sichuan region to gather information on Gu Daisheng. Explore the Goddess Palace further to devise a plan to raid Gu Daisheng and seize the Crimson Vein Paeonia. Explore the eastern Sichuan region, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Crimson Vein Paeonia."
     qcTranslated: "Explore the Goddess Palace and learn about the Evening Rain Department from Shen Qingle. Starting in Month 1 of Year 7, explore the Goddess Palace and learn about the Crimson Vein Paeonia. Wealth has reached 200, so explore the western Sichuan region to gather information on Gu Daisheng. Explore the Goddess Palace further to devise a plan to raid Gu Daisheng and seize the Crimson Vein Paeonia. Explore the eastern Sichuan region, defeat Hong Tong and Feng Baisui, and hijack a ship to obtain the Crimson Vein Paeonia."
     qcStatus: Corrected
@@ -5992,10 +5966,8 @@
   - splitPath: GetDesc
     text: "第四年一月开始，财富到达1000探索荆北，在夏侯珺处任意购买一件物品，探索荆北六合帮拜见后，再次探索荆东打败崔三贯后加入"
     translated: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
-    qcReviewedText: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
-    qcTranslated: "Starting in January of the fourth year, once your Wealth reaches {0}, explore Jingbei and purchase any item from Xiahou Jun. After exploring Jingbei and paying respects to the Six Harmonies Sect, explore Eastern Jing again and defeat Cui Sanguan before joining."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Starting in January of the fourth year, wealth allows you to explore Jingbei and purchase any item at Xiahou Jun's place. After meeting with the Six Harmonies Sect in Jingbei, revisit Eastern Jing and defeat Cui Sanguan before joining."
 - raw: "{\r\n    \"Key\": \"3028\",\r\n    \"IdName\": \"夏侯珺2\",\r\n    \"Name\": \"夏侯珺\",\r\n    \"Title\": \"金钱雁\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤善于商贾之道，自幼便随其父夏侯朝乘船在金钱河上，往来于关陇和荆湘两地做生意，一直梦想着有朝一日能将生意做到全天下。\",\r\n    \"GetDesc\": \"先后探索湘东、湘南，第七年一月开始，六合帮友好到达50（六合帮友好可通过购买宝物增加）探索六合帮，打败崔三贯，解锁夏侯珺红颜\\\\n\\\\n夏侯珺形象二、三、四\\\\n解锁夏侯珺红颜后，完成夏侯珺前传故事解锁\",\r\n    \"NameTw\": \"夏侯珺\",\r\n    \"TitleTw\": \"金錢雁\",\r\n    \"DescTw\": \"六合幫大小姐，“朝秦暮楚”夏侯朝之女，精明強幹，不拘小節，天生聰慧，武藝精通，尤善於商賈之道，自幼便隨其父夏侯朝乘船在金錢河上，往來於關隴和荊湘兩地做生意，一直夢想著有朝一日能將生意做到全天下。\",\r\n    \"GetDescTw\": \"先後探索湘東、湘南，第七年一月開始，六合幫友好到達50（六合幫友好可通過購買寶物增加）探索六合幫，打敗崔三貫，解鎖夏侯珺紅顏\\\\n\\\\n夏侯珺形象二、三、四\\\\n解鎖夏侯珺紅顏後，完成夏侯珺前傳故事解鎖\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 3028
   splits:
@@ -6663,16 +6635,10 @@
   splits:
   - splitPath: IdName
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: Name
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: Title
     text: "落霞飞花"
     translated: "Falling xia petals dance in the wind"
@@ -6709,16 +6675,10 @@
   splits:
   - splitPath: IdName
     text: "邵轻虹2"
-    translated: "Sha Qinghong 2"
-    qcReviewedText: "Sha Qinghong 2"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong2"
   - splitPath: Name
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: Title
     text: "落霞飞花"
     translated: "Falling xia petals dance in the wind"
@@ -6757,12 +6717,16 @@
   - splitPath: IdName
     text: "大通"
     translated: "Great Passage"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Datong,大通,"
     qcReviewedText: "Great Passage"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "大通"
     translated: "Great Passage"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Datong,大通,"
     qcReviewedText: "Great Passage"
     qcStatus: Passed
     qcQualityScore: 100
@@ -6884,11 +6848,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "第八年一月开始，粉碎至少两次宁王阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂，且解锁风间爱红颜，此后两次次探索湘北战胜风间爱和吕霸先等人加入。"
-    translated: "In January of the eighth year, begin to thwart at least twice the Peaceful King's conspiracies. Explore victories in three consecutive matches against the Northern Hunan region to destabilize the Peaceful King's arena, and unlock Kazama Ai as a lady ally. Following this, explore the Northern Hunan region again to defeat Kazama Ai and Lu Baxian and others, who then join your party."
-    qcReviewedText: "In January of the eighth year, begin to thwart at least twice the Peaceful King's conspiracies. Explore victories in three consecutive matches against the Northern Hunan region to destabilize the Peaceful King's arena, and unlock Kazama Ai as a lady ally. Following this, explore the Northern Hunan region again to defeat Kazama Ai and Lu Baxian and others, who then join your party."
-    qcTranslated: "In January of the eighth year, begin to thwart at least two of the Peaceful King's conspiracies. Explore Northern Hunan to open the Talent Recruitment Arena, and achieve three consecutive wins in the Talent Recruitment Arena to disrupt the Peaceful King's arena. Additionally, unlock Kazama Ai as a beauty companion. After this, explore Northern Hunan twice to defeat Kazama Ai, Lu Baxian, and others, who will then join your party."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Starting from January of the eighth year, thwart at least two plots by Prince Ning, explore Xiangbei to launch the Talent Recruitment Tournament, win three consecutive matches in this tournament to disrupt Prince Ning's events, and unlock Kazama Ai as a beautiful ally. Subsequently, through further exploration of Xiangbei, defeat Kazama Ai and Lu Baxian among others and bring them on board."
 - raw: "{\r\n    \"Key\": \"6001\",\r\n    \"IdName\": \"金太岁\",\r\n    \"Name\": \"金太岁\",\r\n    \"Title\": \"刀不留人\",\r\n    \"CardName\": \"独行大盗\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"金太岁，号“刀不留人”。本名金天，出身蜀中农户，早年曾为本地员外安越担任护院。因其武艺高强、性情忠厚，被安越赏识，招为婿，遂继承家业。不料后来突逢大变，家业尽毁、亲人离散，不得已沦落绿林。\",\r\n    \"GetDesc\": \"破庙选择帮金太岁隐藏行踪，第四年一月开始，探索荆东加入\",\r\n    \"NameTw\": \"金太歲\",\r\n    \"TitleTw\": \"刀不留人\",\r\n    \"DescTw\": \"金太歲，號“刀不留人”。本名金天，出身蜀中農戶，早年曾為本地員外安越擔任護院。因其武藝高強、性情忠厚，被安越賞識，招為婿，遂繼承家業。不料後來突逢大變，家業盡毀、親人離散，不得已淪落綠林。\",\r\n    \"GetDescTw\": \"破廟選擇幫金太歲隱藏行蹤，第四年一月開始，探索荊東加入\",\r\n    \"CardNameTw\": \"獨行大盜\"\r\n  }"
   rawIndex: 6001
   splits:
@@ -7181,6 +7141,8 @@
   - splitPath: Desc
     text: "澜沧国女使，善解人意，体贴贤惠，与“月光女使”朵玉儿是双胞胎姐妹，自幼被“澜沧富商”那瑜陀收养，被舞姬教导音律、乐舞，并从澜沧派的高手处学得了一些武艺，并由那瑜陀亲自带在身边教授神州官话。"
     translated: "The female envoy from the Lancang Kingdom is understanding and considerate, with a virtuous disposition. She is twin sister to  “Moonlight Maiden Agent”  Duo Yu'er. Since childhood, she was adopted by Mr. Nan Yutuo, a wealthy merchant of the Lancang Sect. Under the guidance of Dancer, they learned musical arts and dance. She also acquired some martial skills from masters within the Lancang Sect and was personally tutored in Standard Chinese by Mr. Nan Yutuo."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "The female envoy from the Lancang Kingdom is understanding and considerate, with a virtuous disposition. She is twin sister to  “Moonlight Maiden Agent”  Duo Yu'er. Since childhood, she was adopted by Mr. Nan Yutuo, a wealthy merchant of the Lancang Sect. Under the guidance of Dancer, they learned musical arts and dance. She also acquired some martial skills from masters within the Lancang Sect and was personally tutored in Standard Chinese by Mr. Nan Yutuo."
     qcTranslated: "The female envoy from the Lancang Kingdom is understanding and considerate, with a virtuous disposition. She is twin sister to “Moonlight Female Envoy” Duo Yu'er. Since childhood, she was adopted by Nan Yutuo, a wealthy merchant of the Lancang Sect. Under the guidance of a dancer, she learned Musical Arts and dance. She also acquired some martial skills from masters within the Lancang Sect and was personally tutored in Standard Chinese by Nan Yutuo."
     qcStatus: Corrected
@@ -7227,6 +7189,8 @@
   - splitPath: Desc
     text: "澜沧国女使，善解人意，体贴贤惠，与“日光女使”朵金儿是双胞胎姐妹，自幼被“澜沧富商”那瑜陀收养，被舞姬教导音律、乐舞，并从澜沧派的高手处学得了一些武艺，并由那瑜陀亲自带在身边教授神州官话。"
     translated: "The female envoy from the Lancang Kingdom, sensitive and considerate, is a virtuous woman. She and  “Daylight Female Messenger”  Duo Jin'er are twin sisters. They were raised by wealthy merchant Naye Tu since childhood. Under the guidance of dancers, she learned musical arts and dance. Additionally, she studied some martial arts from skilled practitioners of the Lancang Sect under Naye Tu's personal instruction. He taught them the official speech of Shenzhou."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "The female envoy from the Lancang Kingdom, sensitive and considerate, is a virtuous woman. She and  “Daylight Female Messenger”  Duo Jin'er are twin sisters. They were raised by wealthy merchant Naye Tu since childhood. Under the guidance of dancers, she learned musical arts and dance. Additionally, she studied some martial arts from skilled practitioners of the Lancang Sect under Naye Tu's personal instruction. He taught them the official speech of Shenzhou."
     qcTranslated: "The female envoy from the Lancang Kingdom, sensitive and considerate, is a virtuous woman. She and “Daylight Female Messenger” Duo Jin'er are twin sisters. They were raised by wealthy merchant Naye Tu since childhood. Under the guidance of dancers, she learned Musical Arts and dance. Additionally, she studied some martial arts from skilled practitioners of the Lancang Sect, and Naye Tu personally kept her by his side to teach her the official speech of Shenzhou."
     qcStatus: Corrected
@@ -8618,10 +8582,7 @@
     qcQualityScore: 100
   - splitPath: CardName
     text: "宁王侧妃"
-    translated: "Peaceful King's Concubine"
-    qcReviewedText: "Peaceful King's Concubine"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning's concubine"
   - splitPath: BaseDesc
     text: "常规"
     translated: "Routine"
@@ -8630,11 +8591,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。"
-    translated: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcReviewedText: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcTranslated: "Ning Wang's concubine, titled “Su Fei,” is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named “Little Chun Shen” Xiao Lingyu, whom she looked after since childhood and who is closest to her. Ning Wang married into the Xiao family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served him due to the lack of affection between them."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "The Prince Ning's concubine, titled “Lady Su,” was gentle, graceful, and magnanimous. Born into the prominent Xiao family of Xiangyang, she had a younger brother named Xiao Lingyu, nicknamed “Little Chunshen,” whom she had grown up with and was closest to. The Prince Ning married her out of political alliance, taking advantage of the Xiao family's influence in Jingxiang, and offered her a priceless flawless jade bi as a marriage proposal. However, lacking any affection for him, she never served by his side."
   - splitPath: GetDesc
     text: "第七年一月开始，福缘到达150，探索荆东击击败黑衣人救下萧令仪姐弟，此后再次探索荆东加入。"
     translated: "Starting in the seventh Year of January, Luck arrived at 150. They explored Jingdong to defeat the black-clad assassins and save Xiao Lingyi and her brother. Thereafter, they continued exploring Jingdong and joined its cause."
@@ -8677,11 +8634,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。"
-    translated: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcReviewedText: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcTranslated: "Ning Wang's concubine, titled “Su Fei,” is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named “Little Chun Shen” Xiao Lingyu, whom she looked after since childhood and who is closest to her. Ning Wang married into the Xiao family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served him due to the lack of affection between them."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "The Prince Ning's concubine, titled “Lady Su,” was gentle, graceful, and magnanimous. Born into the prominent Xiao family of Xiangyang, she had a younger brother named Xiao Lingyu, nicknamed “Little Chunshen,” whom she had grown up with and was closest to. The Prince Ning married her out of political alliance, taking advantage of the Xiao family's influence in Jingxiang, and offered her a priceless flawless jade bi as a marriage proposal. However, lacking any affection for him, she never served by his side."
   - splitPath: GetDesc
     text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。"
     translated: "After Xiao Lingyi joined, there were three expeditions to Jingbei. He joined after defeating Qiu Chaoren."
@@ -8734,11 +8687,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "宁王侧妃，封号“素妃”，温婉娴静，雍容大度，出生于襄阳世家萧氏，有一胞弟“小春申”萧令羽，乃其自幼看大，最为亲密，宁王因看中萧家在荆襄权势而娶其联姻，以一块价值连城的无瑕玉璧求聘，但因其与宁王并无感情而从无侍奉。"
-    translated: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcReviewedText: "Ning Wang's concubine, titled  “Su Fei” , is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named  “Little Chun Shen”  Vang Yu, whom she looked after since childhood and who is closest to her. While correcting, also verify: Ning Wang married into the Xio family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served them due to the lack of affection between them."
-    qcTranslated: "Ning Wang's concubine, titled “Su Fei,” is gentle and quiet, dignified and generous. She was born into the Xiao family of the distinguished Xiangyang clan. She has a younger brother named “Little Chun Shen” Xiao Lingyu, whom she looked after since childhood and who is closest to her. Ning Wang married into the Xiao family due to their considerable power in Jingxiang, offering a flawless jade disk worth countless treasures as an offer of marriage, but Su Fei never served him due to the lack of affection between them."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "The Prince Ning's concubine, titled “Lady Su,” was gentle, graceful, and magnanimous. Born into the prominent Xiao family of Xiangyang, she had a younger brother named Xiao Lingyu, nicknamed “Little Chunshen,” whom she had grown up with and was closest to. The Prince Ning married her out of political alliance, taking advantage of the Xiao family's influence in Jingxiang, and offered her a priceless flawless jade bi as a marriage proposal. However, lacking any affection for him, she never served by his side."
   - splitPath: GetDesc
     text: "萧令仪加入后，三次探索荆北，击败仇朝恩后加入。"
     translated: "After Xiao Lingyi joined, there were three expeditions to Jingbei. He joined after defeating Qiu Chaoren."
@@ -8791,11 +8740,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "襄阳萧家二公子，温润宽和，轻财好施，出生于襄阳世家萧氏，自幼被长姐萧令仪照顾，与其最为亲厚，萧令仪嫁与宁王为妃后，他在襄阳仗义疏财，扶危济困，大肆招揽门客，大有战国之时“春申君”之风，只待有朝一日能将长姐救回。"
-    translated: "Second Young Lord of the Xiao Family from Xiangyang, gentle and kind, frugal yet generous, was born into the prestigious Xiao family of Xiangyang. Since his childhood, he has been cared for by his eldest sister, Xiao Lingyi, with whom he is closest. After Xiao Lingyi married Peaceful King as his concubine, he acted chivalrously and generously in Xiangyang, helping those in need and recruiting retainers on a grand scale, much like the  “Springling Lord”  of the Warring States era. He waits for the day when he can rescue his elder sister."
-    qcReviewedText: "Second Young Lord of the Xiao Family from Xiangyang, gentle and kind, frugal yet generous, was born into the prestigious Xiao family of Xiangyang. Since his childhood, he has been cared for by his eldest sister, Xiao Lingyi, with whom he is closest. After Xiao Lingyi married Peaceful King as his concubine, he acted chivalrously and generously in Xiangyang, helping those in need and recruiting retainers on a grand scale, much like the  “Springling Lord”  of the Warring States era. He waits for the day when he can rescue his elder sister."
-    qcTranslated: "Second Young Lord of the Xiao Family from Xiangyang, gentle and magnanimous, indifferent to wealth and fond of giving, was born into the prestigious Xiao family of Xiangyang. Since his childhood, he has been cared for by his eldest sister, Xiao Lingyi, with whom he is closest. After Xiao Lingyi married Peaceful King as his concubine, he acted chivalrously and generously in Xiangyang, helping those in need and recruiting retainers on a grand scale, much like the Lord Chunshen of the Warring States era. He waits for the day when he can rescue his elder sister."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "The Second Young Lord of the Xiao family in Xiangyang-gentle, kind-hearted, and generous-was born into this prominent Xiangyang clan. From a young age, he was cared for by his elder sister Xiao Lingyi, with whom he shared a very close bond. After Xiao Lingyi married Prince Ning as his concubine, he continued to distribute wealth generously and help those in need in Xiangyang, recruiting many followers around him, much like the legendary “Lord Chunshen” during the Warring States period. All he longed for was the day when he could rescue his elder sister."
   - splitPath: GetDesc
     text: "第七年一月开始，福缘到达150，探索荆东击击败黑衣人救下萧令仪姐弟，此后再次探索荆东加入。"
     translated: "Starting in the seventh Year of January, Luck arrived at 150. They explored Jingdong to defeat the black-clad assassins and save Xiao Lingyi and her brother. Thereafter, they continued exploring Jingdong and joined its cause."
@@ -8900,11 +8845,7 @@
     translated: "Coronaro, from one of Venice's noble families. When her father met with misfortune, the family fell into a web of conspiracy. Her uncle and cousin seized power and assets, but she used her wit and sword to navigate the courts and canals, thwarting the nobility multiple times. She acts with cool composure and ruthless efficiency, balancing revenge and protection, reclaiming dignity and freedom in blood and fire."
   - splitPath: GetDesc
     text: "第四年一月开始，先后探索湘南、湘东、荆东，第七年一月开始，连续探索荆东，战胜达达里奥解锁"
-    translated: "Starting from January of the fourth year, I explored Xiangnan, Xiangdong, and Jingdong in succession. Starting from January of the seventh year, I continuously explored Jingdong and defeated Dada Liao to unlock it."
-    qcReviewedText: "Starting from January of the fourth year, I explored Xiangnan, Xiangdong, and Jingdong in succession. Starting from January of the seventh year, I continuously explored Jingdong and defeated Dada Liao to unlock it.\\n\\nElena Image Two, Three \\nUnlock Elena's Red Beauty after completing her prequel story.\\n\\nElena's Image IV \\nUnlock Elena's Red Rose after Potential and Flexibility reach 160 and complete Elena's story dialogue to unlock.\\n\\nElena Image Five \\nUnlocks automatically upon unlocking the Red Beauty feature."
-    qcTranslated: "Starting from January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong in succession. Starting from January of the seventh year, continuously explore Jingdong and defeat Dada Liao to unlock\\n\\nElena Image Two, Three\\nUnlock Elena's Red Beauty after completing her prequel story.\\n\\nElena's Image IV \\nUnlock Elena's Red Beauty after Potential and Flexibility reach 160 and complete Elena's story dialogue to unlock.\\n\\nElena Image Five \\nUnlocks automatically upon unlocking the Red Beauty feature."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Starting in January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong in sequence. Beginning in January of the seventh year, continue exploring Jingdong and defeat Dadario to unlock it."
   - splitPath: GetDesc
     subIndex: 1
     text: "艾琳娜形象二、三"
@@ -9161,11 +9102,7 @@
     qcQualityScore: 65
   - splitPath: GetDesc
     text: "第八年前解锁风间爱红颜，并粉碎至少两次阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂。此后两次次探索湘北战胜风间爱和吕霸先等人加入。"
-    translated: "Unlock Kazama Ai as a beautiful lady eight years ago and foil at least two conspiracies. In the eighth year, explore Xiangbei to win three consecutive battles, disrupting the Peaceful King's arena. Afterwards, explore Xiangbei twice more to defeat Kazama Ai and Lu Baxian, and have them join your party."
-    qcReviewedText: "Unlock Kazama Ai as a beautiful lady eight years ago and foil at least two conspiracies. In the eighth year, explore Xiangbei to win three consecutive battles, disrupting the Peaceful King's arena. Afterwards, explore Xiangbei twice more to defeat Kazama Ai and Lu Baxian, and have them join your party."
-    qcTranslated: "Unlock Kazama Ai in Year 8 and foil at least two conspiracies. Explore Xiangbei to open the Talent Recruitment Arena, then win three consecutive battles there to disrupt the Peaceful King's arena. Afterwards, explore Xiangbei twice more to defeat Kazama Ai and Lu Baxian, and have them join your party."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Unlock Kazama Ai's beauty eight years ago, shatter at least two conspiracies, explore Xiangbei to launch the Talent Recruitment Tournament, and win three consecutive matches in that tournament to disrupt Prince Ning's arena. Subsequent explorations of Xiangbei lead to victories over Kazama Ai and Lu Baxian among others, who then join forces."
 - raw: "{\r\n    \"Key\": \"6060\",\r\n    \"IdName\": \"风间月2\",\r\n    \"Name\": \"风间月\",\r\n    \"Title\": \"月影\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"扶桑甲贺流风间家忍者，缜密机变，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”投诚而被以望月家为首的甲贺五十六家联手覆灭，与兄长“夜影”风间夜保护新族长“夜月幽狐”风间爱一路逃至神州，寻找能为风间家复仇的方法。\",\r\n    \"GetDesc\": \"获取风间月后，两次探索湘北加入。\",\r\n    \"NameTw\": \"風間月\",\r\n    \"TitleTw\": \"月影\",\r\n    \"DescTw\": \"扶桑甲賀流風間家忍者，縝密機變，隱忍忠誠，風間家因老家主拒絕讓風間家向“神祕人”投誠而被以望月家為首的甲賀五十六家聯手覆滅，與兄長“夜影”風間夜保護新族長“夜月幽狐”風間愛一路逃至神州，尋找能為風間家復仇的方法。\",\r\n    \"GetDescTw\": \"獲取風間月後，兩次探索湘北加入。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
   rawIndex: 6060
   splits:
@@ -9301,11 +9238,7 @@
     qcQualityScore: 85
   - splitPath: GetDesc
     text: "第六年一月开始，探索三次湘北，在了解身世后，连续战胜神保清康与伴七郎后解锁。"
-    translated: "Starting in the sixth year of January, explore thrice along the Xiang River and Northern regions. After uncovering one's background, unlock by consecutively defeating Shimbo Kiyoshi and Ban Qilang."
-    qcReviewedText: "Starting in the sixth year of January, explore thrice along the Xiang River and Northern regions. After uncovering one's background, unlock by consecutively defeating Shimbo Kiyoshi and Ban Qilang."
-    qcTranslated: "Starting in the first month of the sixth year, explore Xiangbei three times. After uncovering one's background, unlock by consecutively defeating Shimbo Kiyoshi and Ban Qilang."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Starting from January of the sixth year, explore Hunan North three times. After learning about your background and defeating Seibo Kiyoyasu and Ban Shichiro in succession, it will be unlocked."
 - raw: "{\r\n    \"Key\": \"6069\",\r\n    \"IdName\": \"符天罡\",\r\n    \"Name\": \"符天罡\",\r\n    \"Title\": \"铜锤道长\",\r\n    \"CardName\": \"江湖奇人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖奇人，性情直爽，脾气火爆，虽身材矮小，却天生神力，自幼出家却不居道观，云游天下，四海为家。后得遇异人传授锤法，并为其铸造了一对雌雄铜锤，雌锤九十五斤，雄锤一百零三斤，凭此双锤纵横江湖，罕逢敌手。\",\r\n    \"GetDesc\": \"开放挂锤庄后，探索挂锤庄得知四猛师承，挂锤庄友好40探索湘北战胜洪十四，第五年一月开始，探索荆北再次战胜洪十四，第八年一月开始，挂锤庄友好到达80，探索湘北救下符天罡加入。\",\r\n    \"NameTw\": \"符天罡\",\r\n    \"TitleTw\": \"銅錘道長\",\r\n    \"DescTw\": \"江湖奇人，性情直爽，脾氣火爆，雖身材矮小，卻天生神力，自幼出家卻不居道觀，雲遊天下，四海為家。後得遇異人傳授錘法，併為其鑄造了一對雌雄銅錘，雌錘九十五斤，雄錘一百零三斤，憑此雙錘縱橫江湖，罕逢敵手。\",\r\n    \"GetDescTw\": \"開放掛錘莊後，探索掛錘莊得知四猛師承，掛錘莊友好40探索湘北戰勝洪十四，第五年一月開始，探索荊北再次戰勝洪十四，第八年一月開始，掛錘莊友好到達80，探索湘北救下符天罡加入。\",\r\n    \"CardNameTw\": \"江湖奇人\"\r\n  }"
   rawIndex: 6069
   splits:
@@ -9535,10 +9468,7 @@
     qcQualityScore: 92
   - splitPath: GetDesc
     text: "探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
-    translated: "Explore the ruins in Jingnan and camp there to obtain the Yazhi Bronze Plaque. Revisit Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Return to Jingnan to encounter Xue Ruyi again, and go together to Liu Jin's treasure. Unlock Xue Ruyi as a Red Beauty."
-    qcReviewedText: "Explore the ruins in Jingnan and camp there to obtain the Yazhi Bronze Plaque. Revisit Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Return to Jingnan to encounter Xue Ruyi again, and go together to Liu Jin's treasure. Unlock Xue Ruyi as a Red Beauty.\\n\\nXue Ruyi Image Two \\nUnlocks automatically upon unlocking the Red Beauty feature."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore the ruined temple in Jingnan to spend the night there and obtain the Yazi Bronze Plaque. Return to Jingnan once more to enter the treasure cave; after defeating Liu Jin, both he and Xue Ruyi fall off a cliff. Explore Jingnan again to reunite with Xue Ruyi, then head together to Liu Jin's treasure hoard to unlock Xue Ruyi's true beauty."
   - splitPath: GetDesc
     subIndex: 1
     text: "薛如意形象二"
@@ -9591,10 +9521,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "探索荆南破庙露宿获取睚眦铜牌，再次探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖，再次探索荆南再遇薛如意，一起前去刘瑾宝藏，解锁薛如意红颜。"
-    translated: "Explore the ruins of Jingnan and camp there to obtain the Yazhi Bronze Plaque. Revisit Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Return to Jingnan to meet Xue Ruyi again and go to Liu Jin's treasure together, unlocking Xue Ruyi as a Red Beauty."
-    qcReviewedText: "Explore the ruins of Jingnan and camp there to obtain the Yazhi Bronze Plaque. Revisit Jingnan to unlock the treasure cave. After defeating Liu Jin, both Liu Jin and Xue Ruyi fall off a cliff. Return to Jingnan to meet Xue Ruyi again and go to Liu Jin's treasure together, unlocking Xue Ruyi as a Red Beauty."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore the ruined temple in Jingnan to spend the night there and obtain the Yazi Bronze Plaque. Return to Jingnan once more to enter the treasure cave; after defeating Liu Jin, both he and Xue Ruyi fall off a cliff. Explore Jingnan again to reunite with Xue Ruyi, then head together to Liu Jin's treasure hoard to unlock Xue Ruyi's beauty."
 - raw: "{\r\n    \"Key\": \"6080\",\r\n    \"IdName\": \"司徒伶\",\r\n    \"Name\": \"司徒伶\",\r\n    \"Title\": \"千杯不醉\",\r\n    \"CardName\": \"江湖酒客\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖酒客，豪爽不羁，率性洒脱，生于酒坊之家，自幼与酒为伴，五岁时曾不慎跌入酒坛近半个时辰，幸得一位江湖奇人所救，奇人见她天赋异禀，遂将一身武学传下，成年后一心尝遍天下美酒，故而辞别父母，一人游走江湖。\",\r\n    \"GetDesc\": \"第五年一月开始，探索川东，选择帮助司徒伶，此后再次探索川东结识。\",\r\n    \"NameTw\": \"司徒伶\",\r\n    \"TitleTw\": \"千杯不醉\",\r\n    \"DescTw\": \"江湖酒客，豪爽不羈，率性灑脫，生於酒坊之家，自幼與酒為伴，五歲時曾不慎跌入酒罈近半個時辰，幸得一位江湖奇人所救，奇人見她天賦異稟，遂將一身武學傳下，成年後一心嚐遍天下美酒，故而辭別父母，一人遊走江湖。\",\r\n    \"GetDescTw\": \"第五年一月開始，探索川東，選擇幫助司徒伶，此後再次探索川東結識。\",\r\n    \"CardNameTw\": \"江湖酒客\"\r\n  }"
   rawIndex: 6080
   splits:
@@ -9681,8 +9608,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "品尝三种天下美酒后探索川东听闻仙人醉（湘南胡子酒、湘北桃源酒、荆东伏汁酒、荆北地封酒、川东巴乡清酒其中三种即可）。黄鹤楼挑战成功结识辛无厌后，探索黄鹤楼品尝仙人醉，第七年一月开始，探索黄鹤楼品尝古方仙人醉，解锁司徒伶红颜。"
-    translated: "After tasting three of the finest wines from across the land-Xiangnan Huzi Wine, Xiangbei Taoyuan Wine, Jingdong Fuzhi Wine, Jingbei Difeng Wine, or Chuandong Baxiang Qingjiu-and exploring Eastern Sichuan to discover Xianren Zui, one can succeed in the challenge at Yellow Crane Tower and meet Xin Wuyan. From January of the seventh year onward, exploring Yellow Crane Tower again to taste the ancient-style Xianren Zui will unlock Situ Ling, the beauty."
-    flaggedForRetranslation: true
+    translated: "After tasting three of the finest wines in the land, explore eastern Sichuan to hear of Immortal's Drunkenness (any three of Xiangnan Huzi Wine, Xiangbei Taoyuan Wine, Jingdong Fuzhi Wine, Jingbei Difeng Wine, or Chuandong Baxiang Qingjiu will do). After succeeding at the Yellow Crane Tower challenge and meeting Xin Wuyan, explore the Yellow Crane Tower to taste Immortal's Drunkenness. From January of the seventh year, explore the Yellow Crane Tower to taste the ancient-recipe Immortal's Drunkenness and unlock Situ Ling, the beauty."
 - raw: "{\r\n    \"Key\": \"6084\",\r\n    \"IdName\": \"阴无生\",\r\n    \"Name\": \"阴无生\",\r\n    \"Title\": \"幽冥秀士\",\r\n    \"CardName\": \"鬼市之主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"丰都鬼市之主，阴郁孤僻，多愁善感 ，本是江湖游侠，一手离魂钩闻名川蜀，与结义兄弟王冼平联手创建丰都鬼市，却阴一时心胸狭窄欺瞒至交，致使王冼平醉酒坠崖而死，此后一直因此郁郁于心，不得宽解。\",\r\n    \"GetDesc\": \"福缘到达60，探索川东开启丰都鬼市后，在任意三年中的三月探索鬼市庙会，从第七年开始，再次探索丰都鬼市，战胜阎罗王后加入。\",\r\n    \"NameTw\": \"陰無生\",\r\n    \"TitleTw\": \"幽冥秀士\",\r\n    \"DescTw\": \"豐都鬼市之主，陰鬱孤僻，多愁善感 ，本是江湖遊俠，一手離魂鉤聞名川蜀，與結義兄弟王冼平聯手建立豐都鬼市，卻陰一時心胸狹窄欺瞞至交，致使王冼平醉酒墜崖而死，此後一直因此鬱郁於心，不得寬解。\",\r\n    \"GetDescTw\": \"福緣到達60，探索川東開啟豐都鬼市後，在任意三年中的三月探索鬼市廟會，從第七年開始，再次探索豐都鬼市，戰勝閻羅王后加入。\",\r\n    \"CardNameTw\": \"鬼市之主\"\r\n  }"
   rawIndex: 6084
   splits:
@@ -9737,16 +9663,10 @@
   splits:
   - splitPath: IdName
     text: "秦一用"
-    translated: "Qin Yi used"
-    qcReviewedText: "Qin Yi used"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Qin Yiyong"
   - splitPath: Name
     text: "秦一用"
-    translated: "Qin Yi used"
-    qcReviewedText: "Qin Yi used"
-    qcStatus: Passed
-    flaggedForQcReview: true
+    translated: "Qin Yiyong"
   - splitPath: Title
     text: "青竹公子"
     translated: "Young Lord Qingzhu"
@@ -9783,16 +9703,10 @@
   splits:
   - splitPath: IdName
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: Name
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: Title
     text: "姜辣子"
     translated: "Sichuan Pepper"
@@ -9835,10 +9749,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: Title
     text: "姜辣子"
     translated: "Sichuan Pepper"
@@ -9865,26 +9776,16 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "福缘到达80，探索川中，福禄楼学核桃酥，根骨到达80，探索川东，丰庆楼学六赢羊酥，财富到达800，探索川西，锦芳楼学太白鸭，三菜全部学会后探索川南，解锁姜芽红颜。"
-    translated: "Luck arrives at 80, explore Central Sichuan, learn walnut cookies at Fujulou. Potential reaches 80, explore Eastern Sichuan, learn six-win mutton cookies at Fengqing Lou. Wealth reaches 800, explore Western Sichuan, learn Tai Bai duck at Jinfang Lou. After mastering all three dishes, explore Southern Sichuan to unlock qinga ranyan."
-    qcReviewedText: "Luck arrives at 80, explore Central Sichuan, learn walnut cookies at Fujulou. Potential reaches 80, explore Eastern Sichuan, learn six-win mutton cookies at Fengqing Lou. Wealth reaches 800, explore Western Sichuan, learn Tai Bai duck at Jinfang Lou. After mastering all three dishes, explore Southern Sichuan to unlock qinga ranyan."
-    qcTranslated: "Luck arrives at 80, explore Central Sichuan, learn walnut cookies at Fujulou. Potential reaches 80, explore Eastern Sichuan, learn six-win mutton cookies at Fengqing Lou. Wealth reaches 800, explore Western Sichuan, learn Tai Bai duck at Jinfang Lou. After mastering all three dishes, explore Southern Sichuan to unlock Ginger Sprout Beauty."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Luck reaches 80, explore Central Sichuan, learn Walnut Cookies at Fu Lu Tower; Potential reaches 80, explore Eastern Sichuan, learn Six-Win Lamb Crackers at Fengqing Tower; Wealth reaches 800, explore Western Sichuan, learn Taibai Duck at Jinfang Tower. After learning all three dishes, explore Southern Sichuan to unlock Jiang Ya."
 - raw: "{\r\n    \"Key\": \"6098\",\r\n    \"IdName\": \"李云裳\",\r\n    \"Name\": \"李云裳\",\r\n    \"Title\": \"青莲映月\",\r\n    \"CardName\": \"太白传人\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"李太白后人\",\r\n    \"GetDesc\": \"第五年一月开始，福缘到达120，探索川西开启罨画池，探索罨画池，战胜夏南屏、褚良玉、江惟远三人后加入。\",\r\n    \"NameTw\": \"李雲裳\",\r\n    \"TitleTw\": \"青蓮映月\",\r\n    \"DescTw\": \"李太白後人\",\r\n    \"GetDescTw\": \"第五年一月開始，福緣到達120，探索川西開啟罨畫池，探索罨畫池，戰勝夏南屏、褚良玉、江惟遠三人後加入。\",\r\n    \"CardNameTw\": \"太白傳人\"\r\n  }"
   rawIndex: 6098
   splits:
   - splitPath: IdName
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: Name
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: Title
     text: "青莲映月"
     translated: "Lotus Reflecting Moon"
@@ -9927,10 +9828,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: Title
     text: "青莲映月"
     translated: "Lotus Reflecting Moon"
@@ -9967,12 +9865,16 @@
   - splitPath: IdName
     text: "普度"
     translated: "Universal Salvation"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Universal Salvation"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "普度"
     translated: "Universal Salvation"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Universal Salvation"
     qcStatus: Passed
     qcQualityScore: 100
@@ -10003,6 +9905,8 @@
   - splitPath: GetDesc
     text: "任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南后加入。"
     translated: "Explore Sichuan South in the seventh month of any year, initially meeting Pupu. From the eighth year of July onwards, Morality arrived. After exploring Sichuan South in the seventh month, they joined 40."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Explore Sichuan South in the seventh month of any year, initially meeting Pupu. From the eighth year of July onwards, Morality arrived. After exploring Sichuan South in the seventh month, they joined 40."
     qcTranslated: "Explore Sichuan South in the seventh month of any year to first meet Pudu. From the seventh month of the eighth year onwards, once Morality reaches 40., join after exploring Sichuan South in the seventh month."
     qcStatus: Corrected
@@ -10715,16 +10619,10 @@
   splits:
   - splitPath: IdName
     text: "蚣蝮铜牌"
-    translated: "Centipede Viper Bronze Plaque"
-    qcReviewedText: "Centipede Viper Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Gongfu Bronze Plaque"
   - splitPath: Name
     text: "蚣蝮铜牌"
-    translated: "Centipede Viper Bronze Plaque"
-    qcReviewedText: "Centipede Viper Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Gongfu Bronze Plaque"
   - splitPath: CardName
     text: "宝物"
     translated: "Treasure"
@@ -10912,16 +10810,10 @@
   splits:
   - splitPath: IdName
     text: "睚眦铜牌"
-    translated: "Yazhi Bronze Plaque"
-    qcReviewedText: "Yazhi Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Yazi Bronze Plaque"
   - splitPath: Name
     text: "睚眦铜牌"
-    translated: "Yazhi Bronze Plaque"
-    qcReviewedText: "Yazhi Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Yazi Bronze Plaque"
   - splitPath: CardName
     text: "宝物"
     translated: "Treasure"
@@ -11182,10 +11074,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "珍物，是由萧令仪用宁王朱宸濠的迎娶聘礼，价值连城的无瑕玉璧对着镜中的自己亲手雕琢而成，白玉美人晶莹剔透、清雅脱俗、气韵生动、顾盼生姿，其容貌神态与萧令仪如出一辙。"
-    translated: "Treasure, crafted by Xiao Lingyi using the priceless flawless jade bi from Zhu Chenhao, the Peaceful King's marriage gift, she sculpted it herself in front of the mirror. The White Jade Beauty shone with clarity and elegance, exuding vitality and grace; her appearance and expression mirrored Xiao Lingyi's exactly."
-    qcReviewedText: "Treasure, crafted by Xiao Lingyi using the priceless flawless jade bi from Zhu Chenhao, the Peaceful King's marriage gift, she sculpted it herself in front of the mirror. The White Jade Beauty shone with clarity and elegance, exuding vitality and grace; her appearance and expression mirrored Xiao Lingyi's exactly."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "This precious artifact was crafted by Xiao Lingyi herself using the priceless flawless jade disc from Prince Ning Zhu Chenhao's marriage dowry. Facing her reflection, she carved it meticulously. The White Jade Beauty shone with crystal clarity, exuding elegance and grace, its vivid charm and captivating presence mirroring Xiao Lingyi's own appearance and expression down to the smallest detail."
   - splitPath: GetDesc
     text: "解锁红颜萧令仪后，每年一月可探索一次后山，选择过年陪伴萧令仪，获得礼物解锁。"
     translated: "After unlocking Xiao Lingyi the Red-Skirted Beauty, you can explore the rear mountain once every January. Choose to spend the New Year with Xiao Lingyi and unlock gifts as a reward."
@@ -11833,6 +11722,8 @@
   - splitPath: GetDesc
     text: "巫云凤加入后，探索神女宫，巫云凤击杀卞城王封擒鬼报仇后获得。"
     translated: "After Wuyunfeng joined, they explored the Shrine of the Divine Maiden. Wuyunfeng obtained this after killing Prince Bian Cheng and avenging the capture of her ghost."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Feng Qingui,封擒鬼,"
 - raw: "{\r\n    \"Key\": \"10047\",\r\n    \"IdName\": \"泰山面具\",\r\n    \"Name\": \"泰山面具\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物，由陨铁锻造而成，面具形象为十殿阎君之一的第七殿阎君卞城王，凛厉如生，威仪慑人，其中似乎蕴含着一些隐秘。\",\r\n    \"NameTw\": \"泰山面具\",\r\n    \"DescTw\": \"珍物，由隕鐵鍛造而成，面具形象為十殿閻君之一的第七殿閻君卞城王，凜厲如生，威儀懾人，其中似乎蘊含著一些隱祕。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10047
   splits:
@@ -11911,6 +11802,8 @@
   - splitPath: GetDesc
     text: "解锁邵轻虹红颜事件时，郜春风击杀都市王樊荡秽后获得。"
     translated: "Unlocked when Gao Chunfeng kills Urban King Fan Tanghui during the Shao Qinghong Red Beauty event."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Fan Danghui,樊荡秽,"
 - raw: "{\r\n    \"Key\": \"10050\",\r\n    \"IdName\": \"转轮面具\",\r\n    \"Name\": \"转轮面具\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物，由陨铁锻造而成，面具形象为十殿阎君之一的第十殿阎君转轮王，凛厉如生，威仪慑人，其中似乎蕴含着一些隐秘。\",\r\n    \"GetDesc\": \"解锁李云裳红颜事件时，战胜转轮王缪辟邪获得。\",\r\n    \"NameTw\": \"轉輪面具\",\r\n    \"DescTw\": \"珍物，由隕鐵鍛造而成，面具形象為十殿閻君之一的第十殿閻君轉輪王，凜厲如生，威儀懾人，其中似乎蘊含著一些隱祕。\",\r\n    \"GetDescTw\": \"解鎖李雲裳紅顏事件時，戰勝轉輪王繆辟邪獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10050
   splits:
@@ -11937,7 +11830,9 @@
     translated: "This precious item is forged from meteor iron and shaped like the Tenth Judge King of the Ten Courts of Hell, King Reincarnation. It exudes a fierce and awe-inspiring presence, as if harboring some hidden secrets."
   - splitPath: GetDesc
     text: "解锁李云裳红颜事件时，战胜转轮王缪辟邪获得。"
-    translated: "Unlocked by defeating King Mu Bixia when triggering Li Yunchang's Red Rose Event."
+    translated: "Unlocks when defeating King Mu Pixia with the Red Lotus Event for Li Yunshang."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
 - raw: "{\r\n    \"Key\": \"10501\",\r\n    \"IdName\": \"粽子\",\r\n    \"Name\": \"粽子\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物\",\r\n    \"GetDesc\": \"解锁红颜姜芽后，五月时，探索湘北获得。\",\r\n    \"NameTw\": \"粽子\",\r\n    \"DescTw\": \"珍物\",\r\n    \"GetDescTw\": \"解鎖紅顏姜芽後，五月時，探索湘北獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10501
   splits:

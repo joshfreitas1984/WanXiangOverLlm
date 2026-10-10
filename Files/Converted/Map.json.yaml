@@ -904,6 +904,8 @@
   - splitPath: Desc
     text: "位于荆东武昌府境内，蛇山之巅，楼高五层，朱檐黄瓦，雕梁画栋，楼中所存美酒更是闻名荆湘。"
     translated: "Located atop Snake Hill within Wuchang Prefecture in Jingdong, this five-story building boasts vermilion eaves and yellow tiles. Its intricately carved beams and painted pillars are a sight to behold. The fine wines stored within are renowned throughout Jingxiang."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "Located atop Snake Hill within Wuchang Prefecture in Jingdong, this five-story building boasts vermilion eaves and yellow tiles. Its intricately carved beams and painted pillars are a sight to behold. The fine wines stored within are renowned throughout Jingxiang."
     qcStatus: Passed
     qcQualityScore: 100
@@ -1172,10 +1174,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "位于湘北岳州府城中心，是宁王府所布下意欲招贤纳士的擂台。"
-    translated: "Located at the heart of Yuezhou City in Xiangbei, this platform was set up by the Peaceful King Manor to attract talents and scholars."
-    qcReviewedText: "Located at the heart of Yuezhou City in Xiangbei, this platform was set up by the Peaceful King Manor to attract talents and scholars."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Located in the heart of Yuezhou Prefecture City in Xiangbei, it is the arena set up by Prince Ning's Residence to attract talented individuals."
 - raw: "{\r\n    \"Key\": \"105019\",\r\n    \"Name\": \"烟波坞\",\r\n    \"Desc\": \"洞庭帮据点，位于湘北岳州府，洞庭湖中君山之上。\",\r\n    \"NameTw\": \"煙波塢\",\r\n    \"DescTw\": \"洞庭幫據點，位於湘北嶽州府，洞庭湖中君山之上。\"\r\n  }"
   rawIndex: 105019
   splits:
@@ -1235,6 +1234,8 @@
   - splitPath: Desc
     text: "宝象阁据点，位于荆南承天府钟详城南，由澜沧国富商那瑜陀所开设，售卖西洋各国珍宝。"
     translated: "Outpost of Baoxiang Pavilion, located in the southern part of Zhongxiao City in Jingnan Provine, managed by wealthy merchant Nayuduo from Lancang Kingdom. It sells treasures from various Western countries."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "Outpost of Baoxiang Pavilion, located in the southern part of Zhongxiao City in Jingnan Provine, managed by wealthy merchant Nayuduo from Lancang Kingdom. It sells treasures from various Western countries."
     qcTranslated: "Outpost of Baoxiang Pavilion, located south of Zhongxiang City in Chengtian Prefecture, Jingnan Province, established by Nayuduo, a wealthy merchant from the Lancang Kingdom, selling treasures from various Western countries."
     qcStatus: Corrected

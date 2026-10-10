@@ -146,10 +146,6 @@
   - splitPath: Desc
     text: "你可曾想明门规“诚心”到底为何？"
     translated: "Have you ever thought about what the True Sect's rule of sincerity truly means?"
-    qcReviewedText: "Have you ever thought about what the True Sect's rule of sincerity truly means?\\n<color=#FF0000>Be careful：After selecting Disciple has understood, the following month will automatically trigger the arrival of the Peaceful King, leading to the final ending. (It is recommended to advance Medicine and Variety Arts to Master level and explore Jingbei Zhenwu Temple and Xiangbei Yanbo Wharf before choosing this option.)</color>"
-    qcTranslated: "Have you ever thought about what the Ming Sect's rule of sincerity truly means?\\n<color=#FF0000>Note: After selecting The disciple has understood, the Ning Wang's arrival event will automatically trigger next month, and the game will enter the final ending. (It is recommended to advance Medicine and Variety Arts to Master level and explore Jingbei Zhenwu Temple and Xiangbei Yanbo Wharf before choosing this option.)</color>"
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: Desc
     subIndex: 1
     text: "注意"
@@ -157,7 +153,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和百戏提升至大师，并前往荆北真武观和湘北烟波坞探索）"
-    translated: "After selecting Disciple has understood, the following month will automatically trigger the arrival of the Peaceful King, leading to the final ending. (It is recommended to advance Medicine and Variety Arts to Master level and explore Jingbei Zhenwu Temple and Xiangbei Yanbo Wharf before choosing this option.)"
+    translated: "After selecting “The disciple has understood,” the Prince Ning's arrival event will automatically trigger the following month, bringing the game to its final conclusion. (It is recommended to raise your levels in Medicine and Variety Arts to Master before making this choice, and to explore Jingbei Zhenwu Temple and Xiangbei Yanbo Wu first.)"
   - splitPath: SelectionList[0]
     text: "弟子已经明了"
     translated: "Disciple has understood"
@@ -347,10 +343,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: SelectionList[6]
     text: "蚩萤"
     translated: "Chi Ying"
@@ -404,10 +397,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: SelectionList[6]
     text: "再想想"
     translated: "Think about it some more"
@@ -449,16 +439,10 @@
     qcQualityScore: 100
   - splitPath: SelectionList[4]
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: SelectionList[5]
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: SelectionList[6]
     text: "巫云凤"
     translated: "Wuyunfeng"
@@ -512,10 +496,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: SelectionList[6]
     text: "沈青鸬"
     translated: "Shen Qinglu"
@@ -567,6 +548,8 @@
   - splitPath: Desc
     text: "是否让袁铁口为你算命？"
     translated: "Should I let Yuan Tiekuo tell your fortune?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yuan Tiekou,袁铁口,"
     qcReviewedText: "Should I let Yuan Tiekuo tell your fortune?"
     qcStatus: Passed
     qcQualityScore: 95
@@ -679,6 +662,8 @@
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
     translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
     qcStatus: Passed
     qcQualityScore: 100
@@ -762,6 +747,8 @@
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
     translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
     qcStatus: Passed
     qcQualityScore: 100
@@ -893,6 +880,8 @@
   - splitPath: Desc
     text: "是否购买那瑜陀所展示的西洋珍宝？"
     translated: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Nayutuo,那瑜陀,"
     qcReviewedText: "Do you wish to purchase the Western treasures displayed by Nanyutuo?"
     qcStatus: Passed
     qcQualityScore: 100
@@ -1676,10 +1665,7 @@
   splits:
   - splitPath: Desc
     text: "你可曾想明宁王一事？"
-    translated: "Have you ever thought about the matter of the Peaceful King?"
-    qcReviewedText: "Have you ever thought about the matter of the Peaceful King?\\n<color=#FF0000>Be careful：After selecting Disciple has understood, the following month will automatically trigger an event where the Peaceful King arrives, leading to the game's final ending. (It is recommended to advance Beast Taming and Variety Arts to Master level and explore the Nine Streams Mansion in Southern Xiang and the Misty Harbor in Northern Xiang before choosing this option.)</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Have you ever thought about Prince Ning?"
   - splitPath: Desc
     subIndex: 1
     text: "注意"
@@ -1687,7 +1673,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "选择“弟子已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将御兽和百戏提升至大师，并前往湘南九流山庄和湘北烟波坞探索）"
-    translated: "After selecting Disciple has understood, the following month will automatically trigger an event where the Peaceful King arrives, leading to the game's final ending. (It is recommended to advance Beast Taming and Variety Arts to Master level and explore the Nine Streams Mansion in Southern Xiang and the Misty Harbor in Northern Xiang before choosing this option.)"
+    translated: "After selecting “The disciple has understood,” the Prince Ning's arrival event will automatically trigger the following month, bringing the game to its final conclusion. (It is recommended to raise Beast Taming and Variety Arts to Master level before making this choice, and to explore Xiangnan Jiuliu Villa and Xiangbei Yanbo Wu first.)"
   - splitPath: SelectionList[0]
     text: "弟子已经明了"
     translated: "Disciple has understood"
@@ -2449,13 +2435,10 @@
   - splitPath: Desc
     text: "此选择影响最终结局，请慎重选择。"
     translated: "This choice affects the final outcome; please choose carefully."
-    qcReviewedText: "<color=#FF0000>This choice affects the final outcome; please choose carefully.</color>\nYou have already defeated the three guest ministers at Peaceful King Manor's Talent Recruitment Arena. Do you wish to further disrupt the arena?"
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
     text: "你已在宁王的招贤擂上击败了宁王府的三位客卿，是否要进一步搅乱招贤擂？"
-    translated: "You have already defeated the three guest ministers at Peaceful King Manor's Talent Recruitment Arena. Do you wish to further disrupt the arena?"
+    translated: "You have already defeated the three guest scholars from Prince Ning's Residence at Prince Ning's talent competition. Do you want to further disrupt the competition?"
   - splitPath: SelectionList[0]
     text: "拿钱离去点到为止"
     translated: "Take the money and go, that's enough"
@@ -2552,10 +2535,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: SelectionList[6]
     text: "蚩萤"
     translated: "Chi Ying"
@@ -2609,10 +2589,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: SelectionList[6]
     text: "再想想"
     translated: "Think about it some more"
@@ -2654,16 +2631,10 @@
     qcQualityScore: 100
   - splitPath: SelectionList[4]
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: SelectionList[5]
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: SelectionList[6]
     text: "巫云凤"
     translated: "Wuyunfeng"
@@ -2717,10 +2688,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: SelectionList[6]
     text: "沈青鸬"
     translated: "Shen Qinglu"
@@ -2918,9 +2886,6 @@
   - splitPath: Desc
     text: "你可曾想明帮主钟离恨之意？"
     translated: "Have you considered the meaning behind Sect Leader Zhongli Hen's words?"
-    qcReviewedText: "Have you considered the meaning behind Sect Leader Zhongli Hen's words?\\n<color=#FF0000>Be careful：After selecting I understand, the following month will automatically trigger the arrival of the Peaceful King, leading to the final ending. (It is recommended to advance Medicine and Beast Taming to Master level and explore Jingbei Zhenwu Temple and Xiangnan Jiuliu Manor before choosing this option.)</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
     text: "注意"
@@ -2928,7 +2893,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "选择“属下已经明了”后，次月将自动触发宁王莅临事件，游戏即进入最终结局。（建议在选择此项前将医术和御兽提升至大师，并前往荆北真武观和湘南九流山庄探索）"
-    translated: "After selecting I understand, the following month will automatically trigger the arrival of the Peaceful King, leading to the final ending. (It is recommended to advance Medicine and Beast Taming to Master level and explore Jingbei Zhenwu Temple and Xiangnan Jiuliu Manor before choosing this option.)"
+    translated: "After selecting “I understand,” the Prince Ning's arrival event will automatically trigger the following month, bringing the game to its final conclusion. (It is recommended to raise your levels in Medicine and Beast Taming to Master before making this choice, and to explore Jingbei Zhenwu Temple and Xiangnan Jiuliu Villa first.)"
   - splitPath: SelectionList[0]
     text: "属下已经明了"
     translated: "Subordinate understands"
@@ -3646,10 +3611,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: SelectionList[6]
     text: "蚩萤"
     translated: "Chi Ying"
@@ -3703,10 +3665,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: SelectionList[6]
     text: "再想想"
     translated: "Think about it some more"
@@ -3748,16 +3707,10 @@
     qcQualityScore: 100
   - splitPath: SelectionList[4]
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: SelectionList[5]
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: SelectionList[6]
     text: "巫云凤"
     translated: "Wuyunfeng"
@@ -3811,10 +3764,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: SelectionList[6]
     text: "沈青鸬"
     translated: "Shen Qinglu"
@@ -6201,6 +6151,8 @@
   - splitPath: SelectionList[1]
     text: "唐傲"
     translated: "Zhongli Hen"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Ao,唐傲,"
     qcReviewedText: "Zhongli Hen"
     qcStatus: Passed
     qcQualityScore: 100
@@ -6324,10 +6276,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: SelectionList[6]
     text: "蚩萤"
     translated: "Chi Ying"
@@ -6381,10 +6330,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: SelectionList[6]
     text: "再想想"
     translated: "Think about it some more"
@@ -6426,16 +6372,10 @@
     qcQualityScore: 100
   - splitPath: SelectionList[4]
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: SelectionList[5]
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: SelectionList[6]
     text: "巫云凤"
     translated: "Wuyunfeng"
@@ -6489,10 +6429,7 @@
     qcQualityScore: 100
   - splitPath: SelectionList[5]
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: SelectionList[6]
     text: "沈青鸬"
     translated: "Shen Qinglu"

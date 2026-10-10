@@ -8,6 +8,8 @@ namespace Translate;
 /// </summary>
 public static class GameFileHandling
 {
+    public static readonly string WorkingDirectory = "../../../../Files";
+
     /// <summary>
     /// SOURCE -> in-game "year N" number for the "N年春节" (Year N Spring Festival) achievement/
     /// condition chain in Condition.json/Event.json (rawIndex 770100-789xxx, "Name"/"GroupName"
@@ -57,6 +59,7 @@ public static class GameFileHandling
 
     public static readonly GameHooks Hooks = new()
     {
+        LineContextProvider = CharacterLineContext.Provide,
         CustomColumnRepair = (_, _, raw, result) =>
             YearSpringFestivalYears.TryGetValue(raw, out var year) ? $"Year {year} Spring Festival" : result,
     };

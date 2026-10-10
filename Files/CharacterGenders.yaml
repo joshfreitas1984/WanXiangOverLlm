@@ -1,0 +1,968 @@
+# Character genders for Wan Xiang, read by Translate/CharacterLineContext.cs.
+# The Hero.json biographies have no gender column, so these come from the story text (他/她 for the character, being
+# unlocked as a 红颜, 师兄/兄弟/夫人, gendered titles) and, where there was none, from guesses. Each entry's `evidence` says
+# which: "guess:" entries are the weakest and worth a look. A blank gender is ignored by the loader, which is the safe
+# default for a character with no evidence. The player 主角 is not listed.
+
+- name: 万轻舟
+  englishName: Wan Qingzhou
+  gender: male
+  aliases: []
+  evidence: "biography refers to himself as 他"
+
+- name: 邱道衍
+  englishName: Qiu Daoyan
+  gender: male
+  aliases: []
+  evidence: "邱灵素之父 (father of 邱灵素)"
+
+- name: 连翘儿
+  englishName: Lian Qiaoer
+  gender: female
+  aliases: []
+  evidence: "神农帮大小姐，“九指神农”连山谷之孙女，灵动活泼，天真烂漫，自幼失怙失恃，在连山"
+
+- name: 夏侯珺
+  englishName: Xiahou Jun
+  gender: female
+  aliases: []
+  evidence: "六合帮大小姐，“朝秦暮楚”夏侯朝之女，精明强干，不拘小节，天生聪慧，武艺精通，尤"
+
+- name: 艾琳娜
+  englishName: Elena
+  gender: female
+  aliases: []
+  evidence: "biography uses 她 for her"
+
+- name: 晏蛾眉
+  englishName: Yan Emei
+  gender: female
+  aliases: []
+  evidence: "江湖杀手，岳麓书院“道林四友”之一“西崖先生”晏道几之女，百折不挠，清冷坚韧，幼"
+
+- name: 钟离雪
+  englishName: Zhongli Xue
+  gender: female
+  aliases: []
+  evidence: "洞庭帮大小姐, 之女, biography uses 她"
+
+- name: 杨芸
+  englishName: Yang Yun
+  gender: female
+  aliases: []
+  evidence: "衡山派弟子，杨廷和之女，聪慧活泼，单纯直率，少年时和哥哥“青史剑”杨慎遇难，幸被"
+
+- name: 项欺霜
+  englishName: Xiang Qishuang
+  gender: female
+  aliases: []
+  evidence: "江湖侠女, 项开山之女"
+
+- name: 蚩萤
+  englishName: Chi Ying
+  gender: female
+  aliases: []
+  evidence: "蚩黎峒圣女"
+
+- name: 沈蓉蓉
+  englishName: Shen Rongrong
+  gender: female
+  aliases: []
+  evidence: "沈家庄少庄主，沈飞之女 (the 之子 in the biography is her fiancé)"
+
+- name: 左灵珠
+  englishName: Zuo Lingzhu
+  gender: female
+  aliases: []
+  evidence: "卖艺少女，“大幻仙翁”左游仙之孙女，活泼好动，古灵精怪，随着爷爷左游仙表演戏法幻"
+
+- name: 唐幺幺
+  englishName: Tang Yaoya
+  gender: female
+  aliases: []
+  evidence: "唐门小小姐"
+
+- name: 司徒伶
+  englishName: Situ Ling
+  gender: female
+  aliases: []
+  evidence: "biography uses 她 for her"
+
+- name: 谈文秀
+  englishName: Tan Wenshao
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 文锦心
+  englishName: Wen Jinxin
+  gender: female
+  aliases: []
+  evidence: "官家小姐, 文九思之女"
+
+- name: 萧子羽
+  englishName: Xiao Ziyu
+  gender: male
+  aliases: []
+  evidence: "襄阳萧家二公子，温润宽和，轻财好施，出生于襄阳世家萧氏，自幼被长姐萧令仪照顾，与"
+
+- name: 姚波
+  englishName: Yao Bo
+  gender: male
+  aliases: []
+  evidence: "biography uses 他 for him"
+
+- name: 娄拙
+  englishName: Lou Zhuo
+  gender: male
+  aliases: []
+  evidence: "昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“阴阳无相”庄道"
+
+- name: 柳含烟
+  englishName: Liu Hanyan
+  gender: female
+  aliases: []
+  evidence: "章华台花魁娘子"
+
+- name: 杨慎
+  englishName: Yang Shen
+  gender: male
+  aliases: []
+  evidence: "衡山派弟子，杨廷和之子，豁达清正，雅量高致，少年时和妹妹“湘妃剑”杨芸遇难，幸被"
+
+- name: 褚相如
+  englishName: Chu Xiangru
+  gender: male
+  aliases: []
+  evidence: "衡山派弟子，褚百味之子，憨实质朴，沉稳通透，平日里最喜各种美食。"
+
+- name: 邱灵素
+  englishName: Qiu Lingsu
+  gender: female
+  aliases: []
+  evidence: "武当派弟子，清冷出尘，淡雅绝俗，乃“天元坐照”邱道衍之女，自幼失恃，随父长于武当"
+
+- name: 秦一用
+  englishName: Qin Yiyong
+  gender: male
+  aliases: []
+  evidence: "世家公子"
+
+- name: 长孙玉
+  englishName: Zhangsun Yu
+  gender: male
+  aliases: []
+  evidence: "君子庄少庄主，“三湘君子”长孙诚之子，谦恭儒雅，温润如玉，自幼随父研习君子六艺，"
+
+- name: 左游仙
+  englishName: Zuo Youxian
+  gender: male
+  aliases: []
+  evidence: "biography uses 他 for him"
+
+- name: 袁飞
+  englishName: Yuan Fei
+  gender: male
+  aliases: []
+  evidence: "袁飞，湘西猎户之子，自幼精于驯兽，十三岁救得黑白双猿为伴，拜入没落小派灵猿派"
+
+- name: 朵金儿
+  englishName: Duo Jin'er
+  gender: female
+  aliases: []
+  evidence: "澜沧国女使，善解人意，体贴贤惠，与“月光女使”朵玉儿是双胞胎姐妹，自幼被“澜沧富"
+
+- name: 朵玉儿
+  englishName: Duo Yu'er
+  gender: female
+  aliases: []
+  evidence: "澜沧国女使，善解人意，体贴贤惠，与“日光女使”朵金儿是双胞胎姐妹，自幼被“澜沧富"
+
+- name: 沈玲珑
+  englishName: Shen Linglong
+  gender: female
+  aliases: []
+  evidence: "那瑜陀女使"
+
+- name: 楚湘玉
+  englishName: Chu Xiangyu
+  gender: female
+  aliases: []
+  evidence: "那瑜陀女使"
+
+- name: 柳寒衣
+  englishName: Liu Hanyi
+  gender: female
+  aliases: []
+  evidence: "那瑜陀女使"
+
+- name: 林婷婷
+  englishName: Lin Tingting
+  gender: female
+  aliases: []
+  evidence: "那瑜陀女使"
+
+- name: 展青锋
+  englishName: Zhan Qingfeng
+  gender: female
+  aliases: []
+  evidence: "展正雄之女, biography uses 她"
+
+# ---- No evidence yet: set `gender: male` or `gender: female` ----
+
+- name: 唐宝
+  englishName: Tang Bao
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 钟离恨
+  englishName: Zhongli Hen
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 霍连云
+  englishName: Huo Lianyun
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 江浪
+  englishName: Jiang Lang
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 唐纵
+  englishName: Tang Zong
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 庄道玄
+  englishName: Zhuang Daoxuan
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 尹玄真
+  englishName: Yin Xuanzhen
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 连山谷
+  englishName: Lian Shangu
+  gender: male
+  aliases: []
+  evidence: "story text: 连翘儿's 爷爷 (grandfather)"
+
+- name: 阮碧青
+  englishName: Ruan Biqing
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 江化渚
+  englishName: Jiang Huazhu
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 李玄通
+  englishName: Li Xuantong
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 长孙诚
+  englishName: Zhangsun Cheng
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 谈庭玉
+  englishName: Tan Tingyu
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 沈青鸬
+  englishName: Shen Qinglu
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 姜云奎
+  englishName: Jiang Yunkui
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 唐隐
+  englishName: Tang Yin
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 柏成柯
+  englishName: Bai Chengke
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 辛虎符
+  englishName: Xin Hufu
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 巫云凤
+  englishName: Wuyunfeng
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 姜芽
+  englishName: Jiang Ya
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 夏侯朝
+  englishName: Xiahou Chao
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 唐傲
+  englishName: Zhongli Hen
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 邵轻虹
+  englishName: Shao Qinghong
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 姜道灵
+  englishName: Jiang Daoling
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 薛一笑
+  englishName: Xue Yixiao
+  gender: male
+  aliases: []
+  evidence: "guess: 游侠 and 堂主; no feminine evidence"
+
+- name: 唐矩
+  englishName: Tang Ju
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 萧雪雁
+  englishName: Xiao Xueyan
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 杜满川
+  englishName: Du Manchuan
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 诸葛慧
+  englishName: Zhuge Hui
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 彭祖寿
+  englishName: Peng Zushou
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 闻苍术
+  englishName: Wen Cangzhu
+  gender: ""
+  aliases: []
+  evidence: "60 dialogue lines; 药王谷长老，虚怀若谷，谦和宽厚，自幼因先天体弱而早生白发，为求性命，年少时即被送"
+
+- name: 祖南雄
+  englishName: Zu Nanxiong
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 薛如意
+  englishName: Xue Ruyi
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 张道一
+  englishName: Zhang Daoyi
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 风间爱
+  englishName: Kazama Ai
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 元大圣
+  englishName: Master Yuan the Sage
+  gender: male
+  aliases: []
+  evidence: "guess: called 老叫花子 / 猴王; no feminine evidence"
+
+- name: 唐醉
+  englishName: Dong Zui
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 靳红衣
+  englishName: Jin Hongyi
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 魏道先
+  englishName: Wei Daoxian
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 唐影
+  englishName: Tang Ying
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 郜春风
+  englishName: Ga Chunfeng
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 谷藏锋
+  englishName: Gu Cangfeng
+  gender: male
+  aliases: []
+  evidence: "guess: 二庄主, masculine name; no feminine evidence"
+
+- name: 蒋疠夫
+  englishName: Jiang Lifu
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 花炮李
+  englishName: Huapao Li
+  gender: male
+  aliases: []
+  evidence: "guess: 老板 nicknamed by surname; no feminine evidence"
+
+- name: 唐觉
+  englishName: Tang Jue
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 封行昭
+  englishName: Feng Xingzhao
+  gender: male
+  aliases: []
+  evidence: "described as 兄弟 (brothers) of each other"
+
+- name: 江阔海
+  englishName: Jiang Kuohai
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 杜涌
+  englishName: Du Yong
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 方逸飞
+  englishName: Yang Yifei
+  gender: ""
+  aliases: []
+  evidence: "42 dialogue lines; 浣花派弟子"
+
+- name: 项开山
+  englishName: Xiang Kaishan
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 萧令仪
+  englishName: Xiao Lingyi
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 封行晦
+  englishName: Feng Xinghui
+  gender: male
+  aliases: []
+  evidence: "described as 兄弟 (brothers) of each other"
+
+- name: 娄太乙
+  englishName: Lou Taiyi
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 蚩连
+  englishName: Chi Lian
+  gender: ""
+  aliases: []
+  evidence: "39 dialogue lines; 蚩黎峒峒主"
+
+- name: 阴无生
+  englishName: Yin Wusheng
+  gender: male
+  aliases: []
+  evidence: "sworn brother (结义兄弟) of 王冼平"
+
+- name: 孙玄机
+  englishName: Sun Xuanji
+  gender: ""
+  aliases: []
+  evidence: "38 dialogue lines; 武当派弟子，直爽真诚，圆融通透，为武当“玄”字一辈中最小的弟子。"
+
+- name: 翁和仲
+  englishName: Weng Hezhong
+  gender: male
+  aliases: []
+  evidence: "guess: 翁 (old man) in the name, 八袋长老; no feminine evidence"
+
+- name: 郭道朴
+  englishName: Guo Daopu
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 鲍玉关
+  englishName: Bao Yuguan
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 李云裳
+  englishName: Li Yunshang
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 方刚
+  englishName: Fang Gang
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 褚百味
+  englishName: Chu Baiwei
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 邬健
+  englishName: Wu Jian
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 刘道生
+  englishName: Liu Daosheng
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 关涛
+  englishName: Guan Tao
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 唐安
+  englishName: Tang An
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 明通
+  englishName: Clear Path
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 齐玄化
+  englishName: Qi Xuanhua
+  gender: ""
+  aliases: []
+  evidence: "29 dialogue lines; 武当派弟子，刚毅果敢，执著不屈，于习武一途颇有天分，常于后山向“剑引三才”刘道生"
+
+- name: 段青山
+  englishName: Duan Qingshan
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 张涣
+  englishName: Zhang Huan
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 广惠
+  englishName: Guang Hui
+  gender: male
+  aliases: []
+  evidence: "monk (和尚/僧); no feminine evidence"
+
+- name: 樊重关
+  englishName: Fan Zhongguan
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 柯元吉
+  englishName: Ke Yuanji
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 向西飞
+  englishName: Xiang Xifei
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 大通
+  englishName: Great Passage
+  gender: male
+  aliases: []
+  evidence: "monk (和尚/僧); no feminine evidence"
+
+- name: 唐冷
+  englishName: Tang Ling
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 牟行方
+  englishName: Mou Xingfang
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 唐墨
+  englishName: Jiang Mo
+  gender: male
+  aliases: []
+  evidence: "Tang Clan '先生' (title for the ten masters; 先生 is addressed to men)"
+
+- name: 武伯雄
+  englishName: Wu Boxiong
+  gender: male
+  aliases: []
+  evidence: "one of four brother 庄主 (兄弟)"
+
+- name: 辛无厌
+  englishName: Xin Wuyan
+  gender: male
+  aliases: []
+  evidence: "father of a known character / 公子 title"
+
+- name: 余元化
+  englishName: Yu Yuanhua
+  gender: male
+  aliases: []
+  evidence: "guess: 掌门; masculine name; no feminine evidence"
+
+- name: 金太岁
+  englishName: Jin Taisui
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 行颠
+  englishName: Xing Dian
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 风间月
+  englishName: Kazama Yue
+  gender: female
+  aliases: []
+  evidence: "story text: unlocked as a 红颜 (love interest) and/or called 她"
+
+- name: 普度
+  englishName: Universal Salvation
+  gender: male
+  aliases: []
+  evidence: "monk (和尚/僧); no feminine evidence"
+
+- name: 凌落尘
+  englishName: Ling Luochen
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 符天罡
+  englishName: Fu Tiangang
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 唐平
+  englishName: Tang Ping
+  gender: male
+  aliases: []
+  evidence: "story text: called 他"
+
+- name: 唐兴
+  englishName: Tang Xing
+  gender: ""
+  aliases: []
+  evidence: "16 dialogue lines; 唐门门人"
+
+- name: 华辞轩
+  englishName: Hua Cixuan
+  gender: ""
+  aliases: []
+  evidence: "16 dialogue lines; 不相轩老板，放浪不羁，逍遥自在，乃是汉末名医华佗之后，一身岐黄妙术尽得祖上真传，"
+
+- name: 汪伯通
+  englishName: Wang Botong
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 武仲烈
+  englishName: Wu Zhonglie
+  gender: male
+  aliases: []
+  evidence: "one of four brother 庄主 (兄弟)"
+
+- name: 斋藤归藏
+  englishName: Saito Kizo
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 邹无计
+  englishName: Zou Wuji
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 岳松涛
+  englishName: Yue Songtao
+  gender: male
+  aliases: []
+  evidence: "guess: member of the 松林四剑; masculine name; no feminine evidence"
+
+- name: 武季勇
+  englishName: Wu Jiyong
+  gender: male
+  aliases: []
+  evidence: "one of four brother 庄主 (兄弟)"
+
+- name: 岳道章
+  englishName: Yue Daozhang
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 唐风
+  englishName: Tang Feng
+  gender: ""
+  aliases: []
+  evidence: "13 dialogue lines; 唐门门人"
+
+- name: 武叔威
+  englishName: Wu Shuwei
+  gender: male
+  aliases: []
+  evidence: "one of four brother 庄主 (兄弟)"
+
+- name: 张山峰
+  englishName: Zhang Shanfeng
+  gender: male
+  aliases: []
+  evidence: "guess: Daoist elder/master (道 generation name, 道人/长老/掌门); no feminine evidence"
+
+- name: 崔之嵬
+  englishName: Cui Zhiwei
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 尚哭坟
+  englishName: Shang Kufen
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 唐开
+  englishName: Tang Kai
+  gender: ""
+  aliases: []
+  evidence: "12 dialogue lines; 唐门门人"
+
+- name: 权玉真
+  englishName: Quan Yuzhen
+  gender: ""
+  aliases: []
+  evidence: "12 dialogue lines; 崆峒派弟子，颖悟缜密，内敛温和，出身关陇望族，因其父与“丹阳子”吕化一为方外至交"
+
+- name: 法元
+  englishName: Fa Yuan
+  gender: male
+  aliases: []
+  evidence: "story text: called 他 (or 老爷子/他 in narration)"
+
+- name: 张忠
+  englishName: Zhang Zhong
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 李义
+  englishName: Li Yi
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 木桑
+  englishName: Mu Sang
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 方东壁
+  englishName: Fang Dongbi
+  gender: male
+  aliases: []
+  evidence: "called 师兄 / 大师兄 / 二师兄 in the text"
+
+- name: 魏通明
+  englishName: Wei Tongming
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 管中平
+  englishName: Guan Zhongping
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 游不归
+  englishName: You Bugui
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 邵玄清
+  englishName: Shao Xuanqing
+  gender: ""
+  aliases: []
+  evidence: "7 dialogue lines; 武当派弟子，抱朴守拙，耿直稳重，与何玄净相交最厚，所修炼“玄阴剑法”可与何玄净修"
+
+- name: 何玄净
+  englishName: He Xuanjing
+  gender: ""
+  aliases: []
+  evidence: "7 dialogue lines; 武当派弟子，抱朴守拙，耿直稳重，与邵玄清相交最厚，所修炼“玄阳剑法”可与邵玄清修"
+
+- name: 风间夜
+  englishName: Kazama Ye
+  gender: ""
+  aliases: []
+  evidence: "6 dialogue lines; 扶桑甲贺流风间家忍者，阴鸷敏锐，隐忍忠诚，风间家因老家主拒绝让风间家向“神秘人”"
+
+- name: 晏明
+  englishName: Yan Ming
+  gender: ""
+  aliases: []
+  evidence: "5 dialogue lines; 荆湘捕快"
+
+- name: 娄泰
+  englishName: Lou Tai
+  gender: ""
+  aliases: []
+  evidence: "2 dialogue lines; 荆湘捕快"
+
+- name: 王小雄
+  englishName: Wang Xiaoxiong
+  gender: male
+  aliases: []
+  evidence: "guess: masculine name/role (镖头, 捕快, 堂主, 义仆, 少年...); no feminine evidence"
+
+- name: 苏青云
+  englishName: Su Qingyun
+  gender: ""
+  aliases: []
+  evidence: "0 dialogue lines; 衡山派掌门"
+
+- name: 李劲儿
+  englishName: Li Jinger
+  gender: ""
+  aliases: []
+  evidence: "0 dialogue lines; 衡山大总管"
+
+- name: 宋若瑶
+  englishName: Song Ruoyao
+  gender: female
+  aliases: []
+  evidence: "guess: name 若瑶 reads as feminine; no other evidence"
+
+- name: 孙悟空
+  englishName: Sun Wukong
+  gender: male
+  aliases: []
+  evidence: "Journey to the West character"
+
+- name: 猪八戒
+  englishName: Wu Cheng'en's Pigsy
+  gender: male
+  aliases: []
+  evidence: "Journey to the West character"
+
+- name: 沙悟净
+  englishName: Sanditya
+  gender: male
+  aliases: []
+  evidence: "Journey to the West character"
+
+- name: 小白龙
+  englishName: White Dragon
+  gender: male
+  aliases: []
+  evidence: "Journey to the West character"
+
+- name: 唐三藏
+  englishName: Tripitaka
+  gender: male
+  aliases: []
+  evidence: "Journey to the West character"
+

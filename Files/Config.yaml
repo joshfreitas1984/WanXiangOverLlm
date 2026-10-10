@@ -3,18 +3,15 @@
 # FIRST entry in this list is the main translator model (see FanslationStudio.LlmKit's
 # LlmHelpers.CalculateModelConfig).
 models:
-  - name: HyMT2-7B
-    modelPreset: HyMT2
-    modelPresetType: Standard
-  - name: Qwen38Qc-IQ4XS
-    modelPreset: Qwen38
-    modelPresetType: Standard
-    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
   - name: Qwen25-Standard
     modelPreset: Qwen25
     modelPresetType: Standard
     customPromptsPath:
     apiKeyPath:
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
   - name: Qwen25-StructuredText
     modelPreset: Qwen25
     modelPresetType: StructuredText

@@ -679,7 +679,7 @@
 - raw: 蚣蝮銅牌
   rawSimplified: 蚣蝮铜牌
   rawTraditional: 蚣蝮銅牌
-  result: Centipede Viper Bronze Plaque
+  result: Gongfu Bronze Plaque
   direct: Gong Fu Tong Pai
   literal: Gong Fu Tong Pai
 - raw: 椒圖銅牌
@@ -709,7 +709,7 @@
 - raw: 睚眥銅牌
   rawSimplified: 睚眦铜牌
   rawTraditional: 睚眥銅牌
-  result: Yazhi Bronze Plaque
+  result: Yazi Bronze Plaque
   direct: Ya Zi Tong Pai
   literal: Ya Zi Tong Pai
 - raw: 飛虎玉珏
@@ -1105,7 +1105,7 @@
 - raw: 達達里奧
   rawSimplified: 达达里奥
   rawTraditional: 達達里奧
-  result: Dada Liao
+  result: Dadario
   direct: Da Da Li Ao
   literal: Dada Liao
 - raw: 羅元慶
@@ -1207,17 +1207,24 @@
 - raw: 神保清長
   rawSimplified: 神保清长
   rawTraditional: 神保清長
-  result: Shenbao Qingchang
+  result: Jinbo Kiyonaga
   direct: Shen Bao Qing Chang
   literal: Divine Protect Clear Long
 - raw: 伴七郎
-  result: Ban Qilang
+  result: Ban Shichiro
   direct: Ban Qi Lang
   literal: Companion Seventh Son
 - raw: 女忍者
-  result: Female Assassin
+  result: Female Ninja
   direct: Nu Ren Zhe
   literal: Woman Stealth Person
+# 手里剑 contains 剑, so the preset 剑 -> Sword check wrongly flagged "Sword,剑," on shuriken lines; this longer entry shadows it.
+- raw: 手里剑
+  rawSimplified: 手里剑
+  rawTraditional: 手裡劍
+  result: Shuriken
+  direct: Hand Inside Sword
+  literal: Hand Inside Sword
 - raw: 呂霸先二人
   rawSimplified: 吕霸先二人
   rawTraditional: 呂霸先二人
@@ -1287,7 +1294,7 @@
 - raw: 鄒九思
   rawSimplified: 邹九思
   rawTraditional: 鄒九思
-  result: Zou Jius
+  result: Zou Jiusi
   direct: Zou Jiu Si
   literal: Zou Nine Thought
 - raw: 施全性
@@ -1307,7 +1314,7 @@
 - raw: 了塵
   rawSimplified: 了尘
   rawTraditional: 了塵
-  result: Liaocheng
+  result: Liaochen
   direct: Liao Chen
   literal: Leave Dust
 - raw: 天通
@@ -1335,7 +1342,7 @@
 - raw: 厲無咎
   rawSimplified: 厉无咎
   rawTraditional: 厲無咎
-  result: Li Wujou
+  result: Li Wujiu
   direct: Li Wu Jiu
   literal: Stern No Fault
 - raw: 顧雲奇
@@ -1387,7 +1394,7 @@
 - raw: 黑風寨眾
   rawSimplified: 黑风寨众
   rawTraditional: 黑風寨眾
-  result: Black Wind Fortress Followers
+  result: Black Wind Stronghold Followers
   badtrans: false
   direct: Hei Feng Zhai Zhong
   literal: Black Wind Village Group
@@ -1514,8 +1521,18 @@
 - raw: 宁王府
   rawSimplified: 宁王府
   rawTraditional: 寧王府
-  result: Peaceful King Manor
+  result: Prince Ning's Residence
   badtrans: true
+  # 宁王府 in "宁王府三名客卿" means "of Prince Ning's household", which reads naturally as these.
+  allowalt:
+    - Prince Ning's guests
+    - Prince Ning's retainers
+    - Prince Ning's men
+    - Prince Ning's household
+    - Prince Ning's Manor
+    - Prince Ning's Mansion
+    - Prince Ning's estate
+    - Prince Ning's Palace
   direct: peace king mansion
   literal: ning wang fu
 
@@ -1843,7 +1860,7 @@
 - raw: 寧王
   rawSimplified: 宁王
   rawTraditional: 寧王  
-  result: Peaceful King
+  result: Prince Ning
   allowalt: 
   - Ning Wang
   direct: peaceful king
@@ -1879,7 +1896,7 @@
 - raw: 铁蒺藜
   rawSimplified: 铁蒺藜
   rawTraditional: 鐵蒺藜
-  result: Iron Thorn
+  result: Iron Caltrop
   badtrans: true
   direct: iron thorn
   literal: tie ji li
@@ -2000,7 +2017,7 @@
 - raw: 金疮秘药
   rawSimplified: 金疮秘药
   rawTraditional: 金瘡秘藥
-  result: Golden Wound Secret Potion
+  result: Golden Wound Salve
   badtrans: true
   direct: gold wound secret medicine
   literal: jin chuang mi yao
@@ -2348,7 +2365,7 @@
 - raw: 食虺神君
   rawSimplified: 食虺神君
   rawTraditional: 食虺神君
-  result: Serpent God
+  result: Viper-Eating Divine Lord
   badtrans: true
   direct: eat viper god lord
   literal: shi hui shen jun
@@ -2369,7 +2386,7 @@
 - raw: 王府护卫
   rawSimplified: 王府护卫
   rawTraditional: 王府護衛
-  result: Royal Guard
+  result: Prince's Manor Guard
   badtrans: true
   direct: prince mansion guard
   literal: wang fu hu wei
@@ -2417,7 +2434,7 @@
   result: Mind Attack
   allowalt:
   - heartbreak
-  context: refers to a strategy or technique aimed at breaking an opponent's willpower, confidence, or mental stability rather than physically harming them.
+  context: In this game it appears only in the weapon name 点墨诛心笔 (Ink Pen of Mind Attack) and the related skill line 诛心点墨最杀人; the sense of attacking the heart or mind is unverified
 - raw: 乌金
   rawSimplified: 乌金
   rawTraditional: 烏金
@@ -2425,9 +2442,9 @@
 - raw: 龙珠
   rawSimplified: 龙珠
   rawTraditional: 龍珠
-  result: Dragon ball
+  result: Dragon Pearl
 - raw: 二寨主
-  result: Second Fort Master
+  result: Second Stronghold Master
 - raw: 三庄主
   rawSimplified: 三庄主
   rawTraditional: 三莊主
@@ -2443,3 +2460,380 @@
   badtrans: true
   direct: rivers lakes wine guest
   literal: jiang hu jiu ke
+
+# Character names the translator returned as other text ("Think about it some more", "Hard"...) in an earlier run;
+# the glossary check now flags every stale line that lacks these.
+- raw: 姜芽
+  rawSimplified: 姜芽
+  rawTraditional: 姜芽
+  result: Jiang Ya
+  direct: ginger sprout
+  literal: jiang ya
+- raw: 邵轻虹
+  rawSimplified: 邵轻虹
+  rawTraditional: 邵輕虹
+  result: Shao Qinghong
+  direct: shao light rainbow
+  literal: shao qing hong
+- raw: 李云裳
+  rawSimplified: 李云裳
+  rawTraditional: 李雲裳
+  result: Li Yunshang
+  direct: li cloud skirt
+  literal: li yun shang
+- raw: 方刚
+  rawSimplified: 方刚
+  rawTraditional: 方剛
+  result: Fang Gang
+  direct: square firm
+  literal: fang gang
+- raw: 秦一用
+  rawSimplified: 秦一用
+  rawTraditional: 秦一用
+  result: Qin Yiyong
+  direct: qin one use
+  literal: qin yi yong
+- raw: 萧雪雁
+  rawSimplified: 萧雪雁
+  rawTraditional: 蕭雪雁
+  result: Xiao Xueyan
+  direct: xiao snow goose
+  literal: xiao xue yan
+- raw: 诸葛慧
+  rawSimplified: 诸葛慧
+  rawTraditional: 諸葛慧
+  result: Zhuge Hui
+  direct: zhuge wisdom
+  literal: zhuge hui
+# Character names that an older run translated as other words or as another character (found by comparing each name
+# against its pinyin). Monks use pinyin rather than the meaning of the dharma name.
+- raw: 吕化一
+  rawSimplified: 吕化一
+  rawTraditional: 呂化一
+  result: Lu Huayi
+  direct: Lu Huayi
+  literal: Lu Huayi
+- raw: 唐傲
+  rawSimplified: 唐傲
+  rawTraditional: 唐傲
+  result: Tang Ao
+  direct: Tang Ao
+  literal: Tang Ao
+- raw: 唐醉
+  rawSimplified: 唐醉
+  rawTraditional: 唐醉
+  result: Tang Zui
+  direct: Tang Zui
+  literal: Tang Zui
+- raw: 唐墨
+  rawSimplified: 唐墨
+  rawTraditional: 唐墨
+  result: Tang Mo
+  direct: Tang Mo
+  literal: Tang Mo
+- raw: 何有谅
+  rawSimplified: 何有谅
+  rawTraditional: 何有諒
+  result: He Youliang
+  direct: He Youliang
+  literal: He Youliang
+- raw: 展清锋
+  rawSimplified: 展清锋
+  rawTraditional: 展清鋒
+  result: Zhan Qingfeng
+  direct: Zhan Qingfeng
+  literal: Zhan Qingfeng
+- raw: 欧阳朔
+  rawSimplified: 欧阳朔
+  rawTraditional: 歐陽朔
+  result: Ouyang Shuo
+  direct: Ouyang Shuo
+  literal: Ouyang Shuo
+- raw: 萧子安
+  rawSimplified: 萧子安
+  rawTraditional: 蕭子安
+  result: Xiao Zian
+  direct: Xiao Zian
+  literal: Xiao Zian
+- raw: 张德彪
+  rawSimplified: 张德彪
+  rawTraditional: 張德彪
+  result: Zhang Debiao
+  direct: Zhang Debiao
+  literal: Zhang Debiao
+- raw: 夏伯涛
+  rawSimplified: 夏伯涛
+  rawTraditional: 夏伯濤
+  result: Xia Botao
+  direct: Xia Botao
+  literal: Xia Botao
+- raw: 聂云裳
+  rawSimplified: 聂云裳
+  rawTraditional: 聶雲裳
+  result: Nie Yunshang
+  direct: Nie Yunshang
+  literal: Nie Yunshang
+- raw: 伍延参
+  rawSimplified: 伍延参
+  rawTraditional: 伍延參
+  result: Wu Yancan
+  direct: Wu Yancan
+  literal: Wu Yancan
+- raw: 娄小七
+  rawSimplified: 娄小七
+  rawTraditional: 婁小七
+  result: Lou Xiaoqi
+  direct: Lou Xiaoqi
+  literal: Lou Xiaoqi
+- raw: 樊渔樵
+  rawSimplified: 樊渔樵
+  rawTraditional: 樊漁樵
+  result: Fan Yuqiao
+  direct: Fan Yuqiao
+  literal: Fan Yuqiao
+- raw: 鲁孝宽
+  rawSimplified: 鲁孝宽
+  rawTraditional: 魯孝寬
+  result: Lu Xiaokuan
+  direct: Lu Xiaokuan
+  literal: Lu Xiaokuan
+- raw: 李大发
+  rawSimplified: 李大发
+  rawTraditional: 李大發
+  result: Li Dafa
+  direct: Li Dafa
+  literal: Li Dafa
+- raw: 李柱
+  rawSimplified: 李柱
+  rawTraditional: 李柱
+  result: Li Zhu
+  direct: Li Zhu
+  literal: Li Zhu
+- raw: 何荡
+  rawSimplified: 何荡
+  rawTraditional: 何蕩
+  result: He Dang
+  direct: He Dang
+  literal: He Dang
+- raw: 何旺
+  rawSimplified: 何旺
+  rawTraditional: 何旺
+  result: He Wang
+  direct: He Wang
+  literal: He Wang
+- raw: 钱雍
+  rawSimplified: 钱雍
+  rawTraditional: 錢雍
+  result: Qian Yong
+  direct: Qian Yong
+  literal: Qian Yong
+- raw: 钱风
+  rawSimplified: 钱风
+  rawTraditional: 錢風
+  result: Qian Feng
+  direct: Qian Feng
+  literal: Qian Feng
+- raw: 钱通
+  rawSimplified: 钱通
+  rawTraditional: 錢通
+  result: Qian Tong
+  direct: Qian Tong
+  literal: Qian Tong
+- raw: 高五
+  rawSimplified: 高五
+  rawTraditional: 高五
+  result: Gao Wu
+  direct: Gao Wu
+  literal: Gao Wu
+- raw: 卫聊
+  rawSimplified: 卫聊
+  rawTraditional: 衛聊
+  result: Wei Liao
+  direct: Wei Liao
+  literal: Wei Liao
+- raw: 荀师道
+  rawSimplified: 荀师道
+  rawTraditional: 荀師道
+  result: Xun Shidao
+  direct: Xun Shidao
+  literal: Xun Shidao
+- raw: 秦蛟
+  rawSimplified: 秦蛟
+  rawTraditional: 秦蛟
+  result: Qin Jiao
+  direct: Qin Jiao
+  literal: Qin Jiao
+- raw: 樊荡秽
+  rawSimplified: 樊荡秽
+  rawTraditional: 樊蕩穢
+  result: Fan Danghui
+  direct: Fan Danghui
+  literal: Fan Danghui
+- raw: 司玉鼎
+  rawSimplified: 司玉鼎
+  rawTraditional: 司玉鼎
+  result: Si Yuding
+  direct: Si Yuding
+  literal: Si Yuding
+- raw: 缪辟邪
+  rawSimplified: 缪辟邪
+  rawTraditional: 繆辟邪
+  result: Miao Bixie
+  direct: Miao Bixie
+  literal: Miao Bixie
+- raw: 刘养正
+  rawSimplified: 刘养正
+  rawTraditional: 劉養正
+  result: Liu Yangzheng
+  direct: Liu Yangzheng
+  literal: Liu Yangzheng
+- raw: 钟其北
+  rawSimplified: 钟其北
+  rawTraditional: 鍾其北
+  result: Zhong Qibei
+  direct: Zhong Qibei
+  literal: Zhong Qibei
+- raw: 况天龙
+  rawSimplified: 况天龙
+  rawTraditional: 況天龍
+  result: Kuang Tianlong
+  direct: Kuang Tianlong
+  literal: Kuang Tianlong
+- raw: 金天
+  rawSimplified: 金天
+  rawTraditional: 金天
+  result: Jin Tian
+  direct: Jin Tian
+  literal: Jin Tian
+- raw: 李士实
+  rawSimplified: 李士实
+  rawTraditional: 李士實
+  result: Li Shishi
+  direct: Li Shishi
+  literal: Li Shishi
+- raw: 洪虬
+  rawSimplified: 洪虬
+  rawTraditional: 洪虯
+  result: Hong Qiu
+  direct: Hong Qiu
+  literal: Hong Qiu
+- raw: 安平
+  rawSimplified: 安平
+  rawTraditional: 安平
+  result: An Ping
+  direct: An Ping
+  literal: An Ping
+- raw: 封擒鬼
+  rawSimplified: 封擒鬼
+  rawTraditional: 封擒鬼
+  result: Feng Qingui
+  direct: Feng Qingui
+  literal: Feng Qingui
+- raw: 封百水
+  rawSimplified: 封百水
+  rawTraditional: 封百水
+  result: Feng Baishui
+  direct: Feng Baishui
+  literal: Feng Baishui
+- raw: 袁铁口
+  rawSimplified: 袁铁口
+  rawTraditional: 袁鐵口
+  result: Yuan Tiekou
+  direct: Yuan Tiekou
+  literal: Yuan Tiekou
+- raw: 寇伏魔
+  rawSimplified: 寇伏魔
+  rawTraditional: 寇伏魔
+  result: Kou Fumo
+  direct: Kou Fumo
+  literal: Kou Fumo
+- raw: 朱三
+  rawSimplified: 朱三
+  rawTraditional: 朱三
+  result: Zhu San
+  direct: Zhu San
+  literal: Zhu San
+- raw: 侯平
+  rawSimplified: 侯平
+  rawTraditional: 侯平
+  result: Hou Ping
+  direct: Hou Ping
+  literal: Hou Ping
+- raw: 侯卿
+  rawSimplified: 侯卿
+  rawTraditional: 侯卿
+  result: Hou Qing
+  direct: Hou Qing
+  literal: Hou Qing
+- raw: 那瑜陀
+  rawSimplified: 那瑜陀
+  rawTraditional: 那瑜陀
+  result: Nayutuo
+  direct: Nayutuo
+  literal: Nayutuo
+- raw: 赵小虎
+  rawSimplified: 赵小虎
+  rawTraditional: 趙小虎
+  result: Zhao Xiaohu
+  direct: Zhao Xiaohu
+  literal: Zhao Xiaohu
+- raw: 娄三姑
+  rawSimplified: 娄三姑
+  rawTraditional: 婁三姑
+  result: Lou Sangu
+  direct: Lou Sangu
+  literal: Lou Sangu
+- raw: 娄小二
+  rawSimplified: 娄小二
+  rawTraditional: 婁小二
+  result: Lou Xiaoer
+  direct: Lou Xiaoer
+  literal: Lou Xiaoer
+- raw: 安雅兰
+  rawSimplified: 安雅兰
+  rawTraditional: 安雅蘭
+  result: An Yalan
+  direct: An Yalan
+  literal: An Yalan
+- raw: 莫笑贫
+  rawSimplified: 莫笑贫
+  rawTraditional: 莫笑貧
+  result: Mo Xiaopin
+  direct: Mo Xiaopin
+  literal: Mo Xiaopin
+- raw: 祝八姐
+  rawSimplified: 祝八姐
+  rawTraditional: 祝八姐
+  result: Zhu Bajie
+  direct: Zhu Bajie
+  literal: Zhu Bajie
+- raw: 明通
+  rawSimplified: 明通
+  rawTraditional: 明通
+  result: Mingtong
+  direct: Mingtong
+  literal: Mingtong
+- raw: 普度
+  rawSimplified: 普度
+  rawTraditional: 普度
+  result: Pudu
+  direct: Pudu
+  literal: Pudu
+- raw: 大通
+  rawSimplified: 大通
+  rawTraditional: 大通
+  result: Datong
+  direct: Datong
+  literal: Datong
+- raw: 斗虚
+  rawSimplified: 斗虚
+  rawTraditional: 鬥虛
+  result: Douxu
+  direct: Douxu
+  literal: Douxu
+- raw: 不空
+  rawSimplified: 不空
+  rawTraditional: 不空
+  result: Bukong
+  direct: Bukong
+  literal: Bukong

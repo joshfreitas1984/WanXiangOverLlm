@@ -336,10 +336,7 @@
   splits:
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"200711\",\r\n    \"Name\": \"衡山已明心\"\r\n  }"
   rawIndex: 200711
   splits:
@@ -354,10 +351,7 @@
   splits:
   - splitPath: Name
     text: "洞庭寻宁王"
-    translated: "Dongting Lake in Search of Peaceful King"
-    qcReviewedText: "Dongting Lake in Search of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Searching for Prince Ning at Dongting Lake"
 - raw: "{\r\n    \"Key\": \"201600\",\r\n    \"Name\": \"衡山讨天魔\"\r\n  }"
   rawIndex: 201600
   splits:
@@ -1986,10 +1980,7 @@
   splits:
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"774400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 774400
   splits:
@@ -2594,10 +2585,7 @@
   splits:
   - splitPath: Name
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
 - raw: "{\r\n    \"Key\": \"810000\",\r\n    \"Name\": \"毒发被救治\"\r\n  }"
   rawIndex: 810000
   splits:
@@ -5313,10 +5301,7 @@
   splits:
   - splitPath: Name
     text: "酒楼话宁王"
-    translated: "Tavern speaks of Peaceful King"
-    qcReviewedText: "Tavern speaks of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Talks about Prince Ning at the Tavern"
 - raw: "{\r\n    \"Key\": \"2007900\",\r\n    \"Name\": \"战胜双杰\"\r\n  }"
   rawIndex: 2007900
   splits:
@@ -6077,6 +6062,8 @@
   - splitPath: Name
     text: "赌胜莫笑贫"
     translated: "Win at gambling, do not mock the poor."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
     qcReviewedText: "Win at gambling, do not mock the poor."
     qcStatus: Passed
     qcQualityScore: 90
@@ -7011,10 +6998,7 @@
   splits:
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"3100411\",\r\n    \"Name\": \"武当已明心\"\r\n  }"
   rawIndex: 3100411
   splits:
@@ -7047,10 +7031,7 @@
   splits:
   - splitPath: Name
     text: "洞庭寻宁王"
-    translated: "Dongting Lake in Search of Peaceful King"
-    qcReviewedText: "Dongting Lake in Search of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Searching for Prince Ning at Dongting Lake"
 - raw: "{\r\n    \"Key\": \"3200400\",\r\n    \"Name\": \"初识邱灵素\"\r\n  }"
   rawIndex: 3200400
   splits:
@@ -8101,10 +8082,7 @@
   splits:
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"3874400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 3874400
   splits:
@@ -9080,10 +9058,7 @@
   splits:
   - splitPath: Name
     text: "战胜女忍者"
-    translated: "Defeat the Female Assassin"
-    qcReviewedText: "Defeat the Female Assassin"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Defeat the Female Ninja"
 - raw: "{\r\n    \"Key\": \"4307300\",\r\n    \"Name\": \"战胜吕和乎\"\r\n  }"
   rawIndex: 4307300
   splits:
@@ -9834,10 +9809,7 @@
   splits:
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"4701011\",\r\n    \"Name\": \"洞庭已明心\"\r\n  }"
   rawIndex: 4701011
   splits:
@@ -9861,10 +9833,7 @@
   splits:
   - splitPath: Name
     text: "洞庭寻宁王"
-    translated: "Dongting Lake in Search of Peaceful King"
-    qcReviewedText: "Dongting Lake in Search of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Searching for Prince Ning at Dongting Lake"
 - raw: "{\r\n    \"Key\": \"4703100\",\r\n    \"Name\": \"天魔秘魔崖\"\r\n  }"
   rawIndex: 4703100
   splits:
@@ -10456,10 +10425,7 @@
   splits:
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"5374400\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 5374400
   splits:
@@ -10633,10 +10599,7 @@
   splits:
   - splitPath: Name
     text: "战胜邹九思"
-    translated: "Defeat Zou Jius"
-    qcReviewedText: "Defeat Zou Jius"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Zou Jiusi"
 - raw: "{\r\n    \"Key\": \"5401500\",\r\n    \"Name\": \"鱼糕送百川\"\r\n  }"
   rawIndex: 5401500
   splits:
@@ -11433,6 +11396,8 @@
   - splitPath: Name
     text: "战胜祝八姐"
     translated: "Defeat Sister Zhu Baxi"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Zhu Bajie,祝八姐,"
     qcReviewedText: "Defeat Sister Zhu Baxi"
     qcStatus: Passed
     qcQualityScore: 95
@@ -11721,6 +11686,8 @@
   - splitPath: Name
     text: "战胜封百水"
     translated: "Defeat Feng Bashi"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Feng Baishui,封百水,"
     qcReviewedText: "Defeat Feng Bashi"
     qcStatus: Passed
     qcQualityScore: 95
@@ -12005,11 +11972,7 @@
   splits:
   - splitPath: Name
     text: "战胜辛绝灭"
-    translated: "While correcting, also verify: - Defeat Xing Jue defeat Xing Jue"
-    qcReviewedText: "While correcting, also verify: - Defeat Xing Jue defeat Xing Jue"
-    qcTranslated: "Defeat Xing Juemian"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Defeat Xin Juemie"
 - raw: "{\r\n    \"Key\": \"6500900\",\r\n    \"Name\": \"鬼市寒冬青\"\r\n  }"
   rawIndex: 6500900
   splits:
@@ -12143,6 +12106,8 @@
   - splitPath: Name
     text: "行侠斗卫聊"
     translated: "Wuxia combat and banter"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Wei Liao,卫聊,"
     qcReviewedText: "Wuxia combat and banter"
     qcStatus: Passed
     qcQualityScore: 95
@@ -12188,6 +12153,8 @@
   - splitPath: Name
     text: "战胜寇伏魔"
     translated: "Overcoming Kou Fu Mo, they encountered Zhang San."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Overcoming Kou Fu Mo, they encountered Zhang San."
     qcStatus: Passed
     qcQualityScore: 100
@@ -12293,6 +12260,8 @@
   - splitPath: Name
     text: "战胜缪辟邪"
     translated: "Defeat Mou Bixie"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
     qcReviewedText: "Defeat Mou Bixie"
     qcStatus: Passed
     qcQualityScore: 95
@@ -12432,19 +12401,13 @@
   splits:
   - splitPath: Name
     text: "战胜邵轻虹"
-    translated: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcReviewedText: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Defeat Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"6700600\",\r\n    \"Name\": \"战胜邵轻虹\"\r\n  }"
   rawIndex: 6700600
   splits:
   - splitPath: Name
     text: "战胜邵轻虹"
-    translated: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcReviewedText: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Defeat Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"6700800\",\r\n    \"Name\": \"禀报郜春风\"\r\n  }"
   rawIndex: 6700800
   splits:
@@ -14722,10 +14685,7 @@
   splits:
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"7883100\",\r\n    \"Name\": \"选择萧雪雁\"\r\n  }"
   rawIndex: 7883100
   splits:
@@ -15054,10 +15014,7 @@
   splits:
   - splitPath: Name
     text: "姜芽表真心"
-    translated: "Yang expresses her genuine feelings sincerely"
-    qcReviewedText: "Yang expresses her genuine feelings sincerely"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Jiang Ya to express sincerity"
 - raw: "{\r\n    \"Key\": \"8001300\",\r\n    \"Name\": \"游探叙州府\"\r\n  }"
   rawIndex: 8001300
   splits:
@@ -15118,6 +15075,8 @@
   - splitPath: Name
     text: "普度渡亡魂"
     translated: "Serenity for the Departed Souls"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Serenity for the Departed Souls"
     qcStatus: Passed
     qcQualityScore: 90
@@ -15127,6 +15086,8 @@
   - splitPath: Name
     text: "普度随同行"
     translated: "Prosper Together and Walk Side by Side"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Prosper Together and Walk Side by Side"
     qcStatus: Passed
     qcQualityScore: 90
@@ -15318,10 +15279,7 @@
   splits:
   - splitPath: Name
     text: "初识诸葛慧"
-    translated: "First meeting with Zhu Ge Hui"
-    qcReviewedText: "First meeting with Zhu Ge Hui"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Introducing Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"8100900\",\r\n    \"Name\": \"成都庙会约\"\r\n  }"
   rawIndex: 8100900
   splits:
@@ -15417,10 +15375,7 @@
   splits:
   - splitPath: Name
     text: "朝云萧雪雁"
-    translated: "Morning Cloud, Snowy Feather"
-    qcReviewedText: "Morning Cloud, Snowy Feather"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Morning Cloud Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"8200800\",\r\n    \"Name\": \"玉珠落重楼\"\r\n  }"
   rawIndex: 8200800
   splits:
@@ -15579,10 +15534,7 @@
   splits:
   - splitPath: Name
     text: "交友结方刚"
-    translated: "Making friends with those who are strong and reliable."
-    qcReviewedText: "Making friends with those who are strong and reliable."
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Making friends with Fang Gang"
 - raw: "{\r\n    \"Key\": \"8300800\",\r\n    \"Name\": \"打败况天龙\"\r\n  }"
   rawIndex: 8300800
   splits:
@@ -16083,6 +16035,8 @@
   - splitPath: Name
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
@@ -16101,6 +16055,8 @@
   - splitPath: Name
     text: "金天传下篇"
     translated: "Golden Heaven Transmission Part II"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission Part II"
     qcStatus: Passed
     qcQualityScore: 95

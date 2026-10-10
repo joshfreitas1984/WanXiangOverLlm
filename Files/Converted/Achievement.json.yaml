@@ -416,10 +416,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "战胜宁王府高手“商山四皓”"
-    translated: "Defeat the experts from Peaceful King Manor's  “Four Elders of Shangshan”"
-    qcReviewedText: "Defeat the experts from Peaceful King Manor's  “Four Elders of Shangshan”"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat the masters of Prince Ning's Residence, the “Four Elders of Shangshan”!"
 - raw: "{\r\n    \"Key\": \"93\",\r\n    \"Name\": \"逍遥公侯\",\r\n    \"Desc\": \"潜龙谷中击败“宁王”朱宸濠\",\r\n    \"NameTw\": \"逍遙公侯\",\r\n    \"DescTw\": \"潛龍谷中擊敗“寧王”朱宸濠\"\r\n  }"
   rawIndex: 93
   splits:
@@ -431,10 +428,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "潜龙谷中击败“宁王”朱宸濠"
-    translated: "Defeat the  “Peaceful King”  Zhu Chenhao in the Secluded Dragon Valley"
-    qcReviewedText: "Defeat the  “Peaceful King”  Zhu Chenhao in the Secluded Dragon Valley"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat “Prince Ning” Zhu Chenhao in Hidden Dragon Valley"
 - raw: "{\r\n    \"Key\": \"97\",\r\n    \"Name\": \"武林盟主\",\r\n    \"Desc\": \"天魔殿中击败“魔侯”任沧溟\",\r\n    \"NameTw\": \"武林盟主\",\r\n    \"DescTw\": \"天魔殿中擊敗“魔侯”任滄溟\"\r\n  }"
   rawIndex: 97
   splits:
@@ -812,10 +806,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "“神机百巧”诸葛慧解锁红颜"
-    translated: "“Godwit's Thousand Tricks”  is unlocked: Zhuo Ge Hu unlocks Red Beauty"
-    qcReviewedText: "“Godwit's Thousand Tricks”  is unlocked: Zhuo Ge Hu unlocks Red Beauty"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Godly Ingenuity Zhuge Hui unlocks Red Rose"
 - raw: "{\r\n    \"Key\": \"116\",\r\n    \"Name\": \"芽苞初放\",\r\n    \"Desc\": \"“姜辣子”姜芽解锁红颜\",\r\n    \"NameTw\": \"芽苞初放\",\r\n    \"DescTw\": \"“薑辣子”姜芽解鎖紅顏\"\r\n  }"
   rawIndex: 116
   splits:
@@ -827,10 +818,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "“姜辣子”姜芽解锁红颜"
-    translated: "“Sichuan Pepper”  Jiaya Unlocks Hongyan"
-    qcReviewedText: "“Sichuan Pepper”  Jiaya Unlocks Hongyan"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "'Ginger Hotshot' Jiang Ya unlocks Red Beauty"
 - raw: "{\r\n    \"Key\": \"117\",\r\n    \"Name\": \"云裳月容\",\r\n    \"Desc\": \"“青莲映月”李云裳解锁红颜\",\r\n    \"NameTw\": \"雲裳月容\",\r\n    \"DescTw\": \"“青蓮映月”李雲裳解鎖紅顏\"\r\n  }"
   rawIndex: 117
   splits:
@@ -842,10 +830,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "“青莲映月”李云裳解锁红颜"
-    translated: "“Lotus Moonlight”  Li Yunsang Unlocks Fair Lady"
-    qcReviewedText: "“Lotus Moonlight”  Li Yunsang Unlocks Fair Lady"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Lotus in Moonlight Li Yunshang unlocks Red Rose"
 - raw: "{\r\n    \"Key\": \"118\",\r\n    \"Name\": \"雪雁凌空\",\r\n    \"Desc\": \"“云峰雁首”萧雪雁解锁红颜\",\r\n    \"NameTw\": \"雪雁凌空\",\r\n    \"DescTw\": \"“雲峰雁首”蕭雪雁解鎖紅顏\"\r\n  }"
   rawIndex: 118
   splits:
@@ -1040,6 +1025,8 @@
   - splitPath: Desc
     text: "赌赢“富贵神仙”莫笑贫"
     translated: "'Bet against Rich Immortal Mo Xiao' and won"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
     qcReviewedText: "'Bet against Rich Immortal Mo Xiao' and won"
     qcStatus: Passed
     qcQualityScore: 100

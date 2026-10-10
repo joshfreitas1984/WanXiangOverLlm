@@ -1148,10 +1148,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "贾孤山"
     translated: "Jia Gushan"
-    qcReviewedText: "<color=#BA77D9>Jia Gushan </color>When leaving Gentlemen Manor, say <color=#77CED9>August </color>Even during the Mid-Autumn Festival, he still plans to visit, so it seems he hasn't given up on recruiting for the Peaceful King.<color=#BA77D9>Zhangsun Cheng </color>Sir's plans"
-    qcTranslated: "<color=#BA77D9>Jia Gushan </color>said when leaving Gentlemen Manor that he would visit again during the Mid-Autumn Festival in <color=#77CED9>August</color>, so it seems he still hasn't given up on his plan to recruit <color=#BA77D9>Zhangsun Cheng</color> for the Peaceful King."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "从君子庄离去时说"
@@ -1163,7 +1159,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "中秋还要再至拜访，看来还是没有放弃替宁王延揽"
-    translated: "Even during the Mid-Autumn Festival, he still plans to visit, so it seems he hasn't given up on recruiting for the Peaceful King."
+    translated: "I'll have to visit again during the Mid-Autumn Festival-it seems I still haven't given up trying to secure favors for Prince Ning."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "长孙诚"
@@ -1175,10 +1171,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "贾孤山"
     translated: "Jia Gushan"
-    qcReviewedText: "<color=#BA77D9>Jia Gushan </color>When leaving Gentlemen Manor, say <color=#77CED9>August </color>Even during the Mid-Autumn Festival, he still plans to visit, so it seems he hasn't given up on recruiting for the Peaceful King.<color=#BA77D9>Zhangsun Cheng </color>Sir's plans"
-    qcTranslated: "<color=#BA77D9>Jia Gushan </color>said when leaving Gentlemen Manor that he would visit again during the Mid-Autumn Festival in <color=#77CED9>August</color>, so it seems he still hasn't given up on his plan to recruit <color=#BA77D9>Zhangsun Cheng</color> for the Peaceful King."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "从君子庄离去时说"
@@ -1190,7 +1182,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "中秋还要再至拜访，看来还是没有放弃替宁王延揽"
-    translated: "Even during the Mid-Autumn Festival, he still plans to visit, so it seems he hasn't given up on recruiting for the Peaceful King."
+    translated: "I'll have to visit again during the Mid-Autumn Festival-it seems I still haven't given up trying to secure favors for Prince Ning."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "长孙诚"
@@ -2091,11 +2083,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Extremely ambitious <color=#BA77D9>Wudang</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should have their own plans in place, with many unusual and talented individuals under their command to enhance their capabilities.<color=#D9C577>Medicine</color>、<color=#D9C577>Variety Arts </color>By becoming a Master, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> is extremely ambitious. The forces of sects such as <color=#BA77D9>Wudang</color> and <color=#BA77D9>Dongting</color> should have their own plans in place. Additionally, he has many unusual and talented individuals under his command; raising <color=#D9C577>Medicine</color> and <color=#D9C577>Variety Arts</color> to Master level will allow you to gain additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -2126,11 +2114,7 @@
     translated: "By becoming a Master, you can gain additional teammates."
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Has great ambition <color=#BA77D9>Wudang</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should have some plans in place, and with many unusual and talented individuals under their command, they can enhance their capabilities.<color=#D9C577>Medicine</color>、<color=#D9C577>Variety Arts </color>By mastering this, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> has great ambition. <color=#BA77D9>Wudang</color>, <color=#BA77D9>Dongting</color>, and other sects should have plans in place. Additionally, his camp is full of extraordinary individuals; raising <color=#D9C577>Medicine</color> and <color=#D9C577>Variety Arts</color> to Master level will allow you to recruit additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -2176,10 +2160,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might learn the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -2207,7 +2187,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -2215,10 +2195,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -2246,7 +2222,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -2268,10 +2244,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>First clue, first stage <color=#BA77D9>Chunyu Wang </color>Trial \\n<color=#D9C577>Divination</color>, You can either learn Divination to a high level from Mr. Bei in Yuelu Academy or raise your friendship level with Yuelu Academy to 100 to complete this challenge."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The first stage, <color=#BA77D9>Chunyu Wang</color>'s trial, tests <color=#D9C577>Divination</color>. You can learn Divination to an expert level from Mr. Bei at Yuelu Academy, or raise your friendship with Yuelu Academy to 100, to complete this challenge."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2283,7 +2255,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "的线索，第一场"
@@ -2307,10 +2279,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>First clue, first stage <color=#BA77D9>Chunyu Wang </color>Trial <color=#D9C577>Divination</color>, You can either learn Divination to become an expert with Master Beicun at Yuelu Academy or raise your friendship level with Yuelu Academy to 100 to complete this challenge."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The first stage, <color=#BA77D9>Chunyu Wang</color>'s trial, tests <color=#D9C577>Divination</color>. You can learn Divination from Master Beicun at Yuelu Academy until reaching expert level, or raise your friendship with Yuelu Academy to 100 to complete this challenge."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2322,7 +2290,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "的线索，第一场"
@@ -2360,10 +2328,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>A clue, second act <color=#BA77D9>Xia Sizhao </color>Trial \\n<color=#D9C577>Cooking</color>, You can either travel to different places and learn advanced cooking skills by tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The second <color=#BA77D9>Xia Sizhao</color> trial is <color=#D9C577>Cooking</color>; you can travel to various regions to taste local specialties and master cooking skills, or increase your friendship with the Beggar Sect to 100. to complete this challenge."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2375,7 +2339,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "的线索，第二场"
@@ -2399,10 +2363,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>A clue, second act <color=#BA77D9>Xia Sizhao </color>Trial <color=#D9C577>Cooking</color>, You can either travel to various places and learn advanced cooking skills by tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The second <color=#BA77D9>Xia Sizhao</color> trial is <color=#D9C577>Cooking</color>; you can master advanced cooking skills by traveling to various places and tasting local specialties, or complete this challenge by increasing your friendship with the Beggar Sect to 100.."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2414,7 +2374,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "的线索，第二场"
@@ -2452,10 +2412,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>A clue, the third act <color=#BA77D9>Qiu Xingji </color>Trial \\n<color=#D9C577>Gambling</color>, You can either improve your Gambling skills to become a master through Xiangdong Zhurou District, or unlock the challenge by completing it with Red Beauty Jin Hongyi."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The third <color=#BA77D9>Qiu Xingji</color> trial is <color=#D9C577>Gambling</color>; you can raise your Gambling skill to Master level at Xiangdong Zhurou District, or unlock Jin Hongyi's Romance to complete this challenge."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2467,7 +2423,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "的线索，第三场"
@@ -2491,10 +2447,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "完成"
     translated: "Completed"
-    qcReviewedText: "Completed <color=#BA77D9>Four Elders of Shangshan </color>To obtain it, one must pass the test.<color=#BA77D9>Peaceful King </color>A clue, the third act <color=#BA77D9>Qiu Xingji </color>Trial <color=#D9C577>Gambling</color>, You can either improve your Gambling skills to become a master through the Zhuque District in Xiangdong or unlock Jin Hongyi to complete this challenge."
-    qcTranslated: "Complete the <color=#BA77D9>Four Elders of Shangshan</color> trial to obtain a clue from the <color=#BA77D9>Peaceful King</color>. The third trial is <color=#BA77D9>Qiu Xingji</color>'s <color=#D9C577>Gambling</color> test. You can raise your Gambling skill to Master level at the Zhuque District in Xiangdong, or unlock Jin Hongyi's favor to complete this challenge."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2506,7 +2458,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "的线索，第三场"
@@ -2544,10 +2496,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "只有完成"
     translated: "Only by completing"
-    qcReviewedText: "Only by completing <color=#BA77D9>Four Elders of Shangshan </color>To earn from them after passing their trials <color=#BA77D9>Peaceful King </color>A clue, watch the fourth performance <color=#BA77D9>Dongguo Liang </color>This way, if I were to offer to buy the Four Scenes of Mountain and Water painting for him,<color=#D9C577>Five thousand coins</color>, He's going to keep up this act of confusion."
-    qcTranslated: "Only by completing the trials of the <color=#BA77D9>Four Elders of Shangshan</color> can you obtain a clue about the <color=#BA77D9>Peaceful King</color> from them. In the fourth scene, judging by how <color=#BA77D9>Dongguo Liang</color> is acting, if you offer him <color=#D9C577>five thousand coins</color> to buy the *Four Scenes of Mountain and Water*, he will keep up this act of confusion indefinitely."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2559,7 +2507,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "的线索，第四场看"
@@ -2583,10 +2531,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "只有完成"
     translated: "Only by completing"
-    qcReviewedText: "Only by completing <color=#BA77D9>Four Elders of Shangshan </color>To earn from them after passing their trials <color=#BA77D9>Peaceful King </color>A clue, watch the fourth performance <color=#BA77D9>Dongguo Liang </color>This way, if I were to offer to buy the Four Scenes of Mountains and Water for him,<color=#D9C577>Five thousand coins</color>, He's going to keep up this act of confusion."
-    qcTranslated: "Only by completing the trials of the <color=#BA77D9>Four Elders of Shangshan</color> can you obtain a clue about the <color=#BA77D9>Peaceful King</color> from them. In the fourth scene, judging by how <color=#BA77D9>Dongguo Liang</color> is acting, if I were to offer him <color=#D9C577>five thousand coins</color> to buy the *Four Scenes of Mountains and Water*, he would keep up this act of confusion indefinitely."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "商山四皓"
@@ -2598,7 +2542,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "的线索，第四场看"
@@ -3615,11 +3559,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "若已经想明宁王一事，还要去"
-    translated: "If you've already figured out the matter concerning the Peaceful King, there's no need to go."
-    qcReviewedText: "If you've already figured out the matter concerning the Peaceful King, there's no need to go.<color=#77CED9>Hall of Repaying Gratitude </color>It's best to respond as soon as possible; before going, perhaps it might still be possible to go first to...<color=#77CED9>Nine Rivers Manor in Southern Xianghua</color>、<color=#77CED9>Xiangbei Misty Harbor Bay </color>Take a look"
-    qcTranslated: "If you've already figured out the matter concerning the Peaceful King, you should go to the <color=#77CED9>Hall of Repaying Gratitude</color> and reply as soon as possible. Before going, perhaps you could first visit <color=#77CED9>Nine Rivers Manor in Southern Xiang</color> or <color=#77CED9>Misty Harbor in Northern Xiang</color> to take a look."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "If you've already figured out everything about Prince Ning, why go there still?"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "报恩殿"
@@ -3642,11 +3582,7 @@
     translated: "Take a look"
   - splitPath: ConditionUnsatisfiedDesc
     text: "若已经想明宁王一事，还要去"
-    translated: "If you have already figured out the matter concerning the Peaceful King, there is no need to go."
-    qcReviewedText: "If you have already figured out the matter concerning the Peaceful King, there is no need to go.<color=#77CED9>Hall of Repaying Gratitude </color>It's best to respond as soon as possible; before going there, perhaps it might still be possible to go...<color=#77CED9>Nine Streams Manor in Southern Xianghua</color>、<color=#77CED9>Xiangbei Misty Harbor Bay </color>Take a look"
-    qcTranslated: "If you have already figured out the matter concerning the Peaceful King, you should go to the <color=#77CED9>Hall of Repaying Gratitude</color> and reply as soon as possible. Before going, perhaps you can first visit <color=#77CED9>Nine Streams Manor in Southern Xiang</color> or <color=#77CED9>Misty Harbor in Northern Xiang</color> to take a look."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "If you've already figured out everything about Prince Ning, why go there still?"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "报恩殿"
@@ -3683,11 +3619,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Extremely ambitious <color=#BA77D9>Hengshan Mountain</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should also have their plans, but the Peaceful King has many unusual and talented individuals under his command, so they likely have improved as well.<color=#D9C577>Beast Taming</color>、<color=#D9C577>Variety Arts </color>By becoming a Master, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> is extremely ambitious. The forces of sects like <color=#BA77D9>Hengshan</color> and <color=#BA77D9>Dongting</color> should also be making their own plans, but the Peaceful King has many unusual and talented individuals under his command. Improving <color=#D9C577>Beast Taming</color> and <color=#D9C577>Variety Arts</color> to Master level will allow you to gain additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -3703,7 +3635,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "等门派势力应该也有所筹谋，不过宁王帐下多奇人异士，提升"
-    translated: "The sect's forces should also have their plans, but the Peaceful King has many unusual and talented individuals under his command, so they likely have improved as well."
+    translated: "The various Sects must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals, which gives him an edge."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "御兽"
@@ -3718,11 +3650,7 @@
     translated: "By becoming a Master, you can gain additional teammates."
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Has great ambition <color=#BA77D9>Hengshan Mountain</color>、<color=#BA77D9>Dongting Lake </color>The sect's forces should also have some plans in place, but the Peaceful King has many unusual and talented individuals under his command, so their strength is likely to increase.<color=#D9C577>Beast Taming</color>、<color=#D9C577>Variety Arts </color>By mastering this, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> has great ambitions. The forces of sects like <color=#BA77D9>Hengshan</color> and <color=#BA77D9>Dongting</color> should also have their own plans, but the Peaceful King has many unusual and talented individuals under his command. Upgrading <color=#D9C577>Beast Taming</color> and <color=#D9C577>Variety Arts</color> to Master level will grant you additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -3738,7 +3666,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "等门派势力应该也有所筹谋，不过宁王帐下多奇人异士，提升"
-    translated: "The sect's forces should also have some plans in place, but the Peaceful King has many unusual and talented individuals under his command, so their strength is likely to increase."
+    translated: "The various Sect forces must also have their own plans, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "御兽"
@@ -3768,10 +3696,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might learn the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -3799,7 +3723,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -3807,10 +3731,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -3838,7 +3758,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -4924,10 +4844,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "飞鱼帮"
     translated: "Flying Fish Sect"
-    qcReviewedText: "<color=#BA77D9>Flying Fish Sect </color>Is located at <color=#77CED9>Jingdong Wuchang Prefecture</color>, It's said that <color=#BA77D9>Flies west </color>The son of the lord has been frail and sickly since childhood; we'll need to inquire further once we arrive at the local area."
-    qcTranslated: "<color=#BA77D9>Flying Fish Sect</color> is located in <color=#77CED9>Jingdong Wuchang Prefecture</color>. It is said that the son of <color=#BA77D9>Xiang Xifei</color> has been frail and sickly since childhood; we will need to inquire further once we arrive locally."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -4943,7 +4859,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "向西飞"
-    translated: "Flies west"
+    translated: "Xiang Xifei"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "的之子自幼体弱多病，具体如何还得到当地去打听一二。"
@@ -4951,10 +4867,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "飞鱼帮"
     translated: "Flying Fish Sect"
-    qcReviewedText: "<color=#BA77D9>Flying Fish Sect </color>Is located at <color=#77CED9>Jingdong Wuchang Prefecture</color>, It's said that <color=#BA77D9>Flies west </color>The child of the family has been frail and often ill since childhood; we'll need to inquire further once we arrive at the local area."
-    qcTranslated: "<color=#BA77D9>Flying Fish Sect</color> is located in <color=#77CED9>Jingdong Wuchang Prefecture</color>. It is said that the son of <color=#BA77D9>Xiang Xifei</color> has been frail and often ill since childhood; we will need to go to the local area to inquire further."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -4970,7 +4882,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "向西飞"
-    translated: "Flies west"
+    translated: "Xiang Xifei"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "的之子自幼体弱多病，具体如何还得到当地去打听一二。"
@@ -4991,11 +4903,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "向西飞"
-    translated: "Flies west"
-    qcReviewedText: "<color=#BA77D9>Flies west </color>This one is chosen <color=#BA77D9>Medicine King Valley </color>A divine doctor can treat it, but one ingredient is still missing.<color=#BA77D9>Nine-leaf Rehmannia Root</color>, It's said that <color=#BA77D9>Jingbei Yunyang Prefecture </color>This medicine was once found in the desolate mountains to the south. If one wishes to find it among the vast forests, it will likely require...<color=#D9C577>Luck </color>You're no longer an ordinary person"
-    qcTranslated: "<color=#BA77D9>Flies west </color>'s child was treated by a divine doctor of <color=#BA77D9>Medicine King Valley</color>, but one ingredient is still missing: <color=#BA77D9>Nine-leaf Rehmannia Root</color>. It is said that this medicine was once found in the desolate mountains south of <color=#BA77D9>Jingbei Yunyang Prefecture</color>. If you wish to find it among the vast forests, it will likely require someone with deep <color=#D9C577>Luck</color> and fortune."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Xiang Xifei"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "之子得"
@@ -5034,11 +4942,7 @@
     translated: "You're no longer an ordinary person"
   - splitPath: ConditionUnsatisfiedDesc
     text: "向西飞"
-    translated: "Flies west"
-    qcReviewedText: "<color=#BA77D9>Flies west </color>This one wins <color=#BA77D9>Medicine King Valley </color>A divine doctor can treat it, but one ingredient is still missing.<color=#BA77D9>Nine-leaf Rehmannia Root</color>, It's said that <color=#BA77D9>Jingbei Yunyang Prefecture </color>This medicine was once found in the desolate mountains to the south. If one wishes to find it among the vast forests, it will likely require...<color=#D9C577>Luck </color>You're no longer a novice; you've become someone of great depth and experience."
-    qcTranslated: "<color=#BA77D9>Flies west </color>'s child was treated by a divine doctor of <color=#BA77D9>Medicine King Valley</color>, but one ingredient is still missing: <color=#BA77D9>Nine-leaf Rehmannia Root</color>. It is said that this medicine was once found in the desolate mountains south of <color=#BA77D9>Jingbei Yunyang Prefecture</color>. If you wish to find it among the vast forests, it will likely require someone with deep <color=#D9C577>Luck</color> and fortune."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Xiang Xifei"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "之子得"
@@ -5092,10 +4996,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "既已寻到了"
     translated: "Having already found"
-    qcReviewedText: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, If this medicine were to be delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, Perhaps with <color=#BA77D9>Flies west </color>It's not necessarily impossible to turn enemies into friends."
-    qcTranslated: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, if this medicine is delivered to the <color=#BA77D9>Flying Fish Sect</color> in <color=#77CED9>Jingdong Wuchang Prefecture</color>, it may be possible to turn <color=#BA77D9>Xiang Xifei</color> from an enemy into a friend."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "九叶地黄"
@@ -5119,7 +5019,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 6
     text: "向西飞"
-    translated: "Flies west"
+    translated: "Xiang Xifei"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "也未必不能化敌为友。"
@@ -5127,10 +5027,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "既已寻到了"
     translated: "Having already found"
-    qcReviewedText: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, If this medicine were delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, Perhaps with <color=#BA77D9>Flies west </color>It's not necessarily impossible to turn enemies into friends."
-    qcTranslated: "Having already found <color=#BA77D9>Nine-leaf Rehmannia Root</color>, if this medicine were delivered to <color=#77CED9>Jingdong Wuchang Prefecture </color><color=#BA77D9>Flying Fish Sect</color>, perhaps with <color=#BA77D9>Xiang Xifei</color> it is not necessarily impossible to turn enemies into friends."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "九叶地黄"
@@ -5154,7 +5050,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 6
     text: "向西飞"
-    translated: "Flies west"
+    translated: "Xiang Xifei"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "也未必不能化敌为友。"
@@ -5302,10 +5198,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "听风阁"
     translated: "Wind Listening Pavilion"
-    qcReviewedText: "<color=#BA77D9>Wind Listening Pavilion </color>Is located at <color=#77CED9>Jingnan Jingzhou Prefecture</color>，<color=#BA77D9>Zou Wuji </color>A life skilled in scheming; if success is desired, one might still have to start from <color=#BA77D9>Zou Jius </color>Attack him from behind"
-    qcTranslated: "<color=#BA77D9>Wind Listening Pavilion</color> is located in <color=#77CED9>Jingnan Jingzhou Prefecture</color>. <color=#BA77D9>Zou Wuji</color> was a master of scheming throughout his life; if you wish to succeed, you may still need to start with <color=#BA77D9>Zou Jius</color>."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -5325,7 +5217,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "邹九思"
-    translated: "Zou Jius"
+    translated: "Zou Jiusi"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 6
     text: "身上下手。"
@@ -5333,10 +5225,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "听风阁"
     translated: "Wind Listening Pavilion"
-    qcReviewedText: "<color=#BA77D9>Wind Listening Pavilion </color>Is located at <color=#77CED9>Jingnan Jingzhou Prefecture</color>，<color=#BA77D9>Zou Wuji </color>A life skilled in scheming; if success is the goal, one might still have to start from <color=#BA77D9>Zou Jius </color>Attack him from behind"
-    qcTranslated: "<color=#BA77D9>Wind Listening Pavilion</color> is located in <color=#77CED9>Jingnan Jingzhou Prefecture</color>. <color=#BA77D9>Zou Wuji</color> was a master of scheming throughout his life; if you wish to succeed, you may still need to start with <color=#BA77D9>Zou Jius</color>."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "位于"
@@ -5356,7 +5244,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "邹九思"
-    translated: "Zou Jius"
+    translated: "Zou Jiusi"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 6
     text: "身上下手。"
@@ -5377,11 +5265,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "邹九思"
-    translated: "Zou Jius"
-    qcReviewedText: "<color=#BA77D9>Zou Jius </color>Has already agreed to help persuade his father.<color=#BA77D9>Zou Wuji</color>, But <color=#BA77D9>Zou Wuji </color>A life spent in scheming requires a certain level of <color=#D9C577>Insight </color>Wisdom, and likely would also be underestimated by <color=#BA77D9>Zou Wuji </color>Take that into account"
-    qcTranslated: "<color=#BA77D9>Zou Jius</color> has already agreed to help persuade his father, <color=#BA77D9>Zou Wuji</color>. However, since <color=#BA77D9>Zou Wuji</color> has spent his life mastering calculation and scheming, without a certain level of <color=#D9C577>Insight</color> and wisdom, you would likely be outsmarted by <color=#BA77D9>Zou Wuji</color> as well."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Zou Jiusi"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "已经同意了帮忙劝他父亲"
@@ -5420,11 +5304,7 @@
     translated: "Take that into account"
   - splitPath: ConditionUnsatisfiedDesc
     text: "邹九思"
-    translated: "Zou Jius"
-    qcReviewedText: "<color=#BA77D9>Zou Jius </color>Has already agreed to help persuade his father.<color=#BA77D9>Zou Wuji</color>, But Zou Wuji is skilled at calculation for a reason; he wouldn't do anything without good cause.<color=#D9C577>Insight </color>Wisdom, and likely would also be underestimated by <color=#BA77D9>Zou Wuji </color>Take that into account"
-    qcTranslated: "<color=#BA77D9>Zou Jius</color> has already agreed to help persuade his father, <color=#BA77D9>Zou Wuji</color>. However, Zou Wuji has spent his life mastering calculation; without a certain level of <color=#D9C577>Insight</color> and wisdom, one would likely be outsmarted by <color=#BA77D9>Zou Wuji</color> as well."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Zou Jiusi"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "已经同意了帮忙劝他父亲"
@@ -5553,11 +5433,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "若已经想明宁王一事，还要去"
-    translated: "If you've already figured out the matter concerning the Peaceful King, there's no need to go."
-    qcReviewedText: "If you've already figured out the matter concerning the Peaceful King, there's no need to go.<color=#77CED9>Dragonhead Hall </color>It's best to respond as soon as possible; before going, perhaps it might still be possible to go first to...<color=#77CED9>Jingbei True Martial Temple</color>、<color=#77CED9>Nine Rivers Manor in Southern Xianghua </color>Take a look"
-    qcTranslated: "If you've already figured out the matter concerning the Peaceful King, you should go to <color=#77CED9>Dragonhead Hall</color> and reply as soon as possible. Before going, perhaps you can first visit <color=#77CED9>Jingbei True Martial Temple</color> or <color=#77CED9>Nine Rivers Manor in Southern Xiang</color> to take a look."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "If you've already figured out everything about Prince Ning, why go there still?"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "龙首堂"
@@ -5580,11 +5456,7 @@
     translated: "Take a look"
   - splitPath: ConditionUnsatisfiedDesc
     text: "若已经想明宁王一事，还要去"
-    translated: "If you have already figured out the matter concerning the Peaceful King, there is no need to go."
-    qcReviewedText: "If you have already figured out the matter concerning the Peaceful King, there is no need to go.<color=#77CED9>Dragonhead Hall </color>It's best to respond as soon as possible; before going there, perhaps it might still be possible to go...<color=#77CED9>Jingbei True Martial Observatory</color>、<color=#77CED9>Nine Streams Manor in Southern Xianghua </color>Take a look"
-    qcTranslated: "If you have already figured out the matter concerning the Peaceful King, you should go to <color=#77CED9>Dragonhead Hall</color> and reply as soon as possible. Before going, perhaps you can first visit <color=#77CED9>Jingbei True Martial Temple</color> or <color=#77CED9>Nine Streams Manor in Southern Xiang</color> to take a look."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "If you've already figured out everything about Prince Ning, why go there still?"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "龙首堂"
@@ -5621,11 +5493,7 @@
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Extremely ambitious <color=#BA77D9>Wudang</color>、<color=#BA77D9>Hengshan Mountain </color>The sect's forces should also have made deployments, but the Peaceful King has many unusual and talented individuals under his command, so they have likely been strengthened.<color=#D9C577>Medicine</color>、<color=#D9C577>Beast Taming </color>By becoming a Master, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> is extremely ambitious. The forces of sects like <color=#BA77D9>Wudang</color> and <color=#BA77D9>Hengshan Mountain</color> should have made their own deployments, but the Peaceful King has many unusual and talented individuals under his command. Raising <color=#D9C577>Medicine</color> and <color=#D9C577>Beast Taming</color> to Master level will allow you to gain additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -5641,7 +5509,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "等门派势力应该也有所部署，不过宁王帐下多奇人异士，提升"
-    translated: "The sect's forces should also have made deployments, but the Peaceful King has many unusual and talented individuals under his command, so they have likely been strengthened."
+    translated: "The Sects must have made their own arrangements as well, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 5
     text: "医术"
@@ -5656,11 +5524,7 @@
     translated: "By becoming a Master, you can gain additional teammates."
   - splitPath: ConditionUnsatisfiedDesc
     text: "宁王"
-    translated: "Peaceful King"
-    qcReviewedText: "<color=#BA77D9>Peaceful King </color>Has great ambition <color=#BA77D9>Wudang</color>、<color=#BA77D9>Hengshan Mountain </color>The sect's forces should also have made deployments, but the Peaceful King has many unusual and talented individuals under his command, so they likely have enhanced their capabilities.<color=#D9C577>Medicine</color>、<color=#D9C577>Beast Taming </color>By mastering this, you can gain additional teammates."
-    qcTranslated: "<color=#BA77D9>Peaceful King</color> has great ambition. <color=#BA77D9>Wudang</color>, <color=#BA77D9>Hengshan Mountain</color>, and other sects should have made their own deployments, but the Peaceful King has many unusual and talented individuals under his command. Raising <color=#D9C577>Medicine</color> and <color=#D9C577>Beast Taming</color> to Master level will allow you to gain additional teammates."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "野心极大，"
@@ -5676,7 +5540,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "等门派势力应该也有所部署，不过宁王帐下多奇人异士，提升"
-    translated: "The sect's forces should also have made deployments, but the Peaceful King has many unusual and talented individuals under his command, so they likely have enhanced their capabilities."
+    translated: "The Sects must have made their own arrangements as well, but Prince Ning's entourage is full of extraordinary individuals, which gives them an edge."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 5
     text: "医术"
@@ -5706,10 +5570,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If their whereabouts can be found, perhaps one might learn of them.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might learn the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -5737,7 +5597,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -5745,10 +5605,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "有消息说"
     translated: "There's news that"
-    qcReviewedText: "There's news that <color=#77CED9>Jingnan </color>Of <color=#77CED9>Changle District </color>Appeared in the middle <color=#BA77D9>Four Elders of Shangshan </color>If they can find those four people, they might be able to learn about it.<color=#BA77D9>Peaceful King </color>Whereabouts"
-    qcTranslated: "There's news that the <color=#BA77D9>Four Elders of Shangshan</color> have been spotted in the <color=#77CED9>Changle District</color> of <color=#77CED9>Jingnan</color>. If you can find them, you might be able to learn about the whereabouts of the <color=#BA77D9>Peaceful King</color>."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆南"
@@ -5776,7 +5632,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "宁王"
-    translated: "Peaceful King"
+    translated: "Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 8
     text: "的下落。"
@@ -6262,6 +6118,8 @@
     subIndex: 3
     text: "明通"
     translated: "Clear Path"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "大师，想要在十月之前找到逃离"
@@ -6309,6 +6167,8 @@
     subIndex: 3
     text: "明通"
     translated: "Clear Path"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "大师，想要在十月之前找到逃离"
@@ -7491,10 +7351,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "被"
     translated: "Was hit by"
-    qcReviewedText: "Was hit by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head<color=#BA77D9>'Iron Thorn' Gao Liang </color>At <color=#77CED9>Southern Hunan </color>Roam around"
-    qcTranslated: "The wanted criminal <color=#BA77D9>Iron Thorn Gao Liang</color>, who has a <color=#BA77D9>Bounty</color> on his head from the <color=#BA77D9>Jingxi Six Doors</color>, is spotted roaming around the <color=#77CED9>Southern Hunan</color> area."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"
@@ -7506,7 +7362,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 3
     text: "“铁蒺藜”高亮"
-    translated: "'Iron Thorn' Gao Liang"
+    translated: "Gao Liang of the Iron Caltrop"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 4
     text: "在"
@@ -7522,10 +7378,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "被"
     translated: "Was trapped by"
-    qcReviewedText: "Was trapped by <color=#BA77D9>Jingxi Six Doors </color>Wanted criminal with a bounty on their head<color=#BA77D9>'Iron Thorn' Gao Liang </color>At <color=#77CED9>Southern Hunan </color>Roam around"
-    qcTranslated: "The wanted criminal <color=#BA77D9>Iron Thorn Gao Liang</color>, who has a <color=#BA77D9>bounty</color> on his head from the <color=#BA77D9>Jingxiang Six Doors</color>, is spotted roaming around the <color=#77CED9>Southern Hunan</color> region."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "荆湘六扇门"
@@ -7537,7 +7389,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 3
     text: "“铁蒺藜”高亮"
-    translated: "'Iron Thorn' Gao Liang"
+    translated: "Gao Liang Iron Caltrop"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 4
     text: "在"
@@ -7894,10 +7746,6 @@
   - splitPath: ConditionSatisfiedDesc
     text: "荆湘门派"
     translated: "Jingxi Sect"
-    qcReviewedText: "<color=#ff0000>Jingxi Sect </color><color=#D9C577>Eighth Year </color>Start by <color=#77CED9>Xiangbei </color>Of <color=#BA77D9>Recruitment Arena </color>Activate <color=#BA77D9>Peaceful King's ending</color>，<color=#D9C577>Ninth Year </color>Start from the beginning <color=#77CED9>Xiangdong </color>Encounter <color=#BA77D9>Wen Canyang </color>Activate <color=#BA77D9>Demon Lord's ending</color>, For specific information, refer to the details <color=#D9C577>Relationship Interface </color>Of <color=#D9C577>Ending </color>One column"
-    qcTranslated: "<color=#ff0000>Jingxiang Sect</color> <color=#D9C577>Eighth Year</color>: Starting from the <color=#77CED9>Xiangbei</color> <color=#BA77D9>Recruitment Arena</color>, you can unlock the <color=#BA77D9>Peaceful King's ending</color>. From the <color=#D9C577>Ninth Year</color>, you can encounter <color=#BA77D9>Wen Canyang</color> in <color=#77CED9>Xiangdong</color> to unlock the <color=#BA77D9>Demon Lord's ending</color>. For specific information, refer to the <color=#D9C577>Ending</color> section of the <color=#D9C577>Relationship Interface</color>."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "第八年"
@@ -7925,7 +7773,7 @@
   - splitPath: ConditionSatisfiedDesc
     subIndex: 7
     text: "宁王结局"
-    translated: "Peaceful King's ending"
+    translated: "Ending of Prince Ning"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 8
     text: "第九年"
@@ -7977,10 +7825,6 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "第八年"
     translated: "Eighth Year"
-    qcReviewedText: "<color=#D9C577>Eighth Year </color>Start by <color=#77CED9>Xiangbei </color>Of <color=#BA77D9>Recruitment Arena </color>Activate <color=#BA77D9>Peaceful King's ending</color>，<color=#D9C577>Ninth Year </color>Start from the beginning <color=#77CED9>Xiangdong </color>Encounter <color=#BA77D9>Wen Canyang </color>Activate <color=#BA77D9>Demon Lord's ending</color>, For specific information, refer to the details <color=#D9C577>Relationship Interface </color>Of <color=#D9C577>Ending </color>One column"
-    qcTranslated: "<color=#D9C577>Eighth Year</color> Starting from the <color=#77CED9>Xiangbei</color> <color=#BA77D9>Recruitment Arena</color>, you can unlock the <color=#BA77D9>Peaceful King's ending</color>. From the <color=#D9C577>Ninth Year</color>, you can encounter <color=#BA77D9>Wen Canyang</color> in <color=#77CED9>Xiangdong</color> to unlock the <color=#BA77D9>Demon Lord's ending</color>. For specific information, refer to the <color=#D9C577>Ending</color> section of the <color=#D9C577>Relationship Interface</color>."
-    qcStatus: Corrected
-    qcQualityScore: 92
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "开始可以通过"
@@ -8004,7 +7848,7 @@
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 6
     text: "宁王结局"
-    translated: "Peaceful King's ending"
+    translated: "Fate of Prince Ning"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 7
     text: "第九年"

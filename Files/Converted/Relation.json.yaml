@@ -587,6 +587,8 @@
     subIndex: 1
     text: "第六年一月开始，靳红衣好感到达80，赌术到达大师级，财富到达100，探索朱雀坊赌赢莫笑贫解锁靳红衣红颜"
     translated: "Starting in January of the sixth year, Jin Hongyi's Affection reaches 80, his Gambling skills reach Master level, and his Wealth reaches 100. Exploring the Zhuque District and winning against Mosmilepoor unlocks Jin Hongyi as a Red Beauty."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
   - splitPath: Desc
     subIndex: 2
     text: "探索朱雀坊消遣三次且赌术到达入门后，初次结识靳红衣，此后每次探索朱雀坊消遣"
@@ -616,6 +618,8 @@
   - splitPath: GuidDescList[1]
     text: "第六年一月开始，靳红衣好感到达80，赌术到达大师级，财富到达100，探索朱雀坊赌赢莫笑贫解锁靳红衣红颜。"
     translated: "Starting in the sixth year, first month, Jin Hongyi's affection has reached 80. Her gambling skills have reached a master level, and her wealth has accumulated to 100. By exploring Zhuque Lane and winning against Mo Xiao Poor, Jin Hongyi unlocks her red-haired maiden identity."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
     qcReviewedText: "Starting in the sixth year, first month, Jin Hongyi's affection has reached 80. Her gambling skills have reached a master level, and her wealth has accumulated to 100. By exploring Zhuque Lane and winning against Mo Xiao Poor, Jin Hongyi unlocks her red-haired maiden identity."
     qcTranslated: "Starting in the first month of Year 6, Jin Hongyi's Affection reaches 80., Gambling reaches Master level, and Wealth reaches 100.. Exploring Zhuque Lane and winning against Mo Xiao Pin unlocks Jin Hongyi as a Red-Haired Maiden."
     qcStatus: Corrected
@@ -730,10 +734,8 @@
   - splitPath: LockDesc
     text: "第四年一月起，探索荆东解锁章华台，财富大于500探索章华台结识。"
     translated: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
-    qcReviewedText: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
-    qcTranslated: "Starting from Month 1 of Year 4, explore Jingdong to unlock Zhanghuai Terrace. If Wealth is greater than {0}, explore Zhanghuai Terrace to make acquaintances."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Starting from January of the fourth year, by exploring Jing Dong, you unlock Zhang Huai Tai and gain wealth greater than exploring it directly. You also make acquaintances through this exploration."
   - splitPath: RepeatDesc
     text: "柳含烟加入后，财富到达五百探索章华台，每次友好度"
     translated: "After Liu Hanyan joins, wealth reaches five hundred when exploring Zhanghuatai, and each friendship level \\n"
@@ -1021,9 +1023,6 @@
   - splitPath: Desc
     text: "第四年一月开始，探索荆北答应艾琳娜成为向导"
     translated: "Starting in January of the fourth year, I began exploring Jingbei and agreed to be Elena's guide."
-    qcReviewedText: "①Starting in January of the fourth year, I began exploring Jingbei and agreed to be Elena's guide.\\n②Explore Xiangnan and visit Hengshan Mountain\\n③Explore Xiangdong and savor the local cuisine\\n④Explore Jingdong and visit Yellow Crane Tower\\n⑤Starting in January of the seventh year, explore Jingdong and meet Dada Liao.\\n⑥Explore Jingdong to defeat Dada Liao and unlock Elena's affection."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
     text: "探索湘南游览衡山"
@@ -1039,11 +1038,11 @@
   - splitPath: Desc
     subIndex: 4
     text: "第七年一月开始，探索荆东结识达达里奥"
-    translated: "Starting in January of the seventh year, explore Jingdong and meet Dada Liao."
+    translated: "Starting in January of the seventh year, explore Jingdong to meet Dadario."
   - splitPath: Desc
     subIndex: 5
     text: "探索荆东战胜达达里奥，解锁艾琳娜红颜"
-    translated: "Explore Jingdong to defeat Dada Liao and unlock Elena's affection."
+    translated: "Explore Jingdong to defeat Dadario and unlock Elena's beauty."
   - splitPath: LockDesc
     text: "第四年一月至第六年十二月，福缘到达80探索荆北，答应艾琳娜成为向导结识。"
     translated: "From January of the fourth year to December of the sixth year, Luck reached 80 to explore Jingbei, promising to become a guide and meet Elena."
@@ -1077,17 +1076,10 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[4]
     text: "第七年一月开始，探索荆东结识达达里奥。"
-    translated: "In January of the seventh year, I met Dada Liao while exploring Jing Dong."
-    qcReviewedText: "In January of the seventh year, I met Dada Liao while exploring Jing Dong."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Starting in January of the seventh year, explore Jingdong to meet Dadario."
   - splitPath: GuidDescList[5]
     text: "探索荆东战胜达达里奥，解锁艾琳娜红颜。"
-    translated: "Explore Jing Dong to defeat Dada Liao and unlock Elena's story."
-    qcReviewedText: "Explore Jing Dong to defeat Dada Liao and unlock Elena's story."
-    qcTranslated: "Explore Jing Dong to defeat Dada Liao and unlock Elena's Beauty."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Explore Jingdong to defeat Dadario and unlock Elena, the beautiful heroine."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}"
@@ -1153,6 +1145,8 @@
   - splitPath: GuidDescList[3]
     text: "探索荆北拜访鲁孝宽。"
     translated: "Explore Jingbei to visit Lu Xiaowan"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lu Xiaokuan,鲁孝宽,"
     qcReviewedText: "Explore Jingbei to visit Lu Xiaowan"
     qcStatus: Passed
     qcQualityScore: 100
@@ -1183,14 +1177,10 @@
   - splitPath: Desc
     text: "探索荆南战胜薛宫得知九龙牌秘密。"
     translated: "Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token."
-    qcReviewedText: "①Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token.\\n②Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque.\\n③Exploring Jingnan and uncovering the treasure cave, after defeating Liu Jin, both Liu Jin and Xue Ruyi fell off the cliff.\\n④Exploring Jingnan and meeting Xue Ruyi again, go together to Liu Jin's treasure, unlock Xue Ruyi's Red Beauty status."
-    qcTranslated: "1. Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token.\\n2. Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque.\\n3. Explore Jingnan to open the treasure cave; after defeating Liu Jin, he and Xue Ruyi fall off the cliff.\\n4. Explore Jingnan to meet Xue Ruyi again, go together to Liu Jin's treasure, and unlock Xue Ruyi as a Red Beauty."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: Desc
     subIndex: 1
     text: "探索荆南破庙露宿获取睚眦铜牌。"
-    translated: "Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque."
+    translated: "Explore the ruined temple in Jingnan and spend the night there to obtain the Yazi Bronze Plaque."
   - splitPath: Desc
     subIndex: 2
     text: "探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖。"
@@ -1202,10 +1192,6 @@
   - splitPath: LockDesc
     text: "获取七枚九龙铜牌后，探索荆南，遇到行脚商高五，再次探索荆南花费一千钱购买屃赑铜牌，并选择不转让给薛宫，此后再次探索荆南树林中遇到薛宫袭击，将其击败后结识。"
     translated: "After obtaining seven Nine-Dragon Bronze Plagues, explore Jingnan and encounter the itinerant merchant Gao Wu. Upon another exploration of Jingnan, spend one thousand coins to purchase the Xi Bi Bronze Plaque and choose not to transfer it to Xue Gong. Subsequently, during another exploration of Jingnan's woods, encounter an attack by Xue Gong, defeat him, and befriend him."
-    qcReviewedText: "After obtaining seven Nine-Dragon Bronze Plagues, explore Jingnan and encounter the itinerant merchant Gao Wu. Upon another exploration of Jingnan, spend one thousand coins to purchase the Xi Bi Bronze Plaque and choose not to transfer it to Xue Gong. Subsequently, during another exploration of Jingnan's woods, encounter an attack by Xue Gong, defeat him, and befriend him.\\n<color=#ff0000>Be careful：</color><color=#ffffff>The method to obtain the Nine Dragons Bronze Token is described in the Wanderer's Guide. The seven bronze tokens needed to meet Xue Ruyi are:：Chiwen Bronze Plaque, Taotie Bronze Plaque, Centipede Viper Bronze Plaque, Jiao Tu Bronze Plaque, Jin Ni Bronze Plaque, Pulao Bronze Plaque, and Bi'an Bronze Plaque.</color>"
-    qcTranslated: "After obtaining seven Nine-Dragon Bronze Plagues, explore Jingnan and encounter the itinerant merchant Gao Wu. Upon another exploration of Jingnan, spend one thousand coins to purchase the Xi Bi Bronze Plaque and choose not to transfer it to Xue Gong. Subsequently, during another exploration of Jingnan's woods, encounter an attack by Xue Gong, defeat him, and befriend him.\\n<color=#ff0000>Note:</color><color=#ffffff>The method to obtain the Nine Dragons Bronze Token is described in the Wanderer's Guide. The seven bronze tokens needed to meet Xue Ruyi are: Chiwen Bronze Plaque, Taotie Bronze Plaque, Centipede Viper Bronze Plaque, Jiao Tu Bronze Plaque, Jin Ni Bronze Plaque, Pulao Bronze Plaque, and Bi'an Bronze Plaque.</color>"
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: LockDesc
     subIndex: 1
     text: "注意"
@@ -1217,7 +1203,7 @@
   - splitPath: LockDesc
     subIndex: 3
     text: "螭吻铜牌、饕餮铜牌、蚣蝮铜牌、椒图铜牌、金猊铜牌、蒲牢铜牌及狴犴铜牌。"
-    translated: "Chiwen Bronze Plaque, Taotie Bronze Plaque, Centipede Viper Bronze Plaque, Jiao Tu Bronze Plaque, Jin Ni Bronze Plaque, Pulao Bronze Plaque, and Bi'an Bronze Plaque."
+    translated: "Chiwen Bronze Plaque, Taotie Bronze Plaque, Gongfu Bronze Plaque, Jiao Tu Bronze Plaque, Jin Ni Bronze Plaque, Pulao Bronze Plaque, and Bi'an Bronze Plaque."
   - splitPath: GuidDescList[0]
     text: "探索荆南战胜薛宫得知九龙牌秘密。"
     translated: "Explore Jingnan to defeat Xue Gong and uncover the secret of the Nine Dragons Token."
@@ -1226,10 +1212,7 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[1]
     text: "探索荆南破庙露宿获取睚眦铜牌。"
-    translated: "Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque."
-    qcReviewedText: "Explore the ruins of a dilapidated temple in Jingnan and camp there to obtain the Yazhi Bronze Plaque."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore the ruined temple in Jingnan and spend the night there to obtain the Yazi Bronze Plaque."
   - splitPath: GuidDescList[2]
     text: "探索荆南开启宝藏山洞，战胜刘瑾后刘瑾与薛如意坠崖。"
     translated: "Exploring Jingnan and uncovering the treasure cave, after defeating Liu Jin, both Liu Jin and Xue Ruyi fell off the cliff."
@@ -1259,10 +1242,6 @@
   - splitPath: Desc
     text: "第六年一月开始探索湘北战胜鸟居翔太救下风间爱。"
     translated: "Starting to explore Xiangbei in January of the sixth year, defeating Kojima Shouta and saving Kazama Ai."
-    qcReviewedText: "①Starting to explore Xiangbei in January of the sixth year, defeating Kojima Shouta and saving Kazama Ai.②Explore Xiangbei to uncover Kazama Ai's background\\n③Explore Xiangbei to defeat Shenbao Qingchang\\n④Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai."
-    qcTranslated: "1. Starting to explore Xiangbei in Month 1 of Year 6, defeat Torii Shota and save Kazama Ai.2. Explore Xiangbei to learn about Kazama Ai's background\\n3. Explore Xiangbei to defeat Shenbao Qingchang.\\n4. Explore Xiangbei to defeat Ban Qilang and unlock Kazama Ai's Beauty status."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: Desc
     subIndex: 1
     text: "探索湘北了解风间爱身世。"
@@ -1270,11 +1249,11 @@
   - splitPath: Desc
     subIndex: 2
     text: "探索湘北战胜神保清长。"
-    translated: "Explore Xiangbei to defeat Shenbao Qingchang"
+    translated: "Explore how Xiangbei defeats Jinbo Kiyonaga"
   - splitPath: Desc
     subIndex: 3
     text: "探索湘北战胜伴七郎，解锁风间爱红颜。"
-    translated: "Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai."
+    translated: "Explore how Xiangbei defeats Ban Shichiro to unlock the beauty Kazama Ai."
   - splitPath: LockDesc
     text: "第四年一月开始，两次探索湘北帮助扶桑少女，第一次福缘到达70，第二次财富到达300，第六年一月开始探索湘北战胜鸟居翔太结识。"
     translated: "Starting in the fourth year of January, he embarked on two explorations of Xiangbei to assist a Shinto maiden. The first time, his luck reached 70; the second time, his wealth reached 300. In the sixth year of January, he began exploring Xiangbei and defeated Xiaotouji Xiaoxiangtai, thereby making acquaintances with them."
@@ -1296,16 +1275,10 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[2]
     text: "探索湘北战胜神保清长。"
-    translated: "Explore Xiangbei to defeat Shenbao Qingchang"
-    qcReviewedText: "Explore Xiangbei to defeat Shenbao Qingchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore how Xiangbei defeats Jinbo Kiyonaga"
   - splitPath: GuidDescList[3]
     text: "探索湘北战胜伴七郎，解锁风间爱红颜。"
-    translated: "Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai."
-    qcReviewedText: "Explore Xiangbei's victory over Ban Qilang to unlock Kazama Ai."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore how Xiangbei defeats Ban Shichiro to unlock the beauty Kazama Ai."
   templates:
   - splitPath: Desc
     template: "①{0}②{1}\\n③{2}\\n④{3}"
@@ -1339,11 +1312,7 @@
     translated: "Explore by the poolside near Northern Xiang Kazama Yue, and unlock Kazama Yue's affection."
   - splitPath: LockDesc
     text: "第八年一月开始，粉碎至少两次宁王阴谋，探索湘北开启招贤擂，探索招贤擂连胜三场搅乱宁王擂，且队伍中拥有红颜风间爱，再次探索湘北遇到风间月刺杀结识。"
-    translated: "Starting in the eighth year of January, they began to crush at least twice the plots of the Peaceful King. They explored northern Hunan and won three consecutive battles, disrupting the Peaceful King's arena. Additionally, their team included a beauty named Kazama Ai, which led them to explore northern Hunan again where they met Kazama Yue in an assassination attempt."
-    qcReviewedText: "Starting in the eighth year of January, they began to crush at least twice the plots of the Peaceful King. They explored northern Hunan and won three consecutive battles, disrupting the Peaceful King's arena. Additionally, their team included a beauty named Kazama Ai, which led them to explore northern Hunan again where they met Kazama Yue in an assassination attempt."
-    qcTranslated: "Starting in the first month of the eighth year, crush at least two of the Peaceful King's plots, explore northern Hunan to open the Talent Recruitment Arena, and win three consecutive matches in the Talent Recruitment Arena to disrupt the Peaceful King's arena. Additionally, have Kazama Ai in your team, and explore northern Hunan again to meet Kazama Yue during an assassination attempt."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Starting from January of the eighth year, they thwarted the Prince Ning's schemes at least twice, explored Xiangbei to launch a talent recruitment tournament, won three consecutive matches in that tournament to disrupt the Prince Ning's events, and with the beautiful Kazama Ai in their team, they explored Xiangbei again where they encountered and became acquainted after being attacked by Kazama Yue."
   - splitPath: GuidDescList[0]
     text: "探索湘北遇到风间月刺杀并战胜。"
     translated: "Exploring Xiangbei, I encountered and defeated Kazama Yue's assassination attempt."
@@ -1538,10 +1507,7 @@
   splits:
   - splitPath: Name
     text: "萧雪雁"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Xiao Xueyan"
   - splitPath: Desc
     text: "探索神女宫，和萧雪雁了解朝云司。"
     translated: "Explore the Shrine of the Divine Maidens and talk to Xiao Xueyan about the Bureau of Morning Clouds."
@@ -1670,17 +1636,10 @@
   splits:
   - splitPath: Name
     text: "李云裳"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Li Yunshang"
   - splitPath: Desc
     text: "探索川东，游历巫山。"
     translated: "Explore the eastern part of the river, and travel through Wushan."
-    qcReviewedText: "①Explore the eastern part of the river, and travel through Wushan.②Explore Western Sichuan and visit Mount Emei③Exploring in the valley, traveling through Jian Pass, I encountered Xia Nanheng delivering a message.④Explore Wanyahetang in Western Sichuan, defeat Miao Pixie, and unlock Li Yunchang."
-    qcTranslated: "1. Explore Eastern Sichuan and travel through Wushan.2. Explore Western Sichuan and visit Mount Emei.3. Explore Central Sichuan, travel through Jian Ge, and encounter Xia Nanping delivering a message.4. Explore Wanyahetang in Western Sichuan, defeat Miao Bixie, and unlock Li Yunchang."
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: Desc
     subIndex: 1
     text: "探索川西，游历峨眉山。"
@@ -1692,7 +1651,9 @@
   - splitPath: Desc
     subIndex: 3
     text: "探索川西罨画池，战胜缪辟邪，解锁李云裳。"
-    translated: "Explore Wanyahetang in Western Sichuan, defeat Miao Pixie, and unlock Li Yunchang."
+    translated: "Explore Wuyan Pool in Western Sichuan, defeat Miao Pixie, and unlock Li Yunshang."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
   - splitPath: LockDesc
     text: "第五年一月开始，福缘到达120，探索川西开启罨画池，探索罨画池，战胜夏南屏、褚良玉、江惟远三人后加入。"
     translated: "Starting in January of the fifth year, Luck arrives at 120, exploring the West Sichuan region to begin the investigation of the Ink-and-Wash Pool. After exploring the Ink-and-Wash Pool and defeating Xia Nanping, Chu Liangyu, and Jiang Weiyuan, they join in."
@@ -1720,10 +1681,9 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[3]
     text: "探索川西罨画池，战胜缪辟邪，解锁李云裳。"
-    translated: "Explore Cuanxi Yanhu Pool, defeat Miao Pixie, unlock Li Yunchang."
-    qcReviewedText: "Explore Cuanxi Yanhu Pool, defeat Miao Pixie, unlock Li Yunchang."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore Wuyan Pool in Western Sichuan, defeat Miao Pixia, and unlock Li Yunshang."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
   templates:
   - splitPath: Desc
     template: "①{0}②{1}③{2}④{3}"
@@ -1732,10 +1692,7 @@
   splits:
   - splitPath: Name
     text: "诸葛慧"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Zhuge Hui"
   - splitPath: Desc
     text: "探索川西，带诸葛慧逛成都庙会。"
     translated: "Explore Western Sichuan and take Zhuge Hui to the Chengdu temple fair."
@@ -1757,11 +1714,7 @@
     translated: "Resilience and Flexibility have reached 120. Explore the valley to find a rare iron oak and unlock Zhuge Hui's Red Jade."
   - splitPath: LockDesc
     text: "在川西汉昭烈庙初遇诸葛慧后，财富到达100，再次探索汉昭烈庙，选择跟顽童换木鸢并交还诸葛慧后加入。"
-    translated: "Upon our initial meeting with Zhu Ge Hui at the Han Zhao Lie Temple in Western Sichuan, our wealth reached 100. We then explored the Han Zhao Lie Temple again, chose to trade the wooden kite with the mischievous child, and returned to join Zhu Ge Hui."
-    qcReviewedText: "Upon our initial meeting with Zhu Ge Hui at the Han Zhao Lie Temple in Western Sichuan, our wealth reached 100. We then explored the Han Zhao Lie Temple again, chose to trade the wooden kite with the mischievous child, and returned to join Zhu Ge Hui."
-    qcTranslated: "Upon our initial meeting with Zhu Ge Hui at the Han Zhao Lie Temple in Western Sichuan, our wealth reached 100.. We then explored the Han Zhao Lie Temple again, chose to trade the wooden kite with the mischievous child, and returned it to Zhu Ge Hui before joining her."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "After first meeting Zhuge Hui at the Han Zhao Lie Shrine in Western Sichuan, your wealth reaches 100. Upon revisiting the Han Zhao Lie Shrine and choosing to trade with the mischievous child for the wooden kite, returning it to Zhuge Hui leads to her joining you."
   - splitPath: GuidDescList[0]
     text: "探索川西，带诸葛慧逛成都庙会。"
     translated: "Explore Western Sichuan and take Zhuge Hui to the Chengdu Temple Fair."
@@ -1795,10 +1748,7 @@
   splits:
   - splitPath: Name
     text: "邵轻虹"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong"
   - splitPath: Desc
     text: "探索浣花庐，与邵轻虹辞别郜春风带方逸飞一同外出历练。"
     translated: "Explore the Huanhua Study and bid farewell to Shao Qinghong. Gao Chunfeng takes Fang Yifei along for some worldly experience outside."
@@ -1818,6 +1768,8 @@
     subIndex: 3
     text: "第七年一月开始，探索川西战胜幽冥道都市王樊荡秽。"
     translated: "Starting in January of the seventh year, explore Western Sichuan and defeat the Dark Path City Lord Fan Tang Hui."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Fan Danghui,樊荡秽,"
   - splitPath: Desc
     subIndex: 4
     text: "探索川西遇都市王樊荡秽拦路，郜春风击杀樊荡秽，解锁邵轻虹红颜。"
@@ -1850,6 +1802,8 @@
   - splitPath: GuidDescList[3]
     text: "第七年一月开始，探索川西战胜幽冥道都市王樊荡秽。"
     translated: "Starting in January of the seventh year, explore Western Sichuan and defeat the Dark Path City Lord Fan Tang Hui."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Fan Danghui,樊荡秽,"
     qcReviewedText: "Starting in January of the seventh year, explore Western Sichuan and defeat the Dark Path City Lord Fan Tang Hui."
     qcStatus: Passed
     qcQualityScore: 100
@@ -1979,17 +1933,10 @@
   splits:
   - splitPath: Name
     text: "姜芽"
-    translated: "Think about it some more"
-    qcReviewedText: "Think about it some more"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya"
   - splitPath: Desc
     text: "福缘到达80，探索川中，福禄楼学核桃酥。"
     translated: "Your luck has reached 80. Explore the Sichuan region and learn how to make walnut cookies at the Fortune Pavilion."
-    qcReviewedText: "①Your luck has reached 80. Explore the Sichuan region and learn how to make walnut cookies at the Fortune Pavilion.\\n②Potential has reached 80. Explore the eastern part of the river and learn Six Victory Sheep Suet at the Fengqing Tower.\\n③Wealth reached 800, explore Western Sichuan, and learn Taibai Duck at Jinfang Tower.\\n④Explore Southern Sichuan, unlock Jiangya Hongyan\\n⑤"
-    qcTranslated: "1. Your Luck has reached 80.. Explore the central Sichuan region and learn Walnut Crisp at Fulu Tower.\\n2. Your Potential has reached 80.. Explore eastern Sichuan and learn Six-Win Lamb Crisp at Fengqing Tower.\\n3. Your Wealth has reached 800. Explore western Sichuan and learn Taibai Duck at Jinfang Tower.\\n4. Explore southern Sichuan to unlock Jiangya Hongyan.\\n5."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: Desc
     subIndex: 1
     text: "根骨到达80，探索川东，丰庆楼学六赢羊酥。"
@@ -2001,7 +1948,7 @@
   - splitPath: Desc
     subIndex: 3
     text: "探索川南，解锁姜芽红颜。"
-    translated: "Explore Southern Sichuan, unlock Jiangya Hongyan"
+    translated: "Explore Southern Sichuan, unlock Jiang Ya's Red Beauty."
   - splitPath: LockDesc
     text: "第四年一月开始，财富到达800，探索川南，选择帮助姜芽后加入。"
     translated: "Starting in the first Month of the Fourth Year, wealth reaches 800. Explore the southern region of Chu, and join after choosing to help Jiang Ya."
@@ -2029,10 +1976,7 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[3]
     text: "探索川南，解锁姜芽红颜。"
-    translated: "Explore Southern Sichuan, unlock Jiangya Hongyan"
-    qcReviewedText: "Explore Southern Sichuan, unlock Jiangya Hongyan"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Explore Southern Sichuan, unlock Jiang Ya's Red Beauty."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤"
@@ -2339,6 +2283,8 @@
   - splitPath: DetailDesc
     text: "位于湘东长沙府岳麓山脚下，创立于北宋开宝年间，天下四大书院之一，汇集以“道林四友”为首的一众博学夫子，是荆湘的文坛圣地。山长【麓山先生】荀师道高风亮节，满腹经纶，是天下闻名的博雅大儒。"
     translated: "Located at the foot of Yuelu Mountain in Xiangdong's Changsha Prefecture, and founded during the early years of Emperor Taizong's reign in the Northern Song Dynasty, it is one of the Four Great Academies of China. Known as 'The Academy of Dawlin,' it gathers a multitude of erudite scholars, including the Four Friends of Dawlin. This academy stands as a holy site for literature in Jingxiang. The headmaster, Mr. Lushan Xun Shida, is renowned for his high moral character and extensive knowledge, being celebrated as one of the world's great erudite sages."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Xun Shidao,荀师道,"
     qcReviewedText: "Located at the foot of Yuelu Mountain in Xiangdong's Changsha Prefecture, and founded during the early years of Emperor Taizong's reign in the Northern Song Dynasty, it is one of the Four Great Academies of China. Known as 'The Academy of Dawlin,' it gathers a multitude of erudite scholars, including the Four Friends of Dawlin. This academy stands as a holy site for literature in Jingxiang. The headmaster, Mr. Lushan Xun Shida, is renowned for his high moral character and extensive knowledge, being celebrated as one of the world's great erudite sages."
     qcTranslated: "Located at the foot of Yuelu Mountain in Changsha Prefecture, Xiangdong, and founded during the Kaibao era of the Northern Song Dynasty, it is one of the Four Great Academies of China. It gathers a multitude of erudite scholars led by the Four Friends of Daolin, serving as a literary sanctuary for Jingxiang. The headmaster, Mr. Lushan Xun Shida, is renowned for his high moral character and extensive knowledge, being celebrated as one of the world's great erudite sages."
     qcStatus: Corrected
@@ -2682,10 +2628,7 @@
     translated: "Repeatable"
   - splitPath: DetailDesc
     text: "位于湘南永州府宁远县九嶷山深处，由永州捕蛇人组成，历经数代而创立，以毒术和牧蛇之术闻名，谷中门人多以牧蛇为业，亦善制多种秘药。谷主【食虺神君】蒋疠夫孤僻乖戾，出手狠辣，与江湖中人少有往来。"
-    translated: "Located deep within Jiuyi Mountain in Ningyuan County of Yongzhou Prefecture, Xiangnan Province, this valley was founded by generations of snake catchers from Yongzhou. Renowned for its expertise in poison techniques and snake husbandry, most practitioners in the valley earn their living by tending to snakes, also excelling in creating various secret medicines. The Valley Master  【Serpent God】  Jiang Lifu is known for his reclusive and eccentric personality, as well as his ruthless actions; he has few interactions with people from the Jianghu."
-    qcReviewedText: "Located deep within Jiuyi Mountain in Ningyuan County of Yongzhou Prefecture, Xiangnan Province, this valley was founded by generations of snake catchers from Yongzhou. Renowned for its expertise in poison techniques and snake husbandry, most practitioners in the valley earn their living by tending to snakes, also excelling in creating various secret medicines. The Valley Master  【Serpent God】  Jiang Lifu is known for his reclusive and eccentric personality, as well as his ruthless actions; he has few interactions with people from the Jianghu."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Hidden deep within Jiuyi Mountain in Ningyuan County, Yongzhou Prefecture, southern Hunan, this community was founded over generations by snake catchers from Yongzhou. Renowned for their mastery of Poison and snake breeding techniques, most of its members make a living raising snakes while also excelling at crafting various secret medicines. The valley's leader, the reclusive and fierce 【Viper-Eating Divine Lord】 Jiang Lifu, rarely interacts with people from the Jianghu."
   - splitPath: LockDesc
     text: "帮助碧衣女子打跑混混并在九嶷山获得蛇胆后，再次探索湘南拜访盘蛇谷后开启。"
     translated: "After helping the woman in green fight off the thugs and obtaining a Snake Gallbladder from Jiuyi Mountain, explore Xiangnan and visit Coiled Serpent Valley to begin."
@@ -3059,10 +3002,6 @@
   - splitPath: Desc
     text: "拜师衡山派君子庄开启后，探索君子庄拜访长孙诚，结识长孙玉"
     translated: "After becoming an apprentice to the Hengshan Sect and opening Gentlemen Manor, explore Gentlemen Manor to visit Zhangsun Cheng and meet Zhangsun Yu."
-    qcReviewedText: "①After becoming an apprentice to the Hengshan Sect and opening Gentlemen Manor, explore Gentlemen Manor to visit Zhangsun Cheng and meet Zhangsun Yu.②From January of the fourth year to December of the sixth year, explore Xiangnan and rescue Zhangsun Yu from Le Beifeng's hands.③In the seventh year, after automatically triggering the event of delivering tea to Zhangsun Cheng at Gentlemen Manor in April, up until July of the seventh year, Gentlemen Manor's friendship level reaches 60. Exploring Xiangnan twice reveals the Peaceful King's conspiracy.④In August of the seventh year, explore Gentlemen Manor again. Friendly arrival at 80. Uncover Jia Gushan's conspiracy. After defeating Jia Gushan, Medicine reaches expert level. On another exploration of Gentlemen Manor, Zhangsun Cheng joins. Unlock Gentlemen Manor.⑤Exploring Gentlemen Manor allows you to study Confucian Studies, Musical Arts, Divination, and Calligraphy from Zhangsun Cheng.\\n-Repeatable"
-    qcTranslated: "1. After becoming an apprentice to the Hengshan Sect and opening Gentlemen Manor, explore Gentlemen Manor to visit Zhangsun Cheng and meet Zhangsun Yu.2. From January of the fourth year to December of the sixth year, explore Xiangnan and rescue Zhangsun Yu from Le Beifeng's hands.3. In the seventh year, after automatically triggering the event of delivering tea to Zhangsun Cheng at Gentlemen Manor in April, up until July of the seventh year, Gentlemen Manor's friendship level reaches 60.. Exploring Xiangnan twice reveals the Peaceful King's conspiracy.4. In August of the seventh year, explore Gentlemen Manor again. Once Gentlemen Manor's friendship level reaches 80., uncover Jia Gushan's conspiracy. After defeating Jia Gushan, Medicine reaches expert level. On another exploration of Gentlemen Manor, Zhangsun Cheng joins. Unlock Gentlemen Manor.5. Exploring Gentlemen Manor allows you to study Confucian Studies, Musical Arts, Divination, and Calligraphy from Zhangsun Cheng.\\n-Repeatable"
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: Desc
     subIndex: 1
     text: "第四年一月至第六年十二月，探索湘南，从乐悲风手下救下长孙玉"
@@ -3070,7 +3009,7 @@
   - splitPath: Desc
     subIndex: 2
     text: "第七年四月自动触发为君子庄长孙诚送茶后，截止至第七年七月，君子庄友好到达60，探索湘南两次得知宁王阴谋"
-    translated: "In the seventh year, after automatically triggering the event of delivering tea to Zhangsun Cheng at Gentlemen Manor in April, up until July of the seventh year, Gentlemen Manor's friendship level reaches 60. Exploring Xiangnan twice reveals the Peaceful King's conspiracy."
+    translated: "After automatically triggering in April of the seventh year to deliver tea to Zhangsun Cheng at Gentlemen Manor, by July of the same year, friends from Gentlemen Manor arrived at 60 and explored southern Hunan twice, uncovering Prince Ning's scheme."
   - splitPath: Desc
     subIndex: 3
     text: "第七年八月再次探索君子庄，君子庄友好到达80，揭露贾孤山阴谋，打赢贾孤山后，医术到达高手，再次探索君子庄长孙诚加入，解锁君子庄"
@@ -3137,10 +3076,8 @@
   - splitPath: GuidDescList[4]
     text: "截止至第七年七月，君子庄友好到达60，探索湘南两次得知宁王阴谋。"
     translated: "By the seventh month of the seventh year, the Gentlemen Manor arrived friendly at 60 and conducted two explorations in Xiangnan, discovering Ning Wang's conspiracy."
-    qcReviewedText: "By the seventh month of the seventh year, the Gentlemen Manor arrived friendly at 60 and conducted two explorations in Xiangnan, discovering Ning Wang's conspiracy."
-    qcTranslated: "By the seventh month of the seventh year, the Gentlemen Manor's allies arrived at 60, and two explorations in Xiangnan revealed the Peaceful King's conspiracy."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "By the seventh month of the seventh year, the Gentlemen Manor arrived friendly at 60 and conducted two explorations in Xiangnan, discovering Ning Wang's conspiracy."
   - splitPath: GuidDescList[5]
     text: "第七年八月再次探索君子庄，君子庄友好到达80，揭露贾孤山阴谋，打赢贾孤山后，医术到达高手救治长孙诚。"
     translated: "In Year Seven, Month Eight, I again explored Gentlemen Manor. Gentlemen Manor welcomed me warmly upon arrival 80. I uncovered Jia Gushan's conspiracy and defeated him in battle. Following that, my medical skills helped to treat Zhangsun Cheng to a high level."
@@ -3825,11 +3762,7 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[3]
     text: "武侯祠友好到达40，探索汉昭烈庙初遇诸葛慧。"
-    translated: "Friendly arrival at Wu Hou Temple, explore Han Zhao Li Temple and initial encounter with Zhuo Zheng Hui.40"
-    qcReviewedText: "Friendly arrival at Wu Hou Temple, explore Han Zhao Li Temple and initial encounter with Zhuo Zheng Hui.40"
-    qcTranslated: "Friendly arrival at Wuhou Shrine, explore Han Zhaolie Temple and initial encounter with Zhuge Hui.40"
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Arrived at Wu Hou Temple amicably, 40, first met Zhuge Hui upon exploring the Han Zhao Lie Shrine."
   - splitPath: GuidDescList[4]
     text: "匠造到达高手，探索汉昭烈庙，拼装木牛。"
     translated: "Crafting reached expert level, explore the Han Zhao Lie Temple, assemble the wooden ox."
@@ -3966,10 +3899,7 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[2]
     text: "第五年五月至第八年二月，探索荆南，除掉了尘，救下邹九思。（洞庭专属，非必要）"
-    translated: "From May of the fifth year to February of the eighth year, explore Jingnan, defeat Liaocheng, and rescue Zou Jius. (Exclusive to Dongting, not necessary)"
-    qcReviewedText: "From May of the fifth year to February of the eighth year, explore Jingnan, defeat Liaocheng, and rescue Zou Jius. (Exclusive to Dongting, not necessary)"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "From May of the fifth year to February of the eighth year, they explored Jingnan, eliminated Liaochen, and rescued Zou Jiusi. (Exclusive to Dongting; not required)"
   - splitPath: GuidDescList[3]
     text: "第四年一月开始，开放挂锤庄并拜访后，探索湘北战胜洪十四。（非必要）"
     translated: "Starting in the fourth Year of the Rat, after opening Hanging Hammer Manor and visiting it, explore Xiangbei to defeat Hong Shisi. (Non-essential)"
@@ -3983,9 +3913,6 @@
   - splitPath: GuidDescList[5]
     text: "第九年一月开始，探索湘东，听闻温残阳出现，开启息心亭，探索息心亭击败天魔教魔相温残阳，开启魔侯结局。"
     translated: "Starting in January of the ninth year, explore Xiangdong. Hear that Wen Canyang has appeared, and activate the Xi Xin Pavilion. Explore the Xi Xin Pavilion and defeat the Heavenly Demon Sect's Demon Transformation, Wen Canyang, to unlock the Demon Lord ending."
-    qcReviewedText: "Starting in January of the ninth year, explore Xiangdong. Hear that Wen Canyang has appeared, and activate the Xi Xin Pavilion. Explore the Xi Xin Pavilion and defeat the Heavenly Demon Sect's Demon Transformation, Wen Canyang, to unlock the Demon Lord ending.\\n<color=#ff0000>Be careful：</color><color=#ffffff>Triggering this event will unlock the Demon Lord ending path and you will not be able to choose to continue causing trouble after the Peaceful King's Talent Recruitment Tournament.</color>\\nAfter destroying three plots, when finally wiping out the Demon Sect, a small path leading to the back mountain can be discovered at the foot of Secret Yin Cliff."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
@@ -3993,7 +3920,7 @@
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "触发此事件后将开启魔侯线结局，无法在在宁王招贤擂结束后选择继续搅闹的选项。"
-    translated: "Triggering this event will unlock the Demon Lord ending path and you will not be able to choose to continue causing trouble after the Peaceful King's Talent Recruitment Tournament."
+    translated: "Triggering this event will unlock the Demon Lord storyline ending, and it will no longer be possible to choose the option to continue causing trouble after the Prince Ning's Talent Recruitment Tournament ends."
   - splitPath: GuidDescList[5]
     subIndex: 3
     text: "粉碎阴谋三件后，在最终剿灭魔教时，可于秘魔崖下发现通往后山的小道。"
@@ -4006,47 +3933,25 @@
   splits:
   - splitPath: Name
     text: "宁王线"
-    translated: "Peaceful King Line"
-    qcReviewedText: "Peaceful King Line"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning's storyline"
   - splitPath: GuidDescList[0]
     text: "第七年一月开始，探索湘南，救下被宁王府杀手行刺的长沙通判文九思。（非必要）"
-    translated: "In January of the seventh year, they began exploring Xiangnan and rescued Vice Magistrate Wen Ji.si, who was assassinated by killers from Peaceful King Manor. (Non-essential)"
-    qcReviewedText: "In January of the seventh year, they began exploring Xiangnan and rescued Vice Magistrate Wen Ji.si, who was assassinated by killers from Peaceful King Manor. (Non-essential)"
-    qcTranslated: "In January of the seventh year, explore Xiangnan and rescue Vice Magistrate Wen Jiusi of Changsha, who is being assassinated by killers from Peaceful King Manor. (Non-essential)"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Starting in January of the seventh year, explore southern Hunan to rescue Wen Jiusi, the Vice Magistrate of Changsha, who was assassinated by killers from Prince Ning's Residence. (Optional)"
   - splitPath: GuidDescList[1]
     text: "第七年七月开始，探索湘东，帮助项欺霜战胜宁王府高手神枪四杰。（非必要）"
-    translated: "In July of the seventh year, begin exploring Xiangdong to help Xiang Qishuang defeat the skilled martial artists known as the Four Spear Masters from Peaceful King Manor. (Optional)"
-    qcReviewedText: "In July of the seventh year, begin exploring Xiangdong to help Xiang Qishuang defeat the skilled martial artists known as the Four Spear Masters from Peaceful King Manor. (Optional)"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Starting in July of the seventh year, explore Xiangdong to assist Xiang Qishuang in defeating the Four Spear Masters, the elite warriors of Prince Ning's Residence. (Optional)"
   - splitPath: GuidDescList[2]
     text: "第七年一月开始，探索六合庄，帮助六合帮夏侯朝解决被宁王府收买的副帮主钟其北叛乱。（非必要）"
-    translated: "In January of the seventh year, begin exploring Six Harmonies Village and help Gang Leader Xiahou Chao of Six Harmonies Sect resolve the rebellion led by bought Deputy Leader Zhong Qibei from Peaceful King Manor. (Non-essential)"
-    qcReviewedText: "In January of the seventh year, begin exploring Six Harmonies Village and help Gang Leader Xiahou Chao of Six Harmonies Sect resolve the rebellion led by bought Deputy Leader Zhong Qibei from Peaceful King Manor. (Non-essential)"
-    qcTranslated: "In January of the seventh year, begin exploring Six Harmonies Village and help Gang Leader Xiahou Chao of the Six Harmonies Sect resolve the rebellion led by Deputy Leader Zhong Qibei, who was bought off by Peaceful King Manor. (Non-essential)"
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Starting from January of the seventh year, explore Liuhe Zhuang to assist Xiahou Chao of the Six Harmonies Sect in suppressing the rebellion led by Zhong Qibei, the Deputy Leader who has been bought over by Prince Ning's Residence. (Optional)"
   - splitPath: GuidDescList[3]
     text: "第七年一月开始，探索荆北，保护萧令仪并击败宁王府总管仇朝恩。（非必要）"
-    translated: "Starting from January of the seventh Year, explore the northern regions of Jing, protect Xiao Lingyi, and defeat Qiu Chaoren, the head administrator of the Peaceful King Manor. (Optional)"
+    translated: "Starting from January of the seventh year, explore Jingbei, protect Xiao Lingyi, and defeat Qiu Chaoren, the head administrator of Prince Ning's Residence. (Optional)"
   - splitPath: GuidDescList[4]
     text: "第七年八月，探索君子庄，救下被宁王府客卿贾孤山毒害的长孙诚。（衡山专属，非必要）"
-    translated: "In the eighth month of the seventh year, explore Gentlemen Manor and rescue Zhangsun Cheng, who was poisoned by Jinggu Shan, a guest official from Peaceful King Manor. (Exclusive to Huishan; not necessary for all players)"
-    qcReviewedText: "In the eighth month of the seventh year, explore Gentlemen Manor and rescue Zhangsun Cheng, who was poisoned by Jinggu Shan, a guest official from Peaceful King Manor. (Exclusive to Huishan; not necessary for all players)"
-    qcTranslated: "In the eighth month of the seventh year, explore Gentlemen Manor and rescue Zhangsun Cheng, who was poisoned by Jia Gushan, a guest official from Peaceful King Manor. (Exclusive to Huishan; not necessary for all players)"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "In August of the seventh year, explore Gentlemen Manor to rescue Zhangsun Cheng from the poison inflicted by Jia Gushan, a guest official at Prince Ning's Residence. (Exclusive to Hengshan; not required)"
   - splitPath: GuidDescList[5]
     text: "第八年一月开始，至少曾粉碎宁王阴谋两次，探索湘北，听闻宁王府举办的招贤擂，开启招贤擂，此后探索招贤擂，击败三名镇擂官，并选择继续搅乱招贤擂，开启宁王结局。"
-    translated: "Starting from January of the eighth year, at least twice I foiled the Peaceful King's schemes, explored Xiangbei, heard about the Peaceful King Manor's Talent Recruitment Tournament, and participated in it. Thereafter, I continued to explore the tournament, defeated three of its officials, and chose to further disrupt the Talent Recruitment Tournament, leading to the Peaceful King's ending."
-    qcReviewedText: "Starting from January of the eighth year, at least twice I foiled the Peaceful King's schemes, explored Xiangbei, heard about the Peaceful King Manor's Talent Recruitment Tournament, and participated in it. Thereafter, I continued to explore the tournament, defeated three of its officials, and chose to further disrupt the Talent Recruitment Tournament, leading to the Peaceful King's ending.\\n<color=#ff0000>Be careful：</color><color=#ffffff>Selecting this option will activate the Peaceful King ending path and prevent Wen Canyang's event from triggering in the ninth year of Xiangdong.\\nThe Peaceful King route has high attribute requirements; it is recommended to try it in a later playthrough.</color>"
-    qcTranslated: "Starting from January of the eighth year, at least twice I foiled the Peaceful King's schemes, explored Xiangbei, heard about the Peaceful King Manor's Talent Recruitment Tournament, and started it. Thereafter, I continued to explore the tournament, defeated three of its officials, and chose to further disrupt the Talent Recruitment Tournament, leading to the Peaceful King's ending.\\n<color=#ff0000>Be careful：</color><color=#ffffff>Selecting this option will activate the Peaceful King ending path and prevent Wen Canyang's event from triggering in the ninth year of Xiangdong.\\nThe Peaceful King route has high attribute requirements; it is recommended to try it in a later playthrough.</color>"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Starting from January of the eighth year, he shattered Prince Ning's schemes at least twice, explored Xiangbei, heard about the talent competition held at Prince Ning's Residence, and initiated it himself. After that, he continued to explore the competition, defeated three officials in charge of overseeing it, and chose to keep disrupting the event, thereby triggering Prince Ning's ending."
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
@@ -4054,11 +3959,11 @@
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "选择此选项后将开启宁王线结局，无法在第九年湘东触发温残阳事件。"
-    translated: "Selecting this option will activate the Peaceful King ending path and prevent Wen Canyang's event from triggering in the ninth year of Xiangdong."
+    translated: "Selecting this option will unlock the Prince Ning ending, preventing the Wen Canyang event from occurring in Xiangdong during the ninth year."
   - splitPath: GuidDescList[5]
     subIndex: 3
     text: "宁王线完美结局属性要求较高，建议在多周目再体验。"
-    translated: "The Peaceful King route has high attribute requirements; it is recommended to try it in a later playthrough."
+    translated: "The perfect ending for Prince Ning's storyline requires high performance metrics, so it's recommended to try it again after playing multiple times."
   templates:
   - splitPath: GuidDescList[5]
     template: "{0}\\n<color=#ff0000>{1}：</color><color=#ffffff>{2}\\n{3}</color>"
@@ -4086,10 +3991,7 @@
     qcQualityScore: 100
   - splitPath: GuidDescList[2]
     text: "第五年五月至第八年二月，探索荆南，除掉了尘，救下邹九思。（洞庭专属，非必要）"
-    translated: "From May of the fifth year to February of the eighth year, explore Jingnan, defeat Liaocheng, and rescue Zou Jius. (Exclusive to Dongting, not necessary)"
-    qcReviewedText: "From May of the fifth year to February of the eighth year, explore Jingnan, defeat Liaocheng, and rescue Zou Jius. (Exclusive to Dongting, not necessary)"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "From May of the fifth year to February of the eighth year, they explored Jingnan, eliminated Liaochen, and rescued Zou Jiusi. (Exclusive to Dongting; not required)"
   - splitPath: GuidDescList[3]
     text: "第四年一月开始，开放挂锤庄并拜访后，探索湘北战胜洪十四。（非必要）"
     translated: "Starting in the fourth Year of the Rat, after opening Hanging Hammer Manor and visiting it, explore Xiangbei to defeat Hong Shisi. (Non-essential)"
@@ -4103,9 +4005,6 @@
   - splitPath: GuidDescList[5]
     text: "第九年一月开始，探索湘东，听闻温残阳出现，开启息心亭，探索息心亭击败天魔教魔相温残阳，开启魔侯结局。"
     translated: "Starting in January of the ninth year, explore Xiangdong. Hear that Wen Canyang has appeared, and activate the Xi Xin Pavilion. Explore the Xi Xin Pavilion and defeat the Heavenly Demon Sect's Demon Transformation, Wen Canyang, to unlock the Demon Lord ending."
-    qcReviewedText: "Starting in January of the ninth year, explore Xiangdong. Hear that Wen Canyang has appeared, and activate the Xi Xin Pavilion. Explore the Xi Xin Pavilion and defeat the Heavenly Demon Sect's Demon Transformation, Wen Canyang, to unlock the Demon Lord ending.\\n<color=#ff0000>Be careful：</color><color=#ffffff>Triggering this event will unlock the Demon Lord ending path and you will not be able to choose to continue causing trouble after the Peaceful King's Talent Recruitment Tournament.</color>\\nAfter destroying three plots, when finally wiping out the Demon Sect, a small path leading to the back mountain can be discovered at the foot of Secret Yin Cliff."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: GuidDescList[5]
     subIndex: 1
     text: "注意"
@@ -4113,7 +4012,7 @@
   - splitPath: GuidDescList[5]
     subIndex: 2
     text: "触发此事件后将开启魔侯线结局，无法在在宁王招贤擂结束后选择继续搅闹的选项。"
-    translated: "Triggering this event will unlock the Demon Lord ending path and you will not be able to choose to continue causing trouble after the Peaceful King's Talent Recruitment Tournament."
+    translated: "Triggering this event will unlock the Demon Lord storyline ending, and it will no longer be possible to choose the option to continue causing trouble after the Prince Ning's Talent Recruitment Tournament ends."
   - splitPath: GuidDescList[5]
     subIndex: 3
     text: "粉碎阴谋三件后，在最终剿灭魔教时，可于秘魔崖下发现通往后山的小道。"

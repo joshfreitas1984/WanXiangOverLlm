@@ -5650,10 +5650,6 @@
   - splitPath: GetDesc
     text: "加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好不足60，邱道衍传授。"
     translated: "Joining the Wudang Sect, in September of the seventh Year, when Qiao Dao'an's plot was exposed and Qiu Lingsu's friendliness was insufficient60, Qiu Daoyan imparted his teachings."
-    qcReviewedText: "①Joining the Wudang Sect, in September of the seventh Year, when Qiao Dao'an's plot was exposed and Qiu Lingsu's friendliness was insufficient60, Qiu Daoyan imparted his teachings.\\n②Joining the Wudang Sect, in September of the seventh Year, after uncovering Qiao Dao'an's conspiracy and with Qiu Lingsu's friendly arrival at 60, unlock Qiu Lingsu as a Red Beauty and obtain.\\n③Not joining the Wudang Sect, in the eighth year after starting the Peaceful King route, after exploring the True Martial Temple and coming to Wudang's aid, Qiu Daoyan teaches."
-    qcTranslated: "1. Join the Wudang Sect. In September of Year 7, if Qiao Dao'an's plot is exposed and Qiu Lingsu's friendliness is less than 60, Qiu Daoyan will teach you.\\n2. Join the Wudang Sect. In September of Year 7, after exposing Qiao Dao'an's conspiracy and reaching a friendliness of 60 with Qiu Lingsu, unlock Qiu Lingsu as a Red Beauty to obtain it.\\n3. Do not join the Wudang Sect. In Year 8, after starting the Peaceful King route, explore the Zhenwu Temple and rush to aid Wudang, then Qiu Daoyan will teach you."
-    qcStatus: Corrected
-    qcQualityScore: 82
   - splitPath: GetDesc
     subIndex: 1
     text: "加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好到达60，解锁秋灵素红颜后获取。"
@@ -5661,7 +5657,7 @@
   - splitPath: GetDesc
     subIndex: 2
     text: "非加入武当派，第八年开启宁王线后，探索真武观驰援武当后，邱道衍传授。"
-    translated: "Not joining the Wudang Sect, in the eighth year after starting the Peaceful King route, after exploring the True Martial Temple and coming to Wudang's aid, Qiu Daoyan teaches."
+    translated: "Only after refusing to join the Wudang Sect and progressing to the Prince Ning storyline in the eighth year, exploring Zhenwu Temple to offer aid to Wudang, would Qiu Daoyan pass on the teachings."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -6620,10 +6616,8 @@
   - splitPath: GetDesc
     text: "第八年间一月起，探索湘北资助结巴山贼后，此后根骨到达180，两次探索湘北并两次战胜谷藏锋后，选泰阿剑法谷藏锋传授。"
     translated: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
-    qcReviewedText: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
-    qcTranslated: "Starting in Month One of Year Eight, after exploring Xiangbei and funding the stammering bandits of Jiashan, once your Potential reaches {0}, explore Xiangbei twice and defeat Gu Cangfeng twice to learn the Tai'a Sword Art from him."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Starting in January of the eighth year, after funding the bandits in Jiashan and exploring Xiangbei, when their potential reached two points, they learned Tai'a Swordsmanship from Gu Cangfeng after two expeditions to Xiangbei and two victories against him."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -11014,6 +11008,8 @@
   - splitPath: GetDesc
     text: "加入唐门，第六年一月开始，福缘到达150，探索川西五次，得知傅云飞要挑战阎铁生，此后战胜傅云飞和寇伏魔，最后连续两次探索千机坊，唐冷心结解开后赠与。"
     translated: "Join the Tang Clan. Starting from January of the sixth year, Luck has reached 150. Explore the western Sichuan five times and learn that Fu Yunge is challenging Yan Tesheng. Subsequently, defeat Fu Yunge and Kao Fomu. Finally, explore the Thousand Mechanism Workshop twice consecutively. After resolving Tang Leng's heart knot, it is given as a gift."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Join the Tang Clan. Starting from January of the sixth year, Luck has reached 150. Explore the western Sichuan five times and learn that Fu Yunge is challenging Yan Tesheng. Subsequently, defeat Fu Yunge and Kao Fomu. Finally, explore the Thousand Mechanism Workshop twice consecutively. After resolving Tang Leng's heart knot, it is given as a gift."
     qcTranslated: "Join the Tang Clan. Starting from Month 1 of Year 6, Luck has reached 150., explore western Sichuan five times, learn that Fu Yunfei is challenging Yan Tiesheng, then defeat Fu Yunfei and Kou Fumo, finally explore Qianji Workshop twice consecutively, after Tang Lengxin's heart knot is resolved, it is given as a gift."
     qcStatus: Corrected
@@ -13668,6 +13664,8 @@
   - splitPath: GetDesc
     text: "任意年七月时探索川南，初识普度，此后，第八年七月开始，道德到达40，七月时探索川南，普度加入，此后道德到达60，探索川南，普度传授。"
     translated: "Explore Sichuan South in July of any year, first meeting Pu Du. From the eighth year of July, Morality reaches 40, and with Pu Du joining in July, Morality then reaches 60, exploring Sichuan South while Pu Du imparts knowledge."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Explore Sichuan South in July of any year, first meeting Pu Du. From the eighth year of July, Morality reaches 40, and with Pu Du joining in July, Morality then reaches 60, exploring Sichuan South while Pu Du imparts knowledge."
     qcTranslated: "Explore Sichuan South in July of any year to first meet Pu Du. Then, starting from the seventh month of the eighth year, once Morality reaches 40, explore Sichuan South in July for Pu Du to join. After that, once Morality reaches 60, explore Sichuan South for Pu Du to impart knowledge."
     qcStatus: Corrected
@@ -15281,10 +15279,7 @@
   splits:
   - splitPath: Name
     text: "三重手里剑"
-    translated: "Triple Star SwordThrow"
-    qcReviewedText: "Triple Star SwordThrow"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Triple shuriken"
   - splitPath: Desc
     text: "攻击（0.4倍）"
     translated: "Attack (0.4 times)"
@@ -15301,10 +15296,7 @@
     translated: "Triple strike"
   - splitPath: EchoName
     text: "三重手里剑"
-    translated: "Triple Star SwordThrow"
-    qcReviewedText: "Triple Star SwordThrow"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Triple shuriken"
   - splitPath: DetailDesc
     text: "攻击伤害类【甲贺流】【百兵】"
     translated: "Attack Damage Class [Koga School][Hundred Weapons]"
@@ -17597,10 +17589,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "探索苍山岭战胜二寨主殷通后获得。"
-    translated: "Defeating Second Fort Master Yin Tong on Cang Shan Ling grants access to this."
-    qcReviewedText: "Defeating Second Fort Master Yin Tong on Cang Shan Ling grants access to this."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Obtained after exploring Cangshan Ridge and defeating the Second Stronghold Master, Yin Tong."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -20815,10 +20804,8 @@
   - splitPath: Desc
     text: "攻击（0.1倍）"
     translated: "Attack (0.1 times)"
-    qcReviewedText: "Attack (0.1 times) \\nIncreased Damage (Multiplied by -14 Gambling Skill) \\nAction response 1<20%>"
-    qcTranslated: "Attack (0.1x) \\nDamage Bonus (Gambling 14x) \\nAction Recovery 1<20%>"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Attack (0.1 times) \\nIncreased Damage (Multiplied by -14 Gambling Skill) \\nAction response 1<20%>"
   - splitPath: Desc
     subIndex: 1
     text: "增伤（赌术-14倍）"
@@ -23096,10 +23083,7 @@
   splits:
   - splitPath: Name
     text: "蚣蝮铜牌"
-    translated: "Centipede Viper Bronze Plaque"
-    qcReviewedText: "Centipede Viper Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Gongfu Bronze Plaque"
   - splitPath: Desc
     text: "【助力】功力"
     translated: "【Boost Power】"
@@ -23112,10 +23096,7 @@
     translated: "No need to go into battle for it to take effect."
   - splitPath: EchoName
     text: "蚣蝮铜牌"
-    translated: "Centipede Viper Bronze Plaque"
-    qcReviewedText: "Centipede Viper Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Gongfu Bronze Plaque"
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
@@ -23361,10 +23342,7 @@
   splits:
   - splitPath: Name
     text: "睚眦铜牌"
-    translated: "Yazhi Bronze Plaque"
-    qcReviewedText: "Yazhi Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Yazi Bronze Plaque"
   - splitPath: Desc
     text: "【助力】功力"
     translated: "【Boost Power】"
@@ -23377,10 +23355,7 @@
     translated: "No need to go into battle for it to take effect."
   - splitPath: EchoName
     text: "睚眦铜牌"
-    translated: "Yazhi Bronze Plaque"
-    qcReviewedText: "Yazhi Bronze Plaque"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Yazi Bronze Plaque"
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
@@ -24216,10 +24191,7 @@
     qcQualityScore: 100
   - splitPath: GetDesc
     text: "第四年一月开始，先后探索湘南、湘东、荆东、第七年一月开始，连续探索荆东，战胜达达里奥解锁后获得。"
-    translated: "Starting in January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong successively. Starting in January of the seventh year, continuously explore Jingdong and defeat Dada Liao to unlock it."
-    qcReviewedText: "Starting in January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong successively. Starting in January of the seventh year, continuously explore Jingdong and defeat Dada Liao to unlock it."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Starting from January of the fourth year, explore Xiangnan, Xiangdong, and Jingdong in sequence. Beginning from January of the seventh year, continuously explore Jingdong and unlock it by defeating Dadario."
   - splitPath: ExtraDesc
     text: "火器"
     translated: "Firearms"
@@ -24290,11 +24262,7 @@
   splits:
   - splitPath: Name
     text: "铁蒺藜"
-    translated: "Iron thorn fence"
-    qcReviewedText: "Iron thorn fence"
-    qcTranslated: "Iron Thorn"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Iron Caltrop"
   - splitPath: Desc
     text: "攻击（0.5倍）"
     translated: "Attack (0.5 times)"
@@ -24307,11 +24275,7 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "铁蒺藜"
-    translated: "Iron thorn fence"
-    qcReviewedText: "Iron thorn fence"
-    qcTranslated: "Iron Thorn"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Iron Caltrop"
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
@@ -30162,26 +30126,17 @@
   splits:
   - splitPath: Name
     text: "王府护卫2"
-    translated: "Royal Guard 2"
-    qcReviewedText: "Royal Guard 2"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince's Manor Guard 2"
   - splitPath: Desc
     text: "王府护卫"
-    translated: "Royal Guard"
-    qcReviewedText: "[Royal Guard]Support battle"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince's Manor Guard"
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
     translated: "Support battle"
   - splitPath: EchoName
     text: "王府护卫"
-    translated: "Royal Guard"
-    qcReviewedText: "Royal Guard"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince's Manor Guard"
   - splitPath: SubType
     text: "助战"
     translated: "Assistance in Battle"
@@ -34402,10 +34357,7 @@
   splits:
   - splitPath: Name
     text: "铁蒺藜2"
-    translated: "Iron Thorn 2"
-    qcReviewedText: "Iron Thorn 2"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Iron Caltrop 2"
   - splitPath: Desc
     text: "攻击（0.3倍）"
     translated: "Attack (0.3 times)"
@@ -34418,11 +34370,7 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "铁蒺藜"
-    translated: "Iron thorn fence"
-    qcReviewedText: "Iron thorn fence"
-    qcTranslated: "Iron Thorn"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Iron Caltrop"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -34575,11 +34523,7 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "铁蒺藜"
-    translated: "Iron thorn fence"
-    qcReviewedText: "Iron thorn fence"
-    qcTranslated: "Iron Thorn"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Iron Caltrop"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -34909,10 +34853,7 @@
   splits:
   - splitPath: Name
     text: "手里剑术2"
-    translated: "Throwing Sword Technique 2"
-    qcReviewedText: "Throwing Sword Technique 2"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shuriken technique 2"
   - splitPath: Desc
     text: "攻击（0.4倍）"
     translated: "Attack (0.4 times)"
@@ -34925,10 +34866,7 @@
     translated: "Poisoned"
   - splitPath: EchoName
     text: "手里剑术"
-    translated: "Throwing Sword Technique"
-    qcReviewedText: "Throwing Sword Technique"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shuriken Technique"
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"

@@ -660,10 +660,7 @@
     qcQualityScore: 100
   - splitPath: Name
     text: "战胜邹九思"
-    translated: "Defeat Zou Jius"
-    qcReviewedText: "Defeat Zou Jius"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Zou Jiusi"
 - raw: "{\r\n    \"Key\": \"151400\",\r\n    \"GroupName\": \"一饭入洞庭\",\r\n    \"Name\": \"登陆君山岛\",\r\n    \"GroupNameTw\": \"一飯入洞庭\",\r\n    \"NameTw\": \"登陸君山島\"\r\n  }"
   rawIndex: 151400
   splits:
@@ -864,16 +861,10 @@
   splits:
   - splitPath: GroupName
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"200700\",\r\n    \"GroupName\": \"衡山可明心\",\r\n    \"Name\": \"衡山可明心\",\r\n    \"GroupNameTw\": \"衡山可明心\",\r\n    \"NameTw\": \"衡山可明心\"\r\n  }"
   rawIndex: 200700
   splits:
@@ -939,16 +930,10 @@
   splits:
   - splitPath: GroupName
     text: "衡山寻宁王"
-    translated: "Hengshan Search for Peaceful King"
-    qcReviewedText: "Hengshan Search for Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Searching for Prince Ning in Hengshan"
   - splitPath: Name
     text: "衡山寻宁王"
-    translated: "Hengshan Search for Peaceful King"
-    qcReviewedText: "Hengshan Search for Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Searching for Prince Ning in Hengshan"
 - raw: "{\r\n    \"Key\": \"201500\",\r\n    \"GroupName\": \"禀报劫云谷\",\r\n    \"Name\": \"禀报劫云谷\",\r\n    \"GroupNameTw\": \"稟報劫雲谷\",\r\n    \"NameTw\": \"稟報劫雲谷\"\r\n  }"
   rawIndex: 201500
   splits:
@@ -4196,16 +4181,10 @@
   splits:
   - splitPath: GroupName
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"774400\",\r\n    \"GroupName\": \"选择萧雪雁\",\r\n    \"Name\": \"选择萧雪雁\",\r\n    \"GroupNameTw\": \"選擇蕭雪雁\",\r\n    \"NameTw\": \"選擇蕭雪雁\"\r\n  }"
   rawIndex: 774400
   splits:
@@ -5963,12 +5942,16 @@
   - splitPath: GroupName
     text: "娄村娄三姑"
     translated: "Lou Cun Lou San Jiejie"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lou Sangu,娄三姑,"
     qcReviewedText: "Lou Cun Lou San Jiejie"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "娄村娄三姑"
     translated: "Lou Cun Lou San Jiejie"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lou Sangu,娄三姑,"
     qcReviewedText: "Lou Cun Lou San Jiejie"
     qcStatus: Passed
     qcQualityScore: 100
@@ -6891,10 +6874,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你为救文锦心之父对抗宁王所派杀手，不敌，被杀手所害。"
-    translated: "You were injured in your attempt to save Wen Jinxin's father from the assassins dispatched by the Peaceful King and ultimately fell to one of their attacks."
-    qcReviewedText: "You were injured in your attempt to save Wen Jinxin's father from the assassins dispatched by the Peaceful King and ultimately fell to one of their attacks."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You fought against the assassins sent by Prince Ning to save Wen Jinxin's father, but were defeated and killed by them."
 - raw: "{\r\n    \"Key\": \"809300\",\r\n    \"GroupName\": \"夏侯珺林话\",\r\n    \"Name\": \"夏侯珺林话\",\r\n    \"GroupNameTw\": \"夏侯珺林話\",\r\n    \"NameTw\": \"夏侯珺林話\"\r\n  }"
   rawIndex: 809300
   splits:
@@ -6930,25 +6910,16 @@
   splits:
   - splitPath: GroupName
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
   - splitPath: Name
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Capture the Iron Caltrop"
 - raw: "{\r\n    \"Key\": \"809600\",\r\n    \"GroupName\": \"抓捕铁蒺藜\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"抓捕鐵蒺藜\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
   rawIndex: 809600
   splits:
   - splitPath: GroupName
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
   - splitPath: Name
     text: "战斗"
     translated: "Battle"
@@ -6960,52 +6931,31 @@
   splits:
   - splitPath: GroupName
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
   - splitPath: Name
     text: "打败铁蒺藜"
-    translated: "Defeat the Iron Thorn"
-    qcReviewedText: "Defeat the Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat the Iron Caltrop"
 - raw: "{\r\n    \"Key\": \"809800\",\r\n    \"GroupName\": \"抓捕铁蒺藜\",\r\n    \"Name\": \"铁蒺藜归案\",\r\n    \"GroupNameTw\": \"抓捕鐵蒺藜\",\r\n    \"NameTw\": \"鐵蒺藜歸案\"\r\n  }"
   rawIndex: 809800
   splits:
   - splitPath: GroupName
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
   - splitPath: Name
     text: "铁蒺藜归案"
-    translated: "Iron Thorn returns to the case"
-    qcReviewedText: "Iron Thorn returns to the case"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Iron Caltrop is brought to justice"
 - raw: "{\r\n    \"Key\": \"809900\",\r\n    \"GroupName\": \"抓捕铁蒺藜\",\r\n    \"Name\": \"不敌铁蒺藜\",\r\n    \"SummaryDesc\": \"你帮助六扇门捉拿案犯“铁蒺藜”高亮时不敌，被其所害！\",\r\n    \"GroupNameTw\": \"抓捕鐵蒺藜\",\r\n    \"NameTw\": \"不敵鐵蒺藜\"\r\n  }"
   rawIndex: 809900
   splits:
   - splitPath: GroupName
     text: "抓捕铁蒺藜"
-    translated: "Arrest Iron Thorn"
-    qcReviewedText: "Arrest Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Capture the Iron Caltrop"
   - splitPath: Name
     text: "不敌铁蒺藜"
-    translated: "Defeated by Iron Thorn"
-    qcReviewedText: "Defeated by Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Unable to withstand the Iron Caltrop"
   - splitPath: SummaryDesc
     text: "你帮助六扇门捉拿案犯“铁蒺藜”高亮时不敌，被其所害！"
-    translated: "You were unable to defeat Gao Liang when assisting the Six Doors in capturing the criminal  “Iron Thorn”  and fell victim to his actions!"
-    qcReviewedText: "You were unable to defeat Gao Liang when assisting the Six Doors in capturing the criminal  “Iron Thorn”  and fell victim to his actions!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You tried to help Six Doors capture the criminal “Iron Caltrop,” Gao Liang, but were overwhelmed and killed by him!"
 - raw: "{\r\n    \"Key\": \"810000\",\r\n    \"GroupName\": \"沈蓉蓉毒发\",\r\n    \"Name\": \"毒发被救治\",\r\n    \"GroupNameTw\": \"沈蓉蓉毒發\",\r\n    \"NameTw\": \"毒發被救治\"\r\n  }"
   rawIndex: 810000
   splits:
@@ -8748,25 +8698,16 @@
   splits:
   - splitPath: GroupName
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Prince Ning arrives at Mount Heng"
   - splitPath: Name
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Mount Heng"
 - raw: "{\r\n    \"Key\": \"910700\",\r\n    \"GroupName\": \"宁王临衡山\",\r\n    \"Name\": \"四象战斗\",\r\n    \"GroupNameTw\": \"寧王臨衡山\",\r\n    \"NameTw\": \"四象戰鬥\"\r\n  }"
   rawIndex: 910700
   splits:
   - splitPath: GroupName
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Prince Ning arrives at Mount Heng"
   - splitPath: Name
     text: "四象战斗"
     translated: "Four Symbols Combat"
@@ -8778,10 +8719,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Prince Ning arrives at Mount Heng"
   - splitPath: Name
     text: "四象战完胜"
     translated: "Four Symbols won decisively"
@@ -8793,10 +8731,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Mount Heng"
   - splitPath: Name
     text: "四象战胜利"
     translated: "The Four Symbols battle was victorious"
@@ -8805,11 +8740,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临衡山，欲以势力压衡山臣服，你击败“商山四皓”令其悻悻而去。此后不久，宁王在于南昌府起势，汀赣巡抚王守仁仅用四十三天，便将叛乱平定，但宁王却于此乱中下落不明。一年之后，万轻舟将掌门之位传与你，和两位师兄江化渚、柏成柯携手归隐，一个新的衡山时代将由你来缔造。"
-    translated: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren of Jiangxi suppressed the rebellion in just forty-three days. The Peaceful King's whereabouts remain unknown since then. One year later, Wan Qingzhou passed the position of Sect Leader to you and retired with his two senior brothers, Jiang Huazhu and Bai Chengke. A new era for Mount Heng will be forged by you."
-    qcReviewedText: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren of Jiangxi suppressed the rebellion in just forty-three days. The Peaceful King's whereabouts remain unknown since then. One year later, Wan Qingzhou passed the position of Sect Leader to you and retired with his two senior brothers, Jiang Huazhu and Bai Chengke. A new era for Mount Heng will be forged by you.\\n<color=#FF0000>Because the rescue of Wudang and Dongting sects was not successful, a perfect ending cannot be achieved.</color>"
-    qcTranslated: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Wang Shouren, the Governor of Tinggan, suppressed the rebellion in just forty-three days. The Peaceful King's whereabouts remain unknown since then. One year later, Wan Qingzhou passed the position of Sect Leader to you and retired with his two Senior Brothers, Jiang Huazhu and Bai Chengke. A new era for Mount Heng will be forged by you.\\n<color=#FF0000>Because the rescue of Wudang and Dongting sects was not successful, a perfect ending cannot be achieved.</color>"
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "Prince Ning Zhu Chenhao led his troops to Mount Heng, aiming to force the mountain's inhabitants to submit under his rule. You defeated the Four Elders of Shangshan, forcing him to leave in frustration. Not long after, Prince Ning began raising an army in Nanchang Prefecture. Wang Shouren, the governor of Tinggan, suppressed the rebellion in just 43 days, but Prince Ning disappeared during the chaos. A year later, Wan Qingzhou passed on the position of Sect Leader to you, and together with your two senior brothers, Jiang Huazhu and Bai Chengke, you retired from the world. It is now up to you to forge a new era for Mount Heng."
   - splitPath: SummaryDesc
     subIndex: 1
     text: "因没有成功救援武当、洞庭两派，无法达成完美结局。"
@@ -8822,10 +8753,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临衡山"
-    translated: "Peaceful King of Ning arrives at Mount Heng"
-    qcReviewedText: "Peaceful King of Ning arrives at Mount Heng"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Prince Ning arrives at Mount Heng"
   - splitPath: Name
     text: "四象战失败"
     translated: "Four Symbols Battle Failed"
@@ -8834,10 +8762,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临武当，欲以势力压衡山臣服，你为守卫衡山威严，死于宁王府供奉“商山四皓”的四象阵中。"
-    translated: "Peaceful King Zhu Chenhao led his followers to ascend Wudang and sought to use his power to subdue Mount Heng's loyalists. You, in defense of Mount Heng's dignity, perished within the Four Symbols Array set up by the  “Four Elders of Shangshan”  at Peaceful King Manor."
-    qcReviewedText: "Peaceful King Zhu Chenhao led his followers to ascend Wudang and sought to use his power to subdue Mount Heng's loyalists. You, in defense of Mount Heng's dignity, perished within the Four Symbols Array set up by the  “Four Elders of Shangshan”  at Peaceful King Manor."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning Zhu Chenhao led his troops to Wudang, aiming to use his power to force Mount Heng to submit. To defend Mount Heng's dignity, you died within the Four Symbols Formation installed in Prince Ning's Residence to honor the Four Elders of Shangshan."
 - raw: "{\r\n    \"Key\": \"960100\",\r\n    \"GroupName\": \"三年新年到\",\r\n    \"Name\": \"三年新年到\",\r\n    \"GroupNameTw\": \"三年新年到\",\r\n    \"NameTw\": \"三年新年到\"\r\n  }"
   rawIndex: 960100
   splits:
@@ -10718,11 +10643,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在追捕截取黄金的海外冒险者达达里奥时，被火绳枪袭击，中弹而亡。"
-    translated: "While pursuing the overseas adventurer Dada Liao who had intercepted the gold, you were attacked by a flintlock pistol and died from the bullet wound."
-    qcReviewedText: "While pursuing the overseas adventurer Dada Liao who had intercepted the gold, you were attacked by a flintlock pistol and died from the bullet wound."
-    qcTranslated: "While pursuing the overseas adventurer Dada Liao who had intercepted the gold, you were attacked by a matchlock gun and died from the bullet wound."
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "While pursuing the overseas adventurer Dadario, who had stolen gold, you were attacked by a matchlock gun and killed by the bullet."
 - raw: "{\r\n    \"Key\": \"1009000\",\r\n    \"GroupName\": \"求见史忠泽\",\r\n    \"Name\": \"求见史忠泽\",\r\n    \"GroupNameTw\": \"求見史忠澤\",\r\n    \"NameTw\": \"求見史忠澤\"\r\n  }"
   rawIndex: 1009000
   splits:
@@ -13310,10 +13231,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "宁王府延揽长孙诚不得，贾孤山以穿肠毒酒暗害长孙诚，你为保护身中剧毒的长孙诚，死于宁王府季恒之之手。"
-    translated: "Peaceful King Manor was unable to retain Zhangsun Cheng. Jia Gushan attempted to secretly harm Zhangsun Cheng with poisened wine, but you died at the hands of Ji Hengzhi to protect the severely poisoned Zhangsun Cheng."
-    qcReviewedText: "Peaceful King Manor was unable to retain Zhangsun Cheng. Jia Gushan attempted to secretly harm Zhangsun Cheng with poisened wine, but you died at the hands of Ji Hengzhi to protect the severely poisoned Zhangsun Cheng."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning's Residence failed to recruit Zhangsun Cheng, so Jia Gushan secretly poisoned him with a lethal brew. To protect Zhangsun Cheng, who had already been severely poisoned, you died at the hands of Ji Heng from Prince Ning's Residence."
 - raw: "{\r\n    \"Key\": \"1600600\",\r\n    \"GroupName\": \"毒士害君子\",\r\n    \"Name\": \"毒士战斗\",\r\n    \"GroupNameTw\": \"毒士害君子\",\r\n    \"NameTw\": \"毒士戰鬥\"\r\n  }"
   rawIndex: 1600600
   splits:
@@ -13346,10 +13264,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "宁王府延揽长孙诚不得，贾孤山以穿肠毒酒暗害长孙诚，你为保护身中剧毒的长孙诚，死于宁王府贾孤山之手。"
-    translated: "Peaceful King Manor failed to recruit Zhangsun Cheng. Instead, Jia Goshan used poison wine to secretly harm Zhangsun Cheng. You died at the hands of Jia Goshan in Peaceful King Manor while protecting the severely poisoned Zhangsun Cheng."
-    qcReviewedText: "Peaceful King Manor failed to recruit Zhangsun Cheng. Instead, Jia Goshan used poison wine to secretly harm Zhangsun Cheng. You died at the hands of Jia Goshan in Peaceful King Manor while protecting the severely poisoned Zhangsun Cheng."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning's Residence failed to recruit Zhangsun Cheng, so Jia Gushan murdered him with a deadly poison. To protect Zhangsun Cheng, who had already been poisoned severely, you died at the hands of Jia Gushan in Prince Ning's Residence."
 - raw: "{\r\n    \"Key\": \"1600800\",\r\n    \"GroupName\": \"毒士害君子\",\r\n    \"Name\": \"无法救君子\",\r\n    \"GroupNameTw\": \"毒士害君子\",\r\n    \"NameTw\": \"無法救君子\"\r\n  }"
   rawIndex: 1600800
   splits:
@@ -13939,11 +13854,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你为保护“碧蛇夫人”阮碧青与搏命的“食虺神君”蒋疠夫同归于尽。"
-    translated: "You perished alongside the Jade Snake Lady, Ruan Biqing, in a desperate battle to protect her. 'They' fought to the very end with the Serpent God, Jiang Lifu."
-    qcReviewedText: "You perished alongside the Jade Snake Lady, Ruan Biqing, in a desperate battle to protect her. 'They' fought to the very end with the Serpent God, Jiang Lifu."
-    qcTranslated: "You perished alongside the Serpent God, Jiang Lifu, in a desperate battle to protect the Jade Snake Lady, Ruan Biqing."
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "You sacrificed yourself alongside the desperately fighting “Viper-Eating Divine Lord” Jiang Lifu to protect the “Jade Snake Lady” Ruan Biqing."
 - raw: "{\r\n    \"Key\": \"1801200\",\r\n    \"GroupName\": \"碧蛇反盘蛇\",\r\n    \"Name\": \"帮助蒋疠夫\",\r\n    \"GroupNameTw\": \"碧蛇反盤蛇\",\r\n    \"NameTw\": \"幫助蔣癘夫\"\r\n  }"
   rawIndex: 1801200
   splits:
@@ -14006,10 +13917,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你为保护“食虺神君”蒋疠夫被“碧蛇夫人”阮碧青所杀。"
-    translated: "You were killed by  “Jade Snake Lady”  Ruan Biqing in your attempt to protect  “Serpent God”  Jiang Lifu."
-    qcReviewedText: "You were killed by  “Jade Snake Lady”  Ruan Biqing in your attempt to protect  “Serpent God”  Jiang Lifu."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You were killed by the Jade Snake Lady, Ruan Biqing, while protecting Jiang Lifu, the Viper-Eating Divine Lord."
 - raw: "{\r\n    \"Key\": \"1801600\",\r\n    \"GroupName\": \"蛇胆赠盘蛇\",\r\n    \"Name\": \"蛇胆赠盘蛇\",\r\n    \"GroupNameTw\": \"蛇膽贈盤蛇\",\r\n    \"NameTw\": \"蛇膽贈盤蛇\"\r\n  }"
   rawIndex: 1801600
   splits:
@@ -16049,10 +15957,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "酒楼话宁王"
-    translated: "Tavern speaks of Peaceful King"
-    qcReviewedText: "Tavern speaks of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Talks about Prince Ning at the Tavern"
 - raw: "{\r\n    \"Key\": \"2007700\",\r\n    \"GroupName\": \"湘东会双杰\",\r\n    \"Name\": \"湘东会双杰\",\r\n    \"GroupNameTw\": \"湘東會雙傑\",\r\n    \"NameTw\": \"湘東會雙傑\"\r\n  }"
   rawIndex: 2007700
   splits:
@@ -18743,6 +18648,8 @@
   - splitPath: Name
     text: "赌胜莫笑贫"
     translated: "Win at gambling, do not mock the poor."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
     qcReviewedText: "Win at gambling, do not mock the poor."
     qcStatus: Passed
     qcQualityScore: 100
@@ -18758,6 +18665,8 @@
   - splitPath: Name
     text: "赌败莫笑贫"
     translated: "Failure at gambling, do not mock the poor."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mo Xiaopin,莫笑贫,"
     qcReviewedText: "Failure at gambling, do not mock the poor."
     qcStatus: Passed
     qcQualityScore: 100
@@ -19160,10 +19069,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "为保护萧令仪、萧子羽姐弟，你被宁王的内侍总管仇朝恩所杀。"
-    translated: "To protect Xiao Lingyi and her brother Xiao Ziyu, you were killed by Qiu Chaoren, the Chief Steward of Peaceful King."
-    qcReviewedText: "To protect Xiao Lingyi and her brother Xiao Ziyu, you were killed by Qiu Chaoren, the Chief Steward of Peaceful King."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "To protect Xiao Lingyi and her brother Xiao Ziyu, you were killed by Qiu Chaoren, the chief eunuch of Prince Ning."
 - raw: "{\r\n    \"Key\": \"2502400\",\r\n    \"GroupName\": \"西洋冒险家\",\r\n    \"Name\": \"西洋冒险家\",\r\n    \"GroupNameTw\": \"西洋冒險家\",\r\n    \"NameTw\": \"西洋冒險家\"\r\n  }"
   rawIndex: 2502400
   splits:
@@ -19554,12 +19460,16 @@
   - splitPath: GroupName
     text: "求见鲁孝宽"
     translated: "Seek an audience with Lu Xiaowang"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lu Xiaokuan,鲁孝宽,"
     qcReviewedText: "Seek an audience with Lu Xiaowang"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "求见鲁孝宽"
     translated: "Seek an audience with Lu Xiaowang"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lu Xiaokuan,鲁孝宽,"
     qcReviewedText: "Seek an audience with Lu Xiaowang"
     qcTranslated: "Seek an audience with Lu Xiaokuan"
     qcStatus: Corrected
@@ -21732,25 +21642,16 @@
   splits:
   - splitPath: GroupName
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Prince Ning arrives at Wudang"
   - splitPath: Name
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Wudang"
 - raw: "{\r\n    \"Key\": \"3010300\",\r\n    \"GroupName\": \"宁王临武当\",\r\n    \"Name\": \"四象战斗\",\r\n    \"GroupNameTw\": \"寧王臨武當\",\r\n    \"NameTw\": \"四象戰鬥\"\r\n  }"
   rawIndex: 3010300
   splits:
   - splitPath: GroupName
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Prince Ning arrives at Wudang"
   - splitPath: Name
     text: "四象战斗"
     translated: "Four Symbols Combat"
@@ -21762,10 +21663,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Prince Ning arrives at Wudang"
   - splitPath: Name
     text: "四象战完胜"
     translated: "Four Symbols won decisively"
@@ -21777,10 +21675,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Wudang"
   - splitPath: Name
     text: "四象战胜利"
     translated: "The Four Symbols battle was victorious"
@@ -21789,11 +21684,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临衡山，欲以势力压衡山臣服，你击败“商山四皓”令其悻悻而去。此后不久，宁王在于南昌府起势，汀赣巡抚王守仁仅用四十三天，便将叛乱平定，但宁王却于此乱中下落不明。一年之后，你功力大增，破关而出，辞别同门师长，携着红颜好友，行侠仗义游历江湖，武当派也因你之名在江湖中声望更隆。"
-    translated: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, who left in defeat. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren of Tingguang Pacification Office quelled the rebellion in just forty-three days. The whereabouts of the Peaceful King remain unknown to this day. One year later, your Power greatly increased, and you broke through the barriers, bidding farewell to your fellow disciples and taking your red-haired friend with you as you traveled Jianghu performing chivalrous deeds. The Wudang Sect's reputation in Jianghu grew even more illustrious because of you."
-    qcReviewedText: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, who left in defeat. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren of Tingguang Pacification Office quelled the rebellion in just forty-three days. The whereabouts of the Peaceful King remain unknown to this day. One year later, your Power greatly increased, and you broke through the barriers, bidding farewell to your fellow disciples and taking your red-haired friend with you as you traveled Jianghu performing chivalrous deeds. The Wudang Sect's reputation in Jianghu grew even more illustrious because of you.\\n<color=#FF0000>Because the rescue of the Dongting and Hengshan sects was unsuccessful, a perfect ending could not be achieved.</color>"
-    qcTranslated: "The Peaceful King Zhu Chenhao led his forces to Mount Heng, attempting to subdue it with his power. You defeated the Four Elders of Shangshan, who left in defeat. Shortly after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren of Tingguang Pacification Office quelled the rebellion in just forty-three days. The whereabouts of the Peaceful King remain unknown to this day. One year later, your Power greatly increased, and you broke through the barriers, bidding farewell to your fellow disciples and masters, taking your red-haired friend with you as you traveled Jianghu performing chivalrous deeds. The Wudang Sect's reputation in Jianghu grew even more illustrious because of you.\\n<color=#FF0000>Because the rescue of the Dongting and Hengshan sects was unsuccessful, a perfect ending could not be achieved.</color>"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Prince Ning Zhu Chenhao led his troops to Mount Heng, aiming to force the region to submit under his rule. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Not long after, Prince Ning raised an uprising in Nanchang Prefecture. Wang Shouren, the governor of Tinggan, suppressed the rebellion in just 43 days, but Prince Ning disappeared during the chaos. A year later, with your Power greatly enhanced, you broke free from your constraints, bid farewell to your mentors and fellow disciples, and set out on a journey through Jianghu alongside your beautiful companion, committed to upholding Chivalrous Deeds. As a result, the Wudang Sect gained even greater prestige in Jianghu because of your name."
   - splitPath: SummaryDesc
     subIndex: 1
     text: "因没有成功救援洞庭、衡山两派，无法达成完美结局。"
@@ -21806,10 +21697,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临武当"
-    translated: "Peaceful King visits Wudang"
-    qcReviewedText: "Peaceful King visits Wudang"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Prince Ning arrives at Wudang"
   - splitPath: Name
     text: "四象战失败"
     translated: "Four Symbols Battle Failed"
@@ -21818,10 +21706,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临武当，欲以势力压武当臣服，你为守卫武当威严，死于宁王府供奉“商山四皓”的四象阵中。"
-    translated: "Peaceful King Zhu Chenhao led his troops to climb Wudang, aiming to use his power to subdue the monastery. You stood up to defend the dignity of Wudang and perished in the Four Elders of Shangshan's Four Symbols Array at Peaceful King Manor."
-    qcReviewedText: "Peaceful King Zhu Chenhao led his troops to climb Wudang, aiming to use his power to subdue the monastery. You stood up to defend the dignity of Wudang and perished in the Four Elders of Shangshan's Four Symbols Array at Peaceful King Manor."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning Zhu Chenhao led his troops to Wudang, aiming to force the sect to submit under his dominance. To defend Wudang's honor, you perished within the Four Symbols Formation stationed in Prince Ning's Residence, where the Four Elders of Shangshan were enshrined."
 - raw: "{\r\n    \"Key\": \"3060100\",\r\n    \"GroupName\": \"三年新年到\",\r\n    \"Name\": \"三年新年到\",\r\n    \"GroupNameTw\": \"三年新年到\",\r\n    \"NameTw\": \"三年新年到\"\r\n  }"
   rawIndex: 3060100
   splits:
@@ -22284,16 +22169,10 @@
   splits:
   - splitPath: GroupName
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"3100400\",\r\n    \"GroupName\": \"武当可明心\",\r\n    \"Name\": \"武当可明心\",\r\n    \"GroupNameTw\": \"武當可明心\",\r\n    \"NameTw\": \"武當可明心\"\r\n  }"
   rawIndex: 3100400
   splits:
@@ -22464,16 +22343,10 @@
   splits:
   - splitPath: GroupName
     text: "武当寻宁王"
-    translated: "Wudang seeks the Peaceful King"
-    qcReviewedText: "Wudang seeks the Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Searching for Prince Ning at Wudang"
   - splitPath: Name
     text: "武当寻宁王"
-    translated: "Wudang seeks the Peaceful King"
-    qcReviewedText: "Wudang seeks the Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Searching for Prince Ning at Wudang"
 - raw: "{\r\n    \"Key\": \"3190100\",\r\n    \"GroupName\": \"武当门规一\",\r\n    \"Name\": \"基-武当门规一\",\r\n    \"GroupNameTw\": \"武當門規一\",\r\n    \"NameTw\": \"基-武當門規一\"\r\n  }"
   rawIndex: 3190100
   splits:
@@ -24764,16 +24637,10 @@
   splits:
   - splitPath: GroupName
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"3874400\",\r\n    \"GroupName\": \"选择萧雪雁\",\r\n    \"Name\": \"选择萧雪雁\",\r\n    \"GroupNameTw\": \"選擇蕭雪雁\",\r\n    \"NameTw\": \"選擇蕭雪雁\"\r\n  }"
   rawIndex: 3874400
   splits:
@@ -29224,11 +29091,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "为了保护扶桑少女风间爱，你死于追杀他的甲贺流高手神保清长之手。"
-    translated: "In order to protect the young girl Kazama Ai, you fell to the hands of Shenbao Qingchang, a skilled warrior from the Koga School who was pursuing him."
-    qcReviewedText: "In order to protect the young girl Kazama Ai, you fell to the hands of Shenbao Qingchang, a skilled warrior from the Koga School who was pursuing him."
-    qcTranslated: "In order to protect the young girl Kazama Ai, you died at the hands of Shenbao Qingchang, a skilled Koga School warrior who was pursuing her."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "To protect the young girl of Fusang, Kazama Ai, you met your end at the hands of Jinbo Kiyonaga, a skilled master from the Koga School who was hunting her."
 - raw: "{\r\n    \"Key\": \"4306300\",\r\n    \"GroupName\": \"甲贺之伴家\",\r\n    \"Name\": \"甲贺之伴家\",\r\n    \"GroupNameTw\": \"甲賀之伴家\",\r\n    \"NameTw\": \"甲賀之伴家\"\r\n  }"
   rawIndex: 4306300
   splits:
@@ -29291,11 +29154,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "为了保护扶桑少女风间爱，你死于追杀他的甲贺流高手伴七郎之手。"
-    translated: "To protect the Shinsengumi maiden Kazama Ai, you died at the hands of the Koga School expert Ban Qilang, who was chasing after him."
-    qcReviewedText: "To protect the Shinsengumi maiden Kazama Ai, you died at the hands of the Koga School expert Ban Qilang, who was chasing after him."
-    qcTranslated: "To protect the young woman from Fusang, Kazama Ai, you died at the hands of Ban Qilang, a Koga School expert who was chasing her."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "To protect the young woman of Fusang, Kazama Ai, you met your end at the hands of Ban Shichiro, a skilled master from the Koga School who was hunting her."
 - raw: "{\r\n    \"Key\": \"4306700\",\r\n    \"GroupName\": \"忍者的报复\",\r\n    \"Name\": \"忍者的报复\",\r\n    \"GroupNameTw\": \"忍者的報復\",\r\n    \"NameTw\": \"忍者的報復\"\r\n  }"
   rawIndex: 4306700
   splits:
@@ -29322,10 +29181,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "女忍者战斗"
-    translated: "Female Assassin fights"
-    qcReviewedText: "Female Assassin fights"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Female Ninja battle"
 - raw: "{\r\n    \"Key\": \"4306900\",\r\n    \"GroupName\": \"忍者的报复\",\r\n    \"Name\": \"战胜女忍者\",\r\n    \"GroupNameTw\": \"忍者的報復\",\r\n    \"NameTw\": \"戰勝女忍者\"\r\n  }"
   rawIndex: 4306900
   splits:
@@ -29337,10 +29193,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "战胜女忍者"
-    translated: "Defeat the Female Assassin"
-    qcReviewedText: "Defeat the Female Assassin"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat the Female Ninja"
 - raw: "{\r\n    \"Key\": \"4307000\",\r\n    \"GroupName\": \"忍者的报复\",\r\n    \"Name\": \"不敌女忍者\",\r\n    \"SummaryDesc\": \"你在林间行路之时，被女忍者暗算而死。\",\r\n    \"GroupNameTw\": \"忍者的報復\",\r\n    \"NameTw\": \"不敵女忍者\"\r\n  }"
   rawIndex: 4307000
   splits:
@@ -29352,16 +29205,10 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "不敌女忍者"
-    translated: "Defeated by a female assassin"
-    qcReviewedText: "Defeated by a female assassin"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "No match for the Female Ninja"
   - splitPath: SummaryDesc
     text: "你在林间行路之时，被女忍者暗算而死。"
-    translated: "While walking through the forest, you were assassinated by a female assassin."
-    qcReviewedText: "While walking through the forest, you were assassinated by a female assassin."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "While walking through the forest, you were killed in a sneak attack by a Female Ninja."
 - raw: "{\r\n    \"Key\": \"4307100\",\r\n    \"GroupName\": \"风间隐夜月\",\r\n    \"Name\": \"风间隐夜月\",\r\n    \"GroupNameTw\": \"風間隱夜月\",\r\n    \"NameTw\": \"風間隱夜月\"\r\n  }"
   rawIndex: 4307100
   splits:
@@ -30113,10 +29960,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战呼摩勒，被其所杀！"
-    translated: "You challenged Hu Mole in the recruitment arena set up by the Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Hu Mole in the recruitment arena set up by the Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Hu Mole in the talent competition organized by Prince Ning and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4311000\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"战斗风间夜\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"戰鬥風間夜\"\r\n  }"
   rawIndex: 4311000
   splits:
@@ -30164,10 +30008,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战风间夜，被其所杀！"
-    translated: "You challenged Kazama Ye in the Talents Recruitment Arena set up by Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Kazama Ye in the Talents Recruitment Arena set up by Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Kazama Ye in Prince Ning's talent competition and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4311300\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"战斗吕霸先\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"戰鬥呂霸先\"\r\n  }"
   rawIndex: 4311300
   splits:
@@ -30215,10 +30056,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战吕霸先，被其所杀！"
-    translated: "You challenged Lu Baxian in the recruitment tournament set up by Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Lu Baxian in the recruitment tournament set up by Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Lu Baxian in Prince Ning's talent competition and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4311610\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"选择\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"選擇\"\r\n  }"
   rawIndex: 4311610
   splits:
@@ -30720,10 +30558,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战呼摩勒，被其所杀！"
-    translated: "You challenged Hu Mole in the recruitment arena set up by the Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Hu Mole in the recruitment arena set up by the Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Hu Mole in the talent competition organized by Prince Ning and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4380500\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"战斗风间夜\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"戰鬥風間夜\"\r\n  }"
   rawIndex: 4380500
   splits:
@@ -30771,10 +30606,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战风间夜，被其所杀！"
-    translated: "You challenged Kazama Ye in the Talents Recruitment Arena set up by Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Kazama Ye in the Talents Recruitment Arena set up by Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Kazama Ye in Prince Ning's talent competition and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4380800\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"战斗吕霸先\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"戰鬥呂霸先\"\r\n  }"
   rawIndex: 4380800
   splits:
@@ -30822,10 +30654,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你在宁王所摆下的招贤擂中挑战吕霸先，被其所杀！"
-    translated: "You challenged Lu Baxian in the recruitment tournament set up by Peaceful King and were killed by him!"
-    qcReviewedText: "You challenged Lu Baxian in the recruitment tournament set up by Peaceful King and were killed by him!"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You challenged Lu Baxian in Prince Ning's talent competition and were killed by him!"
 - raw: "{\r\n    \"Key\": \"4381110\",\r\n    \"GroupName\": \"湘北招贤擂\",\r\n    \"Name\": \"选择\",\r\n    \"GroupNameTw\": \"湘北招賢擂\",\r\n    \"NameTw\": \"選擇\"\r\n  }"
   rawIndex: 4381110
   splits:
@@ -31136,16 +30965,10 @@
   splits:
   - splitPath: GroupName
     text: "通缉铁蒺藜"
-    translated: "Wanted for Iron Thorn"
-    qcReviewedText: "Wanted for Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Wanted: Iron Caltrop"
   - splitPath: Name
     text: "通缉铁蒺藜"
-    translated: "Wanted for Iron Thorn"
-    qcReviewedText: "Wanted for Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Wanted: Iron Caltrop"
 - raw: "{\r\n    \"Key\": \"4400400\",\r\n    \"GroupName\": \"通缉母大虫\",\r\n    \"Name\": \"通缉母大虫\",\r\n    \"GroupNameTw\": \"通緝母大蟲\",\r\n    \"NameTw\": \"通緝母大蟲\"\r\n  }"
   rawIndex: 4400400
   splits:
@@ -31288,16 +31111,10 @@
   splits:
   - splitPath: GroupName
     text: "接取铁蒺藜"
-    translated: "Retrieve Iron Thorn"
-    qcReviewedText: "Retrieve Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Pick up the Iron Caltrop"
   - splitPath: Name
     text: "接取铁蒺藜"
-    translated: "Retrieve Iron Thorn"
-    qcReviewedText: "Retrieve Iron Thorn"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Pick up the Iron Caltrop"
 - raw: "{\r\n    \"Key\": \"4410400\",\r\n    \"GroupName\": \"接取母大虫\",\r\n    \"Name\": \"接取母大虫\",\r\n    \"GroupNameTw\": \"接取母大蟲\",\r\n    \"NameTw\": \"接取母大蟲\"\r\n  }"
   rawIndex: 4410400
   splits:
@@ -32448,25 +32265,16 @@
   splits:
   - splitPath: GroupName
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Prince Ning arrives at Dongting Lake"
   - splitPath: Name
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Dongting Lake"
 - raw: "{\r\n    \"Key\": \"4607200\",\r\n    \"GroupName\": \"宁王临洞庭\",\r\n    \"Name\": \"四象战斗\",\r\n    \"GroupNameTw\": \"寧王臨洞庭\",\r\n    \"NameTw\": \"四象戰鬥\"\r\n  }"
   rawIndex: 4607200
   splits:
   - splitPath: GroupName
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Prince Ning arrives at Dongting Lake"
   - splitPath: Name
     text: "四象战斗"
     translated: "Four Symbols Combat"
@@ -32478,10 +32286,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Prince Ning arrives at Dongting Lake"
   - splitPath: Name
     text: "四象战完胜"
     translated: "Four Symbols won decisively"
@@ -32493,10 +32298,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning arrives at Dongting Lake"
   - splitPath: Name
     text: "四象战胜利"
     translated: "The Four Symbols battle was victorious"
@@ -32505,10 +32307,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临君山岛烟波坞，欲以势力压洞庭帮臣服，你击败“商山四皓”令其悻悻而去。此后不久，宁王在南昌府起势，汀赣巡抚王守仁仅用四十三天，便将叛乱平定，但宁王却于此乱中下落不明。此后未及半月，钟离恨将洞庭帮主之位传给你，自己在后山聂湘君墓前结庐隐居，你在四位堂主和江浪等一众洞庭帮兄弟的支持之下将洞庭帮不断壮大，成为天下第一大帮！"
-    translated: "The Peaceful King Zhu Chenhao led his forces to Mount Junshan Island's Smoke and Waves Pavilion, intending to use his power to subdue the Dongting Sect. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Not long after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren swiftly quelled the rebellion in just forty-three days. However, the Peaceful King's whereabouts remained unknown during this turmoil. Less than a fortnight later, Zhongli Hen passed on the leadership of the Dongting Sect to you and retired to a hermitage near the grave of Nie Xiangjun at the back mountain. With the support of the four deputy leaders and your fellow brothers like Jiang Lang, you continuously strengthened the Dongting Sect, making it the largest and most powerful sect in the land!"
-    qcReviewedText: "The Peaceful King Zhu Chenhao led his forces to Mount Junshan Island's Smoke and Waves Pavilion, intending to use his power to subdue the Dongting Sect. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Not long after, the Peaceful King rose to power in Nanchang Prefecture, but Governor Wang Shouren swiftly quelled the rebellion in just forty-three days. However, the Peaceful King's whereabouts remained unknown during this turmoil. Less than a fortnight later, Zhongli Hen passed on the leadership of the Dongting Sect to you and retired to a hermitage near the grave of Nie Xiangjun at the back mountain. With the support of the four deputy leaders and your fellow brothers like Jiang Lang, you continuously strengthened the Dongting Sect, making it the largest and most powerful sect in the land!\\n<color=#FF0000>Because the rescue of Wudang and Hengshan was not successful, the perfect outcome cannot be achieved.</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning Zhu Chenhao led his troops to Yanbo Wu on Junshan Island, aiming to force the Dongting Sect to submit under his dominance. You defeated the Four Elders of Shangshan, forcing them to leave in frustration. Not long after, Prince Ning raised an uprising in Nanchang Prefecture. Wang Shouren, the governor of Tinggan, suppressed the rebellion in just 43 days, but Prince Ning disappeared during the chaos. Less than half a month later, Zhongli Hen passed the position of Gang Leader of the Dongting Sect to you. He then retreated to live in seclusion by Nie Xiangjun's tomb in the back mountains. With the support of the four sect leaders and fellow members like Jiang Lang, you continued to expand the Dongting Sect until it became the greatest gang under heaven!"
   - splitPath: SummaryDesc
     subIndex: 1
     text: "因没有成功救援武当、衡山两派，无法达成完美结局。"
@@ -32521,10 +32320,7 @@
   splits:
   - splitPath: GroupName
     text: "宁王临洞庭"
-    translated: "Peaceful King approaches Dongting Lake"
-    qcReviewedText: "Peaceful King approaches Dongting Lake"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Prince Ning arrives at Dongting Lake"
   - splitPath: Name
     text: "四象战失败"
     translated: "Four Symbols Battle Failed"
@@ -32533,11 +32329,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "“宁王”朱宸濠率众登临君山岛烟波坞，欲以势力压洞庭帮臣服，你为守护洞庭帮，死于宁王府供奉“商山四皓”的四象阵中。"
-    translated: "Zhu Chenhao, the Peaceful King, led his followers to ascend and reach Jing Mountain Island's Smoke Wave Shack, intending to use his power to force the Dongting Sect into submission. You, in an attempt to protect the Dongting Sect, died within the Four Symbols Formation of the  “Four Elders of Shangshan”  from the Peaceful King Manor."
-    qcReviewedText: "Zhu Chenhao, the Peaceful King, led his followers to ascend and reach Jing Mountain Island's Smoke Wave Shack, intending to use his power to force the Dongting Sect into submission. You, in an attempt to protect the Dongting Sect, died within the Four Symbols Formation of the  “Four Elders of Shangshan”  from the Peaceful King Manor."
-    qcTranslated: "Zhu Chenhao, the Peaceful King, led his followers to ascend and reach Jing Mountain Island's Smoke Wave Shack, intending to use his power to force the Dongting Sect into submission. You, in an attempt to protect the Dongting Sect, died within the Four Symbols Formation of the Four Elders of Shangshan, the retainers of the Peaceful King Manor."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    translated: "Prince Ning Zhu Chenhao led his troops to Yanbo Wu on Junshan Island, aiming to use his power to force the Dongting Sect to submit. To protect the sect, you died within the Four Symbols Formation installed in Prince Ning's Residence to enshrine the Four Elders of Shangshan."
 - raw: "{\r\n    \"Key\": \"4660100\",\r\n    \"GroupName\": \"三年春节到\",\r\n    \"Name\": \"三年春节到\",\r\n    \"GroupNameTw\": \"三年春節到\",\r\n    \"NameTw\": \"三年春節到\"\r\n  }"
   rawIndex: 4660100
   splits:
@@ -32941,16 +32733,10 @@
   splits:
   - splitPath: GroupName
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Reporting the disaster to Prince Ning"
   - splitPath: Name
     text: "禀报宁王祸"
-    translated: "Report to the Peaceful King, disaster"
-    qcReviewedText: "Report to the Peaceful King, disaster"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Reporting the disaster to Prince Ning"
 - raw: "{\r\n    \"Key\": \"4700900\",\r\n    \"GroupName\": \"洞庭可明心\",\r\n    \"Name\": \"洞庭可明心\",\r\n    \"GroupNameTw\": \"洞庭可明心\",\r\n    \"NameTw\": \"洞庭可明心\"\r\n  }"
   rawIndex: 4700900
   splits:
@@ -33106,16 +32892,10 @@
   splits:
   - splitPath: GroupName
     text: "洞庭寻宁王"
-    translated: "Dongting Lake in Search of Peaceful King"
-    qcReviewedText: "Dongting Lake in Search of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Searching for Prince Ning at Dongting Lake"
   - splitPath: Name
     text: "洞庭寻宁王"
-    translated: "Dongting Lake in Search of Peaceful King"
-    qcReviewedText: "Dongting Lake in Search of Peaceful King"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Searching for Prince Ning at Dongting Lake"
 - raw: "{\r\n    \"Key\": \"4703100\",\r\n    \"GroupName\": \"天魔秘魔崖\",\r\n    \"Name\": \"天魔秘魔崖\",\r\n    \"GroupNameTw\": \"天魔祕魔崖\",\r\n    \"NameTw\": \"天魔祕魔崖\"\r\n  }"
   rawIndex: 4703100
   splits:
@@ -35010,16 +34790,10 @@
   splits:
   - splitPath: GroupName
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"5374400\",\r\n    \"GroupName\": \"选择萧雪雁\",\r\n    \"Name\": \"选择萧雪雁\",\r\n    \"GroupNameTw\": \"選擇蕭雪雁\",\r\n    \"NameTw\": \"選擇蕭雪雁\"\r\n  }"
   rawIndex: 5374400
   splits:
@@ -36327,10 +36101,7 @@
     qcQualityScore: 85
   - splitPath: Name
     text: "战胜邹九思"
-    translated: "Defeat Zou Jius"
-    qcReviewedText: "Defeat Zou Jius"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Zou Jiusi"
 - raw: "{\r\n    \"Key\": \"5401300\",\r\n    \"GroupName\": \"寻衅斗九思\",\r\n    \"Name\": \"战败邹九思\",\r\n    \"GroupNameTw\": \"尋釁鬥九思\",\r\n    \"NameTw\": \"戰敗鄒九思\"\r\n  }"
   rawIndex: 5401300
   splits:
@@ -36342,10 +36113,7 @@
     qcQualityScore: 85
   - splitPath: Name
     text: "战败邹九思"
-    translated: "Defeated Zou Jius"
-    qcReviewedText: "Defeated Zou Jius"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Zou Jiusi"
 - raw: "{\r\n    \"Key\": \"5401400\",\r\n    \"GroupName\": \"鱼糕送百川\",\r\n    \"Name\": \"鱼糕送百川\",\r\n    \"GroupNameTw\": \"魚糕送百川\",\r\n    \"NameTw\": \"魚糕送百川\"\r\n  }"
   rawIndex: 5401400
   splits:
@@ -36381,28 +36149,16 @@
   splits:
   - splitPath: GroupName
     text: "义救邹九思"
-    translated: "Righteous rescue of Zou Jiushi"
-    qcReviewedText: "Righteous rescue of Zou Jiushi"
-    qcTranslated: "Righteous Rescue of Zou Jius"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "Rescue Zou Jiusi at all costs"
   - splitPath: Name
     text: "义救邹九思"
-    translated: "Righteous rescue of Zou Jiushi"
-    qcReviewedText: "Righteous rescue of Zou Jiushi"
-    qcTranslated: "Righteous Rescue of Zou Jius"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "Rescue Zou Jiusi at all costs"
 - raw: "{\r\n    \"Key\": \"5401700\",\r\n    \"GroupName\": \"义救邹九思\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"義救鄒九思\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
   rawIndex: 5401700
   splits:
   - splitPath: GroupName
     text: "义救邹九思"
-    translated: "Righteous rescue of Zou Jiushi"
-    qcReviewedText: "Righteous rescue of Zou Jiushi"
-    qcTranslated: "Righteous Rescue of Zou Jius"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "Rescue Zou Jiusi at all costs"
   - splitPath: Name
     text: "战斗"
     translated: "Battle"
@@ -36414,11 +36170,7 @@
   splits:
   - splitPath: GroupName
     text: "义救邹九思"
-    translated: "Righteous rescue of Zou Jiushi"
-    qcReviewedText: "Righteous rescue of Zou Jiushi"
-    qcTranslated: "Righteous Rescue of Zou Jius"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "Rescue Zou Jiusi at all costs"
   - splitPath: Name
     text: "战胜了尘"
     translated: "Defeated Liaocheng"
@@ -36430,11 +36182,7 @@
   splits:
   - splitPath: GroupName
     text: "义救邹九思"
-    translated: "Righteous rescue of Zou Jiushi"
-    qcReviewedText: "Righteous rescue of Zou Jiushi"
-    qcTranslated: "Righteous Rescue of Zou Jius"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    translated: "Rescue Zou Jiusi at all costs"
   - splitPath: Name
     text: "战败了尘"
     translated: "Liaocheng suffered defeat"
@@ -36443,10 +36191,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你为救邹九思力战天魔教八方恶客之一的了尘，不敌而死。"
-    translated: "You fought Liaocheng, one of the eight wicked guests of the Heavenly Demon Sect, in a desperate attempt to save Zou Jius and fell in battle."
-    qcReviewedText: "You fought Liaocheng, one of the eight wicked guests of the Heavenly Demon Sect, in a desperate attempt to save Zou Jius and fell in battle."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You fought valiantly to save Zou Jiusi against Liaochen, one of the eight fierce enemies of the Heavenly Demon Sect, but were defeated and died."
 - raw: "{\r\n    \"Key\": \"5402000\",\r\n    \"GroupName\": \"拉拢听风阁\",\r\n    \"Name\": \"拉拢听风阁\",\r\n    \"GroupNameTw\": \"拉攏聽風閣\",\r\n    \"NameTw\": \"拉攏聽風閣\"\r\n  }"
   rawIndex: 5402000
   splits:
@@ -36848,12 +36593,16 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
   - splitPath: Name
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 100
@@ -36863,6 +36612,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -36878,6 +36629,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -36893,6 +36646,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -36908,6 +36663,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -36923,6 +36680,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -36938,6 +36697,8 @@
   - splitPath: GroupName
     text: "高五卖铜牌"
     translated: "High Five sells copper coins"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gao Wu,高五,"
     qcReviewedText: "High Five sells copper coins"
     qcStatus: Passed
     qcQualityScore: 90
@@ -37670,6 +37431,8 @@
   - splitPath: SummaryDesc
     text: "你为了解救永盛镖局祖南雄一种，被欧阳朔、欧阳望兄弟联手所杀。"
     translated: "To rescue Brother Zu Nanxiong of the Yongsheng Escort Agency, you were killed by the brothers Yang Shuo and Yang Wang in a joint attack."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Ouyang Shuo,欧阳朔,"
     qcReviewedText: "To rescue Brother Zu Nanxiong of the Yongsheng Escort Agency, you were killed by the brothers Yang Shuo and Yang Wang in a joint attack."
     qcStatus: Passed
     qcQualityScore: 100
@@ -38522,10 +38285,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "战胜厉无咎"
-    translated: "Defeat Li Wujou"
-    qcReviewedText: "Defeat Li Wujou"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Li Wujiu"
 - raw: "{\r\n    \"Key\": \"5700700\",\r\n    \"GroupName\": \"驰援真武观\",\r\n    \"Name\": \"不敌厉无咎\",\r\n    \"SummaryDesc\": \"你为救武当派，与血手门赌斗三局，第二局便死于血手门高手厉无咎之手。\",\r\n    \"GroupNameTw\": \"馳援真武觀\",\r\n    \"NameTw\": \"不敵厲無咎\"\r\n  }"
   rawIndex: 5700700
   splits:
@@ -38537,16 +38297,10 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "不敌厉无咎"
-    translated: "Unable to match Li Wujou in combat"
-    qcReviewedText: "Unable to match Li Wujou in combat"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Unable to match Li Wujiu in combat"
   - splitPath: SummaryDesc
     text: "你为救武当派，与血手门赌斗三局，第二局便死于血手门高手厉无咎之手。"
-    translated: "You died in the second round of combat against the skilled warrior Li Wujou of the Bloodhand Sect while gambling your life to save the Wudang Sect."
-    qcReviewedText: "You died in the second round of combat against the skilled warrior Li Wujou of the Bloodhand Sect while gambling your life to save the Wudang Sect."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "To save the Wudang Sect, you fought three rounds against the Bloodclaw Sect, dying in the second round at the hands of their master, Li Wujiu."
 - raw: "{\r\n    \"Key\": \"5700800\",\r\n    \"GroupName\": \"驰援真武观\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"馳援真武觀\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
   rawIndex: 5700800
   splits:
@@ -39350,10 +39104,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你于潜龙谷中寻得宁王踪迹，却终不敌宁王，死于宁王之手。"
-    translated: "You found evidence of Peaceful King's whereabouts in the Concealed Dragon Valley but ultimately fell to his prowess and died at his hands."
-    qcReviewedText: "You found evidence of Peaceful King's whereabouts in the Concealed Dragon Valley but ultimately fell to his prowess and died at his hands."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You tracked Prince Ning down in Hidden Dragon Valley, but ultimately fell short against him and died at his hands."
 - raw: "{\r\n    \"Key\": \"5910100\",\r\n    \"GroupName\": \"铁衣喽啰一\",\r\n    \"Name\": \"铁衣喽啰一\",\r\n    \"GroupNameTw\": \"鐵衣嘍囉一\",\r\n    \"NameTw\": \"鐵衣嘍囉一\"\r\n  }"
   rawIndex: 5910100
   splits:
@@ -39874,6 +39625,8 @@
   - splitPath: Name
     text: "战胜祝八姐"
     translated: "Defeat Sister Zhu Baxi"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Zhu Bajie,祝八姐,"
     qcReviewedText: "Defeat Sister Zhu Baxi"
     qcStatus: Passed
     qcQualityScore: 100
@@ -39889,6 +39642,8 @@
   - splitPath: Name
     text: "不敌祝八姐"
     translated: "Defeated by Sister Zhu Ba"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Zhu Bajie,祝八姐,"
     qcReviewedText: "Defeated by Sister Zhu Ba"
     qcStatus: Passed
     qcQualityScore: 100
@@ -42137,12 +41892,16 @@
   - splitPath: GroupName
     text: "唐醉斗明达"
     translated: "Dong Zuiru Fasting against Brightness"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Zui,唐醉,"
     qcReviewedText: "Dong Zuiru Fasting against Brightness"
     qcStatus: Passed
     qcQualityScore: 85
   - splitPath: Name
     text: "唐醉斗明达"
     translated: "Dong Zuiru Fasting against Brightness"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Zui,唐醉,"
     qcReviewedText: "Dong Zuiru Fasting against Brightness"
     qcStatus: Passed
     qcQualityScore: 100
@@ -42152,6 +41911,8 @@
   - splitPath: GroupName
     text: "唐醉斗明达"
     translated: "Dong Zuiru Fasting against Brightness"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Zui,唐醉,"
     qcReviewedText: "Dong Zuiru Fasting against Brightness"
     qcStatus: Passed
     qcQualityScore: 85
@@ -42428,6 +42189,8 @@
   - splitPath: Name
     text: "战胜封百水"
     translated: "Defeat Feng Bashi"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Feng Baishui,封百水,"
     qcReviewedText: "Defeat Feng Bashi"
     qcStatus: Passed
     qcQualityScore: 100
@@ -42443,6 +42206,8 @@
   - splitPath: Name
     text: "战胜封百水"
     translated: "Defeat Feng Bashi"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Feng Baishui,封百水,"
     qcReviewedText: "Defeat Feng Bashi"
     qcStatus: Passed
     qcQualityScore: 100
@@ -42524,6 +42289,8 @@
   - splitPath: SummaryDesc
     text: "你帮助六扇门捉拿案犯“野和尚”不空时不敌，被其所害！"
     translated: "You helped the Six Doors to apprehend the fugitive 'Wild Monk' Unempty, but you were defeated and harmed by him!"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Bukong,不空,"
     qcReviewedText: "You helped the Six Doors to apprehend the fugitive 'Wild Monk' Unempty, but you were defeated and harmed by him!"
     qcStatus: Passed
     qcQualityScore: 100
@@ -43217,11 +42984,7 @@
     qcQualityScore: 85
   - splitPath: Name
     text: "战胜辛绝灭"
-    translated: "While correcting, also verify: - Defeat Xing Jue defeat Xing Jue"
-    qcReviewedText: "While correcting, also verify: - Defeat Xing Jue defeat Xing Jue"
-    qcTranslated: "Defeat Xing Juemian"
-    qcStatus: Corrected
-    qcQualityScore: 85
+    translated: "Defeat Xin Juemie"
 - raw: "{\r\n    \"Key\": \"6500800\",\r\n    \"GroupName\": \"阴王仇怨了\",\r\n    \"Name\": \"不敌辛绝灭\",\r\n    \"SummaryDesc\": \"你在丰都鬼市相助阴无生对抗幽冥道阎罗王辛绝灭，不敌而死。\",\r\n    \"GroupNameTw\": \"陰王仇怨了\",\r\n    \"NameTw\": \"不敵辛絕滅\"\r\n  }"
   rawIndex: 6500800
   splits:
@@ -43518,25 +43281,16 @@
   splits:
   - splitPath: GroupName
     text: "救援邵轻虹"
-    translated: "Rescue Xiao Qinghong"
-    qcReviewedText: "Rescue Xiao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Rescue Shao Qinghong"
   - splitPath: Name
     text: "救援邵轻虹"
-    translated: "Rescue Xiao Qinghong"
-    qcReviewedText: "Rescue Xiao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Rescue Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"6600300\",\r\n    \"GroupName\": \"救援邵轻虹\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"救援邵輕虹\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
   rawIndex: 6600300
   splits:
   - splitPath: GroupName
     text: "救援邵轻虹"
-    translated: "Rescue Xiao Qinghong"
-    qcReviewedText: "Rescue Xiao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Rescue Shao Qinghong"
   - splitPath: Name
     text: "战斗"
     translated: "Battle"
@@ -43548,10 +43302,7 @@
   splits:
   - splitPath: GroupName
     text: "救援邵轻虹"
-    translated: "Rescue Xiao Qinghong"
-    qcReviewedText: "Rescue Xiao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Rescue Shao Qinghong"
   - splitPath: Name
     text: "战胜山鼍龙"
     translated: "Defeat the Mountain Tyrant Dragon"
@@ -43563,10 +43314,7 @@
   splits:
   - splitPath: GroupName
     text: "救援邵轻虹"
-    translated: "Rescue Xiao Qinghong"
-    qcReviewedText: "Rescue Xiao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Rescue Shao Qinghong"
   - splitPath: Name
     text: "不敌山鼍龙"
     translated: "Defeated by the Mountain Tyrant Dragon"
@@ -43673,10 +43421,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你为为保护邵轻虹死于幽冥道十殿阎君之一“都市王”樊荡秽之手。"
-    translated: "You died at the hands of  “Urban King”  Pan Donghui, one of the Ten Kings of the Netherworld, in an attempt to protect Shao Qihong."
-    qcReviewedText: "You died at the hands of  “Urban King”  Pan Donghui, one of the Ten Kings of the Netherworld, in an attempt to protect Shao Qihong."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "You died protecting Shao Qinghong from one of the Ten Yama Kings of the Dark Realm, Urban King Fan Danghui."
 - raw: "{\r\n    \"Key\": \"6601200\",\r\n    \"GroupName\": \"桃花一剑开\",\r\n    \"Name\": \"桃花一剑开\",\r\n    \"GroupNameTw\": \"桃花一劍開\",\r\n    \"NameTw\": \"桃花一劍開\"\r\n  }"
   rawIndex: 6601200
   splits:
@@ -43743,12 +43488,16 @@
   - splitPath: GroupName
     text: "行侠斗卫聊"
     translated: "Wuxia combat and banter"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Wei Liao,卫聊,"
     qcReviewedText: "Wuxia combat and banter"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "行侠斗卫聊"
     translated: "Wuxia combat and banter"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Wei Liao,卫聊,"
     qcReviewedText: "Wuxia combat and banter"
     qcStatus: Passed
     qcQualityScore: 100
@@ -44074,6 +43823,8 @@
   - splitPath: Name
     text: "战斗寇伏魔"
     translated: "Battle Evildoers"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Battle Evildoers"
     qcStatus: Passed
     qcQualityScore: 100
@@ -44089,6 +43840,8 @@
   - splitPath: Name
     text: "战胜寇伏魔"
     translated: "Overcoming Kou Fu Mo, they encountered Zhang San."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Overcoming Kou Fu Mo, they encountered Zhang San."
     qcStatus: Passed
     qcQualityScore: 100
@@ -44104,12 +43857,16 @@
   - splitPath: Name
     text: "不敌寇伏魔"
     translated: "Defeated by the Invincible Demon Saber"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "Defeated by the Invincible Demon Saber"
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你与唐宝赶往阎家庄救援阎铁生，正遇幽冥道泰山王寇伏魔行凶，不敌而死！"
     translated: "You and Tang Bao rushed to Yan Jia Zhuang to rescue Yan Tesheng and encountered the Evil King of Mount Tai, Kui Fumo. You were unable to defeat him and died!"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Kou Fumo,寇伏魔,"
     qcReviewedText: "You and Tang Bao rushed to Yan Jia Zhuang to rescue Yan Tesheng and encountered the Evil King of Mount Tai, Kui Fumo. You were unable to defeat him and died!"
     qcStatus: Passed
     qcQualityScore: 100
@@ -44594,6 +44351,8 @@
   - splitPath: Name
     text: "战胜缪辟邪"
     translated: "Defeat Mou Bixie"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
     qcReviewedText: "Defeat Mou Bixie"
     qcStatus: Passed
     qcQualityScore: 100
@@ -44609,6 +44368,8 @@
   - splitPath: Name
     text: "不敌缪辟邪"
     translated: "Defeated by Mou Biye"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Miao Bixie,缪辟邪,"
     qcReviewedText: "Defeated by Mou Biye"
     qcStatus: Passed
     qcQualityScore: 100
@@ -44854,25 +44615,16 @@
   splits:
   - splitPath: GroupName
     text: "邵轻虹归庐"
-    translated: "Sha Qinghong returns to the dwelling"
-    qcReviewedText: "Sha Qinghong returns to the dwelling"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong returns to her cottage"
   - splitPath: Name
     text: "邵轻虹归庐"
-    translated: "Sha Qinghong returns to the dwelling"
-    qcReviewedText: "Sha Qinghong returns to the dwelling"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Shao Qinghong returns to her cottage"
 - raw: "{\r\n    \"Key\": \"6700400\",\r\n    \"GroupName\": \"邵轻虹归庐\",\r\n    \"Name\": \"战斗\",\r\n    \"GroupNameTw\": \"邵輕虹歸廬\",\r\n    \"NameTw\": \"戰鬥\"\r\n  }"
   rawIndex: 6700400
   splits:
   - splitPath: GroupName
     text: "邵轻虹归庐"
-    translated: "Sha Qinghong returns to the dwelling"
-    qcReviewedText: "Sha Qinghong returns to the dwelling"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong returns to her cottage"
   - splitPath: Name
     text: "战斗"
     translated: "Battle"
@@ -44884,31 +44636,19 @@
   splits:
   - splitPath: GroupName
     text: "邵轻虹归庐"
-    translated: "Sha Qinghong returns to the dwelling"
-    qcReviewedText: "Sha Qinghong returns to the dwelling"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong returns to her cottage"
   - splitPath: Name
     text: "战胜邵轻虹"
-    translated: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcReviewedText: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"6700600\",\r\n    \"GroupName\": \"邵轻虹归庐\",\r\n    \"Name\": \"战胜邵轻虹\",\r\n    \"GroupNameTw\": \"邵輕虹歸廬\",\r\n    \"NameTw\": \"戰勝邵輕虹\"\r\n  }"
   rawIndex: 6700600
   splits:
   - splitPath: GroupName
     text: "邵轻虹归庐"
-    translated: "Sha Qinghong returns to the dwelling"
-    qcReviewedText: "Sha Qinghong returns to the dwelling"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong returns to her cottage"
   - splitPath: Name
     text: "战胜邵轻虹"
-    translated: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcReviewedText: "While correcting, also verify: - Defeat Shao Qinghong"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Defeat Shao Qinghong"
 - raw: "{\r\n    \"Key\": \"6700700\",\r\n    \"GroupName\": \"方逸飞游历\",\r\n    \"Name\": \"方逸飞游历\",\r\n    \"GroupNameTw\": \"方逸飛遊歷\",\r\n    \"NameTw\": \"方逸飛遊歷\"\r\n  }"
   rawIndex: 6700700
   splits:
@@ -49064,12 +48804,16 @@
   - splitPath: GroupName
     text: "明通寻唐觉"
     translated: "Ming Tong searches for Tang Jue"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Ming Tong searches for Tang Jue"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "明通寻唐觉"
     translated: "Ming Tong searches for Tang Jue"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Ming Tong searches for Tang Jue"
     qcStatus: Passed
     qcQualityScore: 100
@@ -49487,10 +49231,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你因自身实力名望过高，影响唐门下一任门主的安稳，被老太爷“不倒翁”唐纵所杀。"
-    translated: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcReviewedText: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Your excessive fame and strength posed a threat to the stability of the next Tang Clan leader, so you were killed by the patriarch, “Tumbleweed” Tang Zong."
 - raw: "{\r\n    \"Key\": \"7215700\",\r\n    \"GroupName\": \"八年新年到\",\r\n    \"Name\": \"选择唐傲\",\r\n    \"GroupNameTw\": \"八年新年到\",\r\n    \"NameTw\": \"選擇唐傲\"\r\n  }"
   rawIndex: 7215700
   splits:
@@ -49553,10 +49294,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你因自身实力名望过高，影响唐门下一任门主的安稳，被老太爷“不倒翁”唐纵所杀。"
-    translated: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcReviewedText: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Your excessive fame and strength posed a threat to the stability of the next Tang Clan leader, so you were killed by the patriarch, “Tumbleweed” Tang Zong."
 - raw: "{\r\n    \"Key\": \"7216100\",\r\n    \"GroupName\": \"八年新年到\",\r\n    \"Name\": \"选择唐隐\",\r\n    \"GroupNameTw\": \"八年新年到\",\r\n    \"NameTw\": \"選擇唐隱\"\r\n  }"
   rawIndex: 7216100
   splits:
@@ -49619,10 +49357,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你因自身实力名望过高，影响唐门下一任门主的安稳，被老太爷“不倒翁”唐纵所杀。"
-    translated: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcReviewedText: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Your excessive fame and strength posed a threat to the stability of the next Tang Clan leader, so you were killed by the patriarch, “Tumbleweed” Tang Zong."
 - raw: "{\r\n    \"Key\": \"7216500\",\r\n    \"GroupName\": \"八年新年到\",\r\n    \"Name\": \"选择唐冷\",\r\n    \"GroupNameTw\": \"八年新年到\",\r\n    \"NameTw\": \"選擇唐冷\"\r\n  }"
   rawIndex: 7216500
   splits:
@@ -49685,10 +49420,7 @@
     qcQualityScore: 100
   - splitPath: SummaryDesc
     text: "你因自身实力名望过高，影响唐门下一任门主的安稳，被老太爷“不倒翁”唐纵所杀。"
-    translated: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcReviewedText: "While correcting, also verify: - They were killed by Old Master Tang Zong, Unbreakable Figure, due to their excessively high strength and reputation affecting the stability of the Tang Clan's next Grandmaster."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Your excessive fame and strength posed a threat to the stability of the next Tang Clan leader, so you were killed by the patriarch, “Tumbleweed” Tang Zong."
 - raw: "{\r\n    \"Key\": \"7201500\",\r\n    \"GroupName\": \"禀报劫云谷\",\r\n    \"Name\": \"禀报劫云谷\",\r\n    \"GroupNameTw\": \"稟報劫雲谷\",\r\n    \"NameTw\": \"稟報劫雲谷\"\r\n  }"
   rawIndex: 7201500
   splits:
@@ -50973,12 +50705,16 @@
   - splitPath: GroupName
     text: "报信回明通"
     translated: "Report back clearly and promptly"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Report back clearly and promptly"
     qcStatus: Passed
     qcQualityScore: 85
   - splitPath: Name
     text: "报信回明通"
     translated: "Report back clearly and promptly"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mingtong,明通,"
     qcReviewedText: "Report back clearly and promptly"
     qcStatus: Passed
     qcQualityScore: 100
@@ -51009,6 +50745,8 @@
   - splitPath: Name
     text: "唐傲寻猞猁"
     translated: "Tang searches for the lynx"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tang Ao,唐傲,"
     qcReviewedText: "Tang searches for the lynx"
     qcStatus: Passed
     qcQualityScore: 100
@@ -52068,16 +51806,10 @@
   splits:
   - splitPath: GroupName
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
   - splitPath: Name
     text: "选择李云裳"
-    translated: "Choose Li Yunchang"
-    qcReviewedText: "Choose Li Yunchang"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Select Li Yunshang"
 - raw: "{\r\n    \"Key\": \"7883100\",\r\n    \"GroupName\": \"选择萧雪雁\",\r\n    \"Name\": \"选择萧雪雁\",\r\n    \"GroupNameTw\": \"選擇蕭雪雁\",\r\n    \"NameTw\": \"選擇蕭雪雁\"\r\n  }"
   rawIndex: 7883100
   splits:
@@ -52978,16 +52710,10 @@
   splits:
   - splitPath: GroupName
     text: "姜芽表真心"
-    translated: "Yang expresses her genuine feelings sincerely"
-    qcReviewedText: "Yang expresses her genuine feelings sincerely"
-    qcStatus: Passed
-    qcQualityScore: 85
+    translated: "Jiang Ya to express sincerity"
   - splitPath: Name
     text: "姜芽表真心"
-    translated: "Yang expresses her genuine feelings sincerely"
-    qcReviewedText: "Yang expresses her genuine feelings sincerely"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Jiang Ya to express sincerity"
 - raw: "{\r\n    \"Key\": \"8001300\",\r\n    \"GroupName\": \"游探叙州府\",\r\n    \"Name\": \"游探叙州府\",\r\n    \"GroupNameTw\": \"遊探敘州府\",\r\n    \"NameTw\": \"遊探敘州府\"\r\n  }"
   rawIndex: 8001300
   splits:
@@ -53396,12 +53122,16 @@
   - splitPath: GroupName
     text: "普度渡亡魂"
     translated: "Serenity for the Departed Souls"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Serenity for the Departed Souls"
     qcStatus: Passed
     qcQualityScore: 90
   - splitPath: Name
     text: "普度渡亡魂"
     translated: "Serenity for the Departed Souls"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Serenity for the Departed Souls"
     qcStatus: Passed
     qcQualityScore: 100
@@ -53411,12 +53141,16 @@
   - splitPath: GroupName
     text: "普度随同行"
     translated: "Prosper Together and Walk Side by Side"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Prosper Together and Walk Side by Side"
     qcStatus: Passed
     qcQualityScore: 90
   - splitPath: Name
     text: "普度随同行"
     translated: "Prosper Together and Walk Side by Side"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pudu,普度,"
     qcReviewedText: "Prosper Together and Walk Side by Side"
     qcStatus: Passed
     qcQualityScore: 100
@@ -53872,16 +53606,10 @@
   splits:
   - splitPath: GroupName
     text: "初识诸葛慧"
-    translated: "First meeting with Zhu Ge Hui"
-    qcReviewedText: "First meeting with Zhu Ge Hui"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Introducing Zhuge Hui"
   - splitPath: Name
     text: "初识诸葛慧"
-    translated: "First meeting with Zhu Ge Hui"
-    qcReviewedText: "First meeting with Zhu Ge Hui"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Introducing Zhuge Hui"
 - raw: "{\r\n    \"Key\": \"8100700\",\r\n    \"GroupName\": \"木鸢引相识\",\r\n    \"Name\": \"木鸢引相识\",\r\n    \"GroupNameTw\": \"木鳶引相識\",\r\n    \"NameTw\": \"木鳶引相識\"\r\n  }"
   rawIndex: 8100700
   splits:
@@ -54185,10 +53913,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "巫云凤闭关"
-    translated: "Wu Yunfeng sequestered himself in meditation"
-    qcReviewedText: "Wu Yunfeng sequestered himself in meditation"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Wu Yunfeng is in seclusion"
 - raw: "{\r\n    \"Key\": \"8200600\",\r\n    \"GroupName\": \"巫云凤回宫\",\r\n    \"Name\": \"接手神女宫\",\r\n    \"GroupNameTw\": \"巫雲鳳回宮\",\r\n    \"NameTw\": \"接手神女宮\"\r\n  }"
   rawIndex: 8200600
   splits:
@@ -54209,16 +53934,10 @@
   splits:
   - splitPath: GroupName
     text: "朝云萧雪雁"
-    translated: "Morning Cloud, Snowy Feather"
-    qcReviewedText: "Morning Cloud, Snowy Feather"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Morning Cloud Xiao Xueyan"
   - splitPath: Name
     text: "朝云萧雪雁"
-    translated: "Morning Cloud, Snowy Feather"
-    qcReviewedText: "Morning Cloud, Snowy Feather"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Morning Cloud Xiao Xueyan"
 - raw: "{\r\n    \"Key\": \"8200800\",\r\n    \"GroupName\": \"玉珠落重楼\",\r\n    \"Name\": \"玉珠落重楼\",\r\n    \"GroupNameTw\": \"玉珠落重樓\",\r\n    \"NameTw\": \"玉珠落重樓\"\r\n  }"
   rawIndex: 8200800
   splits:
@@ -54650,10 +54369,7 @@
     qcQualityScore: 95
   - splitPath: Name
     text: "交友结方刚"
-    translated: "Making friends with those who are strong and reliable."
-    qcReviewedText: "Making friends with those who are strong and reliable."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Making friends with Fang Gang"
 - raw: "{\r\n    \"Key\": \"8300400\",\r\n    \"GroupName\": \"盗粮鼠灭口\",\r\n    \"Name\": \"盗粮鼠灭口\",\r\n    \"GroupNameTw\": \"盜糧鼠滅口\",\r\n    \"NameTw\": \"盜糧鼠滅口\"\r\n  }"
   rawIndex: 8300400
   splits:
@@ -56570,12 +56286,16 @@
   - splitPath: GroupName
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "金天讲故事"
     translated: "Golden Sky tells a story"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Sky tells a story"
     qcStatus: Passed
     qcQualityScore: 100
@@ -56585,12 +56305,16 @@
   - splitPath: GroupName
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "金天入安府"
     translated: "Golden Heaven Enters Peaceful Manor"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Enters Peaceful Manor"
     qcStatus: Passed
     qcQualityScore: 100
@@ -56600,6 +56324,8 @@
   - splitPath: GroupName
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
@@ -56615,6 +56341,8 @@
   - splitPath: GroupName
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
@@ -56630,6 +56358,8 @@
   - splitPath: GroupName
     text: "金天传上篇"
     translated: "Golden Heaven Transmission: Upper Volume"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission: Upper Volume"
     qcStatus: Passed
     qcQualityScore: 95
@@ -56705,12 +56435,16 @@
   - splitPath: GroupName
     text: "金天传下篇"
     translated: "Golden Heaven Transmission Part II"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission Part II"
     qcStatus: Passed
     qcQualityScore: 95
   - splitPath: Name
     text: "火烧金天府"
     translated: "Burnt Gold Heavenly Mansion"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Burnt Gold Heavenly Mansion"
     qcStatus: Passed
     qcQualityScore: 100
@@ -56720,6 +56454,8 @@
   - splitPath: GroupName
     text: "金天传下篇"
     translated: "Golden Heaven Transmission Part II"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission Part II"
     qcStatus: Passed
     qcQualityScore: 95
@@ -56735,6 +56471,8 @@
   - splitPath: GroupName
     text: "金天传下篇"
     translated: "Golden Heaven Transmission Part II"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jin Tian,金天,"
     qcReviewedText: "Golden Heaven Transmission Part II"
     qcStatus: Passed
     qcQualityScore: 95

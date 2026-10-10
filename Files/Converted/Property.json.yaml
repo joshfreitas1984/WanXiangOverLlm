@@ -207,13 +207,10 @@
   - splitPath: Desc
     text: "反映角色的行事立场，影响事件的触发与走向。"
     translated: "Reflects the character's stance and influences the triggering and progression of events."
-    qcReviewedText: "Reflects the character's stance and influences the triggering and progression of events.\\nThe Ten Worst Scoundrels incident, the Heavenly Demon Sect conspiracy incident, the Peaceful King conspiracy incident, the Dark Morality Sect conspiracy incident, and Six Doors arrest missions will all increase morality."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
     text: "十大恶人事件、天魔教阴谋事件、宁王阴谋事件、幽冥道阴谋事件、六扇门缉捕任务都会增加道德。"
-    translated: "The Ten Worst Scoundrels incident, the Heavenly Demon Sect conspiracy incident, the Peaceful King conspiracy incident, the Dark Morality Sect conspiracy incident, and Six Doors arrest missions will all increase morality."
+    translated: "Completing the Ten Great Evil Men Cases, Heavenly Demon Sect conspiracy cases, Prince Ning conspiracy cases, Netherworld Path conspiracy cases, and Six Doors arrest missions will all increase Morality."
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}"
@@ -785,10 +782,7 @@
   splits:
   - splitPath: Name
     text: "金疮秘药"
-    translated: "Golden Wound Secret Potion"
-    qcReviewedText: "Golden Wound Secret Potion"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Golden Wound Salve"
   - splitPath: Desc
     text: "购买金疮药的数量"
     translated: "The number of burn remedies purchased"
@@ -823,6 +817,8 @@
   - splitPath: Desc
     text: "和袁铁口卜卦的次数"
     translated: "The number of times Li Yuan has divined with him."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yuan Tiekou,袁铁口,"
     qcReviewedText: "The number of times Li Yuan has divined with him."
     qcStatus: Passed
     qcQualityScore: 100
@@ -937,16 +933,10 @@
   splits:
   - splitPath: Name
     text: "宁王阴谋"
-    translated: "Peaceful King's Plot"
-    qcReviewedText: "Peaceful King's Plot"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Prince Ning's conspiracy"
   - splitPath: Desc
     text: "宁王的阴谋"
-    translated: "Peaceful King's plot"
-    qcReviewedText: "Peaceful King's plot"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "Prince Ning's Conspiracy"
 - raw: "{\r\n    \"Key\": \"10014\",\r\n    \"Name\": \"灯谜次数\",\r\n    \"Desc\": \"橘州灯谜次数\",\r\n    \"NameTw\": \"燈謎次數\",\r\n    \"DescTw\": \"橘州燈謎次數\"\r\n  }"
   rawIndex: 10014
   splits:
@@ -1012,16 +1002,10 @@
   splits:
   - splitPath: Name
     text: "宁王支援"
-    translated: "Peaceful King support"
-    qcReviewedText: "Peaceful King support"
-    qcStatus: Passed
-    qcQualityScore: 90
+    translated: "Prince Ning's support"
   - splitPath: Desc
     text: "驰援被宁王阴谋暗算的门派数量"
-    translated: "The number of sects aiding in the defense against the Peaceful King's conspiracy attack"
-    qcReviewedText: "The number of sects aiding in the defense against the Peaceful King's conspiracy attack"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "The number of Sects that have been secretly attacked by Prince Ning's schemes"
 - raw: "{\r\n    \"Key\": \"10019\",\r\n    \"Name\": \"魔侯救援\",\r\n    \"Desc\": \"救援被温残阳毒计暗算的门派数量\",\r\n    \"NameTw\": \"魔侯救援\",\r\n    \"DescTw\": \"救援被溫殘陽毒計暗算的門派數量\"\r\n  }"
   rawIndex: 10019
   splits:
@@ -1453,10 +1437,7 @@
   splits:
   - splitPath: Name
     text: "萧雪雁好感"
-    translated: "Xiaoxueyan's Affection"
-    qcReviewedText: "Xiaoxueyan's Affection"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Xiao Xueyan's Affection"
   - splitPath: Desc
     text: "影响侠客和萧雪雁的关系"
     translated: "Affects the relationship between the Wanderer and Xiao Xueyan"
@@ -1499,10 +1480,7 @@
   splits:
   - splitPath: Name
     text: "姜芽好感"
-    translated: "Qingya's Affection"
-    qcReviewedText: "Qingya's Affection"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Jiang Ya's Affection"
   - splitPath: Desc
     text: "影响侠客和姜芽的关系"
     translated: "Affect the relationship between the Wanderer and Jiang Ya"
@@ -1520,11 +1498,7 @@
     qcQualityScore: 95
   - splitPath: Desc
     text: "影响侠客和诸葛慧的关系"
-    translated: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
-    qcReviewedText: "Affecting the relationship between the Wanderer and Zhuo Ge Hui"
-    qcTranslated: "Affecting the relationship between the Wanderer and Zhuge Hui"
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "Affects the relationship between the Hero and Zhuge Hui."
 - raw: "{\r\n    \"Key\": \"29977\",\r\n    \"Name\": \"唐幺幺好感\",\r\n    \"Desc\": \"影响侠客和唐幺幺的关系\",\r\n    \"NameTw\": \"唐么么好感\",\r\n    \"DescTw\": \"影響俠客和唐么么的關係\"\r\n  }"
   rawIndex: 29977
   splits:
@@ -1546,10 +1520,7 @@
   splits:
   - splitPath: Name
     text: "邵轻虹好感"
-    translated: "Spiao Qinghong's Affection"
-    qcReviewedText: "Spiao Qinghong's Affection"
-    qcStatus: Passed
-    qcQualityScore: 95
+    translated: "Shao Qinghong's Affection"
   - splitPath: Desc
     text: "影响侠客和邵轻虹的关系"
     translated: "Affects the relationship between the Wanderer and Shao Qinghong"

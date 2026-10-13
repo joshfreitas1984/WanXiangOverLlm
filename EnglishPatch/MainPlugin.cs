@@ -156,6 +156,21 @@ public class MainPlugin : BaseUnityPlugin
         return false;
     }
 
+    /// <summary>
+    /// DialogMenu and LogItem compare a dialog's NameFinal to the literal "主角" to swap in the player's own name
+    /// and portrait. The translated data says "Main Character", so the check fails and the dialog falls back to
+    /// the centred, portrait-less layout. Hand the game its sentinel back; it substitutes the real name itself.
+    /// </summary>
+    [HarmonyPatch(typeof(ExEventDialog), nameof(ExEventDialog.NameFinal), MethodType.Getter)]
+    [HarmonyPostfix]
+    public static void ExEventDialog_NameFinal_Postfix(ref string __result)
+    {
+        if (__result == "Main Character")
+        {
+            __result = "主角";
+        }
+    }
+
     [HarmonyPatch(typeof(MainMenu), "UpdateMenpaiAndMoney")]
     [HarmonyPostfix]
     public static void MainMenu_UpdateMenpaiAndMoney_Prefix(MainMenu __instance)

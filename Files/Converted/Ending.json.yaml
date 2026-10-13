@@ -1224,6 +1224,13 @@
   - splitPath: Name
     text: "蓝不悔结局"
     translated: "Lan Buhan's ending"
+    qcReviewedText: "Lan Buhan's ending"
+    qcTranslated: "Lan Buhui's ending"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
@@ -1233,6 +1240,14 @@
   - splitPath: Desc
     text: "获得蓝不悔红颜后解锁"
     translated: "Unlock after obtaining Blue Buhan's Red Face"
+    qcReviewedText: "Unlock after obtaining Blue Buhan's Red Face"
+    qcTranslated: "Unlock after obtaining Lan Bu Hui's Red Beauty"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"2801\",\r\n    \"Name\": \"神女宫结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈青鸬、萧雪雁、巫云凤后解锁\",\r\n    \"NameTw\": \"神女宮結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈青鸕、蕭雪雁、巫雲鳳後解鎖\"\r\n  }"
   rawIndex: 2801
   splits:
@@ -1282,6 +1297,10 @@
   - splitPath: Name
     text: "流星醉月"
     translated: "Meteor Drunken Moon"
+    qcReviewedText: "Meteor Drunken Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "红颜结局"
     translated: "Red Maiden Ending"
@@ -1291,6 +1310,13 @@
   - splitPath: Desc
     text: "在一局游戏中，获得红颜巫云凤、萧雪雁、沈青鸬、邵轻虹、司徒伶、李云裳、姜芽、谈文秀、蚩萤、诸葛慧后解锁。"
     translated: "In a game session, unlocking after obtaining the beauties Witch Yunfeng, Xiao Xueyan, Shen Qinglu, Shao Qinghong, Situ Ling, Li Yunshang, Jiang Ya, Tan Wenxiu, Chi Ying, and Zhuge Hui."
+    qcReviewedText: "In a game session, unlocking after obtaining the beauties Witch Yunfeng, Xiao Xueyan, Shen Qinglu, Shao Qinghong, Situ Ling, Li Yunshang, Jiang Ya, Tan Wenxiu, Chi Ying, and Zhuge Hui."
+    qcTranslated: "In a game session, unlocked after obtaining the beauties Witch Yunfeng, Xiao Xueyan, Shen Qinglu, Shao Qinghong, Situ Ling, Li Yunshang, Jiang Ya, Tan Wenxiu, Chi Ying, and Zhuge Hui."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"800100\",\r\n    \"Name\": \"衡山掌门\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择衡山派，获得红颜杨芸，未救援其余门派，完成魔侯线或宁王线结局解锁\",\r\n    \"NameTw\": \"衡山掌門\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇衡山派，獲得紅顏楊芸，未救援其餘門派，完成魔侯線或寧王線結局解鎖\"\r\n  }"
   rawIndex: 800100
   splits:
@@ -1384,6 +1410,10 @@
   - splitPath: Name
     text: "逍遥若仙"
     translated: "Carefree as a celestial being"
+    qcReviewedText: "Carefree as a celestial being"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TypeText
     text: "门派结局"
     translated: "Sect Ending"
@@ -1393,6 +1423,10 @@
   - splitPath: Desc
     text: "选择青城派，获得红颜蓝不悔，魔侯线中未救援其他门派，完成魔侯线结局解锁"
     translated: "Choose Qingcheng Sect, gain Red Beauty Lan Bu Hui, do not rescue other sects in the Demon Lord route, complete the Demon Lord route ending to unlock"
+    qcReviewedText: "Choose Qingcheng Sect, gain Red Beauty Lan Bu Hui, do not rescue other sects in the Demon Lord route, complete the Demon Lord route ending to unlock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"800500\",\r\n    \"Name\": \"逍遥侯\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。\",\r\n    \"NameTw\": \"逍遙侯\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發寧王線，成功救援其餘二派，完成長樂坊考驗，擊敗寧王解鎖。\"\r\n  }"
   rawIndex: 800500
   splits:

@@ -1549,9 +1549,20 @@
   - splitPath: Name
     text: "缘起青城"
     translated: "Fate began at Qingcheng"
+    qcReviewedText: "Fate began at Qingcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "拜师青城派可获取30贡献"
     translated: "Becoming an apprentice at Qingcheng Sect can obtain 30 Contribution"
+    qcReviewedText: "Becoming an apprentice at Qingcheng Sect can obtain 30 Contribution"
+    qcTranslated: "Joining the Qingcheng Sect as an apprentice can earn 30 Contribution"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: EventResultDesc
     text: "加成测试"
     translated: "Bonus Test"

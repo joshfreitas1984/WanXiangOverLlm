@@ -4023,9 +4023,17 @@
   - splitPath: Name
     text: "姜天定"
     translated: "Jiang Tianding"
+    qcReviewedText: "Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "姜天定"
     translated: "Jiang Tianding"
+    qcReviewedText: "Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10266\",\r\n    \"Name\": \"岳松涛\",\r\n    \"Desc\": \"岳松涛\",\r\n    \"NameTw\": \"嶽松濤\",\r\n    \"DescTw\": \"嶽松濤\"\r\n  }"
   rawIndex: 10266
   splits:
@@ -4047,27 +4055,51 @@
   - splitPath: Name
     text: "温白石"
     translated: "Wen Baishi"
+    qcReviewedText: "Wen Baishi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "温白石"
     translated: "Wen Baishi"
+    qcReviewedText: "Wen Baishi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10268\",\r\n    \"Name\": \"裴云鹤\",\r\n    \"Desc\": \"裴云鹤\",\r\n    \"NameTw\": \"裴雲鶴\",\r\n    \"DescTw\": \"裴雲鶴\"\r\n  }"
   rawIndex: 10268
   splits:
   - splitPath: Name
     text: "裴云鹤"
     translated: "Pei Yunhe"
+    qcReviewedText: "Pei Yunhe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "裴云鹤"
     translated: "Pei Yunhe"
+    qcReviewedText: "Pei Yunhe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10269\",\r\n    \"Name\": \"匪寇\",\r\n    \"Desc\": \"匪寇\",\r\n    \"NameTw\": \"匪寇\",\r\n    \"DescTw\": \"匪寇\"\r\n  }"
   rawIndex: 10269
   splits:
   - splitPath: Name
     text: "匪寇"
     translated: "Bandits"
+    qcReviewedText: "Bandits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "匪寇"
     translated: "Bandits"
+    qcReviewedText: "Bandits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10270\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10270
   splits:
@@ -4089,18 +4121,40 @@
   - splitPath: Name
     text: "蓝不悔"
     translated: "Lan Buhan"
+    qcReviewedText: "Lan Buhan"
+    qcTranslated: "Lan Buhui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     text: "蓝不悔"
     translated: "Lan Buhan"
+    qcReviewedText: "Lan Buhan"
+    qcTranslated: "Lan Buhui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "{\r\n    \"Key\": \"10272\",\r\n    \"Name\": \"谢西楼\",\r\n    \"Desc\": \"谢西楼\",\r\n    \"NameTw\": \"謝西樓\",\r\n    \"DescTw\": \"謝西樓\"\r\n  }"
   rawIndex: 10272
   splits:
   - splitPath: Name
     text: "谢西楼"
     translated: "Xie Xilou"
+    qcReviewedText: "Xie Xilou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "谢西楼"
     translated: "Xie Xilou"
+    qcReviewedText: "Xie Xilou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10273\",\r\n    \"Name\": \"江湖人\",\r\n    \"Desc\": \"江湖人\",\r\n    \"NameTw\": \"江湖人\",\r\n    \"DescTw\": \"江湖人\"\r\n  }"
   rawIndex: 10273
   splits:
@@ -4122,18 +4176,34 @@
   - splitPath: Name
     text: "柏灵霄"
     translated: "Bailinxiao"
+    qcReviewedText: "Bailinxiao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "柏灵霄"
     translated: "Bailinxiao"
+    qcReviewedText: "Bailinxiao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"10275\",\r\n    \"Name\": \"吕伯阳\",\r\n    \"Desc\": \"吕伯阳\",\r\n    \"NameTw\": \"呂伯陽\",\r\n    \"DescTw\": \"呂伯陽\"\r\n  }"
   rawIndex: 10275
   splits:
   - splitPath: Name
     text: "吕伯阳"
     translated: "Lu Boyang"
+    qcReviewedText: "Lu Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "吕伯阳"
     translated: "Lu Boyang"
+    qcReviewedText: "Lu Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"20000\",\r\n    \"Name\": \"幻境珍兽\",\r\n    \"Desc\": \"无稽林\",\r\n    \"NameTw\": \"幻境珍獸\",\r\n    \"DescTw\": \"無稽林\"\r\n  }"
   rawIndex: 20000
   splits:

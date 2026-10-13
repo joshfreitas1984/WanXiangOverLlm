@@ -1983,6 +1983,10 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-Four Swordsmen of the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "松林四剑"
@@ -1996,6 +2000,10 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-Soar to heaven on a crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "驾鹤飞天"
@@ -2009,6 +2017,13 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-Hutu Taoist"
+    qcTranslated: "Achievement - The Confused Daoist"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Name
     subIndex: 1
     text: "糊涂道人"
@@ -2022,6 +2037,14 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-Ziqing asks"
+    qcTranslated: "Achievement - Purple and Blue Seek the Way"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "紫青问道"
@@ -2035,6 +2058,10 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-Qingcheng Legend"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "青城传奇"
@@ -2048,6 +2075,10 @@
   - splitPath: Name
     text: "成就"
     translated: "Achievement"
+    qcReviewedText: "Achievement-This heart has no regrets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "此心无悔"
@@ -15321,12 +15352,20 @@
   - splitPath: Name
     text: "崆峒太初洞"
     translated: "Kongtong Taichu Cave"
+    qcReviewedText: "Kongtong Taichu Cave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3950300\",\r\n    \"Name\": \"崆峒太初洞\"\r\n  }"
   rawIndex: 3950300
   splits:
   - splitPath: Name
     text: "崆峒太初洞"
     translated: "Kongtong Taichu Cave"
+    qcReviewedText: "Kongtong Taichu Cave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3950200\",\r\n    \"Name\": \"玉真五龙丹\"\r\n  }"
   rawIndex: 3950200
   splits:
@@ -15360,6 +15399,13 @@
   - splitPath: Name
     text: "青城太素洞"
     translated: "Qingcheng Tai sui dong"
+    qcReviewedText: "Qingcheng Tai sui dong"
+    qcTranslated: "Qingcheng Taisu Cave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"3970200\",\r\n    \"Name\": \"丹会岳松涛\"\r\n  }"
   rawIndex: 3970200
   splits:
@@ -15375,12 +15421,23 @@
   - splitPath: Name
     text: "洞中勤修炼"
     translated: "Work hard at cultivating in the cave"
+    qcReviewedText: "Work hard at cultivating in the cave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3979100\",\r\n    \"Name\": \"基-太素基础一\"\r\n  }"
   rawIndex: 3979100
   splits:
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tai Su Basics One"
+    qcTranslated: "Base-Fundamentals Basics One"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "太素基础一"
@@ -15394,6 +15451,13 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tai Su Basics II"
+    qcTranslated: "Base-Fundamentals Basics II"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Name
     subIndex: 1
     text: "太素基础二"
@@ -15407,12 +15471,20 @@
   - splitPath: Name
     text: "武当太极洞"
     translated: "Wudang Taiji Cave"
+    qcReviewedText: "Wudang Taiji Cave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"3999000\",\r\n    \"Name\": \"基-太极基础一\"\r\n  }"
   rawIndex: 3999000
   splits:
   - splitPath: Name
     text: "基"
     translated: "Base"
+    qcReviewedText: "Base-Tai Chi Basics One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "太极基础一"
@@ -15426,6 +15498,10 @@
   - splitPath: Name
     text: "洞中勤修炼"
     translated: "Work hard at cultivating in the cave"
+    qcReviewedText: "Work hard at cultivating in the cave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"4000100\",\r\n    \"Name\": \"初入章华台\"\r\n  }"
   rawIndex: 4000100
   splits:
@@ -21481,6 +21557,10 @@
   - splitPath: Name
     text: "相助青城派"
     translated: "Help the Qingcheng Sect"
+    qcReviewedText: "Help the Qingcheng Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6000320\",\r\n    \"Name\": \"助战衡山\"\r\n  }"
   rawIndex: 6000320
   splits:
@@ -23184,54 +23264,93 @@
   - splitPath: Name
     text: "山下救童子"
     translated: "Rescue the Child at the Foot of the Mountain"
+    qcReviewedText: "Rescue the Child at the Foot of the Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6606200\",\r\n    \"Name\": \"江湖遇蓝衣\"\r\n  }"
   rawIndex: 6606200
   splits:
   - splitPath: Name
     text: "江湖遇蓝衣"
     translated: "Encounter with Blue Robe in Jianghu"
+    qcReviewedText: "Encounter with Blue Robe in Jianghu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6606600\",\r\n    \"Name\": \"再遇谢剑鸣\"\r\n  }"
   rawIndex: 6606600
   splits:
   - splitPath: Name
     text: "再遇谢剑鸣"
     translated: "Reencounter with Xie Jianming"
+    qcReviewedText: "Reencounter with Xie Jianming"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-66066000\",\r\n    \"Name\": \"再遇谢剑鸣\"\r\n  }"
   rawIndex: -66066000
   splits:
   - splitPath: Name
     text: "再遇谢剑鸣"
     translated: "Reencounter with Xie Jianming"
+    qcReviewedText: "Reencounter with Xie Jianming"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6606700\",\r\n    \"Name\": \"酒馆疯道士\"\r\n  }"
   rawIndex: 6606700
   splits:
   - splitPath: Name
     text: "酒馆疯道士"
     translated: "Mad Taoist in the Tavern"
+    qcReviewedText: "Mad Taoist in the Tavern"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6606800\",\r\n    \"Name\": \"再遇疯道士\"\r\n  }"
   rawIndex: 6606800
   splits:
   - splitPath: Name
     text: "再遇疯道士"
     translated: "Encounter with the Mad Taoist Again"
+    qcReviewedText: "Encounter with the Mad Taoist Again"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6607200\",\r\n    \"Name\": \"听闻茶坪山\"\r\n  }"
   rawIndex: 6607200
   splits:
   - splitPath: Name
     text: "听闻茶坪山"
     translated: "Hearing of Chaping Mountain"
+    qcReviewedText: "Hearing of Chaping Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6607300\",\r\n    \"Name\": \"疯道传绝学\"\r\n  }"
   rawIndex: 6607300
   splits:
   - splitPath: Name
     text: "疯道传绝学"
     translated: "Crazy Dao Transmits Peerless Skills"
+    qcReviewedText: "Crazy Dao Transmits Peerless Skills"
+    qcTranslated: "Mad Dao's Ultimate Art"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"6607400\",\r\n    \"Name\": \"决战柏灵霄\"\r\n  }"
   rawIndex: 6607400
   splits:
   - splitPath: Name
     text: "决战柏灵霄"
     translated: "Battle at Bailinxiao"
+    qcReviewedText: "Battle at Bailinxiao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"6671200\",\r\n    \"Name\": \"幽冥卞城王\"\r\n  }"
   rawIndex: 6671200
   splits:
@@ -23931,6 +24050,10 @@
   - splitPath: Name
     text: "松林三剑客"
     translated: "Three Swordsmen of the Pine Forest"
+    qcReviewedText: "Three Swordsmen of the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"7100200\",\r\n    \"Name\": \"唐门无悔堂\"\r\n  }"
   rawIndex: 7100200
   splits:
@@ -28608,18 +28731,40 @@
   - splitPath: Name
     text: "经阁吕伯阳"
     translated: "Lvyi Bangyang of the Jing Pavilion"
+    qcReviewedText: "Lvyi Bangyang of the Jing Pavilion"
+    qcTranslated: "Lu Boyang of the Sutra Pavilion"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8500700\",\r\n    \"Name\": \"松涛引丹舍\"\r\n  }"
   rawIndex: 8500700
   splits:
   - splitPath: Name
     text: "松涛引丹舍"
     translated: "Pine Waves Guide the Elixir Cottage"
+    qcReviewedText: "Pine Waves Guide the Elixir Cottage"
+    qcTranslated: "Pine Wave Elixir Shed"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8500900\",\r\n    \"Name\": \"白石引药圃\"\r\n  }"
   rawIndex: 8500900
   splits:
   - splitPath: Name
     text: "白石引药圃"
     translated: "White Stone Herb Garden"
+    qcReviewedText: "White Stone Herb Garden"
+    qcTranslated: "Baishi's Medicine Garden"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8501100\",\r\n    \"Name\": \"三年新年到\"\r\n  }"
   rawIndex: 8501100
   splits:
@@ -28662,36 +28807,68 @@
   - splitPath: Name
     text: "六年选川穹"
     translated: "Choose Chuanqiong in the sixth year"
+    qcReviewedText: "Choose Chuanqiong in the sixth year"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501730\",\r\n    \"Name\": \"六年选茯苓\"\r\n  }"
   rawIndex: 8501730
   splits:
   - splitPath: Name
     text: "六年选茯苓"
     translated: "Sixth year, select Poria"
+    qcReviewedText: "Sixth year, select Poria"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501740\",\r\n    \"Name\": \"六年选地茜\"\r\n  }"
   rawIndex: 8501740
   splits:
   - splitPath: Name
     text: "六年选地茜"
     translated: "Sixth-year Crimson Selection"
+    qcReviewedText: "Sixth-year Crimson Selection"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"8501800\",\r\n    \"Name\": \"七年风羽鹤\"\r\n  }"
   rawIndex: 8501800
   splits:
   - splitPath: Name
     text: "七年风羽鹤"
     translated: "Seven Years of Wind and Crane Feather Freedom"
+    qcReviewedText: "Seven Years of Wind and Crane Feather Freedom"
+    qcTranslated: "Seven-Year Wind-Feather Crane"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"8501900\",\r\n    \"Name\": \"七年云羽鹤\"\r\n  }"
   rawIndex: 8501900
   splits:
   - splitPath: Name
     text: "七年云羽鹤"
     translated: "Seven-year Cloud Feather Crane"
+    qcReviewedText: "Seven-year Cloud Feather Crane"
+    qcTranslated: "Seven-Year Cloud Feather Crane"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8502000\",\r\n    \"Name\": \"七年霜羽鹤\"\r\n  }"
   rawIndex: 8502000
   splits:
   - splitPath: Name
     text: "七年霜羽鹤"
     translated: "Seven-Year Frost Feather Crane"
+    qcReviewedText: "Seven-Year Frost Feather Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8502100\",\r\n    \"Name\": \"八年新年到\"\r\n  }"
   rawIndex: 8502100
   splits:
@@ -28716,60 +28893,114 @@
   - splitPath: Name
     text: "鹤年引鹤苑"
     translated: "Henian Leads the Crane Garden"
+    qcReviewedText: "Henian Leads the Crane Garden"
+    qcTranslated: "Henian Invites the Cranes to the Garden"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8502500\",\r\n    \"Name\": \"灵鹤为伴当\"\r\n  }"
   rawIndex: 8502500
   splits:
   - splitPath: Name
     text: "灵鹤为伴当"
     translated: "Soul Crane Companion Present"
+    qcReviewedText: "Soul Crane Companion Present"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8502700\",\r\n    \"Name\": \"练武松林场\"\r\n  }"
   rawIndex: 8502700
   splits:
   - splitPath: Name
     text: "练武松林场"
     translated: "Train in the Song Forest Arena"
+    qcReviewedText: "Train in the Song Forest Arena"
+    qcTranslated: "Train in the Lianwusong Forest"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8502900\",\r\n    \"Name\": \"青城后山景\"\r\n  }"
   rawIndex: 8502900
   splits:
   - splitPath: Name
     text: "青城后山景"
     translated: "Scenery of the Back Mountain of Qingcheng"
+    qcReviewedText: "Scenery of the Back Mountain of Qingcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8503100\",\r\n    \"Name\": \"比斗临三月\"\r\n  }"
   rawIndex: 8503100
   splits:
   - splitPath: Name
     text: "比斗临三月"
     translated: "Fist Fight Approaches in March"
+    qcReviewedText: "Fist Fight Approaches in March"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8503200\",\r\n    \"Name\": \"赴约姜天定\"\r\n  }"
   rawIndex: 8503200
   splits:
   - splitPath: Name
     text: "赴约姜天定"
     translated: "Meet Jiang Tianding"
+    qcReviewedText: "Meet Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8503700\",\r\n    \"Name\": \"松林松子酒\"\r\n  }"
   rawIndex: 8503700
   splits:
   - splitPath: Name
     text: "松林松子酒"
     translated: "Pine nuts in pine wine"
+    qcReviewedText: "Pine nuts in pine wine"
+    qcTranslated: "Pine Nut Wine"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8503800\",\r\n    \"Name\": \"朱厚熜回府\"\r\n  }"
   rawIndex: 8503800
   splits:
   - splitPath: Name
     text: "朱厚熜回府"
     translated: "Zhushouceng returns to the estate"
+    qcReviewedText: "Zhushouceng returns to the estate"
+    qcTranslated: "Zhu Houcong returns to the estate"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8504100\",\r\n    \"Name\": \"小童子回府\"\r\n  }"
   rawIndex: 8504100
   splits:
   - splitPath: Name
     text: "小童子回府"
     translated: "The young servant returns to the estate"
+    qcReviewedText: "The young servant returns to the estate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8504200\",\r\n    \"Name\": \"世子遇匪寇\"\r\n  }"
   rawIndex: 8504200
   splits:
   - splitPath: Name
     text: "世子遇匪寇"
     translated: "Crown Prince Encounters Bandits"
+    qcReviewedText: "Crown Prince Encounters Bandits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8504300\",\r\n    \"Name\": \"四年丹会开\"\r\n  }"
   rawIndex: 8504300
   splits:
@@ -28794,42 +29025,70 @@
   - splitPath: Name
     text: "道藏存奇珍"
     translated: "The Daoist Canon Holds Rare Treasures"
+    qcReviewedText: "The Daoist Canon Holds Rare Treasures"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8505200\",\r\n    \"Name\": \"功法起反噬\"\r\n  }"
   rawIndex: 8505200
   splits:
   - splitPath: Name
     text: "功法起反噬"
     translated: "Cultivation technique is backfiring"
+    qcReviewedText: "Cultivation technique is backfiring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8505400\",\r\n    \"Name\": \"练成长生诀\"\r\n  }"
   rawIndex: 8505400
   splits:
   - splitPath: Name
     text: "练成长生诀"
     translated: "Practice the Elixir of Immortality Scripture"
+    qcReviewedText: "Practice the Elixir of Immortality Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8505600\",\r\n    \"Name\": \"道阻长生诀\"\r\n  }"
   rawIndex: 8505600
   splits:
   - splitPath: Name
     text: "道阻长生诀"
     translated: "Path to Eternal Life Technique"
+    qcReviewedText: "Path to Eternal Life Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8505700\",\r\n    \"Name\": \"娄拙寻青城\"\r\n  }"
   rawIndex: 8505700
   splits:
   - splitPath: Name
     text: "娄拙寻青城"
     translated: "Lou Zhuo seeks Qingcheng"
+    qcReviewedText: "Lou Zhuo seeks Qingcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8505900\",\r\n    \"Name\": \"道阻长生诀\"\r\n  }"
   rawIndex: 8505900
   splits:
   - splitPath: Name
     text: "道阻长生诀"
     translated: "Path to Eternal Life Technique"
+    qcReviewedText: "Path to Eternal Life Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8508100\",\r\n    \"Name\": \"天魔伐青城\"\r\n  }"
   rawIndex: 8508100
   splits:
   - splitPath: Name
     text: "天魔伐青城"
     translated: "Heavenly Demon Invades Qingcheng"
+    qcReviewedText: "Heavenly Demon Invades Qingcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8508600\",\r\n    \"Name\": \"战胜魔侯\"\r\n  }"
   rawIndex: 8508600
   splits:
@@ -28863,12 +29122,23 @@
   - splitPath: Name
     text: "青城讨天魔"
     translated: "Qingcheng Seeks the Sky Demon"
+    qcReviewedText: "Qingcheng Seeks the Sky Demon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8510300\",\r\n    \"Name\": \"青城备战心\"\r\n  }"
   rawIndex: 8510300
   splits:
   - splitPath: Name
     text: "青城备战心"
     translated: "Qingcheng's heart prepares for battle"
+    qcReviewedText: "Qingcheng's heart prepares for battle"
+    qcTranslated: "Qingcheng's Battle-Preparation Heart"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8510700\",\r\n    \"Name\": \"天魔秘魔崖\"\r\n  }"
   rawIndex: 8510700
   splits:
@@ -28884,96 +29154,190 @@
   - splitPath: Name
     text: "扶摇说过往"
     translated: "Fuyao said to go forward"
+    qcReviewedText: "Fuyao said to go forward"
+    qcTranslated: "Fuyao spoke of the past"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "{\r\n    \"Key\": \"8510900\",\r\n    \"Name\": \"蓝不悔回观\"\r\n  }"
   rawIndex: 8510900
   splits:
   - splitPath: Name
     text: "蓝不悔回观"
     translated: "Blue doesn't regret looking back"
+    qcReviewedText: "Blue doesn't regret looking back"
+    qcTranslated: "Lan Buhui returns to the temple"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85109000\",\r\n    \"Name\": \"蓝不悔回观\"\r\n  }"
   rawIndex: -85109000
   splits:
   - splitPath: Name
     text: "蓝不悔回观"
     translated: "Blue doesn't regret looking back"
+    qcReviewedText: "Blue doesn't regret looking back"
+    qcTranslated: "Lan Buhui returns to the temple"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8511000\",\r\n    \"Name\": \"锦官剑提亲\"\r\n  }"
   rawIndex: 8511000
   splits:
   - splitPath: Name
     text: "锦官剑提亲"
     translated: "Jin Official Sword Proposes Marriage"
+    qcReviewedText: "Jin Official Sword Proposes Marriage"
+    qcTranslated: "Jin Guan Sword Proposes Marriage"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8511600\",\r\n    \"Name\": \"长生诀之故\"\r\n  }"
   rawIndex: 8511600
   splits:
   - splitPath: Name
     text: "长生诀之故"
     translated: "The Cause of the Elixir of Immortality Technique"
+    qcReviewedText: "The Cause of the Elixir of Immortality Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8511700\",\r\n    \"Name\": \"禀报灵霄事\"\r\n  }"
   rawIndex: 8511700
   splits:
   - splitPath: Name
     text: "禀报灵霄事"
     translated: "Report to Lingxiao Affairs"
+    qcReviewedText: "Report to Lingxiao Affairs"
+    qcTranslated: "Reporting the matter of Lingxiao"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8518100\",\r\n    \"Name\": \"扶摇讲庄子\"\r\n  }"
   rawIndex: 8518100
   splits:
   - splitPath: Name
     text: "扶摇讲庄子"
     translated: "Fu Yao lectures on Zhuangzi"
+    qcReviewedText: "Fu Yao lectures on Zhuangzi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8518200\",\r\n    \"Name\": \"伯阳讲老子\"\r\n  }"
   rawIndex: 8518200
   splits:
   - splitPath: Name
     text: "伯阳讲老子"
     translated: "Boyang talks about Laozi"
+    qcReviewedText: "Boyang talks about Laozi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8518300\",\r\n    \"Name\": \"清风讲列子\"\r\n  }"
   rawIndex: 8518300
   splits:
   - splitPath: Name
     text: "清风讲列子"
     translated: "Telling stories from Liezi, the Gentle Breeze"
+    qcReviewedText: "Telling stories from Liezi, the Gentle Breeze"
+    qcTranslated: "Qingfeng Recites Liezi"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8518400\",\r\n    \"Name\": \"景升讲文子\"\r\n  }"
   rawIndex: 8518400
   splits:
   - splitPath: Name
     text: "景升讲文子"
     translated: "Jing Sheng lectures on Wenzi"
+    qcReviewedText: "Jing Sheng lectures on Wenzi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8518500\",\r\n    \"Name\": \"玄览讲清净\"\r\n  }"
   rawIndex: 8518500
   splits:
   - splitPath: Name
     text: "玄览讲清净"
     translated: "Huanlan speaks of purity and emptiness"
+    qcReviewedText: "Huanlan speaks of purity and emptiness"
+    qcTranslated: "Xuanlan speaks of purity and emptiness"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8520400\",\r\n    \"Name\": \"道门静心诀\"\r\n  }"
   rawIndex: 8520400
   splits:
   - splitPath: Name
     text: "道门静心诀"
     translated: "Daoist Calming Mind Incantation"
+    qcReviewedText: "Daoist Calming Mind Incantation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8520500\",\r\n    \"Name\": \"奇功名五斗\"\r\n  }"
   rawIndex: 8520500
   splits:
   - splitPath: Name
     text: "奇功名五斗"
     translated: "Five Pounds of Fame and Fortune"
+    qcReviewedText: "Five Pounds of Fame and Fortune"
+    qcTranslated: "Five Dou of Fame and Fortune"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "{\r\n    \"Key\": \"8520600\",\r\n    \"Name\": \"童子拜伯阳\"\r\n  }"
   rawIndex: 8520600
   splits:
   - splitPath: Name
     text: "童子拜伯阳"
     translated: "Tongzi pays respects to Boyang"
+    qcReviewedText: "Tongzi pays respects to Boyang"
+    qcTranslated: "The Child Pays Respects to Boyang"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "{\r\n    \"Key\": \"8520700\",\r\n    \"Name\": \"朱厚熜学艺\"\r\n  }"
   rawIndex: 8520700
   splits:
   - splitPath: Name
     text: "朱厚熜学艺"
     translated: "Zhuhoucong Studies His Art"
+    qcReviewedText: "Zhuhoucong Studies His Art"
+    qcTranslated: "Zhu Houcong Studies His Art"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8520800\",\r\n    \"Name\": \"伯阳试武艺\"\r\n  }"
   rawIndex: 8520800
   splits:
   - splitPath: Name
     text: "伯阳试武艺"
     translated: "Baiyang Tests Martial Arts Skills"
+    qcReviewedText: "Baiyang Tests Martial Arts Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8521200\",\r\n    \"Name\": \"娄拙读经一\"\r\n  }"
   rawIndex: 8521200
   splits:
@@ -29007,111 +29371,180 @@
   - splitPath: Name
     text: "云笈纳七签"
     translated: "Seven Signs of the Cloud Tabernacle"
+    qcReviewedText: "Seven Signs of the Cloud Tabernacle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8528100\",\r\n    \"Name\": \"伯阳传道德\"\r\n  }"
   rawIndex: 8528100
   splits:
   - splitPath: Name
     text: "伯阳传道德"
     translated: "Boyang transmitted morality"
+    qcReviewedText: "Boyang transmitted morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85281000\",\r\n    \"Name\": \"伯阳传道德\"\r\n  }"
   rawIndex: -85281000
   splits:
   - splitPath: Name
     text: "伯阳传道德"
     translated: "Boyang transmitted morality"
+    qcReviewedText: "Boyang transmitted morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85281001\",\r\n    \"Name\": \"伯阳传道德\"\r\n  }"
   rawIndex: -85281001
   splits:
   - splitPath: Name
     text: "伯阳传道德"
     translated: "Boyang transmitted morality"
+    qcReviewedText: "Boyang transmitted morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85281002\",\r\n    \"Name\": \"伯阳传道德\"\r\n  }"
   rawIndex: -85281002
   splits:
   - splitPath: Name
     text: "伯阳传道德"
     translated: "Boyang transmitted morality"
+    qcReviewedText: "Boyang transmitted morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8528200\",\r\n    \"Name\": \"伯阳传清静\"\r\n  }"
   rawIndex: 8528200
   splits:
   - splitPath: Name
     text: "伯阳传清静"
     translated: "Boyang preached about tranquility"
+    qcReviewedText: "Boyang preached about tranquility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85282000\",\r\n    \"Name\": \"伯阳传清静\"\r\n  }"
   rawIndex: -85282000
   splits:
   - splitPath: Name
     text: "伯阳传清静"
     translated: "Boyang preached about tranquility"
+    qcReviewedText: "Boyang preached about tranquility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85282001\",\r\n    \"Name\": \"伯阳传清静\"\r\n  }"
   rawIndex: -85282001
   splits:
   - splitPath: Name
     text: "伯阳传清静"
     translated: "Boyang preached about tranquility"
+    qcReviewedText: "Boyang preached about tranquility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85282002\",\r\n    \"Name\": \"伯阳传清静\"\r\n  }"
   rawIndex: -85282002
   splits:
   - splitPath: Name
     text: "伯阳传清静"
     translated: "Boyang preached about tranquility"
+    qcReviewedText: "Boyang preached about tranquility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8528300\",\r\n    \"Name\": \"伯阳传阴符\"\r\n  }"
   rawIndex: 8528300
   splits:
   - splitPath: Name
     text: "伯阳传阴符"
     translated: "Boyang transmits the Yinfu text"
+    qcReviewedText: "Boyang transmits the Yinfu text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85283000\",\r\n    \"Name\": \"伯阳传阴符\"\r\n  }"
   rawIndex: -85283000
   splits:
   - splitPath: Name
     text: "伯阳传阴符"
     translated: "Boyang transmits the Yinfu text"
+    qcReviewedText: "Boyang transmits the Yinfu text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85283001\",\r\n    \"Name\": \"伯阳传阴符\"\r\n  }"
   rawIndex: -85283001
   splits:
   - splitPath: Name
     text: "伯阳传阴符"
     translated: "Boyang transmits the Yinfu text"
+    qcReviewedText: "Boyang transmits the Yinfu text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85283002\",\r\n    \"Name\": \"伯阳传阴符\"\r\n  }"
   rawIndex: -85283002
   splits:
   - splitPath: Name
     text: "伯阳传阴符"
     translated: "Boyang transmits the Yinfu text"
+    qcReviewedText: "Boyang transmits the Yinfu text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8528400\",\r\n    \"Name\": \"伯阳传心印\"\r\n  }"
   rawIndex: 8528400
   splits:
   - splitPath: Name
     text: "伯阳传心印"
     translated: "Transmitting the Heart Seal to Boyang"
+    qcReviewedText: "Transmitting the Heart Seal to Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85284000\",\r\n    \"Name\": \"伯阳传心印\"\r\n  }"
   rawIndex: -85284000
   splits:
   - splitPath: Name
     text: "伯阳传心印"
     translated: "Transmitting the Heart Seal to Boyang"
+    qcReviewedText: "Transmitting the Heart Seal to Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85284001\",\r\n    \"Name\": \"伯阳传心印\"\r\n  }"
   rawIndex: -85284001
   splits:
   - splitPath: Name
     text: "伯阳传心印"
     translated: "Transmitting the Heart Seal to Boyang"
+    qcReviewedText: "Transmitting the Heart Seal to Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85284002\",\r\n    \"Name\": \"伯阳传心印\"\r\n  }"
   rawIndex: -85284002
   splits:
   - splitPath: Name
     text: "伯阳传心印"
     translated: "Transmitting the Heart Seal to Boyang"
+    qcReviewedText: "Transmitting the Heart Seal to Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8528800\",\r\n    \"Name\": \"基-道学保底经\"\r\n  }"
   rawIndex: 8528800
   splits:
   - splitPath: Name
     text: "基"
     translated: "Base"
-    qcReviewedText: "Base-Lightly drill with the Sword"
+    qcReviewedText: "Base-Daoist Studies Basic Canon"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "道学保底经"
@@ -29125,9 +29558,10 @@
   - splitPath: Name
     text: "基"
     translated: "Base"
-    qcReviewedText: "Base-Lightly drill with the Sword"
+    qcReviewedText: "Base-Unveil the True Pavilion's guarantee"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Name
     subIndex: 1
     text: "解真阁保底"
@@ -29141,12 +29575,20 @@
   - splitPath: Name
     text: "丹术初入门"
     translated: "Beginner's Alchemy"
+    qcReviewedText: "Beginner's Alchemy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8530300\",\r\n    \"Name\": \"丹舍岳松涛\"\r\n  }"
   rawIndex: 8530300
   splits:
   - splitPath: Name
     text: "丹舍岳松涛"
     translated: "Pill Room Yue Songtao"
+    qcReviewedText: "Pill Room Yue Songtao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8538100\",\r\n    \"Name\": \"基础丹术一\"\r\n  }"
   rawIndex: 8538100
   splits:
@@ -29180,12 +29622,20 @@
   - splitPath: Name
     text: "灵宝紫阳丹"
     translated: "Purple Yang Divine Pill"
+    qcReviewedText: "Purple Yang Divine Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8539200\",\r\n    \"Name\": \"太乙青华丹\"\r\n  }"
   rawIndex: 8539200
   splits:
   - splitPath: Name
     text: "太乙青华丹"
     translated: "Taiyi Qinghua Pill"
+    qcReviewedText: "Taiyi Qinghua Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8539800\",\r\n    \"Name\": \"丹房中选择\"\r\n  }"
   rawIndex: 8539800
   splits:
@@ -29201,342 +29651,649 @@
   - splitPath: Name
     text: "药圃温白石"
     translated: "Medicine Garden Wen Baishi"
+    qcReviewedText: "Medicine Garden Wen Baishi"
+    qcTranslated: "Medicine Garden, Wen Baishi"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8540600\",\r\n    \"Name\": \"药圃答药性\"\r\n  }"
   rawIndex: 8540600
   splits:
   - splitPath: Name
     text: "药圃答药性"
     translated: "Medicine Grove responds with the nature of the herbs."
+    qcReviewedText: "Medicine Grove responds with the nature of the herbs."
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"-85481001\",\r\n    \"Name\": \"药圃管黄精\"\r\n  }"
   rawIndex: -85481001
   splits:
   - splitPath: Name
     text: "药圃管黄精"
     translated: "Medicine garden tends polygala"
+    qcReviewedText: "Medicine garden tends polygala"
+    qcTranslated: "Medicine garden tends Solomon's seal"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"-85481002\",\r\n    \"Name\": \"药圃管黄精\"\r\n  }"
   rawIndex: -85481002
   splits:
   - splitPath: Name
     text: "药圃管黄精"
     translated: "Medicine garden tends polygala"
+    qcReviewedText: "Medicine garden tends polygala"
+    qcTranslated: "Medicine garden tends Solomon's seal"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"-85481003\",\r\n    \"Name\": \"药圃管黄精\"\r\n  }"
   rawIndex: -85481003
   splits:
   - splitPath: Name
     text: "药圃管黄精"
     translated: "Medicine garden tends polygala"
+    qcReviewedText: "Medicine garden tends polygala"
+    qcTranslated: "Medicine garden tends Solomon's seal"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"-85482001\",\r\n    \"Name\": \"药圃管白术\"\r\n  }"
   rawIndex: -85482001
   splits:
   - splitPath: Name
     text: "药圃管白术"
     translated: "White Atractylodes manages the herb garden"
+    qcReviewedText: "White Atractylodes manages the herb garden"
+    qcTranslated: "The herb garden is managed by White Atractylodes"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "{\r\n    \"Key\": \"-85482002\",\r\n    \"Name\": \"药圃管白术\"\r\n  }"
   rawIndex: -85482002
   splits:
   - splitPath: Name
     text: "药圃管白术"
     translated: "White Atractylodes manages the herb garden"
+    qcReviewedText: "White Atractylodes manages the herb garden"
+    qcTranslated: "The herb garden is managed by White Atractylodes"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "{\r\n    \"Key\": \"-85482003\",\r\n    \"Name\": \"药圃管白术\"\r\n  }"
   rawIndex: -85482003
   splits:
   - splitPath: Name
     text: "药圃管白术"
     translated: "White Atractylodes manages the herb garden"
+    qcReviewedText: "White Atractylodes manages the herb garden"
+    qcTranslated: "The herb garden is managed by White Atractylodes"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "{\r\n    \"Key\": \"-85483001\",\r\n    \"Name\": \"药圃管巨胜\"\r\n  }"
   rawIndex: -85483001
   splits:
   - splitPath: Name
     text: "药圃管巨胜"
     translated: "Giant Hempus in the Medicine Garden"
+    qcReviewedText: "Giant Hempus in the Medicine Garden"
+    qcTranslated: "Jusheng in the Medicine Garden"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85483002\",\r\n    \"Name\": \"药圃管巨胜\"\r\n  }"
   rawIndex: -85483002
   splits:
   - splitPath: Name
     text: "药圃管巨胜"
     translated: "Giant Hempus in the Medicine Garden"
+    qcReviewedText: "Giant Hempus in the Medicine Garden"
+    qcTranslated: "Jusheng in the Medicine Garden"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85483003\",\r\n    \"Name\": \"药圃管巨胜\"\r\n  }"
   rawIndex: -85483003
   splits:
   - splitPath: Name
     text: "药圃管巨胜"
     translated: "Giant Hempus in the Medicine Garden"
+    qcReviewedText: "Giant Hempus in the Medicine Garden"
+    qcTranslated: "Jusheng in the Medicine Garden"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85484001\",\r\n    \"Name\": \"药圃管茯苓\"\r\n  }"
   rawIndex: -85484001
   splits:
   - splitPath: Name
     text: "药圃管茯苓"
     translated: "The medicine garden tends to Poria"
+    qcReviewedText: "The medicine garden tends to Poria"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85484002\",\r\n    \"Name\": \"药圃管茯苓\"\r\n  }"
   rawIndex: -85484002
   splits:
   - splitPath: Name
     text: "药圃管茯苓"
     translated: "The medicine garden tends to Poria"
+    qcReviewedText: "The medicine garden tends to Poria"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85484003\",\r\n    \"Name\": \"药圃管茯苓\"\r\n  }"
   rawIndex: -85484003
   splits:
   - splitPath: Name
     text: "药圃管茯苓"
     translated: "The medicine garden tends to Poria"
+    qcReviewedText: "The medicine garden tends to Poria"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8550200\",\r\n    \"Name\": \"青城风云引\"\r\n  }"
   rawIndex: 8550200
   splits:
   - splitPath: Name
     text: "青城风云引"
     translated: "Qingcheng Storms Beckon"
+    qcReviewedText: "Qingcheng Storms Beckon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8550300\",\r\n    \"Name\": \"鹤苑裴云鹤\"\r\n  }"
   rawIndex: 8550300
   splits:
   - splitPath: Name
     text: "鹤苑裴云鹤"
     translated: "Pei Yunhe of Crane Garden"
+    qcReviewedText: "Pei Yunhe of Crane Garden"
+    qcTranslated: "Pei Yunhe of the Crane Garden"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "{\r\n    \"Key\": \"8550700\",\r\n    \"Name\": \"探听道蔵宝\"\r\n  }"
   rawIndex: 8550700
   splits:
   - splitPath: Name
     text: "探听道蔵宝"
     translated: "Inquire about the Daoist treasures"
+    qcReviewedText: "Inquire about the Daoist treasures"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85581001\",\r\n    \"Name\": \"鹤苑御幼鹤\"\r\n  }"
   rawIndex: -85581001
   splits:
   - splitPath: Name
     text: "鹤苑御幼鹤"
     translated: "Imperial Young Crane in the Crane Garden"
+    qcReviewedText: "Imperial Young Crane in the Crane Garden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85581002\",\r\n    \"Name\": \"鹤苑御幼鹤\"\r\n  }"
   rawIndex: -85581002
   splits:
   - splitPath: Name
     text: "鹤苑御幼鹤"
     translated: "Imperial Young Crane in the Crane Garden"
+    qcReviewedText: "Imperial Young Crane in the Crane Garden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85581003\",\r\n    \"Name\": \"鹤苑御幼鹤\"\r\n  }"
   rawIndex: -85581003
   splits:
   - splitPath: Name
     text: "鹤苑御幼鹤"
     translated: "Imperial Young Crane in the Crane Garden"
+    qcReviewedText: "Imperial Young Crane in the Crane Garden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85582001\",\r\n    \"Name\": \"鹤苑御羽期\"\r\n  }"
   rawIndex: -85582001
   splits:
   - splitPath: Name
     text: "鹤苑御羽期"
     translated: "Crane Garden Imperial Feathers Festival"
+    qcReviewedText: "Crane Garden Imperial Feathers Festival"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"-85582002\",\r\n    \"Name\": \"鹤苑御羽期\"\r\n  }"
   rawIndex: -85582002
   splits:
   - splitPath: Name
     text: "鹤苑御羽期"
     translated: "Crane Garden Imperial Feathers Festival"
+    qcReviewedText: "Crane Garden Imperial Feathers Festival"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"-85582003\",\r\n    \"Name\": \"鹤苑御羽期\"\r\n  }"
   rawIndex: -85582003
   splits:
   - splitPath: Name
     text: "鹤苑御羽期"
     translated: "Crane Garden Imperial Feathers Festival"
+    qcReviewedText: "Crane Garden Imperial Feathers Festival"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "{\r\n    \"Key\": \"-85583001\",\r\n    \"Name\": \"鹤苑御成鹤\"\r\n  }"
   rawIndex: -85583001
   splits:
   - splitPath: Name
     text: "鹤苑御成鹤"
     translated: "Imperial Crane Formation of Crane Manor"
+    qcReviewedText: "Imperial Crane Formation of Crane Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85583002\",\r\n    \"Name\": \"鹤苑御成鹤\"\r\n  }"
   rawIndex: -85583002
   splits:
   - splitPath: Name
     text: "鹤苑御成鹤"
     translated: "Imperial Crane Formation of Crane Manor"
+    qcReviewedText: "Imperial Crane Formation of Crane Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85583003\",\r\n    \"Name\": \"鹤苑御成鹤\"\r\n  }"
   rawIndex: -85583003
   splits:
   - splitPath: Name
     text: "鹤苑御成鹤"
     translated: "Imperial Crane Formation of Crane Manor"
+    qcReviewedText: "Imperial Crane Formation of Crane Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85584001\",\r\n    \"Name\": \"鹤苑御暮鹤\"\r\n  }"
   rawIndex: -85584001
   splits:
   - splitPath: Name
     text: "鹤苑御暮鹤"
     translated: "Crane Garden Imperial Dusk Crane"
+    qcReviewedText: "Crane Garden Imperial Dusk Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85584002\",\r\n    \"Name\": \"鹤苑御暮鹤\"\r\n  }"
   rawIndex: -85584002
   splits:
   - splitPath: Name
     text: "鹤苑御暮鹤"
     translated: "Crane Garden Imperial Dusk Crane"
+    qcReviewedText: "Crane Garden Imperial Dusk Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85584003\",\r\n    \"Name\": \"鹤苑御暮鹤\"\r\n  }"
   rawIndex: -85584003
   splits:
   - splitPath: Name
     text: "鹤苑御暮鹤"
     translated: "Crane Garden Imperial Dusk Crane"
+    qcReviewedText: "Crane Garden Imperial Dusk Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8560100\",\r\n    \"Name\": \"紫青来相戏\"\r\n  }"
   rawIndex: 8560100
   splits:
   - splitPath: Name
     text: "紫青来相戏"
     translated: "Violet and blue come to play tricks"
+    qcReviewedText: "Violet and blue come to play tricks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85781000\",\r\n    \"Name\": \"后山麻姑洞\"\r\n  }"
   rawIndex: -85781000
   splits:
   - splitPath: Name
     text: "后山麻姑洞"
     translated: "Hou Mountain Magu Cave"
+    qcReviewedText: "Hou Mountain Magu Cave"
+    qcTranslated: "Back Mountain Magu Cave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85781001\",\r\n    \"Name\": \"后山麻姑洞\"\r\n  }"
   rawIndex: -85781001
   splits:
   - splitPath: Name
     text: "后山麻姑洞"
     translated: "Hou Mountain Magu Cave"
+    qcReviewedText: "Hou Mountain Magu Cave"
+    qcTranslated: "Back Mountain Magu Cave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85781002\",\r\n    \"Name\": \"后山麻姑洞\"\r\n  }"
   rawIndex: -85781002
   splits:
   - splitPath: Name
     text: "后山麻姑洞"
     translated: "Hou Mountain Magu Cave"
+    qcReviewedText: "Hou Mountain Magu Cave"
+    qcTranslated: "Back Mountain Magu Cave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85782000\",\r\n    \"Name\": \"后山苍云坞\"\r\n  }"
   rawIndex: -85782000
   splits:
   - splitPath: Name
     text: "后山苍云坞"
     translated: "Rear Mountain Azure Cloud Cottage"
+    qcReviewedText: "Rear Mountain Azure Cloud Cottage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85782001\",\r\n    \"Name\": \"后山苍云坞\"\r\n  }"
   rawIndex: -85782001
   splits:
   - splitPath: Name
     text: "后山苍云坞"
     translated: "Rear Mountain Azure Cloud Cottage"
+    qcReviewedText: "Rear Mountain Azure Cloud Cottage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85782002\",\r\n    \"Name\": \"后山苍云坞\"\r\n  }"
   rawIndex: -85782002
   splits:
   - splitPath: Name
     text: "后山苍云坞"
     translated: "Rear Mountain Azure Cloud Cottage"
+    qcReviewedText: "Rear Mountain Azure Cloud Cottage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85783000\",\r\n    \"Name\": \"后山野云溪\"\r\n  }"
   rawIndex: -85783000
   splits:
   - splitPath: Name
     text: "后山野云溪"
     translated: "Hillside Wild Cloud Stream"
+    qcReviewedText: "Hillside Wild Cloud Stream"
+    qcTranslated: "Rear Mountain Wild Cloud Stream"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85783001\",\r\n    \"Name\": \"后山野云溪\"\r\n  }"
   rawIndex: -85783001
   splits:
   - splitPath: Name
     text: "后山野云溪"
     translated: "Hillside Wild Cloud Stream"
+    qcReviewedText: "Hillside Wild Cloud Stream"
+    qcTranslated: "Rear Mountain Wild Cloud Stream"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85783002\",\r\n    \"Name\": \"后山野云溪\"\r\n  }"
   rawIndex: -85783002
   splits:
   - splitPath: Name
     text: "后山野云溪"
     translated: "Hillside Wild Cloud Stream"
+    qcReviewedText: "Hillside Wild Cloud Stream"
+    qcTranslated: "Rear Mountain Wild Cloud Stream"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85784000\",\r\n    \"Name\": \"后山五龙沟\"\r\n  }"
   rawIndex: -85784000
   splits:
   - splitPath: Name
     text: "后山五龙沟"
     translated: "Five Dragons Gorge at the Back Mountain"
+    qcReviewedText: "Five Dragons Gorge at the Back Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85784001\",\r\n    \"Name\": \"后山五龙沟\"\r\n  }"
   rawIndex: -85784001
   splits:
   - splitPath: Name
     text: "后山五龙沟"
     translated: "Five Dragons Gorge at the Back Mountain"
+    qcReviewedText: "Five Dragons Gorge at the Back Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85784002\",\r\n    \"Name\": \"后山五龙沟\"\r\n  }"
   rawIndex: -85784002
   splits:
   - splitPath: Name
     text: "后山五龙沟"
     translated: "Five Dragons Gorge at the Back Mountain"
+    qcReviewedText: "Five Dragons Gorge at the Back Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8567100\",\r\n    \"Name\": \"松林练功一\"\r\n  }"
   rawIndex: 8567100
   splits:
   - splitPath: Name
     text: "松林练功一"
     translated: "Martial Practice in the Pine Forest 1"
+    qcReviewedText: "Martial Practice in the Pine Forest 1"
+    qcTranslated: "Martial Practice in the Pine Forest One"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8567200\",\r\n    \"Name\": \"松林练功二\"\r\n  }"
   rawIndex: 8567200
   splits:
   - splitPath: Name
     text: "松林练功二"
     translated: "Pine Grove Training Grounds 2"
+    qcReviewedText: "Pine Grove Training Grounds 2"
+    qcTranslated: "Pine Grove Training Grounds II"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8567300\",\r\n    \"Name\": \"松林练功三\"\r\n  }"
   rawIndex: 8567300
   splits:
   - splitPath: Name
     text: "松林练功三"
     translated: "Martial Practice in the Pine Forest 3"
+    qcReviewedText: "Martial Practice in the Pine Forest 3"
+    qcTranslated: "Martial Practice in the Pine Forest III"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8567400\",\r\n    \"Name\": \"松林练功四\"\r\n  }"
   rawIndex: 8567400
   splits:
   - splitPath: Name
     text: "松林练功四"
     translated: "Martial Practice in the Pine Forest 4"
+    qcReviewedText: "Martial Practice in the Pine Forest 4"
+    qcTranslated: "Martial Practice in the Pine Forest IV"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"8567500\",\r\n    \"Name\": \"松林练功五\"\r\n  }"
   rawIndex: 8567500
   splits:
   - splitPath: Name
     text: "松林练功五"
     translated: "Pine Grove Training Five"
+    qcReviewedText: "Pine Grove Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8567600\",\r\n    \"Name\": \"松林练功六\"\r\n  }"
   rawIndex: 8567600
   splits:
   - splitPath: Name
     text: "松林练功六"
     translated: "Sixth Practice in the Pine Forest"
+    qcReviewedText: "Sixth Practice in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8567700\",\r\n    \"Name\": \"松林练功七\"\r\n  }"
   rawIndex: 8567700
   splits:
   - splitPath: Name
     text: "松林练功七"
     translated: "Seven Days of Training in the Pine Forest"
+    qcReviewedText: "Seven Days of Training in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8567800\",\r\n    \"Name\": \"松林练功八\"\r\n  }"
   rawIndex: 8567800
   splits:
   - splitPath: Name
     text: "松林练功八"
     translated: "Martial practice in the pine forest eight"
+    qcReviewedText: "Martial practice in the pine forest eight"
+    qcTranslated: "Pine Forest Training Eight"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"8567900\",\r\n    \"Name\": \"松林练功九\"\r\n  }"
   rawIndex: 8567900
   splits:
   - splitPath: Name
     text: "松林练功九"
     translated: "Pine Grove Training Ground Nine"
+    qcReviewedText: "Pine Grove Training Ground Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8568000\",\r\n    \"Name\": \"抱元练内功\"\r\n  }"
   rawIndex: 8568000
   splits:
   - splitPath: Name
     text: "抱元练内功"
     translated: "Hugging the Primordial to Cultivate Neigong"
+    qcReviewedText: "Hugging the Primordial to Cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8568100\",\r\n    \"Name\": \"归真练内功\"\r\n  }"
   rawIndex: 8568100
   splits:
   - splitPath: Name
     text: "归真练内功"
     translated: "Return to purity in practicing Neigong"
+    qcReviewedText: "Return to purity in practicing Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8568200\",\r\n    \"Name\": \"冲和练内功\"\r\n  }"
   rawIndex: 8568200
   splits:
   - splitPath: Name
     text: "冲和练内功"
     translated: "Charge and practice Neigong"
+    qcReviewedText: "Charge and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8568400\",\r\n    \"Name\": \"松林涨功力\"\r\n  }"
   rawIndex: 8568400
   splits:
   - splitPath: Name
     text: "松林涨功力"
     translated: "The pine forest fills with power"
+    qcReviewedText: "The pine forest fills with power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8568500\",\r\n    \"Name\": \"松林涨气血\"\r\n  }"
   rawIndex: 8568500
   splits:
   - splitPath: Name
     text: "松林涨气血"
     translated: "The pine forest surges with lifeforce"
+    qcReviewedText: "The pine forest surges with lifeforce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8569200\",\r\n    \"Name\": \"松林场选择\"\r\n  }"
   rawIndex: 8569200
   splits:
   - splitPath: Name
     text: "松林场选择"
     translated: "Select Pine Forest Campsite"
+    qcReviewedText: "Select Pine Forest Campsite"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8569310\",\r\n    \"Name\": \"练基本功\"\r\n  }"
   rawIndex: 8569310
   splits:
@@ -29579,234 +30336,447 @@
   - splitPath: Name
     text: "松林练功一"
     translated: "Martial Practice in the Pine Forest 1"
+    qcReviewedText: "Martial Practice in the Pine Forest 1"
+    qcTranslated: "Martial Practice in the Pine Forest One"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85671001\",\r\n    \"Name\": \"松林练功一\"\r\n  }"
   rawIndex: -85671001
   splits:
   - splitPath: Name
     text: "松林练功一"
     translated: "Martial Practice in the Pine Forest 1"
+    qcReviewedText: "Martial Practice in the Pine Forest 1"
+    qcTranslated: "Martial Practice in the Pine Forest One"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85671002\",\r\n    \"Name\": \"松林练功一\"\r\n  }"
   rawIndex: -85671002
   splits:
   - splitPath: Name
     text: "松林练功一"
     translated: "Martial Practice in the Pine Forest 1"
+    qcReviewedText: "Martial Practice in the Pine Forest 1"
+    qcTranslated: "Martial Practice in the Pine Forest One"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85672000\",\r\n    \"Name\": \"松林练功二\"\r\n  }"
   rawIndex: -85672000
   splits:
   - splitPath: Name
     text: "松林练功二"
     translated: "Pine Grove Training Grounds 2"
+    qcReviewedText: "Pine Grove Training Grounds 2"
+    qcTranslated: "Pine Grove Training Grounds II"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85672001\",\r\n    \"Name\": \"松林练功二\"\r\n  }"
   rawIndex: -85672001
   splits:
   - splitPath: Name
     text: "松林练功二"
     translated: "Pine Grove Training Grounds 2"
+    qcReviewedText: "Pine Grove Training Grounds 2"
+    qcTranslated: "Pine Grove Training Grounds II"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85672002\",\r\n    \"Name\": \"松林练功二\"\r\n  }"
   rawIndex: -85672002
   splits:
   - splitPath: Name
     text: "松林练功二"
     translated: "Pine Grove Training Grounds 2"
+    qcReviewedText: "Pine Grove Training Grounds 2"
+    qcTranslated: "Pine Grove Training Grounds II"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85673000\",\r\n    \"Name\": \"松林练功三\"\r\n  }"
   rawIndex: -85673000
   splits:
   - splitPath: Name
     text: "松林练功三"
     translated: "Martial Practice in the Pine Forest 3"
+    qcReviewedText: "Martial Practice in the Pine Forest 3"
+    qcTranslated: "Martial Practice in the Pine Forest III"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85673001\",\r\n    \"Name\": \"松林练功三\"\r\n  }"
   rawIndex: -85673001
   splits:
   - splitPath: Name
     text: "松林练功三"
     translated: "Martial Practice in the Pine Forest 3"
+    qcReviewedText: "Martial Practice in the Pine Forest 3"
+    qcTranslated: "Martial Practice in the Pine Forest III"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85673002\",\r\n    \"Name\": \"松林练功三\"\r\n  }"
   rawIndex: -85673002
   splits:
   - splitPath: Name
     text: "松林练功三"
     translated: "Martial Practice in the Pine Forest 3"
+    qcReviewedText: "Martial Practice in the Pine Forest 3"
+    qcTranslated: "Martial Practice in the Pine Forest III"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85674000\",\r\n    \"Name\": \"松林练功四\"\r\n  }"
   rawIndex: -85674000
   splits:
   - splitPath: Name
     text: "松林练功四"
     translated: "Martial Practice in the Pine Forest 4"
+    qcReviewedText: "Martial Practice in the Pine Forest 4"
+    qcTranslated: "Martial Practice in the Pine Forest IV"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85674001\",\r\n    \"Name\": \"松林练功四\"\r\n  }"
   rawIndex: -85674001
   splits:
   - splitPath: Name
     text: "松林练功四"
     translated: "Martial Practice in the Pine Forest 4"
+    qcReviewedText: "Martial Practice in the Pine Forest 4"
+    qcTranslated: "Martial Practice in the Pine Forest IV"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85674002\",\r\n    \"Name\": \"松林练功四\"\r\n  }"
   rawIndex: -85674002
   splits:
   - splitPath: Name
     text: "松林练功四"
     translated: "Martial Practice in the Pine Forest 4"
+    qcReviewedText: "Martial Practice in the Pine Forest 4"
+    qcTranslated: "Martial Practice in the Pine Forest IV"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "{\r\n    \"Key\": \"-85675000\",\r\n    \"Name\": \"松林练功五\"\r\n  }"
   rawIndex: -85675000
   splits:
   - splitPath: Name
     text: "松林练功五"
     translated: "Pine Grove Training Five"
+    qcReviewedText: "Pine Grove Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85675001\",\r\n    \"Name\": \"松林练功五\"\r\n  }"
   rawIndex: -85675001
   splits:
   - splitPath: Name
     text: "松林练功五"
     translated: "Pine Grove Training Five"
+    qcReviewedText: "Pine Grove Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85675002\",\r\n    \"Name\": \"松林练功五\"\r\n  }"
   rawIndex: -85675002
   splits:
   - splitPath: Name
     text: "松林练功五"
     translated: "Pine Grove Training Five"
+    qcReviewedText: "Pine Grove Training Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85676000\",\r\n    \"Name\": \"松林练功六\"\r\n  }"
   rawIndex: -85676000
   splits:
   - splitPath: Name
     text: "松林练功六"
     translated: "Sixth Practice in the Pine Forest"
+    qcReviewedText: "Sixth Practice in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85676001\",\r\n    \"Name\": \"松林练功六\"\r\n  }"
   rawIndex: -85676001
   splits:
   - splitPath: Name
     text: "松林练功六"
     translated: "Sixth Practice in the Pine Forest"
+    qcReviewedText: "Sixth Practice in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85676002\",\r\n    \"Name\": \"松林练功六\"\r\n  }"
   rawIndex: -85676002
   splits:
   - splitPath: Name
     text: "松林练功六"
     translated: "Sixth Practice in the Pine Forest"
+    qcReviewedText: "Sixth Practice in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85677000\",\r\n    \"Name\": \"松林练功七\"\r\n  }"
   rawIndex: -85677000
   splits:
   - splitPath: Name
     text: "松林练功七"
     translated: "Seven Days of Training in the Pine Forest"
+    qcReviewedText: "Seven Days of Training in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85677001\",\r\n    \"Name\": \"松林练功七\"\r\n  }"
   rawIndex: -85677001
   splits:
   - splitPath: Name
     text: "松林练功七"
     translated: "Seven Days of Training in the Pine Forest"
+    qcReviewedText: "Seven Days of Training in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85677002\",\r\n    \"Name\": \"松林练功七\"\r\n  }"
   rawIndex: -85677002
   splits:
   - splitPath: Name
     text: "松林练功七"
     translated: "Seven Days of Training in the Pine Forest"
+    qcReviewedText: "Seven Days of Training in the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85678000\",\r\n    \"Name\": \"松林练功八\"\r\n  }"
   rawIndex: -85678000
   splits:
   - splitPath: Name
     text: "松林练功八"
     translated: "Martial practice in the pine forest eight"
+    qcReviewedText: "Martial practice in the pine forest eight"
+    qcTranslated: "Pine Forest Training Eight"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"-85678001\",\r\n    \"Name\": \"松林练功八\"\r\n  }"
   rawIndex: -85678001
   splits:
   - splitPath: Name
     text: "松林练功八"
     translated: "Martial practice in the pine forest eight"
+    qcReviewedText: "Martial practice in the pine forest eight"
+    qcTranslated: "Pine Forest Training Eight"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"-85678002\",\r\n    \"Name\": \"松林练功八\"\r\n  }"
   rawIndex: -85678002
   splits:
   - splitPath: Name
     text: "松林练功八"
     translated: "Martial practice in the pine forest eight"
+    qcReviewedText: "Martial practice in the pine forest eight"
+    qcTranslated: "Pine Forest Training Eight"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "{\r\n    \"Key\": \"-85679000\",\r\n    \"Name\": \"松林练功九\"\r\n  }"
   rawIndex: -85679000
   splits:
   - splitPath: Name
     text: "松林练功九"
     translated: "Pine Grove Training Ground Nine"
+    qcReviewedText: "Pine Grove Training Ground Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85679001\",\r\n    \"Name\": \"松林练功九\"\r\n  }"
   rawIndex: -85679001
   splits:
   - splitPath: Name
     text: "松林练功九"
     translated: "Pine Grove Training Ground Nine"
+    qcReviewedText: "Pine Grove Training Ground Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85679002\",\r\n    \"Name\": \"松林练功九\"\r\n  }"
   rawIndex: -85679002
   splits:
   - splitPath: Name
     text: "松林练功九"
     translated: "Pine Grove Training Ground Nine"
+    qcReviewedText: "Pine Grove Training Ground Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85680000\",\r\n    \"Name\": \"抱元练内功\"\r\n  }"
   rawIndex: -85680000
   splits:
   - splitPath: Name
     text: "抱元练内功"
     translated: "Hugging the Primordial to Cultivate Neigong"
+    qcReviewedText: "Hugging the Primordial to Cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85680001\",\r\n    \"Name\": \"抱元练内功\"\r\n  }"
   rawIndex: -85680001
   splits:
   - splitPath: Name
     text: "抱元练内功"
     translated: "Hugging the Primordial to Cultivate Neigong"
+    qcReviewedText: "Hugging the Primordial to Cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85680002\",\r\n    \"Name\": \"抱元练内功\"\r\n  }"
   rawIndex: -85680002
   splits:
   - splitPath: Name
     text: "抱元练内功"
     translated: "Hugging the Primordial to Cultivate Neigong"
+    qcReviewedText: "Hugging the Primordial to Cultivate Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85681000\",\r\n    \"Name\": \"归真练内功\"\r\n  }"
   rawIndex: -85681000
   splits:
   - splitPath: Name
     text: "归真练内功"
     translated: "Return to purity in practicing Neigong"
+    qcReviewedText: "Return to purity in practicing Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85681001\",\r\n    \"Name\": \"归真练内功\"\r\n  }"
   rawIndex: -85681001
   splits:
   - splitPath: Name
     text: "归真练内功"
     translated: "Return to purity in practicing Neigong"
+    qcReviewedText: "Return to purity in practicing Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85681002\",\r\n    \"Name\": \"归真练内功\"\r\n  }"
   rawIndex: -85681002
   splits:
   - splitPath: Name
     text: "归真练内功"
     translated: "Return to purity in practicing Neigong"
+    qcReviewedText: "Return to purity in practicing Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85682000\",\r\n    \"Name\": \"冲和练内功\"\r\n  }"
   rawIndex: -85682000
   splits:
   - splitPath: Name
     text: "冲和练内功"
     translated: "Charge and practice Neigong"
+    qcReviewedText: "Charge and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85682001\",\r\n    \"Name\": \"冲和练内功\"\r\n  }"
   rawIndex: -85682001
   splits:
   - splitPath: Name
     text: "冲和练内功"
     translated: "Charge and practice Neigong"
+    qcReviewedText: "Charge and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85682002\",\r\n    \"Name\": \"冲和练内功\"\r\n  }"
   rawIndex: -85682002
   splits:
   - splitPath: Name
     text: "冲和练内功"
     translated: "Charge and practice Neigong"
+    qcReviewedText: "Charge and practice Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8570100\",\r\n    \"Name\": \"青城遇蓝衣\"\r\n  }"
   rawIndex: 8570100
   splits:
   - splitPath: Name
     text: "青城遇蓝衣"
     translated: "Encounter with Blue Robe in Qingcheng"
+    qcReviewedText: "Encounter with Blue Robe in Qingcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8570500\",\r\n    \"Name\": \"相认蓝不悔\"\r\n  }"
   rawIndex: 8570500
   splits:
   - splitPath: Name
     text: "相认蓝不悔"
     translated: "Recognizing Lan Bushui"
+    qcReviewedText: "Recognizing Lan Bushui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-85705000\",\r\n    \"Name\": \"相认蓝不悔\"\r\n  }"
   rawIndex: -85705000
   splits:
   - splitPath: Name
     text: "相认蓝不悔"
     translated: "Recognizing Lan Bushui"
+    qcReviewedText: "Recognizing Lan Bushui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8610100\",\r\n    \"Name\": \"春节已来到\"\r\n  }"
   rawIndex: 8610100
   splits:
@@ -29822,6 +30792,10 @@
   - splitPath: Name
     text: "选择蓝不悔"
     translated: "Choose Lan Buhui"
+    qcReviewedText: "Choose Lan Buhui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8610320\",\r\n    \"Name\": \"选择左灵珠\"\r\n  }"
   rawIndex: 8610320
   splits:
@@ -33273,24 +34247,40 @@
   - splitPath: Name
     text: "流星醉月"
     translated: "Meteor Drunken Moon"
+    qcReviewedText: "Meteor Drunken Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-900700011\",\r\n    \"Name\": \"流星醉月1\"\r\n  }"
   rawIndex: -900700011
   splits:
   - splitPath: Name
     text: "流星醉月1"
     translated: "Meteor Drunken Moon 1"
+    qcReviewedText: "Meteor Drunken Moon 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-900700012\",\r\n    \"Name\": \"流星醉月2\"\r\n  }"
   rawIndex: -900700012
   splits:
   - splitPath: Name
     text: "流星醉月2"
     translated: "Meteor Drunken Moon 2"
+    qcReviewedText: "Meteor Drunken Moon 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-900700013\",\r\n    \"Name\": \"流星醉月3\"\r\n  }"
   rawIndex: -900700013
   splits:
   - splitPath: Name
     text: "流星醉月3"
     translated: "Meteor Drunken Moon 3"
+    qcReviewedText: "Meteor Drunken Moon 3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"-900901001\",\r\n    \"Name\": \"医术宗师\"\r\n  }"
   rawIndex: -900901001
   splits:
@@ -33821,6 +34811,13 @@
   - splitPath: Name
     text: "蓝不悔结局"
     translated: "Lan Buhan's ending"
+    qcReviewedText: "Lan Buhan's ending"
+    qcTranslated: "Lan Buhui's ending"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "{\r\n    \"Key\": \"-900800100\",\r\n    \"Name\": \"衡山掌门-魔教\"\r\n  }"
   rawIndex: -900800100
   splits:
@@ -33953,3 +34950,7 @@
   - splitPath: Name
     text: "逍遥若仙"
     translated: "Carefree as a celestial being"
+    qcReviewedText: "Carefree as a celestial being"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

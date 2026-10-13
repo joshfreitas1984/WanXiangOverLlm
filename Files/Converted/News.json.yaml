@@ -6201,6 +6201,15 @@
   - splitPath: ConditionSatisfiedDesc
     text: "唐门多位先生长期不在唐家堡中尽职，要在"
     translated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present."
+    qcReviewedText: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present.<color=#D9C577>October </color>Ran ahead to <color=#77CED9>Eastern Sichuan</color>、<color=#77CED9>Western Sichuan </color>Bring them both back to the Tang Family Fortress."
+    qcTranslated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need to run through <color=#77CED9>Eastern Sichuan</color> and <color=#77CED9>Western Sichuan</color> before <color=#D9C577>October</color> to bring them all back to Tang Family Manor."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -6224,6 +6233,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "唐门多位先生长期不在唐家堡中尽职，要在"
     translated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present."
+    qcReviewedText: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present.<color=#D9C577>October </color>Ran ahead to explore <color=#77CED9>Eastern Sichuan</color>、<color=#77CED9>Western Sichuan </color>Bring them both back to the Tang Family Fortress."
+    qcTranslated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need to run through <color=#77CED9>Eastern Sichuan</color> and <color=#77CED9>Western Sichuan</color> before <color=#D9C577>October</color> to bring them all back to Tang Family Manor."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -6500,6 +6518,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "几年"
     translated: "Several years"
+    qcReviewedText: "Several years <color=#D9C577>May </color>Even if it is with <color=#BA77D9>Jiang Tianding </color>The agreed-upon date for the duel is coming up; why don't we go somewhere in the meantime?<color=#77CED9>Songlu Pill Shop</color>、<color=#77CED9>Hundred Herbs Garden</color>、<color=#77CED9>Spirit Crane Garden </color>Ask for guidance from the three Senior Brothers."
+    qcTranslated: "Several years <color=#D9C577>May </color>is the agreed-upon date for the duel with <color=#BA77D9>Jiang Tianding </color>; in the meantime, why don't we go to <color=#77CED9>Songlu Pill Shop</color>, <color=#77CED9>Hundred Herbs Garden</color>, and <color=#77CED9>Spirit Crane Garden </color>to ask the three Senior Brothers for guidance."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "五月"
@@ -6535,6 +6561,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "几年"
     translated: "Several years"
+    qcReviewedText: "Several years <color=#D9C577>May </color>Even if it is with <color=#BA77D9>Jiang Tianding </color>The agreed-upon date for our duel, why don't we go...<color=#77CED9>Songlu Pill Shop</color>、<color=#77CED9>Hundred Herbs Garden</color>、<color=#77CED9>Spirit Crane Garden </color>Ask for guidance from the three Senior Brothers."
+    qcTranslated: "Several years <color=#D9C577>May</color> is the agreed-upon date for our duel with <color=#BA77D9>Jiang Tianding</color>. In the meantime, why don't we go to <color=#77CED9>Songlu Pill Shop</color>, <color=#77CED9>Hundred Herbs Garden</color>, and <color=#77CED9>Spirit Crane Garden</color> to ask the three Senior Brothers for guidance."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
+    - DroppedContent
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "五月"
@@ -6584,6 +6619,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "松林居就处于"
     translated: "Songlin Cottage is located at"
+    qcReviewedText: "Songlin Cottage is located at <color=#77CED9>Western Sichuan </color>At Songling Hill, go there a bit earlier.<color=#BA77D9>Uncle Master Lu </color>Hit the pine nut sake back"
+    qcTranslated: "Songlin Cottage is located at <color=#77CED9>Western Sichuan</color> under Songling Hill. Go there a bit earlier to fetch the pine nut wine for <color=#BA77D9>Uncle Master Lu</color>."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "川西"
@@ -6603,6 +6646,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "松林居就处于"
     translated: "Songlin Cottage is located at"
+    qcReviewedText: "Songlin Cottage is located at <color=#77CED9>Western Sichuan </color>At Songling Hill, go there a bit earlier.<color=#BA77D9>Uncle Master Lu </color>Hit the pine nut sake back"
+    qcTranslated: "Songlin Cottage is located at <color=#77CED9>Western Sichuan</color> under Songling Hill. Go there a bit earlier to fetch the pine nut wine for <color=#BA77D9>Uncle Master Lu</color>."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "川西"
@@ -6636,6 +6687,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "那小童"
     translated: "Young boy"
+    qcReviewedText: "Young boy <color=#BA77D9>Zhu Houcong </color>Quite interesting; I might go there in my spare time.<color=#77CED9>Dao Repository Hall </color>Go see him more often"
+    qcTranslated: "The young boy <color=#BA77D9>Zhu Houcong</color> is quite interesting; when I have time, I might go to the <color=#77CED9>Dao Repository Hall</color> to see him more often."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "朱厚熜"
@@ -6655,6 +6714,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "那小童"
     translated: "Young boy"
+    qcReviewedText: "Young boy <color=#BA77D9>Zhu Houcong </color>Quite interesting, I might go there in my spare time.<color=#77CED9>Dao Repository Hall </color>Go see him more often"
+    qcTranslated: "The young boy <color=#BA77D9>Zhu Houcong</color> is quite interesting; when I have nothing to do, I might go to the <color=#77CED9>Dao Repository Hall</color> to see him more often."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "朱厚熜"
@@ -6688,6 +6754,13 @@
   - splitPath: ConditionSatisfiedDesc
     text: "本派藏道阁中有何至宝，着实令人好奇，"
     translated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing."
+    qcReviewedText: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing.<color=#BA77D9>Pei Yunhe </color>Senior Brother is the most well-informed about recent news, let's go to him.<color=#77CED9>Spirit Crane Garden </color>Ask him about it"
+    qcTranslated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing.<color=#BA77D9>Pei Yunhe </color>Senior Brother is the most well-informed about recent news, so let's go to <color=#77CED9>Spirit Crane Garden </color>to ask him."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "裴云鹤"
@@ -6707,6 +6780,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "本派藏道阁中有何至宝，着实令人好奇，"
     translated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing."
+    qcReviewedText: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing.<color=#BA77D9>Pei Yunhe </color>Senior Brother is the most well-informed about recent news, let's go to him.<color=#77CED9>Spirit Crane Garden </color>Ask him about it"
+    qcTranslated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing.<color=#BA77D9>Pei Yunhe </color>Senior Brother is the most well-informed about recent news, so let's go to <color=#77CED9>Spirit Crane Garden </color>to ask him."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "裴云鹤"
@@ -6740,6 +6820,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "裴师兄"
     translated: "Senior Brother Pei"
+    qcReviewedText: "<color=#BA77D9>Senior Brother Pei </color>Gave quite a bit <color=#D9C577>Travel expenses</color>, So let's go down the mountain to travel around for a few days. Don't spend the money recklessly, and we still have to go somewhere else after that.<color=#77CED9>Western Sichuan </color>I got some wine for Senior Uncle"
+    qcTranslated: "<color=#BA77D9>Senior Brother Pei </color>gave quite a bit of <color=#D9C577>travel expenses</color>, so let's go down the mountain to travel around for a few days. Don't spend the money recklessly, and finally we still have to go to <color=#77CED9>Western Sichuan </color>Pine Forest Residence to buy wine for Senior Uncle."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "给了不少"
@@ -6763,6 +6851,14 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "裴师兄"
     translated: "Senior Brother Pei"
+    qcReviewedText: "<color=#BA77D9>Senior Brother Pei </color>Gave quite a bit <color=#D9C577>Travel expenses</color>, So let's go down the mountain to travel around for a few days. Don't spend the money recklessly, though; we still have to go somewhere else afterward.<color=#77CED9>Western Sichuan </color>I got some wine for Senior Uncle"
+    qcTranslated: "<color=#BA77D9>Senior Brother Pei </color>gave quite a bit of <color=#D9C577>travel expenses</color>, so let's go down the mountain to travel around for a few days. Don't spend the money recklessly, though; we still have to go to <color=#77CED9>Western Sichuan </color>Songlin Ju to buy wine for Senior Uncle."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "给了不少"
@@ -6800,6 +6896,13 @@
   - splitPath: ConditionSatisfiedDesc
     text: "日子还早，可以在"
     translated: "It's still early; you can still go"
+    qcReviewedText: "It's still early; you can still go <color=#77CED9>Western Sichuan </color>After playing for a few more days, since you want to stay longer, then there's the matter of your expenses.<color=#D9C577>Travel expenses </color>You'll have to be more frugal"
+    qcTranslated: "It's still early; you can still go <color=#77CED9>Western Sichuan</color> and play for a few more days. Since you want to stay longer, then there's the matter of your <color=#D9C577>travel expenses</color>; you'll have to be more frugal"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "川西"
@@ -6819,6 +6922,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "日子还早，可以在"
     translated: "It's still early; we can head over"
+    qcReviewedText: "It's still early; we can head over <color=#77CED9>Western Sichuan </color>After playing for a few more days, since you want to stay longer, then there's the matter of your expenses.<color=#D9C577>Travel expenses </color>You'll have to be more frugal"
+    qcTranslated: "It's still early; we can head over <color=#77CED9>Western Sichuan </color>and play for a few more days. Since you want to stay longer, then there's the matter of your expenses.<color=#D9C577>Travel expenses </color>You'll have to be more frugal"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "川西"
@@ -6852,6 +6962,14 @@
   - splitPath: ConditionSatisfiedDesc
     text: "这"
     translated: "This"
+    qcReviewedText: "This <color=#77CED9>Chaping Mountain </color>After all these days, I still haven't found out where exactly-it could be that...<color=#BA77D9>Mad Taoist </color>Are you joking with me? That doesn't seem right. Oh well, maybe it's because you're still in <color=#77CED9>Western Sichuan </color>Listen one more time, do not miss the chance.<color=#D9C577>This year </color>Deadline"
+    qcTranslated: "Where exactly is this <color=#77CED9>Chaping Mountain</color>? I haven't been able to find out all these days. Could it be that <color=#BA77D9>Mad Taoist</color> is joking with me? That doesn't seem right. Oh well, I'll listen for more information in <color=#77CED9>Western Sichuan</color>. Don't miss the deadline for <color=#D9C577>this year</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "茶坪山"
@@ -6887,6 +7005,15 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "这"
     translated: "This"
+    qcReviewedText: "This <color=#77CED9>Chapingshan Mountain </color>After all these days, I still haven't found out where exactly-it could be that...<color=#BA77D9>Mad Taoist </color>Are you joking with me? That doesn't seem right. Oh well, maybe it's because you're still in <color=#77CED9>Western Sichuan </color>Listen one more time, do not miss the chance.<color=#D9C577>This year </color>Deadline"
+    qcTranslated: "Where exactly is <color=#77CED9>Chapingshan Mountain</color>? I haven't been able to find out these past few days. Could it be that <color=#BA77D9>Mad Taoist</color> is just joking with me? That doesn't seem right. Oh well, I'll listen for more information in <color=#77CED9>Western Sichuan</color>, so as not to miss the deadline for <color=#D9C577>this year</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+    - UnnaturalPhrasing
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "茶坪山"
@@ -6936,6 +7063,13 @@
   - splitPath: ConditionSatisfiedDesc
     text: "茶坪山"
     translated: "Chaping Mountain"
+    qcReviewedText: "<color=#77CED9>Chaping Mountain </color>That's what it was <color=#77CED9>Western Sichuan </color>Of <color=#77CED9>Dragon Gate Mountain</color>, Taking advantage of <color=#D9C577>This year </color>Since the deadline hasn't passed, hurry up and find that mad old Taoist."
+    qcTranslated: "<color=#77CED9>Chaping Mountain</color> was originally <color=#77CED9>Western Sichuan</color>'s <color=#77CED9>Dragon Gate Mountain</color>. Since the deadline for <color=#D9C577>this year</color> hasn't passed, hurry up and find that mad old Taoist."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "原来便是"
@@ -6967,6 +7101,13 @@
   - splitPath: ConditionUnsatisfiedDesc
     text: "茶坪山"
     translated: "Chapingshan Mountain"
+    qcReviewedText: "<color=#77CED9>Chapingshan Mountain </color>That's what it was <color=#77CED9>Western Sichuan </color>Of <color=#77CED9>Dragon Gate Mountain</color>, Taking advantage of <color=#D9C577>This year </color>Since the deadline hasn't passed, hurry up and find that mad old Taoist."
+    qcTranslated: "<color=#77CED9>Chapingshan Mountain</color> was originally <color=#77CED9>Western Sichuan</color>'s <color=#77CED9>Dragon Gate Mountain</color>. Since the deadline for <color=#D9C577>this year</color> hasn't passed, hurry up and find that mad old Taoist."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "原来便是"

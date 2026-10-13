@@ -411,45 +411,88 @@
   - splitPath: Name
     text: "松林四剑"
     translated: "Four Swordsmen of the Pine Forest"
+    qcReviewedText: "Four Swordsmen of the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "青城派第三年时与岳松涛、温白石、裴云鹤结为松林四剑"
     translated: "In the third year of Qingcheng Sect, I formed the Pine Grove Four Swords with Yue Songtao, Wen Baishi, and Pei Yunhe."
+    qcReviewedText: "In the third year of Qingcheng Sect, I formed the Pine Grove Four Swords with Yue Songtao, Wen Baishi, and Pei Yunhe."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"129\",\r\n    \"Name\": \"驾鹤飞天\",\r\n    \"Desc\": \"喂养灵鹤异种变化\",\r\n    \"NameTw\": \"駕鶴飛天\",\r\n    \"DescTw\": \"餵養靈鶴異種變化\"\r\n  }"
   rawIndex: 129
   splits:
   - splitPath: Name
     text: "驾鹤飞天"
     translated: "Soar to heaven on a crane"
+    qcReviewedText: "Soar to heaven on a crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "喂养灵鹤异种变化"
     translated: "Feeding the Spirit Crane: Changes in Anomalous Varieties"
+    qcReviewedText: "Feeding the Spirit Crane: Changes in Anomalous Varieties"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"130\",\r\n    \"Name\": \"糊涂道人\",\r\n    \"Desc\": \"吕伯阳加入\",\r\n    \"NameTw\": \"糊塗道人\",\r\n    \"DescTw\": \"呂伯陽加入\"\r\n  }"
   rawIndex: 130
   splits:
   - splitPath: Name
     text: "糊涂道人"
     translated: "Hutu Taoist"
+    qcReviewedText: "Hutu Taoist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "吕伯阳加入"
     translated: "Lu Boyang joins"
+    qcReviewedText: "Lu Boyang joins"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"131\",\r\n    \"Name\": \"紫青问道\",\r\n    \"Desc\": \"寇扶摇加入\",\r\n    \"NameTw\": \"紫青問道\",\r\n    \"DescTw\": \"寇扶搖加入\"\r\n  }"
   rawIndex: 131
   splits:
   - splitPath: Name
     text: "紫青问道"
     translated: "Ziqing asks"
+    qcReviewedText: "Ziqing asks"
+    qcTranslated: "Ziqing Inquires"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     text: "寇扶摇加入"
     translated: "Kou Fuyao joins"
+    qcReviewedText: "Kou Fuyao joins"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"132\",\r\n    \"Name\": \"青城传奇\",\r\n    \"Desc\": \"拜师青城派战胜“魔侯”任苍溟\",\r\n    \"NameTw\": \"青城傳奇\",\r\n    \"DescTw\": \"拜師青城派戰勝“魔侯”任蒼溟\"\r\n  }"
   rawIndex: 132
   splits:
   - splitPath: Name
     text: "青城传奇"
     translated: "Qingcheng Legend"
+    qcReviewedText: "Qingcheng Legend"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "拜师青城派战胜“魔侯”任苍溟"
     translated: "Become an apprentice at Qingcheng Sect and defeat Demon Lord Ren Cangming."
+    qcReviewedText: "Become an apprentice at Qingcheng Sect and defeat Demon Lord Ren Cangming."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"71\",\r\n    \"Name\": \"商山四皓\",\r\n    \"Desc\": \"战胜宁王府高手“商山四皓”\",\r\n    \"NameTw\": \"商山四皓\",\r\n    \"DescTw\": \"戰勝寧王府高手“商山四皓”\"\r\n  }"
   rawIndex: 71
   splits:
@@ -969,9 +1012,17 @@
   - splitPath: Name
     text: "此心无悔"
     translated: "This heart has no regrets"
+    qcReviewedText: "This heart has no regrets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "“琼华玉女”蓝不悔解锁红颜"
     translated: "Jade Maiden of Qionghua Lan Buhui unlocked Red Yan"
+    qcReviewedText: "Jade Maiden of Qionghua Lan Buhui unlocked Red Yan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"香衾成行\",\r\n    \"Desc\": \"在一局游戏中解锁门派专属红颜外的全部十六位红颜\",\r\n    \"NameTw\": \"香衾成行\",\r\n    \"DescTw\": \"在一局遊戲中解鎖門派專屬紅顏外的全部十六位紅顏\"\r\n  }"
   rawIndex: 99
   splits:

@@ -1466,9 +1466,24 @@
   - splitPath: Name
     text: "蓝不悔"
     translated: "Lan Buhan"
+    qcReviewedText: "Lan Buhan"
+    qcTranslated: "Lan Buhui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     text: "探索青城问道宫了解蓝希圣当年之事。"
     translated: "Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past."
+    qcReviewedText: "①Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past.\\n②After exploring the rear mountains of Qingcheng, Kou Fuyao told Lan Buhui about what happened back then.\\n③Explore Qingcheng to bring Lan Buhui back to Qingcheng.\\n④In January of the seventh year, I began exploring the western part of Sichuan, showing Lan Buhui around Chengdu, and ran into Xie Jianming again.\\n⑤Exploring Qingcheng Dao Seeking Palace, Xie Xilou comes with his son. Defeating Xie Xilou unlocks Blue Regret's Affection."
+    qcTranslated: "1. Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past.\\n2. After exploring the rear mountains of Qingcheng, Kou Fuyao tells Lan Buhui about what happened back then.\\n3. Explore the Qingcheng Dao Inquiry Palace to bring Lan Buhui back to Qingcheng.\\n4. In January of the seventh year, I began exploring the western part of Sichuan, showing Lan Buhui around Chengdu, and ran into Xie Jianming again.\\n5. Explore the Qingcheng Dao Inquiry Palace; Xie Xilou comes with his son. Defeating Xie Xilou unlocks Lan Buhui's Affection."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "探索青城后山，寇扶摇告知蓝不悔当年之事。"
@@ -1488,21 +1503,48 @@
   - splitPath: LockDesc
     text: "第四年一月开始，探索川西遇到谢剑鸣拦阻蓝不悔，战胜谢剑鸣手下两名江湖人，此后探索青城后山，战胜蓝不悔后加入。"
     translated: "Starting in January of the fourth year, while exploring western Sichuan, you encountered Xie Jianming blocking Lan Buhui. After defeating two Jianghu figures under Xie Jianming's command, you continued to explore the rear mountains of Qingcheng. Following a victory over Lan Buhui, you joined their side."
+    qcReviewedText: "Starting in January of the fourth year, while exploring western Sichuan, you encountered Xie Jianming blocking Lan Buhui. After defeating two Jianghu figures under Xie Jianming's command, you continued to explore the rear mountains of Qingcheng. Following a victory over Lan Buhui, you joined their side."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[0]
     text: "探索青城问道宫了解蓝希圣当年之事。"
     translated: "Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past."
+    qcReviewedText: "Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[1]
     text: "探索青城后山，寇扶摇告知蓝不悔当年之事。"
     translated: "After exploring the rear mountains of Qingcheng, Kou Fuyao told Lan Buhui about what happened back then."
+    qcReviewedText: "After exploring the rear mountains of Qingcheng, Kou Fuyao told Lan Buhui about what happened back then."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[2]
     text: "探索青城问道宫将蓝不悔带回青城。"
     translated: "Explore Qingcheng Dao Inquiry Palace to bring Lan Buhui back to Qingcheng."
+    qcReviewedText: "Explore Qingcheng Dao Inquiry Palace to bring Lan Buhui back to Qingcheng."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GuidDescList[3]
     text: "第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣。"
     translated: "In January of the seventh year, I began exploring the western Sichuan region and showed Cang Xi to Lan Bu Hou. I met Xie Jian Ming again."
+    qcReviewedText: "In January of the seventh year, I began exploring the western Sichuan region and showed Cang Xi to Lan Bu Hou. I met Xie Jian Ming again."
+    qcTranslated: "In January of the seventh year, I began exploring western Sichuan and took Lan Bu Hui to enjoy Chengdu. I met Xie Jian Ming again."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: GuidDescList[4]
     text: "探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。"
     translated: "Exploring Qingcheng Dao Seeking Palace, Xie Xilou comes with his son. Defeating Xie Xilou unlocks Lan BuHui as a Red Beauty."
+    qcReviewedText: "Exploring Qingcheng Dao Seeking Palace, Xie Xilou comes with his son. Defeating Xie Xilou unlocks Lan BuHui as a Red Beauty."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}"
@@ -3625,6 +3667,14 @@
   - splitPath: Desc
     text: "探索川西白猿寺向元大圣学习驯猿。"
     translated: "Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan."
+    qcReviewedText: "①Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan.\\n②With Beast Taming at the beginner level, he explored White Ape Temple and heard that apes lived in large numbers on Mount Emei.\\n③Explore Emei Mountain in western Sichuan and subdue the monkeys that are stealing packages.\\n④Exploring Baiyan Temple, I saw monkeys kneeling before stone statues.\\n⑤Starting from January of the seventh Year, the practitioner advances in Beast Taming, explores Mount Emei, and subdues the Red-Eyed White Ape after defeating it.\\n⑥Exploring the White Ape Temple, the Great Sage Yuan invites him to drink Monkey Wine.\\n⑦Arrive at 160 with flexibility, Beggars' Sect's Lian Character Division arrives amicably at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
+    qcTranslated: "1. Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan.\\n2. With Beast Taming at the beginner level, he explored White Ape Temple and heard that apes lived in large numbers on Mount Emei.\\n3. Explore Emei Mountain in western Sichuan and subdue the monkeys that are stealing packages.\\n4. Exploring Baiyan Temple, I saw monkeys kneeling before stone statues.\\n5. Starting from January of the seventh Year, with Beast Taming at the expert level, he explores Mount Emei and subdues the Red-Eyed White Ape after defeating it.\\n6. Exploring the White Ape Temple, the Great Sage Yuan invites him to drink Monkey Wine.\\n7. Arrive at 160 with Flexibility, Beggars' Sect's Lian Character Division arrives amicably at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - DroppedContent
   - splitPath: Desc
     subIndex: 1
     text: "御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。"
@@ -3715,6 +3765,14 @@
   - splitPath: GuidDescList[6]
     text: "灵活到达160，丐帮廉字舵友好到达80，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。"
     translated: "Arrive at 160 with flexibility, Beggars' Sect's Lian Character Division arrives friendly at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
+    qcReviewedText: "Arrive at 160 with flexibility, Beggars' Sect's Lian Character Division arrives friendly at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
+    qcTranslated: "Arrive at 160 with flexibility, Beggars' Sect Lian Character Division arrives friendly at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}"

@@ -1162,6 +1162,10 @@
   - splitPath: SelectionList[2]
     text: "《江湖闲话"
     translated: "'Jianghu Chat"
+    qcReviewedText: "'Jianghu Chat-The Succession of the Four Seasons'"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[2]
     subIndex: 1
     text: "四时迭运》"
@@ -3121,6 +3125,14 @@
   - splitPath: TipTextList[0]
     text: "碧波诀"
     translated: "Green Wave Technique"
+    qcReviewedText: "Green Wave Technique \\nAuto-release, 100% release Tactical [Green Wave Formula]\\n[Jade Wave Technique]-Stacks up to 7 layers, each layer attacking+4%"
+    qcTranslated: "Green Wave Art \\nAuto-release, 100% release Tactical [Green Wave Art]\\n[Green Wave Art]-Stacks up to 7 layers, each layer attacking+4%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DomainTerm
   - splitPath: TipTextList[0]
     subIndex: 1
     text: "自动释放，100%释放战术【碧波诀】"
@@ -4353,6 +4365,10 @@
   - splitPath: SelectionList[2]
     text: "相助唐门一众门人"
     translated: "Help the Tang Clan and its disciples"
+    qcReviewedText: "Help the Tang Clan and its disciples"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[3]
     text: "相助崆峒派一众门人"
     translated: "Help the disciples of the Kongtong Sect"
@@ -6146,6 +6162,10 @@
   - splitPath: TipTextList[1]
     text: "游戏难度3星"
     translated: "Game difficulty 3 stars"
+    qcReviewedText: "<color=#ff9900>Game difficulty 3 stars</color>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: TipTextList[0]
     template: "<color=#ff9900>{0}</color>"
@@ -6953,9 +6973,17 @@
   - splitPath: SelectionList[0]
     text: "灵宝紫阳丹"
     translated: "Purple Yang Divine Pill"
+    qcReviewedText: "Purple Yang Divine Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[1]
     text: "太乙青华丹"
     translated: "Taiyi Qinghua Pill"
+    qcReviewedText: "Taiyi Qinghua Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[2]
     text: "还是算了"
     translated: "Forget it"
@@ -6965,91 +6993,205 @@
   - splitPath: TipTextList[0]
     text: "提升功力"
     translated: "Increase power"
+    qcReviewedText: "Increase power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TipTextList[1]
     text: "提升气血"
     translated: "Boost their lifeforce"
+    qcReviewedText: "Boost their lifeforce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501310\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 8501310
   splits:
   - splitPath: Desc
     text: "选择哪种年份药材喂养灵鹤？"
     translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcReviewedText: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[0]
     text: "川穹草"
     translated: "Chuanqiong Grass"
+    qcReviewedText: "Chuanqiong Grass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[1]
     text: "松茯苓"
     translated: "Poria root"
+    qcReviewedText: "Poria root"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[2]
     text: "地茜根"
     translated: "Daxi Root"
+    qcReviewedText: "Daxi Root"
+    qcTranslated: "Diqian Root"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: TipTextList[0]
     text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
     translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcReviewedText: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TipTextList[1]
     text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcReviewedText: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcTranslated: "In three years, feeding Poria to the Spirit Crane more than twice will cause it to transform into a Cloud Feather Crane."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: TipTextList[2]
     text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcReviewedText: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501510\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 8501510
   splits:
   - splitPath: Desc
     text: "选择哪种年份药材喂养灵鹤？"
     translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcReviewedText: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[0]
     text: "川穹草"
     translated: "Chuanqiong Grass"
+    qcReviewedText: "Chuanqiong Grass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[1]
     text: "松茯苓"
     translated: "Poria root"
+    qcReviewedText: "Poria root"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[2]
     text: "地茜根"
     translated: "Daxi Root"
+    qcReviewedText: "Daxi Root"
+    qcTranslated: "Diqian Root"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: TipTextList[0]
     text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
     translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcReviewedText: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TipTextList[1]
     text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcReviewedText: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcTranslated: "In three years, feeding Poria to the Spirit Crane more than twice will cause it to transform into a Cloud Feather Crane."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: TipTextList[2]
     text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcReviewedText: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8501710\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 8501710
   splits:
   - splitPath: Desc
     text: "选择哪种年份药材喂养灵鹤？"
     translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcReviewedText: "Which year's medicinal herbs should be used to feed the spirit crane?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[0]
     text: "川穹草"
     translated: "Chuanqiong Grass"
+    qcReviewedText: "Chuanqiong Grass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[1]
     text: "松茯苓"
     translated: "Poria root"
+    qcReviewedText: "Poria root"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[2]
     text: "地茜根"
     translated: "Daxi Root"
+    qcReviewedText: "Daxi Root"
+    qcTranslated: "Diqian Root"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: TipTextList[0]
     text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
     translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcReviewedText: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: TipTextList[1]
     text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcReviewedText: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+    qcTranslated: "In three years, feeding Poria to the Spirit Crane more than twice will cause it to transform into a Cloud Feather Crane."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: TipTextList[2]
     text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
     translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcReviewedText: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"8510400\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“我已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。</color>\",\r\n    \"SelectionList\": [\r\n      \"我已经准备好了\",\r\n      \"我尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“我已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。</color>\",\r\n    \"SelectionTwList\": [\r\n      \"我已經準備好了\",\r\n      \"我尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 8510400
   splits:
   - splitPath: Desc
     text: "你可曾准备好应对天魔教的报复？"
     translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?"
-    qcReviewedText: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Be careful：After selecting Disciple is ready, the following month will automatically trigger the Heaven Demon Attack event, leading to the final ending."
-    qcTranslated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting The disciple is ready, the Heavenly Demon Sect's mountain attack event will automatically trigger next month, and the game will enter the final ending."
+    qcReviewedText: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Be careful：After selecting I am ready, the following month will automatically trigger the Heaven Demon Attack on the Mountain event, leading to the game's final ending.</color>"
+    qcTranslated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Be careful: After selecting I am ready, the following month will automatically trigger the Heavenly Demon Attack on the Mountain event, leading to the game's final ending.</color>"
     qcStatus: Corrected
-    qcQualityScore: 82
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     subIndex: 1
     text: "注意"
@@ -7079,6 +7221,10 @@
   - splitPath: Desc
     text: "今日在松林场中做些什么？"
     translated: "What are you doing in the pine forest today?"
+    qcReviewedText: "What are you doing in the pine forest today?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SelectionList[0]
     text: "修炼基本功"
     translated: "Practicing the fundamentals"
@@ -7115,6 +7261,13 @@
   - splitPath: Desc
     text: "是否随杜清风参加广成丹会？"
     translated: "Do you wish to attend the Kuangcheng Dan Meeting with Du Qingfeng?"
+    qcReviewedText: "Do you wish to attend the Kuangcheng Dan Meeting with Du Qingfeng?"
+    qcTranslated: "Do you wish to attend the Guangcheng Pill Gathering with Du Qingfeng?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: SelectionList[0]
     text: "去"
     translated: "Go"
@@ -7124,6 +7277,10 @@
   - splitPath: SelectionList[1]
     text: "暂未开放，敬请期待"
     translated: "Not yet available, stay tuned"
+    qcReviewedText: "、<color=#FF0000>Not yet available, stay tuned</color>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: SelectionList[1]
     template: "、<color=#FF0000>{0}</color>"
@@ -7179,6 +7336,13 @@
   - splitPath: SelectionList[0]
     text: "蓝不悔"
     translated: "Lan Buhan"
+    qcReviewedText: "Lan Buhan"
+    qcTranslated: "Lan Buhui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: SelectionList[1]
     text: "左灵珠"
     translated: "Zuo Lingzhu"

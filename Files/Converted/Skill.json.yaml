@@ -1371,6 +1371,14 @@
   - splitPath: Desc
     text: "九流奇功"
     translated: "Nine Strange Arts of the Nine Schools"
+    qcReviewedText: "[Nine Strange Arts of the Nine Schools]Action response 1 \\nAccumulating Action Points"
+    qcTranslated: "[Nine Streams of Strange Arts] Action Recovery 1 \\nAccumulating Action Points"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -1388,6 +1396,13 @@
   - splitPath: DetailDesc
     text: "战术协同类【衡山派】【心法】"
     translated: "Tactical Synergy Class [Hengshan Sect] [Heart Method]"
+    qcReviewedText: "Tactical Synergy Class [Hengshan Sect] [Heart Method]\\nRelease tactic [Nine Streams Unorthodox Skills]：Reply with 1 Action Points. They will continue to accumulate after use."
+    qcTranslated: "Tactical Synergy Class [Hengshan Sect] [Heart Method]\\nRelease tactic [Nine Streams Unorthodox Skills]: Restore 1 Action Points. Action Points will continue to accumulate after use."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【九流奇功】"
@@ -5598,6 +5613,10 @@
   - splitPath: GetDesc
     text: "加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。"
     translated: "Join the Wudang Sect. Starting from the eighth month of the fifth year after eliminating Huang Luan, your contribution reaches 70, potential and flexibility reach 100. You begin exploring the Sitting Negligence Platform where Liu Daosheng teaches."
+    qcReviewedText: "①Join the Wudang Sect. Starting from the eighth month of the fifth year after eliminating Huang Luan, your contribution reaches 70, potential and flexibility reach 100. You begin exploring the Sitting Negligence Platform where Liu Daosheng teaches.\\n②Joining Qingcheng Sect, in February of the fourth year, Daoist Studies and Alchemy reach proficiency and participate in the Guangcheng Elixir Assembly. In February of the eighth year, Daoist Studies and Alchemy reach mastery, participating in the Guangcheng Elixir Assembly for the second time. Daoist Studies and Alchemy reach grandmaster level, Insight reaches 200, explore the Guangcheng Elixir Cavern, and join after refining the Guangcheng Golden Elixir."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GetDesc
     subIndex: 1
     text: "加入青城派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
@@ -10974,6 +10993,10 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Starwheel Umbrella]Support battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "星罗伞"
@@ -11021,6 +11044,13 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Jade Dew Brand]Stacks up to 1 layers, each layer providing defense.+20%"
+    qcTranslated: "[Triggered at Start][Jade Dew Brand]Stacks up to 1 layers, each layer providing +20% defense."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "玉露牌"
@@ -12188,6 +12218,13 @@
   - splitPath: Desc
     text: "攻击（1.8倍）"
     translated: "Attack (1.8 times)"
+    qcReviewedText: "Attack (1.8 times) \\nAction response 1-18%"
+    qcTranslated: "Attack (1.8x) \\nAction recovery 1-18%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -12201,6 +12238,10 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【拳脚】"
     translated: "Attack Damage [Qingcheng Sect][Fist and Foot]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Fist and Foot]\\nDeals 1.8 times the Hero's Power in damage and has a 18% chance to restore one Action Point."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造1.8倍侠客功力的伤害，并有18%几率回复一点行动力。"
@@ -12214,6 +12255,10 @@
   - splitPath: GetDesc
     text: "加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞杜清风传授。"
     translated: "Joining the Wudang Sect, in February of the fourth year, your Daoist Studies and Alchemy reached mastery, allowing you to participate in the Kongtong Guangcheng Alchemy Conference with Jiang Daoling. During the conference, explore Taixu Cave to learn from Du Qingfeng."
+    qcReviewedText: "Joining the Wudang Sect, in February of the fourth year, your Daoist Studies and Alchemy reached mastery, allowing you to participate in the Kongtong Guangcheng Alchemy Conference with Jiang Daoling. During the conference, explore Taixu Cave to learn from Du Qingfeng."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -12241,15 +12286,31 @@
   - splitPath: Name
     text: "大道指诀"
     translated: "Great Path Finger Scripture"
+    qcReviewedText: "Great Path Finger Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（4.2倍）"
     translated: "Attack (4.2 times)"
+    qcReviewedText: "Attack (4.2 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "大道指诀"
     translated: "Great Path Finger Scripture"
+    qcReviewedText: "Great Path Finger Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【拳脚】"
     translated: "Attack Damage [Qingcheng Sect][Fist and Foot]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Fist and Foot]\\nDeals 5 times the Hero's Power in damage per hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造5倍侠客功力的伤害。"
@@ -12263,12 +12324,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。"
     translated: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+    qcReviewedText: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+130/Potential+8/Resilience+5"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "根骨"
@@ -12288,6 +12354,10 @@
   - splitPath: Name
     text: "青城剑法"
     translated: "Qingcheng Swordsmanship"
+    qcReviewedText: "Qingcheng Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -12297,6 +12367,10 @@
   - splitPath: EchoName
     text: "青城剑法"
     translated: "Qingcheng Swordsmanship"
+    qcReviewedText: "Qingcheng Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
@@ -12316,6 +12390,10 @@
   - splitPath: GetDesc
     text: "加入青城派，第一年五月主线获取。"
     translated: "Join Qingcheng Sect; main storyline obtained in May of the first year."
+    qcReviewedText: "Join Qingcheng Sect; main storyline obtained in May of the first year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -12341,13 +12419,20 @@
   - splitPath: Name
     text: "紫霞剑诀"
     translated: "Violet Cloud Sword Technique"
+    qcReviewedText: "Violet Cloud Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（2.8倍）"
     translated: "Attack (2.8 times)"
-    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
-    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
+    qcReviewedText: "Attack (2.8 times) \\nAction response 1-50%"
+    qcTranslated: "Attack (2.8x) \\nAction recovery 1-50%"
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -12355,9 +12440,17 @@
   - splitPath: EchoName
     text: "紫霞剑诀"
     translated: "Violet Cloud Sword Technique"
+    qcReviewedText: "Violet Cloud Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 2.8 times the Hero's Power in damage and has a 50% chance to restore one Action Point."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。"
@@ -12379,13 +12472,20 @@
   - splitPath: Name
     text: "青霞剑诀"
     translated: "Green Mist Sword Technique"
+    qcReviewedText: "Green Mist Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（2.8倍）"
     translated: "Attack (2.8 times)"
-    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
-    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
+    qcReviewedText: "Attack (2.8 times) \\nAction response 1-50%"
+    qcTranslated: "Attack (2.8x) \\nAction recovery 1-50%"
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -12393,9 +12493,17 @@
   - splitPath: EchoName
     text: "青霞剑诀"
     translated: "Green Mist Sword Technique"
+    qcReviewedText: "Green Mist Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 2.8 times the Hero's Power in damage and has a 50% chance to restore one Action Point."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。"
@@ -12417,9 +12525,20 @@
   - splitPath: Name
     text: "松风剑法"
     translated: "Song Wind Sword Technique"
+    qcReviewedText: "Song Wind Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
+    qcReviewedText: "Attack (0.7 times) \\nAction response 1-20%"
+    qcTranslated: "Attack (0.7x) \\nAction recovery 1-20%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -12427,9 +12546,17 @@
   - splitPath: EchoName
     text: "松风剑法"
     translated: "Song Wind Sword Technique"
+    qcReviewedText: "Song Wind Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 0.7 times the Hero's Power in damage and has a 20% chance to restore one Action Point."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成0.7倍侠客功力的伤害，并有20%几率回复一点行动力。"
@@ -12443,9 +12570,17 @@
   - splitPath: GetDesc
     text: "加入青城，第三年一月至四月，探索松林丹舍岳松涛传授。"
     translated: "Join Qingcheng, January to April of the third year, explore the Pine Forest Medicine Cottage where Yue Songtao teaches."
+    qcReviewedText: "Join Qingcheng, January to April of the third year, explore the Pine Forest Medicine Cottage where Yue Songtao teaches."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
+    qcReviewedText: "Power+80/Flexible+8"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "灵活"
@@ -12463,12 +12598,17 @@
   - splitPath: Name
     text: "呼应剑法"
     translated: "Echoing Sword Technique"
+    qcReviewedText: "Echoing Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.2倍）"
     translated: "Attack (1.2 times)"
-    qcReviewedText: "Attack (1.2 times) \\nAction response 1"
+    qcReviewedText: "Attack (1.2 times) \\nConditions-When consecutive hit count exceeds 2 times"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "条件"
@@ -12480,9 +12620,17 @@
   - splitPath: EchoName
     text: "呼应剑法"
     translated: "Echoing Sword Technique"
+    qcReviewedText: "Echoing Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nWhen the opponent's combo count exceeds 2, each attack deals 1.2 times the Hero's Power in damage, for two consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "当对方连击数大于2时，单次攻击造成1.2倍侠客功力的伤害，连续攻击两。"
@@ -12496,12 +12644,17 @@
   - splitPath: GetDesc
     text: "加入青城，第三年一月至四月，探索灵鹤苑裴云鹤传授。"
     translated: "Join Qingcheng, from January to April of the third year, explore Linghe Garden, taught by Pei Yunhe."
+    qcReviewedText: "Join Qingcheng, from January to April of the third year, explore Linghe Garden, taught by Pei Yunhe."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+80/Potential+4/Flexible+4"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "根骨"
@@ -12523,12 +12676,21 @@
   - splitPath: Name
     text: "三官剑法"
     translated: "Three Officials Sword Technique"
+    qcReviewedText: "Three Officials Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.9倍）"
     translated: "Attack (0.9 times)"
-    qcReviewedText: "Attack (0.9 times) \\nAction response 1<36%>"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Attack (0.9 times) \\nTriple strike \\nAction response 2-20%"
+    qcTranslated: "Attack (0.9x) \\nTriple Strike \\nAction Recovery 2-20%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "三连击"
@@ -12540,9 +12702,17 @@
   - splitPath: EchoName
     text: "三官剑法"
     translated: "Three Officials Sword Technique"
+    qcReviewedText: "Three Officials Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 0.9 times the Hero's Power in damage for a single attack, attacks three times in a row, and has a 20% chance to restore two Action Points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成0.9倍侠客功力的伤害，连续攻击三次，并有20%几率回复两点行动力。"
@@ -12556,12 +12726,17 @@
   - splitPath: GetDesc
     text: "加入青城，第三年一月至四月，探索百药圃温白石传授。"
     translated: "Join Qingcheng, from January to April of the third year, explore the Hundred Herbs Garden where White Stone teaches."
+    qcReviewedText: "Join Qingcheng, from January to April of the third year, explore the Hundred Herbs Garden where White Stone teaches."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+90/Potential+3/Resilience+3/Flexible+3"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "根骨"
@@ -12593,6 +12768,10 @@
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
+    qcReviewedText: "Attack (0.7 times) \\nSeven consecutive strikes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "七连击"
@@ -12606,6 +12785,10 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 0.7 times the Hero's Power in damage per hit, for seven consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成0.7倍侠客功力的伤害，连续攻击七次。"
@@ -12619,6 +12802,10 @@
   - splitPath: GetDesc
     text: "1、加入青城派，第五年一月开始，道学到达高手，探索道藏阁吕伯阳传授。"
     translated: "1, joining Qingcheng Sect, in the fifth year starting January, Daoist Studies reached expert level, exploring the Daoist Canon Pavilion where Master Lyu Boyang teaches."
+    qcReviewedText: "1, joining Qingcheng Sect, in the fifth year starting January, Daoist Studies reached expert level, exploring the Daoist Canon Pavilion where Master Lyu Boyang teaches.\\n2, joined Wudang Sect. In the second month of the fourth year, Daoist Studies and Alchemy reached mastery and participation in the Guangcheng Elixir Conference began. By the second month of the eighth year, Daoist Studies and Alchemy had reached grandmaster level, with a second participation in the Guangcheng Elixir Conference. Daoist Studies and Alchemy reached the peak of mastery, and Insight reached 200, leading to exploration of the Guangcheng Elixir Cave. After refining the Guangcheng Golden Elixir, they joined."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GetDesc
     subIndex: 1
     text: "2、加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
@@ -12652,13 +12839,17 @@
   - splitPath: Name
     text: "紫青神剑"
     translated: "Purple-Green Divine Sword"
+    qcReviewedText: "Purple-Green Divine Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（2.8倍）"
     translated: "Attack (2.8 times)"
-    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
-    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
-    qcStatus: Corrected
-    qcQualityScore: 92
+    qcReviewedText: "Attack (2.8 times) \\nDouble Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "二连击"
@@ -12666,9 +12857,17 @@
   - splitPath: EchoName
     text: "紫青神剑"
     translated: "Purple-Green Divine Sword"
+    qcReviewedText: "Purple-Green Divine Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 2.8 times the Hero's Power in damage per hit, for two hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成2.8倍侠客功力的伤害，连续攻击两次。"
@@ -12690,12 +12889,17 @@
   - splitPath: Name
     text: "颠倒剑法"
     translated: "Reversed Swordsmanship"
+    qcReviewedText: "Reversed Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（3.2倍）"
     translated: "Attack (3.2 times)"
-    qcReviewedText: "Attack (3.2 times)"
+    qcReviewedText: "Attack (3.2 times) \\nAccumulating Action Points"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "行动力累积"
@@ -12703,9 +12907,17 @@
   - splitPath: EchoName
     text: "颠倒剑法"
     translated: "Reversed Swordsmanship"
+    qcReviewedText: "Reversed Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 3.2 times the Hero's Power in damage on a single attack, and continues to accumulate Action Points after use."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成3.2倍侠客功力的伤害，使用后行动力持续累积。"
@@ -12719,12 +12931,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第八年一月开始，贡献到达100，探索道藏阁，战胜吕伯阳后加入。"
     translated: "Join Qingcheng Sect, starting in January of the eighth year. When your Contribution reaches 100, explore the Daozang Pavilion and defeat Lu Boyang to join."
+    qcReviewedText: "Join Qingcheng Sect, starting in January of the eighth year. When your Contribution reaches 100, explore the Daozang Pavilion and defeat Lu Boyang to join."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+150/Potential+15"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "根骨"
@@ -12742,9 +12959,17 @@
   - splitPath: Name
     text: "天一遁法"
     translated: "Heavenly Escape Technique"
+    qcReviewedText: "Heavenly Escape Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "天一遁法"
     translated: "Heavenly Escape Technique"
+    qcReviewedText: "[Heavenly Escape Technique]Support battle \\nOnce only"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -12756,9 +12981,17 @@
   - splitPath: EchoName
     text: "天一遁法"
     translated: "Heavenly Escape Technique"
+    qcReviewedText: "Heavenly Escape Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【青城派】【心法】"
     translated: "Tactical Synergy Class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Tactical Synergy Class [Qingcheng Sect][Heart Method]\\nRelease tactic [Tianyi Evasion], negates 99 attacks this turn. Can only be used once per battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【天一遁法】，本回合可抵消99次攻击，每场战斗只能使用一次。"
@@ -12772,9 +13005,10 @@
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+180/Qinggong+18"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "轻功"
@@ -12792,18 +13026,34 @@
   - splitPath: Name
     text: "青城心法"
     translated: "Qingcheng Heart Method"
+    qcReviewedText: "Qingcheng Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "行动回复1"
     translated: "Action response 1"
-    qcReviewedText: "Action response 1-10%"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Action response 1-12%"
+    qcTranslated: "Action recovery 1-12%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: EchoName
     text: "青城心法"
     translated: "Qingcheng Heart Method"
+    qcReviewedText: "Qingcheng Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "自动释放类【青城派】【心法】"
     translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Automatic Release Class [Qingcheng Sect][Heart Method]\\n12% chance to release 1 Action Points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "12%几率释放回复1点行动力。"
@@ -12817,12 +13067,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第二年二月藏道阁拜见吕伯阳后获取。"
     translated: "Join the Qingcheng Sect; obtained after visiting Lu Boyang in the Concealed Dao Pavilion in February of the second year."
+    qcReviewedText: "Join the Qingcheng Sect; obtained after visiting Lu Boyang in the Concealed Dao Pavilion in February of the second year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+300/Inner Qi+3"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -12840,6 +13095,10 @@
   - splitPath: Name
     text: "胎息功"
     translated: "Fetal Breath Technique"
+    qcReviewedText: "Fetal Breath Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【开局触发】行动回复2"
     translated: "Action replies to 【Trigger at the beginning of the game】 and 2"
@@ -12850,9 +13109,17 @@
   - splitPath: EchoName
     text: "胎息功"
     translated: "Fetal Breath Technique"
+    qcReviewedText: "Fetal Breath Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "辅助回复类【青城派】【心法】"
     translated: "Support Reply Class [Qingcheng Sect] [Heart Method]"
+    qcReviewedText: "Support Reply Class [Qingcheng Sect] [Heart Method]\\nReply with 2 Action Points; triggered automatically at the start of your turn."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "回复2点行动力，回合开始自动触发。"
@@ -12866,9 +13133,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。"
     translated: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+    qcReviewedText: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+900/Inner Qi+5/Insight 4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -12888,6 +13163,10 @@
   - splitPath: Name
     text: "静心诀"
     translated: "Calming Mind Incantation"
+    qcReviewedText: "Calming Mind Incantation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "消除战术1"
     translated: "Elimination Tactics 1"
@@ -12897,9 +13176,17 @@
   - splitPath: EchoName
     text: "静心诀"
     translated: "Calming Mind Incantation"
+    qcReviewedText: "Calming Mind Incantation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "异常影响类【青城派】【心法】"
     translated: "Abnormal Effect Category [Qingcheng Sect] [Heart Method]"
+    qcReviewedText: "Abnormal Effect Category [Qingcheng Sect] [Heart Method]\\nClear 1 enemy tactics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "清除敌人1个战术。"
@@ -12913,12 +13200,17 @@
   - splitPath: GetDesc
     text: "加入青城派，贡献到达20，道学到达入门，探索道藏阁吕伯阳传授。"
     translated: "Join Qingcheng Sect, with Contributions reaching 20 and Daoist Studies reaching beginner level, explore the Daoist Canon Hall where Lu Boyang will impart teachings."
+    qcReviewedText: "Join Qingcheng Sect, with Contributions reaching 20 and Daoist Studies reaching beginner level, explore the Daoist Canon Hall where Lu Boyang will impart teachings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+700/Inner Qi+7"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -12934,9 +13226,21 @@
   - splitPath: Name
     text: "五斗奇功"
     translated: "Five Bushels of Marvelous Skill"
+    qcReviewedText: "Five Bushels of Marvelous Skill"
+    qcTranslated: "Wudou Qigong"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
   - splitPath: Desc
     text: "行动回复3"
     translated: "Action response 3"
+    qcReviewedText: "Action response 3 \\nOnce only"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "限一次"
@@ -12944,9 +13248,21 @@
   - splitPath: EchoName
     text: "五斗奇功"
     translated: "Five Bushels of Marvelous Skill"
+    qcReviewedText: "Five Bushels of Marvelous Skill"
+    qcTranslated: "Wudou Qigong"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UntranslatedPinyin
   - splitPath: DetailDesc
     text: "辅助回复类【青城派】【心法】"
     translated: "Support Reply Class [Qingcheng Sect] [Heart Method]"
+    qcReviewedText: "Support Reply Class [Qingcheng Sect] [Heart Method]\\nReply with 3 Action Points. You can only use them once per battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "回复3点行动力，每场战斗只能使用一次。"
@@ -12960,12 +13276,17 @@
   - splitPath: GetDesc
     text: "加入青城派，贡献到达60.道学到达高手，探索道藏阁吕伯阳传授。"
     translated: "Join the Qingcheng Sect, with Contribution reaching 60. and Daoist Studies reaching Expert level, explore the Daoist Canon Hall where Master Lu Boyang will impart teachings."
+    qcReviewedText: "Join the Qingcheng Sect, with Contribution reaching 60. and Daoist Studies reaching Expert level, explore the Daoist Canon Hall where Master Lu Boyang will impart teachings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+1500/Inner Qi+5"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -12983,18 +13304,31 @@
   - splitPath: Name
     text: "青城身法"
     translated: "Qingcheng Agility"
+    qcReviewedText: "Qingcheng Agility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "闪避1"
     translated: "Dodge 1"
-    qcReviewedText: "Dodge 1<9%>"
+    qcReviewedText: "Dodge 1<8%>"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "青城身法"
     translated: "Qingcheng Agility"
+    qcReviewedText: "Qingcheng Agility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "自动触发类【青城派】【心法】"
     translated: "Automatically triggered class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Automatically triggered class [Qingcheng Sect][Heart Method]\\n8% chance to automatically release the tactic [Dodge], which can negate one instance of damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "8%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
@@ -13008,12 +13342,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第二年五月灵鹤苑拜见韩景升后获取。"
     translated: "Join the Qingcheng Sect; obtained after paying respects to Han Jingsheng at Linghe Garden in May of the second year."
+    qcReviewedText: "Join the Qingcheng Sect; obtained after paying respects to Han Jingsheng at Linghe Garden in May of the second year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+40/Flexible+4"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "灵活"
@@ -13031,18 +13370,39 @@
   - splitPath: Name
     text: "风云引"
     translated: "Wind and Clouds Scroll"
+    qcReviewedText: "Wind and Clouds Scroll"
+    qcTranslated: "Wind and Clouds"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: Desc
     text: "闪避1"
     translated: "Dodge 1"
-    qcReviewedText: "Dodge 1<9%>"
+    qcReviewedText: "Dodge 1"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "风云引"
     translated: "Wind and Clouds Scroll"
+    qcReviewedText: "Wind and Clouds Scroll"
+    qcTranslated: "Wind and Clouds"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - splitPath: DetailDesc
     text: "战术协同类【青城派】【心法】"
     translated: "Tactical Synergy Class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Tactical Synergy Class [Qingcheng Sect][Heart Method]\\nRelease the tactic [Dodge], which can cancel out one instance of damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【闪避】，可以抵消一次伤害。"
@@ -13056,12 +13416,17 @@
   - splitPath: GetDesc
     text: "加入青城，第七年一月灵鹤化为异种后，贡献到达80，探索灵鹤苑韩景升传授。"
     translated: "Joining Qingcheng, in the seventh year, after January when the Spirit Crane transformed into a rare breed, your Contribution reached 80, and you were taught by Han Jingsheng in the Spirit Crane Garden."
+    qcReviewedText: "Joining Qingcheng, in the seventh year, after January when the Spirit Crane transformed into a rare breed, your Contribution reached 80, and you were taught by Han Jingsheng in the Spirit Crane Garden."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+1400/Inner Qi+14"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -13077,9 +13442,17 @@
   - splitPath: Name
     text: "长生诀"
     translated: "Eternal Life Scripture"
+    qcReviewedText: "Eternal Life Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "行动回复2"
     translated: "Action response 2"
+    qcReviewedText: "Action response 2 \\nConditions-Lifeforce greater than 99%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "条件"
@@ -13091,9 +13464,20 @@
   - splitPath: EchoName
     text: "长生诀"
     translated: "Eternal Life Scripture"
+    qcReviewedText: "Eternal Life Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "自动释放类【青城派】【心法】"
     translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Automatic Release Class [Qingcheng Sect][Heart Method]\\nRestores 1 Action Points when Lifeforce is greater than 99%."
+    qcTranslated: "Automatic Release Class [Qingcheng Sect][Heart Method]\\nRestores 99 Action Points when Lifeforce is greater than 1%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: DetailDesc
     subIndex: 1
     text: "气血大于99%时，回复1点行动力。"
@@ -13107,12 +13491,17 @@
   - splitPath: GetDesc
     text: "加入青城派，学会道生诀后，七年二月功力反噬，探索闻道宫得知过往，此后探索闻道宫诸位师叔伯传道，七年六月前悟性到达170，领悟长生诀。"
     translated: "Joining the Qingcheng Sect and learning the Dao Creation Formula, in the second month of the seventh year, my Power rebelled against me. Exploring the Palace of Enlightenment revealed my past. Thereafter, I explored the teachings of various Master Uncles at the Palace of Enlightenment. By early June of the seventh year, my Insight reached 170, allowing me to comprehend the Elixir of Immortality Formula."
+    qcReviewedText: "Joining the Qingcheng Sect and learning the Dao Creation Formula, in the second month of the seventh year, my Power rebelled against me. Exploring the Palace of Enlightenment revealed my past. Thereafter, I explored the teachings of various Master Uncles at the Palace of Enlightenment. By early June of the seventh year, my Insight reached 170, allowing me to comprehend the Elixir of Immortality Formula."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+2000/Inner Qi+20"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -13130,9 +13519,20 @@
   - splitPath: Name
     text: "道生诀"
     translated: "Dao Birth Manual"
+    qcReviewedText: "Dao Birth Manual"
+    qcTranslated: "Dao Genesis Formula"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     text: "行动回复1"
     translated: "Action response 1"
+    qcReviewedText: "Action response 1 \\nConditions-Lifeforce is less than 40%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "条件"
@@ -13144,9 +13544,20 @@
   - splitPath: EchoName
     text: "道生诀"
     translated: "Dao Birth Manual"
+    qcReviewedText: "Dao Birth Manual"
+    qcTranslated: "Dao Genesis Formula"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: DetailDesc
     text: "自动释放类【青城派】【心法】"
     translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+    qcReviewedText: "Automatic Release Class [Qingcheng Sect][Heart Method]\\nWhen Lifeforce is less than 40%, restore 1 Action Points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "气血小于40%时，回复1点行动力。"
@@ -13160,12 +13571,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第六年三月开始听闻青城秘册，然后灵鹤苑找裴云鹤打听，探索川西打酒遇到疯道士，探索川西救下疯道士得知考验，探索川西听闻茶坪山，最后探索川西龙门山顶得疯老道传授。"
     translated: "Joining Qingcheng Sect, in March of the sixth year, I began to hear about the secrets of Qingcheng. Then, at Linghe Garden, I sought out Pei Yunhe for information. Exploring western Sichuan while buying wine, I encountered a mad Taoist. Rescuing the mad Taoist, I learned of the test. Exploring further in western Sichuan, I heard about Chaping Mountain. Finally, atop Longmen Peak in western Sichuan, the mad old Taoist imparted his teachings to me."
+    qcReviewedText: "Joining Qingcheng Sect, in March of the sixth year, I began to hear about the secrets of Qingcheng. Then, at Linghe Garden, I sought out Pei Yunhe for information. Exploring western Sichuan while buying wine, I encountered a mad Taoist. Rescuing the mad Taoist, I learned of the test. Exploring further in western Sichuan, I heard about Chaping Mountain. Finally, atop Longmen Peak in western Sichuan, the mad old Taoist imparted his teachings to me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcReviewedText: "Lifeforce+1400/Inner Qi+14"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "内息"
@@ -13183,15 +13599,34 @@
   - splitPath: Name
     text: "仙人余粮"
     translated: "Heavenly provisions"
+    qcReviewedText: "Heavenly provisions"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（2%最大气血）"
     translated: "Restore Health(2% of maximum Lifeforce)"
+    qcReviewedText: "Restore Health(2% of maximum Lifeforce)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "仙人余粮"
     translated: "Heavenly provisions"
+    qcReviewedText: "Heavenly provisions"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "自动触发类【青城派】【特技】"
     translated: "Automatically Triggered Class [Qingcheng Sect] [Special Skill]"
+    qcReviewedText: "Automatically Triggered Class [Qingcheng Sect] [Special Skill]\\nReply with our 2% Lifeforce"
+    qcTranslated: "Automatically Triggered Class [Qingcheng Sect] [Special Skill]\\nRestores 2% Lifeforce to our side."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: DetailDesc
     subIndex: 1
     text: "回复我方2%气血。"
@@ -13205,12 +13640,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第二年四月百药圃拜见祁玄览后获取。"
     translated: "Join the Qingcheng Sect; obtain after paying respects to Qi Xuanyan at the Hundred Herbs Garden in the second year's April."
+    qcReviewedText: "Join the Qingcheng Sect; obtain after paying respects to Qi Xuanyan at the Hundred Herbs Garden in the second year's April."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "医术"
     translated: "Medicine"
-    qcReviewedText: "Medicine+9"
+    qcReviewedText: "Medicine+10"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
@@ -13222,9 +13662,17 @@
   - splitPath: Name
     text: "赤须玄参"
     translated: "Red Bearded Black Ginseng"
+    qcReviewedText: "Red Bearded Black Ginseng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（12%最大气血）"
     translated: "Restore Health (12% of maximum Lifeforce)"
+    qcReviewedText: "Restore Health (12% of maximum Lifeforce) \\nAccumulating Action Points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "行动力累积"
@@ -13232,9 +13680,20 @@
   - splitPath: EchoName
     text: "赤须玄参"
     translated: "Red Bearded Black Ginseng"
+    qcReviewedText: "Red Bearded Black Ginseng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "辅助回复类【青城派】【特技】"
     translated: "Support Reply Class [Qingcheng Sect][Special Skill]"
+    qcReviewedText: "Support Reply Class [Qingcheng Sect][Special Skill]\\nRestores us 12% Lifeforce, and Action Points will continue to accumulate afterward."
+    qcTranslated: "Support Recovery Class [Qingcheng Sect][Special Skill]\\nRestores 12% Lifeforce to our side, and Action Points will continue to accumulate afterward."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: DetailDesc
     subIndex: 1
     text: "回复我方12%气血，使用后行动力持续累积。"
@@ -13256,9 +13715,20 @@
   - splitPath: Name
     text: "灵鹤"
     translated: "Spirit Crane"
+    qcReviewedText: "Spirit Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "灵鹤"
     translated: "Spirit Crane"
+    qcReviewedText: "[Spirit Crane]Support battle"
+    qcTranslated: "[Spirit Crane] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -13266,9 +13736,17 @@
   - splitPath: EchoName
     text: "灵鹤"
     translated: "Spirit Crane"
+    qcReviewedText: "Spirit Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon pet [Soul Crane]. The Soul Crane deals 400 points of +16-fold Beast Taming damage in a single attack, with a 100% chance to activate."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【灵鹤】。灵鹤单次攻击造成400点+16倍御兽伤害，发动几率100%。"
@@ -13282,6 +13760,10 @@
   - splitPath: GetDesc
     text: "加入青城派，第三年十一月主线自动获取。"
     translated: "Join the Qingcheng Sect; the main storyline will be automatically obtained in November of the third year."
+    qcReviewedText: "Join the Qingcheng Sect; the main storyline will be automatically obtained in November of the third year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
@@ -13301,9 +13783,23 @@
   - splitPath: Name
     text: "风羽鹤"
     translated: "Feng Yuhexue"
+    qcReviewedText: "Feng Yuhexue"
+    qcTranslated: "Feng Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     text: "风羽鹤"
     translated: "Feng Yuhexue"
+    qcReviewedText: "[Feng Yuhexue]Support battle"
+    qcTranslated: "[Feng Yuhe]Support battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -13311,9 +13807,20 @@
   - splitPath: EchoName
     text: "风羽鹤"
     translated: "Feng Yuhexue"
+    qcReviewedText: "Feng Yuhexue"
+    qcTranslated: "Feng Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon pet [Wind Feather Crane]. The Wind Feather Crane deals 1200 points of +12x Beast Taming Double Strike damage per single attack, with a trigger rate of 100%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【风羽鹤】。风羽鹤单次攻击造成1200点+12倍御兽二连击伤害，发动几率100%。"
@@ -13327,12 +13834,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第四年、第五年、第六年的一月，选择川穹草喂养灵鹤两次及以上，第七年一月获得。"
     translated: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Chuanqiong grass twice or more. Obtain in January of the seventh year."
+    qcReviewedText: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Chuanqiong grass twice or more. Obtain in January of the seventh year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
-    qcReviewedText: "Beast Taming+10"
+    qcReviewedText: "Beast Taming+20"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "[{0}]{1}"
@@ -13346,9 +13858,20 @@
   - splitPath: Name
     text: "云羽鹤"
     translated: "Yun Yuhex"
+    qcReviewedText: "Yun Yuhex"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "云羽鹤"
     translated: "Yun Yuhex"
+    qcReviewedText: "[Yun Yuhex]Support battle"
+    qcTranslated: "[Yun Yuhex] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -13356,9 +13879,17 @@
   - splitPath: EchoName
     text: "云羽鹤"
     translated: "Yun Yuhex"
+    qcReviewedText: "Yun Yuhex"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon pet [Yunyu Crane]. The Yunyu Crane has a 40% chance each turn to restore 3 point of action."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【云羽鹤】。云羽鹤每回合有40%概率回复3点行动。"
@@ -13372,12 +13903,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第四年、第五年、第六年的一月，选择松茯苓喂养灵鹤两次及以上，第七年一月获得。"
     translated: "Join the Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with pine and Poria twice or more. Obtain in January of the seventh year."
+    qcReviewedText: "Join the Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with pine and Poria twice or more. Obtain in January of the seventh year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
-    qcReviewedText: "Beast Taming+10"
+    qcReviewedText: "Beast Taming+20"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "[{0}]{1}"
@@ -13391,9 +13927,20 @@
   - splitPath: Name
     text: "霜羽鹤"
     translated: "Frost Feather Crane"
+    qcReviewedText: "Frost Feather Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "霜羽鹤"
     translated: "Frost Feather Crane"
+    qcReviewedText: "[Frost Feather Crane]Support battle"
+    qcTranslated: "[Frost Feather Crane] Support Battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "支援战斗"
@@ -13401,9 +13948,17 @@
   - splitPath: EchoName
     text: "霜羽鹤"
     translated: "Frost Feather Crane"
+    qcReviewedText: "Frost Feather Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "战术协同类【宠物】【助战】"
     translated: "Tactical Synergy Class [Pet] [Assist]"
+    qcReviewedText: "Tactical Synergy Class [Pet] [Assist]\\nSummon pet [Frostfeather Crane]. The Frostfeather Crane deals 4000 points of +20x Beast Taming damage per attack, with a 40% chance to inflict minor wounds. Activation rate is 100%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "召唤宠物【霜羽鹤】。霜羽鹤单次攻击造成4000点+20倍御兽伤害，40%概率造成轻伤，发动几率100%。"
@@ -13417,12 +13972,17 @@
   - splitPath: GetDesc
     text: "加入青城派，第四年、第五年、第六年的一月，选择地茜根喂养灵鹤两次及以上，第七年一月获得。"
     translated: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Diqian Root twice or more. Obtain in January of the seventh year."
+    qcReviewedText: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Diqian Root twice or more. Obtain in January of the seventh year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "御兽"
     translated: "Beast Taming"
-    qcReviewedText: "Beast Taming+10"
+    qcReviewedText: "Beast Taming+20"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - splitPath: Desc
     template: "[{0}]{1}"
@@ -13436,15 +13996,34 @@
   - splitPath: Name
     text: "再造丹"
     translated: "Rebirth Pill"
+    qcReviewedText: "Rebirth Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "会心5"
     translated: "Heartening 5"
+    qcReviewedText: "Heartening 5"
+    qcTranslated: "Critical Hit 5"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: EchoName
     text: "再造丹"
     translated: "Rebirth Pill"
+    qcReviewedText: "Rebirth Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "辅助回复类【青城派】【特技】"
     translated: "Support Reply Class [Qingcheng Sect][Special Skill]"
+    qcReviewedText: "Support Reply Class [Qingcheng Sect][Special Skill]\\nLet our 5 heroes gain a critical hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "令我方5名侠客获得会心。"
@@ -14285,6 +14864,10 @@
   - splitPath: GetDesc
     text: "1、加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。"
     translated: "1, join the Hengshan Sect, and from April of the fifth year to December of the sixth year, resolve the disturbance at Fa Yuan's Tavern. Afterward, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain."
+    qcReviewedText: "1, join the Hengshan Sect, and from April of the fifth year to December of the sixth year, resolve the disturbance at Fa Yuan's Tavern. Afterward, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain.\\n2, up until the beginning of January in the seventh year without triggering the tavern brawl event with Fa Yuan, obtained after winning three dice games against Fa Yuan in Zhuque District of Xiangdong after the sixth year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: GetDesc
     subIndex: 1
     text: "2、截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。"
@@ -14900,12 +15483,17 @@
   - splitPath: Name
     text: "绣春刀法"
     translated: "Spring Brocade Blade Art"
+    qcReviewedText: "Spring Brocade Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1倍）"
     translated: "Attack (1 times)"
-    qcReviewedText: "Attack (1 times) \\nDouble Strike"
+    qcReviewedText: "Attack (1 times) \\nMinor injuries<25%>"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "轻伤"
@@ -14913,9 +15501,17 @@
   - splitPath: EchoName
     text: "绣春刀法"
     translated: "Spring Brocade Blade Art"
+    qcReviewedText: "Spring Brocade Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【锦衣卫】【刀剑】"
     translated: "Attack Damage [Imperial Guard] [Sword Blade]"
+    qcReviewedText: "Attack Damage [Imperial Guard] [Sword Blade]\\nDeals 1 times the Wanderer's Power in damage per hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成1倍侠客功力的伤害。"
@@ -15300,6 +15896,13 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Supremacy of Sole Dominance Sutra]\\nStacks up to 1 layers, each layer dealing \\n_damage_+200%\\nConditions-We have 1 people fighting on our side."
+    qcTranslated: "[Triggered at Start][Supremacy of Sole Dominance Sutra]\\nStacks up to 1 layers, each layer dealing \\n_damage_+200%\\nConditions-We have 1 fighters on our side."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
@@ -18207,18 +18810,31 @@
   - splitPath: Name
     text: "麻衣剑法"
     translated: "Maji Sword Technique"
+    qcReviewedText: "Maji Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.4倍）"
     translated: "Attack (1.4 times)"
-    qcReviewedText: "Attack (1.4 times) \\nElimination Tactics 1<18%>"
+    qcReviewedText: "Attack (1.4 times)"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "麻衣剑法"
     translated: "Maji Sword Technique"
+    qcReviewedText: "Maji Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【麻衣教】【刀剑】"
     translated: "Attack Damage Class [Maiyi Sect] [Blade and Sword]"
+    qcReviewedText: "Attack Damage Class [Maiyi Sect] [Blade and Sword]\\nDeals 1.4 times the Hero's Power in damage per hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造1.4倍侠客功力的伤害。"
@@ -18244,18 +18860,42 @@
   - splitPath: Name
     text: "天相诀"
     translated: "Heaven's Fate Artifacts"
+    qcReviewedText: "Heaven's Fate Artifacts"
+    qcTranslated: "Tianxiang Formula"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: Desc
     text: "行动回复2"
     translated: "Action response 2"
-    qcReviewedText: "Action response 2 \\nOnce only"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Action response 2-20%"
+    qcTranslated: "Action recovery 2-20%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: EchoName
     text: "天相诀"
     translated: "Heaven's Fate Artifacts"
+    qcReviewedText: "Heaven's Fate Artifacts"
+    qcTranslated: "Tianxiang Formula"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - splitPath: DetailDesc
     text: "自动释放类【麻衣教】【心法】"
     translated: "Automatic Release Class [Maiyi Sect][Heart Method]"
+    qcReviewedText: "Automatic Release Class [Maiyi Sect][Heart Method]\\n12% chance to release and restore 2 Action Points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "12%几率释放回复2点行动力。"
@@ -18283,9 +18923,20 @@
   - splitPath: Name
     text: "枯荣奇功"
     translated: "Marvelous Life and Death Technique"
+    qcReviewedText: "Marvelous Life and Death Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（10%最大气血）"
     translated: "Revitalize(10% maximum Lifeforce)"
+    qcReviewedText: "Revitalize(10% maximum Lifeforce) \\nAction response 5 \\nOnce only"
+    qcTranslated: "Revitalize(10% maximum Lifeforce) \\nRestores 5 on action \\nOnce only"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复5"
@@ -18297,9 +18948,17 @@
   - splitPath: EchoName
     text: "枯荣奇功"
     translated: "Marvelous Life and Death Technique"
+    qcReviewedText: "Marvelous Life and Death Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "辅助回复类【麻衣教】【心法】"
     translated: "Support Reply Class [Maiyi Sect] [Heart Method]"
+    qcReviewedText: "Support Reply Class [Maiyi Sect] [Heart Method]\\nRestore 10% maximum Lifeforce, restore 5 Action Points, can only be used once per battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "回复10%最大气血，回复5点行动力，每场战斗只能使用一次。"
@@ -20413,6 +21072,13 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Youhuang Technique]Stacks up to 1 layers, each layer providing defense.+21%"
+    qcTranslated: "[Triggered at Start][Youhuang Technique]Stacks up to 1 layers, each layer providing +21% defense."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     subIndex: 1
     text: "幽篁诀"
@@ -20514,6 +21180,10 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Soar Like a Crane to the Clouds] Damage ineffective3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "鹤冲宵"
@@ -21182,9 +21852,10 @@
   - splitPath: Desc
     text: "气血"
     translated: "Lifeforce"
-    qcReviewedText: "Lifeforce+2%\\nNo need to go into battle for it to take effect."
+    qcReviewedText: "Lifeforce+1%\\nNo need to go into battle for it to take effect."
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -25172,6 +25843,13 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Rose Ceremony]Stacks up to 1 layers, each layer dealing damage+30%"
+    qcTranslated: "[Triggered at Start][Rose Ceremony] can stack up to 1 layers, with each layer dealing +30% damage"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "蔷薇仪式"
@@ -27236,6 +27914,10 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Iron Vest]Stacks up to 1 layers, reducing damage by 50% per layer."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "铁布衫"
@@ -28430,6 +29112,13 @@
   - splitPath: Desc
     text: "【开局触发】"
     translated: "[Triggered at Start]"
+    qcReviewedText: "[Triggered at Start][Evil Softshell Turtle in the Yangtze River]Stacks up to 1 layers, each layer providing defense.+40%"
+    qcTranslated: "[Triggered at Start][Evil Softshell Turtle in the Yangtze River]Stacks up to 1 layers, each layer providing +40% defense."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "长江恶鼋"
@@ -30648,12 +31337,17 @@
   - splitPath: Name
     text: "百花枪法"
     translated: "Hundred Flowers Spear Art"
+    qcReviewedText: "Hundred Flowers Spear Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.5倍）"
     translated: "Attack (0.5 times)"
-    qcReviewedText: "Attack (0.5 times)<50%>"
+    qcReviewedText: "Attack (0.5 times) \\nTriple strike"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "三连击"
@@ -30661,9 +31355,17 @@
   - splitPath: EchoName
     text: "百花枪法"
     translated: "Hundred Flowers Spear Art"
+    qcReviewedText: "Hundred Flowers Spear Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【百兵】"
     translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
+    qcReviewedText: "Attack Damage Class [Jianghu][Hundred Weapons]\\nDeals 0.4 times the Hero's Power in damage per strike, for a triple attack."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成0.4倍侠客功力的伤害，三连击。"
@@ -30685,18 +31387,31 @@
   - splitPath: Name
     text: "穿花步"
     translated: "Flower-stepping movement"
+    qcReviewedText: "Flower-stepping movement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "闪避1"
     translated: "Dodge 1"
-    qcReviewedText: "Dodge 1<9%>"
+    qcReviewedText: "Dodge 1<15%>"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "穿花步"
     translated: "Flower-stepping movement"
+    qcReviewedText: "Flower-stepping movement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "自动触发类【江湖】【心法】"
     translated: "Automatically triggered class [Jianghu][Heart Method]"
+    qcReviewedText: "Automatically triggered class [Jianghu][Heart Method]\\n15% chance to automatically release the tactic [Dodge], which can negate one instance of damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "15%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
@@ -30718,12 +31433,20 @@
   - splitPath: Name
     text: "一字快剑"
     translated: "Swift Sword Stroke"
+    qcReviewedText: "Swift Sword Stroke"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1倍）"
     translated: "Attack (1 times)"
-    qcReviewedText: "Attack (1 times) \\nDouble Strike"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Attack (1 times) \\nAction response 1-40%"
+    qcTranslated: "Attack (1x) \\nAction recovery 1-40%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "行动回复1"
@@ -30731,9 +31454,17 @@
   - splitPath: EchoName
     text: "一字快剑"
     translated: "Swift Sword Stroke"
+    qcReviewedText: "Swift Sword Stroke"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】"
     translated: "Attack Damage Class [Jianghu][Blade Sword]"
+    qcReviewedText: "Attack Damage Class [Jianghu][Blade Sword]\\nDeals 1 times the Hero's Power in damage and has a 40% chance to restore 1 Action Points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成1倍侠客功力的伤害，并有40%几率回复1点行动力。"
@@ -30747,12 +31478,17 @@
   - splitPath: GetDesc
     text: "三年一月开始，贡献到达30，探索松林场单青云、单紫云传授。"
     translated: "Starting in January of the third year, when your contribution reaches 30, explore Songlin Field to be taught by Dan Qingyun and Dan Zi Yun."
+    qcReviewedText: "Starting in January of the third year, when your contribution reaches 30, explore Songlin Field to be taught by Dan Qingyun and Dan Zi Yun."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
-    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcReviewedText: "Power+70/Flexible+7"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ExtraDesc
     subIndex: 1
     text: "灵活"
@@ -30770,12 +31506,20 @@
   - splitPath: Name
     text: "长青玉佩"
     translated: "Eternal Jade Pendant"
+    qcReviewedText: "Eternal Jade Pendant"
+    qcTranslated: "Evergreen Jade Pendant"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "【助力】气血上限"
     translated: "[Boost] Maximum Lifeforce Limit"
-    qcReviewedText: "[Boost] Maximum Lifeforce Limit+5%\\nNo need to go into battle for it to take effect."
+    qcReviewedText: "[Boost] Maximum Lifeforce Limit+3%\\nNo need to go into battle for it to take effect."
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "无需出战即可生效"
@@ -30783,12 +31527,23 @@
   - splitPath: EchoName
     text: "长青玉佩"
     translated: "Eternal Jade Pendant"
+    qcReviewedText: "Eternal Jade Pendant"
+    qcTranslated: "Evergreen Jade Pendant"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: DetailDesc
     text: "助力收集类【宝物】【特技】"
     translated: "Help Collect Items [Treasure] [Special Skills]"
-    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nWanderer Power bonus +7%"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%。"
+    qcTranslated: "Help Collect Items [Treasure] [Special Skills]\\nMaximum Lifeforce for Battle, Wanderer+3%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: DetailDesc
     subIndex: 1
     text: "出战侠客气血上限"
@@ -30816,21 +31571,31 @@
   - splitPath: Name
     text: "九离刀法"
     translated: "Nine Departing Blade Art"
+    qcReviewedText: "Nine Departing Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.9倍）"
     translated: "Attack (0.9 times)"
-    qcReviewedText: "Attack (0.9 times) \\nAction response 1<36%>"
+    qcReviewedText: "Attack (0.9 times)"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "九离刀法"
     translated: "Nine Departing Blade Art"
+    qcReviewedText: "Nine Departing Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     text: "攻击伤害类【江湖】【刀剑】"
     translated: "Attack Damage Class [Jianghu][Blade Sword]"
-    qcReviewedText: "Attack Damage Class [Jianghu][Blade Sword]\\nDeals 0.8 times the Wanderer's Power in damage per hit."
+    qcReviewedText: "Attack Damage Class [Jianghu][Blade Sword]\\nDeals 0.9 times the Wanderer's Power in damage with a single attack."
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: DetailDesc
     subIndex: 1
     text: "单次攻击造成0.9倍侠客功力的伤害。"
@@ -42387,6 +43152,10 @@
   - splitPath: Name
     text: "百花枪法2"
     translated: "Hundred Flowers Spear Art 2"
+    qcReviewedText: "Hundred Flowers Spear Art 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.3倍）"
     translated: "Attack (0.3 times)"
@@ -42400,6 +43169,10 @@
   - splitPath: EchoName
     text: "百花枪法"
     translated: "Hundred Flowers Spear Art"
+    qcReviewedText: "Hundred Flowers Spear Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "百兵"
     translated: "Hundred Weapons Style"
@@ -42415,6 +43188,10 @@
   - splitPath: Name
     text: "松风剑法2"
     translated: "Songfeng Sword Technique 2"
+    qcReviewedText: "Songfeng Sword Technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -42424,6 +43201,10 @@
   - splitPath: EchoName
     text: "松风剑法"
     translated: "Song Wind Sword Technique"
+    qcReviewedText: "Song Wind Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42436,6 +43217,10 @@
   - splitPath: Name
     text: "呼应剑法2"
     translated: "Respond with Sword Art 2"
+    qcReviewedText: "Respond with Sword Art 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -42445,6 +43230,10 @@
   - splitPath: EchoName
     text: "呼应剑法"
     translated: "Echoing Sword Technique"
+    qcReviewedText: "Echoing Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42457,12 +43246,17 @@
   - splitPath: Name
     text: "三官剑法2"
     translated: "Three Officials Sword Technique 2"
+    qcReviewedText: "Three Officials Sword Technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1.2倍）"
     translated: "Attack (1.2 times)"
-    qcReviewedText: "Attack (1.2 times) \\nAction response 1"
+    qcReviewedText: "Attack (1.2 times) \\nTriple strike"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "三连击"
@@ -42470,6 +43264,10 @@
   - splitPath: EchoName
     text: "三官剑法"
     translated: "Three Officials Sword Technique"
+    qcReviewedText: "Three Officials Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42485,15 +43283,24 @@
   - splitPath: Name
     text: "麻衣剑法2"
     translated: "Maiyi Sword Technique 2"
+    qcReviewedText: "Maiyi Sword Technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.6倍）"
     translated: "Attack (0.6 times)"
-    qcReviewedText: "Attack (0.6 times) \\nMinor injuries<18%>\\nConditions-Our Lifeforce ends with a number less than 6"
+    qcReviewedText: "Attack (0.6 times)"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "麻衣剑法"
     translated: "Maji Sword Technique"
+    qcReviewedText: "Maji Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42506,6 +43313,10 @@
   - splitPath: Name
     text: "芙蓉剑法2"
     translated: "Sword Art of Lotus Sword 2"
+    qcReviewedText: "Sword Art of Lotus Sword 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -42515,6 +43326,13 @@
   - splitPath: EchoName
     text: "芙蓉剑法"
     translated: "Sword Art of Lotus Sword Technique"
+    qcReviewedText: "Sword Art of Lotus Sword Technique"
+    qcTranslated: "Lotus Sword Art"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42527,6 +43345,13 @@
   - splitPath: Name
     text: "锦官一剑定川都2"
     translated: "Jin'gan's Sword Stabilizes the City of Chuandi 2"
+    qcReviewedText: "Jin'gan's Sword Stabilizes the City of Chuandi 2"
+    qcTranslated: "Jin Guan's Sword Stabilizes the City of Chuandu 2"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "攻击（5倍）"
     translated: "Attack (5 times)"
@@ -42536,6 +43361,14 @@
   - splitPath: EchoName
     text: "锦官一剑定川都"
     translated: "Jinshan's Sword Stabilizes the City of Chengdu"
+    qcReviewedText: "Jinshan's Sword Stabilizes the City of Chengdu"
+    qcTranslated: "Jin Guan's Sword Stabilizes the City of Chengdu"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42548,15 +43381,24 @@
   - splitPath: Name
     text: "颠倒剑法2"
     translated: "Reversed Sword Technique 2"
+    qcReviewedText: "Reversed Sword Technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（2倍）"
     translated: "Attack (2 times)"
-    qcReviewedText: "Attack (2 times) \\nElimination Tactics 1<40%>"
+    qcReviewedText: "Attack (2 times)"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "颠倒剑法"
     translated: "Reversed Swordsmanship"
+    qcReviewedText: "Reversed Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42569,6 +43411,10 @@
   - splitPath: Name
     text: "倒倒颠颠一剑功2"
     translated: "Wobbly Sword Technique 2"
+    qcReviewedText: "Wobbly Sword Technique 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（10倍）"
     translated: "Attack (10x)"
@@ -42578,6 +43424,10 @@
   - splitPath: EchoName
     text: "倒倒颠颠一剑功"
     translated: "A reversed awkward sword technique"
+    qcReviewedText: "A reversed awkward sword technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42590,15 +43440,24 @@
   - splitPath: Name
     text: "玄机剑法2"
     translated: "Mysterious Mechanism Sword Art 2"
+    qcReviewedText: "Mysterious Mechanism Sword Art 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "攻击（1倍）"
     translated: "Attack (1 times)"
-    qcReviewedText: "Attack (1 times) \\nDouble Strike"
+    qcReviewedText: "Attack (1 times)"
     qcStatus: Passed
     qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "玄机剑法"
     translated: "Mystic Sword Technique"
+    qcReviewedText: "Mystic Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -42611,9 +43470,17 @@
   - splitPath: Name
     text: "仙人抚顶道长生2"
     translated: "The immortal strokes the top of your head, granting you longevity 2"
+    qcReviewedText: "The immortal strokes the top of your head, granting you longevity 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "回春（40000）"
     translated: "Revive Health (40000)"
+    qcReviewedText: "Revive Health (40000) \\nClear the abnormal 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "清除异常2"
@@ -42621,6 +43488,10 @@
   - splitPath: EchoName
     text: "仙人抚顶道长生"
     translated: "Immortals caress the crown, Daoist longevity"
+    qcReviewedText: "Immortals caress the crown, Daoist longevity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -44966,9 +45837,17 @@
   - splitPath: Name
     text: "鹤啄"
     translated: "Crane Pecking"
+    qcReviewedText: "Crane Pecking"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "鹤啄"
     translated: "Crane Pecking"
+    qcReviewedText: "Crane Pecking"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -44981,9 +45860,17 @@
   - splitPath: Name
     text: "风袭"
     translated: "Wind sweeps"
+    qcReviewedText: "Wind sweeps"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "风袭"
     translated: "Wind sweeps"
+    qcReviewedText: "Wind sweeps"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -44996,9 +45883,17 @@
   - splitPath: Name
     text: "云隐"
     translated: "Cloud Concealment"
+    qcReviewedText: "Cloud Concealment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "云隐"
     translated: "Cloud Concealment"
+    qcReviewedText: "Cloud Concealment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -45011,9 +45906,17 @@
   - splitPath: Name
     text: "霜击"
     translated: "Frost Strike"
+    qcReviewedText: "Frost Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: EchoName
     text: "霜击"
     translated: "Frost Strike"
+    qcReviewedText: "Frost Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: SubType
     text: "特技"
     translated: "Stunt"
@@ -45026,15 +45929,33 @@
   - splitPath: Name
     text: "枯木逢春3"
     translated: "A withered tree meets spring 3"
+    qcReviewedText: "A withered tree meets spring 3"
+    qcTranslated: "A withered tree revives in spring 3"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - splitPath: Desc
     text: "行动回复9"
     translated: "Action response 9"
-    qcReviewedText: "Action response 9 \\nConditions-Our Lifeforce ends in a number greater than 7 \\nOnce only"
-    qcStatus: Passed
-    qcQualityScore: 100
+    qcReviewedText: "Action response 9"
+    qcTranslated: "Action recovery 9"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: EchoName
     text: "枯木逢春"
     translated: "A dead tree meets spring"
+    qcReviewedText: "A dead tree meets spring"
+    qcTranslated: "The withered tree revives in spring"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"

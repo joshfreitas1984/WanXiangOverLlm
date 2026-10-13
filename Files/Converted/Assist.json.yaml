@@ -137,6 +137,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (300) \\nIncreased Damage (10 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (300) \\nDamage Boost (10x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -170,6 +177,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (300) \\nIncreased Damage (10 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (300) \\nDamage Boost (10x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -203,6 +217,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (300) \\nIncreased Damage (10 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (300) \\nDamage Boost (10x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（300）"
@@ -336,6 +357,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (800) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (800) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<30%>\\n70% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -740,6 +768,14 @@
   - splitPath: Desc
     text: "行动回复"
     translated: "Action response"
+    qcReviewedText: "Action response-1"
+    qcTranslated: "Action recovery-1"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DomainTerm
   templates:
   - splitPath: Desc
     template: "{0}-1"
@@ -1013,6 +1049,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (500) \\nIncreased Damage (6 times Beast Taming) \\nPoisoned<20%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (500) \\nIncreased Damage (6x Beast Taming) \\nPoisoned<20%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -1050,6 +1093,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nIncreased Damage (10 times Beast Taming) \\nPoisoned<25%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1000) \\nIncreased Damage (10x Beast Taming) \\nPoisoned<25%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -1087,6 +1137,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1500) \\nIncreased Damage (14 times Beast Taming) \\nPoisoned<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1500) \\nIncreased Damage (14x Beast Taming) \\nPoisoned<30%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1500）"
@@ -1124,6 +1181,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (3000) \\nIncreased Damage (21 times Beast Taming) \\nPoisoned<40%>\\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (3000) \\nIncreased Damage (21x Beast Taming) \\nPoisoned<40%>\\n100% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（3000）"
@@ -1187,6 +1251,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (800) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (800) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<30%>\\n70% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -1224,6 +1295,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (800) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (800) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<30%>\\n70% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -1261,6 +1339,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (800) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (800) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<30%>\\n70% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -1478,6 +1563,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (500) \\nIncreased Damage (6 times Beast Taming) \\nMinor injuries<20%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (500) \\nDamage Boost (6x Beast Taming) \\nMinor Injuries<20%>\\n70% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -1515,6 +1607,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (500) \\nIncreased Damage (6 times Beast Taming) \\nProhibition of healing<30%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (500) \\nDamage Boost (6x Beast Taming) \\nHealing Prohibition<30%>\\n70% chance to trigger an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -1552,6 +1651,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (5000) \\nIncreased Damage (30 times Beast Taming) \\n60% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (5000) \\nDamage Boost (30x Beast Taming) \\n60% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（5000）"
@@ -1898,6 +2004,13 @@
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "[Illusion Item]"
+    qcReviewedText: "[Illusion Item]\\nAttack (1000) \\nIncreased Damage (28 times Illusion) \\nDazed<28%>\\n100% launch an attack"
+    qcTranslated: "[Illusion Item]\\nAttack (1000) \\nDamage Boost (28x Illusion) \\nDazed<28%>\\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -1935,6 +2048,10 @@
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "[Illusion Item]"
+    qcReviewedText: "[Illusion Item]\\nEnhance 1 \\n100% Activate Enhancement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "强化1"
@@ -1964,6 +2081,14 @@
   - splitPath: Desc
     text: "【幻术道具】"
     translated: "[Illusion Item]"
+    qcReviewedText: "[Illusion Item]\\nRevive (3000) \\nAmplify (10 times Illusion) \\n100% activate Revitalizing Spring"
+    qcTranslated: "[Illusion Item]\\nRevive (3000) \\nAmplify (10x Illusion) \\n100% chance to trigger Revive"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "回春（3000）"
@@ -2422,6 +2547,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1400) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<50%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1400) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<50%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -2459,6 +2591,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1400) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<50%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1400) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<50%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -2496,6 +2635,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1400) \\nIncreased Damage (12 times Beast Taming) \\nPoisoned<50%>\\n70% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1400) \\nIncreased Damage (12x Beast Taming) \\nPoisoned<50%>\\n70% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1400）"
@@ -2559,6 +2705,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (100) \\nIncreased Damage (3 times Beast Taming) \\nTriple strike \\nElimination Tactics 1<12%>\\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (100) \\nIncreased Damage (3x Beast Taming) \\nTriple Strike \\nElimination Tactics 1<12%>\\n100% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（100）"
@@ -3125,6 +3278,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nInterrupt attack<20%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -3158,6 +3315,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (2000) \\nInterrupt attack<40%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（2000）"
@@ -3191,6 +3352,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nExhaustion<20%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -3708,6 +3873,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nPoisoned<30%>\\n90% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -3741,6 +3910,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nPoisoned<30%>\\n90% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -3774,6 +3947,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nPoisoned<30%>\\n90% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -3807,6 +3984,10 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1000) \\nPoisoned<30%>\\n90% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1000）"
@@ -4535,6 +4716,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (200) \\nIncreased Damage (12 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (200) \\nDamage Boost (12x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（200）"
@@ -4568,6 +4756,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (200) \\nIncreased Damage (12 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (200) \\nDamage Boost (12x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（200）"
@@ -4601,6 +4796,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (200) \\nIncreased Damage (12 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (200) \\nDamage Boost (12x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（200）"
@@ -4660,6 +4862,10 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (3000) \\nSeal the acupuncture point<40%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（3000）"
@@ -4693,6 +4899,10 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (1200) \\nTriple strike \\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1200）"
@@ -4726,6 +4936,10 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (3000) \\nPoisoned<40%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（3000）"
@@ -4759,6 +4973,10 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (5000) \\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（5000）"
@@ -4788,6 +5006,10 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (1100) \\nTriple strike \\nMinor injuries<33%>\\n100% launch an attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1100）"
@@ -4851,6 +5073,13 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (500) \\nIncreased Damage (10 times craftsmanship) \\n100% launch an attack"
+    qcTranslated: "[Mechanism]\\nAttack (500) \\nIncreased Damage (10x Craftsmanship) \\n100% chance to trigger an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -4884,6 +5113,13 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (800) \\nIncreased Damage (16 times craftsmanship) \\n80% launch an attack"
+    qcTranslated: "[Mechanism]\\nAttack (800) \\nDamage Boost (16x Craftsmanship) \\n80% chance to trigger an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（800）"
@@ -4917,6 +5153,13 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (1200) \\nIncreased Damage (24 times craftsmanship) \\n60% launch an attack"
+    qcTranslated: "[Mechanism]\\nAttack (1200) \\nIncreased Damage (24x Craftsmanship) \\n60% chance to trigger an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1200）"
@@ -4950,6 +5193,13 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nReply with a few Action Points \\n50% activated"
+    qcTranslated: "[Mechanism]\\nRestore one Action Point \\n50% activated"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     subIndex: 1
     text: "回复一点行动力"
@@ -4979,6 +5229,13 @@
   - splitPath: Desc
     text: "【机关】"
     translated: "[Mechanism]"
+    qcReviewedText: "[Mechanism]\\nAttack (5555) \\nIncreased Damage (10 times craftsmanship) \\n50% launch an attack"
+    qcTranslated: "[Mechanism]\\nAttack (5555) \\nIncreased Damage (10x Craftsmanship) \\n50% chance to trigger an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（5555）"
@@ -5134,6 +5391,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (400) \\nIncreased Damage (13 times Beast Taming) \\nMinor injuries<30%>\\n90% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (400) \\nDamage Boost (13x Beast Taming) \\nMinor Injuries<30%>\\n90% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（400）"
@@ -5171,6 +5435,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (500) \\nIncreased Damage (18 times Beast Taming) \\n80% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (500) \\nDamage Boost (18x Beast Taming) \\n80% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（500）"
@@ -5204,6 +5475,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (4000) \\nIncreased Damage (20 times Beast Taming) \\nSevere injuries<40%>\\n60% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (4000) \\nDamage Boost (20x Beast Taming) \\nSevere Injury<40%>\\n60% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（4000）"
@@ -5289,6 +5567,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1200) \\nIncreased Damage (18 times Beast Taming) \\nMinor injuries<40%>\\n80% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1200) \\nDamage Boost (18x Beast Taming) \\nLight Wound<40%>\\n80% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1200）"
@@ -5456,6 +5741,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (600) \\nIncreased Damage (12 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (600) \\nDamage Boost (12x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（600）"
@@ -5491,6 +5783,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1500) \\nIncreased Damage (15x Beast Taming) \\nLaunch an attack at 75% intensity"
+    qcTranslated: "[Pet]\\nAttack (1500) \\nIncreased Damage (15x Beast Taming) \\n75% chance to launch an attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1500）"
@@ -5526,6 +5825,13 @@
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (7000) \\nIncreased Damage (15x Beast Taming) \\n50% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (7000) \\nDamage Boost (15x Beast Taming) \\n50% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（7000）"
@@ -5547,12 +5853,27 @@
   - splitPath: Name
     text: "灵鹤"
     translated: "Spirit Crane"
+    qcReviewedText: "Spirit Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "灵鹤"
     translated: "Spirit Crane"
+    qcReviewedText: "Spirit Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (400) \\nIncreased Damage (16 times Beast Taming) \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (400) \\nDamage Boost (16x Beast Taming) \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（400）"
@@ -5574,12 +5895,33 @@
   - splitPath: Name
     text: "风羽鹤"
     translated: "Feng Yuhexue"
+    qcReviewedText: "Feng Yuhexue"
+    qcTranslated: "Feng Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: ItemName
     text: "风羽鹤"
     translated: "Feng Yuhexue"
+    qcReviewedText: "Feng Yuhexue"
+    qcTranslated: "Feng Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (1200) \\nIncreased Damage (12 times Beast Taming) \\nDouble Strike \\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (1200) \\nIncreased Damage (12x Beast Taming) \\nDouble Strike \\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（1200）"
@@ -5605,12 +5947,33 @@
   - splitPath: Name
     text: "云羽鹤"
     translated: "Yun Yuhex"
+    qcReviewedText: "Yun Yuhex"
+    qcTranslated: "Yun Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: ItemName
     text: "云羽鹤"
     translated: "Yun Yuhex"
+    qcReviewedText: "Yun Yuhex"
+    qcTranslated: "Yun Yuhe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAction response-3<40%>"
+    qcTranslated: "[Pet]\\nAction recovery -3<40%>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - splitPath: Desc
     subIndex: 1
     text: "行动回复"
@@ -5624,12 +5987,27 @@
   - splitPath: Name
     text: "霜羽鹤"
     translated: "Frost Feather Crane"
+    qcReviewedText: "Frost Feather Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "霜羽鹤"
     translated: "Frost Feather Crane"
+    qcReviewedText: "Frost Feather Crane"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "【宠物】"
     translated: "[Pet]"
+    qcReviewedText: "[Pet]\\nAttack (4000) \\nIncreased Damage (20 times Beast Taming) \\nMinor injuries<40%>\\n100% launch an attack"
+    qcTranslated: "[Pet]\\nAttack (4000) \\nDamage Boost (20x Beast Taming) \\nLight Wound<40%>\\n100% chance to attack"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "攻击（4000）"
@@ -5655,21 +6033,44 @@
   - splitPath: Name
     text: "枯荣奇功"
     translated: "Marvelous Life and Death Technique"
+    qcReviewedText: "Marvelous Life and Death Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "枯荣奇功"
     translated: "Marvelous Life and Death Technique"
+    qcReviewedText: "Marvelous Life and Death Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "行动回复5"
     translated: "Action response 5"
+    qcReviewedText: "Action response 5"
+    qcTranslated: "Action recovery 5"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "{\r\n    \"Key\": \"217\",\r\n    \"Name\": \"天一遁法\",\r\n    \"ItemName\": \"天一遁法（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"天一遁法\",\r\n    \"ItemNameTw\": \"天一遁法（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 217
   splits:
   - splitPath: Name
     text: "天一遁法"
     translated: "Heavenly Escape Technique"
+    qcReviewedText: "Heavenly Escape Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: ItemName
     text: "天一遁法"
     translated: "Heavenly Escape Technique"
+    qcReviewedText: "Heavenly Escape Technique（{0}/{1}）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "每层抵消一次攻击"
     translated: "Each layer counters one attack"

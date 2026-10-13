@@ -6365,12 +6365,24 @@
   - splitPath: Name
     text: "百花姜天定"
     translated: "Hundred Flowers Jiang Tianding"
+    qcReviewedText: "Hundred Flowers Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "姜天定"
     translated: "Jiang Tianding"
+    qcReviewedText: "Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "松林三剑"
     translated: "Three Swords of the Pine Forest"
+    qcReviewedText: "Three Swords of the Pine Forest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "{\r\n    \"Key\": \"100405\",\r\n    \"Name\": \"天魔谭培公\",\r\n    \"Desc\": \"谭培公\",\r\n    \"PlayerName\": \"风云少侠\",\r\n    \"NameTw\": \"天魔譚培公\",\r\n    \"DescTw\": \"譚培公\",\r\n    \"PlayerNameTw\": \"風雲少俠\"\r\n  }"
   rawIndex: 100405
   splits:
@@ -6419,6 +6431,10 @@
   - splitPath: Name
     text: "比斗岳松涛"
     translated: "Challenge Yue Songtao"
+    qcReviewedText: "Challenge Yue Songtao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "岳松涛"
     translated: "Yue Songtao"
@@ -6437,9 +6453,17 @@
   - splitPath: Name
     text: "比斗温白石"
     translated: "Challenge Wen Baishi to a duel"
+    qcReviewedText: "Challenge Wen Baishi to a duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "温白石"
     translated: "Wen Baishi"
+    qcReviewedText: "Wen Baishi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6452,9 +6476,17 @@
   - splitPath: Name
     text: "比斗裴云鹤"
     translated: "Challenge Pei Yunhe to a fight"
+    qcReviewedText: "Challenge Pei Yunhe to a fight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "裴云鹤"
     translated: "Pei Yunhe"
+    qcReviewedText: "Pei Yunhe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6467,9 +6499,17 @@
   - splitPath: Name
     text: "比斗姜天定"
     translated: "Challenge Jiang Tianding to a fight"
+    qcReviewedText: "Challenge Jiang Tianding to a fight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "姜天定"
     translated: "Jiang Tianding"
+    qcReviewedText: "Jiang Tianding"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6482,9 +6522,20 @@
   - splitPath: Name
     text: "一阵风匪寇"
     translated: "Robber Wind"
+    qcReviewedText: "Robber Wind"
+    qcTranslated: "A band of wind bandits"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - splitPath: Desc
     text: "匪寇"
     translated: "Bandits"
+    qcReviewedText: "Bandits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6497,6 +6548,10 @@
   - splitPath: Name
     text: "谢家江湖人"
     translated: "Xie Family's Jianghu Connections"
+    qcReviewedText: "Xie Family's Jianghu Connections"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "两名江湖人"
     translated: "Two Jianghu People"
@@ -6515,9 +6570,20 @@
   - splitPath: Name
     text: "青城蓝不悔"
     translated: "Qingcheng Lan Buhui"
+    qcReviewedText: "Qingcheng Lan Buhui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "蓝不悔"
     translated: "Lan Buhan"
+    qcReviewedText: "Lan Buhan"
+    qcTranslated: "Lan Buhui"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6530,9 +6596,21 @@
   - splitPath: Name
     text: "谢仇人谢西楼"
     translated: "Thank Xie Xilou"
+    qcReviewedText: "Thank Xie Xilou"
+    qcTranslated: "Xie Churen, Xie Xilou"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "谢西楼"
     translated: "Xie Xilou"
+    qcReviewedText: "Xie Xilou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6545,6 +6623,10 @@
   - splitPath: Name
     text: "疯道江湖人"
     translated: "Mad Daoist of Jianghu"
+    qcReviewedText: "Mad Daoist of Jianghu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "两名江湖人"
     translated: "Two Jianghu People"
@@ -6563,9 +6645,20 @@
   - splitPath: Name
     text: "疯道柏灵霄"
     translated: "Foolish Daoist Bao Lingxiao"
+    qcReviewedText: "Foolish Daoist Bao Lingxiao"
+    qcTranslated: "Mad Daoist Bai Lingxiao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - splitPath: Desc
     text: "柏灵霄"
     translated: "Bailinxiao"
+    qcReviewedText: "Bailinxiao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"
@@ -6578,9 +6671,17 @@
   - splitPath: Name
     text: "比武吕伯阳"
     translated: "Challenge Lu Boyang to a duel"
+    qcReviewedText: "Challenge Lu Boyang to a duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: Desc
     text: "吕伯阳"
     translated: "Lu Boyang"
+    qcReviewedText: "Lu Boyang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - splitPath: PlayerName
     text: "风云少侠"
     translated: "Young Hero Fengyun"

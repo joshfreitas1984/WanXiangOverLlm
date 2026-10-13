@@ -381,7 +381,7 @@
     template: "{0}（⟦0⟧/⟦1⟧）"
   - splitPath: Desc
     template: "{0}+⟦0⟧%"
-- raw: "{\r\n    \"Key\": \"32\",\r\n    \"Name\": \"九流奇功\",\r\n    \"ItemName\": \"九流奇功\",\r\n    \"Desc\": \"归元-1<50%>\",\r\n    \"NameTw\": \"九流奇功\",\r\n    \"ItemNameTw\": \"九流奇功\",\r\n    \"DescTw\": \"歸元-1<50%>\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"32\",\r\n    \"Name\": \"九流奇功\",\r\n    \"ItemName\": \"九流奇功\",\r\n    \"Desc\": \"行动回复-1\",\r\n    \"NameTw\": \"九流奇功\",\r\n    \"ItemNameTw\": \"九流奇功\",\r\n    \"DescTw\": \"行動回覆-1\"\r\n  }"
   rawIndex: 32
   splits:
   - splitPath: Name
@@ -389,10 +389,10 @@
   - splitPath: ItemName
     text: "九流奇功"
   - splitPath: Desc
-    text: "归元"
+    text: "行动回复"
   templates:
   - splitPath: Desc
-    template: "{0}-1<50%>"
+    template: "{0}-1"
 - raw: "{\r\n    \"Key\": \"33\",\r\n    \"Name\": \"桃花合欢尘\",\r\n    \"ItemName\": \"桃花合欢尘（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"桃花合歡塵\",\r\n    \"ItemNameTw\": \"桃花合歡塵（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
   rawIndex: 33
   splits:
@@ -3036,3 +3036,108 @@
   templates:
   - splitPath: Desc
     template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "{\r\n    \"Key\": \"212\",\r\n    \"Name\": \"灵鹤\",\r\n    \"ItemName\": \"灵鹤\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（400）\\\\n增伤（16倍御兽）\\\\n100%发动攻击\",\r\n    \"NameTw\": \"靈鶴\",\r\n    \"ItemNameTw\": \"靈鶴\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（400）\\\\n增傷（16倍御獸）\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 212
+  splits:
+  - splitPath: Name
+    text: "灵鹤"
+  - splitPath: ItemName
+    text: "灵鹤"
+  - splitPath: Desc
+    text: "【宠物】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（400）"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（16倍御兽）"
+  - splitPath: Desc
+    subIndex: 3
+    text: "100%发动攻击"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "{\r\n    \"Key\": \"213\",\r\n    \"Name\": \"风羽鹤\",\r\n    \"ItemName\": \"风羽鹤\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（1200）\\\\n增伤（12倍御兽）\\\\n二连击\\\\n100%发动攻击\",\r\n    \"NameTw\": \"風羽鶴\",\r\n    \"ItemNameTw\": \"風羽鶴\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（1200）\\\\n增傷（12倍御獸）\\\\n二連擊\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 213
+  splits:
+  - splitPath: Name
+    text: "风羽鹤"
+  - splitPath: ItemName
+    text: "风羽鹤"
+  - splitPath: Desc
+    text: "【宠物】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（1200）"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（12倍御兽）"
+  - splitPath: Desc
+    subIndex: 3
+    text: "二连击"
+  - splitPath: Desc
+    subIndex: 4
+    text: "100%发动攻击"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "{\r\n    \"Key\": \"214\",\r\n    \"Name\": \"云羽鹤\",\r\n    \"ItemName\": \"云羽鹤\",\r\n    \"Desc\": \"【宠物】\\\\n行动回复-3<40%>\",\r\n    \"NameTw\": \"雲羽鶴\",\r\n    \"ItemNameTw\": \"雲羽鶴\",\r\n    \"DescTw\": \"【寵物】\\\\n行動回覆-3<40%>\"\r\n  }"
+  rawIndex: 214
+  splits:
+  - splitPath: Name
+    text: "云羽鹤"
+  - splitPath: ItemName
+    text: "云羽鹤"
+  - splitPath: Desc
+    text: "【宠物】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-3<40%>"
+- raw: "{\r\n    \"Key\": \"215\",\r\n    \"Name\": \"霜羽鹤\",\r\n    \"ItemName\": \"霜羽鹤\",\r\n    \"Desc\": \"【宠物】\\\\n攻击（4000）\\\\n增伤（20倍御兽）\\\\n轻伤<40%>\\\\n100%发动攻击\",\r\n    \"NameTw\": \"霜羽鶴\",\r\n    \"ItemNameTw\": \"霜羽鶴\",\r\n    \"DescTw\": \"【寵物】\\\\n攻擊（4000）\\\\n增傷（20倍御獸）\\\\n輕傷<40%>\\\\n100%發動攻擊\"\r\n  }"
+  rawIndex: 215
+  splits:
+  - splitPath: Name
+    text: "霜羽鹤"
+  - splitPath: ItemName
+    text: "霜羽鹤"
+  - splitPath: Desc
+    text: "【宠物】"
+  - splitPath: Desc
+    subIndex: 1
+    text: "攻击（4000）"
+  - splitPath: Desc
+    subIndex: 2
+    text: "增伤（20倍御兽）"
+  - splitPath: Desc
+    subIndex: 3
+    text: "轻伤"
+  - splitPath: Desc
+    subIndex: 4
+    text: "100%发动攻击"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}\\n{3}<40%>\\n{4}"
+- raw: "{\r\n    \"Key\": \"216\",\r\n    \"Name\": \"枯荣奇功\",\r\n    \"ItemName\": \"枯荣奇功\",\r\n    \"Desc\": \"行动回复5\",\r\n    \"NameTw\": \"枯榮奇功\",\r\n    \"ItemNameTw\": \"枯榮奇功\",\r\n    \"DescTw\": \"行動回覆5\"\r\n  }"
+  rawIndex: 216
+  splits:
+  - splitPath: Name
+    text: "枯荣奇功"
+  - splitPath: ItemName
+    text: "枯荣奇功"
+  - splitPath: Desc
+    text: "行动回复5"
+- raw: "{\r\n    \"Key\": \"217\",\r\n    \"Name\": \"天一遁法\",\r\n    \"ItemName\": \"天一遁法（{0}/{1}）\",\r\n    \"Desc\": \"每层抵消一次攻击\",\r\n    \"NameTw\": \"天一遁法\",\r\n    \"ItemNameTw\": \"天一遁法（{0}/{1}）\",\r\n    \"DescTw\": \"每層抵消一次攻擊\"\r\n  }"
+  rawIndex: 217
+  splits:
+  - splitPath: Name
+    text: "天一遁法"
+  - splitPath: ItemName
+    text: "天一遁法"
+  - splitPath: Desc
+    text: "每层抵消一次攻击"
+  templates:
+  - splitPath: ItemName
+    template: "{0}（⟦0⟧/⟦1⟧）"

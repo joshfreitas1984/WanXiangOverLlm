@@ -79,6 +79,12 @@
     qcReviewedText: "Sichuan Starting Point"
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8\",\r\n    \"Name\": \"紫阳观\",\r\n    \"NameTw\": \"紫陽觀\"\r\n  }"
+  rawIndex: 8
+  splits:
+  - splitPath: Name
+    text: "紫阳观"
+    translated: "Ziyang Monastery"
 - raw: "{\r\n    \"Key\": \"99\",\r\n    \"Name\": \"望驾山\",\r\n    \"NameTw\": \"望駕山\"\r\n  }"
   rawIndex: 99
   splits:
@@ -509,6 +515,81 @@
     qcReviewedText: "In the region of Chu-Shu, a small inn stands out as the go-to choice for travelers despite its unremarkable reputation."
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"801\",\r\n    \"Name\": \"问道宫\",\r\n    \"Desc\": \"青城派正殿，是青城派掌门与众长老议事与待客之处。\",\r\n    \"NameTw\": \"問道宮\",\r\n    \"DescTw\": \"青城派正殿，是青城派掌門與眾長老議事與待客之處。\"\r\n  }"
+  rawIndex: 801
+  splits:
+  - splitPath: Name
+    text: "问道宫"
+    translated: "Dao Inquiry Palace"
+  - splitPath: Desc
+    text: "青城派正殿，是青城派掌门与众长老议事与待客之处。"
+    translated: "The main hall of Qingcheng Sect is where the Sect Master and Elders convene for meetings and receive guests."
+- raw: "{\r\n    \"Key\": \"802\",\r\n    \"Name\": \"道藏阁\",\r\n    \"Desc\": \"紫阳观书阁，是收藏青城派道学、武学和其余杂学之类书典之处。\",\r\n    \"NameTw\": \"道藏閣\",\r\n    \"DescTw\": \"紫陽觀書閣，是收藏青城派道學、武學和其餘雜學之類書典之處。\"\r\n  }"
+  rawIndex: 802
+  splits:
+  - splitPath: Name
+    text: "道藏阁"
+    translated: "Dao Repository Hall"
+  - splitPath: Desc
+    text: "紫阳观书阁，是收藏青城派道学、武学和其余杂学之类书典之处。"
+    translated: "Ziyang Monastery's Library is where the Qingcheng Sect's texts on Daoist Studies, martial arts, and other miscellaneous studies are collected."
+- raw: "{\r\n    \"Key\": \"803\",\r\n    \"Name\": \"松庐丹舍\",\r\n    \"Desc\": \"紫阳观外丹房，是青城派弟子烹炼金石，炼汞烧丹之处。\",\r\n    \"NameTw\": \"鬆廬丹舍\",\r\n    \"DescTw\": \"紫陽觀外丹房，是青城派弟子烹鍊金石，鍊汞燒丹之處。\"\r\n  }"
+  rawIndex: 803
+  splits:
+  - splitPath: Name
+    text: "松庐丹舍"
+    translated: "Songlu Pill Shop"
+  - splitPath: Desc
+    text: "紫阳观外丹房，是青城派弟子烹炼金石，炼汞烧丹之处。"
+    translated: "Outside the Ziyang Monastery, in the alchemy room, is where Qingcheng Sect disciples refine minerals and metals, distill mercury, and brew elixirs."
+- raw: "{\r\n    \"Key\": \"804\",\r\n    \"Name\": \"灵鹤苑\",\r\n    \"Desc\": \"紫阳观外鹤苑，是青城派弟子驯牧、饲育灵鹤之处。\",\r\n    \"NameTw\": \"靈鶴苑\",\r\n    \"DescTw\": \"紫陽觀外鶴苑，是青城派弟子馴牧、飼育靈鶴之處。\"\r\n  }"
+  rawIndex: 804
+  splits:
+  - splitPath: Name
+    text: "灵鹤苑"
+    translated: "Spirit Crane Garden"
+  - splitPath: Desc
+    text: "紫阳观外鹤苑，是青城派弟子驯牧、饲育灵鹤之处。"
+    translated: "The Crane Garden outside Ziyang Temple is where Qingcheng Sect disciples train and raise spiritual cranes."
+- raw: "{\r\n    \"Key\": \"805\",\r\n    \"Name\": \"百药圃\",\r\n    \"Desc\": \"紫阳观外田，是青城派弟子种植、培育、炮制药草之处。\",\r\n    \"NameTw\": \"百藥圃\",\r\n    \"DescTw\": \"紫陽觀外田，是青城派弟子種植、培育、炮製藥草之處。\"\r\n  }"
+  rawIndex: 805
+  splits:
+  - splitPath: Name
+    text: "百药圃"
+    translated: "Hundred Herbs Garden"
+  - splitPath: Desc
+    text: "紫阳观外田，是青城派弟子种植、培育、炮制药草之处。"
+    translated: "The fields outside Ziyang Temple are where the Qingcheng Sect disciples cultivate and process medicinal herbs."
+- raw: "{\r\n    \"Key\": \"806\",\r\n    \"Name\": \"九真阁\",\r\n    \"Desc\": \"紫阳观易楼，是青城派弟子习学术数、卜算、易卦之处。\",\r\n    \"NameTw\": \"九真閣\",\r\n    \"DescTw\": \"紫陽觀易樓，是青城派弟子習學術數、卜算、易卦之處。\"\r\n  }"
+  rawIndex: 806
+  splits:
+  - splitPath: Name
+    text: "九真阁"
+    translated: "Nine True Pavilion"
+  - splitPath: Desc
+    text: "紫阳观易楼，是青城派弟子习学术数、卜算、易卦之处。"
+    translated: "Ziyang Pavilion of Yi Tower is where Qingcheng Sect disciples study divination, divination casting, and the I Ching."
+- raw: "{\r\n    \"Key\": \"807\",\r\n    \"Name\": \"松林场\",\r\n    \"Desc\": \"紫阳观外松林中的演武场，是青城派弟子日常习武，切磋技艺之处。\",\r\n    \"NameTw\": \"松林場\",\r\n    \"DescTw\": \"紫陽觀外松林中的演武場，是青城派弟子日常習武，切磋技藝之處。\"\r\n  }"
+  rawIndex: 807
+  splits:
+  - splitPath: Name
+    text: "松林场"
+    translated: "Pine Forest Camp"
+  - splitPath: Desc
+    text: "紫阳观外松林中的演武场，是青城派弟子日常习武，切磋技艺之处。"
+    translated: "The training ground outside Ziyang Temple in the pine forest is where Qingcheng Sect disciples practice martial arts and exchange techniques daily."
+- raw: "{\r\n    \"Key\": \"808\",\r\n    \"Name\": \"后山\",\r\n    \"Desc\": \"紫阳观后山群峰，共有三十六峰，皆藏妙景，别有洞天。\",\r\n    \"NameTw\": \"後山\",\r\n    \"DescTw\": \"紫陽觀後山群峰，共有三十六峰，皆藏妙景，別有洞天。\"\r\n  }"
+  rawIndex: 808
+  splits:
+  - splitPath: Name
+    text: "后山"
+    translated: "Back mountain"
+    qcReviewedText: "Back mountain"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: Desc
+    text: "紫阳观后山群峰，共有三十六峰，皆藏妙景，别有洞天。"
+    translated: "The rear mountains of Ziyang Temple consist of thirty-six peaks, each hiding wondrous scenery and offering a world apart."
 - raw: "{\r\n    \"Key\": \"9901\",\r\n    \"Name\": \"广成丹穴\",\r\n    \"Desc\": \"崆峒山东峰望驾山绝壁丹穴，内中留有广成子遗刻。\",\r\n    \"NameTw\": \"廣成丹穴\",\r\n    \"DescTw\": \"崆峒山東峰望駕山絕壁丹穴，內中留有廣成子遺刻。\"\r\n  }"
   rawIndex: 9901
   splits:

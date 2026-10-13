@@ -1460,6 +1460,52 @@
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}"
+- raw: "{\r\n    \"Key\": \"32\",\r\n    \"Name\": \"蓝不悔\",\r\n    \"Desc\": \"①探索青城问道宫了解蓝希圣当年之事。\\\\n②探索青城后山，寇扶摇告知蓝不悔当年之事。\\\\n③探索青城问道宫将蓝不悔带回青城。\\\\n④第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣。\\\\n⑤探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。\",\r\n    \"LockDesc\": \"第四年一月开始，探索川西遇到谢剑鸣拦阻蓝不悔，战胜谢剑鸣手下两名江湖人，此后探索青城后山，战胜蓝不悔后加入。\",\r\n    \"GuidDescList\": [\r\n      \"探索青城问道宫了解蓝希圣当年之事。\",\r\n      \"探索青城后山，寇扶摇告知蓝不悔当年之事。\",\r\n      \"探索青城问道宫将蓝不悔带回青城。\",\r\n      \"第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣。\",\r\n      \"探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"藍不悔\",\r\n    \"DescTw\": \"①探索青城問道宮瞭解藍希聖當年之事。\\\\n②探索青城後山，寇扶搖告知藍不悔當年之事。\\\\n③探索青城問道宮將藍不悔帶回青城。\\\\n④第七年一月開始探索川西帶藍不悔遊玩成都，再遇謝劍鳴。\\\\n⑤探索青城問道宮，謝西樓攜子前來，戰勝謝西樓解鎖藍不悔紅顏。\",\r\n    \"LockDescTw\": \"第四年一月開始，探索川西遇到謝劍鳴攔阻藍不悔，戰勝謝劍鳴手下兩名江湖人，此後探索青城後山，戰勝藍不悔後加入。\",\r\n    \"GuidDescTwList\": [\r\n      \"探索青城問道宮瞭解藍希聖當年之事。\",\r\n      \"探索青城後山，寇扶搖告知藍不悔當年之事。\",\r\n      \"探索青城問道宮將藍不悔帶回青城。\",\r\n      \"第七年一月開始探索川西帶藍不悔遊玩成都，再遇謝劍鳴。\",\r\n      \"探索青城問道宮，謝西樓攜子前來，戰勝謝西樓解鎖藍不悔紅顏。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 32
+  splits:
+  - splitPath: Name
+    text: "蓝不悔"
+    translated: "Lan Buhan"
+  - splitPath: Desc
+    text: "探索青城问道宫了解蓝希圣当年之事。"
+    translated: "Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past."
+  - splitPath: Desc
+    subIndex: 1
+    text: "探索青城后山，寇扶摇告知蓝不悔当年之事。"
+    translated: "After exploring the rear mountains of Qingcheng, Kou Fuyao told Lan Buhui about what happened back then."
+  - splitPath: Desc
+    subIndex: 2
+    text: "探索青城问道宫将蓝不悔带回青城。"
+    translated: "Explore Qingcheng to bring Lan Buhui back to Qingcheng."
+  - splitPath: Desc
+    subIndex: 3
+    text: "第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣。"
+    translated: "In January of the seventh year, I began exploring the western part of Sichuan, showing Lan Buhui around Chengdu, and ran into Xie Jianming again."
+  - splitPath: Desc
+    subIndex: 4
+    text: "探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。"
+    translated: "Exploring Qingcheng Dao Seeking Palace, Xie Xilou comes with his son. Defeating Xie Xilou unlocks Blue Regret's Affection."
+  - splitPath: LockDesc
+    text: "第四年一月开始，探索川西遇到谢剑鸣拦阻蓝不悔，战胜谢剑鸣手下两名江湖人，此后探索青城后山，战胜蓝不悔后加入。"
+    translated: "Starting in January of the fourth year, while exploring western Sichuan, you encountered Xie Jianming blocking Lan Buhui. After defeating two Jianghu figures under Xie Jianming's command, you continued to explore the rear mountains of Qingcheng. Following a victory over Lan Buhui, you joined their side."
+  - splitPath: GuidDescList[0]
+    text: "探索青城问道宫了解蓝希圣当年之事。"
+    translated: "Explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past."
+  - splitPath: GuidDescList[1]
+    text: "探索青城后山，寇扶摇告知蓝不悔当年之事。"
+    translated: "After exploring the rear mountains of Qingcheng, Kou Fuyao told Lan Buhui about what happened back then."
+  - splitPath: GuidDescList[2]
+    text: "探索青城问道宫将蓝不悔带回青城。"
+    translated: "Explore Qingcheng Dao Inquiry Palace to bring Lan Buhui back to Qingcheng."
+  - splitPath: GuidDescList[3]
+    text: "第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣。"
+    translated: "In January of the seventh year, I began exploring the western Sichuan region and showed Cang Xi to Lan Bu Hou. I met Xie Jian Ming again."
+  - splitPath: GuidDescList[4]
+    text: "探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。"
+    translated: "Exploring Qingcheng Dao Seeking Palace, Xie Xilou comes with his son. Defeating Xie Xilou unlocks Lan BuHui as a Red Beauty."
+  templates:
+  - splitPath: Desc
+    template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}"
 - raw: "{\r\n    \"Key\": \"24\",\r\n    \"Name\": \"唐幺幺\",\r\n    \"Desc\": \"①第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。\\\\n②福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。\\\\n③匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。\",\r\n    \"LockDesc\": \"加入唐门，第三年一月开始，贡献到达20，探索安乐窝听到唐幺幺与唐纵吵架，此后探索演武场，和闹事的唐幺幺进行战斗，最后探索后山，为唐幺幺治腿结识。\",\r\n    \"GuidDescList\": [\r\n      \"第五年一月开始，探索安乐窝，得知天蚕丝的隐秘。\",\r\n      \"福缘到达180，探索川西在迷魂凼找到天蚕丝和云铁。\",\r\n      \"匠造到达大师，探索千机坊，为唐幺幺锻造“千羽千寻”后解锁唐幺幺红颜。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"唐么么\",\r\n    \"DescTw\": \"①第五年一月開始，探索安樂窩，得知天蠶絲的隱祕。\\\\n②福緣到達180，探索川西在迷魂凼找到天蠶絲和雲鐵。\\\\n③匠造到達大師，探索千機坊，為唐么么鍛造“千羽千尋”後解鎖唐么么紅顏。\",\r\n    \"LockDescTw\": \"加入唐門，第三年一月開始，貢獻到達20，探索安樂窩聽到唐么么與唐縱吵架，此後探索演武場，和鬧事的唐么么進行戰鬥，最後探索後山，為唐么么治腿結識。\",\r\n    \"GuidDescTwList\": [\r\n      \"第五年一月開始，探索安樂窩，得知天蠶絲的隱祕。\",\r\n      \"福緣到達180，探索川西在迷魂凼找到天蠶絲和雲鐵。\",\r\n      \"匠造到達大師，探索千機坊，為唐么么鍛造“千羽千尋”後解鎖唐么么紅顏。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 24
   splits:
@@ -3566,7 +3612,7 @@
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}"
   - splitPath: RepeatDesc
     template: "{0}-{1}"
-- raw: "{\r\n    \"Key\": \"1017\",\r\n    \"Name\": \"丐帮廉字舵\",\r\n    \"Desc\": \"①探索川西白猿寺向元大圣学习驯猿。\\\\n②御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。\\\\n③探索川西峨眉山，收服抢包裹的猿猴。\\\\n④探索白猿寺看到猿猴跪拜石像。\\\\n⑤第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。\\\\n⑥探索白猿寺，元大圣邀请喝猴儿酒。\\\\n⑦灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。\",\r\n    \"DetailDesc\": \"位于川西嘉定府峨眉山下，是丐帮八大分舵之一，统领川蜀一地丐帮弟子，舵中弟子多靠驯猿杂耍乞讨，虽以乞化为生，却不行不义之举，舵主【铁棒猴王】元大圣开明练达，养一只名为元小圣的异种猿猴作为孙子。\",\r\n    \"LockDesc\": \"第四年一月起，探索川中，遇到元大圣耍猴遇到无赖刁难，选择出手相助，此后再次探索川西拜访白猿寺开放。\",\r\n    \"RepeatDesc\": \"探索白猿寺可与猿猴玩耍习练御兽。\",\r\n    \"GuidDescList\": [\r\n      \"探索川西白猿寺向元大圣学习驯猿。\",\r\n      \"御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。\",\r\n      \"探索川西峨眉山，收服抢包裹的猿猴。\",\r\n      \"探索白猿寺看到猿猴跪拜石像。\",\r\n      \"第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。\",\r\n      \"探索白猿寺，元大圣邀请喝猴儿酒。\",\r\n      \"灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"丐幫廉字舵\",\r\n    \"DescTw\": \"①探索川西白猿寺向元大聖學習馴猿。\\\\n②御獸到達入門，探索白猿寺，聽聞峨眉山上猿猴聚居。\\\\n③探索川西峨眉山，收服搶包裹的猿猴。\\\\n④探索白猿寺看到猿猴跪拜石像。\\\\n⑤第七年一月開始，御獸到達高手，探索峨眉山，戰勝赤眉白猿後收服。\\\\n⑥探索白猿寺，元大聖邀請喝猴兒酒。\\\\n⑦靈活到達160，探索川南，登上無回峰取下靈明草救下元小聖，解鎖丐幫廉字舵。\",\r\n    \"DetailDescTw\": \"位於川西嘉定府峨眉山下，是丐幫八大分舵之一，統領川蜀一地丐幫弟子，舵中弟子多靠馴猿雜耍乞討，雖以乞化為生，卻不行不義之舉，舵主【鐵棒猴王】元大聖開明練達，養一隻名為元小聖的異種猿猴作為孫子。\",\r\n    \"LockDescTw\": \"第四年一月起，探索川中，遇到元大聖耍猴遇到無賴刁難，選擇出手相助，此後再次探索川西拜訪白猿寺開放。\",\r\n    \"RepeatDescTw\": \"探索白猿寺可與猿猴玩耍習練御獸。\",\r\n    \"GuidDescTwList\": [\r\n      \"探索川西白猿寺向元大聖學習馴猿。\",\r\n      \"御獸到達入門，探索白猿寺，聽聞峨眉山上猿猴聚居。\",\r\n      \"探索川西峨眉山，收服搶包裹的猿猴。\",\r\n      \"探索白猿寺看到猿猴跪拜石像。\",\r\n      \"第七年一月開始，御獸到達高手，探索峨眉山，戰勝赤眉白猿後收服。\",\r\n      \"探索白猿寺，元大聖邀請喝猴兒酒。\",\r\n      \"靈活到達160，探索川南，登上無回峰取下靈明草救下元小聖，解鎖丐幫廉字舵。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+- raw: "{\r\n    \"Key\": \"1017\",\r\n    \"Name\": \"丐帮廉字舵\",\r\n    \"Desc\": \"①探索川西白猿寺向元大圣学习驯猿。\\\\n②御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。\\\\n③探索川西峨眉山，收服抢包裹的猿猴。\\\\n④探索白猿寺看到猿猴跪拜石像。\\\\n⑤第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。\\\\n⑥探索白猿寺，元大圣邀请喝猴儿酒。\\\\n⑦灵活到达160，丐帮廉字舵友好到达80，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。\",\r\n    \"DetailDesc\": \"位于川西嘉定府峨眉山下，是丐帮八大分舵之一，统领川蜀一地丐帮弟子，舵中弟子多靠驯猿杂耍乞讨，虽以乞化为生，却不行不义之举，舵主【铁棒猴王】元大圣开明练达，养一只名为元小圣的异种猿猴作为孙子。\",\r\n    \"LockDesc\": \"第四年一月起，探索川中，遇到元大圣耍猴遇到无赖刁难，选择出手相助，此后再次探索川西拜访白猿寺开放。\",\r\n    \"RepeatDesc\": \"探索白猿寺可与猿猴玩耍习练御兽。\",\r\n    \"GuidDescList\": [\r\n      \"探索川西白猿寺向元大圣学习驯猿。\",\r\n      \"御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。\",\r\n      \"探索川西峨眉山，收服抢包裹的猿猴。\",\r\n      \"探索白猿寺看到猿猴跪拜石像。\",\r\n      \"第七年一月开始，御兽到达高手，探索峨眉山，战胜赤眉白猿后收服。\",\r\n      \"探索白猿寺，元大圣邀请喝猴儿酒。\",\r\n      \"灵活到达160，丐帮廉字舵友好到达80，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"NameTw\": \"丐幫廉字舵\",\r\n    \"DescTw\": \"①探索川西白猿寺向元大聖學習馴猿。\\\\n②御獸到達入門，探索白猿寺，聽聞峨眉山上猿猴聚居。\\\\n③探索川西峨眉山，收服搶包裹的猿猴。\\\\n④探索白猿寺看到猿猴跪拜石像。\\\\n⑤第七年一月開始，御獸到達高手，探索峨眉山，戰勝赤眉白猿後收服。\\\\n⑥探索白猿寺，元大聖邀請喝猴兒酒。\\\\n⑦靈活到達160，丐幫廉字舵友好到達80，探索川南，登上無回峰取下靈明草救下元小聖，解鎖丐幫廉字舵。\",\r\n    \"DetailDescTw\": \"位於川西嘉定府峨眉山下，是丐幫八大分舵之一，統領川蜀一地丐幫弟子，舵中弟子多靠馴猿雜耍乞討，雖以乞化為生，卻不行不義之舉，舵主【鐵棒猴王】元大聖開明練達，養一隻名為元小聖的異種猿猴作為孫子。\",\r\n    \"LockDescTw\": \"第四年一月起，探索川中，遇到元大聖耍猴遇到無賴刁難，選擇出手相助，此後再次探索川西拜訪白猿寺開放。\",\r\n    \"RepeatDescTw\": \"探索白猿寺可與猿猴玩耍習練御獸。\",\r\n    \"GuidDescTwList\": [\r\n      \"探索川西白猿寺向元大聖學習馴猿。\",\r\n      \"御獸到達入門，探索白猿寺，聽聞峨眉山上猿猴聚居。\",\r\n      \"探索川西峨眉山，收服搶包裹的猿猴。\",\r\n      \"探索白猿寺看到猿猴跪拜石像。\",\r\n      \"第七年一月開始，御獸到達高手，探索峨眉山，戰勝赤眉白猿後收服。\",\r\n      \"探索白猿寺，元大聖邀請喝猴兒酒。\",\r\n      \"靈活到達160，丐幫廉字舵友好到達80，探索川南，登上無回峰取下靈明草救下元小聖，解鎖丐幫廉字舵。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 1017
   splits:
   - splitPath: Name
@@ -3579,15 +3625,6 @@
   - splitPath: Desc
     text: "探索川西白猿寺向元大圣学习驯猿。"
     translated: "Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan."
-    qcReviewedText: "①Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan.\\n②With Beast Taming at the beginner level, he explored White Ape Temple and heard that apes lived in large numbers on Mount Emei.\\n③Explore Emei Mountain in western Sichuan and subdue the monkeys that are stealing packages.\\n④Exploring Baiyan Temple, I saw monkeys kneeling before stone statues.\\n⑤Starting from January of the seventh Year, the practitioner advances in Beast Taming, explores Mount Emei, and subdues the Red-Eyed White Ape after defeating it.\\n⑥Exploring the White Ape Temple, the Great Sage Yuan invites him to drink Monkey Wine.\\n⑦Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wu Hui to retrieve the Ling Ming Grass and save Yuan Xiao Sheng, thereby unlocking the Beggars Sect's Lian Zhi Dao."
-    qcTranslated: "1. Explore Baiyan Temple in western Sichuan to learn monkey training from Master Xiang Yuan.\\n2. With Beast Taming at the beginner level, explore White Ape Temple and hear that apes live in large numbers on Mount Emei.\\n3. Explore Emei Mountain in western Sichuan and subdue the monkeys that are stealing packages.\\n4. Exploring Baiyan Temple, I saw monkeys kneeling before stone statues.\\n5. Starting from January of the seventh year, advance Beast Taming to the expert level, explore Mount Emei, and subdue the Red-Browed White Ape after defeating it.\\n6. Exploring White Ape Temple, the Great Sage Yuan invites him to drink Monkey Wine.\\n7. Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wu Hui to retrieve the Ling Ming Grass and save Yuan Xiao Sheng, thereby unlocking the Beggars Sect's Lian Zhi Dao."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
-    - DroppedContent
-    - UnnaturalPhrasing
   - splitPath: Desc
     subIndex: 1
     text: "御兽到达入门，探索白猿寺，听闻峨眉山上猿猴聚居。"
@@ -3610,8 +3647,8 @@
     translated: "Exploring the White Ape Temple, the Great Sage Yuan invites him to drink Monkey Wine."
   - splitPath: Desc
     subIndex: 6
-    text: "灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。"
-    translated: "Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wu Hui to retrieve the Ling Ming Grass and save Yuan Xiao Sheng, thereby unlocking the Beggars Sect's Lian Zhi Dao."
+    text: "灵活到达160，丐帮廉字舵友好到达80，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。"
+    translated: "Arrive at 160 with flexibility, Beggars' Sect's Lian Character Division arrives amicably at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
   - splitPath: DetailDesc
     text: "位于川西嘉定府峨眉山下，是丐帮八大分舵之一，统领川蜀一地丐帮弟子，舵中弟子多靠驯猿杂耍乞讨，虽以乞化为生，却不行不义之举，舵主【铁棒猴王】元大圣开明练达，养一只名为元小圣的异种猿猴作为孙子。"
     translated: "Located at the foot of Mount Emei in Jiading Prefecture, western Sichuan, it is one of the eight major branches of the Beggar Sect, governing its disciples throughout the Sichuan and Shu regions. Most of its members make a living by performing tricks with tamed monkeys, though they rely on begging rather than resorting to unjust acts. The branch leader, the enlightened and wise Iron Rod Monkey King Yuan Da Sheng, raises a unique monkey named Yuan Xiao Sheng as his grandson."
@@ -3676,17 +3713,8 @@
     qcQualityScore: 100
     qcDefectCategory: None
   - splitPath: GuidDescList[6]
-    text: "灵活到达160，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。"
-    translated: "Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wu Hui to fetch the Spirit Clarity Grass and rescue Yuan Xiao Sheng, thereby unlocking the Beggars Sect's Lian-style steering mechanism."
-    qcReviewedText: "Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wu Hui to fetch the Spirit Clarity Grass and rescue Yuan Xiao Sheng, thereby unlocking the Beggars Sect's Lian-style steering mechanism."
-    qcTranslated: "Reach 160 with Flexibility, explore southern Sichuan, climb Mount Wuhui to fetch the Spirit Clarity Grass and rescue Yuan Xiaosheng, thereby unlocking the Beggars' Sect's Lian Branch."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
-    - OtherNamedDefect
-    - UntranslatedPinyin
+    text: "灵活到达160，丐帮廉字舵友好到达80，探索川南，登上无回峰取下灵明草救下元小圣，解锁丐帮廉字舵。"
+    translated: "Arrive at 160 with flexibility, Beggars' Sect's Lian Character Division arrives friendly at 80, explore southern Sichuan, climb Mount Wu Hui to retrieve the Lingming Grass and save Yuan Xiaosheng, unlock the Beggars' Sect Lian Character Division."
   templates:
   - splitPath: Desc
     template: "①{0}\\n②{1}\\n③{2}\\n④{3}\\n⑤{4}\\n⑥{5}\\n⑦{6}"

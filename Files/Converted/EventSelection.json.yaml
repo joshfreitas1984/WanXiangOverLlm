@@ -1162,14 +1162,10 @@
   - splitPath: SelectionList[2]
     text: "《江湖闲话"
     translated: "'Jianghu Chat"
-    qcReviewedText: "'Jianghu Chat-The Succession of the Four Seasons》'"
-    qcTranslated: "《Jianghu Chat-The Succession of the Four Seasons》"
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: SelectionList[2]
     subIndex: 1
     text: "四时迭运》"
-    translated: "The Succession of the Four Seasons》'"
+    translated: "The Succession of the Four Seasons'"
   - splitPath: SelectionList[3]
     text: "还是不在这里耽误时间了"
     translated: "Let's not waste any more time here"
@@ -3125,10 +3121,6 @@
   - splitPath: TipTextList[0]
     text: "碧波诀"
     translated: "Green Wave Technique"
-    qcReviewedText: "Green Wave Technique \\nAuto-release, 100% release Tactical [Green Wave Formula]\\n【Jade Wave Technique】-Stacks up to 7 layers, each layer attacking+4%"
-    qcTranslated: "Green Wave Formula\\nAuto-release, 100% chance to release the tactic [Green Wave Formula]\\n[Green Wave Formula] - Stacks up to 7 layers, each layer adds +4% attack"
-    qcStatus: Corrected
-    qcQualityScore: 85
   - splitPath: TipTextList[0]
     subIndex: 1
     text: "自动释放，100%释放战术【碧波诀】"
@@ -3136,7 +3128,7 @@
   - splitPath: TipTextList[0]
     subIndex: 2
     text: "【碧波诀】"
-    translated: "【Jade Wave Technique】"
+    translated: "[Jade Wave Technique]"
   - splitPath: TipTextList[0]
     subIndex: 3
     text: "可叠加7层，每层攻击"
@@ -4296,6 +4288,71 @@
     qcReviewedText: "Help the disciples of the Qingcheng Sect"
     qcStatus: Passed
     qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "相助崆峒派一众门人"
+    translated: "Help the disciples of the Kongtong Sect"
+    qcReviewedText: "Help the disciples of the Kongtong Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "相助昆仑派一众门人"
+    translated: "Assist the disciples of Kunlun Sect"
+    qcReviewedText: "Assist the disciples of Kunlun Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[5]
+    text: "相助武当派一众门人"
+    translated: "Assist the Wudang Sect and its disciples"
+    qcReviewedText: "Assist the Wudang Sect and its disciples"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[6]
+    text: "相助少林派一众门人"
+    translated: "Assist the Shaolin Sect's disciples"
+    qcReviewedText: "Assist the Shaolin Sect's disciples"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[7]
+    text: "全力逃出劫云谷"
+    translated: "Strive to escape from Hijun Valley"
+    qcReviewedText: "Strive to escape from Hijun Valley"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n<color=#FF0000>{1}：{2}</color>"
+- raw: "{\r\n    \"Key\": \"6000710\",\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"SelectionList\": [\r\n      \"相助衡山派一众门人\",\r\n      \"相助洞庭帮一众门人\",\r\n      \"相助唐门一众门人\",\r\n      \"相助崆峒派一众门人\",\r\n      \"相助昆仑派一众门人\",\r\n      \"相助武当派一众门人\",\r\n      \"相助少林派一众门人\",\r\n      \"全力逃出劫云谷\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"相助衡山派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助唐門一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助武當派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6000710
+  splits:
+  - splitPath: Desc
+    text: "劫云谷中雷火滚动，你要如何选择？"
+    translated: "Thunder and flames roll through the Valley of calamity clouds, how will you choose?"
+    qcReviewedText: "Thunder and flames roll through the Valley of calamity clouds, how will you choose?\\n<color=#FF0000>Be careful：Choosing Flee from Jiayun Valley with All Might will prevent you from triggering the subsequent perfect ending. (Suggested: Rescue all righteous sects.)</color>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "注意"
+    translated: "Be careful"
+  - splitPath: Desc
+    subIndex: 2
+    text: "选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）"
+    translated: "Choosing Flee from Jiayun Valley with All Might will prevent you from triggering the subsequent perfect ending. (Suggested: Rescue all righteous sects.)"
+  - splitPath: SelectionList[0]
+    text: "相助衡山派一众门人"
+    translated: "Help the disciples of the Hengshan Sect"
+    qcReviewedText: "Help the disciples of the Hengshan Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "相助洞庭帮一众门人"
+    translated: "Assist the disciples of the Dongting Sect"
+    qcReviewedText: "Assist the disciples of the Dongting Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "相助唐门一众门人"
+    translated: "Help the Tang Clan and its disciples"
   - splitPath: SelectionList[3]
     text: "相助崆峒派一众门人"
     translated: "Help the disciples of the Kongtong Sect"
@@ -6058,7 +6115,7 @@
     template: "{0} {1}"
   - splitPath: SelectionList[11]
     template: "{0} {1}"
-- raw: "{\r\n    \"Key\": \"7000210\",\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"SelectionList\": [\r\n      \"手段奇诡的唐门\",\r\n      \"仙家气象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"<color=#ff9900>暂未开放 敬请期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"手段奇詭的唐門\",\r\n      \"仙家氣象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>暫未開放 敬請期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+- raw: "{\r\n    \"Key\": \"7000210\",\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"SelectionList\": [\r\n      \"手段奇诡的唐门\",\r\n      \"仙家气象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"手段奇詭的唐門\",\r\n      \"仙家氣象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7000210
   splits:
   - splitPath: Desc
@@ -6087,20 +6144,13 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: TipTextList[1]
-    text: "暂未开放"
-    translated: "Not available yet"
-    qcReviewedText: "<color=#ff9900>Not available yet Stay tuned</color>"
-    qcStatus: Passed
-    qcQualityScore: 100
-  - splitPath: TipTextList[1]
-    subIndex: 1
-    text: "敬请期待"
-    translated: "Stay tuned"
+    text: "游戏难度3星"
+    translated: "Game difficulty 3 stars"
   templates:
   - splitPath: TipTextList[0]
     template: "<color=#ff9900>{0}</color>"
   - splitPath: TipTextList[1]
-    template: "<color=#ff9900>{0} {1}</color>"
+    template: "<color=#ff9900>{0}</color>"
 - raw: "{\r\n    \"Key\": \"7000610\",\r\n    \"Desc\": \"给小狸猫起什么样的名字？\",\r\n    \"SelectionList\": [\r\n      \"给小狸猫起名叫做“小虎”\",\r\n      \"给小狸猫起名叫做“於菟”\",\r\n      \"给小狸猫起名叫做“招财”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"給小狸貓起什麼樣的名字？\",\r\n    \"SelectionTwList\": [\r\n      \"給小狸貓起名叫做“小虎”\",\r\n      \"給小狸貓起名叫做“於菟”\",\r\n      \"給小狸貓起名叫做“招財”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7000610
   splits:
@@ -6889,5 +6939,455 @@
     text: "还是改日再来吧"
     translated: "Let's come back another day"
     qcReviewedText: "Let's come back another day"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8539900\",\r\n    \"Desc\": \"今日炼制何种丹药？\",\r\n    \"SelectionList\": [\r\n      \"灵宝紫阳丹\",\r\n      \"太乙青华丹\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"提升功力\",\r\n      \"提升气血\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日煉製何種丹藥？\",\r\n    \"SelectionTwList\": [\r\n      \"靈寶紫陽丹\",\r\n      \"太乙青華丹\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"提升功力\",\r\n      \"提升氣血\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8539900
+  splits:
+  - splitPath: Desc
+    text: "今日炼制何种丹药？"
+    translated: "What type of medicinal pill will be prepared today?"
+    qcReviewedText: "What type of medicinal pill will be prepared today?"
+    qcStatus: Passed
+    qcQualityScore: 95
+  - splitPath: SelectionList[0]
+    text: "灵宝紫阳丹"
+    translated: "Purple Yang Divine Pill"
+  - splitPath: SelectionList[1]
+    text: "太乙青华丹"
+    translated: "Taiyi Qinghua Pill"
+  - splitPath: SelectionList[2]
+    text: "还是算了"
+    translated: "Forget it"
+    qcReviewedText: "Forget it"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: TipTextList[0]
+    text: "提升功力"
+    translated: "Increase power"
+  - splitPath: TipTextList[1]
+    text: "提升气血"
+    translated: "Boost their lifeforce"
+- raw: "{\r\n    \"Key\": \"8501310\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501310
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+    translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+    translated: "Chuanqiong Grass"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+    translated: "Poria root"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+    translated: "Daxi Root"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+    translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+- raw: "{\r\n    \"Key\": \"8501510\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501510
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+    translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+    translated: "Chuanqiong Grass"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+    translated: "Poria root"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+    translated: "Daxi Root"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+    translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+- raw: "{\r\n    \"Key\": \"8501710\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501710
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+    translated: "Which year's medicinal herbs should be used to feed the spirit crane?"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+    translated: "Chuanqiong Grass"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+    translated: "Poria root"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+    translated: "Daxi Root"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+    translated: "After three years, if you feed the Chuanqiong Grass more than twice, the Spirit Crane can be transformed into a Wind Feather Crane."
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding Poria to the pine tree more than twice will cause the Spirit Crane to transform into a Cloud Feather Crane."
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+    translated: "In three years, feeding the Xi root more than twice will cause the Spirit Crane to transform into a Yunyu Crane."
+- raw: "{\r\n    \"Key\": \"8510400\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“我已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。</color>\",\r\n    \"SelectionList\": [\r\n      \"我已经准备好了\",\r\n      \"我尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“我已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。</color>\",\r\n    \"SelectionTwList\": [\r\n      \"我已經準備好了\",\r\n      \"我尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8510400
+  splits:
+  - splitPath: Desc
+    text: "你可曾准备好应对天魔教的报复？"
+    translated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?"
+    qcReviewedText: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Be careful：After selecting Disciple is ready, the following month will automatically trigger the Heaven Demon Attack event, leading to the final ending."
+    qcTranslated: "Have you prepared yourself for the Heavenly Demon Sect's retaliation?\\n<color=#FF0000>Note: After selecting The disciple is ready, the Heavenly Demon Sect's mountain attack event will automatically trigger next month, and the game will enter the final ending."
+    qcStatus: Corrected
+    qcQualityScore: 82
+  - splitPath: Desc
+    subIndex: 1
+    text: "注意"
+    translated: "Be careful"
+  - splitPath: Desc
+    subIndex: 2
+    text: "选择“我已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+    translated: "After selecting I am ready, the following month will automatically trigger the Heaven Demon Attack on the Mountain event, leading to the game's final ending."
+  - splitPath: SelectionList[0]
+    text: "我已经准备好了"
+    translated: "I am ready"
+    qcReviewedText: "I am ready"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "我尚未准备好"
+    translated: "I am not yet ready"
+    qcReviewedText: "I am not yet ready"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n<color=#FF0000>{1}：{2}</color>"
+- raw: "{\r\n    \"Key\": \"8569300\",\r\n    \"Desc\": \"今日在松林场中做些什么？\",\r\n    \"SelectionList\": [\r\n      \"修炼基本功\",\r\n      \"修炼内功\",\r\n      \"修炼外功\",\r\n      \"修炼轻功\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日在松林場中做些什麼？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉基本功\",\r\n      \"修煉內功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8569300
+  splits:
+  - splitPath: Desc
+    text: "今日在松林场中做些什么？"
+    translated: "What are you doing in the pine forest today?"
+  - splitPath: SelectionList[0]
+    text: "修炼基本功"
+    translated: "Practicing the fundamentals"
+    qcReviewedText: "Practicing the fundamentals"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "修炼内功"
+    translated: "Cultivate neigong"
+    qcReviewedText: "Cultivate neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "修炼外功"
+    translated: "Practicing external skills"
+    qcReviewedText: "Practicing external skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "修炼轻功"
+    translated: "Practice qinggong"
+    qcReviewedText: "Practice qinggong"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "还是算了"
+    translated: "Forget it"
+    qcReviewedText: "Forget it"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8504400\",\r\n    \"Desc\": \"是否随杜清风参加广成丹会？\",\r\n    \"SelectionList\": [\r\n      \"去\",\r\n      \"、<color=#FF0000>暂未开放，敬请期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否隨杜清風參加廣成丹會？\",\r\n    \"SelectionTwList\": [\r\n      \"去\",\r\n      \"、<color=#FF0000>暫未開放，敬請期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8504400
+  splits:
+  - splitPath: Desc
+    text: "是否随杜清风参加广成丹会？"
+    translated: "Do you wish to attend the Kuangcheng Dan Meeting with Du Qingfeng?"
+  - splitPath: SelectionList[0]
+    text: "去"
+    translated: "Go"
+    qcReviewedText: "Go"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "暂未开放，敬请期待"
+    translated: "Not yet available, stay tuned"
+  templates:
+  - splitPath: SelectionList[1]
+    template: "、<color=#FF0000>{0}</color>"
+- raw: "{\r\n    \"Key\": \"8610200\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"在天愿作比翼鸟\",\r\n      \"在地愿为连理枝\",\r\n      \"得成比目何辞死\",\r\n      \"愿作鸳鸯不羡仙\",\r\n      \"还是一个人过吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610200
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+    qcReviewedText: "Which fair lady will accompany you through the year?"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: SelectionList[0]
+    text: "在天愿作比翼鸟"
+    translated: "In heaven may we be winged birds together."
+    qcReviewedText: "In heaven may we be winged birds together."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "在地愿为连理枝"
+    translated: "In this life, may we be trees forever entwined."
+    qcReviewedText: "In this life, may we be trees forever entwined."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "得成比目何辞死"
+    translated: "Achieving the union of two fish, what could death matter?"
+    qcReviewedText: "Achieving the union of two fish, what could death matter?"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "愿作鸳鸯不羡仙"
+    translated: "Willing to be a mated swan rather than a immortal."
+    qcReviewedText: "Willing to be a mated swan rather than a immortal."
+    qcTranslated: "I'd rather be a mandarin duck than an immortal."
+    qcStatus: Corrected
+    qcQualityScore: 85
+  - splitPath: SelectionList[4]
+    text: "还是一个人过吧"
+    translated: "Live alone, I guess"
+    qcReviewedText: "Live alone, I guess"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8610300\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"蓝不悔\",\r\n      \"左灵珠\",\r\n      \"连翘儿\",\r\n      \"沈蓉蓉\",\r\n      \"谈文秀\",\r\n      \"姜芽\",\r\n      \"蚩萤\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"藍不悔\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"姜芽\",\r\n      \"蚩螢\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610300
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+    qcReviewedText: "Which fair lady will accompany you through the year?"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: SelectionList[0]
+    text: "蓝不悔"
+    translated: "Lan Buhan"
+  - splitPath: SelectionList[1]
+    text: "左灵珠"
+    translated: "Zuo Lingzhu"
+    qcReviewedText: "Zuo Lingzhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "连翘儿"
+    translated: "Lian Qiaoer"
+    qcReviewedText: "Lian Qiaoer"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "沈蓉蓉"
+    translated: "Shen Rongrong"
+    qcReviewedText: "Shen Rongrong"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "谈文秀"
+    translated: "Tan Wenshao"
+    qcReviewedText: "Tan Wenshao"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[5]
+    text: "姜芽"
+    translated: "Jiang Ya"
+    qcReviewedText: "Jiang Ya"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: SelectionList[6]
+    text: "蚩萤"
+    translated: "Chi Ying"
+    qcReviewedText: "Chi Ying"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[7]
+    text: "再想想"
+    translated: "Think about it some more"
+    qcReviewedText: "Think about it some more"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8610400\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"阮碧青\",\r\n      \"靳红衣\",\r\n      \"萧令仪\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"诸葛慧\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"諸葛慧\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610400
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+    qcReviewedText: "Which fair lady will accompany you through the year?"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: SelectionList[0]
+    text: "阮碧青"
+    translated: "Ruan Biqing"
+    qcReviewedText: "Ruan Biqing"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "靳红衣"
+    translated: "Jin Hongyi"
+    qcReviewedText: "Jin Hongyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "萧令仪"
+    translated: "Xiao Lingyi"
+    qcReviewedText: "Xiao Lingyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "薛如意"
+    translated: "Xue Ruyi"
+    qcReviewedText: "Xue Ruyi"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "司徒伶"
+    translated: "Situ Ling"
+    qcReviewedText: "Situ Ling"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[5]
+    text: "诸葛慧"
+    translated: "Zhuge Hui"
+    qcReviewedText: "Zhuge Hui"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: SelectionList[6]
+    text: "再想想"
+    translated: "Think about it some more"
+    qcReviewedText: "Think about it some more"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8610500\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"项欺霜\",\r\n      \"展青锋\",\r\n      \"邵轻虹\",\r\n      \"李云裳\",\r\n      \"巫云凤\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"邵輕虹\",\r\n      \"李雲裳\",\r\n      \"巫雲鳳\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610500
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+    qcReviewedText: "Which fair lady will accompany you through the year?"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: SelectionList[0]
+    text: "晏峨眉"
+    translated: "Yan Emei"
+    qcReviewedText: "Yan Emei"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "夏侯珺"
+    translated: "Xiahou Jun"
+    qcReviewedText: "Xiahou Jun"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "项欺霜"
+    translated: "Xiang Qishuang"
+    qcReviewedText: "Xiang Qishuang"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "展青锋"
+    translated: "Zhan Qingfeng"
+    qcReviewedText: "Zhan Qingfeng"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "邵轻虹"
+    translated: "Shao Qinghong"
+    qcReviewedText: "Shao Qinghong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: SelectionList[5]
+    text: "李云裳"
+    translated: "Li Yunshang"
+    qcReviewedText: "Li Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: SelectionList[6]
+    text: "巫云凤"
+    translated: "Wuyunfeng"
+    qcReviewedText: "Wuyunfeng"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[7]
+    text: "再想想"
+    translated: "Think about it some more"
+    qcReviewedText: "Think about it some more"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"8610600\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"艾琳娜\",\r\n      \"文锦心\",\r\n      \"柳含烟\",\r\n      \"风间爱\",\r\n      \"风间月\",\r\n      \"萧雪雁\",\r\n      \"沈青鸬\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"蕭雪雁\",\r\n      \"沈青鸕\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610600
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+    translated: "Which fair lady will accompany you through the year?"
+    qcReviewedText: "Which fair lady will accompany you through the year?"
+    qcStatus: Passed
+    qcQualityScore: 90
+  - splitPath: SelectionList[0]
+    text: "艾琳娜"
+    translated: "Elena"
+    qcReviewedText: "Elena"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[1]
+    text: "文锦心"
+    translated: "Wen Jinxin"
+    qcReviewedText: "Wen Jinxin"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[2]
+    text: "柳含烟"
+    translated: "Liu Hanyan"
+    qcReviewedText: "Liu Hanyan"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[3]
+    text: "风间爱"
+    translated: "Kazama Ai"
+    qcReviewedText: "Kazama Ai"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[4]
+    text: "风间月"
+    translated: "Kazama Yue"
+    qcReviewedText: "Kazama Yue"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[5]
+    text: "萧雪雁"
+    translated: "Xiao Xueyan"
+    qcReviewedText: "Xiao Xueyan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - splitPath: SelectionList[6]
+    text: "沈青鸬"
+    translated: "Shen Qinglu"
+    qcReviewedText: "Shen Qinglu"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: SelectionList[7]
+    text: "再想想"
+    translated: "Think about it some more"
+    qcReviewedText: "Think about it some more"
     qcStatus: Passed
     qcQualityScore: 100

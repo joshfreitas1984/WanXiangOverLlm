@@ -6189,7 +6189,7 @@
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
   - splitPath: ConditionUnsatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
-- raw: "{\r\n    \"Key\": \"13001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"唐门多为先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionUnsatisfiedDesc\": \"唐门多为先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionSatisfiedDescTw\": \"唐門多為先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"唐門多為先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"13001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"唐门多位先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionUnsatisfiedDesc\": \"唐门多位先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionSatisfiedDescTw\": \"唐門多位先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"唐門多位先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
   rawIndex: 13001
   splits:
   - splitPath: Title
@@ -6199,12 +6199,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: ConditionSatisfiedDesc
-    text: "唐门多为先生长期不在唐家堡中尽职，要在"
-    translated: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to..."
-    qcReviewedText: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to...<color=#D9C577>October </color>Ran ahead to <color=#77CED9>Eastern Sichuan</color>、<color=#77CED9>Western Sichuan </color>Bring them both back to the Tang Family Fortress."
-    qcTranslated: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to run through <color=#77CED9>Eastern Sichuan</color> and <color=#77CED9>Western Sichuan</color> before <color=#D9C577>October</color>, bringing them all back to the Tang Family Fortress."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    text: "唐门多位先生长期不在唐家堡中尽职，要在"
+    translated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present."
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -6226,12 +6222,8 @@
     text: "两地，将他们尽数带回唐家堡。"
     translated: "Bring them both back to the Tang Family Fortress."
   - splitPath: ConditionUnsatisfiedDesc
-    text: "唐门多为先生长期不在唐家堡中尽职，要在"
-    translated: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to..."
-    qcReviewedText: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to...<color=#D9C577>October </color>Ran ahead to explore <color=#77CED9>Eastern Sichuan</color>、<color=#77CED9>Western Sichuan </color>Bring them both back to the Tang Family Fortress."
-    qcTranslated: "The Tang Clan expects Master to be absent from the Tang Family Fortress for a long time and thus needs to run through <color=#77CED9>Eastern Sichuan</color> and <color=#77CED9>Western Sichuan</color> before <color=#D9C577>October</color>, bringing them all back to the Tang Family Fortress."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    text: "唐门多位先生长期不在唐家堡中尽职，要在"
+    translated: "Many of the Tang Clan's elders have been absent from Tang Family Manor for a long time, and there is a need for them to be present."
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -6496,6 +6488,518 @@
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#BA77D9>{7}</color>{8}<color=#77CED9>{9}</color>{10}"
   - splitPath: ConditionUnsatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#BA77D9>{7}</color>{8}<color=#77CED9>{9}</color>{10}"
+- raw: "{\r\n    \"Key\": \"14001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"几年<color=#D9C577>五月</color>便是与<color=#BA77D9>姜天定</color>约定的比斗之期，在此期间，不如去<color=#77CED9>松庐丹舍</color>、<color=#77CED9>百药圃</color>、<color=#77CED9>灵鹤苑</color>向三位师兄请教。\",\r\n    \"ConditionUnsatisfiedDesc\": \"几年<color=#D9C577>五月</color>便是与<color=#BA77D9>姜天定</color>约定的比斗之期，在此期间，不如去<color=#77CED9>松庐丹舍</color>、<color=#77CED9>百药圃</color>、<color=#77CED9>灵鹤苑</color>向三位师兄请教。\",\r\n    \"ConditionSatisfiedDescTw\": \"幾年<color=#D9C577>五月</color>便是與<color=#BA77D9>姜天定</color>約定的比鬥之期，在此期間，不如去<color=#77CED9>鬆廬丹舍</color>、<color=#77CED9>百藥圃</color>、<color=#77CED9>靈鶴苑</color>向三位師兄請教。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"幾年<color=#D9C577>五月</color>便是與<color=#BA77D9>姜天定</color>約定的比鬥之期，在此期間，不如去<color=#77CED9>鬆廬丹舍</color>、<color=#77CED9>百藥圃</color>、<color=#77CED9>靈鶴苑</color>向三位師兄請教。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14001
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "几年"
+    translated: "Several years"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "五月"
+    translated: "May"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "便是与"
+    translated: "Even if it is with"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "姜天定"
+    translated: "Jiang Tianding"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "约定的比斗之期，在此期间，不如去"
+    translated: "The agreed-upon date for the duel is coming up; why don't we go somewhere in the meantime?"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "松庐丹舍"
+    translated: "Songlu Pill Shop"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "百药圃"
+    translated: "Hundred Herbs Garden"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "灵鹤苑"
+    translated: "Spirit Crane Garden"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 8
+    text: "向三位师兄请教。"
+    translated: "Ask for guidance from the three Senior Brothers."
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "几年"
+    translated: "Several years"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "五月"
+    translated: "May"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "便是与"
+    translated: "Even if it is with"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "姜天定"
+    translated: "Jiang Tianding"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "约定的比斗之期，在此期间，不如去"
+    translated: "The agreed-upon date for our duel, why don't we go..."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "松庐丹舍"
+    translated: "Songlu Pill Shop"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "百药圃"
+    translated: "Hundred Herbs Garden"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "灵鹤苑"
+    translated: "Spirit Crane Garden"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 8
+    text: "向三位师兄请教。"
+    translated: "Ask for guidance from the three Senior Brothers."
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#D9C577>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>、<color=#77CED9>{6}</color>、<color=#77CED9>{7}</color>{8}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#D9C577>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>、<color=#77CED9>{6}</color>、<color=#77CED9>{7}</color>{8}"
+- raw: "{\r\n    \"Key\": \"14002\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"松林居就处于<color=#77CED9>川西</color>的松林岗下，早些前去为<color=#BA77D9>吕师伯</color>将松子酒打回来。\",\r\n    \"ConditionUnsatisfiedDesc\": \"松林居就处于<color=#77CED9>川西</color>的松林岗下，早些前去为<color=#BA77D9>吕师伯</color>将松子酒打回来。\",\r\n    \"ConditionSatisfiedDescTw\": \"松林居就處於<color=#77CED9>川西</color>的松林崗下，早些前去為<color=#BA77D9>呂師伯</color>將松子酒打回來。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"松林居就處於<color=#77CED9>川西</color>的松林崗下，早些前去為<color=#BA77D9>呂師伯</color>將松子酒打回來。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14002
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "松林居就处于"
+    translated: "Songlin Cottage is located at"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "的松林岗下，早些前去为"
+    translated: "At Songling Hill, go there a bit earlier."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "吕师伯"
+    translated: "Uncle Master Lu"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "将松子酒打回来。"
+    translated: "Hit the pine nut sake back"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "松林居就处于"
+    translated: "Songlin Cottage is located at"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "的松林岗下，早些前去为"
+    translated: "At Songling Hill, go there a bit earlier."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "吕师伯"
+    translated: "Uncle Master Lu"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "将松子酒打回来。"
+    translated: "Hit the pine nut sake back"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14003\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"那小童<color=#BA77D9>朱厚熜</color>颇为有趣，无事时倒是可以去<color=#77CED9>道藏阁</color>中多去看看他。\",\r\n    \"ConditionUnsatisfiedDesc\": \"那小童<color=#BA77D9>朱厚熜</color>颇为有趣，无事时倒是可以去<color=#77CED9>道藏阁</color>中多去看看他。\",\r\n    \"ConditionSatisfiedDescTw\": \"那小童<color=#BA77D9>朱厚熜</color>頗為有趣，無事時倒是可以去<color=#77CED9>道藏閣</color>中多去看看他。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"那小童<color=#BA77D9>朱厚熜</color>頗為有趣，無事時倒是可以去<color=#77CED9>道藏閣</color>中多去看看他。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14003
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "那小童"
+    translated: "Young boy"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "朱厚熜"
+    translated: "Zhu Houcong"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "颇为有趣，无事时倒是可以去"
+    translated: "Quite interesting; I might go there in my spare time."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "道藏阁"
+    translated: "Dao Repository Hall"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "中多去看看他。"
+    translated: "Go see him more often"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "那小童"
+    translated: "Young boy"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "朱厚熜"
+    translated: "Zhu Houcong"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "颇为有趣，无事时倒是可以去"
+    translated: "Quite interesting, I might go there in my spare time."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "道藏阁"
+    translated: "Dao Repository Hall"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "中多去看看他。"
+    translated: "Go see him more often"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14004\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"本派藏道阁中有何至宝，着实令人好奇，<color=#BA77D9>裴云鹤</color>师兄平日消息最为灵通，不如去<color=#77CED9>灵鹤苑</color>找他问问。\",\r\n    \"ConditionUnsatisfiedDesc\": \"本派藏道阁中有何至宝，着实令人好奇，<color=#BA77D9>裴云鹤</color>师兄平日消息最为灵通，不如去<color=#77CED9>灵鹤苑</color>找他问问。\",\r\n    \"ConditionSatisfiedDescTw\": \"本派藏道閣中有何至寶，著實令人好奇，<color=#BA77D9>裴雲鶴</color>師兄平日訊息最為靈通，不如去<color=#77CED9>靈鶴苑</color>找他問問。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"本派藏道閣中有何至寶，著實令人好奇，<color=#BA77D9>裴雲鶴</color>師兄平日訊息最為靈通，不如去<color=#77CED9>靈鶴苑</color>找他問問。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14004
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "本派藏道阁中有何至宝，着实令人好奇，"
+    translated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "裴云鹤"
+    translated: "Pei Yunhe"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "师兄平日消息最为灵通，不如去"
+    translated: "Senior Brother is the most well-informed about recent news, let's go to him."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "灵鹤苑"
+    translated: "Spirit Crane Garden"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "找他问问。"
+    translated: "Ask him about it"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "本派藏道阁中有何至宝，着实令人好奇，"
+    translated: "What treasures are hidden in our sect's Treasure Pavilion is truly intriguing."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "裴云鹤"
+    translated: "Pei Yunhe"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "师兄平日消息最为灵通，不如去"
+    translated: "Senior Brother is the most well-informed about recent news, let's go to him."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "灵鹤苑"
+    translated: "Spirit Crane Garden"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "找他问问。"
+    translated: "Ask him about it"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14005\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#BA77D9>裴师兄</color>给了不少<color=#D9C577>盘费</color>，那就下山游玩几天，这盘费不可乱花，最后还要去<color=#77CED9>川西</color>松林居给师伯打酒。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#BA77D9>裴师兄</color>给了不少<color=#D9C577>盘费</color>，那就下山游玩几天，这盘费不可乱花，最后还要去<color=#77CED9>川西</color>松林居给师伯打酒。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#BA77D9>裴師兄</color>給了不少<color=#D9C577>盤費</color>，那就下山遊玩幾天，這盤費不可亂花，最後還要去<color=#77CED9>川西</color>松林居給師伯打酒。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#BA77D9>裴師兄</color>給了不少<color=#D9C577>盤費</color>，那就下山遊玩幾天，這盤費不可亂花，最後還要去<color=#77CED9>川西</color>松林居給師伯打酒。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14005
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "裴师兄"
+    translated: "Senior Brother Pei"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "给了不少"
+    translated: "Gave quite a bit"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "盘费"
+    translated: "Travel expenses"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "，那就下山游玩几天，这盘费不可乱花，最后还要去"
+    translated: ", So let's go down the mountain to travel around for a few days. Don't spend the money recklessly, and we still have to go somewhere else after that."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "松林居给师伯打酒。"
+    translated: "I got some wine for Senior Uncle"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "裴师兄"
+    translated: "Senior Brother Pei"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "给了不少"
+    translated: "Gave quite a bit"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "盘费"
+    translated: "Travel expenses"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "，那就下山游玩几天，这盘费不可乱花，最后还要去"
+    translated: ", So let's go down the mountain to travel around for a few days. Don't spend the money recklessly, though; we still have to go somewhere else afterward."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "松林居给师伯打酒。"
+    translated: "I got some wine for Senior Uncle"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "<color=#BA77D9>{0}</color>{1}<color=#D9C577>{2}</color>{3}<color=#77CED9>{4}</color>{5}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "<color=#BA77D9>{0}</color>{1}<color=#D9C577>{2}</color>{3}<color=#77CED9>{4}</color>{5}"
+- raw: "{\r\n    \"Key\": \"14006\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"日子还早，可以在<color=#77CED9>川西</color>再游玩几天，既然想要多玩几日，那这身上<color=#D9C577>盘费</color>就要省着些花。\",\r\n    \"ConditionUnsatisfiedDesc\": \"日子还早，可以在<color=#77CED9>川西</color>再游玩几天，既然想要多玩几日，那这身上<color=#D9C577>盘费</color>就要省着些花。\",\r\n    \"ConditionSatisfiedDescTw\": \"日子還早，可以在<color=#77CED9>川西</color>再遊玩幾天，既然想要多玩幾日，那這身上<color=#D9C577>盤費</color>就要省著些花。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"日子還早，可以在<color=#77CED9>川西</color>再遊玩幾天，既然想要多玩幾日，那這身上<color=#D9C577>盤費</color>就要省著些花。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14006
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "日子还早，可以在"
+    translated: "It's still early; you can still go"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "再游玩几天，既然想要多玩几日，那这身上"
+    translated: "After playing for a few more days, since you want to stay longer, then there's the matter of your expenses."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "盘费"
+    translated: "Travel expenses"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "就要省着些花。"
+    translated: "You'll have to be more frugal"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "日子还早，可以在"
+    translated: "It's still early; we can head over"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "再游玩几天，既然想要多玩几日，那这身上"
+    translated: "After playing for a few more days, since you want to stay longer, then there's the matter of your expenses."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "盘费"
+    translated: "Travel expenses"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "就要省着些花。"
+    translated: "You'll have to be more frugal"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#D9C577>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#D9C577>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14007\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"这<color=#77CED9>茶坪山</color>到底在何处，这些日子也没问出来，难道是<color=#BA77D9>疯老道</color>在与我说笑？也不应该啊。罢了，还是在<color=#77CED9>川西</color>再听一番吧，莫要误了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionUnsatisfiedDesc\": \"这<color=#77CED9>茶坪山</color>到底在何处，这些日子也没问出来，难道是<color=#BA77D9>疯老道</color>在与我说笑？也不应该啊。罢了，还是在<color=#77CED9>川西</color>再听一番吧，莫要误了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionSatisfiedDescTw\": \"這<color=#77CED9>茶坪山</color>到底在何處，這些日子也沒問出來，難道是<color=#BA77D9>瘋老道</color>在與我說笑？也不應該啊。罷了，還是在<color=#77CED9>川西</color>再聽一番吧，莫要誤了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"這<color=#77CED9>茶坪山</color>到底在何處，這些日子也沒問出來，難道是<color=#BA77D9>瘋老道</color>在與我說笑？也不應該啊。罷了，還是在<color=#77CED9>川西</color>再聽一番吧，莫要誤了<color=#D9C577>今年</color>之期。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14007
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "这"
+    translated: "This"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "茶坪山"
+    translated: "Chaping Mountain"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "到底在何处，这些日子也没问出来，难道是"
+    translated: "After all these days, I still haven't found out where exactly-it could be that..."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "疯老道"
+    translated: "Mad Taoist"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "在与我说笑？也不应该啊。罢了，还是在"
+    translated: "Are you joking with me? That doesn't seem right. Oh well, maybe it's because you're still in"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "再听一番吧，莫要误了"
+    translated: "Listen one more time, do not miss the chance."
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "今年"
+    translated: "This year"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 8
+    text: "之期。"
+    translated: "Deadline"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "这"
+    translated: "This"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "茶坪山"
+    translated: "Chapingshan Mountain"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "到底在何处，这些日子也没问出来，难道是"
+    translated: "After all these days, I still haven't found out where exactly-it could be that..."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "疯老道"
+    translated: "Mad Taoist"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "在与我说笑？也不应该啊。罢了，还是在"
+    translated: "Are you joking with me? That doesn't seem right. Oh well, maybe it's because you're still in"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "再听一番吧，莫要误了"
+    translated: "Listen one more time, do not miss the chance."
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "今年"
+    translated: "This year"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 8
+    text: "之期。"
+    translated: "Deadline"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
+- raw: "{\r\n    \"Key\": \"14008\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#77CED9>茶坪山</color>原来便是<color=#77CED9>川西</color>的<color=#77CED9>龙门山</color>，趁着<color=#D9C577>今年</color>之期未过，还是快去寻那疯老道吧。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#77CED9>茶坪山</color>原来便是<color=#77CED9>川西</color>的<color=#77CED9>龙门山</color>，趁着<color=#D9C577>今年</color>之期未过，还是快去寻那疯老道吧。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#77CED9>茶坪山</color>原來便是<color=#77CED9>川西</color>的<color=#77CED9>龍門山</color>，趁著<color=#D9C577>今年</color>之期未過，還是快去尋那瘋老道吧。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#77CED9>茶坪山</color>原來便是<color=#77CED9>川西</color>的<color=#77CED9>龍門山</color>，趁著<color=#D9C577>今年</color>之期未過，還是快去尋那瘋老道吧。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14008
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+    translated: "Personal handwritten notes"
+    qcReviewedText: "Personal handwritten notes"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ConditionSatisfiedDesc
+    text: "茶坪山"
+    translated: "Chaping Mountain"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "原来便是"
+    translated: "That's what it was"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "的"
+    translated: "Of"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "龙门山"
+    translated: "Dragon Gate Mountain"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "，趁着"
+    translated: ", Taking advantage of"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "今年"
+    translated: "This year"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "之期未过，还是快去寻那疯老道吧。"
+    translated: "Since the deadline hasn't passed, hurry up and find that mad old Taoist."
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "茶坪山"
+    translated: "Chapingshan Mountain"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "原来便是"
+    translated: "That's what it was"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "川西"
+    translated: "Western Sichuan"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "的"
+    translated: "Of"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "龙门山"
+    translated: "Dragon Gate Mountain"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "，趁着"
+    translated: ", Taking advantage of"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "今年"
+    translated: "This year"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "之期未过，还是快去寻那疯老道吧。"
+    translated: "Since the deadline hasn't passed, hurry up and find that mad old Taoist."
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "<color=#77CED9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#77CED9>{4}</color>{5}<color=#D9C577>{6}</color>{7}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "<color=#77CED9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#77CED9>{4}</color>{5}<color=#D9C577>{6}</color>{7}"
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Title\": \"江湖消息\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#77CED9>苍山岭</color><color=#BA77D9>乱石寨</color>的二当家<color=#BA77D9>殷通</color>最近经常带着手下喽啰下山行抢劫掠，在<color=#77CED9>湘南</color>一带颇为横行无忌。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#77CED9>苍山岭</color><color=#BA77D9>乱石寨</color>的二当家<color=#BA77D9>殷通</color>最近经常带着手下喽啰下山行抢劫掠，在<color=#77CED9>湘南</color>一带颇为横行无忌。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#77CED9>蒼山嶺</color><color=#BA77D9>亂石寨</color>的二當家<color=#BA77D9>殷通</color>最近經常帶著手下嘍囉下山行搶劫掠，在<color=#77CED9>湘南</color>一帶頗為橫行無忌。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#77CED9>蒼山嶺</color><color=#BA77D9>亂石寨</color>的二當家<color=#BA77D9>殷通</color>最近經常帶著手下嘍囉下山行搶劫掠，在<color=#77CED9>湘南</color>一帶頗為橫行無忌。\",\r\n    \"TitleTw\": \"江湖訊息\"\r\n  }"
   rawIndex: 20001
   splits:

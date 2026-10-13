@@ -517,6 +517,15 @@
     text: "红颜结局"
   - splitPath: Desc
     text: "获得蚩萤红颜后解锁"
+- raw: "{\r\n    \"Key\": \"32\",\r\n    \"Name\": \"蓝不悔结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得蓝不悔红颜后解锁\",\r\n    \"NameTw\": \"藍不悔結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得藍不悔紅顏後解鎖\"\r\n  }"
+  rawIndex: 32
+  splits:
+  - splitPath: Name
+    text: "蓝不悔结局"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "获得蓝不悔红颜后解锁"
 - raw: "{\r\n    \"Key\": \"2801\",\r\n    \"Name\": \"神女宫结局\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"获得红颜沈青鸬、萧雪雁、巫云凤后解锁\",\r\n    \"NameTw\": \"神女宮結局\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"獲得紅顏沈青鸕、蕭雪雁、巫雲鳳後解鎖\"\r\n  }"
   rawIndex: 2801
   splits:
@@ -535,6 +544,15 @@
     text: "红颜结局"
   - splitPath: Desc
     text: "在一局游戏中，获得红颜项欺霜、阮碧青、左灵珠、晏蛾眉、靳红衣、连翘儿、柳含烟、文锦心、夏侯珺、萧令仪、艾琳娜、展青锋、风间爱、风间月、沈蓉蓉、薛如意后解锁。"
+- raw: "{\r\n    \"Key\": \"700010\",\r\n    \"Name\": \"流星醉月\",\r\n    \"TypeText\": \"红颜结局\",\r\n    \"Desc\": \"在一局游戏中，获得红颜巫云凤、萧雪雁、沈青鸬、邵轻虹、司徒伶、李云裳、姜芽、谈文秀、蚩萤、诸葛慧后解锁。\",\r\n    \"NameTw\": \"流星醉月\",\r\n    \"TypeTextTw\": \"紅顏結局\",\r\n    \"DescTw\": \"在一局遊戲中，獲得紅顏巫雲鳳、蕭雪雁、沈青鸕、邵輕虹、司徒伶、李雲裳、姜芽、談文秀、蚩螢、諸葛慧後解鎖。\"\r\n  }"
+  rawIndex: 700010
+  splits:
+  - splitPath: Name
+    text: "流星醉月"
+  - splitPath: TypeText
+    text: "红颜结局"
+  - splitPath: Desc
+    text: "在一局游戏中，获得红颜巫云凤、萧雪雁、沈青鸬、邵轻虹、司徒伶、李云裳、姜芽、谈文秀、蚩萤、诸葛慧后解锁。"
 - raw: "{\r\n    \"Key\": \"800100\",\r\n    \"Name\": \"衡山掌门\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择衡山派，获得红颜杨芸，未救援其余门派，完成魔侯线或宁王线结局解锁\",\r\n    \"NameTw\": \"衡山掌門\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇衡山派，獲得紅顏楊芸，未救援其餘門派，完成魔侯線或寧王線結局解鎖\"\r\n  }"
   rawIndex: 800100
   splits:
@@ -571,6 +589,15 @@
     text: "门派结局"
   - splitPath: Desc
     text: "选择唐门，获得红颜唐幺幺，魔侯线中未救援其他门派，完成魔侯线结局解锁"
+- raw: "{\r\n    \"Key\": \"800700\",\r\n    \"Name\": \"逍遥若仙\",\r\n    \"TypeText\": \"门派结局\",\r\n    \"Desc\": \"选择青城派，获得红颜蓝不悔，魔侯线中未救援其他门派，完成魔侯线结局解锁\",\r\n    \"NameTw\": \"逍遙若仙\",\r\n    \"TypeTextTw\": \"門派結局\",\r\n    \"DescTw\": \"選擇青城派，獲得紅顏藍不悔，魔侯線中未救援其他門派，完成魔侯線結局解鎖\"\r\n  }"
+  rawIndex: 800700
+  splits:
+  - splitPath: Name
+    text: "逍遥若仙"
+  - splitPath: TypeText
+    text: "门派结局"
+  - splitPath: Desc
+    text: "选择青城派，获得红颜蓝不悔，魔侯线中未救援其他门派，完成魔侯线结局解锁"
 - raw: "{\r\n    \"Key\": \"800500\",\r\n    \"Name\": \"逍遥侯\",\r\n    \"TypeText\": \"主线结局\",\r\n    \"Desc\": \"触发宁王线，成功救援其余二派，完成长乐坊考验，击败宁王解锁。\",\r\n    \"NameTw\": \"逍遙侯\",\r\n    \"TypeTextTw\": \"主線結局\",\r\n    \"DescTw\": \"觸發寧王線，成功救援其餘二派，完成長樂坊考驗，擊敗寧王解鎖。\"\r\n  }"
   rawIndex: 800500
   splits:

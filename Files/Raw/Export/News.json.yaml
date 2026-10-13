@@ -4012,13 +4012,13 @@
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
   - splitPath: ConditionUnsatisfiedDesc
     template: "<color=#BA77D9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#BA77D9>{4}</color>{5}"
-- raw: "{\r\n    \"Key\": \"13001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"唐门多为先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionUnsatisfiedDesc\": \"唐门多为先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionSatisfiedDescTw\": \"唐門多為先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"唐門多為先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"13001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"唐门多位先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionUnsatisfiedDesc\": \"唐门多位先生长期不在唐家堡中尽职，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川东</color>、<color=#77CED9>川西</color>两地，将他们尽数带回唐家堡。\",\r\n    \"ConditionSatisfiedDescTw\": \"唐門多位先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"唐門多位先生長期不在唐家堡中盡職，要在<color=#D9C577>十月</color>前跑遍<color=#77CED9>川東</color>、<color=#77CED9>川西</color>兩地，將他們盡數帶回唐家堡。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
   rawIndex: 13001
   splits:
   - splitPath: Title
     text: "手札笔记"
   - splitPath: ConditionSatisfiedDesc
-    text: "唐门多为先生长期不在唐家堡中尽职，要在"
+    text: "唐门多位先生长期不在唐家堡中尽职，要在"
   - splitPath: ConditionSatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -4035,7 +4035,7 @@
     subIndex: 5
     text: "两地，将他们尽数带回唐家堡。"
   - splitPath: ConditionUnsatisfiedDesc
-    text: "唐门多为先生长期不在唐家堡中尽职，要在"
+    text: "唐门多位先生长期不在唐家堡中尽职，要在"
   - splitPath: ConditionUnsatisfiedDesc
     subIndex: 1
     text: "十月"
@@ -4206,6 +4206,382 @@
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#BA77D9>{7}</color>{8}<color=#77CED9>{9}</color>{10}"
   - splitPath: ConditionUnsatisfiedDesc
     template: "{0}<color=#BA77D9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#BA77D9>{7}</color>{8}<color=#77CED9>{9}</color>{10}"
+- raw: "{\r\n    \"Key\": \"14001\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"几年<color=#D9C577>五月</color>便是与<color=#BA77D9>姜天定</color>约定的比斗之期，在此期间，不如去<color=#77CED9>松庐丹舍</color>、<color=#77CED9>百药圃</color>、<color=#77CED9>灵鹤苑</color>向三位师兄请教。\",\r\n    \"ConditionUnsatisfiedDesc\": \"几年<color=#D9C577>五月</color>便是与<color=#BA77D9>姜天定</color>约定的比斗之期，在此期间，不如去<color=#77CED9>松庐丹舍</color>、<color=#77CED9>百药圃</color>、<color=#77CED9>灵鹤苑</color>向三位师兄请教。\",\r\n    \"ConditionSatisfiedDescTw\": \"幾年<color=#D9C577>五月</color>便是與<color=#BA77D9>姜天定</color>約定的比鬥之期，在此期間，不如去<color=#77CED9>鬆廬丹舍</color>、<color=#77CED9>百藥圃</color>、<color=#77CED9>靈鶴苑</color>向三位師兄請教。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"幾年<color=#D9C577>五月</color>便是與<color=#BA77D9>姜天定</color>約定的比鬥之期，在此期間，不如去<color=#77CED9>鬆廬丹舍</color>、<color=#77CED9>百藥圃</color>、<color=#77CED9>靈鶴苑</color>向三位師兄請教。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14001
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "几年"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "五月"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "便是与"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "姜天定"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "约定的比斗之期，在此期间，不如去"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "松庐丹舍"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "百药圃"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "灵鹤苑"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 8
+    text: "向三位师兄请教。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "几年"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "五月"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "便是与"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "姜天定"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "约定的比斗之期，在此期间，不如去"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "松庐丹舍"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "百药圃"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "灵鹤苑"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 8
+    text: "向三位师兄请教。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#D9C577>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>、<color=#77CED9>{6}</color>、<color=#77CED9>{7}</color>{8}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#D9C577>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>、<color=#77CED9>{6}</color>、<color=#77CED9>{7}</color>{8}"
+- raw: "{\r\n    \"Key\": \"14002\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"松林居就处于<color=#77CED9>川西</color>的松林岗下，早些前去为<color=#BA77D9>吕师伯</color>将松子酒打回来。\",\r\n    \"ConditionUnsatisfiedDesc\": \"松林居就处于<color=#77CED9>川西</color>的松林岗下，早些前去为<color=#BA77D9>吕师伯</color>将松子酒打回来。\",\r\n    \"ConditionSatisfiedDescTw\": \"松林居就處於<color=#77CED9>川西</color>的松林崗下，早些前去為<color=#BA77D9>呂師伯</color>將松子酒打回來。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"松林居就處於<color=#77CED9>川西</color>的松林崗下，早些前去為<color=#BA77D9>呂師伯</color>將松子酒打回來。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14002
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "松林居就处于"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "川西"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "的松林岗下，早些前去为"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "吕师伯"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "将松子酒打回来。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "松林居就处于"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "川西"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "的松林岗下，早些前去为"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "吕师伯"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "将松子酒打回来。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14003\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"那小童<color=#BA77D9>朱厚熜</color>颇为有趣，无事时倒是可以去<color=#77CED9>道藏阁</color>中多去看看他。\",\r\n    \"ConditionUnsatisfiedDesc\": \"那小童<color=#BA77D9>朱厚熜</color>颇为有趣，无事时倒是可以去<color=#77CED9>道藏阁</color>中多去看看他。\",\r\n    \"ConditionSatisfiedDescTw\": \"那小童<color=#BA77D9>朱厚熜</color>頗為有趣，無事時倒是可以去<color=#77CED9>道藏閣</color>中多去看看他。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"那小童<color=#BA77D9>朱厚熜</color>頗為有趣，無事時倒是可以去<color=#77CED9>道藏閣</color>中多去看看他。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14003
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "那小童"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "朱厚熜"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "颇为有趣，无事时倒是可以去"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "道藏阁"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "中多去看看他。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "那小童"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "朱厚熜"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "颇为有趣，无事时倒是可以去"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "道藏阁"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "中多去看看他。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14004\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"本派藏道阁中有何至宝，着实令人好奇，<color=#BA77D9>裴云鹤</color>师兄平日消息最为灵通，不如去<color=#77CED9>灵鹤苑</color>找他问问。\",\r\n    \"ConditionUnsatisfiedDesc\": \"本派藏道阁中有何至宝，着实令人好奇，<color=#BA77D9>裴云鹤</color>师兄平日消息最为灵通，不如去<color=#77CED9>灵鹤苑</color>找他问问。\",\r\n    \"ConditionSatisfiedDescTw\": \"本派藏道閣中有何至寶，著實令人好奇，<color=#BA77D9>裴雲鶴</color>師兄平日訊息最為靈通，不如去<color=#77CED9>靈鶴苑</color>找他問問。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"本派藏道閣中有何至寶，著實令人好奇，<color=#BA77D9>裴雲鶴</color>師兄平日訊息最為靈通，不如去<color=#77CED9>靈鶴苑</color>找他問問。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14004
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "本派藏道阁中有何至宝，着实令人好奇，"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "裴云鹤"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "师兄平日消息最为灵通，不如去"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "灵鹤苑"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "找他问问。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "本派藏道阁中有何至宝，着实令人好奇，"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "裴云鹤"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "师兄平日消息最为灵通，不如去"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "灵鹤苑"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "找他问问。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#BA77D9>{1}</color>{2}<color=#77CED9>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14005\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#BA77D9>裴师兄</color>给了不少<color=#D9C577>盘费</color>，那就下山游玩几天，这盘费不可乱花，最后还要去<color=#77CED9>川西</color>松林居给师伯打酒。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#BA77D9>裴师兄</color>给了不少<color=#D9C577>盘费</color>，那就下山游玩几天，这盘费不可乱花，最后还要去<color=#77CED9>川西</color>松林居给师伯打酒。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#BA77D9>裴師兄</color>給了不少<color=#D9C577>盤費</color>，那就下山遊玩幾天，這盤費不可亂花，最後還要去<color=#77CED9>川西</color>松林居給師伯打酒。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#BA77D9>裴師兄</color>給了不少<color=#D9C577>盤費</color>，那就下山遊玩幾天，這盤費不可亂花，最後還要去<color=#77CED9>川西</color>松林居給師伯打酒。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14005
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "裴师兄"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "给了不少"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "盘费"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "，那就下山游玩几天，这盘费不可乱花，最后还要去"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "川西"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "松林居给师伯打酒。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "裴师兄"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "给了不少"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "盘费"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "，那就下山游玩几天，这盘费不可乱花，最后还要去"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "川西"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "松林居给师伯打酒。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "<color=#BA77D9>{0}</color>{1}<color=#D9C577>{2}</color>{3}<color=#77CED9>{4}</color>{5}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "<color=#BA77D9>{0}</color>{1}<color=#D9C577>{2}</color>{3}<color=#77CED9>{4}</color>{5}"
+- raw: "{\r\n    \"Key\": \"14006\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"日子还早，可以在<color=#77CED9>川西</color>再游玩几天，既然想要多玩几日，那这身上<color=#D9C577>盘费</color>就要省着些花。\",\r\n    \"ConditionUnsatisfiedDesc\": \"日子还早，可以在<color=#77CED9>川西</color>再游玩几天，既然想要多玩几日，那这身上<color=#D9C577>盘费</color>就要省着些花。\",\r\n    \"ConditionSatisfiedDescTw\": \"日子還早，可以在<color=#77CED9>川西</color>再遊玩幾天，既然想要多玩幾日，那這身上<color=#D9C577>盤費</color>就要省著些花。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"日子還早，可以在<color=#77CED9>川西</color>再遊玩幾天，既然想要多玩幾日，那這身上<color=#D9C577>盤費</color>就要省著些花。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14006
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "日子还早，可以在"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "川西"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "再游玩几天，既然想要多玩几日，那这身上"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "盘费"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "就要省着些花。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "日子还早，可以在"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "川西"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "再游玩几天，既然想要多玩几日，那这身上"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "盘费"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "就要省着些花。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#D9C577>{3}</color>{4}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#D9C577>{3}</color>{4}"
+- raw: "{\r\n    \"Key\": \"14007\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"这<color=#77CED9>茶坪山</color>到底在何处，这些日子也没问出来，难道是<color=#BA77D9>疯老道</color>在与我说笑？也不应该啊。罢了，还是在<color=#77CED9>川西</color>再听一番吧，莫要误了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionUnsatisfiedDesc\": \"这<color=#77CED9>茶坪山</color>到底在何处，这些日子也没问出来，难道是<color=#BA77D9>疯老道</color>在与我说笑？也不应该啊。罢了，还是在<color=#77CED9>川西</color>再听一番吧，莫要误了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionSatisfiedDescTw\": \"這<color=#77CED9>茶坪山</color>到底在何處，這些日子也沒問出來，難道是<color=#BA77D9>瘋老道</color>在與我說笑？也不應該啊。罷了，還是在<color=#77CED9>川西</color>再聽一番吧，莫要誤了<color=#D9C577>今年</color>之期。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"這<color=#77CED9>茶坪山</color>到底在何處，這些日子也沒問出來，難道是<color=#BA77D9>瘋老道</color>在與我說笑？也不應該啊。罷了，還是在<color=#77CED9>川西</color>再聽一番吧，莫要誤了<color=#D9C577>今年</color>之期。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14007
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "这"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "茶坪山"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "到底在何处，这些日子也没问出来，难道是"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "疯老道"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "在与我说笑？也不应该啊。罢了，还是在"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "川西"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "再听一番吧，莫要误了"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "今年"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 8
+    text: "之期。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "这"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "茶坪山"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "到底在何处，这些日子也没问出来，难道是"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "疯老道"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "在与我说笑？也不应该啊。罢了，还是在"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "川西"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "再听一番吧，莫要误了"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "今年"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 8
+    text: "之期。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "{0}<color=#77CED9>{1}</color>{2}<color=#BA77D9>{3}</color>{4}<color=#77CED9>{5}</color>{6}<color=#D9C577>{7}</color>{8}"
+- raw: "{\r\n    \"Key\": \"14008\",\r\n    \"Title\": \"手札笔记\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#77CED9>茶坪山</color>原来便是<color=#77CED9>川西</color>的<color=#77CED9>龙门山</color>，趁着<color=#D9C577>今年</color>之期未过，还是快去寻那疯老道吧。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#77CED9>茶坪山</color>原来便是<color=#77CED9>川西</color>的<color=#77CED9>龙门山</color>，趁着<color=#D9C577>今年</color>之期未过，还是快去寻那疯老道吧。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#77CED9>茶坪山</color>原來便是<color=#77CED9>川西</color>的<color=#77CED9>龍門山</color>，趁著<color=#D9C577>今年</color>之期未過，還是快去尋那瘋老道吧。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#77CED9>茶坪山</color>原來便是<color=#77CED9>川西</color>的<color=#77CED9>龍門山</color>，趁著<color=#D9C577>今年</color>之期未過，還是快去尋那瘋老道吧。\",\r\n    \"TitleTw\": \"手札筆記\"\r\n  }"
+  rawIndex: 14008
+  splits:
+  - splitPath: Title
+    text: "手札笔记"
+  - splitPath: ConditionSatisfiedDesc
+    text: "茶坪山"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 1
+    text: "原来便是"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 2
+    text: "川西"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 3
+    text: "的"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 4
+    text: "龙门山"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 5
+    text: "，趁着"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 6
+    text: "今年"
+  - splitPath: ConditionSatisfiedDesc
+    subIndex: 7
+    text: "之期未过，还是快去寻那疯老道吧。"
+  - splitPath: ConditionUnsatisfiedDesc
+    text: "茶坪山"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 1
+    text: "原来便是"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 2
+    text: "川西"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 3
+    text: "的"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 4
+    text: "龙门山"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 5
+    text: "，趁着"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 6
+    text: "今年"
+  - splitPath: ConditionUnsatisfiedDesc
+    subIndex: 7
+    text: "之期未过，还是快去寻那疯老道吧。"
+  templates:
+  - splitPath: ConditionSatisfiedDesc
+    template: "<color=#77CED9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#77CED9>{4}</color>{5}<color=#D9C577>{6}</color>{7}"
+  - splitPath: ConditionUnsatisfiedDesc
+    template: "<color=#77CED9>{0}</color>{1}<color=#77CED9>{2}</color>{3}<color=#77CED9>{4}</color>{5}<color=#D9C577>{6}</color>{7}"
 - raw: "{\r\n    \"Key\": \"20001\",\r\n    \"Title\": \"江湖消息\",\r\n    \"ConditionSatisfiedDesc\": \"<color=#77CED9>苍山岭</color><color=#BA77D9>乱石寨</color>的二当家<color=#BA77D9>殷通</color>最近经常带着手下喽啰下山行抢劫掠，在<color=#77CED9>湘南</color>一带颇为横行无忌。\",\r\n    \"ConditionUnsatisfiedDesc\": \"<color=#77CED9>苍山岭</color><color=#BA77D9>乱石寨</color>的二当家<color=#BA77D9>殷通</color>最近经常带着手下喽啰下山行抢劫掠，在<color=#77CED9>湘南</color>一带颇为横行无忌。\",\r\n    \"ConditionSatisfiedDescTw\": \"<color=#77CED9>蒼山嶺</color><color=#BA77D9>亂石寨</color>的二當家<color=#BA77D9>殷通</color>最近經常帶著手下嘍囉下山行搶劫掠，在<color=#77CED9>湘南</color>一帶頗為橫行無忌。\",\r\n    \"ConditionUnsatisfiedDescTw\": \"<color=#77CED9>蒼山嶺</color><color=#BA77D9>亂石寨</color>的二當家<color=#BA77D9>殷通</color>最近經常帶著手下嘍囉下山行搶劫掠，在<color=#77CED9>湘南</color>一帶頗為橫行無忌。\",\r\n    \"TitleTw\": \"江湖訊息\"\r\n  }"
   rawIndex: 20001
   splits:

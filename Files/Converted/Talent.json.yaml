@@ -1543,6 +1543,21 @@
     qcReviewedText: "Bonus Test"
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"60015\",\r\n    \"Name\": \"缘起青城\",\r\n    \"Desc\": \"拜师青城派可获取30贡献\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"緣起青城\",\r\n    \"DescTw\": \"拜師青城派可獲取30貢獻\"\r\n  }"
+  rawIndex: 60015
+  splits:
+  - splitPath: Name
+    text: "缘起青城"
+    translated: "Fate began at Qingcheng"
+  - splitPath: Desc
+    text: "拜师青城派可获取30贡献"
+    translated: "Becoming an apprentice at Qingcheng Sect can obtain 30 Contribution"
+  - splitPath: EventResultDesc
+    text: "加成测试"
+    translated: "Bonus Test"
+    qcReviewedText: "Bonus Test"
+    qcStatus: Passed
+    qcQualityScore: 100
 - raw: "{\r\n    \"Key\": \"70001\",\r\n    \"Name\": \"忠义两全\",\r\n    \"Desc\": \"家中尚有两名忠义老仆\",\r\n    \"EventResultDesc\": \"加成测试\",\r\n    \"NameTw\": \"忠義兩全\",\r\n    \"DescTw\": \"家中尚有兩名忠義老僕\"\r\n  }"
   rawIndex: 70001
   splits:

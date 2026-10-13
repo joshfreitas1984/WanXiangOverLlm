@@ -1359,7 +1359,7 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+800/{1}+8\\n"
-- raw: "{\r\n    \"Key\": \"80\",\r\n    \"Name\": \"九流奇功\",\r\n    \"Desc\": \"[九流奇功]行动回复-1<50%>\\\\n行动力累积\",\r\n    \"EchoName\": \"九流奇功\",\r\n    \"DetailDesc\": \"战术协同类【衡山派】【心法】\\\\n释放战术【九流奇功】：50%几率回复1点行动力，使用后行动力持续累积。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入衡山派，第六年一月起，贡献到达70、自动触发剧情万轻舟传授。\",\r\n    \"ExtraDesc\": \"气血+1600/内息+8/悟性+8\",\r\n    \"DescTw\": \"[九流奇功]行動回覆-1<50%>\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"九流奇功\",\r\n    \"DetailDescTw\": \"戰術協同類【衡山派】【心法】\\\\n釋放戰術【九流奇功】：50%機率回覆1點行動力，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入衡山派，第六年一月起，貢獻到達70、自動觸發劇情萬輕舟傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1600/內息+8/悟性+8\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"80\",\r\n    \"Name\": \"九流奇功\",\r\n    \"Desc\": \"[九流奇功]行动回复1\\\\n行动力累积\",\r\n    \"EchoName\": \"九流奇功\",\r\n    \"DetailDesc\": \"战术协同类【衡山派】【心法】\\\\n释放战术【九流奇功】：回复1点行动力，使用后行动力持续累积。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入衡山派，第六年一月起，贡献到达70、自动触发剧情万轻舟传授。\",\r\n    \"ExtraDesc\": \"气血+1600/内息+8/悟性+8\",\r\n    \"DescTw\": \"[九流奇功]行動回覆1\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"九流奇功\",\r\n    \"DetailDescTw\": \"戰術協同類【衡山派】【心法】\\\\n釋放戰術【九流奇功】：回覆1點行動力，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入衡山派，第六年一月起，貢獻到達70、自動觸發劇情萬輕舟傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1600/內息+8/悟性+8\"\r\n  }"
   rawIndex: 80
   splits:
   - splitPath: Name
@@ -1371,13 +1371,10 @@
   - splitPath: Desc
     text: "九流奇功"
     translated: "Nine Strange Arts of the Nine Schools"
-    qcReviewedText: "[Nine Strange Arts of the Nine Schools]Action response-1<50%>\\nAccumulating Action Points"
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: Desc
     subIndex: 1
-    text: "行动回复"
-    translated: "Action response"
+    text: "行动回复1"
+    translated: "Action response 1"
   - splitPath: Desc
     subIndex: 2
     text: "行动力累积"
@@ -1391,18 +1388,14 @@
   - splitPath: DetailDesc
     text: "战术协同类【衡山派】【心法】"
     translated: "Tactical Synergy Class [Hengshan Sect] [Heart Method]"
-    qcReviewedText: "Tactical Synergy Class [Hengshan Sect] [Heart Method]\\nRelease tactic [Nine Streams Unorthodox Skills]：Restores 1 Action Points with a 50% chance, and Action Points continue to accumulate after use."
-    qcTranslated: "Tactical Synergy Class [Hengshan Sect] [Heart Method]\\nRelease tactic [Nine Streams Unorthodox Skills]: 1% chance to restore 50 Action Points, and Action Points continue to accumulate after use."
-    qcStatus: Corrected
-    qcQualityScore: 95
   - splitPath: DetailDesc
     subIndex: 1
     text: "释放战术【九流奇功】"
     translated: "Release tactic [Nine Streams Unorthodox Skills]"
   - splitPath: DetailDesc
     subIndex: 2
-    text: "50%几率回复1点行动力，使用后行动力持续累积。"
-    translated: "Restores 1 Action Points with a 50% chance, and Action Points continue to accumulate after use."
+    text: "回复1点行动力，使用后行动力持续累积。"
+    translated: "Reply with 1 Action Points. They will continue to accumulate after use."
   - splitPath: SubType
     text: "心法"
     translated: "Heart Method"
@@ -1431,7 +1424,7 @@
     translated: "Insight"
   templates:
   - splitPath: Desc
-    template: "[{0}]{1}-1<50%>\\n{2}"
+    template: "[{0}]{1}\\n{2}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}：{2}"
   - splitPath: ExtraDesc
@@ -5561,7 +5554,7 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+90/{1}+3/{2}+3/{3}+3"
-- raw: "{\r\n    \"Key\": \"1730\",\r\n    \"Name\": \"两仪剑法\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n二连击\",\r\n    \"EchoName\": \"两仪剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。\",\r\n    \"ExtraDesc\": \"功力+120/根骨+6/灵活+6\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"兩儀劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入武當派，第五年除掉黃亂後，第五年八月起，貢獻到達70，根骨、靈活到達100，探索坐忘臺劉道生傳授。\",\r\n    \"ExtraDescTw\": \"功力+120/根骨+6/靈活+6\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1730\",\r\n    \"Name\": \"两仪剑法\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n二连击\",\r\n    \"EchoName\": \"两仪剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造成1.2倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"①加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。\\\\n②加入青城派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。\",\r\n    \"ExtraDesc\": \"功力+120/根骨+6/灵活+6\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"兩儀劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"①加入武當派，第五年除掉黃亂後，第五年八月起，貢獻到達70，根骨、靈活到達100，探索坐忘臺劉道生傳授。\\\\n②加入青城派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後加入。\",\r\n    \"ExtraDescTw\": \"功力+120/根骨+6/靈活+6\"\r\n  }"
   rawIndex: 1730
   splits:
   - splitPath: Name
@@ -5605,10 +5598,10 @@
   - splitPath: GetDesc
     text: "加入武当派，第五年除掉黄乱后，第五年八月起，贡献到达70，根骨、灵活到达100，探索坐忘台刘道生传授。"
     translated: "Join the Wudang Sect. Starting from the eighth month of the fifth year after eliminating Huang Luan, your contribution reaches 70, potential and flexibility reach 100. You begin exploring the Sitting Negligence Platform where Liu Daosheng teaches."
-    qcReviewedText: "Join the Wudang Sect. Starting from the eighth month of the fifth year after eliminating Huang Luan, your contribution reaches 70, potential and flexibility reach 100. You begin exploring the Sitting Negligence Platform where Liu Daosheng teaches."
-    qcTranslated: "Join the Wudang Sect. After eliminating Huang Luan in Year 5, starting from Month 8 of Year 5, once your Contribution reaches 70 and Potential and Flexibility reach 100., explore the Sitting Negligence Platform to receive instruction from Liu Daosheng."
-    qcStatus: Corrected
-    qcQualityScore: 82
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "加入青城派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
+    translated: "Joining Qingcheng Sect, in February of the fourth year, Daoist Studies and Alchemy reach proficiency and participate in the Guangcheng Elixir Assembly. In February of the eighth year, Daoist Studies and Alchemy reach mastery, participating in the Guangcheng Elixir Assembly for the second time. Daoist Studies and Alchemy reach grandmaster level, Insight reaches 200, explore the Guangcheng Elixir Cavern, and join after refining the Guangcheng Golden Elixir."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -5628,6 +5621,8 @@
     template: "{0}\\n{1}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
+  - splitPath: GetDesc
+    template: "①{0}\\n②{1}"
   - splitPath: ExtraDesc
     template: "{0}+120/{1}+6/{2}+6"
 - raw: "{\r\n    \"Key\": \"1740\",\r\n    \"Name\": \"真武剑诀\",\r\n    \"Desc\": \"攻击（4倍）\",\r\n    \"EchoName\": \"真武剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【武当派】【刀剑】\\\\n单次攻击造4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"①加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好不足60，邱道衍传授。\\\\n②加入武当派，第七年九月时，识破乔道安阴谋且邱灵素友好到达60，解锁秋灵素红颜后获取。\\\\n③非加入武当派，第八年开启宁王线后，探索真武观驰援武当后，邱道衍传授。\",\r\n    \"ExtraDesc\": \"功力+180/根骨+18\",\r\n    \"DescTw\": \"攻擊（4倍）\",\r\n    \"EchoNameTw\": \"真武劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【武當派】【刀劍】\\\\n單次攻擊造4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"①加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好不足60，邱道衍傳授。\\\\n②加入武當派，第七年九月時，識破喬道安陰謀且邱靈素友好到達60，解鎖秋靈素紅顏後獲取。\\\\n③非加入武當派，第八年開啟寧王線後，探索真武觀馳援武當後，邱道衍傳授。\",\r\n    \"ExtraDescTw\": \"功力+180/根骨+18\"\r\n  }"
@@ -10978,10 +10973,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Starwheel Umbrella]Support battle"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "星罗伞"
@@ -11028,11 +11020,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Jade Dew Brand]Stacks up to 1 layers, each layer providing defense.+20%"
-    qcTranslated: "【[Triggered at Start]】[Jade Dew Brand]Stacks up to 1 layers, each layer providing +20% defense."
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "玉露牌"
@@ -12188,7 +12176,7 @@
     template: "{0}+7%\\n{1}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
-- raw: "{\r\n    \"Key\": \"5040\",\r\n    \"Name\": \"十八转掌\",\r\n    \"Desc\": \"攻击（1.8倍）\",\r\n    \"EchoName\": \"十八转掌\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【拳脚】\\\\n单次攻击造1.8倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞，杜清风传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+4/根骨+3\",\r\n    \"DescTw\": \"攻擊（1.8倍）\",\r\n    \"EchoNameTw\": \"十八轉掌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【拳腳】\\\\n單次攻擊造1.8倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術精通，可隨姜道靈參與崆峒廣成丹會，丹會期間探索太素洞，杜清風傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+4/根骨+3\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"5040\",\r\n    \"Name\": \"十八转掌\",\r\n    \"Desc\": \"攻击（1.8倍）\\\\n行动回复1-18%\",\r\n    \"EchoName\": \"十八转掌\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【拳脚】\\\\n单次攻击造1.8倍侠客功力的伤害，并有18%几率回复一点行动力。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞杜清风传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+4/根骨+3\",\r\n    \"DescTw\": \"攻擊（1.8倍）\\\\n行動回覆1-18%\",\r\n    \"EchoNameTw\": \"十八轉掌\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【拳腳】\\\\n單次攻擊造1.8倍俠客功力的傷害，並有18%機率回覆一點行動力。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間探索太素洞杜清風傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+4/根骨+3\"\r\n  }"
   rawIndex: 5040
   splits:
   - splitPath: Name
@@ -12200,9 +12188,10 @@
   - splitPath: Desc
     text: "攻击（1.8倍）"
     translated: "Attack (1.8 times)"
-    qcReviewedText: "Attack (1.8 times)"
-    qcStatus: Passed
-    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+    translated: "Action response 1"
   - splitPath: EchoName
     text: "十八转掌"
     translated: "Eighteen Turn Palm"
@@ -12212,13 +12201,10 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【拳脚】"
     translated: "Attack Damage [Qingcheng Sect][Fist and Foot]"
-    qcReviewedText: "Attack Damage [Qingcheng Sect][Fist and Foot]\\nDeals 1.8 times the Wanderer's Power in damage per hit."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: DetailDesc
     subIndex: 1
-    text: "单次攻击造1.8倍侠客功力的伤害。"
-    translated: "Deals 1.8 times the Wanderer's Power in damage per hit."
+    text: "单次攻击造1.8倍侠客功力的伤害，并有18%几率回复一点行动力。"
+    translated: "Deals 1.8 times the Hero's Power in damage and has a 18% chance to restore one Action Point."
   - splitPath: SubType
     text: "拳脚"
     translated: "Punch and kick"
@@ -12226,12 +12212,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "加入武当派，第四年二月时，道学和丹术精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞，杜清风传授。"
-    translated: "Joining the Wudang Sect in its fourth year and second month, one can master both Daoist studies and alchemy, allowing them to participate with Jiang Daoling in the Kongtong Guangcheng Dan Meeting. During the Dan Meeting, they can explore the Taixu Cave, taught by Du Qingfeng."
-    qcReviewedText: "Joining the Wudang Sect in its fourth year and second month, one can master both Daoist studies and alchemy, allowing them to participate with Jiang Daoling in the Kongtong Guangcheng Dan Meeting. During the Dan Meeting, they can explore the Taixu Cave, taught by Du Qingfeng."
-    qcTranslated: "Join the Wudang Sect. In Year 4, Month 2, master Daoist Studies and Alchemy to participate in the Kongtong Guangcheng Dan Meeting with Jiang Daoling. During the meeting, explore Taixu Cave and receive instruction from Du Qingfeng."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞杜清风传授。"
+    translated: "Joining the Wudang Sect, in February of the fourth year, your Daoist Studies and Alchemy reached mastery, allowing you to participate in the Kongtong Guangcheng Alchemy Conference with Jiang Daoling. During the conference, explore Taixu Cave to learn from Du Qingfeng."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -12247,19 +12229,65 @@
     text: "根骨"
     translated: "Potential"
   templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-18%"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+70/{1}+4/{2}+3"
-- raw: "{\r\n    \"Key\": \"5130\",\r\n    \"Name\": \"清风剑法\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"清风剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"清風劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
-  rawIndex: 5130
+- raw: "{\r\n    \"Key\": \"5050\",\r\n    \"Name\": \"大道指诀\",\r\n    \"Desc\": \"攻击（4.2倍）\",\r\n    \"EchoName\": \"大道指诀\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【拳脚】\\\\n单次攻击造5倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。\",\r\n    \"ExtraDesc\": \"功力+130/根骨+8/体魄+5\",\r\n    \"DescTw\": \"攻擊（4.2倍）\",\r\n    \"EchoNameTw\": \"大道指訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【拳腳】\\\\n單次攻擊造5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入青城派，第五年三月開始探索川西擊敗匪寇救下小童，此後探索道藏閣呂伯陽傳授。\",\r\n    \"ExtraDescTw\": \"功力+130/根骨+8/體魄+5\"\r\n  }"
+  rawIndex: 5050
   splits:
   - splitPath: Name
-    text: "清风剑法"
-    translated: "Sword Technique of the Clear Wind"
-    qcReviewedText: "Sword Technique of the Clear Wind"
+    text: "大道指诀"
+    translated: "Great Path Finger Scripture"
+  - splitPath: Desc
+    text: "攻击（4.2倍）"
+    translated: "Attack (4.2 times)"
+  - splitPath: EchoName
+    text: "大道指诀"
+    translated: "Great Path Finger Scripture"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【拳脚】"
+    translated: "Attack Damage [Qingcheng Sect][Fist and Foot]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造5倍侠客功力的伤害。"
+    translated: "Deals 5 times the Hero's Power in damage per hit."
+  - splitPath: SubType
+    text: "拳脚"
+    translated: "Punch and kick"
+    qcReviewedText: "Punch and kick"
     qcStatus: Passed
     qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。"
+    translated: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "根骨"
+    translated: "Potential"
+  - splitPath: ExtraDesc
+    subIndex: 2
+    text: "体魄"
+    translated: "Resilience"
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+130/{1}+8/{2}+5"
+- raw: "{\r\n    \"Key\": \"5100\",\r\n    \"Name\": \"青城剑法\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"青城剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入青城派，第一年五月主线获取。\",\r\n    \"ExtraDesc\": \"功力+30/灵活+2/根骨+1\\\\n\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"青城劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入青城派，第一年五月主線獲取。\",\r\n    \"ExtraDescTw\": \"功力+30/靈活+2/根骨+1\\\\n\"\r\n  }"
+  rawIndex: 5100
+  splits:
+  - splitPath: Name
+    text: "青城剑法"
+    translated: "Qingcheng Swordsmanship"
   - splitPath: Desc
     text: "攻击（0.7倍）"
     translated: "Attack (0.7 times)"
@@ -12267,11 +12295,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: EchoName
-    text: "清风剑法"
-    translated: "Sword Technique of the Clear Wind"
-    qcReviewedText: "Sword Technique of the Clear Wind"
-    qcStatus: Passed
-    qcQualityScore: 100
+    text: "青城剑法"
+    translated: "Qingcheng Swordsmanship"
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
@@ -12289,15 +12314,274 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "敬请期待"
-    translated: "Stay tuned"
-    qcReviewedText: "Stay tuned"
+    text: "加入青城派，第一年五月主线获取。"
+    translated: "Join Qingcheng Sect; main storyline obtained in May of the first year."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
     qcStatus: Passed
     qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "灵活"
+    translated: "Flexible"
+  - splitPath: ExtraDesc
+    subIndex: 2
+    text: "根骨"
+    translated: "Potential"
   templates:
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
-- raw: "{\r\n    \"Key\": \"5180\",\r\n    \"Name\": \"云笈七剑\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n七连击\",\r\n    \"EchoName\": \"云笈七剑\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.5倍侠客功力的伤害，连续攻击七次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后，杜清风传授。\",\r\n    \"ExtraDesc\": \"功力+140/灵活+7/根骨+7\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n七連擊\",\r\n    \"EchoNameTw\": \"雲笈七劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.5倍俠客功力的傷害，連續攻擊七次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後，杜清風傳授。\",\r\n    \"ExtraDescTw\": \"功力+140/靈活+7/根骨+7\"\r\n  }"
+  - splitPath: ExtraDesc
+    template: "{0}+30/{1}+2/{2}+1\\n"
+- raw: "{\r\n    \"Key\": \"5110\",\r\n    \"Name\": \"紫霞剑诀\",\r\n    \"Desc\": \"攻击（2.8倍）\\\\n行动回复1-50%\",\r\n    \"EchoName\": \"紫霞剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（2.8倍）\\\\n行動回覆1-50%\",\r\n    \"EchoNameTw\": \"紫霞劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成2.8倍俠客功力的傷害，並有50%機率回覆一點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 5110
+  splits:
+  - splitPath: Name
+    text: "紫霞剑诀"
+    translated: "Violet Cloud Sword Technique"
+  - splitPath: Desc
+    text: "攻击（2.8倍）"
+    translated: "Attack (2.8 times)"
+    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
+    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
+    qcStatus: Corrected
+    qcQualityScore: 92
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+    translated: "Action response 1"
+  - splitPath: EchoName
+    text: "紫霞剑诀"
+    translated: "Violet Cloud Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。"
+    translated: "Deals 2.8 times the Hero's Power in damage and has a 50% chance to restore one Action Point."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-50%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"5120\",\r\n    \"Name\": \"青霞剑诀\",\r\n    \"Desc\": \"攻击（2.8倍）\\\\n行动回复1-50%\",\r\n    \"EchoName\": \"青霞剑诀\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（2.8倍）\\\\n行動回覆1-50%\",\r\n    \"EchoNameTw\": \"青霞劍訣\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成2.8倍俠客功力的傷害，並有50%機率回覆一點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 5120
+  splits:
+  - splitPath: Name
+    text: "青霞剑诀"
+    translated: "Green Mist Sword Technique"
+  - splitPath: Desc
+    text: "攻击（2.8倍）"
+    translated: "Attack (2.8 times)"
+    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
+    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
+    qcStatus: Corrected
+    qcQualityScore: 92
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+    translated: "Action response 1"
+  - splitPath: EchoName
+    text: "青霞剑诀"
+    translated: "Green Mist Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成2.8倍侠客功力的伤害，并有50%几率回复一点行动力。"
+    translated: "Deals 2.8 times the Hero's Power in damage and has a 50% chance to restore one Action Point."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-50%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"5130\",\r\n    \"Name\": \"松风剑法\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n行动回复1-20%\",\r\n    \"EchoName\": \"松风剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害，并有20%几率回复一点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入青城，第三年一月至四月，探索松林丹舍岳松涛传授。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n行動回覆1-20%\",\r\n    \"EchoNameTw\": \"松風劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害，並有20%機率回覆一點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入青城，第三年一月至四月，探索松林丹舍嶽松濤傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
+  rawIndex: 5130
+  splits:
+  - splitPath: Name
+    text: "松风剑法"
+    translated: "Song Wind Sword Technique"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+    translated: "Attack (0.7 times)"
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+    translated: "Action response 1"
+  - splitPath: EchoName
+    text: "松风剑法"
+    translated: "Song Wind Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成0.7倍侠客功力的伤害，并有20%几率回复一点行动力。"
+    translated: "Deals 0.7 times the Hero's Power in damage and has a 20% chance to restore one Action Point."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城，第三年一月至四月，探索松林丹舍岳松涛传授。"
+    translated: "Join Qingcheng, January to April of the third year, explore the Pine Forest Medicine Cottage where Yue Songtao teaches."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "灵活"
+    translated: "Flexible"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-20%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+80/{1}+8"
+- raw: "{\r\n    \"Key\": \"5140\",\r\n    \"Name\": \"呼应剑法\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n条件-连击次数大于2时\",\r\n    \"EchoName\": \"呼应剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n当对方连击数大于2时，单次攻击造成1.2倍侠客功力的伤害，连续攻击两。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入青城，第三年一月至四月，探索灵鹤苑裴云鹤传授。\",\r\n    \"ExtraDesc\": \"功力+80/根骨+4/灵活+4\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n條件-連擊次數大於2時\",\r\n    \"EchoNameTw\": \"呼應劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n當對方連擊數大於2時，單次攻擊造成1.2倍俠客功力的傷害，連續攻擊兩。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入青城，第三年一月至四月，探索靈鶴苑裴雲鶴傳授。\",\r\n    \"ExtraDescTw\": \"功力+80/根骨+4/靈活+4\"\r\n  }"
+  rawIndex: 5140
+  splits:
+  - splitPath: Name
+    text: "呼应剑法"
+    translated: "Echoing Sword Technique"
+  - splitPath: Desc
+    text: "攻击（1.2倍）"
+    translated: "Attack (1.2 times)"
+    qcReviewedText: "Attack (1.2 times) \\nAction response 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "条件"
+    translated: "Conditions"
+  - splitPath: Desc
+    subIndex: 2
+    text: "连击次数大于2时"
+    translated: "When consecutive hit count exceeds 2 times"
+  - splitPath: EchoName
+    text: "呼应剑法"
+    translated: "Echoing Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "当对方连击数大于2时，单次攻击造成1.2倍侠客功力的伤害，连续攻击两。"
+    translated: "When the opponent's combo count exceeds 2, each attack deals 1.2 times the Hero's Power in damage, for two consecutive hits."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城，第三年一月至四月，探索灵鹤苑裴云鹤传授。"
+    translated: "Join Qingcheng, from January to April of the third year, explore Linghe Garden, taught by Pei Yunhe."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "根骨"
+    translated: "Potential"
+  - splitPath: ExtraDesc
+    subIndex: 2
+    text: "灵活"
+    translated: "Flexible"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-{2}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+80/{1}+4/{2}+4"
+- raw: "{\r\n    \"Key\": \"5150\",\r\n    \"Name\": \"三官剑法\",\r\n    \"Desc\": \"攻击（0.9倍）\\\\n三连击\\\\n行动回复2-20%\",\r\n    \"EchoName\": \"三官剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.9倍侠客功力的伤害，连续攻击三次，并有20%几率回复两点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入青城，第三年一月至四月，探索百药圃温白石传授。\",\r\n    \"ExtraDesc\": \"功力+90/根骨+3/体魄+3/灵活+3\",\r\n    \"DescTw\": \"攻擊（0.9倍）\\\\n三連擊\\\\n行動回覆2-20%\",\r\n    \"EchoNameTw\": \"三官劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害，連續攻擊三次，並有20%機率回覆兩點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入青城，第三年一月至四月，探索百藥圃溫白石傳授。\",\r\n    \"ExtraDescTw\": \"功力+90/根骨+3/體魄+3/靈活+3\"\r\n  }"
+  rawIndex: 5150
+  splits:
+  - splitPath: Name
+    text: "三官剑法"
+    translated: "Three Officials Sword Technique"
+  - splitPath: Desc
+    text: "攻击（0.9倍）"
+    translated: "Attack (0.9 times)"
+    qcReviewedText: "Attack (0.9 times) \\nAction response 1<36%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "三连击"
+    translated: "Triple strike"
+  - splitPath: Desc
+    subIndex: 2
+    text: "行动回复2"
+    translated: "Action response 2"
+  - splitPath: EchoName
+    text: "三官剑法"
+    translated: "Three Officials Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成0.9倍侠客功力的伤害，连续攻击三次，并有20%几率回复两点行动力。"
+    translated: "Deals 0.9 times the Hero's Power in damage for a single attack, attacks three times in a row, and has a 20% chance to restore two Action Points."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城，第三年一月至四月，探索百药圃温白石传授。"
+    translated: "Join Qingcheng, from January to April of the third year, explore the Hundred Herbs Garden where White Stone teaches."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "根骨"
+    translated: "Potential"
+  - splitPath: ExtraDesc
+    subIndex: 2
+    text: "体魄"
+    translated: "Resilience"
+  - splitPath: ExtraDesc
+    subIndex: 3
+    text: "灵活"
+    translated: "Flexible"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}-20%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+90/{1}+3/{2}+3/{3}+3"
+- raw: "{\r\n    \"Key\": \"5180\",\r\n    \"Name\": \"云笈七剑\",\r\n    \"Desc\": \"攻击（0.7倍）\\\\n七连击\",\r\n    \"EchoName\": \"云笈七剑\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成0.7倍侠客功力的伤害，连续攻击七次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"1、加入青城派，第五年一月开始，道学到达高手，探索道藏阁吕伯阳传授。\\\\n2、加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。\",\r\n    \"ExtraDesc\": \"功力+140/灵活+7/根骨+7\",\r\n    \"DescTw\": \"攻擊（0.7倍）\\\\n七連擊\",\r\n    \"EchoNameTw\": \"雲笈七劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成0.7倍俠客功力的傷害，連續攻擊七次。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"1、加入青城派，第五年一月開始，道學到達高手，探索道藏閣呂伯陽傳授。\\\\n2、加入武當派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後加入。\",\r\n    \"ExtraDescTw\": \"功力+140/靈活+7/根骨+7\"\r\n  }"
   rawIndex: 5180
   splits:
   - splitPath: Name
@@ -12307,11 +12591,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "攻击（0.5倍）"
-    translated: "Attack (0.5 times)"
-    qcReviewedText: "Attack (0.5 times) \\nSeven consecutive strikes"
-    qcStatus: Passed
-    qcQualityScore: 100
+    text: "攻击（0.7倍）"
+    translated: "Attack (0.7 times)"
   - splitPath: Desc
     subIndex: 1
     text: "七连击"
@@ -12325,13 +12606,10 @@
   - splitPath: DetailDesc
     text: "攻击伤害类【青城派】【刀剑】"
     translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
-    qcReviewedText: "Attack Damage [Qingcheng Sect][Blade and Sword]\\nDeals 0.5 times the Wanderer's Power in damage with a single attack, and attacks seven times in succession."
-    qcStatus: Passed
-    qcQualityScore: 100
   - splitPath: DetailDesc
     subIndex: 1
-    text: "单次攻击造成0.5倍侠客功力的伤害，连续攻击七次。"
-    translated: "Deals 0.5 times the Wanderer's Power in damage with a single attack, and attacks seven times in succession."
+    text: "单次攻击造成0.7倍侠客功力的伤害，连续攻击七次。"
+    translated: "Deals 0.7 times the Hero's Power in damage per hit, for seven consecutive hits."
   - splitPath: SubType
     text: "刀剑"
     translated: "Blades Swords"
@@ -12339,12 +12617,12 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后，杜清风传授。"
-    translated: "Join the Wudang Sect in Year 4, February: Master Daoist Studies and Alchemy. Participate in the Guangcheng Dan Meeting with proficiency in both Daoist Studies and Alchemy. By Year 8, February, achieve mastery in both Daoist Studies and Alchemy and participate in the Guangcheng Dan Meeting for the second time. Daoist Studies and Alchemy reach the level of Grandmaster, and Insight reaches 200. Explore the Guangcheng Dan Cave, after refining the Guangcheng Golden Pill, Du Qingfeng imparts it."
-    qcReviewedText: "Join the Wudang Sect in Year 4, February: Master Daoist Studies and Alchemy. Participate in the Guangcheng Dan Meeting with proficiency in both Daoist Studies and Alchemy. By Year 8, February, achieve mastery in both Daoist Studies and Alchemy and participate in the Guangcheng Dan Meeting for the second time. Daoist Studies and Alchemy reach the level of Grandmaster, and Insight reaches 200. Explore the Guangcheng Dan Cave, after refining the Guangcheng Golden Pill, Du Qingfeng imparts it."
-    qcTranslated: "Join the Wudang Sect. In Year 4, Month 2, reach Proficiency in Daoist Studies and Alchemy. Participate in the Guangcheng Dan Meeting. In Year 8, Month 2, reach Master in Daoist Studies and Alchemy. Participate in the Guangcheng Dan Meeting for the second time. Reach Grandmaster in Daoist Studies and Alchemy, and Insight reaches 4. Explore the Guangcheng Dan Cave. After refining the Guangcheng Golden Pill, Du Qingfeng imparts it."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    text: "1、加入青城派，第五年一月开始，道学到达高手，探索道藏阁吕伯阳传授。"
+    translated: "1, joining Qingcheng Sect, in the fifth year starting January, Daoist Studies reached expert level, exploring the Daoist Canon Pavilion where Master Lyu Boyang teaches."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
+    translated: "2, joined Wudang Sect. In the second month of the fourth year, Daoist Studies and Alchemy reached mastery and participation in the Guangcheng Elixir Conference began. By the second month of the eighth year, Daoist Studies and Alchemy had reached grandmaster level, with a second participation in the Guangcheng Elixir Conference. Daoist Studies and Alchemy reached the peak of mastery, and Insight reached 200, leading to exploration of the Guangcheng Elixir Cave. After refining the Guangcheng Golden Elixir, they joined."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -12364,8 +12642,828 @@
     template: "{0}\\n{1}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+140/{1}+7/{2}+7"
+- raw: "{\r\n    \"Key\": \"5190\",\r\n    \"Name\": \"紫青神剑\",\r\n    \"Desc\": \"攻击（2.8倍）\\\\n二连击\",\r\n    \"EchoName\": \"紫青神剑\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成2.8倍侠客功力的伤害，连续攻击两次。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（2.8倍）\\\\n二連擊\",\r\n    \"EchoNameTw\": \"紫青神劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成2.8倍俠客功力的傷害，連續攻擊兩次。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 5190
+  splits:
+  - splitPath: Name
+    text: "紫青神剑"
+    translated: "Purple-Green Divine Sword"
+  - splitPath: Desc
+    text: "攻击（2.8倍）"
+    translated: "Attack (2.8 times)"
+    qcReviewedText: "Attack (2.8 times)\\n[Fisherman and Woodcutter's Sword Song]Stacks up to 1 layers, each layer dealing damage+50%"
+    qcTranslated: "Attack (2.8x)\\n[Fisherman and Woodcutter's Sword Song] Stacks up to 1 layers, each layer dealing +50% damage"
+    qcStatus: Corrected
+    qcQualityScore: 92
+  - splitPath: Desc
+    subIndex: 1
+    text: "二连击"
+    translated: "Double Strike"
+  - splitPath: EchoName
+    text: "紫青神剑"
+    translated: "Purple-Green Divine Sword"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成2.8倍侠客功力的伤害，连续攻击两次。"
+    translated: "Deals 2.8 times the Hero's Power in damage per hit, for two hits."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"5260\",\r\n    \"Name\": \"颠倒剑法\",\r\n    \"Desc\": \"攻击（3.2倍）\\\\n行动力累积\",\r\n    \"EchoName\": \"颠倒剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【青城派】【刀剑】\\\\n单次攻击造成3.2倍侠客功力的伤害，使用后行动力持续累积。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"加入青城派，第八年一月开始，贡献到达100，探索道藏阁，战胜吕伯阳后加入。\",\r\n    \"ExtraDesc\": \"功力+150/根骨+15\",\r\n    \"DescTw\": \"攻擊（3.2倍）\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"顛倒劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【青城派】【刀劍】\\\\n單次攻擊造成3.2倍俠客功力的傷害，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"加入青城派，第八年一月開始，貢獻到達100，探索道藏閣，戰勝呂伯陽後加入。\",\r\n    \"ExtraDescTw\": \"功力+150/根骨+15\"\r\n  }"
+  rawIndex: 5260
+  splits:
+  - splitPath: Name
+    text: "颠倒剑法"
+    translated: "Reversed Swordsmanship"
+  - splitPath: Desc
+    text: "攻击（3.2倍）"
+    translated: "Attack (3.2 times)"
+    qcReviewedText: "Attack (3.2 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动力累积"
+    translated: "Accumulating Action Points"
+  - splitPath: EchoName
+    text: "颠倒剑法"
+    translated: "Reversed Swordsmanship"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【青城派】【刀剑】"
+    translated: "Attack Damage [Qingcheng Sect][Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成3.2倍侠客功力的伤害，使用后行动力持续累积。"
+    translated: "Deals 3.2 times the Hero's Power in damage on a single attack, and continues to accumulate Action Points after use."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第八年一月开始，贡献到达100，探索道藏阁，战胜吕伯阳后加入。"
+    translated: "Join Qingcheng Sect, starting in January of the eighth year. When your Contribution reaches 100, explore the Daozang Pavilion and defeat Lu Boyang to join."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "根骨"
+    translated: "Potential"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+150/{1}+15"
+- raw: "{\r\n    \"Key\": \"5280\",\r\n    \"Name\": \"天一遁法\",\r\n    \"Desc\": \"[天一遁法]支援战斗\\\\n限一次\",\r\n    \"EchoName\": \"天一遁法\",\r\n    \"DetailDesc\": \"战术协同类【青城派】【心法】\\\\n释放战术【天一遁法】，本回合可抵消99次攻击，每场战斗只能使用一次。\",\r\n    \"SubType\": \"心法\",\r\n    \"ExtraDesc\": \"功力+180/轻功+18\",\r\n    \"DescTw\": \"[天一遁法]支援戰鬥\\\\n限一次\",\r\n    \"EchoNameTw\": \"天一遁法\",\r\n    \"DetailDescTw\": \"戰術協同類【青城派】【心法】\\\\n釋放戰術【天一遁法】，本回合可抵消99次攻擊，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"ExtraDescTw\": \"功力+180/輕功+18\"\r\n  }"
+  rawIndex: 5280
+  splits:
+  - splitPath: Name
+    text: "天一遁法"
+    translated: "Heavenly Escape Technique"
+  - splitPath: Desc
+    text: "天一遁法"
+    translated: "Heavenly Escape Technique"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+    translated: "Support battle"
+  - splitPath: Desc
+    subIndex: 2
+    text: "限一次"
+    translated: "Once only"
+  - splitPath: EchoName
+    text: "天一遁法"
+    translated: "Heavenly Escape Technique"
+  - splitPath: DetailDesc
+    text: "战术协同类【青城派】【心法】"
+    translated: "Tactical Synergy Class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "释放战术【天一遁法】，本回合可抵消99次攻击，每场战斗只能使用一次。"
+    translated: "Release tactic [Tianyi Evasion], negates 99 attacks this turn. Can only be used once per battle."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "轻功"
+    translated: "Qinggong"
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}\\n{2}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+180/{1}+18"
+- raw: "{\r\n    \"Key\": \"5310\",\r\n    \"Name\": \"青城心法\",\r\n    \"Desc\": \"行动回复1-12%\",\r\n    \"EchoName\": \"青城心法\",\r\n    \"DetailDesc\": \"自动释放类【青城派】【心法】\\\\n12%几率释放回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，第二年二月藏道阁拜见吕伯阳后获取。\",\r\n    \"ExtraDesc\": \"气血+300/内息+3\",\r\n    \"DescTw\": \"行動回覆1-12%\",\r\n    \"EchoNameTw\": \"青城心法\",\r\n    \"DetailDescTw\": \"自動釋放類【青城派】【心法】\\\\n12%機率釋放回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，第二年二月藏道閣拜見呂伯陽後獲取。\",\r\n    \"ExtraDescTw\": \"氣血+300/內息+3\"\r\n  }"
+  rawIndex: 5310
+  splits:
+  - splitPath: Name
+    text: "青城心法"
+    translated: "Qingcheng Heart Method"
+  - splitPath: Desc
+    text: "行动回复1"
+    translated: "Action response 1"
+    qcReviewedText: "Action response 1-10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "青城心法"
+    translated: "Qingcheng Heart Method"
+  - splitPath: DetailDesc
+    text: "自动释放类【青城派】【心法】"
+    translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "12%几率释放回复1点行动力。"
+    translated: "12% chance to release 1 Action Points"
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第二年二月藏道阁拜见吕伯阳后获取。"
+    translated: "Join the Qingcheng Sect; obtained after visiting Lu Boyang in the Concealed Dao Pavilion in February of the second year."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: Desc
+    template: "{0}-12%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+300/{1}+3"
+- raw: "{\r\n    \"Key\": \"5320\",\r\n    \"Name\": \"胎息功\",\r\n    \"Desc\": \"【开局触发】行动回复2\",\r\n    \"EchoName\": \"胎息功\",\r\n    \"DetailDesc\": \"辅助回复类【青城派】【心法】\\\\n回复2点行动力，回合开始自动触发。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。\",\r\n    \"ExtraDesc\": \"气血+900/内息+5/悟性4\",\r\n    \"DescTw\": \"【開局觸發】行動回覆2\",\r\n    \"EchoNameTw\": \"胎息功\",\r\n    \"DetailDescTw\": \"輔助回覆類【青城派】【心法】\\\\n回覆2點行動力，回合開始自動觸發。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，第五年三月開始探索川西擊敗匪寇救下小童，此後探索道藏閣呂伯陽傳授。\",\r\n    \"ExtraDescTw\": \"氣血+900/內息+5/悟性4\"\r\n  }"
+  rawIndex: 5320
+  splits:
+  - splitPath: Name
+    text: "胎息功"
+    translated: "Fetal Breath Technique"
+  - splitPath: Desc
+    text: "【开局触发】行动回复2"
+    translated: "Action replies to 【Trigger at the beginning of the game】 and 2"
+    qcReviewedText: "Action replies to 【Trigger at the beginning of the game】 and 2"
+    qcTranslated: "【Trigger at the beginning of the game】 Action restores 2"
+    qcStatus: Corrected
+    qcQualityScore: 92
+  - splitPath: EchoName
+    text: "胎息功"
+    translated: "Fetal Breath Technique"
+  - splitPath: DetailDesc
+    text: "辅助回复类【青城派】【心法】"
+    translated: "Support Reply Class [Qingcheng Sect] [Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "回复2点行动力，回合开始自动触发。"
+    translated: "Reply with 2 Action Points; triggered automatically at the start of your turn."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后探索道藏阁吕伯阳传授。"
+    translated: "Join the Qingcheng Sect. In March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a child. Thereafter, you explored the Daoist Canon Pavilion where Master Lu Boyang imparted teachings."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  - splitPath: ExtraDesc
+    subIndex: 2
+    text: "悟性4"
+    translated: "Insight 4"
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+900/{1}+5/{2}"
+- raw: "{\r\n    \"Key\": \"5330\",\r\n    \"Name\": \"静心诀\",\r\n    \"Desc\": \"消除战术1\",\r\n    \"EchoName\": \"静心诀\",\r\n    \"DetailDesc\": \"异常影响类【青城派】【心法】\\\\n清除敌人1个战术。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，贡献到达20，道学到达入门，探索道藏阁吕伯阳传授。\",\r\n    \"ExtraDesc\": \"气血+700/内息+7\",\r\n    \"DescTw\": \"消除戰術1\",\r\n    \"EchoNameTw\": \"靜心訣\",\r\n    \"DetailDescTw\": \"異常影響類【青城派】【心法】\\\\n清除敵人1個戰術。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，貢獻到達20，道學到達入門，探索道藏閣呂伯陽傳授。\",\r\n    \"ExtraDescTw\": \"氣血+700/內息+7\"\r\n  }"
+  rawIndex: 5330
+  splits:
+  - splitPath: Name
+    text: "静心诀"
+    translated: "Calming Mind Incantation"
+  - splitPath: Desc
+    text: "消除战术1"
+    translated: "Elimination Tactics 1"
+    qcReviewedText: "Elimination Tactics 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "静心诀"
+    translated: "Calming Mind Incantation"
+  - splitPath: DetailDesc
+    text: "异常影响类【青城派】【心法】"
+    translated: "Abnormal Effect Category [Qingcheng Sect] [Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "清除敌人1个战术。"
+    translated: "Clear 1 enemy tactics"
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，贡献到达20，道学到达入门，探索道藏阁吕伯阳传授。"
+    translated: "Join Qingcheng Sect, with Contributions reaching 20 and Daoist Studies reaching beginner level, explore the Daoist Canon Hall where Lu Boyang will impart teachings."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+700/{1}+7"
+- raw: "{\r\n    \"Key\": \"5350\",\r\n    \"Name\": \"五斗奇功\",\r\n    \"Desc\": \"行动回复3\\\\n限一次\",\r\n    \"EchoName\": \"五斗奇功\",\r\n    \"DetailDesc\": \"辅助回复类【青城派】【心法】\\\\n回复3点行动力，每场战斗只能使用一次。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，贡献到达60.道学到达高手，探索道藏阁吕伯阳传授。\",\r\n    \"ExtraDesc\": \"气血+1500/内息+5\",\r\n    \"DescTw\": \"行動回覆3\\\\n限一次\",\r\n    \"EchoNameTw\": \"五斗奇功\",\r\n    \"DetailDescTw\": \"輔助回覆類【青城派】【心法】\\\\n回覆3點行動力，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，貢獻到達60.道學到達高手，探索道藏閣呂伯陽傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1500/內息+5\"\r\n  }"
+  rawIndex: 5350
+  splits:
+  - splitPath: Name
+    text: "五斗奇功"
+    translated: "Five Bushels of Marvelous Skill"
+  - splitPath: Desc
+    text: "行动回复3"
+    translated: "Action response 3"
+  - splitPath: Desc
+    subIndex: 1
+    text: "限一次"
+    translated: "Once only"
+  - splitPath: EchoName
+    text: "五斗奇功"
+    translated: "Five Bushels of Marvelous Skill"
+  - splitPath: DetailDesc
+    text: "辅助回复类【青城派】【心法】"
+    translated: "Support Reply Class [Qingcheng Sect] [Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "回复3点行动力，每场战斗只能使用一次。"
+    translated: "Reply with 3 Action Points. You can only use them once per battle."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，贡献到达60.道学到达高手，探索道藏阁吕伯阳传授。"
+    translated: "Join the Qingcheng Sect, with Contribution reaching 60. and Daoist Studies reaching Expert level, explore the Daoist Canon Hall where Master Lu Boyang will impart teachings."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+1500/{1}+5"
+- raw: "{\r\n    \"Key\": \"5370\",\r\n    \"Name\": \"青城身法\",\r\n    \"Desc\": \"闪避1<8%>\",\r\n    \"EchoName\": \"青城身法\",\r\n    \"DetailDesc\": \"自动触发类【青城派】【心法】\\\\n8%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，第二年五月灵鹤苑拜见韩景升后获取。\",\r\n    \"ExtraDesc\": \"功力+40/灵活+4\",\r\n    \"DescTw\": \"閃避1<8%>\",\r\n    \"EchoNameTw\": \"青城身法\",\r\n    \"DetailDescTw\": \"自動觸發類【青城派】【心法】\\\\n8%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，第二年五月靈鶴苑拜見韓景升後獲取。\",\r\n    \"ExtraDescTw\": \"功力+40/靈活+4\"\r\n  }"
+  rawIndex: 5370
+  splits:
+  - splitPath: Name
+    text: "青城身法"
+    translated: "Qingcheng Agility"
+  - splitPath: Desc
+    text: "闪避1"
+    translated: "Dodge 1"
+    qcReviewedText: "Dodge 1<9%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "青城身法"
+    translated: "Qingcheng Agility"
+  - splitPath: DetailDesc
+    text: "自动触发类【青城派】【心法】"
+    translated: "Automatically triggered class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "8%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+    translated: "8% chance to automatically release the tactic [Dodge], which can negate one instance of damage."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第二年五月灵鹤苑拜见韩景升后获取。"
+    translated: "Join the Qingcheng Sect; obtained after paying respects to Han Jingsheng at Linghe Garden in May of the second year."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "灵活"
+    translated: "Flexible"
+  templates:
+  - splitPath: Desc
+    template: "{0}<8%>"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+40/{1}+4"
+- raw: "{\r\n    \"Key\": \"5390\",\r\n    \"Name\": \"风云引\",\r\n    \"Desc\": \"闪避1\",\r\n    \"EchoName\": \"风云引\",\r\n    \"DetailDesc\": \"战术协同类【青城派】【心法】\\\\n释放战术【闪避】，可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城，第七年一月灵鹤化为异种后，贡献到达80，探索灵鹤苑韩景升传授。\",\r\n    \"ExtraDesc\": \"气血+1400/内息+14\",\r\n    \"DescTw\": \"閃避1\",\r\n    \"EchoNameTw\": \"風雲引\",\r\n    \"DetailDescTw\": \"戰術協同類【青城派】【心法】\\\\n釋放戰術【閃避】，可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城，第七年一月靈鶴化為異種後，貢獻到達80，探索靈鶴苑韓景升傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1400/內息+14\"\r\n  }"
+  rawIndex: 5390
+  splits:
+  - splitPath: Name
+    text: "风云引"
+    translated: "Wind and Clouds Scroll"
+  - splitPath: Desc
+    text: "闪避1"
+    translated: "Dodge 1"
+    qcReviewedText: "Dodge 1<9%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "风云引"
+    translated: "Wind and Clouds Scroll"
+  - splitPath: DetailDesc
+    text: "战术协同类【青城派】【心法】"
+    translated: "Tactical Synergy Class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "释放战术【闪避】，可以抵消一次伤害。"
+    translated: "Release the tactic [Dodge], which can cancel out one instance of damage."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城，第七年一月灵鹤化为异种后，贡献到达80，探索灵鹤苑韩景升传授。"
+    translated: "Joining Qingcheng, in the seventh year, after January when the Spirit Crane transformed into a rare breed, your Contribution reached 80, and you were taught by Han Jingsheng in the Spirit Crane Garden."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+1400/{1}+14"
+- raw: "{\r\n    \"Key\": \"5400\",\r\n    \"Name\": \"长生诀\",\r\n    \"Desc\": \"行动回复2\\\\n条件-气血大于99%\",\r\n    \"EchoName\": \"长生诀\",\r\n    \"DetailDesc\": \"自动释放类【青城派】【心法】\\\\n气血大于99%时，回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，学会道生诀后，七年二月功力反噬，探索闻道宫得知过往，此后探索闻道宫诸位师叔伯传道，七年六月前悟性到达170，领悟长生诀。\",\r\n    \"ExtraDesc\": \"气血+2000/内息+20\",\r\n    \"DescTw\": \"行動回覆2\\\\n條件-氣血大於99%\",\r\n    \"EchoNameTw\": \"長生訣\",\r\n    \"DetailDescTw\": \"自動釋放類【青城派】【心法】\\\\n氣血大於99%時，回覆1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，學會道生訣後，七年二月功力反噬，探索聞道宮得知過往，此後探索聞道宮諸位師叔伯傳道，七年六月前悟性到達170，領悟長生訣。\",\r\n    \"ExtraDescTw\": \"氣血+2000/內息+20\"\r\n  }"
+  rawIndex: 5400
+  splits:
+  - splitPath: Name
+    text: "长生诀"
+    translated: "Eternal Life Scripture"
+  - splitPath: Desc
+    text: "行动回复2"
+    translated: "Action response 2"
+  - splitPath: Desc
+    subIndex: 1
+    text: "条件"
+    translated: "Conditions"
+  - splitPath: Desc
+    subIndex: 2
+    text: "气血大于99%"
+    translated: "Lifeforce greater than 99%"
+  - splitPath: EchoName
+    text: "长生诀"
+    translated: "Eternal Life Scripture"
+  - splitPath: DetailDesc
+    text: "自动释放类【青城派】【心法】"
+    translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "气血大于99%时，回复1点行动力。"
+    translated: "Restores 1 Action Points when Lifeforce is greater than 99%."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，学会道生诀后，七年二月功力反噬，探索闻道宫得知过往，此后探索闻道宫诸位师叔伯传道，七年六月前悟性到达170，领悟长生诀。"
+    translated: "Joining the Qingcheng Sect and learning the Dao Creation Formula, in the second month of the seventh year, my Power rebelled against me. Exploring the Palace of Enlightenment revealed my past. Thereafter, I explored the teachings of various Master Uncles at the Palace of Enlightenment. By early June of the seventh year, my Insight reached 170, allowing me to comprehend the Elixir of Immortality Formula."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-{2}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+2000/{1}+20"
+- raw: "{\r\n    \"Key\": \"5380\",\r\n    \"Name\": \"道生诀\",\r\n    \"Desc\": \"行动回复1\\\\n条件-气血小于40%\",\r\n    \"EchoName\": \"道生诀\",\r\n    \"DetailDesc\": \"自动释放类【青城派】【心法】\\\\n气血小于40%时，回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"加入青城派，第六年三月开始听闻青城秘册，然后灵鹤苑找裴云鹤打听，探索川西打酒遇到疯道士，探索川西救下疯道士得知考验，探索川西听闻茶坪山，最后探索川西龙门山顶得疯老道传授。\",\r\n    \"ExtraDesc\": \"气血+1400/内息+14\",\r\n    \"DescTw\": \"行動回覆1\\\\n條件-氣血小於40%\",\r\n    \"EchoNameTw\": \"道生訣\",\r\n    \"DetailDescTw\": \"自動釋放類【青城派】【心法】\\\\n氣血小於40%時，回覆1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"加入青城派，第六年三月開始聽聞青城祕冊，然後靈鶴苑找裴雲鶴打聽，探索川西打酒遇到瘋道士，探索川西救下瘋道士得知考驗，探索川西聽聞茶坪山，最後探索川西龍門山頂得瘋老道傳授。\",\r\n    \"ExtraDescTw\": \"氣血+1400/內息+14\"\r\n  }"
+  rawIndex: 5380
+  splits:
+  - splitPath: Name
+    text: "道生诀"
+    translated: "Dao Birth Manual"
+  - splitPath: Desc
+    text: "行动回复1"
+    translated: "Action response 1"
+  - splitPath: Desc
+    subIndex: 1
+    text: "条件"
+    translated: "Conditions"
+  - splitPath: Desc
+    subIndex: 2
+    text: "气血小于40%"
+    translated: "Lifeforce is less than 40%"
+  - splitPath: EchoName
+    text: "道生诀"
+    translated: "Dao Birth Manual"
+  - splitPath: DetailDesc
+    text: "自动释放类【青城派】【心法】"
+    translated: "Automatic Release Class [Qingcheng Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "气血小于40%时，回复1点行动力。"
+    translated: "When Lifeforce is less than 40%, restore 1 Action Points."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第六年三月开始听闻青城秘册，然后灵鹤苑找裴云鹤打听，探索川西打酒遇到疯道士，探索川西救下疯道士得知考验，探索川西听闻茶坪山，最后探索川西龙门山顶得疯老道传授。"
+    translated: "Joining Qingcheng Sect, in March of the sixth year, I began to hear about the secrets of Qingcheng. Then, at Linghe Garden, I sought out Pei Yunhe for information. Exploring western Sichuan while buying wine, I encountered a mad Taoist. Rescuing the mad Taoist, I learned of the test. Exploring further in western Sichuan, I heard about Chaping Mountain. Finally, atop Longmen Peak in western Sichuan, the mad old Taoist imparted his teachings to me."
+  - splitPath: ExtraDesc
+    text: "气血"
+    translated: "Lifeforce"
+    qcReviewedText: "Lifeforce+400/Inner Qi+4\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "内息"
+    translated: "Inner Qi"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-{2}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+1400/{1}+14"
+- raw: "{\r\n    \"Key\": \"5410\",\r\n    \"Name\": \"仙人余粮\",\r\n    \"Desc\": \"回春（2%最大气血）\",\r\n    \"EchoName\": \"仙人余粮\",\r\n    \"DetailDesc\": \"自动触发类【青城派】【特技】\\\\n回复我方2%气血。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"加入青城派，第二年四月百药圃拜见祁玄览后获取。\",\r\n    \"ExtraDesc\": \"医术+10\",\r\n    \"DescTw\": \"回春（2%最大氣血）\",\r\n    \"EchoNameTw\": \"仙人餘糧\",\r\n    \"DetailDescTw\": \"自動觸發類【青城派】【特技】\\\\n回覆我方2%氣血。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"加入青城派，第二年四月百藥圃拜見祁玄覽後獲取。\",\r\n    \"ExtraDescTw\": \"醫術+10\"\r\n  }"
+  rawIndex: 5410
+  splits:
+  - splitPath: Name
+    text: "仙人余粮"
+    translated: "Heavenly provisions"
+  - splitPath: Desc
+    text: "回春（2%最大气血）"
+    translated: "Restore Health(2% of maximum Lifeforce)"
+  - splitPath: EchoName
+    text: "仙人余粮"
+    translated: "Heavenly provisions"
+  - splitPath: DetailDesc
+    text: "自动触发类【青城派】【特技】"
+    translated: "Automatically Triggered Class [Qingcheng Sect] [Special Skill]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "回复我方2%气血。"
+    translated: "Reply with our 2% Lifeforce"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第二年四月百药圃拜见祁玄览后获取。"
+    translated: "Join the Qingcheng Sect; obtain after paying respects to Qi Xuanyan at the Hundred Herbs Garden in the second year's April."
+  - splitPath: ExtraDesc
+    text: "医术"
+    translated: "Medicine"
+    qcReviewedText: "Medicine+9"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+10"
+- raw: "{\r\n    \"Key\": \"5420\",\r\n    \"Name\": \"赤须玄参\",\r\n    \"Desc\": \"回春（12%最大气血）\\\\n行动力累积\",\r\n    \"EchoName\": \"赤须玄参\",\r\n    \"DetailDesc\": \"辅助回复类【青城派】【特技】\\\\n回复我方12%气血，使用后行动力持续累积。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"回春（12%最大氣血）\\\\n行動力累積\",\r\n    \"EchoNameTw\": \"赤須玄蔘\",\r\n    \"DetailDescTw\": \"輔助回覆類【青城派】【特技】\\\\n回覆我方12%氣血，使用後行動力持續累積。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 5420
+  splits:
+  - splitPath: Name
+    text: "赤须玄参"
+    translated: "Red Bearded Black Ginseng"
+  - splitPath: Desc
+    text: "回春（12%最大气血）"
+    translated: "Restore Health (12% of maximum Lifeforce)"
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动力累积"
+    translated: "Accumulating Action Points"
+  - splitPath: EchoName
+    text: "赤须玄参"
+    translated: "Red Bearded Black Ginseng"
+  - splitPath: DetailDesc
+    text: "辅助回复类【青城派】【特技】"
+    translated: "Support Reply Class [Qingcheng Sect][Special Skill]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "回复我方12%气血，使用后行动力持续累积。"
+    translated: "Restores us 12% Lifeforce, and Action Points will continue to accumulate afterward."
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"5450\",\r\n    \"Name\": \"灵鹤\",\r\n    \"Desc\": \"[灵鹤]支援战斗\",\r\n    \"EchoName\": \"灵鹤\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【灵鹤】。灵鹤单次攻击造成400点+16倍御兽伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"加入青城派，第三年十一月主线自动获取。\",\r\n    \"ExtraDesc\": \"御兽+10\",\r\n    \"DescTw\": \"[靈鶴]支援戰鬥\",\r\n    \"EchoNameTw\": \"靈鶴\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【靈鶴】。靈鶴單次攻擊造成400點+16倍御獸傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"加入青城派，第三年十一月主線自動獲取。\",\r\n    \"ExtraDescTw\": \"御獸+10\"\r\n  }"
+  rawIndex: 5450
+  splits:
+  - splitPath: Name
+    text: "灵鹤"
+    translated: "Spirit Crane"
+  - splitPath: Desc
+    text: "灵鹤"
+    translated: "Spirit Crane"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+    translated: "Support battle"
+  - splitPath: EchoName
+    text: "灵鹤"
+    translated: "Spirit Crane"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】"
+    translated: "Tactical Synergy Class [Pet] [Assist]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "召唤宠物【灵鹤】。灵鹤单次攻击造成400点+16倍御兽伤害，发动几率100%。"
+    translated: "Summon pet [Soul Crane]. The Soul Crane deals 400 points of +16-fold Beast Taming damage in a single attack, with a 100% chance to activate."
+  - splitPath: SubType
+    text: "助战"
+    translated: "Assistance in Battle"
+    qcReviewedText: "Assistance in Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第三年十一月主线自动获取。"
+    translated: "Join the Qingcheng Sect; the main storyline will be automatically obtained in November of the third year."
+  - splitPath: ExtraDesc
+    text: "御兽"
+    translated: "Beast Taming"
+    qcReviewedText: "Beast Taming+10"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+10"
+- raw: "{\r\n    \"Key\": \"5460\",\r\n    \"Name\": \"风羽鹤\",\r\n    \"Desc\": \"[风羽鹤]支援战斗\",\r\n    \"EchoName\": \"风羽鹤\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【风羽鹤】。风羽鹤单次攻击造成1200点+12倍御兽二连击伤害，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"加入青城派，第四年、第五年、第六年的一月，选择川穹草喂养灵鹤两次及以上，第七年一月获得。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[風羽鶴]支援戰鬥\",\r\n    \"EchoNameTw\": \"風羽鶴\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【風羽鶴】。風羽鶴單次攻擊造成1200點+12倍御獸二連擊傷害，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"加入青城派，第四年、第五年、第六年的一月，選擇川穹草餵養靈鶴兩次及以上，第七年一月獲得。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
+  rawIndex: 5460
+  splits:
+  - splitPath: Name
+    text: "风羽鹤"
+    translated: "Feng Yuhexue"
+  - splitPath: Desc
+    text: "风羽鹤"
+    translated: "Feng Yuhexue"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+    translated: "Support battle"
+  - splitPath: EchoName
+    text: "风羽鹤"
+    translated: "Feng Yuhexue"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】"
+    translated: "Tactical Synergy Class [Pet] [Assist]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "召唤宠物【风羽鹤】。风羽鹤单次攻击造成1200点+12倍御兽二连击伤害，发动几率100%。"
+    translated: "Summon pet [Wind Feather Crane]. The Wind Feather Crane deals 1200 points of +12x Beast Taming Double Strike damage per single attack, with a trigger rate of 100%."
+  - splitPath: SubType
+    text: "助战"
+    translated: "Assistance in Battle"
+    qcReviewedText: "Assistance in Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第四年、第五年、第六年的一月，选择川穹草喂养灵鹤两次及以上，第七年一月获得。"
+    translated: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Chuanqiong grass twice or more. Obtain in January of the seventh year."
+  - splitPath: ExtraDesc
+    text: "御兽"
+    translated: "Beast Taming"
+    qcReviewedText: "Beast Taming+10"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+20"
+- raw: "{\r\n    \"Key\": \"5470\",\r\n    \"Name\": \"云羽鹤\",\r\n    \"Desc\": \"[云羽鹤]支援战斗\",\r\n    \"EchoName\": \"云羽鹤\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【云羽鹤】。云羽鹤每回合有40%概率回复3点行动。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"加入青城派，第四年、第五年、第六年的一月，选择松茯苓喂养灵鹤两次及以上，第七年一月获得。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[雲羽鶴]支援戰鬥\",\r\n    \"EchoNameTw\": \"雲羽鶴\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【雲羽鶴】。雲羽鶴每回合有40%概率回覆3點行動。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"加入青城派，第四年、第五年、第六年的一月，選擇鬆茯苓餵養靈鶴兩次及以上，第七年一月獲得。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
+  rawIndex: 5470
+  splits:
+  - splitPath: Name
+    text: "云羽鹤"
+    translated: "Yun Yuhex"
+  - splitPath: Desc
+    text: "云羽鹤"
+    translated: "Yun Yuhex"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+    translated: "Support battle"
+  - splitPath: EchoName
+    text: "云羽鹤"
+    translated: "Yun Yuhex"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】"
+    translated: "Tactical Synergy Class [Pet] [Assist]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "召唤宠物【云羽鹤】。云羽鹤每回合有40%概率回复3点行动。"
+    translated: "Summon pet [Yunyu Crane]. The Yunyu Crane has a 40% chance each turn to restore 3 point of action."
+  - splitPath: SubType
+    text: "助战"
+    translated: "Assistance in Battle"
+    qcReviewedText: "Assistance in Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第四年、第五年、第六年的一月，选择松茯苓喂养灵鹤两次及以上，第七年一月获得。"
+    translated: "Join the Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with pine and Poria twice or more. Obtain in January of the seventh year."
+  - splitPath: ExtraDesc
+    text: "御兽"
+    translated: "Beast Taming"
+    qcReviewedText: "Beast Taming+10"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+20"
+- raw: "{\r\n    \"Key\": \"5480\",\r\n    \"Name\": \"霜羽鹤\",\r\n    \"Desc\": \"[霜羽鹤]支援战斗\",\r\n    \"EchoName\": \"霜羽鹤\",\r\n    \"DetailDesc\": \"战术协同类【宠物】【助战】\\\\n召唤宠物【霜羽鹤】。霜羽鹤单次攻击造成4000点+20倍御兽伤害，40%概率造成轻伤，发动几率100%。\",\r\n    \"SubType\": \"助战\",\r\n    \"GetDesc\": \"加入青城派，第四年、第五年、第六年的一月，选择地茜根喂养灵鹤两次及以上，第七年一月获得。\",\r\n    \"ExtraDesc\": \"御兽+20\",\r\n    \"DescTw\": \"[霜羽鶴]支援戰鬥\",\r\n    \"EchoNameTw\": \"霜羽鶴\",\r\n    \"DetailDescTw\": \"戰術協同類【寵物】【助戰】\\\\n召喚寵物【霜羽鶴】。霜羽鶴單次攻擊造成4000點+20倍御獸傷害，40%概率造成輕傷，發動機率100%。\",\r\n    \"SubTypeTw\": \"助戰\",\r\n    \"GetDescTw\": \"加入青城派，第四年、第五年、第六年的一月，選擇地茜根餵養靈鶴兩次及以上，第七年一月獲得。\",\r\n    \"ExtraDescTw\": \"御獸+20\"\r\n  }"
+  rawIndex: 5480
+  splits:
+  - splitPath: Name
+    text: "霜羽鹤"
+    translated: "Frost Feather Crane"
+  - splitPath: Desc
+    text: "霜羽鹤"
+    translated: "Frost Feather Crane"
+  - splitPath: Desc
+    subIndex: 1
+    text: "支援战斗"
+    translated: "Support battle"
+  - splitPath: EchoName
+    text: "霜羽鹤"
+    translated: "Frost Feather Crane"
+  - splitPath: DetailDesc
+    text: "战术协同类【宠物】【助战】"
+    translated: "Tactical Synergy Class [Pet] [Assist]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "召唤宠物【霜羽鹤】。霜羽鹤单次攻击造成4000点+20倍御兽伤害，40%概率造成轻伤，发动几率100%。"
+    translated: "Summon pet [Frostfeather Crane]. The Frostfeather Crane deals 4000 points of +20x Beast Taming damage per attack, with a 40% chance to inflict minor wounds. Activation rate is 100%."
+  - splitPath: SubType
+    text: "助战"
+    translated: "Assistance in Battle"
+    qcReviewedText: "Assistance in Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第四年、第五年、第六年的一月，选择地茜根喂养灵鹤两次及以上，第七年一月获得。"
+    translated: "Join Qingcheng Sect, in the fourth year, fifth year, and sixth year of January, choose to feed the spiritual crane with Diqian Root twice or more. Obtain in January of the seventh year."
+  - splitPath: ExtraDesc
+    text: "御兽"
+    translated: "Beast Taming"
+    qcReviewedText: "Beast Taming+10"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "[{0}]{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+20"
+- raw: "{\r\n    \"Key\": \"5490\",\r\n    \"Name\": \"再造丹\",\r\n    \"Desc\": \"会心5\",\r\n    \"EchoName\": \"再造丹\",\r\n    \"DetailDesc\": \"辅助回复类【青城派】【特技】\\\\n令我方5名侠客获得会心。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"會心5\",\r\n    \"EchoNameTw\": \"再造丹\",\r\n    \"DetailDescTw\": \"輔助回覆類【青城派】【特技】\\\\n令我方5名俠客獲得會心。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 5490
+  splits:
+  - splitPath: Name
+    text: "再造丹"
+    translated: "Rebirth Pill"
+  - splitPath: Desc
+    text: "会心5"
+    translated: "Heartening 5"
+  - splitPath: EchoName
+    text: "再造丹"
+    translated: "Rebirth Pill"
+  - splitPath: DetailDesc
+    text: "辅助回复类【青城派】【特技】"
+    translated: "Support Reply Class [Qingcheng Sect][Special Skill]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "令我方5名侠客获得会心。"
+    translated: "Let our 5 heroes gain a critical hit."
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "敬请期待"
+    translated: "Stay tuned"
+    qcReviewedText: "Stay tuned"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"5570\",\r\n    \"Name\": \"坐忘功\",\r\n    \"Desc\": \"行动回复1\\\\n消除异常1\\\\n条件-我方处于异常状态\",\r\n    \"EchoName\": \"坐忘功\",\r\n    \"DetailDesc\": \"辅助回复类【昆仑派】【心法】\\\\n当我方处于异常状态时可使用，消除1个异常状态，并回复1点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"行動回覆1\\\\n消除異常1\\\\n條件-我方處於異常狀態\",\r\n    \"EchoNameTw\": \"坐忘功\",\r\n    \"DetailDescTw\": \"輔助回覆類【崑崙派】【心法】\\\\n當我方處於異常狀態時可使用，消除1個異常狀態，並回復1點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 5570
   splits:
@@ -13147,7 +14245,7 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+80/{1}+8"
-- raw: "{\r\n    \"Key\": \"9010\",\r\n    \"Name\": \"无法拳法\",\r\n    \"Desc\": \"攻击（2.5倍）\",\r\n    \"EchoName\": \"无法拳法\",\r\n    \"DetailDesc\": \"攻击伤害类【天魔教】【拳脚】\\\\n单次攻击造成2.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"①加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。\\\\n②截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。\",\r\n    \"ExtraDesc\": \"功力+100/根骨+5/体魄+5\",\r\n    \"DescTw\": \"攻擊（2.5倍）\",\r\n    \"EchoNameTw\": \"無法拳法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【天魔教】【拳腳】\\\\n單次攻擊造成2.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"①加入衡山派，從第五年四月起到第六年十二月期間解決完法元酒館鬧事後，在蒼山嶺可遇到法元，戰勝後選擇除掉法元獲取。\\\\n②截止至第七年一月前未觸發法元酒館鬧事事件，第六年後湘東朱雀坊和法元賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescTw\": \"功力+100/根骨+5/體魄+5\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"9010\",\r\n    \"Name\": \"无法拳法\",\r\n    \"Desc\": \"攻击（2.5倍）\",\r\n    \"EchoName\": \"无法拳法\",\r\n    \"DetailDesc\": \"攻击伤害类【天魔教】【拳脚】\\\\n单次攻击造成2.5倍侠客功力的伤害。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"1、加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。\\\\n2、截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。\",\r\n    \"ExtraDesc\": \"功力+100/根骨+5/体魄+5\",\r\n    \"DescTw\": \"攻擊（2.5倍）\",\r\n    \"EchoNameTw\": \"無法拳法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【天魔教】【拳腳】\\\\n單次攻擊造成2.5倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"1、加入衡山派，從第五年四月起到第六年十二月期間解決完法元酒館鬧事後，在蒼山嶺可遇到法元，戰勝後選擇除掉法元獲取。\\\\n2、截止至第七年一月前未觸發法元酒館鬧事事件，第六年後湘東朱雀坊和法元賭骰子累計獲勝三局後獲得。\",\r\n    \"ExtraDescTw\": \"功力+100/根骨+5/體魄+5\"\r\n  }"
   rawIndex: 9010
   splits:
   - splitPath: Name
@@ -13185,16 +14283,12 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。"
-    translated: "Join the Hengshan Sect, and from the fourth month of the fifth Year to the twelfth Month of the sixth Year, resolve the disturbance at Fa Yuan's Tavern. Afterward, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain it."
-    qcReviewedText: "①Join the Hengshan Sect, and from the fourth month of the fifth Year to the twelfth Month of the sixth Year, resolve the disturbance at Fa Yuan's Tavern. Afterward, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain it.\\n②Before the incident at the Fa Yuan Tavern did not occur by January of the seventh year, this item is obtained after winning three dice games at the Zhuque District in Xiangdong Province sometime after the sixth year."
-    qcTranslated: "1. Join the Hengshan Sect. Between the fourth Month of the fifth Year and the twelfth Month of the sixth Year, resolve the disturbance at Fa Yuan's Tavern. Afterwards, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain it.\\n2. If the Fa Yuan Tavern incident has not been triggered by January of the seventh Year, this item is obtained after winning three cumulative dice games against Fa Yuan in the Zhuque District of Xiangdong Province sometime after the sixth Year."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "1、加入衡山派，从第五年四月起到第六年十二月期间解决完法元酒馆闹事后，在苍山岭可遇到法元，战胜后选择除掉法元获取。"
+    translated: "1, join the Hengshan Sect, and from April of the fifth year to December of the sixth year, resolve the disturbance at Fa Yuan's Tavern. Afterward, you can encounter Fa Yuan in Cangshan Ridge. Defeat him and choose to eliminate Fa Yuan to obtain."
   - splitPath: GetDesc
     subIndex: 1
-    text: "截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。"
-    translated: "Before the incident at the Fa Yuan Tavern did not occur by January of the seventh year, this item is obtained after winning three dice games at the Zhuque District in Xiangdong Province sometime after the sixth year."
+    text: "2、截止至第七年一月前未触发法元酒馆闹事事件，第六年后湘东朱雀坊和法元赌骰子累计获胜三局后获得。"
+    translated: "2, up until the beginning of January in the seventh year without triggering the tavern brawl event with Fa Yuan, obtained after winning three dice games against Fa Yuan in Zhuque District of Xiangdong after the sixth year."
   - splitPath: ExtraDesc
     text: "功力"
     translated: "Power"
@@ -13213,7 +14307,7 @@
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
   - splitPath: GetDesc
-    template: "①{0}\\n②{1}"
+    template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+100/{1}+5/{2}+5"
 - raw: "{\r\n    \"Key\": \"9210\",\r\n    \"Name\": \"朝云刀法\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"朝云刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【神女宫】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"朝雲刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【神女宮】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
@@ -13800,6 +14894,43 @@
     template: "[{0}]-{1}+180%\\n{2}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"12030\",\r\n    \"Name\": \"绣春刀法\",\r\n    \"Desc\": \"攻击（1倍）\\\\n轻伤<25%>\",\r\n    \"EchoName\": \"绣春刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【锦衣卫】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n輕傷<25%>\",\r\n    \"EchoNameTw\": \"繡春刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【錦衣衛】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 12030
+  splits:
+  - splitPath: Name
+    text: "绣春刀法"
+    translated: "Spring Brocade Blade Art"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+    translated: "Attack (1 times)"
+    qcReviewedText: "Attack (1 times) \\nDouble Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "轻伤"
+    translated: "Minor injuries"
+  - splitPath: EchoName
+    text: "绣春刀法"
+    translated: "Spring Brocade Blade Art"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【锦衣卫】【刀剑】"
+    translated: "Attack Damage [Imperial Guard] [Sword Blade]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成1倍侠客功力的伤害。"
+    translated: "Deals 1 times the Wanderer's Power in damage per hit."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}<25%>"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"13010\",\r\n    \"Name\": \"半拂折枝手\",\r\n    \"Desc\": \"攻击（1倍）\\\\n封穴<20%>\",\r\n    \"EchoName\": \"半拂折枝手\",\r\n    \"DetailDesc\": \"攻击伤害类【恶人谷】【拳脚】\\\\n单次攻击造成1倍侠客功力的伤害，并有20%几率使敌人进入封穴状态。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入衡山派，战胜殷夜啼解锁初始词条[花枝堪折]，初始天赋选择[花枝堪折]词条后开局即有。\",\r\n    \"ExtraDesc\": \"功力+80/灵活+8\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n封穴<20%>\",\r\n    \"EchoNameTw\": \"半拂折枝手\",\r\n    \"DetailDescTw\": \"攻擊傷害類【惡人谷】【拳腳】\\\\n單次攻擊造成1倍俠客功力的傷害，並有20%機率使敵人進入封穴狀態。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入衡山派，戰勝殷夜啼解鎖初始詞條[花枝堪折]，初始天賦選擇[花枝堪折]詞條後開局即有。\",\r\n    \"ExtraDescTw\": \"功力+80/靈活+8\"\r\n  }"
   rawIndex: 13010
   splits:
@@ -14168,11 +15299,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Supremacy of Sole Dominance Sutra]\\nStacks up to 1 layers, each layer dealing \\n_damage_+200%\\nConditions-We have 1 people fighting on our side."
-    qcTranslated: "【Triggered at Start】[Supremacy of Sole Dominance Sutra]\\nStacks up to 1 layers, each layer dealing +200% damage\\nCondition - We have 1 fighters"
-    qcStatus: Corrected
-    qcQualityScore: 88
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "天地独尊诀"
@@ -17074,6 +18201,126 @@
     template: "{0}\\n{1}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"21440\",\r\n    \"Name\": \"麻衣剑法\",\r\n    \"Desc\": \"攻击（1.4倍）\",\r\n    \"EchoName\": \"麻衣剑法\",\r\n    \"DetailDesc\": \"攻击伤害类【麻衣教】【刀剑】\\\\n单次攻击造1.4倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"攻擊（1.4倍）\",\r\n    \"EchoNameTw\": \"麻衣劍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【麻衣教】【刀劍】\\\\n單次攻擊造1.4倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21440
+  splits:
+  - splitPath: Name
+    text: "麻衣剑法"
+    translated: "Maji Sword Technique"
+  - splitPath: Desc
+    text: "攻击（1.4倍）"
+    translated: "Attack (1.4 times)"
+    qcReviewedText: "Attack (1.4 times) \\nElimination Tactics 1<18%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "麻衣剑法"
+    translated: "Maji Sword Technique"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【麻衣教】【刀剑】"
+    translated: "Attack Damage Class [Maiyi Sect] [Blade and Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造1.4倍侠客功力的伤害。"
+    translated: "Deals 1.4 times the Hero's Power in damage per hit."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "敬请期待"
+    translated: "Stay tuned"
+    qcReviewedText: "Stay tuned"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"21460\",\r\n    \"Name\": \"天相诀\",\r\n    \"Desc\": \"行动回复2-20%\",\r\n    \"EchoName\": \"天相诀\",\r\n    \"DetailDesc\": \"自动释放类【麻衣教】【心法】\\\\n12%几率释放回复2点行动力。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"行動回覆2-20%\",\r\n    \"EchoNameTw\": \"天相訣\",\r\n    \"DetailDescTw\": \"自動釋放類【麻衣教】【心法】\\\\n12%機率釋放回復2點行動力。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21460
+  splits:
+  - splitPath: Name
+    text: "天相诀"
+    translated: "Heaven's Fate Artifacts"
+  - splitPath: Desc
+    text: "行动回复2"
+    translated: "Action response 2"
+    qcReviewedText: "Action response 2 \\nOnce only"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "天相诀"
+    translated: "Heaven's Fate Artifacts"
+  - splitPath: DetailDesc
+    text: "自动释放类【麻衣教】【心法】"
+    translated: "Automatic Release Class [Maiyi Sect][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "12%几率释放回复2点行动力。"
+    translated: "12% chance to release and restore 2 Action Points."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "敬请期待"
+    translated: "Stay tuned"
+    qcReviewedText: "Stay tuned"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}-20%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"21480\",\r\n    \"Name\": \"枯荣奇功\",\r\n    \"Desc\": \"回春（10%最大气血）\\\\n行动回复5\\\\n限一次\",\r\n    \"EchoName\": \"枯荣奇功\",\r\n    \"DetailDesc\": \"辅助回复类【麻衣教】【心法】\\\\n回复10%最大气血，回复5点行动力，每场战斗只能使用一次。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"回春（10%最大氣血）\\\\n行動回覆5\\\\n限一次\",\r\n    \"EchoNameTw\": \"枯榮奇功\",\r\n    \"DetailDescTw\": \"輔助回覆類【麻衣教】【心法】\\\\n回覆10%最大氣血，回覆5點行動力，每場戰鬥只能使用一次。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 21480
+  splits:
+  - splitPath: Name
+    text: "枯荣奇功"
+    translated: "Marvelous Life and Death Technique"
+  - splitPath: Desc
+    text: "回春（10%最大气血）"
+    translated: "Revitalize(10% maximum Lifeforce)"
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复5"
+    translated: "Action response 5"
+  - splitPath: Desc
+    subIndex: 2
+    text: "限一次"
+    translated: "Once only"
+  - splitPath: EchoName
+    text: "枯荣奇功"
+    translated: "Marvelous Life and Death Technique"
+  - splitPath: DetailDesc
+    text: "辅助回复类【麻衣教】【心法】"
+    translated: "Support Reply Class [Maiyi Sect] [Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "回复10%最大气血，回复5点行动力，每场战斗只能使用一次。"
+    translated: "Restore 10% maximum Lifeforce, restore 5 Action Points, can only be used once per battle."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "敬请期待"
+    translated: "Stay tuned"
+    qcReviewedText: "Stay tuned"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}\\n{2}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"100010\",\r\n    \"Name\": \"二分掌法\",\r\n    \"Desc\": \"攻春（1倍）\\\\n二连击\\\\n打断功法<20%>\",\r\n    \"EchoName\": \"二分掌法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【拳脚】\\\\n单次攻击造成1倍侠客功力的伤害，连续攻击两次，并有20%几率打断敌人功法。\",\r\n    \"SubType\": \"拳脚\",\r\n    \"GetDesc\": \"加入衡山派，衡山派弟子从第六年四月起到第七年十二月，贡献达到60，体魄到达100，探索潇湘馆，封行昭、封行晦传授。\",\r\n    \"ExtraDesc\": \"功力+70/根骨+7\",\r\n    \"DescTw\": \"攻春（1倍）\\\\n二連擊\\\\n打斷功法<20%>\",\r\n    \"EchoNameTw\": \"二分掌法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【拳腳】\\\\n單次攻擊造成1倍俠客功力的傷害，連續攻擊兩次，並有20%機率打斷敵人功法。\",\r\n    \"SubTypeTw\": \"拳腳\",\r\n    \"GetDescTw\": \"加入衡山派，衡山派弟子從第六年四月起到第七年十二月，貢獻達到60，體魄到達100，探索瀟湘館，封行昭、封行晦傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/根骨+7\"\r\n  }"
   rawIndex: 100010
   splits:
@@ -19165,11 +20412,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Youhuang Technique]Stacks up to 1 layers, each layer providing defense.+21%"
-    qcTranslated: "【[Triggered at Start]】[Youhuang Technique] can stack up to 1 layers, each layer providing +21% defense."
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "幽篁诀"
@@ -19270,10 +20513,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Soar Like a Crane to the Clouds] Damage ineffective3"
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "鹤冲宵"
@@ -19930,7 +21170,7 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+20"
-- raw: "{\r\n    \"Key\": \"100520\",\r\n    \"Name\": \"野猪后腿\",\r\n    \"Desc\": \"气血+2%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"野猪后腿\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血上限+1%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"氣血+2%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"野豬後腿\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"100520\",\r\n    \"Name\": \"野猪后腿\",\r\n    \"Desc\": \"气血+1%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"野猪后腿\",\r\n    \"DetailDesc\": \"助力收集类【江湖】【特技】\\\\n出战侠客气血上限+1%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"氣血+1%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"野豬後腿\",\r\n    \"DetailDescTw\": \"助力收集類【江湖】【特技】\\\\n出戰俠客氣血上限+1%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
   rawIndex: 100520
   splits:
   - splitPath: Name
@@ -19980,7 +21220,7 @@
     qcQualityScore: 100
   templates:
   - splitPath: Desc
-    template: "{0}+2%\\n{1}"
+    template: "{0}+1%\\n{1}"
   - splitPath: DetailDesc
     template: "{0}\\n{1}+1%。"
 - raw: "{\r\n    \"Key\": \"100530\",\r\n    \"Name\": \"云游步\",\r\n    \"Desc\": \"闪避1<14%>\",\r\n    \"EchoName\": \"云游步\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【心法】\\\\n14%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"閃避1<14%>\",\r\n    \"EchoNameTw\": \"雲遊步\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【心法】\\\\n14%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
@@ -23931,11 +25171,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Rose Ceremony]Stacks up to 1 layers, each layer dealing damage+30%"
-    qcTranslated: "【Triggered at Start】[Rose Ceremony] can stack up to 1 layers, with each layer dealing +30% damage"
-    qcStatus: Corrected
-    qcQualityScore: 92
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "蔷薇仪式"
@@ -25999,10 +27235,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Iron Vest]Stacks up to 1 layers, reducing damage by 50% per layer."
-    qcStatus: Passed
-    qcQualityScore: 100
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "铁布衫"
@@ -27196,11 +28429,7 @@
     qcQualityScore: 100
   - splitPath: Desc
     text: "【开局触发】"
-    translated: "【[Triggered at Start]】"
-    qcReviewedText: "【[Triggered at Start]】[Evil Softshell Turtle in the Yangtze River]Stacks up to 1 layers, each layer providing defense.+40%"
-    qcTranslated: "【[Triggered at Start]】[Evil Softshell Turtle in the Yangtze River]Stacks up to 1 layers, each layer providing +40% defense."
-    qcStatus: Corrected
-    qcQualityScore: 95
+    translated: "[Triggered at Start]"
   - splitPath: Desc
     subIndex: 1
     text: "长江恶鼋"
@@ -29413,6 +30642,208 @@
     template: "{0}\\n{1}"
   - splitPath: ExtraDesc
     template: "{0}+10"
+- raw: "{\r\n    \"Key\": \"102170\",\r\n    \"Name\": \"百花枪法\",\r\n    \"Desc\": \"攻击（0.5倍）\\\\n三连击\",\r\n    \"EchoName\": \"百花枪法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【百兵】\\\\n单次攻击造成0.4倍侠客功力的伤害，三连击。\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.5倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"百花槍法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【百兵】\\\\n單次攻擊造成0.4倍俠客功力的傷害，三連擊。\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 102170
+  splits:
+  - splitPath: Name
+    text: "百花枪法"
+    translated: "Hundred Flowers Spear Art"
+  - splitPath: Desc
+    text: "攻击（0.5倍）"
+    translated: "Attack (0.5 times)"
+    qcReviewedText: "Attack (0.5 times)<50%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "三连击"
+    translated: "Triple strike"
+  - splitPath: EchoName
+    text: "百花枪法"
+    translated: "Hundred Flowers Spear Art"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【百兵】"
+    translated: "Attack Damage Class [Jianghu][Hundred Weapons]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成0.4倍侠客功力的伤害，三连击。"
+    translated: "Deals 0.4 times the Hero's Power in damage per strike, for a triple attack."
+  - splitPath: SubType
+    text: "百兵"
+    translated: "Hundred Weapons Style"
+    qcReviewedText: "Hundred Weapons Style"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"102180\",\r\n    \"Name\": \"穿花步\",\r\n    \"Desc\": \"闪避1<15%>\",\r\n    \"EchoName\": \"穿花步\",\r\n    \"DetailDesc\": \"自动触发类【江湖】【心法】\\\\n15%几率自动释放战术【闪避】，闪避可以抵消一次伤害。\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"閃避1<15%>\",\r\n    \"EchoNameTw\": \"穿花步\",\r\n    \"DetailDescTw\": \"自動觸發類【江湖】【心法】\\\\n15%機率自動釋放戰術【閃避】，閃避可以抵消一次傷害。\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 102180
+  splits:
+  - splitPath: Name
+    text: "穿花步"
+    translated: "Flower-stepping movement"
+  - splitPath: Desc
+    text: "闪避1"
+    translated: "Dodge 1"
+    qcReviewedText: "Dodge 1<9%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "穿花步"
+    translated: "Flower-stepping movement"
+  - splitPath: DetailDesc
+    text: "自动触发类【江湖】【心法】"
+    translated: "Automatically triggered class [Jianghu][Heart Method]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "15%几率自动释放战术【闪避】，闪避可以抵消一次伤害。"
+    translated: "15% chance to automatically release the tactic [Dodge], which can negate one instance of damage."
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}<15%>"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"102190\",\r\n    \"Name\": \"一字快剑\",\r\n    \"Desc\": \"攻击（1倍）\\\\n行动回复1-40%\",\r\n    \"EchoName\": \"一字快剑\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成1倍侠客功力的伤害，并有40%几率回复1点行动力。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"GetDesc\": \"三年一月开始，贡献到达30，探索松林场单青云、单紫云传授。\",\r\n    \"ExtraDesc\": \"功力+70/灵活+7\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n行動回覆1-40%\",\r\n    \"EchoNameTw\": \"一字快劍\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成1倍俠客功力的傷害，並有40%機率回覆1點行動力。\",\r\n    \"SubTypeTw\": \"刀劍\",\r\n    \"GetDescTw\": \"三年一月開始，貢獻到達30，探索松林場單青雲、單紫雲傳授。\",\r\n    \"ExtraDescTw\": \"功力+70/靈活+7\"\r\n  }"
+  rawIndex: 102190
+  splits:
+  - splitPath: Name
+    text: "一字快剑"
+    translated: "Swift Sword Stroke"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+    translated: "Attack (1 times)"
+    qcReviewedText: "Attack (1 times) \\nDouble Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "行动回复1"
+    translated: "Action response 1"
+  - splitPath: EchoName
+    text: "一字快剑"
+    translated: "Swift Sword Stroke"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】"
+    translated: "Attack Damage Class [Jianghu][Blade Sword]"
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成1倍侠客功力的伤害，并有40%几率回复1点行动力。"
+    translated: "Deals 1 times the Hero's Power in damage and has a 40% chance to restore 1 Action Points."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "三年一月开始，贡献到达30，探索松林场单青云、单紫云传授。"
+    translated: "Starting in January of the third year, when your contribution reaches 30, explore Songlin Field to be taught by Dan Qingyun and Dan Zi Yun."
+  - splitPath: ExtraDesc
+    text: "功力"
+    translated: "Power"
+    qcReviewedText: "Power+30/Flexible+2/Potential+1\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: ExtraDesc
+    subIndex: 1
+    text: "灵活"
+    translated: "Flexible"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}-40%"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
+  - splitPath: ExtraDesc
+    template: "{0}+70/{1}+7"
+- raw: "{\r\n    \"Key\": \"102200\",\r\n    \"Name\": \"长青玉佩\",\r\n    \"Desc\": \"【助力】气血上限+3%\\\\n无需出战即可生效\",\r\n    \"EchoName\": \"长青玉佩\",\r\n    \"DetailDesc\": \"助力收集类【宝物】【特技】\\\\n出战侠客气血上限+3%。\",\r\n    \"SubType\": \"特技\",\r\n    \"GetDesc\": \"敬请期待\",\r\n    \"DescTw\": \"【助力】氣血上限+3%\\\\n無需出戰即可生效\",\r\n    \"EchoNameTw\": \"長青玉佩\",\r\n    \"DetailDescTw\": \"助力收集類【寶物】【特技】\\\\n出戰俠客氣血上限+3%。\",\r\n    \"SubTypeTw\": \"特技\",\r\n    \"GetDescTw\": \"敬請期待\"\r\n  }"
+  rawIndex: 102200
+  splits:
+  - splitPath: Name
+    text: "长青玉佩"
+    translated: "Eternal Jade Pendant"
+  - splitPath: Desc
+    text: "【助力】气血上限"
+    translated: "[Boost] Maximum Lifeforce Limit"
+    qcReviewedText: "[Boost] Maximum Lifeforce Limit+5%\\nNo need to go into battle for it to take effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "无需出战即可生效"
+    translated: "No need to go into battle for it to take effect."
+  - splitPath: EchoName
+    text: "长青玉佩"
+    translated: "Eternal Jade Pendant"
+  - splitPath: DetailDesc
+    text: "助力收集类【宝物】【特技】"
+    translated: "Help Collect Items [Treasure] [Special Skills]"
+    qcReviewedText: "Help Collect Items [Treasure] [Special Skills]\\nWanderer Power bonus +7%"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "出战侠客气血上限"
+    translated: "Maximum Lifeforce for Battle, Wanderer"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "敬请期待"
+    translated: "Stay tuned"
+    qcReviewedText: "Stay tuned"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}+3%\\n{1}"
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}+3%。"
+- raw: "{\r\n    \"Key\": \"102210\",\r\n    \"Name\": \"九离刀法\",\r\n    \"Desc\": \"攻击（0.9倍）\",\r\n    \"EchoName\": \"九离刀法\",\r\n    \"DetailDesc\": \"攻击伤害类【江湖】【刀剑】\\\\n单次攻击造成0.9倍侠客功力的伤害。\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.9倍）\",\r\n    \"EchoNameTw\": \"九離刀法\",\r\n    \"DetailDescTw\": \"攻擊傷害類【江湖】【刀劍】\\\\n單次攻擊造成0.9倍俠客功力的傷害。\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 102210
+  splits:
+  - splitPath: Name
+    text: "九离刀法"
+    translated: "Nine Departing Blade Art"
+  - splitPath: Desc
+    text: "攻击（0.9倍）"
+    translated: "Attack (0.9 times)"
+    qcReviewedText: "Attack (0.9 times) \\nAction response 1<36%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "九离刀法"
+    translated: "Nine Departing Blade Art"
+  - splitPath: DetailDesc
+    text: "攻击伤害类【江湖】【刀剑】"
+    translated: "Attack Damage Class [Jianghu][Blade Sword]"
+    qcReviewedText: "Attack Damage Class [Jianghu][Blade Sword]\\nDeals 0.8 times the Wanderer's Power in damage per hit."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: DetailDesc
+    subIndex: 1
+    text: "单次攻击造成0.9倍侠客功力的伤害。"
+    translated: "Deals 0.9 times the Wanderer's Power in damage with a single attack."
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: DetailDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"900010\",\r\n    \"Name\": \"多心咒\",\r\n    \"Desc\": \"消除战术-全\",\r\n    \"EchoName\": \"多心咒\",\r\n    \"DetailDesc\": \"辅助回复类【特技】\\\\n清除敌人全部战术。\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"消除戰術-全\",\r\n    \"EchoNameTw\": \"多心咒\",\r\n    \"DetailDescTw\": \"輔助回覆類【特技】\\\\n清除敵人全部戰術。\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 900010
   splits:
@@ -40950,6 +42381,255 @@
     qcReviewedText: "Blades Swords"
     qcStatus: Passed
     qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003640\",\r\n    \"Name\": \"百花枪法2\",\r\n    \"Desc\": \"攻击（0.3倍）\\\\n三连击\",\r\n    \"EchoName\": \"百花枪法\",\r\n    \"SubType\": \"百兵\",\r\n    \"DescTw\": \"攻擊（0.3倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"百花槍法\",\r\n    \"SubTypeTw\": \"百兵\"\r\n  }"
+  rawIndex: 1003640
+  splits:
+  - splitPath: Name
+    text: "百花枪法2"
+    translated: "Hundred Flowers Spear Art 2"
+  - splitPath: Desc
+    text: "攻击（0.3倍）"
+    translated: "Attack (0.3 times)"
+    qcReviewedText: "Attack (0.3 times) \\nTriple strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "三连击"
+    translated: "Triple strike"
+  - splitPath: EchoName
+    text: "百花枪法"
+    translated: "Hundred Flowers Spear Art"
+  - splitPath: SubType
+    text: "百兵"
+    translated: "Hundred Weapons Style"
+    qcReviewedText: "Hundred Weapons Style"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"1003650\",\r\n    \"Name\": \"松风剑法2\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"松风剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"松風劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003650
+  splits:
+  - splitPath: Name
+    text: "松风剑法2"
+    translated: "Songfeng Sword Technique 2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+    translated: "Attack (0.7 times)"
+    qcReviewedText: "Attack (0.7 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "松风剑法"
+    translated: "Song Wind Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003660\",\r\n    \"Name\": \"呼应剑法2\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"呼应剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"呼應劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003660
+  splits:
+  - splitPath: Name
+    text: "呼应剑法2"
+    translated: "Respond with Sword Art 2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+    translated: "Attack (0.7 times)"
+    qcReviewedText: "Attack (0.7 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "呼应剑法"
+    translated: "Echoing Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003670\",\r\n    \"Name\": \"三官剑法2\",\r\n    \"Desc\": \"攻击（1.2倍）\\\\n三连击\",\r\n    \"EchoName\": \"三官剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1.2倍）\\\\n三連擊\",\r\n    \"EchoNameTw\": \"三官劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003670
+  splits:
+  - splitPath: Name
+    text: "三官剑法2"
+    translated: "Three Officials Sword Technique 2"
+  - splitPath: Desc
+    text: "攻击（1.2倍）"
+    translated: "Attack (1.2 times)"
+    qcReviewedText: "Attack (1.2 times) \\nAction response 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    subIndex: 1
+    text: "三连击"
+    translated: "Triple strike"
+  - splitPath: EchoName
+    text: "三官剑法"
+    translated: "Three Officials Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"1003680\",\r\n    \"Name\": \"麻衣剑法2\",\r\n    \"Desc\": \"攻击（0.6倍）\",\r\n    \"EchoName\": \"麻衣剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.6倍）\",\r\n    \"EchoNameTw\": \"麻衣劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003680
+  splits:
+  - splitPath: Name
+    text: "麻衣剑法2"
+    translated: "Maiyi Sword Technique 2"
+  - splitPath: Desc
+    text: "攻击（0.6倍）"
+    translated: "Attack (0.6 times)"
+    qcReviewedText: "Attack (0.6 times) \\nMinor injuries<18%>\\nConditions-Our Lifeforce ends with a number less than 6"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "麻衣剑法"
+    translated: "Maji Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003690\",\r\n    \"Name\": \"芙蓉剑法2\",\r\n    \"Desc\": \"攻击（0.7倍）\",\r\n    \"EchoName\": \"芙蓉剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（0.7倍）\",\r\n    \"EchoNameTw\": \"芙蓉劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003690
+  splits:
+  - splitPath: Name
+    text: "芙蓉剑法2"
+    translated: "Sword Art of Lotus Sword 2"
+  - splitPath: Desc
+    text: "攻击（0.7倍）"
+    translated: "Attack (0.7 times)"
+    qcReviewedText: "Attack (0.7 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "芙蓉剑法"
+    translated: "Sword Art of Lotus Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003700\",\r\n    \"Name\": \"锦官一剑定川都2\",\r\n    \"Desc\": \"攻击（5倍）\",\r\n    \"EchoName\": \"锦官一剑定川都\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（5倍）\",\r\n    \"EchoNameTw\": \"錦官一劍定川都\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003700
+  splits:
+  - splitPath: Name
+    text: "锦官一剑定川都2"
+    translated: "Jin'gan's Sword Stabilizes the City of Chuandi 2"
+  - splitPath: Desc
+    text: "攻击（5倍）"
+    translated: "Attack (5 times)"
+    qcReviewedText: "Attack (5 times)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "锦官一剑定川都"
+    translated: "Jinshan's Sword Stabilizes the City of Chengdu"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003710\",\r\n    \"Name\": \"颠倒剑法2\",\r\n    \"Desc\": \"攻击（2倍）\",\r\n    \"EchoName\": \"颠倒剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（2倍）\",\r\n    \"EchoNameTw\": \"顛倒劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003710
+  splits:
+  - splitPath: Name
+    text: "颠倒剑法2"
+    translated: "Reversed Sword Technique 2"
+  - splitPath: Desc
+    text: "攻击（2倍）"
+    translated: "Attack (2 times)"
+    qcReviewedText: "Attack (2 times) \\nElimination Tactics 1<40%>"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "颠倒剑法"
+    translated: "Reversed Swordsmanship"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003720\",\r\n    \"Name\": \"倒倒颠颠一剑功2\",\r\n    \"Desc\": \"攻击（10倍）\",\r\n    \"EchoName\": \"倒倒颠颠一剑功\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（10倍）\",\r\n    \"EchoNameTw\": \"倒倒顛顛一劍功\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003720
+  splits:
+  - splitPath: Name
+    text: "倒倒颠颠一剑功2"
+    translated: "Wobbly Sword Technique 2"
+  - splitPath: Desc
+    text: "攻击（10倍）"
+    translated: "Attack (10x)"
+    qcReviewedText: "Attack (10x)"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "倒倒颠颠一剑功"
+    translated: "A reversed awkward sword technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003730\",\r\n    \"Name\": \"玄机剑法2\",\r\n    \"Desc\": \"攻击（1倍）\",\r\n    \"EchoName\": \"玄机剑法\",\r\n    \"SubType\": \"刀剑\",\r\n    \"DescTw\": \"攻擊（1倍）\",\r\n    \"EchoNameTw\": \"玄機劍法\",\r\n    \"SubTypeTw\": \"刀劍\"\r\n  }"
+  rawIndex: 1003730
+  splits:
+  - splitPath: Name
+    text: "玄机剑法2"
+    translated: "Mysterious Mechanism Sword Art 2"
+  - splitPath: Desc
+    text: "攻击（1倍）"
+    translated: "Attack (1 times)"
+    qcReviewedText: "Attack (1 times) \\nDouble Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "玄机剑法"
+    translated: "Mystic Sword Technique"
+  - splitPath: SubType
+    text: "刀剑"
+    translated: "Blades Swords"
+    qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"1003740\",\r\n    \"Name\": \"仙人抚顶道长生2\",\r\n    \"Desc\": \"回春（40000）\\\\n清除异常2\",\r\n    \"EchoName\": \"仙人抚顶道长生\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"回春（40000）\\\\n清除異常2\",\r\n    \"EchoNameTw\": \"仙人撫頂道長生\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 1003740
+  splits:
+  - splitPath: Name
+    text: "仙人抚顶道长生2"
+    translated: "The immortal strokes the top of your head, granting you longevity 2"
+  - splitPath: Desc
+    text: "回春（40000）"
+    translated: "Revive Health (40000)"
+  - splitPath: Desc
+    subIndex: 1
+    text: "清除异常2"
+    translated: "Clear the abnormal 2"
+  - splitPath: EchoName
+    text: "仙人抚顶道长生"
+    translated: "Immortals caress the crown, Daoist longevity"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"2000100\",\r\n    \"Name\": \"跃影追月2\",\r\n    \"Desc\": \"攻击（1倍）\\\\n两连击\",\r\n    \"EchoName\": \"跃影追月\",\r\n    \"SubType\": \"特技\",\r\n    \"DescTw\": \"攻擊（1倍）\\\\n兩連擊\",\r\n    \"EchoNameTw\": \"躍影追月\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
   rawIndex: 2000100
   splits:
@@ -43278,5 +44958,86 @@
     text: "刀剑"
     translated: "Blades Swords"
     qcReviewedText: "Blades Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"10000550\",\r\n    \"Name\": \"鹤啄\",\r\n    \"EchoName\": \"鹤啄\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"鶴啄\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000550
+  splits:
+  - splitPath: Name
+    text: "鹤啄"
+    translated: "Crane Pecking"
+  - splitPath: EchoName
+    text: "鹤啄"
+    translated: "Crane Pecking"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"10000560\",\r\n    \"Name\": \"风袭\",\r\n    \"EchoName\": \"风袭\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"風襲\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000560
+  splits:
+  - splitPath: Name
+    text: "风袭"
+    translated: "Wind sweeps"
+  - splitPath: EchoName
+    text: "风袭"
+    translated: "Wind sweeps"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"10000570\",\r\n    \"Name\": \"云隐\",\r\n    \"EchoName\": \"云隐\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"雲隱\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000570
+  splits:
+  - splitPath: Name
+    text: "云隐"
+    translated: "Cloud Concealment"
+  - splitPath: EchoName
+    text: "云隐"
+    translated: "Cloud Concealment"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"10000580\",\r\n    \"Name\": \"霜击\",\r\n    \"EchoName\": \"霜击\",\r\n    \"SubType\": \"特技\",\r\n    \"EchoNameTw\": \"霜擊\",\r\n    \"SubTypeTw\": \"特技\"\r\n  }"
+  rawIndex: 10000580
+  splits:
+  - splitPath: Name
+    text: "霜击"
+    translated: "Frost Strike"
+  - splitPath: EchoName
+    text: "霜击"
+    translated: "Frost Strike"
+  - splitPath: SubType
+    text: "特技"
+    translated: "Stunt"
+    qcReviewedText: "Stunt"
+    qcStatus: Passed
+    qcQualityScore: 100
+- raw: "{\r\n    \"Key\": \"10000590\",\r\n    \"Name\": \"枯木逢春3\",\r\n    \"Desc\": \"行动回复9\",\r\n    \"EchoName\": \"枯木逢春\",\r\n    \"SubType\": \"心法\",\r\n    \"DescTw\": \"行動回覆9\",\r\n    \"EchoNameTw\": \"枯木逢春\",\r\n    \"SubTypeTw\": \"心法\"\r\n  }"
+  rawIndex: 10000590
+  splits:
+  - splitPath: Name
+    text: "枯木逢春3"
+    translated: "A withered tree meets spring 3"
+  - splitPath: Desc
+    text: "行动回复9"
+    translated: "Action response 9"
+    qcReviewedText: "Action response 9 \\nConditions-Our Lifeforce ends in a number greater than 7 \\nOnce only"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: EchoName
+    text: "枯木逢春"
+    translated: "A dead tree meets spring"
+  - splitPath: SubType
+    text: "心法"
+    translated: "Heart Method"
+    qcReviewedText: "Heart Method"
     qcStatus: Passed
     qcQualityScore: 100

@@ -1997,6 +1997,36 @@
   templates:
   - splitPath: Desc
     template: "{0}\\n<color=#FF0000>{1}：{2}</color>"
+- raw: "{\r\n    \"Key\": \"6000710\",\r\n    \"Desc\": \"劫云谷中雷火滚动，你要如何选择？\\\\n<color=#FF0000>注意：选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）</color>\",\r\n    \"SelectionList\": [\r\n      \"相助衡山派一众门人\",\r\n      \"相助洞庭帮一众门人\",\r\n      \"相助唐门一众门人\",\r\n      \"相助崆峒派一众门人\",\r\n      \"相助昆仑派一众门人\",\r\n      \"相助武当派一众门人\",\r\n      \"相助少林派一众门人\",\r\n      \"全力逃出劫云谷\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"劫雲谷中雷火滾動，你要如何選擇？\\\\n<color=#FF0000>注意：選擇“全力逃出劫雲谷”後，將無法觸發後續完美結局。（建議對全部正道門派進行救援）</color>\",\r\n    \"SelectionTwList\": [\r\n      \"相助衡山派一眾門人\",\r\n      \"相助洞庭幫一眾門人\",\r\n      \"相助唐門一眾門人\",\r\n      \"相助崆峒派一眾門人\",\r\n      \"相助崑崙派一眾門人\",\r\n      \"相助武當派一眾門人\",\r\n      \"相助少林派一眾門人\",\r\n      \"全力逃出劫雲谷\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 6000710
+  splits:
+  - splitPath: Desc
+    text: "劫云谷中雷火滚动，你要如何选择？"
+  - splitPath: Desc
+    subIndex: 1
+    text: "注意"
+  - splitPath: Desc
+    subIndex: 2
+    text: "选择“全力逃出劫云谷”后，将无法触发后续完美结局。（建议对全部正道门派进行救援）"
+  - splitPath: SelectionList[0]
+    text: "相助衡山派一众门人"
+  - splitPath: SelectionList[1]
+    text: "相助洞庭帮一众门人"
+  - splitPath: SelectionList[2]
+    text: "相助唐门一众门人"
+  - splitPath: SelectionList[3]
+    text: "相助崆峒派一众门人"
+  - splitPath: SelectionList[4]
+    text: "相助昆仑派一众门人"
+  - splitPath: SelectionList[5]
+    text: "相助武当派一众门人"
+  - splitPath: SelectionList[6]
+    text: "相助少林派一众门人"
+  - splitPath: SelectionList[7]
+    text: "全力逃出劫云谷"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n<color=#FF0000>{1}：{2}</color>"
 - raw: "{\r\n    \"Key\": \"6200210\",\r\n    \"Desc\": \"正道各派汇集秘魔崖下准备登崖，你有何建议？\",\r\n    \"SelectionList\": [\r\n      \"登临秘魔崖\",\r\n      \"绕山探捷径\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"正道各派彙集祕魔崖下準備登崖，你有何建議？\",\r\n    \"SelectionTwList\": [\r\n      \"登臨祕魔崖\",\r\n      \"繞山探捷徑\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 6200210
   splits:
@@ -2816,7 +2846,7 @@
     template: "{0} {1}"
   - splitPath: SelectionList[11]
     template: "{0} {1}"
-- raw: "{\r\n    \"Key\": \"7000210\",\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"SelectionList\": [\r\n      \"手段奇诡的唐门\",\r\n      \"仙家气象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"<color=#ff9900>暂未开放 敬请期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"手段奇詭的唐門\",\r\n      \"仙家氣象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>暫未開放 敬請期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+- raw: "{\r\n    \"Key\": \"7000210\",\r\n    \"Desc\": \"他日若能选择一个门派加入，你将如何选择？\",\r\n    \"SelectionList\": [\r\n      \"手段奇诡的唐门\",\r\n      \"仙家气象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"<color=#ff9900>游戏难度3星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"他日若能選擇一個門派加入，你將如何選擇？\",\r\n    \"SelectionTwList\": [\r\n      \"手段奇詭的唐門\",\r\n      \"仙家氣象的青城派\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"<color=#ff9900>遊戲難度3星</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7000210
   splits:
   - splitPath: Desc
@@ -2828,15 +2858,12 @@
   - splitPath: TipTextList[0]
     text: "游戏难度3星"
   - splitPath: TipTextList[1]
-    text: "暂未开放"
-  - splitPath: TipTextList[1]
-    subIndex: 1
-    text: "敬请期待"
+    text: "游戏难度3星"
   templates:
   - splitPath: TipTextList[0]
     template: "<color=#ff9900>{0}</color>"
   - splitPath: TipTextList[1]
-    template: "<color=#ff9900>{0} {1}</color>"
+    template: "<color=#ff9900>{0}</color>"
 - raw: "{\r\n    \"Key\": \"7000610\",\r\n    \"Desc\": \"给小狸猫起什么样的名字？\",\r\n    \"SelectionList\": [\r\n      \"给小狸猫起名叫做“小虎”\",\r\n      \"给小狸猫起名叫做“於菟”\",\r\n      \"给小狸猫起名叫做“招财”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"給小狸貓起什麼樣的名字？\",\r\n    \"SelectionTwList\": [\r\n      \"給小狸貓起名叫做“小虎”\",\r\n      \"給小狸貓起名叫做“於菟”\",\r\n      \"給小狸貓起名叫做“招財”\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
   rawIndex: 7000610
   splits:
@@ -3160,3 +3187,211 @@
     text: "猿猴戏耍"
   - splitPath: SelectionList[1]
     text: "还是改日再来吧"
+- raw: "{\r\n    \"Key\": \"8539900\",\r\n    \"Desc\": \"今日炼制何种丹药？\",\r\n    \"SelectionList\": [\r\n      \"灵宝紫阳丹\",\r\n      \"太乙青华丹\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"提升功力\",\r\n      \"提升气血\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日煉製何種丹藥？\",\r\n    \"SelectionTwList\": [\r\n      \"靈寶紫陽丹\",\r\n      \"太乙青華丹\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"提升功力\",\r\n      \"提升氣血\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8539900
+  splits:
+  - splitPath: Desc
+    text: "今日炼制何种丹药？"
+  - splitPath: SelectionList[0]
+    text: "灵宝紫阳丹"
+  - splitPath: SelectionList[1]
+    text: "太乙青华丹"
+  - splitPath: SelectionList[2]
+    text: "还是算了"
+  - splitPath: TipTextList[0]
+    text: "提升功力"
+  - splitPath: TipTextList[1]
+    text: "提升气血"
+- raw: "{\r\n    \"Key\": \"8501310\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501310
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+- raw: "{\r\n    \"Key\": \"8501510\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501510
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+- raw: "{\r\n    \"Key\": \"8501710\",\r\n    \"Desc\": \"选择哪种年份药材喂养灵鹤？\",\r\n    \"SelectionList\": [\r\n      \"川穹草\",\r\n      \"松茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextList\": [\r\n      \"三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。\",\r\n      \"三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。\",\r\n      \"三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪種年份藥材餵養靈鶴？\",\r\n    \"SelectionTwList\": [\r\n      \"川穹草\",\r\n      \"鬆茯苓\",\r\n      \"地茜根\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"TipTextTwList\": [\r\n      \"三年中，餵養兩次以上川穹草，靈鶴可異化為風羽鶴。\",\r\n      \"三年中，餵養兩次以上鬆茯苓，靈鶴可異化為雲羽鶴。\",\r\n      \"三年中，餵養兩次以上地茜根，靈鶴可異化為雲羽鶴。\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8501710
+  splits:
+  - splitPath: Desc
+    text: "选择哪种年份药材喂养灵鹤？"
+  - splitPath: SelectionList[0]
+    text: "川穹草"
+  - splitPath: SelectionList[1]
+    text: "松茯苓"
+  - splitPath: SelectionList[2]
+    text: "地茜根"
+  - splitPath: TipTextList[0]
+    text: "三年中，喂养两次以上川穹草，灵鹤可异化为风羽鹤。"
+  - splitPath: TipTextList[1]
+    text: "三年中，喂养两次以上松茯苓，灵鹤可异化为云羽鹤。"
+  - splitPath: TipTextList[2]
+    text: "三年中，喂养两次以上地茜根，灵鹤可异化为云羽鹤。"
+- raw: "{\r\n    \"Key\": \"8510400\",\r\n    \"Desc\": \"你可曾准备好应对天魔教的报复？\\\\n<color=#FF0000>注意：选择“我已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。</color>\",\r\n    \"SelectionList\": [\r\n      \"我已经准备好了\",\r\n      \"我尚未准备好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"你可曾準備好應對天魔教的報復？\\\\n<color=#FF0000>注意：選擇“我已經準備好了”後，次月將自動觸發天魔攻山事件，遊戲即進入最終結局。</color>\",\r\n    \"SelectionTwList\": [\r\n      \"我已經準備好了\",\r\n      \"我尚未準備好\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8510400
+  splits:
+  - splitPath: Desc
+    text: "你可曾准备好应对天魔教的报复？"
+  - splitPath: Desc
+    subIndex: 1
+    text: "注意"
+  - splitPath: Desc
+    subIndex: 2
+    text: "选择“我已经准备好了”后，次月将自动触发天魔攻山事件，游戏即进入最终结局。"
+  - splitPath: SelectionList[0]
+    text: "我已经准备好了"
+  - splitPath: SelectionList[1]
+    text: "我尚未准备好"
+  templates:
+  - splitPath: Desc
+    template: "{0}\\n<color=#FF0000>{1}：{2}</color>"
+- raw: "{\r\n    \"Key\": \"8569300\",\r\n    \"Desc\": \"今日在松林场中做些什么？\",\r\n    \"SelectionList\": [\r\n      \"修炼基本功\",\r\n      \"修炼内功\",\r\n      \"修炼外功\",\r\n      \"修炼轻功\",\r\n      \"还是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"今日在松林場中做些什麼？\",\r\n    \"SelectionTwList\": [\r\n      \"修煉基本功\",\r\n      \"修煉內功\",\r\n      \"修煉外功\",\r\n      \"修煉輕功\",\r\n      \"還是算了\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8569300
+  splits:
+  - splitPath: Desc
+    text: "今日在松林场中做些什么？"
+  - splitPath: SelectionList[0]
+    text: "修炼基本功"
+  - splitPath: SelectionList[1]
+    text: "修炼内功"
+  - splitPath: SelectionList[2]
+    text: "修炼外功"
+  - splitPath: SelectionList[3]
+    text: "修炼轻功"
+  - splitPath: SelectionList[4]
+    text: "还是算了"
+- raw: "{\r\n    \"Key\": \"8504400\",\r\n    \"Desc\": \"是否随杜清风参加广成丹会？\",\r\n    \"SelectionList\": [\r\n      \"去\",\r\n      \"、<color=#FF0000>暂未开放，敬请期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"是否隨杜清風參加廣成丹會？\",\r\n    \"SelectionTwList\": [\r\n      \"去\",\r\n      \"、<color=#FF0000>暫未開放，敬請期待</color>\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8504400
+  splits:
+  - splitPath: Desc
+    text: "是否随杜清风参加广成丹会？"
+  - splitPath: SelectionList[0]
+    text: "去"
+  - splitPath: SelectionList[1]
+    text: "暂未开放，敬请期待"
+  templates:
+  - splitPath: SelectionList[1]
+    template: "、<color=#FF0000>{0}</color>"
+- raw: "{\r\n    \"Key\": \"8610200\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"在天愿作比翼鸟\",\r\n      \"在地愿为连理枝\",\r\n      \"得成比目何辞死\",\r\n      \"愿作鸳鸯不羡仙\",\r\n      \"还是一个人过吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"在天願作比翼鳥\",\r\n      \"在地願為連理枝\",\r\n      \"得成比目何辭死\",\r\n      \"願作鴛鴦不羨仙\",\r\n      \"還是一個人過吧\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610200
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+  - splitPath: SelectionList[0]
+    text: "在天愿作比翼鸟"
+  - splitPath: SelectionList[1]
+    text: "在地愿为连理枝"
+  - splitPath: SelectionList[2]
+    text: "得成比目何辞死"
+  - splitPath: SelectionList[3]
+    text: "愿作鸳鸯不羡仙"
+  - splitPath: SelectionList[4]
+    text: "还是一个人过吧"
+- raw: "{\r\n    \"Key\": \"8610300\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"蓝不悔\",\r\n      \"左灵珠\",\r\n      \"连翘儿\",\r\n      \"沈蓉蓉\",\r\n      \"谈文秀\",\r\n      \"姜芽\",\r\n      \"蚩萤\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"藍不悔\",\r\n      \"左靈珠\",\r\n      \"連翹兒\",\r\n      \"沈蓉蓉\",\r\n      \"談文秀\",\r\n      \"姜芽\",\r\n      \"蚩螢\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610300
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+  - splitPath: SelectionList[0]
+    text: "蓝不悔"
+  - splitPath: SelectionList[1]
+    text: "左灵珠"
+  - splitPath: SelectionList[2]
+    text: "连翘儿"
+  - splitPath: SelectionList[3]
+    text: "沈蓉蓉"
+  - splitPath: SelectionList[4]
+    text: "谈文秀"
+  - splitPath: SelectionList[5]
+    text: "姜芽"
+  - splitPath: SelectionList[6]
+    text: "蚩萤"
+  - splitPath: SelectionList[7]
+    text: "再想想"
+- raw: "{\r\n    \"Key\": \"8610400\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"阮碧青\",\r\n      \"靳红衣\",\r\n      \"萧令仪\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"诸葛慧\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"阮碧青\",\r\n      \"靳紅衣\",\r\n      \"蕭令儀\",\r\n      \"薛如意\",\r\n      \"司徒伶\",\r\n      \"諸葛慧\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610400
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+  - splitPath: SelectionList[0]
+    text: "阮碧青"
+  - splitPath: SelectionList[1]
+    text: "靳红衣"
+  - splitPath: SelectionList[2]
+    text: "萧令仪"
+  - splitPath: SelectionList[3]
+    text: "薛如意"
+  - splitPath: SelectionList[4]
+    text: "司徒伶"
+  - splitPath: SelectionList[5]
+    text: "诸葛慧"
+  - splitPath: SelectionList[6]
+    text: "再想想"
+- raw: "{\r\n    \"Key\": \"8610500\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"项欺霜\",\r\n      \"展青锋\",\r\n      \"邵轻虹\",\r\n      \"李云裳\",\r\n      \"巫云凤\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"晏峨眉\",\r\n      \"夏侯珺\",\r\n      \"項欺霜\",\r\n      \"展青鋒\",\r\n      \"邵輕虹\",\r\n      \"李雲裳\",\r\n      \"巫雲鳳\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610500
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+  - splitPath: SelectionList[0]
+    text: "晏峨眉"
+  - splitPath: SelectionList[1]
+    text: "夏侯珺"
+  - splitPath: SelectionList[2]
+    text: "项欺霜"
+  - splitPath: SelectionList[3]
+    text: "展青锋"
+  - splitPath: SelectionList[4]
+    text: "邵轻虹"
+  - splitPath: SelectionList[5]
+    text: "李云裳"
+  - splitPath: SelectionList[6]
+    text: "巫云凤"
+  - splitPath: SelectionList[7]
+    text: "再想想"
+- raw: "{\r\n    \"Key\": \"8610600\",\r\n    \"Desc\": \"选择哪一位红颜伴与你相伴过年？\",\r\n    \"SelectionList\": [\r\n      \"艾琳娜\",\r\n      \"文锦心\",\r\n      \"柳含烟\",\r\n      \"风间爱\",\r\n      \"风间月\",\r\n      \"萧雪雁\",\r\n      \"沈青鸬\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ],\r\n    \"DescTw\": \"選擇哪一位紅顏伴與你相伴過年？\",\r\n    \"SelectionTwList\": [\r\n      \"艾琳娜\",\r\n      \"文錦心\",\r\n      \"柳含煙\",\r\n      \"風間愛\",\r\n      \"風間月\",\r\n      \"蕭雪雁\",\r\n      \"沈青鸕\",\r\n      \"再想想\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\",\r\n      \"nil\"\r\n    ]\r\n  }"
+  rawIndex: 8610600
+  splits:
+  - splitPath: Desc
+    text: "选择哪一位红颜伴与你相伴过年？"
+  - splitPath: SelectionList[0]
+    text: "艾琳娜"
+  - splitPath: SelectionList[1]
+    text: "文锦心"
+  - splitPath: SelectionList[2]
+    text: "柳含烟"
+  - splitPath: SelectionList[3]
+    text: "风间爱"
+  - splitPath: SelectionList[4]
+    text: "风间月"
+  - splitPath: SelectionList[5]
+    text: "萧雪雁"
+  - splitPath: SelectionList[6]
+    text: "沈青鸬"
+  - splitPath: SelectionList[7]
+    text: "再想想"

@@ -2298,7 +2298,7 @@
   templates:
   - splitPath: Desc
     template: "{0} {1}"
-- raw: "{\r\n    \"Key\": \"1324\",\r\n    \"IdName\": \"邹无计\",\r\n    \"Name\": \"邹无计\",\r\n    \"Title\": \"听风羽士\",\r\n    \"CardName\": \"听风阁主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"长江盟五家联盟之一，听风阁阁主，机变百出，老谋深算，为谋取更多利益而将听风阁加入长江盟与洞庭忙为对，在听风阁在洞庭帮和长江盟之间占了不少便宜，以智取胜便是其行走江湖的信条。\",\r\n    \"GetDesc\": \"加入洞庭帮，第五年五月至第八年二月，探索荆南战胜了尘救下邹九思，悟性到达150探索荆南加入。\",\r\n    \"NameTw\": \"鄒無計\",\r\n    \"TitleTw\": \"聽風羽士\",\r\n    \"DescTw\": \"長江盟五家聯盟之一，聽風閣閣主，機變百出，老謀深算，為謀取更多利益而將聽風閣加入長江盟與洞庭忙為對，在聽風閣在洞庭幫和長江盟之間佔了不少便宜，以智取勝便是其行走江湖的信條。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第五年五月至第八年二月，探索荊南戰勝了塵救下鄒九思，悟性到達150探索荊南加入。\",\r\n    \"CardNameTw\": \"聽風閣主\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1324\",\r\n    \"IdName\": \"邹无计\",\r\n    \"Name\": \"邹无计\",\r\n    \"Title\": \"听风羽士\",\r\n    \"CardName\": \"听风阁主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"长江盟五家联盟之一，听风阁阁主，机变百出，老谋深算，为谋取更多利益加入长江盟与洞庭帮为对，在听风阁在洞庭帮和长江盟之间占了不少便宜，以智取胜便是其行走江湖的信条。\",\r\n    \"GetDesc\": \"加入洞庭帮，第五年五月至第八年二月，探索荆南战胜了尘救下邹九思，悟性到达150探索荆南加入。\",\r\n    \"NameTw\": \"鄒無計\",\r\n    \"TitleTw\": \"聽風羽士\",\r\n    \"DescTw\": \"長江盟五家聯盟之一，聽風閣閣主，機變百出，老謀深算，為謀取更多利益加入長江盟與洞庭幫為對，在聽風閣在洞庭幫和長江盟之間佔了不少便宜，以智取勝便是其行走江湖的信條。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第五年五月至第八年二月，探索荊南戰勝了塵救下鄒九思，悟性到達150探索荊南加入。\",\r\n    \"CardNameTw\": \"聽風閣主\"\r\n  }"
   rawIndex: 1324
   splits:
   - splitPath: IdName
@@ -2332,12 +2332,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "长江盟五家联盟之一，听风阁阁主，机变百出，老谋深算，为谋取更多利益而将听风阁加入长江盟与洞庭忙为对，在听风阁在洞庭帮和长江盟之间占了不少便宜，以智取胜便是其行走江湖的信条。"
-    translated: "One of the five alliances under the Yangtze Alliance, Wind Listening Pavilion's Pavilion Master is known for his quick wit and deep scheming. In pursuit of greater benefits, he joined the Yangtze Alliance against the Dongting Sect. The Wind Listening Pavilion managed to gain many advantages by maneuvering between the Dongting Sect and the Yangtze Alliance. His creed in Jianghu is to outwit others through intelligence."
-    qcReviewedText: "One of the five alliances under the Yangtze Alliance, Wind Listening Pavilion's Pavilion Master is known for his quick wit and deep scheming. In pursuit of greater benefits, he joined the Yangtze Alliance against the Dongting Sect. The Wind Listening Pavilion managed to gain many advantages by maneuvering between the Dongting Sect and the Yangtze Alliance. His creed in Jianghu is to outwit others through intelligence."
-    qcTranslated: "One of the five alliances under the Yangtze Alliance, Wind Listening Pavilion's Pavilion Master is known for his quick wit and deep scheming. In pursuit of greater benefits, he aligned the Wind Listening Pavilion with the Yangtze Alliance against the Dongting Sect. The Wind Listening Pavilion managed to gain many advantages by maneuvering between the Dongting Sect and the Yangtze Alliance. His creed in Jianghu is to outwit others through intelligence."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    text: "长江盟五家联盟之一，听风阁阁主，机变百出，老谋深算，为谋取更多利益加入长江盟与洞庭帮为对，在听风阁在洞庭帮和长江盟之间占了不少便宜，以智取胜便是其行走江湖的信条。"
+    translated: "One of the five allied factions of the Yangtze Alliance, the Pavilion Master of Wind Listening Pavilion. He is cunning and scheming, joining the Yangtze Alliance against the Dongting Sect to gain more advantages. By playing both sides, he has profited greatly, and outmaneuvering others with his intellect is his creed in the Jianghu."
   - splitPath: GetDesc
     text: "加入洞庭帮，第五年五月至第八年二月，探索荆南战胜了尘救下邹九思，悟性到达150探索荆南加入。"
     translated: "Joining the Dongting Sect, from May of the fifth year to February of the eighth year, explore Jingnan and defeat Liaocheng to save Zou Jiusi. Insight reaches level 150. Continue exploring Jingnan and join fully."
@@ -2998,7 +2994,7 @@
     qcTranslated: "Join the Dongting Sect. In Year 2, Month 7, Lai Bao was ordered to be taught a lesson in Dongting Lake and automatically joined."
     qcStatus: Corrected
     qcQualityScore: 85
-- raw: "{\r\n    \"Key\": \"7034\",\r\n    \"IdName\": \"杜涌\",\r\n    \"Name\": \"杜涌\",\r\n    \"CardName\": \"洞庭帮众\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"洞庭帮帮众，随和宽厚，憨厚朴实，白蛟堂堂主“无舟划桨”杜满川，善于用刀，十分好吃，且饭量极大，也经常因此被打趣。\",\r\n    \"GetDesc\": \"加入洞庭帮，第三年一月过年事件后自动加入。\",\r\n    \"NameTw\": \"杜湧\",\r\n    \"DescTw\": \"洞庭幫幫眾，隨和寬厚，憨厚朴實，白蛟堂堂主“無舟划槳”杜滿川，善於用刀，十分好吃，且飯量極大，也經常因此被打趣。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第三年一月過年事件後自動加入。\",\r\n    \"CardNameTw\": \"洞庭幫眾\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"7034\",\r\n    \"IdName\": \"杜涌\",\r\n    \"Name\": \"杜涌\",\r\n    \"CardName\": \"洞庭帮众\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"洞庭帮帮众，随和宽厚，憨厚朴实，白蛟堂堂主“无舟划桨”杜满川之侄，善于用刀，十分好吃，且饭量极大，也经常因此被打趣。\",\r\n    \"GetDesc\": \"加入洞庭帮，第三年一月过年事件后自动加入。\",\r\n    \"NameTw\": \"杜湧\",\r\n    \"DescTw\": \"洞庭幫幫眾，隨和寬厚，憨厚朴實，白蛟堂堂主“無舟划槳”杜滿川之侄，善於用刀，十分好吃，且飯量極大，也經常因此被打趣。\",\r\n    \"GetDescTw\": \"加入洞庭幫，第三年一月過年事件後自動加入。\",\r\n    \"CardNameTw\": \"洞庭幫眾\"\r\n  }"
   rawIndex: 7034
   splits:
   - splitPath: IdName
@@ -3026,12 +3022,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "洞庭帮帮众，随和宽厚，憨厚朴实，白蛟堂堂主“无舟划桨”杜满川，善于用刀，十分好吃，且饭量极大，也经常因此被打趣。"
-    translated: "Dongting Sect members are amiable and tolerant and generous, simple and honest.  “To row a boat without a paddle”  Du Manchuan is skilled in the use of knives and has an insatiable appetite, often teased for it."
-    qcReviewedText: "Dongting Sect members are amiable and tolerant and generous, simple and honest.  “To row a boat without a paddle”  Du Manchuan is skilled in the use of knives and has an insatiable appetite, often teased for it."
-    qcTranslated: "Dongting Sect members are amiable and tolerant and generous, simple and honest. The White Flood Hall leader, “To row a boat without a paddle” Du Manchuan, is skilled in the use of knives and has an insatiable appetite, often teased for it."
-    qcStatus: Corrected
-    qcQualityScore: 85
+    text: "洞庭帮帮众，随和宽厚，憨厚朴实，白蛟堂堂主“无舟划桨”杜满川之侄，善于用刀，十分好吃，且饭量极大，也经常因此被打趣。"
+    translated: "Dongting Sect member, easygoing and generous, honest and down-to-earth, nephew of Baijiao Hall's leader No Boat Paddling Du Manchuan, skilled with a blade, has a great appetite, and is often teased because of it."
   - splitPath: GetDesc
     text: "加入洞庭帮，第三年一月过年事件后自动加入。"
     translated: "Join the Dongting Sect after the New Year event at the end of the third year."
@@ -3943,7 +3935,7 @@
     qcTranslated: "Starting in Month 1 of Year 7, the friendship rating with the Six Doors of Jingxiang reached 80.. Explore Jingbei to join."
     qcStatus: Corrected
     qcQualityScore: 85
-- raw: "{\r\n    \"Key\": \"1085\",\r\n    \"IdName\": \"辛虎符\",\r\n    \"Name\": \"辛虎符\",\r\n    \"Title\": \"将军令\",\r\n    \"CardName\": \"荆湘名捕\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘六扇门名捕，沉稳干练，果决勇毅，出身于军伍之家，因少年时在外被盗寇所擒，幸得六扇门中人解救，故而在成年之后选择加入荆湘六扇门，此后奉公执法，擒拿江湖贼寇累计两百余名，在荆湘江湖之中颇有威名。\",\r\n    \"GetDesc\": \"1.加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入\\\\n2、加入武当派，第五年击败黄乱后，此后再次探索荆北加入\",\r\n    \"NameTw\": \"辛虎符\",\r\n    \"TitleTw\": \"將軍令\",\r\n    \"DescTw\": \"荊湘六扇門名捕，沉穩幹練，果決勇毅，出身于軍伍之家，因少年時在外被盜寇所擒，幸得六扇門中人解救，故而在成年之後選擇加入荊湘六扇門，此後奉公執法，擒拿江湖賊寇累計兩百餘名，在荊湘江湖之中頗有威名。\",\r\n    \"GetDescTw\": \"1.加入衡山派，第四年解開鏢車失蹤案後，此後再次探索湘南加入\\\\n2、加入武當派，第五年擊敗黃亂後，此後再次探索荊北加入\",\r\n    \"CardNameTw\": \"荊湘名捕\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1085\",\r\n    \"IdName\": \"辛虎符\",\r\n    \"Name\": \"辛虎符\",\r\n    \"Title\": \"将军令\",\r\n    \"CardName\": \"荆湘名捕\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"荆湘六扇门名捕，沉稳干练，果决勇毅，出身于军伍之家，因少年时在外被盗寇所擒，幸得六扇门中人解救，故而在成年之后选择加入荆湘六扇门，此后奉公执法，擒拿江湖贼寇累计两百余名，在荆湘江湖之中颇有威名。\",\r\n    \"GetDesc\": \"1、加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入\\\\n2、加入武当派，第五年击败黄乱后，此后再次探索荆北加入\",\r\n    \"NameTw\": \"辛虎符\",\r\n    \"TitleTw\": \"將軍令\",\r\n    \"DescTw\": \"荊湘六扇門名捕，沉穩幹練，果決勇毅，出身于軍伍之家，因少年時在外被盜寇所擒，幸得六扇門中人解救，故而在成年之後選擇加入荊湘六扇門，此後奉公執法，擒拿江湖賊寇累計兩百餘名，在荊湘江湖之中頗有威名。\",\r\n    \"GetDescTw\": \"1、加入衡山派，第四年解開鏢車失蹤案後，此後再次探索湘南加入\\\\n2、加入武當派，第五年擊敗黃亂後，此後再次探索荊北加入\",\r\n    \"CardNameTw\": \"荊湘名捕\"\r\n  }"
   rawIndex: 1085
   splits:
   - splitPath: IdName
@@ -3984,12 +3976,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "1.加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入"
-    translated: "1. joined the Hengshan Sect, in the fourth year solved the case of the missing escort carriage, and thereafter explored Xiangnan again to join."
-    qcReviewedText: "1. joined the Hengshan Sect, in the fourth year solved the case of the missing escort carriage, and thereafter explored Xiangnan again to join.\\n2, after joining the Wudang Sect, in the fifth year of defeating Huang Luan, subsequently explored Jingbei and joined again."
-    qcTranslated: "1. joined the Hengshan Sect, and in Year 4 solved the missing escort carriage case; thereafter, they explored Xiangnan again to join \\n2. After joining the Wudang Sect, in Year 5 they defeated Huang Luan; thereafter, they explored Jingbei again to join."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "1、加入衡山派，第四年解开镖车失踪案后，此后再次探索湘南加入"
+    translated: "1, after joining the Hengshan Sect in the fourth year and solving the case of the missing convoy, subsequently explored Xiangnan again to join [the sect]"
   - splitPath: GetDesc
     subIndex: 1
     text: "2、加入武当派，第五年击败黄乱后，此后再次探索荆北加入"
@@ -4190,7 +4178,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "{\r\n    \"Key\": \"1161\",\r\n    \"IdName\": \"权玉真\",\r\n    \"Name\": \"权玉真\",\r\n    \"Title\": \"还丹道人\",\r\n    \"CardName\": \"崆峒弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"崆峒派弟子，颖悟缜密，内敛温和，出身关陇望族，因其父与“丹阳子”吕化一为方外至交，故而自幼拜入吕化一门下，天赋卓异，尤擅丹道，十三岁时便独立开炉，炼出此生的第一炉丹药，深得吕化一的赏识与喜爱。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。\",\r\n    \"NameTw\": \"權玉真\",\r\n    \"TitleTw\": \"還丹道人\",\r\n    \"DescTw\": \"崆峒派弟子，穎悟縝密，內斂溫和，出身關隴望族，因其父與“丹陽子”呂化一為方外至交，故而自幼拜入呂化一門下，天賦卓異，尤擅丹道，十三歲時便獨立開爐，煉出此生的第一爐丹藥，深得呂化一的賞識與喜愛。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間丹術到達高手，探索太初洞加入。\",\r\n    \"CardNameTw\": \"崆峒弟子\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1161\",\r\n    \"IdName\": \"权玉真\",\r\n    \"Name\": \"权玉真\",\r\n    \"Title\": \"还丹道人\",\r\n    \"CardName\": \"崆峒弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"崆峒派弟子，颖悟缜密，内敛温和，出身关陇望族，因其父与“丹阳子”吕化一为方外至交，故而自幼拜入吕化一门下，天赋卓异，尤擅丹道，十三岁时便独立开炉，炼出此生的第一炉丹药，深得吕化一的赏识与喜爱。\",\r\n    \"GetDesc\": \"1、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。\\\\n2、加入青城派派，第四年二月时，可随杜清风参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。\",\r\n    \"NameTw\": \"權玉真\",\r\n    \"TitleTw\": \"還丹道人\",\r\n    \"DescTw\": \"崆峒派弟子，穎悟縝密，內斂溫和，出身關隴望族，因其父與“丹陽子”呂化一為方外至交，故而自幼拜入呂化一門下，天賦卓異，尤擅丹道，十三歲時便獨立開爐，煉出此生的第一爐丹藥，深得呂化一的賞識與喜愛。\",\r\n    \"GetDescTw\": \"1、加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間丹術到達高手，探索太初洞加入。\\\\n2、加入青城派派，第四年二月時，可隨杜清風參與崆峒廣成丹會，丹會期間丹術到達高手，探索太初洞加入。\",\r\n    \"CardNameTw\": \"崆峒弟子\"\r\n  }"
   rawIndex: 1161
   splits:
   - splitPath: IdName
@@ -4230,12 +4218,15 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: GetDesc
-    text: "加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。"
-    translated: "Joining the Wudang Sect, by the fourth year, Daoist Studies and Alchemy had reached a proficient level. At this point, they could participate in the Kongtong Guangcheng Dan Meeting with Jiang Daoling. During the Dan Meeting, their Alchemy skills improved to that of a master, allowing them to explore the Taiqiu Cave."
-    qcReviewedText: "Joining the Wudang Sect, by the fourth year, Daoist Studies and Alchemy had reached a proficient level. At this point, they could participate in the Kongtong Guangcheng Dan Meeting with Jiang Daoling. During the Dan Meeting, their Alchemy skills improved to that of a master, allowing them to explore the Taiqiu Cave."
-    qcTranslated: "Joining the Wudang Sect, by the second month of the fourth year, Daoist Studies and Alchemy had reached proficiency. You can then participate in the Kongtong Guangcheng Dan Meeting with Jiang Daoling. During the meeting, your Alchemy will reach Master level, allowing you to explore the Taiqiu Cave and join."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "1、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。"
+    translated: "1, in the second month of your fourth year as a member of Wudang Sect, you reached mastery in Daoist Studies and Alchemy. You can join Jiang Daoling at the Kongtong Guangcheng Alchemy Conference, where your Alchemy skills will reach the level of a master during the conference period, allowing you to explore Taichu Cave and join its ranks."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入青城派派，第四年二月时，可随杜清风参与崆峒广成丹会，丹会期间丹术到达高手，探索太初洞加入。"
+    translated: "2, in the fourth year of joining Qingcheng Sect, in February, you may participate in the Guangcheng Alchemy Conference at Kongtong with Du Qingfeng. During the conference, if your Alchemy skills reach a high level, you can explore Taichi Cave and join it."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
 - raw: "{\r\n    \"Key\": \"1185\",\r\n    \"IdName\": \"娄太乙\",\r\n    \"Name\": \"娄太乙\",\r\n    \"Title\": \"云龙九现\",\r\n    \"CardName\": \"坐忘峰主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"昆仑派长老，坐忘峰峰主，“太乙剑”娄拙之父，豁达通透，果敢坚韧，年轻时在机缘之下练成坐忘峰百年来无人参透的绝学“云龙九变”，也因此成为坐忘峰主，其后数十年间，励精图治，令本已式微的昆仑坐忘峰一脉重振声威。\",\r\n    \"GetDesc\": \"第八年一月开始，财富到达200，道德到达50，三次探索荆南，战胜墨是非后加入。\",\r\n    \"NameTw\": \"婁太乙\",\r\n    \"TitleTw\": \"雲龍九現\",\r\n    \"DescTw\": \"崑崙派長老，坐忘峰峰主，“太乙劍”婁拙之父，豁達通透，果敢堅韌，年輕時在機緣之下練成坐忘峰百年來無人蔘透的絕學“雲龍九變”，也因此成為坐忘峰主，其後數十年間，勵精圖治，令本已式微的崑崙坐忘峰一脈重振聲威。\",\r\n    \"GetDescTw\": \"第八年一月開始，財富到達200，道德到達50，三次探索荊南，戰勝墨是非後加入。\",\r\n    \"CardNameTw\": \"坐忘峰主\"\r\n  }"
   rawIndex: 1185
   splits:
@@ -4282,7 +4273,7 @@
     qcTranslated: "Starting in January of the eighth year, wealth reached 200, morality reached 50.. After three explorations of Jingnan and defeating Mo Shefei, they joined."
     qcStatus: Corrected
     qcQualityScore: 95
-- raw: "{\r\n    \"Key\": \"1191\",\r\n    \"IdName\": \"娄拙\",\r\n    \"Name\": \"娄拙\",\r\n    \"Title\": \"太乙剑\",\r\n    \"CardName\": \"昆仑弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“阴阳无相”庄道玄座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。\",\r\n    \"NameTw\": \"婁拙\",\r\n    \"TitleTw\": \"太乙劍\",\r\n    \"DescTw\": \"崑崙派弟子，“雲龍九現”婁太乙之子，謙和沉靜，儒雅不羈，自幼拜在“陰陽無相”莊道玄座下，又得其父一身武學盡得真傳，身兼兩峰之長，自幼喜好道學，此後後更一心參玄悟道，崑崙所藏諸多道門典籍，皆已熟讀精研，默識於心。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間道法到達高手，探索太始洞加入。\",\r\n    \"CardNameTw\": \"崑崙弟子\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1191\",\r\n    \"IdName\": \"娄拙\",\r\n    \"Name\": \"娄拙\",\r\n    \"Title\": \"太乙剑\",\r\n    \"CardName\": \"昆仑弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。\",\r\n    \"GetDesc\": \"1、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。\\\\n2、加入青城派，第四年二月时，可随杜清风参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。\",\r\n    \"NameTw\": \"婁拙\",\r\n    \"TitleTw\": \"太乙劍\",\r\n    \"DescTw\": \"崑崙派弟子，“雲龍九現”婁太乙之子，謙和沉靜，儒雅不羈，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武學盡得真傳，身兼兩峰之長，自幼喜好道學，此後後更一心參玄悟道，崑崙所藏諸多道門典籍，皆已熟讀精研，默識於心。\",\r\n    \"GetDescTw\": \"1、加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間道法到達高手，探索太始洞加入。\\\\n2、加入青城派，第四年二月時，可隨杜清風參與崆峒廣成丹會，丹會期間道法到達高手，探索太始洞加入。\",\r\n    \"CardNameTw\": \"崑崙弟子\"\r\n  }"
   rawIndex: 1191
   splits:
   - splitPath: IdName
@@ -4316,20 +4307,19 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“阴阳无相”庄道玄座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。"
-    translated: "Kunlun Sect disciple, Son of Lou Taiyi from Nine Dragons Unleashed, meek and calm, cultured yet unrestrained. From a young age, he was ordained under Zhuang Daoxuan's tutelage at the  “Yin and Yang Indistinguishable”  sect, inheriting his father's entire martial arts repertoire in its true essence. He possesses the strengths of both peaks. Since childhood, he has had a keen interest in Daoist Studies, and subsequently devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcReviewedText: "Kunlun Sect disciple, Son of Lou Taiyi from Nine Dragons Unleashed, meek and calm, cultured yet unrestrained. From a young age, he was ordained under Zhuang Daoxuan's tutelage at the  “Yin and Yang Indistinguishable”  sect, inheriting his father's entire martial arts repertoire in its true essence. He possesses the strengths of both peaks. Since childhood, he has had a keen interest in Daoist Studies, and subsequently devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcTranslated: "Kunlun Sect disciple, son of Lou Taiyi of the Nine Manifestations of Cloud and Dragon, humble and serene, refined yet unrestrained. From a young age, he was taken as a disciple by Zhuang Daoxuan of the Yin-Yang Formless style, and further received his father's entire martial arts legacy in its true essence. He embodies the strengths of both peaks. Having loved Daoist Studies since childhood, he has since devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcStatus: Corrected
-    qcQualityScore: 78
+    text: "昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。"
+    translated: "A disciple of the Kunlun Sect, Lou Taiyi's son, known as Nine Appearances of the Cloud Dragon, is humble, reserved, and elegant yet unrestrained. Since childhood, he has studied under Si Yuding, the master of Alchemy of Cinnabar Realms. He has inherited his father's entire martial arts legacy and combines the strengths of both peaks. He has always been fond of Daoist Studies and later dedicated himself to the study and comprehension of profound Daoist principles. The many Daoist scriptures stored within Kunlun have all been thoroughly read and researched, memorized in his heart."
   - splitPath: GetDesc
-    text: "加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。"
-    translated: "Joining the Wudang Sect, by the fourth year of February, Daoist Studies and Alchemy had reached a proficient level. You could then participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, your Daoist cultivation would advance to that of a skilled practitioner, allowing you to explore the Tai Shi Cave."
-    qcReviewedText: "Joining the Wudang Sect, by the fourth year of February, Daoist Studies and Alchemy had reached a proficient level. You could then participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, your Daoist cultivation would advance to that of a skilled practitioner, allowing you to explore the Tai Shi Cave."
-    qcTranslated: "Joining the Wudang Sect, by the second month of the fourth year, Daoist Studies and Alchemy had reached a proficient level. You could then participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, your Daoist cultivation would advance to that of a skilled practitioner, allowing you to explore the Tai Shi Cave."
-    qcStatus: Corrected
-    qcQualityScore: 95
-- raw: "{\r\n    \"Key\": \"1192\",\r\n    \"IdName\": \"娄拙2\",\r\n    \"Name\": \"娄拙\",\r\n    \"Title\": \"太乙剑\",\r\n    \"CardName\": \"坐忘参道\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“阴阳无相”庄道玄座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。\",\r\n    \"GetDesc\": \"加入武当派，昆仑弟子娄拙加入后，第五年七月开始真武观中可触发娄拙来寻，此后探索两次解真阁，第六年一月开始再次探索解真阁后解锁。\",\r\n    \"NameTw\": \"婁拙\",\r\n    \"TitleTw\": \"太乙劍\",\r\n    \"DescTw\": \"崑崙派弟子，“雲龍九現”婁太乙之子，謙和沉靜，儒雅不羈，自幼拜在“陰陽無相”莊道玄座下，又得其父一身武學盡得真傳，身兼兩峰之長，自幼喜好道學，此後後更一心參玄悟道，崑崙所藏諸多道門典籍，皆已熟讀精研，默識於心。\",\r\n    \"GetDescTw\": \"加入武當派，崑崙弟子婁拙加入後，第五年七月開始真武觀中可觸發婁拙來尋，此後探索兩次解真閣，第六年一月開始再次探索解真閣後解鎖。\",\r\n    \"CardNameTw\": \"坐忘參道\"\r\n  }"
+    text: "1、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。"
+    translated: "1, in the second month of your fourth year as a member of Wudang Sect, you reached mastery in Daoist Studies and Alchemy, and can join Jiang Daoling at the Kongtong Guangcheng Elixir Conference. During the conference, your skills reach that of a master, allowing you to explore Taishih Cave and join."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入青城派，第四年二月时，可随杜清风参与崆峒广成丹会，丹会期间道法到达高手，探索太始洞加入。"
+    translated: "2, joining the Qingcheng Sect, in February of your fourth year, you may participate in the Kongtong Guangcheng Elixir Conference alongside Du Qingfeng. During the conference, if your Daoist arts reach a high level, you can explore Taishih Cave and join it."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"1192\",\r\n    \"IdName\": \"娄拙2\",\r\n    \"Name\": \"娄拙\",\r\n    \"Title\": \"太乙剑\",\r\n    \"CardName\": \"坐忘参道\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。\",\r\n    \"GetDesc\": \"1、加入武当派，昆仑弟子娄拙加入后，第五年七月开始真武观中可触发娄拙来寻，此后探索两次解真阁，第六年一月开始再次探索解真阁后解锁。\\\\n2、加入青城派派，昆仑弟子娄拙加入后，第五年七月开始紫阳观中可触发娄拙来寻，此后探索两次道藏阁，第六年一月开始再次探索道藏阁后解锁。\",\r\n    \"NameTw\": \"婁拙\",\r\n    \"TitleTw\": \"太乙劍\",\r\n    \"DescTw\": \"崑崙派弟子，“雲龍九現”婁太乙之子，謙和沉靜，儒雅不羈，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武學盡得真傳，身兼兩峰之長，自幼喜好道學，此後後更一心參玄悟道，崑崙所藏諸多道門典籍，皆已熟讀精研，默識於心。\",\r\n    \"GetDescTw\": \"1、加入武當派，崑崙弟子婁拙加入後，第五年七月開始真武觀中可觸發婁拙來尋，此後探索兩次解真閣，第六年一月開始再次探索解真閣後解鎖。\\\\n2、加入青城派派，崑崙弟子婁拙加入後，第五年七月開始紫陽觀中可觸發婁拙來尋，此後探索兩次道藏閣，第六年一月開始再次探索道藏閣後解鎖。\",\r\n    \"CardNameTw\": \"坐忘參道\"\r\n  }"
   rawIndex: 1192
   splits:
   - splitPath: IdName
@@ -4363,28 +4353,159 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“阴阳无相”庄道玄座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。"
-    translated: "Kunlun Sect disciple, Son of Lou Taiyi from Nine Dragons Unleashed, meek and calm, cultured yet unrestrained. From a young age, he was ordained under Zhuang Daoxuan's tutelage at the  “Yin and Yang Indistinguishable”  sect, inheriting his father's entire martial arts repertoire in its true essence. He possesses the strengths of both peaks. Since childhood, he has had a keen interest in Daoist Studies, and subsequently devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcReviewedText: "Kunlun Sect disciple, Son of Lou Taiyi from Nine Dragons Unleashed, meek and calm, cultured yet unrestrained. From a young age, he was ordained under Zhuang Daoxuan's tutelage at the  “Yin and Yang Indistinguishable”  sect, inheriting his father's entire martial arts repertoire in its true essence. He possesses the strengths of both peaks. Since childhood, he has had a keen interest in Daoist Studies, and subsequently devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcTranslated: "Kunlun Sect disciple, son of Lou Taiyi of the Nine Manifestations of Cloud and Dragon, humble and serene, refined yet unrestrained. From a young age, he was taken as a disciple by Zhuang Daoxuan of the Yin-Yang Formless style, and further received his father's entire martial arts legacy in its true essence. He embodies the strengths of both peaks. Having loved Daoist Studies since childhood, he has since devoted himself entirely to contemplating and understanding the Dao. All of Kunlun's many Daoist texts have been thoroughly studied and deeply researched by him, memorized in his heart."
-    qcStatus: Corrected
-    qcQualityScore: 78
+    text: "昆仑派弟子，“云龙九现”娄太乙之子，谦和沉静，儒雅不羁，自幼拜在“金丹造化”司玉鼎座下，又得其父一身武学尽得真传，身兼两峰之长，自幼喜好道学，此后后更一心参玄悟道，昆仑所藏诸多道门典籍，皆已熟读精研，默识于心。"
+    translated: "A disciple of the Kunlun Sect, Lou Taiyi's son, known as Nine Appearances of the Cloud Dragon, is humble, reserved, and elegant yet unrestrained. Since childhood, he has studied under Si Yuding, the master of Alchemy of Cinnabar Realms. He has inherited his father's entire martial arts legacy and combines the strengths of both peaks. He has always been fond of Daoist Studies and later dedicated himself to the study and comprehension of profound Daoist principles. The many Daoist scriptures stored within Kunlun have all been thoroughly read and researched, memorized in his heart."
   - splitPath: GetDesc
-    text: "加入武当派，昆仑弟子娄拙加入后，第五年七月开始真武观中可触发娄拙来寻，此后探索两次解真阁，第六年一月开始再次探索解真阁后解锁。"
-    translated: "Join the Wudang Sect. After Lou Zhuo joins the sect in the fifth year of his training on July, he can be triggered to appear at the True Martial Observatory starting from that month. Thereafter, explore the Enlightening Truth Pavilion twice to unlock it. Starting from January of the sixth year, further exploration of the Enlightening Truth Pavilion will become available again."
-    qcReviewedText: "Join the Wudang Sect. After Lou Zhuo joins the sect in the fifth year of his training on July, he can be triggered to appear at the True Martial Observatory starting from that month. Thereafter, explore the Enlightening Truth Pavilion twice to unlock it. Starting from January of the sixth year, further exploration of the Enlightening Truth Pavilion will become available again."
-    qcTranslated: "Join the Wudang Sect. After Lou Zhuo, a disciple of Kunlun, joins, he can be triggered to come seeking you at the Zhenwu Temple starting in Month 7 of Year 5. Thereafter, explore the Jiezhen Pavilion twice; it will unlock after further exploration starting in Month 1 of Year 6."
-    qcStatus: Corrected
-    qcQualityScore: 82
-- raw: "{\r\n    \"Key\": \"1221\",\r\n    \"IdName\": \"岳松涛\",\r\n    \"Name\": \"岳松涛\",\r\n    \"Title\": \"听涛剑客\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派弟子，胸怀磊落，坦荡赤诚，“松林四剑”之首，自幼拜入“培松道人”杜清风门下，十七岁时，剑挑在川西黑道横行多年的“花面太岁”花旺，其后数年，更接连诛灭数名为祸一方的邪道恶徒，于川西武林年轻一辈中声名鹊起。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞，战胜岳松涛后加入。\",\r\n    \"NameTw\": \"嶽松濤\",\r\n    \"TitleTw\": \"聽濤劍客\",\r\n    \"DescTw\": \"青城派弟子，胸懷磊落，坦蕩赤誠，“松林四劍”之首，自幼拜入“培鬆道人”杜清風門下，十七歲時，劍挑在川西黑道橫行多年的“花面太歲”花旺，其後數年，更接連誅滅數名為禍一方的邪道惡徒，於川西武林年輕一輩中聲名鵲起。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間探索太素洞，戰勝嶽松濤後加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+    text: "1、加入武当派，昆仑弟子娄拙加入后，第五年七月开始真武观中可触发娄拙来寻，此后探索两次解真阁，第六年一月开始再次探索解真阁后解锁。"
+    translated: "1, join Wudang Sect. In the fifth year after Lou Zhuo joins as a Kunlun disciple, you can trigger an event where Lou Zhuo comes seeking in Zhenwu Temple. After exploring Jiezheng Pavilion twice, in the sixth year, after exploring Jiezheng Pavilion again, it unlocks."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入青城派派，昆仑弟子娄拙加入后，第五年七月开始紫阳观中可触发娄拙来寻，此后探索两次道藏阁，第六年一月开始再次探索道藏阁后解锁。"
+    translated: "2, joining the Qingcheng Sect, in the fifth year of July after Kunlun disciple Lou Zhuo joins, you can trigger Lou Zhuo's visit to Ziyang Temple. After exploring Daozang Pavilion twice, in the sixth year of January, further exploration of Daozang Pavilion becomes unlocked."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"1211\",\r\n    \"IdName\": \"寇扶摇\",\r\n    \"Name\": \"寇扶摇\",\r\n    \"Title\": \"紫青问道\",\r\n    \"CardName\": \"青城掌门\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派掌门。\",\r\n    \"GetDesc\": \"加入青城派，学会道生诀后，七年二月功力反噬，探索闻道宫得知过往，此后探索闻道宫诸位师叔伯传道，七年六月前悟性到达170，领悟长生诀，此后探索川西击杀柏灵霄，再次探索问道宫加入。\",\r\n    \"NameTw\": \"寇扶搖\",\r\n    \"TitleTw\": \"紫青問道\",\r\n    \"DescTw\": \"青城派掌門。\",\r\n    \"GetDescTw\": \"加入青城派，學會道生訣後，七年二月功力反噬，探索聞道宮得知過往，此後探索聞道宮諸位師叔伯傳道，七年六月前悟性到達170，領悟長生訣，此後探索川西擊殺柏靈霄，再次探索問道宮加入。\",\r\n    \"CardNameTw\": \"青城掌門\"\r\n  }"
+  rawIndex: 1211
+  splits:
+  - splitPath: IdName
+    text: "寇扶摇"
+    translated: "Kou Feiyao"
+  - splitPath: Name
+    text: "寇扶摇"
+    translated: "Kou Feiyao"
+  - splitPath: Title
+    text: "紫青问道"
+    translated: "Ziqing asks"
+  - splitPath: CardName
+    text: "青城掌门"
+    translated: "Qingcheng Sect Master"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派掌门。"
+    translated: "Sect Master of Qingcheng Sect"
+  - splitPath: GetDesc
+    text: "加入青城派，学会道生诀后，七年二月功力反噬，探索闻道宫得知过往，此后探索闻道宫诸位师叔伯传道，七年六月前悟性到达170，领悟长生诀，此后探索川西击杀柏灵霄，再次探索问道宫加入。"
+    translated: "Joining Qingcheng Sect and learning the Dao Creation Scripture, in the second month of the seventh year, my Power rebelled against me. Exploring the Palace of Understanding the Dao revealed my past. Thereafter, I explored the teachings of various Master Uncles at the Palace of Understanding the Dao. By the sixth month of the seventh year, my Insight reached 170, and I comprehended the Elixir of Immortality Scripture. Afterward, I explored the western part of Sichuan to slay Bailinxiao, and once again explored the Palace of Seeking the Dao to join it."
+- raw: "{\r\n    \"Key\": \"1212\",\r\n    \"IdName\": \"吕伯阳\",\r\n    \"Name\": \"吕伯阳\",\r\n    \"Title\": \"糊涂道人\",\r\n    \"CardName\": \"青城长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派长老。\",\r\n    \"GetDesc\": \"加入青城派，第八年一月开始，贡献到达100，探索道藏阁，战胜吕伯阳后加入。\",\r\n    \"NameTw\": \"呂伯陽\",\r\n    \"TitleTw\": \"糊塗道人\",\r\n    \"DescTw\": \"青城派長老。\",\r\n    \"GetDescTw\": \"加入青城派，第八年一月開始，貢獻到達100，探索道藏閣，戰勝呂伯陽後加入。\",\r\n    \"CardNameTw\": \"青城長老\"\r\n  }"
+  rawIndex: 1212
+  splits:
+  - splitPath: IdName
+    text: "吕伯阳"
+    translated: "Lu Boyang"
+  - splitPath: Name
+    text: "吕伯阳"
+    translated: "Lu Boyang"
+  - splitPath: Title
+    text: "糊涂道人"
+    translated: "Hutu Taoist"
+  - splitPath: CardName
+    text: "青城长老"
+    translated: "Qingcheng Elder"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派长老。"
+    translated: "Qingcheng Sect Elder"
+  - splitPath: GetDesc
+    text: "加入青城派，第八年一月开始，贡献到达100，探索道藏阁，战胜吕伯阳后加入。"
+    translated: "Join Qingcheng Sect, starting in January of the eighth year. When your Contribution reaches 100, explore the Daozang Pavilion and defeat Lu Boyang to join."
+- raw: "{\r\n    \"Key\": \"1213\",\r\n    \"IdName\": \"韩景升\",\r\n    \"Name\": \"韩景升\",\r\n    \"Title\": \"云鹤九霄\",\r\n    \"CardName\": \"青城长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派长老。\",\r\n    \"GetDesc\": \"加入青城派，第七年一月获得异化灵鹤后，贡献到达80，探索灵鹤苑加入。\",\r\n    \"NameTw\": \"韓景升\",\r\n    \"TitleTw\": \"雲鶴九霄\",\r\n    \"DescTw\": \"青城派長老。\",\r\n    \"GetDescTw\": \"加入青城派，第七年一月獲得異化靈鶴後，貢獻到達80，探索靈鶴苑加入。\",\r\n    \"CardNameTw\": \"青城長老\"\r\n  }"
+  rawIndex: 1213
+  splits:
+  - splitPath: IdName
+    text: "韩景升"
+    translated: "Han Jingsheng"
+  - splitPath: Name
+    text: "韩景升"
+    translated: "Han Jingsheng"
+  - splitPath: Title
+    text: "云鹤九霄"
+    translated: "Cloud Crane Soaring to the Ninth Heavens"
+  - splitPath: CardName
+    text: "青城长老"
+    translated: "Qingcheng Elder"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派长老。"
+    translated: "Qingcheng Sect Elder"
+  - splitPath: GetDesc
+    text: "加入青城派，第七年一月获得异化灵鹤后，贡献到达80，探索灵鹤苑加入。"
+    translated: "Joining Qingcheng Sect, in January of the seventh year after obtaining the Mutated Spirit Crane, my Contribution reached 80, and I explored the Spirit Crane Garden to join."
+- raw: "{\r\n    \"Key\": \"1214\",\r\n    \"IdName\": \"祁玄览\",\r\n    \"Name\": \"祁玄览\",\r\n    \"Title\": \"抱朴山人\",\r\n    \"CardName\": \"青城长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派长老。\",\r\n    \"GetDesc\": \"加入青城派，第五年一月开始，贡献到达50，医术到达高手，探索百药圃加入。\",\r\n    \"NameTw\": \"祁玄覽\",\r\n    \"TitleTw\": \"抱朴山人\",\r\n    \"DescTw\": \"青城派長老。\",\r\n    \"GetDescTw\": \"加入青城派，第五年一月開始，貢獻到達50，醫術到達高手，探索百藥圃加入。\",\r\n    \"CardNameTw\": \"青城長老\"\r\n  }"
+  rawIndex: 1214
+  splits:
+  - splitPath: IdName
+    text: "祁玄览"
+    translated: "Qi Xuanyan"
+  - splitPath: Name
+    text: "祁玄览"
+    translated: "Qi Xuanyan"
+  - splitPath: Title
+    text: "抱朴山人"
+    translated: "Bao Pu Mountain Man"
+  - splitPath: CardName
+    text: "青城长老"
+    translated: "Qingcheng Elder"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派长老。"
+    translated: "Qingcheng Sect Elder"
+  - splitPath: GetDesc
+    text: "加入青城派，第五年一月开始，贡献到达50，医术到达高手，探索百药圃加入。"
+    translated: "Join Qingcheng Sect. Starting from January of the fifth year, when your Contribution reaches 50 and your Medicine skill reaches Expert level, explore the Hundred Herbs Garden to join."
+- raw: "{\r\n    \"Key\": \"1215\",\r\n    \"IdName\": \"杜清风\",\r\n    \"Name\": \"杜清风\",\r\n    \"Title\": \"培松道长\",\r\n    \"CardName\": \"青城长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派长老。\",\r\n    \"GetDesc\": \"加入青城派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。\",\r\n    \"NameTw\": \"杜清風\",\r\n    \"TitleTw\": \"培鬆道長\",\r\n    \"DescTw\": \"青城派長老。\",\r\n    \"GetDescTw\": \"加入青城派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後加入。\",\r\n    \"CardNameTw\": \"青城長老\"\r\n  }"
+  rawIndex: 1215
+  splits:
+  - splitPath: IdName
+    text: "杜清风"
+    translated: "Du Qingfeng"
+  - splitPath: Name
+    text: "杜清风"
+    translated: "Du Qingfeng"
+  - splitPath: Title
+    text: "培松道长"
+    translated: "Venerable Peisong"
+  - splitPath: CardName
+    text: "青城长老"
+    translated: "Qingcheng Elder"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派长老。"
+    translated: "Qingcheng Sect Elder"
+  - splitPath: GetDesc
+    text: "加入青城派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
+    translated: "Joining Qingcheng Sect, in February of the fourth year, Daoist Studies and Alchemy reach proficiency, participating in the Guangcheng Elixir Conference. In February of the eighth year, Daoist Studies and Alchemy reach mastery, participating in the Guangcheng Elixir Conference for the second time. Daoist Studies and Alchemy reach the level of Grand Master, Insight reaches 200, explore the Guangcheng Cavern, and join after refining the Guangcheng Golden Elixir."
+- raw: "{\r\n    \"Key\": \"1221\",\r\n    \"IdName\": \"岳松涛1\",\r\n    \"Name\": \"岳松涛\",\r\n    \"Title\": \"听涛剑客\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派弟子，胸怀磊落，坦荡赤诚，“松林三剑”之首，自幼拜入“培松道人”杜清风门下，十七岁时，剑挑在川西黑道横行多年的“花面太岁”花旺，其后数年，更接连诛灭数名为祸一方的邪道恶徒，于川西武林年轻一辈中声名鹊起。\",\r\n    \"GetDesc\": \"1、加入青城派，第三年五月时战胜姜天定后加入。\\\\n2、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间两次探索太素洞，战胜岳松涛后加入。\",\r\n    \"NameTw\": \"嶽松濤\",\r\n    \"TitleTw\": \"聽濤劍客\",\r\n    \"DescTw\": \"青城派弟子，胸懷磊落，坦蕩赤誠，“松林三劍”之首，自幼拜入“培鬆道人”杜清風門下，十七歲時，劍挑在川西黑道橫行多年的“花面太歲”花旺，其後數年，更接連誅滅數名為禍一方的邪道惡徒，於川西武林年輕一輩中聲名鵲起。\",\r\n    \"GetDescTw\": \"1、加入青城派，第三年五月時戰勝姜天定後加入。\\\\n2、加入武當派，第四年二月時，道學和丹術到達精通，可隨姜道靈參與崆峒廣成丹會，丹會期間兩次探索太素洞，戰勝嶽松濤後加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
   rawIndex: 1221
   splits:
   - splitPath: IdName
-    text: "岳松涛"
-    translated: "Yue Songtao"
-    qcReviewedText: "Yue Songtao"
-    qcStatus: Passed
-    qcQualityScore: 100
+    text: "岳松涛1"
+    translated: "Yue Songtao1"
   - splitPath: Name
     text: "岳松涛"
     translated: "Yue Songtao"
@@ -4410,20 +4531,322 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "青城派弟子，胸怀磊落，坦荡赤诚，“松林四剑”之首，自幼拜入“培松道人”杜清风门下，十七岁时，剑挑在川西黑道横行多年的“花面太岁”花旺，其后数年，更接连诛灭数名为祸一方的邪道恶徒，于川西武林年轻一辈中声名鹊起。"
-    translated: "Qingcheng Sect disciples, with open hearts and honest intentions, are the leaders of the Four Swords of Pine Forest. They joined Daoist Pei Song's discipleship since childhood. At seventeen years old, they defeated the Four-Faced Tyrant Huawang, who had been terrorizing the black society in West Sichuan for many years. In the following few years, they continuously eliminated several other evil cult members who caused havoc in their regions. As a result, their reputation quickly rose among the younger generation of Wulin in West Sichuan."
-    qcReviewedText: "Qingcheng Sect disciples, with open hearts and honest intentions, are the leaders of the Four Swords of Pine Forest. They joined Daoist Pei Song's discipleship since childhood. At seventeen years old, they defeated the Four-Faced Tyrant Huawang, who had been terrorizing the black society in West Sichuan for many years. In the following few years, they continuously eliminated several other evil cult members who caused havoc in their regions. As a result, their reputation quickly rose among the younger generation of Wulin in West Sichuan."
-    qcTranslated: "A disciple of the Qingcheng Sect, with a noble and upright heart, frank and sincere, he is the leader of the Four Swords of Pine Forest. He took Daoist Pei Song, Du Qingfeng, as his master from a young age. At seventeen, he defeated Hua Wang, the Flower-Faced Tai Sui, who had been terrorizing the underworld in West Sichuan for many years. In the following years, he successively slew several evil cultists who brought disaster to the region, and his fame rapidly rose among the younger generation of the Wulin in West Sichuan."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "青城派弟子，胸怀磊落，坦荡赤诚，“松林三剑”之首，自幼拜入“培松道人”杜清风门下，十七岁时，剑挑在川西黑道横行多年的“花面太岁”花旺，其后数年，更接连诛灭数名为祸一方的邪道恶徒，于川西武林年轻一辈中声名鹊起。"
+    translated: "Qingcheng Sect disciple, open-hearted and sincere, leader of the Pine Forest Three Swords, was apprenticed to Taoist Priest Peisong, Du Qingfeng, from a young age. At seventeen, he challenged and defeated Huawang, the tyrannical villain who had terrorized the western Sichuan underworld for years, earning him fame among the younger generation of Wulin in western Sichuan. In subsequent years, he continued to eliminate several malevolent villains wreaking havoc in the region, further cementing his reputation."
   - splitPath: GetDesc
-    text: "加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间探索太素洞，战胜岳松涛后加入。"
-    translated: "Join the Wudang Sect. By the fourth year, Daoist Studies and Alchemy have reached mastery, allowing you to participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, explore the Tai sui Cave. After defeating Yue Songtao, you will be able to join."
-    qcReviewedText: "Join the Wudang Sect. By the fourth year, Daoist Studies and Alchemy have reached mastery, allowing you to participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, explore the Tai sui Cave. After defeating Yue Songtao, you will be able to join."
-    qcTranslated: "Join the Wudang Sect. In the second month of the fourth year, once Daoist Studies and Alchemy reach mastery, you can participate in the Kongtong Guangcheng Alchemical Conference with Jiang Daoling. During the conference, explore the Taisu Cave. After defeating Yue Songtao, you will be able to join."
-    qcStatus: Corrected
-    qcQualityScore: 90
-- raw: "{\r\n    \"Key\": \"1245\",\r\n    \"IdName\": \"魏通明\",\r\n    \"Name\": \"魏通明\",\r\n    \"Title\": \"火云真人\",\r\n    \"CardName\": \"崂山长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"崂山派长老，慷慨坦荡，随性旷达，位列崂山派三大长老之首，不仅丹术精湛，更有一手出神入化的控火绝技，昔年齐鲁陶山虬林寨匪徒横行，杀人掠货，无法无天，魏通明孤身独上陶山，火焚尽林寨，寨中四十七名恶匪尽数丧命火海。\",\r\n    \"GetDesc\": \"加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。\",\r\n    \"NameTw\": \"魏通明\",\r\n    \"TitleTw\": \"火雲真人\",\r\n    \"DescTw\": \"嶗山派長老，慷慨坦蕩，隨性曠達，位列嶗山派三大長老之首，不僅丹術精湛，更有一手出神入化的控火絕技，昔年齊魯陶山虯林寨匪徒橫行，殺人掠貨，無法無天，魏通明孤身獨上陶山，火焚盡林寨，寨中四十七名惡匪盡數喪命火海。\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後加入。\",\r\n    \"CardNameTw\": \"嶗山長老\"\r\n  }"
+    text: "1、加入青城派，第三年五月时战胜姜天定后加入。"
+    translated: "1 joined the Qingcheng Sect in May of the third year after defeating Jiang Tianding."
+  - splitPath: GetDesc
+    subIndex: 1
+    text: "2、加入武当派，第四年二月时，道学和丹术到达精通，可随姜道灵参与崆峒广成丹会，丹会期间两次探索太素洞，战胜岳松涛后加入。"
+    translated: "2, in the second month of your fourth year as a member of Wudang Sect, you reached mastery in Daoist Studies and Alchemy, and could join Jiang Daoling at the Kongtong Guangcheng Elixir Conference. During the conference, you explored Taixu Cave twice and joined after defeating Yue Songtao."
+  templates:
+  - splitPath: GetDesc
+    template: "{0}\\n{1}"
+- raw: "{\r\n    \"Key\": \"1222\",\r\n    \"IdName\": \"温白石1\",\r\n    \"Name\": \"温白石\",\r\n    \"Title\": \"枕石剑客\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派弟子，\",\r\n    \"GetDesc\": \"加入青城派，第三年五月时战胜姜天定后加入。\",\r\n    \"NameTw\": \"溫白石\",\r\n    \"TitleTw\": \"枕石劍客\",\r\n    \"DescTw\": \"青城派弟子，\",\r\n    \"GetDescTw\": \"加入青城派，第三年五月時戰勝姜天定後加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 1222
+  splits:
+  - splitPath: IdName
+    text: "温白石1"
+    translated: "Wen Baishi 1"
+  - splitPath: Name
+    text: "温白石"
+    translated: "Wen Baishi"
+  - splitPath: Title
+    text: "枕石剑客"
+    translated: "Stone Pillow Swordsmen"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派弟子，"
+    translated: "Qingcheng Sect disciple,"
+  - splitPath: GetDesc
+    text: "加入青城派，第三年五月时战胜姜天定后加入。"
+    translated: "Join the Qingcheng Sect, joining in May of the third year after defeating Jiang Tianding."
+- raw: "{\r\n    \"Key\": \"1223\",\r\n    \"IdName\": \"裴云鹤1\",\r\n    \"Name\": \"裴云鹤\",\r\n    \"Title\": \"倚鹤剑客\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派弟子，\",\r\n    \"GetDesc\": \"加入青城派，第三年五月时战胜姜天定后加入。\",\r\n    \"NameTw\": \"裴雲鶴\",\r\n    \"TitleTw\": \"倚鶴劍客\",\r\n    \"DescTw\": \"青城派弟子，\",\r\n    \"GetDescTw\": \"加入青城派，第三年五月時戰勝姜天定後加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 1223
+  splits:
+  - splitPath: IdName
+    text: "裴云鹤1"
+    translated: "Pei Yunhe 1"
+  - splitPath: Name
+    text: "裴云鹤"
+    translated: "Pei Yunhe"
+  - splitPath: Title
+    text: "倚鹤剑客"
+    translated: "Eagle-Hawk Swordsmen"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派弟子，"
+    translated: "Qingcheng Sect disciple,"
+  - splitPath: GetDesc
+    text: "加入青城派，第三年五月时战胜姜天定后加入。"
+    translated: "Join the Qingcheng Sect, joining in May of the third year after defeating Jiang Tianding."
+- raw: "{\r\n    \"Key\": \"1224\",\r\n    \"IdName\": \"蓝不悔1\",\r\n    \"Name\": \"蓝不悔\",\r\n    \"Title\": \"琼华玉女\",\r\n    \"CardName\": \"江湖女侠\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖侠女，青城长老蓝希圣和麻衣教圣女韩瑛之女。\",\r\n    \"GetDesc\": \"加入青城派，第四年一月开始，探索川西遇到谢剑鸣拦阻蓝不悔，战胜谢剑鸣手下两名江湖人，此后探索青城后山，战胜蓝不悔后加入。\",\r\n    \"NameTw\": \"藍不悔\",\r\n    \"TitleTw\": \"瓊華玉女\",\r\n    \"DescTw\": \"江湖俠女，青城長老藍希聖和麻衣教聖女韓瑛之女。\",\r\n    \"GetDescTw\": \"加入青城派，第四年一月開始，探索川西遇到謝劍鳴攔阻藍不悔，戰勝謝劍鳴手下兩名江湖人，此後探索青城後山，戰勝藍不悔後加入。\",\r\n    \"CardNameTw\": \"江湖女俠\"\r\n  }"
+  rawIndex: 1224
+  splits:
+  - splitPath: IdName
+    text: "蓝不悔1"
+    translated: "Lan Buhui 1"
+  - splitPath: Name
+    text: "蓝不悔"
+    translated: "Lan Buhan"
+  - splitPath: Title
+    text: "琼华玉女"
+    translated: "Jade Maiden of Qionghua"
+  - splitPath: CardName
+    text: "江湖女侠"
+    translated: "Female Hero of Jianghu"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "江湖侠女，青城长老蓝希圣和麻衣教圣女韩瑛之女。"
+    translated: "Martial maiden of Jianghu, daughter of Qingcheng Elder Lan Xisheng and Mahuyi Sect Holy Maiden Han Ying."
+  - splitPath: GetDesc
+    text: "加入青城派，第四年一月开始，探索川西遇到谢剑鸣拦阻蓝不悔，战胜谢剑鸣手下两名江湖人，此后探索青城后山，战胜蓝不悔后加入。"
+    translated: "Joining Qingcheng Sect, in January of the fourth year, while exploring western Sichuan, you encounter Xie Jianming blocking Lan Buhui. You defeat two Jianghu figures under Xie Jianming's command. Thereafter, you explore the rear mountains of Qingcheng and, after defeating Lan Buhui, join the sect."
+- raw: "{\r\n    \"Key\": \"1225\",\r\n    \"IdName\": \"蓝不悔2\",\r\n    \"Name\": \"蓝不悔\",\r\n    \"Title\": \"琼华玉女\",\r\n    \"CardName\": \"红颜知己\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖侠女，青城长老蓝希圣和麻衣教圣女韩瑛之女。\",\r\n    \"GetDesc\": \"加入青城派，蓝不悔加入后，探索青城问道宫了解蓝希圣当年之事，探索青城后山，寇扶摇告知蓝不悔当年之事，此后探索青城问道宫将蓝不悔带回青城，第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣，此后探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。\",\r\n    \"NameTw\": \"藍不悔\",\r\n    \"TitleTw\": \"瓊華玉女\",\r\n    \"DescTw\": \"江湖俠女，青城長老藍希聖和麻衣教聖女韓瑛之女。\",\r\n    \"GetDescTw\": \"加入青城派，藍不悔加入後，探索青城問道宮瞭解藍希聖當年之事，探索青城後山，寇扶搖告知藍不悔當年之事，此後探索青城問道宮將藍不悔帶回青城，第七年一月開始探索川西帶藍不悔遊玩成都，再遇謝劍鳴，此後探索青城問道宮，謝西樓攜子前來，戰勝謝西樓解鎖藍不悔紅顏。\",\r\n    \"CardNameTw\": \"紅顏知己\"\r\n  }"
+  rawIndex: 1225
+  splits:
+  - splitPath: IdName
+    text: "蓝不悔2"
+    translated: "Lan Buhui 2"
+  - splitPath: Name
+    text: "蓝不悔"
+    translated: "Lan Buhan"
+  - splitPath: Title
+    text: "琼华玉女"
+    translated: "Jade Maiden of Qionghua"
+  - splitPath: CardName
+    text: "红颜知己"
+    translated: "Close female friend"
+    qcReviewedText: "Close female friend"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "江湖侠女，青城长老蓝希圣和麻衣教圣女韩瑛之女。"
+    translated: "Martial maiden of Jianghu, daughter of Qingcheng Elder Lan Xisheng and Mahuyi Sect Holy Maiden Han Ying."
+  - splitPath: GetDesc
+    text: "加入青城派，蓝不悔加入后，探索青城问道宫了解蓝希圣当年之事，探索青城后山，寇扶摇告知蓝不悔当年之事，此后探索青城问道宫将蓝不悔带回青城，第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣，此后探索青城问道宫，谢西楼携子前来，战胜谢西楼解锁蓝不悔红颜。"
+    translated: "Join Qingcheng Sect. After Lan Buhui joins, explore Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past. Explore the back mountains of Qingcheng. Kou Fuyao informs Lan Buhui about the past. Thereafter, explore Qingcheng Dao Inquiry Palace and bring Lan Buhui back to Qingcheng. In the seventh year, starting in January, explore Western Sichuan and take Lan Buhui sightseeing in Chengdu. Encounter Xie Jianming again. Thereafter, explore Qingcheng Dao Inquiry Palace. Xie Xilou brings his son along, and defeating Xie Xilou unlocks Lan Buhui's Red Beauty status."
+- raw: "{\r\n    \"Key\": \"7605\",\r\n    \"IdName\": \"单青云\",\r\n    \"Name\": \"单青云\",\r\n    \"Title\": \"青城弟子\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，刚毅果敢，执著不屈，于习武一途颇有天分，常于后山向“剑引三才”刘道生和“铁冠真人”郭道朴请教。\",\r\n    \"GetDesc\": \"加入青城派，第三年一月开始，贡献到达30，探索松林场加入。\",\r\n    \"NameTw\": \"單青雲\",\r\n    \"TitleTw\": \"青城弟子\",\r\n    \"DescTw\": \"武當派弟子，剛毅果敢，執著不屈，於習武一途頗有天分，常於後山向“劍引三才”劉道生和“鐵冠真人”郭道樸請教。\",\r\n    \"GetDescTw\": \"加入青城派，第三年一月開始，貢獻到達30，探索松林場加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 7605
+  splits:
+  - splitPath: IdName
+    text: "单青云"
+    translated: "Dan Qingyun"
+  - splitPath: Name
+    text: "单青云"
+    translated: "Dan Qingyun"
+  - splitPath: Title
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "武当派弟子，刚毅果敢，执著不屈，于习武一途颇有天分，常于后山向“剑引三才”刘道生和“铁冠真人”郭道朴请教。"
+    translated: "Wudang Sect disciples are known for their firm resolve and unwavering dedication. They often display a natural talent in martial arts training and frequently seek advice from  “Sword guides the three talents”  Liu Daosheng and  “True Daoist with Iron-Crowned Crown”  Guo Daopu, who they commonly approach at the rear mountain."
+    qcReviewedText: "Wudang Sect disciples are known for their firm resolve and unwavering dedication. They often display a natural talent in martial arts training and frequently seek advice from  “Sword guides the three talents”  Liu Daosheng and  “True Daoist with Iron-Crowned Crown”  Guo Daopu, who they commonly approach at the rear mountain."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第三年一月开始，贡献到达30，探索松林场加入。"
+    translated: "Join the Qingcheng Sect. Starting in January of your third year, when your Contribution reaches 30, explore the Pine Forest Field to join."
+- raw: "{\r\n    \"Key\": \"7606\",\r\n    \"IdName\": \"单紫云\",\r\n    \"Name\": \"单紫云\",\r\n    \"Title\": \"青城弟子\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，直爽真诚，圆融通透，为武当“玄”字一辈中最小的弟子。\",\r\n    \"GetDesc\": \"加入青城派，第三年一月开始，贡献到达30，探索松林场加入。\",\r\n    \"NameTw\": \"單紫雲\",\r\n    \"TitleTw\": \"青城弟子\",\r\n    \"DescTw\": \"武當派弟子，直爽真誠，圓融通透，為武當“玄”字一輩中最小的弟子。\",\r\n    \"GetDescTw\": \"加入青城派，第三年一月開始，貢獻到達30，探索松林場加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 7606
+  splits:
+  - splitPath: IdName
+    text: "单紫云"
+    translated: "Dan Ziyun"
+  - splitPath: Name
+    text: "单紫云"
+    translated: "Dan Ziyun"
+  - splitPath: Title
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "武当派弟子，直爽真诚，圆融通透，为武当“玄”字一辈中最小的弟子。"
+    translated: "Wudang Sect disciple, straightforward and sincere, harmonious and transparent. They are the youngest disciple among those of the  “Mystic”  generation at Wudang."
+    qcReviewedText: "Wudang Sect disciple, straightforward and sincere, harmonious and transparent. They are the youngest disciple among those of the  “Mystic”  generation at Wudang."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第三年一月开始，贡献到达30，探索松林场加入。"
+    translated: "Join the Qingcheng Sect. Starting in January of your third year, when your Contribution reaches 30, explore the Pine Forest Field to join."
+- raw: "{\r\n    \"Key\": \"7607\",\r\n    \"IdName\": \"卢修易\",\r\n    \"Name\": \"卢修易\",\r\n    \"Title\": \"青城弟子\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，抱朴守拙，耿直稳重，与何玄净相交最厚，所修炼“玄阴剑法”可与何玄净修炼的“玄阳剑法”相生相克。\",\r\n    \"GetDesc\": \"加入青城派，第二年六月主线加入。\",\r\n    \"NameTw\": \"盧修易\",\r\n    \"TitleTw\": \"青城弟子\",\r\n    \"DescTw\": \"武當派弟子，抱朴守拙，耿直穩重，與何玄淨相交最厚，所修煉“玄陰劍法”可與何玄淨修煉的“玄陽劍法”相生相剋。\",\r\n    \"GetDescTw\": \"加入青城派，第二年六月主線加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 7607
+  splits:
+  - splitPath: IdName
+    text: "卢修易"
+    translated: "Lu Xiuyi"
+  - splitPath: Name
+    text: "卢修易"
+    translated: "Lu Xiuyi"
+  - splitPath: Title
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "武当派弟子，抱朴守拙，耿直稳重，与何玄净相交最厚，所修炼“玄阴剑法”可与何玄净修炼的“玄阳剑法”相生相克。"
+    translated: "Wudang Sect disciple, simple and sincere, honest and steady, has the closest relationship with He Xuanjing. The  “Yin Sword Technique”  he practices complements and counters the  “Yang Sword Technique”  mastered by He Xuanjing."
+    qcReviewedText: "Wudang Sect disciple, simple and sincere, honest and steady, has the closest relationship with He Xuanjing. The  “Yin Sword Technique”  he practices complements and counters the  “Yang Sword Technique”  mastered by He Xuanjing."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第二年六月主线加入。"
+    translated: "Join the Qingcheng Sect; the main storyline joins in June of the second year."
+- raw: "{\r\n    \"Key\": \"7608\",\r\n    \"IdName\": \"房志坚\",\r\n    \"Name\": \"房志坚\",\r\n    \"Title\": \"青城弟子\",\r\n    \"CardName\": \"青城弟子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"武当派弟子，抱朴守拙，耿直稳重，与邵玄清相交最厚，所修炼“玄阳剑法”可与邵玄清修炼的“玄阴剑法”相生相克。\",\r\n    \"GetDesc\": \"加入青城派，第二年六月主线加入。\",\r\n    \"NameTw\": \"房志堅\",\r\n    \"TitleTw\": \"青城弟子\",\r\n    \"DescTw\": \"武當派弟子，抱朴守拙，耿直穩重，與邵玄清相交最厚，所修煉“玄陽劍法”可與邵玄清修煉的“玄陰劍法”相生相剋。\",\r\n    \"GetDescTw\": \"加入青城派，第二年六月主線加入。\",\r\n    \"CardNameTw\": \"青城弟子\"\r\n  }"
+  rawIndex: 7608
+  splits:
+  - splitPath: IdName
+    text: "房志坚"
+    translated: "Fang Zhijian"
+  - splitPath: Name
+    text: "房志坚"
+    translated: "Fang Zhijian"
+  - splitPath: Title
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+  - splitPath: CardName
+    text: "青城弟子"
+    translated: "Qingcheng Disciple"
+    qcReviewedText: "Qingcheng Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "武当派弟子，抱朴守拙，耿直稳重，与邵玄清相交最厚，所修炼“玄阳剑法”可与邵玄清修炼的“玄阴剑法”相生相克。"
+    translated: "Wudang Sect disciple, modest and pragmatic, straightforward and steady, has the closest relationship with Shao Xuanqing. The Yang Sword Technique he cultivates complements and counteracts Shao Xuanqing's Yin Sword Technique."
+    qcReviewedText: "Wudang Sect disciple, modest and pragmatic, straightforward and steady, has the closest relationship with Shao Xuanqing. The Yang Sword Technique he cultivates complements and counteracts Shao Xuanqing's Yin Sword Technique."
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: GetDesc
+    text: "加入青城派，第二年六月主线加入。"
+    translated: "Join the Qingcheng Sect; the main storyline joins in June of the second year."
+- raw: "{\r\n    \"Key\": \"6124\",\r\n    \"IdName\": \"姜天定\",\r\n    \"Name\": \"姜天定\",\r\n    \"Title\": \"百花枪\",\r\n    \"CardName\": \"百花枪\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"青城派弟子，\",\r\n    \"GetDesc\": \"加入青城派，第三年五月时与姜天定比武后加入。\",\r\n    \"NameTw\": \"姜天定\",\r\n    \"TitleTw\": \"百花槍\",\r\n    \"DescTw\": \"青城派弟子，\",\r\n    \"GetDescTw\": \"加入青城派，第三年五月時與姜天定比武后加入。\",\r\n    \"CardNameTw\": \"百花槍\"\r\n  }"
+  rawIndex: 6124
+  splits:
+  - splitPath: IdName
+    text: "姜天定"
+    translated: "Jiang Tianding"
+  - splitPath: Name
+    text: "姜天定"
+    translated: "Jiang Tianding"
+  - splitPath: Title
+    text: "百花枪"
+    translated: "Hundred Flowers Spear"
+  - splitPath: CardName
+    text: "百花枪"
+    translated: "Hundred Flowers Spear"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "青城派弟子，"
+    translated: "Qingcheng Sect disciple,"
+  - splitPath: GetDesc
+    text: "加入青城派，第三年五月时与姜天定比武后加入。"
+    translated: "Join the Qingcheng Sect; joined after competing with Jiang Tianding in May of the third year."
+- raw: "{\r\n    \"Key\": \"1227\",\r\n    \"IdName\": \"陆松\",\r\n    \"Name\": \"陆松\",\r\n    \"Title\": \"九离刀\",\r\n    \"CardName\": \"兴王府典仗\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"兴王府仪卫司典仗\",\r\n    \"GetDesc\": \"加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后三次探索道藏阁，第五年十月陆松接世子回复后加入。\",\r\n    \"NameTw\": \"陸鬆\",\r\n    \"TitleTw\": \"九離刀\",\r\n    \"DescTw\": \"興王府儀衛司典仗\",\r\n    \"GetDescTw\": \"加入青城派，第五年三月開始探索川西擊敗匪寇救下小童，此後三次探索道藏閣，第五年十月陸鬆接世子回覆後加入。\",\r\n    \"CardNameTw\": \"興王府典仗\"\r\n  }"
+  rawIndex: 1227
+  splits:
+  - splitPath: IdName
+    text: "陆松"
+    translated: "Lu Song"
+  - splitPath: Name
+    text: "陆松"
+    translated: "Lu Song"
+  - splitPath: Title
+    text: "九离刀"
+    translated: "Nine Departed Sabers"
+  - splitPath: CardName
+    text: "兴王府典仗"
+    translated: "Xingwang Mansion Guard Ceremony"
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "兴王府仪卫司典仗"
+    translated: "Imperial Guard Commander of the Prince's Mansion Yiyi Si Dianzhang"
+  - splitPath: GetDesc
+    text: "加入青城派，第五年三月开始探索川西击败匪寇救下小童，此后三次探索道藏阁，第五年十月陆松接世子回复后加入。"
+    translated: "Joining the Qingcheng Sect, in March of the fifth year, you began exploring western Sichuan to defeat bandits and rescue a young boy. Thereafter, you explored the Daoist Canon Pavilion three times. In October of the same year, after Lu Song returned from accompanying the crown prince, you joined the sect."
+- raw: "{\r\n    \"Key\": \"1245\",\r\n    \"IdName\": \"魏通明\",\r\n    \"Name\": \"魏通明\",\r\n    \"Title\": \"火云真人\",\r\n    \"CardName\": \"江湖游侠\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"江湖游侠\",\r\n    \"GetDesc\": \"加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。\",\r\n    \"NameTw\": \"魏通明\",\r\n    \"TitleTw\": \"火雲真人\",\r\n    \"DescTw\": \"江湖遊俠\",\r\n    \"GetDescTw\": \"加入武當派，第四年二月道學、丹術到達精通參與廣成丹會，第八年二月時道學、丹術到達大師，第二次參與廣成丹會，道學、丹術到達宗師，悟性到達200，探索廣成丹穴，煉出廣成金丹後加入。\",\r\n    \"CardNameTw\": \"江湖遊俠\"\r\n  }"
   rawIndex: 1245
   splits:
   - splitPath: IdName
@@ -4445,11 +4868,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: CardName
-    text: "崂山长老"
-    translated: "Elder Laoshan"
-    qcReviewedText: "Elder Laoshan"
-    qcStatus: Passed
-    qcQualityScore: 100
+    text: "江湖游侠"
+    translated: "Wandering Hero of the Jianghu"
   - splitPath: BaseDesc
     text: "常规"
     translated: "Routine"
@@ -4457,11 +4877,8 @@
     qcStatus: Passed
     qcQualityScore: 100
   - splitPath: Desc
-    text: "崂山派长老，慷慨坦荡，随性旷达，位列崂山派三大长老之首，不仅丹术精湛，更有一手出神入化的控火绝技，昔年齐鲁陶山虬林寨匪徒横行，杀人掠货，无法无天，魏通明孤身独上陶山，火焚尽林寨，寨中四十七名恶匪尽数丧命火海。"
-    translated: "Laoshan Sect Elder Wei Tongming, generous and candid, lived freely and openly. He is the head of the three elders in Laoshan Sect. Not only does he excel in alchemy, but he also possesses a supreme fire control technique that is almost magical. In ancient times, bandits from Qiaoshan Village on Taoshan Mountain wreaked havoc in the region, committing murders and robberies without any fear of the law. Wei Tongming single-handedly ascended to Taoshan and burned down their hideout with fire, resulting in the deaths of all forty-seven evil bandits in the flames."
-    qcReviewedText: "Laoshan Sect Elder Wei Tongming, generous and candid, lived freely and openly. He is the head of the three elders in Laoshan Sect. Not only does he excel in alchemy, but he also possesses a supreme fire control technique that is almost magical. In ancient times, bandits from Qiaoshan Village on Taoshan Mountain wreaked havoc in the region, committing murders and robberies without any fear of the law. Wei Tongming single-handedly ascended to Taoshan and burned down their hideout with fire, resulting in the deaths of all forty-seven evil bandits in the flames."
-    qcStatus: Passed
-    qcQualityScore: 100
+    text: "江湖游侠"
+    translated: "Wandering Hero of the Jianghu"
   - splitPath: GetDesc
     text: "加入武当派，第四年二月道学、丹术到达精通参与广成丹会，第八年二月时道学、丹术到达大师，第二次参与广成丹会，道学、丹术到达宗师，悟性到达200，探索广成丹穴，炼出广成金丹后加入。"
     translated: "Join the Wudang Sect in Year 4, Month February, advance your Daoist Studies and Alchemy to proficiency and participate in the Guangcheng Dan Conference. In Year 8, Month February, raise your Daoist Studies and Alchemy to the master level and participate in the Guangcheng Dan Conference again. Your Daoist Studies and Alchemy reach the grandmaster level, and your Insight reaches 200. Explore the Guangcheng Dan Cave, refine the Guangcheng Golden Pill, and then join."
@@ -4560,7 +4977,7 @@
     qcTranslated: "After joining the Hengshan Sect, unlock Gentlemen Manor during the winter training period. From January of Year 4 to December of Year 6, explore Gentlemen Manor to meet Zhangsun Yu, then re-explore Xiangnan and join after defeating Le Beifeng."
     qcStatus: Corrected
     qcQualityScore: 82
-- raw: "{\r\n    \"Key\": \"1121\",\r\n    \"IdName\": \"闻苍术\",\r\n    \"Name\": \"闻苍术\",\r\n    \"Title\": \"白头翁\",\r\n    \"CardName\": \"药王长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"药王谷长老，虚怀若谷，谦和宽厚，自幼因先天体弱而早生白发，为求性命，年少时即被送入药王谷学艺，艺成后游历天下行医济世，所救之人不计其数，更精通药酒酿制，独创的“千岁屠苏酒”不但酒香醇厚，更是疗伤妙品，堪称药王谷一绝。\",\r\n    \"GetDesc\": \"1.加入衡山派，医术分别到达入门/精通/高手级后，从第四年一月起，三次去湘南帮助闻苍术义诊后加入\\\\n2.加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入\",\r\n    \"NameTw\": \"聞蒼朮\",\r\n    \"TitleTw\": \"白頭翁\",\r\n    \"DescTw\": \"藥王谷長老，虛懷若谷，謙和寬厚，自幼因先天體弱而早生白髮，為求性命，年少時即被送入藥王谷學藝，藝成後遊歷天下行醫濟世，所救之人不計其數，更精通藥酒釀製，獨創的“千歲屠蘇酒”不但酒香醇厚，更是療傷妙品，堪稱藥王谷一絕。\",\r\n    \"GetDescTw\": \"1.加入衡山派，醫術分別到達入門/精通/高手級後，從第四年一月起，三次去湘南幫助聞蒼朮義診後加入\\\\n2.加入洞庭幫，第七年一月開始，鍾離雪友好到達60，探索荊南加入\",\r\n    \"CardNameTw\": \"藥王長老\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"1121\",\r\n    \"IdName\": \"闻苍术\",\r\n    \"Name\": \"闻苍术\",\r\n    \"Title\": \"白头翁\",\r\n    \"CardName\": \"药王长老\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"药王谷长老，虚怀若谷，谦和宽厚，自幼因先天体弱而早生白发，为求性命，年少时即被送入药王谷学艺，艺成后游历天下行医济世，所救之人不计其数，更精通药酒酿制，独创的“千岁屠苏酒”不但酒香醇厚，更是疗伤妙品，堪称药王谷一绝。\",\r\n    \"GetDesc\": \"1、加入衡山派，医术分别到达入门/精通/高手级后，从第四年一月起，三次去湘南帮助闻苍术义诊后加入\\\\n2、加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入\",\r\n    \"NameTw\": \"聞蒼朮\",\r\n    \"TitleTw\": \"白頭翁\",\r\n    \"DescTw\": \"藥王谷長老，虛懷若谷，謙和寬厚，自幼因先天體弱而早生白髮，為求性命，年少時即被送入藥王谷學藝，藝成後遊歷天下行醫濟世，所救之人不計其數，更精通藥酒釀製，獨創的“千歲屠蘇酒”不但酒香醇厚，更是療傷妙品，堪稱藥王谷一絕。\",\r\n    \"GetDescTw\": \"1、加入衡山派，醫術分別到達入門/精通/高手級後，從第四年一月起，三次去湘南幫助聞蒼朮義診後加入\\\\n2、加入洞庭幫，第七年一月開始，鍾離雪友好到達60，探索荊南加入\",\r\n    \"CardNameTw\": \"藥王長老\"\r\n  }"
   rawIndex: 1121
   splits:
   - splitPath: IdName
@@ -4601,12 +5018,8 @@
     qcStatus: Corrected
     qcQualityScore: 82
   - splitPath: GetDesc
-    text: "1.加入衡山派，医术分别到达入门"
-    translated: "1. joined the Hengshan Sect, and their Medicine skills reached the beginner level."
-    qcReviewedText: "1. joined the Hengshan Sect, and their Medicine skills reached the beginner level./Proficiency/After reaching Expert level, join starting from January of the fourth year, after three visits to Xiangnan to help Wen Cangzhu with charity clinics.\\n2. joined the Dongting Sect. Starting in January of the seventh Year, Zhongli Xue arrived at 60 in a friendly manner, and exploration of Jingnan led to joining."
-    qcTranslated: "1. joined the Hengshan Sect. After their Medicine skill reached Beginner/Proficient/Expert level, join by helping Wen Cangzhu with three charity clinics in Xiangnan starting from January of Year 4.\\n2. joined the Dongting Sect. Starting in January of Year 7, once Zhongli Xue's friendship reaches 60, explore Jingnan to join."
-    qcStatus: Corrected
-    qcQualityScore: 82
+    text: "1、加入衡山派，医术分别到达入门"
+    translated: "1 joins Hengshan Sect, and their Medicine skills reach the entry level respectively"
   - splitPath: GetDesc
     subIndex: 1
     text: "精通"
@@ -4617,8 +5030,8 @@
     translated: "After reaching Expert level, join starting from January of the fourth year, after three visits to Xiangnan to help Wen Cangzhu with charity clinics."
   - splitPath: GetDesc
     subIndex: 3
-    text: "2.加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入"
-    translated: "2. joined the Dongting Sect. Starting in January of the seventh Year, Zhongli Xue arrived at 60 in a friendly manner, and exploration of Jingnan led to joining."
+    text: "2、加入洞庭帮，第七年一月开始，钟离雪友好到达60，探索荆南加入"
+    translated: "2, Zhongli Xue joined Dongting Sect. In the first month of the seventh year, Zhongli Xue arrived at 60 amicably, exploring and joining Jingnan."
   templates:
   - splitPath: GetDesc
     template: "{0}/{1}/{2}\\n{3}"
@@ -4990,7 +5403,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "{\r\n    \"Key\": \"3019\",\r\n    \"IdName\": \"靳红衣\",\r\n    \"Name\": \"靳红衣\",\r\n    \"Title\": \"红娘子\",\r\n    \"CardName\": \"红娘子\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"朱雀坊坊主，执掌天下四大赌坊之一的南坊朱雀坊，精明练达，八面玲珑，其家中三代经营赌业，五岁便会摇骰盅，七岁便精通打马吊，十五岁时赌术已超越自家赌坊众人，二十四岁以赌术纵横荆湘、江右、岭南等地，人称“南赌神”。\",\r\n    \"GetDesc\": \"从第四年一月起，与靳红衣友好到达60，赌术到达高手，探索朱雀坊与靳红衣博彩胜利后加入\",\r\n    \"NameTw\": \"靳紅衣\",\r\n    \"TitleTw\": \"紅娘子\",\r\n    \"DescTw\": \"朱雀坊坊主，執掌天下四大賭坊之一的南坊朱雀坊，精明練達，八面玲瓏，其家中三代經營賭業，五歲便會搖骰盅，七歲便精通打馬吊，十五歲時賭術已超越自家賭坊眾人，二十四歲以賭術縱橫荊湘、江右、嶺南等地，人稱“南賭神”。\",\r\n    \"GetDescTw\": \"從第四年一月起，與靳紅衣友好到達60，賭術到達高手，探索朱雀坊與靳紅衣博彩勝利後加入\",\r\n    \"CardNameTw\": \"紅娘子\"\r\n  }"
+- raw: "{\r\n    \"Key\": \"3019\",\r\n    \"IdName\": \"靳红衣\",\r\n    \"Name\": \"靳红衣\",\r\n    \"Title\": \"红娘子\",\r\n    \"CardName\": \"朱雀坊主\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"朱雀坊坊主，执掌天下四大赌坊之一的南坊朱雀坊，精明练达，八面玲珑，其家中三代经营赌业，五岁便会摇骰盅，七岁便精通打马吊，十五岁时赌术已超越自家赌坊众人，二十四岁以赌术纵横荆湘、江右、岭南等地，人称“南赌神”。\",\r\n    \"GetDesc\": \"从第四年一月起，与靳红衣友好到达60，赌术到达高手，探索朱雀坊与靳红衣博彩胜利后加入\",\r\n    \"NameTw\": \"靳紅衣\",\r\n    \"TitleTw\": \"紅娘子\",\r\n    \"DescTw\": \"朱雀坊坊主，執掌天下四大賭坊之一的南坊朱雀坊，精明練達，八面玲瓏，其家中三代經營賭業，五歲便會搖骰盅，七歲便精通打馬吊，十五歲時賭術已超越自家賭坊眾人，二十四歲以賭術縱橫荊湘、江右、嶺南等地，人稱“南賭神”。\",\r\n    \"GetDescTw\": \"從第四年一月起，與靳紅衣友好到達60，賭術到達高手，探索朱雀坊與靳紅衣博彩勝利後加入\",\r\n    \"CardNameTw\": \"朱雀坊主\"\r\n  }"
   rawIndex: 3019
   splits:
   - splitPath: IdName
@@ -5013,12 +5426,8 @@
     qcStatus: Corrected
     qcQualityScore: 90
   - splitPath: CardName
-    text: "红娘子"
-    translated: "Wife Red Lady"
-    qcReviewedText: "Wife Red Lady"
-    qcTranslated: "Red Lady"
-    qcStatus: Corrected
-    qcQualityScore: 90
+    text: "朱雀坊主"
+    translated: "Zhuque Pavilion Master"
   - splitPath: BaseDesc
     text: "常规"
     translated: "Routine"
@@ -12282,6 +12691,33 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "{\r\n    \"Key\": \"10061\",\r\n    \"IdName\": \"长青玉佩\",\r\n    \"Name\": \"长青玉佩\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物，青城派长老蓝希圣贴身玉佩，由川地龙溪玉雕琢而成的玉佩，由麻衣教圣女韩瑛为爱人亲手雕琢而成，正面篆刻“寸心属汝”，背面篆刻“此生不悔”。\",\r\n    \"GetDesc\": \"加入青城派，蓝不悔加入后，探索青城问道宫了解蓝希圣当年之事，探索青城后山，寇扶摇告知蓝不悔当年之事，此后探索青城问道宫将蓝不悔带回青城，第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣，此后探索青城问道宫，谢西楼携子前来，战胜谢西楼后获取。\",\r\n    \"NameTw\": \"長青玉佩\",\r\n    \"DescTw\": \"珍物，青城派長老藍希聖貼身玉佩，由川地龍溪玉雕琢而成的玉佩，由麻衣教聖女韓瑛為愛人親手雕琢而成，正面篆刻“寸心屬汝”，背面篆刻“此生不悔”。\",\r\n    \"GetDescTw\": \"加入青城派，藍不悔加入後，探索青城問道宮瞭解藍希聖當年之事，探索青城後山，寇扶搖告知藍不悔當年之事，此後探索青城問道宮將藍不悔帶回青城，第七年一月開始探索川西帶藍不悔遊玩成都，再遇謝劍鳴，此後探索青城問道宮，謝西樓攜子前來，戰勝謝西樓後獲取。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
+  rawIndex: 10061
+  splits:
+  - splitPath: IdName
+    text: "长青玉佩"
+    translated: "Eternal Jade Pendant"
+  - splitPath: Name
+    text: "长青玉佩"
+    translated: "Eternal Jade Pendant"
+  - splitPath: CardName
+    text: "宝物"
+    translated: "Treasure"
+    qcReviewedText: "Treasure"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: BaseDesc
+    text: "常规"
+    translated: "Routine"
+    qcReviewedText: "Routine"
+    qcStatus: Passed
+    qcQualityScore: 100
+  - splitPath: Desc
+    text: "珍物，青城派长老蓝希圣贴身玉佩，由川地龙溪玉雕琢而成的玉佩，由麻衣教圣女韩瑛为爱人亲手雕琢而成，正面篆刻“寸心属汝”，背面篆刻“此生不悔”。"
+    translated: "A cherished treasure, a jade pendant personally crafted by the Holy Maiden of the Ma Yi Sect, Han Ying, for her beloved. The pendant is made from jade carved in Longxi, Sichuan, and is worn close to the body by Elder Lan Xisheng of the Qingcheng Sect. On the front, it is inscribed with My heart belongs to you, and on the back, No regrets in this life."
+  - splitPath: GetDesc
+    text: "加入青城派，蓝不悔加入后，探索青城问道宫了解蓝希圣当年之事，探索青城后山，寇扶摇告知蓝不悔当年之事，此后探索青城问道宫将蓝不悔带回青城，第七年一月开始探索川西带蓝不悔游玩成都，再遇谢剑鸣，此后探索青城问道宫，谢西楼携子前来，战胜谢西楼后获取。"
+    translated: "Join the Qingcheng Sect. After Lan Buhui joins, explore the Qingcheng Dao Inquiry Palace to learn about Lan Xisheng's past. Explore the back mountains of Qingcheng, where Kou Fuyao informs Lan Buhui about the past. Thereafter, explore the Qingcheng Dao Inquiry Palace and bring Lan Buhui back to Qingcheng. In the seventh year, starting in January, explore western Sichuan and take Lan Buhui sightseeing in Chengdu. Encounter Xie Jianming again. Thereafter, explore the Qingcheng Dao Inquiry Palace. Xie Xilou arrives with his son. Defeat Xie Xilou to obtain."
 - raw: "{\r\n    \"Key\": \"10501\",\r\n    \"IdName\": \"粽子\",\r\n    \"Name\": \"粽子\",\r\n    \"CardName\": \"宝物\",\r\n    \"BaseDesc\": \"常规\",\r\n    \"Desc\": \"珍物\",\r\n    \"GetDesc\": \"解锁红颜姜芽后，五月时，探索湘北获得。\",\r\n    \"NameTw\": \"粽子\",\r\n    \"DescTw\": \"珍物\",\r\n    \"GetDescTw\": \"解鎖紅顏姜芽後，五月時，探索湘北獲得。\",\r\n    \"CardNameTw\": \"寶物\"\r\n  }"
   rawIndex: 10501
   splits:

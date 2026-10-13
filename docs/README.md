@@ -60,6 +60,7 @@ mechanics.
 
 | Task | Start here |
 | --- | --- |
+| Read or search the game's code (how a string is shown, what a column is used for) | `Files/Raw/Decompiled/` (gitignored; made by test `0. Decompile Game Assemblies` in `Tests/DecompileTests.cs`). Grep it rather than re-decompiling |
 | Work on extraction, translation, or packaging | [Translate and Tests instructions](../.github/instructions/tests-translation-workflow.instructions.md), then [workflow reference](features/translation-pipeline/workflow-execution-reference.md) |
 | Investigate a known issue | [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md), then the linked investigation |
 | Understand repository structure | [downstream project structure](architecture/downstream-project-structure.md) |

@@ -20,6 +20,9 @@ edited before making changes.
   `docs/plans/`, and durable structure in `docs/architecture/`.
 - Shared-library mechanics belong in the sibling `FanslationStudio.LlmKit/docs/` tree; link to them
   instead of duplicating implementation details here.
+- The game's decompiled C# is in `Files/Raw/Decompiled/<assembly>/` (gitignored). Grep it to see how a string is displayed, whether a
+  table column is a lookup key, or where a hook belongs, instead of decompiling again. If the folder is missing or the game updated,
+  run the test `0. Decompile Game Assemblies` (needs `ilspycmd`).
 - Do not update documentation as a side effect of an ordinary fix unless the user explicitly asks.
 
 ## Engineering rules
